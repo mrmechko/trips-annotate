@@ -4,7 +4,7 @@
 # for each sentence, add a file $2/i with parse, alt1, alt2
 mkdir $2
 index=1
-base=http://raw.githubusercontent.com/mrmechko/trips-annotate/master/$2/
+base=http://raw.githubusercontent.com/mrmechko/trips-annotate/master/data/$2/
 echo id,reference,img_1,img_2 > ${2}/data.csv
 while read sentence; do
     mkdir $2/$index
