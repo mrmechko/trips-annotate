@@ -1,4 +1,5 @@
 #+TITLE: tasks
+#+PROPERTY: header-args :tangle yes :output drawer :session indium
 
 * Overview
 ** Tasks
@@ -16,6 +17,95 @@ DEADLINE: <2020-02-25 Tue>
 **** [ ] When user requests a task, select a task that requires doing
 weight by how many tasks are partially complete and how many are incomplete
 ** Data Model
-#+BEGIN_SRC javascript
-var something = '';
+*** Task model
+#+BEGIN_SRC js
+var task = {
+    task_id: "id",
+    taskset: "name", //name of the task set released (subfolder on git)
+    data: {
+        type: "a_b_parse", //type of annotation task - defines template to render
+        sentence: "sentence", //sentence in question
+        reference: "url", //url of gold annotation
+        first: "url", //url of first alternative
+        second: "url", //url of second alternative
+    },
+    requirements: { //requirements are used as an ^ situation.  Put in as many or as few as desired
+        coverage: 1, //number of annotators desired
+        annotators: [], //annotator ids
+        agreement: 0 // percentage of agreement required
+    },
+    annotations: ["ids"] // list of annotations performed
+    is_active: true // whether the task is active
+};
 #+END_SRC
+**** TODO get tripscli to output task json lists
+DEADLINE: <2020-02-26 Wed>
+**** TODO translate gold annotations into task json lists
+DEADLINE: <2020-02-26 Wed>
+**** TODO upload tasks.  Reject multiple tasks with the same sentence (for now)
+DEADLINE: <2020-02-26 Wed>
+**** TODO retrieve a random task incomplete task  for testing purposes
+DEADLINE: <2020-02-26 Wed>
+*** Annotation model
+#+BEGIN_SRC js
+var annotation = {
+    annotation_id: "id" // an id number for this annotation
+    annotator: "id", // name of annotator
+    time: "<2020-02-26 Wed 04:22 EST>",
+    task: {
+        taskset: "name", // taskset name
+        task_id: "id" // task_id
+    },
+    annotation: { // any data that is considered an annotation
+        closer: "first" // "second" | "same" | "neither"
+    }
+};
+#+END_SRC
+**** TODO Add annotation to database
+DEADLINE: <2020-02-26 Wed>
+***** TODO Add ~annotation_id~ to user and ~task~
+**** TODO Ensure that task/annotator pair doesn't exist
+DEADLINE: <2020-02-26 Wed>
+**** TODO Return success or failure
+*** User Model
+#+BEGIN_SRC js
+var user = {
+    name: "Jon Snow",
+    id: "id_number",
+    email: "email@email.com",
+    type: "student", // how the annoatator should be treated
+    annotations: ["annotation_id"], // list of annotations
+    limits: {
+        min: 3, // minimum number of annotations required from user
+        max: 10000, // maximum number of annotations allowed from user
+        types: [] // if this list is populated and not empty, only allow task types listed within to be annotated by the user
+    }
+}
+#+END_SRC
+**** TODO Ensure that all this information is autopopulated
+DEADLINE: <2020-02-26 Wed>
+** Queries
+*** Task allocation
+When a user selects a task:
+1. Select new task or partially fulfilled
+2. Collect all tasks of that type
+3. if an incomplete task for the user is available, return it
+4. adjust probability of new/partial task as necessary to get things done
+**** TODO Write query
+DEADLINE: <2020-02-26 Wed>
+*** Task Completion:
+Form should write an annotation object, reject if annotation exists
+*** [Extension] Dashboard
+See previously completed annotations.  If desired an annotation could be deleted
+from here
+*** User has completed task
+*** User has completed enough tasks
+*** Estimate: Enough tasks exist
+** Dashboard
+*** Tasks
+**** How many tasks exist
+**** Display annotation
+**** Annotator agreement
+*** User
+**** Tasks annotated
+**** Annotator agreement (against all other annotators)
