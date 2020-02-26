@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Welcome to Firebase Hosting</title>
 
-    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
-    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css"></link>
 
     <!-- update the version number as needed -->
     <script defer src="/__/firebase/7.9.1/firebase-app.js"></script>
@@ -17,16 +18,20 @@
     <script defer src="/__/firebase/7.9.1/firebase-storage.js"></script>
     <!-- initialize the SDK after all desired features are loaded -->
     <script defer src="/__/firebase/init.js"></script>
+    <script defer src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+
+    <!-- Get a task, taking into account all restrictions, and render it -->
+    <script defer src="./js/load_task.js"></script>
+
+    <!-- Submit a task response -->
+    <script defer src="./js/submit_task.js"></script>
+
 
     <style media="screen">
       body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
       #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
+      #task { width: 100%; }
+      #gold, #first, #second { width: 100%; }
       @media (max-width: 600px) {
         body, #message { margin-top: 0; background: white; box-shadow: none; }
         body { border-top: 16px solid #ffa100; }
@@ -34,37 +39,65 @@
     </style>
   </head>
   <body>
-    <div id="message">
-        <h2>Welcome, <span id="username"></span></h2>
-        <div id="gold"></div>
-        <div id="first"></div>
-        <div id="second"></div>
-    </div>
+      <section class="section">
+          <div class="container">
+              <div id="message">
+                  <h2>Welcome, <span id="username"></span></h2>
+              </div>
+              <div id="description">
+                  Below are two pairs of graphs.  select the pair that is most similar.  The left hand graph is the same for both rows.
+              </div>
+              <div class="task box">
+                  <div class="columns">
+                      <div class="column"><img class="goldgraph" id="gold"></img></div>
+                      <div class="column"><img id="first"></img></div>
+                  </div>
+              </div>
+              <div class="task box">
+                  <div class="columns">
+                      <div class="column"><img class="goldgraph" id="gold"></img></div>
+                      <div class="column"><img id="second"></img></div>
+                  </div>
+              </div>
+          </div>
+      </section>
     <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+     document.addEventListener('DOMContentLoaded', function() {
+         // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+         // // The Firebase SDK is initialized and available here!
+         //
+         // firebase.auth().onAuthStateChanged(user => { });
+         // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+         // firebase.messaging().requestPermission().then(() => { });
+         // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+         //
+         // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
-        try {
-          let app = firebase.app();
-            firebase.auth().onAuthStateChanged(user => {
-                if(user) {
-                    document.getElementById('username').innerHTML=`${user.displayName}`;
-                } else {
-                    window.location = 'index.html';
-                }
-            });
-        } catch (e) {
-          console.error(e);
-        }
-      });
+         try {
+             test_submit_fn();
+             var storage = firebase.storage();
+             var data_source = "https://raw.githubusercontent.com/mrmechko/trips-annotate/master/data/json/data.json";
+             var xhr = new XMLHttpRequest();
+             xhr.responseType = 'json';
+             xhr.onload = function(event) {
+                 var blob = xhr.response;
+                 render_task(blob[0], document);
+             };
+             // Make this a query to get an incomplete task instead
+             xhr.open('GET', data_source);
+             xhr.send();
+
+             firebase.auth().onAuthStateChanged(user => {
+                 if(user) {
+                     document.getElementById('username').innerHTML=`${user.displayName}`;
+                 } else {
+                     window.location = 'index.html';
+                 }
+             });
+         } catch (e) {
+             console.error(e);
+         }
+     });
     </script>
   </body>
 </html>
