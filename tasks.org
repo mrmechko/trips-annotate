@@ -1,4 +1,4 @@
-#+TITLE: tasks
+#+TITLE: Annotation Tool
 #+PROPERTY: header-args :tangle yes :output drawer :session indium
 
 * Overview
@@ -16,6 +16,11 @@ DEADLINE: <2020-02-25 Tue>
 **** [ ] Set min/max number of annotaters per task
 **** [ ] When user requests a task, select a task that requires doing
 weight by how many tasks are partially complete and how many are incomplete
+*** Security
+**** TODO Fix authentication to prevent people from deleting things randomly
+- Users shouldn't be able to write anything directly
+- Ideally, there is a ~getTaskForUID~ and ~submitAnnotation~ function
+- https://firebase.google.com/docs/database/security/user-security
 ** Data Model
 *** Task model
 #+BEGIN_SRC js
@@ -38,11 +43,20 @@ var task = {
     is_active: true // whether the task is active
 };
 #+END_SRC
-**** TODO get tripscli to output task json lists
+#+BEGIN_SRC js
+var taskset = {
+    groups: [
+        { type: "students", set: 0 }
+    ],
+    items: 4,
+    type: "a_b_parse"
+}
+#+END_SRC
+**** DONE get tripscli to output task json lists
 DEADLINE: <2020-02-26 Wed>
-**** TODO translate gold annotations into task json lists
+**** TODO translate gold annotations from will's tool into task json lists
 DEADLINE: <2020-02-26 Wed>
-**** TODO upload tasks.  Reject multiple tasks with the same sentence (for now)
+**** DONE upload tasks.  Reject multiple tasks with the same sentence (for now)
 DEADLINE: <2020-02-26 Wed>
 **** TODO retrieve a random task incomplete task  for testing purposes
 DEADLINE: <2020-02-26 Wed>
@@ -50,12 +64,9 @@ DEADLINE: <2020-02-26 Wed>
 #+BEGIN_SRC js
 var annotation = {
     annotation_id: "id" // an id number for this annotation
-    annotator: "id", // name of annotator
     time: "<2020-02-26 Wed 04:22 EST>",
-    task: {
-        taskset: "name", // taskset name
-        task_id: "id" // task_id
-    },
+    user_id: "id",
+    task_id: "id",
     annotation: { // any data that is considered an annotation
         closer: "first" // "second" | "same" | "neither"
     }
@@ -70,19 +81,20 @@ DEADLINE: <2020-02-26 Wed>
 *** User Model
 #+BEGIN_SRC js
 var user = {
-    name: "Jon Snow",
     id: "id_number",
-    email: "email@email.com",
-    type: "student", // how the annoatator should be treated
+    groups: { type: "student", set: 0 }, // how the annoatator should be treated
     annotations: ["annotation_id"], // list of annotations
+    queue: ["task_id"],
     limits: {
         min: 3, // minimum number of annotations required from user
         max: 10000, // maximum number of annotations allowed from user
         types: [] // if this list is populated and not empty, only allow task types listed within to be annotated by the user
     }
 }
+
+var group = { 0: ["test"] }; // a list of tasksets for each set
 #+END_SRC
-**** TODO Ensure that all this information is autopopulated
+**** DONE Ensure that all this information is autopopulated
 DEADLINE: <2020-02-26 Wed>
 ** Queries
 *** Task allocation

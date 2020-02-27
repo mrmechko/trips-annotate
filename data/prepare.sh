@@ -18,4 +18,4 @@ done < $1
 
 mlr --c2j --jlistwrap cat $2/data.csv | jq > $2/data.json
 mkdir -p datasets
-./create_task.py --task-set $2 > datasets/$2.json
+../cli.py transform --task-set $2 > datasets/$2.json

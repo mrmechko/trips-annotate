@@ -18,8 +18,7 @@ def transform(taskset, type_="a_b_parse", coverage=3, agreement=0, active=True):
     fname = "%s/data.json" % taskset
     with open(fname) as inp:
         dataset = json.load(inp)
-    res = [{
-        "taskset": taskset,
+    tasks = [{
         "annotations": [],
         "data": dict(data, type=type_, sentence=get_sentence(taskset, data["id"])),
         "requirements": {
@@ -29,6 +28,7 @@ def transform(taskset, type_="a_b_parse", coverage=3, agreement=0, active=True):
         },
         "is_active": active
     } for data in dataset]
+    res = dict(name=taskset, tasks=tasks, definition=dict(type=type_, items=len(tasks), groups=dict()))
     click.echo(json.dumps(res, indent=2))
 
 if __name__ == "__main__":
