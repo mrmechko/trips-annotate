@@ -1,0 +1,31 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V398848 [label=<<font color="green"><br /></font> <font color="black">SA_IDENTIFY</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_IDENTIFY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V398565 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">THIS</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V398848 -> V398565 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+	subgraph utt_1 {
+		compound=true rankdir=TB
+		V398577 [label=<<font color="green"><br /></font> <font color="black">PROPOSITION-EQUAL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BE</font> <font color="green"><br /></font> <font color="green">be%2:42:06::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PROPOSITION-EQUAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V398657 [label=<<font color="green"><br /></font> <font color="black">SCRUTINY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">PARSE</font> <font color="green"><br /></font> <font color="green">parse%2:31:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SCRUTINY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V398937 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V398632 [label=<<font color="green"><br /></font> <font color="black">QUANTITY-ABSTR</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">* </font> <font color="green"><br /></font> <font color="green">second%1:28:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::QUANTITY-ABSTR.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V398602 [label=<<font color="green"><br /></font> <font color="black">NUMBER</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::NUMBER.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V398632 -> V398602 [label=" AMOUNT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V398657 -> V398937 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V398577 -> V398657 [label=" NEUTRAL1   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V398937 -> V398632 [label=" SIZE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+	subgraph utt_2 {
+		compound=true rankdir=TB
+		V399012 [label=<<font color="green"><br /></font> <font color="black">SA_PRED-FRAGMENT</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_PRED-FRAGMENT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V398675 [label=<<font color="green"><br /></font> <font color="black">ASSOC-WITH</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">OF</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ASSOC-WITH.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V399013 [label=<<font color="green"><br /></font> <font color="black">ANY-SEM</font> <font color="green"><br /></font> <font color="red">IMPRO</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ANY-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V398690 [label=<<font color="green"><br /></font> <font color="black">LENGTH-SCALE</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">LENGTH</font> <font color="green"><br /></font> <font color="green">length%1:07:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::LENGTH-SCALE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V398675 -> V399013 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V398675 -> V398690 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V399012 -> V398675 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

@@ -77,18 +77,47 @@ def transform(taskset, type_="a_b_parse", coverage=3, agreement=0, active=True):
             "agreement": agreement,
             "coverage": coverage,
             "annotators": []
-        },
-        "is_active": active
+        }
     } for data in dataset]
-    res = dict(name=taskset, tasks=tasks, definition=dict(type=type_, items=len(tasks), groups=dict()))
+    res = dict(name=taskset, tasks=tasks, definition=dict(type=type_, items=len(tasks), groups=[], is_active=active))
     click.echo(json.dumps(res, indent=2))
 
 @click.command()
 @click.option("--task-set", "taskset", type=str, help="The task set to assign")
 @click.option("--type", "type_", type=str, help="worker type to assign the task to", default="researcher")
 @click.option("--set", "s", type=int, help="worker set to assign the task to", default=0)
-def assign(taskset, type_, s):
-    print(taskset, type_, s)
+@click.option("--credentials", "cred_file", type=str, default="firebase-admin.json", help="firebase credentials file")
+def assign(taskset, type_, s, cred_file="firebase-admin.json"):
+    db = get_db(cred_file)
+    # 1. add to taskset
+    task_ref = db.collection("taskset").document(taskset)
+    if not task_ref.get().exists:
+        click.echo("incorrect taskset : %s" % taskset)
+        return -1
+    task_ref.update({"groups": firestore.ArrayUnion([{"type": type_, "set": s}])})
+
+    task_ids = [r.id for r in db.collection("tasks").where("taskset", "==", taskset).stream()]
+
+    # 2. add to group
+    ref = db.collection("groups").document(type_)
+    # 2. a. create group if necessary
+    if not ref.get().exists:
+        ref.set({})
+    # Need to deal with the condition that this task has already been assigned
+    ref.update({str(s): firestore.ArrayUnion([taskset])})
+
+    # 3. for each user in the defined group, queue the task
+    user_ref = db.collection("users").where("type.role", "==", type_).where("type.set", "==", s)
+    batch = db.batch()
+    # Need to deal with the condition that this task has already been assigned
+    for document in user_ref.stream():
+        batch.set(document, {
+            "tasks": {
+                "assigned": firestore.ArrayUnion(task_ids),
+                "total": document.get("tasks.total") + len(task_ids),
+                "remaining": document.get("tasks.remaining") + len(task_ids),
+            }})
+    batch.commit()
 
 
 @click.group()

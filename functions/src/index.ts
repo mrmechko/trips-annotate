@@ -11,10 +11,14 @@ export const makeUserEntry = functions.auth.user().onCreate((user) => {
     const user_entry = {
         type: {
             role: "student",
-            group: 1 // change this later
+            group: 0 // change this later
         },
-        annotations: [],
-        permission: [],
+        tasks: {
+            complete: [],
+            assigned: [],
+            total: 0,
+            remaining: 0
+        },
         limits: {
             min: 3,
             max: 10000,

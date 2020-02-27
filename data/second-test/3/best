@@ -1,0 +1,33 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V400687 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V400398 [label=<<font color="green"><br /></font> <font color="black">LIVE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">PIGS</font> <font color="green"><br /></font> <font color="green">exist%2:42:01</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::LIVE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V400688 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">IMPRO</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V400687 -> V400398 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V400398 -> V400688 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+	subgraph utt_1 {
+		compound=true rankdir=TB
+		V400560 [label=<<font color="green"><br /></font> <font color="black">FLY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">FLY</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FLY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V400440 [label=<<font color="green"><br /></font> <font color="black">FLY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">FLY</font> <font color="green"><br /></font> <font color="green">fly%2:38:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FLY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V400425 [label=<<font color="green"><br /></font> <font color="black">FLY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">FLY</font> <font color="green"><br /></font> <font color="green">fly%2:38:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FLY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V400560 -> V400440 [label=" SEQUENCE1   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V400560 -> V400425 [label=" SEQUENCE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+	subgraph utt_2 {
+		compound=true rankdir=TB
+		V400717 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V400458 [label=<<font color="green"><br /></font> <font color="black">ELLIPSIS</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ELLIPSIS.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V400718 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">IMPRO</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V400458 -> V400718 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V400717 -> V400458 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+	subgraph utt_3 {
+		compound=true rankdir=TB
+		V400639 [label=<<font color="green"><br /></font> <font color="black">SA_IDENTIFY</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_IDENTIFY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V400467 [label=<<font color="green"><br /></font> <font color="black">NONHUMAN-ANIMAL</font> <font color="green"><br /></font> <font color="red">BARE</font> <font color="blue">PIG</font> <font color="green"><br /></font> <font color="green">pig%1:05:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::NONHUMAN-ANIMAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V400639 -> V400467 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

@@ -83,7 +83,12 @@ DEADLINE: <2020-02-26 Wed>
 var user = {
     id: "id_number",
     groups: { type: "student", set: 0 }, // how the annoatator should be treated
-    annotations: ["annotation_id"], // list of annotations
+    tasks: {
+        assigned: ["task_id"], // list of annotations
+        complete: ["annotation_id"], // list of annotations
+        total: 0,
+        remaining: 0,
+    }
     queue: ["task_id"],
     limits: {
         min: 3, // minimum number of annotations required from user
