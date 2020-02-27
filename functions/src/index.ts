@@ -11,7 +11,7 @@ export const makeUserEntry = functions.auth.user().onCreate((user) => {
     const user_entry = {
         type: {
             role: "student",
-            group: 0 // change this later
+            set: 0 // change this later
         },
         tasks: {
             complete: [],

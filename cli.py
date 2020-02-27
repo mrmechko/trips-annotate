@@ -111,7 +111,7 @@ def assign(taskset, type_, s, cred_file="firebase-admin.json"):
     batch = db.batch()
     # Need to deal with the condition that this task has already been assigned
     for document in user_ref.stream():
-        batch.set(document, {
+        batch.update(document.reference, {
             "tasks": {
                 "assigned": firestore.ArrayUnion(task_ids),
                 "total": document.get("tasks.total") + len(task_ids),
