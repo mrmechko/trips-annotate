@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Welcome to Firebase Hosting</title>
 
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/dd5e0582e7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"/>
     <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css"></link>
 
     <!-- update the version number as needed -->
@@ -16,26 +16,26 @@
     <script defer src="/__/firebase/7.9.1/firebase-database.js"></script>
     <script defer src="/__/firebase/7.9.1/firebase-messaging.js"></script>
     <script defer src="/__/firebase/7.9.1/firebase-storage.js"></script>
+
+    <script defer src="/__/firebase/7.9.1/firebase-functions.js"></script>
+
     <!-- initialize the SDK after all desired features are loaded -->
     <script defer src="/__/firebase/init.js"></script>
     <script defer src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
 
-    <!-- Get a task, taking into account all restrictions, and render it -->
-    <script defer src="./js/load_task.js"></script>
-
-    <!-- Submit a task response -->
-    <script defer src="./js/submit_task.js"></script>
 
 
     <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      #task { width: 100%; }
-      #gold, #first, #second { width: 100%; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
+     body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
+     #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
+     #task { width: 100%; }
+     #gold, #first, #second { width: 100%; margin: 1em; }
+     #first_block, #second_block { width: 100%; }
+     @media (max-width: 600px) {
+         body, #message { margin-top: 0; background: white; box-shadow: none; }
+         body { border-top: 16px solid #ffa100; }
+     }
+     .selected { background: blue; margin: 0.9em;}
     </style>
   </head>
   <body>
@@ -43,25 +43,44 @@
           <div class="container">
               <div id="message">
                   <h2>Welcome, <span id="username"></span></h2>
+                  <a class="button is-primary" id="logout-btn">Log Out</a>
               </div>
               <div id="description">
                   Below are two pairs of graphs.  select the pair that is most similar.  The left hand graph is the same for both rows.
               </div>
-              <div class="task box">
+              <div id="task_id"></div>
+              <div class="task box" id="first_block">
                   <div class="columns">
                       <div class="column"><img class="goldgraph" id="gold"></img></div>
                       <div class="column"><img id="first"></img></div>
                   </div>
               </div>
-              <div class="task box">
+              <div class="task box" id="second_block">
                   <div class="columns">
                       <div class="column"><img class="goldgraph" id="gold"></img></div>
                       <div class="column"><img id="second"></img></div>
                   </div>
               </div>
+              <form id="annotation-form" name="annotation">
+                  <input type="hidden" id="task_id_form" name="task_id">
+                  <input type="hidden" id="user_id" name="user_id">
+                  <input type="hidden" id="answer" name="selection">
+                  <a  class="button is-primary is-loading" id="submit-btn">
+                      <span class="icon is-small">
+                          <i class="fas fa-check"></i>
+                      </span>
+                      <span>Save</span>
+                  </a>
+              </form>
           </div>
       </section>
-    <script>
+    <!-- Get a task, taking into account all restrictions, and render it -->
+    <script defer src="./js/load_task.js"></script>
+
+    <!-- Submit a task response -->
+    <script defer src="./js/submit_task.js"></script>
+
+    <script defer>
      document.addEventListener('DOMContentLoaded', function() {
          // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
          // // The Firebase SDK is initialized and available here!
@@ -75,21 +94,36 @@
 
          try {
              test_submit_fn();
-             var storage = firebase.storage();
-             var data_source = "https://raw.githubusercontent.com/mrmechko/trips-annotate/master/data/json/data.json";
-             var xhr = new XMLHttpRequest();
-             xhr.responseType = 'json';
-             xhr.onload = function(event) {
-                 var blob = xhr.response;
-                 render_task(blob[0], document);
-             };
-             // Make this a query to get an incomplete task instead
-             xhr.open('GET', data_source);
-             xhr.send();
+             const getTaskForUID = firebase.functions().httpsCallable('getTaskForUID');
+             const submitAnnotation = firebase.functions().httpsCallable('submitTask');
+             document.getElementById("submit-btn").addEventListener("click", function (e) {
+                 e.preventDefault();
+                 try {
+                     submitAnnotation(submitAnnotationData())
+                         .then(r => {
+                             window.location = 'logged-in.html'
+                         })
+                 } catch (error) {
+                     throw new Error(error.message);
+                 }
+                 return false;
+             });
+             document.getElementById("logout-btn").addEventListener("click", _ => {
+                 firebase.auth().signOut().then(_ => {window.location = 'index.html'}).catch(_ => console.log('error signing out'))
+             })
+             getTaskForUID({}).then(function(result) {
+                 if (result.data){
+                     render_task(result.data, document);
+                     document.getElementById("first_block").addEventListener("click", set_selected_task("first", document));
+                     document.getElementById("second_block").addEventListener("click", set_selected_task("second", document));
+                     set_button_disabled("submit-btn");
+                 }
+             });
 
              firebase.auth().onAuthStateChanged(user => {
                  if(user) {
                      document.getElementById('username').innerHTML=`${user.displayName}`;
+                     document.getElementById('user_id').value = `${user.uid}`; //This actually might be redundant and insecure
                  } else {
                      window.location = 'index.html';
                  }

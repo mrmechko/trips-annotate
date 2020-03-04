@@ -1,23 +1,26 @@
 #+TITLE: Annotation Tool
-#+PROPERTY: header-args :tangle yes :output drawer :session indium
+#+PROPERTY: header-args :tangle yes :output drawer
 
-* Overview
+* notes
 ** Tasks
 *** DONE Given a task (id, center, left, right), display it
 DEADLINE: <2020-02-25 Tue>
-*** TODO Get an incomplete task for the user from firebase
+*** DONE Get an incomplete task for the user from firebase
 DEADLINE: <2020-02-25 Tue>
-*** TODO Write the result of a task to the database
+*** DONE Write the result of a task to the database
 DEADLINE: <2020-02-25 Tue>
-**** TODO Make a form to submit the task annotation
+**** DONE Make a form to submit the task annotation
 *** TODO Assign tasks to users
 DEADLINE: <2020-02-25 Tue>
-**** [ ] Set user limits (min/max number of tasks) user must complete
-**** [ ] Set min/max number of annotaters per task
-**** [ ] When user requests a task, select a task that requires doing
+**** [X] Set user limits (min/max number of tasks) user must complete
+**** [X] Set min/max number of annotaters per task
+**** [X] When user requests a task, select a task that requires doing
 weight by how many tasks are partially complete and how many are incomplete
+**** [ ] When a new user is assigned a group, unassign all tasks they have already done and reassign all tasks from their new group
+*** DONE Add option to enable and disable tasks
+DEADLINE: <2020-03-02 Mon>
 *** Security
-**** TODO Fix authentication to prevent people from deleting things randomly
+**** BLOCKED Fix authentication to prevent people from deleting things randomly
 - Users shouldn't be able to write anything directly
 - Ideally, there is a ~getTaskForUID~ and ~submitAnnotation~ function
 - https://firebase.google.com/docs/database/security/user-security
@@ -58,7 +61,7 @@ DEADLINE: <2020-02-26 Wed>
 DEADLINE: <2020-02-26 Wed>
 **** DONE upload tasks.  Reject multiple tasks with the same sentence (for now)
 DEADLINE: <2020-02-26 Wed>
-**** TODO retrieve a random task incomplete task  for testing purposes
+**** DONE retrieve a random task incomplete task  for testing purposes
 DEADLINE: <2020-02-26 Wed>
 *** Annotation model
 #+BEGIN_SRC js
@@ -72,12 +75,13 @@ var annotation = {
     }
 };
 #+END_SRC
-**** TODO Add annotation to database
+**** DONE Add annotation to database
 DEADLINE: <2020-02-26 Wed>
-***** TODO Add ~annotation_id~ to user and ~task~
-**** TODO Ensure that task/annotator pair doesn't exist
+***** DONE Add ~annotation_id~ to user and ~task~
+**** DONE Ensure that task/annotator pair doesn't exist
 DEADLINE: <2020-02-26 Wed>
-**** TODO Return success or failure
+- Made sure instead that each pair has a timestamp
+**** DONE Return success or failure
 *** User Model
 #+BEGIN_SRC js
 var user = {
@@ -108,7 +112,7 @@ When a user selects a task:
 2. Collect all tasks of that type
 3. if an incomplete task for the user is available, return it
 4. adjust probability of new/partial task as necessary to get things done
-**** TODO Write query
+**** DONE Write query
 DEADLINE: <2020-02-26 Wed>
 *** Task Completion:
 Form should write an annotation object, reject if annotation exists
@@ -126,3 +130,59 @@ from here
 *** User
 **** Tasks annotated
 **** Annotator agreement (against all other annotators)
+* UI/UX
+** Task upload Flow
+1. Generate tasks - file:/data/prepare.sh
+   1. Specify 3 parses - Gold, first, second
+   2. Ensure the parses are different
+2. Upload parses as a task set ~./cli.py upload~
+3. Assign task set to user group ~./cli.py assign~
+4. Activate or deactivate task
+5. Retrieve a daily dump of the database
+   1. make sure to take user email
+** User creation Flow
+1. User creates account
+2. User is assigned to a group
+3. User is assigned active tasks for group
+4. User email should be verified
+** User annotation Flow
+Instead of removing an annotation from the assigned list when it is completed
+might be better to simply attach a list of annotation objects to it within the
+user object
+#+BEGIN_SRC json
+[{
+    "task_id": "id1",
+    "annotations": []
+},
+{
+    "task_id": "id2",
+    "annotations": ["annotationid1","annotationid2"]
+}]
+#+END_SRC
+1. User logs in
+   1. is redirected to annotation page
+2. User is presented with a task
+3. User submits task
+4. User is presented with another task
+5. User is shown remaining tasks
+   #
+6. User can select to update completed tasks
+* Now
+** NOW change annotation format
+*** [X] change format in user object
+*** [X] Change upload to add to a list
+*** [X] Change query to get next task
+*** [X] Change function to submit task
+*** [X] TEST
+** DONE Refactor task loading code to be recallable
+** DONE Automatically load next task
+** NOW Message when no tasks remaining
+** DONE Wait for submission to load next task
+** DONE Logout button
+** DONE Automatically load logged in page if logged in
+** NOW Update User management
+*** [ ] assign tasks for user type
+*** [X] trigger on user create
+*** [-] trigger onChange group
+*** [-] trigger onChange user group assignment
+***** Since this is done manually, we could just try it manually
