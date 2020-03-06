@@ -2,6 +2,7 @@
 
 import json
 import click
+from tqdm import tqdm
 
 import firebase_admin
 from firebase_admin import credentials
@@ -50,7 +51,7 @@ def add_tasks(fname, cred_file="firebase-admin.json"):
     doc_ref = db.collection(u'tasks')
 
 
-    for d in data:
+    for d in tqdm(data):
         doc_ref.add(dict(d, taskset=taskset["name"])) # think I can optimize this?
 
     click.echo("added %d new tasks." % len(data))
@@ -80,7 +81,7 @@ def transform(taskset, type_="a_b_parse", coverage=3, agreement=0, active=True):
             "coverage": coverage,
             "annotators": []
         }
-    } for data in dataset if data]
+    } for data in dataset[:100] if data]
     res = dict(name=taskset, tasks=tasks, definition=dict(type=type_, items=len(tasks), groups=[], is_active=active))
     click.echo(json.dumps(res, indent=2))
 
