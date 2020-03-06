@@ -34,11 +34,14 @@ def render(input_, style, output_dir, repo):
 
         gold = get_gold(res)
         first = trips_diff(gold, get_nth_parse(res, alt["first"]))
+        first_r = trips_diff(get_nth_parse(res, alt["first"]), gold)
         second = trips_diff(gold, get_nth_parse(res, alt["second"]))
+        second_r = trips_diff(get_nth_parse(res, alt["second"]), gold)
         os.mkdir(output)
-        as_dot(gold, format=style).graph().render("%s/best" % output, format="svg")
-        as_dot(first, format=style).graph().render("%s/first" % output, format="svg")
-        as_dot(second, format=style).graph().render("%s/second" % output, format="svg")
+        as_dot(first_r, format=style).graph().render("%s/gold_first" % output, cleanup=True, format="svg")
+        as_dot(first, format=style).graph().render("%s/first" % output, cleanup=True, format="svg")
+        as_dot(second, format=style).graph().render("%s/second" % output, cleanup=True, format="svg")
+        as_dot(second_r, format=style).graph().render("%s/gold_second" % output, cleanup=True, format="svg")
 
         return dict(id=id,
                reference=make_url(repo, output),
@@ -46,7 +49,7 @@ def render(input_, style, output_dir, repo):
                source=parse,
                sentence=res["sentence"])
     with open("%s/data.json" % output_dir, 'w') as f:
-        json.dump([get_parse(p, i) for i, p in enumerate(ls(input_)) if p], f)
+        json.dump([get_parse(p, i) for i, p in enumerate(ls(input_)[:20]) if p], f)
 
 def get_most_interesting_alternatives(data):
     """Eventually want to select varieties of parses"""

@@ -64,13 +64,15 @@ def get_sentence(taskset, id):
 
 @click.command()
 @click.option("--task-set", "taskset", type=str, help="output folder for prepare.sh")
+@click.option("--name", "name", type=str, help="the name for the taskset.")
 @click.option("--type", "type_", default="a_b_parse", type=str, help="task_type")
 @click.option("--coverage", "coverage", default=3, type=int, help="minimum number of annotators requested")
 @click.option("--agreement", "agreement", default=0.0, type=float, help="minimum amount of agreement required")
 @click.option("--active/--no-active", "active", default=True)
-def transform(taskset, type_="a_b_parse", coverage=3, agreement=0, active=True):
+def transform(taskset, name, type_="a_b_parse", coverage=3, agreement=0, active=True):
     """Read in a json list of tasks and create a task object for upload to firebase"""
     fname = "%s/data.json" % taskset
+    name = name or taskset.split("/")[-1]
     with open(fname) as inp:
         dataset = json.load(inp)
     tasks = [{

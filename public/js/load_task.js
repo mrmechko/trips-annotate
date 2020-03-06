@@ -3,13 +3,14 @@ function render_task(task, document) {
     console.log("rendering task:");
     console.log(task);
     var golds = document.getElementsByClassName("goldgraph");
-    for (var i=0, len=golds.length|0; i<len; i=i+1|0) {
-        golds[i].src = task["data"]["reference"];
-    }
+    var reference = task["data"]["reference"];
+    const ref = (id) => `${reference}${id}.svg&sanitize=true`;
     document.getElementById("task_id").value = task["id"];
     document.getElementById("task_id_form").value = task["id"];
-    document.getElementById("first").src = task["data"]["img_1"];
-    document.getElementById("second").src = task["data"]["img_2"];
+    document.getElementById("first").src = ref("first")
+    document.getElementById("first_gold").src = ref("first_gold")
+    document.getElementById("second").src = ref("second")
+    document.getElementById("second_gold").src = ref("second_gold")
 };
 
 function set_selected_task(target) {
