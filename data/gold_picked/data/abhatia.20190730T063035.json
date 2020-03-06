@@ -1,0 +1,468 @@
+{
+  "parse": [
+    {
+      "V160085": {
+        "id": "V160085",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V159062",
+          "LEX": "WASH"
+        },
+        "start": 0,
+        "end": 48
+      },
+      "V159062": {
+        "id": "V159062",
+        "indicator": "F",
+        "type": "CLEAN",
+        "word": "WASH",
+        "roles": {
+          "AGENT": "#V159050",
+          "AFFECTED": "#V159143",
+          "TENSE": "PRES",
+          "MODALITY": "(:* CONDITIONAL WOULD)",
+          "LEX": "WASH",
+          "WNSENSE": "wash%1:04:01::"
+        },
+        "start": 0,
+        "end": 48
+      },
+      "V159050": {
+        "id": "V159050",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V159143": {
+        "id": "V159143",
+        "indicator": "A",
+        "type": "ATTIRE",
+        "word": "CLOTHES",
+        "roles": {
+          "REFSET": "#V159087",
+          "QUAN": "UNIVERSAL",
+          "LEX": "CLOTHES",
+          "WNSENSE": "clothes%1:06:00::"
+        },
+        "start": 14,
+        "end": 48
+      },
+      "V159087": {
+        "id": "V159087",
+        "indicator": "THE",
+        "type": "ATTIRE",
+        "word": "CLOTHES",
+        "roles": {
+          "MOD": "(V159116 V159093)",
+          "LEX": "CLOTHES",
+          "WNSENSE": "clothes%1:06:00::"
+        },
+        "start": 18,
+        "end": 48
+      },
+      "V159093": {
+        "id": "V159093",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "LEX": "AND"
+        },
+        "start": 30,
+        "end": 34
+      },
+      "V159116": {
+        "id": "V159116",
+        "indicator": "F",
+        "type": "FOLD",
+        "word": "FOLD",
+        "roles": {
+          "AGENT": "#V159101",
+          "AFFECTED": "#V159087",
+          "TENSE": "PAST",
+          "MODALITY": "(:* CONDITIONAL WOULD)",
+          "LEX": "FOLD",
+          "WNSENSE": "fold%2:35:00::"
+        },
+        "start": 34,
+        "end": 48
+      },
+      "V159101": {
+        "id": "V159101",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "SHE",
+        "roles": {
+          "PROFORM": "SHE",
+          "LEX": "SHE",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 34,
+        "end": 38
+      },
+      "root": "#V160085"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V160082": {
+          "id": "V160082",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V159062",
+            "LEX": "WASH"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V159062": {
+          "id": "V159062",
+          "indicator": "F",
+          "type": "CLEAN",
+          "word": "WASH",
+          "roles": {
+            "AGENT": "#V159050",
+            "AFFECTED": "#V159143",
+            "TENSE": "PAST",
+            "MODALITY": "(:* CONDITIONAL WOULD)",
+            "LEX": "WASH",
+            "WNSENSE": "wash%1:04:01::"
+          },
+          "start": 0,
+          "end": 48
+        },
+        "V159050": {
+          "id": "V159050",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V159143": {
+          "id": "V159143",
+          "indicator": "A",
+          "type": "ATTIRE",
+          "word": "CLOTHES",
+          "roles": {
+            "REFSET": "#V159087",
+            "QUAN": "UNIVERSAL",
+            "LEX": "CLOTHES",
+            "WNSENSE": "clothes%1:06:00::"
+          },
+          "start": 14,
+          "end": 48
+        },
+        "V159087": {
+          "id": "V159087",
+          "indicator": "THE",
+          "type": "ATTIRE",
+          "word": "CLOTHES",
+          "roles": {
+            "MOD": "(V159116 V159093)",
+            "LEX": "CLOTHES",
+            "WNSENSE": "clothes%1:06:00::"
+          },
+          "start": 18,
+          "end": 48
+        },
+        "V159093": {
+          "id": "V159093",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "AND",
+          "roles": {
+            "LEX": "AND"
+          },
+          "start": 30,
+          "end": 34
+        },
+        "V159116": {
+          "id": "V159116",
+          "indicator": "F",
+          "type": "FOLD",
+          "word": "FOLD",
+          "roles": {
+            "AGENT": "#V159101",
+            "AFFECTED": "#V159087",
+            "TENSE": "PAST",
+            "MODALITY": "(:* CONDITIONAL WOULD)",
+            "LEX": "FOLD",
+            "WNSENSE": "fold%2:35:00::"
+          },
+          "start": 34,
+          "end": 48
+        },
+        "V159101": {
+          "id": "V159101",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 34,
+          "end": 38
+        },
+        "root": "#V160082"
+      }
+    ],
+    [
+      {
+        "V160010": {
+          "id": "V160010",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V159062",
+            "LEX": "WASH"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V159062": {
+          "id": "V159062",
+          "indicator": "F",
+          "type": "CLEAN",
+          "word": "WASH",
+          "roles": {
+            "AGENT": "#V159050",
+            "AFFECTED": "#V159143",
+            "TENSE": "PRES",
+            "MODALITY": "(:* CONDITIONAL WOULD)",
+            "LEX": "WASH",
+            "WNSENSE": "wash%1:04:01::"
+          },
+          "start": 0,
+          "end": 48
+        },
+        "V159050": {
+          "id": "V159050",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V159143": {
+          "id": "V159143",
+          "indicator": "A",
+          "type": "ATTIRE",
+          "word": "CLOTHES",
+          "roles": {
+            "REFSET": "#V159087",
+            "QUAN": "UNIVERSAL",
+            "LEX": "CLOTHES",
+            "WNSENSE": "clothes%1:06:00::"
+          },
+          "start": 14,
+          "end": 48
+        },
+        "V159087": {
+          "id": "V159087",
+          "indicator": "THE",
+          "type": "ATTIRE",
+          "word": "CLOTHES",
+          "roles": {
+            "MOD": "(V159116 V159093)",
+            "LEX": "CLOTHES",
+            "WNSENSE": "clothes%1:06:00::"
+          },
+          "start": 18,
+          "end": 48
+        },
+        "V159093": {
+          "id": "V159093",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "AND",
+          "roles": {
+            "LEX": "AND"
+          },
+          "start": 30,
+          "end": 34
+        },
+        "V159116": {
+          "id": "V159116",
+          "indicator": "F",
+          "type": "FOLD",
+          "word": "FOLD",
+          "roles": {
+            "AGENT": "#V159101",
+            "AFFECTED": "#V159087",
+            "TENSE": "PRES",
+            "MODALITY": "(:* CONDITIONAL WOULD)",
+            "LEX": "FOLD",
+            "WNSENSE": "fold%2:35:00::"
+          },
+          "start": 34,
+          "end": 48
+        },
+        "V159101": {
+          "id": "V159101",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 34,
+          "end": 38
+        },
+        "root": "#V160010"
+      }
+    ],
+    [
+      {
+        "V160007": {
+          "id": "V160007",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V159062",
+            "LEX": "WASH"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V159062": {
+          "id": "V159062",
+          "indicator": "F",
+          "type": "CLEAN",
+          "word": "WASH",
+          "roles": {
+            "AGENT": "#V159050",
+            "AFFECTED": "#V159143",
+            "TENSE": "PAST",
+            "MODALITY": "(:* CONDITIONAL WOULD)",
+            "LEX": "WASH",
+            "WNSENSE": "wash%1:04:01::"
+          },
+          "start": 0,
+          "end": 48
+        },
+        "V159050": {
+          "id": "V159050",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V159143": {
+          "id": "V159143",
+          "indicator": "A",
+          "type": "ATTIRE",
+          "word": "CLOTHES",
+          "roles": {
+            "REFSET": "#V159087",
+            "QUAN": "UNIVERSAL",
+            "LEX": "CLOTHES",
+            "WNSENSE": "clothes%1:06:00::"
+          },
+          "start": 14,
+          "end": 48
+        },
+        "V159087": {
+          "id": "V159087",
+          "indicator": "THE",
+          "type": "ATTIRE",
+          "word": "CLOTHES",
+          "roles": {
+            "MOD": "(V159116 V159093)",
+            "LEX": "CLOTHES",
+            "WNSENSE": "clothes%1:06:00::"
+          },
+          "start": 18,
+          "end": 48
+        },
+        "V159093": {
+          "id": "V159093",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "AND",
+          "roles": {
+            "LEX": "AND"
+          },
+          "start": 30,
+          "end": 34
+        },
+        "V159116": {
+          "id": "V159116",
+          "indicator": "F",
+          "type": "FOLD",
+          "word": "FOLD",
+          "roles": {
+            "AGENT": "#V159101",
+            "AFFECTED": "#V159087",
+            "TENSE": "PRES",
+            "MODALITY": "(:* CONDITIONAL WOULD)",
+            "LEX": "FOLD",
+            "WNSENSE": "fold%2:35:00::"
+          },
+          "start": 34,
+          "end": 48
+        },
+        "V159101": {
+          "id": "V159101",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 34,
+          "end": 38
+        },
+        "root": "#V160007"
+      }
+    ]
+  ],
+  "sentence": "He would wash all the clothes and she would fold.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190730T063035",
+    "link": "http://trips.ihmc.us/parser/saved/20190730T063035-STEP-abhatia-none-He_would_wash_all_the_clothes_and_she_wo.xml",
+    "judgement": -1
+  }
+}

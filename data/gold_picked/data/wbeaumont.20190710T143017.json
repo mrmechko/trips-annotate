@@ -1,0 +1,51 @@
+{
+  "parse": [
+    {
+      "V70556": {
+        "id": "V70556",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V70334"
+        },
+        "start": 0,
+        "end": 14
+      },
+      "V70334": {
+        "id": "V70334",
+        "indicator": "BARE",
+        "type": "AREA-SCALE",
+        "word": "LAND-AREA",
+        "roles": {
+          "MOD": "#V70344",
+          "WNSENSE": "land_area%1:07:00"
+        },
+        "start": 0,
+        "end": 14
+      },
+      "V70344": {
+        "id": "V70344",
+        "indicator": "F",
+        "type": "POSSESS",
+        "word": "OWN",
+        "roles": {
+          "NEUTRAL1": "#V70334",
+          "VFORM": "PASSIVE"
+        },
+        "start": 10,
+        "end": 14
+      },
+      "root": "#V70556"
+    }
+  ],
+  "alternatives": [],
+  "sentence": "Land area owned  ",
+  "annotation": {
+    "judge": "wbeaumont",
+    "parser": "CWMS",
+    "timestamp": "20190710T143017",
+    "link": "http://trips.ihmc.us/parser/saved/20190710T143017-CWMS-wbeaumont-0-Land_area_owned_.xml",
+    "judgement": 0
+  }
+}

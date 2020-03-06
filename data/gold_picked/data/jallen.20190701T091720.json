@@ -1,0 +1,435 @@
+{
+  "parse": [
+    {
+      "V36649": {
+        "id": "V36649",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V36301",
+          "LEX": "MET"
+        },
+        "start": 0,
+        "end": 39
+      },
+      "V36301": {
+        "id": "V36301",
+        "indicator": "F",
+        "type": "MEET",
+        "word": "MEET",
+        "roles": {
+          "AGENT": "#V36287",
+          "AGENT1": "#V36317",
+          "LOCATION": "#V36323",
+          "TENSE": "PAST",
+          "LEX": "MET"
+        },
+        "start": 0,
+        "end": 39
+      },
+      "V36287": {
+        "id": "V36287",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V36317": {
+        "id": "V36317",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM"
+        },
+        "start": 6,
+        "end": 10
+      },
+      "V36323": {
+        "id": "V36323",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "WHERE",
+        "roles": {
+          "GROUND": "#V36345",
+          "FIGURE": "#V36301",
+          "LEX": "WHERE"
+        },
+        "start": 10,
+        "end": 39
+      },
+      "V36345": {
+        "id": "V36345",
+        "indicator": "F",
+        "type": "INTERSECT",
+        "word": "MEET",
+        "roles": {
+          "NEUTRAL": "#V36337",
+          "NEUTRAL1": "#V36362",
+          "TENSE": "PRES",
+          "LEX": "MEETS"
+        },
+        "start": 16,
+        "end": 39
+      },
+      "V36337": {
+        "id": "V36337",
+        "indicator": "THE",
+        "type": "BODY-OF-WATER",
+        "word": "RIVER",
+        "roles": {
+          "LEX": "RIVER"
+        },
+        "start": 16,
+        "end": 26
+      },
+      "V36362": {
+        "id": "V36362",
+        "indicator": "THE",
+        "type": "ROAD",
+        "word": "ROAD",
+        "roles": {
+          "LEX": "ROAD"
+        },
+        "start": 32,
+        "end": 39
+      },
+      "root": "#V36649"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V36638": {
+          "id": "V36638",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V36301",
+            "LEX": "MET"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V36301": {
+          "id": "V36301",
+          "indicator": "F",
+          "type": "MEET",
+          "word": "MEET",
+          "roles": {
+            "AGENT": "#V36287",
+            "AGENT1": "#V36317",
+            "LOCATION": "#V36323",
+            "TENSE": "PAST",
+            "LEX": "MET"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V36287": {
+          "id": "V36287",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V36317": {
+          "id": "V36317",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIM",
+          "roles": {
+            "PROFORM": "HIM",
+            "LEX": "HIM"
+          },
+          "start": 6,
+          "end": 10
+        },
+        "V36323": {
+          "id": "V36323",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "WHERE",
+          "roles": {
+            "GROUND": "#V36346",
+            "FIGURE": "#V36301",
+            "LEX": "WHERE"
+          },
+          "start": 10,
+          "end": 40
+        },
+        "V36346": {
+          "id": "V36346",
+          "indicator": "F",
+          "type": "IS-COMPATIBLE-WITH",
+          "word": "MEET",
+          "roles": {
+            "NEUTRAL": "#V36337",
+            "NEUTRAL1": "#V36362",
+            "TENSE": "PRES",
+            "LEX": "MEETS"
+          },
+          "start": 16,
+          "end": 40
+        },
+        "V36337": {
+          "id": "V36337",
+          "indicator": "THE",
+          "type": "BODY-OF-WATER",
+          "word": "RIVER",
+          "roles": {
+            "LEX": "RIVER"
+          },
+          "start": 16,
+          "end": 26
+        },
+        "V36362": {
+          "id": "V36362",
+          "indicator": "THE",
+          "type": "ROAD",
+          "word": "ROAD",
+          "roles": {
+            "LEX": "ROAD"
+          },
+          "start": 32,
+          "end": 40
+        },
+        "root": "#V36638"
+      }
+    ],
+    [
+      {
+        "V36927": {
+          "id": "V36927",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V36306",
+            "LEX": "MET"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V36306": {
+          "id": "V36306",
+          "indicator": "F",
+          "type": "IS-COMPATIBLE-WITH",
+          "word": "MEET",
+          "roles": {
+            "NEUTRAL": "#V36842",
+            "NEUTRAL1": "#V36317",
+            "LOCATION": "#V36323",
+            "TENSE": "PAST",
+            "LEX": "MET"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V36842": {
+          "id": "V36842",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V36317": {
+          "id": "V36317",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIM",
+          "roles": {
+            "PROFORM": "HIM",
+            "LEX": "HIM"
+          },
+          "start": 6,
+          "end": 10
+        },
+        "V36323": {
+          "id": "V36323",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "WHERE",
+          "roles": {
+            "GROUND": "#V36346",
+            "FIGURE": "#V36306",
+            "LEX": "WHERE"
+          },
+          "start": 10,
+          "end": 40
+        },
+        "V36346": {
+          "id": "V36346",
+          "indicator": "F",
+          "type": "IS-COMPATIBLE-WITH",
+          "word": "MEET",
+          "roles": {
+            "NEUTRAL": "#V36337",
+            "NEUTRAL1": "#V36362",
+            "TENSE": "PRES",
+            "LEX": "MEETS"
+          },
+          "start": 16,
+          "end": 40
+        },
+        "V36337": {
+          "id": "V36337",
+          "indicator": "THE",
+          "type": "BODY-OF-WATER",
+          "word": "RIVER",
+          "roles": {
+            "LEX": "RIVER"
+          },
+          "start": 16,
+          "end": 26
+        },
+        "V36362": {
+          "id": "V36362",
+          "indicator": "THE",
+          "type": "ROAD",
+          "word": "ROAD",
+          "roles": {
+            "LEX": "ROAD"
+          },
+          "start": 32,
+          "end": 40
+        },
+        "root": "#V36927"
+      }
+    ],
+    [
+      {
+        "V36919": {
+          "id": "V36919",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V36306",
+            "LEX": "MET"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V36306": {
+          "id": "V36306",
+          "indicator": "F",
+          "type": "IS-COMPATIBLE-WITH",
+          "word": "MEET",
+          "roles": {
+            "NEUTRAL": "#V36842",
+            "NEUTRAL1": "#V36317",
+            "LOCATION": "#V36323",
+            "TENSE": "PAST",
+            "LEX": "MET"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V36842": {
+          "id": "V36842",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V36317": {
+          "id": "V36317",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIM",
+          "roles": {
+            "PROFORM": "HIM",
+            "LEX": "HIM"
+          },
+          "start": 6,
+          "end": 10
+        },
+        "V36323": {
+          "id": "V36323",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "WHERE",
+          "roles": {
+            "GROUND": "#V36345",
+            "FIGURE": "#V36306",
+            "LEX": "WHERE"
+          },
+          "start": 10,
+          "end": 40
+        },
+        "V36345": {
+          "id": "V36345",
+          "indicator": "F",
+          "type": "INTERSECT",
+          "word": "MEET",
+          "roles": {
+            "NEUTRAL": "#V36337",
+            "NEUTRAL1": "#V36362",
+            "TENSE": "PRES",
+            "LEX": "MEETS"
+          },
+          "start": 16,
+          "end": 40
+        },
+        "V36337": {
+          "id": "V36337",
+          "indicator": "THE",
+          "type": "BODY-OF-WATER",
+          "word": "RIVER",
+          "roles": {
+            "LEX": "RIVER"
+          },
+          "start": 16,
+          "end": 26
+        },
+        "V36362": {
+          "id": "V36362",
+          "indicator": "THE",
+          "type": "ROAD",
+          "word": "ROAD",
+          "roles": {
+            "LEX": "ROAD"
+          },
+          "start": 32,
+          "end": 40
+        },
+        "root": "#V36919"
+      }
+    ]
+  ],
+  "sentence": "I met him where the river meets the road",
+  "annotation": {
+    "judge": "jallen",
+    "parser": "STEP",
+    "timestamp": "20190701T091720",
+    "link": "http://trips.ihmc.us/parser/saved/20190701T091720-STEP-jallen-0-I_met_him_where_the_river_meets_the_road.xml",
+    "judgement": 0
+  }
+}

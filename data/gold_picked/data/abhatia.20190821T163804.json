@@ -1,0 +1,1072 @@
+{
+  "parse": [
+    {
+      "V98116": {
+        "id": "V98116",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V97370",
+          "LEX": "WAITED"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V97370": {
+        "id": "V97370",
+        "indicator": "F",
+        "type": "WAIT-WATCH",
+        "word": "WAIT",
+        "roles": {
+          "AGENT": "#V97354",
+          "NEUTRAL": "#V97681",
+          "LOCATION": "#V97380",
+          "TENSE": "PAST",
+          "LEX": "WAITED",
+          "WNSENSE": "wait%2:42:00::"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V97354": {
+        "id": "V97354",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V97380": {
+        "id": "V97380",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V97436",
+          "FIGURE": "#V97370",
+          "LEX": "IN"
+        },
+        "start": 9,
+        "end": 17
+      },
+      "V97436": {
+        "id": "V97436",
+        "indicator": "BARE",
+        "type": "LINEAR-GROUPING",
+        "word": "LINE",
+        "roles": {
+          "LEX": "LINE",
+          "WNSENSE": "line%1:14:01::"
+        },
+        "start": 12,
+        "end": 17
+      },
+      "V97681": {
+        "id": "V97681",
+        "indicator": "A",
+        "type": "QUANTITY",
+        "word": null,
+        "roles": {
+          "AMOUNT": "#V97678",
+          "UNIT": "(:* HOUR-DURATION HOUR)",
+          "SCALE": "DURATION-SCALE",
+          "LEX": "HOUR",
+          "WNSENSE": "hour%1:28:00::"
+        },
+        "start": 17,
+        "end": 28
+      },
+      "V97678": {
+        "id": "V97678",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 17,
+        "end": 28
+      },
+      "root": "#V98116"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V98203": {
+          "id": "V98203",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V97368",
+            "LEX": "WAITED"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V97368": {
+          "id": "V97368",
+          "indicator": "F",
+          "type": "WAIT-WATCH",
+          "word": "WAIT",
+          "roles": {
+            "AGENT": "#V97354",
+            "EXTENT": "#V97658",
+            "LOCATION": "#V97380",
+            "TENSE": "PAST",
+            "LEX": "WAITED",
+            "WNSENSE": "wait%2:42:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V97354": {
+          "id": "V97354",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V97380": {
+          "id": "V97380",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V97436",
+            "FIGURE": "#V97368",
+            "LEX": "IN"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V97436": {
+          "id": "V97436",
+          "indicator": "BARE",
+          "type": "LINEAR-GROUPING",
+          "word": "LINE",
+          "roles": {
+            "LEX": "LINE",
+            "WNSENSE": "line%1:14:01::"
+          },
+          "start": 12,
+          "end": 17
+        },
+        "V97658": {
+          "id": "V97658",
+          "indicator": "F",
+          "type": "TIME-DURATION-REL",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V97681",
+            "FIGURE": "#V97368",
+            "LEX": "FOR"
+          },
+          "start": 17,
+          "end": 28
+        },
+        "V97681": {
+          "id": "V97681",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "#V97678",
+            "UNIT": "(:* HOUR-DURATION HOUR)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "HOUR",
+            "WNSENSE": "hour%1:28:00::"
+          },
+          "start": 21,
+          "end": 28
+        },
+        "V97678": {
+          "id": "V97678",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 21,
+          "end": 28
+        },
+        "root": "#V98203"
+      }
+    ],
+    [
+      {
+        "V98249": {
+          "id": "V98249",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V97370",
+            "LEX": "WAITED"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V97370": {
+          "id": "V97370",
+          "indicator": "F",
+          "type": "WAIT-WATCH",
+          "word": "WAIT",
+          "roles": {
+            "AGENT": "#V97354",
+            "NEUTRAL": "#V97681",
+            "LOCATION": "#V97380",
+            "TENSE": "PAST",
+            "LEX": "WAITED",
+            "WNSENSE": "wait%2:42:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V97354": {
+          "id": "V97354",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V97380": {
+          "id": "V97380",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V97436",
+            "FIGURE": "#V97370",
+            "LEX": "IN"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V97436": {
+          "id": "V97436",
+          "indicator": "BARE",
+          "type": "LINEAR-GROUPING",
+          "word": "LINE",
+          "roles": {
+            "LEX": "LINE",
+            "WNSENSE": "line%1:14:01::"
+          },
+          "start": 12,
+          "end": 17
+        },
+        "V97681": {
+          "id": "V97681",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* HOUR-DURATION HOUR)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "HOUR",
+            "WNSENSE": "hour%1:28:00::"
+          },
+          "start": 17,
+          "end": 28
+        },
+        "root": "#V98249"
+      }
+    ],
+    [
+      {
+        "V98320": {
+          "id": "V98320",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V97370",
+            "LEX": "WAITED"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V97370": {
+          "id": "V97370",
+          "indicator": "F",
+          "type": "WAIT-WATCH",
+          "word": "WAIT",
+          "roles": {
+            "AGENT": "#V97354",
+            "NEUTRAL": "#V97793",
+            "LOCATION": "#V97380",
+            "TENSE": "PAST",
+            "LEX": "WAITED",
+            "WNSENSE": "wait%2:42:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V97354": {
+          "id": "V97354",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V97380": {
+          "id": "V97380",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V97436",
+            "FIGURE": "#V97370",
+            "LEX": "IN"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V97436": {
+          "id": "V97436",
+          "indicator": "BARE",
+          "type": "LINEAR-GROUPING",
+          "word": "LINE",
+          "roles": {
+            "LEX": "LINE",
+            "WNSENSE": "line%1:14:01::"
+          },
+          "start": 12,
+          "end": 17
+        },
+        "V97793": {
+          "id": "V97793",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V97681",
+            "LEX": "HOUR"
+          },
+          "start": 17,
+          "end": 28
+        },
+        "V97681": {
+          "id": "V97681",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "#V97678",
+            "UNIT": "(:* HOUR-DURATION HOUR)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "HOUR",
+            "WNSENSE": "hour%1:28:00::"
+          },
+          "start": 21,
+          "end": 28
+        },
+        "V97678": {
+          "id": "V97678",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 21,
+          "end": 28
+        },
+        "root": "#V98320"
+      }
+    ],
+    [
+      {
+        "V98368": {
+          "id": "V98368",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V97368",
+            "LEX": "WAITED"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V97368": {
+          "id": "V97368",
+          "indicator": "F",
+          "type": "WAIT-WATCH",
+          "word": "WAIT",
+          "roles": {
+            "AGENT": "#V97354",
+            "EXTENT": "#V97658",
+            "REASON": "#V97383",
+            "TENSE": "PAST",
+            "LEX": "WAITED",
+            "WNSENSE": "wait%2:42:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V97354": {
+          "id": "V97354",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V97383": {
+          "id": "V97383",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V97436",
+            "FIGURE": "#V97368",
+            "LEX": "IN",
+            "WNSENSE": "in%4:02:01::"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V97436": {
+          "id": "V97436",
+          "indicator": "BARE",
+          "type": "LINEAR-GROUPING",
+          "word": "LINE",
+          "roles": {
+            "LEX": "LINE",
+            "WNSENSE": "line%1:14:01::"
+          },
+          "start": 12,
+          "end": 17
+        },
+        "V97658": {
+          "id": "V97658",
+          "indicator": "F",
+          "type": "TIME-DURATION-REL",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V97681",
+            "FIGURE": "#V97368",
+            "LEX": "FOR"
+          },
+          "start": 17,
+          "end": 28
+        },
+        "V97681": {
+          "id": "V97681",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "#V97678",
+            "UNIT": "(:* HOUR-DURATION HOUR)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "HOUR",
+            "WNSENSE": "hour%1:28:00::"
+          },
+          "start": 21,
+          "end": 28
+        },
+        "V97678": {
+          "id": "V97678",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 21,
+          "end": 28
+        },
+        "root": "#V98368"
+      }
+    ],
+    [
+      {
+        "V98407": {
+          "id": "V98407",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V97368",
+            "LEX": "WAITED"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V97368": {
+          "id": "V97368",
+          "indicator": "F",
+          "type": "WAIT-WATCH",
+          "word": "WAIT",
+          "roles": {
+            "AGENT": "#V97354",
+            "EXTENT": "#V97658",
+            "LOCATION": "#V97380",
+            "TENSE": "PAST",
+            "LEX": "WAITED",
+            "WNSENSE": "wait%2:42:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V97354": {
+          "id": "V97354",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V97380": {
+          "id": "V97380",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V97436",
+            "FIGURE": "#V97368",
+            "LEX": "IN"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V97436": {
+          "id": "V97436",
+          "indicator": "BARE",
+          "type": "LINEAR-GROUPING",
+          "word": "LINE",
+          "roles": {
+            "LEX": "LINE",
+            "WNSENSE": "line%1:14:01::"
+          },
+          "start": 12,
+          "end": 17
+        },
+        "V97658": {
+          "id": "V97658",
+          "indicator": "F",
+          "type": "TIME-DURATION-REL",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V97681",
+            "FIGURE": "#V97368",
+            "LEX": "FOR"
+          },
+          "start": 17,
+          "end": 28
+        },
+        "V97681": {
+          "id": "V97681",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* HOUR-DURATION HOUR)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "HOUR",
+            "WNSENSE": "hour%1:28:00::"
+          },
+          "start": 21,
+          "end": 28
+        },
+        "root": "#V98407"
+      }
+    ],
+    [
+      {
+        "V98446": {
+          "id": "V98446",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V97368",
+            "LEX": "WAITED"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V97368": {
+          "id": "V97368",
+          "indicator": "F",
+          "type": "WAIT-WATCH",
+          "word": "WAIT",
+          "roles": {
+            "AGENT": "#V97354",
+            "EXTENT": "#V97658",
+            "REASON": "#V97383",
+            "TENSE": "PAST",
+            "LEX": "WAITED",
+            "WNSENSE": "wait%2:42:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V97354": {
+          "id": "V97354",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V97383": {
+          "id": "V97383",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V97438",
+            "FIGURE": "#V97368",
+            "LEX": "IN",
+            "WNSENSE": "in%4:02:01::"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V97438": {
+          "id": "V97438",
+          "indicator": "BARE",
+          "type": "GROUPING",
+          "word": "LINE",
+          "roles": {
+            "LEX": "LINE"
+          },
+          "start": 12,
+          "end": 17
+        },
+        "V97658": {
+          "id": "V97658",
+          "indicator": "F",
+          "type": "TIME-DURATION-REL",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V97681",
+            "FIGURE": "#V97368",
+            "LEX": "FOR"
+          },
+          "start": 17,
+          "end": 28
+        },
+        "V97681": {
+          "id": "V97681",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "#V97678",
+            "UNIT": "(:* HOUR-DURATION HOUR)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "HOUR",
+            "WNSENSE": "hour%1:28:00::"
+          },
+          "start": 21,
+          "end": 28
+        },
+        "V97678": {
+          "id": "V97678",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 21,
+          "end": 28
+        },
+        "root": "#V98446"
+      }
+    ],
+    [
+      {
+        "V98432": {
+          "id": "V98432",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V97368",
+            "LEX": "WAITED"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V97368": {
+          "id": "V97368",
+          "indicator": "F",
+          "type": "WAIT-WATCH",
+          "word": "WAIT",
+          "roles": {
+            "AGENT": "#V97354",
+            "EXTENT": "#V97658",
+            "REASON": "#V97383",
+            "TENSE": "PAST",
+            "LEX": "WAITED",
+            "WNSENSE": "wait%2:42:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V97354": {
+          "id": "V97354",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V97383": {
+          "id": "V97383",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V97437",
+            "FIGURE": "#V97368",
+            "LEX": "IN",
+            "WNSENSE": "in%4:02:01::"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V97437": {
+          "id": "V97437",
+          "indicator": "BARE",
+          "type": "GRAPHIC-SYMBOL",
+          "word": "LINE",
+          "roles": {
+            "LEX": "LINE"
+          },
+          "start": 12,
+          "end": 17
+        },
+        "V97658": {
+          "id": "V97658",
+          "indicator": "F",
+          "type": "TIME-DURATION-REL",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V97681",
+            "FIGURE": "#V97368",
+            "LEX": "FOR"
+          },
+          "start": 17,
+          "end": 28
+        },
+        "V97681": {
+          "id": "V97681",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "#V97678",
+            "UNIT": "(:* HOUR-DURATION HOUR)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "HOUR",
+            "WNSENSE": "hour%1:28:00::"
+          },
+          "start": 21,
+          "end": 28
+        },
+        "V97678": {
+          "id": "V97678",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 21,
+          "end": 28
+        },
+        "root": "#V98432"
+      }
+    ],
+    [
+      {
+        "V98499": {
+          "id": "V98499",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V97370",
+            "LEX": "WAITED"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V97370": {
+          "id": "V97370",
+          "indicator": "F",
+          "type": "WAIT-WATCH",
+          "word": "WAIT",
+          "roles": {
+            "AGENT": "#V97354",
+            "NEUTRAL": "#V97858",
+            "LOCATION": "#V97380",
+            "TENSE": "PAST",
+            "LEX": "WAITED",
+            "WNSENSE": "wait%2:42:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V97354": {
+          "id": "V97354",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V97380": {
+          "id": "V97380",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V97436",
+            "FIGURE": "#V97370",
+            "LEX": "IN"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V97436": {
+          "id": "V97436",
+          "indicator": "BARE",
+          "type": "LINEAR-GROUPING",
+          "word": "LINE",
+          "roles": {
+            "LEX": "LINE",
+            "WNSENSE": "line%1:14:01::"
+          },
+          "start": 12,
+          "end": 17
+        },
+        "V97858": {
+          "id": "V97858",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V97681",
+            "LEX": "HOUR"
+          },
+          "start": 17,
+          "end": 28
+        },
+        "V97681": {
+          "id": "V97681",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* HOUR-DURATION HOUR)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "HOUR",
+            "WNSENSE": "hour%1:28:00::"
+          },
+          "start": 21,
+          "end": 28
+        },
+        "root": "#V98499"
+      }
+    ],
+    [
+      {
+        "V98538": {
+          "id": "V98538",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V97368",
+            "LEX": "WAITED"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V97368": {
+          "id": "V97368",
+          "indicator": "F",
+          "type": "WAIT-WATCH",
+          "word": "WAIT",
+          "roles": {
+            "AGENT": "#V97354",
+            "EXTENT": "#V97658",
+            "LOCATION": "#V97380",
+            "TENSE": "PAST",
+            "LEX": "WAITED",
+            "WNSENSE": "wait%2:42:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V97354": {
+          "id": "V97354",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V97380": {
+          "id": "V97380",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V97436",
+            "FIGURE": "#V97368",
+            "LEX": "IN"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V97436": {
+          "id": "V97436",
+          "indicator": "BARE",
+          "type": "LINEAR-GROUPING",
+          "word": "LINE",
+          "roles": {
+            "LEX": "LINE",
+            "WNSENSE": "line%1:14:01::"
+          },
+          "start": 12,
+          "end": 17
+        },
+        "V97658": {
+          "id": "V97658",
+          "indicator": "F",
+          "type": "TIME-DURATION-REL",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V97793",
+            "FIGURE": "#V97368",
+            "LEX": "FOR"
+          },
+          "start": 17,
+          "end": 28
+        },
+        "V97793": {
+          "id": "V97793",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V97681",
+            "LEX": "HOUR"
+          },
+          "start": 21,
+          "end": 28
+        },
+        "V97681": {
+          "id": "V97681",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "#V97678",
+            "UNIT": "(:* HOUR-DURATION HOUR)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "HOUR",
+            "WNSENSE": "hour%1:28:00::"
+          },
+          "start": 21,
+          "end": 28
+        },
+        "V97678": {
+          "id": "V97678",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 21,
+          "end": 28
+        },
+        "root": "#V98538"
+      }
+    ]
+  ],
+  "sentence": "I waited in line for an hour.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190821T163804",
+    "link": "http://trips.ihmc.us/parser/saved/20190821T163804-STEP-abhatia-1-I_waited_in_line_for_an_hour_.xml",
+    "judgement": 1
+  }
+}

@@ -1,0 +1,1254 @@
+{
+  "parse": [
+    {
+      "V193104": {
+        "id": "V193104",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V192533",
+          "LEX": "IDENTIFIED"
+        },
+        "start": 0,
+        "end": 49
+      },
+      "V192533": {
+        "id": "V192533",
+        "indicator": "F",
+        "type": "CLASSIFY",
+        "word": "IDENTIFY",
+        "roles": {
+          "AGENT": "#V192527",
+          "NEUTRAL": "#V192585",
+          "MOD": "#V192513",
+          "REASON": "#V192597",
+          "TENSE": "PAST",
+          "LEX": "IDENTIFIED"
+        },
+        "start": 0,
+        "end": 49
+      },
+      "V192513": {
+        "id": "V192513",
+        "indicator": "F",
+        "type": "SEQUENCE-POSITION",
+        "word": "NEXT",
+        "roles": {
+          "FIGURE": "#V192533",
+          "LEX": "NEXT",
+          "WNSENSE": "next%4:02:00::"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V192527": {
+        "id": "V192527",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "SHE",
+        "roles": {
+          "PROFORM": "SHE",
+          "LEX": "SHE",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 6,
+        "end": 10
+      },
+      "V192585": {
+        "id": "V192585",
+        "indicator": "A",
+        "type": "REGION-FOR-ACTIVITY",
+        "word": "PARK",
+        "roles": {
+          "ASSOC-WITH": "#V192579",
+          "LEX": "PARK",
+          "WNSENSE": "park%1:15:00::"
+        },
+        "start": 21,
+        "end": 32
+      },
+      "V192579": {
+        "id": "V192579",
+        "indicator": "KIND",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "DOG",
+        "roles": {
+          "LEX": "DOG",
+          "WNSENSE": "dog%1:05:00::"
+        },
+        "start": 21,
+        "end": 32
+      },
+      "V192597": {
+        "id": "V192597",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V192626",
+          "FIGURE": "#V192533",
+          "LEX": "TO"
+        },
+        "start": 32,
+        "end": 49
+      },
+      "V192626": {
+        "id": "V192626",
+        "indicator": "F",
+        "type": "BODY-MANIPULATION",
+        "word": "HOLD",
+        "roles": {
+          "AFFECTED": "#V192648",
+          "VFORM": "BASE",
+          "LEX": "HOLD",
+          "WNSENSE": "hold%2:35:00::"
+        },
+        "start": 35,
+        "end": 49
+      },
+      "V192648": {
+        "id": "V192648",
+        "indicator": "THE",
+        "type": "GATHERING-EVENT",
+        "word": "PARTY",
+        "roles": {
+          "LEX": "PARTY",
+          "WNSENSE": "party%1:14:00::"
+        },
+        "start": 40,
+        "end": 49
+      },
+      "root": "#V193104"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V193101": {
+          "id": "V193101",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V192534",
+            "LEX": "IDENTIFIED"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V192534": {
+          "id": "V192534",
+          "indicator": "F",
+          "type": "CLASSIFY",
+          "word": "IDENTIFY",
+          "roles": {
+            "AGENT": "#V192527",
+            "FORMAL": "#V192585",
+            "MOD": "#V192513",
+            "REASON": "#V192597",
+            "TENSE": "PAST",
+            "LEX": "IDENTIFIED"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V192513": {
+          "id": "V192513",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V192534",
+            "LEX": "NEXT",
+            "WNSENSE": "next%4:02:00::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V192527": {
+          "id": "V192527",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 6,
+          "end": 10
+        },
+        "V192585": {
+          "id": "V192585",
+          "indicator": "A",
+          "type": "REGION-FOR-ACTIVITY",
+          "word": "PARK",
+          "roles": {
+            "ASSOC-WITH": "#V192579",
+            "LEX": "PARK",
+            "WNSENSE": "park%1:15:00::"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V192579": {
+          "id": "V192579",
+          "indicator": "KIND",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOG",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V192597": {
+          "id": "V192597",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V192626",
+            "FIGURE": "#V192534",
+            "LEX": "TO"
+          },
+          "start": 32,
+          "end": 49
+        },
+        "V192626": {
+          "id": "V192626",
+          "indicator": "F",
+          "type": "BODY-MANIPULATION",
+          "word": "HOLD",
+          "roles": {
+            "AFFECTED": "#V192648",
+            "VFORM": "BASE",
+            "LEX": "HOLD",
+            "WNSENSE": "hold%2:35:00::"
+          },
+          "start": 35,
+          "end": 49
+        },
+        "V192648": {
+          "id": "V192648",
+          "indicator": "THE",
+          "type": "GATHERING-EVENT",
+          "word": "PARTY",
+          "roles": {
+            "LEX": "PARTY",
+            "WNSENSE": "party%1:14:00::"
+          },
+          "start": 40,
+          "end": 49
+        },
+        "root": "#V193101"
+      }
+    ],
+    [
+      {
+        "V193217": {
+          "id": "V193217",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V192533",
+            "LEX": "IDENTIFIED"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V192533": {
+          "id": "V192533",
+          "indicator": "F",
+          "type": "CLASSIFY",
+          "word": "IDENTIFY",
+          "roles": {
+            "AGENT": "#V192527",
+            "NEUTRAL": "#V192585",
+            "MOD": "#V192513",
+            "REASON": "#V192597",
+            "TENSE": "PAST",
+            "LEX": "IDENTIFIED"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V192513": {
+          "id": "V192513",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V192533",
+            "LEX": "NEXT",
+            "WNSENSE": "next%4:02:00::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V192527": {
+          "id": "V192527",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 6,
+          "end": 10
+        },
+        "V192585": {
+          "id": "V192585",
+          "indicator": "A",
+          "type": "REGION-FOR-ACTIVITY",
+          "word": "PARK",
+          "roles": {
+            "ASSOC-WITH": "#V192579",
+            "LEX": "PARK",
+            "WNSENSE": "park%1:15:00::"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V192579": {
+          "id": "V192579",
+          "indicator": "KIND",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOG",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V192597": {
+          "id": "V192597",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V192627",
+            "FIGURE": "#V192533",
+            "LEX": "TO"
+          },
+          "start": 32,
+          "end": 49
+        },
+        "V192627": {
+          "id": "V192627",
+          "indicator": "F",
+          "type": "RETAIN",
+          "word": "HOLD",
+          "roles": {
+            "AFFECTED": "#V192647",
+            "VFORM": "BASE",
+            "LEX": "HOLD",
+            "WNSENSE": "hold%2:40:02::"
+          },
+          "start": 35,
+          "end": 49
+        },
+        "V192647": {
+          "id": "V192647",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "PARTY",
+          "roles": {
+            "LEX": "PARTY",
+            "WNSENSE": "party%1:18:00::"
+          },
+          "start": 40,
+          "end": 49
+        },
+        "root": "#V193217"
+      }
+    ],
+    [
+      {
+        "V193214": {
+          "id": "V193214",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V192533",
+            "LEX": "IDENTIFIED"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V192533": {
+          "id": "V192533",
+          "indicator": "F",
+          "type": "CLASSIFY",
+          "word": "IDENTIFY",
+          "roles": {
+            "AGENT": "#V192527",
+            "NEUTRAL": "#V192585",
+            "MOD": "#V192513",
+            "REASON": "#V192597",
+            "TENSE": "PAST",
+            "LEX": "IDENTIFIED"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V192513": {
+          "id": "V192513",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V192533",
+            "LEX": "NEXT",
+            "WNSENSE": "next%4:02:00::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V192527": {
+          "id": "V192527",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 6,
+          "end": 10
+        },
+        "V192585": {
+          "id": "V192585",
+          "indicator": "A",
+          "type": "REGION-FOR-ACTIVITY",
+          "word": "PARK",
+          "roles": {
+            "ASSOC-WITH": "#V192579",
+            "LEX": "PARK",
+            "WNSENSE": "park%1:15:00::"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V192579": {
+          "id": "V192579",
+          "indicator": "KIND",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOG",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V192597": {
+          "id": "V192597",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V192626",
+            "FIGURE": "#V192533",
+            "LEX": "TO"
+          },
+          "start": 32,
+          "end": 49
+        },
+        "V192626": {
+          "id": "V192626",
+          "indicator": "F",
+          "type": "BODY-MANIPULATION",
+          "word": "HOLD",
+          "roles": {
+            "AFFECTED": "#V192647",
+            "VFORM": "BASE",
+            "LEX": "HOLD",
+            "WNSENSE": "hold%2:35:00::"
+          },
+          "start": 35,
+          "end": 49
+        },
+        "V192647": {
+          "id": "V192647",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "PARTY",
+          "roles": {
+            "LEX": "PARTY",
+            "WNSENSE": "party%1:18:00::"
+          },
+          "start": 40,
+          "end": 49
+        },
+        "root": "#V193214"
+      }
+    ],
+    [
+      {
+        "V193211": {
+          "id": "V193211",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V192533",
+            "LEX": "IDENTIFIED"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V192533": {
+          "id": "V192533",
+          "indicator": "F",
+          "type": "CLASSIFY",
+          "word": "IDENTIFY",
+          "roles": {
+            "AGENT": "#V192527",
+            "NEUTRAL": "#V192585",
+            "MOD": "#V192513",
+            "REASON": "#V192597",
+            "TENSE": "PAST",
+            "LEX": "IDENTIFIED"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V192513": {
+          "id": "V192513",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V192533",
+            "LEX": "NEXT",
+            "WNSENSE": "next%4:02:00::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V192527": {
+          "id": "V192527",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 6,
+          "end": 10
+        },
+        "V192585": {
+          "id": "V192585",
+          "indicator": "A",
+          "type": "REGION-FOR-ACTIVITY",
+          "word": "PARK",
+          "roles": {
+            "ASSOC-WITH": "#V192579",
+            "LEX": "PARK",
+            "WNSENSE": "park%1:15:00::"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V192579": {
+          "id": "V192579",
+          "indicator": "KIND",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOG",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V192597": {
+          "id": "V192597",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V192625",
+            "FIGURE": "#V192533",
+            "LEX": "TO"
+          },
+          "start": 32,
+          "end": 49
+        },
+        "V192625": {
+          "id": "V192625",
+          "indicator": "F",
+          "type": "CONTAINMENT",
+          "word": "HOLD",
+          "roles": {
+            "NEUTRAL1": "#V192647",
+            "VFORM": "BASE",
+            "LEX": "HOLD",
+            "WNSENSE": "hold%2:42:05::"
+          },
+          "start": 35,
+          "end": 49
+        },
+        "V192647": {
+          "id": "V192647",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "PARTY",
+          "roles": {
+            "LEX": "PARTY",
+            "WNSENSE": "party%1:18:00::"
+          },
+          "start": 40,
+          "end": 49
+        },
+        "root": "#V193211"
+      }
+    ],
+    [
+      {
+        "V193208": {
+          "id": "V193208",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V192534",
+            "LEX": "IDENTIFIED"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V192534": {
+          "id": "V192534",
+          "indicator": "F",
+          "type": "CLASSIFY",
+          "word": "IDENTIFY",
+          "roles": {
+            "AGENT": "#V192527",
+            "FORMAL": "#V192585",
+            "MOD": "#V192513",
+            "REASON": "#V192597",
+            "TENSE": "PAST",
+            "LEX": "IDENTIFIED"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V192513": {
+          "id": "V192513",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V192534",
+            "LEX": "NEXT",
+            "WNSENSE": "next%4:02:00::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V192527": {
+          "id": "V192527",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 6,
+          "end": 10
+        },
+        "V192585": {
+          "id": "V192585",
+          "indicator": "A",
+          "type": "REGION-FOR-ACTIVITY",
+          "word": "PARK",
+          "roles": {
+            "ASSOC-WITH": "#V192579",
+            "LEX": "PARK",
+            "WNSENSE": "park%1:15:00::"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V192579": {
+          "id": "V192579",
+          "indicator": "KIND",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOG",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V192597": {
+          "id": "V192597",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V192627",
+            "FIGURE": "#V192534",
+            "LEX": "TO"
+          },
+          "start": 32,
+          "end": 49
+        },
+        "V192627": {
+          "id": "V192627",
+          "indicator": "F",
+          "type": "RETAIN",
+          "word": "HOLD",
+          "roles": {
+            "AFFECTED": "#V192647",
+            "VFORM": "BASE",
+            "LEX": "HOLD",
+            "WNSENSE": "hold%2:40:02::"
+          },
+          "start": 35,
+          "end": 49
+        },
+        "V192647": {
+          "id": "V192647",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "PARTY",
+          "roles": {
+            "LEX": "PARTY",
+            "WNSENSE": "party%1:18:00::"
+          },
+          "start": 40,
+          "end": 49
+        },
+        "root": "#V193208"
+      }
+    ],
+    [
+      {
+        "V193205": {
+          "id": "V193205",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V192534",
+            "LEX": "IDENTIFIED"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V192534": {
+          "id": "V192534",
+          "indicator": "F",
+          "type": "CLASSIFY",
+          "word": "IDENTIFY",
+          "roles": {
+            "AGENT": "#V192527",
+            "FORMAL": "#V192585",
+            "MOD": "#V192513",
+            "REASON": "#V192597",
+            "TENSE": "PAST",
+            "LEX": "IDENTIFIED"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V192513": {
+          "id": "V192513",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V192534",
+            "LEX": "NEXT",
+            "WNSENSE": "next%4:02:00::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V192527": {
+          "id": "V192527",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 6,
+          "end": 10
+        },
+        "V192585": {
+          "id": "V192585",
+          "indicator": "A",
+          "type": "REGION-FOR-ACTIVITY",
+          "word": "PARK",
+          "roles": {
+            "ASSOC-WITH": "#V192579",
+            "LEX": "PARK",
+            "WNSENSE": "park%1:15:00::"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V192579": {
+          "id": "V192579",
+          "indicator": "KIND",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOG",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V192597": {
+          "id": "V192597",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V192626",
+            "FIGURE": "#V192534",
+            "LEX": "TO"
+          },
+          "start": 32,
+          "end": 49
+        },
+        "V192626": {
+          "id": "V192626",
+          "indicator": "F",
+          "type": "BODY-MANIPULATION",
+          "word": "HOLD",
+          "roles": {
+            "AFFECTED": "#V192647",
+            "VFORM": "BASE",
+            "LEX": "HOLD",
+            "WNSENSE": "hold%2:35:00::"
+          },
+          "start": 35,
+          "end": 49
+        },
+        "V192647": {
+          "id": "V192647",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "PARTY",
+          "roles": {
+            "LEX": "PARTY",
+            "WNSENSE": "party%1:18:00::"
+          },
+          "start": 40,
+          "end": 49
+        },
+        "root": "#V193205"
+      }
+    ],
+    [
+      {
+        "V193202": {
+          "id": "V193202",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V192534",
+            "LEX": "IDENTIFIED"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V192534": {
+          "id": "V192534",
+          "indicator": "F",
+          "type": "CLASSIFY",
+          "word": "IDENTIFY",
+          "roles": {
+            "AGENT": "#V192527",
+            "FORMAL": "#V192585",
+            "MOD": "#V192513",
+            "REASON": "#V192597",
+            "TENSE": "PAST",
+            "LEX": "IDENTIFIED"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V192513": {
+          "id": "V192513",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V192534",
+            "LEX": "NEXT",
+            "WNSENSE": "next%4:02:00::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V192527": {
+          "id": "V192527",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 6,
+          "end": 10
+        },
+        "V192585": {
+          "id": "V192585",
+          "indicator": "A",
+          "type": "REGION-FOR-ACTIVITY",
+          "word": "PARK",
+          "roles": {
+            "ASSOC-WITH": "#V192579",
+            "LEX": "PARK",
+            "WNSENSE": "park%1:15:00::"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V192579": {
+          "id": "V192579",
+          "indicator": "KIND",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOG",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V192597": {
+          "id": "V192597",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V192625",
+            "FIGURE": "#V192534",
+            "LEX": "TO"
+          },
+          "start": 32,
+          "end": 49
+        },
+        "V192625": {
+          "id": "V192625",
+          "indicator": "F",
+          "type": "CONTAINMENT",
+          "word": "HOLD",
+          "roles": {
+            "NEUTRAL1": "#V192647",
+            "VFORM": "BASE",
+            "LEX": "HOLD",
+            "WNSENSE": "hold%2:42:05::"
+          },
+          "start": 35,
+          "end": 49
+        },
+        "V192647": {
+          "id": "V192647",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "PARTY",
+          "roles": {
+            "LEX": "PARTY",
+            "WNSENSE": "party%1:18:00::"
+          },
+          "start": 40,
+          "end": 49
+        },
+        "root": "#V193202"
+      }
+    ],
+    [
+      {
+        "V193077": {
+          "id": "V193077",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V192533",
+            "MOD": "#V192512",
+            "LEX": "IDENTIFIED"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V192512": {
+          "id": "V192512",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V193077",
+            "LEX": "NEXT",
+            "WNSENSE": "next%4:02:00::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V192533": {
+          "id": "V192533",
+          "indicator": "F",
+          "type": "CLASSIFY",
+          "word": "IDENTIFY",
+          "roles": {
+            "AGENT": "#V192527",
+            "NEUTRAL": "#V192585",
+            "REASON": "#V192597",
+            "TENSE": "PAST",
+            "LEX": "IDENTIFIED",
+            "WNSENSE": "identify%2:31:01::"
+          },
+          "start": 6,
+          "end": 49
+        },
+        "V192527": {
+          "id": "V192527",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 6,
+          "end": 10
+        },
+        "V192585": {
+          "id": "V192585",
+          "indicator": "A",
+          "type": "REGION-FOR-ACTIVITY",
+          "word": "PARK",
+          "roles": {
+            "ASSOC-WITH": "#V192579",
+            "LEX": "PARK",
+            "WNSENSE": "park%1:15:00::"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V192579": {
+          "id": "V192579",
+          "indicator": "KIND",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOG",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V192597": {
+          "id": "V192597",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V192626",
+            "FIGURE": "#V192533",
+            "LEX": "TO"
+          },
+          "start": 32,
+          "end": 49
+        },
+        "V192626": {
+          "id": "V192626",
+          "indicator": "F",
+          "type": "BODY-MANIPULATION",
+          "word": "HOLD",
+          "roles": {
+            "AFFECTED": "#V192648",
+            "VFORM": "BASE",
+            "LEX": "HOLD",
+            "WNSENSE": "hold%2:35:00::"
+          },
+          "start": 35,
+          "end": 49
+        },
+        "V192648": {
+          "id": "V192648",
+          "indicator": "THE",
+          "type": "GATHERING-EVENT",
+          "word": "PARTY",
+          "roles": {
+            "LEX": "PARTY",
+            "WNSENSE": "party%1:14:00::"
+          },
+          "start": 40,
+          "end": 49
+        },
+        "root": "#V193077"
+      }
+    ],
+    [
+      {
+        "V193068": {
+          "id": "V193068",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V192534",
+            "MOD": "#V192512",
+            "LEX": "IDENTIFIED"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V192512": {
+          "id": "V192512",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V193068",
+            "LEX": "NEXT",
+            "WNSENSE": "next%4:02:00::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V192534": {
+          "id": "V192534",
+          "indicator": "F",
+          "type": "CLASSIFY",
+          "word": "IDENTIFY",
+          "roles": {
+            "AGENT": "#V192527",
+            "FORMAL": "#V192585",
+            "REASON": "#V192597",
+            "TENSE": "PAST",
+            "LEX": "IDENTIFIED",
+            "WNSENSE": "identify%2:31:01::"
+          },
+          "start": 6,
+          "end": 49
+        },
+        "V192527": {
+          "id": "V192527",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 6,
+          "end": 10
+        },
+        "V192585": {
+          "id": "V192585",
+          "indicator": "A",
+          "type": "REGION-FOR-ACTIVITY",
+          "word": "PARK",
+          "roles": {
+            "ASSOC-WITH": "#V192579",
+            "LEX": "PARK",
+            "WNSENSE": "park%1:15:00::"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V192579": {
+          "id": "V192579",
+          "indicator": "KIND",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOG",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V192597": {
+          "id": "V192597",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V192626",
+            "FIGURE": "#V192534",
+            "LEX": "TO"
+          },
+          "start": 32,
+          "end": 49
+        },
+        "V192626": {
+          "id": "V192626",
+          "indicator": "F",
+          "type": "BODY-MANIPULATION",
+          "word": "HOLD",
+          "roles": {
+            "AFFECTED": "#V192648",
+            "VFORM": "BASE",
+            "LEX": "HOLD",
+            "WNSENSE": "hold%2:35:00::"
+          },
+          "start": 35,
+          "end": 49
+        },
+        "V192648": {
+          "id": "V192648",
+          "indicator": "THE",
+          "type": "GATHERING-EVENT",
+          "word": "PARTY",
+          "roles": {
+            "LEX": "PARTY",
+            "WNSENSE": "party%1:14:00::"
+          },
+          "start": 40,
+          "end": 49
+        },
+        "root": "#V193068"
+      }
+    ]
+  ],
+  "sentence": "Next, she identified a dog park to hold the party.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190816T134811",
+    "link": "http://trips.ihmc.us/parser/saved/20190816T134811-STEP-abhatia-none-Next_she_identified_a_dog_park_to_hold_t.xml",
+    "judgement": -1
+  }
+}

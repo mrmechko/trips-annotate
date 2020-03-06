@@ -1,0 +1,21 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V99732 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V99441 [label=<<font color="green"><br /></font> <font color="black">EVOKE-OFFENSE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">INSULT</font> <font color="green"><br /></font> <font color="green">offend%2:37:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EVOKE-OFFENSE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V99435 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HE</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V99488 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">MAN</font> <font color="green"><br /></font> <font color="green">man%1:18:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V99485 [label=<<font color="green"><br /></font> <font color="black">LARGE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">LARGE</font> <font color="green"><br /></font> <font color="green">large%3:00:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::LARGE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V99495 [label=<<font color="green"><br /></font> <font color="black">WITH-INSTRUMENT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">WITH</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::WITH-INSTRUMENT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V99546 [label=<<font color="green"><br /></font> <font color="black">FIREARM</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">FIREARM</font> <font color="green"><br /></font> <font color="green">firearm%1:06:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FIREARM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V99495 -> V99546 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V99485 -> V99488 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V99495 -> V99441 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V99732 -> V99441 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V99488 -> V99485 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V99441 -> V99495 [label=" METHOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V99441 -> V99488 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V99441 -> V99435 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

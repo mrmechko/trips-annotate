@@ -1,0 +1,21 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V70922 [label=<<font color="green"><br /></font> <font color="black">SA_WH-QUESTION</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_WH-QUESTION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70328 [label=<<font color="green"><br /></font> <font color="black">OCCURRING</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">GO</font> <font color="green"><br /></font> <font color="green">go%2:30:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::OCCURRING.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70288 [label=<<font color="green"><br /></font> <font color="black">BY-MEANS-OF</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">HOW</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BY-MEANS-OF.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70370 [label=<<font color="green"><br /></font> <font color="black">METHOD</font> <font color="green"><br /></font> <font color="red">WH-TERM</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::METHOD.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70312 [label=<<font color="green"><br /></font> <font color="black">MUSIC</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">SONG</font> <font color="green"><br /></font> <font color="green">song%1:10:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MUSIC.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70349 [label=<<font color="green"><br /></font> <font color="black">AGAIN</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">AGAIN</font> <font color="green"><br /></font> <font color="green">again%4:02:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::AGAIN.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70328 -> V70312 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70349 -> V70328 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70288 -> V70370 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70922 -> V70370 [label=" FOCUS   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70288 -> V70328 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70370 -> V70288 [label=" SUCHTHAT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70922 -> V70328 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70328 -> V70349 [label=" FREQUENCY   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70328 -> V70288 [label=" METHOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

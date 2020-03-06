@@ -1,0 +1,16 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V240032 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V238640 [label=<<font color="green"><br /></font> <font color="black">HAVE-PROPERTY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BE</font> <font color="green"><br /></font> <font color="green">be%2:42:03::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::HAVE-PROPERTY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V238632 [label=<<font color="green"><br /></font> <font color="black">PRESENTATION</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">CIRCUS</font> <font color="green"><br /></font> <font color="green">circus%1:04:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PRESENTATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V238662 [label=<<font color="green"><br /></font> <font color="black">IN-SCALE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">IN</font> <font color="green"><br /></font> <font color="green">in%4:02:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::IN-SCALE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V238714 [label=<<font color="green"><br /></font> <font color="black">DISTRICT</font> <font color="green"><br /></font> <font color="red">BARE</font> <font color="blue">TOWN</font> <font color="green"><br /></font> <font color="green">town%1:15:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DISTRICT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V238640 -> V238632 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V238640 -> V238662 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V238662 -> V238632 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V240032 -> V238640 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V238662 -> V238714 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

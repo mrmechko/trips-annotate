@@ -1,0 +1,30 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V390673 [label=<<font color="green"><br /></font> <font color="black">SA_REQUEST</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_REQUEST.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V389257 [label=<<font color="green"><br /></font> <font color="black">PUT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">PUT</font> <font color="green"><br /></font> <font color="green">put%2:35:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PUT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V390671 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">IMPRO</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V389284 [label=<<font color="green"><br /></font> <font color="black">BLOCK</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">BLOCK</font> <font color="green"><br /></font> <font color="green">block%1:06:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BLOCK.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V389294 [label=<<font color="green"><br /></font> <font color="black">ADJACENT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">NEXT-TO</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ADJACENT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V389335 [label=<<font color="green"><br /></font> <font color="black">PLACE</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">LOCATION</font> <font color="green"><br /></font> <font color="green">location%1:03:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PLACE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V389343 [label=<<font color="green"><br /></font> <font color="black">AT-LOC</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">WHERE</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::AT-LOC.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V389369 [label=<<font color="green"><br /></font> <font color="black">SUBMIT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">PLACE</font> <font color="green"><br /></font> <font color="green">submit%2:32:01</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SUBMIT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V389360 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">YOU</font> <font color="green"><br /></font> <font color="green">person%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V389399 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">ONE</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V389383 [label=<<font color="green"><br /></font> <font color="black">LAST-VAL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">LAST</font> <font color="green"><br /></font> <font color="green">last%3:00:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::LAST-VAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V389257 -> V389343 [label=" LOCATION   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V389369 -> V389399 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V389383 -> V389399 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V390673 -> V389257 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V389257 -> V390671 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V389343 -> V389369 [label=" GROUND   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V389257 -> V389294 [label=" RESULT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V389343 -> V389257 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V389257 -> V389284 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V389369 -> V389360 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V389399 -> V389383 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V389294 -> V389335 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V389294 -> V389284 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

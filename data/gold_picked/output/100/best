@@ -1,0 +1,19 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V202561 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V202074 [label=<<font color="green"><br /></font> <font color="black">HAVE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">HAVE</font> <font color="green"><br /></font> <font color="green">have%2:40:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::HAVE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V202030 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">STEVE</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V202064 [label=<<font color="green"><br /></font> <font color="black">EVAL-WRT-EXPECTATION</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">JUST</font> <font color="green"><br /></font> <font color="green">just%4:02:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EVAL-WRT-EXPECTATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V202140 [label=<<font color="green"><br /></font> <font color="black">CHILD</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">BABY</font> <font color="green"><br /></font> <font color="green">baby%1:18:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::CHILD.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V202134 [label=<<font color="green"><br /></font> <font color="black">NOVELTY-VAL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">NEW</font> <font color="green"><br /></font> <font color="green">new%5:00:00:original:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::NOVELTY-VAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V202561 -> V202074 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V202140 -> V202134 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V202064 -> V202074 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V202074 -> V202140 [label=" NEUTRAL1   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V202074 -> V202030 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V202134 -> V202140 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V202074 -> V202064 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

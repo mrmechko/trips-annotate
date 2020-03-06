@@ -1,0 +1,19 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V109637 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V108817 [label=<<font color="green"><br /></font> <font color="black">HAVE-PROPERTY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BE</font> <font color="green"><br /></font> <font color="green">be%2:42:03::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::HAVE-PROPERTY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V108807 [label=<<font color="green"><br /></font> <font color="black">GEOGRAPHIC-REGION</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">TOM</font> <font color="green"><br /></font> <font color="green">north_america%1:14:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GEOGRAPHIC-REGION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V108835 [label=<<font color="green"><br /></font> <font color="black">ASSOC-WITH</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">ON</font> <font color="green"><br /></font> <font color="green">on%4:02:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ASSOC-WITH.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V108884 [label=<<font color="green"><br /></font> <font color="black">SOCIAL-GROUP</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">TEAM</font> <font color="green"><br /></font> <font color="green">social_group%1:14:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SOCIAL-GROUP.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V108878 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">KIND</font> <font color="blue">BARTBALL</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V108872 [label=<<font color="green"><br /></font> <font color="black">ACADEMIC-INSTITUTION</font> <font color="green"><br /></font> <font color="red">KIND</font> <font color="blue">HIGH-SCHOOL</font> <font color="green"><br /></font> <font color="green">high_school%1:14:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ACADEMIC-INSTITUTION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V108817 -> V108807 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V108817 -> V108835 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V109637 -> V108817 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V108835 -> V108884 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V108835 -> V108807 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V108884 -> V108878 [label=" ASSOC-WITH   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

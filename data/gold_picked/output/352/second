@@ -1,0 +1,15 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V453836 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V453506 [label=<<font color="green"><br /></font> <font color="black">DRIVE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">DRIVE</font> <font color="green"><br /></font> <font color="green">drive%2:38:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DRIVE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V453485 [label=<<font color="green"><br /></font> <font color="black">CHILD</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">CHILD</font> <font color="green"><br /></font> <font color="green">child%1:18:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::CHILD.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V453565 [label=<<font color="green"><br /></font> <font color="black">TRUCK</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">TRUCK</font> <font color="green"><br /></font> <font color="green">truck%1:06:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TRUCK.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V453559 [label=<<font color="green"><br /></font> <font color="black">CHILD</font> <font color="green"><br /></font> <font color="red">KIND</font> <font color="blue">CHILD</font> <font color="green"><br /></font> <font color="green">child%1:18:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::CHILD.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V453506 -> V453485 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V453836 -> V453506 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V453506 -> V453565 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V453565 -> V453559 [label=" ASSOC-WITH   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

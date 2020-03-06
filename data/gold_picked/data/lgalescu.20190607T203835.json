@@ -1,0 +1,322 @@
+{
+  "parse": [
+    {
+      "V94473": {
+        "id": "V94473",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V93532"
+        },
+        "start": 0,
+        "end": 61
+      },
+      "V93532": {
+        "id": "V93532",
+        "indicator": "F",
+        "type": "EXISTS",
+        "word": "BE",
+        "roles": {
+          "NOROLE": "#V93515",
+          "NEUTRAL": "#V93574",
+          "TENSE": "PRES"
+        },
+        "start": 0,
+        "end": 60
+      },
+      "V93515": {
+        "id": "V93515",
+        "indicator": "PRO",
+        "type": "EXPLETIVE",
+        "word": null,
+        "roles": {
+          "PROFORM": "THERE"
+        },
+        "start": 0,
+        "end": 6
+      },
+      "V93574": {
+        "id": "V93574",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V93570",
+          "SEQUENCE1": "#V93611"
+        },
+        "start": 10,
+        "end": 60
+      },
+      "V93570": {
+        "id": "V93570",
+        "indicator": "THE",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "MOD": "#V93551"
+        },
+        "start": 10,
+        "end": 23
+      },
+      "V93551": {
+        "id": "V93551",
+        "indicator": "F",
+        "type": "QMODIFIER",
+        "word": "MORE-THAN",
+        "roles": {
+          "FIGURE": "#V93570",
+          "GROUND": "#V93850"
+        },
+        "start": 10,
+        "end": 23
+      },
+      "V93850": {
+        "id": "V93850",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "22"
+        },
+        "start": 10,
+        "end": 23
+      },
+      "V93611": {
+        "id": "V93611",
+        "indicator": "INDEF-SET",
+        "type": "TRAVELLER",
+        "word": "REFUGEES",
+        "roles": {
+          "SIZE": "#V93608",
+          "LOCATION": "#V93619"
+        },
+        "start": 27,
+        "end": 60
+      },
+      "V93608": {
+        "id": "V93608",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "MOD": "#V93591"
+        },
+        "start": 27,
+        "end": 40
+      },
+      "V93591": {
+        "id": "V93591",
+        "indicator": "F",
+        "type": "QMODIFIER",
+        "word": "LESS-THAN",
+        "roles": {
+          "FIGURE": "#V93608",
+          "GROUND": "#V93797"
+        },
+        "start": 27,
+        "end": 40
+      },
+      "V93797": {
+        "id": "V93797",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "44"
+        },
+        "start": 27,
+        "end": 40
+      },
+      "V93619": {
+        "id": "V93619",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V93735",
+          "FIGURE": "#V93611"
+        },
+        "start": 49,
+        "end": 60
+      },
+      "V93735": {
+        "id": "V93735",
+        "indicator": "THE",
+        "type": "LODGING",
+        "word": "CAMP",
+        "roles": {},
+        "start": 52,
+        "end": 60
+      },
+      "root": "#V94473"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V94424": {
+          "id": "V94424",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V93532"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V93532": {
+          "id": "V93532",
+          "indicator": "F",
+          "type": "EXISTS",
+          "word": "BE",
+          "roles": {
+            "NOROLE": "#V93515",
+            "NEUTRAL": "#V93574",
+            "LOCATION": "#V93619",
+            "TENSE": "PRES"
+          },
+          "start": 0,
+          "end": 60
+        },
+        "V93515": {
+          "id": "V93515",
+          "indicator": "PRO",
+          "type": "EXPLETIVE",
+          "word": null,
+          "roles": {
+            "PROFORM": "THERE"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V93574": {
+          "id": "V93574",
+          "indicator": "INDEF-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V93570",
+            "SEQUENCE1": "#V93611"
+          },
+          "start": 10,
+          "end": 49
+        },
+        "V93570": {
+          "id": "V93570",
+          "indicator": "THE",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "MOD": "#V93551"
+          },
+          "start": 10,
+          "end": 23
+        },
+        "V93551": {
+          "id": "V93551",
+          "indicator": "F",
+          "type": "QMODIFIER",
+          "word": "MORE-THAN",
+          "roles": {
+            "FIGURE": "#V93570",
+            "GROUND": "#V93850"
+          },
+          "start": 10,
+          "end": 23
+        },
+        "V93850": {
+          "id": "V93850",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "22"
+          },
+          "start": 10,
+          "end": 23
+        },
+        "V93611": {
+          "id": "V93611",
+          "indicator": "INDEF-SET",
+          "type": "TRAVELLER",
+          "word": "REFUGEES",
+          "roles": {
+            "SIZE": "#V93608"
+          },
+          "start": 27,
+          "end": 49
+        },
+        "V93608": {
+          "id": "V93608",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "MOD": "#V93591"
+          },
+          "start": 27,
+          "end": 40
+        },
+        "V93591": {
+          "id": "V93591",
+          "indicator": "F",
+          "type": "QMODIFIER",
+          "word": "LESS-THAN",
+          "roles": {
+            "FIGURE": "#V93608",
+            "GROUND": "#V93797"
+          },
+          "start": 27,
+          "end": 40
+        },
+        "V93797": {
+          "id": "V93797",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "44"
+          },
+          "start": 27,
+          "end": 40
+        },
+        "V93619": {
+          "id": "V93619",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V93735",
+            "FIGURE": "#V93532"
+          },
+          "start": 49,
+          "end": 60
+        },
+        "V93735": {
+          "id": "V93735",
+          "indicator": "THE",
+          "type": "LODGING",
+          "word": "CAMP",
+          "roles": {},
+          "start": 52,
+          "end": 60
+        },
+        "root": "#V94424"
+      }
+    ]
+  ],
+  "sentence": "there are more than 22 and less than 44 refugees in the camp.",
+  "annotation": {
+    "judge": "lgalescu",
+    "parser": "CWMS",
+    "timestamp": "20190607T203835",
+    "link": "http://trips.ihmc.us/parser/saved/20190607T203835-CWMS-lgalescu-none-there_are_more_than_22_and_less_than_44_.xml",
+    "judgement": -1
+  }
+}

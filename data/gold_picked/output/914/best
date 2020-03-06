@@ -1,0 +1,27 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V223690 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V222886 [label=<<font color="green"><br /></font> <font color="black">CONJUNCT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BUT</font> <font color="green"><br /></font> <font color="green">but%4:02:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::CONJUNCT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V222948 [label=<<font color="green"><br /></font> <font color="black">CAUSE-OUT-OF</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">TAKE-OUT</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::CAUSE-OUT-OF.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V222897 [label=<<font color="green"><br /></font> <font color="black">SEQUENCE-POSITION</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">THEN</font> <font color="green"><br /></font> <font color="green">then%4:02:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SEQUENCE-POSITION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V222910 [label=<<font color="green"><br /></font> <font color="black">FAMILY-RELATION</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">MOM</font> <font color="green"><br /></font> <font color="green">mom%1:18:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FAMILY-RELATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V222904 [label=<<font color="green"><br /></font> <font color="black">FEMALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HER</font> <font color="green"><br /></font> <font color="green">woman%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FEMALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V222999 [label=<<font color="green"><br /></font> <font color="black">FOOD</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FOOD.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V222994 [label=<<font color="green"><br /></font> <font color="black">CAKE-PIE</font> <font color="green"><br /></font> <font color="red">BARE</font> <font color="blue">CAKE</font> <font color="green"><br /></font> <font color="green">cake%1:13:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::CAKE-PIE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V222991 [label=<<font color="green"><br /></font> <font color="black">VEGETABLE</font> <font color="green"><br /></font> <font color="red">KIND</font> <font color="blue">CARROT</font> <font color="green"><br /></font> <font color="green">carrot%1:13:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::VEGETABLE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V223027 [label=<<font color="green"><br /></font> <font color="black">FOOD</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">POTATO-CHIPS</font> <font color="green"><br /></font> <font color="green">potato_chip%1:13:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FOOD.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V222948 -> V222910 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V222897 -> V222948 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V222886 -> V223690 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V222999 -> V223027 [label=" SEQUENCE1   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V222910 -> V222904 [label=" ASSOC-POSS   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V222948 -> V222897 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V223690 -> V222948 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V222994 -> V222991 [label=" ASSOC-WITH   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V222999 -> V222994 [label=" SEQUENCE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V223690 -> V222886 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V222948 -> V222999 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

@@ -1,0 +1,13 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V103000 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V102592 [label=<<font color="green"><br /></font> <font color="black">HAVE-EXPERIENCE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">HAVE</font> <font color="green"><br /></font> <font color="green">have%2:39:06::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::HAVE-EXPERIENCE.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V102582 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">PRO-SET</font> <font color="blue">WE</font> <font color="green"><br /></font> <font color="green">person%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V102607 [label=<<font color="green"><br /></font> <font color="black">REGIONAL-IDENTITY</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">TACOS</font> <font color="green"><br /></font> <font color="green">north_american%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REGIONAL-IDENTITY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V102592 -> V102582 [label=" EXPERIENCER   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V102592 -> V102607 [label=" NEUTRAL   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V103000 -> V102592 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

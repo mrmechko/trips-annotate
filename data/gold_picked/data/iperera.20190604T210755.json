@@ -1,0 +1,86 @@
+{
+  "parse": [
+    {
+      "V36363": {
+        "id": "V36363",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V36122"
+        },
+        "start": 0,
+        "end": 41
+      },
+      "V36122": {
+        "id": "V36122",
+        "indicator": "F",
+        "type": "HAVE",
+        "word": "HAVE",
+        "roles": {
+          "NEUTRAL": "#V36208",
+          "NEUTRAL1": "#V36153",
+          "TENSE": "PRES"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V36208": {
+        "id": "V36208",
+        "indicator": "INDEF-SET",
+        "type": "TOWER",
+        "word": "TOWER",
+        "roles": {
+          "REFSET": "#V36111",
+          "SIZE": "UNIVERSAL"
+        },
+        "start": 0,
+        "end": 18
+      },
+      "V36111": {
+        "id": "V36111",
+        "indicator": "THE-SET",
+        "type": "TOWER",
+        "word": "TOWER",
+        "roles": {},
+        "start": 4,
+        "end": 18
+      },
+      "V36153": {
+        "id": "V36153",
+        "indicator": "INDEF-SET",
+        "type": "HEIGHT-SCALE",
+        "word": "HEIGHT",
+        "roles": {
+          "SCALE": "HEIGHT-SCALE",
+          "MOD": "#V36149"
+        },
+        "start": 23,
+        "end": 40
+      },
+      "V36149": {
+        "id": "V36149",
+        "indicator": "F",
+        "type": "DIFFERENT",
+        "word": "DIFFERENT",
+        "roles": {
+          "INTENSITY": "HI",
+          "FIGURE": "#V36153"
+        },
+        "start": 23,
+        "end": 33
+      },
+      "root": "#V36363"
+    }
+  ],
+  "alternatives": [],
+  "sentence": "All of the towers have different heights.",
+  "annotation": {
+    "judge": "iperera",
+    "parser": "CABOT",
+    "timestamp": "20190604T210755",
+    "link": "http://trips.ihmc.us/parser/saved/20190604T210755-CABOT-iperera-0-All_of_the_towers_have_different_heights.xml",
+    "judgement": 0
+  }
+}

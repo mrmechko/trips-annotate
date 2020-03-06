@@ -1,0 +1,25 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V68271 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V67396 [label=<<font color="green"><br /></font> <font color="black">DECIDE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">DECIDE</font> <font color="green"><br /></font> <font color="green">decide%2:31:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DECIDE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V67375 [label=<<font color="green"><br /></font> <font color="black">PHYS-OBJECT</font> <font color="green"><br /></font> <font color="red">THE-SET</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PHYS-OBJECT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V67369 [label=<<font color="green"><br /></font> <font color="black">GEOGRAPHIC-REGION</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">JANE</font> <font color="green"><br /></font> <font color="green">north_america%1:14:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GEOGRAPHIC-REGION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V67390 [label=<<font color="green"><br /></font> <font color="black">FAMILY-RELATION</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">HUSBAND</font> <font color="green"><br /></font> <font color="green">husband%1:18:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FAMILY-RELATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V67385 [label=<<font color="green"><br /></font> <font color="black">FEMALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HER</font> <font color="green"><br /></font> <font color="green">woman%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FEMALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V67443 [label=<<font color="green"><br /></font> <font color="black">UNDERGO-ACTION</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">GO</font> <font color="green"><br /></font> <font color="green">go_down%2:42:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::UNDERGO-ACTION.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V67683 [label=<<font color="green"><br /></font> <font color="black">IMPLICIT-OVERLAP</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::IMPLICIT-OVERLAP.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V67467 [label=<<font color="green"><br /></font> <font color="black">DANCE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">DANCE</font> <font color="green"><br /></font> <font color="green">dance%1:04:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DANCE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V67375 -> V67369 [label=" SEQUENCE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V67683 -> V67443 [label=" FIGURE   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V67396 -> V67443 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V67443 -> V67683 [label=" TIME   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V67390 -> V67385 [label=" ASSOC-POSS   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V68271 -> V67396 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V67683 -> V67467 [label=" GROUND   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V67375 -> V67390 [label=" SEQUENCE1   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V67396 -> V67375 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V67443 -> V67375 [label=" AFFECTED   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

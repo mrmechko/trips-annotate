@@ -1,0 +1,1963 @@
+{
+  "parse": [
+    {
+      "V181300": {
+        "id": "V181300",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V179097",
+          "LEX": "THE"
+        },
+        "start": 0,
+        "end": 34
+      },
+      "V179097": {
+        "id": "V179097",
+        "indicator": "BARE",
+        "type": "MALE-PERSON",
+        "word": "THE",
+        "roles": {
+          "MOD": "#V179118",
+          "NAME-OF": "THE",
+          "LEX": "THE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 0,
+        "end": 34
+      },
+      "V179118": {
+        "id": "V179118",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V179221",
+          "FORMAL": "#V179133",
+          "TENSE": "PAST",
+          "LEX": "WAS",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 4,
+        "end": 26
+      },
+      "V179221": {
+        "id": "V179221",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SUCHTHAT": "#V179106",
+          "LEX": "DRIVER"
+        },
+        "start": 4,
+        "end": 11
+      },
+      "V179106": {
+        "id": "V179106",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": "DRIVER",
+        "roles": {
+          "AGENT": "#V179221"
+        },
+        "start": 4,
+        "end": 11
+      },
+      "V179133": {
+        "id": "V179133",
+        "indicator": "F",
+        "type": "QUESTIONABLE-VAL",
+        "word": "SUSPICIOUS",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "FIGURE": "#V179221",
+          "SCALE": "CERTAINTY-SCALE",
+          "LEX": "SUSPICIOUS",
+          "WNSENSE": "suspicious%5:00:00:questionable:00"
+        },
+        "start": 15,
+        "end": 26
+      },
+      "V179137": {
+        "id": "V179137",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V179146",
+          "FIGURE": "#V179097",
+          "LEX": "OF"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "V179146": {
+        "id": "V179146",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "THIS",
+        "roles": {
+          "PROFORM": "THIS",
+          "LEX": "THIS",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 29,
+        "end": 34
+      },
+      "root": "#V181300"
+    },
+    {
+      "V179734": {
+        "id": "V179734",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V179165",
+          "MOD": "#V179151",
+          "LEX": "PAID"
+        },
+        "start": 34,
+        "end": 55
+      },
+      "V179151": {
+        "id": "V179151",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "BUT",
+        "roles": {
+          "FIGURE": "#V179734",
+          "LEX": "BUT",
+          "WNSENSE": "but%4:02:01::"
+        },
+        "start": 34,
+        "end": 38
+      },
+      "V179165": {
+        "id": "V179165",
+        "indicator": "F",
+        "type": "COMMERCE-PAY",
+        "word": "PAY",
+        "roles": {
+          "AGENT": "#V179156",
+          "EXTENT": "#V179177",
+          "MOD": "#V179183",
+          "TENSE": "PAST",
+          "LEX": "PAID",
+          "WNSENSE": "pay%2:40:00::"
+        },
+        "start": 38,
+        "end": 55
+      },
+      "V179156": {
+        "id": "V179156",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00",
+          "COREF": "#V179097"
+        },
+        "start": 38,
+        "end": 41
+      },
+      "V179177": {
+        "id": "V179177",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 46,
+        "end": 49
+      },
+      "V179183": {
+        "id": "V179183",
+        "indicator": "F",
+        "type": "PRIORITY",
+        "word": "ANYWAY",
+        "roles": {
+          "FIGURE": "#V179165",
+          "LEX": "ANYWAY",
+          "WNSENSE": "anyway%4:02:00::"
+        },
+        "start": 49,
+        "end": 55
+      },
+      "root": "#V179734"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V181300": {
+          "id": "V181300",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V179097",
+            "LEX": "THE"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V179097": {
+          "id": "V179097",
+          "indicator": "BARE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "MOD": "#V179118",
+            "NAME-OF": "THE",
+            "LEX": "THE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V179118": {
+          "id": "V179118",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V179221",
+            "FORMAL": "#V179133",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 4,
+          "end": 26
+        },
+        "V179221": {
+          "id": "V179221",
+          "indicator": "BARE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SUCHTHAT": "#V179106",
+            "LEX": "DRIVER"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V179106": {
+          "id": "V179106",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": "DRIVER",
+          "roles": {
+            "AGENT": "#V179221"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V179133": {
+          "id": "V179133",
+          "indicator": "F",
+          "type": "QUESTIONABLE-VAL",
+          "word": "SUSPICIOUS",
+          "roles": {
+            "ORIENTATION": "NEG",
+            "FIGURE": "#V179221",
+            "SCALE": "CERTAINTY-SCALE",
+            "LEX": "SUSPICIOUS",
+            "WNSENSE": "suspicious%5:00:00:questionable:00"
+          },
+          "start": 15,
+          "end": 26
+        },
+        "V179137": {
+          "id": "V179137",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "OF",
+          "roles": {
+            "GROUND": "#V179146",
+            "FIGURE": "#V179097",
+            "LEX": "OF"
+          },
+          "start": 26,
+          "end": 34
+        },
+        "V179146": {
+          "id": "V179146",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "THIS",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "THIS",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 29,
+          "end": 34
+        },
+        "root": "#V181300"
+      },
+      {
+        "V179730": {
+          "id": "V179730",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V179168",
+            "MOD": "#V179151",
+            "LEX": "PAID"
+          },
+          "start": 34,
+          "end": 56
+        },
+        "V179151": {
+          "id": "V179151",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V179730",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 34,
+          "end": 38
+        },
+        "V179168": {
+          "id": "V179168",
+          "indicator": "F",
+          "type": "COMMERCE-PAY",
+          "word": "PAY",
+          "roles": {
+            "AGENT": "#V179156",
+            "EXTENT": "#V179177",
+            "MOD": "#V179183",
+            "TENSE": "PAST",
+            "LEX": "PAID",
+            "WNSENSE": "pay%2:40:00::"
+          },
+          "start": 38,
+          "end": 55
+        },
+        "V179156": {
+          "id": "V179156",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 38,
+          "end": 41
+        },
+        "V179177": {
+          "id": "V179177",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 46,
+          "end": 49
+        },
+        "V179183": {
+          "id": "V179183",
+          "indicator": "F",
+          "type": "PRIORITY",
+          "word": "ANYWAY",
+          "roles": {
+            "FIGURE": "#V179168",
+            "LEX": "ANYWAY",
+            "WNSENSE": "anyway%4:02:00::"
+          },
+          "start": 49,
+          "end": 55
+        },
+        "root": "#V179730"
+      }
+    ],
+    [
+      {
+        "V181300": {
+          "id": "V181300",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V179097",
+            "LEX": "THE"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V179097": {
+          "id": "V179097",
+          "indicator": "BARE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "MOD": "#V179118",
+            "NAME-OF": "THE",
+            "LEX": "THE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V179118": {
+          "id": "V179118",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V179221",
+            "FORMAL": "#V179133",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 4,
+          "end": 26
+        },
+        "V179221": {
+          "id": "V179221",
+          "indicator": "BARE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SUCHTHAT": "#V179106",
+            "LEX": "DRIVER"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V179106": {
+          "id": "V179106",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": "DRIVER",
+          "roles": {
+            "AGENT": "#V179221"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V179133": {
+          "id": "V179133",
+          "indicator": "F",
+          "type": "QUESTIONABLE-VAL",
+          "word": "SUSPICIOUS",
+          "roles": {
+            "ORIENTATION": "NEG",
+            "FIGURE": "#V179221",
+            "SCALE": "CERTAINTY-SCALE",
+            "LEX": "SUSPICIOUS",
+            "WNSENSE": "suspicious%5:00:00:questionable:00"
+          },
+          "start": 15,
+          "end": 26
+        },
+        "V179137": {
+          "id": "V179137",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "OF",
+          "roles": {
+            "GROUND": "#V179146",
+            "FIGURE": "#V179097",
+            "LEX": "OF"
+          },
+          "start": 26,
+          "end": 34
+        },
+        "V179146": {
+          "id": "V179146",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "THIS",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "THIS",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 29,
+          "end": 34
+        },
+        "root": "#V181300"
+      },
+      {
+        "V179726": {
+          "id": "V179726",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V179169",
+            "MOD": "#V179151",
+            "LEX": "PAID"
+          },
+          "start": 34,
+          "end": 56
+        },
+        "V179151": {
+          "id": "V179151",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V179726",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 34,
+          "end": 38
+        },
+        "V179169": {
+          "id": "V179169",
+          "indicator": "F",
+          "type": "COMMERCE-PAY",
+          "word": "PAY",
+          "roles": {
+            "AGENT": "#V179156",
+            "AFFECTED-RESULT": "#V179177",
+            "MOD": "#V179183",
+            "TENSE": "PAST",
+            "LEX": "PAID",
+            "WNSENSE": "pay%2:40:00::"
+          },
+          "start": 38,
+          "end": 55
+        },
+        "V179156": {
+          "id": "V179156",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 38,
+          "end": 41
+        },
+        "V179177": {
+          "id": "V179177",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 46,
+          "end": 49
+        },
+        "V179183": {
+          "id": "V179183",
+          "indicator": "F",
+          "type": "PRIORITY",
+          "word": "ANYWAY",
+          "roles": {
+            "FIGURE": "#V179169",
+            "LEX": "ANYWAY",
+            "WNSENSE": "anyway%4:02:00::"
+          },
+          "start": 49,
+          "end": 55
+        },
+        "root": "#V179726"
+      }
+    ],
+    [
+      {
+        "V181298": {
+          "id": "V181298",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V179097",
+            "LEX": "THE"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V179097": {
+          "id": "V179097",
+          "indicator": "BARE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "MOD": "#V179118",
+            "NAME-OF": "THE",
+            "LEX": "THE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V179118": {
+          "id": "V179118",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V179219",
+            "FORMAL": "#V179133",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 4,
+          "end": 26
+        },
+        "V179219": {
+          "id": "V179219",
+          "indicator": "BARE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SUCHTHAT": "#V179105",
+            "LEX": "DRIVER"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V179105": {
+          "id": "V179105",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": "DRIVER",
+          "roles": {
+            "AGENT": "#V179219"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V179133": {
+          "id": "V179133",
+          "indicator": "F",
+          "type": "QUESTIONABLE-VAL",
+          "word": "SUSPICIOUS",
+          "roles": {
+            "ORIENTATION": "NEG",
+            "FIGURE": "#V179219",
+            "SCALE": "CERTAINTY-SCALE",
+            "LEX": "SUSPICIOUS",
+            "WNSENSE": "suspicious%5:00:00:questionable:00"
+          },
+          "start": 15,
+          "end": 26
+        },
+        "V179137": {
+          "id": "V179137",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "OF",
+          "roles": {
+            "GROUND": "#V179146",
+            "FIGURE": "#V179097",
+            "LEX": "OF"
+          },
+          "start": 26,
+          "end": 34
+        },
+        "V179146": {
+          "id": "V179146",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "THIS",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "THIS",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 29,
+          "end": 34
+        },
+        "root": "#V181298"
+      },
+      {
+        "V179734": {
+          "id": "V179734",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V179165",
+            "MOD": "#V179151",
+            "LEX": "PAID"
+          },
+          "start": 34,
+          "end": 56
+        },
+        "V179151": {
+          "id": "V179151",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V179734",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 34,
+          "end": 38
+        },
+        "V179165": {
+          "id": "V179165",
+          "indicator": "F",
+          "type": "COMMERCE-PAY",
+          "word": "PAY",
+          "roles": {
+            "AGENT": "#V179156",
+            "EXTENT": "#V179177",
+            "MOD": "#V179183",
+            "TENSE": "PAST",
+            "LEX": "PAID",
+            "WNSENSE": "pay%2:40:00::"
+          },
+          "start": 38,
+          "end": 55
+        },
+        "V179156": {
+          "id": "V179156",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 38,
+          "end": 41
+        },
+        "V179177": {
+          "id": "V179177",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 46,
+          "end": 49
+        },
+        "V179183": {
+          "id": "V179183",
+          "indicator": "F",
+          "type": "PRIORITY",
+          "word": "ANYWAY",
+          "roles": {
+            "FIGURE": "#V179165",
+            "LEX": "ANYWAY",
+            "WNSENSE": "anyway%4:02:00::"
+          },
+          "start": 49,
+          "end": 55
+        },
+        "root": "#V179734"
+      }
+    ],
+    [
+      {
+        "V181298": {
+          "id": "V181298",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V179097",
+            "LEX": "THE"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V179097": {
+          "id": "V179097",
+          "indicator": "BARE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "MOD": "#V179118",
+            "NAME-OF": "THE",
+            "LEX": "THE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V179118": {
+          "id": "V179118",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V179219",
+            "FORMAL": "#V179133",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 4,
+          "end": 26
+        },
+        "V179219": {
+          "id": "V179219",
+          "indicator": "BARE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SUCHTHAT": "#V179105",
+            "LEX": "DRIVER"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V179105": {
+          "id": "V179105",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": "DRIVER",
+          "roles": {
+            "AGENT": "#V179219"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V179133": {
+          "id": "V179133",
+          "indicator": "F",
+          "type": "QUESTIONABLE-VAL",
+          "word": "SUSPICIOUS",
+          "roles": {
+            "ORIENTATION": "NEG",
+            "FIGURE": "#V179219",
+            "SCALE": "CERTAINTY-SCALE",
+            "LEX": "SUSPICIOUS",
+            "WNSENSE": "suspicious%5:00:00:questionable:00"
+          },
+          "start": 15,
+          "end": 26
+        },
+        "V179137": {
+          "id": "V179137",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "OF",
+          "roles": {
+            "GROUND": "#V179146",
+            "FIGURE": "#V179097",
+            "LEX": "OF"
+          },
+          "start": 26,
+          "end": 34
+        },
+        "V179146": {
+          "id": "V179146",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "THIS",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "THIS",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 29,
+          "end": 34
+        },
+        "root": "#V181298"
+      },
+      {
+        "V179730": {
+          "id": "V179730",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V179168",
+            "MOD": "#V179151",
+            "LEX": "PAID"
+          },
+          "start": 34,
+          "end": 56
+        },
+        "V179151": {
+          "id": "V179151",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V179730",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 34,
+          "end": 38
+        },
+        "V179168": {
+          "id": "V179168",
+          "indicator": "F",
+          "type": "COMMERCE-PAY",
+          "word": "PAY",
+          "roles": {
+            "AGENT": "#V179156",
+            "EXTENT": "#V179177",
+            "MOD": "#V179183",
+            "TENSE": "PAST",
+            "LEX": "PAID",
+            "WNSENSE": "pay%2:40:00::"
+          },
+          "start": 38,
+          "end": 55
+        },
+        "V179156": {
+          "id": "V179156",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 38,
+          "end": 41
+        },
+        "V179177": {
+          "id": "V179177",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 46,
+          "end": 49
+        },
+        "V179183": {
+          "id": "V179183",
+          "indicator": "F",
+          "type": "PRIORITY",
+          "word": "ANYWAY",
+          "roles": {
+            "FIGURE": "#V179168",
+            "LEX": "ANYWAY",
+            "WNSENSE": "anyway%4:02:00::"
+          },
+          "start": 49,
+          "end": 55
+        },
+        "root": "#V179730"
+      }
+    ],
+    [
+      {
+        "V181298": {
+          "id": "V181298",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V179097",
+            "LEX": "THE"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V179097": {
+          "id": "V179097",
+          "indicator": "BARE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "MOD": "#V179118",
+            "NAME-OF": "THE",
+            "LEX": "THE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V179118": {
+          "id": "V179118",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V179219",
+            "FORMAL": "#V179133",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 4,
+          "end": 26
+        },
+        "V179219": {
+          "id": "V179219",
+          "indicator": "BARE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SUCHTHAT": "#V179105",
+            "LEX": "DRIVER"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V179105": {
+          "id": "V179105",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": "DRIVER",
+          "roles": {
+            "AGENT": "#V179219"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V179133": {
+          "id": "V179133",
+          "indicator": "F",
+          "type": "QUESTIONABLE-VAL",
+          "word": "SUSPICIOUS",
+          "roles": {
+            "ORIENTATION": "NEG",
+            "FIGURE": "#V179219",
+            "SCALE": "CERTAINTY-SCALE",
+            "LEX": "SUSPICIOUS",
+            "WNSENSE": "suspicious%5:00:00:questionable:00"
+          },
+          "start": 15,
+          "end": 26
+        },
+        "V179137": {
+          "id": "V179137",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "OF",
+          "roles": {
+            "GROUND": "#V179146",
+            "FIGURE": "#V179097",
+            "LEX": "OF"
+          },
+          "start": 26,
+          "end": 34
+        },
+        "V179146": {
+          "id": "V179146",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "THIS",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "THIS",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 29,
+          "end": 34
+        },
+        "root": "#V181298"
+      },
+      {
+        "V179726": {
+          "id": "V179726",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V179169",
+            "MOD": "#V179151",
+            "LEX": "PAID"
+          },
+          "start": 34,
+          "end": 56
+        },
+        "V179151": {
+          "id": "V179151",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V179726",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 34,
+          "end": 38
+        },
+        "V179169": {
+          "id": "V179169",
+          "indicator": "F",
+          "type": "COMMERCE-PAY",
+          "word": "PAY",
+          "roles": {
+            "AGENT": "#V179156",
+            "AFFECTED-RESULT": "#V179177",
+            "MOD": "#V179183",
+            "TENSE": "PAST",
+            "LEX": "PAID",
+            "WNSENSE": "pay%2:40:00::"
+          },
+          "start": 38,
+          "end": 55
+        },
+        "V179156": {
+          "id": "V179156",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 38,
+          "end": 41
+        },
+        "V179177": {
+          "id": "V179177",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 46,
+          "end": 49
+        },
+        "V179183": {
+          "id": "V179183",
+          "indicator": "F",
+          "type": "PRIORITY",
+          "word": "ANYWAY",
+          "roles": {
+            "FIGURE": "#V179169",
+            "LEX": "ANYWAY",
+            "WNSENSE": "anyway%4:02:00::"
+          },
+          "start": 49,
+          "end": 55
+        },
+        "root": "#V179726"
+      }
+    ],
+    [
+      {
+        "V181296": {
+          "id": "V181296",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V179097",
+            "LEX": "THE"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V179097": {
+          "id": "V179097",
+          "indicator": "BARE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "MOD": "#V179118",
+            "NAME-OF": "THE",
+            "LEX": "THE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V179118": {
+          "id": "V179118",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V179217",
+            "FORMAL": "#V179133",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 4,
+          "end": 26
+        },
+        "V179217": {
+          "id": "V179217",
+          "indicator": "BARE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SUCHTHAT": "#V179104",
+            "LEX": "DRIVER"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V179104": {
+          "id": "V179104",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": "DRIVER",
+          "roles": {
+            "AGENT": "#V179217"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V179133": {
+          "id": "V179133",
+          "indicator": "F",
+          "type": "QUESTIONABLE-VAL",
+          "word": "SUSPICIOUS",
+          "roles": {
+            "ORIENTATION": "NEG",
+            "FIGURE": "#V179217",
+            "SCALE": "CERTAINTY-SCALE",
+            "LEX": "SUSPICIOUS",
+            "WNSENSE": "suspicious%5:00:00:questionable:00"
+          },
+          "start": 15,
+          "end": 26
+        },
+        "V179137": {
+          "id": "V179137",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "OF",
+          "roles": {
+            "GROUND": "#V179146",
+            "FIGURE": "#V179097",
+            "LEX": "OF"
+          },
+          "start": 26,
+          "end": 34
+        },
+        "V179146": {
+          "id": "V179146",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "THIS",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "THIS",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 29,
+          "end": 34
+        },
+        "root": "#V181296"
+      },
+      {
+        "V179734": {
+          "id": "V179734",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V179165",
+            "MOD": "#V179151",
+            "LEX": "PAID"
+          },
+          "start": 34,
+          "end": 56
+        },
+        "V179151": {
+          "id": "V179151",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V179734",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 34,
+          "end": 38
+        },
+        "V179165": {
+          "id": "V179165",
+          "indicator": "F",
+          "type": "COMMERCE-PAY",
+          "word": "PAY",
+          "roles": {
+            "AGENT": "#V179156",
+            "EXTENT": "#V179177",
+            "MOD": "#V179183",
+            "TENSE": "PAST",
+            "LEX": "PAID",
+            "WNSENSE": "pay%2:40:00::"
+          },
+          "start": 38,
+          "end": 55
+        },
+        "V179156": {
+          "id": "V179156",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 38,
+          "end": 41
+        },
+        "V179177": {
+          "id": "V179177",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 46,
+          "end": 49
+        },
+        "V179183": {
+          "id": "V179183",
+          "indicator": "F",
+          "type": "PRIORITY",
+          "word": "ANYWAY",
+          "roles": {
+            "FIGURE": "#V179165",
+            "LEX": "ANYWAY",
+            "WNSENSE": "anyway%4:02:00::"
+          },
+          "start": 49,
+          "end": 55
+        },
+        "root": "#V179734"
+      }
+    ],
+    [
+      {
+        "V181296": {
+          "id": "V181296",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V179097",
+            "LEX": "THE"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V179097": {
+          "id": "V179097",
+          "indicator": "BARE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "MOD": "#V179118",
+            "NAME-OF": "THE",
+            "LEX": "THE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V179118": {
+          "id": "V179118",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V179217",
+            "FORMAL": "#V179133",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 4,
+          "end": 26
+        },
+        "V179217": {
+          "id": "V179217",
+          "indicator": "BARE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SUCHTHAT": "#V179104",
+            "LEX": "DRIVER"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V179104": {
+          "id": "V179104",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": "DRIVER",
+          "roles": {
+            "AGENT": "#V179217"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V179133": {
+          "id": "V179133",
+          "indicator": "F",
+          "type": "QUESTIONABLE-VAL",
+          "word": "SUSPICIOUS",
+          "roles": {
+            "ORIENTATION": "NEG",
+            "FIGURE": "#V179217",
+            "SCALE": "CERTAINTY-SCALE",
+            "LEX": "SUSPICIOUS",
+            "WNSENSE": "suspicious%5:00:00:questionable:00"
+          },
+          "start": 15,
+          "end": 26
+        },
+        "V179137": {
+          "id": "V179137",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "OF",
+          "roles": {
+            "GROUND": "#V179146",
+            "FIGURE": "#V179097",
+            "LEX": "OF"
+          },
+          "start": 26,
+          "end": 34
+        },
+        "V179146": {
+          "id": "V179146",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "THIS",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "THIS",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 29,
+          "end": 34
+        },
+        "root": "#V181296"
+      },
+      {
+        "V179730": {
+          "id": "V179730",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V179168",
+            "MOD": "#V179151",
+            "LEX": "PAID"
+          },
+          "start": 34,
+          "end": 56
+        },
+        "V179151": {
+          "id": "V179151",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V179730",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 34,
+          "end": 38
+        },
+        "V179168": {
+          "id": "V179168",
+          "indicator": "F",
+          "type": "COMMERCE-PAY",
+          "word": "PAY",
+          "roles": {
+            "AGENT": "#V179156",
+            "EXTENT": "#V179177",
+            "MOD": "#V179183",
+            "TENSE": "PAST",
+            "LEX": "PAID",
+            "WNSENSE": "pay%2:40:00::"
+          },
+          "start": 38,
+          "end": 55
+        },
+        "V179156": {
+          "id": "V179156",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 38,
+          "end": 41
+        },
+        "V179177": {
+          "id": "V179177",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 46,
+          "end": 49
+        },
+        "V179183": {
+          "id": "V179183",
+          "indicator": "F",
+          "type": "PRIORITY",
+          "word": "ANYWAY",
+          "roles": {
+            "FIGURE": "#V179168",
+            "LEX": "ANYWAY",
+            "WNSENSE": "anyway%4:02:00::"
+          },
+          "start": 49,
+          "end": 55
+        },
+        "root": "#V179730"
+      }
+    ],
+    [
+      {
+        "V181296": {
+          "id": "V181296",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V179097",
+            "LEX": "THE"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V179097": {
+          "id": "V179097",
+          "indicator": "BARE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "MOD": "#V179118",
+            "NAME-OF": "THE",
+            "LEX": "THE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V179118": {
+          "id": "V179118",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V179217",
+            "FORMAL": "#V179133",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 4,
+          "end": 26
+        },
+        "V179217": {
+          "id": "V179217",
+          "indicator": "BARE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SUCHTHAT": "#V179104",
+            "LEX": "DRIVER"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V179104": {
+          "id": "V179104",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": "DRIVER",
+          "roles": {
+            "AGENT": "#V179217"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V179133": {
+          "id": "V179133",
+          "indicator": "F",
+          "type": "QUESTIONABLE-VAL",
+          "word": "SUSPICIOUS",
+          "roles": {
+            "ORIENTATION": "NEG",
+            "FIGURE": "#V179217",
+            "SCALE": "CERTAINTY-SCALE",
+            "LEX": "SUSPICIOUS",
+            "WNSENSE": "suspicious%5:00:00:questionable:00"
+          },
+          "start": 15,
+          "end": 26
+        },
+        "V179137": {
+          "id": "V179137",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "OF",
+          "roles": {
+            "GROUND": "#V179146",
+            "FIGURE": "#V179097",
+            "LEX": "OF"
+          },
+          "start": 26,
+          "end": 34
+        },
+        "V179146": {
+          "id": "V179146",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "THIS",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "THIS",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 29,
+          "end": 34
+        },
+        "root": "#V181296"
+      },
+      {
+        "V179726": {
+          "id": "V179726",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V179169",
+            "MOD": "#V179151",
+            "LEX": "PAID"
+          },
+          "start": 34,
+          "end": 56
+        },
+        "V179151": {
+          "id": "V179151",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V179726",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 34,
+          "end": 38
+        },
+        "V179169": {
+          "id": "V179169",
+          "indicator": "F",
+          "type": "COMMERCE-PAY",
+          "word": "PAY",
+          "roles": {
+            "AGENT": "#V179156",
+            "AFFECTED-RESULT": "#V179177",
+            "MOD": "#V179183",
+            "TENSE": "PAST",
+            "LEX": "PAID",
+            "WNSENSE": "pay%2:40:00::"
+          },
+          "start": 38,
+          "end": 55
+        },
+        "V179156": {
+          "id": "V179156",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 38,
+          "end": 41
+        },
+        "V179177": {
+          "id": "V179177",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 46,
+          "end": 49
+        },
+        "V179183": {
+          "id": "V179183",
+          "indicator": "F",
+          "type": "PRIORITY",
+          "word": "ANYWAY",
+          "roles": {
+            "FIGURE": "#V179169",
+            "LEX": "ANYWAY",
+            "WNSENSE": "anyway%4:02:00::"
+          },
+          "start": 49,
+          "end": 55
+        },
+        "root": "#V179726"
+      }
+    ],
+    [
+      {
+        "V181294": {
+          "id": "V181294",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V179097",
+            "LEX": "THE"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V179097": {
+          "id": "V179097",
+          "indicator": "BARE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "MOD": "#V179118",
+            "NAME-OF": "THE",
+            "LEX": "THE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V179118": {
+          "id": "V179118",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V179215",
+            "FORMAL": "#V179133",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 4,
+          "end": 26
+        },
+        "V179215": {
+          "id": "V179215",
+          "indicator": "BARE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SUCHTHAT": "#V179103",
+            "LEX": "DRIVER"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V179103": {
+          "id": "V179103",
+          "indicator": "F",
+          "type": "PROPEL",
+          "word": "DRIVER",
+          "roles": {
+            "AGENT": "#V179215"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V179133": {
+          "id": "V179133",
+          "indicator": "F",
+          "type": "QUESTIONABLE-VAL",
+          "word": "SUSPICIOUS",
+          "roles": {
+            "ORIENTATION": "NEG",
+            "FIGURE": "#V179215",
+            "SCALE": "CERTAINTY-SCALE",
+            "LEX": "SUSPICIOUS",
+            "WNSENSE": "suspicious%5:00:00:questionable:00"
+          },
+          "start": 15,
+          "end": 26
+        },
+        "V179137": {
+          "id": "V179137",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "OF",
+          "roles": {
+            "GROUND": "#V179146",
+            "FIGURE": "#V179097",
+            "LEX": "OF"
+          },
+          "start": 26,
+          "end": 34
+        },
+        "V179146": {
+          "id": "V179146",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "THIS",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "THIS",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 29,
+          "end": 34
+        },
+        "root": "#V181294"
+      },
+      {
+        "V179734": {
+          "id": "V179734",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V179165",
+            "MOD": "#V179151",
+            "LEX": "PAID"
+          },
+          "start": 34,
+          "end": 56
+        },
+        "V179151": {
+          "id": "V179151",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V179734",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 34,
+          "end": 38
+        },
+        "V179165": {
+          "id": "V179165",
+          "indicator": "F",
+          "type": "COMMERCE-PAY",
+          "word": "PAY",
+          "roles": {
+            "AGENT": "#V179156",
+            "EXTENT": "#V179177",
+            "MOD": "#V179183",
+            "TENSE": "PAST",
+            "LEX": "PAID",
+            "WNSENSE": "pay%2:40:00::"
+          },
+          "start": 38,
+          "end": 55
+        },
+        "V179156": {
+          "id": "V179156",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 38,
+          "end": 41
+        },
+        "V179177": {
+          "id": "V179177",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 46,
+          "end": 49
+        },
+        "V179183": {
+          "id": "V179183",
+          "indicator": "F",
+          "type": "PRIORITY",
+          "word": "ANYWAY",
+          "roles": {
+            "FIGURE": "#V179165",
+            "LEX": "ANYWAY",
+            "WNSENSE": "anyway%4:02:00::"
+          },
+          "start": 49,
+          "end": 55
+        },
+        "root": "#V179734"
+      }
+    ]
+  ],
+  "sentence": "The driver was suspicious of this but he paid it anyway.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190924T132042",
+    "link": "http://trips.ihmc.us/parser/saved/20190924T132042-STEP-abhatia-none-The_driver_was_suspicious_of_this_but_he.xml",
+    "judgement": -1
+  }
+}

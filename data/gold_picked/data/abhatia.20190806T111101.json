@@ -1,0 +1,660 @@
+{
+  "parse": [
+    {
+      "V58558": {
+        "id": "V58558",
+        "indicator": "SPEECHACT",
+        "type": "SA_YN-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V56561",
+          "LEX": "IS"
+        },
+        "start": 0,
+        "end": 61
+      },
+      "V56561": {
+        "id": "V56561",
+        "indicator": "F",
+        "type": "PROPOSITION-EQUAL",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V56578",
+          "NEUTRAL1": "#V56589",
+          "TIME": "#V56545",
+          "TENSE": "PRES",
+          "LEX": "IS"
+        },
+        "start": 0,
+        "end": 61
+      },
+      "V56545": {
+        "id": "V56545",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V56561",
+          "GROUND": "#V56902"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V56902": {
+        "id": "V56902",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY": "2",
+          "LEX": "SECOND"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V56578": {
+        "id": "V56578",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "THAT",
+        "roles": {
+          "PROFORM": "THAT",
+          "LEX": "THAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 14,
+        "end": 19
+      },
+      "V56589": {
+        "id": "V56589",
+        "indicator": "F",
+        "type": "APPRECIATE",
+        "word": "LOVE",
+        "roles": {
+          "EXPERIENCER": "#V56585",
+          "NEUTRAL": "#V56634",
+          "TIME": "#V56600",
+          "PROP": "+",
+          "TENSE": "PRES",
+          "LEX": "LOVES",
+          "WNSENSE": "love%2:37:00::"
+        },
+        "start": 19,
+        "end": 61
+      },
+      "V56585": {
+        "id": "V56585",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "SHE",
+        "roles": {
+          "PROFORM": "SHE",
+          "LEX": "SHE",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 19,
+        "end": 23
+      },
+      "V56600": {
+        "id": "V56600",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V56618",
+          "FIGURE": "#V56589",
+          "LEX": "TO"
+        },
+        "start": 29,
+        "end": 37
+      },
+      "V56618": {
+        "id": "V56618",
+        "indicator": "BARE",
+        "type": "PERFORMANCE-PLAY",
+        "word": "PLAY",
+        "roles": {
+          "LEX": "PLAY"
+        },
+        "start": 32,
+        "end": 37
+      },
+      "V56634": {
+        "id": "V56634",
+        "indicator": "BARE",
+        "type": "CAPTURE",
+        "word": "CATCH",
+        "roles": {
+          "METHOD": "#V56645",
+          "LEX": "CATCH",
+          "WNSENSE": "catch%2:35:01::"
+        },
+        "start": 37,
+        "end": 61
+      },
+      "V56645": {
+        "id": "V56645",
+        "indicator": "F",
+        "type": "WITH-INSTRUMENT",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V56707",
+          "FIGURE": "#V56634",
+          "LEX": "WITH"
+        },
+        "start": 43,
+        "end": 61
+      },
+      "V56707": {
+        "id": "V56707",
+        "indicator": "A",
+        "type": "EQUIPMENT",
+        "word": "TENNIS-BALL",
+        "roles": {
+          "LEX": "TENNIS-BALL",
+          "WNSENSE": "tennis_ball%1:06:00"
+        },
+        "start": 48,
+        "end": 61
+      },
+      "root": "#V58558"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V58603": {
+          "id": "V58603",
+          "indicator": "SPEECHACT",
+          "type": "SA_YN-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V56561",
+            "LEX": "IS"
+          },
+          "start": 0,
+          "end": 62
+        },
+        "V56561": {
+          "id": "V56561",
+          "indicator": "F",
+          "type": "PROPOSITION-EQUAL",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V56578",
+            "NEUTRAL1": "#V56589",
+            "TIME": "#V56545",
+            "TENSE": "PRES",
+            "LEX": "IS"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V56545": {
+          "id": "V56545",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V56561",
+            "GROUND": "#V56902"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V56902": {
+          "id": "V56902",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY": "2",
+            "LEX": "SECOND"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V56578": {
+          "id": "V56578",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "THAT",
+          "roles": {
+            "PROFORM": "THAT",
+            "LEX": "THAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 14,
+          "end": 19
+        },
+        "V56589": {
+          "id": "V56589",
+          "indicator": "F",
+          "type": "APPRECIATE",
+          "word": "LOVE",
+          "roles": {
+            "EXPERIENCER": "#V56585",
+            "NEUTRAL": "#V56634",
+            "TIME": "#V56600",
+            "PROP": "+",
+            "TENSE": "PRES",
+            "LEX": "LOVES",
+            "WNSENSE": "love%2:37:00::"
+          },
+          "start": 19,
+          "end": 61
+        },
+        "V56585": {
+          "id": "V56585",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 19,
+          "end": 23
+        },
+        "V56600": {
+          "id": "V56600",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V56618",
+            "FIGURE": "#V56589",
+            "LEX": "TO"
+          },
+          "start": 29,
+          "end": 37
+        },
+        "V56618": {
+          "id": "V56618",
+          "indicator": "BARE",
+          "type": "PERFORMANCE-PLAY",
+          "word": "PLAY",
+          "roles": {
+            "LEX": "PLAY"
+          },
+          "start": 32,
+          "end": 37
+        },
+        "V56634": {
+          "id": "V56634",
+          "indicator": "BARE",
+          "type": "CAPTURE",
+          "word": "CATCH",
+          "roles": {
+            "MOD": "#V56642",
+            "LEX": "CATCH",
+            "WNSENSE": "catch%2:35:01::"
+          },
+          "start": 37,
+          "end": 61
+        },
+        "V56642": {
+          "id": "V56642",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V56707",
+            "FIGURE": "#V56634",
+            "LEX": "WITH"
+          },
+          "start": 43,
+          "end": 61
+        },
+        "V56707": {
+          "id": "V56707",
+          "indicator": "A",
+          "type": "EQUIPMENT",
+          "word": "TENNIS-BALL",
+          "roles": {
+            "LEX": "TENNIS-BALL",
+            "WNSENSE": "tennis_ball%1:06:00"
+          },
+          "start": 48,
+          "end": 61
+        },
+        "root": "#V58603"
+      }
+    ],
+    [
+      {
+        "V58651": {
+          "id": "V58651",
+          "indicator": "SPEECHACT",
+          "type": "SA_YN-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V56561",
+            "LEX": "IS"
+          },
+          "start": 0,
+          "end": 62
+        },
+        "V56561": {
+          "id": "V56561",
+          "indicator": "F",
+          "type": "PROPOSITION-EQUAL",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V56578",
+            "NEUTRAL1": "#V56589",
+            "TIME": "#V56545",
+            "TENSE": "PRES",
+            "LEX": "IS"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V56545": {
+          "id": "V56545",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V56561",
+            "GROUND": "#V56902"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V56902": {
+          "id": "V56902",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY": "2",
+            "LEX": "SECOND"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V56578": {
+          "id": "V56578",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "THAT",
+          "roles": {
+            "PROFORM": "THAT",
+            "LEX": "THAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 14,
+          "end": 19
+        },
+        "V56589": {
+          "id": "V56589",
+          "indicator": "F",
+          "type": "APPRECIATE",
+          "word": "LOVE",
+          "roles": {
+            "EXPERIENCER": "#V56585",
+            "NEUTRAL": "#V56634",
+            "TIME": "#V56600",
+            "PROP": "+",
+            "TENSE": "PRES",
+            "LEX": "LOVES",
+            "WNSENSE": "love%2:37:00::"
+          },
+          "start": 19,
+          "end": 61
+        },
+        "V56585": {
+          "id": "V56585",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 19,
+          "end": 23
+        },
+        "V56600": {
+          "id": "V56600",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V56618",
+            "FIGURE": "#V56589",
+            "LEX": "TO"
+          },
+          "start": 29,
+          "end": 37
+        },
+        "V56618": {
+          "id": "V56618",
+          "indicator": "BARE",
+          "type": "PERFORMANCE-PLAY",
+          "word": "PLAY",
+          "roles": {
+            "LEX": "PLAY"
+          },
+          "start": 32,
+          "end": 37
+        },
+        "V56634": {
+          "id": "V56634",
+          "indicator": "BARE",
+          "type": "CAPTURE",
+          "word": "CATCH",
+          "roles": {
+            "METHOD": "#V56645",
+            "LEX": "CATCH",
+            "WNSENSE": "catch%2:35:01::"
+          },
+          "start": 37,
+          "end": 61
+        },
+        "V56645": {
+          "id": "V56645",
+          "indicator": "F",
+          "type": "WITH-INSTRUMENT",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V56707",
+            "FIGURE": "#V56634",
+            "LEX": "WITH"
+          },
+          "start": 43,
+          "end": 61
+        },
+        "V56707": {
+          "id": "V56707",
+          "indicator": "A",
+          "type": "EQUIPMENT",
+          "word": "TENNIS-BALL",
+          "roles": {
+            "LEX": "TENNIS-BALL",
+            "WNSENSE": "tennis_ball%1:06:00"
+          },
+          "start": 48,
+          "end": 61
+        },
+        "root": "#V58651"
+      }
+    ],
+    [
+      {
+        "V58701": {
+          "id": "V58701",
+          "indicator": "SPEECHACT",
+          "type": "SA_YN-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V56561",
+            "LEX": "IS"
+          },
+          "start": 0,
+          "end": 62
+        },
+        "V56561": {
+          "id": "V56561",
+          "indicator": "F",
+          "type": "PROPOSITION-EQUAL",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V56578",
+            "NEUTRAL1": "#V56589",
+            "TIME": "#V56545",
+            "TENSE": "PRES",
+            "LEX": "IS"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V56545": {
+          "id": "V56545",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V56561",
+            "GROUND": "#V56902"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V56902": {
+          "id": "V56902",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY": "2",
+            "LEX": "SECOND"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V56578": {
+          "id": "V56578",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "THAT",
+          "roles": {
+            "PROFORM": "THAT",
+            "LEX": "THAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 14,
+          "end": 19
+        },
+        "V56589": {
+          "id": "V56589",
+          "indicator": "F",
+          "type": "APPRECIATE",
+          "word": "LOVE",
+          "roles": {
+            "EXPERIENCER": "#V56585",
+            "NEUTRAL": "#V56634",
+            "TIME": "#V56600",
+            "PROP": "+",
+            "TENSE": "PRES",
+            "LEX": "LOVES",
+            "WNSENSE": "love%2:37:00::"
+          },
+          "start": 19,
+          "end": 61
+        },
+        "V56585": {
+          "id": "V56585",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 19,
+          "end": 23
+        },
+        "V56600": {
+          "id": "V56600",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V56618",
+            "FIGURE": "#V56589",
+            "LEX": "TO"
+          },
+          "start": 29,
+          "end": 37
+        },
+        "V56618": {
+          "id": "V56618",
+          "indicator": "BARE",
+          "type": "PERFORMANCE-PLAY",
+          "word": "PLAY",
+          "roles": {
+            "LEX": "PLAY"
+          },
+          "start": 32,
+          "end": 37
+        },
+        "V56634": {
+          "id": "V56634",
+          "indicator": "BARE",
+          "type": "CAPTURE",
+          "word": "CATCH",
+          "roles": {
+            "MOD": "#V56642",
+            "LEX": "CATCH",
+            "WNSENSE": "catch%2:35:01::"
+          },
+          "start": 37,
+          "end": 61
+        },
+        "V56642": {
+          "id": "V56642",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V56707",
+            "FIGURE": "#V56634",
+            "LEX": "WITH"
+          },
+          "start": 43,
+          "end": 61
+        },
+        "V56707": {
+          "id": "V56707",
+          "indicator": "A",
+          "type": "EQUIPMENT",
+          "word": "TENNIS-BALL",
+          "roles": {
+            "LEX": "TENNIS-BALL",
+            "WNSENSE": "tennis_ball%1:06:00"
+          },
+          "start": 48,
+          "end": 61
+        },
+        "root": "#V58701"
+      }
+    ]
+  ],
+  "sentence": "The second is that she loves to play catch with a tennis ball.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190806T111101",
+    "link": "http://trips.ihmc.us/parser/saved/20190806T111101-STEP-abhatia-none-The_second_is_that_she_loves_to_play_cat.xml",
+    "judgement": -1
+  }
+}

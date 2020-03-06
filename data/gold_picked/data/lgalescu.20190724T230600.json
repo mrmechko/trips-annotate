@@ -1,0 +1,1181 @@
+{
+  "parse": [
+    {
+      "V315013": {
+        "id": "V315013",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V314457",
+          "LEX": "FIND"
+        },
+        "start": 0,
+        "end": 20
+      },
+      "V314457": {
+        "id": "V314457",
+        "indicator": "F",
+        "type": "DETERMINE",
+        "word": "FIND",
+        "roles": {
+          "AGENT": "#V315014",
+          "NEUTRAL": "#V314524",
+          "TENSE": "PRES",
+          "LEX": "FIND",
+          "WNSENSE": "find%2:32:00::"
+        },
+        "start": 0,
+        "end": 20
+      },
+      "V315014": {
+        "id": "V315014",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 0,
+        "end": 20
+      },
+      "V314524": {
+        "id": "V314524",
+        "indicator": "A",
+        "type": "BLOCK",
+        "word": "BLOCK",
+        "roles": {
+          "MOD": "#V314521",
+          "LEX": "BLOCK",
+          "WNSENSE": "block%1:06:00::"
+        },
+        "start": 5,
+        "end": 20
+      },
+      "V314521": {
+        "id": "V314521",
+        "indicator": "F",
+        "type": "MORE-VAL",
+        "word": "TALL",
+        "roles": {
+          "FIGURE": "#V314524",
+          "SCALE": "HEIGHT-SCALE",
+          "LEX": "TALLER"
+        },
+        "start": 7,
+        "end": 14
+      },
+      "root": "#V315013"
+    },
+    {
+      "V314546": {
+        "id": "V314546",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": "ONE",
+        "roles": {
+          "MOD": "#V314591",
+          "LEX": "ONE",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 20,
+        "end": 48
+      },
+      "V314591": {
+        "id": "V314591",
+        "indicator": "F",
+        "type": "RETAIN",
+        "word": "HOLD",
+        "roles": {
+          "AGENT": "#V314561",
+          "AFFECTED": "#V314546",
+          "TENSE": "PRES",
+          "PROGR": "+",
+          "LEX": "HOLDING",
+          "WNSENSE": "hold%2:40:02::"
+        },
+        "start": 33,
+        "end": 48
+      },
+      "V314561": {
+        "id": "V314561",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "SYS"
+        },
+        "start": 33,
+        "end": 37
+      },
+      "root": "#V314546"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V315013": {
+          "id": "V315013",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V314457",
+            "LEX": "FIND"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V314457": {
+          "id": "V314457",
+          "indicator": "F",
+          "type": "DETERMINE",
+          "word": "FIND",
+          "roles": {
+            "AGENT": "#V315014",
+            "NEUTRAL": "#V314524",
+            "TENSE": "PRES",
+            "LEX": "FIND",
+            "WNSENSE": "find%2:32:00::"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V315014": {
+          "id": "V315014",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V314524": {
+          "id": "V314524",
+          "indicator": "A",
+          "type": "BLOCK",
+          "word": "BLOCK",
+          "roles": {
+            "MOD": "#V314521",
+            "LEX": "BLOCK",
+            "WNSENSE": "block%1:06:00::"
+          },
+          "start": 5,
+          "end": 20
+        },
+        "V314521": {
+          "id": "V314521",
+          "indicator": "F",
+          "type": "MORE-VAL",
+          "word": "TALL",
+          "roles": {
+            "FIGURE": "#V314524",
+            "SCALE": "HEIGHT-SCALE",
+            "LEX": "TALLER"
+          },
+          "start": 7,
+          "end": 14
+        },
+        "root": "#V315013"
+      },
+      {
+        "V314546": {
+          "id": "V314546",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": "ONE",
+          "roles": {
+            "MOD": "#V314590",
+            "LEX": "ONE",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 20,
+          "end": 48
+        },
+        "V314590": {
+          "id": "V314590",
+          "indicator": "F",
+          "type": "BODY-MANIPULATION",
+          "word": "HOLD",
+          "roles": {
+            "AGENT": "#V314561",
+            "AFFECTED": "#V314546",
+            "TENSE": "PRES",
+            "PROGR": "+",
+            "LEX": "HOLDING",
+            "WNSENSE": "hold%2:35:00::"
+          },
+          "start": 33,
+          "end": 48
+        },
+        "V314561": {
+          "id": "V314561",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "YOU",
+          "roles": {
+            "PROFORM": "YOU",
+            "LEX": "YOU",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 33,
+          "end": 37
+        },
+        "root": "#V314546"
+      }
+    ],
+    [
+      {
+        "V315013": {
+          "id": "V315013",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V314457",
+            "LEX": "FIND"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V314457": {
+          "id": "V314457",
+          "indicator": "F",
+          "type": "DETERMINE",
+          "word": "FIND",
+          "roles": {
+            "AGENT": "#V315014",
+            "NEUTRAL": "#V314524",
+            "TENSE": "PRES",
+            "LEX": "FIND",
+            "WNSENSE": "find%2:32:00::"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V315014": {
+          "id": "V315014",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V314524": {
+          "id": "V314524",
+          "indicator": "A",
+          "type": "BLOCK",
+          "word": "BLOCK",
+          "roles": {
+            "MOD": "#V314521",
+            "LEX": "BLOCK",
+            "WNSENSE": "block%1:06:00::"
+          },
+          "start": 5,
+          "end": 20
+        },
+        "V314521": {
+          "id": "V314521",
+          "indicator": "F",
+          "type": "MORE-VAL",
+          "word": "TALL",
+          "roles": {
+            "FIGURE": "#V314524",
+            "SCALE": "HEIGHT-SCALE",
+            "LEX": "TALLER"
+          },
+          "start": 7,
+          "end": 14
+        },
+        "root": "#V315013"
+      },
+      {
+        "V314546": {
+          "id": "V314546",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": "ONE",
+          "roles": {
+            "MOD": "#V314590",
+            "LEX": "ONE",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 20,
+          "end": 48
+        },
+        "V314590": {
+          "id": "V314590",
+          "indicator": "F",
+          "type": "BODY-MANIPULATION",
+          "word": "HOLD",
+          "roles": {
+            "AGENT": "#V314562",
+            "AFFECTED": "#V314546",
+            "TENSE": "PRES",
+            "PROGR": "+",
+            "LEX": "HOLDING",
+            "WNSENSE": "hold%2:35:00::"
+          },
+          "start": 33,
+          "end": 48
+        },
+        "V314562": {
+          "id": "V314562",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "YOU",
+          "roles": {
+            "PROFORM": "YOU",
+            "LEX": "YOU",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 33,
+          "end": 37
+        },
+        "root": "#V314546"
+      }
+    ],
+    [
+      {
+        "V315013": {
+          "id": "V315013",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V314457",
+            "LEX": "FIND"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V314457": {
+          "id": "V314457",
+          "indicator": "F",
+          "type": "DETERMINE",
+          "word": "FIND",
+          "roles": {
+            "AGENT": "#V315014",
+            "NEUTRAL": "#V314524",
+            "TENSE": "PRES",
+            "LEX": "FIND",
+            "WNSENSE": "find%2:32:00::"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V315014": {
+          "id": "V315014",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V314524": {
+          "id": "V314524",
+          "indicator": "A",
+          "type": "BLOCK",
+          "word": "BLOCK",
+          "roles": {
+            "MOD": "#V314521",
+            "LEX": "BLOCK",
+            "WNSENSE": "block%1:06:00::"
+          },
+          "start": 5,
+          "end": 20
+        },
+        "V314521": {
+          "id": "V314521",
+          "indicator": "F",
+          "type": "MORE-VAL",
+          "word": "TALL",
+          "roles": {
+            "FIGURE": "#V314524",
+            "SCALE": "HEIGHT-SCALE",
+            "LEX": "TALLER"
+          },
+          "start": 7,
+          "end": 14
+        },
+        "root": "#V315013"
+      },
+      {
+        "V314546": {
+          "id": "V314546",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": "ONE",
+          "roles": {
+            "MOD": "#V314591",
+            "LEX": "ONE",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 20,
+          "end": 48
+        },
+        "V314591": {
+          "id": "V314591",
+          "indicator": "F",
+          "type": "RETAIN",
+          "word": "HOLD",
+          "roles": {
+            "AGENT": "#V314562",
+            "AFFECTED": "#V314546",
+            "TENSE": "PRES",
+            "PROGR": "+",
+            "LEX": "HOLDING",
+            "WNSENSE": "hold%2:40:02::"
+          },
+          "start": 33,
+          "end": 48
+        },
+        "V314562": {
+          "id": "V314562",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "YOU",
+          "roles": {
+            "PROFORM": "YOU",
+            "LEX": "YOU",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 33,
+          "end": 37
+        },
+        "root": "#V314546"
+      }
+    ],
+    [
+      {
+        "V315013": {
+          "id": "V315013",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V314457",
+            "LEX": "FIND"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V314457": {
+          "id": "V314457",
+          "indicator": "F",
+          "type": "DETERMINE",
+          "word": "FIND",
+          "roles": {
+            "AGENT": "#V315014",
+            "NEUTRAL": "#V314524",
+            "TENSE": "PRES",
+            "LEX": "FIND",
+            "WNSENSE": "find%2:32:00::"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V315014": {
+          "id": "V315014",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V314524": {
+          "id": "V314524",
+          "indicator": "A",
+          "type": "BLOCK",
+          "word": "BLOCK",
+          "roles": {
+            "MOD": "#V314521",
+            "LEX": "BLOCK",
+            "WNSENSE": "block%1:06:00::"
+          },
+          "start": 5,
+          "end": 20
+        },
+        "V314521": {
+          "id": "V314521",
+          "indicator": "F",
+          "type": "MORE-VAL",
+          "word": "TALL",
+          "roles": {
+            "FIGURE": "#V314524",
+            "SCALE": "HEIGHT-SCALE",
+            "LEX": "TALLER"
+          },
+          "start": 7,
+          "end": 14
+        },
+        "root": "#V315013"
+      },
+      {
+        "V314546": {
+          "id": "V314546",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": "ONE",
+          "roles": {
+            "MOD": "#V314591",
+            "LEX": "ONE",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 20,
+          "end": 48
+        },
+        "V314591": {
+          "id": "V314591",
+          "indicator": "F",
+          "type": "RETAIN",
+          "word": "HOLD",
+          "roles": {
+            "AGENT": "#V314561",
+            "AFFECTED": "#V314546",
+            "TENSE": "PRES",
+            "PROGR": "+",
+            "LEX": "HOLDING",
+            "WNSENSE": "hold%2:40:02::"
+          },
+          "start": 33,
+          "end": 48
+        },
+        "V314561": {
+          "id": "V314561",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "YOU",
+          "roles": {
+            "PROFORM": "YOU",
+            "LEX": "YOU",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 33,
+          "end": 37
+        },
+        "root": "#V314546"
+      }
+    ],
+    [
+      {
+        "V315013": {
+          "id": "V315013",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V314457",
+            "LEX": "FIND"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V314457": {
+          "id": "V314457",
+          "indicator": "F",
+          "type": "DETERMINE",
+          "word": "FIND",
+          "roles": {
+            "AGENT": "#V315014",
+            "NEUTRAL": "#V314524",
+            "TENSE": "PRES",
+            "LEX": "FIND",
+            "WNSENSE": "find%2:32:00::"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V315014": {
+          "id": "V315014",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V314524": {
+          "id": "V314524",
+          "indicator": "A",
+          "type": "BLOCK",
+          "word": "BLOCK",
+          "roles": {
+            "MOD": "#V314521",
+            "LEX": "BLOCK",
+            "WNSENSE": "block%1:06:00::"
+          },
+          "start": 5,
+          "end": 20
+        },
+        "V314521": {
+          "id": "V314521",
+          "indicator": "F",
+          "type": "MORE-VAL",
+          "word": "TALL",
+          "roles": {
+            "FIGURE": "#V314524",
+            "SCALE": "HEIGHT-SCALE",
+            "LEX": "TALLER"
+          },
+          "start": 7,
+          "end": 14
+        },
+        "root": "#V315013"
+      },
+      {
+        "V314546": {
+          "id": "V314546",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": "ONE",
+          "roles": {
+            "MOD": "#V314590",
+            "LEX": "ONE",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 20,
+          "end": 48
+        },
+        "V314590": {
+          "id": "V314590",
+          "indicator": "F",
+          "type": "BODY-MANIPULATION",
+          "word": "HOLD",
+          "roles": {
+            "AGENT": "#V314561",
+            "AFFECTED": "#V314546",
+            "TENSE": "PRES",
+            "PROGR": "+",
+            "LEX": "HOLDING",
+            "WNSENSE": "hold%2:35:00::"
+          },
+          "start": 33,
+          "end": 48
+        },
+        "V314561": {
+          "id": "V314561",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "YOU",
+          "roles": {
+            "PROFORM": "YOU",
+            "LEX": "YOU",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 33,
+          "end": 37
+        },
+        "root": "#V314546"
+      }
+    ],
+    [
+      {
+        "V315013": {
+          "id": "V315013",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V314457",
+            "LEX": "FIND"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V314457": {
+          "id": "V314457",
+          "indicator": "F",
+          "type": "DETERMINE",
+          "word": "FIND",
+          "roles": {
+            "AGENT": "#V315014",
+            "NEUTRAL": "#V314524",
+            "TENSE": "PRES",
+            "LEX": "FIND",
+            "WNSENSE": "find%2:32:00::"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V315014": {
+          "id": "V315014",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V314524": {
+          "id": "V314524",
+          "indicator": "A",
+          "type": "BLOCK",
+          "word": "BLOCK",
+          "roles": {
+            "MOD": "#V314521",
+            "LEX": "BLOCK",
+            "WNSENSE": "block%1:06:00::"
+          },
+          "start": 5,
+          "end": 20
+        },
+        "V314521": {
+          "id": "V314521",
+          "indicator": "F",
+          "type": "MORE-VAL",
+          "word": "TALL",
+          "roles": {
+            "FIGURE": "#V314524",
+            "SCALE": "HEIGHT-SCALE",
+            "LEX": "TALLER"
+          },
+          "start": 7,
+          "end": 14
+        },
+        "root": "#V315013"
+      },
+      {
+        "V314546": {
+          "id": "V314546",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": "ONE",
+          "roles": {
+            "MOD": "#V314590",
+            "LEX": "ONE",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 20,
+          "end": 48
+        },
+        "V314590": {
+          "id": "V314590",
+          "indicator": "F",
+          "type": "BODY-MANIPULATION",
+          "word": "HOLD",
+          "roles": {
+            "AGENT": "#V314562",
+            "AFFECTED": "#V314546",
+            "TENSE": "PRES",
+            "PROGR": "+",
+            "LEX": "HOLDING",
+            "WNSENSE": "hold%2:35:00::"
+          },
+          "start": 33,
+          "end": 48
+        },
+        "V314562": {
+          "id": "V314562",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "YOU",
+          "roles": {
+            "PROFORM": "YOU",
+            "LEX": "YOU",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 33,
+          "end": 37
+        },
+        "root": "#V314546"
+      }
+    ],
+    [
+      {
+        "V315013": {
+          "id": "V315013",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V314457",
+            "LEX": "FIND"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V314457": {
+          "id": "V314457",
+          "indicator": "F",
+          "type": "DETERMINE",
+          "word": "FIND",
+          "roles": {
+            "AGENT": "#V315014",
+            "NEUTRAL": "#V314524",
+            "TENSE": "PRES",
+            "LEX": "FIND",
+            "WNSENSE": "find%2:32:00::"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V315014": {
+          "id": "V315014",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V314524": {
+          "id": "V314524",
+          "indicator": "A",
+          "type": "BLOCK",
+          "word": "BLOCK",
+          "roles": {
+            "MOD": "#V314521",
+            "LEX": "BLOCK",
+            "WNSENSE": "block%1:06:00::"
+          },
+          "start": 5,
+          "end": 20
+        },
+        "V314521": {
+          "id": "V314521",
+          "indicator": "F",
+          "type": "MORE-VAL",
+          "word": "TALL",
+          "roles": {
+            "FIGURE": "#V314524",
+            "SCALE": "HEIGHT-SCALE",
+            "LEX": "TALLER"
+          },
+          "start": 7,
+          "end": 14
+        },
+        "root": "#V315013"
+      },
+      {
+        "V314546": {
+          "id": "V314546",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": "ONE",
+          "roles": {
+            "MOD": "#V314591",
+            "LEX": "ONE",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 20,
+          "end": 48
+        },
+        "V314591": {
+          "id": "V314591",
+          "indicator": "F",
+          "type": "RETAIN",
+          "word": "HOLD",
+          "roles": {
+            "AGENT": "#V314562",
+            "AFFECTED": "#V314546",
+            "TENSE": "PRES",
+            "PROGR": "+",
+            "LEX": "HOLDING",
+            "WNSENSE": "hold%2:40:02::"
+          },
+          "start": 33,
+          "end": 48
+        },
+        "V314562": {
+          "id": "V314562",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "YOU",
+          "roles": {
+            "PROFORM": "YOU",
+            "LEX": "YOU",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 33,
+          "end": 37
+        },
+        "root": "#V314546"
+      }
+    ],
+    [
+      {
+        "V315312": {
+          "id": "V315312",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V314457",
+            "LEX": "FIND"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V314457": {
+          "id": "V314457",
+          "indicator": "F",
+          "type": "DETERMINE",
+          "word": "FIND",
+          "roles": {
+            "AGENT": "#V315313",
+            "NEUTRAL": "#V314524",
+            "TENSE": "PRES",
+            "LEX": "FIND",
+            "WNSENSE": "find%2:32:00::"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V315313": {
+          "id": "V315313",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V314524": {
+          "id": "V314524",
+          "indicator": "BARE",
+          "type": "BLOCK",
+          "word": "BLOCK",
+          "roles": {
+            "ASSOC-WITH": "#V314496",
+            "MOD": "#V314521",
+            "LEX": "BLOCK",
+            "WNSENSE": "block%1:06:00::"
+          },
+          "start": 5,
+          "end": 20
+        },
+        "V314496": {
+          "id": "V314496",
+          "indicator": "THE",
+          "type": "LETTER-SYMBOL",
+          "word": null,
+          "roles": {
+            "NAME-OF": "A",
+            "LEX": "A",
+            "WNSENSE": "a%1:10:00::"
+          },
+          "start": 5,
+          "end": 7
+        },
+        "V314521": {
+          "id": "V314521",
+          "indicator": "F",
+          "type": "MORE-VAL",
+          "word": "TALL",
+          "roles": {
+            "FIGURE": "#V314524",
+            "SCALE": "HEIGHT-SCALE",
+            "LEX": "TALLER"
+          },
+          "start": 7,
+          "end": 14
+        },
+        "root": "#V315312"
+      },
+      {
+        "V314546": {
+          "id": "V314546",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": "ONE",
+          "roles": {
+            "MOD": "#V314591",
+            "LEX": "ONE",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 20,
+          "end": 48
+        },
+        "V314591": {
+          "id": "V314591",
+          "indicator": "F",
+          "type": "RETAIN",
+          "word": "HOLD",
+          "roles": {
+            "AGENT": "#V314561",
+            "AFFECTED": "#V314546",
+            "TENSE": "PRES",
+            "PROGR": "+",
+            "LEX": "HOLDING",
+            "WNSENSE": "hold%2:40:02::"
+          },
+          "start": 33,
+          "end": 48
+        },
+        "V314561": {
+          "id": "V314561",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "YOU",
+          "roles": {
+            "PROFORM": "YOU",
+            "LEX": "YOU",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 33,
+          "end": 37
+        },
+        "root": "#V314546"
+      }
+    ],
+    [
+      {
+        "V315312": {
+          "id": "V315312",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V314457",
+            "LEX": "FIND"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V314457": {
+          "id": "V314457",
+          "indicator": "F",
+          "type": "DETERMINE",
+          "word": "FIND",
+          "roles": {
+            "AGENT": "#V315313",
+            "NEUTRAL": "#V314524",
+            "TENSE": "PRES",
+            "LEX": "FIND",
+            "WNSENSE": "find%2:32:00::"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V315313": {
+          "id": "V315313",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V314524": {
+          "id": "V314524",
+          "indicator": "BARE",
+          "type": "BLOCK",
+          "word": "BLOCK",
+          "roles": {
+            "ASSOC-WITH": "#V314496",
+            "MOD": "#V314521",
+            "LEX": "BLOCK",
+            "WNSENSE": "block%1:06:00::"
+          },
+          "start": 5,
+          "end": 20
+        },
+        "V314496": {
+          "id": "V314496",
+          "indicator": "THE",
+          "type": "LETTER-SYMBOL",
+          "word": null,
+          "roles": {
+            "NAME-OF": "A",
+            "LEX": "A",
+            "WNSENSE": "a%1:10:00::"
+          },
+          "start": 5,
+          "end": 7
+        },
+        "V314521": {
+          "id": "V314521",
+          "indicator": "F",
+          "type": "MORE-VAL",
+          "word": "TALL",
+          "roles": {
+            "FIGURE": "#V314524",
+            "SCALE": "HEIGHT-SCALE",
+            "LEX": "TALLER"
+          },
+          "start": 7,
+          "end": 14
+        },
+        "root": "#V315312"
+      },
+      {
+        "V314546": {
+          "id": "V314546",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": "ONE",
+          "roles": {
+            "MOD": "#V314590",
+            "LEX": "ONE",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 20,
+          "end": 48
+        },
+        "V314590": {
+          "id": "V314590",
+          "indicator": "F",
+          "type": "BODY-MANIPULATION",
+          "word": "HOLD",
+          "roles": {
+            "AGENT": "#V314561",
+            "AFFECTED": "#V314546",
+            "TENSE": "PRES",
+            "PROGR": "+",
+            "LEX": "HOLDING",
+            "WNSENSE": "hold%2:35:00::"
+          },
+          "start": 33,
+          "end": 48
+        },
+        "V314561": {
+          "id": "V314561",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "YOU",
+          "roles": {
+            "PROFORM": "YOU",
+            "LEX": "YOU",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 33,
+          "end": 37
+        },
+        "root": "#V314546"
+      }
+    ]
+  ],
+  "sentence": "Find a taller block than the one you are holding.",
+  "annotation": {
+    "judge": "lgalescu",
+    "parser": "STEP",
+    "timestamp": "20190724T230600",
+    "link": "http://trips.ihmc.us/parser/saved/20190724T230600-STEP-lgalescu-none-Find_a_taller_block_than_the_one_you_are.xml",
+    "judgement": -1
+  }
+}

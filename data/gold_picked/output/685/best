@@ -1,0 +1,30 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V101754 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V100830 [label=<<font color="green"><br /></font> <font color="black">COOK</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">COOK</font> <font color="green"><br /></font> <font color="green">cook%2:30:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::COOK.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V100816 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">I</font> <font color="green"><br /></font> <font color="green">person%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V100842 [label=<<font color="green"><br /></font> <font color="black">FOOD</font> <font color="green"><br /></font> <font color="red">BARE</font> <font color="blue">DINNER</font> <font color="green"><br /></font> <font color="green">dinner%1:13:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FOOD.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V100854 [label=<<font color="green"><br /></font> <font color="black">BENEFICIARY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">FOR</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BENEFICIARY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V100877 [label=<<font color="green"><br /></font> <font color="black">FEMALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HER</font> <font color="green"><br /></font> <font color="green">woman%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FEMALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V100889 [label=<<font color="green"><br /></font> <font color="black">THEREFORE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">SO</font> <font color="green"><br /></font> <font color="green">so%4:02:02::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::THEREFORE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V100952 [label=<<font color="green"><br /></font> <font color="black">NECESSITY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">HAVE</font> <font color="green"><br /></font> <font color="green">need%2:34:01</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::NECESSITY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V100901 [label=<<font color="green"><br /></font> <font color="black">FEMALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">SHE</font> <font color="green"><br /></font> <font color="green">woman%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FEMALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V100995 [label=<<font color="green"><br /></font> <font color="black">COOK</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">COOK</font> <font color="green"><br /></font> <font color="green">cook%2:30:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::COOK.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V101005 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">IT</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V100830 -> V100854 [label=" BENEFICIARY   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V100889 -> V100830 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V101754 -> V100830 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V100830 -> V100889 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V100854 -> V100830 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V100830 -> V100842 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V100952 -> V100995 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V100952 -> V100901 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V100995 -> V100901 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V100889 -> V100952 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V100854 -> V100877 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V100995 -> V101005 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V100830 -> V100816 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

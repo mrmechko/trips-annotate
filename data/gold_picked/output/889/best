@@ -1,0 +1,16 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V287573 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V287268 [label=<<font color="green"><br /></font> <font color="black">SELF-LOCOMOTE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">WALK</font> <font color="green"><br /></font> <font color="green">walk%2:38:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SELF-LOCOMOTE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V287263 [label=<<font color="green"><br /></font> <font color="black">NONHUMAN-ANIMAL</font> <font color="green"><br /></font> <font color="red">THE-SET</font> <font color="blue">ELEPHANT</font> <font color="green"><br /></font> <font color="green">elephant%1:05:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::NONHUMAN-ANIMAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V287280 [label=<<font color="green"><br /></font> <font color="black">IN-LOC</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">IN</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::IN-LOC.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V287376 [label=<<font color="green"><br /></font> <font color="black">LINEAR-GROUPING</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">LINE</font> <font color="green"><br /></font> <font color="green">line%1:14:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::LINEAR-GROUPING.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V287280 -> V287376 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V287280 -> V287263 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V287573 -> V287268 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V287268 -> V287280 [label=" RESULT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V287268 -> V287263 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

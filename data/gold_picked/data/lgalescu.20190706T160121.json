@@ -1,0 +1,144 @@
+{
+  "parse": [
+    {
+      "V167361": {
+        "id": "V167361",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V159252"
+        },
+        "start": 0,
+        "end": 67
+      },
+      "V159252": {
+        "id": "V159252",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V159124",
+          "FORMAL": "#V159280",
+          "EXTENT": "#V159010",
+          "QUALIFICATION": "#V159273",
+          "TENSE": "PAST"
+        },
+        "start": 0,
+        "end": 67
+      },
+      "V159010": {
+        "id": "V159010",
+        "indicator": "F",
+        "type": "EVENT-DURATION-MODIFIER",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V159116",
+          "FIGURE": "#V159252"
+        },
+        "start": 0,
+        "end": 7
+      },
+      "V159116": {
+        "id": "V159116",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "YEAR": "2015"
+        },
+        "start": 3,
+        "end": 7
+      },
+      "V159124": {
+        "id": "V159124",
+        "indicator": "BARE",
+        "type": "MOVE",
+        "word": "MOVEMENT",
+        "roles": {
+          "RESULT": "#V159143"
+        },
+        "start": 9,
+        "end": 37
+      },
+      "V159143": {
+        "id": "V159143",
+        "indicator": "F",
+        "type": "OUTSIDE",
+        "word": "OUT-OF",
+        "roles": {
+          "GROUND": "#V159244",
+          "FIGURE": "#V159124"
+        },
+        "start": 18,
+        "end": 37
+      },
+      "V159244": {
+        "id": "V159244",
+        "indicator": "THE",
+        "type": "COUNTRY",
+        "word": "SOUTH-SUDAN",
+        "roles": {
+          "NAME-OF": "SOUTH-SUDAN",
+          "CWMS": "((:CWMS\n  (COUNTRY :NAME \"Republic of South Sudan\" :CODE SS :MATCHES\n   ((MATCH :SCORE 1.0 :MATCHED \"South Sudan\" :EXACT 2)))))"
+        },
+        "start": 25,
+        "end": 37
+      },
+      "V159273": {
+        "id": "V159273",
+        "indicator": "F",
+        "type": "QUALIFICATION",
+        "word": "MAINLY",
+        "roles": {
+          "FIGURE": "#V159252"
+        },
+        "start": 41,
+        "end": 48
+      },
+      "V159280": {
+        "id": "V159280",
+        "indicator": "F",
+        "type": "DUE-TO",
+        "word": "DUE",
+        "roles": {
+          "GROUND": "#V159327",
+          "FIGURE": "#V159124"
+        },
+        "start": 48,
+        "end": 67
+      },
+      "V159327": {
+        "id": "V159327",
+        "indicator": "BARE",
+        "type": "LACKING",
+        "word": "LACK",
+        "roles": {
+          "NEUTRAL1": "#V159352"
+        },
+        "start": 52,
+        "end": 67
+      },
+      "V159352": {
+        "id": "V159352",
+        "indicator": "BARE",
+        "type": "FOOD",
+        "word": "FOOD",
+        "roles": {},
+        "start": 60,
+        "end": 67
+      },
+      "root": "#V167361"
+    }
+  ],
+  "alternatives": [],
+  "sentence": "In 2015, movement out of South Sudan was mainly due to lack of food.",
+  "annotation": {
+    "judge": "lgalescu",
+    "parser": "CWMS",
+    "timestamp": "20190706T160121",
+    "link": "http://trips.ihmc.us/parser/saved/20190706T160121-CWMS-lgalescu-0-In_2015_movement_out_of_South_Sudan_was_.xml",
+    "judgement": 0
+  }
+}

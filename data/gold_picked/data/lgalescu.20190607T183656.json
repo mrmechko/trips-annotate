@@ -1,0 +1,210 @@
+{
+  "parse": [
+    {
+      "V83329": {
+        "id": "V83329",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V82885"
+        },
+        "start": 0,
+        "end": 50
+      },
+      "V82885": {
+        "id": "V82885",
+        "indicator": "F",
+        "type": "COME",
+        "word": "COME",
+        "roles": {
+          "RESULT": "#V82906",
+          "AFFECTED": "#V82873",
+          "TIME": "#V82949",
+          "TENSE": "PAST"
+        },
+        "start": 0,
+        "end": 49
+      },
+      "V82873": {
+        "id": "V82873",
+        "indicator": "INDEF-SET",
+        "type": "TRAVELLER",
+        "word": "REFUGEES",
+        "roles": {
+          "SIZE": "#V82870"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V82870": {
+        "id": "V82870",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "23000"
+        },
+        "start": 0,
+        "end": 6
+      },
+      "V82906": {
+        "id": "V82906",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V82945",
+          "FIGURE": "#V82873"
+        },
+        "start": 20,
+        "end": 32
+      },
+      "V82945": {
+        "id": "V82945",
+        "indicator": "THE",
+        "type": "COUNTRY",
+        "word": "ETHIOPIA",
+        "roles": {
+          "NAME-OF": "ETHIOPIA"
+        },
+        "start": 23,
+        "end": 32
+      },
+      "V82949": {
+        "id": "V82949",
+        "indicator": "F",
+        "type": "DURING",
+        "word": "DURING",
+        "roles": {
+          "GROUND": "#V82965",
+          "FIGURE": "#V82885"
+        },
+        "start": 32,
+        "end": 49
+      },
+      "V82965": {
+        "id": "V82965",
+        "indicator": "THE",
+        "type": "SUMMER",
+        "word": "SUMMER",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE"
+        },
+        "start": 39,
+        "end": 49
+      },
+      "root": "#V83329"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V83379": {
+          "id": "V83379",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V82885"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V82885": {
+          "id": "V82885",
+          "indicator": "F",
+          "type": "COME",
+          "word": "COME",
+          "roles": {
+            "RESULT": "#V82906",
+            "AFFECTED": "#V82873",
+            "TIME": "#V82949",
+            "TENSE": "PAST"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V82873": {
+          "id": "V82873",
+          "indicator": "INDEF-SET",
+          "type": "TRAVELLER",
+          "word": "REFUGEES",
+          "roles": {
+            "SIZE": "#V82870"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V82870": {
+          "id": "V82870",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "23000"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V82906": {
+          "id": "V82906",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V82942",
+            "FIGURE": "#V82873"
+          },
+          "start": 20,
+          "end": 32
+        },
+        "V82942": {
+          "id": "V82942",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "ETHIOPIA",
+          "roles": {
+            "NAME-OF": "ETHIOPIA"
+          },
+          "start": 23,
+          "end": 32
+        },
+        "V82949": {
+          "id": "V82949",
+          "indicator": "F",
+          "type": "DURING",
+          "word": "DURING",
+          "roles": {
+            "GROUND": "#V82965",
+            "FIGURE": "#V82885"
+          },
+          "start": 32,
+          "end": 49
+        },
+        "V82965": {
+          "id": "V82965",
+          "indicator": "THE",
+          "type": "SUMMER",
+          "word": "SUMMER",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE"
+          },
+          "start": 39,
+          "end": 49
+        },
+        "root": "#V83379"
+      }
+    ]
+  ],
+  "sentence": "23000 refugees came to Ethiopia during the summer.",
+  "annotation": {
+    "judge": "lgalescu",
+    "parser": "CWMS",
+    "timestamp": "20190607T183656",
+    "link": "http://trips.ihmc.us/parser/saved/20190607T183656-CWMS-lgalescu-0-23000_refugees_came_to_Ethiopia_during_t.xml",
+    "judgement": 0
+  }
+}

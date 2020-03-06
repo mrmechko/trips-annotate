@@ -1,0 +1,21 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V212522 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V210327 [label=<<font color="green"><br /></font> <font color="black">PULL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">PULL</font> <font color="green"><br /></font> <font color="green">pull%2:35:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PULL.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V210322 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HE</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V210339 [label=<<font color="green"><br /></font> <font color="black">UNTIL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">TO</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::UNTIL.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V210367 [label=<<font color="green"><br /></font> <font color="black">SIDE-LOCATION</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">SIDE</font> <font color="green"><br /></font> <font color="green">side%1:15:02::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SIDE-LOCATION.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V210372 [label=<<font color="green"><br /></font> <font color="black">ASSOC-WITH</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">OF</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ASSOC-WITH.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V210386 [label=<<font color="green"><br /></font> <font color="black">ROAD</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">ROAD</font> <font color="green"><br /></font> <font color="green">road%1:06:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ROAD.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V210327 -> V210339 [label=" TIME   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V210372 -> V210386 [label=" GROUND   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V210367 -> V210372 [label=" MOD   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V212522 -> V210327 [label=" CONTENT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V210372 -> V210367 [label=" FIGURE   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V210339 -> V210327 [label=" FIGURE   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V210339 -> V210367 [label=" GROUND   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V210327 -> V210322 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

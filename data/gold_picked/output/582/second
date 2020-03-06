@@ -1,0 +1,16 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V167957 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V167398 [label=<<font color="green"><br /></font> <font color="black">START</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">START</font> <font color="green"><br /></font> <font color="green">start%1:11:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::START.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V167380 [label=<<font color="green"><br /></font> <font color="black">GEOGRAPHIC-REGION</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">KATIE</font> <font color="green"><br /></font> <font color="green">north_america%1:14:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GEOGRAPHIC-REGION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V167421 [label=<<font color="green"><br /></font> <font color="black">INTERSECT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">MEET</font> <font color="green"><br /></font> <font color="green">cross%2:38:03</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::INTERSECT.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V167438 [label=<<font color="green"><br /></font> <font color="black">GEOGRAPHIC-REGION</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">ROBERT</font> <font color="green"><br /></font> <font color="green">north_america%1:14:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GEOGRAPHIC-REGION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V167421 -> V167438 [label=" NEUTRAL1   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V167957 -> V167398 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V167398 -> V167421 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V167421 -> V167380 [label=" NEUTRAL   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V167398 -> V167380 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

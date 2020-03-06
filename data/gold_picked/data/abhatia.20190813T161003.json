@@ -1,0 +1,1128 @@
+{
+  "parse": [
+    {
+      "V49234": {
+        "id": "V49234",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V49228",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 38
+      },
+      "V49228": {
+        "id": "V49228",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V48874",
+          "SEQUENCE1": "#V48947",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 38
+      },
+      "V48947": {
+        "id": "V48947",
+        "indicator": "F",
+        "type": "APOLOGIZE",
+        "word": "APOLOGIZE",
+        "roles": {
+          "AGENT": "#V48869",
+          "LEX": "APOLOGIZED",
+          "WNSENSE": "apologize%2:32:00::"
+        },
+        "start": 0,
+        "end": 38
+      },
+      "V48874": {
+        "id": "V48874",
+        "indicator": "F",
+        "type": "MOVE-RAPIDLY",
+        "word": "RUN",
+        "roles": {
+          "AGENT": "#V48869",
+          "REASON": "#V48891",
+          "LEX": "RAN",
+          "WNSENSE": "run%2:38:00::"
+        },
+        "start": 0,
+        "end": 38
+      },
+      "V48869": {
+        "id": "V48869",
+        "indicator": "A",
+        "type": "PROFESSIONAL",
+        "word": "WORKER",
+        "roles": {
+          "LEX": "WORKER",
+          "WNSENSE": "worker%1:18:00::"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V48891": {
+        "id": "V48891",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V48918",
+          "FIGURE": "#V48874",
+          "LEX": "TO"
+        },
+        "start": 13,
+        "end": 24
+      },
+      "V48918": {
+        "id": "V48918",
+        "indicator": "F",
+        "type": "HELP",
+        "word": "HELP",
+        "roles": {
+          "AFFECTED": "#V48930",
+          "VFORM": "BASE",
+          "LEX": "HELP",
+          "WNSENSE": "help%2:41:00::"
+        },
+        "start": 16,
+        "end": 24
+      },
+      "V48930": {
+        "id": "V48930",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 21,
+        "end": 24
+      },
+      "root": "#V49234"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V49288": {
+          "id": "V49288",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V48935",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 39
+        },
+        "V48935": {
+          "id": "V48935",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V48874",
+            "SEQUENCE1": "#V48947",
+            "TENSE": "PAST",
+            "LEX": "AND",
+            "WNSENSE": "run%2:38:00::"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V48874": {
+          "id": "V48874",
+          "indicator": "F",
+          "type": "MOVE-RAPIDLY",
+          "word": "RUN",
+          "roles": {
+            "AGENT": "#V48869",
+            "REASON": "#V48891",
+            "TENSE": "PAST",
+            "LEX": "RAN",
+            "WNSENSE": "run%2:38:00::"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V48869": {
+          "id": "V48869",
+          "indicator": "A",
+          "type": "PROFESSIONAL",
+          "word": "WORKER",
+          "roles": {
+            "LEX": "WORKER",
+            "WNSENSE": "worker%1:18:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V48891": {
+          "id": "V48891",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V48918",
+            "FIGURE": "#V48874",
+            "LEX": "TO"
+          },
+          "start": 13,
+          "end": 24
+        },
+        "V48918": {
+          "id": "V48918",
+          "indicator": "F",
+          "type": "HELP",
+          "word": "HELP",
+          "roles": {
+            "AFFECTED": "#V48930",
+            "VFORM": "BASE",
+            "LEX": "HELP",
+            "WNSENSE": "help%2:41:00::"
+          },
+          "start": 16,
+          "end": 24
+        },
+        "V48930": {
+          "id": "V48930",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 21,
+          "end": 24
+        },
+        "V48947": {
+          "id": "V48947",
+          "indicator": "F",
+          "type": "APOLOGIZE",
+          "word": "APOLOGIZE",
+          "roles": {
+            "AGENT": "#V48869",
+            "TENSE": "PAST",
+            "LEX": "APOLOGIZED",
+            "WNSENSE": "apologize%2:32:00::"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "root": "#V49288"
+      }
+    ],
+    [
+      {
+        "V49586": {
+          "id": "V49586",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V49580",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 39
+        },
+        "V49580": {
+          "id": "V49580",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V48877",
+            "SEQUENCE1": "#V48947",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V48947": {
+          "id": "V48947",
+          "indicator": "F",
+          "type": "APOLOGIZE",
+          "word": "APOLOGIZE",
+          "roles": {
+            "AGENT": "#V48869",
+            "LEX": "APOLOGIZED",
+            "WNSENSE": "apologize%2:32:00::"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V48877": {
+          "id": "V48877",
+          "indicator": "F",
+          "type": "GOVERNING",
+          "word": "RUN",
+          "roles": {
+            "AGENT": "#V48869",
+            "AFFECTED": "#V48930",
+            "RESULT": "#V48887",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V48869": {
+          "id": "V48869",
+          "indicator": "A",
+          "type": "PROFESSIONAL",
+          "word": "WORKER",
+          "roles": {
+            "LEX": "WORKER",
+            "WNSENSE": "worker%1:18:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V48887": {
+          "id": "V48887",
+          "indicator": "F",
+          "type": "RESULTING-STATE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V48908",
+            "FIGURE": "#V48930",
+            "LEX": "TO"
+          },
+          "start": 13,
+          "end": 21
+        },
+        "V48908": {
+          "id": "V48908",
+          "indicator": "BARE",
+          "type": "HELP",
+          "word": "HELP",
+          "roles": {
+            "LEX": "HELP",
+            "WNSENSE": "help%2:41:00::"
+          },
+          "start": 16,
+          "end": 21
+        },
+        "V48930": {
+          "id": "V48930",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 21,
+          "end": 24
+        },
+        "root": "#V49586"
+      }
+    ],
+    [
+      {
+        "V49564": {
+          "id": "V49564",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V49558",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 39
+        },
+        "V49558": {
+          "id": "V49558",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V48877",
+            "SEQUENCE1": "#V48947",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V48947": {
+          "id": "V48947",
+          "indicator": "F",
+          "type": "APOLOGIZE",
+          "word": "APOLOGIZE",
+          "roles": {
+            "AGENT": "#V48869",
+            "LEX": "APOLOGIZED",
+            "WNSENSE": "apologize%2:32:00::"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V48877": {
+          "id": "V48877",
+          "indicator": "F",
+          "type": "GOVERNING",
+          "word": "RUN",
+          "roles": {
+            "AGENT": "#V48869",
+            "AFFECTED": "#V48930",
+            "RESULT": "#V48887",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V48869": {
+          "id": "V48869",
+          "indicator": "A",
+          "type": "PROFESSIONAL",
+          "word": "WORKER",
+          "roles": {
+            "LEX": "WORKER",
+            "WNSENSE": "worker%1:18:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V48887": {
+          "id": "V48887",
+          "indicator": "F",
+          "type": "RESULTING-STATE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V48909",
+            "FIGURE": "#V48930",
+            "LEX": "TO"
+          },
+          "start": 13,
+          "end": 21
+        },
+        "V48909": {
+          "id": "V48909",
+          "indicator": "BARE",
+          "type": "HELP",
+          "word": "HELP",
+          "roles": {
+            "LEX": "HELP",
+            "WNSENSE": "help%2:41:00::"
+          },
+          "start": 16,
+          "end": 21
+        },
+        "V48930": {
+          "id": "V48930",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 21,
+          "end": 24
+        },
+        "root": "#V49564"
+      }
+    ],
+    [
+      {
+        "V49542": {
+          "id": "V49542",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V49536",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 39
+        },
+        "V49536": {
+          "id": "V49536",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V48877",
+            "SEQUENCE1": "#V48947",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V48947": {
+          "id": "V48947",
+          "indicator": "F",
+          "type": "APOLOGIZE",
+          "word": "APOLOGIZE",
+          "roles": {
+            "AGENT": "#V48869",
+            "LEX": "APOLOGIZED",
+            "WNSENSE": "apologize%2:32:00::"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V48877": {
+          "id": "V48877",
+          "indicator": "F",
+          "type": "GOVERNING",
+          "word": "RUN",
+          "roles": {
+            "AGENT": "#V48869",
+            "AFFECTED": "#V48930",
+            "RESULT": "#V48887",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V48869": {
+          "id": "V48869",
+          "indicator": "A",
+          "type": "PROFESSIONAL",
+          "word": "WORKER",
+          "roles": {
+            "LEX": "WORKER",
+            "WNSENSE": "worker%1:18:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V48887": {
+          "id": "V48887",
+          "indicator": "F",
+          "type": "RESULTING-STATE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V48910",
+            "FIGURE": "#V48930",
+            "LEX": "TO"
+          },
+          "start": 13,
+          "end": 21
+        },
+        "V48910": {
+          "id": "V48910",
+          "indicator": "BARE",
+          "type": "HELP",
+          "word": "HELP",
+          "roles": {
+            "LEX": "HELP",
+            "WNSENSE": "help%2:41:00::"
+          },
+          "start": 16,
+          "end": 21
+        },
+        "V48930": {
+          "id": "V48930",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 21,
+          "end": 24
+        },
+        "root": "#V49542"
+      }
+    ],
+    [
+      {
+        "V49520": {
+          "id": "V49520",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V49514",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 39
+        },
+        "V49514": {
+          "id": "V49514",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V48877",
+            "SEQUENCE1": "#V48947",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V48947": {
+          "id": "V48947",
+          "indicator": "F",
+          "type": "APOLOGIZE",
+          "word": "APOLOGIZE",
+          "roles": {
+            "AGENT": "#V48869",
+            "LEX": "APOLOGIZED",
+            "WNSENSE": "apologize%2:32:00::"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V48877": {
+          "id": "V48877",
+          "indicator": "F",
+          "type": "GOVERNING",
+          "word": "RUN",
+          "roles": {
+            "AGENT": "#V48869",
+            "AFFECTED": "#V48930",
+            "RESULT": "#V48887",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V48869": {
+          "id": "V48869",
+          "indicator": "A",
+          "type": "PROFESSIONAL",
+          "word": "WORKER",
+          "roles": {
+            "LEX": "WORKER",
+            "WNSENSE": "worker%1:18:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V48887": {
+          "id": "V48887",
+          "indicator": "F",
+          "type": "RESULTING-STATE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V48911",
+            "FIGURE": "#V48930",
+            "LEX": "TO"
+          },
+          "start": 13,
+          "end": 21
+        },
+        "V48911": {
+          "id": "V48911",
+          "indicator": "BARE",
+          "type": "HELP",
+          "word": "HELP",
+          "roles": {
+            "LEX": "HELP",
+            "WNSENSE": "help%2:41:00::"
+          },
+          "start": 16,
+          "end": 21
+        },
+        "V48930": {
+          "id": "V48930",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 21,
+          "end": 24
+        },
+        "root": "#V49520"
+      }
+    ],
+    [
+      {
+        "V49474": {
+          "id": "V49474",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V48935",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 39
+        },
+        "V48935": {
+          "id": "V48935",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V48877",
+            "SEQUENCE1": "#V48947",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V48877": {
+          "id": "V48877",
+          "indicator": "F",
+          "type": "GOVERNING",
+          "word": "RUN",
+          "roles": {
+            "AGENT": "#V48869",
+            "AFFECTED": "#V48930",
+            "RESULT": "#V48887",
+            "TENSE": "PAST",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V48869": {
+          "id": "V48869",
+          "indicator": "A",
+          "type": "PROFESSIONAL",
+          "word": "WORKER",
+          "roles": {
+            "LEX": "WORKER",
+            "WNSENSE": "worker%1:18:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V48887": {
+          "id": "V48887",
+          "indicator": "F",
+          "type": "RESULTING-STATE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V48907",
+            "FIGURE": "#V48930",
+            "LEX": "TO"
+          },
+          "start": 13,
+          "end": 21
+        },
+        "V48907": {
+          "id": "V48907",
+          "indicator": "BARE",
+          "type": "HELP",
+          "word": "HELP",
+          "roles": {
+            "LEX": "HELP",
+            "WNSENSE": "help%2:41:00::"
+          },
+          "start": 16,
+          "end": 21
+        },
+        "V48930": {
+          "id": "V48930",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 21,
+          "end": 24
+        },
+        "V48947": {
+          "id": "V48947",
+          "indicator": "F",
+          "type": "APOLOGIZE",
+          "word": "APOLOGIZE",
+          "roles": {
+            "AGENT": "#V48869",
+            "TENSE": "PAST",
+            "LEX": "APOLOGIZED",
+            "WNSENSE": "apologize%2:32:00::"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "root": "#V49474"
+      }
+    ],
+    [
+      {
+        "V49461": {
+          "id": "V49461",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V48935",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 39
+        },
+        "V48935": {
+          "id": "V48935",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V48877",
+            "SEQUENCE1": "#V48947",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V48877": {
+          "id": "V48877",
+          "indicator": "F",
+          "type": "GOVERNING",
+          "word": "RUN",
+          "roles": {
+            "AGENT": "#V48869",
+            "AFFECTED": "#V48930",
+            "RESULT": "#V48887",
+            "TENSE": "PAST",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V48869": {
+          "id": "V48869",
+          "indicator": "A",
+          "type": "PROFESSIONAL",
+          "word": "WORKER",
+          "roles": {
+            "LEX": "WORKER",
+            "WNSENSE": "worker%1:18:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V48887": {
+          "id": "V48887",
+          "indicator": "F",
+          "type": "RESULTING-STATE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V48908",
+            "FIGURE": "#V48930",
+            "LEX": "TO"
+          },
+          "start": 13,
+          "end": 21
+        },
+        "V48908": {
+          "id": "V48908",
+          "indicator": "BARE",
+          "type": "HELP",
+          "word": "HELP",
+          "roles": {
+            "LEX": "HELP",
+            "WNSENSE": "help%2:41:00::"
+          },
+          "start": 16,
+          "end": 21
+        },
+        "V48930": {
+          "id": "V48930",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 21,
+          "end": 24
+        },
+        "V48947": {
+          "id": "V48947",
+          "indicator": "F",
+          "type": "APOLOGIZE",
+          "word": "APOLOGIZE",
+          "roles": {
+            "AGENT": "#V48869",
+            "TENSE": "PAST",
+            "LEX": "APOLOGIZED",
+            "WNSENSE": "apologize%2:32:00::"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "root": "#V49461"
+      }
+    ],
+    [
+      {
+        "V49448": {
+          "id": "V49448",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V48935",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 39
+        },
+        "V48935": {
+          "id": "V48935",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V48877",
+            "SEQUENCE1": "#V48947",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V48877": {
+          "id": "V48877",
+          "indicator": "F",
+          "type": "GOVERNING",
+          "word": "RUN",
+          "roles": {
+            "AGENT": "#V48869",
+            "AFFECTED": "#V48930",
+            "RESULT": "#V48887",
+            "TENSE": "PAST",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V48869": {
+          "id": "V48869",
+          "indicator": "A",
+          "type": "PROFESSIONAL",
+          "word": "WORKER",
+          "roles": {
+            "LEX": "WORKER",
+            "WNSENSE": "worker%1:18:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V48887": {
+          "id": "V48887",
+          "indicator": "F",
+          "type": "RESULTING-STATE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V48909",
+            "FIGURE": "#V48930",
+            "LEX": "TO"
+          },
+          "start": 13,
+          "end": 21
+        },
+        "V48909": {
+          "id": "V48909",
+          "indicator": "BARE",
+          "type": "HELP",
+          "word": "HELP",
+          "roles": {
+            "LEX": "HELP",
+            "WNSENSE": "help%2:41:00::"
+          },
+          "start": 16,
+          "end": 21
+        },
+        "V48930": {
+          "id": "V48930",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 21,
+          "end": 24
+        },
+        "V48947": {
+          "id": "V48947",
+          "indicator": "F",
+          "type": "APOLOGIZE",
+          "word": "APOLOGIZE",
+          "roles": {
+            "AGENT": "#V48869",
+            "TENSE": "PAST",
+            "LEX": "APOLOGIZED",
+            "WNSENSE": "apologize%2:32:00::"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "root": "#V49448"
+      }
+    ],
+    [
+      {
+        "V49435": {
+          "id": "V49435",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V48935",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 39
+        },
+        "V48935": {
+          "id": "V48935",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V48877",
+            "SEQUENCE1": "#V48947",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V48877": {
+          "id": "V48877",
+          "indicator": "F",
+          "type": "GOVERNING",
+          "word": "RUN",
+          "roles": {
+            "AGENT": "#V48869",
+            "AFFECTED": "#V48930",
+            "RESULT": "#V48887",
+            "TENSE": "PAST",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V48869": {
+          "id": "V48869",
+          "indicator": "A",
+          "type": "PROFESSIONAL",
+          "word": "WORKER",
+          "roles": {
+            "LEX": "WORKER",
+            "WNSENSE": "worker%1:18:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V48887": {
+          "id": "V48887",
+          "indicator": "F",
+          "type": "RESULTING-STATE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V48910",
+            "FIGURE": "#V48930",
+            "LEX": "TO"
+          },
+          "start": 13,
+          "end": 21
+        },
+        "V48910": {
+          "id": "V48910",
+          "indicator": "BARE",
+          "type": "HELP",
+          "word": "HELP",
+          "roles": {
+            "LEX": "HELP",
+            "WNSENSE": "help%2:41:00::"
+          },
+          "start": 16,
+          "end": 21
+        },
+        "V48930": {
+          "id": "V48930",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 21,
+          "end": 24
+        },
+        "V48947": {
+          "id": "V48947",
+          "indicator": "F",
+          "type": "APOLOGIZE",
+          "word": "APOLOGIZE",
+          "roles": {
+            "AGENT": "#V48869",
+            "TENSE": "PAST",
+            "LEX": "APOLOGIZED",
+            "WNSENSE": "apologize%2:32:00::"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "root": "#V49435"
+      }
+    ]
+  ],
+  "sentence": "A worker ran to help me and apologized.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190813T161003",
+    "link": "http://trips.ihmc.us/parser/saved/20190813T161003-STEP-abhatia-0-A_worker_ran_to_help_me_and_apologized_.xml",
+    "judgement": 0
+  }
+}

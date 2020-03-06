@@ -1,0 +1,1602 @@
+{
+  "parse": [
+    {
+      "V49663": {
+        "id": "V49663",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V49511",
+          "LEX": "APOLOGIZED"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V49511": {
+        "id": "V49511",
+        "indicator": "F",
+        "type": "APOLOGIZE",
+        "word": "APOLOGIZE",
+        "roles": {
+          "AGENT": "#V49502",
+          "AGENT1": "#V49548",
+          "TENSE": "PAST",
+          "LEX": "APOLOGIZED",
+          "WNSENSE": "apologize%2:32:00::"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V49502": {
+        "id": "V49502",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "NADINE",
+        "roles": {
+          "NAME-OF": "NADINE",
+          "LEX": "NADINE",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 0,
+        "end": 7
+      },
+      "V49548": {
+        "id": "V49548",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "AUNT",
+        "roles": {
+          "ASSOC-POSS": "#V49543",
+          "LEX": "AUNT",
+          "WNSENSE": "aunt%1:18:00::"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "V49543": {
+        "id": "V49543",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "HER",
+        "roles": {
+          "LEX": "HER",
+          "PROFORM": "HER",
+          "WNSENSE": "woman%1:18:00",
+          "COREF": "#V49502"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "root": "#V49663"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V49813": {
+          "id": "V49813",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V49511",
+            "LEX": "APOLOGIZED"
+          },
+          "start": 0,
+          "end": 30
+        },
+        "V49511": {
+          "id": "V49511",
+          "indicator": "F",
+          "type": "APOLOGIZE",
+          "word": "APOLOGIZE",
+          "roles": {
+            "AGENT": "#V49505",
+            "AGENT1": "#V49548",
+            "TENSE": "PAST",
+            "LEX": "APOLOGIZED",
+            "WNSENSE": "apologize%2:32:00::"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V49505": {
+          "id": "V49505",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "LEX": "NADINE",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V49548": {
+          "id": "V49548",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "AUNT",
+          "roles": {
+            "ASSOC-POSS": "#V49543",
+            "LEX": "AUNT",
+            "WNSENSE": "aunt%1:18:00::"
+          },
+          "start": 18,
+          "end": 29
+        },
+        "V49543": {
+          "id": "V49543",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 18,
+          "end": 29
+        },
+        "root": "#V49813"
+      }
+    ],
+    [
+      {
+        "V49852": {
+          "id": "V49852",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V49512",
+            "LEX": "APOLOGIZED"
+          },
+          "start": 0,
+          "end": 30
+        },
+        "V49512": {
+          "id": "V49512",
+          "indicator": "F",
+          "type": "APOLOGIZE",
+          "word": "APOLOGIZE",
+          "roles": {
+            "AGENT": "#V49502",
+            "MOD": "#V49526",
+            "TENSE": "PAST",
+            "LEX": "APOLOGIZED",
+            "WNSENSE": "apologize%2:32:00::"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V49502": {
+          "id": "V49502",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "LEX": "NADINE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V49526": {
+          "id": "V49526",
+          "indicator": "F",
+          "type": "ATTRIBUTED-TO",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V49548",
+            "FIGURE": "#V49512",
+            "LEX": "TO"
+          },
+          "start": 18,
+          "end": 29
+        },
+        "V49548": {
+          "id": "V49548",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "AUNT",
+          "roles": {
+            "ASSOC-POSS": "#V49543",
+            "LEX": "AUNT",
+            "WNSENSE": "aunt%1:18:00::"
+          },
+          "start": 21,
+          "end": 29
+        },
+        "V49543": {
+          "id": "V49543",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 21,
+          "end": 29
+        },
+        "root": "#V49852"
+      }
+    ],
+    [
+      {
+        "V50144": {
+          "id": "V50144",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V49512",
+            "LEX": "APOLOGIZED"
+          },
+          "start": 0,
+          "end": 30
+        },
+        "V49512": {
+          "id": "V49512",
+          "indicator": "F",
+          "type": "APOLOGIZE",
+          "word": "APOLOGIZE",
+          "roles": {
+            "AGENT": "#V49502",
+            "TIME": "#V49523",
+            "TENSE": "PAST",
+            "LEX": "APOLOGIZED",
+            "WNSENSE": "apologize%2:32:00::"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V49502": {
+          "id": "V49502",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "LEX": "NADINE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V49523": {
+          "id": "V49523",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V49548",
+            "FIGURE": "#V49512",
+            "LEX": "TO"
+          },
+          "start": 18,
+          "end": 29
+        },
+        "V49548": {
+          "id": "V49548",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "AUNT",
+          "roles": {
+            "ASSOC-POSS": "#V49543",
+            "LEX": "AUNT",
+            "WNSENSE": "aunt%1:18:00::"
+          },
+          "start": 21,
+          "end": 29
+        },
+        "V49543": {
+          "id": "V49543",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 21,
+          "end": 29
+        },
+        "root": "#V50144"
+      }
+    ],
+    [
+      {
+        "V50010": {
+          "id": "V50010",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V49512",
+            "LEX": "APOLOGIZED"
+          },
+          "start": 0,
+          "end": 30
+        },
+        "V49512": {
+          "id": "V49512",
+          "indicator": "F",
+          "type": "APOLOGIZE",
+          "word": "APOLOGIZE",
+          "roles": {
+            "AGENT": "#V49505",
+            "MOD": "#V49526",
+            "TENSE": "PAST",
+            "LEX": "APOLOGIZED",
+            "WNSENSE": "apologize%2:32:00::"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V49505": {
+          "id": "V49505",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "LEX": "NADINE",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V49526": {
+          "id": "V49526",
+          "indicator": "F",
+          "type": "ATTRIBUTED-TO",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V49548",
+            "FIGURE": "#V49512",
+            "LEX": "TO"
+          },
+          "start": 18,
+          "end": 29
+        },
+        "V49548": {
+          "id": "V49548",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "AUNT",
+          "roles": {
+            "ASSOC-POSS": "#V49543",
+            "LEX": "AUNT",
+            "WNSENSE": "aunt%1:18:00::"
+          },
+          "start": 21,
+          "end": 29
+        },
+        "V49543": {
+          "id": "V49543",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 21,
+          "end": 29
+        },
+        "root": "#V50010"
+      }
+    ],
+    [
+      {
+        "V50158": {
+          "id": "V50158",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V49512",
+            "LEX": "APOLOGIZED"
+          },
+          "start": 0,
+          "end": 30
+        },
+        "V49512": {
+          "id": "V49512",
+          "indicator": "F",
+          "type": "APOLOGIZE",
+          "word": "APOLOGIZE",
+          "roles": {
+            "AGENT": "#V49505",
+            "TIME": "#V49523",
+            "TENSE": "PAST",
+            "LEX": "APOLOGIZED",
+            "WNSENSE": "apologize%2:32:00::"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V49505": {
+          "id": "V49505",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "LEX": "NADINE",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V49523": {
+          "id": "V49523",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V49548",
+            "FIGURE": "#V49512",
+            "LEX": "TO"
+          },
+          "start": 18,
+          "end": 29
+        },
+        "V49548": {
+          "id": "V49548",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "AUNT",
+          "roles": {
+            "ASSOC-POSS": "#V49543",
+            "LEX": "AUNT",
+            "WNSENSE": "aunt%1:18:00::"
+          },
+          "start": 21,
+          "end": 29
+        },
+        "V49543": {
+          "id": "V49543",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 21,
+          "end": 29
+        },
+        "root": "#V50158"
+      }
+    ],
+    [
+      {
+        "V49663": {
+          "id": "V49663",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V49511",
+            "LEX": "APOLOGIZED"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V49511": {
+          "id": "V49511",
+          "indicator": "F",
+          "type": "APOLOGIZE",
+          "word": "APOLOGIZE",
+          "roles": {
+            "AGENT": "#V49502",
+            "AGENT1": "#V49548",
+            "TENSE": "PAST",
+            "LEX": "APOLOGIZED",
+            "WNSENSE": "apologize%2:32:00::"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V49502": {
+          "id": "V49502",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "LEX": "NADINE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V49548": {
+          "id": "V49548",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "AUNT",
+          "roles": {
+            "ASSOC-POSS": "#V49543",
+            "LEX": "AUNT",
+            "WNSENSE": "aunt%1:18:00::"
+          },
+          "start": 18,
+          "end": 29
+        },
+        "V49543": {
+          "id": "V49543",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 18,
+          "end": 29
+        },
+        "root": "#V49663"
+      }
+    ],
+    [
+      {
+        "V49813": {
+          "id": "V49813",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V49511",
+            "LEX": "APOLOGIZED"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V49511": {
+          "id": "V49511",
+          "indicator": "F",
+          "type": "APOLOGIZE",
+          "word": "APOLOGIZE",
+          "roles": {
+            "AGENT": "#V49505",
+            "AGENT1": "#V49548",
+            "TENSE": "PAST",
+            "LEX": "APOLOGIZED",
+            "WNSENSE": "apologize%2:32:00::"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V49505": {
+          "id": "V49505",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "LEX": "NADINE",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V49548": {
+          "id": "V49548",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "AUNT",
+          "roles": {
+            "ASSOC-POSS": "#V49543",
+            "LEX": "AUNT",
+            "WNSENSE": "aunt%1:18:00::"
+          },
+          "start": 18,
+          "end": 29
+        },
+        "V49543": {
+          "id": "V49543",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 18,
+          "end": 29
+        },
+        "root": "#V49813"
+      }
+    ],
+    [
+      {
+        "V49852": {
+          "id": "V49852",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V49512",
+            "LEX": "APOLOGIZED"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V49512": {
+          "id": "V49512",
+          "indicator": "F",
+          "type": "APOLOGIZE",
+          "word": "APOLOGIZE",
+          "roles": {
+            "AGENT": "#V49502",
+            "MOD": "#V49526",
+            "TENSE": "PAST",
+            "LEX": "APOLOGIZED",
+            "WNSENSE": "apologize%2:32:00::"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V49502": {
+          "id": "V49502",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "LEX": "NADINE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V49526": {
+          "id": "V49526",
+          "indicator": "F",
+          "type": "ATTRIBUTED-TO",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V49548",
+            "FIGURE": "#V49512",
+            "LEX": "TO"
+          },
+          "start": 18,
+          "end": 29
+        },
+        "V49548": {
+          "id": "V49548",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "AUNT",
+          "roles": {
+            "ASSOC-POSS": "#V49543",
+            "LEX": "AUNT",
+            "WNSENSE": "aunt%1:18:00::"
+          },
+          "start": 21,
+          "end": 29
+        },
+        "V49543": {
+          "id": "V49543",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 21,
+          "end": 29
+        },
+        "root": "#V49852"
+      }
+    ],
+    [
+      {
+        "V50144": {
+          "id": "V50144",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V49512",
+            "LEX": "APOLOGIZED"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V49512": {
+          "id": "V49512",
+          "indicator": "F",
+          "type": "APOLOGIZE",
+          "word": "APOLOGIZE",
+          "roles": {
+            "AGENT": "#V49502",
+            "TIME": "#V49523",
+            "TENSE": "PAST",
+            "LEX": "APOLOGIZED",
+            "WNSENSE": "apologize%2:32:00::"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V49502": {
+          "id": "V49502",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "LEX": "NADINE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V49523": {
+          "id": "V49523",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V49548",
+            "FIGURE": "#V49512",
+            "LEX": "TO"
+          },
+          "start": 18,
+          "end": 29
+        },
+        "V49548": {
+          "id": "V49548",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "AUNT",
+          "roles": {
+            "ASSOC-POSS": "#V49543",
+            "LEX": "AUNT",
+            "WNSENSE": "aunt%1:18:00::"
+          },
+          "start": 21,
+          "end": 29
+        },
+        "V49543": {
+          "id": "V49543",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 21,
+          "end": 29
+        },
+        "root": "#V50144"
+      }
+    ],
+    [
+      {
+        "V50010": {
+          "id": "V50010",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V49512",
+            "LEX": "APOLOGIZED"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V49512": {
+          "id": "V49512",
+          "indicator": "F",
+          "type": "APOLOGIZE",
+          "word": "APOLOGIZE",
+          "roles": {
+            "AGENT": "#V49505",
+            "MOD": "#V49526",
+            "TENSE": "PAST",
+            "LEX": "APOLOGIZED",
+            "WNSENSE": "apologize%2:32:00::"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V49505": {
+          "id": "V49505",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "LEX": "NADINE",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V49526": {
+          "id": "V49526",
+          "indicator": "F",
+          "type": "ATTRIBUTED-TO",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V49548",
+            "FIGURE": "#V49512",
+            "LEX": "TO"
+          },
+          "start": 18,
+          "end": 29
+        },
+        "V49548": {
+          "id": "V49548",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "AUNT",
+          "roles": {
+            "ASSOC-POSS": "#V49543",
+            "LEX": "AUNT",
+            "WNSENSE": "aunt%1:18:00::"
+          },
+          "start": 21,
+          "end": 29
+        },
+        "V49543": {
+          "id": "V49543",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 21,
+          "end": 29
+        },
+        "root": "#V50010"
+      }
+    ],
+    [
+      {
+        "V50158": {
+          "id": "V50158",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V49512",
+            "LEX": "APOLOGIZED"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V49512": {
+          "id": "V49512",
+          "indicator": "F",
+          "type": "APOLOGIZE",
+          "word": "APOLOGIZE",
+          "roles": {
+            "AGENT": "#V49505",
+            "TIME": "#V49523",
+            "TENSE": "PAST",
+            "LEX": "APOLOGIZED",
+            "WNSENSE": "apologize%2:32:00::"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V49505": {
+          "id": "V49505",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "LEX": "NADINE",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V49523": {
+          "id": "V49523",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V49548",
+            "FIGURE": "#V49512",
+            "LEX": "TO"
+          },
+          "start": 18,
+          "end": 29
+        },
+        "V49548": {
+          "id": "V49548",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "AUNT",
+          "roles": {
+            "ASSOC-POSS": "#V49543",
+            "LEX": "AUNT",
+            "WNSENSE": "aunt%1:18:00::"
+          },
+          "start": 21,
+          "end": 29
+        },
+        "V49543": {
+          "id": "V49543",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 21,
+          "end": 29
+        },
+        "root": "#V50158"
+      }
+    ],
+    [
+      {
+        "V49511": {
+          "id": "V49511",
+          "indicator": "F",
+          "type": "APOLOGIZE",
+          "word": "APOLOGIZE",
+          "roles": {
+            "AGENT": "#V49502",
+            "AGENT1": "#V49548",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "APOLOGIZED",
+            "WNSENSE": "apologize%2:32:00::"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V49502": {
+          "id": "V49502",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "LEX": "NADINE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V49548": {
+          "id": "V49548",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "AUNT",
+          "roles": {
+            "ASSOC-POSS": "#V49543",
+            "LEX": "AUNT",
+            "WNSENSE": "aunt%1:18:00::"
+          },
+          "start": 18,
+          "end": 29
+        },
+        "V49543": {
+          "id": "V49543",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 18,
+          "end": 29
+        },
+        "root": "#V49511"
+      }
+    ],
+    [
+      {
+        "V49511": {
+          "id": "V49511",
+          "indicator": "F",
+          "type": "APOLOGIZE",
+          "word": "APOLOGIZE",
+          "roles": {
+            "AGENT": "#V49505",
+            "AGENT1": "#V49548",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "APOLOGIZED",
+            "WNSENSE": "apologize%2:32:00::"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V49505": {
+          "id": "V49505",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "LEX": "NADINE",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V49548": {
+          "id": "V49548",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "AUNT",
+          "roles": {
+            "ASSOC-POSS": "#V49543",
+            "LEX": "AUNT",
+            "WNSENSE": "aunt%1:18:00::"
+          },
+          "start": 18,
+          "end": 29
+        },
+        "V49543": {
+          "id": "V49543",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 18,
+          "end": 29
+        },
+        "root": "#V49511"
+      }
+    ],
+    [
+      {
+        "V49512": {
+          "id": "V49512",
+          "indicator": "F",
+          "type": "APOLOGIZE",
+          "word": "APOLOGIZE",
+          "roles": {
+            "AGENT": "#V49502",
+            "MOD": "#V49526",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "APOLOGIZED",
+            "WNSENSE": "apologize%2:32:00::"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V49502": {
+          "id": "V49502",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "LEX": "NADINE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V49526": {
+          "id": "V49526",
+          "indicator": "F",
+          "type": "ATTRIBUTED-TO",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V49548",
+            "FIGURE": "#V49512",
+            "LEX": "TO"
+          },
+          "start": 18,
+          "end": 29
+        },
+        "V49548": {
+          "id": "V49548",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "AUNT",
+          "roles": {
+            "ASSOC-POSS": "#V49543",
+            "LEX": "AUNT",
+            "WNSENSE": "aunt%1:18:00::"
+          },
+          "start": 21,
+          "end": 29
+        },
+        "V49543": {
+          "id": "V49543",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 21,
+          "end": 29
+        },
+        "root": "#V49512"
+      }
+    ],
+    [
+      [
+        {
+          "V49759": {
+            "id": "V49759",
+            "indicator": "SPEECHACT",
+            "type": "SA_TELL",
+            "word": null,
+            "roles": {
+              "CONTENT": "#V49511",
+              "LEX": "APOLOGIZED"
+            },
+            "start": 0,
+            "end": 25
+          },
+          "V49511": {
+            "id": "V49511",
+            "indicator": "F",
+            "type": "APOLOGIZE",
+            "word": "APOLOGIZE",
+            "roles": {
+              "AGENT": "#V49502",
+              "AGENT1": "#V49544",
+              "TENSE": "PAST",
+              "LEX": "APOLOGIZED",
+              "WNSENSE": "apologize%2:32:00::"
+            },
+            "start": 0,
+            "end": 25
+          },
+          "V49502": {
+            "id": "V49502",
+            "indicator": "THE",
+            "type": "FEMALE-PERSON",
+            "word": "NADINE",
+            "roles": {
+              "NAME-OF": "NADINE",
+              "LEX": "NADINE",
+              "WNSENSE": "woman%1:18:00"
+            },
+            "start": 0,
+            "end": 7
+          },
+          "V49544": {
+            "id": "V49544",
+            "indicator": "PRO",
+            "type": "FEMALE-PERSON",
+            "word": "HER",
+            "roles": {
+              "PROFORM": "HER",
+              "LEX": "HER",
+              "WNSENSE": "woman%1:18:00"
+            },
+            "start": 18,
+            "end": 25
+          },
+          "root": "#V49759"
+        },
+        {
+          "V49669": {
+            "id": "V49669",
+            "indicator": "SPEECHACT",
+            "type": "SA_IDENTIFY",
+            "word": null,
+            "roles": {
+              "PUNCTYPE": "DECL",
+              "CONTENT": "#V49548",
+              "LEX": "AUNT"
+            },
+            "start": 25,
+            "end": 30
+          },
+          "V49548": {
+            "id": "V49548",
+            "indicator": "BARE",
+            "type": "FAMILY-RELATION",
+            "word": "AUNT",
+            "roles": {
+              "LEX": "AUNT",
+              "WNSENSE": "aunt%1:18:00::"
+            },
+            "start": 25,
+            "end": 29
+          },
+          "root": "#V49669"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "V49607": {
+            "id": "V49607",
+            "indicator": "SPEECHACT",
+            "type": "SA_IDENTIFY",
+            "word": null,
+            "roles": {
+              "CONTENT": "#V49502",
+              "LEX": "NADINE"
+            },
+            "start": 0,
+            "end": 7
+          },
+          "V49502": {
+            "id": "V49502",
+            "indicator": "THE",
+            "type": "FEMALE-PERSON",
+            "word": "NADINE",
+            "roles": {
+              "NAME-OF": "NADINE",
+              "LEX": "NADINE",
+              "WNSENSE": "woman%1:18:00"
+            },
+            "start": 0,
+            "end": 7
+          },
+          "root": "#V49607"
+        },
+        {
+          "V49867": {
+            "id": "V49867",
+            "indicator": "SPEECHACT",
+            "type": "SA_TELL",
+            "word": null,
+            "roles": {
+              "PUNCTYPE": "DECL",
+              "CONTENT": "#V49511",
+              "LEX": "APOLOGIZED"
+            },
+            "start": 7,
+            "end": 30
+          },
+          "V49511": {
+            "id": "V49511",
+            "indicator": "F",
+            "type": "APOLOGIZE",
+            "word": "APOLOGIZE",
+            "roles": {
+              "AGENT": "#V49868",
+              "AGENT1": "#V49548",
+              "TENSE": "PAST",
+              "LEX": "APOLOGIZED",
+              "WNSENSE": "apologize%2:32:00::"
+            },
+            "start": 7,
+            "end": 29
+          },
+          "V49868": {
+            "id": "V49868",
+            "indicator": "IMPRO",
+            "type": "REFERENTIAL-SEM",
+            "word": null,
+            "roles": {
+              "PROFORM": "SUBJ"
+            },
+            "start": 7,
+            "end": 29
+          },
+          "V49548": {
+            "id": "V49548",
+            "indicator": "THE",
+            "type": "FAMILY-RELATION",
+            "word": "AUNT",
+            "roles": {
+              "ASSOC-POSS": "#V49543",
+              "LEX": "AUNT",
+              "WNSENSE": "aunt%1:18:00::"
+            },
+            "start": 18,
+            "end": 29
+          },
+          "V49543": {
+            "id": "V49543",
+            "indicator": "PRO",
+            "type": "FEMALE-PERSON",
+            "word": "HER",
+            "roles": {
+              "LEX": "HER",
+              "PROFORM": "HER",
+              "WNSENSE": "woman%1:18:00"
+            },
+            "start": 18,
+            "end": 29
+          },
+          "root": "#V49867"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "V49605": {
+            "id": "V49605",
+            "indicator": "SPEECHACT",
+            "type": "SA_IDENTIFY",
+            "word": null,
+            "roles": {
+              "CONTENT": "#V49505",
+              "LEX": "NADINE"
+            },
+            "start": 0,
+            "end": 7
+          },
+          "V49505": {
+            "id": "V49505",
+            "indicator": "THE",
+            "type": "GEOGRAPHIC-REGION",
+            "word": "NADINE",
+            "roles": {
+              "NAME-OF": "NADINE",
+              "LEX": "NADINE",
+              "WNSENSE": "north_america%1:14:00"
+            },
+            "start": 0,
+            "end": 7
+          },
+          "root": "#V49605"
+        },
+        {
+          "V49867": {
+            "id": "V49867",
+            "indicator": "SPEECHACT",
+            "type": "SA_TELL",
+            "word": null,
+            "roles": {
+              "PUNCTYPE": "DECL",
+              "CONTENT": "#V49511",
+              "LEX": "APOLOGIZED"
+            },
+            "start": 7,
+            "end": 30
+          },
+          "V49511": {
+            "id": "V49511",
+            "indicator": "F",
+            "type": "APOLOGIZE",
+            "word": "APOLOGIZE",
+            "roles": {
+              "AGENT": "#V49868",
+              "AGENT1": "#V49548",
+              "TENSE": "PAST",
+              "LEX": "APOLOGIZED",
+              "WNSENSE": "apologize%2:32:00::"
+            },
+            "start": 7,
+            "end": 29
+          },
+          "V49868": {
+            "id": "V49868",
+            "indicator": "IMPRO",
+            "type": "REFERENTIAL-SEM",
+            "word": null,
+            "roles": {
+              "PROFORM": "SUBJ"
+            },
+            "start": 7,
+            "end": 29
+          },
+          "V49548": {
+            "id": "V49548",
+            "indicator": "THE",
+            "type": "FAMILY-RELATION",
+            "word": "AUNT",
+            "roles": {
+              "ASSOC-POSS": "#V49543",
+              "LEX": "AUNT",
+              "WNSENSE": "aunt%1:18:00::"
+            },
+            "start": 18,
+            "end": 29
+          },
+          "V49543": {
+            "id": "V49543",
+            "indicator": "PRO",
+            "type": "FEMALE-PERSON",
+            "word": "HER",
+            "roles": {
+              "LEX": "HER",
+              "PROFORM": "HER",
+              "WNSENSE": "woman%1:18:00"
+            },
+            "start": 18,
+            "end": 29
+          },
+          "root": "#V49867"
+        }
+      ]
+    ],
+    [
+      {
+        "V49512": {
+          "id": "V49512",
+          "indicator": "F",
+          "type": "APOLOGIZE",
+          "word": "APOLOGIZE",
+          "roles": {
+            "AGENT": "#V49502",
+            "TIME": "#V49523",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "APOLOGIZED",
+            "WNSENSE": "apologize%2:32:00::"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V49502": {
+          "id": "V49502",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "LEX": "NADINE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V49523": {
+          "id": "V49523",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V49548",
+            "FIGURE": "#V49512",
+            "LEX": "TO"
+          },
+          "start": 18,
+          "end": 29
+        },
+        "V49548": {
+          "id": "V49548",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "AUNT",
+          "roles": {
+            "ASSOC-POSS": "#V49543",
+            "LEX": "AUNT",
+            "WNSENSE": "aunt%1:18:00::"
+          },
+          "start": 21,
+          "end": 29
+        },
+        "V49543": {
+          "id": "V49543",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 21,
+          "end": 29
+        },
+        "root": "#V49512"
+      }
+    ],
+    [
+      {
+        "V49512": {
+          "id": "V49512",
+          "indicator": "F",
+          "type": "APOLOGIZE",
+          "word": "APOLOGIZE",
+          "roles": {
+            "AGENT": "#V49505",
+            "MOD": "#V49526",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "APOLOGIZED",
+            "WNSENSE": "apologize%2:32:00::"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V49505": {
+          "id": "V49505",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "LEX": "NADINE",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V49526": {
+          "id": "V49526",
+          "indicator": "F",
+          "type": "ATTRIBUTED-TO",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V49548",
+            "FIGURE": "#V49512",
+            "LEX": "TO"
+          },
+          "start": 18,
+          "end": 29
+        },
+        "V49548": {
+          "id": "V49548",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "AUNT",
+          "roles": {
+            "ASSOC-POSS": "#V49543",
+            "LEX": "AUNT",
+            "WNSENSE": "aunt%1:18:00::"
+          },
+          "start": 21,
+          "end": 29
+        },
+        "V49543": {
+          "id": "V49543",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 21,
+          "end": 29
+        },
+        "root": "#V49512"
+      }
+    ]
+  ],
+  "sentence": "Nadine apologized to her aunt.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20191009T112947",
+    "link": "http://trips.ihmc.us/parser/saved/20191009T112947-STEP-abhatia-0-Nadine_apologized_to_her_aunt_.xml",
+    "judgement": 0
+  }
+}

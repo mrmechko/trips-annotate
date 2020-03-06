@@ -1,0 +1,380 @@
+{
+  "parse": [
+    {
+      "V411582": {
+        "id": "V411582",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V411477",
+          "LEX": "PITCHED"
+        },
+        "start": 0,
+        "end": 24
+      },
+      "V411477": {
+        "id": "V411477",
+        "indicator": "F",
+        "type": "PROPEL",
+        "word": "PITCHED",
+        "roles": {
+          "AGENT": "#V411472",
+          "AFFECTED": "#V411499",
+          "BENEFICIARY": "#V411490",
+          "TENSE": "PAST",
+          "LEX": "PITCHED",
+          "WNSENSE": "throw%1:04:00"
+        },
+        "start": 0,
+        "end": 24
+      },
+      "V411472": {
+        "id": "V411472",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V411490": {
+        "id": "V411490",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEM",
+        "roles": {
+          "PROFORM": "THEM",
+          "LEX": "THEM",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 11,
+        "end": 16
+      },
+      "V411499": {
+        "id": "V411499",
+        "indicator": "THE",
+        "type": "CONCEPT-NOTION",
+        "word": "IDEA",
+        "roles": {
+          "ASSOC-POSS": "#V411494",
+          "LEX": "IDEA",
+          "WNSENSE": "idea%1:09:00::"
+        },
+        "start": 16,
+        "end": 24
+      },
+      "V411494": {
+        "id": "V411494",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 16,
+        "end": 24
+      },
+      "root": "#V411582"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V411587": {
+          "id": "V411587",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V411484",
+            "LEX": "PITCHED"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V411484": {
+          "id": "V411484",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "PITCHED",
+          "roles": {
+            "AGENT": "#V411472",
+            "AFFECTED": "#V411499",
+            "BENEFICIARY": "#V411490",
+            "TENSE": "PAST",
+            "LEX": "PITCHED",
+            "WNSENSE": "make%2:38:05"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V411472": {
+          "id": "V411472",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V411490": {
+          "id": "V411490",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEM",
+          "roles": {
+            "PROFORM": "THEM",
+            "LEX": "THEM",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 11,
+          "end": 16
+        },
+        "V411499": {
+          "id": "V411499",
+          "indicator": "THE",
+          "type": "CONCEPT-NOTION",
+          "word": "IDEA",
+          "roles": {
+            "ASSOC-POSS": "#V411494",
+            "LEX": "IDEA",
+            "WNSENSE": "idea%1:09:00::"
+          },
+          "start": 16,
+          "end": 24
+        },
+        "V411494": {
+          "id": "V411494",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 16,
+          "end": 24
+        },
+        "root": "#V411587"
+      }
+    ],
+    [
+      {
+        "V411738": {
+          "id": "V411738",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V411477",
+            "LEX": "PITCHED"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V411477": {
+          "id": "V411477",
+          "indicator": "F",
+          "type": "PROPEL",
+          "word": "PITCHED",
+          "roles": {
+            "AGENT": "#V411472",
+            "AFFECTED": "#V411499",
+            "AFFECTED-RESULT": "#V411733",
+            "TENSE": "PAST",
+            "LEX": "PITCHED",
+            "WNSENSE": "throw%1:04:00"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V411733": {
+          "id": "V411733",
+          "indicator": "F",
+          "type": "RECIPIENT",
+          "word": "IOBJ",
+          "roles": {
+            "GROUND": "#V411490",
+            "FIGURE": "#V411477"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V411472": {
+          "id": "V411472",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V411490": {
+          "id": "V411490",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEM",
+          "roles": {
+            "PROFORM": "THEM",
+            "LEX": "THEM",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 11,
+          "end": 16
+        },
+        "V411499": {
+          "id": "V411499",
+          "indicator": "THE",
+          "type": "CONCEPT-NOTION",
+          "word": "IDEA",
+          "roles": {
+            "ASSOC-POSS": "#V411494",
+            "LEX": "IDEA",
+            "WNSENSE": "idea%1:09:00::"
+          },
+          "start": 16,
+          "end": 24
+        },
+        "V411494": {
+          "id": "V411494",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 16,
+          "end": 24
+        },
+        "root": "#V411738"
+      }
+    ],
+    [
+      {
+        "V411771": {
+          "id": "V411771",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V411484",
+            "LEX": "PITCHED"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V411484": {
+          "id": "V411484",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "PITCHED",
+          "roles": {
+            "AGENT": "#V411472",
+            "AFFECTED": "#V411499",
+            "AFFECTED-RESULT": "#V411766",
+            "TENSE": "PAST",
+            "LEX": "PITCHED",
+            "WNSENSE": "make%2:38:05"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V411766": {
+          "id": "V411766",
+          "indicator": "F",
+          "type": "RECIPIENT",
+          "word": "IOBJ",
+          "roles": {
+            "GROUND": "#V411490",
+            "FIGURE": "#V411484"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V411472": {
+          "id": "V411472",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V411490": {
+          "id": "V411490",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEM",
+          "roles": {
+            "PROFORM": "THEM",
+            "LEX": "THEM",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 11,
+          "end": 16
+        },
+        "V411499": {
+          "id": "V411499",
+          "indicator": "THE",
+          "type": "CONCEPT-NOTION",
+          "word": "IDEA",
+          "roles": {
+            "ASSOC-POSS": "#V411494",
+            "LEX": "IDEA",
+            "WNSENSE": "idea%1:09:00::"
+          },
+          "start": 16,
+          "end": 24
+        },
+        "V411494": {
+          "id": "V411494",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 16,
+          "end": 24
+        },
+        "root": "#V411771"
+      }
+    ]
+  ],
+  "sentence": "He pitched them his idea.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190808T235051",
+    "link": "http://trips.ihmc.us/parser/saved/20190808T235051-STEP-abhatia-0-He_pitched_them_his_idea_.xml",
+    "judgement": 0
+  }
+}

@@ -1,0 +1,21 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V162182 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V162154 [label=<<font color="green"><br /></font> <font color="black">EVENT-OF-CAUSATION</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EVENT-OF-CAUSATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V161945 [label=<<font color="green"><br /></font> <font color="black">PURCHASE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BUY</font> <font color="green"><br /></font> <font color="green">buy%2:40:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PURCHASE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V161920 [label=<<font color="green"><br /></font> <font color="black">COME</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">COME</font> <font color="green"><br /></font> <font color="green">come%2:42:15::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::COME.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V161908 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">MAN</font> <font color="green"><br /></font> <font color="green">man%1:18:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V161927 [label=<<font color="green"><br /></font> <font color="black">AFTER</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">LATER</font> <font color="green"><br /></font> <font color="green">later%4:02:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::AFTER.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V161964 [label=<<font color="green"><br /></font> <font color="black">EQUIPMENT</font> <font color="green"><br /></font> <font color="red">THE-SET</font> <font color="blue">TENNIS-BALLS</font> <font color="green"><br /></font> <font color="green">tennis_ball%1:06:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EQUIPMENT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V161927 -> V161920 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V162154 -> V161920 [label=" SEQUENCE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V161920 -> V161908 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V162154 -> V161945 [label=" SEQUENCE1   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V161945 -> V161964 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V161945 -> V161908 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V161920 -> V161927 [label=" TIME   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V162182 -> V162154 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

@@ -1,0 +1,584 @@
+{
+  "parse": [
+    {
+      "V169959": {
+        "id": "V169959",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V169173",
+          "LEX": "WATCHED"
+        },
+        "start": 0,
+        "end": 58
+      },
+      "V169173": {
+        "id": "V169173",
+        "indicator": "F",
+        "type": "WAIT-WATCH",
+        "word": "WATCH",
+        "roles": {
+          "AGENT": "#V169162",
+          "FORMAL": "#V169352",
+          "TENSE": "PAST",
+          "LEX": "WATCHED",
+          "WNSENSE": "watch%2:39:01::"
+        },
+        "start": 0,
+        "end": 58
+      },
+      "V169162": {
+        "id": "V169162",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "WIFE",
+        "roles": {
+          "ASSOC-POSS": "#V169152",
+          "MOD": "#V169157",
+          "LEX": "WIFE",
+          "WNSENSE": "relative%1:18:00"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V169152": {
+        "id": "V169152",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V169157": {
+        "id": "V169157",
+        "indicator": "F",
+        "type": "YOUNG-VAL",
+        "word": "YOUNG",
+        "roles": {
+          "FIGURE": "#V169162",
+          "SCALE": "AGE-SCALE",
+          "LEX": "YOUNG",
+          "WNSENSE": "young%3:00:00::"
+        },
+        "start": 4,
+        "end": 10
+      },
+      "V169352": {
+        "id": "V169352",
+        "indicator": "F",
+        "type": "APPEAR",
+        "word": "COME-BACK",
+        "roles": {
+          "AFFECTED": "#V169219",
+          "FREQUENCY": "#V169659",
+          "VFORM": "BASE",
+          "LEX": "COME-BACK",
+          "WNSENSE": "come_back%2:30:00"
+        },
+        "start": 23,
+        "end": 58
+      },
+      "V169219": {
+        "id": "V169219",
+        "indicator": "THE",
+        "type": "VEHICLE",
+        "word": "SHIP",
+        "roles": {
+          "ASSOC-POSS": "#V169208",
+          "LEX": "SHIP",
+          "WNSENSE": "ship%1:06:00::"
+        },
+        "start": 27,
+        "end": 36
+      },
+      "V169208": {
+        "id": "V169208",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00",
+          "COREF": "#V169162"
+        },
+        "start": 27,
+        "end": 36
+      },
+      "V169659": {
+        "id": "V169659",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V169352",
+          "GROUND": "#V169387",
+          "LEX": "DAY"
+        },
+        "start": 49,
+        "end": 58
+      },
+      "V169387": {
+        "id": "V169387",
+        "indicator": "QUANTIFIER",
+        "type": "DAY",
+        "word": "DAY",
+        "roles": {
+          "QUAN": "EVERY",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "DAY",
+          "WNSENSE": "day%1:28:03::"
+        },
+        "start": 49,
+        "end": 58
+      },
+      "root": "#V169959"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V170030": {
+          "id": "V170030",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V169174",
+            "LEX": "WATCHED"
+          },
+          "start": 0,
+          "end": 59
+        },
+        "V169174": {
+          "id": "V169174",
+          "indicator": "F",
+          "type": "WAIT-WATCH",
+          "word": "WATCH",
+          "roles": {
+            "AGENT": "#V169162",
+            "NEUTRAL": "#V169219",
+            "REASON": "#V169232",
+            "TENSE": "PAST",
+            "LEX": "WATCHED",
+            "WNSENSE": "watch%2:39:01::"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V169162": {
+          "id": "V169162",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "WIFE",
+          "roles": {
+            "ASSOC-POSS": "#V169152",
+            "MOD": "#V169157",
+            "LEX": "WIFE",
+            "WNSENSE": "relative%1:18:00"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V169152": {
+          "id": "V169152",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V169157": {
+          "id": "V169157",
+          "indicator": "F",
+          "type": "YOUNG-VAL",
+          "word": "YOUNG",
+          "roles": {
+            "FIGURE": "#V169162",
+            "SCALE": "AGE-SCALE",
+            "LEX": "YOUNG",
+            "WNSENSE": "young%3:00:00::"
+          },
+          "start": 4,
+          "end": 10
+        },
+        "V169219": {
+          "id": "V169219",
+          "indicator": "THE",
+          "type": "VEHICLE",
+          "word": "SHIP",
+          "roles": {
+            "ASSOC-POSS": "#V169208",
+            "LEX": "SHIP",
+            "WNSENSE": "ship%1:06:00::"
+          },
+          "start": 23,
+          "end": 36
+        },
+        "V169208": {
+          "id": "V169208",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 23,
+          "end": 36
+        },
+        "V169232": {
+          "id": "V169232",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V169367",
+            "FIGURE": "#V169174",
+            "LEX": "TO"
+          },
+          "start": 36,
+          "end": 58
+        },
+        "V169367": {
+          "id": "V169367",
+          "indicator": "F",
+          "type": "ENCODES-MESSAGE",
+          "word": "COME-BACK",
+          "roles": {
+            "NEUTRAL1": "#V169386",
+            "VFORM": "BASE",
+            "LEX": "COME-BACK",
+            "WNSENSE": "come_back%2:32:00"
+          },
+          "start": 39,
+          "end": 58
+        },
+        "V169386": {
+          "id": "V169386",
+          "indicator": "QUANTIFIER",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "SCALE": "DURATION-SCALE",
+            "QUAN": "EVERY",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 49,
+          "end": 58
+        },
+        "root": "#V170030"
+      }
+    ],
+    [
+      {
+        "V170017": {
+          "id": "V170017",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V169174",
+            "LEX": "WATCHED"
+          },
+          "start": 0,
+          "end": 59
+        },
+        "V169174": {
+          "id": "V169174",
+          "indicator": "F",
+          "type": "WAIT-WATCH",
+          "word": "WATCH",
+          "roles": {
+            "AGENT": "#V169162",
+            "NEUTRAL": "#V169219",
+            "REASON": "#V169232",
+            "TENSE": "PAST",
+            "LEX": "WATCHED",
+            "WNSENSE": "watch%2:39:01::"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V169162": {
+          "id": "V169162",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "WIFE",
+          "roles": {
+            "ASSOC-POSS": "#V169152",
+            "MOD": "#V169157",
+            "LEX": "WIFE",
+            "WNSENSE": "relative%1:18:00"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V169152": {
+          "id": "V169152",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V169157": {
+          "id": "V169157",
+          "indicator": "F",
+          "type": "YOUNG-VAL",
+          "word": "YOUNG",
+          "roles": {
+            "FIGURE": "#V169162",
+            "SCALE": "AGE-SCALE",
+            "LEX": "YOUNG",
+            "WNSENSE": "young%3:00:00::"
+          },
+          "start": 4,
+          "end": 10
+        },
+        "V169219": {
+          "id": "V169219",
+          "indicator": "THE",
+          "type": "VEHICLE",
+          "word": "SHIP",
+          "roles": {
+            "ASSOC-POSS": "#V169208",
+            "LEX": "SHIP",
+            "WNSENSE": "ship%1:06:00::"
+          },
+          "start": 23,
+          "end": 36
+        },
+        "V169208": {
+          "id": "V169208",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 23,
+          "end": 36
+        },
+        "V169232": {
+          "id": "V169232",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V169361",
+            "FIGURE": "#V169174",
+            "LEX": "TO"
+          },
+          "start": 36,
+          "end": 58
+        },
+        "V169361": {
+          "id": "V169361",
+          "indicator": "F",
+          "type": "ENCODES-MESSAGE",
+          "word": "COME-BACK",
+          "roles": {
+            "FORMAL": "#V169386",
+            "VFORM": "BASE",
+            "LEX": "COME-BACK",
+            "WNSENSE": "come_back%2:32:00"
+          },
+          "start": 39,
+          "end": 58
+        },
+        "V169386": {
+          "id": "V169386",
+          "indicator": "QUANTIFIER",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "SCALE": "DURATION-SCALE",
+            "QUAN": "EVERY",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 49,
+          "end": 58
+        },
+        "root": "#V170017"
+      }
+    ],
+    [
+      {
+        "V170004": {
+          "id": "V170004",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V169174",
+            "LEX": "WATCHED"
+          },
+          "start": 0,
+          "end": 59
+        },
+        "V169174": {
+          "id": "V169174",
+          "indicator": "F",
+          "type": "WAIT-WATCH",
+          "word": "WATCH",
+          "roles": {
+            "AGENT": "#V169162",
+            "NEUTRAL": "#V169219",
+            "REASON": "#V169232",
+            "TENSE": "PAST",
+            "LEX": "WATCHED",
+            "WNSENSE": "watch%2:39:01::"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V169162": {
+          "id": "V169162",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "WIFE",
+          "roles": {
+            "ASSOC-POSS": "#V169152",
+            "MOD": "#V169157",
+            "LEX": "WIFE",
+            "WNSENSE": "relative%1:18:00"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V169152": {
+          "id": "V169152",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V169157": {
+          "id": "V169157",
+          "indicator": "F",
+          "type": "YOUNG-VAL",
+          "word": "YOUNG",
+          "roles": {
+            "FIGURE": "#V169162",
+            "SCALE": "AGE-SCALE",
+            "LEX": "YOUNG",
+            "WNSENSE": "young%3:00:00::"
+          },
+          "start": 4,
+          "end": 10
+        },
+        "V169219": {
+          "id": "V169219",
+          "indicator": "THE",
+          "type": "VEHICLE",
+          "word": "SHIP",
+          "roles": {
+            "ASSOC-POSS": "#V169208",
+            "LEX": "SHIP",
+            "WNSENSE": "ship%1:06:00::"
+          },
+          "start": 23,
+          "end": 36
+        },
+        "V169208": {
+          "id": "V169208",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 23,
+          "end": 36
+        },
+        "V169232": {
+          "id": "V169232",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V169357",
+            "FIGURE": "#V169174",
+            "LEX": "TO"
+          },
+          "start": 36,
+          "end": 58
+        },
+        "V169357": {
+          "id": "V169357",
+          "indicator": "F",
+          "type": "ENCODES-MESSAGE",
+          "word": "COME-BACK",
+          "roles": {
+            "NEUTRAL1": "#V169386",
+            "VFORM": "BASE",
+            "LEX": "COME-BACK",
+            "WNSENSE": "come_back%2:32:00"
+          },
+          "start": 39,
+          "end": 58
+        },
+        "V169386": {
+          "id": "V169386",
+          "indicator": "QUANTIFIER",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "SCALE": "DURATION-SCALE",
+            "QUAN": "EVERY",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 49,
+          "end": 58
+        },
+        "root": "#V170004"
+      }
+    ]
+  ],
+  "sentence": "His young wife watched for his ship to come back every day.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190724T092510",
+    "link": "http://trips.ihmc.us/parser/saved/20190724T092510-STEP-abhatia-none-His_young_wife_watched_for_his_ship_to_c.xml",
+    "judgement": -1
+  }
+}

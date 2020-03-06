@@ -1,0 +1,23 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V63419 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V63025 [label=<<font color="green"><br /></font> <font color="black">UNDERSTAND</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">SEE</font> <font color="green"><br /></font> <font color="green">see%2:31:13::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::UNDERSTAND.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V63017 [label=<<font color="green"><br /></font> <font color="black">FEMALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">SHE</font> <font color="green"><br /></font> <font color="green">woman%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FEMALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V63114 [label=<<font color="green"><br /></font> <font color="black">METHOD</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::METHOD.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V63092 [label=<<font color="green"><br /></font> <font color="black">CONTROL-MANAGE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">TREAT</font> <font color="green"><br /></font> <font color="green">control%2:41:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::CONTROL-MANAGE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V63042 [label=<<font color="green"><br /></font> <font color="black">BY-MEANS-OF</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">HOW</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BY-MEANS-OF.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V63176 [label=<<font color="green"><br /></font> <font color="black">ANIMAL</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">ANIMAL</font> <font color="green"><br /></font> <font color="green">animal%1:03:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ANIMAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V63070 [label=<<font color="green"><br /></font> <font color="black">ANIMAL</font> <font color="green"><br /></font> <font color="red">THE-SET</font> <font color="blue">ANIMAL</font> <font color="green"><br /></font> <font color="green">animal%1:03:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ANIMAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V63092 -> V63042 [label=" METHOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V63042 -> V63114 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V63025 -> V63114 [label=" FORMAL   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V63419 -> V63025 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V63114 -> V63092 [label=" SUCHTHAT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V63092 -> V63176 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V63025 -> V63017 [label=" EXPERIENCER   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V63176 -> V63070 [label=" REFSET   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V63042 -> V63092 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

@@ -1,0 +1,17 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V39292 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V38993 [label=<<font color="green"><br /></font> <font color="black">WANT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">NEED</font> <font color="green"><br /></font> <font color="green">desire%2:37:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::WANT.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V38988 [label=<<font color="green"><br /></font> <font color="black">NONHUMAN-ANIMAL</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">DOG</font> <font color="green"><br /></font> <font color="green">dog%1:05:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::NONHUMAN-ANIMAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V38985 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">MY</font> <font color="green"><br /></font> <font color="green">person%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V39009 [label=<<font color="green"><br /></font> <font color="black">SMALL-CONTAINER</font> <font color="green"><br /></font> <font color="red">THE-SET</font> <font color="blue">SHOT</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SMALL-CONTAINER.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V39003 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HIS</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V38993 -> V39009 [label=" NEUTRAL   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V39009 -> V39003 [label=" ASSOC-POSS   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V38993 -> V38988 [label=" EXPERIENCER   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V39292 -> V38993 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V38988 -> V38985 [label=" ASSOC-POSS   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

@@ -1,0 +1,1243 @@
+{
+  "parse": [
+    {
+      "V104065": {
+        "id": "V104065",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V103849",
+          "LEX": "TELLS"
+        },
+        "start": 0,
+        "end": 48
+      },
+      "V103849": {
+        "id": "V103849",
+        "indicator": "F",
+        "type": "COMMAND",
+        "word": "TELL",
+        "roles": {
+          "AGENT": "#V103842",
+          "AGENT1": "#V103865",
+          "FORMAL": "#V103910",
+          "TENSE": "PRES",
+          "LEX": "TELLS",
+          "WNSENSE": "tell%2:32:02::"
+        },
+        "start": 0,
+        "end": 48
+      },
+      "V103842": {
+        "id": "V103842",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "TAMI",
+        "roles": {
+          "NAME-OF": "TAMI",
+          "LEX": "TAMI",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V103865": {
+        "id": "V103865",
+        "indicator": "THE",
+        "type": "PROFESSIONAL",
+        "word": "TELLER",
+        "roles": {
+          "LEX": "TELLER",
+          "WNSENSE": "teller%1:18:01::"
+        },
+        "start": 11,
+        "end": 22
+      },
+      "V103910": {
+        "id": "V103910",
+        "indicator": "F",
+        "type": "FILL-CONTAINER",
+        "word": "FILL",
+        "roles": {
+          "AGENT": "#V103865",
+          "AFFECTED-RESULT": "#V103925",
+          "AFFECTED": "#V103941",
+          "VFORM": "BASE",
+          "LEX": "FILL",
+          "WNSENSE": "fill%2:30:01::"
+        },
+        "start": 22,
+        "end": 48
+      },
+      "V103925": {
+        "id": "V103925",
+        "indicator": "THE",
+        "type": "BAG",
+        "word": "BAG",
+        "roles": {
+          "ASSOC-POSS": "#V103920",
+          "LEX": "BAG",
+          "WNSENSE": "bag%1:06:00::"
+        },
+        "start": 30,
+        "end": 38
+      },
+      "V103920": {
+        "id": "V103920",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "HER",
+        "roles": {
+          "LEX": "HER",
+          "PROFORM": "HER",
+          "WNSENSE": "woman%1:18:00",
+          "COREF": "#V103842"
+        },
+        "start": 30,
+        "end": 38
+      },
+      "V103941": {
+        "id": "V103941",
+        "indicator": "BARE",
+        "type": "MONEY",
+        "word": "MONEY",
+        "roles": {
+          "LEX": "MONEY",
+          "WNSENSE": "change%1:21:03"
+        },
+        "start": 38,
+        "end": 48
+      },
+      "root": "#V104065"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V104083": {
+          "id": "V104083",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V103849",
+            "LEX": "TELLS"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V103849": {
+          "id": "V103849",
+          "indicator": "F",
+          "type": "COMMAND",
+          "word": "TELL",
+          "roles": {
+            "AGENT": "#V103842",
+            "AGENT1": "#V103868",
+            "FORMAL": "#V103910",
+            "TENSE": "PRES",
+            "LEX": "TELLS",
+            "WNSENSE": "tell%2:32:02::"
+          },
+          "start": 0,
+          "end": 48
+        },
+        "V103842": {
+          "id": "V103842",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "TAMI",
+          "roles": {
+            "NAME-OF": "TAMI",
+            "LEX": "TAMI",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V103868": {
+          "id": "V103868",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "TELLER",
+          "roles": {
+            "LEX": "TELLER",
+            "WNSENSE": "teller%1:18:00::"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "V103910": {
+          "id": "V103910",
+          "indicator": "F",
+          "type": "FILL-CONTAINER",
+          "word": "FILL",
+          "roles": {
+            "AGENT": "#V103868",
+            "AFFECTED-RESULT": "#V103925",
+            "AFFECTED": "#V103941",
+            "VFORM": "BASE",
+            "LEX": "FILL",
+            "WNSENSE": "fill%2:30:01::"
+          },
+          "start": 22,
+          "end": 48
+        },
+        "V103925": {
+          "id": "V103925",
+          "indicator": "THE",
+          "type": "BAG",
+          "word": "BAG",
+          "roles": {
+            "ASSOC-POSS": "#V103920",
+            "LEX": "BAG",
+            "WNSENSE": "bag%1:06:00::"
+          },
+          "start": 30,
+          "end": 38
+        },
+        "V103920": {
+          "id": "V103920",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 30,
+          "end": 38
+        },
+        "V103941": {
+          "id": "V103941",
+          "indicator": "BARE",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "LEX": "MONEY",
+            "WNSENSE": "change%1:21:03"
+          },
+          "start": 38,
+          "end": 48
+        },
+        "root": "#V104083"
+      }
+    ],
+    [
+      {
+        "V104429": {
+          "id": "V104429",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V103849",
+            "LEX": "TELLS"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V103849": {
+          "id": "V103849",
+          "indicator": "F",
+          "type": "COMMAND",
+          "word": "TELL",
+          "roles": {
+            "AGENT": "#V103842",
+            "AGENT1": "#V103865",
+            "FORMAL": "#V103910",
+            "TENSE": "PRES",
+            "LEX": "TELLS",
+            "WNSENSE": "tell%2:32:02::"
+          },
+          "start": 0,
+          "end": 48
+        },
+        "V103842": {
+          "id": "V103842",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "TAMI",
+          "roles": {
+            "NAME-OF": "TAMI",
+            "LEX": "TAMI",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V103865": {
+          "id": "V103865",
+          "indicator": "THE",
+          "type": "PROFESSIONAL",
+          "word": "TELLER",
+          "roles": {
+            "LEX": "TELLER",
+            "WNSENSE": "teller%1:18:01::"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "V103910": {
+          "id": "V103910",
+          "indicator": "F",
+          "type": "FILL-CONTAINER",
+          "word": "FILL",
+          "roles": {
+            "AGENT": "#V103865",
+            "AFFECTED-RESULT": "#V103925",
+            "VFORM": "BASE",
+            "LEX": "FILL",
+            "WNSENSE": "fill%2:30:01::"
+          },
+          "start": 22,
+          "end": 48
+        },
+        "V103925": {
+          "id": "V103925",
+          "indicator": "THE",
+          "type": "BAG",
+          "word": "BAG",
+          "roles": {
+            "ASSOC-POSS": "#V103920",
+            "MOD": "#V103929",
+            "LEX": "BAG",
+            "WNSENSE": "bag%1:06:00::"
+          },
+          "start": 30,
+          "end": 48
+        },
+        "V103920": {
+          "id": "V103920",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 30,
+          "end": 48
+        },
+        "V103929": {
+          "id": "V103929",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V103941",
+            "FIGURE": "#V103925",
+            "LEX": "WITH"
+          },
+          "start": 38,
+          "end": 48
+        },
+        "V103941": {
+          "id": "V103941",
+          "indicator": "BARE",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "LEX": "MONEY",
+            "WNSENSE": "change%1:21:03"
+          },
+          "start": 43,
+          "end": 48
+        },
+        "root": "#V104429"
+      }
+    ],
+    [
+      {
+        "V104354": {
+          "id": "V104354",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V103849",
+            "LEX": "TELLS"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V103849": {
+          "id": "V103849",
+          "indicator": "F",
+          "type": "COMMAND",
+          "word": "TELL",
+          "roles": {
+            "AGENT": "#V103842",
+            "AGENT1": "#V103865",
+            "FORMAL": "#V103910",
+            "TENSE": "PRES",
+            "LEX": "TELLS",
+            "WNSENSE": "tell%2:32:02::"
+          },
+          "start": 0,
+          "end": 48
+        },
+        "V103842": {
+          "id": "V103842",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "TAMI",
+          "roles": {
+            "NAME-OF": "TAMI",
+            "LEX": "TAMI",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V103865": {
+          "id": "V103865",
+          "indicator": "THE",
+          "type": "PROFESSIONAL",
+          "word": "TELLER",
+          "roles": {
+            "LEX": "TELLER",
+            "WNSENSE": "teller%1:18:01::"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "V103910": {
+          "id": "V103910",
+          "indicator": "F",
+          "type": "FILL-CONTAINER",
+          "word": "FILL",
+          "roles": {
+            "AGENT": "#V103865",
+            "AFFECTED-RESULT": "#V103925",
+            "MANNER": "#V103930",
+            "VFORM": "BASE",
+            "LEX": "FILL",
+            "WNSENSE": "fill%2:30:01::"
+          },
+          "start": 22,
+          "end": 48
+        },
+        "V103925": {
+          "id": "V103925",
+          "indicator": "THE",
+          "type": "BAG",
+          "word": "BAG",
+          "roles": {
+            "ASSOC-POSS": "#V103920",
+            "LEX": "BAG",
+            "WNSENSE": "bag%1:06:00::"
+          },
+          "start": 30,
+          "end": 38
+        },
+        "V103920": {
+          "id": "V103920",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 30,
+          "end": 38
+        },
+        "V103930": {
+          "id": "V103930",
+          "indicator": "F",
+          "type": "MANNER",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V103941",
+            "FIGURE": "#V103910",
+            "LEX": "WITH"
+          },
+          "start": 38,
+          "end": 48
+        },
+        "V103941": {
+          "id": "V103941",
+          "indicator": "BARE",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "LEX": "MONEY",
+            "WNSENSE": "change%1:21:03"
+          },
+          "start": 43,
+          "end": 48
+        },
+        "root": "#V104354"
+      }
+    ],
+    [
+      {
+        "V104440": {
+          "id": "V104440",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V103849",
+            "LEX": "TELLS"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V103849": {
+          "id": "V103849",
+          "indicator": "F",
+          "type": "COMMAND",
+          "word": "TELL",
+          "roles": {
+            "AGENT": "#V103842",
+            "AGENT1": "#V103868",
+            "FORMAL": "#V103910",
+            "TENSE": "PRES",
+            "LEX": "TELLS",
+            "WNSENSE": "tell%2:32:02::"
+          },
+          "start": 0,
+          "end": 48
+        },
+        "V103842": {
+          "id": "V103842",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "TAMI",
+          "roles": {
+            "NAME-OF": "TAMI",
+            "LEX": "TAMI",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V103868": {
+          "id": "V103868",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "TELLER",
+          "roles": {
+            "LEX": "TELLER",
+            "WNSENSE": "teller%1:18:00::"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "V103910": {
+          "id": "V103910",
+          "indicator": "F",
+          "type": "FILL-CONTAINER",
+          "word": "FILL",
+          "roles": {
+            "AGENT": "#V103868",
+            "AFFECTED-RESULT": "#V103925",
+            "VFORM": "BASE",
+            "LEX": "FILL",
+            "WNSENSE": "fill%2:30:01::"
+          },
+          "start": 22,
+          "end": 48
+        },
+        "V103925": {
+          "id": "V103925",
+          "indicator": "THE",
+          "type": "BAG",
+          "word": "BAG",
+          "roles": {
+            "ASSOC-POSS": "#V103920",
+            "MOD": "#V103929",
+            "LEX": "BAG",
+            "WNSENSE": "bag%1:06:00::"
+          },
+          "start": 30,
+          "end": 48
+        },
+        "V103920": {
+          "id": "V103920",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 30,
+          "end": 48
+        },
+        "V103929": {
+          "id": "V103929",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V103941",
+            "FIGURE": "#V103925",
+            "LEX": "WITH"
+          },
+          "start": 38,
+          "end": 48
+        },
+        "V103941": {
+          "id": "V103941",
+          "indicator": "BARE",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "LEX": "MONEY",
+            "WNSENSE": "change%1:21:03"
+          },
+          "start": 43,
+          "end": 48
+        },
+        "root": "#V104440"
+      }
+    ],
+    [
+      {
+        "V104365": {
+          "id": "V104365",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V103849",
+            "LEX": "TELLS"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V103849": {
+          "id": "V103849",
+          "indicator": "F",
+          "type": "COMMAND",
+          "word": "TELL",
+          "roles": {
+            "AGENT": "#V103842",
+            "AGENT1": "#V103868",
+            "FORMAL": "#V103910",
+            "TENSE": "PRES",
+            "LEX": "TELLS",
+            "WNSENSE": "tell%2:32:02::"
+          },
+          "start": 0,
+          "end": 48
+        },
+        "V103842": {
+          "id": "V103842",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "TAMI",
+          "roles": {
+            "NAME-OF": "TAMI",
+            "LEX": "TAMI",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V103868": {
+          "id": "V103868",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "TELLER",
+          "roles": {
+            "LEX": "TELLER",
+            "WNSENSE": "teller%1:18:00::"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "V103910": {
+          "id": "V103910",
+          "indicator": "F",
+          "type": "FILL-CONTAINER",
+          "word": "FILL",
+          "roles": {
+            "AGENT": "#V103868",
+            "AFFECTED-RESULT": "#V103925",
+            "MANNER": "#V103930",
+            "VFORM": "BASE",
+            "LEX": "FILL",
+            "WNSENSE": "fill%2:30:01::"
+          },
+          "start": 22,
+          "end": 48
+        },
+        "V103925": {
+          "id": "V103925",
+          "indicator": "THE",
+          "type": "BAG",
+          "word": "BAG",
+          "roles": {
+            "ASSOC-POSS": "#V103920",
+            "LEX": "BAG",
+            "WNSENSE": "bag%1:06:00::"
+          },
+          "start": 30,
+          "end": 38
+        },
+        "V103920": {
+          "id": "V103920",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 30,
+          "end": 38
+        },
+        "V103930": {
+          "id": "V103930",
+          "indicator": "F",
+          "type": "MANNER",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V103941",
+            "FIGURE": "#V103910",
+            "LEX": "WITH"
+          },
+          "start": 38,
+          "end": 48
+        },
+        "V103941": {
+          "id": "V103941",
+          "indicator": "BARE",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "LEX": "MONEY",
+            "WNSENSE": "change%1:21:03"
+          },
+          "start": 43,
+          "end": 48
+        },
+        "root": "#V104365"
+      }
+    ],
+    [
+      {
+        "V104211": {
+          "id": "V104211",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V103846",
+            "LEX": "TELLS"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V103846": {
+          "id": "V103846",
+          "indicator": "F",
+          "type": "TELL",
+          "word": "TELL",
+          "roles": {
+            "AGENT": "#V103842",
+            "AGENT1": "#V103865",
+            "REASON": "#V103880",
+            "TENSE": "PRES",
+            "LEX": "TELLS",
+            "WNSENSE": "tell%2:32:04::"
+          },
+          "start": 0,
+          "end": 48
+        },
+        "V103842": {
+          "id": "V103842",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "TAMI",
+          "roles": {
+            "NAME-OF": "TAMI",
+            "LEX": "TAMI",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V103865": {
+          "id": "V103865",
+          "indicator": "THE",
+          "type": "PROFESSIONAL",
+          "word": "TELLER",
+          "roles": {
+            "LEX": "TELLER",
+            "WNSENSE": "teller%1:18:01::"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "V103880": {
+          "id": "V103880",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V103910",
+            "FIGURE": "#V103846",
+            "LEX": "TO"
+          },
+          "start": 22,
+          "end": 48
+        },
+        "V103910": {
+          "id": "V103910",
+          "indicator": "F",
+          "type": "FILL-CONTAINER",
+          "word": "FILL",
+          "roles": {
+            "AFFECTED-RESULT": "#V103925",
+            "AFFECTED": "#V103941",
+            "VFORM": "BASE",
+            "LEX": "FILL",
+            "WNSENSE": "fill%2:30:01::"
+          },
+          "start": 25,
+          "end": 48
+        },
+        "V103925": {
+          "id": "V103925",
+          "indicator": "THE",
+          "type": "BAG",
+          "word": "BAG",
+          "roles": {
+            "ASSOC-POSS": "#V103920",
+            "LEX": "BAG",
+            "WNSENSE": "bag%1:06:00::"
+          },
+          "start": 30,
+          "end": 38
+        },
+        "V103920": {
+          "id": "V103920",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 30,
+          "end": 38
+        },
+        "V103941": {
+          "id": "V103941",
+          "indicator": "BARE",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "LEX": "MONEY",
+            "WNSENSE": "change%1:21:03"
+          },
+          "start": 38,
+          "end": 48
+        },
+        "root": "#V104211"
+      }
+    ],
+    [
+      {
+        "V104200": {
+          "id": "V104200",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V103847",
+            "LEX": "TELLS"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V103847": {
+          "id": "V103847",
+          "indicator": "F",
+          "type": "TELL",
+          "word": "TELL",
+          "roles": {
+            "AGENT": "#V103842",
+            "NEUTRAL": "#V103865",
+            "REASON": "#V103880",
+            "TENSE": "PRES",
+            "LEX": "TELLS",
+            "WNSENSE": "tell%2:32:04::"
+          },
+          "start": 0,
+          "end": 48
+        },
+        "V103842": {
+          "id": "V103842",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "TAMI",
+          "roles": {
+            "NAME-OF": "TAMI",
+            "LEX": "TAMI",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V103865": {
+          "id": "V103865",
+          "indicator": "THE",
+          "type": "PROFESSIONAL",
+          "word": "TELLER",
+          "roles": {
+            "LEX": "TELLER",
+            "WNSENSE": "teller%1:18:01::"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "V103880": {
+          "id": "V103880",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V103910",
+            "FIGURE": "#V103847",
+            "LEX": "TO"
+          },
+          "start": 22,
+          "end": 48
+        },
+        "V103910": {
+          "id": "V103910",
+          "indicator": "F",
+          "type": "FILL-CONTAINER",
+          "word": "FILL",
+          "roles": {
+            "AFFECTED-RESULT": "#V103925",
+            "AFFECTED": "#V103941",
+            "VFORM": "BASE",
+            "LEX": "FILL",
+            "WNSENSE": "fill%2:30:01::"
+          },
+          "start": 25,
+          "end": 48
+        },
+        "V103925": {
+          "id": "V103925",
+          "indicator": "THE",
+          "type": "BAG",
+          "word": "BAG",
+          "roles": {
+            "ASSOC-POSS": "#V103920",
+            "LEX": "BAG",
+            "WNSENSE": "bag%1:06:00::"
+          },
+          "start": 30,
+          "end": 38
+        },
+        "V103920": {
+          "id": "V103920",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 30,
+          "end": 38
+        },
+        "V103941": {
+          "id": "V103941",
+          "indicator": "BARE",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "LEX": "MONEY",
+            "WNSENSE": "change%1:21:03"
+          },
+          "start": 38,
+          "end": 48
+        },
+        "root": "#V104200"
+      }
+    ],
+    [
+      {
+        "V104239": {
+          "id": "V104239",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V103846",
+            "LEX": "TELLS"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V103846": {
+          "id": "V103846",
+          "indicator": "F",
+          "type": "TELL",
+          "word": "TELL",
+          "roles": {
+            "AGENT": "#V103842",
+            "AGENT1": "#V103868",
+            "REASON": "#V103880",
+            "TENSE": "PRES",
+            "LEX": "TELLS",
+            "WNSENSE": "tell%2:32:04::"
+          },
+          "start": 0,
+          "end": 48
+        },
+        "V103842": {
+          "id": "V103842",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "TAMI",
+          "roles": {
+            "NAME-OF": "TAMI",
+            "LEX": "TAMI",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V103868": {
+          "id": "V103868",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "TELLER",
+          "roles": {
+            "LEX": "TELLER",
+            "WNSENSE": "teller%1:18:00::"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "V103880": {
+          "id": "V103880",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V103910",
+            "FIGURE": "#V103846",
+            "LEX": "TO"
+          },
+          "start": 22,
+          "end": 48
+        },
+        "V103910": {
+          "id": "V103910",
+          "indicator": "F",
+          "type": "FILL-CONTAINER",
+          "word": "FILL",
+          "roles": {
+            "AFFECTED-RESULT": "#V103925",
+            "AFFECTED": "#V103941",
+            "VFORM": "BASE",
+            "LEX": "FILL",
+            "WNSENSE": "fill%2:30:01::"
+          },
+          "start": 25,
+          "end": 48
+        },
+        "V103925": {
+          "id": "V103925",
+          "indicator": "THE",
+          "type": "BAG",
+          "word": "BAG",
+          "roles": {
+            "ASSOC-POSS": "#V103920",
+            "LEX": "BAG",
+            "WNSENSE": "bag%1:06:00::"
+          },
+          "start": 30,
+          "end": 38
+        },
+        "V103920": {
+          "id": "V103920",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 30,
+          "end": 38
+        },
+        "V103941": {
+          "id": "V103941",
+          "indicator": "BARE",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "LEX": "MONEY",
+            "WNSENSE": "change%1:21:03"
+          },
+          "start": 38,
+          "end": 48
+        },
+        "root": "#V104239"
+      }
+    ],
+    [
+      {
+        "V104228": {
+          "id": "V104228",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V103847",
+            "LEX": "TELLS"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V103847": {
+          "id": "V103847",
+          "indicator": "F",
+          "type": "TELL",
+          "word": "TELL",
+          "roles": {
+            "AGENT": "#V103842",
+            "NEUTRAL": "#V103868",
+            "REASON": "#V103880",
+            "TENSE": "PRES",
+            "LEX": "TELLS",
+            "WNSENSE": "tell%2:32:04::"
+          },
+          "start": 0,
+          "end": 48
+        },
+        "V103842": {
+          "id": "V103842",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "TAMI",
+          "roles": {
+            "NAME-OF": "TAMI",
+            "LEX": "TAMI",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V103868": {
+          "id": "V103868",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "TELLER",
+          "roles": {
+            "LEX": "TELLER",
+            "WNSENSE": "teller%1:18:00::"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "V103880": {
+          "id": "V103880",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V103910",
+            "FIGURE": "#V103847",
+            "LEX": "TO"
+          },
+          "start": 22,
+          "end": 48
+        },
+        "V103910": {
+          "id": "V103910",
+          "indicator": "F",
+          "type": "FILL-CONTAINER",
+          "word": "FILL",
+          "roles": {
+            "AFFECTED-RESULT": "#V103925",
+            "AFFECTED": "#V103941",
+            "VFORM": "BASE",
+            "LEX": "FILL",
+            "WNSENSE": "fill%2:30:01::"
+          },
+          "start": 25,
+          "end": 48
+        },
+        "V103925": {
+          "id": "V103925",
+          "indicator": "THE",
+          "type": "BAG",
+          "word": "BAG",
+          "roles": {
+            "ASSOC-POSS": "#V103920",
+            "LEX": "BAG",
+            "WNSENSE": "bag%1:06:00::"
+          },
+          "start": 30,
+          "end": 38
+        },
+        "V103920": {
+          "id": "V103920",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 30,
+          "end": 38
+        },
+        "V103941": {
+          "id": "V103941",
+          "indicator": "BARE",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "LEX": "MONEY",
+            "WNSENSE": "change%1:21:03"
+          },
+          "start": 38,
+          "end": 48
+        },
+        "root": "#V104228"
+      }
+    ]
+  ],
+  "sentence": "Tami tells the teller to fill her bag with money.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190923T145438",
+    "link": "http://trips.ihmc.us/parser/saved/20190923T145438-STEP-abhatia-0-Tami_tells_the_teller_to_fill_her_bag_wi.xml",
+    "judgement": 0
+  }
+}

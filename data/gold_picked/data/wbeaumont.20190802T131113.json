@@ -1,0 +1,669 @@
+{
+  "parse": [
+    {
+      "V37773": {
+        "id": "V37773",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V37088",
+          "LEX": "IS"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V37088": {
+        "id": "V37088",
+        "indicator": "F",
+        "type": "ELLIPSIS",
+        "word": null,
+        "roles": {
+          "NEUTRAL": "#V37082",
+          "TENSE": "PRES",
+          "PROGR": "+",
+          "LEX": "IS"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V37082": {
+        "id": "V37082",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "THIS",
+        "roles": {
+          "PROFORM": "THIS",
+          "LEX": "THIS",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V37773"
+    },
+    {
+      "V44004": {
+        "id": "V44004",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V37185",
+          "LEX": "PARSES"
+        },
+        "start": 8,
+        "end": 46
+      },
+      "V37185": {
+        "id": "V37185",
+        "indicator": "F",
+        "type": "SCRUTINY",
+        "word": "PARSES",
+        "roles": {
+          "AGENT": "#V37145",
+          "MANNER": "#V37216",
+          "TENSE": "PRES",
+          "LEX": "PARSES",
+          "WNSENSE": "take%2:31:02"
+        },
+        "start": 8,
+        "end": 46
+      },
+      "V37145": {
+        "id": "V37145",
+        "indicator": "A",
+        "type": "SCRUTINY",
+        "word": "TEST",
+        "roles": {
+          "NEUTRAL": "#V37168",
+          "LEX": "TEST",
+          "WNSENSE": "take%2:31:02"
+        },
+        "start": 8,
+        "end": 25
+      },
+      "V37168": {
+        "id": "V37168",
+        "indicator": "BARE",
+        "type": "RESCUE",
+        "word": "SAVE",
+        "roles": {
+          "LEX": "SAVING",
+          "WNSENSE": "save%2:41:01::"
+        },
+        "start": 15,
+        "end": 25
+      },
+      "V37216": {
+        "id": "V37216",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V37229",
+          "FIGURE": "#V37185",
+          "LEX": "WITH"
+        },
+        "start": 32,
+        "end": 46
+      },
+      "V37229": {
+        "id": "V37229",
+        "indicator": "INDEF-SET",
+        "type": "SAY",
+        "word": "COMMENTS",
+        "roles": {
+          "LEX": "COMMENTS",
+          "WNSENSE": "note%2:32:00"
+        },
+        "start": 37,
+        "end": 46
+      },
+      "root": "#V44004"
+    },
+    {
+      "V37579": {
+        "id": "V37579",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V37235",
+          "LEX": "ATTACHED"
+        },
+        "start": 46,
+        "end": 54
+      },
+      "V37235": {
+        "id": "V37235",
+        "indicator": "F",
+        "type": "ATTACH",
+        "word": "ATTACH",
+        "roles": {
+          "AFFECTED": "#V37580",
+          "LEX": "ATTACHED",
+          "WNSENSE": "attach%2:35:01::"
+        },
+        "start": 46,
+        "end": 54
+      },
+      "V37580": {
+        "id": "V37580",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "CONTEXT-REL": "UTT-FRAG",
+          "COREF": "#V37145"
+        },
+        "start": 46,
+        "end": 54
+      },
+      "root": "#V37579"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V37773": {
+          "id": "V37773",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V37088",
+            "LEX": "IS"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V37088": {
+          "id": "V37088",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V37082",
+            "TENSE": "PRES",
+            "PROGR": "+",
+            "LEX": "IS"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V37082": {
+          "id": "V37082",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "THIS",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "THIS",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "root": "#V37773"
+      },
+      {
+        "V44001": {
+          "id": "V44001",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V37185",
+            "LEX": "PARSES"
+          },
+          "start": 8,
+          "end": 46
+        },
+        "V37185": {
+          "id": "V37185",
+          "indicator": "F",
+          "type": "SCRUTINY",
+          "word": "PARSES",
+          "roles": {
+            "AGENT": "#V37145",
+            "MANNER": "#V37216",
+            "TENSE": "PRES",
+            "LEX": "PARSES",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 8,
+          "end": 46
+        },
+        "V37145": {
+          "id": "V37145",
+          "indicator": "A",
+          "type": "SCRUTINY",
+          "word": "TEST",
+          "roles": {
+            "NEUTRAL": "#V37169",
+            "LEX": "TEST",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 8,
+          "end": 25
+        },
+        "V37169": {
+          "id": "V37169",
+          "indicator": "BARE",
+          "type": "LEAVE-TIME",
+          "word": "SAVE",
+          "roles": {
+            "LEX": "SAVING",
+            "WNSENSE": "save%2:30:00::"
+          },
+          "start": 15,
+          "end": 25
+        },
+        "V37216": {
+          "id": "V37216",
+          "indicator": "F",
+          "type": "MANNER",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V37229",
+            "FIGURE": "#V37185",
+            "LEX": "WITH"
+          },
+          "start": 32,
+          "end": 46
+        },
+        "V37229": {
+          "id": "V37229",
+          "indicator": "INDEF-SET",
+          "type": "SAY",
+          "word": "COMMENTS",
+          "roles": {
+            "LEX": "COMMENTS",
+            "WNSENSE": "note%2:32:00"
+          },
+          "start": 37,
+          "end": 46
+        },
+        "root": "#V44001"
+      },
+      {
+        "V37579": {
+          "id": "V37579",
+          "indicator": "SPEECHACT",
+          "type": "SA_PRED-FRAGMENT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V37235",
+            "LEX": "ATTACHED"
+          },
+          "start": 46,
+          "end": 55
+        },
+        "V37235": {
+          "id": "V37235",
+          "indicator": "F",
+          "type": "ATTACH",
+          "word": "ATTACH",
+          "roles": {
+            "AFFECTED": "#V37580",
+            "LEX": "ATTACHED",
+            "WNSENSE": "attach%2:35:01::"
+          },
+          "start": 46,
+          "end": 54
+        },
+        "V37580": {
+          "id": "V37580",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {
+            "CONTEXT-REL": "UTT-FRAG"
+          },
+          "start": 46,
+          "end": 54
+        },
+        "root": "#V37579"
+      }
+    ],
+    [
+      {
+        "V37773": {
+          "id": "V37773",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V37088",
+            "LEX": "IS"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V37088": {
+          "id": "V37088",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V37082",
+            "TENSE": "PRES",
+            "PROGR": "+",
+            "LEX": "IS"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V37082": {
+          "id": "V37082",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "THIS",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "THIS",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "root": "#V37773"
+      },
+      {
+        "V43998": {
+          "id": "V43998",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V37185",
+            "LEX": "PARSES"
+          },
+          "start": 8,
+          "end": 46
+        },
+        "V37185": {
+          "id": "V37185",
+          "indicator": "F",
+          "type": "SCRUTINY",
+          "word": "PARSES",
+          "roles": {
+            "AGENT": "#V37145",
+            "MANNER": "#V37216",
+            "TENSE": "PRES",
+            "LEX": "PARSES",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 8,
+          "end": 46
+        },
+        "V37145": {
+          "id": "V37145",
+          "indicator": "A",
+          "type": "SCRUTINY",
+          "word": "TEST",
+          "roles": {
+            "NEUTRAL": "#V37170",
+            "LEX": "TEST",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 8,
+          "end": 25
+        },
+        "V37170": {
+          "id": "V37170",
+          "indicator": "BARE",
+          "type": "SAVE-COST",
+          "word": "SAVE",
+          "roles": {
+            "LEX": "SAVING",
+            "WNSENSE": "save%2:40:02::"
+          },
+          "start": 15,
+          "end": 25
+        },
+        "V37216": {
+          "id": "V37216",
+          "indicator": "F",
+          "type": "MANNER",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V37229",
+            "FIGURE": "#V37185",
+            "LEX": "WITH"
+          },
+          "start": 32,
+          "end": 46
+        },
+        "V37229": {
+          "id": "V37229",
+          "indicator": "INDEF-SET",
+          "type": "SAY",
+          "word": "COMMENTS",
+          "roles": {
+            "LEX": "COMMENTS",
+            "WNSENSE": "note%2:32:00"
+          },
+          "start": 37,
+          "end": 46
+        },
+        "root": "#V43998"
+      },
+      {
+        "V37579": {
+          "id": "V37579",
+          "indicator": "SPEECHACT",
+          "type": "SA_PRED-FRAGMENT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V37235",
+            "LEX": "ATTACHED"
+          },
+          "start": 46,
+          "end": 55
+        },
+        "V37235": {
+          "id": "V37235",
+          "indicator": "F",
+          "type": "ATTACH",
+          "word": "ATTACH",
+          "roles": {
+            "AFFECTED": "#V37580",
+            "LEX": "ATTACHED",
+            "WNSENSE": "attach%2:35:01::"
+          },
+          "start": 46,
+          "end": 54
+        },
+        "V37580": {
+          "id": "V37580",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {
+            "CONTEXT-REL": "UTT-FRAG"
+          },
+          "start": 46,
+          "end": 54
+        },
+        "root": "#V37579"
+      }
+    ],
+    [
+      {
+        "V37773": {
+          "id": "V37773",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V37088",
+            "LEX": "IS"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V37088": {
+          "id": "V37088",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V37082",
+            "TENSE": "PRES",
+            "PROGR": "+",
+            "LEX": "IS"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V37082": {
+          "id": "V37082",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "THIS",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "THIS",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "root": "#V37773"
+      },
+      {
+        "V43995": {
+          "id": "V43995",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V37185",
+            "LEX": "PARSES"
+          },
+          "start": 8,
+          "end": 46
+        },
+        "V37185": {
+          "id": "V37185",
+          "indicator": "F",
+          "type": "SCRUTINY",
+          "word": "PARSES",
+          "roles": {
+            "AGENT": "#V37145",
+            "MANNER": "#V37216",
+            "TENSE": "PRES",
+            "LEX": "PARSES",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 8,
+          "end": 46
+        },
+        "V37145": {
+          "id": "V37145",
+          "indicator": "A",
+          "type": "SCRUTINY",
+          "word": "TEST",
+          "roles": {
+            "NEUTRAL": "#V37171",
+            "LEX": "TEST",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 8,
+          "end": 25
+        },
+        "V37171": {
+          "id": "V37171",
+          "indicator": "BARE",
+          "type": "SAVE-COST",
+          "word": "SAVE",
+          "roles": {
+            "LEX": "SAVING",
+            "WNSENSE": "save%2:40:02::"
+          },
+          "start": 15,
+          "end": 25
+        },
+        "V37216": {
+          "id": "V37216",
+          "indicator": "F",
+          "type": "MANNER",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V37229",
+            "FIGURE": "#V37185",
+            "LEX": "WITH"
+          },
+          "start": 32,
+          "end": 46
+        },
+        "V37229": {
+          "id": "V37229",
+          "indicator": "INDEF-SET",
+          "type": "SAY",
+          "word": "COMMENTS",
+          "roles": {
+            "LEX": "COMMENTS",
+            "WNSENSE": "note%2:32:00"
+          },
+          "start": 37,
+          "end": 46
+        },
+        "root": "#V43995"
+      },
+      {
+        "V37579": {
+          "id": "V37579",
+          "indicator": "SPEECHACT",
+          "type": "SA_PRED-FRAGMENT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V37235",
+            "LEX": "ATTACHED"
+          },
+          "start": 46,
+          "end": 55
+        },
+        "V37235": {
+          "id": "V37235",
+          "indicator": "F",
+          "type": "ATTACH",
+          "word": "ATTACH",
+          "roles": {
+            "AFFECTED": "#V37580",
+            "LEX": "ATTACHED",
+            "WNSENSE": "attach%2:35:01::"
+          },
+          "start": 46,
+          "end": 54
+        },
+        "V37580": {
+          "id": "V37580",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {
+            "CONTEXT-REL": "UTT-FRAG"
+          },
+          "start": 46,
+          "end": 54
+        },
+        "root": "#V37579"
+      }
+    ]
+  ],
+  "sentence": "This is a test of saving parses with comments attached.",
+  "annotation": {
+    "judge": "wbeaumont",
+    "parser": "STEP",
+    "timestamp": "20190802T131113",
+    "link": "http://trips.ihmc.us/parser/saved/20190802T131113-STEP-wbeaumont-none-This_is_a_test_of_saving_parses_with_com.xml",
+    "judgement": -1
+  }
+}

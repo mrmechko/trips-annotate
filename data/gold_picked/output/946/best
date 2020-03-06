@@ -1,0 +1,23 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V71048 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70509 [label=<<font color="green"><br /></font> <font color="black">APPRECIATE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">ENJOY</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::APPRECIATE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70450 [label=<<font color="green"><br /></font> <font color="black">FEMALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">SHE</font> <font color="green"><br /></font> <font color="green">woman%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FEMALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70473 [label=<<font color="green"><br /></font> <font color="black">ON</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">ON</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70501 [label=<<font color="green"><br /></font> <font color="black">SURFACE-LOCATION</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">DECK</font> <font color="green"><br /></font> <font color="green">deck%1:06:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SURFACE-LOCATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70524 [label=<<font color="green"><br /></font> <font color="black">AIR</font> <font color="green"><br /></font> <font color="red">BARE</font> <font color="blue">AIR</font> <font color="green"><br /></font> <font color="green">air%1:27:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::AIR.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70521 [label=<<font color="green"><br /></font> <font color="black">MORNING-AM</font> <font color="green"><br /></font> <font color="red">KIND</font> <font color="blue">MORNING</font> <font color="green"><br /></font> <font color="green">morning%1:28:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MORNING-AM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70512 [label=<<font color="green"><br /></font> <font color="black">COLD</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">COLD</font> <font color="green"><br /></font> <font color="green">cold%5:00:00:cool:03</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::COLD.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70509 -> V70450 [label=" EXPERIENCER   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V71048 -> V70509 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70473 -> V70509 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70524 -> V70512 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70509 -> V70473 [label=" LOCATION   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70473 -> V70501 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70524 -> V70521 [label=" ASSOC-WITH   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70512 -> V70524 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70509 -> V70524 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

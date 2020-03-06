@@ -1,0 +1,814 @@
+{
+  "parse": [
+    {
+      "V152231": {
+        "id": "V152231",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V152065",
+          "LEX": "WALKING-AROUND"
+        },
+        "start": 0,
+        "end": 26
+      },
+      "V152065": {
+        "id": "V152065",
+        "indicator": "F",
+        "type": "ACT-BEHAVE",
+        "word": "WALKING-AROUND",
+        "roles": {
+          "AGENT": "#V152003",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WALKING-AROUND",
+          "WNSENSE": "walk_around%2:41:00"
+        },
+        "start": 0,
+        "end": 26
+      },
+      "V152003": {
+        "id": "V152003",
+        "indicator": "A",
+        "type": "PERSON",
+        "word": "HUMAN",
+        "roles": {
+          "LEX": "HUMAN",
+          "WNSENSE": "human%1:05:00::"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "root": "#V152231"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V152298": {
+          "id": "V152298",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V152065",
+            "LEX": "WALKING-AROUND"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V152065": {
+          "id": "V152065",
+          "indicator": "F",
+          "type": "ACT-BEHAVE",
+          "word": "WALKING-AROUND",
+          "roles": {
+            "AGENT": "#V152153",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WALKING-AROUND",
+            "WNSENSE": "walk_around%2:41:00"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V152153": {
+          "id": "V152153",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V152011",
+            "LEX": "A"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V152011": {
+          "id": "V152011",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": null,
+          "roles": {
+            "GROUND": "#V152112",
+            "FIGURE": "#V152153",
+            "LEX": "HUMAN"
+          },
+          "start": 2,
+          "end": 8
+        },
+        "V152112": {
+          "id": "V152112",
+          "indicator": "KIND",
+          "type": "REFERENTIAL-SEM",
+          "word": "HUMANITY",
+          "roles": {},
+          "start": 2,
+          "end": 8
+        },
+        "root": "#V152298"
+      }
+    ],
+    [
+      {
+        "V152388": {
+          "id": "V152388",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V152033",
+            "LEX": "WALKING"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V152033": {
+          "id": "V152033",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V152042",
+            "AGENT": "#V152003",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WALKING",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V152003": {
+          "id": "V152003",
+          "indicator": "A",
+          "type": "PERSON",
+          "word": "HUMAN",
+          "roles": {
+            "LEX": "HUMAN",
+            "WNSENSE": "human%1:05:00::"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V152042": {
+          "id": "V152042",
+          "indicator": "F",
+          "type": "AROUND",
+          "word": "AROUND",
+          "roles": {
+            "GROUND": "#V152174",
+            "FIGURE": "#V152003",
+            "LEX": "AROUND"
+          },
+          "start": 20,
+          "end": 26
+        },
+        "V152174": {
+          "id": "V152174",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 20,
+          "end": 26
+        },
+        "root": "#V152388"
+      }
+    ],
+    [
+      {
+        "V152414": {
+          "id": "V152414",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V152033",
+            "LEX": "WALKING"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V152033": {
+          "id": "V152033",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "AGENT": "#V152003",
+            "RESULT": "#V152042",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WALKING",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V152003": {
+          "id": "V152003",
+          "indicator": "A",
+          "type": "PERSON",
+          "word": "HUMAN",
+          "roles": {
+            "LEX": "HUMAN",
+            "WNSENSE": "human%1:05:00::"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V152042": {
+          "id": "V152042",
+          "indicator": "F",
+          "type": "AROUND",
+          "word": "AROUND",
+          "roles": {
+            "GROUND": "#V152174",
+            "FIGURE": "#V152033",
+            "LEX": "AROUND"
+          },
+          "start": 20,
+          "end": 26
+        },
+        "V152174": {
+          "id": "V152174",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 20,
+          "end": 26
+        },
+        "root": "#V152414"
+      }
+    ],
+    [
+      {
+        "V152469": {
+          "id": "V152469",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V152033",
+            "LEX": "WALKING"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V152033": {
+          "id": "V152033",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V152042",
+            "AGENT": "#V152153",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WALKING",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V152153": {
+          "id": "V152153",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V152011",
+            "LEX": "A"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V152011": {
+          "id": "V152011",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": null,
+          "roles": {
+            "GROUND": "#V152112",
+            "FIGURE": "#V152153",
+            "LEX": "HUMAN"
+          },
+          "start": 2,
+          "end": 8
+        },
+        "V152112": {
+          "id": "V152112",
+          "indicator": "KIND",
+          "type": "REFERENTIAL-SEM",
+          "word": "HUMANITY",
+          "roles": {},
+          "start": 2,
+          "end": 8
+        },
+        "V152042": {
+          "id": "V152042",
+          "indicator": "F",
+          "type": "AROUND",
+          "word": "AROUND",
+          "roles": {
+            "GROUND": "#V152174",
+            "FIGURE": "#V152153",
+            "LEX": "AROUND"
+          },
+          "start": 20,
+          "end": 26
+        },
+        "V152174": {
+          "id": "V152174",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 20,
+          "end": 26
+        },
+        "root": "#V152469"
+      }
+    ],
+    [
+      {
+        "V152513": {
+          "id": "V152513",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V152033",
+            "LEX": "WALKING"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V152033": {
+          "id": "V152033",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "AGENT": "#V152153",
+            "RESULT": "#V152042",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WALKING",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V152153": {
+          "id": "V152153",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V152011",
+            "LEX": "A"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V152011": {
+          "id": "V152011",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": null,
+          "roles": {
+            "GROUND": "#V152112",
+            "FIGURE": "#V152153",
+            "LEX": "HUMAN"
+          },
+          "start": 2,
+          "end": 8
+        },
+        "V152112": {
+          "id": "V152112",
+          "indicator": "KIND",
+          "type": "REFERENTIAL-SEM",
+          "word": "HUMANITY",
+          "roles": {},
+          "start": 2,
+          "end": 8
+        },
+        "V152042": {
+          "id": "V152042",
+          "indicator": "F",
+          "type": "AROUND",
+          "word": "AROUND",
+          "roles": {
+            "GROUND": "#V152174",
+            "FIGURE": "#V152033",
+            "LEX": "AROUND"
+          },
+          "start": 20,
+          "end": 26
+        },
+        "V152174": {
+          "id": "V152174",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 20,
+          "end": 26
+        },
+        "root": "#V152513"
+      }
+    ],
+    [
+      {
+        "V152550": {
+          "id": "V152550",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V152033",
+            "LEX": "WALKING"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V152033": {
+          "id": "V152033",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "AGENT": "#V152003",
+            "RESULT": "#V152042",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WALKING",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V152003": {
+          "id": "V152003",
+          "indicator": "A",
+          "type": "PERSON",
+          "word": "HUMAN",
+          "roles": {
+            "LEX": "HUMAN",
+            "WNSENSE": "human%1:05:00::"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V152042": {
+          "id": "V152042",
+          "indicator": "F",
+          "type": "AROUND",
+          "word": "AROUND",
+          "roles": {
+            "GROUND": "#V152174",
+            "FIGURE": "#V152033",
+            "LEX": "AROUND"
+          },
+          "start": 20,
+          "end": 26
+        },
+        "V152174": {
+          "id": "V152174",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 20,
+          "end": 26
+        },
+        "root": "#V152550"
+      }
+    ],
+    [
+      {
+        "V152589": {
+          "id": "V152589",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V152020",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V152020": {
+          "id": "V152020",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V152153",
+            "NEUTRAL1": "#V152033",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V152153": {
+          "id": "V152153",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V152011",
+            "LEX": "A"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V152011": {
+          "id": "V152011",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": null,
+          "roles": {
+            "GROUND": "#V152112",
+            "FIGURE": "#V152153",
+            "LEX": "HUMAN"
+          },
+          "start": 2,
+          "end": 8
+        },
+        "V152112": {
+          "id": "V152112",
+          "indicator": "KIND",
+          "type": "REFERENTIAL-SEM",
+          "word": "HUMANITY",
+          "roles": {},
+          "start": 2,
+          "end": 8
+        },
+        "V152033": {
+          "id": "V152033",
+          "indicator": "BARE",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V152042",
+            "LEX": "WALKING",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 12,
+          "end": 26
+        },
+        "V152042": {
+          "id": "V152042",
+          "indicator": "F",
+          "type": "AROUND",
+          "word": "AROUND",
+          "roles": {
+            "GROUND": "#V152174",
+            "FIGURE": "#V152033",
+            "LEX": "AROUND"
+          },
+          "start": 20,
+          "end": 26
+        },
+        "V152174": {
+          "id": "V152174",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 20,
+          "end": 26
+        },
+        "root": "#V152589"
+      }
+    ],
+    [
+      {
+        "V152649": {
+          "id": "V152649",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V152020",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V152020": {
+          "id": "V152020",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V152153",
+            "NEUTRAL1": "#V152034",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V152153": {
+          "id": "V152153",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V152011",
+            "LEX": "A"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V152011": {
+          "id": "V152011",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": null,
+          "roles": {
+            "GROUND": "#V152112",
+            "FIGURE": "#V152153",
+            "LEX": "HUMAN"
+          },
+          "start": 2,
+          "end": 8
+        },
+        "V152112": {
+          "id": "V152112",
+          "indicator": "KIND",
+          "type": "REFERENTIAL-SEM",
+          "word": "HUMANITY",
+          "roles": {},
+          "start": 2,
+          "end": 8
+        },
+        "V152034": {
+          "id": "V152034",
+          "indicator": "BARE",
+          "type": "WALKING",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V152042",
+            "LEX": "WALKING",
+            "WNSENSE": "walk%2:38:05::"
+          },
+          "start": 12,
+          "end": 26
+        },
+        "V152042": {
+          "id": "V152042",
+          "indicator": "F",
+          "type": "AROUND",
+          "word": "AROUND",
+          "roles": {
+            "GROUND": "#V152174",
+            "FIGURE": "#V152034",
+            "LEX": "AROUND"
+          },
+          "start": 20,
+          "end": 26
+        },
+        "V152174": {
+          "id": "V152174",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 20,
+          "end": 26
+        },
+        "root": "#V152649"
+      }
+    ],
+    [
+      {
+        "V152646": {
+          "id": "V152646",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V152020",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V152020": {
+          "id": "V152020",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V152153",
+            "NEUTRAL1": "#V152033",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V152153": {
+          "id": "V152153",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V152011",
+            "LEX": "A"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V152011": {
+          "id": "V152011",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": null,
+          "roles": {
+            "GROUND": "#V152112",
+            "FIGURE": "#V152153",
+            "LEX": "HUMAN"
+          },
+          "start": 2,
+          "end": 8
+        },
+        "V152112": {
+          "id": "V152112",
+          "indicator": "KIND",
+          "type": "REFERENTIAL-SEM",
+          "word": "HUMANITY",
+          "roles": {},
+          "start": 2,
+          "end": 8
+        },
+        "V152033": {
+          "id": "V152033",
+          "indicator": "BARE",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V152042",
+            "LEX": "WALKING",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 12,
+          "end": 26
+        },
+        "V152042": {
+          "id": "V152042",
+          "indicator": "F",
+          "type": "AROUND",
+          "word": "AROUND",
+          "roles": {
+            "GROUND": "#V152174",
+            "FIGURE": "#V152033",
+            "LEX": "AROUND"
+          },
+          "start": 20,
+          "end": 26
+        },
+        "V152174": {
+          "id": "V152174",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 20,
+          "end": 26
+        },
+        "root": "#V152646"
+      }
+    ]
+  ],
+  "sentence": "A human was walking around.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190820T175021",
+    "link": "http://trips.ihmc.us/parser/saved/20190820T175021-STEP-abhatia-2-A_human_was_walking_around_.xml",
+    "judgement": 2
+  }
+}

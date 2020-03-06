@@ -1,0 +1,548 @@
+{
+  "parse": [
+    {
+      "V413939": {
+        "id": "V413939",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V413115",
+          "LEX": "LEARNED"
+        },
+        "start": 0,
+        "end": 49
+      },
+      "V413115": {
+        "id": "V413115",
+        "indicator": "F",
+        "type": "DETERMINE",
+        "word": "LEARN",
+        "roles": {
+          "AGENT": "#V413101",
+          "FORMAL": "#V413212",
+          "TENSE": "PAST",
+          "LEX": "LEARNED",
+          "WNSENSE": "learn%2:31:01::"
+        },
+        "start": 0,
+        "end": 49
+      },
+      "V413101": {
+        "id": "V413101",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V413212": {
+        "id": "V413212",
+        "indicator": "F",
+        "type": "LEAVE-BEHIND",
+        "word": "LEAVE",
+        "roles": {
+          "AGENT": "#V413170",
+          "AFFECTED": "#V413227",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "LEAVING",
+          "WNSENSE": "leave%2:31:05::"
+        },
+        "start": 10,
+        "end": 49
+      },
+      "V413170": {
+        "id": "V413170",
+        "indicator": "A",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "MOD": "#V413174",
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 10,
+        "end": 27
+      },
+      "V413174": {
+        "id": "V413174",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V413182",
+          "FIGURE": "#V413170",
+          "LEX": "OF"
+        },
+        "start": 19,
+        "end": 27
+      },
+      "V413182": {
+        "id": "V413182",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "(MINE)",
+          "ASSOC-POSS": "#V413391",
+          "LEX": "MINE",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 22,
+        "end": 27
+      },
+      "V413391": {
+        "id": "V413391",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MINE",
+        "roles": {
+          "PROFORM": "MINE"
+        },
+        "start": 22,
+        "end": 27
+      },
+      "V413227": {
+        "id": "V413227",
+        "indicator": "THE",
+        "type": "COMPANY",
+        "word": "COMPANY",
+        "roles": {
+          "ASSOC-POSS": "#V413223",
+          "LEX": "COMPANY",
+          "WNSENSE": "company%1:14:01::"
+        },
+        "start": 39,
+        "end": 49
+      },
+      "V413223": {
+        "id": "V413223",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 39,
+        "end": 49
+      },
+      "root": "#V413939"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V413909": {
+          "id": "V413909",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V413115",
+            "LEX": "LEARNED"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V413115": {
+          "id": "V413115",
+          "indicator": "F",
+          "type": "DETERMINE",
+          "word": "LEARN",
+          "roles": {
+            "AGENT": "#V413101",
+            "FORMAL": "#V413210",
+            "TENSE": "PAST",
+            "LEX": "LEARNED",
+            "WNSENSE": "learn%2:31:01::"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V413101": {
+          "id": "V413101",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V413210": {
+          "id": "V413210",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V413170",
+            "NEUTRAL": "#V413227",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "LEAVING",
+            "WNSENSE": "leave%2:38:01::"
+          },
+          "start": 10,
+          "end": 49
+        },
+        "V413170": {
+          "id": "V413170",
+          "indicator": "A",
+          "type": "FRIEND",
+          "word": "FRIEND",
+          "roles": {
+            "MOD": "#V413174",
+            "LEX": "FRIEND",
+            "WNSENSE": "friend%1:18:00::"
+          },
+          "start": 10,
+          "end": 27
+        },
+        "V413174": {
+          "id": "V413174",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "OF",
+          "roles": {
+            "GROUND": "#V413182",
+            "FIGURE": "#V413170",
+            "LEX": "OF"
+          },
+          "start": 19,
+          "end": 27
+        },
+        "V413182": {
+          "id": "V413182",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "(MINE)",
+            "ASSOC-POSS": "#V413391",
+            "LEX": "MINE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 22,
+          "end": 27
+        },
+        "V413391": {
+          "id": "V413391",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MINE",
+          "roles": {
+            "PROFORM": "MINE"
+          },
+          "start": 22,
+          "end": 27
+        },
+        "V413227": {
+          "id": "V413227",
+          "indicator": "THE",
+          "type": "COMPANY",
+          "word": "COMPANY",
+          "roles": {
+            "ASSOC-POSS": "#V413223",
+            "LEX": "COMPANY",
+            "WNSENSE": "company%1:14:01::"
+          },
+          "start": 39,
+          "end": 49
+        },
+        "V413223": {
+          "id": "V413223",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 39,
+          "end": 49
+        },
+        "root": "#V413909"
+      }
+    ],
+    [
+      {
+        "V414149": {
+          "id": "V414149",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V413115",
+            "LEX": "LEARNED"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V413115": {
+          "id": "V413115",
+          "indicator": "F",
+          "type": "DETERMINE",
+          "word": "LEARN",
+          "roles": {
+            "AGENT": "#V413101",
+            "FORMAL": "#V413212",
+            "TENSE": "PAST",
+            "LEX": "LEARNED",
+            "WNSENSE": "learn%2:31:01::"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V413101": {
+          "id": "V413101",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V413212": {
+          "id": "V413212",
+          "indicator": "F",
+          "type": "LEAVE-BEHIND",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V413170",
+            "AFFECTED": "#V413227",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "LEAVING",
+            "WNSENSE": "leave%2:31:05::"
+          },
+          "start": 10,
+          "end": 49
+        },
+        "V413170": {
+          "id": "V413170",
+          "indicator": "A",
+          "type": "FRIEND",
+          "word": "FRIEND",
+          "roles": {
+            "MOD": "#V413174",
+            "LEX": "FRIEND",
+            "WNSENSE": "friend%1:18:00::"
+          },
+          "start": 10,
+          "end": 27
+        },
+        "V413174": {
+          "id": "V413174",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "OF",
+          "roles": {
+            "GROUND": "#V413184",
+            "FIGURE": "#V413170",
+            "LEX": "OF"
+          },
+          "start": 19,
+          "end": 27
+        },
+        "V413184": {
+          "id": "V413184",
+          "indicator": "BARE",
+          "type": "MINE",
+          "word": "MINE",
+          "roles": {
+            "LEX": "MINE",
+            "WNSENSE": "mine%1:06:01::"
+          },
+          "start": 22,
+          "end": 27
+        },
+        "V413227": {
+          "id": "V413227",
+          "indicator": "THE",
+          "type": "COMPANY",
+          "word": "COMPANY",
+          "roles": {
+            "ASSOC-POSS": "#V413223",
+            "LEX": "COMPANY",
+            "WNSENSE": "company%1:14:01::"
+          },
+          "start": 39,
+          "end": 49
+        },
+        "V413223": {
+          "id": "V413223",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 39,
+          "end": 49
+        },
+        "root": "#V414149"
+      }
+    ],
+    [
+      {
+        "V414119": {
+          "id": "V414119",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V413115",
+            "LEX": "LEARNED"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V413115": {
+          "id": "V413115",
+          "indicator": "F",
+          "type": "DETERMINE",
+          "word": "LEARN",
+          "roles": {
+            "AGENT": "#V413101",
+            "FORMAL": "#V413210",
+            "TENSE": "PAST",
+            "LEX": "LEARNED",
+            "WNSENSE": "learn%2:31:01::"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V413101": {
+          "id": "V413101",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V413210": {
+          "id": "V413210",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V413170",
+            "NEUTRAL": "#V413227",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "LEAVING",
+            "WNSENSE": "leave%2:38:01::"
+          },
+          "start": 10,
+          "end": 49
+        },
+        "V413170": {
+          "id": "V413170",
+          "indicator": "A",
+          "type": "FRIEND",
+          "word": "FRIEND",
+          "roles": {
+            "MOD": "#V413174",
+            "LEX": "FRIEND",
+            "WNSENSE": "friend%1:18:00::"
+          },
+          "start": 10,
+          "end": 27
+        },
+        "V413174": {
+          "id": "V413174",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "OF",
+          "roles": {
+            "GROUND": "#V413184",
+            "FIGURE": "#V413170",
+            "LEX": "OF"
+          },
+          "start": 19,
+          "end": 27
+        },
+        "V413184": {
+          "id": "V413184",
+          "indicator": "BARE",
+          "type": "MINE",
+          "word": "MINE",
+          "roles": {
+            "LEX": "MINE",
+            "WNSENSE": "mine%1:06:01::"
+          },
+          "start": 22,
+          "end": 27
+        },
+        "V413227": {
+          "id": "V413227",
+          "indicator": "THE",
+          "type": "COMPANY",
+          "word": "COMPANY",
+          "roles": {
+            "ASSOC-POSS": "#V413223",
+            "LEX": "COMPANY",
+            "WNSENSE": "company%1:14:01::"
+          },
+          "start": 39,
+          "end": 49
+        },
+        "V413223": {
+          "id": "V413223",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 39,
+          "end": 49
+        },
+        "root": "#V414119"
+      }
+    ]
+  ],
+  "sentence": "I learned a friend of mine was leaving my company.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190726T082650",
+    "link": "http://trips.ihmc.us/parser/saved/20190726T082650-STEP-abhatia-0-I_learned_a_friend_of_mine_was_leaving_m.xml",
+    "judgement": 0
+  }
+}

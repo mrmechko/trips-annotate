@@ -1,0 +1,339 @@
+{
+  "parse": [
+    {
+      "V35368": {
+        "id": "V35368",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V35227",
+          "LEX": "WANT"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V35227": {
+        "id": "V35227",
+        "indicator": "F",
+        "type": "WANT",
+        "word": "WANT",
+        "roles": {
+          "EXPERIENCER": "#V35212",
+          "FORMAL": "#V35260",
+          "TENSE": "PRES",
+          "LEX": "WANT"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V35212": {
+        "id": "V35212",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V35260": {
+        "id": "V35260",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "CREATE",
+        "roles": {
+          "AGENT": "#V35212",
+          "AFFECTED-RESULT": "#V35303",
+          "VFORM": "BASE",
+          "LEX": "CREATE"
+        },
+        "start": 7,
+        "end": 28
+      },
+      "V35303": {
+        "id": "V35303",
+        "indicator": "A",
+        "type": "REPOSITORY",
+        "word": "REPOSITORY",
+        "roles": {
+          "LEX": "REPOSITORY"
+        },
+        "start": 17,
+        "end": 28
+      },
+      "root": "#V35368"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V35606": {
+          "id": "V35606",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V35227",
+            "LEX": "WANT"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V35227": {
+          "id": "V35227",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "WANT",
+          "roles": {
+            "EXPERIENCER": "#V35212",
+            "FORMAL": "#V35260",
+            "TENSE": "PRES",
+            "LEX": "WANT"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V35212": {
+          "id": "V35212",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V35260": {
+          "id": "V35260",
+          "indicator": "F",
+          "type": "CREATE",
+          "word": "CREATE",
+          "roles": {
+            "AGENT": "#V35212",
+            "AFFECTED-RESULT": "#V35303",
+            "VFORM": "BASE",
+            "LEX": "CREATE"
+          },
+          "start": 7,
+          "end": 29
+        },
+        "V35303": {
+          "id": "V35303",
+          "indicator": "BARE",
+          "type": "REPOSITORY",
+          "word": "REPOSITORY",
+          "roles": {
+            "ASSOC-WITH": "#V35490",
+            "LEX": "REPOSITORY"
+          },
+          "start": 17,
+          "end": 29
+        },
+        "V35490": {
+          "id": "V35490",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V35442",
+            "LEX": "A"
+          },
+          "start": 17,
+          "end": 19
+        },
+        "V35442": {
+          "id": "V35442",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(A)",
+            "VAL": "(A)",
+            "LEX": "A"
+          },
+          "start": 17,
+          "end": 19
+        },
+        "root": "#V35606"
+      }
+    ],
+    [
+      {
+        "V35468": {
+          "id": "V35468",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V35227",
+            "LEX": "WANT"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V35227": {
+          "id": "V35227",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "WANT",
+          "roles": {
+            "EXPERIENCER": "#V35439",
+            "FORMAL": "#V35260",
+            "TENSE": "PRES",
+            "LEX": "WANT"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V35439": {
+          "id": "V35439",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V35260": {
+          "id": "V35260",
+          "indicator": "F",
+          "type": "CREATE",
+          "word": "CREATE",
+          "roles": {
+            "AGENT": "#V35439",
+            "AFFECTED-RESULT": "#V35303",
+            "VFORM": "BASE",
+            "LEX": "CREATE"
+          },
+          "start": 7,
+          "end": 29
+        },
+        "V35303": {
+          "id": "V35303",
+          "indicator": "A",
+          "type": "REPOSITORY",
+          "word": "REPOSITORY",
+          "roles": {
+            "LEX": "REPOSITORY"
+          },
+          "start": 17,
+          "end": 29
+        },
+        "root": "#V35468"
+      }
+    ],
+    [
+      {
+        "V35652": {
+          "id": "V35652",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V35227",
+            "LEX": "WANT"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V35227": {
+          "id": "V35227",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "WANT",
+          "roles": {
+            "EXPERIENCER": "#V35439",
+            "FORMAL": "#V35260",
+            "TENSE": "PRES",
+            "LEX": "WANT"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V35439": {
+          "id": "V35439",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V35260": {
+          "id": "V35260",
+          "indicator": "F",
+          "type": "CREATE",
+          "word": "CREATE",
+          "roles": {
+            "AGENT": "#V35439",
+            "AFFECTED-RESULT": "#V35303",
+            "VFORM": "BASE",
+            "LEX": "CREATE"
+          },
+          "start": 7,
+          "end": 29
+        },
+        "V35303": {
+          "id": "V35303",
+          "indicator": "BARE",
+          "type": "REPOSITORY",
+          "word": "REPOSITORY",
+          "roles": {
+            "ASSOC-WITH": "#V35490",
+            "LEX": "REPOSITORY"
+          },
+          "start": 17,
+          "end": 29
+        },
+        "V35490": {
+          "id": "V35490",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V35442",
+            "LEX": "A"
+          },
+          "start": 17,
+          "end": 19
+        },
+        "V35442": {
+          "id": "V35442",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(A)",
+            "VAL": "(A)",
+            "LEX": "A"
+          },
+          "start": 17,
+          "end": 19
+        },
+        "root": "#V35652"
+      }
+    ]
+  ],
+  "sentence": "I want to create a repository",
+  "annotation": {
+    "judge": "jallen",
+    "parser": "STEP",
+    "timestamp": "20190501T095046",
+    "link": "http://trips.ihmc.us/parser/saved/20190501T095046-STEP-jallen-0-I_want_to_create_a_repository.xml",
+    "judgement": 0
+  }
+}

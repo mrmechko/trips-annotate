@@ -1,0 +1,88 @@
+{
+  "parse": [
+    {
+      "V43063": {
+        "id": "V43063",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V42646"
+        },
+        "start": 0,
+        "end": 27
+      },
+      "V42646": {
+        "id": "V42646",
+        "indicator": "F",
+        "type": "EXPECTATION",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V42641",
+          "FORMAL": "#V42708",
+          "MOD": "#V42664",
+          "TENSE": "PRES"
+        },
+        "start": 0,
+        "end": 26
+      },
+      "V42641": {
+        "id": "V42641",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V42664": {
+        "id": "V42664",
+        "indicator": "F",
+        "type": "MODIFIER",
+        "word": "APPROXIMATE",
+        "roles": {
+          "FIGURE": "#V42646"
+        },
+        "start": 9,
+        "end": 15
+      },
+      "V42708": {
+        "id": "V42708",
+        "indicator": "F",
+        "type": "HITTING",
+        "word": "HIT",
+        "roles": {
+          "AGENT": "#V42641",
+          "AFFECTED": "#V42717",
+          "VFORM": "BASE"
+        },
+        "start": 15,
+        "end": 26
+      },
+      "V42717": {
+        "id": "V42717",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEM",
+        "roles": {
+          "PROFORM": "THEM"
+        },
+        "start": 22,
+        "end": 26
+      },
+      "root": "#V43063"
+    }
+  ],
+  "alternatives": [],
+  "sentence": "They are about to hit them.",
+  "annotation": {
+    "judge": "wbeaumont",
+    "parser": "COGENT",
+    "timestamp": "20190614T151009",
+    "link": "http://trips.ihmc.us/parser/saved/20190614T151009-COGENT-wbeaumont-0-They_are_about_to_hit_them_.xml",
+    "judgement": 0
+  }
+}

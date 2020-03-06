@@ -1,0 +1,23 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V311081 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V310780 [label=<<font color="green"><br /></font> <font color="black">BE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BE</font> <font color="green"><br /></font> <font color="green">be%2:42:06::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BE.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V310772 [label=<<font color="green"><br /></font> <font color="black">PROFESSIONAL</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">LAWYER</font> <font color="green"><br /></font> <font color="green">lawyer%1:18:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PROFESSIONAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V310769 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">MY</font> <font color="green"><br /></font> <font color="green">person%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V310934 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V310798 [label=<<font color="green"><br /></font> <font color="black">MAX-VAL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">GOOD</font> <font color="green"><br /></font> <font color="green">ultimate%3:00:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MAX-VAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V310806 [label=<<font color="green"><br /></font> <font color="black">IN-LOC</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">IN</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::IN-LOC.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V310868 [label=<<font color="green"><br /></font> <font color="black">CITY</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">CITY</font> <font color="green"><br /></font> <font color="green">city%1:15:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::CITY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V311081 -> V310780 [label=" CONTENT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V310780 -> V310806 [label=" LOCATION   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V310806 -> V310868 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V310934 -> V310798 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V310806 -> V310780 [label=" FIGURE   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V310798 -> V310934 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V310780 -> V310934 [label=" NEUTRAL1   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V310772 -> V310769 [label=" ASSOC-POSS   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V310780 -> V310772 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

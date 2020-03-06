@@ -1,0 +1,281 @@
+{
+  "parse": [
+    {
+      "V330789": {
+        "id": "V330789",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V330676",
+          "LEX": "SURPRISED"
+        },
+        "start": 0,
+        "end": 25
+      },
+      "V330676": {
+        "id": "V330676",
+        "indicator": "F",
+        "type": "EVOKE-SURPRISE",
+        "word": "SURPRISE",
+        "roles": {
+          "AFFECTED": "#V330639",
+          "TIME": "#V330668",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "SURPRISED",
+          "WNSENSE": "surprise%1:11:00::"
+        },
+        "start": 0,
+        "end": 25
+      },
+      "V330639": {
+        "id": "V330639",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V330668": {
+        "id": "V330668",
+        "indicator": "F",
+        "type": "EVENT-TIME-INITIALLY",
+        "word": "INITIALLY",
+        "roles": {
+          "FIGURE": "#V330676",
+          "LEX": "INITIALLY",
+          "WNSENSE": "initially%4:02:00::"
+        },
+        "start": 6,
+        "end": 16
+      },
+      "root": "#V330789"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V330857": {
+          "id": "V330857",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V330655",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V330655": {
+          "id": "V330655",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V330639",
+            "FORMAL": "#V330673",
+            "TIME": "#V330668",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V330639": {
+          "id": "V330639",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V330668": {
+          "id": "V330668",
+          "indicator": "F",
+          "type": "EVENT-TIME-INITIALLY",
+          "word": "INITIALLY",
+          "roles": {
+            "FIGURE": "#V330655",
+            "LEX": "INITIALLY",
+            "WNSENSE": "initially%4:02:00::"
+          },
+          "start": 6,
+          "end": 16
+        },
+        "V330673": {
+          "id": "V330673",
+          "indicator": "F",
+          "type": "SURPRISED",
+          "word": "SURPRISED",
+          "roles": {
+            "FIGURE": "#V330639",
+            "SCALE": "SURPRISE-SCALE",
+            "LEX": "SURPRISED",
+            "WNSENSE": "surprised%3:00:00::"
+          },
+          "start": 16,
+          "end": 25
+        },
+        "root": "#V330857"
+      }
+    ],
+    [
+      {
+        "V330930": {
+          "id": "V330930",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V330676",
+            "LEX": "SURPRISED"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V330676": {
+          "id": "V330676",
+          "indicator": "F",
+          "type": "EVOKE-SURPRISE",
+          "word": "SURPRISE",
+          "roles": {
+            "AFFECTED": "#V330902",
+            "TIME": "#V330668",
+            "TENSE": "PAST",
+            "PASSIVE": "+",
+            "LEX": "SURPRISED",
+            "WNSENSE": "surprise%1:11:00::"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V330902": {
+          "id": "V330902",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V330668": {
+          "id": "V330668",
+          "indicator": "F",
+          "type": "EVENT-TIME-INITIALLY",
+          "word": "INITIALLY",
+          "roles": {
+            "FIGURE": "#V330676",
+            "LEX": "INITIALLY",
+            "WNSENSE": "initially%4:02:00::"
+          },
+          "start": 6,
+          "end": 16
+        },
+        "root": "#V330930"
+      }
+    ],
+    [
+      {
+        "V330961": {
+          "id": "V330961",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V330655",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V330655": {
+          "id": "V330655",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V330902",
+            "FORMAL": "#V330673",
+            "TIME": "#V330668",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V330902": {
+          "id": "V330902",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V330668": {
+          "id": "V330668",
+          "indicator": "F",
+          "type": "EVENT-TIME-INITIALLY",
+          "word": "INITIALLY",
+          "roles": {
+            "FIGURE": "#V330655",
+            "LEX": "INITIALLY",
+            "WNSENSE": "initially%4:02:00::"
+          },
+          "start": 6,
+          "end": 16
+        },
+        "V330673": {
+          "id": "V330673",
+          "indicator": "F",
+          "type": "SURPRISED",
+          "word": "SURPRISED",
+          "roles": {
+            "FIGURE": "#V330902",
+            "SCALE": "SURPRISE-SCALE",
+            "LEX": "SURPRISED",
+            "WNSENSE": "surprised%3:00:00::"
+          },
+          "start": 16,
+          "end": 25
+        },
+        "root": "#V330961"
+      }
+    ]
+  ],
+  "sentence": "I was initially surprised.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190725T072858",
+    "link": "http://trips.ihmc.us/parser/saved/20190725T072858-STEP-abhatia-0-I_was_initially_surprised_.xml",
+    "judgement": 0
+  }
+}

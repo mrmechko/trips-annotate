@@ -1,0 +1,529 @@
+{
+  "parse": [
+    {
+      "V38073": {
+        "id": "V38073",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V36939",
+          "LEX": "WANTED"
+        },
+        "start": 0,
+        "end": 60
+      },
+      "V36939": {
+        "id": "V36939",
+        "indicator": "F",
+        "type": "WANT",
+        "word": "WANT",
+        "roles": {
+          "EXPERIENCER": "#V36933",
+          "FORMAL": "#V36977",
+          "TENSE": "PAST",
+          "LEX": "WANTED"
+        },
+        "start": 0,
+        "end": 60
+      },
+      "V36933": {
+        "id": "V36933",
+        "indicator": "INDEF-SET",
+        "type": "PERSON",
+        "word": "PERSON",
+        "roles": {
+          "SIZE": "#V36931",
+          "LEX": "PEOPLE"
+        },
+        "start": 0,
+        "end": 24
+      },
+      "V36931": {
+        "id": "V36931",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "MOD": "#V36919"
+        },
+        "start": 0,
+        "end": 17
+      },
+      "V36919": {
+        "id": "V36919",
+        "indicator": "F",
+        "type": "QMODIFIER",
+        "word": "LESS-THAN",
+        "roles": {
+          "FIGURE": "#V36931",
+          "GROUND": "#V37271"
+        },
+        "start": 0,
+        "end": 17
+      },
+      "V37271": {
+        "id": "V37271",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "7"
+        },
+        "start": 0,
+        "end": 17
+      },
+      "V36977": {
+        "id": "V36977",
+        "indicator": "F",
+        "type": "LEAVE-BEHIND",
+        "word": "LEAVE",
+        "roles": {
+          "AGENT": "#V36933",
+          "AFFECTED": "#V37002",
+          "TIME": "#V37015",
+          "VFORM": "BASE",
+          "LEX": "LEAVE"
+        },
+        "start": 31,
+        "end": 60
+      },
+      "V37002": {
+        "id": "V37002",
+        "indicator": "THE",
+        "type": "SHAPE-OBJECT",
+        "word": "BAR",
+        "roles": {
+          "LEX": "BAR"
+        },
+        "start": 40,
+        "end": 48
+      },
+      "V37015": {
+        "id": "V37015",
+        "indicator": "F",
+        "type": "TIME-CLOCK-REL",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V37029",
+          "FIGURE": "#V36977",
+          "LEX": "AT"
+        },
+        "start": 48,
+        "end": 60
+      },
+      "V37029": {
+        "id": "V37029",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "HOUR": "1",
+          "LEX": "-"
+        },
+        "start": 51,
+        "end": 60
+      },
+      "root": "#V38073"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V37964": {
+          "id": "V37964",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V36939",
+            "LEX": "WANTED"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V36939": {
+          "id": "V36939",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "WANT",
+          "roles": {
+            "EXPERIENCER": "#V36933",
+            "FORMAL": "#V36975",
+            "TENSE": "PAST",
+            "LEX": "WANTED"
+          },
+          "start": 0,
+          "end": 60
+        },
+        "V36933": {
+          "id": "V36933",
+          "indicator": "INDEF-SET",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "SIZE": "#V36931",
+            "LEX": "PEOPLE"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V36931": {
+          "id": "V36931",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "MOD": "#V36919"
+          },
+          "start": 0,
+          "end": 17
+        },
+        "V36919": {
+          "id": "V36919",
+          "indicator": "F",
+          "type": "QMODIFIER",
+          "word": "LESS-THAN",
+          "roles": {
+            "FIGURE": "#V36931",
+            "GROUND": "#V37271"
+          },
+          "start": 0,
+          "end": 17
+        },
+        "V37271": {
+          "id": "V37271",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "7"
+          },
+          "start": 0,
+          "end": 17
+        },
+        "V36975": {
+          "id": "V36975",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V36933",
+            "NEUTRAL": "#V37002",
+            "TIME": "#V37015",
+            "VFORM": "BASE",
+            "LEX": "LEAVE"
+          },
+          "start": 31,
+          "end": 60
+        },
+        "V37002": {
+          "id": "V37002",
+          "indicator": "THE",
+          "type": "SHAPE-OBJECT",
+          "word": "BAR",
+          "roles": {
+            "LEX": "BAR"
+          },
+          "start": 40,
+          "end": 48
+        },
+        "V37015": {
+          "id": "V37015",
+          "indicator": "F",
+          "type": "TIME-CLOCK-REL",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V37029",
+            "FIGURE": "#V36975",
+            "LEX": "AT"
+          },
+          "start": 48,
+          "end": 60
+        },
+        "V37029": {
+          "id": "V37029",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "HOUR": "1",
+            "LEX": "-"
+          },
+          "start": 51,
+          "end": 60
+        },
+        "root": "#V37964"
+      }
+    ],
+    [
+      {
+        "V37855": {
+          "id": "V37855",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V36939",
+            "LEX": "WANTED"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V36939": {
+          "id": "V36939",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "WANT",
+          "roles": {
+            "EXPERIENCER": "#V36933",
+            "FORMAL": "#V36975",
+            "TENSE": "PAST",
+            "LEX": "WANTED"
+          },
+          "start": 0,
+          "end": 60
+        },
+        "V36933": {
+          "id": "V36933",
+          "indicator": "INDEF-SET",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "SIZE": "#V36931",
+            "LEX": "PEOPLE"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V36931": {
+          "id": "V36931",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "MOD": "#V36919"
+          },
+          "start": 0,
+          "end": 17
+        },
+        "V36919": {
+          "id": "V36919",
+          "indicator": "F",
+          "type": "QMODIFIER",
+          "word": "LESS-THAN",
+          "roles": {
+            "FIGURE": "#V36931",
+            "GROUND": "#V37271"
+          },
+          "start": 0,
+          "end": 17
+        },
+        "V37271": {
+          "id": "V37271",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "7"
+          },
+          "start": 0,
+          "end": 17
+        },
+        "V36975": {
+          "id": "V36975",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V36933",
+            "NEUTRAL": "#V37003",
+            "TIME": "#V37015",
+            "VFORM": "BASE",
+            "LEX": "LEAVE"
+          },
+          "start": 31,
+          "end": 60
+        },
+        "V37003": {
+          "id": "V37003",
+          "indicator": "THE",
+          "type": "DRINKING-ESTABLISHMENT",
+          "word": "BAR",
+          "roles": {
+            "LEX": "BAR"
+          },
+          "start": 40,
+          "end": 48
+        },
+        "V37015": {
+          "id": "V37015",
+          "indicator": "F",
+          "type": "TIME-CLOCK-REL",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V37029",
+            "FIGURE": "#V36975",
+            "LEX": "AT"
+          },
+          "start": 48,
+          "end": 60
+        },
+        "V37029": {
+          "id": "V37029",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "HOUR": "1",
+            "LEX": "-"
+          },
+          "start": 51,
+          "end": 60
+        },
+        "root": "#V37855"
+      }
+    ],
+    [
+      {
+        "V38591": {
+          "id": "V38591",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V36939",
+            "LEX": "WANTED"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V36939": {
+          "id": "V36939",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "WANT",
+          "roles": {
+            "EXPERIENCER": "#V36933",
+            "FORMAL": "#V36975",
+            "TENSE": "PAST",
+            "LEX": "WANTED"
+          },
+          "start": 0,
+          "end": 60
+        },
+        "V36933": {
+          "id": "V36933",
+          "indicator": "INDEF-SET",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "SIZE": "#V36931",
+            "LEX": "PEOPLE"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V36931": {
+          "id": "V36931",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "MOD": "#V36919",
+            "LEX": "SEVEN"
+          },
+          "start": 0,
+          "end": 17
+        },
+        "V36919": {
+          "id": "V36919",
+          "indicator": "F",
+          "type": "QMODIFIER",
+          "word": "LESS-THAN",
+          "roles": {
+            "FIGURE": "#V36931",
+            "GROUND": "#V37271"
+          },
+          "start": 0,
+          "end": 17
+        },
+        "V37271": {
+          "id": "V37271",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "7"
+          },
+          "start": 0,
+          "end": 17
+        },
+        "V36975": {
+          "id": "V36975",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V36933",
+            "NEUTRAL": "#V37002",
+            "TIME": "#V37015",
+            "VFORM": "BASE",
+            "LEX": "LEAVE"
+          },
+          "start": 31,
+          "end": 60
+        },
+        "V37002": {
+          "id": "V37002",
+          "indicator": "THE",
+          "type": "SHAPE-OBJECT",
+          "word": "BAR",
+          "roles": {
+            "LEX": "BAR"
+          },
+          "start": 40,
+          "end": 48
+        },
+        "V37015": {
+          "id": "V37015",
+          "indicator": "F",
+          "type": "TIME-CLOCK-REL",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V37029",
+            "FIGURE": "#V36975",
+            "LEX": "AT"
+          },
+          "start": 48,
+          "end": 60
+        },
+        "V37029": {
+          "id": "V37029",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "HOUR": "1",
+            "LEX": "-"
+          },
+          "start": 51,
+          "end": 60
+        },
+        "root": "#V38591"
+      }
+    ]
+  ],
+  "sentence": "Fewer than seven people wanted to leave the bar at 1 o'clock.",
+  "annotation": {
+    "judge": "jallen",
+    "parser": "STEP",
+    "timestamp": "20190709T084910",
+    "link": "http://trips.ihmc.us/parser/saved/20190709T084910-STEP-jallen-2-Fewer_than_seven_people_wanted_to_leave_.xml",
+    "judgement": 2
+  }
+}

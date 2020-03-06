@@ -1,0 +1,25 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V55402 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V55085 [label=<<font color="green"><br /></font> <font color="black">ACTIVE-PERCEPTION</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">SEE</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ACTIVE-PERCEPTION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V55196 [label=<<font color="green"><br /></font> <font color="black">TIME-SPAN-REL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TIME-SPAN-REL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V55205 [label=<<font color="green"><br /></font> <font color="black">TIME-LOC</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TIME-LOC.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V55055 [label=<<font color="green"><br /></font> <font color="black">DAY-NAME</font> <font color="green"><br /></font> <font color="red">BARE</font> <font color="blue">MONDAY</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DAY-NAME.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V55071 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">I</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V55108 [label=<<font color="green"><br /></font> <font color="black">NONHUMAN-ANIMAL</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">ELEPHANT</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::NONHUMAN-ANIMAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V55103 [label=<<font color="green"><br /></font> <font color="black">NUMBER</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::NUMBER.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V55105 [label=<<font color="green"><br /></font> <font color="black">LARGE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">LARGE</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::LARGE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V55105 -> V55108 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V55205 -> V55055 [label=" DAY-OF-WEEK   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V55085 -> V55071 [label=" EXPERIENCER   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V55085 -> V55108 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V55085 -> V55196 [label=" TIME   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V55196 -> V55205 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V55402 -> V55085 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V55108 -> V55103 [label=" SIZE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V55196 -> V55085 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V55108 -> V55105 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

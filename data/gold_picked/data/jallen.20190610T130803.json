@@ -1,0 +1,384 @@
+{
+  "parse": [
+    {
+      "V39994": {
+        "id": "V39994",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V39536",
+          "LEX": "RUN"
+        },
+        "start": 0,
+        "end": 34
+      },
+      "V39536": {
+        "id": "V39536",
+        "indicator": "F",
+        "type": "MOVE-RAPIDLY",
+        "word": "RUN",
+        "roles": {
+          "RESULT": "#V39550",
+          "AGENT": "#V39526",
+          "TIME": "#V39504",
+          "TENSE": "PRES",
+          "LEX": "RUN"
+        },
+        "start": 0,
+        "end": 34
+      },
+      "V39504": {
+        "id": "V39504",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHENEVER",
+        "roles": {
+          "GROUND": "#V39514",
+          "FIGURE": "#V39536",
+          "LEX": "WHENEVER"
+        },
+        "start": 0,
+        "end": 18
+      },
+      "V39514": {
+        "id": "V39514",
+        "indicator": "F",
+        "type": "SING",
+        "word": "SING",
+        "roles": {
+          "AGENT": "#V39509",
+          "TENSE": "PRES",
+          "LEX": "SINGS"
+        },
+        "start": 9,
+        "end": 18
+      },
+      "V39509": {
+        "id": "V39509",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE"
+        },
+        "start": 9,
+        "end": 12
+      },
+      "V39526": {
+        "id": "V39526",
+        "indicator": "THE-SET",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "DOG",
+        "roles": {
+          "LEX": "DOGS"
+        },
+        "start": 18,
+        "end": 27
+      },
+      "V39550": {
+        "id": "V39550",
+        "indicator": "F",
+        "type": "AWAY",
+        "word": "AWAY",
+        "roles": {
+          "FIGURE": "#V39526",
+          "LEX": "AWAY"
+        },
+        "start": 31,
+        "end": 34
+      },
+      "root": "#V39994"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V40210": {
+          "id": "V40210",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V39536",
+            "LEX": "RUN"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V39536": {
+          "id": "V39536",
+          "indicator": "F",
+          "type": "MOVE-RAPIDLY",
+          "word": "RUN",
+          "roles": {
+            "AGENT": "#V39526",
+            "TIME": "#V39504",
+            "RESULT": "#V39550",
+            "TENSE": "PRES",
+            "LEX": "RUN"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V39504": {
+          "id": "V39504",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "WHENEVER",
+          "roles": {
+            "GROUND": "#V39514",
+            "FIGURE": "#V39536",
+            "LEX": "WHENEVER"
+          },
+          "start": 0,
+          "end": 18
+        },
+        "V39514": {
+          "id": "V39514",
+          "indicator": "F",
+          "type": "SING",
+          "word": "SING",
+          "roles": {
+            "AGENT": "#V39509",
+            "TENSE": "PRES",
+            "LEX": "SINGS"
+          },
+          "start": 9,
+          "end": 18
+        },
+        "V39509": {
+          "id": "V39509",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE"
+          },
+          "start": 9,
+          "end": 12
+        },
+        "V39526": {
+          "id": "V39526",
+          "indicator": "THE-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOGS"
+          },
+          "start": 18,
+          "end": 27
+        },
+        "V39550": {
+          "id": "V39550",
+          "indicator": "F",
+          "type": "AWAY",
+          "word": "AWAY",
+          "roles": {
+            "FIGURE": "#V39536",
+            "LEX": "AWAY"
+          },
+          "start": 31,
+          "end": 35
+        },
+        "root": "#V40210"
+      }
+    ],
+    [
+      {
+        "V39969": {
+          "id": "V39969",
+          "indicator": "SPEECHACT",
+          "type": "SA_REQUEST",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V39567",
+            "LEX": "RUN-AWAY"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V39567": {
+          "id": "V39567",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "RUN-AWAY",
+          "roles": {
+            "AGENT": "#V39671",
+            "TIME": "#V39504",
+            "TENSE": "PRES",
+            "VFORM": "BASE",
+            "LEX": "RUN-AWAY"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V39671": {
+          "id": "V39671",
+          "indicator": "IMPRO",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "PROFORM": "*YOU*"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V39504": {
+          "id": "V39504",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "WHENEVER",
+          "roles": {
+            "GROUND": "#V39513",
+            "FIGURE": "#V39567",
+            "LEX": "WHENEVER"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V39513": {
+          "id": "V39513",
+          "indicator": "F",
+          "type": "SING",
+          "word": "SING",
+          "roles": {
+            "AGENT": "#V39509",
+            "NEUTRAL": "#V39526",
+            "TENSE": "PRES",
+            "LEX": "SINGS"
+          },
+          "start": 9,
+          "end": 27
+        },
+        "V39509": {
+          "id": "V39509",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE"
+          },
+          "start": 9,
+          "end": 12
+        },
+        "V39526": {
+          "id": "V39526",
+          "indicator": "THE-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOGS"
+          },
+          "start": 18,
+          "end": 27
+        },
+        "root": "#V39969"
+      }
+    ],
+    [
+      {
+        "V39967": {
+          "id": "V39967",
+          "indicator": "SPEECHACT",
+          "type": "SA_REQUEST",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V39571",
+            "LEX": "RUN-AWAY"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V39571": {
+          "id": "V39571",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "RUN-AWAY",
+          "roles": {
+            "AGENT": "#V39676",
+            "TIME": "#V39504",
+            "TENSE": "PRES",
+            "VFORM": "BASE",
+            "LEX": "RUN-AWAY"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V39676": {
+          "id": "V39676",
+          "indicator": "IMPRO",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "PROFORM": "*YOU*"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V39504": {
+          "id": "V39504",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "WHENEVER",
+          "roles": {
+            "GROUND": "#V39513",
+            "FIGURE": "#V39571",
+            "LEX": "WHENEVER"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V39513": {
+          "id": "V39513",
+          "indicator": "F",
+          "type": "SING",
+          "word": "SING",
+          "roles": {
+            "AGENT": "#V39509",
+            "NEUTRAL": "#V39526",
+            "TENSE": "PRES",
+            "LEX": "SINGS"
+          },
+          "start": 9,
+          "end": 27
+        },
+        "V39509": {
+          "id": "V39509",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE"
+          },
+          "start": 9,
+          "end": 12
+        },
+        "V39526": {
+          "id": "V39526",
+          "indicator": "THE-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOGS"
+          },
+          "start": 18,
+          "end": 27
+        },
+        "root": "#V39967"
+      }
+    ]
+  ],
+  "sentence": "Whenever he sings the dogs run away",
+  "annotation": {
+    "judge": "jallen",
+    "parser": "STEP",
+    "timestamp": "20190610T130803",
+    "link": "http://trips.ihmc.us/parser/saved/20190610T130803-STEP-jallen-0-Whenever_he_sings_the_dogs_run_away.xml",
+    "judgement": 0
+  }
+}

@@ -1,0 +1,25 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V187868 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V186859 [label=<<font color="green"><br /></font> <font color="black">DECIDE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">DECIDE</font> <font color="green"><br /></font> <font color="green">decide%2:31:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DECIDE.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V186846 [label=<<font color="green"><br /></font> <font color="black">FEMALE-PERSON</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">RITA</font> <font color="green"><br /></font> <font color="green">woman%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FEMALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V186874 [label=<<font color="green"><br /></font> <font color="black">PURPOSE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">TO</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PURPOSE.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V186892 [label=<<font color="green"><br /></font> <font color="black">ORGANIZING</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">ORGANIZE</font> <font color="green"><br /></font> <font color="green">organize%2:41:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ORGANIZING.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V186964 [label=<<font color="green"><br /></font> <font color="black">EVENT-DEFINED-BY-ACTIVITY</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">BIRTHDAY-PARTY</font> <font color="green"><br /></font> <font color="green">birthday_party%1:11:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EVENT-DEFINED-BY-ACTIVITY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V186972 [label=<<font color="green"><br /></font> <font color="black">ASSOC-WITH</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">FOR</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ASSOC-WITH.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V187000 [label=<<font color="green"><br /></font> <font color="black">NONHUMAN-ANIMAL</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">DOG</font> <font color="green"><br /></font> <font color="green">dog%1:05:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::NONHUMAN-ANIMAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V186995 [label=<<font color="green"><br /></font> <font color="black">FEMALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HER</font> <font color="green"><br /></font> <font color="green">woman%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FEMALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V186892 -> V186964 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V187000 -> V186995 [label=" ASSOC-POSS   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V186859 -> V186874 [label=" REASON   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V186972 -> V186964 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V187868 -> V186859 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V186859 -> V186846 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V186964 -> V186972 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V186972 -> V187000 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V186874 -> V186892 [label=" GROUND   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V186874 -> V186859 [label=" FIGURE   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

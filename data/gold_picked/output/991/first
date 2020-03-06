@@ -1,0 +1,23 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V98446 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V97368 [label=<<font color="green"><br /></font> <font color="black">WAIT-WATCH</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">WAIT</font> <font color="green"><br /></font> <font color="green">wait%2:42:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::WAIT-WATCH.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V97354 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">I</font> <font color="green"><br /></font> <font color="green">person%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V97383 [label=<<font color="green"><br /></font> <font color="black">PURPOSE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">IN</font> <font color="green"><br /></font> <font color="green">in%4:02:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PURPOSE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V97438 [label=<<font color="green"><br /></font> <font color="black">GROUPING</font> <font color="green"><br /></font> <font color="red">BARE</font> <font color="blue">LINE</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GROUPING.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V97658 [label=<<font color="green"><br /></font> <font color="black">TIME-DURATION-REL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">FOR</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TIME-DURATION-REL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V97681 [label=<<font color="green"><br /></font> <font color="black">QUANTITY</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">* </font> <font color="green"><br /></font> <font color="green">hour%1:28:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::QUANTITY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V97678 [label=<<font color="green"><br /></font> <font color="black">NUMBER</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::NUMBER.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V97658 -> V97681 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V97368 -> V97658 [label=" EXTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V97681 -> V97678 [label=" AMOUNT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V98446 -> V97368 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V97383 -> V97368 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V97658 -> V97368 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V97368 -> V97354 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V97368 -> V97383 [label=" REASON   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V97383 -> V97438 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

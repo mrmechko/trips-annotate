@@ -1,0 +1,31 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V85165 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V84409 [label=<<font color="green"><br /></font> <font color="black">BE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BE</font> <font color="green"><br /></font> <font color="green">be%2:42:06::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BE.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V84401 [label=<<font color="green"><br /></font> <font color="black">FEMALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">SHE</font> <font color="green"><br /></font> <font color="green">woman%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FEMALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V84422 [label=<<font color="green"><br /></font> <font color="black">OUTSIDE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">OUTSIDE</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::OUTSIDE.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V84534 [label=<<font color="green"><br /></font> <font color="black">TIME-POINT</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TIME-POINT.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V84448 [label=<<font color="green"><br /></font> <font color="black">ACTIVE-PERCEPTION</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">HEAR</font> <font color="green"><br /></font> <font color="green">look%2:39:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ACTIVE-PERCEPTION.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V84433 [label=<<font color="green"><br /></font> <font color="black">EVENT-TIME-REL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">WHEN</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EVENT-TIME-REL.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V84442 [label=<<font color="green"><br /></font> <font color="black">FEMALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">SHE</font> <font color="green"><br /></font> <font color="green">woman%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FEMALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V84618 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V84496 [label=<<font color="green"><br /></font> <font color="black">NOISY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">LOUD</font> <font color="green"><br /></font> <font color="green">loud%3:00:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::NOISY.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V84499 [label=<<font color="green"><br /></font> <font color="black">AUDIO</font> <font color="green"><br /></font> <font color="red">BARE</font> <font color="blue">NOISE</font> <font color="green"><br /></font> <font color="green">audio%1:10:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::AUDIO.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V84433 -> V84534 [label=" GROUND   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V84409 -> V84499 [label=" NEUTRAL1   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V85165 -> V84409 [label=" CONTENT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V84422 -> V84409 [label=" FIGURE   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V84409 -> V84401 [label=" NEUTRAL   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V84409 -> V84422 [label=" LOCATION   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V84448 -> V84442 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V84534 -> V84448 [label=" SUCHTHAT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V84448 -> V84618 [label=" NEUTRAL   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V84433 -> V84448 [label=" FIGURE   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V84448 -> V84433 [label=" TIME   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V84618 -> V84496 [label=" MOD   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V84422 -> V84534 [label=" GROUND   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V84496 -> V84618 [label=" FIGURE   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

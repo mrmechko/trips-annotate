@@ -1,0 +1,468 @@
+{
+  "parse": [
+    {
+      "V331892": {
+        "id": "V331892",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V331717",
+          "MOD": "#V331459",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 35
+      },
+      "V331459": {
+        "id": "V331459",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "BUT",
+        "roles": {
+          "FIGURE": "#V331892",
+          "LEX": "BUT",
+          "WNSENSE": "but%4:02:01::"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V331717": {
+        "id": "V331717",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V331469",
+          "SEQUENCE1": "#V331532",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 4,
+        "end": 35
+      },
+      "V331532": {
+        "id": "V331532",
+        "indicator": "F",
+        "type": "DISCUSS",
+        "word": "TALKED-ABOUT",
+        "roles": {
+          "AGENT": "#V331464",
+          "NEUTRAL": "#V331571",
+          "LEX": "TALKED-ABOUT",
+          "WNSENSE": "talk_about%2:32:00"
+        },
+        "start": 4,
+        "end": 35
+      },
+      "V331469": {
+        "id": "V331469",
+        "indicator": "F",
+        "type": "APPRECIATE",
+        "word": "LOVE",
+        "roles": {
+          "EXPERIENCER": "#V331464",
+          "NEUTRAL": "#V331475",
+          "LEX": "LOVED",
+          "WNSENSE": "love%2:37:00::"
+        },
+        "start": 4,
+        "end": 35
+      },
+      "V331464": {
+        "id": "V331464",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 4,
+        "end": 7
+      },
+      "V331475": {
+        "id": "V331475",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00",
+          "COREF": "#V331717"
+        },
+        "start": 13,
+        "end": 16
+      },
+      "V331571": {
+        "id": "V331571",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00",
+          "COREF": "#V331717"
+        },
+        "start": 33,
+        "end": 35
+      },
+      "root": "#V331892"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V331923": {
+          "id": "V331923",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V331776",
+            "MOD": "#V331459",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V331459": {
+          "id": "V331459",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V331923",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V331776": {
+          "id": "V331776",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V331469",
+            "SEQUENCE1": "#V331532",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 4,
+          "end": 35
+        },
+        "V331532": {
+          "id": "V331532",
+          "indicator": "F",
+          "type": "DISCUSS",
+          "word": "TALKED-ABOUT",
+          "roles": {
+            "AGENT": "#V331464",
+            "NEUTRAL": "#V331571",
+            "LEX": "TALKED-ABOUT",
+            "WNSENSE": "talk_about%2:32:00"
+          },
+          "start": 4,
+          "end": 35
+        },
+        "V331469": {
+          "id": "V331469",
+          "indicator": "F",
+          "type": "APPRECIATE",
+          "word": "LOVE",
+          "roles": {
+            "EXPERIENCER": "#V331464",
+            "NEUTRAL": "#V331476",
+            "LEX": "LOVED",
+            "WNSENSE": "love%2:37:00::"
+          },
+          "start": 4,
+          "end": 35
+        },
+        "V331464": {
+          "id": "V331464",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 4,
+          "end": 7
+        },
+        "V331476": {
+          "id": "V331476",
+          "indicator": "PRO",
+          "type": "EXPLETIVE",
+          "word": null,
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT"
+          },
+          "start": 13,
+          "end": 16
+        },
+        "V331571": {
+          "id": "V331571",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 33,
+          "end": 35
+        },
+        "root": "#V331923"
+      }
+    ],
+    [
+      {
+        "V331961": {
+          "id": "V331961",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V331717",
+            "MOD": "#V331459",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V331459": {
+          "id": "V331459",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V331961",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V331717": {
+          "id": "V331717",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V331469",
+            "SEQUENCE1": "#V331495",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 4,
+          "end": 35
+        },
+        "V331495": {
+          "id": "V331495",
+          "indicator": "F",
+          "type": "TALK",
+          "word": "TALK",
+          "roles": {
+            "AGENT": "#V331464",
+            "FORMAL": "#V331571",
+            "LEX": "TALKED",
+            "WNSENSE": "talk%2:32:01::"
+          },
+          "start": 4,
+          "end": 35
+        },
+        "V331469": {
+          "id": "V331469",
+          "indicator": "F",
+          "type": "APPRECIATE",
+          "word": "LOVE",
+          "roles": {
+            "EXPERIENCER": "#V331464",
+            "NEUTRAL": "#V331475",
+            "LEX": "LOVED",
+            "WNSENSE": "love%2:37:00::"
+          },
+          "start": 4,
+          "end": 35
+        },
+        "V331464": {
+          "id": "V331464",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 4,
+          "end": 7
+        },
+        "V331475": {
+          "id": "V331475",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 13,
+          "end": 16
+        },
+        "V331571": {
+          "id": "V331571",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 27,
+          "end": 35
+        },
+        "root": "#V331961"
+      }
+    ],
+    [
+      {
+        "V332024": {
+          "id": "V332024",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V331776",
+            "MOD": "#V331459",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V331459": {
+          "id": "V331459",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V332024",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V331776": {
+          "id": "V331776",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V331469",
+            "SEQUENCE1": "#V331495",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 4,
+          "end": 35
+        },
+        "V331495": {
+          "id": "V331495",
+          "indicator": "F",
+          "type": "TALK",
+          "word": "TALK",
+          "roles": {
+            "AGENT": "#V331464",
+            "FORMAL": "#V331571",
+            "LEX": "TALKED",
+            "WNSENSE": "talk%2:32:01::"
+          },
+          "start": 4,
+          "end": 35
+        },
+        "V331469": {
+          "id": "V331469",
+          "indicator": "F",
+          "type": "APPRECIATE",
+          "word": "LOVE",
+          "roles": {
+            "EXPERIENCER": "#V331464",
+            "NEUTRAL": "#V331476",
+            "LEX": "LOVED",
+            "WNSENSE": "love%2:37:00::"
+          },
+          "start": 4,
+          "end": 35
+        },
+        "V331464": {
+          "id": "V331464",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 4,
+          "end": 7
+        },
+        "V331476": {
+          "id": "V331476",
+          "indicator": "PRO",
+          "type": "EXPLETIVE",
+          "word": null,
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT"
+          },
+          "start": 13,
+          "end": 16
+        },
+        "V331571": {
+          "id": "V331571",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 27,
+          "end": 35
+        },
+        "root": "#V332024"
+      }
+    ]
+  ],
+  "sentence": "But he loved it and talked about it.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190807T170621",
+    "link": "http://trips.ihmc.us/parser/saved/20190807T170621-STEP-abhatia-0-But_he_loved_it_and_talked_about_it_.xml",
+    "judgement": 0
+  }
+}

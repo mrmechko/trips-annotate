@@ -1,0 +1,13 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V153436 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V153327 [label=<<font color="green"><br /></font> <font color="black">MOVE-DOWNWARD</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">SINK</font> <font color="green"><br /></font> <font color="green">sink%2:38:02::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MOVE-DOWNWARD.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V153321 [label=<<font color="green"><br /></font> <font color="black">VEHICLE</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">BOAT</font> <font color="green"><br /></font> <font color="green">boat%1:06:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::VEHICLE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V153271 [label=<<font color="green"><br /></font> <font color="black">GEOGRAPHIC-REGION</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">STEVEN</font> <font color="green"><br /></font> <font color="green">north_america%1:14:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GEOGRAPHIC-REGION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V153436 -> V153327 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V153321 -> V153271 [label=" ASSOC-POSS   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V153327 -> V153321 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

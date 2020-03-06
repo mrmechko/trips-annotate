@@ -1,0 +1,30 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V63045 [label=<<font color="green"><br /></font> <font color="black">SPEECH-ACT</font> <font color="green"><br /></font> <font color="red">SA-SEQ</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SPEECH-ACT.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V62778 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V61899 [label=<<font color="green"><br /></font> <font color="black">APOLOGIZE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">APOLOGIZE</font> <font color="green"><br /></font> <font color="green">apologize%2:32:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::APOLOGIZE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V61890 [label=<<font color="green"><br /></font> <font color="black">FEMALE-PERSON</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">NADINE</font> <font color="green"><br /></font> <font color="green">woman%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FEMALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V61936 [label=<<font color="green"><br /></font> <font color="black">FAMILY-RELATION</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">AUNT</font> <font color="green"><br /></font> <font color="green">aunt%1:18:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FAMILY-RELATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V61931 [label=<<font color="green"><br /></font> <font color="black">FEMALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HER</font> <font color="green"><br /></font> <font color="green">woman%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FEMALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V62915 [label=<<font color="green"><br /></font> <font color="black">SA_WH-QUESTION</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_WH-QUESTION.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V61947 [label=<<font color="green"><br /></font> <font color="black">SAY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">SAY</font> <font color="green"><br /></font> <font color="green">say%2:32:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SAY.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V61942 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">WH-TERM-SET</font> <font color="blue">WHO</font> <font color="green"><br /></font> <font color="green">person%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V61978 [label=<<font color="green"><br /></font> <font color="black">HAVE-PROPERTY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BE</font> <font color="green"><br /></font> <font color="green">be%2:42:03::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::HAVE-PROPERTY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V61969 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">IT</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V61994 [label=<<font color="green"><br /></font> <font color="black">GOOD</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">OKAY</font> <font color="green"><br /></font> <font color="green">okay%5:00:00:satisfactory:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GOOD.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V63045 -> V62778 [label=" ACT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V61936 -> V61931 [label=" ASSOC-POSS   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V63045 -> V62915 [label=" ACT1   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V61978 -> V61969 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V61978 -> V61994 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V61899 -> V61936 [label=" AGENT1   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V62915 -> V61947 [label=" CONTENT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V62778 -> V61899 [label=" CONTENT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V61947 -> V61942 [label=" AGENT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V61947 -> V61978 [label=" FORMAL   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V61899 -> V61890 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V62915 -> V61942 [label=" FOCUS   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

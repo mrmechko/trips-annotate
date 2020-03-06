@@ -1,0 +1,456 @@
+{
+  "parse": [
+    {
+      "V73795": {
+        "id": "V73795",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V73197",
+          "LEX": "CAME"
+        },
+        "start": 0,
+        "end": 50
+      },
+      "V73197": {
+        "id": "V73197",
+        "indicator": "F",
+        "type": "COME",
+        "word": "COME",
+        "roles": {
+          "RESULT": "#V73211",
+          "AFFECTED": "#V73459",
+          "REASON": "#V73233",
+          "TENSE": "PAST",
+          "LEX": "CAME",
+          "WNSENSE": "come%2:42:15::"
+        },
+        "start": 0,
+        "end": 50
+      },
+      "V73459": {
+        "id": "V73459",
+        "indicator": "INDEF-SET",
+        "type": "TRAVELLER",
+        "word": "PASSENGER",
+        "roles": {
+          "REFSET": "#V73185",
+          "SIZE": "UNIVERSAL",
+          "LEX": "PASSENGERS",
+          "WNSENSE": "passenger%1:18:00::"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V73185": {
+        "id": "V73185",
+        "indicator": "THE-SET",
+        "type": "TRAVELLER",
+        "word": "PASSENGER",
+        "roles": {
+          "LEX": "PASSENGERS",
+          "WNSENSE": "passenger%1:18:00::"
+        },
+        "start": 4,
+        "end": 22
+      },
+      "V73211": {
+        "id": "V73211",
+        "indicator": "F",
+        "type": "DIRECTION-OUT",
+        "word": "OUT",
+        "roles": {
+          "FIGURE": "#V73459",
+          "LEX": "OUT"
+        },
+        "start": 27,
+        "end": 31
+      },
+      "V73233": {
+        "id": "V73233",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V73307",
+          "FIGURE": "#V73197",
+          "LEX": "TO"
+        },
+        "start": 31,
+        "end": 50
+      },
+      "V73307": {
+        "id": "V73307",
+        "indicator": "F",
+        "type": "PAY-ATTENTION",
+        "word": "WATCH",
+        "roles": {
+          "NEUTRAL": "#V73321",
+          "VFORM": "BASE",
+          "LEX": "WATCH",
+          "WNSENSE": "attend%2:39:00"
+        },
+        "start": 34,
+        "end": 50
+      },
+      "V73321": {
+        "id": "V73321",
+        "indicator": "THE-SET",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "WHALE",
+        "roles": {
+          "LEX": "WHALES",
+          "WNSENSE": "whale%1:05:00::"
+        },
+        "start": 40,
+        "end": 50
+      },
+      "root": "#V73795"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V73792": {
+          "id": "V73792",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V73197",
+            "LEX": "CAME"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V73197": {
+          "id": "V73197",
+          "indicator": "F",
+          "type": "COME",
+          "word": "COME",
+          "roles": {
+            "RESULT": "#V73211",
+            "AFFECTED": "#V73460",
+            "REASON": "#V73233",
+            "TENSE": "PAST",
+            "LEX": "CAME",
+            "WNSENSE": "come%2:42:15::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V73460": {
+          "id": "V73460",
+          "indicator": "INDEF-SET",
+          "type": "TRAVELLER",
+          "word": "PASSENGER",
+          "roles": {
+            "REFSET": "#V73185",
+            "SIZE": "UNIVERSAL",
+            "LEX": "PASSENGERS",
+            "WNSENSE": "passenger%1:18:00::"
+          },
+          "start": 0,
+          "end": 22
+        },
+        "V73185": {
+          "id": "V73185",
+          "indicator": "THE-SET",
+          "type": "TRAVELLER",
+          "word": "PASSENGER",
+          "roles": {
+            "LEX": "PASSENGERS",
+            "WNSENSE": "passenger%1:18:00::"
+          },
+          "start": 4,
+          "end": 22
+        },
+        "V73211": {
+          "id": "V73211",
+          "indicator": "F",
+          "type": "DIRECTION-OUT",
+          "word": "OUT",
+          "roles": {
+            "FIGURE": "#V73460",
+            "LEX": "OUT"
+          },
+          "start": 27,
+          "end": 31
+        },
+        "V73233": {
+          "id": "V73233",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V73307",
+            "FIGURE": "#V73197",
+            "LEX": "TO"
+          },
+          "start": 31,
+          "end": 50
+        },
+        "V73307": {
+          "id": "V73307",
+          "indicator": "F",
+          "type": "PAY-ATTENTION",
+          "word": "WATCH",
+          "roles": {
+            "NEUTRAL": "#V73321",
+            "VFORM": "BASE",
+            "LEX": "WATCH",
+            "WNSENSE": "attend%2:39:00"
+          },
+          "start": 34,
+          "end": 50
+        },
+        "V73321": {
+          "id": "V73321",
+          "indicator": "THE-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "WHALE",
+          "roles": {
+            "LEX": "WHALES",
+            "WNSENSE": "whale%1:05:00::"
+          },
+          "start": 40,
+          "end": 50
+        },
+        "root": "#V73792"
+      }
+    ],
+    [
+      {
+        "V73769": {
+          "id": "V73769",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V73197",
+            "LEX": "CAME"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V73197": {
+          "id": "V73197",
+          "indicator": "F",
+          "type": "COME",
+          "word": "COME",
+          "roles": {
+            "RESULT": "#V73211",
+            "AFFECTED": "#V73459",
+            "REASON": "#V73233",
+            "TENSE": "PAST",
+            "LEX": "CAME",
+            "WNSENSE": "come%2:42:15::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V73459": {
+          "id": "V73459",
+          "indicator": "INDEF-SET",
+          "type": "TRAVELLER",
+          "word": "PASSENGER",
+          "roles": {
+            "REFSET": "#V73185",
+            "SIZE": "UNIVERSAL",
+            "LEX": "PASSENGERS",
+            "WNSENSE": "passenger%1:18:00::"
+          },
+          "start": 0,
+          "end": 22
+        },
+        "V73185": {
+          "id": "V73185",
+          "indicator": "THE-SET",
+          "type": "TRAVELLER",
+          "word": "PASSENGER",
+          "roles": {
+            "LEX": "PASSENGERS",
+            "WNSENSE": "passenger%1:18:00::"
+          },
+          "start": 4,
+          "end": 22
+        },
+        "V73211": {
+          "id": "V73211",
+          "indicator": "F",
+          "type": "DIRECTION-OUT",
+          "word": "OUT",
+          "roles": {
+            "FIGURE": "#V73459",
+            "LEX": "OUT"
+          },
+          "start": 27,
+          "end": 31
+        },
+        "V73233": {
+          "id": "V73233",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V73306",
+            "FIGURE": "#V73197",
+            "LEX": "TO"
+          },
+          "start": 31,
+          "end": 50
+        },
+        "V73306": {
+          "id": "V73306",
+          "indicator": "F",
+          "type": "SCRUTINY",
+          "word": "WATCH",
+          "roles": {
+            "NEUTRAL": "#V73321",
+            "VFORM": "BASE",
+            "LEX": "WATCH",
+            "WNSENSE": "watch%1:04:00::"
+          },
+          "start": 34,
+          "end": 50
+        },
+        "V73321": {
+          "id": "V73321",
+          "indicator": "THE-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "WHALE",
+          "roles": {
+            "LEX": "WHALES",
+            "WNSENSE": "whale%1:05:00::"
+          },
+          "start": 40,
+          "end": 50
+        },
+        "root": "#V73769"
+      }
+    ],
+    [
+      {
+        "V73766": {
+          "id": "V73766",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V73197",
+            "LEX": "CAME"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V73197": {
+          "id": "V73197",
+          "indicator": "F",
+          "type": "COME",
+          "word": "COME",
+          "roles": {
+            "RESULT": "#V73211",
+            "AFFECTED": "#V73460",
+            "REASON": "#V73233",
+            "TENSE": "PAST",
+            "LEX": "CAME",
+            "WNSENSE": "come%2:42:15::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V73460": {
+          "id": "V73460",
+          "indicator": "INDEF-SET",
+          "type": "TRAVELLER",
+          "word": "PASSENGER",
+          "roles": {
+            "REFSET": "#V73185",
+            "SIZE": "UNIVERSAL",
+            "LEX": "PASSENGERS",
+            "WNSENSE": "passenger%1:18:00::"
+          },
+          "start": 0,
+          "end": 22
+        },
+        "V73185": {
+          "id": "V73185",
+          "indicator": "THE-SET",
+          "type": "TRAVELLER",
+          "word": "PASSENGER",
+          "roles": {
+            "LEX": "PASSENGERS",
+            "WNSENSE": "passenger%1:18:00::"
+          },
+          "start": 4,
+          "end": 22
+        },
+        "V73211": {
+          "id": "V73211",
+          "indicator": "F",
+          "type": "DIRECTION-OUT",
+          "word": "OUT",
+          "roles": {
+            "FIGURE": "#V73460",
+            "LEX": "OUT"
+          },
+          "start": 27,
+          "end": 31
+        },
+        "V73233": {
+          "id": "V73233",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V73306",
+            "FIGURE": "#V73197",
+            "LEX": "TO"
+          },
+          "start": 31,
+          "end": 50
+        },
+        "V73306": {
+          "id": "V73306",
+          "indicator": "F",
+          "type": "SCRUTINY",
+          "word": "WATCH",
+          "roles": {
+            "NEUTRAL": "#V73321",
+            "VFORM": "BASE",
+            "LEX": "WATCH",
+            "WNSENSE": "watch%1:04:00::"
+          },
+          "start": 34,
+          "end": 50
+        },
+        "V73321": {
+          "id": "V73321",
+          "indicator": "THE-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "WHALE",
+          "roles": {
+            "LEX": "WHALES",
+            "WNSENSE": "whale%1:05:00::"
+          },
+          "start": 40,
+          "end": 50
+        },
+        "root": "#V73766"
+      }
+    ]
+  ],
+  "sentence": "All of the passengers came out to watch the whales.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190729T120030",
+    "link": "http://trips.ihmc.us/parser/saved/20190729T120030-STEP-abhatia-none-All_of_the_passengers_came_out_to_watch_.xml",
+    "judgement": -1
+  }
+}

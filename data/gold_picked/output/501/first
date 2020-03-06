@@ -1,0 +1,23 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V313320 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V312711 [label=<<font color="green"><br /></font> <font color="black">WANT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">WANT</font> <font color="green"><br /></font> <font color="green">want%2:37:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::WANT.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V312705 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">PRO-SET</font> <font color="blue">THEY</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V312743 [label=<<font color="green"><br /></font> <font color="black">TELL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">ANNOUNCE</font> <font color="green"><br /></font> <font color="green">announce%2:32:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V312749 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">IT</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V312763 [label=<<font color="green"><br /></font> <font color="black">IN-SCALE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">IN</font> <font color="green"><br /></font> <font color="green">in%4:02:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::IN-SCALE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V312983 [label=<<font color="green"><br /></font> <font color="black">DISTANCE-SCALE</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">WAY</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DISTANCE-SCALE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V312822 [label=<<font color="green"><br /></font> <font color="black">EVOKE-ATTENTION</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">INTEREST</font> <font color="green"><br /></font> <font color="green">interest%2:37:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EVOKE-ATTENTION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V312763 -> V312711 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V313320 -> V312711 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V312743 -> V312705 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V312983 -> V312822 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V312711 -> V312743 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V312743 -> V312749 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V312763 -> V312983 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V312711 -> V312705 [label=" EXPERIENCER   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V312711 -> V312763 [label=" SCALE   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

@@ -1,0 +1,23 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V90821 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V89659 [label=<<font color="green"><br /></font> <font color="black">TELL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">TELL</font> <font color="green"><br /></font> <font color="green">tell%2:32:04::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TELL.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V89653 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HE</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V89669 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">ME</font> <font color="green"><br /></font> <font color="green">person%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V89680 [label=<<font color="green"><br /></font> <font color="black">PURPOSE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">TO</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PURPOSE.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V89701 [label=<<font color="green"><br /></font> <font color="black">UNDERSTAND</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">SEE</font> <font color="green"><br /></font> <font color="green">see%2:31:13::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::UNDERSTAND.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V89717 [label=<<font color="green"><br /></font> <font color="black">OUTSIDE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">OUTSIDE</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::OUTSIDE.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V89963 [label=<<font color="green"><br /></font> <font color="black">ANY-SEM</font> <font color="green"><br /></font> <font color="red">IMPRO</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ANY-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V89659 -> V89680 [label=" REASON   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V89717 -> V89701 [label=" FIGURE   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V89680 -> V89701 [label=" GROUND   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V89659 -> V89653 [label=" AGENT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V89717 -> V89963 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V90821 -> V89659 [label=" CONTENT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V89701 -> V89717 [label=" LOCATION   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V89680 -> V89659 [label=" FIGURE   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V89659 -> V89669 [label=" NEUTRAL   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

@@ -1,0 +1,18 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V118075 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V117761 [label=<<font color="green"><br /></font> <font color="black">HAVE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">HAVE</font> <font color="green"><br /></font> <font color="green">have%2:40:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::HAVE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V117754 [label=<<font color="green"><br /></font> <font color="black">GEOGRAPHIC-REGION</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">BIANCA</font> <font color="green"><br /></font> <font color="green">north_america%1:14:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GEOGRAPHIC-REGION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V117795 [label=<<font color="green"><br /></font> <font color="black">EXTERNAL-BODY-PART</font> <font color="green"><br /></font> <font color="red">BARE</font> <font color="blue">HAIR</font> <font color="green"><br /></font> <font color="green">hair%1:08:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EXTERNAL-BODY-PART.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V117779 [label=<<font color="green"><br /></font> <font color="black">DARK-VAL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">DARK</font> <font color="green"><br /></font> <font color="green">dark%3:00:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DARK-VAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V117786 [label=<<font color="green"><br /></font> <font color="black">BROWN</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BROWN</font> <font color="green"><br /></font> <font color="green">brown%5:00:00:chromatic:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BROWN.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V117761 -> V117754 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V117761 -> V117795 [label=" NEUTRAL1   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V117786 -> V117795 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V117795 -> V117786 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V118075 -> V117761 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V117779 -> V117795 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

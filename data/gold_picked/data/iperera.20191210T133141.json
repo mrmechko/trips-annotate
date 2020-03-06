@@ -1,0 +1,71 @@
+{
+  "parse": [
+    {
+      "V38715": {
+        "id": "V38715",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V38136"
+        },
+        "start": 0,
+        "end": 33
+      },
+      "V38136": {
+        "id": "V38136",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V38117",
+          "FORMAL": "#V38181",
+          "TENSE": "PRES"
+        },
+        "start": 0,
+        "end": 32
+      },
+      "V38117": {
+        "id": "V38117",
+        "indicator": "THE",
+        "type": "BLOCK",
+        "word": "BLOCK",
+        "roles": {},
+        "start": 0,
+        "end": 10
+      },
+      "V38181": {
+        "id": "V38181",
+        "indicator": "F",
+        "type": "FRONT",
+        "word": "IN-FRONT",
+        "roles": {
+          "GROUND": "#V38428",
+          "FIGURE": "#V38117"
+        },
+        "start": 13,
+        "end": 32
+      },
+      "V38428": {
+        "id": "V38428",
+        "indicator": "THE",
+        "type": "ROW-FORMATION",
+        "word": "ROW",
+        "roles": {},
+        "start": 22,
+        "end": 32
+      },
+      "root": "#V38715"
+    }
+  ],
+  "alternatives": [],
+  "sentence": "The block is in front of the row.",
+  "annotation": {
+    "judge": "iperera",
+    "parser": "CABOT",
+    "timestamp": "20191210T133141",
+    "link": "http://trips.ihmc.us/parser/saved/20191210T133141-CABOT-iperera-0-The_block_is_in_front_of_the_row_.xml",
+    "judgement": 0
+  }
+}

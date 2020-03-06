@@ -1,0 +1,28 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V192978 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V192711 [label=<<font color="green"><br /></font> <font color="black">AWAKE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">WAKE</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::AWAKE.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V192645 [label=<<font color="green"><br /></font> <font color="black">SEQUENCE-POSITION</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">FINALLY</font> <font color="green"><br /></font> <font color="green">finally%4:02:02::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SEQUENCE-POSITION.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V192671 [label=<<font color="green"><br /></font> <font color="black">REASON</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">AS</font> <font color="green"><br /></font> <font color="green">as%4:02:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REASON.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V192697 [label=<<font color="green"><br /></font> <font color="black">BODY-MOVEMENT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">AROSE</font> <font color="green"><br /></font> <font color="green">change_posture%2:38:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BODY-MOVEMENT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V192687 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">PRO-SET</font> <font color="blue">THEY</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V192705 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">PRO-SET</font> <font color="blue">THEY</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V192718 [label=<<font color="green"><br /></font> <font color="black">FAMILY-RELATION</font> <font color="green"><br /></font> <font color="red">THE-SET</font> <font color="blue">PARENT</font> <font color="green"><br /></font> <font color="green">parent%1:18:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FAMILY-RELATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V192715 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">THEIR</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V192752 [label=<<font color="green"><br /></font> <font color="black">COMPLETELY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">UP</font> <font color="green"><br /></font> <font color="green">up%4:02:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::COMPLETELY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V192711 -> V192671 [label=" REASON   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V192645 -> V192711 [label=" FIGURE   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V192711 -> V192705 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V192711 -> V192752 [label=" MANNER   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V192671 -> V192711 [label=" FIGURE   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V192711 -> V192645 [label=" MOD   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V192978 -> V192711 [label=" CONTENT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V192697 -> V192687 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V192711 -> V192718 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V192718 -> V192715 [label=" ASSOC-POSS   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V192752 -> V192711 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V192671 -> V192697 [label=" GROUND   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

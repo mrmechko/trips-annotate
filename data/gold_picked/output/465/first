@@ -1,0 +1,13 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V232088 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V231899 [label=<<font color="green"><br /></font> <font color="black">DRINK</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">DRINK</font> <font color="green"><br /></font> <font color="green">drink%2:34:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DRINK.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V231874 [label=<<font color="green"><br /></font> <font color="black">FEMALE-PERSON</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">AMY</font> <font color="green"><br /></font> <font color="green">woman%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FEMALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V231944 [label=<<font color="green"><br /></font> <font color="black">SODA</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">COKE</font> <font color="green"><br /></font> <font color="green">coke%1:13:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SODA.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V231899 -> V231944 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V232088 -> V231899 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V231899 -> V231874 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

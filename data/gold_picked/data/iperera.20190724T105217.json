@@ -1,0 +1,216 @@
+{
+  "parse": [
+    {
+      "V65008": {
+        "id": "V65008",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V63986"
+        },
+        "start": 0,
+        "end": 56
+      },
+      "V63986": {
+        "id": "V63986",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V63978",
+          "FORMAL": "#V64040",
+          "TENSE": "PRES"
+        },
+        "start": 0,
+        "end": 55
+      },
+      "V63978": {
+        "id": "V63978",
+        "indicator": "THE-SET",
+        "type": "COLUMN-FORMATION",
+        "word": "COLUMN",
+        "roles": {
+          "MOD": "#V63974"
+        },
+        "start": 0,
+        "end": 18
+      },
+      "V63974": {
+        "id": "V63974",
+        "indicator": "F",
+        "type": "OTHER",
+        "word": "OTHER",
+        "roles": {
+          "INTENSITY": "HI",
+          "FIGURE": "#V63978",
+          "SCALE": "SIMILARITY-SCALE"
+        },
+        "start": 4,
+        "end": 10
+      },
+      "V64040": {
+        "id": "V64040",
+        "indicator": "F",
+        "type": "MORE-VAL",
+        "word": "TALL",
+        "roles": {
+          "COMPAR": "#V64085",
+          "FIGURE": "#V63978",
+          "SCALE": "HEIGHT-SCALE",
+          "MOD": "#V64020"
+        },
+        "start": 22,
+        "end": 55
+      },
+      "V64020": {
+        "id": "V64020",
+        "indicator": "F",
+        "type": "NEG",
+        "word": "NOT",
+        "roles": {
+          "FIGURE": "#V64040"
+        },
+        "start": 22,
+        "end": 26
+      },
+      "V64085": {
+        "id": "V64085",
+        "indicator": "THE",
+        "type": "COLUMN-FORMATION",
+        "word": "COLUMN",
+        "roles": {
+          "MOD": "#V64060"
+        },
+        "start": 33,
+        "end": 55
+      },
+      "V64060": {
+        "id": "V64060",
+        "indicator": "F",
+        "type": "MIDDLE-LOCATION-VAL",
+        "word": "MIDDLE",
+        "roles": {
+          "FIGURE": "#V64085",
+          "SCALE": "SPATIAL-SCALE"
+        },
+        "start": 42,
+        "end": 49
+      },
+      "root": "#V65008"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V65005": {
+          "id": "V65005",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V63986"
+          },
+          "start": 0,
+          "end": 56
+        },
+        "V63986": {
+          "id": "V63986",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V63978",
+            "FORMAL": "#V64040",
+            "TENSE": "PRES"
+          },
+          "start": 0,
+          "end": 55
+        },
+        "V63978": {
+          "id": "V63978",
+          "indicator": "THE-SET",
+          "type": "COLUMN-FORMATION",
+          "word": "COLUMN",
+          "roles": {
+            "MOD": "#V63974"
+          },
+          "start": 0,
+          "end": 18
+        },
+        "V63974": {
+          "id": "V63974",
+          "indicator": "F",
+          "type": "OTHER",
+          "word": "OTHER",
+          "roles": {
+            "INTENSITY": "HI",
+            "FIGURE": "#V63978",
+            "SCALE": "SIMILARITY-SCALE"
+          },
+          "start": 4,
+          "end": 10
+        },
+        "V64040": {
+          "id": "V64040",
+          "indicator": "F",
+          "type": "MORE-VAL",
+          "word": "TALL",
+          "roles": {
+            "COMPAR": "#V64085",
+            "FIGURE": "#V63978",
+            "SCALE": "HEIGHT-SCALE",
+            "MOD": "#V64020"
+          },
+          "start": 22,
+          "end": 55
+        },
+        "V64020": {
+          "id": "V64020",
+          "indicator": "F",
+          "type": "NEG",
+          "word": "NOT",
+          "roles": {
+            "FIGURE": "#V64040"
+          },
+          "start": 22,
+          "end": 26
+        },
+        "V64085": {
+          "id": "V64085",
+          "indicator": "THE",
+          "type": "COLUMN-FORMATION",
+          "word": "COLUMN",
+          "roles": {
+            "MOD": "#V64058"
+          },
+          "start": 33,
+          "end": 55
+        },
+        "V64058": {
+          "id": "V64058",
+          "indicator": "F",
+          "type": "MIDDLE-LOCATION-VAL",
+          "word": "MIDDLE",
+          "roles": {
+            "FIGURE": "#V64085",
+            "SCALE": "SPATIAL-SCALE"
+          },
+          "start": 42,
+          "end": 49
+        },
+        "root": "#V65005"
+      }
+    ]
+  ],
+  "sentence": "The other columns are not taller than the middle column.",
+  "annotation": {
+    "judge": "iperera",
+    "parser": "CABOT",
+    "timestamp": "20190724T105217",
+    "link": "http://trips.ihmc.us/parser/saved/20190724T105217-CABOT-iperera-0-The_other_columns_are_not_taller_than_th.xml",
+    "judgement": 0
+  }
+}

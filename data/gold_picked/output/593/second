@@ -1,0 +1,28 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V59088 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V58557 [label=<<font color="green"><br /></font> <font color="black">HAVE-PROPERTY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BE</font> <font color="green"><br /></font> <font color="green">be%2:42:03::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::HAVE-PROPERTY.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V58545 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">JACK</font> <font color="green"><br /></font> <font color="green">jack%1:18:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V58571 [label=<<font color="green"><br /></font> <font color="black">EXCITED</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">EXCITED</font> <font color="green"><br /></font> <font color="green">excited%5:00:00:wild:02</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EXCITED.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V58579 [label=<<font color="green"><br /></font> <font color="black">REASON</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BECAUSE</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REASON.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V58593 [label=<<font color="green"><br /></font> <font color="black">HAVE-PROPERTY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BE</font> <font color="green"><br /></font> <font color="green">be%2:42:03::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::HAVE-PROPERTY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V58586 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HE</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V58606 [label=<<font color="green"><br /></font> <font color="black">ABLE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">ABLE</font> <font color="green"><br /></font> <font color="green">able%5:00:00:competent:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ABLE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V58635 [label=<<font color="green"><br /></font> <font color="black">SELECT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">CHOOSE</font> <font color="green"><br /></font> <font color="green">choose%2:31:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SELECT.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V58652 [label=<<font color="green"><br /></font> <font color="black">MATERIAL</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">FILM</font> <font color="green"><br /></font> <font color="green">film%1:06:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MATERIAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V58579 -> V58557 [label=" FIGURE   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V58579 -> V58593 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V58593 -> V58606 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V58557 -> V58579 [label=" REASON   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V58557 -> V58571 [label=" FORMAL   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V58606 -> V58586 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V58606 -> V58635 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V58635 -> V58652 [label=" NEUTRAL   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V59088 -> V58557 [label=" CONTENT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V58557 -> V58545 [label=" NEUTRAL   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V58593 -> V58586 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V58571 -> V58545 [label=" FIGURE   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

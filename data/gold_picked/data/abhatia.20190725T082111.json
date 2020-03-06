@@ -1,0 +1,550 @@
+{
+  "parse": [
+    {
+      "V381327": {
+        "id": "V381327",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V379321",
+          "LEX": "WENT"
+        },
+        "start": 0,
+        "end": 45
+      },
+      "V379321": {
+        "id": "V379321",
+        "indicator": "F",
+        "type": "MOVE",
+        "word": "GO",
+        "roles": {
+          "RESULT": "#V379339",
+          "AGENT": "#V379292",
+          "TENSE": "PAST",
+          "LEX": "WENT",
+          "WNSENSE": "go%2:38:00::"
+        },
+        "start": 0,
+        "end": 45
+      },
+      "V379292": {
+        "id": "V379292",
+        "indicator": "A",
+        "type": "FAMILY-RELATION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V379287",
+          "SEQUENCE1": "#V379301",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V379301": {
+        "id": "V379301",
+        "indicator": "INDEF-SET",
+        "type": "FAMILY-RELATION",
+        "word": "WIFE",
+        "roles": {
+          "LEX": "WIFE",
+          "WNSENSE": "relative%1:18:00"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V379287": {
+        "id": "V379287",
+        "indicator": "INDEF-SET",
+        "type": "FAMILY-RELATION",
+        "word": "HUSBAND",
+        "roles": {
+          "LEX": "HUSBAND",
+          "WNSENSE": "husband%1:18:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V379339": {
+        "id": "V379339",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V379360",
+          "FIGURE": "#V379321",
+          "LEX": "ON"
+        },
+        "start": 24,
+        "end": 36
+      },
+      "V379360": {
+        "id": "V379360",
+        "indicator": "BARE",
+        "type": "VACATION",
+        "word": "VACATION",
+        "roles": {
+          "LEX": "VACATION"
+        },
+        "start": 27,
+        "end": 36
+      },
+      "V379366": {
+        "id": "V379366",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V379395",
+          "FIGURE": "#V379292",
+          "LEX": "TO"
+        },
+        "start": 36,
+        "end": 45
+      },
+      "V379395": {
+        "id": "V379395",
+        "indicator": "THE",
+        "type": "GEOGRAPHIC-REGION",
+        "word": "HAWAII",
+        "roles": {
+          "NAME-OF": "HAWAII",
+          "LEX": "HAWAII",
+          "WNSENSE": "north_america%1:14:00"
+        },
+        "start": 39,
+        "end": 45
+      },
+      "root": "#V381327"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V381361": {
+          "id": "V381361",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V379321",
+            "LEX": "WENT"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V379321": {
+          "id": "V379321",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V379339",
+            "AGENT": "#V379292",
+            "TENSE": "PAST",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 0,
+          "end": 45
+        },
+        "V379292": {
+          "id": "V379292",
+          "indicator": "INDEF-SET",
+          "type": "FAMILY-RELATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V379287",
+            "SEQUENCE1": "#V379301",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V379301": {
+          "id": "V379301",
+          "indicator": "INDEF-SET",
+          "type": "FAMILY-RELATION",
+          "word": "WIFE",
+          "roles": {
+            "LEX": "WIFE",
+            "WNSENSE": "relative%1:18:00"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V379287": {
+          "id": "V379287",
+          "indicator": "INDEF-SET",
+          "type": "FAMILY-RELATION",
+          "word": "HUSBAND",
+          "roles": {
+            "ASSOC-WITH": "#V379262",
+            "LEX": "HUSBAND",
+            "WNSENSE": "husband%1:18:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V379262": {
+          "id": "V379262",
+          "indicator": "THE",
+          "type": "LETTER-SYMBOL",
+          "word": null,
+          "roles": {
+            "NAME-OF": "A",
+            "LEX": "A",
+            "WNSENSE": "a%1:10:00::"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V379339": {
+          "id": "V379339",
+          "indicator": "F",
+          "type": "ON",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V379360",
+            "FIGURE": "#V379321",
+            "LEX": "ON"
+          },
+          "start": 24,
+          "end": 36
+        },
+        "V379360": {
+          "id": "V379360",
+          "indicator": "BARE",
+          "type": "VACATION",
+          "word": "VACATION",
+          "roles": {
+            "LEX": "VACATION"
+          },
+          "start": 27,
+          "end": 36
+        },
+        "V379366": {
+          "id": "V379366",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V379395",
+            "FIGURE": "#V379292",
+            "LEX": "TO"
+          },
+          "start": 36,
+          "end": 45
+        },
+        "V379395": {
+          "id": "V379395",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "HAWAII",
+          "roles": {
+            "NAME-OF": "HAWAII",
+            "LEX": "HAWAII",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 39,
+          "end": 45
+        },
+        "root": "#V381361"
+      }
+    ],
+    [
+      {
+        "V381364": {
+          "id": "V381364",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V379321",
+            "LEX": "WENT"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V379321": {
+          "id": "V379321",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V379339",
+            "AGENT": "#V379292",
+            "TENSE": "PAST",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 0,
+          "end": 45
+        },
+        "V379292": {
+          "id": "V379292",
+          "indicator": "INDEF-SET",
+          "type": "FAMILY-RELATION",
+          "word": null,
+          "roles": {
+            "ASSOC-WITH": "#V379262",
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V379287",
+            "SEQUENCE1": "#V379301",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V379301": {
+          "id": "V379301",
+          "indicator": "INDEF-SET",
+          "type": "FAMILY-RELATION",
+          "word": "WIFE",
+          "roles": {
+            "LEX": "WIFE",
+            "WNSENSE": "relative%1:18:00"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V379287": {
+          "id": "V379287",
+          "indicator": "INDEF-SET",
+          "type": "FAMILY-RELATION",
+          "word": "HUSBAND",
+          "roles": {
+            "LEX": "HUSBAND",
+            "WNSENSE": "husband%1:18:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V379262": {
+          "id": "V379262",
+          "indicator": "THE",
+          "type": "LETTER-SYMBOL",
+          "word": null,
+          "roles": {
+            "NAME-OF": "A",
+            "LEX": "A",
+            "WNSENSE": "a%1:10:00::"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V379339": {
+          "id": "V379339",
+          "indicator": "F",
+          "type": "ON",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V379360",
+            "FIGURE": "#V379321",
+            "LEX": "ON"
+          },
+          "start": 24,
+          "end": 36
+        },
+        "V379360": {
+          "id": "V379360",
+          "indicator": "BARE",
+          "type": "VACATION",
+          "word": "VACATION",
+          "roles": {
+            "LEX": "VACATION"
+          },
+          "start": 27,
+          "end": 36
+        },
+        "V379366": {
+          "id": "V379366",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V379395",
+            "FIGURE": "#V379292",
+            "LEX": "TO"
+          },
+          "start": 36,
+          "end": 45
+        },
+        "V379395": {
+          "id": "V379395",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "HAWAII",
+          "roles": {
+            "NAME-OF": "HAWAII",
+            "LEX": "HAWAII",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 39,
+          "end": 45
+        },
+        "root": "#V381364"
+      }
+    ],
+    [
+      {
+        "V381371": {
+          "id": "V381371",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V379321",
+            "LEX": "WENT"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V379321": {
+          "id": "V379321",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V379339",
+            "AGENT": "#V379292",
+            "TENSE": "PAST",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 0,
+          "end": 45
+        },
+        "V379292": {
+          "id": "V379292",
+          "indicator": "INDEF-SET",
+          "type": "FAMILY-RELATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V379287",
+            "SEQUENCE1": "#V379301",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V379301": {
+          "id": "V379301",
+          "indicator": "INDEF-SET",
+          "type": "FAMILY-RELATION",
+          "word": "WIFE",
+          "roles": {
+            "LEX": "WIFE",
+            "WNSENSE": "relative%1:18:00"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V379287": {
+          "id": "V379287",
+          "indicator": "INDEF-SET",
+          "type": "FAMILY-RELATION",
+          "word": "HUSBAND",
+          "roles": {
+            "ASSOC-WITH": "#V379818",
+            "LEX": "HUSBAND",
+            "WNSENSE": "husband%1:18:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V379818": {
+          "id": "V379818",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V379748",
+            "LEX": "A"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V379748": {
+          "id": "V379748",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(A)",
+            "VAL": "(A)",
+            "LEX": "A"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V379339": {
+          "id": "V379339",
+          "indicator": "F",
+          "type": "ON",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V379360",
+            "FIGURE": "#V379321",
+            "LEX": "ON"
+          },
+          "start": 24,
+          "end": 36
+        },
+        "V379360": {
+          "id": "V379360",
+          "indicator": "BARE",
+          "type": "VACATION",
+          "word": "VACATION",
+          "roles": {
+            "LEX": "VACATION"
+          },
+          "start": 27,
+          "end": 36
+        },
+        "V379366": {
+          "id": "V379366",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V379395",
+            "FIGURE": "#V379292",
+            "LEX": "TO"
+          },
+          "start": 36,
+          "end": 45
+        },
+        "V379395": {
+          "id": "V379395",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "HAWAII",
+          "roles": {
+            "NAME-OF": "HAWAII",
+            "LEX": "HAWAII",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 39,
+          "end": 45
+        },
+        "root": "#V381371"
+      }
+    ]
+  ],
+  "sentence": "A husband and wife went on vacation to Hawaii.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190725T082111",
+    "link": "http://trips.ihmc.us/parser/saved/20190725T082111-STEP-abhatia-none-A_husband_and_wife_went_on_vacation_to_H.xml",
+    "judgement": -1
+  }
+}

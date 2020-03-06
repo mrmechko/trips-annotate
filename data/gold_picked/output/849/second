@@ -1,0 +1,32 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V63302 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V61484 [label=<<font color="green"><br /></font> <font color="black">PROPEL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">DRIVE</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PROPEL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V61464 [label=<<font color="green"><br /></font> <font color="black">CHOICE-OPTION</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">INSTEAD-OF</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::CHOICE-OPTION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V61764 [label=<<font color="green"><br /></font> <font color="black">ANY-SEM</font> <font color="green"><br /></font> <font color="red">IMPRO</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ANY-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V61477 [label=<<font color="green"><br /></font> <font color="black">FAMILY-RELATION</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">MOM</font> <font color="green"><br /></font> <font color="green">mom%1:18:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FAMILY-RELATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V61471 [label=<<font color="green"><br /></font> <font color="black">FEMALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HER</font> <font color="green"><br /></font> <font color="green">woman%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FEMALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V61495 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">PRO-SET</font> <font color="blue">THEM</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V61500 [label=<<font color="green"><br /></font> <font color="black">AROUND</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">AROUND</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::AROUND.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V61509 [label=<<font color="green"><br /></font> <font color="black">DISTRICT</font> <font color="green"><br /></font> <font color="red">BARE</font> <font color="blue">TOWN</font> <font color="green"><br /></font> <font color="green">town%1:15:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DISTRICT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V61513 [label=<<font color="green"><br /></font> <font color="black">UNTIL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">UNTIL</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::UNTIL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V61561 [label=<<font color="green"><br /></font> <font color="black">PASS-BY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">PASS</font> <font color="green"><br /></font> <font color="green">pass%2:38:05::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PASS-BY.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V61542 [label=<<font color="green"><br /></font> <font color="black">DURATION-SCALE</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">TIME</font> <font color="green"><br /></font> <font color="green">time%1:03:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DURATION-SCALE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V61477 -> V61471 [label=" ASSOC-POSS   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V61484 -> V61477 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V61500 -> V61509 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V61464 -> V61484 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V61513 -> V61484 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V61464 -> V61764 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V61484 -> V61500 [label=" RESULT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V61500 -> V61484 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V61484 -> V61513 [label=" TIME   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V61484 -> V61464 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V61561 -> V61542 [label=" AGENT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V61484 -> V61495 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V61513 -> V61561 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V63302 -> V61484 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

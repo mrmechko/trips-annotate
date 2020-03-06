@@ -1,0 +1,17 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V60075 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V59876 [label=<<font color="green"><br /></font> <font color="black">SOW-SEED</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">PLANT</font> <font color="green"><br /></font> <font color="green">plant%2:35:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SOW-SEED.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V59861 [label=<<font color="green"><br /></font> <font color="black">FAMILY-RELATION</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FAMILY-RELATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V59856 [label=<<font color="green"><br /></font> <font color="black">FAMILY-RELATION</font> <font color="green"><br /></font> <font color="red">BARE</font> <font color="blue">MOM</font> <font color="green"><br /></font> <font color="green">mom%1:18:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FAMILY-RELATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V59871 [label=<<font color="green"><br /></font> <font color="black">FAMILY-RELATION</font> <font color="green"><br /></font> <font color="red">BARE</font> <font color="blue">DAD</font> <font color="green"><br /></font> <font color="green">dad%1:18:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FAMILY-RELATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V59882 [label=<<font color="green"><br /></font> <font color="black">GEO-OBJECT</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">BUSHES</font> <font color="green"><br /></font> <font color="green">location%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GEO-OBJECT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V60075 -> V59876 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V59861 -> V59856 [label=" SEQUENCE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V59876 -> V59861 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V59861 -> V59871 [label=" SEQUENCE1   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V59876 -> V59882 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

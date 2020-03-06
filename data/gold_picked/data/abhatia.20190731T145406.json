@@ -1,0 +1,521 @@
+{
+  "parse": [
+    {
+      "V265009": {
+        "id": "V265009",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V264539",
+          "LEX": "DUMPED"
+        },
+        "start": 0,
+        "end": 50
+      },
+      "V264539": {
+        "id": "V264539",
+        "indicator": "F",
+        "type": "PUT",
+        "word": "DUMP",
+        "roles": {
+          "AGENT": "#V264533",
+          "AFFECTED": "#V264548",
+          "TIME": "#V264552",
+          "TENSE": "PAST",
+          "LEX": "DUMPED",
+          "WNSENSE": "put%2:35:00"
+        },
+        "start": 0,
+        "end": 50
+      },
+      "V264533": {
+        "id": "V264533",
+        "indicator": "THE",
+        "type": "GEOGRAPHIC-REGION",
+        "word": "HANNAH",
+        "roles": {
+          "NAME-OF": "HANNAH",
+          "LEX": "HANNAH",
+          "WNSENSE": "north_america%1:14:00"
+        },
+        "start": 0,
+        "end": 7
+      },
+      "V264548": {
+        "id": "V264548",
+        "indicator": "THE",
+        "type": "FRIEND",
+        "word": "BOYFRIEND",
+        "roles": {
+          "ASSOC-POSS": "#V264543",
+          "LEX": "BOYFRIEND",
+          "WNSENSE": "friend%1:18:00"
+        },
+        "start": 14,
+        "end": 28
+      },
+      "V264543": {
+        "id": "V264543",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "HER",
+        "roles": {
+          "LEX": "HER",
+          "PROFORM": "HER",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 14,
+        "end": 28
+      },
+      "V264552": {
+        "id": "V264552",
+        "indicator": "F",
+        "type": "BEFORE",
+        "word": "BEFORE",
+        "roles": {
+          "GROUND": "#V264578",
+          "FIGURE": "#V264539",
+          "LEX": "BEFORE",
+          "WNSENSE": "before%4:02:03::"
+        },
+        "start": 28,
+        "end": 50
+      },
+      "V264578": {
+        "id": "V264578",
+        "indicator": "F",
+        "type": "DEPART",
+        "word": "LEAVE",
+        "roles": {
+          "AGENT": "#V264562",
+          "NEUTRAL": "#V264596",
+          "TENSE": "PAST",
+          "LEX": "LEFT",
+          "WNSENSE": "leave%2:38:01::"
+        },
+        "start": 35,
+        "end": 50
+      },
+      "V264562": {
+        "id": "V264562",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "SHE",
+        "roles": {
+          "PROFORM": "SHE",
+          "LEX": "SHE",
+          "WNSENSE": "woman%1:18:00",
+          "COREF": "#V264548"
+        },
+        "start": 35,
+        "end": 39
+      },
+      "V264596": {
+        "id": "V264596",
+        "indicator": "BARE",
+        "type": "ACADEMIC-INSTITUTION",
+        "word": "SCHOOL",
+        "roles": {
+          "LEX": "SCHOOL",
+          "WNSENSE": "school%1:14:00::"
+        },
+        "start": 44,
+        "end": 50
+      },
+      "root": "#V265009"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V265006": {
+          "id": "V265006",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V264539",
+            "LEX": "DUMPED"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V264539": {
+          "id": "V264539",
+          "indicator": "F",
+          "type": "PUT",
+          "word": "DUMP",
+          "roles": {
+            "AGENT": "#V264530",
+            "AFFECTED": "#V264548",
+            "TIME": "#V264552",
+            "TENSE": "PAST",
+            "LEX": "DUMPED",
+            "WNSENSE": "put%2:35:00"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V264530": {
+          "id": "V264530",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "HANNAH",
+          "roles": {
+            "NAME-OF": "HANNAH",
+            "LEX": "HANNAH",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V264548": {
+          "id": "V264548",
+          "indicator": "THE",
+          "type": "FRIEND",
+          "word": "BOYFRIEND",
+          "roles": {
+            "ASSOC-POSS": "#V264543",
+            "LEX": "BOYFRIEND",
+            "WNSENSE": "friend%1:18:00"
+          },
+          "start": 14,
+          "end": 28
+        },
+        "V264543": {
+          "id": "V264543",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 14,
+          "end": 28
+        },
+        "V264552": {
+          "id": "V264552",
+          "indicator": "F",
+          "type": "BEFORE",
+          "word": "BEFORE",
+          "roles": {
+            "GROUND": "#V264578",
+            "FIGURE": "#V264539",
+            "LEX": "BEFORE",
+            "WNSENSE": "before%4:02:03::"
+          },
+          "start": 28,
+          "end": 50
+        },
+        "V264578": {
+          "id": "V264578",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V264562",
+            "NEUTRAL": "#V264596",
+            "TENSE": "PAST",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:38:01::"
+          },
+          "start": 35,
+          "end": 50
+        },
+        "V264562": {
+          "id": "V264562",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "V264596": {
+          "id": "V264596",
+          "indicator": "BARE",
+          "type": "ACADEMIC-INSTITUTION",
+          "word": "SCHOOL",
+          "roles": {
+            "LEX": "SCHOOL",
+            "WNSENSE": "school%1:14:00::"
+          },
+          "start": 44,
+          "end": 50
+        },
+        "root": "#V265006"
+      }
+    ],
+    [
+      {
+        "V264997": {
+          "id": "V264997",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V264539",
+            "LEX": "DUMPED"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V264539": {
+          "id": "V264539",
+          "indicator": "F",
+          "type": "PUT",
+          "word": "DUMP",
+          "roles": {
+            "AGENT": "#V264533",
+            "AFFECTED": "#V264548",
+            "TIME": "#V264552",
+            "TENSE": "PAST",
+            "LEX": "DUMPED",
+            "WNSENSE": "put%2:35:00"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V264533": {
+          "id": "V264533",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "HANNAH",
+          "roles": {
+            "NAME-OF": "HANNAH",
+            "LEX": "HANNAH",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V264548": {
+          "id": "V264548",
+          "indicator": "THE",
+          "type": "FRIEND",
+          "word": "BOYFRIEND",
+          "roles": {
+            "ASSOC-POSS": "#V264543",
+            "LEX": "BOYFRIEND",
+            "WNSENSE": "friend%1:18:00"
+          },
+          "start": 14,
+          "end": 28
+        },
+        "V264543": {
+          "id": "V264543",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 14,
+          "end": 28
+        },
+        "V264552": {
+          "id": "V264552",
+          "indicator": "F",
+          "type": "BEFORE",
+          "word": "BEFORE",
+          "roles": {
+            "GROUND": "#V264580",
+            "FIGURE": "#V264539",
+            "LEX": "BEFORE",
+            "WNSENSE": "before%4:02:03::"
+          },
+          "start": 28,
+          "end": 50
+        },
+        "V264580": {
+          "id": "V264580",
+          "indicator": "F",
+          "type": "LEAVE-BEHIND",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V264562",
+            "AFFECTED": "#V264596",
+            "TENSE": "PAST",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:31:05::"
+          },
+          "start": 35,
+          "end": 50
+        },
+        "V264562": {
+          "id": "V264562",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "V264596": {
+          "id": "V264596",
+          "indicator": "BARE",
+          "type": "ACADEMIC-INSTITUTION",
+          "word": "SCHOOL",
+          "roles": {
+            "LEX": "SCHOOL",
+            "WNSENSE": "school%1:14:00::"
+          },
+          "start": 44,
+          "end": 50
+        },
+        "root": "#V264997"
+      }
+    ],
+    [
+      {
+        "V264994": {
+          "id": "V264994",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V264539",
+            "LEX": "DUMPED"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V264539": {
+          "id": "V264539",
+          "indicator": "F",
+          "type": "PUT",
+          "word": "DUMP",
+          "roles": {
+            "AGENT": "#V264530",
+            "AFFECTED": "#V264548",
+            "TIME": "#V264552",
+            "TENSE": "PAST",
+            "LEX": "DUMPED",
+            "WNSENSE": "put%2:35:00"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V264530": {
+          "id": "V264530",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "HANNAH",
+          "roles": {
+            "NAME-OF": "HANNAH",
+            "LEX": "HANNAH",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V264548": {
+          "id": "V264548",
+          "indicator": "THE",
+          "type": "FRIEND",
+          "word": "BOYFRIEND",
+          "roles": {
+            "ASSOC-POSS": "#V264543",
+            "LEX": "BOYFRIEND",
+            "WNSENSE": "friend%1:18:00"
+          },
+          "start": 14,
+          "end": 28
+        },
+        "V264543": {
+          "id": "V264543",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 14,
+          "end": 28
+        },
+        "V264552": {
+          "id": "V264552",
+          "indicator": "F",
+          "type": "BEFORE",
+          "word": "BEFORE",
+          "roles": {
+            "GROUND": "#V264580",
+            "FIGURE": "#V264539",
+            "LEX": "BEFORE",
+            "WNSENSE": "before%4:02:03::"
+          },
+          "start": 28,
+          "end": 50
+        },
+        "V264580": {
+          "id": "V264580",
+          "indicator": "F",
+          "type": "LEAVE-BEHIND",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V264562",
+            "AFFECTED": "#V264596",
+            "TENSE": "PAST",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:31:05::"
+          },
+          "start": 35,
+          "end": 50
+        },
+        "V264562": {
+          "id": "V264562",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "V264596": {
+          "id": "V264596",
+          "indicator": "BARE",
+          "type": "ACADEMIC-INSTITUTION",
+          "word": "SCHOOL",
+          "roles": {
+            "LEX": "SCHOOL",
+            "WNSENSE": "school%1:14:00::"
+          },
+          "start": 44,
+          "end": 50
+        },
+        "root": "#V264994"
+      }
+    ]
+  ],
+  "sentence": "Hannah dumped her boyfriend before she left school.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190731T145406",
+    "link": "http://trips.ihmc.us/parser/saved/20190731T145406-STEP-abhatia-1-Hannah_dumped_her_boyfriend_before_she_l.xml",
+    "judgement": 1
+  }
+}

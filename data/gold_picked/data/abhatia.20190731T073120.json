@@ -1,0 +1,665 @@
+{
+  "parse": [
+    {
+      "V198219": {
+        "id": "V198219",
+        "indicator": "SA-SEQ",
+        "type": "SA-SEQ",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "ACT": "#V198215",
+          "ACT1": "#V200179",
+          "LEX": "RAN"
+        },
+        "start": 0,
+        "end": 66
+      },
+      "V198215": {
+        "id": "V198215",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V196194",
+          "LEX": "RAN"
+        },
+        "start": 0,
+        "end": 47
+      },
+      "V196194": {
+        "id": "V196194",
+        "indicator": "F",
+        "type": "MOVE-RAPIDLY",
+        "word": "RUN",
+        "roles": {
+          "AGENT": "#V196189",
+          "TIME": "#V196097",
+          "RESULT": "#V196204",
+          "TENSE": "PAST",
+          "LEX": "RAN"
+        },
+        "start": 0,
+        "end": 47
+      },
+      "V196097": {
+        "id": "V196097",
+        "indicator": "F",
+        "type": "AFTER",
+        "word": "AFTER",
+        "roles": {
+          "GROUND": "#V196149",
+          "FIGURE": "#V196194",
+          "LEX": "AFTER",
+          "WNSENSE": "after%4:02:01::"
+        },
+        "start": 0,
+        "end": 25
+      },
+      "V196149": {
+        "id": "V196149",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "TAKE",
+        "roles": {
+          "AFFECTED-RESULT": "#V196111",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "TAKEN",
+          "WNSENSE": "make%2:36:00"
+        },
+        "start": 6,
+        "end": 25
+      },
+      "V196111": {
+        "id": "V196111",
+        "indicator": "THE",
+        "type": "MONEY",
+        "word": "MONEY",
+        "roles": {
+          "LEX": "MONEY",
+          "WNSENSE": "change%1:21:03"
+        },
+        "start": 6,
+        "end": 16
+      },
+      "V196189": {
+        "id": "V196189",
+        "indicator": "THE-SET",
+        "type": "PERSON",
+        "word": "ROBBERS",
+        "roles": {
+          "LEX": "ROBBERS",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 27,
+        "end": 39
+      },
+      "V196204": {
+        "id": "V196204",
+        "indicator": "F",
+        "type": "DIRECTION",
+        "word": "OFF",
+        "roles": {
+          "FIGURE": "#V196194",
+          "LEX": "OFF",
+          "WNSENSE": "direction%1:15:00"
+        },
+        "start": 43,
+        "end": 47
+      },
+      "V200179": {
+        "id": "V200179",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V196255",
+          "LEX": "LEFT"
+        },
+        "start": 51,
+        "end": 66
+      },
+      "V196255": {
+        "id": "V196255",
+        "indicator": "F",
+        "type": "DEPART",
+        "word": "LEAVE",
+        "roles": {
+          "AGENT": "#V200155",
+          "TENSE": "PAST",
+          "LEX": "LEFT",
+          "WNSENSE": "leave%2:38:01::"
+        },
+        "start": 51,
+        "end": 66
+      },
+      "V200155": {
+        "id": "V200155",
+        "indicator": "THE-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V196237",
+          "LEX": "COUPLE",
+          "COREF": "#V196189"
+        },
+        "start": 51,
+        "end": 62
+      },
+      "V196237": {
+        "id": "V196237",
+        "indicator": "THE",
+        "type": "QUANTITY",
+        "word": null,
+        "roles": {
+          "UNIT": "(:* QUANTITY COUPLE)",
+          "LEX": "COUPLE",
+          "WNSENSE": "couple%1:23:01::"
+        },
+        "start": 51,
+        "end": 62
+      },
+      "root": "#V198219"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V198227": {
+          "id": "V198227",
+          "indicator": "SA-SEQ",
+          "type": "SA-SEQ",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V198223",
+            "ACT1": "#V200179",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 67
+        },
+        "V198223": {
+          "id": "V198223",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V196194",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V196194": {
+          "id": "V196194",
+          "indicator": "F",
+          "type": "MOVE-RAPIDLY",
+          "word": "RUN",
+          "roles": {
+            "AGENT": "#V196189",
+            "TIME": "#V196097",
+            "RESULT": "#V196204",
+            "TENSE": "PAST",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V196097": {
+          "id": "V196097",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "AFTER",
+          "roles": {
+            "GROUND": "#V196150",
+            "FIGURE": "#V196194",
+            "LEX": "AFTER",
+            "WNSENSE": "after%4:02:01::"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V196150": {
+          "id": "V196150",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "TAKE",
+          "roles": {
+            "AFFECTED": "#V196111",
+            "TENSE": "PAST",
+            "PASSIVE": "+",
+            "LEX": "TAKEN",
+            "WNSENSE": "take%2:30:01::"
+          },
+          "start": 6,
+          "end": 25
+        },
+        "V196111": {
+          "id": "V196111",
+          "indicator": "THE",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "LEX": "MONEY",
+            "WNSENSE": "change%1:21:03"
+          },
+          "start": 6,
+          "end": 16
+        },
+        "V196189": {
+          "id": "V196189",
+          "indicator": "THE-SET",
+          "type": "PERSON",
+          "word": "ROBBERS",
+          "roles": {
+            "LEX": "ROBBERS",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 27,
+          "end": 39
+        },
+        "V196204": {
+          "id": "V196204",
+          "indicator": "F",
+          "type": "DIRECTION",
+          "word": "OFF",
+          "roles": {
+            "FIGURE": "#V196194",
+            "LEX": "OFF",
+            "WNSENSE": "direction%1:15:00"
+          },
+          "start": 43,
+          "end": 47
+        },
+        "V200179": {
+          "id": "V200179",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V196255",
+            "LEX": "LEFT"
+          },
+          "start": 51,
+          "end": 66
+        },
+        "V196255": {
+          "id": "V196255",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V200155",
+            "TENSE": "PAST",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:38:01::"
+          },
+          "start": 51,
+          "end": 66
+        },
+        "V200155": {
+          "id": "V200155",
+          "indicator": "THE-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V196237",
+            "LEX": "COUPLE"
+          },
+          "start": 51,
+          "end": 62
+        },
+        "V196237": {
+          "id": "V196237",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* QUANTITY COUPLE)",
+            "LEX": "COUPLE",
+            "WNSENSE": "couple%1:23:01::"
+          },
+          "start": 51,
+          "end": 62
+        },
+        "root": "#V198227"
+      }
+    ],
+    [
+      {
+        "V198235": {
+          "id": "V198235",
+          "indicator": "SA-SEQ",
+          "type": "SA-SEQ",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V198231",
+            "ACT1": "#V200179",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 67
+        },
+        "V198231": {
+          "id": "V198231",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V196194",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V196194": {
+          "id": "V196194",
+          "indicator": "F",
+          "type": "MOVE-RAPIDLY",
+          "word": "RUN",
+          "roles": {
+            "AGENT": "#V196189",
+            "TIME": "#V196097",
+            "RESULT": "#V196204",
+            "TENSE": "PAST",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V196097": {
+          "id": "V196097",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "AFTER",
+          "roles": {
+            "GROUND": "#V196151",
+            "FIGURE": "#V196194",
+            "LEX": "AFTER",
+            "WNSENSE": "after%4:02:01::"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V196151": {
+          "id": "V196151",
+          "indicator": "F",
+          "type": "CAUSE-MOVE",
+          "word": "TAKE",
+          "roles": {
+            "AFFECTED": "#V196111",
+            "TENSE": "PAST",
+            "PASSIVE": "+",
+            "LEX": "TAKEN",
+            "WNSENSE": "take%2:38:05::"
+          },
+          "start": 6,
+          "end": 25
+        },
+        "V196111": {
+          "id": "V196111",
+          "indicator": "THE",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "LEX": "MONEY",
+            "WNSENSE": "change%1:21:03"
+          },
+          "start": 6,
+          "end": 16
+        },
+        "V196189": {
+          "id": "V196189",
+          "indicator": "THE-SET",
+          "type": "PERSON",
+          "word": "ROBBERS",
+          "roles": {
+            "LEX": "ROBBERS",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 27,
+          "end": 39
+        },
+        "V196204": {
+          "id": "V196204",
+          "indicator": "F",
+          "type": "DIRECTION",
+          "word": "OFF",
+          "roles": {
+            "FIGURE": "#V196194",
+            "LEX": "OFF",
+            "WNSENSE": "direction%1:15:00"
+          },
+          "start": 43,
+          "end": 47
+        },
+        "V200179": {
+          "id": "V200179",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V196255",
+            "LEX": "LEFT"
+          },
+          "start": 51,
+          "end": 66
+        },
+        "V196255": {
+          "id": "V196255",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V200155",
+            "TENSE": "PAST",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:38:01::"
+          },
+          "start": 51,
+          "end": 66
+        },
+        "V200155": {
+          "id": "V200155",
+          "indicator": "THE-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V196237",
+            "LEX": "COUPLE"
+          },
+          "start": 51,
+          "end": 62
+        },
+        "V196237": {
+          "id": "V196237",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* QUANTITY COUPLE)",
+            "LEX": "COUPLE",
+            "WNSENSE": "couple%1:23:01::"
+          },
+          "start": 51,
+          "end": 62
+        },
+        "root": "#V198235"
+      }
+    ],
+    [
+      {
+        "V198243": {
+          "id": "V198243",
+          "indicator": "SA-SEQ",
+          "type": "SA-SEQ",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V198239",
+            "ACT1": "#V200179",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 67
+        },
+        "V198239": {
+          "id": "V198239",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V196194",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V196194": {
+          "id": "V196194",
+          "indicator": "F",
+          "type": "MOVE-RAPIDLY",
+          "word": "RUN",
+          "roles": {
+            "AGENT": "#V196189",
+            "TIME": "#V196097",
+            "RESULT": "#V196204",
+            "TENSE": "PAST",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V196097": {
+          "id": "V196097",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "AFTER",
+          "roles": {
+            "GROUND": "#V196152",
+            "FIGURE": "#V196194",
+            "LEX": "AFTER",
+            "WNSENSE": "after%4:02:01::"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V196152": {
+          "id": "V196152",
+          "indicator": "F",
+          "type": "IS-COMPATIBLE-WITH",
+          "word": "TAKE",
+          "roles": {
+            "NEUTRAL1": "#V196111",
+            "TENSE": "PAST",
+            "PASSIVE": "+",
+            "LEX": "TAKEN",
+            "WNSENSE": "take%2:42:03::"
+          },
+          "start": 6,
+          "end": 25
+        },
+        "V196111": {
+          "id": "V196111",
+          "indicator": "THE",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "LEX": "MONEY",
+            "WNSENSE": "change%1:21:03"
+          },
+          "start": 6,
+          "end": 16
+        },
+        "V196189": {
+          "id": "V196189",
+          "indicator": "THE-SET",
+          "type": "PERSON",
+          "word": "ROBBERS",
+          "roles": {
+            "LEX": "ROBBERS",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 27,
+          "end": 39
+        },
+        "V196204": {
+          "id": "V196204",
+          "indicator": "F",
+          "type": "DIRECTION",
+          "word": "OFF",
+          "roles": {
+            "FIGURE": "#V196194",
+            "LEX": "OFF",
+            "WNSENSE": "direction%1:15:00"
+          },
+          "start": 43,
+          "end": 47
+        },
+        "V200179": {
+          "id": "V200179",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V196255",
+            "LEX": "LEFT"
+          },
+          "start": 51,
+          "end": 66
+        },
+        "V196255": {
+          "id": "V196255",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V200155",
+            "TENSE": "PAST",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:38:01::"
+          },
+          "start": 51,
+          "end": 66
+        },
+        "V200155": {
+          "id": "V200155",
+          "indicator": "THE-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V196237",
+            "LEX": "COUPLE"
+          },
+          "start": 51,
+          "end": 62
+        },
+        "V196237": {
+          "id": "V196237",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* QUANTITY COUPLE)",
+            "LEX": "COUPLE",
+            "WNSENSE": "couple%1:23:01::"
+          },
+          "start": 51,
+          "end": 62
+        },
+        "root": "#V198243"
+      }
+    ]
+  ],
+  "sentence": "After the money was taken, the robbers ran off and the couple left.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190731T073120",
+    "link": "http://trips.ihmc.us/parser/saved/20190731T073120-STEP-abhatia-none-After_the_money_was_taken_the_robbers_ra.xml",
+    "judgement": -1
+  }
+}

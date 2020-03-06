@@ -1,0 +1,608 @@
+{
+  "parse": [
+    {
+      "V37194": {
+        "id": "V37194",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V36473",
+          "LEX": "SNOWING"
+        },
+        "start": 0,
+        "end": 52
+      },
+      "V36473": {
+        "id": "V36473",
+        "indicator": "F",
+        "type": "PRECIPITATING",
+        "word": "SNOW",
+        "roles": {
+          "NOROLE": "#V36451",
+          "TIME": "#V36333",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "SNOWING"
+        },
+        "start": 0,
+        "end": 52
+      },
+      "V36333": {
+        "id": "V36333",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V36388",
+          "FIGURE": "#V36473",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 36
+      },
+      "V36388": {
+        "id": "V36388",
+        "indicator": "F",
+        "type": "MOVE",
+        "word": "GO",
+        "roles": {
+          "AGENT": "#V36361",
+          "TIME": "#V36409",
+          "TENSE": "PAST",
+          "LEX": "WENT",
+          "WNSENSE": "go%2:38:00::"
+        },
+        "start": 5,
+        "end": 36
+      },
+      "V36361": {
+        "id": "V36361",
+        "indicator": "BARE",
+        "type": "MALE-PERSON",
+        "word": "BILLY",
+        "roles": {
+          "LEX": "BILLY",
+          "WNSENSE": "billy%1:05:00::"
+        },
+        "start": 5,
+        "end": 11
+      },
+      "V36409": {
+        "id": "V36409",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V36442",
+          "FIGURE": "#V36388",
+          "LEX": "TO"
+        },
+        "start": 16,
+        "end": 36
+      },
+      "V36442": {
+        "id": "V36442",
+        "indicator": "BARE",
+        "type": "NIGHT",
+        "word": "NIGHT",
+        "roles": {
+          "ASSOC-WITH": "#V36429",
+          "IDENTIFIED-AS": "#V36526",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "NIGHT"
+        },
+        "start": 19,
+        "end": 36
+      },
+      "V36429": {
+        "id": "V36429",
+        "indicator": "KIND",
+        "type": "FURNISHINGS",
+        "word": "BED",
+        "roles": {
+          "LEX": "BED",
+          "WNSENSE": "bed%1:06:00::"
+        },
+        "start": 19,
+        "end": 36
+      },
+      "V36526": {
+        "id": "V36526",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY-OF-WEEK": "#V36435",
+          "LEX": "TUESDAY"
+        },
+        "start": 23,
+        "end": 31
+      },
+      "V36435": {
+        "id": "V36435",
+        "indicator": "THE",
+        "type": "DAY-NAME",
+        "word": "TUESDAY",
+        "roles": {
+          "NAME-OF": "TUESDAY",
+          "LEX": "TUESDAY",
+          "WNSENSE": "tuesday%1:28:00::"
+        },
+        "start": 23,
+        "end": 31
+      },
+      "V36451": {
+        "id": "V36451",
+        "indicator": "PRO",
+        "type": "EXPLETIVE",
+        "word": null,
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT"
+        },
+        "start": 38,
+        "end": 41
+      },
+      "root": "#V37194"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V37415": {
+          "id": "V37415",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V36473",
+            "LEX": "SNOWING"
+          },
+          "start": 0,
+          "end": 53
+        },
+        "V36473": {
+          "id": "V36473",
+          "indicator": "F",
+          "type": "PRECIPITATING",
+          "word": "SNOW",
+          "roles": {
+            "NOROLE": "#V36451",
+            "TIME": "#V36333",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "SNOWING"
+          },
+          "start": 0,
+          "end": 52
+        },
+        "V36333": {
+          "id": "V36333",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V36382",
+            "FIGURE": "#V36473",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V36382": {
+          "id": "V36382",
+          "indicator": "F",
+          "type": "UNDERGO-ACTION",
+          "word": "GO",
+          "roles": {
+            "AFFECTED": "#V36361",
+            "TIME": "#V36409",
+            "TENSE": "PAST",
+            "LEX": "WENT",
+            "WNSENSE": "go_down%2:42:00"
+          },
+          "start": 5,
+          "end": 36
+        },
+        "V36361": {
+          "id": "V36361",
+          "indicator": "BARE",
+          "type": "MALE-PERSON",
+          "word": "BILLY",
+          "roles": {
+            "LEX": "BILLY",
+            "WNSENSE": "billy%1:05:00::"
+          },
+          "start": 5,
+          "end": 11
+        },
+        "V36409": {
+          "id": "V36409",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V36442",
+            "FIGURE": "#V36382",
+            "LEX": "TO"
+          },
+          "start": 16,
+          "end": 36
+        },
+        "V36442": {
+          "id": "V36442",
+          "indicator": "BARE",
+          "type": "NIGHT",
+          "word": "NIGHT",
+          "roles": {
+            "ASSOC-WITH": "#V36429",
+            "IDENTIFIED-AS": "#V36526",
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "NIGHT"
+          },
+          "start": 19,
+          "end": 36
+        },
+        "V36429": {
+          "id": "V36429",
+          "indicator": "KIND",
+          "type": "FURNISHINGS",
+          "word": "BED",
+          "roles": {
+            "LEX": "BED",
+            "WNSENSE": "bed%1:06:00::"
+          },
+          "start": 19,
+          "end": 36
+        },
+        "V36526": {
+          "id": "V36526",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V36435",
+            "LEX": "TUESDAY"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V36435": {
+          "id": "V36435",
+          "indicator": "THE",
+          "type": "DAY-NAME",
+          "word": "TUESDAY",
+          "roles": {
+            "NAME-OF": "TUESDAY",
+            "LEX": "TUESDAY",
+            "WNSENSE": "tuesday%1:28:00::"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V36451": {
+          "id": "V36451",
+          "indicator": "PRO",
+          "type": "EXPLETIVE",
+          "word": null,
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT"
+          },
+          "start": 38,
+          "end": 41
+        },
+        "root": "#V37415"
+      }
+    ],
+    [
+      {
+        "V37275": {
+          "id": "V37275",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V36473",
+            "LEX": "SNOWING"
+          },
+          "start": 0,
+          "end": 53
+        },
+        "V36473": {
+          "id": "V36473",
+          "indicator": "F",
+          "type": "PRECIPITATING",
+          "word": "SNOW",
+          "roles": {
+            "NOROLE": "#V36451",
+            "TIME": "#V36333",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "SNOWING"
+          },
+          "start": 0,
+          "end": 52
+        },
+        "V36333": {
+          "id": "V36333",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V36388",
+            "FIGURE": "#V36473",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V36388": {
+          "id": "V36388",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "AGENT": "#V36348",
+            "TIME": "#V36409",
+            "TENSE": "PAST",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 5,
+          "end": 36
+        },
+        "V36348": {
+          "id": "V36348",
+          "indicator": "BARE",
+          "type": "FUNCTIONAL-PHYS-OBJECT",
+          "word": "BILLY",
+          "roles": {
+            "LEX": "BILLY",
+            "WNSENSE": "billy%1:06:00::"
+          },
+          "start": 5,
+          "end": 11
+        },
+        "V36409": {
+          "id": "V36409",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V36442",
+            "FIGURE": "#V36388",
+            "LEX": "TO"
+          },
+          "start": 16,
+          "end": 36
+        },
+        "V36442": {
+          "id": "V36442",
+          "indicator": "BARE",
+          "type": "NIGHT",
+          "word": "NIGHT",
+          "roles": {
+            "ASSOC-WITH": "#V36429",
+            "IDENTIFIED-AS": "#V36526",
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "NIGHT"
+          },
+          "start": 19,
+          "end": 36
+        },
+        "V36429": {
+          "id": "V36429",
+          "indicator": "KIND",
+          "type": "FURNISHINGS",
+          "word": "BED",
+          "roles": {
+            "LEX": "BED",
+            "WNSENSE": "bed%1:06:00::"
+          },
+          "start": 19,
+          "end": 36
+        },
+        "V36526": {
+          "id": "V36526",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V36435",
+            "LEX": "TUESDAY"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V36435": {
+          "id": "V36435",
+          "indicator": "THE",
+          "type": "DAY-NAME",
+          "word": "TUESDAY",
+          "roles": {
+            "NAME-OF": "TUESDAY",
+            "LEX": "TUESDAY",
+            "WNSENSE": "tuesday%1:28:00::"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V36451": {
+          "id": "V36451",
+          "indicator": "PRO",
+          "type": "EXPLETIVE",
+          "word": null,
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT"
+          },
+          "start": 38,
+          "end": 41
+        },
+        "root": "#V37275"
+      }
+    ],
+    [
+      {
+        "V37498": {
+          "id": "V37498",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V36473",
+            "LEX": "SNOWING"
+          },
+          "start": 0,
+          "end": 53
+        },
+        "V36473": {
+          "id": "V36473",
+          "indicator": "F",
+          "type": "PRECIPITATING",
+          "word": "SNOW",
+          "roles": {
+            "NOROLE": "#V36451",
+            "TIME": "#V36333",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "SNOWING"
+          },
+          "start": 0,
+          "end": 52
+        },
+        "V36333": {
+          "id": "V36333",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V36382",
+            "FIGURE": "#V36473",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V36382": {
+          "id": "V36382",
+          "indicator": "F",
+          "type": "UNDERGO-ACTION",
+          "word": "GO",
+          "roles": {
+            "AFFECTED": "#V36348",
+            "TIME": "#V36409",
+            "TENSE": "PAST",
+            "LEX": "WENT",
+            "WNSENSE": "go_down%2:42:00"
+          },
+          "start": 5,
+          "end": 36
+        },
+        "V36348": {
+          "id": "V36348",
+          "indicator": "BARE",
+          "type": "FUNCTIONAL-PHYS-OBJECT",
+          "word": "BILLY",
+          "roles": {
+            "LEX": "BILLY",
+            "WNSENSE": "billy%1:06:00::"
+          },
+          "start": 5,
+          "end": 11
+        },
+        "V36409": {
+          "id": "V36409",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V36442",
+            "FIGURE": "#V36382",
+            "LEX": "TO"
+          },
+          "start": 16,
+          "end": 36
+        },
+        "V36442": {
+          "id": "V36442",
+          "indicator": "BARE",
+          "type": "NIGHT",
+          "word": "NIGHT",
+          "roles": {
+            "ASSOC-WITH": "#V36429",
+            "IDENTIFIED-AS": "#V36526",
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "NIGHT"
+          },
+          "start": 19,
+          "end": 36
+        },
+        "V36429": {
+          "id": "V36429",
+          "indicator": "KIND",
+          "type": "FURNISHINGS",
+          "word": "BED",
+          "roles": {
+            "LEX": "BED",
+            "WNSENSE": "bed%1:06:00::"
+          },
+          "start": 19,
+          "end": 36
+        },
+        "V36526": {
+          "id": "V36526",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V36435",
+            "LEX": "TUESDAY"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V36435": {
+          "id": "V36435",
+          "indicator": "THE",
+          "type": "DAY-NAME",
+          "word": "TUESDAY",
+          "roles": {
+            "NAME-OF": "TUESDAY",
+            "LEX": "TUESDAY",
+            "WNSENSE": "tuesday%1:28:00::"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V36451": {
+          "id": "V36451",
+          "indicator": "PRO",
+          "type": "EXPLETIVE",
+          "word": null,
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT"
+          },
+          "start": 38,
+          "end": 41
+        },
+        "root": "#V37498"
+      }
+    ]
+  ],
+  "sentence": "When Billy went to bed Tuesday night, it was snowing.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190806T104125",
+    "link": "http://trips.ihmc.us/parser/saved/20190806T104125-STEP-abhatia-none-When_Billy_went_to_bed_Tuesday_night_it_.xml",
+    "judgement": -1
+  }
+}

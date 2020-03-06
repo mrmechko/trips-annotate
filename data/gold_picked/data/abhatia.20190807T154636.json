@@ -1,0 +1,523 @@
+{
+  "parse": [
+    {
+      "V98702": {
+        "id": "V98702",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V97717",
+          "LEX": "BUT"
+        },
+        "start": 0,
+        "end": 42
+      },
+      "V97717": {
+        "id": "V97717",
+        "indicator": "F",
+        "type": "EVENT-OF-CAUSATION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "BUT",
+          "SEQUENCE": "#V97489",
+          "SEQUENCE1": "#V97545",
+          "TENSE": "PAST",
+          "LEX": "BUT"
+        },
+        "start": 0,
+        "end": 42
+      },
+      "V97545": {
+        "id": "V97545",
+        "indicator": "F",
+        "type": "COMMERCE-PAY",
+        "word": "SPEND",
+        "roles": {
+          "AGENT": "#V97473",
+          "EXTENT": "#V97617",
+          "LEX": "SPENT",
+          "WNSENSE": "spend%2:40:00::"
+        },
+        "start": 0,
+        "end": 42
+      },
+      "V97489": {
+        "id": "V97489",
+        "indicator": "F",
+        "type": "PURCHASE",
+        "word": "BUY",
+        "roles": {
+          "AGENT": "#V97473",
+          "AFFECTED": "#V97532",
+          "LEX": "BOUGHT",
+          "WNSENSE": "buy%2:40:00::"
+        },
+        "start": 0,
+        "end": 42
+      },
+      "V97473": {
+        "id": "V97473",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "MATT",
+        "roles": {
+          "NAME-OF": "MATT",
+          "LEX": "MATT",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V97532": {
+        "id": "V97532",
+        "indicator": "A",
+        "type": "GAME",
+        "word": "GAME",
+        "roles": {
+          "LEX": "GAME",
+          "WNSENSE": "game%1:04:00::"
+        },
+        "start": 12,
+        "end": 19
+      },
+      "V97617": {
+        "id": "V97617",
+        "indicator": "A",
+        "type": "MONEY",
+        "word": "MONEY",
+        "roles": {
+          "REFSET": "#V97574",
+          "QUAN": "UNIVERSAL",
+          "LEX": "MONEY",
+          "WNSENSE": "change%1:21:03"
+        },
+        "start": 29,
+        "end": 42
+      },
+      "V97574": {
+        "id": "V97574",
+        "indicator": "THE",
+        "type": "MONEY",
+        "word": "MONEY",
+        "roles": {
+          "ASSOC-POSS": "#V97569",
+          "LEX": "MONEY",
+          "WNSENSE": "change%1:21:03"
+        },
+        "start": 33,
+        "end": 42
+      },
+      "V97569": {
+        "id": "V97569",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00",
+          "COREF": "#V97473"
+        },
+        "start": 33,
+        "end": 42
+      },
+      "root": "#V98702"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V98736": {
+          "id": "V98736",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V97717",
+            "LEX": "BUT"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V97717": {
+          "id": "V97717",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": null,
+          "roles": {
+            "OPERATOR": "BUT",
+            "SEQUENCE": "#V97489",
+            "SEQUENCE1": "#V97543",
+            "TENSE": "PAST",
+            "LEX": "BUT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V97543": {
+          "id": "V97543",
+          "indicator": "F",
+          "type": "SPEND-TIME",
+          "word": "SPEND",
+          "roles": {
+            "NEUTRAL": "#V97473",
+            "EXTENT": "#V97617",
+            "LEX": "SPENT",
+            "WNSENSE": "spend%2:42:00::"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V97489": {
+          "id": "V97489",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AGENT": "#V97473",
+            "AFFECTED": "#V97532",
+            "LEX": "BOUGHT",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V97473": {
+          "id": "V97473",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "MATT",
+          "roles": {
+            "NAME-OF": "MATT",
+            "LEX": "MATT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V97532": {
+          "id": "V97532",
+          "indicator": "A",
+          "type": "GAME",
+          "word": "GAME",
+          "roles": {
+            "LEX": "GAME",
+            "WNSENSE": "game%1:04:00::"
+          },
+          "start": 12,
+          "end": 19
+        },
+        "V97617": {
+          "id": "V97617",
+          "indicator": "A",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "REFSET": "#V97574",
+            "QUAN": "UNIVERSAL",
+            "LEX": "MONEY",
+            "WNSENSE": "change%1:21:03"
+          },
+          "start": 29,
+          "end": 42
+        },
+        "V97574": {
+          "id": "V97574",
+          "indicator": "THE",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "ASSOC-POSS": "#V97569",
+            "LEX": "MONEY",
+            "WNSENSE": "change%1:21:03"
+          },
+          "start": 33,
+          "end": 42
+        },
+        "V97569": {
+          "id": "V97569",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 33,
+          "end": 42
+        },
+        "root": "#V98736"
+      }
+    ],
+    [
+      {
+        "V98770": {
+          "id": "V98770",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V97535",
+            "LEX": "BUT"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V97535": {
+          "id": "V97535",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "BUT",
+            "SEQUENCE": "#V97489",
+            "SEQUENCE1": "#V97545",
+            "TENSE": "PAST",
+            "LEX": "BUT",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V97489": {
+          "id": "V97489",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AGENT": "#V97473",
+            "AFFECTED": "#V97532",
+            "TENSE": "PAST",
+            "LEX": "BOUGHT",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V97473": {
+          "id": "V97473",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "MATT",
+          "roles": {
+            "NAME-OF": "MATT",
+            "LEX": "MATT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V97532": {
+          "id": "V97532",
+          "indicator": "A",
+          "type": "GAME",
+          "word": "GAME",
+          "roles": {
+            "LEX": "GAME",
+            "WNSENSE": "game%1:04:00::"
+          },
+          "start": 12,
+          "end": 19
+        },
+        "V97545": {
+          "id": "V97545",
+          "indicator": "F",
+          "type": "COMMERCE-PAY",
+          "word": "SPEND",
+          "roles": {
+            "AGENT": "#V97473",
+            "EXTENT": "#V97617",
+            "TENSE": "PAST",
+            "LEX": "SPENT",
+            "WNSENSE": "spend%2:40:00::"
+          },
+          "start": 23,
+          "end": 42
+        },
+        "V97617": {
+          "id": "V97617",
+          "indicator": "A",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "REFSET": "#V97574",
+            "QUAN": "UNIVERSAL",
+            "LEX": "MONEY",
+            "WNSENSE": "change%1:21:03"
+          },
+          "start": 29,
+          "end": 42
+        },
+        "V97574": {
+          "id": "V97574",
+          "indicator": "THE",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "ASSOC-POSS": "#V97569",
+            "LEX": "MONEY",
+            "WNSENSE": "change%1:21:03"
+          },
+          "start": 33,
+          "end": 42
+        },
+        "V97569": {
+          "id": "V97569",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 33,
+          "end": 42
+        },
+        "root": "#V98770"
+      }
+    ],
+    [
+      {
+        "V98823": {
+          "id": "V98823",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V97535",
+            "LEX": "BUT"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V97535": {
+          "id": "V97535",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": null,
+          "roles": {
+            "OPERATOR": "BUT",
+            "SEQUENCE": "#V97489",
+            "SEQUENCE1": "#V97543",
+            "TENSE": "PAST",
+            "LEX": "BUT",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V97489": {
+          "id": "V97489",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AGENT": "#V97473",
+            "AFFECTED": "#V97532",
+            "TENSE": "PAST",
+            "LEX": "BOUGHT",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V97473": {
+          "id": "V97473",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "MATT",
+          "roles": {
+            "NAME-OF": "MATT",
+            "LEX": "MATT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V97532": {
+          "id": "V97532",
+          "indicator": "A",
+          "type": "GAME",
+          "word": "GAME",
+          "roles": {
+            "LEX": "GAME",
+            "WNSENSE": "game%1:04:00::"
+          },
+          "start": 12,
+          "end": 19
+        },
+        "V97543": {
+          "id": "V97543",
+          "indicator": "F",
+          "type": "SPEND-TIME",
+          "word": "SPEND",
+          "roles": {
+            "NEUTRAL": "#V97473",
+            "EXTENT": "#V97617",
+            "TENSE": "PAST",
+            "LEX": "SPENT",
+            "WNSENSE": "spend%2:42:00::"
+          },
+          "start": 23,
+          "end": 42
+        },
+        "V97617": {
+          "id": "V97617",
+          "indicator": "A",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "REFSET": "#V97574",
+            "QUAN": "UNIVERSAL",
+            "LEX": "MONEY",
+            "WNSENSE": "change%1:21:03"
+          },
+          "start": 29,
+          "end": 42
+        },
+        "V97574": {
+          "id": "V97574",
+          "indicator": "THE",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "ASSOC-POSS": "#V97569",
+            "LEX": "MONEY",
+            "WNSENSE": "change%1:21:03"
+          },
+          "start": 33,
+          "end": 42
+        },
+        "V97569": {
+          "id": "V97569",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 33,
+          "end": 42
+        },
+        "root": "#V98823"
+      }
+    ]
+  ],
+  "sentence": "Matt bought a game but spent all his money.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190807T154636",
+    "link": "http://trips.ihmc.us/parser/saved/20190807T154636-STEP-abhatia-0-Matt_bought_a_game_but_spent_all_his_mon.xml",
+    "judgement": 0
+  }
+}

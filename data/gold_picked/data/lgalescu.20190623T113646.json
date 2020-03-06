@@ -1,0 +1,86 @@
+{
+  "parse": [
+    {
+      "V43723": {
+        "id": "V43723",
+        "indicator": "SPEECHACT",
+        "type": "SA_YN-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V43222"
+        },
+        "start": 0,
+        "end": 39
+      },
+      "V43222": {
+        "id": "V43222",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V43262",
+          "FORMAL": "#V43290",
+          "FREQUENCY": "#V43280"
+        },
+        "start": 0,
+        "end": 38
+      },
+      "V43262": {
+        "id": "V43262",
+        "indicator": "THE",
+        "type": "MACROMOLECULAR-COMPLEX",
+        "word": "COMPLEX",
+        "roles": {
+          "ASSOC-WITH": "#V43306"
+        },
+        "start": 3,
+        "end": 28
+      },
+      "V43306": {
+        "id": "V43306",
+        "indicator": "THE",
+        "type": "GENE-PROTEIN",
+        "word": "MAP-2-K-1-PUNC-MINUS-MAPK-1",
+        "roles": {
+          "NAME-OF": "MAP-2-K-1-PUNC-MINUS-MAPK-1"
+        },
+        "start": 7,
+        "end": 20
+      },
+      "V43280": {
+        "id": "V43280",
+        "indicator": "F",
+        "type": "NEVER",
+        "word": "NEVER",
+        "roles": {
+          "FIGURE": "#V43222"
+        },
+        "start": 28,
+        "end": 34
+      },
+      "V43290": {
+        "id": "V43290",
+        "indicator": "F",
+        "type": "HIGH-VAL",
+        "word": "HIGH",
+        "roles": {
+          "FIGURE": "#V43262",
+          "SCALE": "DIMENSIONAL-SCALE"
+        },
+        "start": 34,
+        "end": 38
+      },
+      "root": "#V43723"
+    }
+  ],
+  "alternatives": [],
+  "sentence": "Is the MAP2K1-MAPK1 complex never high?  ",
+  "annotation": {
+    "judge": "lgalescu",
+    "parser": "BOB",
+    "timestamp": "20190623T113646",
+    "link": "http://trips.ihmc.us/parser/saved/20190623T113646-BOB-lgalescu-0-Is_the_MAP2K1-MAPK1_complex_never_high_.xml",
+    "judgement": 0
+  }
+}

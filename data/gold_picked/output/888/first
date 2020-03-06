@@ -1,0 +1,21 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V45105 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V43679 [label=<<font color="green"><br /></font> <font color="black">BE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BE</font> <font color="green"><br /></font> <font color="green">be%2:42:06::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V43669 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">THIS</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V43698 [label=<<font color="green"><br /></font> <font color="black">MALE-CHILD</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">BOY</font> <font color="green"><br /></font> <font color="green">boy%1:18:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-CHILD.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V43722 [label=<<font color="green"><br /></font> <font color="black">SELECT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">CHOOSE</font> <font color="green"><br /></font> <font color="green">choose%2:31:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SELECT.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V43735 [label=<<font color="green"><br /></font> <font color="black">UNTIL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">TO</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::UNTIL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V43753 [label=<<font color="green"><br /></font> <font color="black">CAUSE-EFFECT</font> <font color="green"><br /></font> <font color="red">BARE</font> <font color="blue">LEAD</font> <font color="green"><br /></font> <font color="green">do%2:36:02</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::CAUSE-EFFECT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V43722 -> V43698 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V45105 -> V43679 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V43698 -> V43722 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V43735 -> V43753 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V43735 -> V43722 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V43679 -> V43669 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V43679 -> V43698 [label=" NEUTRAL1   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V43722 -> V43735 [label=" TIME   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

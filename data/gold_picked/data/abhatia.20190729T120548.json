@@ -1,0 +1,668 @@
+{
+  "parse": [
+    {
+      "V77293": {
+        "id": "V77293",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V75590",
+          "LEX": "SAID"
+        },
+        "start": 0,
+        "end": 66
+      },
+      "V75590": {
+        "id": "V75590",
+        "indicator": "F",
+        "type": "SAY",
+        "word": "SAY",
+        "roles": {
+          "AGENT": "#V75585",
+          "FORMAL": "#V75668",
+          "EXTENT": "#V75828",
+          "TENSE": "PAST",
+          "LEX": "SAID"
+        },
+        "start": 0,
+        "end": 66
+      },
+      "V75828": {
+        "id": "V75828",
+        "indicator": "F",
+        "type": "EXTENT-PREDICATE",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V75590",
+          "GROUND": "#V75574",
+          "LEX": "DAY",
+          "WNSENSE": "day%1:28:00::"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V75574": {
+        "id": "V75574",
+        "indicator": "A",
+        "type": "QUANTITY",
+        "word": null,
+        "roles": {
+          "AMOUNT": "#V75571",
+          "UNIT": "(:* DAY-DURATION DAY)",
+          "SCALE": "DURATION-SCALE",
+          "LEX": "DAY",
+          "WNSENSE": "day%1:28:00::"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V75571": {
+        "id": "V75571",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V75585": {
+        "id": "V75585",
+        "indicator": "THE",
+        "type": "PROFESSIONAL",
+        "word": "TEACHER",
+        "roles": {
+          "ASSOC-POSS": "#V75580",
+          "LEX": "TEACHER",
+          "WNSENSE": "teacher%1:18:00::"
+        },
+        "start": 8,
+        "end": 20
+      },
+      "V75580": {
+        "id": "V75580",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "HER",
+        "roles": {
+          "LEX": "HER",
+          "PROFORM": "HER",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 8,
+        "end": 20
+      },
+      "V75668": {
+        "id": "V75668",
+        "indicator": "F",
+        "type": "ACQUIRE",
+        "word": "GET",
+        "roles": {
+          "AGENT": "#V75611",
+          "AFFECTED": "#V75688",
+          "PROP": "+",
+          "TENSE": "PRES",
+          "MODALITY": "(:* CONDITIONAL WOULD)",
+          "LEX": "GET",
+          "WNSENSE": "get%2:40:00::"
+        },
+        "start": 25,
+        "end": 66
+      },
+      "V75611": {
+        "id": "V75611",
+        "indicator": "QUANTIFIER",
+        "type": "PERSON",
+        "word": "EVERYONE",
+        "roles": {
+          "SUCHTHAT": "#V75627",
+          "QUAN": "EVERYONE",
+          "LEX": "EVERYONE"
+        },
+        "start": 25,
+        "end": 51
+      },
+      "V75627": {
+        "id": "V75627",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "AGENT": "#V75611",
+          "NEUTRAL": "#V75635",
+          "TENSE": "PAST",
+          "LEX": "DID",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 34,
+        "end": 51
+      },
+      "V75635": {
+        "id": "V75635",
+        "indicator": "BARE",
+        "type": "ACTIVITY",
+        "word": "HOMEWORK",
+        "roles": {
+          "LEX": "HOMEWORK",
+          "WNSENSE": "homework%1:04:00::"
+        },
+        "start": 42,
+        "end": 51
+      },
+      "V75688": {
+        "id": "V75688",
+        "indicator": "BARE",
+        "type": "SWEETS",
+        "word": "CANDY",
+        "roles": {
+          "LEX": "CANDY",
+          "WNSENSE": "candy%1:13:00::"
+        },
+        "start": 61,
+        "end": 66
+      },
+      "root": "#V77293"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V77248": {
+          "id": "V77248",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V75593",
+            "LEX": "SAID"
+          },
+          "start": 0,
+          "end": 67
+        },
+        "V75593": {
+          "id": "V75593",
+          "indicator": "F",
+          "type": "ASSERT",
+          "word": "SAY",
+          "roles": {
+            "AGENT": "#V75585",
+            "FORMAL": "#V75668",
+            "EXTENT": "#V75828",
+            "TENSE": "PAST",
+            "LEX": "SAID"
+          },
+          "start": 0,
+          "end": 66
+        },
+        "V75828": {
+          "id": "V75828",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V75593",
+            "GROUND": "#V75574",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V75574": {
+          "id": "V75574",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "#V75571",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V75571": {
+          "id": "V75571",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V75585": {
+          "id": "V75585",
+          "indicator": "THE",
+          "type": "PROFESSIONAL",
+          "word": "TEACHER",
+          "roles": {
+            "ASSOC-POSS": "#V75580",
+            "LEX": "TEACHER",
+            "WNSENSE": "teacher%1:18:00::"
+          },
+          "start": 8,
+          "end": 20
+        },
+        "V75580": {
+          "id": "V75580",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 8,
+          "end": 20
+        },
+        "V75668": {
+          "id": "V75668",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "GET",
+          "roles": {
+            "AGENT": "#V75611",
+            "AFFECTED": "#V75688",
+            "PROP": "+",
+            "TENSE": "PRES",
+            "MODALITY": "(:* CONDITIONAL WOULD)",
+            "LEX": "GET",
+            "WNSENSE": "get%2:40:00::"
+          },
+          "start": 25,
+          "end": 66
+        },
+        "V75611": {
+          "id": "V75611",
+          "indicator": "QUANTIFIER",
+          "type": "PERSON",
+          "word": "EVERYONE",
+          "roles": {
+            "SUCHTHAT": "#V75627",
+            "QUAN": "EVERYONE",
+            "LEX": "EVERYONE"
+          },
+          "start": 25,
+          "end": 51
+        },
+        "V75627": {
+          "id": "V75627",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V75611",
+            "NEUTRAL": "#V75635",
+            "TENSE": "PAST",
+            "LEX": "DID",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 34,
+          "end": 51
+        },
+        "V75635": {
+          "id": "V75635",
+          "indicator": "BARE",
+          "type": "ACTIVITY",
+          "word": "HOMEWORK",
+          "roles": {
+            "LEX": "HOMEWORK",
+            "WNSENSE": "homework%1:04:00::"
+          },
+          "start": 42,
+          "end": 51
+        },
+        "V75688": {
+          "id": "V75688",
+          "indicator": "BARE",
+          "type": "SWEETS",
+          "word": "CANDY",
+          "roles": {
+            "LEX": "CANDY",
+            "WNSENSE": "candy%1:13:00::"
+          },
+          "start": 61,
+          "end": 66
+        },
+        "root": "#V77248"
+      }
+    ],
+    [
+      {
+        "V77174": {
+          "id": "V77174",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V75599",
+            "LEX": "SAID"
+          },
+          "start": 0,
+          "end": 67
+        },
+        "V75599": {
+          "id": "V75599",
+          "indicator": "F",
+          "type": "SUGGEST",
+          "word": "SAY",
+          "roles": {
+            "AGENT": "#V75585",
+            "FORMAL": "#V75668",
+            "EXTENT": "#V75828",
+            "TENSE": "PAST",
+            "LEX": "SAID"
+          },
+          "start": 0,
+          "end": 66
+        },
+        "V75828": {
+          "id": "V75828",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V75599",
+            "GROUND": "#V75574",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V75574": {
+          "id": "V75574",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "#V75571",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V75571": {
+          "id": "V75571",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V75585": {
+          "id": "V75585",
+          "indicator": "THE",
+          "type": "PROFESSIONAL",
+          "word": "TEACHER",
+          "roles": {
+            "ASSOC-POSS": "#V75580",
+            "LEX": "TEACHER",
+            "WNSENSE": "teacher%1:18:00::"
+          },
+          "start": 8,
+          "end": 20
+        },
+        "V75580": {
+          "id": "V75580",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 8,
+          "end": 20
+        },
+        "V75668": {
+          "id": "V75668",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "GET",
+          "roles": {
+            "AGENT": "#V75611",
+            "AFFECTED": "#V75688",
+            "PROP": "+",
+            "TENSE": "PRES",
+            "MODALITY": "(:* CONDITIONAL WOULD)",
+            "LEX": "GET",
+            "WNSENSE": "get%2:40:00::"
+          },
+          "start": 25,
+          "end": 66
+        },
+        "V75611": {
+          "id": "V75611",
+          "indicator": "QUANTIFIER",
+          "type": "PERSON",
+          "word": "EVERYONE",
+          "roles": {
+            "SUCHTHAT": "#V75627",
+            "QUAN": "EVERYONE",
+            "LEX": "EVERYONE"
+          },
+          "start": 25,
+          "end": 51
+        },
+        "V75627": {
+          "id": "V75627",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V75611",
+            "NEUTRAL": "#V75635",
+            "TENSE": "PAST",
+            "LEX": "DID",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 34,
+          "end": 51
+        },
+        "V75635": {
+          "id": "V75635",
+          "indicator": "BARE",
+          "type": "ACTIVITY",
+          "word": "HOMEWORK",
+          "roles": {
+            "LEX": "HOMEWORK",
+            "WNSENSE": "homework%1:04:00::"
+          },
+          "start": 42,
+          "end": 51
+        },
+        "V75688": {
+          "id": "V75688",
+          "indicator": "BARE",
+          "type": "SWEETS",
+          "word": "CANDY",
+          "roles": {
+            "LEX": "CANDY",
+            "WNSENSE": "candy%1:13:00::"
+          },
+          "start": 61,
+          "end": 66
+        },
+        "root": "#V77174"
+      }
+    ],
+    [
+      {
+        "V77296": {
+          "id": "V77296",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V75590",
+            "LEX": "SAID"
+          },
+          "start": 0,
+          "end": 67
+        },
+        "V75590": {
+          "id": "V75590",
+          "indicator": "F",
+          "type": "SAY",
+          "word": "SAY",
+          "roles": {
+            "AGENT": "#V75585",
+            "FORMAL": "#V75668",
+            "TIME": "#V75563",
+            "TENSE": "PAST",
+            "LEX": "SAID"
+          },
+          "start": 0,
+          "end": 66
+        },
+        "V75563": {
+          "id": "V75563",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "ONE-DAY",
+          "roles": {
+            "GROUND": "#V75883",
+            "FIGURE": "#V75590",
+            "LEX": "ONE-DAY"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V75883": {
+          "id": "V75883",
+          "indicator": "IMPRO",
+          "type": "TIME-LOC",
+          "word": "SOMETIME",
+          "roles": {
+            "PROFORM": "ONE-DAY"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V75585": {
+          "id": "V75585",
+          "indicator": "THE",
+          "type": "PROFESSIONAL",
+          "word": "TEACHER",
+          "roles": {
+            "ASSOC-POSS": "#V75580",
+            "LEX": "TEACHER",
+            "WNSENSE": "teacher%1:18:00::"
+          },
+          "start": 8,
+          "end": 20
+        },
+        "V75580": {
+          "id": "V75580",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 8,
+          "end": 20
+        },
+        "V75668": {
+          "id": "V75668",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "GET",
+          "roles": {
+            "AGENT": "#V75611",
+            "AFFECTED": "#V75688",
+            "PROP": "+",
+            "TENSE": "PRES",
+            "MODALITY": "(:* CONDITIONAL WOULD)",
+            "LEX": "GET",
+            "WNSENSE": "get%2:40:00::"
+          },
+          "start": 25,
+          "end": 66
+        },
+        "V75611": {
+          "id": "V75611",
+          "indicator": "QUANTIFIER",
+          "type": "PERSON",
+          "word": "EVERYONE",
+          "roles": {
+            "SUCHTHAT": "#V75627",
+            "QUAN": "EVERYONE",
+            "LEX": "EVERYONE"
+          },
+          "start": 25,
+          "end": 51
+        },
+        "V75627": {
+          "id": "V75627",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V75611",
+            "NEUTRAL": "#V75635",
+            "TENSE": "PAST",
+            "LEX": "DID",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 34,
+          "end": 51
+        },
+        "V75635": {
+          "id": "V75635",
+          "indicator": "BARE",
+          "type": "ACTIVITY",
+          "word": "HOMEWORK",
+          "roles": {
+            "LEX": "HOMEWORK",
+            "WNSENSE": "homework%1:04:00::"
+          },
+          "start": 42,
+          "end": 51
+        },
+        "V75688": {
+          "id": "V75688",
+          "indicator": "BARE",
+          "type": "SWEETS",
+          "word": "CANDY",
+          "roles": {
+            "LEX": "CANDY",
+            "WNSENSE": "candy%1:13:00::"
+          },
+          "start": 61,
+          "end": 66
+        },
+        "root": "#V77296"
+      }
+    ]
+  ],
+  "sentence": "One day her teacher said everyone who did homework would get candy.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190729T120548",
+    "link": "http://trips.ihmc.us/parser/saved/20190729T120548-STEP-abhatia-3-One_day_her_teacher_said_everyone_who_di.xml",
+    "judgement": 3
+  }
+}

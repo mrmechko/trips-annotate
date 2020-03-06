@@ -1,0 +1,21 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V90532 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V89661 [label=<<font color="green"><br /></font> <font color="black">COMMAND</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">TELL</font> <font color="green"><br /></font> <font color="green">tell%2:32:02::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::COMMAND.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V89653 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HE</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V89669 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">ME</font> <font color="green"><br /></font> <font color="green">person%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V89700 [label=<<font color="green"><br /></font> <font color="black">ACTIVE-PERCEPTION</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">SEE</font> <font color="green"><br /></font> <font color="green">see%2:39:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ACTIVE-PERCEPTION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V89717 [label=<<font color="green"><br /></font> <font color="black">OUTSIDE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">OUTSIDE</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::OUTSIDE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V89963 [label=<<font color="green"><br /></font> <font color="black">ANY-SEM</font> <font color="green"><br /></font> <font color="red">IMPRO</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ANY-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V89700 -> V89717 [label=" LOCATION   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V89661 -> V89653 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V89661 -> V89700 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V89717 -> V89963 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V89700 -> V89669 [label=" EXPERIENCER   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V90532 -> V89661 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V89717 -> V89700 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V89661 -> V89669 [label=" AGENT1   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

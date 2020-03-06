@@ -1,0 +1,19 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V117318 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V117104 [label=<<font color="green"><br /></font> <font color="black">START</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BEGIN</font> <font color="green"><br /></font> <font color="green">begin%2:30:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::START.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V117093 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">PERSON</font> <font color="green"><br /></font> <font color="green">person%1:03:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V117096 [label=<<font color="green"><br /></font> <font color="black">BACK</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BEHIND</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BACK.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V117099 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">ME</font> <font color="green"><br /></font> <font color="green">person%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V117144 [label=<<font color="green"><br /></font> <font color="black">MANNER-SAY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">SHOUT</font> <font color="green"><br /></font> <font color="green">shout%2:32:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MANNER-SAY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V117093 -> V117096 [label=" LOCATION   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V117096 -> V117093 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V117104 -> V117144 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V117144 -> V117093 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V117104 -> V117093 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V117096 -> V117099 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V117318 -> V117104 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

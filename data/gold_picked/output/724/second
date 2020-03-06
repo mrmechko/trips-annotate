@@ -1,0 +1,28 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V73393 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V73326 [label=<<font color="green"><br /></font> <font color="black">SITUATION-ROOT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SITUATION-ROOT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V72471 [label=<<font color="green"><br /></font> <font color="black">EAT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">EAT</font> <font color="green"><br /></font> <font color="green">eat%2:34:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EAT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V72404 [label=<<font color="green"><br /></font> <font color="black">IS-COMPATIBLE-WITH</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">MEET</font> <font color="green"><br /></font> <font color="green">accept%2:42:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::IS-COMPATIBLE-WITH.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V72394 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">PRO-SET</font> <font color="blue">THEY</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V72422 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">FRESHMEN</font> <font color="green"><br /></font> <font color="green">person%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V72415 [label=<<font color="green"><br /></font> <font color="black">OTHER</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">OTHER</font> <font color="green"><br /></font> <font color="green">other%3:00:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::OTHER.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V72432 [label=<<font color="green"><br /></font> <font color="black">ON</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">ON</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V72454 [label=<<font color="green"><br /></font> <font color="black">FACILITY</font> <font color="green"><br /></font> <font color="red">BARE</font> <font color="blue">CAMPUS</font> <font color="green"><br /></font> <font color="green">facility%1:04:01</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FACILITY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V72479 [label=<<font color="green"><br /></font> <font color="black">FOOD</font> <font color="green"><br /></font> <font color="red">BARE</font> <font color="blue">DINNER</font> <font color="green"><br /></font> <font color="green">dinner%1:13:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FOOD.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V72404 -> V72422 [label=" NEUTRAL1   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V73326 -> V72471 [label=" SEQUENCE1   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V72432 -> V72404 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V72432 -> V72454 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V72415 -> V72422 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V73326 -> V72404 [label=" SEQUENCE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V72422 -> V72415 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V72404 -> V72394 [label=" NEUTRAL   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V72471 -> V72479 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V73393 -> V73326 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V72404 -> V72432 [label=" LOCATION   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V72471 -> V72394 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

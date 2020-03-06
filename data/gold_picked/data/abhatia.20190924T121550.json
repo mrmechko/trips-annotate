@@ -1,0 +1,2256 @@
+{
+  "parse": [
+    {
+      "V121650": {
+        "id": "V121650",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V120407",
+          "LEX": "SOLD"
+        },
+        "start": 0,
+        "end": 66
+      },
+      "V120407": {
+        "id": "V120407",
+        "indicator": "F",
+        "type": "COMMERCE-SELL",
+        "word": "SELL",
+        "roles": {
+          "AGENT": "#V120574",
+          "AFFECTED": "#V120419",
+          "TENSE": "PAST",
+          "LEX": "SOLD",
+          "WNSENSE": "sell%2:40:00::"
+        },
+        "start": 0,
+        "end": 66
+      },
+      "V120574": {
+        "id": "V120574",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "MOD": "#V121321",
+          "LEX": "A"
+        },
+        "start": 0,
+        "end": 49
+      },
+      "V121321": {
+        "id": "V121321",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V121219",
+          "SEQUENCE1": "#V121199",
+          "OPERATOR": "AND"
+        },
+        "start": 2,
+        "end": 49
+      },
+      "V121219": {
+        "id": "V121219",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V120574",
+          "GROUND": "#V120279",
+          "LEX": "WALKED"
+        },
+        "start": 2,
+        "end": 30
+      },
+      "V120279": {
+        "id": "V120279",
+        "indicator": "F",
+        "type": "WALKING",
+        "word": "WALK",
+        "roles": {
+          "RESULT": "#V120288",
+          "AGENT": "#V120273",
+          "AFFECTED": "#V120574",
+          "WNSENSE": "walk%2:38:05::"
+        },
+        "start": 2,
+        "end": 30
+      },
+      "V120273": {
+        "id": "V120273",
+        "indicator": "BARE",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 2,
+        "end": 6
+      },
+      "V120288": {
+        "id": "V120288",
+        "indicator": "F",
+        "type": "GOAL-AS-CONTAINMENT",
+        "word": "INTO",
+        "roles": {
+          "GROUND": "#V120341",
+          "FIGURE": "#V120574",
+          "LEX": "INTO"
+        },
+        "start": 13,
+        "end": 30
+      },
+      "V120341": {
+        "id": "V120341",
+        "indicator": "A",
+        "type": "COMMERCIAL-FACILITY",
+        "word": "STORE",
+        "roles": {
+          "ASSOC-WITH": "#V120334",
+          "LEX": "STORE",
+          "WNSENSE": "store%1:06:00::"
+        },
+        "start": 18,
+        "end": 30
+      },
+      "V120334": {
+        "id": "V120334",
+        "indicator": "KIND",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "PET",
+        "roles": {
+          "LEX": "PET",
+          "WNSENSE": "pet%1:05:00::"
+        },
+        "start": 18,
+        "end": 30
+      },
+      "V121199": {
+        "id": "V121199",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V120574",
+          "GROUND": "#V120359",
+          "LEX": "DEMANDED"
+        },
+        "start": 34,
+        "end": 49
+      },
+      "V120359": {
+        "id": "V120359",
+        "indicator": "F",
+        "type": "REQUEST",
+        "word": "DEMAND",
+        "roles": {
+          "FORMAL": "#V120574",
+          "REASON": "#V120372",
+          "WNSENSE": "demand%2:32:00::"
+        },
+        "start": 34,
+        "end": 49
+      },
+      "V120372": {
+        "id": "V120372",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V120391",
+          "FIGURE": "#V120359",
+          "LEX": "TO"
+        },
+        "start": 43,
+        "end": 49
+      },
+      "V120391": {
+        "id": "V120391",
+        "indicator": "F",
+        "type": "ELLIPSIS",
+        "word": null,
+        "roles": {
+          "VFORM": "BASE",
+          "PROGR": "+",
+          "LEX": "BE"
+        },
+        "start": 46,
+        "end": 49
+      },
+      "V120419": {
+        "id": "V120419",
+        "indicator": "THE",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "PET",
+        "roles": {
+          "MOD": "#V120416",
+          "LEX": "PET",
+          "WNSENSE": "pet%1:05:00::"
+        },
+        "start": 54,
+        "end": 66
+      },
+      "V120416": {
+        "id": "V120416",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "GOOD",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V120419",
+          "SCALE": "ACCEPTABILITY-VAL",
+          "LEX": "BEST",
+          "WNSENSE": "best%3:00:00::"
+        },
+        "start": 58,
+        "end": 63
+      },
+      "root": "#V121650"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V121817": {
+          "id": "V121817",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V120407",
+            "LEX": "SOLD"
+          },
+          "start": 0,
+          "end": 67
+        },
+        "V120407": {
+          "id": "V120407",
+          "indicator": "F",
+          "type": "COMMERCE-SELL",
+          "word": "SELL",
+          "roles": {
+            "AGENT": "#V120574",
+            "AFFECTED": "#V120419",
+            "TENSE": "PAST",
+            "LEX": "SOLD",
+            "WNSENSE": "sell%2:40:00::"
+          },
+          "start": 0,
+          "end": 66
+        },
+        "V120574": {
+          "id": "V120574",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V121492",
+            "LEX": "A"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V121492": {
+          "id": "V121492",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "SEQUENCE": "#V121340",
+            "SEQUENCE1": "#V121199",
+            "OPERATOR": "AND"
+          },
+          "start": 2,
+          "end": 49
+        },
+        "V121340": {
+          "id": "V121340",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V120574",
+            "GROUND": "#V120280",
+            "LEX": "WALKED"
+          },
+          "start": 2,
+          "end": 30
+        },
+        "V120280": {
+          "id": "V120280",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V120288",
+            "AGENT": "#V120273",
+            "NEUTRAL": "#V120574",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 2,
+          "end": 30
+        },
+        "V120273": {
+          "id": "V120273",
+          "indicator": "BARE",
+          "type": "MALE-PERSON",
+          "word": "MAN",
+          "roles": {
+            "LEX": "MAN",
+            "WNSENSE": "man%1:18:00::"
+          },
+          "start": 2,
+          "end": 6
+        },
+        "V120288": {
+          "id": "V120288",
+          "indicator": "F",
+          "type": "GOAL-AS-CONTAINMENT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V120341",
+            "FIGURE": "#V120574",
+            "LEX": "INTO"
+          },
+          "start": 13,
+          "end": 30
+        },
+        "V120341": {
+          "id": "V120341",
+          "indicator": "A",
+          "type": "COMMERCIAL-FACILITY",
+          "word": "STORE",
+          "roles": {
+            "ASSOC-WITH": "#V120334",
+            "LEX": "STORE",
+            "WNSENSE": "store%1:06:00::"
+          },
+          "start": 18,
+          "end": 30
+        },
+        "V120334": {
+          "id": "V120334",
+          "indicator": "KIND",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "PET",
+          "roles": {
+            "LEX": "PET",
+            "WNSENSE": "pet%1:05:00::"
+          },
+          "start": 18,
+          "end": 30
+        },
+        "V121199": {
+          "id": "V121199",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V120574",
+            "GROUND": "#V120359",
+            "LEX": "DEMANDED"
+          },
+          "start": 34,
+          "end": 49
+        },
+        "V120359": {
+          "id": "V120359",
+          "indicator": "F",
+          "type": "REQUEST",
+          "word": "DEMAND",
+          "roles": {
+            "FORMAL": "#V120574",
+            "REASON": "#V120372",
+            "WNSENSE": "demand%2:32:00::"
+          },
+          "start": 34,
+          "end": 49
+        },
+        "V120372": {
+          "id": "V120372",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V120391",
+            "FIGURE": "#V120359",
+            "LEX": "TO"
+          },
+          "start": 43,
+          "end": 49
+        },
+        "V120391": {
+          "id": "V120391",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "VFORM": "BASE",
+            "PROGR": "+",
+            "LEX": "BE"
+          },
+          "start": 46,
+          "end": 49
+        },
+        "V120419": {
+          "id": "V120419",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "PET",
+          "roles": {
+            "MOD": "#V120416",
+            "LEX": "PET",
+            "WNSENSE": "pet%1:05:00::"
+          },
+          "start": 54,
+          "end": 66
+        },
+        "V120416": {
+          "id": "V120416",
+          "indicator": "F",
+          "type": "MAX-VAL",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "HI",
+            "FIGURE": "#V120419",
+            "SCALE": "ACCEPTABILITY-VAL",
+            "LEX": "BEST",
+            "WNSENSE": "best%3:00:00::"
+          },
+          "start": 58,
+          "end": 63
+        },
+        "root": "#V121817"
+      }
+    ],
+    [
+      {
+        "V121662": {
+          "id": "V121662",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V120407",
+            "LEX": "SOLD"
+          },
+          "start": 0,
+          "end": 67
+        },
+        "V120407": {
+          "id": "V120407",
+          "indicator": "F",
+          "type": "COMMERCE-SELL",
+          "word": "SELL",
+          "roles": {
+            "AGENT": "#V120574",
+            "AFFECTED": "#V120419",
+            "BENEFICIARY": "#V120576",
+            "TENSE": "PAST",
+            "LEX": "SOLD",
+            "WNSENSE": "sell%2:40:00::"
+          },
+          "start": 0,
+          "end": 66
+        },
+        "V120574": {
+          "id": "V120574",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V121321",
+            "LEX": "A"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V121321": {
+          "id": "V121321",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "SEQUENCE": "#V121219",
+            "SEQUENCE1": "#V121199",
+            "OPERATOR": "AND"
+          },
+          "start": 2,
+          "end": 49
+        },
+        "V121219": {
+          "id": "V121219",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V120574",
+            "GROUND": "#V120279",
+            "LEX": "WALKED"
+          },
+          "start": 2,
+          "end": 30
+        },
+        "V120279": {
+          "id": "V120279",
+          "indicator": "F",
+          "type": "WALKING",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V120288",
+            "AGENT": "#V120273",
+            "AFFECTED": "#V120574",
+            "WNSENSE": "walk%2:38:05::"
+          },
+          "start": 2,
+          "end": 30
+        },
+        "V120273": {
+          "id": "V120273",
+          "indicator": "BARE",
+          "type": "MALE-PERSON",
+          "word": "MAN",
+          "roles": {
+            "LEX": "MAN",
+            "WNSENSE": "man%1:18:00::"
+          },
+          "start": 2,
+          "end": 6
+        },
+        "V120288": {
+          "id": "V120288",
+          "indicator": "F",
+          "type": "GOAL-AS-CONTAINMENT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V120341",
+            "FIGURE": "#V120574",
+            "LEX": "INTO"
+          },
+          "start": 13,
+          "end": 30
+        },
+        "V120341": {
+          "id": "V120341",
+          "indicator": "A",
+          "type": "COMMERCIAL-FACILITY",
+          "word": "STORE",
+          "roles": {
+            "ASSOC-WITH": "#V120334",
+            "LEX": "STORE",
+            "WNSENSE": "store%1:06:00::"
+          },
+          "start": 18,
+          "end": 30
+        },
+        "V120334": {
+          "id": "V120334",
+          "indicator": "KIND",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "PET",
+          "roles": {
+            "LEX": "PET",
+            "WNSENSE": "pet%1:05:00::"
+          },
+          "start": 18,
+          "end": 30
+        },
+        "V121199": {
+          "id": "V121199",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V120574",
+            "GROUND": "#V120359",
+            "LEX": "DEMANDED"
+          },
+          "start": 34,
+          "end": 49
+        },
+        "V120359": {
+          "id": "V120359",
+          "indicator": "F",
+          "type": "REQUEST",
+          "word": "DEMAND",
+          "roles": {
+            "FORMAL": "#V120574",
+            "REASON": "#V120372",
+            "WNSENSE": "demand%2:32:00::"
+          },
+          "start": 34,
+          "end": 49
+        },
+        "V120372": {
+          "id": "V120372",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V120391",
+            "FIGURE": "#V120359",
+            "LEX": "TO"
+          },
+          "start": 43,
+          "end": 49
+        },
+        "V120391": {
+          "id": "V120391",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "VFORM": "BASE",
+            "PROGR": "+",
+            "LEX": "BE"
+          },
+          "start": 46,
+          "end": 49
+        },
+        "V120576": {
+          "id": "V120576",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V120416",
+            "LEX": "THE"
+          },
+          "start": 54,
+          "end": 63
+        },
+        "V120416": {
+          "id": "V120416",
+          "indicator": "F",
+          "type": "MAX-VAL",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "HI",
+            "FIGURE": "#V120576",
+            "SCALE": "ACCEPTABILITY-VAL",
+            "LEX": "BEST",
+            "WNSENSE": "best%3:00:00::"
+          },
+          "start": 58,
+          "end": 63
+        },
+        "V120419": {
+          "id": "V120419",
+          "indicator": "BARE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "PET",
+          "roles": {
+            "LEX": "PET",
+            "WNSENSE": "pet%1:05:00::"
+          },
+          "start": 63,
+          "end": 66
+        },
+        "root": "#V121662"
+      }
+    ],
+    [
+      {
+        "V121667": {
+          "id": "V121667",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V120407",
+            "LEX": "SOLD"
+          },
+          "start": 0,
+          "end": 67
+        },
+        "V120407": {
+          "id": "V120407",
+          "indicator": "F",
+          "type": "COMMERCE-SELL",
+          "word": "SELL",
+          "roles": {
+            "AGENT": "#V120574",
+            "AFFECTED": "#V120419",
+            "BENEFICIARY": "#V120576",
+            "TENSE": "PAST",
+            "LEX": "SOLD",
+            "WNSENSE": "sell%2:40:00::"
+          },
+          "start": 0,
+          "end": 66
+        },
+        "V120574": {
+          "id": "V120574",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V121321",
+            "LEX": "A"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V121321": {
+          "id": "V121321",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "SEQUENCE": "#V121219",
+            "SEQUENCE1": "#V121199",
+            "OPERATOR": "AND"
+          },
+          "start": 2,
+          "end": 49
+        },
+        "V121219": {
+          "id": "V121219",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V120574",
+            "GROUND": "#V120279",
+            "LEX": "WALKED"
+          },
+          "start": 2,
+          "end": 30
+        },
+        "V120279": {
+          "id": "V120279",
+          "indicator": "F",
+          "type": "WALKING",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V120288",
+            "AGENT": "#V120273",
+            "AFFECTED": "#V120574",
+            "WNSENSE": "walk%2:38:05::"
+          },
+          "start": 2,
+          "end": 30
+        },
+        "V120273": {
+          "id": "V120273",
+          "indicator": "BARE",
+          "type": "MALE-PERSON",
+          "word": "MAN",
+          "roles": {
+            "LEX": "MAN",
+            "WNSENSE": "man%1:18:00::"
+          },
+          "start": 2,
+          "end": 6
+        },
+        "V120288": {
+          "id": "V120288",
+          "indicator": "F",
+          "type": "GOAL-AS-CONTAINMENT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V120341",
+            "FIGURE": "#V120574",
+            "LEX": "INTO"
+          },
+          "start": 13,
+          "end": 30
+        },
+        "V120341": {
+          "id": "V120341",
+          "indicator": "A",
+          "type": "COMMERCIAL-FACILITY",
+          "word": "STORE",
+          "roles": {
+            "ASSOC-WITH": "#V120334",
+            "LEX": "STORE",
+            "WNSENSE": "store%1:06:00::"
+          },
+          "start": 18,
+          "end": 30
+        },
+        "V120334": {
+          "id": "V120334",
+          "indicator": "KIND",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "PET",
+          "roles": {
+            "LEX": "PET",
+            "WNSENSE": "pet%1:05:00::"
+          },
+          "start": 18,
+          "end": 30
+        },
+        "V121199": {
+          "id": "V121199",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V120574",
+            "GROUND": "#V120359",
+            "LEX": "DEMANDED"
+          },
+          "start": 34,
+          "end": 49
+        },
+        "V120359": {
+          "id": "V120359",
+          "indicator": "F",
+          "type": "REQUEST",
+          "word": "DEMAND",
+          "roles": {
+            "FORMAL": "#V120574",
+            "REASON": "#V120372",
+            "WNSENSE": "demand%2:32:00::"
+          },
+          "start": 34,
+          "end": 49
+        },
+        "V120372": {
+          "id": "V120372",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V120391",
+            "FIGURE": "#V120359",
+            "LEX": "TO"
+          },
+          "start": 43,
+          "end": 49
+        },
+        "V120391": {
+          "id": "V120391",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "VFORM": "BASE",
+            "PROGR": "+",
+            "LEX": "BE"
+          },
+          "start": 46,
+          "end": 49
+        },
+        "V120576": {
+          "id": "V120576",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V120416",
+            "LEX": "THE"
+          },
+          "start": 54,
+          "end": 63
+        },
+        "V120416": {
+          "id": "V120416",
+          "indicator": "F",
+          "type": "MAX-VAL",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "HI",
+            "FIGURE": "#V120576",
+            "SCALE": "ACCEPTABILITY-VAL",
+            "LEX": "BEST",
+            "WNSENSE": "best%3:00:00::"
+          },
+          "start": 58,
+          "end": 63
+        },
+        "V120419": {
+          "id": "V120419",
+          "indicator": "BARE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "PET",
+          "roles": {
+            "LEX": "PET",
+            "WNSENSE": "pet%1:05:00::"
+          },
+          "start": 63,
+          "end": 66
+        },
+        "root": "#V121667"
+      }
+    ],
+    [
+      {
+        "V121670": {
+          "id": "V121670",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V120407",
+            "LEX": "SOLD"
+          },
+          "start": 0,
+          "end": 67
+        },
+        "V120407": {
+          "id": "V120407",
+          "indicator": "F",
+          "type": "COMMERCE-SELL",
+          "word": "SELL",
+          "roles": {
+            "AGENT": "#V120574",
+            "AFFECTED": "#V120419",
+            "AFFECTED-RESULT": "#V120616",
+            "TENSE": "PAST",
+            "LEX": "SOLD",
+            "WNSENSE": "sell%2:40:00::"
+          },
+          "start": 0,
+          "end": 66
+        },
+        "V120616": {
+          "id": "V120616",
+          "indicator": "F",
+          "type": "RECIPIENT",
+          "word": "IOBJ",
+          "roles": {
+            "GROUND": "#V120576",
+            "FIGURE": "#V120407"
+          },
+          "start": 0,
+          "end": 66
+        },
+        "V120574": {
+          "id": "V120574",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V121321",
+            "LEX": "A"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V121321": {
+          "id": "V121321",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "SEQUENCE": "#V121219",
+            "SEQUENCE1": "#V121199",
+            "OPERATOR": "AND"
+          },
+          "start": 2,
+          "end": 49
+        },
+        "V121219": {
+          "id": "V121219",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V120574",
+            "GROUND": "#V120279",
+            "LEX": "WALKED"
+          },
+          "start": 2,
+          "end": 30
+        },
+        "V120279": {
+          "id": "V120279",
+          "indicator": "F",
+          "type": "WALKING",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V120288",
+            "AGENT": "#V120273",
+            "AFFECTED": "#V120574",
+            "WNSENSE": "walk%2:38:05::"
+          },
+          "start": 2,
+          "end": 30
+        },
+        "V120273": {
+          "id": "V120273",
+          "indicator": "BARE",
+          "type": "MALE-PERSON",
+          "word": "MAN",
+          "roles": {
+            "LEX": "MAN",
+            "WNSENSE": "man%1:18:00::"
+          },
+          "start": 2,
+          "end": 6
+        },
+        "V120288": {
+          "id": "V120288",
+          "indicator": "F",
+          "type": "GOAL-AS-CONTAINMENT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V120341",
+            "FIGURE": "#V120574",
+            "LEX": "INTO"
+          },
+          "start": 13,
+          "end": 30
+        },
+        "V120341": {
+          "id": "V120341",
+          "indicator": "A",
+          "type": "COMMERCIAL-FACILITY",
+          "word": "STORE",
+          "roles": {
+            "ASSOC-WITH": "#V120334",
+            "LEX": "STORE",
+            "WNSENSE": "store%1:06:00::"
+          },
+          "start": 18,
+          "end": 30
+        },
+        "V120334": {
+          "id": "V120334",
+          "indicator": "KIND",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "PET",
+          "roles": {
+            "LEX": "PET",
+            "WNSENSE": "pet%1:05:00::"
+          },
+          "start": 18,
+          "end": 30
+        },
+        "V121199": {
+          "id": "V121199",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V120574",
+            "GROUND": "#V120359",
+            "LEX": "DEMANDED"
+          },
+          "start": 34,
+          "end": 49
+        },
+        "V120359": {
+          "id": "V120359",
+          "indicator": "F",
+          "type": "REQUEST",
+          "word": "DEMAND",
+          "roles": {
+            "FORMAL": "#V120574",
+            "REASON": "#V120372",
+            "WNSENSE": "demand%2:32:00::"
+          },
+          "start": 34,
+          "end": 49
+        },
+        "V120372": {
+          "id": "V120372",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V120391",
+            "FIGURE": "#V120359",
+            "LEX": "TO"
+          },
+          "start": 43,
+          "end": 49
+        },
+        "V120391": {
+          "id": "V120391",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "VFORM": "BASE",
+            "PROGR": "+",
+            "LEX": "BE"
+          },
+          "start": 46,
+          "end": 49
+        },
+        "V120576": {
+          "id": "V120576",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V120416",
+            "LEX": "THE"
+          },
+          "start": 54,
+          "end": 63
+        },
+        "V120416": {
+          "id": "V120416",
+          "indicator": "F",
+          "type": "MAX-VAL",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "HI",
+            "FIGURE": "#V120576",
+            "SCALE": "ACCEPTABILITY-VAL",
+            "LEX": "BEST",
+            "WNSENSE": "best%3:00:00::"
+          },
+          "start": 58,
+          "end": 63
+        },
+        "V120419": {
+          "id": "V120419",
+          "indicator": "BARE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "PET",
+          "roles": {
+            "LEX": "PET",
+            "WNSENSE": "pet%1:05:00::"
+          },
+          "start": 63,
+          "end": 66
+        },
+        "root": "#V121670"
+      }
+    ],
+    [
+      {
+        "V121678": {
+          "id": "V121678",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V120407",
+            "LEX": "SOLD"
+          },
+          "start": 0,
+          "end": 67
+        },
+        "V120407": {
+          "id": "V120407",
+          "indicator": "F",
+          "type": "COMMERCE-SELL",
+          "word": "SELL",
+          "roles": {
+            "AGENT": "#V120574",
+            "AFFECTED": "#V120419",
+            "AFFECTED-RESULT": "#V120616",
+            "TENSE": "PAST",
+            "LEX": "SOLD",
+            "WNSENSE": "sell%2:40:00::"
+          },
+          "start": 0,
+          "end": 66
+        },
+        "V120616": {
+          "id": "V120616",
+          "indicator": "F",
+          "type": "RECIPIENT",
+          "word": "IOBJ",
+          "roles": {
+            "GROUND": "#V120576",
+            "FIGURE": "#V120407"
+          },
+          "start": 0,
+          "end": 66
+        },
+        "V120574": {
+          "id": "V120574",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V121321",
+            "LEX": "A"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V121321": {
+          "id": "V121321",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "SEQUENCE": "#V121219",
+            "SEQUENCE1": "#V121199",
+            "OPERATOR": "AND"
+          },
+          "start": 2,
+          "end": 49
+        },
+        "V121219": {
+          "id": "V121219",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V120574",
+            "GROUND": "#V120279",
+            "LEX": "WALKED"
+          },
+          "start": 2,
+          "end": 30
+        },
+        "V120279": {
+          "id": "V120279",
+          "indicator": "F",
+          "type": "WALKING",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V120288",
+            "AGENT": "#V120273",
+            "AFFECTED": "#V120574",
+            "WNSENSE": "walk%2:38:05::"
+          },
+          "start": 2,
+          "end": 30
+        },
+        "V120273": {
+          "id": "V120273",
+          "indicator": "BARE",
+          "type": "MALE-PERSON",
+          "word": "MAN",
+          "roles": {
+            "LEX": "MAN",
+            "WNSENSE": "man%1:18:00::"
+          },
+          "start": 2,
+          "end": 6
+        },
+        "V120288": {
+          "id": "V120288",
+          "indicator": "F",
+          "type": "GOAL-AS-CONTAINMENT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V120341",
+            "FIGURE": "#V120574",
+            "LEX": "INTO"
+          },
+          "start": 13,
+          "end": 30
+        },
+        "V120341": {
+          "id": "V120341",
+          "indicator": "A",
+          "type": "COMMERCIAL-FACILITY",
+          "word": "STORE",
+          "roles": {
+            "ASSOC-WITH": "#V120334",
+            "LEX": "STORE",
+            "WNSENSE": "store%1:06:00::"
+          },
+          "start": 18,
+          "end": 30
+        },
+        "V120334": {
+          "id": "V120334",
+          "indicator": "KIND",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "PET",
+          "roles": {
+            "LEX": "PET",
+            "WNSENSE": "pet%1:05:00::"
+          },
+          "start": 18,
+          "end": 30
+        },
+        "V121199": {
+          "id": "V121199",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V120574",
+            "GROUND": "#V120359",
+            "LEX": "DEMANDED"
+          },
+          "start": 34,
+          "end": 49
+        },
+        "V120359": {
+          "id": "V120359",
+          "indicator": "F",
+          "type": "REQUEST",
+          "word": "DEMAND",
+          "roles": {
+            "FORMAL": "#V120574",
+            "REASON": "#V120372",
+            "WNSENSE": "demand%2:32:00::"
+          },
+          "start": 34,
+          "end": 49
+        },
+        "V120372": {
+          "id": "V120372",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V120391",
+            "FIGURE": "#V120359",
+            "LEX": "TO"
+          },
+          "start": 43,
+          "end": 49
+        },
+        "V120391": {
+          "id": "V120391",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "VFORM": "BASE",
+            "PROGR": "+",
+            "LEX": "BE"
+          },
+          "start": 46,
+          "end": 49
+        },
+        "V120576": {
+          "id": "V120576",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V120416",
+            "LEX": "THE"
+          },
+          "start": 54,
+          "end": 63
+        },
+        "V120416": {
+          "id": "V120416",
+          "indicator": "F",
+          "type": "MAX-VAL",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "HI",
+            "FIGURE": "#V120576",
+            "SCALE": "ACCEPTABILITY-VAL",
+            "LEX": "BEST",
+            "WNSENSE": "best%3:00:00::"
+          },
+          "start": 58,
+          "end": 63
+        },
+        "V120419": {
+          "id": "V120419",
+          "indicator": "BARE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "PET",
+          "roles": {
+            "LEX": "PET",
+            "WNSENSE": "pet%1:05:00::"
+          },
+          "start": 63,
+          "end": 66
+        },
+        "root": "#V121678"
+      }
+    ],
+    [
+      {
+        "V121829": {
+          "id": "V121829",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V120407",
+            "LEX": "SOLD"
+          },
+          "start": 0,
+          "end": 67
+        },
+        "V120407": {
+          "id": "V120407",
+          "indicator": "F",
+          "type": "COMMERCE-SELL",
+          "word": "SELL",
+          "roles": {
+            "AGENT": "#V120574",
+            "AFFECTED": "#V120419",
+            "BENEFICIARY": "#V120576",
+            "TENSE": "PAST",
+            "LEX": "SOLD",
+            "WNSENSE": "sell%2:40:00::"
+          },
+          "start": 0,
+          "end": 66
+        },
+        "V120574": {
+          "id": "V120574",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V121492",
+            "LEX": "A"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V121492": {
+          "id": "V121492",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "SEQUENCE": "#V121340",
+            "SEQUENCE1": "#V121199",
+            "OPERATOR": "AND"
+          },
+          "start": 2,
+          "end": 49
+        },
+        "V121340": {
+          "id": "V121340",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V120574",
+            "GROUND": "#V120280",
+            "LEX": "WALKED"
+          },
+          "start": 2,
+          "end": 30
+        },
+        "V120280": {
+          "id": "V120280",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V120288",
+            "AGENT": "#V120273",
+            "NEUTRAL": "#V120574",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 2,
+          "end": 30
+        },
+        "V120273": {
+          "id": "V120273",
+          "indicator": "BARE",
+          "type": "MALE-PERSON",
+          "word": "MAN",
+          "roles": {
+            "LEX": "MAN",
+            "WNSENSE": "man%1:18:00::"
+          },
+          "start": 2,
+          "end": 6
+        },
+        "V120288": {
+          "id": "V120288",
+          "indicator": "F",
+          "type": "GOAL-AS-CONTAINMENT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V120341",
+            "FIGURE": "#V120574",
+            "LEX": "INTO"
+          },
+          "start": 13,
+          "end": 30
+        },
+        "V120341": {
+          "id": "V120341",
+          "indicator": "A",
+          "type": "COMMERCIAL-FACILITY",
+          "word": "STORE",
+          "roles": {
+            "ASSOC-WITH": "#V120334",
+            "LEX": "STORE",
+            "WNSENSE": "store%1:06:00::"
+          },
+          "start": 18,
+          "end": 30
+        },
+        "V120334": {
+          "id": "V120334",
+          "indicator": "KIND",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "PET",
+          "roles": {
+            "LEX": "PET",
+            "WNSENSE": "pet%1:05:00::"
+          },
+          "start": 18,
+          "end": 30
+        },
+        "V121199": {
+          "id": "V121199",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V120574",
+            "GROUND": "#V120359",
+            "LEX": "DEMANDED"
+          },
+          "start": 34,
+          "end": 49
+        },
+        "V120359": {
+          "id": "V120359",
+          "indicator": "F",
+          "type": "REQUEST",
+          "word": "DEMAND",
+          "roles": {
+            "FORMAL": "#V120574",
+            "REASON": "#V120372",
+            "WNSENSE": "demand%2:32:00::"
+          },
+          "start": 34,
+          "end": 49
+        },
+        "V120372": {
+          "id": "V120372",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V120391",
+            "FIGURE": "#V120359",
+            "LEX": "TO"
+          },
+          "start": 43,
+          "end": 49
+        },
+        "V120391": {
+          "id": "V120391",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "VFORM": "BASE",
+            "PROGR": "+",
+            "LEX": "BE"
+          },
+          "start": 46,
+          "end": 49
+        },
+        "V120576": {
+          "id": "V120576",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V120416",
+            "LEX": "THE"
+          },
+          "start": 54,
+          "end": 63
+        },
+        "V120416": {
+          "id": "V120416",
+          "indicator": "F",
+          "type": "MAX-VAL",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "HI",
+            "FIGURE": "#V120576",
+            "SCALE": "ACCEPTABILITY-VAL",
+            "LEX": "BEST",
+            "WNSENSE": "best%3:00:00::"
+          },
+          "start": 58,
+          "end": 63
+        },
+        "V120419": {
+          "id": "V120419",
+          "indicator": "BARE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "PET",
+          "roles": {
+            "LEX": "PET",
+            "WNSENSE": "pet%1:05:00::"
+          },
+          "start": 63,
+          "end": 66
+        },
+        "root": "#V121829"
+      }
+    ],
+    [
+      {
+        "V121833": {
+          "id": "V121833",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V120407",
+            "LEX": "SOLD"
+          },
+          "start": 0,
+          "end": 67
+        },
+        "V120407": {
+          "id": "V120407",
+          "indicator": "F",
+          "type": "COMMERCE-SELL",
+          "word": "SELL",
+          "roles": {
+            "AGENT": "#V120574",
+            "AFFECTED": "#V120419",
+            "BENEFICIARY": "#V120576",
+            "TENSE": "PAST",
+            "LEX": "SOLD",
+            "WNSENSE": "sell%2:40:00::"
+          },
+          "start": 0,
+          "end": 66
+        },
+        "V120574": {
+          "id": "V120574",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V121492",
+            "LEX": "A"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V121492": {
+          "id": "V121492",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "SEQUENCE": "#V121340",
+            "SEQUENCE1": "#V121199",
+            "OPERATOR": "AND"
+          },
+          "start": 2,
+          "end": 49
+        },
+        "V121340": {
+          "id": "V121340",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V120574",
+            "GROUND": "#V120280",
+            "LEX": "WALKED"
+          },
+          "start": 2,
+          "end": 30
+        },
+        "V120280": {
+          "id": "V120280",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V120288",
+            "AGENT": "#V120273",
+            "NEUTRAL": "#V120574",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 2,
+          "end": 30
+        },
+        "V120273": {
+          "id": "V120273",
+          "indicator": "BARE",
+          "type": "MALE-PERSON",
+          "word": "MAN",
+          "roles": {
+            "LEX": "MAN",
+            "WNSENSE": "man%1:18:00::"
+          },
+          "start": 2,
+          "end": 6
+        },
+        "V120288": {
+          "id": "V120288",
+          "indicator": "F",
+          "type": "GOAL-AS-CONTAINMENT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V120341",
+            "FIGURE": "#V120574",
+            "LEX": "INTO"
+          },
+          "start": 13,
+          "end": 30
+        },
+        "V120341": {
+          "id": "V120341",
+          "indicator": "A",
+          "type": "COMMERCIAL-FACILITY",
+          "word": "STORE",
+          "roles": {
+            "ASSOC-WITH": "#V120334",
+            "LEX": "STORE",
+            "WNSENSE": "store%1:06:00::"
+          },
+          "start": 18,
+          "end": 30
+        },
+        "V120334": {
+          "id": "V120334",
+          "indicator": "KIND",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "PET",
+          "roles": {
+            "LEX": "PET",
+            "WNSENSE": "pet%1:05:00::"
+          },
+          "start": 18,
+          "end": 30
+        },
+        "V121199": {
+          "id": "V121199",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V120574",
+            "GROUND": "#V120359",
+            "LEX": "DEMANDED"
+          },
+          "start": 34,
+          "end": 49
+        },
+        "V120359": {
+          "id": "V120359",
+          "indicator": "F",
+          "type": "REQUEST",
+          "word": "DEMAND",
+          "roles": {
+            "FORMAL": "#V120574",
+            "REASON": "#V120372",
+            "WNSENSE": "demand%2:32:00::"
+          },
+          "start": 34,
+          "end": 49
+        },
+        "V120372": {
+          "id": "V120372",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V120391",
+            "FIGURE": "#V120359",
+            "LEX": "TO"
+          },
+          "start": 43,
+          "end": 49
+        },
+        "V120391": {
+          "id": "V120391",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "VFORM": "BASE",
+            "PROGR": "+",
+            "LEX": "BE"
+          },
+          "start": 46,
+          "end": 49
+        },
+        "V120576": {
+          "id": "V120576",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V120416",
+            "LEX": "THE"
+          },
+          "start": 54,
+          "end": 63
+        },
+        "V120416": {
+          "id": "V120416",
+          "indicator": "F",
+          "type": "MAX-VAL",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "HI",
+            "FIGURE": "#V120576",
+            "SCALE": "ACCEPTABILITY-VAL",
+            "LEX": "BEST",
+            "WNSENSE": "best%3:00:00::"
+          },
+          "start": 58,
+          "end": 63
+        },
+        "V120419": {
+          "id": "V120419",
+          "indicator": "BARE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "PET",
+          "roles": {
+            "LEX": "PET",
+            "WNSENSE": "pet%1:05:00::"
+          },
+          "start": 63,
+          "end": 66
+        },
+        "root": "#V121833"
+      }
+    ],
+    [
+      {
+        "V121836": {
+          "id": "V121836",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V120407",
+            "LEX": "SOLD"
+          },
+          "start": 0,
+          "end": 67
+        },
+        "V120407": {
+          "id": "V120407",
+          "indicator": "F",
+          "type": "COMMERCE-SELL",
+          "word": "SELL",
+          "roles": {
+            "AGENT": "#V120574",
+            "AFFECTED": "#V120419",
+            "AFFECTED-RESULT": "#V120616",
+            "TENSE": "PAST",
+            "LEX": "SOLD",
+            "WNSENSE": "sell%2:40:00::"
+          },
+          "start": 0,
+          "end": 66
+        },
+        "V120616": {
+          "id": "V120616",
+          "indicator": "F",
+          "type": "RECIPIENT",
+          "word": "IOBJ",
+          "roles": {
+            "GROUND": "#V120576",
+            "FIGURE": "#V120407"
+          },
+          "start": 0,
+          "end": 66
+        },
+        "V120574": {
+          "id": "V120574",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V121492",
+            "LEX": "A"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V121492": {
+          "id": "V121492",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "SEQUENCE": "#V121340",
+            "SEQUENCE1": "#V121199",
+            "OPERATOR": "AND"
+          },
+          "start": 2,
+          "end": 49
+        },
+        "V121340": {
+          "id": "V121340",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V120574",
+            "GROUND": "#V120280",
+            "LEX": "WALKED"
+          },
+          "start": 2,
+          "end": 30
+        },
+        "V120280": {
+          "id": "V120280",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V120288",
+            "AGENT": "#V120273",
+            "NEUTRAL": "#V120574",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 2,
+          "end": 30
+        },
+        "V120273": {
+          "id": "V120273",
+          "indicator": "BARE",
+          "type": "MALE-PERSON",
+          "word": "MAN",
+          "roles": {
+            "LEX": "MAN",
+            "WNSENSE": "man%1:18:00::"
+          },
+          "start": 2,
+          "end": 6
+        },
+        "V120288": {
+          "id": "V120288",
+          "indicator": "F",
+          "type": "GOAL-AS-CONTAINMENT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V120341",
+            "FIGURE": "#V120574",
+            "LEX": "INTO"
+          },
+          "start": 13,
+          "end": 30
+        },
+        "V120341": {
+          "id": "V120341",
+          "indicator": "A",
+          "type": "COMMERCIAL-FACILITY",
+          "word": "STORE",
+          "roles": {
+            "ASSOC-WITH": "#V120334",
+            "LEX": "STORE",
+            "WNSENSE": "store%1:06:00::"
+          },
+          "start": 18,
+          "end": 30
+        },
+        "V120334": {
+          "id": "V120334",
+          "indicator": "KIND",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "PET",
+          "roles": {
+            "LEX": "PET",
+            "WNSENSE": "pet%1:05:00::"
+          },
+          "start": 18,
+          "end": 30
+        },
+        "V121199": {
+          "id": "V121199",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V120574",
+            "GROUND": "#V120359",
+            "LEX": "DEMANDED"
+          },
+          "start": 34,
+          "end": 49
+        },
+        "V120359": {
+          "id": "V120359",
+          "indicator": "F",
+          "type": "REQUEST",
+          "word": "DEMAND",
+          "roles": {
+            "FORMAL": "#V120574",
+            "REASON": "#V120372",
+            "WNSENSE": "demand%2:32:00::"
+          },
+          "start": 34,
+          "end": 49
+        },
+        "V120372": {
+          "id": "V120372",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V120391",
+            "FIGURE": "#V120359",
+            "LEX": "TO"
+          },
+          "start": 43,
+          "end": 49
+        },
+        "V120391": {
+          "id": "V120391",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "VFORM": "BASE",
+            "PROGR": "+",
+            "LEX": "BE"
+          },
+          "start": 46,
+          "end": 49
+        },
+        "V120576": {
+          "id": "V120576",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V120416",
+            "LEX": "THE"
+          },
+          "start": 54,
+          "end": 63
+        },
+        "V120416": {
+          "id": "V120416",
+          "indicator": "F",
+          "type": "MAX-VAL",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "HI",
+            "FIGURE": "#V120576",
+            "SCALE": "ACCEPTABILITY-VAL",
+            "LEX": "BEST",
+            "WNSENSE": "best%3:00:00::"
+          },
+          "start": 58,
+          "end": 63
+        },
+        "V120419": {
+          "id": "V120419",
+          "indicator": "BARE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "PET",
+          "roles": {
+            "LEX": "PET",
+            "WNSENSE": "pet%1:05:00::"
+          },
+          "start": 63,
+          "end": 66
+        },
+        "root": "#V121836"
+      }
+    ],
+    [
+      {
+        "V122718": {
+          "id": "V122718",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V120407",
+            "LEX": "SOLD"
+          },
+          "start": 0,
+          "end": 67
+        },
+        "V120407": {
+          "id": "V120407",
+          "indicator": "F",
+          "type": "COMMERCE-SELL",
+          "word": "SELL",
+          "roles": {
+            "AGENT": "#V120273",
+            "AFFECTED": "#V120419",
+            "TENSE": "PAST",
+            "LEX": "SOLD",
+            "WNSENSE": "sell%2:40:00::"
+          },
+          "start": 0,
+          "end": 66
+        },
+        "V120273": {
+          "id": "V120273",
+          "indicator": "A",
+          "type": "MALE-PERSON",
+          "word": "MAN",
+          "roles": {
+            "MOD": "#V120279",
+            "LEX": "MAN",
+            "WNSENSE": "man%1:18:00::"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V120279": {
+          "id": "V120279",
+          "indicator": "F",
+          "type": "WALKING",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V120288",
+            "AFFECTED": "#V120273",
+            "VFORM": "PASSIVE",
+            "LEX": "WALKED",
+            "WNSENSE": "walk%2:38:05::"
+          },
+          "start": 6,
+          "end": 30
+        },
+        "V120288": {
+          "id": "V120288",
+          "indicator": "F",
+          "type": "GOAL-AS-CONTAINMENT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V120341",
+            "FIGURE": "#V120273",
+            "LEX": "INTO"
+          },
+          "start": 13,
+          "end": 30
+        },
+        "V120341": {
+          "id": "V120341",
+          "indicator": "A",
+          "type": "COMMERCIAL-FACILITY",
+          "word": "STORE",
+          "roles": {
+            "ASSOC-WITH": "#V120334",
+            "LEX": "STORE",
+            "WNSENSE": "store%1:06:00::"
+          },
+          "start": 18,
+          "end": 30
+        },
+        "V120334": {
+          "id": "V120334",
+          "indicator": "KIND",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "PET",
+          "roles": {
+            "LEX": "PET",
+            "WNSENSE": "pet%1:05:00::"
+          },
+          "start": 18,
+          "end": 30
+        },
+        "V120349": {
+          "id": "V120349",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "AND",
+          "roles": {
+            "LEX": "AND"
+          },
+          "start": 30,
+          "end": 34
+        },
+        "V120359": {
+          "id": "V120359",
+          "indicator": "F",
+          "type": "REQUEST",
+          "word": "DEMAND",
+          "roles": {
+            "FORMAL": "#V120273",
+            "REASON": "#V120372",
+            "VFORM": "PASSIVE",
+            "LEX": "DEMANDED",
+            "WNSENSE": "demand%2:32:00::"
+          },
+          "start": 34,
+          "end": 49
+        },
+        "V120372": {
+          "id": "V120372",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V120391",
+            "FIGURE": "#V120359",
+            "LEX": "TO"
+          },
+          "start": 43,
+          "end": 49
+        },
+        "V120391": {
+          "id": "V120391",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "VFORM": "BASE",
+            "PROGR": "+",
+            "LEX": "BE"
+          },
+          "start": 46,
+          "end": 49
+        },
+        "V120419": {
+          "id": "V120419",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "PET",
+          "roles": {
+            "MOD": "#V120416",
+            "LEX": "PET",
+            "WNSENSE": "pet%1:05:00::"
+          },
+          "start": 54,
+          "end": 66
+        },
+        "V120416": {
+          "id": "V120416",
+          "indicator": "F",
+          "type": "MAX-VAL",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "HI",
+            "FIGURE": "#V120419",
+            "SCALE": "ACCEPTABILITY-VAL",
+            "LEX": "BEST",
+            "WNSENSE": "best%3:00:00::"
+          },
+          "start": 58,
+          "end": 63
+        },
+        "root": "#V122718"
+      }
+    ]
+  ],
+  "sentence": "A man walked into a pet store and demanded to be sold the best pet.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190924T121550",
+    "link": "http://trips.ihmc.us/parser/saved/20190924T121550-STEP-abhatia-none-A_man_walked_into_a_pet_store_and_demand.xml",
+    "judgement": -1
+  }
+}

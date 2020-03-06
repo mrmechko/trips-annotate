@@ -1,0 +1,540 @@
+{
+  "parse": [
+    {
+      "V312851": {
+        "id": "V312851",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V312243",
+          "LEX": "WON"
+        },
+        "start": 0,
+        "end": 37
+      },
+      "V312243": {
+        "id": "V312243",
+        "indicator": "F",
+        "type": "ACQUIRE",
+        "word": "WIN",
+        "roles": {
+          "AGENT": "#V312229",
+          "AFFECTED": "#V312254",
+          "MOD": "#V312269",
+          "TENSE": "PAST",
+          "LEX": "WON",
+          "WNSENSE": "win%2:40:00::"
+        },
+        "start": 0,
+        "end": 37
+      },
+      "V312229": {
+        "id": "V312229",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V312254": {
+        "id": "V312254",
+        "indicator": "THE-SET",
+        "type": "RIGHT-LOC",
+        "word": "RIGHT",
+        "roles": {
+          "LEX": "RIGHTS",
+          "WNSENSE": "right%1:15:00::"
+        },
+        "start": 6,
+        "end": 17
+      },
+      "V312269": {
+        "id": "V312269",
+        "indicator": "F",
+        "type": "COMPLETELY",
+        "word": "OVER",
+        "roles": {
+          "GROUND": "#V312294",
+          "FIGURE": "#V312243",
+          "LEX": "OVER",
+          "WNSENSE": "over%4:02:01::"
+        },
+        "start": 17,
+        "end": 37
+      },
+      "V312294": {
+        "id": "V312294",
+        "indicator": "THE-SET",
+        "type": "MAMMAL",
+        "word": null,
+        "roles": {
+          "ASSOC-POSS": "#V312284",
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V312288",
+          "SEQUENCE1": "#V312303",
+          "LEX": "AND"
+        },
+        "start": 22,
+        "end": 37
+      },
+      "V312303": {
+        "id": "V312303",
+        "indicator": "INDEF-SET",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "DOG",
+        "roles": {
+          "LEX": "DOG",
+          "WNSENSE": "dog%1:05:00::"
+        },
+        "start": 22,
+        "end": 37
+      },
+      "V312288": {
+        "id": "V312288",
+        "indicator": "INDEF-SET",
+        "type": "CHILD",
+        "word": "KID",
+        "roles": {
+          "LEX": "KIDS",
+          "WNSENSE": "kid%1:18:00::"
+        },
+        "start": 22,
+        "end": 37
+      },
+      "V312284": {
+        "id": "V312284",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 22,
+        "end": 37
+      },
+      "root": "#V312851"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V312841": {
+          "id": "V312841",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V312398",
+            "LEX": "WON"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V312398": {
+          "id": "V312398",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": null,
+          "roles": {
+            "AGENT": "#V312229",
+            "AFFECTED": "#V312254",
+            "METHOD": "#V312244",
+            "FORMAL": "#V312264",
+            "TENSE": "PAST",
+            "LEX": "WON"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V312229": {
+          "id": "V312229",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V312244": {
+          "id": "V312244",
+          "indicator": "F",
+          "type": "WIN-COMPETE",
+          "word": "WIN",
+          "roles": {
+            "AGENT": "#V312229",
+            "TENSE": "PAST",
+            "LEX": "WON",
+            "WNSENSE": "win%2:33:00::"
+          },
+          "start": 2,
+          "end": 6
+        },
+        "V312254": {
+          "id": "V312254",
+          "indicator": "THE-SET",
+          "type": "RIGHT-LOC",
+          "word": "RIGHT",
+          "roles": {
+            "LEX": "RIGHTS",
+            "WNSENSE": "right%1:15:00::"
+          },
+          "start": 6,
+          "end": 17
+        },
+        "V312264": {
+          "id": "V312264",
+          "indicator": "F",
+          "type": "ABOVE",
+          "word": "OVER",
+          "roles": {
+            "GROUND": "#V312294",
+            "FIGURE": "#V312254",
+            "LEX": "OVER"
+          },
+          "start": 17,
+          "end": 37
+        },
+        "V312294": {
+          "id": "V312294",
+          "indicator": "THE-SET",
+          "type": "MAMMAL",
+          "word": null,
+          "roles": {
+            "ASSOC-POSS": "#V312284",
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V312288",
+            "SEQUENCE1": "#V312303",
+            "LEX": "AND"
+          },
+          "start": 22,
+          "end": 37
+        },
+        "V312303": {
+          "id": "V312303",
+          "indicator": "INDEF-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOG",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 22,
+          "end": 37
+        },
+        "V312288": {
+          "id": "V312288",
+          "indicator": "INDEF-SET",
+          "type": "CHILD",
+          "word": "KID",
+          "roles": {
+            "LEX": "KIDS",
+            "WNSENSE": "kid%1:18:00::"
+          },
+          "start": 22,
+          "end": 37
+        },
+        "V312284": {
+          "id": "V312284",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 22,
+          "end": 37
+        },
+        "root": "#V312841"
+      }
+    ],
+    [
+      {
+        "V312743": {
+          "id": "V312743",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V312243",
+            "LEX": "WON"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V312243": {
+          "id": "V312243",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "WIN",
+          "roles": {
+            "AGENT": "#V312229",
+            "AFFECTED": "#V312254",
+            "MOD": "#V312269",
+            "TENSE": "PAST",
+            "LEX": "WON",
+            "WNSENSE": "win%2:40:00::"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V312229": {
+          "id": "V312229",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V312254": {
+          "id": "V312254",
+          "indicator": "THE-SET",
+          "type": "RIGHT-LOC",
+          "word": "RIGHT",
+          "roles": {
+            "LEX": "RIGHTS",
+            "WNSENSE": "right%1:15:00::"
+          },
+          "start": 6,
+          "end": 17
+        },
+        "V312269": {
+          "id": "V312269",
+          "indicator": "F",
+          "type": "COMPLETELY",
+          "word": "OVER",
+          "roles": {
+            "GROUND": "#V312294",
+            "FIGURE": "#V312243",
+            "LEX": "OVER",
+            "WNSENSE": "over%4:02:01::"
+          },
+          "start": 17,
+          "end": 37
+        },
+        "V312294": {
+          "id": "V312294",
+          "indicator": "THE-SET",
+          "type": "MAMMAL",
+          "word": null,
+          "roles": {
+            "ASSOC-POSS": "#V312284",
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V312287",
+            "SEQUENCE1": "#V312303",
+            "LEX": "AND"
+          },
+          "start": 22,
+          "end": 37
+        },
+        "V312303": {
+          "id": "V312303",
+          "indicator": "INDEF-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOG",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 22,
+          "end": 37
+        },
+        "V312287": {
+          "id": "V312287",
+          "indicator": "INDEF-SET",
+          "type": "CHILD",
+          "word": "KID",
+          "roles": {
+            "LEX": "KIDS",
+            "WNSENSE": "kid%1:18:00::"
+          },
+          "start": 22,
+          "end": 37
+        },
+        "V312284": {
+          "id": "V312284",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 22,
+          "end": 37
+        },
+        "root": "#V312743"
+      }
+    ],
+    [
+      {
+        "V312733": {
+          "id": "V312733",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V312398",
+            "LEX": "WON"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V312398": {
+          "id": "V312398",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": null,
+          "roles": {
+            "AGENT": "#V312229",
+            "AFFECTED": "#V312254",
+            "METHOD": "#V312244",
+            "FORMAL": "#V312264",
+            "TENSE": "PAST",
+            "LEX": "WON"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V312229": {
+          "id": "V312229",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V312244": {
+          "id": "V312244",
+          "indicator": "F",
+          "type": "WIN-COMPETE",
+          "word": "WIN",
+          "roles": {
+            "AGENT": "#V312229",
+            "TENSE": "PAST",
+            "LEX": "WON",
+            "WNSENSE": "win%2:33:00::"
+          },
+          "start": 2,
+          "end": 6
+        },
+        "V312254": {
+          "id": "V312254",
+          "indicator": "THE-SET",
+          "type": "RIGHT-LOC",
+          "word": "RIGHT",
+          "roles": {
+            "LEX": "RIGHTS",
+            "WNSENSE": "right%1:15:00::"
+          },
+          "start": 6,
+          "end": 17
+        },
+        "V312264": {
+          "id": "V312264",
+          "indicator": "F",
+          "type": "ABOVE",
+          "word": "OVER",
+          "roles": {
+            "GROUND": "#V312294",
+            "FIGURE": "#V312254",
+            "LEX": "OVER"
+          },
+          "start": 17,
+          "end": 37
+        },
+        "V312294": {
+          "id": "V312294",
+          "indicator": "THE-SET",
+          "type": "MAMMAL",
+          "word": null,
+          "roles": {
+            "ASSOC-POSS": "#V312284",
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V312287",
+            "SEQUENCE1": "#V312303",
+            "LEX": "AND"
+          },
+          "start": 22,
+          "end": 37
+        },
+        "V312303": {
+          "id": "V312303",
+          "indicator": "INDEF-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOG",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 22,
+          "end": 37
+        },
+        "V312287": {
+          "id": "V312287",
+          "indicator": "INDEF-SET",
+          "type": "CHILD",
+          "word": "KID",
+          "roles": {
+            "LEX": "KIDS",
+            "WNSENSE": "kid%1:18:00::"
+          },
+          "start": 22,
+          "end": 37
+        },
+        "V312284": {
+          "id": "V312284",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 22,
+          "end": 37
+        },
+        "root": "#V312733"
+      }
+    ]
+  ],
+  "sentence": "I won the rights over my kids and dog!",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190801T211625",
+    "link": "http://trips.ihmc.us/parser/saved/20190801T211625-STEP-abhatia-none-I_won_the_rights_over_my_kids_and_dog_.xml",
+    "judgement": -1
+  }
+}

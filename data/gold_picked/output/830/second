@@ -1,0 +1,25 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V53133 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V52687 [label=<<font color="green"><br /></font> <font color="black">EVENT-OF-ACTION</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EVENT-OF-ACTION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V52114 [label=<<font color="green"><br /></font> <font color="black">ARRANGING</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">ORDER</font> <font color="green"><br /></font> <font color="green">order%2:30:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ARRANGING.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V52047 [label=<<font color="green"><br /></font> <font color="black">SAY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">SAY</font> <font color="green"><br /></font> <font color="green">say%2:32:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SAY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V52033 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">I</font> <font color="green"><br /></font> <font color="green">person%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V52078 [label=<<font color="green"><br /></font> <font color="black">HAVE-PROPERTY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BE</font> <font color="green"><br /></font> <font color="green">be%2:42:03::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::HAVE-PROPERTY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V52069 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">IT</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V52093 [label=<<font color="green"><br /></font> <font color="black">GOOD</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">OKAY</font> <font color="green"><br /></font> <font color="green">okay%5:00:00:satisfactory:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GOOD.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V52127 [label=<<font color="green"><br /></font> <font color="black">FOOD</font> <font color="green"><br /></font> <font color="red">SM</font> <font color="blue">FOOD</font> <font color="green"><br /></font> <font color="green">food%1:03:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FOOD.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V52114 -> V52033 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V52687 -> V52114 [label=" SEQUENCE1   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V52687 -> V52047 [label=" SEQUENCE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V52078 -> V52093 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V52078 -> V52069 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V52093 -> V52069 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V53133 -> V52687 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V52047 -> V52033 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V52114 -> V52127 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V52047 -> V52078 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

@@ -1,0 +1,142 @@
+{
+  "parse": [
+    {
+      "V41431": {
+        "id": "V41431",
+        "indicator": "SPEECHACT",
+        "type": "SA_REQUEST",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V41087"
+        },
+        "start": 0,
+        "end": 18
+      },
+      "V41087": {
+        "id": "V41087",
+        "indicator": "F",
+        "type": "MAKE-SOUND",
+        "word": "PLAY",
+        "roles": {
+          "AGENT": "#V41160",
+          "AFFECTED": "#V41278",
+          "TENSE": "PRES",
+          "VFORM": "BASE"
+        },
+        "start": 0,
+        "end": 17
+      },
+      "V41160": {
+        "id": "V41160",
+        "indicator": "PRO-SET",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "PROFORM": "US"
+        },
+        "start": 0,
+        "end": 17
+      },
+      "V41278": {
+        "id": "V41278",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "MOD": "#V41142"
+        },
+        "start": 11,
+        "end": 17
+      },
+      "V41142": {
+        "id": "V41142",
+        "indicator": "F",
+        "type": "UNFIT-VAL",
+        "word": "GAME",
+        "roles": {
+          "FIGURE": "#V41278",
+          "SCALE": "ILLNESS-SCALE"
+        },
+        "start": 13,
+        "end": 17
+      },
+      "root": "#V41431"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V41429": {
+          "id": "V41429",
+          "indicator": "SPEECHACT",
+          "type": "SA_REQUEST",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V41087"
+          },
+          "start": 0,
+          "end": 18
+        },
+        "V41087": {
+          "id": "V41087",
+          "indicator": "F",
+          "type": "MAKE-SOUND",
+          "word": "PLAY",
+          "roles": {
+            "AGENT": "#V41168",
+            "AFFECTED": "#V41278",
+            "TENSE": "PRES",
+            "VFORM": "BASE"
+          },
+          "start": 0,
+          "end": 17
+        },
+        "V41168": {
+          "id": "V41168",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "PROFORM": "US"
+          },
+          "start": 0,
+          "end": 17
+        },
+        "V41278": {
+          "id": "V41278",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V41142"
+          },
+          "start": 11,
+          "end": 17
+        },
+        "V41142": {
+          "id": "V41142",
+          "indicator": "F",
+          "type": "UNFIT-VAL",
+          "word": "GAME",
+          "roles": {
+            "FIGURE": "#V41278",
+            "SCALE": "ILLNESS-SCALE"
+          },
+          "start": 13,
+          "end": 17
+        },
+        "root": "#V41429"
+      }
+    ]
+  ],
+  "sentence": "Let's play a game.",
+  "annotation": {
+    "judge": "lgalescu",
+    "parser": "COGENT",
+    "timestamp": "20190923T171241",
+    "link": "http://trips.ihmc.us/parser/saved/20190923T171241-COGENT-lgalescu-none-Let_s_play_a_game_.xml",
+    "judgement": -1
+  }
+}

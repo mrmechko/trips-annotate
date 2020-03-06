@@ -1,0 +1,23 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V273609 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V271659 [label=<<font color="green"><br /></font> <font color="black">BECOMING-AWARE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">NOTICE</font> <font color="green"><br /></font> <font color="green">notice%2:39:04::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BECOMING-AWARE.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V271652 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">PRO-SET</font> <font color="blue">THEY</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V271669 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">THAT</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V271682 [label=<<font color="green"><br /></font> <font color="black">NONHUMAN-ANIMAL</font> <font color="green"><br /></font> <font color="red">THE-SET</font> <font color="blue">ELEPHANT</font> <font color="green"><br /></font> <font color="green">elephant%1:05:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::NONHUMAN-ANIMAL.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V271688 [label=<<font color="green"><br /></font> <font color="black">WALKING</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">WALK</font> <font color="green"><br /></font> <font color="green">walk%2:38:05::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::WALKING.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V271696 [label=<<font color="green"><br /></font> <font color="black">TO-LOC</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">TO</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TO-LOC.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V271726 [label=<<font color="green"><br /></font> <font color="black">SETTING</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">ARENA</font> <font color="green"><br /></font> <font color="green">arena%1:26:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SETTING.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V271659 -> V271682 [label=" NEUTRAL   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V271659 -> V271652 [label=" AGENT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V273609 -> V271659 [label=" CONTENT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V271696 -> V271726 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V271688 -> V271682 [label=" AFFECTED   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V271659 -> V271669 [label=" BENEFICIARY   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V271696 -> V271682 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V271682 -> V271688 [label=" MOD   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V271688 -> V271696 [label=" RESULT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

@@ -1,0 +1,497 @@
+{
+  "parse": [
+    {
+      "V55402": {
+        "id": "V55402",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V55085",
+          "LEX": "SAW"
+        },
+        "start": 0,
+        "end": 34
+      },
+      "V55085": {
+        "id": "V55085",
+        "indicator": "F",
+        "type": "ACTIVE-PERCEPTION",
+        "word": "SEE",
+        "roles": {
+          "EXPERIENCER": "#V55071",
+          "NEUTRAL": "#V55108",
+          "TIME": "#V55196",
+          "TENSE": "PAST",
+          "LEX": "SAW"
+        },
+        "start": 0,
+        "end": 34
+      },
+      "V55196": {
+        "id": "V55196",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V55085",
+          "GROUND": "#V55205"
+        },
+        "start": 0,
+        "end": 7
+      },
+      "V55205": {
+        "id": "V55205",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY-OF-WEEK": "#V55055",
+          "LEX": "MONDAY"
+        },
+        "start": 0,
+        "end": 7
+      },
+      "V55055": {
+        "id": "V55055",
+        "indicator": "BARE",
+        "type": "DAY-NAME",
+        "word": "MONDAY",
+        "roles": {
+          "NAME-OF": "MONDAY",
+          "LEX": "MONDAY"
+        },
+        "start": 0,
+        "end": 7
+      },
+      "V55071": {
+        "id": "V55071",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "COREF": "USER"
+        },
+        "start": 7,
+        "end": 9
+      },
+      "V55108": {
+        "id": "V55108",
+        "indicator": "INDEF-SET",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "ELEPHANT",
+        "roles": {
+          "SIZE": "#V55103",
+          "MOD": "#V55105",
+          "LEX": "ELEPHANTS"
+        },
+        "start": 13,
+        "end": 34
+      },
+      "V55103": {
+        "id": "V55103",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "3"
+        },
+        "start": 13,
+        "end": 19
+      },
+      "V55105": {
+        "id": "V55105",
+        "indicator": "F",
+        "type": "LARGE",
+        "word": "LARGE",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "MED",
+          "FIGURE": "#V55108",
+          "SCALE": "SIZE-SCALE",
+          "LEX": "LARGE"
+        },
+        "start": 19,
+        "end": 25
+      },
+      "root": "#V55402"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V55432": {
+          "id": "V55432",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V55085",
+            "LEX": "SAW"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V55085": {
+          "id": "V55085",
+          "indicator": "F",
+          "type": "ACTIVE-PERCEPTION",
+          "word": "SEE",
+          "roles": {
+            "EXPERIENCER": "#V55071",
+            "NEUTRAL": "#V55108",
+            "TIME": "#V55196",
+            "TENSE": "PAST",
+            "LEX": "SAW"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V55196": {
+          "id": "V55196",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V55085",
+            "GROUND": "#V55205"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V55205": {
+          "id": "V55205",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V55055",
+            "LEX": "MONDAY"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V55055": {
+          "id": "V55055",
+          "indicator": "BARE",
+          "type": "DAY-NAME",
+          "word": "MONDAY",
+          "roles": {
+            "NAME-OF": "MONDAY",
+            "LEX": "MONDAY"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V55071": {
+          "id": "V55071",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I"
+          },
+          "start": 7,
+          "end": 9
+        },
+        "V55108": {
+          "id": "V55108",
+          "indicator": "INDEF-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "ELEPHANT",
+          "roles": {
+            "SIZE": "#V55103",
+            "MOD": "#V55105",
+            "LEX": "ELEPHANTS"
+          },
+          "start": 13,
+          "end": 34
+        },
+        "V55103": {
+          "id": "V55103",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "3",
+            "LEX": "THREE"
+          },
+          "start": 13,
+          "end": 19
+        },
+        "V55105": {
+          "id": "V55105",
+          "indicator": "F",
+          "type": "LARGE",
+          "word": "LARGE",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V55108",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "LARGE"
+          },
+          "start": 19,
+          "end": 25
+        },
+        "root": "#V55432"
+      }
+    ],
+    [
+      {
+        "V55674": {
+          "id": "V55674",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V55085",
+            "LEX": "SAW"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V55085": {
+          "id": "V55085",
+          "indicator": "F",
+          "type": "ACTIVE-PERCEPTION",
+          "word": "SEE",
+          "roles": {
+            "EXPERIENCER": "#V55504",
+            "NEUTRAL": "#V55108",
+            "TIME": "#V55196",
+            "TENSE": "PAST",
+            "LEX": "SAW"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V55196": {
+          "id": "V55196",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V55085",
+            "GROUND": "#V55205"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V55205": {
+          "id": "V55205",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V55055",
+            "LEX": "MONDAY"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V55055": {
+          "id": "V55055",
+          "indicator": "BARE",
+          "type": "DAY-NAME",
+          "word": "MONDAY",
+          "roles": {
+            "NAME-OF": "MONDAY",
+            "LEX": "MONDAY"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V55504": {
+          "id": "V55504",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 7,
+          "end": 9
+        },
+        "V55108": {
+          "id": "V55108",
+          "indicator": "INDEF-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "ELEPHANT",
+          "roles": {
+            "SIZE": "#V55103",
+            "MOD": "#V55105",
+            "LEX": "ELEPHANTS"
+          },
+          "start": 13,
+          "end": 34
+        },
+        "V55103": {
+          "id": "V55103",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "3"
+          },
+          "start": 13,
+          "end": 19
+        },
+        "V55105": {
+          "id": "V55105",
+          "indicator": "F",
+          "type": "LARGE",
+          "word": "LARGE",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V55108",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "LARGE"
+          },
+          "start": 19,
+          "end": 25
+        },
+        "root": "#V55674"
+      }
+    ],
+    [
+      {
+        "V55739": {
+          "id": "V55739",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V55085",
+            "LEX": "SAW"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V55085": {
+          "id": "V55085",
+          "indicator": "F",
+          "type": "ACTIVE-PERCEPTION",
+          "word": "SEE",
+          "roles": {
+            "EXPERIENCER": "#V55504",
+            "NEUTRAL": "#V55108",
+            "TIME": "#V55196",
+            "TENSE": "PAST",
+            "LEX": "SAW"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V55196": {
+          "id": "V55196",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V55085",
+            "GROUND": "#V55205"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V55205": {
+          "id": "V55205",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V55055",
+            "LEX": "MONDAY"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V55055": {
+          "id": "V55055",
+          "indicator": "BARE",
+          "type": "DAY-NAME",
+          "word": "MONDAY",
+          "roles": {
+            "NAME-OF": "MONDAY",
+            "LEX": "MONDAY"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V55504": {
+          "id": "V55504",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 7,
+          "end": 9
+        },
+        "V55108": {
+          "id": "V55108",
+          "indicator": "INDEF-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "ELEPHANT",
+          "roles": {
+            "SIZE": "#V55103",
+            "MOD": "#V55105",
+            "LEX": "ELEPHANTS"
+          },
+          "start": 13,
+          "end": 34
+        },
+        "V55103": {
+          "id": "V55103",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "3",
+            "LEX": "THREE"
+          },
+          "start": 13,
+          "end": 19
+        },
+        "V55105": {
+          "id": "V55105",
+          "indicator": "F",
+          "type": "LARGE",
+          "word": "LARGE",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V55108",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "LARGE"
+          },
+          "start": 19,
+          "end": 25
+        },
+        "root": "#V55739"
+      }
+    ]
+  ],
+  "sentence": "Monday I saw three large elephants.",
+  "annotation": {
+    "judge": "jallen",
+    "parser": "STEP",
+    "timestamp": "20190619T135508",
+    "link": "http://trips.ihmc.us/parser/saved/20190619T135508-STEP-jallen-0-Monday_I_saw_three_large_elephants_.xml",
+    "judgement": 0
+  }
+}

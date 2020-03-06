@@ -1,0 +1,471 @@
+{
+  "parse": [
+    {
+      "V160562": {
+        "id": "V160562",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V159453",
+          "LEX": "LOOKED"
+        },
+        "start": 0,
+        "end": 53
+      },
+      "V159453": {
+        "id": "V159453",
+        "indicator": "F",
+        "type": "SCRUTINY",
+        "word": "LOOK",
+        "roles": {
+          "AGENT": "#V159437",
+          "NEUTRAL": "#V159641",
+          "TIME": "#V159324",
+          "TENSE": "PAST",
+          "LEX": "LOOKED"
+        },
+        "start": 0,
+        "end": 53
+      },
+      "V159324": {
+        "id": "V159324",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHILE",
+        "roles": {
+          "GROUND": "#V159394",
+          "FIGURE": "#V159453",
+          "LEX": "WHILE"
+        },
+        "start": 0,
+        "end": 26
+      },
+      "V159394": {
+        "id": "V159394",
+        "indicator": "F",
+        "type": "PHYSICAL-SCRUTINY",
+        "word": "LOOK",
+        "roles": {
+          "AGENT": "#V159335",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "NEGATION": "+",
+          "LEX": "LOOKING",
+          "WNSENSE": "look%2:39:02::"
+        },
+        "start": 6,
+        "end": 26
+      },
+      "V159335": {
+        "id": "V159335",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "TANYA",
+        "roles": {
+          "NAME-OF": "TANYA",
+          "LEX": "TANYA",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 6,
+        "end": 12
+      },
+      "V159437": {
+        "id": "V159437",
+        "indicator": "THE",
+        "type": "PERSON",
+        "word": "JAMES",
+        "roles": {
+          "NAME-OF": "JAMES",
+          "LEX": "JAMES",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 28,
+        "end": 34
+      },
+      "V159641": {
+        "id": "V159641",
+        "indicator": "THE-SET",
+        "type": "CARD",
+        "word": "CARD",
+        "roles": {
+          "ASSOC-POSS": "#V159636",
+          "LEX": "CARDS",
+          "WNSENSE": "card%1:06:00::"
+        },
+        "start": 41,
+        "end": 53
+      },
+      "V159636": {
+        "id": "V159636",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "HER",
+        "roles": {
+          "LEX": "HER",
+          "PROFORM": "HER",
+          "WNSENSE": "woman%1:18:00",
+          "COREF": "#V159335"
+        },
+        "start": 41,
+        "end": 53
+      },
+      "root": "#V160562"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V160559": {
+          "id": "V160559",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V159453",
+            "LEX": "LOOKED"
+          },
+          "start": 0,
+          "end": 54
+        },
+        "V159453": {
+          "id": "V159453",
+          "indicator": "F",
+          "type": "SCRUTINY",
+          "word": "LOOK",
+          "roles": {
+            "AGENT": "#V159423",
+            "NEUTRAL": "#V159641",
+            "TIME": "#V159324",
+            "TENSE": "PAST",
+            "LEX": "LOOKED"
+          },
+          "start": 0,
+          "end": 53
+        },
+        "V159324": {
+          "id": "V159324",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHILE",
+          "roles": {
+            "GROUND": "#V159394",
+            "FIGURE": "#V159453",
+            "LEX": "WHILE"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V159394": {
+          "id": "V159394",
+          "indicator": "F",
+          "type": "PHYSICAL-SCRUTINY",
+          "word": "LOOK",
+          "roles": {
+            "AGENT": "#V159335",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "NEGATION": "+",
+            "LEX": "LOOKING",
+            "WNSENSE": "look%2:39:02::"
+          },
+          "start": 6,
+          "end": 26
+        },
+        "V159335": {
+          "id": "V159335",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "TANYA",
+          "roles": {
+            "NAME-OF": "TANYA",
+            "LEX": "TANYA",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 6,
+          "end": 12
+        },
+        "V159423": {
+          "id": "V159423",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "JAMES",
+          "roles": {
+            "NAME-OF": "JAMES",
+            "LEX": "JAMES",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 28,
+          "end": 34
+        },
+        "V159641": {
+          "id": "V159641",
+          "indicator": "THE-SET",
+          "type": "CARD",
+          "word": "CARD",
+          "roles": {
+            "ASSOC-POSS": "#V159636",
+            "LEX": "CARDS",
+            "WNSENSE": "card%1:06:00::"
+          },
+          "start": 41,
+          "end": 53
+        },
+        "V159636": {
+          "id": "V159636",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 41,
+          "end": 53
+        },
+        "root": "#V160559"
+      }
+    ],
+    [
+      {
+        "V160556": {
+          "id": "V160556",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V159453",
+            "LEX": "LOOKED"
+          },
+          "start": 0,
+          "end": 54
+        },
+        "V159453": {
+          "id": "V159453",
+          "indicator": "F",
+          "type": "SCRUTINY",
+          "word": "LOOK",
+          "roles": {
+            "AGENT": "#V159437",
+            "NEUTRAL": "#V159641",
+            "QUALIFICATION": "#V159326",
+            "TENSE": "PAST",
+            "LEX": "LOOKED",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 0,
+          "end": 53
+        },
+        "V159326": {
+          "id": "V159326",
+          "indicator": "F",
+          "type": "QUALIFICATION",
+          "word": "WHILE",
+          "roles": {
+            "GROUND": "#V159394",
+            "FIGURE": "#V159453",
+            "LEX": "WHILE"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V159394": {
+          "id": "V159394",
+          "indicator": "F",
+          "type": "PHYSICAL-SCRUTINY",
+          "word": "LOOK",
+          "roles": {
+            "AGENT": "#V159335",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "NEGATION": "+",
+            "LEX": "LOOKING",
+            "WNSENSE": "look%2:39:02::"
+          },
+          "start": 6,
+          "end": 26
+        },
+        "V159335": {
+          "id": "V159335",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "TANYA",
+          "roles": {
+            "NAME-OF": "TANYA",
+            "LEX": "TANYA",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 6,
+          "end": 12
+        },
+        "V159437": {
+          "id": "V159437",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "JAMES",
+          "roles": {
+            "NAME-OF": "JAMES",
+            "LEX": "JAMES",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 28,
+          "end": 34
+        },
+        "V159641": {
+          "id": "V159641",
+          "indicator": "THE-SET",
+          "type": "CARD",
+          "word": "CARD",
+          "roles": {
+            "ASSOC-POSS": "#V159636",
+            "LEX": "CARDS",
+            "WNSENSE": "card%1:06:00::"
+          },
+          "start": 41,
+          "end": 53
+        },
+        "V159636": {
+          "id": "V159636",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 41,
+          "end": 53
+        },
+        "root": "#V160556"
+      }
+    ],
+    [
+      {
+        "V160553": {
+          "id": "V160553",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V159453",
+            "LEX": "LOOKED"
+          },
+          "start": 0,
+          "end": 54
+        },
+        "V159453": {
+          "id": "V159453",
+          "indicator": "F",
+          "type": "SCRUTINY",
+          "word": "LOOK",
+          "roles": {
+            "AGENT": "#V159423",
+            "NEUTRAL": "#V159641",
+            "QUALIFICATION": "#V159326",
+            "TENSE": "PAST",
+            "LEX": "LOOKED",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 0,
+          "end": 53
+        },
+        "V159326": {
+          "id": "V159326",
+          "indicator": "F",
+          "type": "QUALIFICATION",
+          "word": "WHILE",
+          "roles": {
+            "GROUND": "#V159394",
+            "FIGURE": "#V159453",
+            "LEX": "WHILE"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V159394": {
+          "id": "V159394",
+          "indicator": "F",
+          "type": "PHYSICAL-SCRUTINY",
+          "word": "LOOK",
+          "roles": {
+            "AGENT": "#V159335",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "NEGATION": "+",
+            "LEX": "LOOKING",
+            "WNSENSE": "look%2:39:02::"
+          },
+          "start": 6,
+          "end": 26
+        },
+        "V159335": {
+          "id": "V159335",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "TANYA",
+          "roles": {
+            "NAME-OF": "TANYA",
+            "LEX": "TANYA",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 6,
+          "end": 12
+        },
+        "V159423": {
+          "id": "V159423",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "JAMES",
+          "roles": {
+            "NAME-OF": "JAMES",
+            "LEX": "JAMES",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 28,
+          "end": 34
+        },
+        "V159641": {
+          "id": "V159641",
+          "indicator": "THE-SET",
+          "type": "CARD",
+          "word": "CARD",
+          "roles": {
+            "ASSOC-POSS": "#V159636",
+            "LEX": "CARDS",
+            "WNSENSE": "card%1:06:00::"
+          },
+          "start": 41,
+          "end": 53
+        },
+        "V159636": {
+          "id": "V159636",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 41,
+          "end": 53
+        },
+        "root": "#V160553"
+      }
+    ]
+  ],
+  "sentence": "While Tanya wasn't looking, James looked at her cards.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190723T165101",
+    "link": "http://trips.ihmc.us/parser/saved/20190723T165101-STEP-abhatia-none-While_Tanya_wasn_t_looking_James_looked_.xml",
+    "judgement": -1
+  }
+}

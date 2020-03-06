@@ -1,0 +1,404 @@
+{
+  "parse": [
+    {
+      "V231962": {
+        "id": "V231962",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V231610",
+          "LEX": "WALKING"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V231610": {
+        "id": "V231610",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "AGENT": "#V231578",
+          "NEUTRAL": "#V231618",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "WALKING",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V231578": {
+        "id": "V231578",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V231618": {
+        "id": "V231618",
+        "indicator": "BARE",
+        "type": "RELATIVE-LOCATION",
+        "word": "HOME",
+        "roles": {
+          "MOD": "#V231627",
+          "LEX": "HOME",
+          "WNSENSE": "home%1:15:02::"
+        },
+        "start": 14,
+        "end": 28
+      },
+      "V231627": {
+        "id": "V231627",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V231649",
+          "FIGURE": "#V231618",
+          "LEX": "FOR"
+        },
+        "start": 19,
+        "end": 28
+      },
+      "V231649": {
+        "id": "V231649",
+        "indicator": "A",
+        "type": "QUANTITY",
+        "word": null,
+        "roles": {
+          "AMOUNT": "PLURAL",
+          "UNIT": "(:* LENGTH-UNIT MILE)",
+          "SCALE": "LINEAR-EXTENT-SCALE",
+          "LEX": "MILES",
+          "WNSENSE": "mile%1:23:01::"
+        },
+        "start": 23,
+        "end": 28
+      },
+      "root": "#V231962"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V232443": {
+          "id": "V232443",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V231608",
+            "LEX": "WALKING"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V231608": {
+          "id": "V231608",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V231615",
+            "AGENT": "#V231578",
+            "REASON": "#V231625",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WALKING",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V231578": {
+          "id": "V231578",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V231615": {
+          "id": "V231615",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "HOME",
+          "roles": {
+            "GROUND": "#V231703",
+            "FIGURE": "#V231578",
+            "LEX": "HOME",
+            "WNSENSE": "home%4:02:01::"
+          },
+          "start": 14,
+          "end": 19
+        },
+        "V231703": {
+          "id": "V231703",
+          "indicator": "IMPRO",
+          "type": "RELATIVE-LOCATION",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOME"
+          },
+          "start": 14,
+          "end": 19
+        },
+        "V231625": {
+          "id": "V231625",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V231649",
+            "FIGURE": "#V231608",
+            "LEX": "FOR"
+          },
+          "start": 19,
+          "end": 28
+        },
+        "V231649": {
+          "id": "V231649",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "PLURAL",
+            "UNIT": "(:* LENGTH-UNIT MILE)",
+            "SCALE": "LINEAR-EXTENT-SCALE",
+            "LEX": "MILES",
+            "WNSENSE": "mile%1:23:01::"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "root": "#V232443"
+      }
+    ],
+    [
+      {
+        "V232428": {
+          "id": "V232428",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V231608",
+            "LEX": "WALKING"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V231608": {
+          "id": "V231608",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V231615",
+            "AGENT": "#V231578",
+            "EXTENT": "#V231629",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WALKING",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V231578": {
+          "id": "V231578",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V231615": {
+          "id": "V231615",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "HOME",
+          "roles": {
+            "GROUND": "#V231703",
+            "FIGURE": "#V231578",
+            "LEX": "HOME",
+            "WNSENSE": "home%4:02:01::"
+          },
+          "start": 14,
+          "end": 19
+        },
+        "V231703": {
+          "id": "V231703",
+          "indicator": "IMPRO",
+          "type": "RELATIVE-LOCATION",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOME"
+          },
+          "start": 14,
+          "end": 19
+        },
+        "V231629": {
+          "id": "V231629",
+          "indicator": "F",
+          "type": "TIME-DURATION-REL",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V231649",
+            "FIGURE": "#V231608",
+            "LEX": "FOR"
+          },
+          "start": 19,
+          "end": 28
+        },
+        "V231649": {
+          "id": "V231649",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "PLURAL",
+            "UNIT": "(:* LENGTH-UNIT MILE)",
+            "SCALE": "LINEAR-EXTENT-SCALE",
+            "LEX": "MILES",
+            "WNSENSE": "mile%1:23:01::"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "root": "#V232428"
+      }
+    ],
+    [
+      {
+        "V232413": {
+          "id": "V232413",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V231608",
+            "LEX": "WALKING"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V231608": {
+          "id": "V231608",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V231615",
+            "AGENT": "#V231578",
+            "MOD": "#V231631",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WALKING",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V231578": {
+          "id": "V231578",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V231615": {
+          "id": "V231615",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "HOME",
+          "roles": {
+            "GROUND": "#V231703",
+            "FIGURE": "#V231578",
+            "LEX": "HOME",
+            "WNSENSE": "home%4:02:01::"
+          },
+          "start": 14,
+          "end": 19
+        },
+        "V231703": {
+          "id": "V231703",
+          "indicator": "IMPRO",
+          "type": "RELATIVE-LOCATION",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOME"
+          },
+          "start": 14,
+          "end": 19
+        },
+        "V231631": {
+          "id": "V231631",
+          "indicator": "F",
+          "type": "PURCHASE-COST",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V231649",
+            "FIGURE": "#V231608",
+            "LEX": "FOR"
+          },
+          "start": 19,
+          "end": 28
+        },
+        "V231649": {
+          "id": "V231649",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "PLURAL",
+            "UNIT": "(:* LENGTH-UNIT MILE)",
+            "SCALE": "LINEAR-EXTENT-SCALE",
+            "LEX": "MILES",
+            "WNSENSE": "mile%1:23:01::"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "root": "#V232413"
+      }
+    ]
+  ],
+  "sentence": "I was walking home for miles.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190807T162813",
+    "link": "http://trips.ihmc.us/parser/saved/20190807T162813-STEP-abhatia-2-I_was_walking_home_for_miles_.xml",
+    "judgement": 2
+  }
+}

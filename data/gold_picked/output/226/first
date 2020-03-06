@@ -1,0 +1,22 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V44618 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V43180 [label=<<font color="green"><br /></font> <font color="black">PUT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">PUT</font> <font color="green"><br /></font> <font color="green">put%2:35:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PUT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V43154 [label=<<font color="green"><br /></font> <font color="black">GEOGRAPHIC-REGION</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">TOM</font> <font color="green"><br /></font> <font color="green">north_america%1:14:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GEOGRAPHIC-REGION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V43208 [label=<<font color="green"><br /></font> <font color="black">QUANTITY</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">* </font> <font color="green"><br /></font> <font color="green">mile%1:23:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::QUANTITY.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V43206 [label=<<font color="green"><br /></font> <font color="black">NUMBER</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::NUMBER.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V43217 [label=<<font color="green"><br /></font> <font color="black">ON</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">ON</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V43245 [label=<<font color="green"><br /></font> <font color="black">BOXCAR</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">CAR</font> <font color="green"><br /></font> <font color="green">boxcar%1:06:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BOXCAR.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V43239 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HIS</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V44618 -> V43180 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V43217 -> V43245 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V43180 -> V43208 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V43208 -> V43206 [label=" SIZE   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V43180 -> V43154 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V43180 -> V43217 [label=" RESULT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V43217 -> V43208 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V43245 -> V43239 [label=" ASSOC-POSS   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

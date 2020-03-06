@@ -1,0 +1,20 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V192764 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V192453 [label=<<font color="green"><br /></font> <font color="black">PLAY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">PLAY</font> <font color="green"><br /></font> <font color="green">play%2:33:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PLAY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V192438 [label=<<font color="green"><br /></font> <font color="black">FAMILY-RELATION</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FAMILY-RELATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V192447 [label=<<font color="green"><br /></font> <font color="black">FAMILY-RELATION</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">SON</font> <font color="green"><br /></font> <font color="green">son%1:18:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FAMILY-RELATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V192433 [label=<<font color="green"><br /></font> <font color="black">FAMILY-RELATION</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">FATHER</font> <font color="green"><br /></font> <font color="green">father%1:18:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FAMILY-RELATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V192466 [label=<<font color="green"><br /></font> <font color="black">IN-LOC</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">IN</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::IN-LOC.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V192531 [label=<<font color="green"><br /></font> <font color="black">REGION-FOR-ACTIVITY</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">PARK</font> <font color="green"><br /></font> <font color="green">park%1:15:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REGION-FOR-ACTIVITY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V192453 -> V192438 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V192438 -> V192433 [label=" SEQUENCE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V192438 -> V192447 [label=" SEQUENCE1   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V192466 -> V192531 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V192453 -> V192466 [label=" LOCATION   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V192764 -> V192453 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V192466 -> V192453 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

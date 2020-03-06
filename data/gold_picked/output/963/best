@@ -1,0 +1,23 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V52752 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V51814 [label=<<font color="green"><br /></font> <font color="black">RETURN</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">RETURN</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::RETURN.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V51777 [label=<<font color="green"><br /></font> <font color="black">TIME-CLOCK-REL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">AT</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TIME-CLOCK-REL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V51791 [label=<<font color="green"><br /></font> <font color="black">TIME-LOC</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TIME-LOC.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V51800 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HE</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V51805 [label=<<font color="green"><br /></font> <font color="black">LAST-VAL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">FINALLY</font> <font color="green"><br /></font> <font color="green">ultimate%5:00:00:last:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::LAST-VAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V51819 [label=<<font color="green"><br /></font> <font color="black">TO-LOC</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">HOME</font> <font color="green"><br /></font> <font color="green">home%4:02:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TO-LOC.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V51908 [label=<<font color="green"><br /></font> <font color="black">RELATIVE-LOCATION</font> <font color="green"><br /></font> <font color="red">IMPRO</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::RELATIVE-LOCATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V51814 -> V51819 [label=" RESULT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V51777 -> V51814 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V51814 -> V51805 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V52752 -> V51814 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V51777 -> V51791 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V51805 -> V51814 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V51819 -> V51908 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V51814 -> V51777 [label=" TIME   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V51814 -> V51800 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

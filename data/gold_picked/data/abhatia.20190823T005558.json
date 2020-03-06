@@ -1,0 +1,972 @@
+{
+  "parse": [
+    {
+      "V66617": {
+        "id": "V66617",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V66335",
+          "LEX": "BEGAN"
+        },
+        "start": 0,
+        "end": 33
+      },
+      "V66335": {
+        "id": "V66335",
+        "indicator": "F",
+        "type": "START",
+        "word": "BEGIN",
+        "roles": {
+          "AGENT": "#V66321",
+          "FORMAL": "#V66373",
+          "TENSE": "PAST",
+          "LEX": "BEGAN",
+          "WNSENSE": "begin%2:30:00::"
+        },
+        "start": 0,
+        "end": 33
+      },
+      "V66321": {
+        "id": "V66321",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V66373": {
+        "id": "V66373",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "RESULT": "#V66411",
+          "AGENT": "#V66321",
+          "VFORM": "BASE",
+          "LEX": "WALK",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 8,
+        "end": 33
+      },
+      "V66411": {
+        "id": "V66411",
+        "indicator": "F",
+        "type": "DIRECTION-DOWN-GROUND",
+        "word": "DOWN",
+        "roles": {
+          "GROUND": "#V66433",
+          "FIGURE": "#V66321",
+          "LEX": "DOWN"
+        },
+        "start": 16,
+        "end": 33
+      },
+      "V66433": {
+        "id": "V66433",
+        "indicator": "THE",
+        "type": "MANUFACTURED-OBJECT",
+        "word": "SIDEWALK",
+        "roles": {
+          "LEX": "SIDEWALK",
+          "WNSENSE": "sidewalk%1:06:00::"
+        },
+        "start": 21,
+        "end": 33
+      },
+      "root": "#V66617"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V66734": {
+          "id": "V66734",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V66338",
+            "LEX": "BEGAN"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V66338": {
+          "id": "V66338",
+          "indicator": "F",
+          "type": "START",
+          "word": "BEGIN",
+          "roles": {
+            "AGENT": "#V66321",
+            "REASON": "#V66352",
+            "TENSE": "PAST",
+            "LEX": "BEGAN",
+            "WNSENSE": "begin%2:30:00::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V66321": {
+          "id": "V66321",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V66352": {
+          "id": "V66352",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V66373",
+            "FIGURE": "#V66338",
+            "LEX": "TO"
+          },
+          "start": 8,
+          "end": 33
+        },
+        "V66373": {
+          "id": "V66373",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V66411",
+            "VFORM": "BASE",
+            "LEX": "WALK",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 11,
+          "end": 33
+        },
+        "V66411": {
+          "id": "V66411",
+          "indicator": "F",
+          "type": "DIRECTION-DOWN-GROUND",
+          "word": "DOWN",
+          "roles": {
+            "GROUND": "#V66433",
+            "LEX": "DOWN"
+          },
+          "start": 16,
+          "end": 33
+        },
+        "V66433": {
+          "id": "V66433",
+          "indicator": "THE",
+          "type": "MANUFACTURED-OBJECT",
+          "word": "SIDEWALK",
+          "roles": {
+            "LEX": "SIDEWALK",
+            "WNSENSE": "sidewalk%1:06:00::"
+          },
+          "start": 21,
+          "end": 33
+        },
+        "root": "#V66734"
+      }
+    ],
+    [
+      {
+        "V67094": {
+          "id": "V67094",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V66338",
+            "LEX": "BEGAN"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V66338": {
+          "id": "V66338",
+          "indicator": "F",
+          "type": "START",
+          "word": "BEGIN",
+          "roles": {
+            "AGENT": "#V66321",
+            "TIME": "#V66350",
+            "TENSE": "PAST",
+            "LEX": "BEGAN",
+            "WNSENSE": "begin%2:30:00::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V66321": {
+          "id": "V66321",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V66350": {
+          "id": "V66350",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V66368",
+            "FIGURE": "#V66338",
+            "LEX": "TO"
+          },
+          "start": 8,
+          "end": 33
+        },
+        "V66368": {
+          "id": "V66368",
+          "indicator": "BARE",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V66411",
+            "LEX": "WALK",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 11,
+          "end": 33
+        },
+        "V66411": {
+          "id": "V66411",
+          "indicator": "F",
+          "type": "DIRECTION-DOWN-GROUND",
+          "word": "DOWN",
+          "roles": {
+            "GROUND": "#V66433",
+            "FIGURE": "#V66368",
+            "LEX": "DOWN"
+          },
+          "start": 16,
+          "end": 33
+        },
+        "V66433": {
+          "id": "V66433",
+          "indicator": "THE",
+          "type": "MANUFACTURED-OBJECT",
+          "word": "SIDEWALK",
+          "roles": {
+            "LEX": "SIDEWALK",
+            "WNSENSE": "sidewalk%1:06:00::"
+          },
+          "start": 21,
+          "end": 33
+        },
+        "root": "#V67094"
+      }
+    ],
+    [
+      {
+        "V67082": {
+          "id": "V67082",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V66338",
+            "LEX": "BEGAN"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V66338": {
+          "id": "V66338",
+          "indicator": "F",
+          "type": "START",
+          "word": "BEGIN",
+          "roles": {
+            "AGENT": "#V66321",
+            "TIME": "#V66350",
+            "TENSE": "PAST",
+            "LEX": "BEGAN",
+            "WNSENSE": "begin%2:30:00::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V66321": {
+          "id": "V66321",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V66350": {
+          "id": "V66350",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V66369",
+            "FIGURE": "#V66338",
+            "LEX": "TO"
+          },
+          "start": 8,
+          "end": 33
+        },
+        "V66369": {
+          "id": "V66369",
+          "indicator": "BARE",
+          "type": "WALKING",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V66411",
+            "LEX": "WALK",
+            "WNSENSE": "walk%2:38:05::"
+          },
+          "start": 11,
+          "end": 33
+        },
+        "V66411": {
+          "id": "V66411",
+          "indicator": "F",
+          "type": "DIRECTION-DOWN-GROUND",
+          "word": "DOWN",
+          "roles": {
+            "GROUND": "#V66433",
+            "FIGURE": "#V66369",
+            "LEX": "DOWN"
+          },
+          "start": 16,
+          "end": 33
+        },
+        "V66433": {
+          "id": "V66433",
+          "indicator": "THE",
+          "type": "MANUFACTURED-OBJECT",
+          "word": "SIDEWALK",
+          "roles": {
+            "LEX": "SIDEWALK",
+            "WNSENSE": "sidewalk%1:06:00::"
+          },
+          "start": 21,
+          "end": 33
+        },
+        "root": "#V67082"
+      }
+    ],
+    [
+      {
+        "V67070": {
+          "id": "V67070",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V66338",
+            "LEX": "BEGAN"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V66338": {
+          "id": "V66338",
+          "indicator": "F",
+          "type": "START",
+          "word": "BEGIN",
+          "roles": {
+            "AGENT": "#V66321",
+            "TIME": "#V66350",
+            "TENSE": "PAST",
+            "LEX": "BEGAN",
+            "WNSENSE": "begin%2:30:00::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V66321": {
+          "id": "V66321",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V66350": {
+          "id": "V66350",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V66370",
+            "FIGURE": "#V66338",
+            "LEX": "TO"
+          },
+          "start": 8,
+          "end": 33
+        },
+        "V66370": {
+          "id": "V66370",
+          "indicator": "BARE",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V66411",
+            "LEX": "WALK",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 11,
+          "end": 33
+        },
+        "V66411": {
+          "id": "V66411",
+          "indicator": "F",
+          "type": "DIRECTION-DOWN-GROUND",
+          "word": "DOWN",
+          "roles": {
+            "GROUND": "#V66433",
+            "FIGURE": "#V66370",
+            "LEX": "DOWN"
+          },
+          "start": 16,
+          "end": 33
+        },
+        "V66433": {
+          "id": "V66433",
+          "indicator": "THE",
+          "type": "MANUFACTURED-OBJECT",
+          "word": "SIDEWALK",
+          "roles": {
+            "LEX": "SIDEWALK",
+            "WNSENSE": "sidewalk%1:06:00::"
+          },
+          "start": 21,
+          "end": 33
+        },
+        "root": "#V67070"
+      }
+    ],
+    [
+      {
+        "V67238": {
+          "id": "V67238",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V66338",
+            "LEX": "BEGAN"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V66338": {
+          "id": "V66338",
+          "indicator": "F",
+          "type": "START",
+          "word": "BEGIN",
+          "roles": {
+            "AGENT": "#V66321",
+            "TIME": "#V66350",
+            "TENSE": "PAST",
+            "LEX": "BEGAN",
+            "WNSENSE": "begin%2:30:00::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V66321": {
+          "id": "V66321",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V66350": {
+          "id": "V66350",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V66368",
+            "FIGURE": "#V66338",
+            "LEX": "TO"
+          },
+          "start": 8,
+          "end": 33
+        },
+        "V66368": {
+          "id": "V66368",
+          "indicator": "BARE",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V66411",
+            "LEX": "WALK",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 11,
+          "end": 33
+        },
+        "V66411": {
+          "id": "V66411",
+          "indicator": "F",
+          "type": "DIRECTION-DOWN-GROUND",
+          "word": "DOWN",
+          "roles": {
+            "GROUND": "#V66433",
+            "FIGURE": "#V66368",
+            "LEX": "DOWN"
+          },
+          "start": 16,
+          "end": 33
+        },
+        "V66433": {
+          "id": "V66433",
+          "indicator": "THE",
+          "type": "MANUFACTURED-OBJECT",
+          "word": "SIDEWALK",
+          "roles": {
+            "LEX": "SIDEWALK",
+            "WNSENSE": "sidewalk%1:06:00::"
+          },
+          "start": 21,
+          "end": 33
+        },
+        "root": "#V67238"
+      }
+    ],
+    [
+      {
+        "V67226": {
+          "id": "V67226",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V66338",
+            "LEX": "BEGAN"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V66338": {
+          "id": "V66338",
+          "indicator": "F",
+          "type": "START",
+          "word": "BEGIN",
+          "roles": {
+            "AGENT": "#V66321",
+            "TIME": "#V66350",
+            "TENSE": "PAST",
+            "LEX": "BEGAN",
+            "WNSENSE": "begin%2:30:00::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V66321": {
+          "id": "V66321",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V66350": {
+          "id": "V66350",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V66369",
+            "FIGURE": "#V66338",
+            "LEX": "TO"
+          },
+          "start": 8,
+          "end": 33
+        },
+        "V66369": {
+          "id": "V66369",
+          "indicator": "BARE",
+          "type": "WALKING",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V66411",
+            "LEX": "WALK",
+            "WNSENSE": "walk%2:38:05::"
+          },
+          "start": 11,
+          "end": 33
+        },
+        "V66411": {
+          "id": "V66411",
+          "indicator": "F",
+          "type": "DIRECTION-DOWN-GROUND",
+          "word": "DOWN",
+          "roles": {
+            "GROUND": "#V66433",
+            "FIGURE": "#V66369",
+            "LEX": "DOWN"
+          },
+          "start": 16,
+          "end": 33
+        },
+        "V66433": {
+          "id": "V66433",
+          "indicator": "THE",
+          "type": "MANUFACTURED-OBJECT",
+          "word": "SIDEWALK",
+          "roles": {
+            "LEX": "SIDEWALK",
+            "WNSENSE": "sidewalk%1:06:00::"
+          },
+          "start": 21,
+          "end": 33
+        },
+        "root": "#V67226"
+      }
+    ],
+    [
+      {
+        "V67214": {
+          "id": "V67214",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V66338",
+            "LEX": "BEGAN"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V66338": {
+          "id": "V66338",
+          "indicator": "F",
+          "type": "START",
+          "word": "BEGIN",
+          "roles": {
+            "AGENT": "#V66321",
+            "TIME": "#V66350",
+            "TENSE": "PAST",
+            "LEX": "BEGAN",
+            "WNSENSE": "begin%2:30:00::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V66321": {
+          "id": "V66321",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V66350": {
+          "id": "V66350",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V66370",
+            "FIGURE": "#V66338",
+            "LEX": "TO"
+          },
+          "start": 8,
+          "end": 33
+        },
+        "V66370": {
+          "id": "V66370",
+          "indicator": "BARE",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V66411",
+            "LEX": "WALK",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 11,
+          "end": 33
+        },
+        "V66411": {
+          "id": "V66411",
+          "indicator": "F",
+          "type": "DIRECTION-DOWN-GROUND",
+          "word": "DOWN",
+          "roles": {
+            "GROUND": "#V66433",
+            "FIGURE": "#V66370",
+            "LEX": "DOWN"
+          },
+          "start": 16,
+          "end": 33
+        },
+        "V66433": {
+          "id": "V66433",
+          "indicator": "THE",
+          "type": "MANUFACTURED-OBJECT",
+          "word": "SIDEWALK",
+          "roles": {
+            "LEX": "SIDEWALK",
+            "WNSENSE": "sidewalk%1:06:00::"
+          },
+          "start": 21,
+          "end": 33
+        },
+        "root": "#V67214"
+      }
+    ],
+    [
+      {
+        "V67356": {
+          "id": "V67356",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V66338",
+            "LEX": "BEGAN"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V66338": {
+          "id": "V66338",
+          "indicator": "F",
+          "type": "START",
+          "word": "BEGIN",
+          "roles": {
+            "AGENT": "#V66321",
+            "TIME": "#V66350",
+            "TENSE": "PAST",
+            "LEX": "BEGAN",
+            "WNSENSE": "begin%2:30:00::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V66321": {
+          "id": "V66321",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V66350": {
+          "id": "V66350",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V66368",
+            "FIGURE": "#V66338",
+            "LEX": "TO"
+          },
+          "start": 8,
+          "end": 33
+        },
+        "V66368": {
+          "id": "V66368",
+          "indicator": "BARE",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V66411",
+            "LEX": "WALK",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 11,
+          "end": 33
+        },
+        "V66411": {
+          "id": "V66411",
+          "indicator": "F",
+          "type": "DIRECTION-DOWN-GROUND",
+          "word": "DOWN",
+          "roles": {
+            "GROUND": "#V66433",
+            "FIGURE": "#V66368",
+            "LEX": "DOWN"
+          },
+          "start": 16,
+          "end": 33
+        },
+        "V66433": {
+          "id": "V66433",
+          "indicator": "THE",
+          "type": "MANUFACTURED-OBJECT",
+          "word": "SIDEWALK",
+          "roles": {
+            "LEX": "SIDEWALK",
+            "WNSENSE": "sidewalk%1:06:00::"
+          },
+          "start": 21,
+          "end": 33
+        },
+        "root": "#V67356"
+      }
+    ],
+    [
+      {
+        "V67344": {
+          "id": "V67344",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V66338",
+            "LEX": "BEGAN"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V66338": {
+          "id": "V66338",
+          "indicator": "F",
+          "type": "START",
+          "word": "BEGIN",
+          "roles": {
+            "AGENT": "#V66321",
+            "TIME": "#V66350",
+            "TENSE": "PAST",
+            "LEX": "BEGAN",
+            "WNSENSE": "begin%2:30:00::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V66321": {
+          "id": "V66321",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V66350": {
+          "id": "V66350",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V66369",
+            "FIGURE": "#V66338",
+            "LEX": "TO"
+          },
+          "start": 8,
+          "end": 33
+        },
+        "V66369": {
+          "id": "V66369",
+          "indicator": "BARE",
+          "type": "WALKING",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V66411",
+            "LEX": "WALK",
+            "WNSENSE": "walk%2:38:05::"
+          },
+          "start": 11,
+          "end": 33
+        },
+        "V66411": {
+          "id": "V66411",
+          "indicator": "F",
+          "type": "DIRECTION-DOWN-GROUND",
+          "word": "DOWN",
+          "roles": {
+            "GROUND": "#V66433",
+            "FIGURE": "#V66369",
+            "LEX": "DOWN"
+          },
+          "start": 16,
+          "end": 33
+        },
+        "V66433": {
+          "id": "V66433",
+          "indicator": "THE",
+          "type": "MANUFACTURED-OBJECT",
+          "word": "SIDEWALK",
+          "roles": {
+            "LEX": "SIDEWALK",
+            "WNSENSE": "sidewalk%1:06:00::"
+          },
+          "start": 21,
+          "end": 33
+        },
+        "root": "#V67344"
+      }
+    ]
+  ],
+  "sentence": "I began to walk down the sidewalk.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190823T005558",
+    "link": "http://trips.ihmc.us/parser/saved/20190823T005558-STEP-abhatia-none-I_began_to_walk_down_the_sidewalk_.xml",
+    "judgement": -1
+  }
+}

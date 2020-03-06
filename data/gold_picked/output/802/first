@@ -1,0 +1,20 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V132290 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V132035 [label=<<font color="green"><br /></font> <font color="black">START</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BEGIN</font> <font color="green"><br /></font> <font color="green">begin%2:30:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::START.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V132017 [label=<<font color="green"><br /></font> <font color="black">LETTER-SYMBOL</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">* </font> <font color="green"><br /></font> <font color="green">i%1:10:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::LETTER-SYMBOL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V132049 [label=<<font color="green"><br /></font> <font color="black">PURPOSE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">TO</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PURPOSE.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V132071 [label=<<font color="green"><br /></font> <font color="black">CLEAN</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">CLEAN</font> <font color="green"><br /></font> <font color="green">clean%2:35:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::CLEAN.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V132079 [label=<<font color="green"><br /></font> <font color="black">BODY-PART</font> <font color="green"><br /></font> <font color="red">THE-SET</font> <font color="blue">TOOTH</font> <font color="green"><br /></font> <font color="green">tooth%1:08:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BODY-PART.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V132076 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">MY</font> <font color="green"><br /></font> <font color="green">person%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V132049 -> V132035 [label=" FIGURE   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V132035 -> V132017 [label=" AGENT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V132049 -> V132071 [label=" GROUND   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V132071 -> V132079 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V132079 -> V132076 [label=" ASSOC-POSS   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V132035 -> V132049 [label=" REASON   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V132290 -> V132035 [label=" CONTENT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

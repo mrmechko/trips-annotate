@@ -1,0 +1,23 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V140304 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V139743 [label=<<font color="green"><br /></font> <font color="black">FLY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">FLY</font> <font color="green"><br /></font> <font color="green">fly%2:38:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FLY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V139737 [label=<<font color="green"><br /></font> <font color="black">MANUFACTURED-OBJECT</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">BALL</font> <font color="green"><br /></font> <font color="green">ball%1:06:02::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MANUFACTURED-OBJECT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V139752 [label=<<font color="green"><br /></font> <font color="black">ABOVE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">OVER</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ABOVE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V139778 [label=<<font color="green"><br /></font> <font color="black">EXTERNAL-BODY-PART</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">HEAD</font> <font color="green"><br /></font> <font color="green">head%1:17:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EXTERNAL-BODY-PART.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V139772 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">MY</font> <font color="green"><br /></font> <font color="green">person%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V139792 [label=<<font color="green"><br /></font> <font color="black">AT-LOC</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">AT</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::AT-LOC.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V139841 [label=<<font color="green"><br /></font> <font color="black">EQUIPMENT</font> <font color="green"><br /></font> <font color="red">BARE</font> <font color="blue">SECOND-BASE</font> <font color="green"><br /></font> <font color="green">second_base%1:06:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EQUIPMENT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V139743 -> V139737 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V139752 -> V139778 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V139778 -> V139772 [label=" ASSOC-POSS   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V139752 -> V139737 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V139792 -> V139841 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V140304 -> V139743 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V139792 -> V139743 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V139743 -> V139792 [label=" LOCATION   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V139743 -> V139752 [label=" RESULT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

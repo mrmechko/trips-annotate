@@ -1,0 +1,18 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V204140 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V203744 [label=<<font color="green"><br /></font> <font color="black">SOUND-EXPRESSION</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">LAUGH</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SOUND-EXPRESSION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V203674 [label=<<font color="green"><br /></font> <font color="black">WHEN-WHILE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">AS</font> <font color="green"><br /></font> <font color="green">as%4:02:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::WHEN-WHILE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V203712 [label=<<font color="green"><br /></font> <font color="black">DEPART</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">LEAVE</font> <font color="green"><br /></font> <font color="green">leave%2:38:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DEPART.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V203695 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">PERSON</font> <font color="green"><br /></font> <font color="green">person%1:03:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V203731 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">TONY</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V203744 -> V203731 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V204140 -> V203744 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V203674 -> V203744 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V203744 -> V203674 [label=" TIME   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V203674 -> V203712 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V203712 -> V203695 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

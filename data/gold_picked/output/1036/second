@@ -1,0 +1,24 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V128648 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V128006 [label=<<font color="green"><br /></font> <font color="black">CONJUNCT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">AND</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::CONJUNCT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V128020 [label=<<font color="green"><br /></font> <font color="black">LOSE-COMPETE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">LOSE</font> <font color="green"><br /></font> <font color="green">lose%2:33:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::LOSE-COMPETE.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V128014 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">PRO-SET</font> <font color="blue">THEY</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V128025 [label=<<font color="green"><br /></font> <font color="black">AWFUL-VAL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">HORRIBLY</font> <font color="green"><br /></font> <font color="green">nasty%3:00:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::AWFUL-VAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V128037 [label=<<font color="green"><br /></font> <font color="black">PURPOSE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">IN</font> <font color="green"><br /></font> <font color="green">in%4:02:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PURPOSE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V128090 [label=<<font color="green"><br /></font> <font color="black">OBJECT-DEPENDENT-LOCATION</font> <font color="green"><br /></font> <font color="red">BARE</font> <font color="blue">FRONT</font> <font color="green"><br /></font> <font color="green">front%1:15:03::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::OBJECT-DEPENDENT-LOCATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V128160 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">PERSON</font> <font color="green"><br /></font> <font color="green">person%1:03:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V128020 -> V128037 [label=" REASON   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V128037 -> V128020 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V128025 -> V128020 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V128037 -> V128090 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V128020 -> V128025 [label=" EVALUATION   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V128006 -> V128648 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V128648 -> V128006 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V128090 -> V128160 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V128648 -> V128020 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V128020 -> V128014 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

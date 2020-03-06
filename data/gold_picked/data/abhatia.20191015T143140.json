@@ -1,0 +1,2259 @@
+{
+  "parse": [
+    {
+      "V63417": {
+        "id": "V63417",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V62906",
+          "LEX": "TOLD"
+        },
+        "start": 0,
+        "end": 33
+      },
+      "V62906": {
+        "id": "V62906",
+        "indicator": "F",
+        "type": "COMMAND",
+        "word": "TELL",
+        "roles": {
+          "AGENT": "#V62894",
+          "AGENT1": "#V62914",
+          "FORMAL": "#V63101",
+          "TENSE": "PAST",
+          "LEX": "TOLD",
+          "WNSENSE": "tell%2:32:02::"
+        },
+        "start": 0,
+        "end": 33
+      },
+      "V62894": {
+        "id": "V62894",
+        "indicator": "THE",
+        "type": "GROUP-OBJECT",
+        "word": "GROUP",
+        "roles": {
+          "ASSOC-POSS": "#V62885",
+          "LEX": "GROUP",
+          "WNSENSE": "group%1:03:00::"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V62885": {
+        "id": "V62885",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V62914": {
+        "id": "V62914",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 14,
+        "end": 17
+      },
+      "V63101": {
+        "id": "V63101",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "GIVE-IT-A-TRY",
+        "roles": {
+          "AGENT": "#V62914",
+          "VFORM": "BASE",
+          "LEX": "GIVE-IT-A-TRY",
+          "WNSENSE": "give_it_a_try%2:41:00"
+        },
+        "start": 17,
+        "end": 33
+      },
+      "root": "#V63417"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V63505": {
+          "id": "V63505",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V62906",
+            "LEX": "TOLD"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V62906": {
+          "id": "V62906",
+          "indicator": "F",
+          "type": "COMMAND",
+          "word": "TELL",
+          "roles": {
+            "AGENT": "#V62894",
+            "AGENT1": "#V62914",
+            "FORMAL": "#V62947",
+            "TENSE": "PAST",
+            "LEX": "TOLD",
+            "WNSENSE": "tell%2:32:02::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V62894": {
+          "id": "V62894",
+          "indicator": "THE",
+          "type": "GROUP-OBJECT",
+          "word": "GROUP",
+          "roles": {
+            "ASSOC-POSS": "#V62885",
+            "LEX": "GROUP",
+            "WNSENSE": "group%1:03:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62885": {
+          "id": "V62885",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62914": {
+          "id": "V62914",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 14,
+          "end": 17
+        },
+        "V62947": {
+          "id": "V62947",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": "GIVE",
+          "roles": {
+            "AGENT": "#V62914",
+            "AFFECTED": "#V62970",
+            "FORMAL": "#V63017",
+            "VFORM": "BASE",
+            "LEX": "GIVE",
+            "WNSENSE": "do%2:36:02"
+          },
+          "start": 17,
+          "end": 33
+        },
+        "V62970": {
+          "id": "V62970",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 25,
+          "end": 28
+        },
+        "V63017": {
+          "id": "V63017",
+          "indicator": "A",
+          "type": "EAT",
+          "word": "TRY",
+          "roles": {
+            "AFFECTED": "#V62970",
+            "AGENT": "#V62914",
+            "LEX": "TRY",
+            "WNSENSE": "eat%2:34:00"
+          },
+          "start": 28,
+          "end": 33
+        },
+        "root": "#V63505"
+      }
+    ],
+    [
+      {
+        "V63502": {
+          "id": "V63502",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V62906",
+            "LEX": "TOLD"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V62906": {
+          "id": "V62906",
+          "indicator": "F",
+          "type": "COMMAND",
+          "word": "TELL",
+          "roles": {
+            "AGENT": "#V62894",
+            "AGENT1": "#V62914",
+            "FORMAL": "#V62947",
+            "TENSE": "PAST",
+            "LEX": "TOLD",
+            "WNSENSE": "tell%2:32:02::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V62894": {
+          "id": "V62894",
+          "indicator": "THE",
+          "type": "GROUP-OBJECT",
+          "word": "GROUP",
+          "roles": {
+            "ASSOC-POSS": "#V62885",
+            "LEX": "GROUP",
+            "WNSENSE": "group%1:03:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62885": {
+          "id": "V62885",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62914": {
+          "id": "V62914",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 14,
+          "end": 17
+        },
+        "V62947": {
+          "id": "V62947",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": "GIVE",
+          "roles": {
+            "AGENT": "#V62914",
+            "AFFECTED": "#V62970",
+            "FORMAL": "#V63016",
+            "VFORM": "BASE",
+            "LEX": "GIVE",
+            "WNSENSE": "do%2:36:02"
+          },
+          "start": 17,
+          "end": 33
+        },
+        "V62970": {
+          "id": "V62970",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 25,
+          "end": 28
+        },
+        "V63016": {
+          "id": "V63016",
+          "indicator": "A",
+          "type": "TRY",
+          "word": "TRY",
+          "roles": {
+            "NEUTRAL": "#V62970",
+            "AGENT": "#V62914",
+            "LEX": "TRY",
+            "WNSENSE": "try%1:04:00::"
+          },
+          "start": 28,
+          "end": 33
+        },
+        "root": "#V63502"
+      }
+    ],
+    [
+      {
+        "V63499": {
+          "id": "V63499",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V62906",
+            "LEX": "TOLD"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V62906": {
+          "id": "V62906",
+          "indicator": "F",
+          "type": "COMMAND",
+          "word": "TELL",
+          "roles": {
+            "AGENT": "#V62894",
+            "AGENT1": "#V62914",
+            "FORMAL": "#V62947",
+            "TENSE": "PAST",
+            "LEX": "TOLD",
+            "WNSENSE": "tell%2:32:02::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V62894": {
+          "id": "V62894",
+          "indicator": "THE",
+          "type": "GROUP-OBJECT",
+          "word": "GROUP",
+          "roles": {
+            "ASSOC-POSS": "#V62885",
+            "LEX": "GROUP",
+            "WNSENSE": "group%1:03:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62885": {
+          "id": "V62885",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62914": {
+          "id": "V62914",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 14,
+          "end": 17
+        },
+        "V62947": {
+          "id": "V62947",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": "GIVE",
+          "roles": {
+            "AGENT": "#V62914",
+            "AFFECTED": "#V62970",
+            "FORMAL": "#V63015",
+            "VFORM": "BASE",
+            "LEX": "GIVE",
+            "WNSENSE": "do%2:36:02"
+          },
+          "start": 17,
+          "end": 33
+        },
+        "V62970": {
+          "id": "V62970",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 25,
+          "end": 28
+        },
+        "V63015": {
+          "id": "V63015",
+          "indicator": "A",
+          "type": "EVOKE-DISTRESS",
+          "word": "TRY",
+          "roles": {
+            "AFFECTED": "#V62970",
+            "AGENT": "#V62914",
+            "LEX": "TRY",
+            "WNSENSE": "tense%2:29:00"
+          },
+          "start": 28,
+          "end": 33
+        },
+        "root": "#V63499"
+      }
+    ],
+    [
+      {
+        "V63692": {
+          "id": "V63692",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V62903",
+            "LEX": "TOLD"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V62903": {
+          "id": "V62903",
+          "indicator": "F",
+          "type": "TELL",
+          "word": "TELL",
+          "roles": {
+            "AGENT": "#V62894",
+            "AGENT1": "#V62914",
+            "REASON": "#V62926",
+            "TENSE": "PAST",
+            "LEX": "TOLD",
+            "WNSENSE": "tell%2:32:04::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V62894": {
+          "id": "V62894",
+          "indicator": "THE",
+          "type": "GROUP-OBJECT",
+          "word": "GROUP",
+          "roles": {
+            "ASSOC-POSS": "#V62885",
+            "LEX": "GROUP",
+            "WNSENSE": "group%1:03:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62885": {
+          "id": "V62885",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62914": {
+          "id": "V62914",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 14,
+          "end": 17
+        },
+        "V62926": {
+          "id": "V62926",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V63101",
+            "FIGURE": "#V62903",
+            "LEX": "TO"
+          },
+          "start": 17,
+          "end": 33
+        },
+        "V63101": {
+          "id": "V63101",
+          "indicator": "F",
+          "type": "TRY",
+          "word": "GIVE-IT-A-TRY",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "GIVE-IT-A-TRY",
+            "WNSENSE": "give_it_a_try%2:41:00"
+          },
+          "start": 20,
+          "end": 33
+        },
+        "root": "#V63692"
+      }
+    ],
+    [
+      {
+        "V63689": {
+          "id": "V63689",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V62904",
+            "LEX": "TOLD"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V62904": {
+          "id": "V62904",
+          "indicator": "F",
+          "type": "TELL",
+          "word": "TELL",
+          "roles": {
+            "AGENT": "#V62894",
+            "NEUTRAL": "#V62914",
+            "REASON": "#V62926",
+            "TENSE": "PAST",
+            "LEX": "TOLD",
+            "WNSENSE": "tell%2:32:04::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V62894": {
+          "id": "V62894",
+          "indicator": "THE",
+          "type": "GROUP-OBJECT",
+          "word": "GROUP",
+          "roles": {
+            "ASSOC-POSS": "#V62885",
+            "LEX": "GROUP",
+            "WNSENSE": "group%1:03:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62885": {
+          "id": "V62885",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62914": {
+          "id": "V62914",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 14,
+          "end": 17
+        },
+        "V62926": {
+          "id": "V62926",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V63101",
+            "FIGURE": "#V62904",
+            "LEX": "TO"
+          },
+          "start": 17,
+          "end": 33
+        },
+        "V63101": {
+          "id": "V63101",
+          "indicator": "F",
+          "type": "TRY",
+          "word": "GIVE-IT-A-TRY",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "GIVE-IT-A-TRY",
+            "WNSENSE": "give_it_a_try%2:41:00"
+          },
+          "start": 20,
+          "end": 33
+        },
+        "root": "#V63689"
+      }
+    ],
+    [
+      {
+        "V63957": {
+          "id": "V63957",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V62904",
+            "LEX": "TOLD"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V62904": {
+          "id": "V62904",
+          "indicator": "F",
+          "type": "TELL",
+          "word": "TELL",
+          "roles": {
+            "AGENT": "#V62894",
+            "NEUTRAL": "#V62914",
+            "REASON": "#V62926",
+            "TENSE": "PAST",
+            "LEX": "TOLD",
+            "WNSENSE": "tell%2:32:04::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V62894": {
+          "id": "V62894",
+          "indicator": "THE",
+          "type": "GROUP-OBJECT",
+          "word": "GROUP",
+          "roles": {
+            "ASSOC-POSS": "#V62885",
+            "LEX": "GROUP",
+            "WNSENSE": "group%1:03:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62885": {
+          "id": "V62885",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62914": {
+          "id": "V62914",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 14,
+          "end": 17
+        },
+        "V62926": {
+          "id": "V62926",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V62947",
+            "FIGURE": "#V62904",
+            "LEX": "TO"
+          },
+          "start": 17,
+          "end": 33
+        },
+        "V62947": {
+          "id": "V62947",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": "GIVE",
+          "roles": {
+            "AFFECTED": "#V62970",
+            "FORMAL": "#V63017",
+            "VFORM": "BASE",
+            "LEX": "GIVE",
+            "WNSENSE": "do%2:36:02"
+          },
+          "start": 20,
+          "end": 33
+        },
+        "V62970": {
+          "id": "V62970",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 25,
+          "end": 28
+        },
+        "V63017": {
+          "id": "V63017",
+          "indicator": "A",
+          "type": "EAT",
+          "word": "TRY",
+          "roles": {
+            "AFFECTED": "#V62970",
+            "LEX": "TRY",
+            "WNSENSE": "eat%2:34:00"
+          },
+          "start": 28,
+          "end": 33
+        },
+        "root": "#V63957"
+      }
+    ],
+    [
+      {
+        "V63949": {
+          "id": "V63949",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V62903",
+            "LEX": "TOLD"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V62903": {
+          "id": "V62903",
+          "indicator": "F",
+          "type": "TELL",
+          "word": "TELL",
+          "roles": {
+            "AGENT": "#V62894",
+            "AGENT1": "#V62914",
+            "REASON": "#V62926",
+            "TENSE": "PAST",
+            "LEX": "TOLD",
+            "WNSENSE": "tell%2:32:04::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V62894": {
+          "id": "V62894",
+          "indicator": "THE",
+          "type": "GROUP-OBJECT",
+          "word": "GROUP",
+          "roles": {
+            "ASSOC-POSS": "#V62885",
+            "LEX": "GROUP",
+            "WNSENSE": "group%1:03:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62885": {
+          "id": "V62885",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62914": {
+          "id": "V62914",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 14,
+          "end": 17
+        },
+        "V62926": {
+          "id": "V62926",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V62947",
+            "FIGURE": "#V62903",
+            "LEX": "TO"
+          },
+          "start": 17,
+          "end": 33
+        },
+        "V62947": {
+          "id": "V62947",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": "GIVE",
+          "roles": {
+            "AFFECTED": "#V62970",
+            "FORMAL": "#V63017",
+            "VFORM": "BASE",
+            "LEX": "GIVE",
+            "WNSENSE": "do%2:36:02"
+          },
+          "start": 20,
+          "end": 33
+        },
+        "V62970": {
+          "id": "V62970",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 25,
+          "end": 28
+        },
+        "V63017": {
+          "id": "V63017",
+          "indicator": "A",
+          "type": "EAT",
+          "word": "TRY",
+          "roles": {
+            "AFFECTED": "#V62970",
+            "LEX": "TRY",
+            "WNSENSE": "eat%2:34:00"
+          },
+          "start": 28,
+          "end": 33
+        },
+        "root": "#V63949"
+      }
+    ],
+    [
+      {
+        "V63941": {
+          "id": "V63941",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V62904",
+            "LEX": "TOLD"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V62904": {
+          "id": "V62904",
+          "indicator": "F",
+          "type": "TELL",
+          "word": "TELL",
+          "roles": {
+            "AGENT": "#V62894",
+            "NEUTRAL": "#V62914",
+            "REASON": "#V62926",
+            "TENSE": "PAST",
+            "LEX": "TOLD",
+            "WNSENSE": "tell%2:32:04::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V62894": {
+          "id": "V62894",
+          "indicator": "THE",
+          "type": "GROUP-OBJECT",
+          "word": "GROUP",
+          "roles": {
+            "ASSOC-POSS": "#V62885",
+            "LEX": "GROUP",
+            "WNSENSE": "group%1:03:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62885": {
+          "id": "V62885",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62914": {
+          "id": "V62914",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 14,
+          "end": 17
+        },
+        "V62926": {
+          "id": "V62926",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V62947",
+            "FIGURE": "#V62904",
+            "LEX": "TO"
+          },
+          "start": 17,
+          "end": 33
+        },
+        "V62947": {
+          "id": "V62947",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": "GIVE",
+          "roles": {
+            "AFFECTED": "#V62970",
+            "FORMAL": "#V63016",
+            "VFORM": "BASE",
+            "LEX": "GIVE",
+            "WNSENSE": "do%2:36:02"
+          },
+          "start": 20,
+          "end": 33
+        },
+        "V62970": {
+          "id": "V62970",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 25,
+          "end": 28
+        },
+        "V63016": {
+          "id": "V63016",
+          "indicator": "A",
+          "type": "TRY",
+          "word": "TRY",
+          "roles": {
+            "NEUTRAL": "#V62970",
+            "LEX": "TRY",
+            "WNSENSE": "try%1:04:00::"
+          },
+          "start": 28,
+          "end": 33
+        },
+        "root": "#V63941"
+      }
+    ],
+    [
+      {
+        "V63933": {
+          "id": "V63933",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V62903",
+            "LEX": "TOLD"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V62903": {
+          "id": "V62903",
+          "indicator": "F",
+          "type": "TELL",
+          "word": "TELL",
+          "roles": {
+            "AGENT": "#V62894",
+            "AGENT1": "#V62914",
+            "REASON": "#V62926",
+            "TENSE": "PAST",
+            "LEX": "TOLD",
+            "WNSENSE": "tell%2:32:04::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V62894": {
+          "id": "V62894",
+          "indicator": "THE",
+          "type": "GROUP-OBJECT",
+          "word": "GROUP",
+          "roles": {
+            "ASSOC-POSS": "#V62885",
+            "LEX": "GROUP",
+            "WNSENSE": "group%1:03:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62885": {
+          "id": "V62885",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62914": {
+          "id": "V62914",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 14,
+          "end": 17
+        },
+        "V62926": {
+          "id": "V62926",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V62947",
+            "FIGURE": "#V62903",
+            "LEX": "TO"
+          },
+          "start": 17,
+          "end": 33
+        },
+        "V62947": {
+          "id": "V62947",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": "GIVE",
+          "roles": {
+            "AFFECTED": "#V62970",
+            "FORMAL": "#V63016",
+            "VFORM": "BASE",
+            "LEX": "GIVE",
+            "WNSENSE": "do%2:36:02"
+          },
+          "start": 20,
+          "end": 33
+        },
+        "V62970": {
+          "id": "V62970",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 25,
+          "end": 28
+        },
+        "V63016": {
+          "id": "V63016",
+          "indicator": "A",
+          "type": "TRY",
+          "word": "TRY",
+          "roles": {
+            "NEUTRAL": "#V62970",
+            "LEX": "TRY",
+            "WNSENSE": "try%1:04:00::"
+          },
+          "start": 28,
+          "end": 33
+        },
+        "root": "#V63933"
+      }
+    ],
+    [
+      {
+        "V63925": {
+          "id": "V63925",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V62904",
+            "LEX": "TOLD"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V62904": {
+          "id": "V62904",
+          "indicator": "F",
+          "type": "TELL",
+          "word": "TELL",
+          "roles": {
+            "AGENT": "#V62894",
+            "NEUTRAL": "#V62914",
+            "REASON": "#V62926",
+            "TENSE": "PAST",
+            "LEX": "TOLD",
+            "WNSENSE": "tell%2:32:04::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V62894": {
+          "id": "V62894",
+          "indicator": "THE",
+          "type": "GROUP-OBJECT",
+          "word": "GROUP",
+          "roles": {
+            "ASSOC-POSS": "#V62885",
+            "LEX": "GROUP",
+            "WNSENSE": "group%1:03:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62885": {
+          "id": "V62885",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62914": {
+          "id": "V62914",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 14,
+          "end": 17
+        },
+        "V62926": {
+          "id": "V62926",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V62947",
+            "FIGURE": "#V62904",
+            "LEX": "TO"
+          },
+          "start": 17,
+          "end": 33
+        },
+        "V62947": {
+          "id": "V62947",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": "GIVE",
+          "roles": {
+            "AFFECTED": "#V62970",
+            "FORMAL": "#V63015",
+            "VFORM": "BASE",
+            "LEX": "GIVE",
+            "WNSENSE": "do%2:36:02"
+          },
+          "start": 20,
+          "end": 33
+        },
+        "V62970": {
+          "id": "V62970",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 25,
+          "end": 28
+        },
+        "V63015": {
+          "id": "V63015",
+          "indicator": "A",
+          "type": "EVOKE-DISTRESS",
+          "word": "TRY",
+          "roles": {
+            "AFFECTED": "#V62970",
+            "LEX": "TRY",
+            "WNSENSE": "tense%2:29:00"
+          },
+          "start": 28,
+          "end": 33
+        },
+        "root": "#V63925"
+      }
+    ],
+    [
+      {
+        "V63917": {
+          "id": "V63917",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V62903",
+            "LEX": "TOLD"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V62903": {
+          "id": "V62903",
+          "indicator": "F",
+          "type": "TELL",
+          "word": "TELL",
+          "roles": {
+            "AGENT": "#V62894",
+            "AGENT1": "#V62914",
+            "REASON": "#V62926",
+            "TENSE": "PAST",
+            "LEX": "TOLD",
+            "WNSENSE": "tell%2:32:04::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V62894": {
+          "id": "V62894",
+          "indicator": "THE",
+          "type": "GROUP-OBJECT",
+          "word": "GROUP",
+          "roles": {
+            "ASSOC-POSS": "#V62885",
+            "LEX": "GROUP",
+            "WNSENSE": "group%1:03:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62885": {
+          "id": "V62885",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62914": {
+          "id": "V62914",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 14,
+          "end": 17
+        },
+        "V62926": {
+          "id": "V62926",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V62947",
+            "FIGURE": "#V62903",
+            "LEX": "TO"
+          },
+          "start": 17,
+          "end": 33
+        },
+        "V62947": {
+          "id": "V62947",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": "GIVE",
+          "roles": {
+            "AFFECTED": "#V62970",
+            "FORMAL": "#V63015",
+            "VFORM": "BASE",
+            "LEX": "GIVE",
+            "WNSENSE": "do%2:36:02"
+          },
+          "start": 20,
+          "end": 33
+        },
+        "V62970": {
+          "id": "V62970",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 25,
+          "end": 28
+        },
+        "V63015": {
+          "id": "V63015",
+          "indicator": "A",
+          "type": "EVOKE-DISTRESS",
+          "word": "TRY",
+          "roles": {
+            "AFFECTED": "#V62970",
+            "LEX": "TRY",
+            "WNSENSE": "tense%2:29:00"
+          },
+          "start": 28,
+          "end": 33
+        },
+        "root": "#V63917"
+      }
+    ],
+    [
+      {
+        "V64566": {
+          "id": "V64566",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V62906",
+            "LEX": "TOLD"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V62906": {
+          "id": "V62906",
+          "indicator": "F",
+          "type": "COMMAND",
+          "word": "TELL",
+          "roles": {
+            "AGENT": "#V62893",
+            "AGENT1": "#V62914",
+            "FORMAL": "#V63101",
+            "TENSE": "PAST",
+            "LEX": "TOLD",
+            "WNSENSE": "tell%2:32:02::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V62893": {
+          "id": "V62893",
+          "indicator": "THE",
+          "type": "GROUP-OBJECT",
+          "word": "GROUP",
+          "roles": {
+            "ASSOC-POSS": "#V62885",
+            "LEX": "GROUP",
+            "WNSENSE": "group%1:03:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62885": {
+          "id": "V62885",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62914": {
+          "id": "V62914",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 14,
+          "end": 17
+        },
+        "V63101": {
+          "id": "V63101",
+          "indicator": "F",
+          "type": "TRY",
+          "word": "GIVE-IT-A-TRY",
+          "roles": {
+            "AGENT": "#V62914",
+            "VFORM": "BASE",
+            "LEX": "GIVE-IT-A-TRY",
+            "WNSENSE": "give_it_a_try%2:41:00"
+          },
+          "start": 17,
+          "end": 33
+        },
+        "root": "#V64566"
+      }
+    ],
+    [
+      {
+        "V64773": {
+          "id": "V64773",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V62906",
+            "LEX": "TOLD"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V62906": {
+          "id": "V62906",
+          "indicator": "F",
+          "type": "COMMAND",
+          "word": "TELL",
+          "roles": {
+            "AGENT": "#V62893",
+            "AGENT1": "#V62914",
+            "FORMAL": "#V62947",
+            "TENSE": "PAST",
+            "LEX": "TOLD",
+            "WNSENSE": "tell%2:32:02::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V62893": {
+          "id": "V62893",
+          "indicator": "THE",
+          "type": "GROUP-OBJECT",
+          "word": "GROUP",
+          "roles": {
+            "ASSOC-POSS": "#V62885",
+            "LEX": "GROUP",
+            "WNSENSE": "group%1:03:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62885": {
+          "id": "V62885",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62914": {
+          "id": "V62914",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 14,
+          "end": 17
+        },
+        "V62947": {
+          "id": "V62947",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": "GIVE",
+          "roles": {
+            "AGENT": "#V62914",
+            "AFFECTED": "#V62970",
+            "FORMAL": "#V63017",
+            "VFORM": "BASE",
+            "LEX": "GIVE",
+            "WNSENSE": "do%2:36:02"
+          },
+          "start": 17,
+          "end": 33
+        },
+        "V62970": {
+          "id": "V62970",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 25,
+          "end": 28
+        },
+        "V63017": {
+          "id": "V63017",
+          "indicator": "A",
+          "type": "EAT",
+          "word": "TRY",
+          "roles": {
+            "AFFECTED": "#V62970",
+            "AGENT": "#V62914",
+            "LEX": "TRY",
+            "WNSENSE": "eat%2:34:00"
+          },
+          "start": 28,
+          "end": 33
+        },
+        "root": "#V64773"
+      }
+    ],
+    [
+      {
+        "V64770": {
+          "id": "V64770",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V62906",
+            "LEX": "TOLD"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V62906": {
+          "id": "V62906",
+          "indicator": "F",
+          "type": "COMMAND",
+          "word": "TELL",
+          "roles": {
+            "AGENT": "#V62893",
+            "AGENT1": "#V62914",
+            "FORMAL": "#V62947",
+            "TENSE": "PAST",
+            "LEX": "TOLD",
+            "WNSENSE": "tell%2:32:02::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V62893": {
+          "id": "V62893",
+          "indicator": "THE",
+          "type": "GROUP-OBJECT",
+          "word": "GROUP",
+          "roles": {
+            "ASSOC-POSS": "#V62885",
+            "LEX": "GROUP",
+            "WNSENSE": "group%1:03:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62885": {
+          "id": "V62885",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62914": {
+          "id": "V62914",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 14,
+          "end": 17
+        },
+        "V62947": {
+          "id": "V62947",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": "GIVE",
+          "roles": {
+            "AGENT": "#V62914",
+            "AFFECTED": "#V62970",
+            "FORMAL": "#V63016",
+            "VFORM": "BASE",
+            "LEX": "GIVE",
+            "WNSENSE": "do%2:36:02"
+          },
+          "start": 17,
+          "end": 33
+        },
+        "V62970": {
+          "id": "V62970",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 25,
+          "end": 28
+        },
+        "V63016": {
+          "id": "V63016",
+          "indicator": "A",
+          "type": "TRY",
+          "word": "TRY",
+          "roles": {
+            "NEUTRAL": "#V62970",
+            "AGENT": "#V62914",
+            "LEX": "TRY",
+            "WNSENSE": "try%1:04:00::"
+          },
+          "start": 28,
+          "end": 33
+        },
+        "root": "#V64770"
+      }
+    ],
+    [
+      {
+        "V64767": {
+          "id": "V64767",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V62906",
+            "LEX": "TOLD"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V62906": {
+          "id": "V62906",
+          "indicator": "F",
+          "type": "COMMAND",
+          "word": "TELL",
+          "roles": {
+            "AGENT": "#V62893",
+            "AGENT1": "#V62914",
+            "FORMAL": "#V62947",
+            "TENSE": "PAST",
+            "LEX": "TOLD",
+            "WNSENSE": "tell%2:32:02::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V62893": {
+          "id": "V62893",
+          "indicator": "THE",
+          "type": "GROUP-OBJECT",
+          "word": "GROUP",
+          "roles": {
+            "ASSOC-POSS": "#V62885",
+            "LEX": "GROUP",
+            "WNSENSE": "group%1:03:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62885": {
+          "id": "V62885",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62914": {
+          "id": "V62914",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 14,
+          "end": 17
+        },
+        "V62947": {
+          "id": "V62947",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": "GIVE",
+          "roles": {
+            "AGENT": "#V62914",
+            "AFFECTED": "#V62970",
+            "FORMAL": "#V63015",
+            "VFORM": "BASE",
+            "LEX": "GIVE",
+            "WNSENSE": "do%2:36:02"
+          },
+          "start": 17,
+          "end": 33
+        },
+        "V62970": {
+          "id": "V62970",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 25,
+          "end": 28
+        },
+        "V63015": {
+          "id": "V63015",
+          "indicator": "A",
+          "type": "EVOKE-DISTRESS",
+          "word": "TRY",
+          "roles": {
+            "AFFECTED": "#V62970",
+            "AGENT": "#V62914",
+            "LEX": "TRY",
+            "WNSENSE": "tense%2:29:00"
+          },
+          "start": 28,
+          "end": 33
+        },
+        "root": "#V64767"
+      }
+    ],
+    [
+      {
+        "V64885": {
+          "id": "V64885",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V62904",
+            "LEX": "TOLD"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V62904": {
+          "id": "V62904",
+          "indicator": "F",
+          "type": "TELL",
+          "word": "TELL",
+          "roles": {
+            "AGENT": "#V62893",
+            "NEUTRAL": "#V62914",
+            "REASON": "#V62926",
+            "TENSE": "PAST",
+            "LEX": "TOLD",
+            "WNSENSE": "tell%2:32:04::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V62893": {
+          "id": "V62893",
+          "indicator": "THE",
+          "type": "GROUP-OBJECT",
+          "word": "GROUP",
+          "roles": {
+            "ASSOC-POSS": "#V62885",
+            "LEX": "GROUP",
+            "WNSENSE": "group%1:03:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62885": {
+          "id": "V62885",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62914": {
+          "id": "V62914",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 14,
+          "end": 17
+        },
+        "V62926": {
+          "id": "V62926",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V63101",
+            "FIGURE": "#V62904",
+            "LEX": "TO"
+          },
+          "start": 17,
+          "end": 33
+        },
+        "V63101": {
+          "id": "V63101",
+          "indicator": "F",
+          "type": "TRY",
+          "word": "GIVE-IT-A-TRY",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "GIVE-IT-A-TRY",
+            "WNSENSE": "give_it_a_try%2:41:00"
+          },
+          "start": 20,
+          "end": 33
+        },
+        "root": "#V64885"
+      }
+    ],
+    [
+      {
+        "V63417": {
+          "id": "V63417",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V62906",
+            "LEX": "TOLD"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V62906": {
+          "id": "V62906",
+          "indicator": "F",
+          "type": "COMMAND",
+          "word": "TELL",
+          "roles": {
+            "AGENT": "#V62894",
+            "AGENT1": "#V62914",
+            "FORMAL": "#V63101",
+            "TENSE": "PAST",
+            "LEX": "TOLD",
+            "WNSENSE": "tell%2:32:02::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V62894": {
+          "id": "V62894",
+          "indicator": "THE",
+          "type": "GROUP-OBJECT",
+          "word": "GROUP",
+          "roles": {
+            "ASSOC-POSS": "#V62885",
+            "LEX": "GROUP",
+            "WNSENSE": "group%1:03:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62885": {
+          "id": "V62885",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62914": {
+          "id": "V62914",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 14,
+          "end": 17
+        },
+        "V63101": {
+          "id": "V63101",
+          "indicator": "F",
+          "type": "TRY",
+          "word": "GIVE-IT-A-TRY",
+          "roles": {
+            "AGENT": "#V62914",
+            "VFORM": "BASE",
+            "LEX": "GIVE-IT-A-TRY",
+            "WNSENSE": "give_it_a_try%2:41:00"
+          },
+          "start": 17,
+          "end": 33
+        },
+        "root": "#V63417"
+      }
+    ],
+    [
+      {
+        "V63505": {
+          "id": "V63505",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V62906",
+            "LEX": "TOLD"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V62906": {
+          "id": "V62906",
+          "indicator": "F",
+          "type": "COMMAND",
+          "word": "TELL",
+          "roles": {
+            "AGENT": "#V62894",
+            "AGENT1": "#V62914",
+            "FORMAL": "#V62947",
+            "TENSE": "PAST",
+            "LEX": "TOLD",
+            "WNSENSE": "tell%2:32:02::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V62894": {
+          "id": "V62894",
+          "indicator": "THE",
+          "type": "GROUP-OBJECT",
+          "word": "GROUP",
+          "roles": {
+            "ASSOC-POSS": "#V62885",
+            "LEX": "GROUP",
+            "WNSENSE": "group%1:03:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62885": {
+          "id": "V62885",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62914": {
+          "id": "V62914",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 14,
+          "end": 17
+        },
+        "V62947": {
+          "id": "V62947",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": "GIVE",
+          "roles": {
+            "AGENT": "#V62914",
+            "AFFECTED": "#V62970",
+            "FORMAL": "#V63017",
+            "VFORM": "BASE",
+            "LEX": "GIVE",
+            "WNSENSE": "do%2:36:02"
+          },
+          "start": 17,
+          "end": 33
+        },
+        "V62970": {
+          "id": "V62970",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 25,
+          "end": 28
+        },
+        "V63017": {
+          "id": "V63017",
+          "indicator": "A",
+          "type": "EAT",
+          "word": "TRY",
+          "roles": {
+            "AFFECTED": "#V62970",
+            "AGENT": "#V62914",
+            "LEX": "TRY",
+            "WNSENSE": "eat%2:34:00"
+          },
+          "start": 28,
+          "end": 33
+        },
+        "root": "#V63505"
+      }
+    ],
+    [
+      {
+        "V63502": {
+          "id": "V63502",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V62906",
+            "LEX": "TOLD"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V62906": {
+          "id": "V62906",
+          "indicator": "F",
+          "type": "COMMAND",
+          "word": "TELL",
+          "roles": {
+            "AGENT": "#V62894",
+            "AGENT1": "#V62914",
+            "FORMAL": "#V62947",
+            "TENSE": "PAST",
+            "LEX": "TOLD",
+            "WNSENSE": "tell%2:32:02::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V62894": {
+          "id": "V62894",
+          "indicator": "THE",
+          "type": "GROUP-OBJECT",
+          "word": "GROUP",
+          "roles": {
+            "ASSOC-POSS": "#V62885",
+            "LEX": "GROUP",
+            "WNSENSE": "group%1:03:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62885": {
+          "id": "V62885",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V62914": {
+          "id": "V62914",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 14,
+          "end": 17
+        },
+        "V62947": {
+          "id": "V62947",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": "GIVE",
+          "roles": {
+            "AGENT": "#V62914",
+            "AFFECTED": "#V62970",
+            "FORMAL": "#V63016",
+            "VFORM": "BASE",
+            "LEX": "GIVE",
+            "WNSENSE": "do%2:36:02"
+          },
+          "start": 17,
+          "end": 33
+        },
+        "V62970": {
+          "id": "V62970",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 25,
+          "end": 28
+        },
+        "V63016": {
+          "id": "V63016",
+          "indicator": "A",
+          "type": "TRY",
+          "word": "TRY",
+          "roles": {
+            "NEUTRAL": "#V62970",
+            "AGENT": "#V62914",
+            "LEX": "TRY",
+            "WNSENSE": "try%1:04:00::"
+          },
+          "start": 28,
+          "end": 33
+        },
+        "root": "#V63502"
+      }
+    ]
+  ],
+  "sentence": "My group told me to give it a try.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20191015T143140",
+    "link": "http://trips.ihmc.us/parser/saved/20191015T143140-STEP-abhatia-0-My_group_told_me_to_give_it_a_try_.xml",
+    "judgement": 0
+  }
+}

@@ -1,0 +1,21 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V208695 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V208306 [label=<<font color="green"><br /></font> <font color="black">HAVE-PROPERTY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BE</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::HAVE-PROPERTY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V208180 [label=<<font color="green"><br /></font> <font color="black">WHEN-WHILE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">WHEN</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::WHEN-WHILE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V208261 [label=<<font color="green"><br /></font> <font color="black">APPEAR</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">COME-OUT</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::APPEAR.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V208256 [label=<<font color="green"><br /></font> <font color="black">INFORMATION</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">REPORT-CARDS</font> <font color="green"><br /></font> <font color="green">report_card%1:10:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::INFORMATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V208299 [label=<<font color="green"><br /></font> <font color="black">FEMALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">SHE</font> <font color="green"><br /></font> <font color="green">woman%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FEMALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V208320 [label=<<font color="green"><br /></font> <font color="black">HAPPY-VAL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">HAPPY</font> <font color="green"><br /></font> <font color="green">happy%3:00:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::HAPPY-VAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V208306 -> V208299 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V208180 -> V208306 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V208695 -> V208306 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V208306 -> V208320 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V208320 -> V208299 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V208261 -> V208256 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V208306 -> V208180 [label=" TIME   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V208180 -> V208261 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

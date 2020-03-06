@@ -1,0 +1,25 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V53495 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V52917 [label=<<font color="green"><br /></font> <font color="black">RELEASING</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">RELEASE</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::RELEASING.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V52844 [label=<<font color="green"><br /></font> <font color="black">WHEN-WHILE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">WHEN</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::WHEN-WHILE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V52870 [label=<<font color="green"><br /></font> <font color="black">OCCURRING</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">COME</font> <font color="green"><br /></font> <font color="green">come%2:30:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::OCCURRING.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V52859 [label=<<font color="green"><br /></font> <font color="black">WINTER</font> <font color="green"><br /></font> <font color="red">BARE</font> <font color="blue">WINTER</font> <font color="green"><br /></font> <font color="green">winter%1:28:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::WINTER.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V52895 [label=<<font color="green"><br /></font> <font color="black">PLANT-PART</font> <font color="green"><br /></font> <font color="red">BARE</font> <font color="blue">POLLEN</font> <font color="green"><br /></font> <font color="green">pollen%1:20:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PLANT-PART.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V52886 [label=<<font color="green"><br /></font> <font color="black">MATERIAL</font> <font color="green"><br /></font> <font color="red">KIND</font> <font color="blue">CEDAR</font> <font color="green"><br /></font> <font color="green">cedar%1:20:03::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MATERIAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V52928 [label=<<font color="green"><br /></font> <font color="black">PURPOSE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">IN</font> <font color="green"><br /></font> <font color="green">in%4:02:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PURPOSE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V52986 [label=<<font color="green"><br /></font> <font color="black">GEOGRAPHIC-REGION</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">TEXAS</font> <font color="green"><br /></font> <font color="green">north_america%1:14:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GEOGRAPHIC-REGION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V52917 -> V52928 [label=" REASON   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V52870 -> V52859 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V52917 -> V52844 [label=" TIME   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V52917 -> V52895 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V52844 -> V52917 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V52928 -> V52917 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V53495 -> V52917 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V52895 -> V52886 [label=" ASSOC-WITH   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V52844 -> V52870 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V52928 -> V52986 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

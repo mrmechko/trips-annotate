@@ -1,0 +1,28 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V141676 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V139164 [label=<<font color="green"><br /></font> <font color="black">ADMIT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">INVITE</font> <font color="green"><br /></font> <font color="green">invite%2:35:12::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ADMIT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V139141 [label=<<font color="green"><br /></font> <font color="black">FRIEND</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">FRIEND</font> <font color="green"><br /></font> <font color="green">friend%1:18:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FRIEND.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V139136 [label=<<font color="green"><br /></font> <font color="black">FEMALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HER</font> <font color="green"><br /></font> <font color="green">woman%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FEMALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V139145 [label=<<font color="green"><br /></font> <font color="black">SOURCE-AS-LOC</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">FROM</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SOURCE-AS-LOC.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V139157 [label=<<font color="green"><br /></font> <font color="black">ACADEMIC-INSTITUTION</font> <font color="green"><br /></font> <font color="red">BARE</font> <font color="blue">SCHOOL</font> <font color="green"><br /></font> <font color="green">school%1:14:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ACADEMIC-INSTITUTION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V139186 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V139178 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">JASMINE</font> <font color="green"><br /></font> <font color="green">person%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V139290 [label=<<font color="green"><br /></font> <font color="black">FRIEND</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">FRIEND</font> <font color="green"><br /></font> <font color="green">friend%1:18:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FRIEND.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V139280 [label=<<font color="green"><br /></font> <font color="black">ADDITIONAL-VAL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">MORE</font> <font color="green"><br /></font> <font color="green">more%3:00:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ADDITIONAL-VAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V139186 -> V139178 [label=" SEQUENCE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V139280 -> V139290 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V141676 -> V139164 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V139136 -> V139178 [label=" COREF   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V139186 -> V139290 [label=" SEQUENCE1   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V139164 -> V139141 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V139164 -> V139186 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V139145 -> V139157 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V139290 -> V139280 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V139145 -> V139141 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V139141 -> V139136 [label=" ASSOC-POSS   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V139141 -> V139145 [label=" SOURCE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

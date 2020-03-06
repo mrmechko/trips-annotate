@@ -1,0 +1,262 @@
+{
+  "parse": [
+    {
+      "V41302": {
+        "id": "V41302",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V41177",
+          "LEX": "WIPED"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V41177": {
+        "id": "V41177",
+        "indicator": "F",
+        "type": "RUB-SCRAPE-WIPE",
+        "word": "WIPE",
+        "roles": {
+          "RESULT": "#V41192",
+          "AGENT": "#V41169",
+          "AFFECTED": "#V41187",
+          "TENSE": "PAST",
+          "LEX": "WIPED"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V41169": {
+        "id": "V41169",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V41187": {
+        "id": "V41187",
+        "indicator": "THE",
+        "type": "TABLE",
+        "word": "TABLE",
+        "roles": {
+          "LEX": "TABLE"
+        },
+        "start": 9,
+        "end": 19
+      },
+      "V41192": {
+        "id": "V41192",
+        "indicator": "F",
+        "type": "CLEAN-VAL",
+        "word": "CLEAN",
+        "roles": {
+          "FIGURE": "#V41187",
+          "SCALE": "CLEAN-SCALE",
+          "LEX": "CLEAN"
+        },
+        "start": 19,
+        "end": 23
+      },
+      "root": "#V41302"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V41319": {
+          "id": "V41319",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V41177",
+            "LEX": "WIPED"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V41177": {
+          "id": "V41177",
+          "indicator": "F",
+          "type": "RUB-SCRAPE-WIPE",
+          "word": "WIPE",
+          "roles": {
+            "RESULT": "#V41192",
+            "AGENT": "#V41169",
+            "AFFECTED": "#V41188",
+            "TENSE": "PAST",
+            "LEX": "WIPED"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V41169": {
+          "id": "V41169",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V41188": {
+          "id": "V41188",
+          "indicator": "THE",
+          "type": "CHART",
+          "word": "TABLE",
+          "roles": {
+            "LEX": "TABLE"
+          },
+          "start": 9,
+          "end": 19
+        },
+        "V41192": {
+          "id": "V41192",
+          "indicator": "F",
+          "type": "CLEAN-VAL",
+          "word": "CLEAN",
+          "roles": {
+            "FIGURE": "#V41188",
+            "SCALE": "CLEAN-SCALE",
+            "LEX": "CLEAN"
+          },
+          "start": 19,
+          "end": 24
+        },
+        "root": "#V41319"
+      }
+    ],
+    [
+      {
+        "V41177": {
+          "id": "V41177",
+          "indicator": "F",
+          "type": "RUB-SCRAPE-WIPE",
+          "word": "WIPE",
+          "roles": {
+            "RESULT": "#V41192",
+            "AGENT": "#V41169",
+            "AFFECTED": "#V41187",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "WIPED"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V41169": {
+          "id": "V41169",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V41187": {
+          "id": "V41187",
+          "indicator": "THE",
+          "type": "TABLE",
+          "word": "TABLE",
+          "roles": {
+            "LEX": "TABLE"
+          },
+          "start": 9,
+          "end": 19
+        },
+        "V41192": {
+          "id": "V41192",
+          "indicator": "F",
+          "type": "CLEAN-VAL",
+          "word": "CLEAN",
+          "roles": {
+            "FIGURE": "#V41187",
+            "SCALE": "CLEAN-SCALE",
+            "LEX": "CLEAN"
+          },
+          "start": 19,
+          "end": 24
+        },
+        "root": "#V41177"
+      }
+    ],
+    [
+      {
+        "V41177": {
+          "id": "V41177",
+          "indicator": "F",
+          "type": "RUB-SCRAPE-WIPE",
+          "word": "WIPE",
+          "roles": {
+            "RESULT": "#V41192",
+            "AGENT": "#V41169",
+            "AFFECTED": "#V41188",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "WIPED"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V41169": {
+          "id": "V41169",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V41188": {
+          "id": "V41188",
+          "indicator": "THE",
+          "type": "CHART",
+          "word": "TABLE",
+          "roles": {
+            "LEX": "TABLE"
+          },
+          "start": 9,
+          "end": 19
+        },
+        "V41192": {
+          "id": "V41192",
+          "indicator": "F",
+          "type": "CLEAN-VAL",
+          "word": "CLEAN",
+          "roles": {
+            "FIGURE": "#V41188",
+            "SCALE": "CLEAN-SCALE",
+            "LEX": "CLEAN"
+          },
+          "start": 19,
+          "end": 24
+        },
+        "root": "#V41177"
+      }
+    ]
+  ],
+  "sentence": "He wiped the table clean",
+  "annotation": {
+    "judge": "jallen",
+    "parser": "STEP",
+    "timestamp": "20190610T131631",
+    "link": "http://trips.ihmc.us/parser/saved/20190610T131631-STEP-jallen-0-He_wiped_the_table_clean.xml",
+    "judgement": 0
+  }
+}

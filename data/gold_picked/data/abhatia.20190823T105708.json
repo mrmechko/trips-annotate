@@ -1,0 +1,625 @@
+{
+  "parse": [
+    {
+      "V51253": {
+        "id": "V51253",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V50980",
+          "LEX": "BROKE"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V50980": {
+        "id": "V50980",
+        "indicator": "F",
+        "type": "STOP",
+        "word": "BREAK",
+        "roles": {
+          "AFFECTED": "#V50967",
+          "MOD": "#V51016",
+          "TENSE": "PAST",
+          "LEX": "BROKE",
+          "WNSENSE": "break%2:30:03::"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V50967": {
+        "id": "V50967",
+        "indicator": "THE",
+        "type": "COMPANY",
+        "word": "COMPANY",
+        "roles": {
+          "LEX": "COMPANY",
+          "WNSENSE": "company%1:14:01::"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V51016": {
+        "id": "V51016",
+        "indicator": "F",
+        "type": "EQUAL",
+        "word": "EVEN",
+        "roles": {
+          "FIGURE": "#V50980",
+          "SCALE": "EQUAL-SCALE",
+          "LEX": "EVEN",
+          "WNSENSE": "even%5:00:02:equal:00"
+        },
+        "start": 18,
+        "end": 22
+      },
+      "root": "#V51253"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V51250": {
+          "id": "V51250",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V50980",
+            "LEX": "BROKE"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V50980": {
+          "id": "V50980",
+          "indicator": "F",
+          "type": "STOP",
+          "word": "BREAK",
+          "roles": {
+            "AFFECTED": "#V50967",
+            "MOD": "#V51020",
+            "TENSE": "PAST",
+            "LEX": "BROKE",
+            "WNSENSE": "break%2:30:03::"
+          },
+          "start": 0,
+          "end": 22
+        },
+        "V50967": {
+          "id": "V50967",
+          "indicator": "THE",
+          "type": "COMPANY",
+          "word": "COMPANY",
+          "roles": {
+            "LEX": "COMPANY",
+            "WNSENSE": "company%1:14:01::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V51020": {
+          "id": "V51020",
+          "indicator": "F",
+          "type": "MODIFIER",
+          "word": "EVEN",
+          "roles": {
+            "FIGURE": "#V50980",
+            "LEX": "EVEN",
+            "WNSENSE": "even%4:02:00::"
+          },
+          "start": 18,
+          "end": 22
+        },
+        "root": "#V51250"
+      }
+    ],
+    [
+      {
+        "V51247": {
+          "id": "V51247",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V50979",
+            "LEX": "BROKE"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V50979": {
+          "id": "V50979",
+          "indicator": "F",
+          "type": "APPEAR",
+          "word": "BREAK",
+          "roles": {
+            "AFFECTED": "#V50967",
+            "MOD": "#V51016",
+            "TENSE": "PAST",
+            "LEX": "BROKE",
+            "WNSENSE": "break%2:38:09::"
+          },
+          "start": 0,
+          "end": 22
+        },
+        "V50967": {
+          "id": "V50967",
+          "indicator": "THE",
+          "type": "COMPANY",
+          "word": "COMPANY",
+          "roles": {
+            "LEX": "COMPANY",
+            "WNSENSE": "company%1:14:01::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V51016": {
+          "id": "V51016",
+          "indicator": "F",
+          "type": "EQUAL",
+          "word": "EVEN",
+          "roles": {
+            "FIGURE": "#V50979",
+            "SCALE": "EQUAL-SCALE",
+            "LEX": "EVEN",
+            "WNSENSE": "even%5:00:02:equal:00"
+          },
+          "start": 18,
+          "end": 22
+        },
+        "root": "#V51247"
+      }
+    ],
+    [
+      {
+        "V51244": {
+          "id": "V51244",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V50979",
+            "LEX": "BROKE"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V50979": {
+          "id": "V50979",
+          "indicator": "F",
+          "type": "APPEAR",
+          "word": "BREAK",
+          "roles": {
+            "AFFECTED": "#V50967",
+            "MOD": "#V51020",
+            "TENSE": "PAST",
+            "LEX": "BROKE",
+            "WNSENSE": "break%2:38:09::"
+          },
+          "start": 0,
+          "end": 22
+        },
+        "V50967": {
+          "id": "V50967",
+          "indicator": "THE",
+          "type": "COMPANY",
+          "word": "COMPANY",
+          "roles": {
+            "LEX": "COMPANY",
+            "WNSENSE": "company%1:14:01::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V51020": {
+          "id": "V51020",
+          "indicator": "F",
+          "type": "MODIFIER",
+          "word": "EVEN",
+          "roles": {
+            "FIGURE": "#V50979",
+            "LEX": "EVEN",
+            "WNSENSE": "even%4:02:00::"
+          },
+          "start": 18,
+          "end": 22
+        },
+        "root": "#V51244"
+      }
+    ],
+    [
+      {
+        "V51326": {
+          "id": "V51326",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V50980",
+            "LEX": "BROKE"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V50980": {
+          "id": "V50980",
+          "indicator": "F",
+          "type": "STOP",
+          "word": "BREAK",
+          "roles": {
+            "AFFECTED": "#V50967",
+            "MOD": "#V51016",
+            "TENSE": "PAST",
+            "LEX": "BROKE",
+            "WNSENSE": "break%2:30:03::"
+          },
+          "start": 0,
+          "end": 22
+        },
+        "V50967": {
+          "id": "V50967",
+          "indicator": "THE",
+          "type": "COMPANY",
+          "word": "COMPANY",
+          "roles": {
+            "LEX": "COMPANY",
+            "WNSENSE": "company%1:14:01::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V51016": {
+          "id": "V51016",
+          "indicator": "F",
+          "type": "EQUAL",
+          "word": "EVEN",
+          "roles": {
+            "FIGURE": "#V50980",
+            "SCALE": "EQUAL-SCALE",
+            "LEX": "EVEN",
+            "WNSENSE": "even%5:00:02:equal:00"
+          },
+          "start": 18,
+          "end": 22
+        },
+        "root": "#V51326"
+      }
+    ],
+    [
+      {
+        "V51323": {
+          "id": "V51323",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V50980",
+            "LEX": "BROKE"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V50980": {
+          "id": "V50980",
+          "indicator": "F",
+          "type": "STOP",
+          "word": "BREAK",
+          "roles": {
+            "AFFECTED": "#V50967",
+            "MOD": "#V51020",
+            "TENSE": "PAST",
+            "LEX": "BROKE",
+            "WNSENSE": "break%2:30:03::"
+          },
+          "start": 0,
+          "end": 22
+        },
+        "V50967": {
+          "id": "V50967",
+          "indicator": "THE",
+          "type": "COMPANY",
+          "word": "COMPANY",
+          "roles": {
+            "LEX": "COMPANY",
+            "WNSENSE": "company%1:14:01::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V51020": {
+          "id": "V51020",
+          "indicator": "F",
+          "type": "MODIFIER",
+          "word": "EVEN",
+          "roles": {
+            "FIGURE": "#V50980",
+            "LEX": "EVEN",
+            "WNSENSE": "even%4:02:00::"
+          },
+          "start": 18,
+          "end": 22
+        },
+        "root": "#V51323"
+      }
+    ],
+    [
+      {
+        "V51320": {
+          "id": "V51320",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V50979",
+            "LEX": "BROKE"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V50979": {
+          "id": "V50979",
+          "indicator": "F",
+          "type": "APPEAR",
+          "word": "BREAK",
+          "roles": {
+            "AFFECTED": "#V50967",
+            "MOD": "#V51016",
+            "TENSE": "PAST",
+            "LEX": "BROKE",
+            "WNSENSE": "break%2:38:09::"
+          },
+          "start": 0,
+          "end": 22
+        },
+        "V50967": {
+          "id": "V50967",
+          "indicator": "THE",
+          "type": "COMPANY",
+          "word": "COMPANY",
+          "roles": {
+            "LEX": "COMPANY",
+            "WNSENSE": "company%1:14:01::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V51016": {
+          "id": "V51016",
+          "indicator": "F",
+          "type": "EQUAL",
+          "word": "EVEN",
+          "roles": {
+            "FIGURE": "#V50979",
+            "SCALE": "EQUAL-SCALE",
+            "LEX": "EVEN",
+            "WNSENSE": "even%5:00:02:equal:00"
+          },
+          "start": 18,
+          "end": 22
+        },
+        "root": "#V51320"
+      }
+    ],
+    [
+      {
+        "V51317": {
+          "id": "V51317",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V50979",
+            "LEX": "BROKE"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V50979": {
+          "id": "V50979",
+          "indicator": "F",
+          "type": "APPEAR",
+          "word": "BREAK",
+          "roles": {
+            "AFFECTED": "#V50967",
+            "MOD": "#V51020",
+            "TENSE": "PAST",
+            "LEX": "BROKE",
+            "WNSENSE": "break%2:38:09::"
+          },
+          "start": 0,
+          "end": 22
+        },
+        "V50967": {
+          "id": "V50967",
+          "indicator": "THE",
+          "type": "COMPANY",
+          "word": "COMPANY",
+          "roles": {
+            "LEX": "COMPANY",
+            "WNSENSE": "company%1:14:01::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V51020": {
+          "id": "V51020",
+          "indicator": "F",
+          "type": "MODIFIER",
+          "word": "EVEN",
+          "roles": {
+            "FIGURE": "#V50979",
+            "LEX": "EVEN",
+            "WNSENSE": "even%4:02:00::"
+          },
+          "start": 18,
+          "end": 22
+        },
+        "root": "#V51317"
+      }
+    ],
+    [
+      {
+        "V51383": {
+          "id": "V51383",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V50979",
+            "LEX": "BROKE"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V50979": {
+          "id": "V50979",
+          "indicator": "F",
+          "type": "APPEAR",
+          "word": "BREAK",
+          "roles": {
+            "AFFECTED": "#V50967",
+            "MOD": "#V51016",
+            "TENSE": "PAST",
+            "LEX": "BROKE",
+            "WNSENSE": "break%2:38:09::"
+          },
+          "start": 0,
+          "end": 22
+        },
+        "V50967": {
+          "id": "V50967",
+          "indicator": "BARE",
+          "type": "COMPANY",
+          "word": "COMPANY",
+          "roles": {
+            "ASSOC-WITH": "#V50962",
+            "LEX": "COMPANY",
+            "WNSENSE": "company%1:14:01::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V50962": {
+          "id": "V50962",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "NAME-OF": "THE",
+            "LEX": "THE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V51016": {
+          "id": "V51016",
+          "indicator": "F",
+          "type": "EQUAL",
+          "word": "EVEN",
+          "roles": {
+            "FIGURE": "#V50979",
+            "SCALE": "EQUAL-SCALE",
+            "LEX": "EVEN",
+            "WNSENSE": "even%5:00:02:equal:00"
+          },
+          "start": 18,
+          "end": 22
+        },
+        "root": "#V51383"
+      }
+    ],
+    [
+      {
+        "V51380": {
+          "id": "V51380",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V50980",
+            "LEX": "BROKE"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V50980": {
+          "id": "V50980",
+          "indicator": "F",
+          "type": "STOP",
+          "word": "BREAK",
+          "roles": {
+            "AFFECTED": "#V50967",
+            "MOD": "#V51020",
+            "TENSE": "PAST",
+            "LEX": "BROKE",
+            "WNSENSE": "break%2:30:03::"
+          },
+          "start": 0,
+          "end": 22
+        },
+        "V50967": {
+          "id": "V50967",
+          "indicator": "BARE",
+          "type": "COMPANY",
+          "word": "COMPANY",
+          "roles": {
+            "ASSOC-WITH": "#V50962",
+            "LEX": "COMPANY",
+            "WNSENSE": "company%1:14:01::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V50962": {
+          "id": "V50962",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "NAME-OF": "THE",
+            "LEX": "THE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V51020": {
+          "id": "V51020",
+          "indicator": "F",
+          "type": "MODIFIER",
+          "word": "EVEN",
+          "roles": {
+            "FIGURE": "#V50980",
+            "LEX": "EVEN",
+            "WNSENSE": "even%4:02:00::"
+          },
+          "start": 18,
+          "end": 22
+        },
+        "root": "#V51380"
+      }
+    ]
+  ],
+  "sentence": "The company broke even.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190823T105708",
+    "link": "http://trips.ihmc.us/parser/saved/20190823T105708-STEP-abhatia-0-The_company_broke_even_.xml",
+    "judgement": 0
+  }
+}

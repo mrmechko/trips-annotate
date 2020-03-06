@@ -1,0 +1,331 @@
+{
+  "parse": [
+    {
+      "V97512": {
+        "id": "V97512",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V97205",
+          "LEX": "ADD"
+        },
+        "start": 0,
+        "end": 24
+      },
+      "V97205": {
+        "id": "V97205",
+        "indicator": "F",
+        "type": "ADD-INCLUDE",
+        "word": "ADD",
+        "roles": {
+          "AGENT": "#V97513",
+          "AFFECTED": "#V97221",
+          "RESULT": "#V97227",
+          "TENSE": "PRES",
+          "LEX": "ADD"
+        },
+        "start": 0,
+        "end": 24
+      },
+      "V97513": {
+        "id": "V97513",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ",
+          "COREF": "#V97261"
+        },
+        "start": 0,
+        "end": 24
+      },
+      "V97221": {
+        "id": "V97221",
+        "indicator": "A",
+        "type": "FRUIT",
+        "word": "APPLE",
+        "roles": {
+          "LEX": "APPLE"
+        },
+        "start": 4,
+        "end": 13
+      },
+      "V97227": {
+        "id": "V97227",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V97261",
+          "FIGURE": "#V97221",
+          "LEX": "TO"
+        },
+        "start": 13,
+        "end": 24
+      },
+      "V97261": {
+        "id": "V97261",
+        "indicator": "THE",
+        "type": "COLUMN-FORMATION",
+        "word": "PILE",
+        "roles": {
+          "LEX": "PILE"
+        },
+        "start": 16,
+        "end": 24
+      },
+      "root": "#V97512"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V97515": {
+          "id": "V97515",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V97205",
+            "LEX": "ADD"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V97205": {
+          "id": "V97205",
+          "indicator": "F",
+          "type": "ADD-INCLUDE",
+          "word": "ADD",
+          "roles": {
+            "AGENT": "#V97516",
+            "AFFECTED": "#V97221",
+            "RESULT": "#V97227",
+            "TENSE": "PRES",
+            "LEX": "ADD"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V97516": {
+          "id": "V97516",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V97221": {
+          "id": "V97221",
+          "indicator": "A",
+          "type": "FRUIT",
+          "word": "APPLE",
+          "roles": {
+            "LEX": "APPLE"
+          },
+          "start": 4,
+          "end": 13
+        },
+        "V97227": {
+          "id": "V97227",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V97263",
+            "FIGURE": "#V97221",
+            "LEX": "TO"
+          },
+          "start": 13,
+          "end": 24
+        },
+        "V97263": {
+          "id": "V97263",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": "PILE",
+          "roles": {
+            "LEX": "PILE"
+          },
+          "start": 16,
+          "end": 24
+        },
+        "root": "#V97515"
+      }
+    ],
+    [
+      {
+        "V97403": {
+          "id": "V97403",
+          "indicator": "SPEECHACT",
+          "type": "SA_REQUEST",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V97205",
+            "LEX": "ADD"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V97205": {
+          "id": "V97205",
+          "indicator": "F",
+          "type": "ADD-INCLUDE",
+          "word": "ADD",
+          "roles": {
+            "AGENT": "#V97401",
+            "AFFECTED": "#V97221",
+            "RESULT": "#V97227",
+            "TENSE": "PRES",
+            "VFORM": "BASE",
+            "LEX": "ADD"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V97401": {
+          "id": "V97401",
+          "indicator": "IMPRO",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "PROFORM": "*YOU*"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V97221": {
+          "id": "V97221",
+          "indicator": "A",
+          "type": "FRUIT",
+          "word": "APPLE",
+          "roles": {
+            "LEX": "APPLE"
+          },
+          "start": 4,
+          "end": 13
+        },
+        "V97227": {
+          "id": "V97227",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V97261",
+            "FIGURE": "#V97221",
+            "LEX": "TO"
+          },
+          "start": 13,
+          "end": 24
+        },
+        "V97261": {
+          "id": "V97261",
+          "indicator": "THE",
+          "type": "COLUMN-FORMATION",
+          "word": "PILE",
+          "roles": {
+            "LEX": "PILE"
+          },
+          "start": 16,
+          "end": 24
+        },
+        "root": "#V97403"
+      }
+    ],
+    [
+      {
+        "V97417": {
+          "id": "V97417",
+          "indicator": "SPEECHACT",
+          "type": "SA_REQUEST",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V97205",
+            "LEX": "ADD"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V97205": {
+          "id": "V97205",
+          "indicator": "F",
+          "type": "ADD-INCLUDE",
+          "word": "ADD",
+          "roles": {
+            "AGENT": "#V97415",
+            "AFFECTED": "#V97221",
+            "RESULT": "#V97227",
+            "TENSE": "PRES",
+            "VFORM": "BASE",
+            "LEX": "ADD"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V97415": {
+          "id": "V97415",
+          "indicator": "IMPRO",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "PROFORM": "*YOU*"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V97221": {
+          "id": "V97221",
+          "indicator": "A",
+          "type": "FRUIT",
+          "word": "APPLE",
+          "roles": {
+            "LEX": "APPLE"
+          },
+          "start": 4,
+          "end": 13
+        },
+        "V97227": {
+          "id": "V97227",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V97263",
+            "FIGURE": "#V97221",
+            "LEX": "TO"
+          },
+          "start": 13,
+          "end": 24
+        },
+        "V97263": {
+          "id": "V97263",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": "PILE",
+          "roles": {
+            "LEX": "PILE"
+          },
+          "start": 16,
+          "end": 24
+        },
+        "root": "#V97417"
+      }
+    ]
+  ],
+  "sentence": "Add an apple to the pile.",
+  "annotation": {
+    "judge": "lgalescu",
+    "parser": "STEP",
+    "timestamp": "20190628T114003",
+    "link": "http://trips.ihmc.us/parser/saved/20190628T114003-STEP-lgalescu-2-Add_an_apple_to_the_pile_.xml",
+    "judgement": 2
+  }
+}

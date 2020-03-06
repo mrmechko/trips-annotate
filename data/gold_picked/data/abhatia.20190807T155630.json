@@ -1,0 +1,459 @@
+{
+  "parse": [
+    {
+      "V120193": {
+        "id": "V120193",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V120162",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 49
+      },
+      "V120162": {
+        "id": "V120162",
+        "indicator": "F",
+        "type": "EVENT-OF-CAUSATION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V119858",
+          "SEQUENCE1": "#V119931",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 49
+      },
+      "V119931": {
+        "id": "V119931",
+        "indicator": "F",
+        "type": "COLLECT",
+        "word": "COLLECT",
+        "roles": {
+          "AGENT": "#V119835",
+          "AFFECTED": "#V119935",
+          "LEX": "COLLECTED",
+          "WNSENSE": "collect%2:35:00::"
+        },
+        "start": 0,
+        "end": 49
+      },
+      "V119858": {
+        "id": "V119858",
+        "indicator": "F",
+        "type": "MOVE",
+        "word": "GO",
+        "roles": {
+          "RESULT": "#V119875",
+          "AGENT": "#V119835",
+          "LEX": "WENT",
+          "WNSENSE": "go%2:38:00::"
+        },
+        "start": 0,
+        "end": 49
+      },
+      "V119835": {
+        "id": "V119835",
+        "indicator": "THE",
+        "type": "GEOGRAPHIC-REGION",
+        "word": "MATT",
+        "roles": {
+          "NAME-OF": "MATT",
+          "LEX": "MATT",
+          "WNSENSE": "north_america%1:14:00"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V119875": {
+        "id": "V119875",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V119914",
+          "FIGURE": "#V119835",
+          "LEX": "TO"
+        },
+        "start": 10,
+        "end": 30
+      },
+      "V119914": {
+        "id": "V119914",
+        "indicator": "THE",
+        "type": "GEO-OBJECT",
+        "word": "TENNIS-COURT",
+        "roles": {
+          "LEX": "TENNIS-COURT",
+          "WNSENSE": "tennis_court%1:06:00"
+        },
+        "start": 13,
+        "end": 30
+      },
+      "V119935": {
+        "id": "V119935",
+        "indicator": "INDEF-SET",
+        "type": "MANUFACTURED-OBJECT",
+        "word": "BALL",
+        "roles": {
+          "LEX": "BALLS",
+          "WNSENSE": "ball%1:06:02::"
+        },
+        "start": 44,
+        "end": 49
+      },
+      "root": "#V120193"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V120190": {
+          "id": "V120190",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V120162",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V120162": {
+          "id": "V120162",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V119858",
+            "SEQUENCE1": "#V119931",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V119931": {
+          "id": "V119931",
+          "indicator": "F",
+          "type": "COLLECT",
+          "word": "COLLECT",
+          "roles": {
+            "AGENT": "#V119827",
+            "AFFECTED": "#V119935",
+            "LEX": "COLLECTED",
+            "WNSENSE": "collect%2:35:00::"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V119858": {
+          "id": "V119858",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V119875",
+            "AGENT": "#V119827",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V119827": {
+          "id": "V119827",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "MATT",
+          "roles": {
+            "NAME-OF": "MATT",
+            "LEX": "MATT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V119875": {
+          "id": "V119875",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V119914",
+            "FIGURE": "#V119827",
+            "LEX": "TO"
+          },
+          "start": 10,
+          "end": 30
+        },
+        "V119914": {
+          "id": "V119914",
+          "indicator": "THE",
+          "type": "GEO-OBJECT",
+          "word": "TENNIS-COURT",
+          "roles": {
+            "LEX": "TENNIS-COURT",
+            "WNSENSE": "tennis_court%1:06:00"
+          },
+          "start": 13,
+          "end": 30
+        },
+        "V119935": {
+          "id": "V119935",
+          "indicator": "INDEF-SET",
+          "type": "MANUFACTURED-OBJECT",
+          "word": "BALL",
+          "roles": {
+            "LEX": "BALLS",
+            "WNSENSE": "ball%1:06:02::"
+          },
+          "start": 44,
+          "end": 49
+        },
+        "root": "#V120190"
+      }
+    ],
+    [
+      {
+        "V120227": {
+          "id": "V120227",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V119919",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V119919": {
+          "id": "V119919",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V119858",
+            "SEQUENCE1": "#V119931",
+            "TENSE": "PAST",
+            "LEX": "AND",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V119858": {
+          "id": "V119858",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V119875",
+            "AGENT": "#V119827",
+            "TENSE": "PAST",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 0,
+          "end": 30
+        },
+        "V119827": {
+          "id": "V119827",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "MATT",
+          "roles": {
+            "NAME-OF": "MATT",
+            "LEX": "MATT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V119875": {
+          "id": "V119875",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V119914",
+            "FIGURE": "#V119827",
+            "LEX": "TO"
+          },
+          "start": 10,
+          "end": 30
+        },
+        "V119914": {
+          "id": "V119914",
+          "indicator": "THE",
+          "type": "GEO-OBJECT",
+          "word": "TENNIS-COURT",
+          "roles": {
+            "LEX": "TENNIS-COURT",
+            "WNSENSE": "tennis_court%1:06:00"
+          },
+          "start": 13,
+          "end": 30
+        },
+        "V119931": {
+          "id": "V119931",
+          "indicator": "F",
+          "type": "COLLECT",
+          "word": "COLLECT",
+          "roles": {
+            "AGENT": "#V119827",
+            "AFFECTED": "#V119935",
+            "TENSE": "PAST",
+            "LEX": "COLLECTED",
+            "WNSENSE": "collect%2:35:00::"
+          },
+          "start": 34,
+          "end": 49
+        },
+        "V119935": {
+          "id": "V119935",
+          "indicator": "INDEF-SET",
+          "type": "MANUFACTURED-OBJECT",
+          "word": "BALL",
+          "roles": {
+            "LEX": "BALLS",
+            "WNSENSE": "ball%1:06:02::"
+          },
+          "start": 44,
+          "end": 49
+        },
+        "root": "#V120227"
+      }
+    ],
+    [
+      {
+        "V120329": {
+          "id": "V120329",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V120319",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V120319": {
+          "id": "V120319",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V119858",
+            "SEQUENCE1": "#V119931",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V119931": {
+          "id": "V119931",
+          "indicator": "F",
+          "type": "COLLECT",
+          "word": "COLLECT",
+          "roles": {
+            "AGENT": "#V119835",
+            "AFFECTED": "#V119935",
+            "LEX": "COLLECTED",
+            "WNSENSE": "collect%2:35:00::"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V119858": {
+          "id": "V119858",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V119878",
+            "AGENT": "#V119835",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V119835": {
+          "id": "V119835",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "MATT",
+          "roles": {
+            "NAME-OF": "MATT",
+            "LEX": "MATT",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V119878": {
+          "id": "V119878",
+          "indicator": "F",
+          "type": "ORIENTS-TO",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V119914",
+            "FIGURE": "#V119835",
+            "LEX": "TO"
+          },
+          "start": 10,
+          "end": 30
+        },
+        "V119914": {
+          "id": "V119914",
+          "indicator": "THE",
+          "type": "GEO-OBJECT",
+          "word": "TENNIS-COURT",
+          "roles": {
+            "LEX": "TENNIS-COURT",
+            "WNSENSE": "tennis_court%1:06:00"
+          },
+          "start": 13,
+          "end": 30
+        },
+        "V119935": {
+          "id": "V119935",
+          "indicator": "INDEF-SET",
+          "type": "MANUFACTURED-OBJECT",
+          "word": "BALL",
+          "roles": {
+            "LEX": "BALLS",
+            "WNSENSE": "ball%1:06:02::"
+          },
+          "start": 44,
+          "end": 49
+        },
+        "root": "#V120329"
+      }
+    ]
+  ],
+  "sentence": "Matt went to the tennis court and collected balls.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190807T155630",
+    "link": "http://trips.ihmc.us/parser/saved/20190807T155630-STEP-abhatia-1-Matt_went_to_the_tennis_court_and_collec.xml",
+    "judgement": 1
+  }
+}

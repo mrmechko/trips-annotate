@@ -1,0 +1,15 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V357928 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V357645 [label=<<font color="green"><br /></font> <font color="black">HAVE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">HAVE</font> <font color="green"><br /></font> <font color="green">have%2:40:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::HAVE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V357638 [label=<<font color="green"><br /></font> <font color="black">GEOGRAPHIC-REGION</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">BURT</font> <font color="green"><br /></font> <font color="green">north_america%1:14:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GEOGRAPHIC-REGION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V357706 [label=<<font color="green"><br /></font> <font color="black">FARM</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">FARM</font> <font color="green"><br /></font> <font color="green">farm%1:06:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FARM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V357703 [label=<<font color="green"><br /></font> <font color="black">INSECT</font> <font color="green"><br /></font> <font color="red">KIND</font> <font color="blue">BEE</font> <font color="green"><br /></font> <font color="green">bee%1:05:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::INSECT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V357645 -> V357706 [label=" NEUTRAL1   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V357928 -> V357645 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V357645 -> V357638 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V357706 -> V357703 [label=" ASSOC-WITH   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

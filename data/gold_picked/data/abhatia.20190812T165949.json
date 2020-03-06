@@ -1,0 +1,1469 @@
+{
+  "parse": [
+    {
+      "V236441": {
+        "id": "V236441",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V235423",
+          "LEX": "SLIDED"
+        },
+        "start": 0,
+        "end": 50
+      },
+      "V235423": {
+        "id": "V235423",
+        "indicator": "F",
+        "type": "MOVE-FLUIDLY",
+        "word": "SLIDE",
+        "roles": {
+          "RESULT": "#V235433",
+          "AFFECTED": "#V235409",
+          "TENSE": "PAST",
+          "LEX": "SLIDED",
+          "WNSENSE": "slide%1:04:00::"
+        },
+        "start": 0,
+        "end": 50
+      },
+      "V235409": {
+        "id": "V235409",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V235433": {
+        "id": "V235433",
+        "indicator": "F",
+        "type": "GOAL-AS-CONTAINMENT",
+        "word": "INTO",
+        "roles": {
+          "GROUND": "#V235487",
+          "FIGURE": "#V235409",
+          "LEX": "INTO"
+        },
+        "start": 9,
+        "end": 50
+      },
+      "V235487": {
+        "id": "V235487",
+        "indicator": "A",
+        "type": "BODY-OF-WATER",
+        "word": "PUDDLE",
+        "roles": {
+          "LOCATION": "#V235492",
+          "MOD": "#V235479",
+          "LEX": "PUDDLE",
+          "WNSENSE": "puddle%1:17:00::"
+        },
+        "start": 14,
+        "end": 50
+      },
+      "V235479": {
+        "id": "V235479",
+        "indicator": "F",
+        "type": "SMALL",
+        "word": "SMALL",
+        "roles": {
+          "ORIENTATION": "LESS",
+          "INTENSITY": "MED",
+          "FIGURE": "#V235487",
+          "SCALE": "SIZE-SCALE",
+          "LEX": "SMALL",
+          "WNSENSE": "small%3:00:00::"
+        },
+        "start": 16,
+        "end": 22
+      },
+      "V235492": {
+        "id": "V235492",
+        "indicator": "F",
+        "type": "NEAR-RELN",
+        "word": "NEAR",
+        "roles": {
+          "GROUND": "#V235562",
+          "FIGURE": "#V235487",
+          "LEX": "NEAR"
+        },
+        "start": 29,
+        "end": 50
+      },
+      "V235562": {
+        "id": "V235562",
+        "indicator": "A",
+        "type": "MANUFACTURED-OBJECT",
+        "word": "SIGN",
+        "roles": {
+          "ASSOC-WITH": "#V235554",
+          "MOD": "#V235547",
+          "LEX": "SIGN",
+          "WNSENSE": "artifact%1:03:00"
+        },
+        "start": 34,
+        "end": 50
+      },
+      "V235554": {
+        "id": "V235554",
+        "indicator": "KIND",
+        "type": "STRUCTURE-INTERNAL-COMPONENT",
+        "word": "FLOOR",
+        "roles": {
+          "LEX": "FLOOR",
+          "WNSENSE": "floor%1:06:00::"
+        },
+        "start": 34,
+        "end": 50
+      },
+      "V235547": {
+        "id": "V235547",
+        "indicator": "F",
+        "type": "WET-VAL",
+        "word": "WET",
+        "roles": {
+          "FIGURE": "#V235562",
+          "SCALE": "WET-SCALE",
+          "LEX": "WET",
+          "WNSENSE": "wet%3:00:01::"
+        },
+        "start": 36,
+        "end": 40
+      },
+      "root": "#V236441"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V236429": {
+          "id": "V236429",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V235425",
+            "LEX": "SLIDED"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V235425": {
+          "id": "V235425",
+          "indicator": "F",
+          "type": "MOVE-FLUIDLY",
+          "word": "SLIDE",
+          "roles": {
+            "RESULT": "#V235433",
+            "AGENT": "#V235409",
+            "TENSE": "PAST",
+            "LEX": "SLIDED",
+            "WNSENSE": "slide%1:04:00::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V235409": {
+          "id": "V235409",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V235433": {
+          "id": "V235433",
+          "indicator": "F",
+          "type": "GOAL-AS-CONTAINMENT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V235487",
+            "FIGURE": "#V235409",
+            "LEX": "INTO"
+          },
+          "start": 9,
+          "end": 50
+        },
+        "V235487": {
+          "id": "V235487",
+          "indicator": "A",
+          "type": "BODY-OF-WATER",
+          "word": "PUDDLE",
+          "roles": {
+            "LOCATION": "#V235492",
+            "MOD": "#V235479",
+            "LEX": "PUDDLE",
+            "WNSENSE": "puddle%1:17:00::"
+          },
+          "start": 14,
+          "end": 50
+        },
+        "V235479": {
+          "id": "V235479",
+          "indicator": "F",
+          "type": "SMALL",
+          "word": "SMALL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V235487",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "SMALL",
+            "WNSENSE": "small%3:00:00::"
+          },
+          "start": 16,
+          "end": 22
+        },
+        "V235492": {
+          "id": "V235492",
+          "indicator": "F",
+          "type": "NEAR-RELN",
+          "word": "NEAR",
+          "roles": {
+            "GROUND": "#V235562",
+            "FIGURE": "#V235487",
+            "LEX": "NEAR"
+          },
+          "start": 29,
+          "end": 50
+        },
+        "V235562": {
+          "id": "V235562",
+          "indicator": "A",
+          "type": "MANUFACTURED-OBJECT",
+          "word": "SIGN",
+          "roles": {
+            "ASSOC-WITH": "#V235554",
+            "MOD": "#V235547",
+            "LEX": "SIGN",
+            "WNSENSE": "artifact%1:03:00"
+          },
+          "start": 34,
+          "end": 50
+        },
+        "V235554": {
+          "id": "V235554",
+          "indicator": "KIND",
+          "type": "STRUCTURE-INTERNAL-COMPONENT",
+          "word": "FLOOR",
+          "roles": {
+            "LEX": "FLOOR",
+            "WNSENSE": "floor%1:06:00::"
+          },
+          "start": 34,
+          "end": 50
+        },
+        "V235547": {
+          "id": "V235547",
+          "indicator": "F",
+          "type": "WET-VAL",
+          "word": "WET",
+          "roles": {
+            "FIGURE": "#V235562",
+            "SCALE": "WET-SCALE",
+            "LEX": "WET",
+            "WNSENSE": "wet%3:00:01::"
+          },
+          "start": 36,
+          "end": 40
+        },
+        "root": "#V236429"
+      }
+    ],
+    [
+      {
+        "V236356": {
+          "id": "V236356",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V235423",
+            "LEX": "SLIDED"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V235423": {
+          "id": "V235423",
+          "indicator": "F",
+          "type": "MOVE-FLUIDLY",
+          "word": "SLIDE",
+          "roles": {
+            "RESULT": "#V235433",
+            "AFFECTED": "#V235409",
+            "TENSE": "PAST",
+            "LEX": "SLIDED",
+            "WNSENSE": "slide%1:04:00::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V235409": {
+          "id": "V235409",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V235433": {
+          "id": "V235433",
+          "indicator": "F",
+          "type": "GOAL-AS-CONTAINMENT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V235487",
+            "FIGURE": "#V235409",
+            "LEX": "INTO"
+          },
+          "start": 9,
+          "end": 50
+        },
+        "V235487": {
+          "id": "V235487",
+          "indicator": "A",
+          "type": "BODY-OF-WATER",
+          "word": "PUDDLE",
+          "roles": {
+            "LOCATION": "#V235492",
+            "MOD": "#V235479",
+            "LEX": "PUDDLE",
+            "WNSENSE": "puddle%1:17:00::"
+          },
+          "start": 14,
+          "end": 50
+        },
+        "V235479": {
+          "id": "V235479",
+          "indicator": "F",
+          "type": "SMALL",
+          "word": "SMALL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V235487",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "SMALL",
+            "WNSENSE": "small%3:00:00::"
+          },
+          "start": 16,
+          "end": 22
+        },
+        "V235492": {
+          "id": "V235492",
+          "indicator": "F",
+          "type": "NEAR-RELN",
+          "word": "NEAR",
+          "roles": {
+            "GROUND": "#V235561",
+            "FIGURE": "#V235487",
+            "LEX": "NEAR"
+          },
+          "start": 29,
+          "end": 50
+        },
+        "V235561": {
+          "id": "V235561",
+          "indicator": "A",
+          "type": "INFORMATION",
+          "word": "SIGN",
+          "roles": {
+            "ASSOC-WITH": "#V235554",
+            "LEX": "SIGN",
+            "WNSENSE": "sign%1:10:05::"
+          },
+          "start": 34,
+          "end": 50
+        },
+        "V235554": {
+          "id": "V235554",
+          "indicator": "KIND",
+          "type": "STRUCTURE-INTERNAL-COMPONENT",
+          "word": "FLOOR",
+          "roles": {
+            "MOD": "#V235547",
+            "LEX": "FLOOR",
+            "WNSENSE": "floor%1:06:00::"
+          },
+          "start": 34,
+          "end": 50
+        },
+        "V235547": {
+          "id": "V235547",
+          "indicator": "F",
+          "type": "WET-VAL",
+          "word": "WET",
+          "roles": {
+            "FIGURE": "#V235554",
+            "SCALE": "WET-SCALE",
+            "LEX": "WET",
+            "WNSENSE": "wet%3:00:01::"
+          },
+          "start": 36,
+          "end": 40
+        },
+        "root": "#V236356"
+      }
+    ],
+    [
+      {
+        "V236344": {
+          "id": "V236344",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V235425",
+            "LEX": "SLIDED"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V235425": {
+          "id": "V235425",
+          "indicator": "F",
+          "type": "MOVE-FLUIDLY",
+          "word": "SLIDE",
+          "roles": {
+            "RESULT": "#V235433",
+            "AGENT": "#V235409",
+            "TENSE": "PAST",
+            "LEX": "SLIDED",
+            "WNSENSE": "slide%1:04:00::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V235409": {
+          "id": "V235409",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V235433": {
+          "id": "V235433",
+          "indicator": "F",
+          "type": "GOAL-AS-CONTAINMENT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V235487",
+            "FIGURE": "#V235409",
+            "LEX": "INTO"
+          },
+          "start": 9,
+          "end": 50
+        },
+        "V235487": {
+          "id": "V235487",
+          "indicator": "A",
+          "type": "BODY-OF-WATER",
+          "word": "PUDDLE",
+          "roles": {
+            "LOCATION": "#V235492",
+            "MOD": "#V235479",
+            "LEX": "PUDDLE",
+            "WNSENSE": "puddle%1:17:00::"
+          },
+          "start": 14,
+          "end": 50
+        },
+        "V235479": {
+          "id": "V235479",
+          "indicator": "F",
+          "type": "SMALL",
+          "word": "SMALL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V235487",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "SMALL",
+            "WNSENSE": "small%3:00:00::"
+          },
+          "start": 16,
+          "end": 22
+        },
+        "V235492": {
+          "id": "V235492",
+          "indicator": "F",
+          "type": "NEAR-RELN",
+          "word": "NEAR",
+          "roles": {
+            "GROUND": "#V235561",
+            "FIGURE": "#V235487",
+            "LEX": "NEAR"
+          },
+          "start": 29,
+          "end": 50
+        },
+        "V235561": {
+          "id": "V235561",
+          "indicator": "A",
+          "type": "INFORMATION",
+          "word": "SIGN",
+          "roles": {
+            "ASSOC-WITH": "#V235554",
+            "LEX": "SIGN",
+            "WNSENSE": "sign%1:10:05::"
+          },
+          "start": 34,
+          "end": 50
+        },
+        "V235554": {
+          "id": "V235554",
+          "indicator": "KIND",
+          "type": "STRUCTURE-INTERNAL-COMPONENT",
+          "word": "FLOOR",
+          "roles": {
+            "MOD": "#V235547",
+            "LEX": "FLOOR",
+            "WNSENSE": "floor%1:06:00::"
+          },
+          "start": 34,
+          "end": 50
+        },
+        "V235547": {
+          "id": "V235547",
+          "indicator": "F",
+          "type": "WET-VAL",
+          "word": "WET",
+          "roles": {
+            "FIGURE": "#V235554",
+            "SCALE": "WET-SCALE",
+            "LEX": "WET",
+            "WNSENSE": "wet%3:00:01::"
+          },
+          "start": 36,
+          "end": 40
+        },
+        "root": "#V236344"
+      }
+    ],
+    [
+      {
+        "V236271": {
+          "id": "V236271",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V235423",
+            "LEX": "SLIDED"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V235423": {
+          "id": "V235423",
+          "indicator": "F",
+          "type": "MOVE-FLUIDLY",
+          "word": "SLIDE",
+          "roles": {
+            "RESULT": "#V235433",
+            "AFFECTED": "#V235409",
+            "TENSE": "PAST",
+            "LEX": "SLIDED",
+            "WNSENSE": "slide%1:04:00::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V235409": {
+          "id": "V235409",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V235433": {
+          "id": "V235433",
+          "indicator": "F",
+          "type": "GOAL-AS-CONTAINMENT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V235487",
+            "FIGURE": "#V235409",
+            "LEX": "INTO"
+          },
+          "start": 9,
+          "end": 50
+        },
+        "V235487": {
+          "id": "V235487",
+          "indicator": "A",
+          "type": "BODY-OF-WATER",
+          "word": "PUDDLE",
+          "roles": {
+            "LOCATION": "#V235492",
+            "MOD": "#V235479",
+            "LEX": "PUDDLE",
+            "WNSENSE": "puddle%1:17:00::"
+          },
+          "start": 14,
+          "end": 50
+        },
+        "V235479": {
+          "id": "V235479",
+          "indicator": "F",
+          "type": "SMALL",
+          "word": "SMALL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V235487",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "SMALL",
+            "WNSENSE": "small%3:00:00::"
+          },
+          "start": 16,
+          "end": 22
+        },
+        "V235492": {
+          "id": "V235492",
+          "indicator": "F",
+          "type": "NEAR-RELN",
+          "word": "NEAR",
+          "roles": {
+            "GROUND": "#V235562",
+            "FIGURE": "#V235487",
+            "LEX": "NEAR"
+          },
+          "start": 29,
+          "end": 50
+        },
+        "V235562": {
+          "id": "V235562",
+          "indicator": "A",
+          "type": "MANUFACTURED-OBJECT",
+          "word": "SIGN",
+          "roles": {
+            "ASSOC-WITH": "#V235554",
+            "LEX": "SIGN",
+            "WNSENSE": "artifact%1:03:00"
+          },
+          "start": 34,
+          "end": 50
+        },
+        "V235554": {
+          "id": "V235554",
+          "indicator": "KIND",
+          "type": "STRUCTURE-INTERNAL-COMPONENT",
+          "word": "FLOOR",
+          "roles": {
+            "MOD": "#V235547",
+            "LEX": "FLOOR",
+            "WNSENSE": "floor%1:06:00::"
+          },
+          "start": 34,
+          "end": 50
+        },
+        "V235547": {
+          "id": "V235547",
+          "indicator": "F",
+          "type": "WET-VAL",
+          "word": "WET",
+          "roles": {
+            "FIGURE": "#V235554",
+            "SCALE": "WET-SCALE",
+            "LEX": "WET",
+            "WNSENSE": "wet%3:00:01::"
+          },
+          "start": 36,
+          "end": 40
+        },
+        "root": "#V236271"
+      }
+    ],
+    [
+      {
+        "V236259": {
+          "id": "V236259",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V235425",
+            "LEX": "SLIDED"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V235425": {
+          "id": "V235425",
+          "indicator": "F",
+          "type": "MOVE-FLUIDLY",
+          "word": "SLIDE",
+          "roles": {
+            "RESULT": "#V235433",
+            "AGENT": "#V235409",
+            "TENSE": "PAST",
+            "LEX": "SLIDED",
+            "WNSENSE": "slide%1:04:00::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V235409": {
+          "id": "V235409",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V235433": {
+          "id": "V235433",
+          "indicator": "F",
+          "type": "GOAL-AS-CONTAINMENT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V235487",
+            "FIGURE": "#V235409",
+            "LEX": "INTO"
+          },
+          "start": 9,
+          "end": 50
+        },
+        "V235487": {
+          "id": "V235487",
+          "indicator": "A",
+          "type": "BODY-OF-WATER",
+          "word": "PUDDLE",
+          "roles": {
+            "LOCATION": "#V235492",
+            "MOD": "#V235479",
+            "LEX": "PUDDLE",
+            "WNSENSE": "puddle%1:17:00::"
+          },
+          "start": 14,
+          "end": 50
+        },
+        "V235479": {
+          "id": "V235479",
+          "indicator": "F",
+          "type": "SMALL",
+          "word": "SMALL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V235487",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "SMALL",
+            "WNSENSE": "small%3:00:00::"
+          },
+          "start": 16,
+          "end": 22
+        },
+        "V235492": {
+          "id": "V235492",
+          "indicator": "F",
+          "type": "NEAR-RELN",
+          "word": "NEAR",
+          "roles": {
+            "GROUND": "#V235562",
+            "FIGURE": "#V235487",
+            "LEX": "NEAR"
+          },
+          "start": 29,
+          "end": 50
+        },
+        "V235562": {
+          "id": "V235562",
+          "indicator": "A",
+          "type": "MANUFACTURED-OBJECT",
+          "word": "SIGN",
+          "roles": {
+            "ASSOC-WITH": "#V235554",
+            "LEX": "SIGN",
+            "WNSENSE": "artifact%1:03:00"
+          },
+          "start": 34,
+          "end": 50
+        },
+        "V235554": {
+          "id": "V235554",
+          "indicator": "KIND",
+          "type": "STRUCTURE-INTERNAL-COMPONENT",
+          "word": "FLOOR",
+          "roles": {
+            "MOD": "#V235547",
+            "LEX": "FLOOR",
+            "WNSENSE": "floor%1:06:00::"
+          },
+          "start": 34,
+          "end": 50
+        },
+        "V235547": {
+          "id": "V235547",
+          "indicator": "F",
+          "type": "WET-VAL",
+          "word": "WET",
+          "roles": {
+            "FIGURE": "#V235554",
+            "SCALE": "WET-SCALE",
+            "LEX": "WET",
+            "WNSENSE": "wet%3:00:01::"
+          },
+          "start": 36,
+          "end": 40
+        },
+        "root": "#V236259"
+      }
+    ],
+    [
+      {
+        "V236772": {
+          "id": "V236772",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V235424",
+            "LEX": "SLIDED"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V235424": {
+          "id": "V235424",
+          "indicator": "F",
+          "type": "MOVE-FLUIDLY",
+          "word": "SLIDE",
+          "roles": {
+            "AGENT": "#V235409",
+            "AFFECTED": "#V235484",
+            "RESULT": "#V235432",
+            "TENSE": "PAST",
+            "LEX": "SLIDED",
+            "WNSENSE": "slide%1:04:00::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V235409": {
+          "id": "V235409",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V235432": {
+          "id": "V235432",
+          "indicator": "F",
+          "type": "RESULTING-STATE",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V235667",
+            "FIGURE": "#V235484",
+            "LEX": "INTO"
+          },
+          "start": 9,
+          "end": 22
+        },
+        "V235667": {
+          "id": "V235667",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V235479",
+            "LEX": "A"
+          },
+          "start": 14,
+          "end": 22
+        },
+        "V235479": {
+          "id": "V235479",
+          "indicator": "F",
+          "type": "SMALL",
+          "word": "SMALL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V235667",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "SMALL",
+            "WNSENSE": "small%3:00:00::"
+          },
+          "start": 16,
+          "end": 22
+        },
+        "V235484": {
+          "id": "V235484",
+          "indicator": "BARE",
+          "type": "MANUFACTURED-OBJECT",
+          "word": "PUDDLE",
+          "roles": {
+            "LOCATION": "#V235492",
+            "LEX": "PUDDLE",
+            "WNSENSE": "puddle%1:27:00::"
+          },
+          "start": 22,
+          "end": 50
+        },
+        "V235492": {
+          "id": "V235492",
+          "indicator": "F",
+          "type": "NEAR-RELN",
+          "word": "NEAR",
+          "roles": {
+            "GROUND": "#V235561",
+            "FIGURE": "#V235484",
+            "LEX": "NEAR"
+          },
+          "start": 29,
+          "end": 50
+        },
+        "V235561": {
+          "id": "V235561",
+          "indicator": "A",
+          "type": "INFORMATION",
+          "word": "SIGN",
+          "roles": {
+            "ASSOC-WITH": "#V235554",
+            "LEX": "SIGN",
+            "WNSENSE": "sign%1:10:05::"
+          },
+          "start": 34,
+          "end": 50
+        },
+        "V235554": {
+          "id": "V235554",
+          "indicator": "KIND",
+          "type": "STRUCTURE-INTERNAL-COMPONENT",
+          "word": "FLOOR",
+          "roles": {
+            "MOD": "#V235547",
+            "LEX": "FLOOR",
+            "WNSENSE": "floor%1:06:00::"
+          },
+          "start": 34,
+          "end": 50
+        },
+        "V235547": {
+          "id": "V235547",
+          "indicator": "F",
+          "type": "WET-VAL",
+          "word": "WET",
+          "roles": {
+            "FIGURE": "#V235554",
+            "SCALE": "WET-SCALE",
+            "LEX": "WET",
+            "WNSENSE": "wet%3:00:01::"
+          },
+          "start": 36,
+          "end": 40
+        },
+        "root": "#V236772"
+      }
+    ],
+    [
+      {
+        "V236747": {
+          "id": "V236747",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V235424",
+            "LEX": "SLIDED"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V235424": {
+          "id": "V235424",
+          "indicator": "F",
+          "type": "MOVE-FLUIDLY",
+          "word": "SLIDE",
+          "roles": {
+            "AGENT": "#V235409",
+            "AFFECTED": "#V235484",
+            "RESULT": "#V235433",
+            "TENSE": "PAST",
+            "LEX": "SLIDED",
+            "WNSENSE": "slide%1:04:00::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V235409": {
+          "id": "V235409",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V235433": {
+          "id": "V235433",
+          "indicator": "F",
+          "type": "GOAL-AS-CONTAINMENT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V235667",
+            "FIGURE": "#V235484",
+            "LEX": "INTO"
+          },
+          "start": 9,
+          "end": 22
+        },
+        "V235667": {
+          "id": "V235667",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V235479",
+            "LEX": "A"
+          },
+          "start": 14,
+          "end": 22
+        },
+        "V235479": {
+          "id": "V235479",
+          "indicator": "F",
+          "type": "SMALL",
+          "word": "SMALL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V235667",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "SMALL",
+            "WNSENSE": "small%3:00:00::"
+          },
+          "start": 16,
+          "end": 22
+        },
+        "V235484": {
+          "id": "V235484",
+          "indicator": "BARE",
+          "type": "MANUFACTURED-OBJECT",
+          "word": "PUDDLE",
+          "roles": {
+            "LOCATION": "#V235492",
+            "LEX": "PUDDLE",
+            "WNSENSE": "puddle%1:27:00::"
+          },
+          "start": 22,
+          "end": 50
+        },
+        "V235492": {
+          "id": "V235492",
+          "indicator": "F",
+          "type": "NEAR-RELN",
+          "word": "NEAR",
+          "roles": {
+            "GROUND": "#V235562",
+            "FIGURE": "#V235484",
+            "LEX": "NEAR"
+          },
+          "start": 29,
+          "end": 50
+        },
+        "V235562": {
+          "id": "V235562",
+          "indicator": "A",
+          "type": "MANUFACTURED-OBJECT",
+          "word": "SIGN",
+          "roles": {
+            "ASSOC-WITH": "#V235554",
+            "LEX": "SIGN",
+            "WNSENSE": "artifact%1:03:00"
+          },
+          "start": 34,
+          "end": 50
+        },
+        "V235554": {
+          "id": "V235554",
+          "indicator": "KIND",
+          "type": "STRUCTURE-INTERNAL-COMPONENT",
+          "word": "FLOOR",
+          "roles": {
+            "MOD": "#V235547",
+            "LEX": "FLOOR",
+            "WNSENSE": "floor%1:06:00::"
+          },
+          "start": 34,
+          "end": 50
+        },
+        "V235547": {
+          "id": "V235547",
+          "indicator": "F",
+          "type": "WET-VAL",
+          "word": "WET",
+          "roles": {
+            "FIGURE": "#V235554",
+            "SCALE": "WET-SCALE",
+            "LEX": "WET",
+            "WNSENSE": "wet%3:00:01::"
+          },
+          "start": 36,
+          "end": 40
+        },
+        "root": "#V236747"
+      }
+    ],
+    [
+      {
+        "V236731": {
+          "id": "V236731",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V235424",
+            "LEX": "SLIDED"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V235424": {
+          "id": "V235424",
+          "indicator": "F",
+          "type": "MOVE-FLUIDLY",
+          "word": "SLIDE",
+          "roles": {
+            "AGENT": "#V235409",
+            "AFFECTED": "#V235484",
+            "RESULT": "#V235432",
+            "TENSE": "PAST",
+            "LEX": "SLIDED",
+            "WNSENSE": "slide%1:04:00::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V235409": {
+          "id": "V235409",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V235432": {
+          "id": "V235432",
+          "indicator": "F",
+          "type": "RESULTING-STATE",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V235667",
+            "FIGURE": "#V235484",
+            "LEX": "INTO"
+          },
+          "start": 9,
+          "end": 22
+        },
+        "V235667": {
+          "id": "V235667",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V235479",
+            "LEX": "A"
+          },
+          "start": 14,
+          "end": 22
+        },
+        "V235479": {
+          "id": "V235479",
+          "indicator": "F",
+          "type": "SMALL",
+          "word": "SMALL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V235667",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "SMALL",
+            "WNSENSE": "small%3:00:00::"
+          },
+          "start": 16,
+          "end": 22
+        },
+        "V235484": {
+          "id": "V235484",
+          "indicator": "BARE",
+          "type": "MANUFACTURED-OBJECT",
+          "word": "PUDDLE",
+          "roles": {
+            "LOCATION": "#V235492",
+            "LEX": "PUDDLE",
+            "WNSENSE": "puddle%1:27:00::"
+          },
+          "start": 22,
+          "end": 50
+        },
+        "V235492": {
+          "id": "V235492",
+          "indicator": "F",
+          "type": "NEAR-RELN",
+          "word": "NEAR",
+          "roles": {
+            "GROUND": "#V235562",
+            "FIGURE": "#V235484",
+            "LEX": "NEAR"
+          },
+          "start": 29,
+          "end": 50
+        },
+        "V235562": {
+          "id": "V235562",
+          "indicator": "A",
+          "type": "MANUFACTURED-OBJECT",
+          "word": "SIGN",
+          "roles": {
+            "ASSOC-WITH": "#V235554",
+            "LEX": "SIGN",
+            "WNSENSE": "artifact%1:03:00"
+          },
+          "start": 34,
+          "end": 50
+        },
+        "V235554": {
+          "id": "V235554",
+          "indicator": "KIND",
+          "type": "STRUCTURE-INTERNAL-COMPONENT",
+          "word": "FLOOR",
+          "roles": {
+            "MOD": "#V235547",
+            "LEX": "FLOOR",
+            "WNSENSE": "floor%1:06:00::"
+          },
+          "start": 34,
+          "end": 50
+        },
+        "V235547": {
+          "id": "V235547",
+          "indicator": "F",
+          "type": "WET-VAL",
+          "word": "WET",
+          "roles": {
+            "FIGURE": "#V235554",
+            "SCALE": "WET-SCALE",
+            "LEX": "WET",
+            "WNSENSE": "wet%3:00:01::"
+          },
+          "start": 36,
+          "end": 40
+        },
+        "root": "#V236731"
+      }
+    ],
+    [
+      {
+        "V236667": {
+          "id": "V236667",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V235424",
+            "LEX": "SLIDED"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V235424": {
+          "id": "V235424",
+          "indicator": "F",
+          "type": "MOVE-FLUIDLY",
+          "word": "SLIDE",
+          "roles": {
+            "AGENT": "#V235409",
+            "AFFECTED": "#V235561",
+            "RESULT": "#V235433",
+            "TENSE": "PAST",
+            "LEX": "SLIDED",
+            "WNSENSE": "slide%1:04:00::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V235409": {
+          "id": "V235409",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V235433": {
+          "id": "V235433",
+          "indicator": "F",
+          "type": "GOAL-AS-CONTAINMENT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V235487",
+            "FIGURE": "#V235561",
+            "LEX": "INTO"
+          },
+          "start": 9,
+          "end": 46
+        },
+        "V235487": {
+          "id": "V235487",
+          "indicator": "A",
+          "type": "BODY-OF-WATER",
+          "word": "PUDDLE",
+          "roles": {
+            "LOCATION": "#V235492",
+            "MOD": "#V235479",
+            "LEX": "PUDDLE",
+            "WNSENSE": "puddle%1:17:00::"
+          },
+          "start": 14,
+          "end": 46
+        },
+        "V235479": {
+          "id": "V235479",
+          "indicator": "F",
+          "type": "SMALL",
+          "word": "SMALL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V235487",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "SMALL",
+            "WNSENSE": "small%3:00:00::"
+          },
+          "start": 16,
+          "end": 22
+        },
+        "V235492": {
+          "id": "V235492",
+          "indicator": "F",
+          "type": "NEAR-RELN",
+          "word": "NEAR",
+          "roles": {
+            "GROUND": "#V235554",
+            "FIGURE": "#V235487",
+            "LEX": "NEAR"
+          },
+          "start": 29,
+          "end": 46
+        },
+        "V235554": {
+          "id": "V235554",
+          "indicator": "A",
+          "type": "STRUCTURE-INTERNAL-COMPONENT",
+          "word": "FLOOR",
+          "roles": {
+            "MOD": "#V235547",
+            "LEX": "FLOOR",
+            "WNSENSE": "floor%1:06:00::"
+          },
+          "start": 34,
+          "end": 46
+        },
+        "V235547": {
+          "id": "V235547",
+          "indicator": "F",
+          "type": "WET-VAL",
+          "word": "WET",
+          "roles": {
+            "FIGURE": "#V235554",
+            "SCALE": "WET-SCALE",
+            "LEX": "WET",
+            "WNSENSE": "wet%3:00:01::"
+          },
+          "start": 36,
+          "end": 40
+        },
+        "V235561": {
+          "id": "V235561",
+          "indicator": "BARE",
+          "type": "INFORMATION",
+          "word": "SIGN",
+          "roles": {
+            "LEX": "SIGN",
+            "WNSENSE": "sign%1:10:05::"
+          },
+          "start": 46,
+          "end": 50
+        },
+        "root": "#V236667"
+      }
+    ]
+  ],
+  "sentence": "I slided into a small puddle near a wet floor sign.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190812T165949",
+    "link": "http://trips.ihmc.us/parser/saved/20190812T165949-STEP-abhatia-0-I_slided_into_a_small_puddle_near_a_wet_.xml",
+    "judgement": 0
+  }
+}

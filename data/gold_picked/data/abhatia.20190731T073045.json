@@ -1,0 +1,573 @@
+{
+  "parse": [
+    {
+      "V196064": {
+        "id": "V196064",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V195159",
+          "LEX": "WERE"
+        },
+        "start": 0,
+        "end": 54
+      },
+      "V195159": {
+        "id": "V195159",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V195151",
+          "NEUTRAL1": "#V195188",
+          "TIME": "#V195207",
+          "TENSE": "PAST",
+          "LEX": "WERE",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 0,
+        "end": 54
+      },
+      "V195151": {
+        "id": "V195151",
+        "indicator": "THE-SET",
+        "type": "TRAVELLER",
+        "word": "TOURISTS",
+        "roles": {
+          "LEX": "TOURISTS",
+          "WNSENSE": "traveler%1:18:00"
+        },
+        "start": 0,
+        "end": 13
+      },
+      "V195188": {
+        "id": "V195188",
+        "indicator": "BARE",
+        "type": "PERSON",
+        "word": "HOSTAGE",
+        "roles": {
+          "MOD": "#V195174",
+          "LEX": "HOSTAGE",
+          "WNSENSE": "hostage%1:18:00::"
+        },
+        "start": 18,
+        "end": 31
+      },
+      "V195174": {
+        "id": "V195174",
+        "indicator": "F",
+        "type": "BODY-MANIPULATION",
+        "word": "HOLD",
+        "roles": {
+          "AFFECTED": "#V195188",
+          "LEX": "HELD",
+          "WNSENSE": "hold%2:35:00::"
+        },
+        "start": 18,
+        "end": 23
+      },
+      "V195207": {
+        "id": "V195207",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "AS",
+        "roles": {
+          "GROUND": "#V195230",
+          "FIGURE": "#V195159",
+          "LEX": "AS",
+          "WNSENSE": "as%4:02:00::"
+        },
+        "start": 31,
+        "end": 54
+      },
+      "V195230": {
+        "id": "V195230",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V195222",
+          "NEUTRAL1": "#V195427",
+          "TENSE": "PAST",
+          "LEX": "WERE",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 34,
+        "end": 54
+      },
+      "V195222": {
+        "id": "V195222",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00",
+          "COREF": "#V195151"
+        },
+        "start": 34,
+        "end": 39
+      },
+      "V195427": {
+        "id": "V195427",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "QUAN": "UNIVERSAL",
+          "MOD": "#V195260",
+          "LEX": "ALL"
+        },
+        "start": 44,
+        "end": 54
+      },
+      "V195260": {
+        "id": "V195260",
+        "indicator": "F",
+        "type": "STEAL",
+        "word": "ROB",
+        "roles": {
+          "AFFECTED-RESULT": "#V195427",
+          "LEX": "ROBBED",
+          "WNSENSE": "rob%2:40:00::"
+        },
+        "start": 48,
+        "end": 54
+      },
+      "root": "#V196064"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V196044": {
+          "id": "V196044",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V195159",
+            "LEX": "WERE"
+          },
+          "start": 0,
+          "end": 55
+        },
+        "V195159": {
+          "id": "V195159",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V195151",
+            "NEUTRAL1": "#V195188",
+            "REASON": "#V195206",
+            "TENSE": "PAST",
+            "LEX": "WERE",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 0,
+          "end": 54
+        },
+        "V195151": {
+          "id": "V195151",
+          "indicator": "THE-SET",
+          "type": "TRAVELLER",
+          "word": "TOURISTS",
+          "roles": {
+            "LEX": "TOURISTS",
+            "WNSENSE": "traveler%1:18:00"
+          },
+          "start": 0,
+          "end": 13
+        },
+        "V195188": {
+          "id": "V195188",
+          "indicator": "BARE",
+          "type": "PERSON",
+          "word": "HOSTAGE",
+          "roles": {
+            "MOD": "#V195174",
+            "LEX": "HOSTAGE",
+            "WNSENSE": "hostage%1:18:00::"
+          },
+          "start": 18,
+          "end": 31
+        },
+        "V195174": {
+          "id": "V195174",
+          "indicator": "F",
+          "type": "BODY-MANIPULATION",
+          "word": "HOLD",
+          "roles": {
+            "AFFECTED": "#V195188",
+            "LEX": "HELD",
+            "WNSENSE": "hold%2:35:00::"
+          },
+          "start": 18,
+          "end": 23
+        },
+        "V195206": {
+          "id": "V195206",
+          "indicator": "F",
+          "type": "REASON",
+          "word": "AS",
+          "roles": {
+            "GROUND": "#V195230",
+            "FIGURE": "#V195159",
+            "LEX": "AS",
+            "WNSENSE": "as%4:02:00::"
+          },
+          "start": 31,
+          "end": 54
+        },
+        "V195230": {
+          "id": "V195230",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V195222",
+            "NEUTRAL1": "#V195427",
+            "TENSE": "PAST",
+            "LEX": "WERE",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 34,
+          "end": 54
+        },
+        "V195222": {
+          "id": "V195222",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 34,
+          "end": 39
+        },
+        "V195427": {
+          "id": "V195427",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "QUAN": "UNIVERSAL",
+            "MOD": "#V195260",
+            "LEX": "ALL"
+          },
+          "start": 44,
+          "end": 54
+        },
+        "V195260": {
+          "id": "V195260",
+          "indicator": "F",
+          "type": "STEAL",
+          "word": "ROB",
+          "roles": {
+            "AFFECTED-RESULT": "#V195427",
+            "LEX": "ROBBED",
+            "WNSENSE": "rob%2:40:00::"
+          },
+          "start": 48,
+          "end": 54
+        },
+        "root": "#V196044"
+      }
+    ],
+    [
+      {
+        "V196024": {
+          "id": "V196024",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V195159",
+            "LEX": "WERE"
+          },
+          "start": 0,
+          "end": 55
+        },
+        "V195159": {
+          "id": "V195159",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V195151",
+            "NEUTRAL1": "#V195188",
+            "TIME": "#V195207",
+            "TENSE": "PAST",
+            "LEX": "WERE",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 0,
+          "end": 54
+        },
+        "V195151": {
+          "id": "V195151",
+          "indicator": "THE-SET",
+          "type": "TRAVELLER",
+          "word": "TOURISTS",
+          "roles": {
+            "LEX": "TOURISTS",
+            "WNSENSE": "traveler%1:18:00"
+          },
+          "start": 0,
+          "end": 13
+        },
+        "V195188": {
+          "id": "V195188",
+          "indicator": "BARE",
+          "type": "PERSON",
+          "word": "HOSTAGE",
+          "roles": {
+            "MOD": "#V195175",
+            "LEX": "HOSTAGE",
+            "WNSENSE": "hostage%1:18:00::"
+          },
+          "start": 18,
+          "end": 31
+        },
+        "V195175": {
+          "id": "V195175",
+          "indicator": "F",
+          "type": "RETAIN",
+          "word": "HOLD",
+          "roles": {
+            "AFFECTED": "#V195188",
+            "LEX": "HELD",
+            "WNSENSE": "hold%2:40:02::"
+          },
+          "start": 18,
+          "end": 23
+        },
+        "V195207": {
+          "id": "V195207",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "AS",
+          "roles": {
+            "GROUND": "#V195230",
+            "FIGURE": "#V195159",
+            "LEX": "AS",
+            "WNSENSE": "as%4:02:00::"
+          },
+          "start": 31,
+          "end": 54
+        },
+        "V195230": {
+          "id": "V195230",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V195222",
+            "NEUTRAL1": "#V195426",
+            "TENSE": "PAST",
+            "LEX": "WERE",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 34,
+          "end": 54
+        },
+        "V195222": {
+          "id": "V195222",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 34,
+          "end": 39
+        },
+        "V195426": {
+          "id": "V195426",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "UNIVERSAL",
+            "MOD": "#V195260",
+            "LEX": "ALL"
+          },
+          "start": 44,
+          "end": 54
+        },
+        "V195260": {
+          "id": "V195260",
+          "indicator": "F",
+          "type": "STEAL",
+          "word": "ROB",
+          "roles": {
+            "AFFECTED-RESULT": "#V195426",
+            "LEX": "ROBBED",
+            "WNSENSE": "rob%2:40:00::"
+          },
+          "start": 48,
+          "end": 54
+        },
+        "root": "#V196024"
+      }
+    ],
+    [
+      {
+        "V196004": {
+          "id": "V196004",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V195159",
+            "LEX": "WERE"
+          },
+          "start": 0,
+          "end": 55
+        },
+        "V195159": {
+          "id": "V195159",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V195151",
+            "NEUTRAL1": "#V195188",
+            "REASON": "#V195206",
+            "TENSE": "PAST",
+            "LEX": "WERE",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 0,
+          "end": 54
+        },
+        "V195151": {
+          "id": "V195151",
+          "indicator": "THE-SET",
+          "type": "TRAVELLER",
+          "word": "TOURISTS",
+          "roles": {
+            "LEX": "TOURISTS",
+            "WNSENSE": "traveler%1:18:00"
+          },
+          "start": 0,
+          "end": 13
+        },
+        "V195188": {
+          "id": "V195188",
+          "indicator": "BARE",
+          "type": "PERSON",
+          "word": "HOSTAGE",
+          "roles": {
+            "MOD": "#V195175",
+            "LEX": "HOSTAGE",
+            "WNSENSE": "hostage%1:18:00::"
+          },
+          "start": 18,
+          "end": 31
+        },
+        "V195175": {
+          "id": "V195175",
+          "indicator": "F",
+          "type": "RETAIN",
+          "word": "HOLD",
+          "roles": {
+            "AFFECTED": "#V195188",
+            "LEX": "HELD",
+            "WNSENSE": "hold%2:40:02::"
+          },
+          "start": 18,
+          "end": 23
+        },
+        "V195206": {
+          "id": "V195206",
+          "indicator": "F",
+          "type": "REASON",
+          "word": "AS",
+          "roles": {
+            "GROUND": "#V195230",
+            "FIGURE": "#V195159",
+            "LEX": "AS",
+            "WNSENSE": "as%4:02:00::"
+          },
+          "start": 31,
+          "end": 54
+        },
+        "V195230": {
+          "id": "V195230",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V195222",
+            "NEUTRAL1": "#V195426",
+            "TENSE": "PAST",
+            "LEX": "WERE",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 34,
+          "end": 54
+        },
+        "V195222": {
+          "id": "V195222",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 34,
+          "end": 39
+        },
+        "V195426": {
+          "id": "V195426",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "UNIVERSAL",
+            "MOD": "#V195260",
+            "LEX": "ALL"
+          },
+          "start": 44,
+          "end": 54
+        },
+        "V195260": {
+          "id": "V195260",
+          "indicator": "F",
+          "type": "STEAL",
+          "word": "ROB",
+          "roles": {
+            "AFFECTED-RESULT": "#V195426",
+            "LEX": "ROBBED",
+            "WNSENSE": "rob%2:40:00::"
+          },
+          "start": 48,
+          "end": 54
+        },
+        "root": "#V196004"
+      }
+    ]
+  ],
+  "sentence": "The tourists were held hostage as they were all robbed.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190731T073045",
+    "link": "http://trips.ihmc.us/parser/saved/20190731T073045-STEP-abhatia-none-The_tourists_were_held_hostage_as_they_w.xml",
+    "judgement": -1
+  }
+}

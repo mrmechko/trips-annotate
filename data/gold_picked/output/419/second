@@ -1,0 +1,25 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V194111 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V193400 [label=<<font color="green"><br /></font> <font color="black">CLASSIFY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">IDENTIFY</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::CLASSIFY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V193380 [label=<<font color="green"><br /></font> <font color="black">SEQUENCE-POSITION</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">NEXT</font> <font color="green"><br /></font> <font color="green">next%4:02:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SEQUENCE-POSITION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V193394 [label=<<font color="green"><br /></font> <font color="black">FEMALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">SHE</font> <font color="green"><br /></font> <font color="green">woman%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FEMALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V193452 [label=<<font color="green"><br /></font> <font color="black">REGION-FOR-ACTIVITY</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">PARK</font> <font color="green"><br /></font> <font color="green">park%1:15:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REGION-FOR-ACTIVITY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V193446 [label=<<font color="green"><br /></font> <font color="black">NONHUMAN-ANIMAL</font> <font color="green"><br /></font> <font color="red">KIND</font> <font color="blue">DOG</font> <font color="green"><br /></font> <font color="green">dog%1:05:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::NONHUMAN-ANIMAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V193464 [label=<<font color="green"><br /></font> <font color="black">PURPOSE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">TO</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PURPOSE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V193483 [label=<<font color="green"><br /></font> <font color="black">ARRANGING</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">ORGANIZE</font> <font color="green"><br /></font> <font color="green">organize%2:30:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ARRANGING.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V193507 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">PARTY</font> <font color="green"><br /></font> <font color="green">party%1:18:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V193400 -> V193464 [label=" REASON   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V194111 -> V193400 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V193380 -> V193400 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V193400 -> V193380 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V193464 -> V193400 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V193483 -> V193507 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V193400 -> V193394 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V193464 -> V193483 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V193452 -> V193446 [label=" ASSOC-WITH   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V193400 -> V193452 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

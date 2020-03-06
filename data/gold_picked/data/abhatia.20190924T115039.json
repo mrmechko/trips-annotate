@@ -1,0 +1,1281 @@
+{
+  "parse": [
+    {
+      "V67776": {
+        "id": "V67776",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V67396",
+          "LEX": "DECIDED"
+        },
+        "start": 0,
+        "end": 42
+      },
+      "V67396": {
+        "id": "V67396",
+        "indicator": "F",
+        "type": "DECIDE",
+        "word": "DECIDE",
+        "roles": {
+          "AGENT": "#V67375",
+          "FORMAL": "#V67446",
+          "TENSE": "PAST",
+          "LEX": "DECIDED",
+          "WNSENSE": "decide%2:31:00::"
+        },
+        "start": 0,
+        "end": 42
+      },
+      "V67375": {
+        "id": "V67375",
+        "indicator": "THE-SET",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V67366",
+          "SEQUENCE1": "#V67390",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V67366": {
+        "id": "V67366",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "JANE",
+        "roles": {
+          "NAME-OF": "JANE",
+          "LEX": "JANE",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V67390": {
+        "id": "V67390",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "HUSBAND",
+        "roles": {
+          "ASSOC-POSS": "#V67385",
+          "LEX": "HUSBAND",
+          "WNSENSE": "husband%1:18:00::"
+        },
+        "start": 9,
+        "end": 21
+      },
+      "V67385": {
+        "id": "V67385",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "HER",
+        "roles": {
+          "LEX": "HER",
+          "PROFORM": "HER",
+          "WNSENSE": "woman%1:18:00",
+          "COREF": "#V67366"
+        },
+        "start": 9,
+        "end": 21
+      },
+      "V67446": {
+        "id": "V67446",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "GO",
+        "roles": {
+          "AGENT": "#V67375",
+          "FORMAL": "#V67467",
+          "VFORM": "BASE",
+          "LEX": "GO",
+          "WNSENSE": "fulfil%2:36:00"
+        },
+        "start": 29,
+        "end": 42
+      },
+      "V67467": {
+        "id": "V67467",
+        "indicator": "F",
+        "type": "DANCE",
+        "word": "DANCE",
+        "roles": {
+          "AGENT": "#V67375",
+          "VFORM": "ING",
+          "LEX": "DANCING",
+          "WNSENSE": "dance%1:04:00::"
+        },
+        "start": 35,
+        "end": 42
+      },
+      "root": "#V67776"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V67791": {
+          "id": "V67791",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V67396",
+            "LEX": "DECIDED"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V67396": {
+          "id": "V67396",
+          "indicator": "F",
+          "type": "DECIDE",
+          "word": "DECIDE",
+          "roles": {
+            "AGENT": "#V67375",
+            "FORMAL": "#V67446",
+            "TENSE": "PAST",
+            "LEX": "DECIDED",
+            "WNSENSE": "decide%2:31:00::"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V67375": {
+          "id": "V67375",
+          "indicator": "THE-SET",
+          "type": "PHYS-OBJECT",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V67369",
+            "SEQUENCE1": "#V67390",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 21
+        },
+        "V67369": {
+          "id": "V67369",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "JANE",
+          "roles": {
+            "NAME-OF": "JANE",
+            "LEX": "JANE",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V67390": {
+          "id": "V67390",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "HUSBAND",
+          "roles": {
+            "ASSOC-POSS": "#V67385",
+            "LEX": "HUSBAND",
+            "WNSENSE": "husband%1:18:00::"
+          },
+          "start": 9,
+          "end": 21
+        },
+        "V67385": {
+          "id": "V67385",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 9,
+          "end": 21
+        },
+        "V67446": {
+          "id": "V67446",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "GO",
+          "roles": {
+            "AGENT": "#V67375",
+            "FORMAL": "#V67467",
+            "VFORM": "BASE",
+            "LEX": "GO",
+            "WNSENSE": "fulfil%2:36:00"
+          },
+          "start": 29,
+          "end": 42
+        },
+        "V67467": {
+          "id": "V67467",
+          "indicator": "F",
+          "type": "DANCE",
+          "word": "DANCE",
+          "roles": {
+            "AGENT": "#V67375",
+            "VFORM": "ING",
+            "LEX": "DANCING",
+            "WNSENSE": "dance%1:04:00::"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "root": "#V67791"
+      }
+    ],
+    [
+      {
+        "V68107": {
+          "id": "V68107",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V67396",
+            "LEX": "DECIDED"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V67396": {
+          "id": "V67396",
+          "indicator": "F",
+          "type": "DECIDE",
+          "word": "DECIDE",
+          "roles": {
+            "AGENT": "#V67375",
+            "FORMAL": "#V67449",
+            "TENSE": "PAST",
+            "LEX": "DECIDED",
+            "WNSENSE": "decide%2:31:00::"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V67375": {
+          "id": "V67375",
+          "indicator": "THE-SET",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V67366",
+            "SEQUENCE1": "#V67390",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 21
+        },
+        "V67366": {
+          "id": "V67366",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "JANE",
+          "roles": {
+            "NAME-OF": "JANE",
+            "LEX": "JANE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V67390": {
+          "id": "V67390",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "HUSBAND",
+          "roles": {
+            "ASSOC-POSS": "#V67385",
+            "LEX": "HUSBAND",
+            "WNSENSE": "husband%1:18:00::"
+          },
+          "start": 9,
+          "end": 21
+        },
+        "V67385": {
+          "id": "V67385",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 9,
+          "end": 21
+        },
+        "V67449": {
+          "id": "V67449",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "GO",
+          "roles": {
+            "AGENT": "#V67375",
+            "TIME": "#V67683",
+            "VFORM": "BASE",
+            "LEX": "GO",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 29,
+          "end": 42
+        },
+        "V67683": {
+          "id": "V67683",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V67449",
+            "GROUND": "#V67467",
+            "LEX": "DANCING"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "V67467": {
+          "id": "V67467",
+          "indicator": "F",
+          "type": "DANCE",
+          "word": "DANCE",
+          "roles": {
+            "VFORM": "ING",
+            "LEX": "DANCING",
+            "WNSENSE": "dance%1:04:00::"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "root": "#V68107"
+      }
+    ],
+    [
+      {
+        "V67914": {
+          "id": "V67914",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V67399",
+            "LEX": "DECIDED"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V67399": {
+          "id": "V67399",
+          "indicator": "F",
+          "type": "DECIDE",
+          "word": "DECIDE",
+          "roles": {
+            "AGENT": "#V67375",
+            "REASON": "#V67414",
+            "TENSE": "PAST",
+            "LEX": "DECIDED",
+            "WNSENSE": "decide%2:31:00::"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V67375": {
+          "id": "V67375",
+          "indicator": "THE-SET",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V67366",
+            "SEQUENCE1": "#V67390",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 21
+        },
+        "V67366": {
+          "id": "V67366",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "JANE",
+          "roles": {
+            "NAME-OF": "JANE",
+            "LEX": "JANE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V67390": {
+          "id": "V67390",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "HUSBAND",
+          "roles": {
+            "ASSOC-POSS": "#V67385",
+            "LEX": "HUSBAND",
+            "WNSENSE": "husband%1:18:00::"
+          },
+          "start": 9,
+          "end": 21
+        },
+        "V67385": {
+          "id": "V67385",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 9,
+          "end": 21
+        },
+        "V67414": {
+          "id": "V67414",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V67446",
+            "FIGURE": "#V67399",
+            "LEX": "TO"
+          },
+          "start": 29,
+          "end": 42
+        },
+        "V67446": {
+          "id": "V67446",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "GO",
+          "roles": {
+            "FORMAL": "#V67467",
+            "VFORM": "BASE",
+            "LEX": "GO",
+            "WNSENSE": "fulfil%2:36:00"
+          },
+          "start": 32,
+          "end": 42
+        },
+        "V67467": {
+          "id": "V67467",
+          "indicator": "F",
+          "type": "DANCE",
+          "word": "DANCE",
+          "roles": {
+            "VFORM": "ING",
+            "LEX": "DANCING",
+            "WNSENSE": "dance%1:04:00::"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "root": "#V67914"
+      }
+    ],
+    [
+      {
+        "V68268": {
+          "id": "V68268",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V67396",
+            "LEX": "DECIDED"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V67396": {
+          "id": "V67396",
+          "indicator": "F",
+          "type": "DECIDE",
+          "word": "DECIDE",
+          "roles": {
+            "AGENT": "#V67375",
+            "FORMAL": "#V67443",
+            "TENSE": "PAST",
+            "LEX": "DECIDED",
+            "WNSENSE": "decide%2:31:00::"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V67375": {
+          "id": "V67375",
+          "indicator": "THE-SET",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V67366",
+            "SEQUENCE1": "#V67390",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 21
+        },
+        "V67366": {
+          "id": "V67366",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "JANE",
+          "roles": {
+            "NAME-OF": "JANE",
+            "LEX": "JANE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V67390": {
+          "id": "V67390",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "HUSBAND",
+          "roles": {
+            "ASSOC-POSS": "#V67385",
+            "LEX": "HUSBAND",
+            "WNSENSE": "husband%1:18:00::"
+          },
+          "start": 9,
+          "end": 21
+        },
+        "V67385": {
+          "id": "V67385",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 9,
+          "end": 21
+        },
+        "V67443": {
+          "id": "V67443",
+          "indicator": "F",
+          "type": "UNDERGO-ACTION",
+          "word": "GO",
+          "roles": {
+            "AFFECTED": "#V67375",
+            "TIME": "#V67683",
+            "VFORM": "BASE",
+            "LEX": "GO",
+            "WNSENSE": "go_down%2:42:00"
+          },
+          "start": 29,
+          "end": 42
+        },
+        "V67683": {
+          "id": "V67683",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V67443",
+            "GROUND": "#V67467",
+            "LEX": "DANCING"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "V67467": {
+          "id": "V67467",
+          "indicator": "F",
+          "type": "DANCE",
+          "word": "DANCE",
+          "roles": {
+            "VFORM": "ING",
+            "LEX": "DANCING",
+            "WNSENSE": "dance%1:04:00::"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "root": "#V68268"
+      }
+    ],
+    [
+      {
+        "V68112": {
+          "id": "V68112",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V67396",
+            "LEX": "DECIDED"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V67396": {
+          "id": "V67396",
+          "indicator": "F",
+          "type": "DECIDE",
+          "word": "DECIDE",
+          "roles": {
+            "AGENT": "#V67375",
+            "FORMAL": "#V67449",
+            "TENSE": "PAST",
+            "LEX": "DECIDED",
+            "WNSENSE": "decide%2:31:00::"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V67375": {
+          "id": "V67375",
+          "indicator": "THE-SET",
+          "type": "PHYS-OBJECT",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V67369",
+            "SEQUENCE1": "#V67390",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 21
+        },
+        "V67369": {
+          "id": "V67369",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "JANE",
+          "roles": {
+            "NAME-OF": "JANE",
+            "LEX": "JANE",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V67390": {
+          "id": "V67390",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "HUSBAND",
+          "roles": {
+            "ASSOC-POSS": "#V67385",
+            "LEX": "HUSBAND",
+            "WNSENSE": "husband%1:18:00::"
+          },
+          "start": 9,
+          "end": 21
+        },
+        "V67385": {
+          "id": "V67385",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 9,
+          "end": 21
+        },
+        "V67449": {
+          "id": "V67449",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "GO",
+          "roles": {
+            "AGENT": "#V67375",
+            "TIME": "#V67683",
+            "VFORM": "BASE",
+            "LEX": "GO",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 29,
+          "end": 42
+        },
+        "V67683": {
+          "id": "V67683",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V67449",
+            "GROUND": "#V67467",
+            "LEX": "DANCING"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "V67467": {
+          "id": "V67467",
+          "indicator": "F",
+          "type": "DANCE",
+          "word": "DANCE",
+          "roles": {
+            "VFORM": "ING",
+            "LEX": "DANCING",
+            "WNSENSE": "dance%1:04:00::"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "root": "#V68112"
+      }
+    ],
+    [
+      {
+        "V67935": {
+          "id": "V67935",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V67399",
+            "LEX": "DECIDED"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V67399": {
+          "id": "V67399",
+          "indicator": "F",
+          "type": "DECIDE",
+          "word": "DECIDE",
+          "roles": {
+            "AGENT": "#V67375",
+            "REASON": "#V67414",
+            "TENSE": "PAST",
+            "LEX": "DECIDED",
+            "WNSENSE": "decide%2:31:00::"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V67375": {
+          "id": "V67375",
+          "indicator": "THE-SET",
+          "type": "PHYS-OBJECT",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V67369",
+            "SEQUENCE1": "#V67390",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 21
+        },
+        "V67369": {
+          "id": "V67369",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "JANE",
+          "roles": {
+            "NAME-OF": "JANE",
+            "LEX": "JANE",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V67390": {
+          "id": "V67390",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "HUSBAND",
+          "roles": {
+            "ASSOC-POSS": "#V67385",
+            "LEX": "HUSBAND",
+            "WNSENSE": "husband%1:18:00::"
+          },
+          "start": 9,
+          "end": 21
+        },
+        "V67385": {
+          "id": "V67385",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 9,
+          "end": 21
+        },
+        "V67414": {
+          "id": "V67414",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V67446",
+            "FIGURE": "#V67399",
+            "LEX": "TO"
+          },
+          "start": 29,
+          "end": 42
+        },
+        "V67446": {
+          "id": "V67446",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "GO",
+          "roles": {
+            "FORMAL": "#V67467",
+            "VFORM": "BASE",
+            "LEX": "GO",
+            "WNSENSE": "fulfil%2:36:00"
+          },
+          "start": 32,
+          "end": 42
+        },
+        "V67467": {
+          "id": "V67467",
+          "indicator": "F",
+          "type": "DANCE",
+          "word": "DANCE",
+          "roles": {
+            "VFORM": "ING",
+            "LEX": "DANCING",
+            "WNSENSE": "dance%1:04:00::"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "root": "#V67935"
+      }
+    ],
+    [
+      {
+        "V68271": {
+          "id": "V68271",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V67396",
+            "LEX": "DECIDED"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V67396": {
+          "id": "V67396",
+          "indicator": "F",
+          "type": "DECIDE",
+          "word": "DECIDE",
+          "roles": {
+            "AGENT": "#V67375",
+            "FORMAL": "#V67443",
+            "TENSE": "PAST",
+            "LEX": "DECIDED",
+            "WNSENSE": "decide%2:31:00::"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V67375": {
+          "id": "V67375",
+          "indicator": "THE-SET",
+          "type": "PHYS-OBJECT",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V67369",
+            "SEQUENCE1": "#V67390",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 21
+        },
+        "V67369": {
+          "id": "V67369",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "JANE",
+          "roles": {
+            "NAME-OF": "JANE",
+            "LEX": "JANE",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V67390": {
+          "id": "V67390",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "HUSBAND",
+          "roles": {
+            "ASSOC-POSS": "#V67385",
+            "LEX": "HUSBAND",
+            "WNSENSE": "husband%1:18:00::"
+          },
+          "start": 9,
+          "end": 21
+        },
+        "V67385": {
+          "id": "V67385",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 9,
+          "end": 21
+        },
+        "V67443": {
+          "id": "V67443",
+          "indicator": "F",
+          "type": "UNDERGO-ACTION",
+          "word": "GO",
+          "roles": {
+            "AFFECTED": "#V67375",
+            "TIME": "#V67683",
+            "VFORM": "BASE",
+            "LEX": "GO",
+            "WNSENSE": "go_down%2:42:00"
+          },
+          "start": 29,
+          "end": 42
+        },
+        "V67683": {
+          "id": "V67683",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V67443",
+            "GROUND": "#V67467",
+            "LEX": "DANCING"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "V67467": {
+          "id": "V67467",
+          "indicator": "F",
+          "type": "DANCE",
+          "word": "DANCE",
+          "roles": {
+            "VFORM": "ING",
+            "LEX": "DANCING",
+            "WNSENSE": "dance%1:04:00::"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "root": "#V68271"
+      }
+    ],
+    [
+      {
+        "V68459": {
+          "id": "V68459",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V67399",
+            "LEX": "DECIDED"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V67399": {
+          "id": "V67399",
+          "indicator": "F",
+          "type": "DECIDE",
+          "word": "DECIDE",
+          "roles": {
+            "AGENT": "#V67375",
+            "REASON": "#V67414",
+            "TENSE": "PAST",
+            "LEX": "DECIDED",
+            "WNSENSE": "decide%2:31:00::"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V67375": {
+          "id": "V67375",
+          "indicator": "THE-SET",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V67366",
+            "SEQUENCE1": "#V67390",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 21
+        },
+        "V67366": {
+          "id": "V67366",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "JANE",
+          "roles": {
+            "NAME-OF": "JANE",
+            "LEX": "JANE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V67390": {
+          "id": "V67390",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "HUSBAND",
+          "roles": {
+            "ASSOC-POSS": "#V67385",
+            "LEX": "HUSBAND",
+            "WNSENSE": "husband%1:18:00::"
+          },
+          "start": 9,
+          "end": 21
+        },
+        "V67385": {
+          "id": "V67385",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 9,
+          "end": 21
+        },
+        "V67414": {
+          "id": "V67414",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V67449",
+            "FIGURE": "#V67399",
+            "LEX": "TO"
+          },
+          "start": 29,
+          "end": 42
+        },
+        "V67449": {
+          "id": "V67449",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "GO",
+          "roles": {
+            "TIME": "#V67683",
+            "VFORM": "BASE",
+            "LEX": "GO",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 32,
+          "end": 42
+        },
+        "V67683": {
+          "id": "V67683",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V67449",
+            "GROUND": "#V67467",
+            "LEX": "DANCING"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "V67467": {
+          "id": "V67467",
+          "indicator": "F",
+          "type": "DANCE",
+          "word": "DANCE",
+          "roles": {
+            "VFORM": "ING",
+            "LEX": "DANCING",
+            "WNSENSE": "dance%1:04:00::"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "root": "#V68459"
+      }
+    ],
+    [
+      {
+        "V68583": {
+          "id": "V68583",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V67399",
+            "LEX": "DECIDED"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V67399": {
+          "id": "V67399",
+          "indicator": "F",
+          "type": "DECIDE",
+          "word": "DECIDE",
+          "roles": {
+            "AGENT": "#V67375",
+            "REASON": "#V67414",
+            "TENSE": "PAST",
+            "LEX": "DECIDED",
+            "WNSENSE": "decide%2:31:00::"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V67375": {
+          "id": "V67375",
+          "indicator": "THE-SET",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V67366",
+            "SEQUENCE1": "#V67390",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 21
+        },
+        "V67366": {
+          "id": "V67366",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "JANE",
+          "roles": {
+            "NAME-OF": "JANE",
+            "LEX": "JANE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V67390": {
+          "id": "V67390",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "HUSBAND",
+          "roles": {
+            "ASSOC-POSS": "#V67385",
+            "LEX": "HUSBAND",
+            "WNSENSE": "husband%1:18:00::"
+          },
+          "start": 9,
+          "end": 21
+        },
+        "V67385": {
+          "id": "V67385",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 9,
+          "end": 21
+        },
+        "V67414": {
+          "id": "V67414",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V67444",
+            "FIGURE": "#V67399",
+            "LEX": "TO"
+          },
+          "start": 29,
+          "end": 42
+        },
+        "V67444": {
+          "id": "V67444",
+          "indicator": "F",
+          "type": "OCCURRING",
+          "word": "GO",
+          "roles": {
+            "TIME": "#V67683",
+            "VFORM": "BASE",
+            "LEX": "GO",
+            "WNSENSE": "go%2:30:01::"
+          },
+          "start": 32,
+          "end": 42
+        },
+        "V67683": {
+          "id": "V67683",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V67444",
+            "GROUND": "#V67467",
+            "LEX": "DANCING"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "V67467": {
+          "id": "V67467",
+          "indicator": "F",
+          "type": "DANCE",
+          "word": "DANCE",
+          "roles": {
+            "VFORM": "ING",
+            "LEX": "DANCING",
+            "WNSENSE": "dance%1:04:00::"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "root": "#V68583"
+      }
+    ]
+  ],
+  "sentence": "Jane and her husband decided to go dancing.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190924T115039",
+    "link": "http://trips.ihmc.us/parser/saved/20190924T115039-STEP-abhatia-0-Jane_and_her_husband_decided_to_go_danci.xml",
+    "judgement": 0
+  }
+}

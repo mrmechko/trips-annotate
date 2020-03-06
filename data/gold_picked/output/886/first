@@ -1,0 +1,25 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V49663 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V47902 [label=<<font color="green"><br /></font> <font color="black">ACQUIRE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">TAKE</font> <font color="green"><br /></font> <font color="green">take%2:30:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ACQUIRE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V47873 [label=<<font color="green"><br /></font> <font color="black">FAMILY-RELATION</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">MOM</font> <font color="green"><br /></font> <font color="green">mom%1:18:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FAMILY-RELATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V47867 [label=<<font color="green"><br /></font> <font color="black">FEMALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HER</font> <font color="green"><br /></font> <font color="green">woman%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FEMALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V47935 [label=<<font color="green"><br /></font> <font color="black">FEMALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HER</font> <font color="green"><br /></font> <font color="green">woman%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FEMALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V47942 [label=<<font color="green"><br /></font> <font color="black">RESULTING-OBJECT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">TO</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::RESULTING-OBJECT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V47969 [label=<<font color="green"><br /></font> <font color="black">RESTAURANT</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">RESTAURANT</font> <font color="green"><br /></font> <font color="green">restaurant%1:06:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::RESTAURANT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V47974 [label=<<font color="green"><br /></font> <font color="black">BEFORE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">PRIOR-TO</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BEFORE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V48004 [label=<<font color="green"><br /></font> <font color="black">ACADEMIC-INSTITUTION</font> <font color="green"><br /></font> <font color="red">BARE</font> <font color="blue">SCHOOL</font> <font color="green"><br /></font> <font color="green">school%1:14:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ACADEMIC-INSTITUTION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V47902 -> V47935 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V49663 -> V47902 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V47942 -> V47969 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V47974 -> V48004 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V47974 -> V47902 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V47873 -> V47867 [label=" ASSOC-POSS   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V47942 -> V47935 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V47902 -> V47873 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V47902 -> V47942 [label=" RESULT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V47902 -> V47974 [label=" TIME   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

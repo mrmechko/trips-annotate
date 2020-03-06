@@ -1,0 +1,625 @@
+{
+  "parse": [
+    {
+      "V425827": {
+        "id": "V425827",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V425480",
+          "LEX": "CHALLENGE"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V425480": {
+        "id": "V425480",
+        "indicator": "F",
+        "type": "CONTEST-DENY-OPPOSE-PROTEST",
+        "word": "CHALLENGE",
+        "roles": {
+          "AGENT": "#V425470",
+          "NEUTRAL": "#V425523",
+          "TENSE": "PRES",
+          "LEX": "CHALLENGE",
+          "WNSENSE": "challenge%2:32:01::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V425470": {
+        "id": "V425470",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V425523": {
+        "id": "V425523",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 15,
+        "end": 19
+      },
+      "root": "#V425827"
+    },
+    {
+      "V426713": {
+        "id": "V426713",
+        "indicator": "SPEECHACT",
+        "type": "SA_REQUEST",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V425594",
+          "LEX": "SKATE"
+        },
+        "start": 19,
+        "end": 33
+      },
+      "V425594": {
+        "id": "V425594",
+        "indicator": "F",
+        "type": "MOVE",
+        "word": "SKATE",
+        "roles": {
+          "RESULT": "#V425604",
+          "AGENT": "#V426711",
+          "TIME": "#V425532",
+          "TENSE": "PRES",
+          "VFORM": "BASE",
+          "LEX": "SKATE"
+        },
+        "start": 19,
+        "end": 33
+      },
+      "V426711": {
+        "id": "V426711",
+        "indicator": "IMPRO",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "PROFORM": "*YOU*",
+          "COREF": "SYS"
+        },
+        "start": 19,
+        "end": 33
+      },
+      "V425532": {
+        "id": "V425532",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V425953",
+          "FIGURE": "#V425594",
+          "LEX": "TO"
+        },
+        "start": 19,
+        "end": 24
+      },
+      "V425953": {
+        "id": "V425953",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY-OF-WEEK": "#V425935",
+          "LEX": "A"
+        },
+        "start": 22,
+        "end": 24
+      },
+      "V425935": {
+        "id": "V425935",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(A)",
+          "VAL": "(A)",
+          "LEX": "A"
+        },
+        "start": 22,
+        "end": 24
+      },
+      "V425604": {
+        "id": "V425604",
+        "indicator": "F",
+        "type": "INACTIVE-OFF",
+        "word": "OFF",
+        "roles": {
+          "FIGURE": "#V426711",
+          "SCALE": "OBJECT-AFFORDANCES-SCALE",
+          "LEX": "OFF",
+          "WNSENSE": "off%3:00:00::"
+        },
+        "start": 30,
+        "end": 33
+      },
+      "root": "#V426713"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V425827": {
+          "id": "V425827",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V425480",
+            "LEX": "CHALLENGE"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V425480": {
+          "id": "V425480",
+          "indicator": "F",
+          "type": "CONTEST-DENY-OPPOSE-PROTEST",
+          "word": "CHALLENGE",
+          "roles": {
+            "AGENT": "#V425470",
+            "NEUTRAL": "#V425523",
+            "TENSE": "PRES",
+            "LEX": "CHALLENGE",
+            "WNSENSE": "challenge%2:32:01::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V425470": {
+          "id": "V425470",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V425523": {
+          "id": "V425523",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIM",
+          "roles": {
+            "PROFORM": "HIM",
+            "LEX": "HIM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 15,
+          "end": 19
+        },
+        "root": "#V425827"
+      },
+      {
+        "V426729": {
+          "id": "V426729",
+          "indicator": "SPEECHACT",
+          "type": "SA_REQUEST",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V425594",
+            "LEX": "SKATE"
+          },
+          "start": 19,
+          "end": 34
+        },
+        "V425594": {
+          "id": "V425594",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "SKATE",
+          "roles": {
+            "RESULT": "#V425604",
+            "AGENT": "#V426727",
+            "TIME": "#V425532",
+            "TENSE": "PRES",
+            "VFORM": "BASE",
+            "LEX": "SKATE"
+          },
+          "start": 19,
+          "end": 33
+        },
+        "V426727": {
+          "id": "V426727",
+          "indicator": "IMPRO",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "PROFORM": "*YOU*"
+          },
+          "start": 19,
+          "end": 33
+        },
+        "V425532": {
+          "id": "V425532",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V425953",
+            "FIGURE": "#V425594",
+            "LEX": "TO"
+          },
+          "start": 19,
+          "end": 24
+        },
+        "V425953": {
+          "id": "V425953",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V425935",
+            "LEX": "A"
+          },
+          "start": 22,
+          "end": 24
+        },
+        "V425935": {
+          "id": "V425935",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(A)",
+            "VAL": "(A)",
+            "LEX": "A"
+          },
+          "start": 22,
+          "end": 24
+        },
+        "V425604": {
+          "id": "V425604",
+          "indicator": "F",
+          "type": "INACTIVE-OFF",
+          "word": "OFF",
+          "roles": {
+            "FIGURE": "#V426727",
+            "SCALE": "OBJECT-AFFORDANCES-SCALE",
+            "LEX": "OFF",
+            "WNSENSE": "off%3:00:00::"
+          },
+          "start": 30,
+          "end": 33
+        },
+        "root": "#V426729"
+      }
+    ],
+    [
+      {
+        "V425842": {
+          "id": "V425842",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V425505",
+            "LEX": "CHALLENGE"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V425505": {
+          "id": "V425505",
+          "indicator": "F",
+          "type": "REQUEST",
+          "word": "CHALLENGE",
+          "roles": {
+            "AGENT": "#V425470",
+            "AFFECTED": "#V425523",
+            "TENSE": "PRES",
+            "LEX": "CHALLENGE",
+            "WNSENSE": "challenge%1:10:01::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V425470": {
+          "id": "V425470",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V425523": {
+          "id": "V425523",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIM",
+          "roles": {
+            "PROFORM": "HIM",
+            "LEX": "HIM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 15,
+          "end": 19
+        },
+        "root": "#V425842"
+      },
+      {
+        "V426713": {
+          "id": "V426713",
+          "indicator": "SPEECHACT",
+          "type": "SA_REQUEST",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V425594",
+            "LEX": "SKATE"
+          },
+          "start": 19,
+          "end": 34
+        },
+        "V425594": {
+          "id": "V425594",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "SKATE",
+          "roles": {
+            "RESULT": "#V425604",
+            "AGENT": "#V426711",
+            "TIME": "#V425532",
+            "TENSE": "PRES",
+            "VFORM": "BASE",
+            "LEX": "SKATE"
+          },
+          "start": 19,
+          "end": 33
+        },
+        "V426711": {
+          "id": "V426711",
+          "indicator": "IMPRO",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "PROFORM": "*YOU*"
+          },
+          "start": 19,
+          "end": 33
+        },
+        "V425532": {
+          "id": "V425532",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V425953",
+            "FIGURE": "#V425594",
+            "LEX": "TO"
+          },
+          "start": 19,
+          "end": 24
+        },
+        "V425953": {
+          "id": "V425953",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V425935",
+            "LEX": "A"
+          },
+          "start": 22,
+          "end": 24
+        },
+        "V425935": {
+          "id": "V425935",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(A)",
+            "VAL": "(A)",
+            "LEX": "A"
+          },
+          "start": 22,
+          "end": 24
+        },
+        "V425604": {
+          "id": "V425604",
+          "indicator": "F",
+          "type": "INACTIVE-OFF",
+          "word": "OFF",
+          "roles": {
+            "FIGURE": "#V426711",
+            "SCALE": "OBJECT-AFFORDANCES-SCALE",
+            "LEX": "OFF",
+            "WNSENSE": "off%3:00:00::"
+          },
+          "start": 30,
+          "end": 33
+        },
+        "root": "#V426713"
+      }
+    ],
+    [
+      {
+        "V425839": {
+          "id": "V425839",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V425499",
+            "LEX": "CHALLENGE"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V425499": {
+          "id": "V425499",
+          "indicator": "F",
+          "type": "REQUEST",
+          "word": "CHALLENGE",
+          "roles": {
+            "AGENT": "#V425470",
+            "NEUTRAL": "#V425523",
+            "TENSE": "PRES",
+            "LEX": "CHALLENGE",
+            "WNSENSE": "challenge%1:10:01::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V425470": {
+          "id": "V425470",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V425523": {
+          "id": "V425523",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIM",
+          "roles": {
+            "PROFORM": "HIM",
+            "LEX": "HIM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 15,
+          "end": 19
+        },
+        "root": "#V425839"
+      },
+      {
+        "V426713": {
+          "id": "V426713",
+          "indicator": "SPEECHACT",
+          "type": "SA_REQUEST",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V425594",
+            "LEX": "SKATE"
+          },
+          "start": 19,
+          "end": 34
+        },
+        "V425594": {
+          "id": "V425594",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "SKATE",
+          "roles": {
+            "RESULT": "#V425604",
+            "AGENT": "#V426711",
+            "TIME": "#V425532",
+            "TENSE": "PRES",
+            "VFORM": "BASE",
+            "LEX": "SKATE"
+          },
+          "start": 19,
+          "end": 33
+        },
+        "V426711": {
+          "id": "V426711",
+          "indicator": "IMPRO",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "PROFORM": "*YOU*"
+          },
+          "start": 19,
+          "end": 33
+        },
+        "V425532": {
+          "id": "V425532",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V425953",
+            "FIGURE": "#V425594",
+            "LEX": "TO"
+          },
+          "start": 19,
+          "end": 24
+        },
+        "V425953": {
+          "id": "V425953",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V425935",
+            "LEX": "A"
+          },
+          "start": 22,
+          "end": 24
+        },
+        "V425935": {
+          "id": "V425935",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(A)",
+            "VAL": "(A)",
+            "LEX": "A"
+          },
+          "start": 22,
+          "end": 24
+        },
+        "V425604": {
+          "id": "V425604",
+          "indicator": "F",
+          "type": "INACTIVE-OFF",
+          "word": "OFF",
+          "roles": {
+            "FIGURE": "#V426711",
+            "SCALE": "OBJECT-AFFORDANCES-SCALE",
+            "LEX": "OFF",
+            "WNSENSE": "off%3:00:00::"
+          },
+          "start": 30,
+          "end": 33
+        },
+        "root": "#V426713"
+      }
+    ]
+  ],
+  "sentence": "They challenge him to a skate off.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190802T114916",
+    "link": "http://trips.ihmc.us/parser/saved/20190802T114916-STEP-abhatia-none-They_challenge_him_to_a_skate_off_.xml",
+    "judgement": -1
+  }
+}

@@ -1,0 +1,680 @@
+{
+  "parse": [
+    {
+      "V357250": {
+        "id": "V357250",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V353689",
+          "LEX": "USED"
+        },
+        "start": 0,
+        "end": 67
+      },
+      "V353689": {
+        "id": "V353689",
+        "indicator": "F",
+        "type": "USE",
+        "word": "USE",
+        "roles": {
+          "AGENT": "#V353677",
+          "AFFECTED": "#V353701",
+          "REASON": "#V353712",
+          "TENSE": "PAST",
+          "LEX": "USED",
+          "WNSENSE": "use%1:04:00::"
+        },
+        "start": 0,
+        "end": 67
+      },
+      "V353677": {
+        "id": "V353677",
+        "indicator": "THE",
+        "type": "GEOGRAPHIC-REGION",
+        "word": "MATT",
+        "roles": {
+          "NAME-OF": "MATT",
+          "LEX": "MATT",
+          "WNSENSE": "north_america%1:14:00"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V353701": {
+        "id": "V353701",
+        "indicator": "THE",
+        "type": "VALUE-COST",
+        "word": "DISCOUNT",
+        "roles": {
+          "LEX": "DISCOUNT",
+          "WNSENSE": "change%1:21:02"
+        },
+        "start": 10,
+        "end": 23
+      },
+      "V353712": {
+        "id": "V353712",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V353751",
+          "FIGURE": "#V353689",
+          "LEX": "TO"
+        },
+        "start": 23,
+        "end": 67
+      },
+      "V353751": {
+        "id": "V353751",
+        "indicator": "F",
+        "type": "ACQUIRE",
+        "word": "GET",
+        "roles": {
+          "AFFECTED": "#V353890",
+          "VFORM": "BASE",
+          "LEX": "GET",
+          "WNSENSE": "get%2:40:00::"
+        },
+        "start": 26,
+        "end": 67
+      },
+      "V353890": {
+        "id": "V353890",
+        "indicator": "INDEF-SET",
+        "type": "DEVICE",
+        "word": "TOOL",
+        "roles": {
+          "REFSET": "#V353792",
+          "SIZE": "UNIVERSAL",
+          "LEX": "TOOLS",
+          "WNSENSE": "device%1:06:00"
+        },
+        "start": 30,
+        "end": 67
+      },
+      "V353792": {
+        "id": "V353792",
+        "indicator": "THE-SET",
+        "type": "DEVICE",
+        "word": "TOOL",
+        "roles": {
+          "MOD": "#V353800",
+          "LEX": "TOOLS",
+          "WNSENSE": "device%1:06:00"
+        },
+        "start": 34,
+        "end": 67
+      },
+      "V353800": {
+        "id": "V353800",
+        "indicator": "F",
+        "type": "WANT",
+        "word": "NEED",
+        "roles": {
+          "EXPERIENCER": "#V353795",
+          "NEUTRAL": "#V353792",
+          "REASON": "#V353812",
+          "TENSE": "PAST",
+          "LEX": "NEEDED",
+          "WNSENSE": "desire%2:37:00"
+        },
+        "start": 44,
+        "end": 67
+      },
+      "V353795": {
+        "id": "V353795",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 44,
+        "end": 47
+      },
+      "V353812": {
+        "id": "V353812",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V353845",
+          "FIGURE": "#V353800",
+          "LEX": "FOR"
+        },
+        "start": 54,
+        "end": 67
+      },
+      "V353845": {
+        "id": "V353845",
+        "indicator": "THE",
+        "type": "LODGING",
+        "word": "HOUSE",
+        "roles": {
+          "LEX": "HOUSE",
+          "WNSENSE": "house%1:06:00::"
+        },
+        "start": 58,
+        "end": 67
+      },
+      "root": "#V357250"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V357247": {
+          "id": "V357247",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V353689",
+            "LEX": "USED"
+          },
+          "start": 0,
+          "end": 68
+        },
+        "V353689": {
+          "id": "V353689",
+          "indicator": "F",
+          "type": "USE",
+          "word": "USE",
+          "roles": {
+            "AGENT": "#V353669",
+            "AFFECTED": "#V353701",
+            "REASON": "#V353712",
+            "TENSE": "PAST",
+            "LEX": "USED",
+            "WNSENSE": "use%1:04:00::"
+          },
+          "start": 0,
+          "end": 67
+        },
+        "V353669": {
+          "id": "V353669",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "MATT",
+          "roles": {
+            "NAME-OF": "MATT",
+            "LEX": "MATT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V353701": {
+          "id": "V353701",
+          "indicator": "THE",
+          "type": "VALUE-COST",
+          "word": "DISCOUNT",
+          "roles": {
+            "LEX": "DISCOUNT",
+            "WNSENSE": "change%1:21:02"
+          },
+          "start": 10,
+          "end": 23
+        },
+        "V353712": {
+          "id": "V353712",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V353751",
+            "FIGURE": "#V353689",
+            "LEX": "TO"
+          },
+          "start": 23,
+          "end": 67
+        },
+        "V353751": {
+          "id": "V353751",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "GET",
+          "roles": {
+            "AFFECTED": "#V353890",
+            "VFORM": "BASE",
+            "LEX": "GET",
+            "WNSENSE": "get%2:40:00::"
+          },
+          "start": 26,
+          "end": 67
+        },
+        "V353890": {
+          "id": "V353890",
+          "indicator": "INDEF-SET",
+          "type": "DEVICE",
+          "word": "TOOL",
+          "roles": {
+            "REFSET": "#V353792",
+            "SIZE": "UNIVERSAL",
+            "LEX": "TOOLS",
+            "WNSENSE": "device%1:06:00"
+          },
+          "start": 30,
+          "end": 67
+        },
+        "V353792": {
+          "id": "V353792",
+          "indicator": "THE-SET",
+          "type": "DEVICE",
+          "word": "TOOL",
+          "roles": {
+            "MOD": "#V353800",
+            "LEX": "TOOLS",
+            "WNSENSE": "device%1:06:00"
+          },
+          "start": 34,
+          "end": 67
+        },
+        "V353800": {
+          "id": "V353800",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "NEED",
+          "roles": {
+            "EXPERIENCER": "#V353795",
+            "NEUTRAL": "#V353792",
+            "REASON": "#V353812",
+            "TENSE": "PAST",
+            "LEX": "NEEDED",
+            "WNSENSE": "desire%2:37:00"
+          },
+          "start": 44,
+          "end": 67
+        },
+        "V353795": {
+          "id": "V353795",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 44,
+          "end": 47
+        },
+        "V353812": {
+          "id": "V353812",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V353845",
+            "FIGURE": "#V353800",
+            "LEX": "FOR"
+          },
+          "start": 54,
+          "end": 67
+        },
+        "V353845": {
+          "id": "V353845",
+          "indicator": "THE",
+          "type": "LODGING",
+          "word": "HOUSE",
+          "roles": {
+            "LEX": "HOUSE",
+            "WNSENSE": "house%1:06:00::"
+          },
+          "start": 58,
+          "end": 67
+        },
+        "root": "#V357247"
+      }
+    ],
+    [
+      {
+        "V357199": {
+          "id": "V357199",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V353688",
+            "LEX": "USED"
+          },
+          "start": 0,
+          "end": 68
+        },
+        "V353688": {
+          "id": "V353688",
+          "indicator": "F",
+          "type": "USE",
+          "word": "USE",
+          "roles": {
+            "AGENT": "#V353677",
+            "AFFECTED": "#V353701",
+            "REASON": "#V353712",
+            "TENSE": "PAST",
+            "LEX": "USED",
+            "WNSENSE": "use%1:04:00::"
+          },
+          "start": 0,
+          "end": 67
+        },
+        "V353677": {
+          "id": "V353677",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "MATT",
+          "roles": {
+            "NAME-OF": "MATT",
+            "LEX": "MATT",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V353701": {
+          "id": "V353701",
+          "indicator": "THE",
+          "type": "VALUE-COST",
+          "word": "DISCOUNT",
+          "roles": {
+            "LEX": "DISCOUNT",
+            "WNSENSE": "change%1:21:02"
+          },
+          "start": 10,
+          "end": 23
+        },
+        "V353712": {
+          "id": "V353712",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V353751",
+            "FIGURE": "#V353688",
+            "LEX": "TO"
+          },
+          "start": 23,
+          "end": 67
+        },
+        "V353751": {
+          "id": "V353751",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "GET",
+          "roles": {
+            "AFFECTED": "#V353890",
+            "VFORM": "BASE",
+            "LEX": "GET",
+            "WNSENSE": "get%2:40:00::"
+          },
+          "start": 26,
+          "end": 67
+        },
+        "V353890": {
+          "id": "V353890",
+          "indicator": "INDEF-SET",
+          "type": "DEVICE",
+          "word": "TOOL",
+          "roles": {
+            "REFSET": "#V353792",
+            "SIZE": "UNIVERSAL",
+            "LEX": "TOOLS",
+            "WNSENSE": "device%1:06:00"
+          },
+          "start": 30,
+          "end": 67
+        },
+        "V353792": {
+          "id": "V353792",
+          "indicator": "THE-SET",
+          "type": "DEVICE",
+          "word": "TOOL",
+          "roles": {
+            "MOD": "#V353800",
+            "LEX": "TOOLS",
+            "WNSENSE": "device%1:06:00"
+          },
+          "start": 34,
+          "end": 67
+        },
+        "V353800": {
+          "id": "V353800",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "NEED",
+          "roles": {
+            "EXPERIENCER": "#V353795",
+            "NEUTRAL": "#V353792",
+            "REASON": "#V353812",
+            "TENSE": "PAST",
+            "LEX": "NEEDED",
+            "WNSENSE": "desire%2:37:00"
+          },
+          "start": 44,
+          "end": 67
+        },
+        "V353795": {
+          "id": "V353795",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 44,
+          "end": 47
+        },
+        "V353812": {
+          "id": "V353812",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V353845",
+            "FIGURE": "#V353800",
+            "LEX": "FOR"
+          },
+          "start": 54,
+          "end": 67
+        },
+        "V353845": {
+          "id": "V353845",
+          "indicator": "THE",
+          "type": "LODGING",
+          "word": "HOUSE",
+          "roles": {
+            "LEX": "HOUSE",
+            "WNSENSE": "house%1:06:00::"
+          },
+          "start": 58,
+          "end": 67
+        },
+        "root": "#V357199"
+      }
+    ],
+    [
+      {
+        "V357196": {
+          "id": "V357196",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V353688",
+            "LEX": "USED"
+          },
+          "start": 0,
+          "end": 68
+        },
+        "V353688": {
+          "id": "V353688",
+          "indicator": "F",
+          "type": "USE",
+          "word": "USE",
+          "roles": {
+            "AGENT": "#V353669",
+            "AFFECTED": "#V353701",
+            "REASON": "#V353712",
+            "TENSE": "PAST",
+            "LEX": "USED",
+            "WNSENSE": "use%1:04:00::"
+          },
+          "start": 0,
+          "end": 67
+        },
+        "V353669": {
+          "id": "V353669",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "MATT",
+          "roles": {
+            "NAME-OF": "MATT",
+            "LEX": "MATT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V353701": {
+          "id": "V353701",
+          "indicator": "THE",
+          "type": "VALUE-COST",
+          "word": "DISCOUNT",
+          "roles": {
+            "LEX": "DISCOUNT",
+            "WNSENSE": "change%1:21:02"
+          },
+          "start": 10,
+          "end": 23
+        },
+        "V353712": {
+          "id": "V353712",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V353751",
+            "FIGURE": "#V353688",
+            "LEX": "TO"
+          },
+          "start": 23,
+          "end": 67
+        },
+        "V353751": {
+          "id": "V353751",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "GET",
+          "roles": {
+            "AFFECTED": "#V353890",
+            "VFORM": "BASE",
+            "LEX": "GET",
+            "WNSENSE": "get%2:40:00::"
+          },
+          "start": 26,
+          "end": 67
+        },
+        "V353890": {
+          "id": "V353890",
+          "indicator": "INDEF-SET",
+          "type": "DEVICE",
+          "word": "TOOL",
+          "roles": {
+            "REFSET": "#V353792",
+            "SIZE": "UNIVERSAL",
+            "LEX": "TOOLS",
+            "WNSENSE": "device%1:06:00"
+          },
+          "start": 30,
+          "end": 67
+        },
+        "V353792": {
+          "id": "V353792",
+          "indicator": "THE-SET",
+          "type": "DEVICE",
+          "word": "TOOL",
+          "roles": {
+            "MOD": "#V353800",
+            "LEX": "TOOLS",
+            "WNSENSE": "device%1:06:00"
+          },
+          "start": 34,
+          "end": 67
+        },
+        "V353800": {
+          "id": "V353800",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "NEED",
+          "roles": {
+            "EXPERIENCER": "#V353795",
+            "NEUTRAL": "#V353792",
+            "REASON": "#V353812",
+            "TENSE": "PAST",
+            "LEX": "NEEDED",
+            "WNSENSE": "desire%2:37:00"
+          },
+          "start": 44,
+          "end": 67
+        },
+        "V353795": {
+          "id": "V353795",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 44,
+          "end": 47
+        },
+        "V353812": {
+          "id": "V353812",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V353845",
+            "FIGURE": "#V353800",
+            "LEX": "FOR"
+          },
+          "start": 54,
+          "end": 67
+        },
+        "V353845": {
+          "id": "V353845",
+          "indicator": "THE",
+          "type": "LODGING",
+          "word": "HOUSE",
+          "roles": {
+            "LEX": "HOUSE",
+            "WNSENSE": "house%1:06:00::"
+          },
+          "start": 58,
+          "end": 67
+        },
+        "root": "#V357196"
+      }
+    ]
+  ],
+  "sentence": "Matt used the discount to get all the tools he needed for the house.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190725T080725",
+    "link": "http://trips.ihmc.us/parser/saved/20190725T080725-STEP-abhatia-none-Matt_used_the_discount_to_get_all_the_to.xml",
+    "judgement": -1
+  }
+}

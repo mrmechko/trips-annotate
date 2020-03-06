@@ -1,0 +1,154 @@
+{
+  "parse": [
+    {
+      "V43658": {
+        "id": "V43658",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V37692"
+        },
+        "start": 0,
+        "end": 70
+      },
+      "V37692": {
+        "id": "V37692",
+        "indicator": "F",
+        "type": "CHANGE",
+        "word": "SWITCHED",
+        "roles": {
+          "AGENT": "#V37685",
+          "AFFECTED": "#V37707",
+          "TIME": "#V37749",
+          "TENSE": "PAST"
+        },
+        "start": 0,
+        "end": 70
+      },
+      "V37685": {
+        "id": "V37685",
+        "indicator": "INDEF-SET",
+        "type": "TRAVELLER",
+        "word": "REFUGEES",
+        "roles": {},
+        "start": 0,
+        "end": 9
+      },
+      "V37707": {
+        "id": "V37707",
+        "indicator": "INDEF-SET",
+        "type": "LODGING",
+        "word": "CAMPS",
+        "roles": {},
+        "start": 18,
+        "end": 24
+      },
+      "V37749": {
+        "id": "V37749",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "UP-TO",
+        "roles": {
+          "GROUND": "#V38095",
+          "FIGURE": "#V37692"
+        },
+        "start": 24,
+        "end": 70
+      },
+      "V38095": {
+        "id": "V38095",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "MOD": "#V37909"
+        },
+        "start": 30,
+        "end": 70
+      },
+      "V37909": {
+        "id": "V37909",
+        "indicator": "F",
+        "type": "DURING",
+        "word": "DURING",
+        "roles": {
+          "EXTENT": "#V37889",
+          "GROUND": "#V37961",
+          "FIGURE": "#V38095"
+        },
+        "start": 30,
+        "end": 70
+      },
+      "V37889": {
+        "id": "V37889",
+        "indicator": "A",
+        "type": "QUANTITY",
+        "word": null,
+        "roles": {
+          "AMOUNT": "#V37883",
+          "UNIT": "(:* MULTIPLE TIME)",
+          "SCALE": "DOMAIN"
+        },
+        "start": 30,
+        "end": 42
+      },
+      "V37883": {
+        "id": "V37883",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "3"
+        },
+        "start": 30,
+        "end": 42
+      },
+      "V37961": {
+        "id": "V37961",
+        "indicator": "THE",
+        "type": "PART",
+        "word": "FIRST-HALF",
+        "roles": {
+          "MOD": "#V37965",
+          "WNSENSE": "first_half%1:28:00"
+        },
+        "start": 49,
+        "end": 70
+      },
+      "V37965": {
+        "id": "V37965",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V37979",
+          "FIGURE": "#V37961"
+        },
+        "start": 64,
+        "end": 70
+      },
+      "V37979": {
+        "id": "V37979",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "YEAR": "2017"
+        },
+        "start": 67,
+        "end": 70
+      },
+      "root": "#V43658"
+    }
+  ],
+  "alternatives": [],
+  "sentence": "refugees switched camps up to three times during the first half of 2017",
+  "annotation": {
+    "judge": "lgalescu",
+    "parser": "CWMS",
+    "timestamp": "20190702T105945",
+    "link": "http://trips.ihmc.us/parser/saved/20190702T105945-CWMS-lgalescu-none-refugees_switched_camps_up_to_three_time.xml",
+    "judgement": -1
+  }
+}

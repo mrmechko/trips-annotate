@@ -1,0 +1,18 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V83699 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V83346 [label=<<font color="green"><br /></font> <font color="black">CREATE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">TAKE</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::CREATE.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V83312 [label=<<font color="green"><br /></font> <font color="black">SEQUENCE-POSITION</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">THEN</font> <font color="green"><br /></font> <font color="green">then%4:02:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SEQUENCE-POSITION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V83318 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">PRO-SET</font> <font color="blue">WE</font> <font color="green"><br /></font> <font color="green">person%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V83390 [label=<<font color="green"><br /></font> <font color="black">RELATIVE-LOCATION</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">HOME</font> <font color="green"><br /></font> <font color="green">home%1:15:02::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::RELATIVE-LOCATION.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V83384 [label=<<font color="green"><br /></font> <font color="black">TREE</font> <font color="green"><br /></font> <font color="red">KIND</font> <font color="blue">TREE</font> <font color="green"><br /></font> <font color="green">tree%1:20:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TREE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V83346 -> V83390 [label=" AFFECTED-RESULT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V83390 -> V83384 [label=" ASSOC-WITH   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V83346 -> V83312 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V83312 -> V83346 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V83346 -> V83318 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V83699 -> V83346 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

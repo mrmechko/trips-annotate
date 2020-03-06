@@ -1,0 +1,16 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V37579 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V37331 [label=<<font color="green"><br /></font> <font color="black">COHERE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">COHERE</font> <font color="green"><br /></font> <font color="green">cohere%2:42:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::COHERE.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V37323 [label=<<font color="green"><br /></font> <font color="black">SOCIAL-GROUP</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">SOCIETIES</font> <font color="green"><br /></font> <font color="green">social_group%1:14:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SOCIAL-GROUP.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V37344 [label=<<font color="green"><br /></font> <font color="black">BEFORE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BY</font> <font color="green"><br /></font> <font color="green">by%4:02:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BEFORE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V37361 [label=<<font color="green"><br /></font> <font color="black">GOVERNING-PRINCIPLE</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">PRINCIPLES</font> <font color="green"><br /></font> <font color="green">injustice%1:07:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GOVERNING-PRINCIPLE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V37331 -> V37323 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V37579 -> V37331 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V37331 -> V37344 [label=" TIME   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V37344 -> V37361 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V37344 -> V37331 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

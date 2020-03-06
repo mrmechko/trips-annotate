@@ -1,0 +1,2385 @@
+{
+  "parse": [
+    {
+      "V49629": {
+        "id": "V49629",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V42815",
+          "LEX": "IS"
+        },
+        "start": 0,
+        "end": 53
+      },
+      "V42815": {
+        "id": "V42815",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V42805",
+          "NEUTRAL1": "#V42942",
+          "TENSE": "PRES",
+          "LEX": "IS"
+        },
+        "start": 0,
+        "end": 53
+      },
+      "V42805": {
+        "id": "V42805",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "THIS",
+        "roles": {
+          "PROFORM": "THIS",
+          "LEX": "THIS"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V42942": {
+        "id": "V42942",
+        "indicator": "A",
+        "type": "CONTENT",
+        "word": "HYPOTHESES",
+        "roles": {
+          "ASSOC-WITH": "#V42868",
+          "LEX": "HYPOTHESES"
+        },
+        "start": 8,
+        "end": 53
+      },
+      "V42868": {
+        "id": "V42868",
+        "indicator": "KIND",
+        "type": "SCRUTINY",
+        "word": "TEST",
+        "roles": {
+          "NEUTRAL": "#V42891",
+          "LEX": "TEST"
+        },
+        "start": 8,
+        "end": 53
+      },
+      "V42891": {
+        "id": "V42891",
+        "indicator": "BARE",
+        "type": "RESCUE",
+        "word": "SAVE",
+        "roles": {
+          "FORMAL": "#V42919",
+          "LEX": "SAVING"
+        },
+        "start": 15,
+        "end": 42
+      },
+      "V42919": {
+        "id": "V42919",
+        "indicator": "BARE",
+        "type": "SCRUTINY",
+        "word": "PARSING",
+        "roles": {
+          "MOD": "#V42902",
+          "LEX": "PARSING"
+        },
+        "start": 25,
+        "end": 42
+      },
+      "V42902": {
+        "id": "V42902",
+        "indicator": "F",
+        "type": "CARDINALITY-VAL",
+        "word": "MULTIPLE",
+        "roles": {
+          "FIGURE": "#V42919",
+          "SCALE": "DOMAIN",
+          "LEX": "MULTIPLE"
+        },
+        "start": 25,
+        "end": 34
+      },
+      "root": "#V49629"
+    },
+    {
+      "V42953": {
+        "id": "V42953",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V43022",
+          "LEX": "IN"
+        },
+        "start": 53,
+        "end": 71
+      },
+      "V43022": {
+        "id": "V43022",
+        "indicator": "THE",
+        "type": "COMPUTER-PROGRAM",
+        "word": "PARSER",
+        "roles": {
+          "ASSOC-WITH": "#V43017",
+          "LEX": "PARSER"
+        },
+        "start": 56,
+        "end": 71
+      },
+      "V43017": {
+        "id": "V43017",
+        "indicator": "KIND",
+        "type": "COMPUTER-NETWORK",
+        "word": "WEB",
+        "roles": {
+          "LEX": "WEB"
+        },
+        "start": 56,
+        "end": 71
+      },
+      "root": "#V42953"
+    },
+    {
+      "V48067": {
+        "id": "V48067",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V43088",
+          "LEX": "COMPLETED"
+        },
+        "start": 71,
+        "end": 112
+      },
+      "V43088": {
+        "id": "V43088",
+        "indicator": "F",
+        "type": "COMPLETE",
+        "word": "COMPLETE",
+        "roles": {
+          "AGENT": "#V43074",
+          "FORMAL": "#V43096",
+          "TIME": "#V43027",
+          "TENSE": "PAST",
+          "LEX": "COMPLETED"
+        },
+        "start": 71,
+        "end": 112
+      },
+      "V43027": {
+        "id": "V43027",
+        "indicator": "F",
+        "type": "TIME-ON-REL",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V43667",
+          "FIGURE": "#V43088",
+          "LEX": "ON"
+        },
+        "start": 71,
+        "end": 82
+      },
+      "V43667": {
+        "id": "V43667",
+        "indicator": "THE-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V43056",
+          "LEX": "DAY"
+        },
+        "start": 74,
+        "end": 82
+      },
+      "V43056": {
+        "id": "V43056",
+        "indicator": "THE",
+        "type": "QUANTITY",
+        "word": null,
+        "roles": {
+          "UNIT": "(:* DAY-DURATION DAY)",
+          "SCALE": "DURATION-SCALE",
+          "LEX": "DAY"
+        },
+        "start": 74,
+        "end": 82
+      },
+      "V43074": {
+        "id": "V43074",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "COREF": "USER"
+        },
+        "start": 82,
+        "end": 84
+      },
+      "V43096": {
+        "id": "V43096",
+        "indicator": "THE",
+        "type": "FUNCTIONALITY-SCALE",
+        "word": "FUNCTIONALITY",
+        "roles": {
+          "PROFORM": "THIS",
+          "LEX": "FUNCTIONALITY"
+        },
+        "start": 94,
+        "end": 112
+      },
+      "root": "#V48067"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V49624": {
+          "id": "V49624",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V42815",
+            "LEX": "IS"
+          },
+          "start": 0,
+          "end": 53
+        },
+        "V42815": {
+          "id": "V42815",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V42805",
+            "NEUTRAL1": "#V42942",
+            "TENSE": "PRES",
+            "LEX": "IS"
+          },
+          "start": 0,
+          "end": 53
+        },
+        "V42805": {
+          "id": "V42805",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "THIS",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "THIS"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V42942": {
+          "id": "V42942",
+          "indicator": "A",
+          "type": "CONTENT",
+          "word": "HYPOTHESES",
+          "roles": {
+            "ASSOC-WITH": "#V42868",
+            "LEX": "HYPOTHESES"
+          },
+          "start": 8,
+          "end": 53
+        },
+        "V42868": {
+          "id": "V42868",
+          "indicator": "KIND",
+          "type": "SCRUTINY",
+          "word": "TEST",
+          "roles": {
+            "NEUTRAL": "#V42891",
+            "LEX": "TEST"
+          },
+          "start": 8,
+          "end": 53
+        },
+        "V42891": {
+          "id": "V42891",
+          "indicator": "BARE",
+          "type": "RESCUE",
+          "word": "SAVE",
+          "roles": {
+            "FORMAL": "#V42921",
+            "LEX": "SAVING"
+          },
+          "start": 15,
+          "end": 42
+        },
+        "V42921": {
+          "id": "V42921",
+          "indicator": "BARE",
+          "type": "SCRUTINY",
+          "word": "PARSING",
+          "roles": {
+            "MOD": "#V42902",
+            "LEX": "PARSING"
+          },
+          "start": 25,
+          "end": 42
+        },
+        "V42902": {
+          "id": "V42902",
+          "indicator": "F",
+          "type": "CARDINALITY-VAL",
+          "word": "MULTIPLE",
+          "roles": {
+            "FIGURE": "#V42921",
+            "SCALE": "DOMAIN",
+            "LEX": "MULTIPLE"
+          },
+          "start": 25,
+          "end": 34
+        },
+        "root": "#V49624"
+      },
+      {
+        "V42953": {
+          "id": "V42953",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V43022",
+            "LEX": "IN"
+          },
+          "start": 53,
+          "end": 71
+        },
+        "V43022": {
+          "id": "V43022",
+          "indicator": "THE",
+          "type": "COMPUTER-PROGRAM",
+          "word": "PARSER",
+          "roles": {
+            "ASSOC-WITH": "#V43017",
+            "LEX": "PARSER"
+          },
+          "start": 56,
+          "end": 71
+        },
+        "V43017": {
+          "id": "V43017",
+          "indicator": "KIND",
+          "type": "COMPUTER-NETWORK",
+          "word": "WEB",
+          "roles": {
+            "LEX": "WEB"
+          },
+          "start": 56,
+          "end": 71
+        },
+        "root": "#V42953"
+      },
+      {
+        "V48067": {
+          "id": "V48067",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V43088",
+            "LEX": "COMPLETED"
+          },
+          "start": 71,
+          "end": 113
+        },
+        "V43088": {
+          "id": "V43088",
+          "indicator": "F",
+          "type": "COMPLETE",
+          "word": "COMPLETE",
+          "roles": {
+            "AGENT": "#V43074",
+            "FORMAL": "#V43096",
+            "TIME": "#V43027",
+            "TENSE": "PAST",
+            "LEX": "COMPLETED"
+          },
+          "start": 71,
+          "end": 112
+        },
+        "V43027": {
+          "id": "V43027",
+          "indicator": "F",
+          "type": "TIME-ON-REL",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V43667",
+            "FIGURE": "#V43088",
+            "LEX": "ON"
+          },
+          "start": 71,
+          "end": 82
+        },
+        "V43667": {
+          "id": "V43667",
+          "indicator": "THE-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V43056",
+            "LEX": "DAY"
+          },
+          "start": 74,
+          "end": 82
+        },
+        "V43056": {
+          "id": "V43056",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "DAY"
+          },
+          "start": 74,
+          "end": 82
+        },
+        "V43074": {
+          "id": "V43074",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I"
+          },
+          "start": 82,
+          "end": 84
+        },
+        "V43096": {
+          "id": "V43096",
+          "indicator": "THE",
+          "type": "FUNCTIONALITY-SCALE",
+          "word": "FUNCTIONALITY",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "FUNCTIONALITY"
+          },
+          "start": 94,
+          "end": 112
+        },
+        "root": "#V48067"
+      }
+    ],
+    [
+      {
+        "V49619": {
+          "id": "V49619",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V42815",
+            "LEX": "IS"
+          },
+          "start": 0,
+          "end": 53
+        },
+        "V42815": {
+          "id": "V42815",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V42805",
+            "NEUTRAL1": "#V42942",
+            "TENSE": "PRES",
+            "LEX": "IS"
+          },
+          "start": 0,
+          "end": 53
+        },
+        "V42805": {
+          "id": "V42805",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "THIS",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "THIS"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V42942": {
+          "id": "V42942",
+          "indicator": "A",
+          "type": "CONTENT",
+          "word": "HYPOTHESES",
+          "roles": {
+            "ASSOC-WITH": "#V42868",
+            "LEX": "HYPOTHESES"
+          },
+          "start": 8,
+          "end": 53
+        },
+        "V42868": {
+          "id": "V42868",
+          "indicator": "KIND",
+          "type": "SCRUTINY",
+          "word": "TEST",
+          "roles": {
+            "NEUTRAL": "#V42891",
+            "LEX": "TEST"
+          },
+          "start": 8,
+          "end": 53
+        },
+        "V42891": {
+          "id": "V42891",
+          "indicator": "BARE",
+          "type": "RESCUE",
+          "word": "SAVE",
+          "roles": {
+            "FORMAL": "#V42921",
+            "LEX": "SAVING"
+          },
+          "start": 15,
+          "end": 42
+        },
+        "V42921": {
+          "id": "V42921",
+          "indicator": "BARE",
+          "type": "SCRUTINY",
+          "word": "PARSING",
+          "roles": {
+            "MOD": "#V42902",
+            "LEX": "PARSING"
+          },
+          "start": 25,
+          "end": 42
+        },
+        "V42902": {
+          "id": "V42902",
+          "indicator": "F",
+          "type": "CARDINALITY-VAL",
+          "word": "MULTIPLE",
+          "roles": {
+            "FIGURE": "#V42921",
+            "SCALE": "DOMAIN",
+            "LEX": "MULTIPLE"
+          },
+          "start": 25,
+          "end": 34
+        },
+        "root": "#V49619"
+      },
+      {
+        "V42953": {
+          "id": "V42953",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V43022",
+            "LEX": "IN"
+          },
+          "start": 53,
+          "end": 71
+        },
+        "V43022": {
+          "id": "V43022",
+          "indicator": "THE",
+          "type": "COMPUTER-PROGRAM",
+          "word": "PARSER",
+          "roles": {
+            "ASSOC-WITH": "#V43017",
+            "LEX": "PARSER"
+          },
+          "start": 56,
+          "end": 71
+        },
+        "V43017": {
+          "id": "V43017",
+          "indicator": "KIND",
+          "type": "COMPUTER-NETWORK",
+          "word": "WEB",
+          "roles": {
+            "LEX": "WEB"
+          },
+          "start": 56,
+          "end": 71
+        },
+        "root": "#V42953"
+      },
+      {
+        "V48067": {
+          "id": "V48067",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V43088",
+            "LEX": "COMPLETED"
+          },
+          "start": 71,
+          "end": 113
+        },
+        "V43088": {
+          "id": "V43088",
+          "indicator": "F",
+          "type": "COMPLETE",
+          "word": "COMPLETE",
+          "roles": {
+            "AGENT": "#V43074",
+            "FORMAL": "#V43096",
+            "TIME": "#V43027",
+            "TENSE": "PAST",
+            "LEX": "COMPLETED"
+          },
+          "start": 71,
+          "end": 112
+        },
+        "V43027": {
+          "id": "V43027",
+          "indicator": "F",
+          "type": "TIME-ON-REL",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V43667",
+            "FIGURE": "#V43088",
+            "LEX": "ON"
+          },
+          "start": 71,
+          "end": 82
+        },
+        "V43667": {
+          "id": "V43667",
+          "indicator": "THE-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V43056",
+            "LEX": "DAY"
+          },
+          "start": 74,
+          "end": 82
+        },
+        "V43056": {
+          "id": "V43056",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "DAY"
+          },
+          "start": 74,
+          "end": 82
+        },
+        "V43074": {
+          "id": "V43074",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I"
+          },
+          "start": 82,
+          "end": 84
+        },
+        "V43096": {
+          "id": "V43096",
+          "indicator": "THE",
+          "type": "FUNCTIONALITY-SCALE",
+          "word": "FUNCTIONALITY",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "FUNCTIONALITY"
+          },
+          "start": 94,
+          "end": 112
+        },
+        "root": "#V48067"
+      }
+    ],
+    [
+      {
+        "V49614": {
+          "id": "V49614",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V42815",
+            "LEX": "IS"
+          },
+          "start": 0,
+          "end": 53
+        },
+        "V42815": {
+          "id": "V42815",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V42805",
+            "NEUTRAL1": "#V42942",
+            "TENSE": "PRES",
+            "LEX": "IS"
+          },
+          "start": 0,
+          "end": 53
+        },
+        "V42805": {
+          "id": "V42805",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "THIS",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "THIS"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V42942": {
+          "id": "V42942",
+          "indicator": "A",
+          "type": "CONTENT",
+          "word": "HYPOTHESES",
+          "roles": {
+            "ASSOC-WITH": "#V42868",
+            "LEX": "HYPOTHESES"
+          },
+          "start": 8,
+          "end": 53
+        },
+        "V42868": {
+          "id": "V42868",
+          "indicator": "KIND",
+          "type": "SCRUTINY",
+          "word": "TEST",
+          "roles": {
+            "NEUTRAL": "#V42891",
+            "LEX": "TEST"
+          },
+          "start": 8,
+          "end": 53
+        },
+        "V42891": {
+          "id": "V42891",
+          "indicator": "BARE",
+          "type": "RESCUE",
+          "word": "SAVE",
+          "roles": {
+            "FORMAL": "#V42923",
+            "LEX": "SAVING"
+          },
+          "start": 15,
+          "end": 42
+        },
+        "V42923": {
+          "id": "V42923",
+          "indicator": "BARE",
+          "type": "SCRUTINY",
+          "word": "PARSING",
+          "roles": {
+            "MOD": "#V42902",
+            "LEX": "PARSING"
+          },
+          "start": 25,
+          "end": 42
+        },
+        "V42902": {
+          "id": "V42902",
+          "indicator": "F",
+          "type": "CARDINALITY-VAL",
+          "word": "MULTIPLE",
+          "roles": {
+            "FIGURE": "#V42923",
+            "SCALE": "DOMAIN",
+            "LEX": "MULTIPLE"
+          },
+          "start": 25,
+          "end": 34
+        },
+        "root": "#V49614"
+      },
+      {
+        "V42953": {
+          "id": "V42953",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V43022",
+            "LEX": "IN"
+          },
+          "start": 53,
+          "end": 71
+        },
+        "V43022": {
+          "id": "V43022",
+          "indicator": "THE",
+          "type": "COMPUTER-PROGRAM",
+          "word": "PARSER",
+          "roles": {
+            "ASSOC-WITH": "#V43017",
+            "LEX": "PARSER"
+          },
+          "start": 56,
+          "end": 71
+        },
+        "V43017": {
+          "id": "V43017",
+          "indicator": "KIND",
+          "type": "COMPUTER-NETWORK",
+          "word": "WEB",
+          "roles": {
+            "LEX": "WEB"
+          },
+          "start": 56,
+          "end": 71
+        },
+        "root": "#V42953"
+      },
+      {
+        "V48067": {
+          "id": "V48067",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V43088",
+            "LEX": "COMPLETED"
+          },
+          "start": 71,
+          "end": 113
+        },
+        "V43088": {
+          "id": "V43088",
+          "indicator": "F",
+          "type": "COMPLETE",
+          "word": "COMPLETE",
+          "roles": {
+            "AGENT": "#V43074",
+            "FORMAL": "#V43096",
+            "TIME": "#V43027",
+            "TENSE": "PAST",
+            "LEX": "COMPLETED"
+          },
+          "start": 71,
+          "end": 112
+        },
+        "V43027": {
+          "id": "V43027",
+          "indicator": "F",
+          "type": "TIME-ON-REL",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V43667",
+            "FIGURE": "#V43088",
+            "LEX": "ON"
+          },
+          "start": 71,
+          "end": 82
+        },
+        "V43667": {
+          "id": "V43667",
+          "indicator": "THE-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V43056",
+            "LEX": "DAY"
+          },
+          "start": 74,
+          "end": 82
+        },
+        "V43056": {
+          "id": "V43056",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "DAY"
+          },
+          "start": 74,
+          "end": 82
+        },
+        "V43074": {
+          "id": "V43074",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I"
+          },
+          "start": 82,
+          "end": 84
+        },
+        "V43096": {
+          "id": "V43096",
+          "indicator": "THE",
+          "type": "FUNCTIONALITY-SCALE",
+          "word": "FUNCTIONALITY",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "FUNCTIONALITY"
+          },
+          "start": 94,
+          "end": 112
+        },
+        "root": "#V48067"
+      }
+    ],
+    [
+      {
+        "V49609": {
+          "id": "V49609",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V42815",
+            "LEX": "IS"
+          },
+          "start": 0,
+          "end": 53
+        },
+        "V42815": {
+          "id": "V42815",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V42805",
+            "NEUTRAL1": "#V42942",
+            "TENSE": "PRES",
+            "LEX": "IS"
+          },
+          "start": 0,
+          "end": 53
+        },
+        "V42805": {
+          "id": "V42805",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "THIS",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "THIS"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V42942": {
+          "id": "V42942",
+          "indicator": "A",
+          "type": "CONTENT",
+          "word": "HYPOTHESES",
+          "roles": {
+            "ASSOC-WITH": "#V42868",
+            "LEX": "HYPOTHESES"
+          },
+          "start": 8,
+          "end": 53
+        },
+        "V42868": {
+          "id": "V42868",
+          "indicator": "KIND",
+          "type": "SCRUTINY",
+          "word": "TEST",
+          "roles": {
+            "NEUTRAL": "#V42891",
+            "LEX": "TEST"
+          },
+          "start": 8,
+          "end": 53
+        },
+        "V42891": {
+          "id": "V42891",
+          "indicator": "BARE",
+          "type": "RESCUE",
+          "word": "SAVE",
+          "roles": {
+            "FORMAL": "#V42923",
+            "LEX": "SAVING"
+          },
+          "start": 15,
+          "end": 42
+        },
+        "V42923": {
+          "id": "V42923",
+          "indicator": "BARE",
+          "type": "SCRUTINY",
+          "word": "PARSING",
+          "roles": {
+            "MOD": "#V42902",
+            "LEX": "PARSING"
+          },
+          "start": 25,
+          "end": 42
+        },
+        "V42902": {
+          "id": "V42902",
+          "indicator": "F",
+          "type": "CARDINALITY-VAL",
+          "word": "MULTIPLE",
+          "roles": {
+            "FIGURE": "#V42923",
+            "SCALE": "DOMAIN",
+            "LEX": "MULTIPLE"
+          },
+          "start": 25,
+          "end": 34
+        },
+        "root": "#V49609"
+      },
+      {
+        "V42953": {
+          "id": "V42953",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V43022",
+            "LEX": "IN"
+          },
+          "start": 53,
+          "end": 71
+        },
+        "V43022": {
+          "id": "V43022",
+          "indicator": "THE",
+          "type": "COMPUTER-PROGRAM",
+          "word": "PARSER",
+          "roles": {
+            "ASSOC-WITH": "#V43017",
+            "LEX": "PARSER"
+          },
+          "start": 56,
+          "end": 71
+        },
+        "V43017": {
+          "id": "V43017",
+          "indicator": "KIND",
+          "type": "COMPUTER-NETWORK",
+          "word": "WEB",
+          "roles": {
+            "LEX": "WEB"
+          },
+          "start": 56,
+          "end": 71
+        },
+        "root": "#V42953"
+      },
+      {
+        "V48067": {
+          "id": "V48067",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V43088",
+            "LEX": "COMPLETED"
+          },
+          "start": 71,
+          "end": 113
+        },
+        "V43088": {
+          "id": "V43088",
+          "indicator": "F",
+          "type": "COMPLETE",
+          "word": "COMPLETE",
+          "roles": {
+            "AGENT": "#V43074",
+            "FORMAL": "#V43096",
+            "TIME": "#V43027",
+            "TENSE": "PAST",
+            "LEX": "COMPLETED"
+          },
+          "start": 71,
+          "end": 112
+        },
+        "V43027": {
+          "id": "V43027",
+          "indicator": "F",
+          "type": "TIME-ON-REL",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V43667",
+            "FIGURE": "#V43088",
+            "LEX": "ON"
+          },
+          "start": 71,
+          "end": 82
+        },
+        "V43667": {
+          "id": "V43667",
+          "indicator": "THE-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V43056",
+            "LEX": "DAY"
+          },
+          "start": 74,
+          "end": 82
+        },
+        "V43056": {
+          "id": "V43056",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "DAY"
+          },
+          "start": 74,
+          "end": 82
+        },
+        "V43074": {
+          "id": "V43074",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I"
+          },
+          "start": 82,
+          "end": 84
+        },
+        "V43096": {
+          "id": "V43096",
+          "indicator": "THE",
+          "type": "FUNCTIONALITY-SCALE",
+          "word": "FUNCTIONALITY",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "FUNCTIONALITY"
+          },
+          "start": 94,
+          "end": 112
+        },
+        "root": "#V48067"
+      }
+    ],
+    [
+      {
+        "V49604": {
+          "id": "V49604",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V42815",
+            "LEX": "IS"
+          },
+          "start": 0,
+          "end": 53
+        },
+        "V42815": {
+          "id": "V42815",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V42805",
+            "NEUTRAL1": "#V42942",
+            "TENSE": "PRES",
+            "LEX": "IS"
+          },
+          "start": 0,
+          "end": 53
+        },
+        "V42805": {
+          "id": "V42805",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "THIS",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "THIS"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V42942": {
+          "id": "V42942",
+          "indicator": "A",
+          "type": "CONTENT",
+          "word": "HYPOTHESES",
+          "roles": {
+            "ASSOC-WITH": "#V42868",
+            "LEX": "HYPOTHESES"
+          },
+          "start": 8,
+          "end": 53
+        },
+        "V42868": {
+          "id": "V42868",
+          "indicator": "KIND",
+          "type": "SCRUTINY",
+          "word": "TEST",
+          "roles": {
+            "NEUTRAL": "#V42891",
+            "LEX": "TEST"
+          },
+          "start": 8,
+          "end": 53
+        },
+        "V42891": {
+          "id": "V42891",
+          "indicator": "BARE",
+          "type": "RESCUE",
+          "word": "SAVE",
+          "roles": {
+            "FORMAL": "#V42925",
+            "LEX": "SAVING"
+          },
+          "start": 15,
+          "end": 42
+        },
+        "V42925": {
+          "id": "V42925",
+          "indicator": "BARE",
+          "type": "SCRUTINY",
+          "word": "PARSING",
+          "roles": {
+            "MOD": "#V42902",
+            "LEX": "PARSING"
+          },
+          "start": 25,
+          "end": 42
+        },
+        "V42902": {
+          "id": "V42902",
+          "indicator": "F",
+          "type": "CARDINALITY-VAL",
+          "word": "MULTIPLE",
+          "roles": {
+            "FIGURE": "#V42925",
+            "SCALE": "DOMAIN",
+            "LEX": "MULTIPLE"
+          },
+          "start": 25,
+          "end": 34
+        },
+        "root": "#V49604"
+      },
+      {
+        "V42953": {
+          "id": "V42953",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V43022",
+            "LEX": "IN"
+          },
+          "start": 53,
+          "end": 71
+        },
+        "V43022": {
+          "id": "V43022",
+          "indicator": "THE",
+          "type": "COMPUTER-PROGRAM",
+          "word": "PARSER",
+          "roles": {
+            "ASSOC-WITH": "#V43017",
+            "LEX": "PARSER"
+          },
+          "start": 56,
+          "end": 71
+        },
+        "V43017": {
+          "id": "V43017",
+          "indicator": "KIND",
+          "type": "COMPUTER-NETWORK",
+          "word": "WEB",
+          "roles": {
+            "LEX": "WEB"
+          },
+          "start": 56,
+          "end": 71
+        },
+        "root": "#V42953"
+      },
+      {
+        "V48067": {
+          "id": "V48067",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V43088",
+            "LEX": "COMPLETED"
+          },
+          "start": 71,
+          "end": 113
+        },
+        "V43088": {
+          "id": "V43088",
+          "indicator": "F",
+          "type": "COMPLETE",
+          "word": "COMPLETE",
+          "roles": {
+            "AGENT": "#V43074",
+            "FORMAL": "#V43096",
+            "TIME": "#V43027",
+            "TENSE": "PAST",
+            "LEX": "COMPLETED"
+          },
+          "start": 71,
+          "end": 112
+        },
+        "V43027": {
+          "id": "V43027",
+          "indicator": "F",
+          "type": "TIME-ON-REL",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V43667",
+            "FIGURE": "#V43088",
+            "LEX": "ON"
+          },
+          "start": 71,
+          "end": 82
+        },
+        "V43667": {
+          "id": "V43667",
+          "indicator": "THE-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V43056",
+            "LEX": "DAY"
+          },
+          "start": 74,
+          "end": 82
+        },
+        "V43056": {
+          "id": "V43056",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "DAY"
+          },
+          "start": 74,
+          "end": 82
+        },
+        "V43074": {
+          "id": "V43074",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I"
+          },
+          "start": 82,
+          "end": 84
+        },
+        "V43096": {
+          "id": "V43096",
+          "indicator": "THE",
+          "type": "FUNCTIONALITY-SCALE",
+          "word": "FUNCTIONALITY",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "FUNCTIONALITY"
+          },
+          "start": 94,
+          "end": 112
+        },
+        "root": "#V48067"
+      }
+    ],
+    [
+      {
+        "V49599": {
+          "id": "V49599",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V42815",
+            "LEX": "IS"
+          },
+          "start": 0,
+          "end": 53
+        },
+        "V42815": {
+          "id": "V42815",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V42805",
+            "NEUTRAL1": "#V42942",
+            "TENSE": "PRES",
+            "LEX": "IS"
+          },
+          "start": 0,
+          "end": 53
+        },
+        "V42805": {
+          "id": "V42805",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "THIS",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "THIS"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V42942": {
+          "id": "V42942",
+          "indicator": "A",
+          "type": "CONTENT",
+          "word": "HYPOTHESES",
+          "roles": {
+            "ASSOC-WITH": "#V42868",
+            "LEX": "HYPOTHESES"
+          },
+          "start": 8,
+          "end": 53
+        },
+        "V42868": {
+          "id": "V42868",
+          "indicator": "KIND",
+          "type": "SCRUTINY",
+          "word": "TEST",
+          "roles": {
+            "NEUTRAL": "#V42891",
+            "LEX": "TEST"
+          },
+          "start": 8,
+          "end": 53
+        },
+        "V42891": {
+          "id": "V42891",
+          "indicator": "BARE",
+          "type": "RESCUE",
+          "word": "SAVE",
+          "roles": {
+            "FORMAL": "#V42925",
+            "LEX": "SAVING"
+          },
+          "start": 15,
+          "end": 42
+        },
+        "V42925": {
+          "id": "V42925",
+          "indicator": "BARE",
+          "type": "SCRUTINY",
+          "word": "PARSING",
+          "roles": {
+            "MOD": "#V42902",
+            "LEX": "PARSING"
+          },
+          "start": 25,
+          "end": 42
+        },
+        "V42902": {
+          "id": "V42902",
+          "indicator": "F",
+          "type": "CARDINALITY-VAL",
+          "word": "MULTIPLE",
+          "roles": {
+            "FIGURE": "#V42925",
+            "SCALE": "DOMAIN",
+            "LEX": "MULTIPLE"
+          },
+          "start": 25,
+          "end": 34
+        },
+        "root": "#V49599"
+      },
+      {
+        "V42953": {
+          "id": "V42953",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V43022",
+            "LEX": "IN"
+          },
+          "start": 53,
+          "end": 71
+        },
+        "V43022": {
+          "id": "V43022",
+          "indicator": "THE",
+          "type": "COMPUTER-PROGRAM",
+          "word": "PARSER",
+          "roles": {
+            "ASSOC-WITH": "#V43017",
+            "LEX": "PARSER"
+          },
+          "start": 56,
+          "end": 71
+        },
+        "V43017": {
+          "id": "V43017",
+          "indicator": "KIND",
+          "type": "COMPUTER-NETWORK",
+          "word": "WEB",
+          "roles": {
+            "LEX": "WEB"
+          },
+          "start": 56,
+          "end": 71
+        },
+        "root": "#V42953"
+      },
+      {
+        "V48067": {
+          "id": "V48067",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V43088",
+            "LEX": "COMPLETED"
+          },
+          "start": 71,
+          "end": 113
+        },
+        "V43088": {
+          "id": "V43088",
+          "indicator": "F",
+          "type": "COMPLETE",
+          "word": "COMPLETE",
+          "roles": {
+            "AGENT": "#V43074",
+            "FORMAL": "#V43096",
+            "TIME": "#V43027",
+            "TENSE": "PAST",
+            "LEX": "COMPLETED"
+          },
+          "start": 71,
+          "end": 112
+        },
+        "V43027": {
+          "id": "V43027",
+          "indicator": "F",
+          "type": "TIME-ON-REL",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V43667",
+            "FIGURE": "#V43088",
+            "LEX": "ON"
+          },
+          "start": 71,
+          "end": 82
+        },
+        "V43667": {
+          "id": "V43667",
+          "indicator": "THE-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V43056",
+            "LEX": "DAY"
+          },
+          "start": 74,
+          "end": 82
+        },
+        "V43056": {
+          "id": "V43056",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "DAY"
+          },
+          "start": 74,
+          "end": 82
+        },
+        "V43074": {
+          "id": "V43074",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I"
+          },
+          "start": 82,
+          "end": 84
+        },
+        "V43096": {
+          "id": "V43096",
+          "indicator": "THE",
+          "type": "FUNCTIONALITY-SCALE",
+          "word": "FUNCTIONALITY",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "FUNCTIONALITY"
+          },
+          "start": 94,
+          "end": 112
+        },
+        "root": "#V48067"
+      }
+    ],
+    [
+      {
+        "V49594": {
+          "id": "V49594",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V42815",
+            "LEX": "IS"
+          },
+          "start": 0,
+          "end": 53
+        },
+        "V42815": {
+          "id": "V42815",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V42805",
+            "NEUTRAL1": "#V42942",
+            "TENSE": "PRES",
+            "LEX": "IS"
+          },
+          "start": 0,
+          "end": 53
+        },
+        "V42805": {
+          "id": "V42805",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "THIS",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "THIS"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V42942": {
+          "id": "V42942",
+          "indicator": "A",
+          "type": "CONTENT",
+          "word": "HYPOTHESES",
+          "roles": {
+            "ASSOC-WITH": "#V42868",
+            "LEX": "HYPOTHESES"
+          },
+          "start": 8,
+          "end": 53
+        },
+        "V42868": {
+          "id": "V42868",
+          "indicator": "KIND",
+          "type": "SCRUTINY",
+          "word": "TEST",
+          "roles": {
+            "NEUTRAL": "#V42891",
+            "LEX": "TEST"
+          },
+          "start": 8,
+          "end": 53
+        },
+        "V42891": {
+          "id": "V42891",
+          "indicator": "BARE",
+          "type": "RESCUE",
+          "word": "SAVE",
+          "roles": {
+            "FORMAL": "#V42927",
+            "LEX": "SAVING"
+          },
+          "start": 15,
+          "end": 42
+        },
+        "V42927": {
+          "id": "V42927",
+          "indicator": "BARE",
+          "type": "SCRUTINY",
+          "word": "PARSING",
+          "roles": {
+            "MOD": "#V42902",
+            "LEX": "PARSING"
+          },
+          "start": 25,
+          "end": 42
+        },
+        "V42902": {
+          "id": "V42902",
+          "indicator": "F",
+          "type": "CARDINALITY-VAL",
+          "word": "MULTIPLE",
+          "roles": {
+            "FIGURE": "#V42927",
+            "SCALE": "DOMAIN",
+            "LEX": "MULTIPLE"
+          },
+          "start": 25,
+          "end": 34
+        },
+        "root": "#V49594"
+      },
+      {
+        "V42953": {
+          "id": "V42953",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V43022",
+            "LEX": "IN"
+          },
+          "start": 53,
+          "end": 71
+        },
+        "V43022": {
+          "id": "V43022",
+          "indicator": "THE",
+          "type": "COMPUTER-PROGRAM",
+          "word": "PARSER",
+          "roles": {
+            "ASSOC-WITH": "#V43017",
+            "LEX": "PARSER"
+          },
+          "start": 56,
+          "end": 71
+        },
+        "V43017": {
+          "id": "V43017",
+          "indicator": "KIND",
+          "type": "COMPUTER-NETWORK",
+          "word": "WEB",
+          "roles": {
+            "LEX": "WEB"
+          },
+          "start": 56,
+          "end": 71
+        },
+        "root": "#V42953"
+      },
+      {
+        "V48067": {
+          "id": "V48067",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V43088",
+            "LEX": "COMPLETED"
+          },
+          "start": 71,
+          "end": 113
+        },
+        "V43088": {
+          "id": "V43088",
+          "indicator": "F",
+          "type": "COMPLETE",
+          "word": "COMPLETE",
+          "roles": {
+            "AGENT": "#V43074",
+            "FORMAL": "#V43096",
+            "TIME": "#V43027",
+            "TENSE": "PAST",
+            "LEX": "COMPLETED"
+          },
+          "start": 71,
+          "end": 112
+        },
+        "V43027": {
+          "id": "V43027",
+          "indicator": "F",
+          "type": "TIME-ON-REL",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V43667",
+            "FIGURE": "#V43088",
+            "LEX": "ON"
+          },
+          "start": 71,
+          "end": 82
+        },
+        "V43667": {
+          "id": "V43667",
+          "indicator": "THE-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V43056",
+            "LEX": "DAY"
+          },
+          "start": 74,
+          "end": 82
+        },
+        "V43056": {
+          "id": "V43056",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "DAY"
+          },
+          "start": 74,
+          "end": 82
+        },
+        "V43074": {
+          "id": "V43074",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I"
+          },
+          "start": 82,
+          "end": 84
+        },
+        "V43096": {
+          "id": "V43096",
+          "indicator": "THE",
+          "type": "FUNCTIONALITY-SCALE",
+          "word": "FUNCTIONALITY",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "FUNCTIONALITY"
+          },
+          "start": 94,
+          "end": 112
+        },
+        "root": "#V48067"
+      }
+    ],
+    [
+      {
+        "V49589": {
+          "id": "V49589",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V42815",
+            "LEX": "IS"
+          },
+          "start": 0,
+          "end": 53
+        },
+        "V42815": {
+          "id": "V42815",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V42805",
+            "NEUTRAL1": "#V42942",
+            "TENSE": "PRES",
+            "LEX": "IS"
+          },
+          "start": 0,
+          "end": 53
+        },
+        "V42805": {
+          "id": "V42805",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "THIS",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "THIS"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V42942": {
+          "id": "V42942",
+          "indicator": "A",
+          "type": "CONTENT",
+          "word": "HYPOTHESES",
+          "roles": {
+            "ASSOC-WITH": "#V42868",
+            "LEX": "HYPOTHESES"
+          },
+          "start": 8,
+          "end": 53
+        },
+        "V42868": {
+          "id": "V42868",
+          "indicator": "KIND",
+          "type": "SCRUTINY",
+          "word": "TEST",
+          "roles": {
+            "NEUTRAL": "#V42891",
+            "LEX": "TEST"
+          },
+          "start": 8,
+          "end": 53
+        },
+        "V42891": {
+          "id": "V42891",
+          "indicator": "BARE",
+          "type": "RESCUE",
+          "word": "SAVE",
+          "roles": {
+            "FORMAL": "#V42927",
+            "LEX": "SAVING"
+          },
+          "start": 15,
+          "end": 42
+        },
+        "V42927": {
+          "id": "V42927",
+          "indicator": "BARE",
+          "type": "SCRUTINY",
+          "word": "PARSING",
+          "roles": {
+            "MOD": "#V42902",
+            "LEX": "PARSING"
+          },
+          "start": 25,
+          "end": 42
+        },
+        "V42902": {
+          "id": "V42902",
+          "indicator": "F",
+          "type": "CARDINALITY-VAL",
+          "word": "MULTIPLE",
+          "roles": {
+            "FIGURE": "#V42927",
+            "SCALE": "DOMAIN",
+            "LEX": "MULTIPLE"
+          },
+          "start": 25,
+          "end": 34
+        },
+        "root": "#V49589"
+      },
+      {
+        "V42953": {
+          "id": "V42953",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V43022",
+            "LEX": "IN"
+          },
+          "start": 53,
+          "end": 71
+        },
+        "V43022": {
+          "id": "V43022",
+          "indicator": "THE",
+          "type": "COMPUTER-PROGRAM",
+          "word": "PARSER",
+          "roles": {
+            "ASSOC-WITH": "#V43017",
+            "LEX": "PARSER"
+          },
+          "start": 56,
+          "end": 71
+        },
+        "V43017": {
+          "id": "V43017",
+          "indicator": "KIND",
+          "type": "COMPUTER-NETWORK",
+          "word": "WEB",
+          "roles": {
+            "LEX": "WEB"
+          },
+          "start": 56,
+          "end": 71
+        },
+        "root": "#V42953"
+      },
+      {
+        "V48067": {
+          "id": "V48067",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V43088",
+            "LEX": "COMPLETED"
+          },
+          "start": 71,
+          "end": 113
+        },
+        "V43088": {
+          "id": "V43088",
+          "indicator": "F",
+          "type": "COMPLETE",
+          "word": "COMPLETE",
+          "roles": {
+            "AGENT": "#V43074",
+            "FORMAL": "#V43096",
+            "TIME": "#V43027",
+            "TENSE": "PAST",
+            "LEX": "COMPLETED"
+          },
+          "start": 71,
+          "end": 112
+        },
+        "V43027": {
+          "id": "V43027",
+          "indicator": "F",
+          "type": "TIME-ON-REL",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V43667",
+            "FIGURE": "#V43088",
+            "LEX": "ON"
+          },
+          "start": 71,
+          "end": 82
+        },
+        "V43667": {
+          "id": "V43667",
+          "indicator": "THE-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V43056",
+            "LEX": "DAY"
+          },
+          "start": 74,
+          "end": 82
+        },
+        "V43056": {
+          "id": "V43056",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "DAY"
+          },
+          "start": 74,
+          "end": 82
+        },
+        "V43074": {
+          "id": "V43074",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I"
+          },
+          "start": 82,
+          "end": 84
+        },
+        "V43096": {
+          "id": "V43096",
+          "indicator": "THE",
+          "type": "FUNCTIONALITY-SCALE",
+          "word": "FUNCTIONALITY",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "FUNCTIONALITY"
+          },
+          "start": 94,
+          "end": 112
+        },
+        "root": "#V48067"
+      }
+    ],
+    [
+      {
+        "V49629": {
+          "id": "V49629",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V42815",
+            "LEX": "IS"
+          },
+          "start": 0,
+          "end": 53
+        },
+        "V42815": {
+          "id": "V42815",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V42805",
+            "NEUTRAL1": "#V42942",
+            "TENSE": "PRES",
+            "LEX": "IS"
+          },
+          "start": 0,
+          "end": 53
+        },
+        "V42805": {
+          "id": "V42805",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "THIS",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "THIS"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V42942": {
+          "id": "V42942",
+          "indicator": "A",
+          "type": "CONTENT",
+          "word": "HYPOTHESES",
+          "roles": {
+            "ASSOC-WITH": "#V42868",
+            "LEX": "HYPOTHESES"
+          },
+          "start": 8,
+          "end": 53
+        },
+        "V42868": {
+          "id": "V42868",
+          "indicator": "KIND",
+          "type": "SCRUTINY",
+          "word": "TEST",
+          "roles": {
+            "NEUTRAL": "#V42891",
+            "LEX": "TEST"
+          },
+          "start": 8,
+          "end": 53
+        },
+        "V42891": {
+          "id": "V42891",
+          "indicator": "BARE",
+          "type": "RESCUE",
+          "word": "SAVE",
+          "roles": {
+            "FORMAL": "#V42919",
+            "LEX": "SAVING"
+          },
+          "start": 15,
+          "end": 42
+        },
+        "V42919": {
+          "id": "V42919",
+          "indicator": "BARE",
+          "type": "SCRUTINY",
+          "word": "PARSING",
+          "roles": {
+            "MOD": "#V42902",
+            "LEX": "PARSING"
+          },
+          "start": 25,
+          "end": 42
+        },
+        "V42902": {
+          "id": "V42902",
+          "indicator": "F",
+          "type": "CARDINALITY-VAL",
+          "word": "MULTIPLE",
+          "roles": {
+            "FIGURE": "#V42919",
+            "SCALE": "DOMAIN",
+            "LEX": "MULTIPLE"
+          },
+          "start": 25,
+          "end": 34
+        },
+        "root": "#V49629"
+      },
+      {
+        "V44984": {
+          "id": "V44984",
+          "indicator": "SPEECHACT",
+          "type": "SA_PRED-FRAGMENT",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V42953",
+            "LEX": "IN"
+          },
+          "start": 53,
+          "end": 71
+        },
+        "V42953": {
+          "id": "V42953",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V43022",
+            "FIGURE": "#V44985",
+            "LEX": "IN"
+          },
+          "start": 53,
+          "end": 71
+        },
+        "V44985": {
+          "id": "V44985",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 53,
+          "end": 71
+        },
+        "V43022": {
+          "id": "V43022",
+          "indicator": "THE",
+          "type": "COMPUTER-PROGRAM",
+          "word": "PARSER",
+          "roles": {
+            "ASSOC-WITH": "#V43017",
+            "LEX": "PARSER"
+          },
+          "start": 56,
+          "end": 71
+        },
+        "V43017": {
+          "id": "V43017",
+          "indicator": "KIND",
+          "type": "COMPUTER-NETWORK",
+          "word": "WEB",
+          "roles": {
+            "LEX": "WEB"
+          },
+          "start": 56,
+          "end": 71
+        },
+        "root": "#V44984"
+      },
+      {
+        "V48067": {
+          "id": "V48067",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V43088",
+            "LEX": "COMPLETED"
+          },
+          "start": 71,
+          "end": 113
+        },
+        "V43088": {
+          "id": "V43088",
+          "indicator": "F",
+          "type": "COMPLETE",
+          "word": "COMPLETE",
+          "roles": {
+            "AGENT": "#V43074",
+            "FORMAL": "#V43096",
+            "TIME": "#V43027",
+            "TENSE": "PAST",
+            "LEX": "COMPLETED"
+          },
+          "start": 71,
+          "end": 112
+        },
+        "V43027": {
+          "id": "V43027",
+          "indicator": "F",
+          "type": "TIME-ON-REL",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V43667",
+            "FIGURE": "#V43088",
+            "LEX": "ON"
+          },
+          "start": 71,
+          "end": 82
+        },
+        "V43667": {
+          "id": "V43667",
+          "indicator": "THE-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V43056",
+            "LEX": "DAY"
+          },
+          "start": 74,
+          "end": 82
+        },
+        "V43056": {
+          "id": "V43056",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "DAY"
+          },
+          "start": 74,
+          "end": 82
+        },
+        "V43074": {
+          "id": "V43074",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I"
+          },
+          "start": 82,
+          "end": 84
+        },
+        "V43096": {
+          "id": "V43096",
+          "indicator": "THE",
+          "type": "FUNCTIONALITY-SCALE",
+          "word": "FUNCTIONALITY",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "FUNCTIONALITY"
+          },
+          "start": 94,
+          "end": 112
+        },
+        "root": "#V48067"
+      }
+    ]
+  ],
+  "sentence": "This is a test of saving multiple parsing hypotheses in the web parser on the day I completed this functionality.",
+  "annotation": {
+    "judge": "wbeaumont",
+    "parser": "STEP",
+    "timestamp": "20190429T163948",
+    "link": "http://trips.ihmc.us/parser/saved/20190429T163948-STEP-wbeaumont-none-This_is_a_test_of_saving_multiple_parsin.xml",
+    "judgement": -1
+  }
+}

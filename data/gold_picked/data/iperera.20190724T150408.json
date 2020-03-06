@@ -1,0 +1,245 @@
+{
+  "parse": [
+    {
+      "V70404": {
+        "id": "V70404",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V70115"
+        },
+        "start": 0,
+        "end": 14
+      },
+      "V70115": {
+        "id": "V70115",
+        "indicator": "F",
+        "type": "ELLIPSIS",
+        "word": null,
+        "roles": {
+          "NEUTRAL": "#V70103",
+          "TENSE": "PRES",
+          "PROGR": "+"
+        },
+        "start": 0,
+        "end": 14
+      },
+      "V70103": {
+        "id": "V70103",
+        "indicator": "THE",
+        "type": "HEIGHT-SCALE",
+        "word": "HEIGHT",
+        "roles": {
+          "SCALE": "HEIGHT-SCALE"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "root": "#V70404"
+    },
+    {
+      "V70353": {
+        "id": "V70353",
+        "indicator": "SA-SEQ",
+        "type": "SA-SEQ",
+        "word": null,
+        "roles": {
+          "ACT": "#V70224",
+          "ACT1": "#V70330"
+        },
+        "start": 14,
+        "end": 28
+      },
+      "V70224": {
+        "id": "V70224",
+        "indicator": "SPEECHACT",
+        "type": "SA_RESPONSE",
+        "word": null,
+        "roles": {
+          "CONTENT": "NEG"
+        },
+        "start": 14,
+        "end": 17
+      },
+      "V70330": {
+        "id": "V70330",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V70292"
+        },
+        "start": 17,
+        "end": 28
+      },
+      "V70292": {
+        "id": "V70292",
+        "indicator": "A",
+        "type": "QUANTITY",
+        "word": null,
+        "roles": {
+          "AMOUNT": "#V70185"
+        },
+        "start": 17,
+        "end": 28
+      },
+      "V70185": {
+        "id": "V70185",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "MOD": "#V70168"
+        },
+        "start": 17,
+        "end": 28
+      },
+      "V70168": {
+        "id": "V70168",
+        "indicator": "F",
+        "type": "QMODIFIER",
+        "word": "LESS-THAN",
+        "roles": {
+          "FIGURE": "#V70185",
+          "GROUND": "#V70234"
+        },
+        "start": 17,
+        "end": 28
+      },
+      "V70234": {
+        "id": "V70234",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "2"
+        },
+        "start": 17,
+        "end": 28
+      },
+      "root": "#V70353"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V70404": {
+          "id": "V70404",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V70115"
+          },
+          "start": 0,
+          "end": 14
+        },
+        "V70115": {
+          "id": "V70115",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V70103",
+            "TENSE": "PRES",
+            "PROGR": "+"
+          },
+          "start": 0,
+          "end": 14
+        },
+        "V70103": {
+          "id": "V70103",
+          "indicator": "THE",
+          "type": "HEIGHT-SCALE",
+          "word": "HEIGHT",
+          "roles": {
+            "SCALE": "HEIGHT-SCALE"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "root": "#V70404"
+      },
+      {
+        "V70353": {
+          "id": "V70353",
+          "indicator": "SA-SEQ",
+          "type": "SA-SEQ",
+          "word": null,
+          "roles": {
+            "ACT": "#V70224",
+            "ACT1": "#V70332"
+          },
+          "start": 14,
+          "end": 28
+        },
+        "V70224": {
+          "id": "V70224",
+          "indicator": "SPEECHACT",
+          "type": "SA_RESPONSE",
+          "word": null,
+          "roles": {
+            "CONTENT": "NEG"
+          },
+          "start": 14,
+          "end": 17
+        },
+        "V70332": {
+          "id": "V70332",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V70185"
+          },
+          "start": 17,
+          "end": 28
+        },
+        "V70185": {
+          "id": "V70185",
+          "indicator": "THE",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "MOD": "#V70168"
+          },
+          "start": 17,
+          "end": 28
+        },
+        "V70168": {
+          "id": "V70168",
+          "indicator": "F",
+          "type": "QMODIFIER",
+          "word": "LESS-THAN",
+          "roles": {
+            "FIGURE": "#V70185",
+            "GROUND": "#V70234"
+          },
+          "start": 17,
+          "end": 28
+        },
+        "V70234": {
+          "id": "V70234",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "2"
+          },
+          "start": 17,
+          "end": 28
+        },
+        "root": "#V70353"
+      }
+    ]
+  ],
+  "sentence": "The height is no less than 2",
+  "annotation": {
+    "judge": "iperera",
+    "parser": "CABOT",
+    "timestamp": "20190724T150408",
+    "link": "http://trips.ihmc.us/parser/saved/20190724T150408-CABOT-iperera-none-The_height_is_no_less_than_2.xml",
+    "judgement": -1
+  }
+}

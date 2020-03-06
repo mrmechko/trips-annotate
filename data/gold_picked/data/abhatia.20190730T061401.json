@@ -1,0 +1,474 @@
+{
+  "parse": [
+    {
+      "V152629": {
+        "id": "V152629",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V151652",
+          "LEX": "FOUGHT"
+        },
+        "start": 0,
+        "end": 49
+      },
+      "V151652": {
+        "id": "V151652",
+        "indicator": "F",
+        "type": "FIGHTING",
+        "word": "FIGHT",
+        "roles": {
+          "AGENT": "#V151637",
+          "NEUTRAL": "#V151706",
+          "FREQUENCY": "#V151647",
+          "MOD": "#V151664",
+          "TENSE": "PAST",
+          "LEX": "FOUGHT",
+          "WNSENSE": "fight%2:33:00::"
+        },
+        "start": 0,
+        "end": 49
+      },
+      "V151637": {
+        "id": "V151637",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "BILL",
+        "roles": {
+          "NAME-OF": "BILL",
+          "LEX": "BILL",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V151647": {
+        "id": "V151647",
+        "indicator": "F",
+        "type": "ALWAYS",
+        "word": "ALWAYS",
+        "roles": {
+          "FIGURE": "#V151652",
+          "LEX": "ALWAYS",
+          "WNSENSE": "always%4:02:00::"
+        },
+        "start": 5,
+        "end": 12
+      },
+      "V151664": {
+        "id": "V151664",
+        "indicator": "F",
+        "type": "ASSOCIATED-INFORMATION",
+        "word": "ABOUT",
+        "roles": {
+          "GROUND": "#V151674",
+          "FIGURE": "#V151652",
+          "LEX": "ABOUT",
+          "WNSENSE": "about%4:02:00::"
+        },
+        "start": 19,
+        "end": 38
+      },
+      "V151674": {
+        "id": "V151674",
+        "indicator": "WH-TERM-SET",
+        "type": "PERSON",
+        "word": "WHO",
+        "roles": {
+          "SUCHTHAT": "#V151693",
+          "PROFORM": "WHO",
+          "LEX": "WHO",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 25,
+        "end": 38
+      },
+      "V151693": {
+        "id": "V151693",
+        "indicator": "F",
+        "type": "ELLIPSIS",
+        "word": null,
+        "roles": {
+          "NEUTRAL": "#V151674",
+          "TENSE": "PRES",
+          "MODALITY": "(:* DO DO)",
+          "LEX": "DO-"
+        },
+        "start": 29,
+        "end": 38
+      },
+      "V151706": {
+        "id": "V151706",
+        "indicator": "THE",
+        "type": "WASHING",
+        "word": "LAUNDRY",
+        "roles": {
+          "LEX": "LAUNDRY",
+          "WNSENSE": "laundry%1:06:01::"
+        },
+        "start": 38,
+        "end": 49
+      },
+      "root": "#V152629"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V152598": {
+          "id": "V152598",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V151652",
+            "LEX": "FOUGHT"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V151652": {
+          "id": "V151652",
+          "indicator": "F",
+          "type": "FIGHTING",
+          "word": "FIGHT",
+          "roles": {
+            "AGENT": "#V151637",
+            "NEUTRAL": "#V151706",
+            "FREQUENCY": "#V151647",
+            "MOD": "#V151664",
+            "TENSE": "PAST",
+            "LEX": "FOUGHT",
+            "WNSENSE": "fight%2:33:00::"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V151637": {
+          "id": "V151637",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "BILL",
+          "roles": {
+            "NAME-OF": "BILL",
+            "LEX": "BILL",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V151647": {
+          "id": "V151647",
+          "indicator": "F",
+          "type": "ALWAYS",
+          "word": "ALWAYS",
+          "roles": {
+            "FIGURE": "#V151652",
+            "LEX": "ALWAYS",
+            "WNSENSE": "always%4:02:00::"
+          },
+          "start": 5,
+          "end": 12
+        },
+        "V151664": {
+          "id": "V151664",
+          "indicator": "F",
+          "type": "ASSOCIATED-INFORMATION",
+          "word": "ABOUT",
+          "roles": {
+            "GROUND": "#V151674",
+            "FIGURE": "#V151652",
+            "LEX": "ABOUT",
+            "WNSENSE": "about%4:02:00::"
+          },
+          "start": 19,
+          "end": 38
+        },
+        "V151674": {
+          "id": "V151674",
+          "indicator": "WH-TERM-SET",
+          "type": "PERSON",
+          "word": "WHO",
+          "roles": {
+            "SUCHTHAT": "#V151693",
+            "PROFORM": "WHO",
+            "LEX": "WHO",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 25,
+          "end": 38
+        },
+        "V151693": {
+          "id": "V151693",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V151674",
+            "TENSE": "PAST",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "DO-"
+          },
+          "start": 29,
+          "end": 38
+        },
+        "V151706": {
+          "id": "V151706",
+          "indicator": "THE",
+          "type": "WASHING",
+          "word": "LAUNDRY",
+          "roles": {
+            "LEX": "LAUNDRY",
+            "WNSENSE": "laundry%1:06:01::"
+          },
+          "start": 38,
+          "end": 49
+        },
+        "root": "#V152598"
+      }
+    ],
+    [
+      {
+        "V154715": {
+          "id": "V154715",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V151653",
+            "LEX": "FOUGHT"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V151653": {
+          "id": "V151653",
+          "indicator": "F",
+          "type": "FIGHTING",
+          "word": "FIGHT",
+          "roles": {
+            "AGENT": "#V151637",
+            "FREQUENCY": "#V151647",
+            "MOD": "#V151664",
+            "TENSE": "PAST",
+            "LEX": "FOUGHT",
+            "WNSENSE": "fight%2:33:00::"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V151637": {
+          "id": "V151637",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "BILL",
+          "roles": {
+            "NAME-OF": "BILL",
+            "LEX": "BILL",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V151647": {
+          "id": "V151647",
+          "indicator": "F",
+          "type": "ALWAYS",
+          "word": "ALWAYS",
+          "roles": {
+            "FIGURE": "#V151653",
+            "LEX": "ALWAYS",
+            "WNSENSE": "always%4:02:00::"
+          },
+          "start": 5,
+          "end": 12
+        },
+        "V151664": {
+          "id": "V151664",
+          "indicator": "F",
+          "type": "ASSOCIATED-INFORMATION",
+          "word": "ABOUT",
+          "roles": {
+            "GROUND": "#V151674",
+            "FIGURE": "#V151653",
+            "LEX": "ABOUT",
+            "WNSENSE": "about%4:02:00::"
+          },
+          "start": 19,
+          "end": 49
+        },
+        "V151674": {
+          "id": "V151674",
+          "indicator": "WH-TERM-SET",
+          "type": "PERSON",
+          "word": "WHO",
+          "roles": {
+            "SUCHTHAT": "#V151689",
+            "PROFORM": "WHO",
+            "LEX": "WHO",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 25,
+          "end": 49
+        },
+        "V151689": {
+          "id": "V151689",
+          "indicator": "F",
+          "type": "OBJECTIVE-INFLUENCE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V151674",
+            "RESULT": "#V151706",
+            "TENSE": "PAST",
+            "MODALITY": "(:* CONDITIONAL WOULD)",
+            "LEX": "DO-",
+            "WNSENSE": "force%1:07:01"
+          },
+          "start": 29,
+          "end": 49
+        },
+        "V151706": {
+          "id": "V151706",
+          "indicator": "THE",
+          "type": "WASHING",
+          "word": "LAUNDRY",
+          "roles": {
+            "LEX": "LAUNDRY",
+            "WNSENSE": "laundry%1:06:01::"
+          },
+          "start": 38,
+          "end": 49
+        },
+        "root": "#V154715"
+      }
+    ],
+    [
+      {
+        "V154697": {
+          "id": "V154697",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V151653",
+            "LEX": "FOUGHT"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V151653": {
+          "id": "V151653",
+          "indicator": "F",
+          "type": "FIGHTING",
+          "word": "FIGHT",
+          "roles": {
+            "AGENT": "#V151637",
+            "MOD": "#V151664",
+            "FREQUENCY": "#V151647",
+            "TENSE": "PAST",
+            "LEX": "FOUGHT",
+            "WNSENSE": "fight%2:33:00::"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V151637": {
+          "id": "V151637",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "BILL",
+          "roles": {
+            "NAME-OF": "BILL",
+            "LEX": "BILL",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V151647": {
+          "id": "V151647",
+          "indicator": "F",
+          "type": "ALWAYS",
+          "word": "ALWAYS",
+          "roles": {
+            "FIGURE": "#V151653",
+            "LEX": "ALWAYS",
+            "WNSENSE": "always%4:02:00::"
+          },
+          "start": 5,
+          "end": 12
+        },
+        "V151664": {
+          "id": "V151664",
+          "indicator": "F",
+          "type": "ASSOCIATED-INFORMATION",
+          "word": "ABOUT",
+          "roles": {
+            "GROUND": "#V151674",
+            "FIGURE": "#V151653",
+            "LEX": "ABOUT",
+            "WNSENSE": "about%4:02:00::"
+          },
+          "start": 19,
+          "end": 49
+        },
+        "V151674": {
+          "id": "V151674",
+          "indicator": "WH-TERM-SET",
+          "type": "PERSON",
+          "word": "WHO",
+          "roles": {
+            "SUCHTHAT": "#V151689",
+            "PROFORM": "WHO",
+            "LEX": "WHO",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 25,
+          "end": 49
+        },
+        "V151689": {
+          "id": "V151689",
+          "indicator": "F",
+          "type": "OBJECTIVE-INFLUENCE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V151674",
+            "RESULT": "#V151706",
+            "TENSE": "PAST",
+            "MODALITY": "(:* CONDITIONAL WOULD)",
+            "LEX": "DO-",
+            "WNSENSE": "force%1:07:01"
+          },
+          "start": 29,
+          "end": 49
+        },
+        "V151706": {
+          "id": "V151706",
+          "indicator": "THE",
+          "type": "WASHING",
+          "word": "LAUNDRY",
+          "roles": {
+            "LEX": "LAUNDRY",
+            "WNSENSE": "laundry%1:06:01::"
+          },
+          "start": 38,
+          "end": 49
+        },
+        "root": "#V154697"
+      }
+    ]
+  ],
+  "sentence": "Bill always fought about who would do the laundry. ",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190730T061401",
+    "link": "http://trips.ihmc.us/parser/saved/20190730T061401-STEP-abhatia-none-Bill_always_fought_about_who_would_do_th.xml",
+    "judgement": -1
+  }
+}

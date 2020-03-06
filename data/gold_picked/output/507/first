@@ -1,0 +1,26 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V202865 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V202152 [label=<<font color="green"><br /></font> <font color="black">FIND</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">LOCATE</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FIND.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V202075 [label=<<font color="green"><br /></font> <font color="black">EVAL-WRT-EXPECTATION</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">ONLY</font> <font color="green"><br /></font> <font color="green">only%4:02:02::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EVAL-WRT-EXPECTATION.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V202246 [label=<<font color="green"><br /></font> <font color="black">EXTENT-PREDICATE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">* </font> <font color="green"><br /></font> <font color="green">minute%1:28:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EXTENT-PREDICATE.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V202127 [label=<<font color="green"><br /></font> <font color="black">QUANTITY</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">* </font> <font color="green"><br /></font> <font color="green">minute%1:28:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::QUANTITY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V202099 [label=<<font color="green"><br /></font> <font color="black">NUMBER</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::NUMBER.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V202132 [label=<<font color="green"><br /></font> <font color="black">AFTER</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">LATER</font> <font color="green"><br /></font> <font color="green">later%4:02:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::AFTER.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V202146 [label=<<font color="green"><br /></font> <font color="black">MALE-CHILD</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">BOY</font> <font color="green"><br /></font> <font color="green">boy%1:18:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-CHILD.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V202159 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HIM</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V202152 -> V202075 [label=" MOD   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V202246 -> V202152 [label=" FIGURE   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V202246 -> V202127 [label=" GROUND   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V202075 -> V202152 [label=" FIGURE   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V202132 -> V202152 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V202152 -> V202146 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V202152 -> V202132 [label=" TIME   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V202865 -> V202152 [label=" CONTENT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V202152 -> V202159 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V202152 -> V202246 [label=" EXTENT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V202127 -> V202099 [label=" AMOUNT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

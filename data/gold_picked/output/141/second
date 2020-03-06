@@ -1,0 +1,16 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V133884 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V133612 [label=<<font color="green"><br /></font> <font color="black">EXPECTORATE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">SPIT</font> <font color="green"><br /></font> <font color="green">spit%2:29:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EXPECTORATE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V133826 [label=<<font color="green"><br /></font> <font color="black">SEQUENCE</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SEQUENCE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V133617 [label=<<font color="green"><br /></font> <font color="black">RESULTING-STATE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">INTO</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::RESULTING-STATE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V133630 [label=<<font color="green"><br /></font> <font color="black">MOVE-DOWNWARD</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">SINK</font> <font color="green"><br /></font> <font color="green">drop%2:38:01</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MOVE-DOWNWARD.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V133612 -> V133617 [label=" RESULT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V133617 -> V133630 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V133884 -> V133612 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V133612 -> V133826 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V133617 -> V133826 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

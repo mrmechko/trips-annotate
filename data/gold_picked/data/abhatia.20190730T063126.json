@@ -1,0 +1,459 @@
+{
+  "parse": [
+    {
+      "V160611": {
+        "id": "V160611",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V160232",
+          "LEX": "EATING"
+        },
+        "start": 0,
+        "end": 34
+      },
+      "V160232": {
+        "id": "V160232",
+        "indicator": "F",
+        "type": "EAT",
+        "word": "EAT",
+        "roles": {
+          "AGENT": "#V160211",
+          "AFFECTED": "#V160237",
+          "EXTENT": "#V160341",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "EATING",
+          "WNSENSE": "eat%2:34:00::"
+        },
+        "start": 0,
+        "end": 34
+      },
+      "V160211": {
+        "id": "V160211",
+        "indicator": "THE",
+        "type": "FAMILY-GROUP",
+        "word": "FAMILY",
+        "roles": {
+          "ASSOC-POSS": "#V160208",
+          "LEX": "FAMILY",
+          "WNSENSE": "family%1:14:02::"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V160208": {
+        "id": "V160208",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V160237": {
+        "id": "V160237",
+        "indicator": "BARE",
+        "type": "BEEF",
+        "word": "STEAK",
+        "roles": {
+          "LEX": "STEAK",
+          "WNSENSE": "steak%1:13:00::"
+        },
+        "start": 21,
+        "end": 27
+      },
+      "V160341": {
+        "id": "V160341",
+        "indicator": "F",
+        "type": "EXTENT-PREDICATE",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V160232",
+          "GROUND": "#V160251",
+          "LEX": "DAY",
+          "WNSENSE": "day%1:28:00::"
+        },
+        "start": 27,
+        "end": 34
+      },
+      "V160251": {
+        "id": "V160251",
+        "indicator": "A",
+        "type": "QUANTITY",
+        "word": null,
+        "roles": {
+          "AMOUNT": "#V160248",
+          "UNIT": "(:* DAY-DURATION DAY)",
+          "SCALE": "DURATION-SCALE",
+          "LEX": "DAY",
+          "WNSENSE": "day%1:28:00::"
+        },
+        "start": 27,
+        "end": 34
+      },
+      "V160248": {
+        "id": "V160248",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 27,
+        "end": 34
+      },
+      "root": "#V160611"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V160622": {
+          "id": "V160622",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V160232",
+            "LEX": "EATING"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V160232": {
+          "id": "V160232",
+          "indicator": "F",
+          "type": "EAT",
+          "word": "EAT",
+          "roles": {
+            "AGENT": "#V160211",
+            "AFFECTED": "#V160237",
+            "TIME": "#V160240",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "EATING",
+            "WNSENSE": "eat%2:34:00::"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V160211": {
+          "id": "V160211",
+          "indicator": "THE",
+          "type": "FAMILY-GROUP",
+          "word": "FAMILY",
+          "roles": {
+            "ASSOC-POSS": "#V160208",
+            "LEX": "FAMILY",
+            "WNSENSE": "family%1:14:02::"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V160208": {
+          "id": "V160208",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V160237": {
+          "id": "V160237",
+          "indicator": "BARE",
+          "type": "BEEF",
+          "word": "STEAK",
+          "roles": {
+            "LEX": "STEAK",
+            "WNSENSE": "steak%1:13:00::"
+          },
+          "start": 21,
+          "end": 27
+        },
+        "V160240": {
+          "id": "V160240",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "ONE-DAY",
+          "roles": {
+            "GROUND": "#V160350",
+            "FIGURE": "#V160232",
+            "LEX": "ONE-DAY"
+          },
+          "start": 27,
+          "end": 34
+        },
+        "V160350": {
+          "id": "V160350",
+          "indicator": "IMPRO",
+          "type": "TIME-LOC",
+          "word": "SOMETIME",
+          "roles": {
+            "PROFORM": "ONE-DAY"
+          },
+          "start": 27,
+          "end": 34
+        },
+        "root": "#V160622"
+      }
+    ],
+    [
+      {
+        "V160871": {
+          "id": "V160871",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V160219",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V160219": {
+          "id": "V160219",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V160211",
+            "NEUTRAL1": "#V160237",
+            "EXTENT": "#V160341",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V160211": {
+          "id": "V160211",
+          "indicator": "THE",
+          "type": "FAMILY-GROUP",
+          "word": "FAMILY",
+          "roles": {
+            "ASSOC-POSS": "#V160208",
+            "LEX": "FAMILY",
+            "WNSENSE": "family%1:14:02::"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V160208": {
+          "id": "V160208",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V160237": {
+          "id": "V160237",
+          "indicator": "BARE",
+          "type": "BEEF",
+          "word": "STEAK",
+          "roles": {
+            "MOD": "#V160233",
+            "LEX": "STEAK",
+            "WNSENSE": "steak%1:13:00::"
+          },
+          "start": 14,
+          "end": 27
+        },
+        "V160233": {
+          "id": "V160233",
+          "indicator": "F",
+          "type": "EAT",
+          "word": "EAT",
+          "roles": {
+            "AGENT": "#V160237",
+            "LEX": "EATING",
+            "WNSENSE": "eat%2:34:00::"
+          },
+          "start": 14,
+          "end": 21
+        },
+        "V160341": {
+          "id": "V160341",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V160219",
+            "GROUND": "#V160251",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 27,
+          "end": 34
+        },
+        "V160251": {
+          "id": "V160251",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "#V160248",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 27,
+          "end": 34
+        },
+        "V160248": {
+          "id": "V160248",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 27,
+          "end": 34
+        },
+        "root": "#V160871"
+      }
+    ],
+    [
+      {
+        "V160882": {
+          "id": "V160882",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V160219",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V160219": {
+          "id": "V160219",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V160211",
+            "NEUTRAL1": "#V160237",
+            "TIME": "#V160240",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V160211": {
+          "id": "V160211",
+          "indicator": "THE",
+          "type": "FAMILY-GROUP",
+          "word": "FAMILY",
+          "roles": {
+            "ASSOC-POSS": "#V160208",
+            "LEX": "FAMILY",
+            "WNSENSE": "family%1:14:02::"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V160208": {
+          "id": "V160208",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V160237": {
+          "id": "V160237",
+          "indicator": "BARE",
+          "type": "BEEF",
+          "word": "STEAK",
+          "roles": {
+            "MOD": "#V160233",
+            "LEX": "STEAK",
+            "WNSENSE": "steak%1:13:00::"
+          },
+          "start": 14,
+          "end": 27
+        },
+        "V160233": {
+          "id": "V160233",
+          "indicator": "F",
+          "type": "EAT",
+          "word": "EAT",
+          "roles": {
+            "AGENT": "#V160237",
+            "LEX": "EATING",
+            "WNSENSE": "eat%2:34:00::"
+          },
+          "start": 14,
+          "end": 21
+        },
+        "V160240": {
+          "id": "V160240",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "ONE-DAY",
+          "roles": {
+            "GROUND": "#V160350",
+            "FIGURE": "#V160219",
+            "LEX": "ONE-DAY"
+          },
+          "start": 27,
+          "end": 34
+        },
+        "V160350": {
+          "id": "V160350",
+          "indicator": "IMPRO",
+          "type": "TIME-LOC",
+          "word": "SOMETIME",
+          "roles": {
+            "PROFORM": "ONE-DAY"
+          },
+          "start": 27,
+          "end": 34
+        },
+        "root": "#V160882"
+      }
+    ]
+  ],
+  "sentence": "My family was eating steak one day.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190730T063126",
+    "link": "http://trips.ihmc.us/parser/saved/20190730T063126-STEP-abhatia-1-My_family_was_eating_steak_one_day_.xml",
+    "judgement": 1
+  }
+}

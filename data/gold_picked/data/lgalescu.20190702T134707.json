@@ -1,0 +1,125 @@
+{
+  "parse": [
+    {
+      "V56015": {
+        "id": "V56015",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V53551"
+        },
+        "start": 0,
+        "end": 20
+      },
+      "V53551": {
+        "id": "V53551",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V53543",
+          "FORMAL": "#V53574",
+          "TENSE": "PAST"
+        },
+        "start": 0,
+        "end": 20
+      },
+      "V53543": {
+        "id": "V53543",
+        "indicator": "INDEF-SET",
+        "type": "OTHER",
+        "word": "OTHERS",
+        "roles": {},
+        "start": 0,
+        "end": 7
+      },
+      "V53574": {
+        "id": "V53574",
+        "indicator": "F",
+        "type": "PROPERTY-VAL",
+        "word": "ADAMANT",
+        "roles": {
+          "FIGURE": "#V53543",
+          "SCALE": "DOMAIN"
+        },
+        "start": 12,
+        "end": 20
+      },
+      "root": "#V56015"
+    },
+    {
+      "V53633": {
+        "id": "V53633",
+        "indicator": "F",
+        "type": "RETURN",
+        "word": "RETURN",
+        "roles": {
+          "AGENT": "#V53596",
+          "RESULT": "#V53655",
+          "FREQUENCY": "#V53616",
+          "PROP": "+",
+          "TENSE": "FUT",
+          "MODALITY": "(:* FUTURE WILL)"
+        },
+        "start": 20,
+        "end": 62
+      },
+      "V53596": {
+        "id": "V53596",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY"
+        },
+        "start": 25,
+        "end": 30
+      },
+      "V53616": {
+        "id": "V53616",
+        "indicator": "F",
+        "type": "NEVER",
+        "word": "NEVER",
+        "roles": {
+          "FIGURE": "#V53633"
+        },
+        "start": 35,
+        "end": 41
+      },
+      "V53655": {
+        "id": "V53655",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V53732"
+        },
+        "start": 48,
+        "end": 62
+      },
+      "V53732": {
+        "id": "V53732",
+        "indicator": "THE",
+        "type": "COUNTRY",
+        "word": "SOUTH-SUDAN",
+        "roles": {
+          "NAME-OF": "SOUTH-SUDAN",
+          "CWMS": "((:CWMS\n  (COUNTRY :NAME \"Republic of South Sudan\" :CODE SS :MATCHES\n   ((MATCH :SCORE 1.0 :MATCHED \"South Sudan\" :EXACT 2)))))"
+        },
+        "start": 51,
+        "end": 62
+      },
+      "root": "#V53633"
+    }
+  ],
+  "alternatives": [],
+  "sentence": "Others were adamant that they will never return to South Sudan.",
+  "annotation": {
+    "judge": "lgalescu",
+    "parser": "CWMS",
+    "timestamp": "20190702T134707",
+    "link": "http://trips.ihmc.us/parser/saved/20190702T134707-CWMS-lgalescu-none-Others_were_adamant_that_they_will_never.xml",
+    "judgement": -1
+  }
+}

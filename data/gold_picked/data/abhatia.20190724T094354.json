@@ -1,0 +1,476 @@
+{
+  "parse": [
+    {
+      "V179097": {
+        "id": "V179097",
+        "indicator": "F",
+        "type": "EXTENT-PREDICATE",
+        "word": "BY",
+        "roles": {
+          "LEX": "BY",
+          "WNSENSE": "by%4:02:00::"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "root": "#V179097"
+    },
+    {
+      "V179450": {
+        "id": "V179450",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V179115",
+          "MOD": "#V179110",
+          "LEX": "PERIOD"
+        },
+        "start": 3,
+        "end": 34
+      },
+      "V179110": {
+        "id": "V179110",
+        "indicator": "F",
+        "type": "SEQUENCE-POSITION",
+        "word": "THIRD",
+        "roles": {
+          "FIGURE": "#V179450",
+          "LEX": "THIRD",
+          "WNSENSE": "third%4:02:00::"
+        },
+        "start": 3,
+        "end": 9
+      },
+      "V179115": {
+        "id": "V179115",
+        "indicator": "BARE",
+        "type": "TIME-INTERVAL",
+        "word": "PERIOD",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V179128",
+          "LEX": "PERIOD",
+          "WNSENSE": "period%1:28:00::"
+        },
+        "start": 9,
+        "end": 34
+      },
+      "V179128": {
+        "id": "V179128",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V179121",
+          "FORMAL": "#V179161",
+          "TENSE": "PAST",
+          "LEX": "WAS",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 17,
+        "end": 34
+      },
+      "V179121": {
+        "id": "V179121",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "SHE",
+        "roles": {
+          "PROFORM": "SHE",
+          "LEX": "SHE",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 17,
+        "end": 21
+      },
+      "V179161": {
+        "id": "V179161",
+        "indicator": "F",
+        "type": "HUNGRY",
+        "word": "HUNGRY",
+        "roles": {
+          "FIGURE": "#V179121",
+          "SCALE": "NOT-SATIATED-SCALE",
+          "DEGREE": "#V179146",
+          "LEX": "HUNGRY"
+        },
+        "start": 25,
+        "end": 34
+      },
+      "V179146": {
+        "id": "V179146",
+        "indicator": "F",
+        "type": "DEGREE-MODIFIER-HIGH",
+        "word": "SO",
+        "roles": {
+          "FIGURE": "#V179161",
+          "LEX": "SO",
+          "WNSENSE": "so%4:02:02::"
+        },
+        "start": 25,
+        "end": 28
+      },
+      "root": "#V179450"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V179096": {
+          "id": "V179096",
+          "indicator": "F",
+          "type": "ORIGINATOR",
+          "word": "BY",
+          "roles": {
+            "LEX": "BY",
+            "WNSENSE": "by%4:02:00::"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "root": "#V179096"
+      },
+      {
+        "V179450": {
+          "id": "V179450",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V179115",
+            "MOD": "#V179110",
+            "LEX": "PERIOD"
+          },
+          "start": 3,
+          "end": 35
+        },
+        "V179110": {
+          "id": "V179110",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "THIRD",
+          "roles": {
+            "FIGURE": "#V179450",
+            "LEX": "THIRD",
+            "WNSENSE": "third%4:02:00::"
+          },
+          "start": 3,
+          "end": 9
+        },
+        "V179115": {
+          "id": "V179115",
+          "indicator": "BARE",
+          "type": "TIME-INTERVAL",
+          "word": "PERIOD",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE",
+            "MOD": "#V179128",
+            "LEX": "PERIOD",
+            "WNSENSE": "period%1:28:00::"
+          },
+          "start": 9,
+          "end": 34
+        },
+        "V179128": {
+          "id": "V179128",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V179121",
+            "FORMAL": "#V179161",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 17,
+          "end": 34
+        },
+        "V179121": {
+          "id": "V179121",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V179161": {
+          "id": "V179161",
+          "indicator": "F",
+          "type": "HUNGRY",
+          "word": "HUNGRY",
+          "roles": {
+            "FIGURE": "#V179121",
+            "SCALE": "NOT-SATIATED-SCALE",
+            "DEGREE": "#V179146",
+            "LEX": "HUNGRY"
+          },
+          "start": 25,
+          "end": 34
+        },
+        "V179146": {
+          "id": "V179146",
+          "indicator": "F",
+          "type": "DEGREE-MODIFIER-HIGH",
+          "word": "SO",
+          "roles": {
+            "FIGURE": "#V179161",
+            "LEX": "SO",
+            "WNSENSE": "so%4:02:02::"
+          },
+          "start": 25,
+          "end": 28
+        },
+        "root": "#V179450"
+      }
+    ],
+    [
+      {
+        "V179095": {
+          "id": "V179095",
+          "indicator": "F",
+          "type": "DIMENSION",
+          "word": "BY",
+          "roles": {
+            "LEX": "BY",
+            "WNSENSE": "by%4:02:00::"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "root": "#V179095"
+      },
+      {
+        "V179450": {
+          "id": "V179450",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V179115",
+            "MOD": "#V179110",
+            "LEX": "PERIOD"
+          },
+          "start": 3,
+          "end": 35
+        },
+        "V179110": {
+          "id": "V179110",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "THIRD",
+          "roles": {
+            "FIGURE": "#V179450",
+            "LEX": "THIRD",
+            "WNSENSE": "third%4:02:00::"
+          },
+          "start": 3,
+          "end": 9
+        },
+        "V179115": {
+          "id": "V179115",
+          "indicator": "BARE",
+          "type": "TIME-INTERVAL",
+          "word": "PERIOD",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE",
+            "MOD": "#V179128",
+            "LEX": "PERIOD",
+            "WNSENSE": "period%1:28:00::"
+          },
+          "start": 9,
+          "end": 34
+        },
+        "V179128": {
+          "id": "V179128",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V179121",
+            "FORMAL": "#V179161",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 17,
+          "end": 34
+        },
+        "V179121": {
+          "id": "V179121",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V179161": {
+          "id": "V179161",
+          "indicator": "F",
+          "type": "HUNGRY",
+          "word": "HUNGRY",
+          "roles": {
+            "FIGURE": "#V179121",
+            "SCALE": "NOT-SATIATED-SCALE",
+            "DEGREE": "#V179146",
+            "LEX": "HUNGRY"
+          },
+          "start": 25,
+          "end": 34
+        },
+        "V179146": {
+          "id": "V179146",
+          "indicator": "F",
+          "type": "DEGREE-MODIFIER-HIGH",
+          "word": "SO",
+          "roles": {
+            "FIGURE": "#V179161",
+            "LEX": "SO",
+            "WNSENSE": "so%4:02:02::"
+          },
+          "start": 25,
+          "end": 28
+        },
+        "root": "#V179450"
+      }
+    ],
+    [
+      {
+        "V179094": {
+          "id": "V179094",
+          "indicator": "F",
+          "type": "BEFORE",
+          "word": "BY",
+          "roles": {
+            "LEX": "BY",
+            "WNSENSE": "by%4:02:00::"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "root": "#V179094"
+      },
+      {
+        "V179450": {
+          "id": "V179450",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V179115",
+            "MOD": "#V179110",
+            "LEX": "PERIOD"
+          },
+          "start": 3,
+          "end": 35
+        },
+        "V179110": {
+          "id": "V179110",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "THIRD",
+          "roles": {
+            "FIGURE": "#V179450",
+            "LEX": "THIRD",
+            "WNSENSE": "third%4:02:00::"
+          },
+          "start": 3,
+          "end": 9
+        },
+        "V179115": {
+          "id": "V179115",
+          "indicator": "BARE",
+          "type": "TIME-INTERVAL",
+          "word": "PERIOD",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE",
+            "MOD": "#V179128",
+            "LEX": "PERIOD",
+            "WNSENSE": "period%1:28:00::"
+          },
+          "start": 9,
+          "end": 34
+        },
+        "V179128": {
+          "id": "V179128",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V179121",
+            "FORMAL": "#V179161",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 17,
+          "end": 34
+        },
+        "V179121": {
+          "id": "V179121",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V179161": {
+          "id": "V179161",
+          "indicator": "F",
+          "type": "HUNGRY",
+          "word": "HUNGRY",
+          "roles": {
+            "FIGURE": "#V179121",
+            "SCALE": "NOT-SATIATED-SCALE",
+            "DEGREE": "#V179146",
+            "LEX": "HUNGRY"
+          },
+          "start": 25,
+          "end": 34
+        },
+        "V179146": {
+          "id": "V179146",
+          "indicator": "F",
+          "type": "DEGREE-MODIFIER-HIGH",
+          "word": "SO",
+          "roles": {
+            "FIGURE": "#V179161",
+            "LEX": "SO",
+            "WNSENSE": "so%4:02:02::"
+          },
+          "start": 25,
+          "end": 28
+        },
+        "root": "#V179450"
+      }
+    ]
+  ],
+  "sentence": "By third period, she was so hungry.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190724T094354",
+    "link": "http://trips.ihmc.us/parser/saved/20190724T094354-STEP-abhatia-none-By_third_period_she_was_so_hungry_.xml",
+    "judgement": -1
+  }
+}

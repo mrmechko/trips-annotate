@@ -1,0 +1,19 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V388956 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V388770 [label=<<font color="green"><br /></font> <font color="black">LOSE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">LOSE</font> <font color="green"><br /></font> <font color="green">lose%2:40:02::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::LOSE.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V388895 [label=<<font color="green"><br /></font> <font color="black">EVENT-TIME-REL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EVENT-TIME-REL.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V388746 [label=<<font color="green"><br /></font> <font color="black">LESS-VAL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BAD</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::LESS-VAL.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V388765 [label=<<font color="green"><br /></font> <font color="black">AIRLINE</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">AIRLINE</font> <font color="green"><br /></font> <font color="green">airline%1:06:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::AIRLINE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V388781 [label=<<font color="green"><br /></font> <font color="black">FUNCTIONAL-PHYS-OBJECT</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">LUGGAGE</font> <font color="green"><br /></font> <font color="green">instrumentality%1:06:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FUNCTIONAL-PHYS-OBJECT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V388770 -> V388765 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V388746 -> V388765 [label=" FIGURE   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V388895 -> V388746 [label=" GROUND   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V388770 -> V388781 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V388895 -> V388770 [label=" FIGURE   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V388770 -> V388895 [label=" TIME   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V388956 -> V388770 [label=" CONTENT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

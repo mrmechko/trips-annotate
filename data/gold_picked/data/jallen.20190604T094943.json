@@ -1,0 +1,381 @@
+{
+  "parse": [
+    {
+      "V41817": {
+        "id": "V41817",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V41079",
+          "LEX": "ENCOUNTERED"
+        },
+        "start": 0,
+        "end": 36
+      },
+      "V41079": {
+        "id": "V41079",
+        "indicator": "F",
+        "type": "MEET",
+        "word": "ENCOUNTERED",
+        "roles": {
+          "AGENT": "#V41046",
+          "AGENT1": "#V41094",
+          "FREQUENCY": "#V41071",
+          "TIME": "#V41103",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "ENCOUNTERED"
+        },
+        "start": 0,
+        "end": 36
+      },
+      "V41046": {
+        "id": "V41046",
+        "indicator": "PRO-SET",
+        "type": "PERSON",
+        "word": "WE",
+        "roles": {
+          "PROFORM": "WE",
+          "LEX": "WE",
+          "COREF": "US"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V41071": {
+        "id": "V41071",
+        "indicator": "F",
+        "type": "NEVER",
+        "word": "NEVER",
+        "roles": {
+          "FIGURE": "#V41079",
+          "LEX": "NEVER"
+        },
+        "start": 8,
+        "end": 14
+      },
+      "V41094": {
+        "id": "V41094",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "THAT",
+        "roles": {
+          "PROFORM": "THAT",
+          "LEX": "THAT"
+        },
+        "start": 26,
+        "end": 31
+      },
+      "V41103": {
+        "id": "V41103",
+        "indicator": "F",
+        "type": "BEFORE",
+        "word": "BEFORE",
+        "roles": {
+          "GROUND": "#V41183",
+          "FIGURE": "#V41079",
+          "LEX": "BEFORE"
+        },
+        "start": 31,
+        "end": 36
+      },
+      "V41183": {
+        "id": "V41183",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 31,
+        "end": 36
+      },
+      "root": "#V41817"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V41803": {
+          "id": "V41803",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V41079",
+            "LEX": "ENCOUNTERED"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V41079": {
+          "id": "V41079",
+          "indicator": "F",
+          "type": "MEET",
+          "word": "ENCOUNTERED",
+          "roles": {
+            "AGENT": "#V41046",
+            "AGENT1": "#V41094",
+            "FREQUENCY": "#V41072",
+            "TIME": "#V41103",
+            "TENSE": "PRES",
+            "PERF": "+",
+            "LEX": "ENCOUNTERED"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V41046": {
+          "id": "V41046",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V41072": {
+          "id": "V41072",
+          "indicator": "F",
+          "type": "NEVER",
+          "word": "NEVER",
+          "roles": {
+            "FIGURE": "#V41079",
+            "LEX": "NEVER"
+          },
+          "start": 8,
+          "end": 14
+        },
+        "V41094": {
+          "id": "V41094",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "THAT",
+          "roles": {
+            "PROFORM": "THAT",
+            "LEX": "THAT"
+          },
+          "start": 26,
+          "end": 31
+        },
+        "V41103": {
+          "id": "V41103",
+          "indicator": "F",
+          "type": "BEFORE",
+          "word": "BEFORE",
+          "roles": {
+            "GROUND": "#V41183",
+            "FIGURE": "#V41079",
+            "LEX": "BEFORE"
+          },
+          "start": 31,
+          "end": 37
+        },
+        "V41183": {
+          "id": "V41183",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 31,
+          "end": 37
+        },
+        "root": "#V41803"
+      }
+    ],
+    [
+      {
+        "V41858": {
+          "id": "V41858",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V41084",
+            "LEX": "ENCOUNTERED"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V41084": {
+          "id": "V41084",
+          "indicator": "F",
+          "type": "FIND",
+          "word": "ENCOUNTERED",
+          "roles": {
+            "AGENT": "#V41046",
+            "AFFECTED": "#V41094",
+            "FREQUENCY": "#V41071",
+            "TIME": "#V41103",
+            "TENSE": "PRES",
+            "PERF": "+",
+            "LEX": "ENCOUNTERED"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V41046": {
+          "id": "V41046",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V41071": {
+          "id": "V41071",
+          "indicator": "F",
+          "type": "NEVER",
+          "word": "NEVER",
+          "roles": {
+            "FIGURE": "#V41084",
+            "LEX": "NEVER"
+          },
+          "start": 8,
+          "end": 14
+        },
+        "V41094": {
+          "id": "V41094",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "THAT",
+          "roles": {
+            "PROFORM": "THAT",
+            "LEX": "THAT"
+          },
+          "start": 26,
+          "end": 31
+        },
+        "V41103": {
+          "id": "V41103",
+          "indicator": "F",
+          "type": "BEFORE",
+          "word": "BEFORE",
+          "roles": {
+            "GROUND": "#V41183",
+            "FIGURE": "#V41084",
+            "LEX": "BEFORE"
+          },
+          "start": 31,
+          "end": 37
+        },
+        "V41183": {
+          "id": "V41183",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 31,
+          "end": 37
+        },
+        "root": "#V41858"
+      }
+    ],
+    [
+      {
+        "V41844": {
+          "id": "V41844",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V41084",
+            "LEX": "ENCOUNTERED"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V41084": {
+          "id": "V41084",
+          "indicator": "F",
+          "type": "FIND",
+          "word": "ENCOUNTERED",
+          "roles": {
+            "AGENT": "#V41046",
+            "AFFECTED": "#V41094",
+            "FREQUENCY": "#V41072",
+            "TIME": "#V41103",
+            "TENSE": "PRES",
+            "PERF": "+",
+            "LEX": "ENCOUNTERED"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V41046": {
+          "id": "V41046",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V41072": {
+          "id": "V41072",
+          "indicator": "F",
+          "type": "NEVER",
+          "word": "NEVER",
+          "roles": {
+            "FIGURE": "#V41084",
+            "LEX": "NEVER"
+          },
+          "start": 8,
+          "end": 14
+        },
+        "V41094": {
+          "id": "V41094",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "THAT",
+          "roles": {
+            "PROFORM": "THAT",
+            "LEX": "THAT"
+          },
+          "start": 26,
+          "end": 31
+        },
+        "V41103": {
+          "id": "V41103",
+          "indicator": "F",
+          "type": "BEFORE",
+          "word": "BEFORE",
+          "roles": {
+            "GROUND": "#V41183",
+            "FIGURE": "#V41084",
+            "LEX": "BEFORE"
+          },
+          "start": 31,
+          "end": 37
+        },
+        "V41183": {
+          "id": "V41183",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 31,
+          "end": 37
+        },
+        "root": "#V41844"
+      }
+    ]
+  ],
+  "sentence": "We have never encountered that before",
+  "annotation": {
+    "judge": "jallen",
+    "parser": "STEP",
+    "timestamp": "20190604T094943",
+    "link": "http://trips.ihmc.us/parser/saved/20190604T094943-STEP-jallen-0-We_have_never_encountered_that_before.xml",
+    "judgement": 0
+  }
+}

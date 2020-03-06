@@ -1,0 +1,368 @@
+{
+  "parse": [
+    {
+      "V77046": {
+        "id": "V77046",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V76568",
+          "LEX": "TIRED"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V76568": {
+        "id": "V76568",
+        "indicator": "F",
+        "type": "CAUSE-BODY-EFFECT",
+        "word": "TIRE",
+        "roles": {
+          "AGENT": "#V76542",
+          "AFFECTED": "#V76705",
+          "TENSE": "PAST",
+          "LEX": "TIRED"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V76542": {
+        "id": "V76542",
+        "indicator": "BARE",
+        "type": "GEOGRAPHIC-REGION",
+        "word": "JASON",
+        "roles": {
+          "NAME-OF": "JASON",
+          "MOD": "#V76549",
+          "LEX": "JASON",
+          "WNSENSE": "north_america%1:14:00"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V76549": {
+        "id": "V76549",
+        "indicator": "F",
+        "type": "PERCEPTION",
+        "word": "FEEL",
+        "roles": {
+          "NEUTRAL": "#V76542",
+          "VFORM": "PASSIVE",
+          "LEX": "FELT",
+          "WNSENSE": "feel%2:35:00::"
+        },
+        "start": 6,
+        "end": 11
+      },
+      "V76705": {
+        "id": "V76705",
+        "indicator": "A",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "QUANTITY": "#V76600",
+          "QUAN": "UNIVERSAL",
+          "LEX": "TIME"
+        },
+        "start": 17,
+        "end": 29
+      },
+      "V76600": {
+        "id": "V76600",
+        "indicator": "THE",
+        "type": "QUANTITY",
+        "word": null,
+        "roles": {
+          "UNIT": "(:* MULTIPLE TIME)",
+          "SCALE": "DOMAIN",
+          "LEX": "TIME"
+        },
+        "start": 21,
+        "end": 29
+      },
+      "root": "#V77046"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V77113": {
+          "id": "V77113",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V76568",
+            "LEX": "TIRED"
+          },
+          "start": 0,
+          "end": 30
+        },
+        "V76568": {
+          "id": "V76568",
+          "indicator": "F",
+          "type": "CAUSE-BODY-EFFECT",
+          "word": "TIRE",
+          "roles": {
+            "AGENT": "#V76542",
+            "AFFECTED": "#V76649",
+            "TENSE": "PAST",
+            "LEX": "TIRED"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V76542": {
+          "id": "V76542",
+          "indicator": "BARE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "JASON",
+          "roles": {
+            "NAME-OF": "JASON",
+            "MOD": "#V76549",
+            "LEX": "JASON",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V76549": {
+          "id": "V76549",
+          "indicator": "F",
+          "type": "PERCEPTION",
+          "word": "FEEL",
+          "roles": {
+            "NEUTRAL": "#V76542",
+            "VFORM": "PASSIVE",
+            "LEX": "FELT",
+            "WNSENSE": "feel%2:35:00::"
+          },
+          "start": 6,
+          "end": 11
+        },
+        "V76649": {
+          "id": "V76649",
+          "indicator": "A",
+          "type": "DURATION-SCALE",
+          "word": "TIME",
+          "roles": {
+            "REFSET": "#V76603",
+            "QUAN": "UNIVERSAL",
+            "LEX": "TIME",
+            "WNSENSE": "time%1:03:00::"
+          },
+          "start": 17,
+          "end": 29
+        },
+        "V76603": {
+          "id": "V76603",
+          "indicator": "THE",
+          "type": "DURATION-SCALE",
+          "word": "TIME",
+          "roles": {
+            "LEX": "TIME",
+            "WNSENSE": "time%1:03:00::"
+          },
+          "start": 21,
+          "end": 29
+        },
+        "root": "#V77113"
+      }
+    ],
+    [
+      {
+        "V77186": {
+          "id": "V77186",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V76568",
+            "LEX": "TIRED"
+          },
+          "start": 0,
+          "end": 30
+        },
+        "V76568": {
+          "id": "V76568",
+          "indicator": "F",
+          "type": "CAUSE-BODY-EFFECT",
+          "word": "TIRE",
+          "roles": {
+            "AGENT": "#V76539",
+            "AFFECTED": "#V76705",
+            "TENSE": "PAST",
+            "LEX": "TIRED"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V76539": {
+          "id": "V76539",
+          "indicator": "BARE",
+          "type": "MALE-PERSON",
+          "word": "JASON",
+          "roles": {
+            "NAME-OF": "JASON",
+            "MOD": "#V76549",
+            "LEX": "JASON",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V76549": {
+          "id": "V76549",
+          "indicator": "F",
+          "type": "PERCEPTION",
+          "word": "FEEL",
+          "roles": {
+            "NEUTRAL": "#V76539",
+            "VFORM": "PASSIVE",
+            "LEX": "FELT",
+            "WNSENSE": "feel%2:35:00::"
+          },
+          "start": 6,
+          "end": 11
+        },
+        "V76705": {
+          "id": "V76705",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "QUANTITY": "#V76600",
+            "QUAN": "UNIVERSAL",
+            "LEX": "TIME"
+          },
+          "start": 17,
+          "end": 29
+        },
+        "V76600": {
+          "id": "V76600",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* MULTIPLE TIME)",
+            "SCALE": "DOMAIN",
+            "LEX": "TIME"
+          },
+          "start": 21,
+          "end": 29
+        },
+        "root": "#V77186"
+      }
+    ],
+    [
+      {
+        "V77217": {
+          "id": "V77217",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V76568",
+            "LEX": "TIRED"
+          },
+          "start": 0,
+          "end": 30
+        },
+        "V76568": {
+          "id": "V76568",
+          "indicator": "F",
+          "type": "CAUSE-BODY-EFFECT",
+          "word": "TIRE",
+          "roles": {
+            "AGENT": "#V76542",
+            "AFFECTED": "#V76876",
+            "MOD": "#V76578",
+            "TENSE": "PAST",
+            "LEX": "TIRED"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V76542": {
+          "id": "V76542",
+          "indicator": "BARE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "JASON",
+          "roles": {
+            "NAME-OF": "JASON",
+            "MOD": "#V76549",
+            "LEX": "JASON",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V76549": {
+          "id": "V76549",
+          "indicator": "F",
+          "type": "PERCEPTION",
+          "word": "FEEL",
+          "roles": {
+            "NEUTRAL": "#V76542",
+            "VFORM": "PASSIVE",
+            "LEX": "FELT",
+            "WNSENSE": "feel%2:35:00::"
+          },
+          "start": 6,
+          "end": 11
+        },
+        "V76578": {
+          "id": "V76578",
+          "indicator": "F",
+          "type": "MODIFIER",
+          "word": "ALL",
+          "roles": {
+            "FIGURE": "#V76568",
+            "LEX": "ALL"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V76876": {
+          "id": "V76876",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V76600",
+            "LEX": "TIME"
+          },
+          "start": 21,
+          "end": 29
+        },
+        "V76600": {
+          "id": "V76600",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* MULTIPLE TIME)",
+            "SCALE": "DOMAIN",
+            "LEX": "TIME"
+          },
+          "start": 21,
+          "end": 29
+        },
+        "root": "#V77217"
+      }
+    ]
+  ],
+  "sentence": "Jason felt tired all the time. ",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190806T112940",
+    "link": "http://trips.ihmc.us/parser/saved/20190806T112940-STEP-abhatia-none-Jason_felt_tired_all_the_time_.xml",
+    "judgement": -1
+  }
+}

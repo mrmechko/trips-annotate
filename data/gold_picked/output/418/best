@@ -1,0 +1,16 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V40923 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V40599 [label=<<font color="green"><br /></font> <font color="black">BE-AT-LOC</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">STAND</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BE-AT-LOC.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V40572 [label=<<font color="green"><br /></font> <font color="black">PHYS-OBJECT</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">OBJECT</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PHYS-OBJECT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V40605 [label=<<font color="green"><br /></font> <font color="black">DIRECTION</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">AGAINST</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DIRECTION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V40620 [label=<<font color="green"><br /></font> <font color="black">PHYS-OBJECT</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">OBJECT</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PHYS-OBJECT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V40605 -> V40620 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V40605 -> V40599 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V40599 -> V40572 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V40923 -> V40599 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V40599 -> V40605 [label=" LOCATION   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

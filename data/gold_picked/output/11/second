@@ -1,0 +1,22 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V66190 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V62180 [label=<<font color="green"><br /></font> <font color="black">EAT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">HAVE</font> <font color="green"><br /></font> <font color="green">have%2:34:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EAT.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V62531 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V62162 [label=<<font color="green"><br /></font> <font color="black">QUANTITY</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">* </font> <font color="green"><br /></font> <font color="green">henry%1:23:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::QUANTITY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V62205 [label=<<font color="green"><br /></font> <font color="black">DURATION-SCALE</font> <font color="green"><br /></font> <font color="red">BARE</font> <font color="blue">TIME</font> <font color="green"><br /></font> <font color="green">time%1:03:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DURATION-SCALE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V62224 [label=<<font color="green"><br /></font> <font color="black">PURPOSE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">TO</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PURPOSE.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V62245 [label=<<font color="green"><br /></font> <font color="black">EVOKE-INJURY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">SHOOT</font> <font color="green"><br /></font> <font color="green">shoot%2:33:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EVOKE-INJURY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V62257 [label=<<font color="green"><br /></font> <font color="black">MANUFACTURED-OBJECT</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">BALL</font> <font color="green"><br /></font> <font color="green">ball%1:06:02::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MANUFACTURED-OBJECT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V62245 -> V62257 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V62531 -> V62162 [label=" SIZE   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V62224 -> V62245 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V66190 -> V62180 [label=" CONTENT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V62180 -> V62224 [label=" REASON   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V62180 -> V62205 [label=" AFFECTED   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V62224 -> V62180 [label=" FIGURE   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V62180 -> V62531 [label=" AGENT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

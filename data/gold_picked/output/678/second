@@ -1,0 +1,25 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V166354 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V165555 [label=<<font color="green"><br /></font> <font color="black">EXPLAIN</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">EXPLAIN</font> <font color="green"><br /></font> <font color="green">explain%2:32:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EXPLAIN.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V165545 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">TONY</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V165587 [label=<<font color="green"><br /></font> <font color="black">EXISTS</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BE</font> <font color="green"><br /></font> <font color="green">be%2:42:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EXISTS.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V165575 [label=<<font color="green"><br /></font> <font color="black">EXPLETIVE</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EXPLETIVE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V165599 [label=<<font color="green"><br /></font> <font color="black">NOW</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">NOW</font> <font color="green"><br /></font> <font color="green">now%4:02:05::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::NOW.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V165647 [label=<<font color="green"><br /></font> <font color="black">VALUE</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">TOLL</font> <font color="green"><br /></font> <font color="green">toll%1:07:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::VALUE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V165654 [label=<<font color="green"><br /></font> <font color="black">POS-WRT-SPEAKER-RELN</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">THERE</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::POS-WRT-SPEAKER-RELN.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V165685 [label=<<font color="green"><br /></font> <font color="black">LOCATION</font> <font color="green"><br /></font> <font color="red">IMPRO</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::LOCATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V165587 -> V165647 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V165654 -> V165685 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V165587 -> V165599 [label=" TIME   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V165555 -> V165587 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V165599 -> V165587 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V166354 -> V165555 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V165654 -> V165647 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V165555 -> V165545 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V165647 -> V165654 [label=" LOCATION   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V165587 -> V165575 [label=" NOROLE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

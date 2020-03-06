@@ -1,0 +1,19 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V61505 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V61384 [label=<<font color="green"><br /></font> <font color="black">DRINK</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">DRINK</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DRINK.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V61351 [label=<<font color="green"><br /></font> <font color="black">AFTER</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">LATER</font> <font color="green"><br /></font> <font color="green">later%4:02:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::AFTER.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V61419 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">THEM</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V61379 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">PRO-SET</font> <font color="blue">THEM</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V61390 [label=<<font color="green"><br /></font> <font color="black">TEAS-COCKTAILS-BLENDS</font> <font color="green"><br /></font> <font color="red">BARE</font> <font color="blue">LEMONADE</font> <font color="green"><br /></font> <font color="green">lemonade%1:13:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TEAS-COCKTAILS-BLENDS.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V61505 -> V61384 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V61419 -> V61379 [label=" REFSET   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V61351 -> V61384 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V61384 -> V61351 [label=" TIME   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V61384 -> V61419 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V61379 -> V61419 [label=" COREF   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V61384 -> V61390 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

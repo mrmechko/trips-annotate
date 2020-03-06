@@ -1,0 +1,19 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V50856 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V50000 [label=<<font color="green"><br /></font> <font color="black">APPRECIATE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">LOVE</font> <font color="green"><br /></font> <font color="green">love%2:37:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::APPRECIATE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V49993 [label=<<font color="green"><br /></font> <font color="black">GEOGRAPHIC-REGION</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">JAKE</font> <font color="green"><br /></font> <font color="green">north_america%1:14:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GEOGRAPHIC-REGION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V50039 [label=<<font color="green"><br /></font> <font color="black">BODY-MOVEMENT-PLACE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">SIT</font> <font color="green"><br /></font> <font color="green">sit%2:38:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BODY-MOVEMENT-PLACE.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V50060 [label=<<font color="green"><br /></font> <font color="black">ON-MEDICATION</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">ON</font> <font color="green"><br /></font> <font color="green">on%4:02:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ON-MEDICATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V50086 [label=<<font color="green"><br /></font> <font color="black">GRASS</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">GRASS</font> <font color="green"><br /></font> <font color="green">grass%1:20:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GRASS.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V50856 -> V50000 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V50060 -> V49993 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V50000 -> V49993 [label=" EXPERIENCER   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V50039 -> V49993 [label=" AGENT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V50000 -> V50039 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V50039 -> V50060 [label=" RESULT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V50060 -> V50086 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

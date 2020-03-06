@@ -1,0 +1,455 @@
+{
+  "parse": [
+    {
+      "V206230": {
+        "id": "V206230",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V205822",
+          "LEX": "GOT"
+        },
+        "start": 0,
+        "end": 31
+      },
+      "V205822": {
+        "id": "V205822",
+        "indicator": "F",
+        "type": "ACQUIRE",
+        "word": "GET",
+        "roles": {
+          "AGENT": "#V205788",
+          "AFFECTED": "#V205848",
+          "BENEFICIARY": "#V205858",
+          "TENSE": "PAST",
+          "LEX": "GOT",
+          "WNSENSE": "get%2:40:00::"
+        },
+        "start": 0,
+        "end": 31
+      },
+      "V205788": {
+        "id": "V205788",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "COREY",
+        "roles": {
+          "NAME-OF": "COREY",
+          "LEX": "COREY",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 0,
+        "end": 6
+      },
+      "V205848": {
+        "id": "V205848",
+        "indicator": "INDEF-SET",
+        "type": "BOOK",
+        "word": "BOOK",
+        "roles": {
+          "SIZE": "#V205844",
+          "LEX": "BOOKS",
+          "WNSENSE": "book%1:10:00::"
+        },
+        "start": 10,
+        "end": 19
+      },
+      "V205844": {
+        "id": "V205844",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "50"
+        },
+        "start": 10,
+        "end": 13
+      },
+      "V205858": {
+        "id": "V205858",
+        "indicator": "F",
+        "type": "BENEFICIARY",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V205885",
+          "FIGURE": "#V205822",
+          "LEX": "FOR"
+        },
+        "start": 19,
+        "end": 31
+      },
+      "V205885": {
+        "id": "V205885",
+        "indicator": "THE",
+        "type": "SOCIAL-GROUP",
+        "word": "BAND",
+        "roles": {
+          "ASSOC-POSS": "#V205880",
+          "LEX": "BAND",
+          "WNSENSE": "band%1:14:01::"
+        },
+        "start": 23,
+        "end": 31
+      },
+      "V205880": {
+        "id": "V205880",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00",
+          "COREF": "#V205788"
+        },
+        "start": 23,
+        "end": 31
+      },
+      "root": "#V206230"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V206241": {
+          "id": "V206241",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V205819",
+            "LEX": "GOT"
+          },
+          "start": 0,
+          "end": 32
+        },
+        "V205819": {
+          "id": "V205819",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "GET",
+          "roles": {
+            "AGENT": "#V205788",
+            "AFFECTED": "#V205848",
+            "RESULT": "#V205857",
+            "TENSE": "PAST",
+            "LEX": "GOT",
+            "WNSENSE": "get%2:40:00::"
+          },
+          "start": 0,
+          "end": 31
+        },
+        "V205788": {
+          "id": "V205788",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "COREY",
+          "roles": {
+            "NAME-OF": "COREY",
+            "LEX": "COREY",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V205848": {
+          "id": "V205848",
+          "indicator": "INDEF-SET",
+          "type": "BOOK",
+          "word": "BOOK",
+          "roles": {
+            "SIZE": "#V205844",
+            "LEX": "BOOKS",
+            "WNSENSE": "book%1:10:00::"
+          },
+          "start": 10,
+          "end": 19
+        },
+        "V205844": {
+          "id": "V205844",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "50"
+          },
+          "start": 10,
+          "end": 13
+        },
+        "V205857": {
+          "id": "V205857",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V205885",
+            "FIGURE": "#V205848",
+            "LEX": "FOR"
+          },
+          "start": 19,
+          "end": 31
+        },
+        "V205885": {
+          "id": "V205885",
+          "indicator": "THE",
+          "type": "SOCIAL-GROUP",
+          "word": "BAND",
+          "roles": {
+            "ASSOC-POSS": "#V205880",
+            "LEX": "BAND",
+            "WNSENSE": "band%1:14:01::"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V205880": {
+          "id": "V205880",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "root": "#V206241"
+      }
+    ],
+    [
+      {
+        "V206346": {
+          "id": "V206346",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V205822",
+            "LEX": "GOT"
+          },
+          "start": 0,
+          "end": 32
+        },
+        "V205822": {
+          "id": "V205822",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "GET",
+          "roles": {
+            "AGENT": "#V205788",
+            "AFFECTED": "#V205848",
+            "BENEFICIARY": "#V205858",
+            "TENSE": "PAST",
+            "LEX": "GOT",
+            "WNSENSE": "get%2:40:00::"
+          },
+          "start": 0,
+          "end": 31
+        },
+        "V205788": {
+          "id": "V205788",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "COREY",
+          "roles": {
+            "NAME-OF": "COREY",
+            "LEX": "COREY",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V205848": {
+          "id": "V205848",
+          "indicator": "INDEF-SET",
+          "type": "BOOK",
+          "word": "BOOK",
+          "roles": {
+            "SIZE": "#V205844",
+            "LEX": "BOOKS",
+            "WNSENSE": "book%1:10:00::"
+          },
+          "start": 10,
+          "end": 19
+        },
+        "V205844": {
+          "id": "V205844",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "50",
+            "LEX": "FIFTY"
+          },
+          "start": 10,
+          "end": 13
+        },
+        "V205858": {
+          "id": "V205858",
+          "indicator": "F",
+          "type": "BENEFICIARY",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V205885",
+            "FIGURE": "#V205822",
+            "LEX": "FOR"
+          },
+          "start": 19,
+          "end": 31
+        },
+        "V205885": {
+          "id": "V205885",
+          "indicator": "THE",
+          "type": "SOCIAL-GROUP",
+          "word": "BAND",
+          "roles": {
+            "ASSOC-POSS": "#V205880",
+            "LEX": "BAND",
+            "WNSENSE": "band%1:14:01::"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V205880": {
+          "id": "V205880",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "root": "#V206346"
+      }
+    ],
+    [
+      {
+        "V206358": {
+          "id": "V206358",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V205819",
+            "LEX": "GOT"
+          },
+          "start": 0,
+          "end": 32
+        },
+        "V205819": {
+          "id": "V205819",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "GET",
+          "roles": {
+            "AGENT": "#V205788",
+            "AFFECTED": "#V205848",
+            "RESULT": "#V205857",
+            "TENSE": "PAST",
+            "LEX": "GOT",
+            "WNSENSE": "get%2:40:00::"
+          },
+          "start": 0,
+          "end": 31
+        },
+        "V205788": {
+          "id": "V205788",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "COREY",
+          "roles": {
+            "NAME-OF": "COREY",
+            "LEX": "COREY",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V205848": {
+          "id": "V205848",
+          "indicator": "INDEF-SET",
+          "type": "BOOK",
+          "word": "BOOK",
+          "roles": {
+            "SIZE": "#V205844",
+            "LEX": "BOOKS",
+            "WNSENSE": "book%1:10:00::"
+          },
+          "start": 10,
+          "end": 19
+        },
+        "V205844": {
+          "id": "V205844",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "50",
+            "LEX": "FIFTY"
+          },
+          "start": 10,
+          "end": 13
+        },
+        "V205857": {
+          "id": "V205857",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V205885",
+            "FIGURE": "#V205848",
+            "LEX": "FOR"
+          },
+          "start": 19,
+          "end": 31
+        },
+        "V205885": {
+          "id": "V205885",
+          "indicator": "THE",
+          "type": "SOCIAL-GROUP",
+          "word": "BAND",
+          "roles": {
+            "ASSOC-POSS": "#V205880",
+            "LEX": "BAND",
+            "WNSENSE": "band%1:14:01::"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V205880": {
+          "id": "V205880",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "root": "#V206358"
+      }
+    ]
+  ],
+  "sentence": "Corey got 50 books for his band..",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190807T161833",
+    "link": "http://trips.ihmc.us/parser/saved/20190807T161833-STEP-abhatia-0-Corey_got_50_books_for_his_band_.xml",
+    "judgement": 0
+  }
+}

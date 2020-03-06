@@ -1,0 +1,87 @@
+{
+  "parse": [
+    {
+      "V57486": {
+        "id": "V57486",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V57003"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V57003": {
+        "id": "V57003",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V56995",
+          "FORMAL": "#V57024",
+          "TENSE": "PRES"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V56995": {
+        "id": "V56995",
+        "indicator": "QUANTIFIER",
+        "type": "COLUMN-FORMATION",
+        "word": "COLUMN",
+        "roles": {
+          "QUAN": "NONE"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V57024": {
+        "id": "V57024",
+        "indicator": "F",
+        "type": "MORE-VAL",
+        "word": "TALL",
+        "roles": {
+          "COMPAR": "#V57177",
+          "FIGURE": "#V56995",
+          "SCALE": "HEIGHT-SCALE"
+        },
+        "start": 15,
+        "end": 28
+      },
+      "V57177": {
+        "id": "V57177",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V57033"
+        },
+        "start": 22,
+        "end": 28
+      },
+      "V57033": {
+        "id": "V57033",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "2"
+        },
+        "start": 27,
+        "end": 28
+      },
+      "root": "#V57486"
+    }
+  ],
+  "alternatives": [],
+  "sentence": "No columns are taller than 2.",
+  "annotation": {
+    "judge": "iperera",
+    "parser": "CABOT",
+    "timestamp": "20190609T214026",
+    "link": "http://trips.ihmc.us/parser/saved/20190609T214026-CABOT-iperera-0-No_columns_are_taller_than_2_.xml",
+    "judgement": 0
+  }
+}

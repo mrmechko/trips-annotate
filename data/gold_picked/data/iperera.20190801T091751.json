@@ -1,0 +1,183 @@
+{
+  "parse": [
+    {
+      "V49379": {
+        "id": "V49379",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V48902"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V48902": {
+        "id": "V48902",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V48883",
+          "FORMAL": "#V48928",
+          "TENSE": "PRES"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V48883": {
+        "id": "V48883",
+        "indicator": "THE",
+        "type": "BLOCK",
+        "word": "BLOCK",
+        "roles": {
+          "MOD": "#V48850"
+        },
+        "start": 0,
+        "end": 14
+      },
+      "V48850": {
+        "id": "V48850",
+        "indicator": "F",
+        "type": "TOP-LOCATION-VAL",
+        "word": "TOP",
+        "roles": {
+          "FIGURE": "#V48883",
+          "SCALE": "SPATIAL-SCALE"
+        },
+        "start": 4,
+        "end": 8
+      },
+      "V48928": {
+        "id": "V48928",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V48979",
+          "FIGURE": "#V48883"
+        },
+        "start": 17,
+        "end": 40
+      },
+      "V48979": {
+        "id": "V48979",
+        "indicator": "THE",
+        "type": "COLUMN-FORMATION",
+        "word": "COLUMN",
+        "roles": {
+          "MOD": "#V48975"
+        },
+        "start": 20,
+        "end": 40
+      },
+      "V48975": {
+        "id": "V48975",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "RIGHT",
+        "roles": {
+          "FIGURE": "#V48979",
+          "SCALE": "DOMAIN"
+        },
+        "start": 24,
+        "end": 34
+      },
+      "root": "#V49379"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V49426": {
+          "id": "V49426",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V48902"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V48902": {
+          "id": "V48902",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V48883",
+            "FORMAL": "#V48928",
+            "TENSE": "PRES"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V48883": {
+          "id": "V48883",
+          "indicator": "THE",
+          "type": "BLOCK",
+          "word": "BLOCK",
+          "roles": {
+            "ASSOC-WITH": "#V48854"
+          },
+          "start": 0,
+          "end": 14
+        },
+        "V48854": {
+          "id": "V48854",
+          "indicator": "KIND",
+          "type": "TOP-LOCATION",
+          "word": "TOP",
+          "roles": {},
+          "start": 0,
+          "end": 14
+        },
+        "V48928": {
+          "id": "V48928",
+          "indicator": "F",
+          "type": "ON",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V48979",
+            "FIGURE": "#V48883"
+          },
+          "start": 17,
+          "end": 40
+        },
+        "V48979": {
+          "id": "V48979",
+          "indicator": "THE",
+          "type": "COLUMN-FORMATION",
+          "word": "COLUMN",
+          "roles": {
+            "MOD": "#V48975"
+          },
+          "start": 20,
+          "end": 40
+        },
+        "V48975": {
+          "id": "V48975",
+          "indicator": "F",
+          "type": "MAX-VAL",
+          "word": "RIGHT",
+          "roles": {
+            "FIGURE": "#V48979",
+            "SCALE": "DOMAIN"
+          },
+          "start": 24,
+          "end": 34
+        },
+        "root": "#V49426"
+      }
+    ]
+  ],
+  "sentence": "The top block is on the rightmost column",
+  "annotation": {
+    "judge": "iperera",
+    "parser": "CABOT",
+    "timestamp": "20190801T091751",
+    "link": "http://trips.ihmc.us/parser/saved/20190801T091751-CABOT-iperera-0-The_top_block_is_on_the_rightmost_column.xml",
+    "judgement": 0
+  }
+}

@@ -1,0 +1,28 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V81167 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V80427 [label=<<font color="green"><br /></font> <font color="black">MOVE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MOVE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V80386 [label=<<font color="green"><br /></font> <font color="black">CAUSE-MOVE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">TAKE</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::CAUSE-MOVE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V80347 [label=<<font color="green"><br /></font> <font color="black">NOW</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">NOW</font> <font color="green"><br /></font> <font color="green">now%4:02:05::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::NOW.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V80356 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HE</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V80422 [label=<<font color="green"><br /></font> <font color="black">MONEY</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">MONEY</font> <font color="green"><br /></font> <font color="green">change%1:21:03</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MONEY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V80417 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HIS</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V80453 [label=<<font color="green"><br /></font> <font color="black">MOVE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">GO</font> <font color="green"><br /></font> <font color="green">go%2:38:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MOVE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V80470 [label=<<font color="green"><br /></font> <font color="black">TO-LOC</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">TO</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TO-LOC.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V80498 [label=<<font color="green"><br /></font> <font color="black">COMMERCIAL-FACILITY</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">MALL</font> <font color="green"><br /></font> <font color="green">shop%1:06:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::COMMERCIAL-FACILITY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V80470 -> V80356 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V80386 -> V80422 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V80470 -> V80498 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V80386 -> V80347 [label=" TIME   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V80347 -> V80386 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V80427 -> V80453 [label=" SEQUENCE1   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V80453 -> V80470 [label=" RESULT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V80427 -> V80386 [label=" SEQUENCE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V80453 -> V80356 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V81167 -> V80427 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V80386 -> V80356 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V80422 -> V80417 [label=" ASSOC-POSS   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

@@ -1,0 +1,2332 @@
+{
+  "parse": [
+    {
+      "V44989": {
+        "id": "V44989",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "ACT": "#V44934",
+          "ACT1": "#V44866",
+          "LEX": "PHONED"
+        },
+        "start": 0,
+        "end": 60
+      },
+      "V44934": {
+        "id": "V44934",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V44210",
+          "LEX": "PHONED"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V44210": {
+        "id": "V44210",
+        "indicator": "F",
+        "type": "ESTABLISH-COMMUNICATION",
+        "word": "PHONE",
+        "roles": {
+          "AGENT": "#V44205",
+          "AGENT1": "#V44216",
+          "TIME": "#V44219",
+          "TENSE": "PAST",
+          "LEX": "PHONED",
+          "WNSENSE": "phone%2:32:00::"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V44205": {
+        "id": "V44205",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V44216": {
+        "id": "V44216",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "BROTHER",
+        "roles": {
+          "ASSOC-POSS": "#V44213",
+          "LEX": "BROTHER",
+          "WNSENSE": "brother%1:18:00::"
+        },
+        "start": 12,
+        "end": 23
+      },
+      "V44213": {
+        "id": "V44213",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 12,
+        "end": 23
+      },
+      "V44219": {
+        "id": "V44219",
+        "indicator": "F",
+        "type": "AFTER",
+        "word": "LATER",
+        "roles": {
+          "FIGURE": "#V44210",
+          "LEX": "LATER",
+          "WNSENSE": "later%4:02:01::"
+        },
+        "start": 23,
+        "end": 28
+      },
+      "V44866": {
+        "id": "V44866",
+        "indicator": "SPEECHACT",
+        "type": "SA_REQUEST",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V44296",
+          "LEX": "PICK"
+        },
+        "start": 30,
+        "end": 60
+      },
+      "V44296": {
+        "id": "V44296",
+        "indicator": "F",
+        "type": "ACQUIRE",
+        "word": "PICK-UP",
+        "roles": {
+          "AGENT": "#V44526",
+          "AFFECTED": "#V44312",
+          "TIME": "#V44655",
+          "REASON": "#V44250",
+          "TENSE": "PRES",
+          "VFORM": "BASE",
+          "LEX": "PICK"
+        },
+        "start": 30,
+        "end": 60
+      },
+      "V44526": {
+        "id": "V44526",
+        "indicator": "IMPRO",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "PROFORM": "*YOU*",
+          "COREF": "SYS"
+        },
+        "start": 30,
+        "end": 60
+      },
+      "V44655": {
+        "id": "V44655",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V44296",
+          "GROUND": "#V44228",
+          "LEX": "TELLING"
+        },
+        "start": 30,
+        "end": 42
+      },
+      "V44228": {
+        "id": "V44228",
+        "indicator": "F",
+        "type": "TELL",
+        "word": "TELL",
+        "roles": {
+          "AGENT1": "#V44239",
+          "VFORM": "ING",
+          "LEX": "TELLING",
+          "WNSENSE": "tell%2:32:04::"
+        },
+        "start": 30,
+        "end": 42
+      },
+      "V44239": {
+        "id": "V44239",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM",
+          "WNSENSE": "man%1:18:00",
+          "COREF": "#V44216"
+        },
+        "start": 38,
+        "end": 42
+      },
+      "V44250": {
+        "id": "V44250",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V44282",
+          "FIGURE": "#V44296",
+          "LEX": "TO"
+        },
+        "start": 42,
+        "end": 50
+      },
+      "V44282": {
+        "id": "V44282",
+        "indicator": "F",
+        "type": "OCCURRING",
+        "word": "COME",
+        "roles": {
+          "VFORM": "BASE",
+          "LEX": "COME",
+          "WNSENSE": "come%2:30:01::"
+        },
+        "start": 45,
+        "end": 50
+      },
+      "V44312": {
+        "id": "V44312",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00",
+          "COREF": "#V44228"
+        },
+        "start": 55,
+        "end": 58
+      },
+      "root": "#V44989"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V44989": {
+          "id": "V44989",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V44934",
+            "ACT1": "#V44878",
+            "LEX": "PHONED"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V44934": {
+          "id": "V44934",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V44210",
+            "LEX": "PHONED"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V44210": {
+          "id": "V44210",
+          "indicator": "F",
+          "type": "ESTABLISH-COMMUNICATION",
+          "word": "PHONE",
+          "roles": {
+            "AGENT": "#V44205",
+            "AGENT1": "#V44216",
+            "TIME": "#V44219",
+            "TENSE": "PAST",
+            "LEX": "PHONED",
+            "WNSENSE": "phone%2:32:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V44205": {
+          "id": "V44205",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V44216": {
+          "id": "V44216",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "BROTHER",
+          "roles": {
+            "ASSOC-POSS": "#V44213",
+            "LEX": "BROTHER",
+            "WNSENSE": "brother%1:18:00::"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V44213": {
+          "id": "V44213",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V44219": {
+          "id": "V44219",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "LATER",
+          "roles": {
+            "FIGURE": "#V44210",
+            "LEX": "LATER",
+            "WNSENSE": "later%4:02:01::"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V44878": {
+          "id": "V44878",
+          "indicator": "SPEECHACT",
+          "type": "SA_REQUEST",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V44296",
+            "LEX": "PICK"
+          },
+          "start": 30,
+          "end": 60
+        },
+        "V44296": {
+          "id": "V44296",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "PICK-UP",
+          "roles": {
+            "AGENT": "#V44526",
+            "AFFECTED": "#V44312",
+            "TIME": "#V44652",
+            "REASON": "#V44250",
+            "TENSE": "PRES",
+            "VFORM": "BASE",
+            "LEX": "PICK"
+          },
+          "start": 30,
+          "end": 60
+        },
+        "V44526": {
+          "id": "V44526",
+          "indicator": "IMPRO",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "PROFORM": "*YOU*"
+          },
+          "start": 30,
+          "end": 60
+        },
+        "V44652": {
+          "id": "V44652",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V44296",
+            "GROUND": "#V44229",
+            "LEX": "TELLING"
+          },
+          "start": 30,
+          "end": 42
+        },
+        "V44229": {
+          "id": "V44229",
+          "indicator": "F",
+          "type": "TELL",
+          "word": "TELL",
+          "roles": {
+            "NEUTRAL": "#V44239",
+            "VFORM": "ING",
+            "LEX": "TELLING",
+            "WNSENSE": "tell%2:32:04::"
+          },
+          "start": 30,
+          "end": 42
+        },
+        "V44239": {
+          "id": "V44239",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIM",
+          "roles": {
+            "PROFORM": "HIM",
+            "LEX": "HIM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 38,
+          "end": 42
+        },
+        "V44250": {
+          "id": "V44250",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V44282",
+            "FIGURE": "#V44296",
+            "LEX": "TO"
+          },
+          "start": 42,
+          "end": 50
+        },
+        "V44282": {
+          "id": "V44282",
+          "indicator": "F",
+          "type": "OCCURRING",
+          "word": "COME",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "COME",
+            "WNSENSE": "come%2:30:01::"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V44312": {
+          "id": "V44312",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 55,
+          "end": 58
+        },
+        "root": "#V44989"
+      }
+    ],
+    [
+      {
+        "V44992": {
+          "id": "V44992",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V44937",
+            "ACT1": "#V44866",
+            "LEX": "PHONED"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V44937": {
+          "id": "V44937",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V44210",
+            "LEX": "PHONED"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V44210": {
+          "id": "V44210",
+          "indicator": "F",
+          "type": "ESTABLISH-COMMUNICATION",
+          "word": "PHONE",
+          "roles": {
+            "AGENT": "#V44205",
+            "AGENT1": "#V44216",
+            "EXTENT": "#V44418",
+            "TENSE": "PAST",
+            "LEX": "PHONED",
+            "WNSENSE": "phone%2:32:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V44205": {
+          "id": "V44205",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V44216": {
+          "id": "V44216",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "BROTHER",
+          "roles": {
+            "ASSOC-POSS": "#V44213",
+            "LEX": "BROTHER",
+            "WNSENSE": "brother%1:18:00::"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V44213": {
+          "id": "V44213",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V44418": {
+          "id": "V44418",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V44210",
+            "GROUND": "#V44419",
+            "LEX": "LATER",
+            "WNSENSE": "better%3:00:00::"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V44419": {
+          "id": "V44419",
+          "indicator": "THE",
+          "type": "VALUE",
+          "word": null,
+          "roles": {
+            "MOD": "#V44220"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V44220": {
+          "id": "V44220",
+          "indicator": "F",
+          "type": "MORE-VAL",
+          "word": "LATE",
+          "roles": {
+            "INTENSITY": "HI",
+            "FIGURE": "#V44419",
+            "SCALE": "DOMAIN",
+            "LEX": "LATER",
+            "WNSENSE": "better%3:00:00::"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V44866": {
+          "id": "V44866",
+          "indicator": "SPEECHACT",
+          "type": "SA_REQUEST",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V44296",
+            "LEX": "PICK"
+          },
+          "start": 30,
+          "end": 60
+        },
+        "V44296": {
+          "id": "V44296",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "PICK-UP",
+          "roles": {
+            "AGENT": "#V44526",
+            "AFFECTED": "#V44312",
+            "TIME": "#V44655",
+            "REASON": "#V44250",
+            "TENSE": "PRES",
+            "VFORM": "BASE",
+            "LEX": "PICK"
+          },
+          "start": 30,
+          "end": 60
+        },
+        "V44526": {
+          "id": "V44526",
+          "indicator": "IMPRO",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "PROFORM": "*YOU*"
+          },
+          "start": 30,
+          "end": 60
+        },
+        "V44655": {
+          "id": "V44655",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V44296",
+            "GROUND": "#V44228",
+            "LEX": "TELLING"
+          },
+          "start": 30,
+          "end": 42
+        },
+        "V44228": {
+          "id": "V44228",
+          "indicator": "F",
+          "type": "TELL",
+          "word": "TELL",
+          "roles": {
+            "AGENT1": "#V44239",
+            "VFORM": "ING",
+            "LEX": "TELLING",
+            "WNSENSE": "tell%2:32:04::"
+          },
+          "start": 30,
+          "end": 42
+        },
+        "V44239": {
+          "id": "V44239",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIM",
+          "roles": {
+            "PROFORM": "HIM",
+            "LEX": "HIM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 38,
+          "end": 42
+        },
+        "V44250": {
+          "id": "V44250",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V44282",
+            "FIGURE": "#V44296",
+            "LEX": "TO"
+          },
+          "start": 42,
+          "end": 50
+        },
+        "V44282": {
+          "id": "V44282",
+          "indicator": "F",
+          "type": "OCCURRING",
+          "word": "COME",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "COME",
+            "WNSENSE": "come%2:30:01::"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V44312": {
+          "id": "V44312",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 55,
+          "end": 58
+        },
+        "root": "#V44992"
+      }
+    ],
+    [
+      {
+        "V44992": {
+          "id": "V44992",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V44937",
+            "ACT1": "#V44878",
+            "LEX": "PHONED"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V44937": {
+          "id": "V44937",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V44210",
+            "LEX": "PHONED"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V44210": {
+          "id": "V44210",
+          "indicator": "F",
+          "type": "ESTABLISH-COMMUNICATION",
+          "word": "PHONE",
+          "roles": {
+            "AGENT": "#V44205",
+            "AGENT1": "#V44216",
+            "EXTENT": "#V44418",
+            "TENSE": "PAST",
+            "LEX": "PHONED",
+            "WNSENSE": "phone%2:32:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V44205": {
+          "id": "V44205",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V44216": {
+          "id": "V44216",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "BROTHER",
+          "roles": {
+            "ASSOC-POSS": "#V44213",
+            "LEX": "BROTHER",
+            "WNSENSE": "brother%1:18:00::"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V44213": {
+          "id": "V44213",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V44418": {
+          "id": "V44418",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V44210",
+            "GROUND": "#V44419",
+            "LEX": "LATER",
+            "WNSENSE": "better%3:00:00::"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V44419": {
+          "id": "V44419",
+          "indicator": "THE",
+          "type": "VALUE",
+          "word": null,
+          "roles": {
+            "MOD": "#V44220"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V44220": {
+          "id": "V44220",
+          "indicator": "F",
+          "type": "MORE-VAL",
+          "word": "LATE",
+          "roles": {
+            "INTENSITY": "HI",
+            "FIGURE": "#V44419",
+            "SCALE": "DOMAIN",
+            "LEX": "LATER",
+            "WNSENSE": "better%3:00:00::"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V44878": {
+          "id": "V44878",
+          "indicator": "SPEECHACT",
+          "type": "SA_REQUEST",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V44296",
+            "LEX": "PICK"
+          },
+          "start": 30,
+          "end": 60
+        },
+        "V44296": {
+          "id": "V44296",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "PICK-UP",
+          "roles": {
+            "AGENT": "#V44526",
+            "AFFECTED": "#V44312",
+            "TIME": "#V44652",
+            "REASON": "#V44250",
+            "TENSE": "PRES",
+            "VFORM": "BASE",
+            "LEX": "PICK"
+          },
+          "start": 30,
+          "end": 60
+        },
+        "V44526": {
+          "id": "V44526",
+          "indicator": "IMPRO",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "PROFORM": "*YOU*"
+          },
+          "start": 30,
+          "end": 60
+        },
+        "V44652": {
+          "id": "V44652",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V44296",
+            "GROUND": "#V44229",
+            "LEX": "TELLING"
+          },
+          "start": 30,
+          "end": 42
+        },
+        "V44229": {
+          "id": "V44229",
+          "indicator": "F",
+          "type": "TELL",
+          "word": "TELL",
+          "roles": {
+            "NEUTRAL": "#V44239",
+            "VFORM": "ING",
+            "LEX": "TELLING",
+            "WNSENSE": "tell%2:32:04::"
+          },
+          "start": 30,
+          "end": 42
+        },
+        "V44239": {
+          "id": "V44239",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIM",
+          "roles": {
+            "PROFORM": "HIM",
+            "LEX": "HIM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 38,
+          "end": 42
+        },
+        "V44250": {
+          "id": "V44250",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V44282",
+            "FIGURE": "#V44296",
+            "LEX": "TO"
+          },
+          "start": 42,
+          "end": 50
+        },
+        "V44282": {
+          "id": "V44282",
+          "indicator": "F",
+          "type": "OCCURRING",
+          "word": "COME",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "COME",
+            "WNSENSE": "come%2:30:01::"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V44312": {
+          "id": "V44312",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 55,
+          "end": 58
+        },
+        "root": "#V44992"
+      }
+    ],
+    [
+      {
+        "V44989": {
+          "id": "V44989",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V44934",
+            "ACT1": "#V44909",
+            "LEX": "PHONED"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V44934": {
+          "id": "V44934",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V44210",
+            "LEX": "PHONED"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V44210": {
+          "id": "V44210",
+          "indicator": "F",
+          "type": "ESTABLISH-COMMUNICATION",
+          "word": "PHONE",
+          "roles": {
+            "AGENT": "#V44205",
+            "AGENT1": "#V44216",
+            "TIME": "#V44219",
+            "TENSE": "PAST",
+            "LEX": "PHONED",
+            "WNSENSE": "phone%2:32:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V44205": {
+          "id": "V44205",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V44216": {
+          "id": "V44216",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "BROTHER",
+          "roles": {
+            "ASSOC-POSS": "#V44213",
+            "LEX": "BROTHER",
+            "WNSENSE": "brother%1:18:00::"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V44213": {
+          "id": "V44213",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V44219": {
+          "id": "V44219",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "LATER",
+          "roles": {
+            "FIGURE": "#V44210",
+            "LEX": "LATER",
+            "WNSENSE": "later%4:02:01::"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V44909": {
+          "id": "V44909",
+          "indicator": "SPEECHACT",
+          "type": "SA_REQUEST",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V44296",
+            "LEX": "PICK"
+          },
+          "start": 30,
+          "end": 60
+        },
+        "V44296": {
+          "id": "V44296",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "PICK-UP",
+          "roles": {
+            "AGENT": "#V44526",
+            "AFFECTED": "#V44312",
+            "TIME": "#V44655",
+            "REASON": "#V44250",
+            "TENSE": "PRES",
+            "VFORM": "BASE",
+            "LEX": "PICK"
+          },
+          "start": 30,
+          "end": 60
+        },
+        "V44526": {
+          "id": "V44526",
+          "indicator": "IMPRO",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "PROFORM": "*YOU*"
+          },
+          "start": 30,
+          "end": 60
+        },
+        "V44655": {
+          "id": "V44655",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V44296",
+            "GROUND": "#V44228",
+            "LEX": "TELLING"
+          },
+          "start": 30,
+          "end": 42
+        },
+        "V44228": {
+          "id": "V44228",
+          "indicator": "F",
+          "type": "TELL",
+          "word": "TELL",
+          "roles": {
+            "AGENT1": "#V44239",
+            "VFORM": "ING",
+            "LEX": "TELLING",
+            "WNSENSE": "tell%2:32:04::"
+          },
+          "start": 30,
+          "end": 42
+        },
+        "V44239": {
+          "id": "V44239",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIM",
+          "roles": {
+            "PROFORM": "HIM",
+            "LEX": "HIM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 38,
+          "end": 42
+        },
+        "V44250": {
+          "id": "V44250",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V44283",
+            "FIGURE": "#V44296",
+            "LEX": "TO"
+          },
+          "start": 42,
+          "end": 50
+        },
+        "V44283": {
+          "id": "V44283",
+          "indicator": "F",
+          "type": "COME",
+          "word": "COME",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "COME",
+            "WNSENSE": "come%2:42:15::"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V44312": {
+          "id": "V44312",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 55,
+          "end": 58
+        },
+        "root": "#V44989"
+      }
+    ],
+    [
+      {
+        "V44989": {
+          "id": "V44989",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V44934",
+            "ACT1": "#V44922",
+            "LEX": "PHONED"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V44934": {
+          "id": "V44934",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V44210",
+            "LEX": "PHONED"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V44210": {
+          "id": "V44210",
+          "indicator": "F",
+          "type": "ESTABLISH-COMMUNICATION",
+          "word": "PHONE",
+          "roles": {
+            "AGENT": "#V44205",
+            "AGENT1": "#V44216",
+            "TIME": "#V44219",
+            "TENSE": "PAST",
+            "LEX": "PHONED",
+            "WNSENSE": "phone%2:32:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V44205": {
+          "id": "V44205",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V44216": {
+          "id": "V44216",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "BROTHER",
+          "roles": {
+            "ASSOC-POSS": "#V44213",
+            "LEX": "BROTHER",
+            "WNSENSE": "brother%1:18:00::"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V44213": {
+          "id": "V44213",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V44219": {
+          "id": "V44219",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "LATER",
+          "roles": {
+            "FIGURE": "#V44210",
+            "LEX": "LATER",
+            "WNSENSE": "later%4:02:01::"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V44922": {
+          "id": "V44922",
+          "indicator": "SPEECHACT",
+          "type": "SA_REQUEST",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V44296",
+            "LEX": "PICK"
+          },
+          "start": 30,
+          "end": 60
+        },
+        "V44296": {
+          "id": "V44296",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "PICK-UP",
+          "roles": {
+            "AGENT": "#V44526",
+            "AFFECTED": "#V44312",
+            "TIME": "#V44652",
+            "REASON": "#V44250",
+            "TENSE": "PRES",
+            "VFORM": "BASE",
+            "LEX": "PICK"
+          },
+          "start": 30,
+          "end": 60
+        },
+        "V44526": {
+          "id": "V44526",
+          "indicator": "IMPRO",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "PROFORM": "*YOU*"
+          },
+          "start": 30,
+          "end": 60
+        },
+        "V44652": {
+          "id": "V44652",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V44296",
+            "GROUND": "#V44229",
+            "LEX": "TELLING"
+          },
+          "start": 30,
+          "end": 42
+        },
+        "V44229": {
+          "id": "V44229",
+          "indicator": "F",
+          "type": "TELL",
+          "word": "TELL",
+          "roles": {
+            "NEUTRAL": "#V44239",
+            "VFORM": "ING",
+            "LEX": "TELLING",
+            "WNSENSE": "tell%2:32:04::"
+          },
+          "start": 30,
+          "end": 42
+        },
+        "V44239": {
+          "id": "V44239",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIM",
+          "roles": {
+            "PROFORM": "HIM",
+            "LEX": "HIM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 38,
+          "end": 42
+        },
+        "V44250": {
+          "id": "V44250",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V44283",
+            "FIGURE": "#V44296",
+            "LEX": "TO"
+          },
+          "start": 42,
+          "end": 50
+        },
+        "V44283": {
+          "id": "V44283",
+          "indicator": "F",
+          "type": "COME",
+          "word": "COME",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "COME",
+            "WNSENSE": "come%2:42:15::"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V44312": {
+          "id": "V44312",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 55,
+          "end": 58
+        },
+        "root": "#V44989"
+      }
+    ],
+    [
+      {
+        "V44992": {
+          "id": "V44992",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V44937",
+            "ACT1": "#V44909",
+            "LEX": "PHONED"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V44937": {
+          "id": "V44937",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V44210",
+            "LEX": "PHONED"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V44210": {
+          "id": "V44210",
+          "indicator": "F",
+          "type": "ESTABLISH-COMMUNICATION",
+          "word": "PHONE",
+          "roles": {
+            "AGENT": "#V44205",
+            "AGENT1": "#V44216",
+            "EXTENT": "#V44418",
+            "TENSE": "PAST",
+            "LEX": "PHONED",
+            "WNSENSE": "phone%2:32:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V44205": {
+          "id": "V44205",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V44216": {
+          "id": "V44216",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "BROTHER",
+          "roles": {
+            "ASSOC-POSS": "#V44213",
+            "LEX": "BROTHER",
+            "WNSENSE": "brother%1:18:00::"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V44213": {
+          "id": "V44213",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V44418": {
+          "id": "V44418",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V44210",
+            "GROUND": "#V44419",
+            "LEX": "LATER",
+            "WNSENSE": "better%3:00:00::"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V44419": {
+          "id": "V44419",
+          "indicator": "THE",
+          "type": "VALUE",
+          "word": null,
+          "roles": {
+            "MOD": "#V44220"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V44220": {
+          "id": "V44220",
+          "indicator": "F",
+          "type": "MORE-VAL",
+          "word": "LATE",
+          "roles": {
+            "INTENSITY": "HI",
+            "FIGURE": "#V44419",
+            "SCALE": "DOMAIN",
+            "LEX": "LATER",
+            "WNSENSE": "better%3:00:00::"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V44909": {
+          "id": "V44909",
+          "indicator": "SPEECHACT",
+          "type": "SA_REQUEST",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V44296",
+            "LEX": "PICK"
+          },
+          "start": 30,
+          "end": 60
+        },
+        "V44296": {
+          "id": "V44296",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "PICK-UP",
+          "roles": {
+            "AGENT": "#V44526",
+            "AFFECTED": "#V44312",
+            "TIME": "#V44655",
+            "REASON": "#V44250",
+            "TENSE": "PRES",
+            "VFORM": "BASE",
+            "LEX": "PICK"
+          },
+          "start": 30,
+          "end": 60
+        },
+        "V44526": {
+          "id": "V44526",
+          "indicator": "IMPRO",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "PROFORM": "*YOU*"
+          },
+          "start": 30,
+          "end": 60
+        },
+        "V44655": {
+          "id": "V44655",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V44296",
+            "GROUND": "#V44228",
+            "LEX": "TELLING"
+          },
+          "start": 30,
+          "end": 42
+        },
+        "V44228": {
+          "id": "V44228",
+          "indicator": "F",
+          "type": "TELL",
+          "word": "TELL",
+          "roles": {
+            "AGENT1": "#V44239",
+            "VFORM": "ING",
+            "LEX": "TELLING",
+            "WNSENSE": "tell%2:32:04::"
+          },
+          "start": 30,
+          "end": 42
+        },
+        "V44239": {
+          "id": "V44239",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIM",
+          "roles": {
+            "PROFORM": "HIM",
+            "LEX": "HIM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 38,
+          "end": 42
+        },
+        "V44250": {
+          "id": "V44250",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V44283",
+            "FIGURE": "#V44296",
+            "LEX": "TO"
+          },
+          "start": 42,
+          "end": 50
+        },
+        "V44283": {
+          "id": "V44283",
+          "indicator": "F",
+          "type": "COME",
+          "word": "COME",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "COME",
+            "WNSENSE": "come%2:42:15::"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V44312": {
+          "id": "V44312",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 55,
+          "end": 58
+        },
+        "root": "#V44992"
+      }
+    ],
+    [
+      {
+        "V44992": {
+          "id": "V44992",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V44937",
+            "ACT1": "#V44922",
+            "LEX": "PHONED"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V44937": {
+          "id": "V44937",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V44210",
+            "LEX": "PHONED"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V44210": {
+          "id": "V44210",
+          "indicator": "F",
+          "type": "ESTABLISH-COMMUNICATION",
+          "word": "PHONE",
+          "roles": {
+            "AGENT": "#V44205",
+            "AGENT1": "#V44216",
+            "EXTENT": "#V44418",
+            "TENSE": "PAST",
+            "LEX": "PHONED",
+            "WNSENSE": "phone%2:32:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V44205": {
+          "id": "V44205",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V44216": {
+          "id": "V44216",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "BROTHER",
+          "roles": {
+            "ASSOC-POSS": "#V44213",
+            "LEX": "BROTHER",
+            "WNSENSE": "brother%1:18:00::"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V44213": {
+          "id": "V44213",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V44418": {
+          "id": "V44418",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V44210",
+            "GROUND": "#V44419",
+            "LEX": "LATER",
+            "WNSENSE": "better%3:00:00::"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V44419": {
+          "id": "V44419",
+          "indicator": "THE",
+          "type": "VALUE",
+          "word": null,
+          "roles": {
+            "MOD": "#V44220"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V44220": {
+          "id": "V44220",
+          "indicator": "F",
+          "type": "MORE-VAL",
+          "word": "LATE",
+          "roles": {
+            "INTENSITY": "HI",
+            "FIGURE": "#V44419",
+            "SCALE": "DOMAIN",
+            "LEX": "LATER",
+            "WNSENSE": "better%3:00:00::"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V44922": {
+          "id": "V44922",
+          "indicator": "SPEECHACT",
+          "type": "SA_REQUEST",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V44296",
+            "LEX": "PICK"
+          },
+          "start": 30,
+          "end": 60
+        },
+        "V44296": {
+          "id": "V44296",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "PICK-UP",
+          "roles": {
+            "AGENT": "#V44526",
+            "AFFECTED": "#V44312",
+            "TIME": "#V44652",
+            "REASON": "#V44250",
+            "TENSE": "PRES",
+            "VFORM": "BASE",
+            "LEX": "PICK"
+          },
+          "start": 30,
+          "end": 60
+        },
+        "V44526": {
+          "id": "V44526",
+          "indicator": "IMPRO",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "PROFORM": "*YOU*"
+          },
+          "start": 30,
+          "end": 60
+        },
+        "V44652": {
+          "id": "V44652",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V44296",
+            "GROUND": "#V44229",
+            "LEX": "TELLING"
+          },
+          "start": 30,
+          "end": 42
+        },
+        "V44229": {
+          "id": "V44229",
+          "indicator": "F",
+          "type": "TELL",
+          "word": "TELL",
+          "roles": {
+            "NEUTRAL": "#V44239",
+            "VFORM": "ING",
+            "LEX": "TELLING",
+            "WNSENSE": "tell%2:32:04::"
+          },
+          "start": 30,
+          "end": 42
+        },
+        "V44239": {
+          "id": "V44239",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIM",
+          "roles": {
+            "PROFORM": "HIM",
+            "LEX": "HIM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 38,
+          "end": 42
+        },
+        "V44250": {
+          "id": "V44250",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V44283",
+            "FIGURE": "#V44296",
+            "LEX": "TO"
+          },
+          "start": 42,
+          "end": 50
+        },
+        "V44283": {
+          "id": "V44283",
+          "indicator": "F",
+          "type": "COME",
+          "word": "COME",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "COME",
+            "WNSENSE": "come%2:42:15::"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V44312": {
+          "id": "V44312",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 55,
+          "end": 58
+        },
+        "root": "#V44992"
+      }
+    ],
+    [
+      {
+        "V44989": {
+          "id": "V44989",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V44934",
+            "ACT1": "#V45005",
+            "LEX": "PHONED"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V44934": {
+          "id": "V44934",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V44210",
+            "LEX": "PHONED"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V44210": {
+          "id": "V44210",
+          "indicator": "F",
+          "type": "ESTABLISH-COMMUNICATION",
+          "word": "PHONE",
+          "roles": {
+            "AGENT": "#V44205",
+            "AGENT1": "#V44216",
+            "TIME": "#V44219",
+            "TENSE": "PAST",
+            "LEX": "PHONED",
+            "WNSENSE": "phone%2:32:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V44205": {
+          "id": "V44205",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V44216": {
+          "id": "V44216",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "BROTHER",
+          "roles": {
+            "ASSOC-POSS": "#V44213",
+            "LEX": "BROTHER",
+            "WNSENSE": "brother%1:18:00::"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V44213": {
+          "id": "V44213",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V44219": {
+          "id": "V44219",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "LATER",
+          "roles": {
+            "FIGURE": "#V44210",
+            "LEX": "LATER",
+            "WNSENSE": "later%4:02:01::"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V45005": {
+          "id": "V45005",
+          "indicator": "SPEECHACT",
+          "type": "SA_REQUEST",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V44300",
+            "LEX": "PICK"
+          },
+          "start": 30,
+          "end": 60
+        },
+        "V44300": {
+          "id": "V44300",
+          "indicator": "F",
+          "type": "SELECT",
+          "word": "PICK",
+          "roles": {
+            "MANNER": "#V44348",
+            "AGENT": "#V44801",
+            "NEUTRAL": "#V44312",
+            "TIME": "#V44655",
+            "REASON": "#V44250",
+            "TENSE": "PRES",
+            "VFORM": "BASE",
+            "LEX": "PICK"
+          },
+          "start": 30,
+          "end": 60
+        },
+        "V44801": {
+          "id": "V44801",
+          "indicator": "IMPRO",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "PROFORM": "*YOU*"
+          },
+          "start": 30,
+          "end": 60
+        },
+        "V44655": {
+          "id": "V44655",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V44300",
+            "GROUND": "#V44228",
+            "LEX": "TELLING"
+          },
+          "start": 30,
+          "end": 42
+        },
+        "V44228": {
+          "id": "V44228",
+          "indicator": "F",
+          "type": "TELL",
+          "word": "TELL",
+          "roles": {
+            "AGENT1": "#V44239",
+            "VFORM": "ING",
+            "LEX": "TELLING",
+            "WNSENSE": "tell%2:32:04::"
+          },
+          "start": 30,
+          "end": 42
+        },
+        "V44239": {
+          "id": "V44239",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIM",
+          "roles": {
+            "PROFORM": "HIM",
+            "LEX": "HIM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 38,
+          "end": 42
+        },
+        "V44250": {
+          "id": "V44250",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V44282",
+            "FIGURE": "#V44300",
+            "LEX": "TO"
+          },
+          "start": 42,
+          "end": 50
+        },
+        "V44282": {
+          "id": "V44282",
+          "indicator": "F",
+          "type": "OCCURRING",
+          "word": "COME",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "COME",
+            "WNSENSE": "come%2:30:01::"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V44312": {
+          "id": "V44312",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 55,
+          "end": 58
+        },
+        "V44348": {
+          "id": "V44348",
+          "indicator": "F",
+          "type": "COMPLETELY",
+          "word": "UP",
+          "roles": {
+            "FIGURE": "#V44300",
+            "LEX": "UP",
+            "WNSENSE": "up%4:02:00::"
+          },
+          "start": 58,
+          "end": 60
+        },
+        "root": "#V44989"
+      }
+    ],
+    [
+      {
+        "V44989": {
+          "id": "V44989",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V44934",
+            "ACT1": "#V45019",
+            "LEX": "PHONED"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V44934": {
+          "id": "V44934",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V44210",
+            "LEX": "PHONED"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V44210": {
+          "id": "V44210",
+          "indicator": "F",
+          "type": "ESTABLISH-COMMUNICATION",
+          "word": "PHONE",
+          "roles": {
+            "AGENT": "#V44205",
+            "AGENT1": "#V44216",
+            "TIME": "#V44219",
+            "TENSE": "PAST",
+            "LEX": "PHONED",
+            "WNSENSE": "phone%2:32:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V44205": {
+          "id": "V44205",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V44216": {
+          "id": "V44216",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "BROTHER",
+          "roles": {
+            "ASSOC-POSS": "#V44213",
+            "LEX": "BROTHER",
+            "WNSENSE": "brother%1:18:00::"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V44213": {
+          "id": "V44213",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V44219": {
+          "id": "V44219",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "LATER",
+          "roles": {
+            "FIGURE": "#V44210",
+            "LEX": "LATER",
+            "WNSENSE": "later%4:02:01::"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V45019": {
+          "id": "V45019",
+          "indicator": "SPEECHACT",
+          "type": "SA_REQUEST",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V44300",
+            "LEX": "PICK"
+          },
+          "start": 30,
+          "end": 60
+        },
+        "V44300": {
+          "id": "V44300",
+          "indicator": "F",
+          "type": "SELECT",
+          "word": "PICK",
+          "roles": {
+            "MANNER": "#V44348",
+            "AGENT": "#V44801",
+            "NEUTRAL": "#V44312",
+            "TIME": "#V44652",
+            "REASON": "#V44250",
+            "TENSE": "PRES",
+            "VFORM": "BASE",
+            "LEX": "PICK"
+          },
+          "start": 30,
+          "end": 60
+        },
+        "V44801": {
+          "id": "V44801",
+          "indicator": "IMPRO",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "PROFORM": "*YOU*"
+          },
+          "start": 30,
+          "end": 60
+        },
+        "V44652": {
+          "id": "V44652",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V44300",
+            "GROUND": "#V44229",
+            "LEX": "TELLING"
+          },
+          "start": 30,
+          "end": 42
+        },
+        "V44229": {
+          "id": "V44229",
+          "indicator": "F",
+          "type": "TELL",
+          "word": "TELL",
+          "roles": {
+            "NEUTRAL": "#V44239",
+            "VFORM": "ING",
+            "LEX": "TELLING",
+            "WNSENSE": "tell%2:32:04::"
+          },
+          "start": 30,
+          "end": 42
+        },
+        "V44239": {
+          "id": "V44239",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIM",
+          "roles": {
+            "PROFORM": "HIM",
+            "LEX": "HIM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 38,
+          "end": 42
+        },
+        "V44250": {
+          "id": "V44250",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V44282",
+            "FIGURE": "#V44300",
+            "LEX": "TO"
+          },
+          "start": 42,
+          "end": 50
+        },
+        "V44282": {
+          "id": "V44282",
+          "indicator": "F",
+          "type": "OCCURRING",
+          "word": "COME",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "COME",
+            "WNSENSE": "come%2:30:01::"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V44312": {
+          "id": "V44312",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 55,
+          "end": 58
+        },
+        "V44348": {
+          "id": "V44348",
+          "indicator": "F",
+          "type": "COMPLETELY",
+          "word": "UP",
+          "roles": {
+            "FIGURE": "#V44300",
+            "LEX": "UP",
+            "WNSENSE": "up%4:02:00::"
+          },
+          "start": 58,
+          "end": 60
+        },
+        "root": "#V44989"
+      }
+    ]
+  ],
+  "sentence": "They phoned my brother later, telling him to come pick it up.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190815T091521",
+    "link": "http://trips.ihmc.us/parser/saved/20190815T091521-STEP-abhatia-none-They_phoned_my_brother_later_telling_him.xml",
+    "judgement": -1
+  }
+}

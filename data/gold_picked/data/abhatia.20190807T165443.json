@@ -1,0 +1,310 @@
+{
+  "parse": [
+    {
+      "V275583": {
+        "id": "V275583",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V275182",
+          "LEX": "LOOKING-FORWARD"
+        },
+        "start": 0,
+        "end": 35
+      },
+      "V275182": {
+        "id": "V275182",
+        "indicator": "F",
+        "type": "EXPECTATION",
+        "word": "LOOKING-FORWARD",
+        "roles": {
+          "EXPERIENCER": "#V275068",
+          "FORMAL": "#V275238",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "NEGATION": "+",
+          "LEX": "LOOKING-FORWARD",
+          "WNSENSE": "look_forward%2:31:00"
+        },
+        "start": 0,
+        "end": 35
+      },
+      "V275068": {
+        "id": "V275068",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "CHRIS",
+        "roles": {
+          "NAME-OF": "CHRIS",
+          "LEX": "CHRIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 0,
+        "end": 6
+      },
+      "V275238": {
+        "id": "V275238",
+        "indicator": "F",
+        "type": "MOVE",
+        "word": "GO",
+        "roles": {
+          "AGENT": "#V275068",
+          "VFORM": "BASE",
+          "LEX": "GO",
+          "WNSENSE": "go%2:38:00::"
+        },
+        "start": 30,
+        "end": 35
+      },
+      "root": "#V275583"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V275636": {
+          "id": "V275636",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V275182",
+            "LEX": "LOOKING-FORWARD"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V275182": {
+          "id": "V275182",
+          "indicator": "F",
+          "type": "EXPECTATION",
+          "word": "LOOKING-FORWARD",
+          "roles": {
+            "EXPERIENCER": "#V275068",
+            "FORMAL": "#V275232",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "NEGATION": "+",
+            "LEX": "LOOKING-FORWARD",
+            "WNSENSE": "look_forward%2:31:00"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V275068": {
+          "id": "V275068",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "CHRIS",
+          "roles": {
+            "NAME-OF": "CHRIS",
+            "LEX": "CHRIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V275232": {
+          "id": "V275232",
+          "indicator": "F",
+          "type": "UNDERGO-ACTION",
+          "word": "GO",
+          "roles": {
+            "AFFECTED": "#V275068",
+            "VFORM": "BASE",
+            "LEX": "GO",
+            "WNSENSE": "go_down%2:42:00"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "root": "#V275636"
+      }
+    ],
+    [
+      {
+        "V276782": {
+          "id": "V276782",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V275072",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V275072": {
+          "id": "V275072",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V275068",
+            "TIME": "#V275538",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "NEGATION": "+",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V275068": {
+          "id": "V275068",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "CHRIS",
+          "roles": {
+            "NAME-OF": "CHRIS",
+            "LEX": "CHRIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V275538": {
+          "id": "V275538",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V275072",
+            "GROUND": "#V275182",
+            "LEX": "LOOKING-FORWARD"
+          },
+          "start": 14,
+          "end": 35
+        },
+        "V275182": {
+          "id": "V275182",
+          "indicator": "F",
+          "type": "EXPECTATION",
+          "word": "LOOKING-FORWARD",
+          "roles": {
+            "FORMAL": "#V275238",
+            "VFORM": "ING",
+            "LEX": "LOOKING-FORWARD",
+            "WNSENSE": "look_forward%2:31:00"
+          },
+          "start": 14,
+          "end": 35
+        },
+        "V275238": {
+          "id": "V275238",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "GO",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "root": "#V276782"
+      }
+    ],
+    [
+      {
+        "V276836": {
+          "id": "V276836",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V275072",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V275072": {
+          "id": "V275072",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V275068",
+            "TIME": "#V275632",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "NEGATION": "+",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V275068": {
+          "id": "V275068",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "CHRIS",
+          "roles": {
+            "NAME-OF": "CHRIS",
+            "LEX": "CHRIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V275632": {
+          "id": "V275632",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V275072",
+            "GROUND": "#V275182",
+            "LEX": "LOOKING-FORWARD"
+          },
+          "start": 14,
+          "end": 35
+        },
+        "V275182": {
+          "id": "V275182",
+          "indicator": "F",
+          "type": "EXPECTATION",
+          "word": "LOOKING-FORWARD",
+          "roles": {
+            "FORMAL": "#V275232",
+            "VFORM": "ING",
+            "LEX": "LOOKING-FORWARD",
+            "WNSENSE": "look_forward%2:31:00"
+          },
+          "start": 14,
+          "end": 35
+        },
+        "V275232": {
+          "id": "V275232",
+          "indicator": "F",
+          "type": "UNDERGO-ACTION",
+          "word": "GO",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "GO",
+            "WNSENSE": "go_down%2:42:00"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "root": "#V276836"
+      }
+    ]
+  ],
+  "sentence": "Chris was not looking forward to go.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190807T165443",
+    "link": "http://trips.ihmc.us/parser/saved/20190807T165443-STEP-abhatia-0-Chris_was_not_looking_forward_to_go_.xml",
+    "judgement": 0
+  }
+}

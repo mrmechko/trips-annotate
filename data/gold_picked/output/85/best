@@ -1,0 +1,18 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V72494 [label=<<font color="green"><br /></font> <font color="black">SA_WH-QUESTION</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_WH-QUESTION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V72094 [label=<<font color="green"><br /></font> <font color="black">OCCURRING</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">GO</font> <font color="green"><br /></font> <font color="green">go%2:30:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::OCCURRING.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V72055 [label=<<font color="green"><br /></font> <font color="black">BY-MEANS-OF</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">HOW</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BY-MEANS-OF.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V72138 [label=<<font color="green"><br /></font> <font color="black">METHOD</font> <font color="green"><br /></font> <font color="red">WH-TERM</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::METHOD.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V72079 [label=<<font color="green"><br /></font> <font color="black">MUSIC</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">SONG</font> <font color="green"><br /></font> <font color="green">song%1:10:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MUSIC.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V72055 -> V72138 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V72494 -> V72094 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V72494 -> V72138 [label=" FOCUS   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V72138 -> V72055 [label=" SUCHTHAT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V72055 -> V72094 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V72094 -> V72079 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V72094 -> V72055 [label=" METHOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

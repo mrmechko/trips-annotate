@@ -1,0 +1,23 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V295003 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V294692 [label=<<font color="green"><br /></font> <font color="black">BECOMING-AWARE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">NOTICE</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BECOMING-AWARE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V294653 [label=<<font color="green"><br /></font> <font color="black">ON</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">ON</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V294680 [label=<<font color="green"><br /></font> <font color="black">TABLE</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">TABLE</font> <font color="green"><br /></font> <font color="green">table%1:06:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TABLE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V294685 [label=<<font color="green"><br /></font> <font color="black">FEMALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">SHE</font> <font color="green"><br /></font> <font color="green">woman%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FEMALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V294702 [label=<<font color="green"><br /></font> <font color="black">INFORMATION</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">AD</font> <font color="green"><br /></font> <font color="green">information%1:09:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::INFORMATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V294709 [label=<<font color="green"><br /></font> <font color="black">PURPOSE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">FOR</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PURPOSE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V294778 [label=<<font color="green"><br /></font> <font color="black">ACCOMMODATION</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">SPA</font> <font color="green"><br /></font> <font color="green">spa%1:06:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ACCOMMODATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V294653 -> V294680 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V294709 -> V294778 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V294692 -> V294709 [label=" REASON   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V295003 -> V294692 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V294653 -> V294692 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V294692 -> V294685 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V294692 -> V294653 [label=" LOCATION   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V294692 -> V294702 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V294709 -> V294692 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

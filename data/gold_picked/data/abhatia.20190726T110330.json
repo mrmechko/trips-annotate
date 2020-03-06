@@ -1,0 +1,676 @@
+{
+  "parse": [
+    {
+      "V439926": {
+        "id": "V439926",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V439047",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 57
+      },
+      "V439047": {
+        "id": "V439047",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V438515",
+          "SEQUENCE1": "#V438564",
+          "TIME": "#V438399",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 57
+      },
+      "V438564": {
+        "id": "V438564",
+        "indicator": "F",
+        "type": "DEPART",
+        "word": "LEAVE",
+        "roles": {
+          "AGENT": "#V438503",
+          "LEX": "LEFT",
+          "WNSENSE": "leave%2:38:01::"
+        },
+        "start": 0,
+        "end": 57
+      },
+      "V438515": {
+        "id": "V438515",
+        "indicator": "F",
+        "type": "LOCUTION",
+        "word": "SAY",
+        "roles": {
+          "AGENT": "#V438503",
+          "NEUTRAL": "#V438534",
+          "LEX": "SAID",
+          "WNSENSE": "say%2:32:02::"
+        },
+        "start": 0,
+        "end": 57
+      },
+      "V438399": {
+        "id": "V438399",
+        "indicator": "F",
+        "type": "EVENT-EVENT-TIME",
+        "word": "ONCE",
+        "roles": {
+          "GROUND": "#V438420",
+          "FIGURE": "#V439047",
+          "LEX": "ONCE",
+          "WNSENSE": "once%4:02:00::"
+        },
+        "start": 0,
+        "end": 33
+      },
+      "V438420": {
+        "id": "V438420",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V438413",
+          "FORMAL": "#V438438",
+          "TENSE": "PAST",
+          "LEX": "WERE",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 5,
+        "end": 33
+      },
+      "V438413": {
+        "id": "V438413",
+        "indicator": "THE-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THING",
+        "roles": {
+          "ASSOC-POSS": "#V438408",
+          "LEX": "THINGS",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 5,
+        "end": 16
+      },
+      "V438408": {
+        "id": "V438408",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "HER",
+        "roles": {
+          "LEX": "HER",
+          "PROFORM": "HER",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 5,
+        "end": 16
+      },
+      "V438438": {
+        "id": "V438438",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V438500",
+          "FIGURE": "#V438413",
+          "LEX": "IN"
+        },
+        "start": 21,
+        "end": 33
+      },
+      "V438500": {
+        "id": "V438500",
+        "indicator": "THE",
+        "type": "INTERNAL-ENCLOSURE",
+        "word": "ROOM",
+        "roles": {
+          "LEX": "ROOM",
+          "WNSENSE": "room%1:06:00::"
+        },
+        "start": 24,
+        "end": 33
+      },
+      "V438503": {
+        "id": "V438503",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 33,
+        "end": 36
+      },
+      "V438534": {
+        "id": "V438534",
+        "indicator": "INDEF-SET",
+        "type": "CONTENT",
+        "word": "GOODBYE",
+        "roles": {
+          "LEX": "GOODBYE",
+          "WNSENSE": "goodbye%1:10:00::"
+        },
+        "start": 41,
+        "end": 49
+      },
+      "root": "#V439926"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V439923": {
+          "id": "V439923",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V439051",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V439051": {
+          "id": "V439051",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V438510",
+            "SEQUENCE1": "#V438564",
+            "TIME": "#V438399",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 57
+        },
+        "V438564": {
+          "id": "V438564",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V438503",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:38:01::"
+          },
+          "start": 0,
+          "end": 57
+        },
+        "V438510": {
+          "id": "V438510",
+          "indicator": "F",
+          "type": "SAY",
+          "word": "SAY",
+          "roles": {
+            "AGENT": "#V438503",
+            "NEUTRAL": "#V438534",
+            "LEX": "SAID",
+            "WNSENSE": "say%2:32:01::"
+          },
+          "start": 0,
+          "end": 57
+        },
+        "V438399": {
+          "id": "V438399",
+          "indicator": "F",
+          "type": "EVENT-EVENT-TIME",
+          "word": "ONCE",
+          "roles": {
+            "GROUND": "#V438420",
+            "FIGURE": "#V439051",
+            "LEX": "ONCE",
+            "WNSENSE": "once%4:02:00::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V438420": {
+          "id": "V438420",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V438413",
+            "FORMAL": "#V438438",
+            "TENSE": "PAST",
+            "LEX": "WERE",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 5,
+          "end": 33
+        },
+        "V438413": {
+          "id": "V438413",
+          "indicator": "THE-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THING",
+          "roles": {
+            "ASSOC-POSS": "#V438408",
+            "LEX": "THINGS",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 5,
+          "end": 16
+        },
+        "V438408": {
+          "id": "V438408",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 5,
+          "end": 16
+        },
+        "V438438": {
+          "id": "V438438",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V438500",
+            "FIGURE": "#V438413",
+            "LEX": "IN"
+          },
+          "start": 21,
+          "end": 33
+        },
+        "V438500": {
+          "id": "V438500",
+          "indicator": "THE",
+          "type": "INTERNAL-ENCLOSURE",
+          "word": "ROOM",
+          "roles": {
+            "LEX": "ROOM",
+            "WNSENSE": "room%1:06:00::"
+          },
+          "start": 24,
+          "end": 33
+        },
+        "V438503": {
+          "id": "V438503",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 33,
+          "end": 36
+        },
+        "V438534": {
+          "id": "V438534",
+          "indicator": "INDEF-SET",
+          "type": "CONTENT",
+          "word": "GOODBYE",
+          "roles": {
+            "LEX": "GOODBYE",
+            "WNSENSE": "goodbye%1:10:00::"
+          },
+          "start": 41,
+          "end": 49
+        },
+        "root": "#V439923"
+      }
+    ],
+    [
+      {
+        "V439920": {
+          "id": "V439920",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V439053",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V439053": {
+          "id": "V439053",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V438515",
+            "SEQUENCE1": "#V438564",
+            "TIME": "#V438399",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 57
+        },
+        "V438564": {
+          "id": "V438564",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V438503",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:38:01::"
+          },
+          "start": 0,
+          "end": 57
+        },
+        "V438515": {
+          "id": "V438515",
+          "indicator": "F",
+          "type": "LOCUTION",
+          "word": "SAY",
+          "roles": {
+            "AGENT": "#V438503",
+            "NEUTRAL": "#V438534",
+            "LEX": "SAID",
+            "WNSENSE": "say%2:32:02::"
+          },
+          "start": 0,
+          "end": 57
+        },
+        "V438399": {
+          "id": "V438399",
+          "indicator": "F",
+          "type": "EVENT-EVENT-TIME",
+          "word": "ONCE",
+          "roles": {
+            "GROUND": "#V438420",
+            "FIGURE": "#V439053",
+            "LEX": "ONCE",
+            "WNSENSE": "once%4:02:00::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V438420": {
+          "id": "V438420",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V438413",
+            "FORMAL": "#V438438",
+            "TENSE": "PAST",
+            "LEX": "WERE",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 5,
+          "end": 33
+        },
+        "V438413": {
+          "id": "V438413",
+          "indicator": "THE-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THING",
+          "roles": {
+            "ASSOC-POSS": "#V438408",
+            "LEX": "THINGS",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 5,
+          "end": 16
+        },
+        "V438408": {
+          "id": "V438408",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 5,
+          "end": 16
+        },
+        "V438438": {
+          "id": "V438438",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V438500",
+            "FIGURE": "#V438413",
+            "LEX": "IN"
+          },
+          "start": 21,
+          "end": 33
+        },
+        "V438500": {
+          "id": "V438500",
+          "indicator": "THE",
+          "type": "INTERNAL-ENCLOSURE",
+          "word": "ROOM",
+          "roles": {
+            "LEX": "ROOM",
+            "WNSENSE": "room%1:06:00::"
+          },
+          "start": 24,
+          "end": 33
+        },
+        "V438503": {
+          "id": "V438503",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 33,
+          "end": 36
+        },
+        "V438534": {
+          "id": "V438534",
+          "indicator": "INDEF-SET",
+          "type": "CONTENT",
+          "word": "GOODBYE",
+          "roles": {
+            "LEX": "GOODBYE",
+            "WNSENSE": "goodbye%1:10:00::"
+          },
+          "start": 41,
+          "end": 49
+        },
+        "root": "#V439920"
+      }
+    ],
+    [
+      {
+        "V439917": {
+          "id": "V439917",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V439059",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V439059": {
+          "id": "V439059",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V438510",
+            "SEQUENCE1": "#V438564",
+            "TIME": "#V438399",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 57
+        },
+        "V438564": {
+          "id": "V438564",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V438503",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:38:01::"
+          },
+          "start": 0,
+          "end": 57
+        },
+        "V438510": {
+          "id": "V438510",
+          "indicator": "F",
+          "type": "SAY",
+          "word": "SAY",
+          "roles": {
+            "AGENT": "#V438503",
+            "NEUTRAL": "#V438534",
+            "LEX": "SAID",
+            "WNSENSE": "say%2:32:01::"
+          },
+          "start": 0,
+          "end": 57
+        },
+        "V438399": {
+          "id": "V438399",
+          "indicator": "F",
+          "type": "EVENT-EVENT-TIME",
+          "word": "ONCE",
+          "roles": {
+            "GROUND": "#V438420",
+            "FIGURE": "#V439059",
+            "LEX": "ONCE",
+            "WNSENSE": "once%4:02:00::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V438420": {
+          "id": "V438420",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V438413",
+            "FORMAL": "#V438438",
+            "TENSE": "PAST",
+            "LEX": "WERE",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 5,
+          "end": 33
+        },
+        "V438413": {
+          "id": "V438413",
+          "indicator": "THE-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THING",
+          "roles": {
+            "ASSOC-POSS": "#V438408",
+            "LEX": "THINGS",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 5,
+          "end": 16
+        },
+        "V438408": {
+          "id": "V438408",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 5,
+          "end": 16
+        },
+        "V438438": {
+          "id": "V438438",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V438500",
+            "FIGURE": "#V438413",
+            "LEX": "IN"
+          },
+          "start": 21,
+          "end": 33
+        },
+        "V438500": {
+          "id": "V438500",
+          "indicator": "THE",
+          "type": "INTERNAL-ENCLOSURE",
+          "word": "ROOM",
+          "roles": {
+            "LEX": "ROOM",
+            "WNSENSE": "room%1:06:00::"
+          },
+          "start": 24,
+          "end": 33
+        },
+        "V438503": {
+          "id": "V438503",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 33,
+          "end": 36
+        },
+        "V438534": {
+          "id": "V438534",
+          "indicator": "INDEF-SET",
+          "type": "CONTENT",
+          "word": "GOODBYE",
+          "roles": {
+            "LEX": "GOODBYE",
+            "WNSENSE": "goodbye%1:10:00::"
+          },
+          "start": 41,
+          "end": 49
+        },
+        "root": "#V439917"
+      }
+    ]
+  ],
+  "sentence": "Once her things were in the room he said goodbye and left.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190726T110330",
+    "link": "http://trips.ihmc.us/parser/saved/20190726T110330-STEP-abhatia-none-Once_her_things_were_in_the_room_he_said.xml",
+    "judgement": -1
+  }
+}

@@ -1,0 +1,497 @@
+{
+  "parse": [
+    {
+      "V38611": {
+        "id": "V38611",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V38129",
+          "LEX": "REMEMBER"
+        },
+        "start": 0,
+        "end": 36
+      },
+      "V38129": {
+        "id": "V38129",
+        "indicator": "F",
+        "type": "REMEMBER",
+        "word": "REMEMBER",
+        "roles": {
+          "AGENT": "#V38114",
+          "FORMAL": "#V38144",
+          "TIME": "#V38149",
+          "TENSE": "PRES",
+          "LEX": "REMEMBER",
+          "WNSENSE": "remember%2:31:00::"
+        },
+        "start": 0,
+        "end": 36
+      },
+      "V38114": {
+        "id": "V38114",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V38144": {
+        "id": "V38144",
+        "indicator": "THE",
+        "type": "QUANTITY",
+        "word": null,
+        "roles": {
+          "UNIT": "(:* DAY-DURATION DAY)",
+          "SCALE": "DURATION-SCALE",
+          "LEX": "DAY",
+          "WNSENSE": "day%1:28:00::"
+        },
+        "start": 11,
+        "end": 19
+      },
+      "V38149": {
+        "id": "V38149",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V38178",
+          "FIGURE": "#V38129",
+          "LEX": "WHEN"
+        },
+        "start": 19,
+        "end": 36
+      },
+      "V38178": {
+        "id": "V38178",
+        "indicator": "F",
+        "type": "MEET",
+        "word": "MEET",
+        "roles": {
+          "AGENT": "#V38162",
+          "MOD": "#V38168",
+          "TENSE": "PAST",
+          "LEX": "MET",
+          "WNSENSE": "meet%2:38:01::"
+        },
+        "start": 24,
+        "end": 36
+      },
+      "V38162": {
+        "id": "V38162",
+        "indicator": "PRO-SET",
+        "type": "PERSON",
+        "word": "WE",
+        "roles": {
+          "PROFORM": "WE",
+          "LEX": "WE",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "US"
+        },
+        "start": 24,
+        "end": 27
+      },
+      "V38168": {
+        "id": "V38168",
+        "indicator": "F",
+        "type": "SEQUENCE-POSITION",
+        "word": "FIRST",
+        "roles": {
+          "FIGURE": "#V38178",
+          "LEX": "FIRST",
+          "WNSENSE": "first%4:02:00::"
+        },
+        "start": 27,
+        "end": 33
+      },
+      "root": "#V38611"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V38707": {
+          "id": "V38707",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V38129",
+            "LEX": "REMEMBER"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V38129": {
+          "id": "V38129",
+          "indicator": "F",
+          "type": "REMEMBER",
+          "word": "REMEMBER",
+          "roles": {
+            "AGENT": "#V38114",
+            "FORMAL": "#V38452",
+            "TIME": "#V38149",
+            "TENSE": "PRES",
+            "LEX": "REMEMBER",
+            "WNSENSE": "remember%2:31:00::"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V38114": {
+          "id": "V38114",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V38452": {
+          "id": "V38452",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V38144",
+            "LEX": "DAY"
+          },
+          "start": 11,
+          "end": 19
+        },
+        "V38144": {
+          "id": "V38144",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 11,
+          "end": 19
+        },
+        "V38149": {
+          "id": "V38149",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V38178",
+            "FIGURE": "#V38129",
+            "LEX": "WHEN"
+          },
+          "start": 19,
+          "end": 36
+        },
+        "V38178": {
+          "id": "V38178",
+          "indicator": "F",
+          "type": "MEET",
+          "word": "MEET",
+          "roles": {
+            "AGENT": "#V38162",
+            "MOD": "#V38168",
+            "TENSE": "PAST",
+            "LEX": "MET",
+            "WNSENSE": "meet%2:38:01::"
+          },
+          "start": 24,
+          "end": 36
+        },
+        "V38162": {
+          "id": "V38162",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 24,
+          "end": 27
+        },
+        "V38168": {
+          "id": "V38168",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "FIRST",
+          "roles": {
+            "FIGURE": "#V38178",
+            "LEX": "FIRST",
+            "WNSENSE": "first%4:02:00::"
+          },
+          "start": 27,
+          "end": 33
+        },
+        "root": "#V38707"
+      }
+    ],
+    [
+      {
+        "V38839": {
+          "id": "V38839",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V38129",
+            "LEX": "REMEMBER"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V38129": {
+          "id": "V38129",
+          "indicator": "F",
+          "type": "REMEMBER",
+          "word": "REMEMBER",
+          "roles": {
+            "AGENT": "#V38114",
+            "FORMAL": "#V38450",
+            "TIME": "#V38149",
+            "TENSE": "PRES",
+            "LEX": "REMEMBER",
+            "WNSENSE": "remember%2:31:00::"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V38114": {
+          "id": "V38114",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V38450": {
+          "id": "V38450",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "QUANTITY": "#V38144",
+            "LEX": "DAY"
+          },
+          "start": 11,
+          "end": 19
+        },
+        "V38144": {
+          "id": "V38144",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 11,
+          "end": 19
+        },
+        "V38149": {
+          "id": "V38149",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V38178",
+            "FIGURE": "#V38129",
+            "LEX": "WHEN"
+          },
+          "start": 19,
+          "end": 36
+        },
+        "V38178": {
+          "id": "V38178",
+          "indicator": "F",
+          "type": "MEET",
+          "word": "MEET",
+          "roles": {
+            "AGENT": "#V38162",
+            "MOD": "#V38168",
+            "TENSE": "PAST",
+            "LEX": "MET",
+            "WNSENSE": "meet%2:38:01::"
+          },
+          "start": 24,
+          "end": 36
+        },
+        "V38162": {
+          "id": "V38162",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 24,
+          "end": 27
+        },
+        "V38168": {
+          "id": "V38168",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "FIRST",
+          "roles": {
+            "FIGURE": "#V38178",
+            "LEX": "FIRST",
+            "WNSENSE": "first%4:02:00::"
+          },
+          "start": 27,
+          "end": 33
+        },
+        "root": "#V38839"
+      }
+    ],
+    [
+      {
+        "V39034": {
+          "id": "V39034",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V38131",
+            "LEX": "REMEMBER"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V38131": {
+          "id": "V38131",
+          "indicator": "F",
+          "type": "REMEMBER",
+          "word": "REMEMBER",
+          "roles": {
+            "AGENT": "#V38114",
+            "TIME": "#V38149",
+            "TENSE": "PRES",
+            "LEX": "REMEMBER",
+            "WNSENSE": "remember%2:31:00::"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V38114": {
+          "id": "V38114",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V38149": {
+          "id": "V38149",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "EXTENT": "#V38144",
+            "GROUND": "#V38178",
+            "FIGURE": "#V38131"
+          },
+          "start": 11,
+          "end": 36
+        },
+        "V38144": {
+          "id": "V38144",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 11,
+          "end": 19
+        },
+        "V38178": {
+          "id": "V38178",
+          "indicator": "F",
+          "type": "MEET",
+          "word": "MEET",
+          "roles": {
+            "AGENT": "#V38162",
+            "MOD": "#V38168",
+            "TENSE": "PAST",
+            "LEX": "MET",
+            "WNSENSE": "meet%2:38:01::"
+          },
+          "start": 24,
+          "end": 36
+        },
+        "V38162": {
+          "id": "V38162",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 24,
+          "end": 27
+        },
+        "V38168": {
+          "id": "V38168",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "FIRST",
+          "roles": {
+            "FIGURE": "#V38178",
+            "LEX": "FIRST",
+            "WNSENSE": "first%4:02:00::"
+          },
+          "start": 27,
+          "end": 33
+        },
+        "root": "#V39034"
+      }
+    ]
+  ],
+  "sentence": "I remember the day when we first met.",
+  "annotation": {
+    "judge": "lgalescu",
+    "parser": "STEP",
+    "timestamp": "20190715T180538",
+    "link": "http://trips.ihmc.us/parser/saved/20190715T180538-STEP-lgalescu-none-I_remember_the_day_when_we_first_met_.xml",
+    "judgement": -1
+  }
+}

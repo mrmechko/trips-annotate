@@ -1,0 +1,11 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V51910 [label=<<font color="green"><br /></font> <font color="black">SA_IDENTIFY</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_IDENTIFY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V51857 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">THING</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V51854 [label=<<font color="green"><br /></font> <font color="black">FRUIT</font> <font color="green"><br /></font> <font color="red">KIND</font> <font color="blue">BANANA</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FRUIT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V51910 -> V51857 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V51857 -> V51854 [label=" ASSOC-WITH   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

@@ -1,0 +1,417 @@
+{
+  "parse": [
+    {
+      "V42199": {
+        "id": "V42199",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V42108",
+          "LEX": "IS"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V42108": {
+        "id": "V42108",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V42099",
+          "NEUTRAL1": "#V42128",
+          "TENSE": "PRES",
+          "LEX": "IS",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V42099": {
+        "id": "V42099",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V42128": {
+        "id": "V42128",
+        "indicator": "THE",
+        "type": "PROFESSIONAL",
+        "word": "PRESIDENT",
+        "roles": {
+          "LEX": "PRESIDENT",
+          "WNSENSE": "president%1:18:01::"
+        },
+        "start": 6,
+        "end": 19
+      },
+      "root": "#V42199"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V42199": {
+          "id": "V42199",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V42108",
+            "LEX": "IS"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V42108": {
+          "id": "V42108",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V42099",
+            "NEUTRAL1": "#V42128",
+            "TENSE": "PRES",
+            "LEX": "IS",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V42099": {
+          "id": "V42099",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V42128": {
+          "id": "V42128",
+          "indicator": "THE",
+          "type": "PROFESSIONAL",
+          "word": "PRESIDENT",
+          "roles": {
+            "LEX": "PRESIDENT",
+            "WNSENSE": "president%1:18:01::"
+          },
+          "start": 6,
+          "end": 19
+        },
+        "root": "#V42199"
+      }
+    ],
+    [
+      [
+        {
+          "V42182": {
+            "id": "V42182",
+            "indicator": "SPEECHACT",
+            "type": "SA_IDENTIFY",
+            "word": null,
+            "roles": {
+              "CONTENT": "#V42099",
+              "LEX": "HE"
+            },
+            "start": 0,
+            "end": 3
+          },
+          "V42099": {
+            "id": "V42099",
+            "indicator": "PRO",
+            "type": "MALE-PERSON",
+            "word": "HE",
+            "roles": {
+              "PROFORM": "HE",
+              "LEX": "HE",
+              "WNSENSE": "man%1:18:00"
+            },
+            "start": 0,
+            "end": 3
+          },
+          "root": "#V42182"
+        },
+        {
+          "V42223": {
+            "id": "V42223",
+            "indicator": "SPEECHACT",
+            "type": "SA_YN-QUESTION",
+            "word": null,
+            "roles": {
+              "PUNCTYPE": "DECL",
+              "CONTENT": "#V42104",
+              "LEX": "IS"
+            },
+            "start": 3,
+            "end": 20
+          },
+          "V42104": {
+            "id": "V42104",
+            "indicator": "F",
+            "type": "ELLIPSIS",
+            "word": null,
+            "roles": {
+              "NEUTRAL": "#V42128",
+              "TENSE": "PRES",
+              "PROGR": "+",
+              "LEX": "IS"
+            },
+            "start": 3,
+            "end": 19
+          },
+          "V42128": {
+            "id": "V42128",
+            "indicator": "THE",
+            "type": "PROFESSIONAL",
+            "word": "PRESIDENT",
+            "roles": {
+              "LEX": "PRESIDENT",
+              "WNSENSE": "president%1:18:01::"
+            },
+            "start": 6,
+            "end": 19
+          },
+          "root": "#V42223"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "V42099": {
+            "id": "V42099",
+            "indicator": "PRO",
+            "type": "MALE-PERSON",
+            "word": "HE",
+            "roles": {
+              "PROFORM": "HE",
+              "LEX": "HE",
+              "WNSENSE": "man%1:18:00"
+            },
+            "start": 0,
+            "end": 3
+          },
+          "root": "#V42099"
+        },
+        {
+          "V42223": {
+            "id": "V42223",
+            "indicator": "SPEECHACT",
+            "type": "SA_YN-QUESTION",
+            "word": null,
+            "roles": {
+              "PUNCTYPE": "DECL",
+              "CONTENT": "#V42104",
+              "LEX": "IS"
+            },
+            "start": 3,
+            "end": 20
+          },
+          "V42104": {
+            "id": "V42104",
+            "indicator": "F",
+            "type": "ELLIPSIS",
+            "word": null,
+            "roles": {
+              "NEUTRAL": "#V42128",
+              "TENSE": "PRES",
+              "PROGR": "+",
+              "LEX": "IS"
+            },
+            "start": 3,
+            "end": 19
+          },
+          "V42128": {
+            "id": "V42128",
+            "indicator": "THE",
+            "type": "PROFESSIONAL",
+            "word": "PRESIDENT",
+            "roles": {
+              "LEX": "PRESIDENT",
+              "WNSENSE": "president%1:18:01::"
+            },
+            "start": 6,
+            "end": 19
+          },
+          "root": "#V42223"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "V42182": {
+            "id": "V42182",
+            "indicator": "SPEECHACT",
+            "type": "SA_IDENTIFY",
+            "word": null,
+            "roles": {
+              "CONTENT": "#V42099",
+              "LEX": "HE"
+            },
+            "start": 0,
+            "end": 3
+          },
+          "V42099": {
+            "id": "V42099",
+            "indicator": "PRO",
+            "type": "MALE-PERSON",
+            "word": "HE",
+            "roles": {
+              "PROFORM": "HE",
+              "LEX": "HE",
+              "WNSENSE": "man%1:18:00"
+            },
+            "start": 0,
+            "end": 3
+          },
+          "root": "#V42182"
+        },
+        {
+          "V42223": {
+            "id": "V42223",
+            "indicator": "SPEECHACT",
+            "type": "SA_YN-QUESTION",
+            "word": null,
+            "roles": {
+              "CONTENT": "#V42104",
+              "LEX": "IS"
+            },
+            "start": 3,
+            "end": 19
+          },
+          "V42104": {
+            "id": "V42104",
+            "indicator": "F",
+            "type": "ELLIPSIS",
+            "word": null,
+            "roles": {
+              "NEUTRAL": "#V42128",
+              "TENSE": "PRES",
+              "PROGR": "+",
+              "LEX": "IS"
+            },
+            "start": 3,
+            "end": 19
+          },
+          "V42128": {
+            "id": "V42128",
+            "indicator": "THE",
+            "type": "PROFESSIONAL",
+            "word": "PRESIDENT",
+            "roles": {
+              "LEX": "PRESIDENT",
+              "WNSENSE": "president%1:18:01::"
+            },
+            "start": 6,
+            "end": 19
+          },
+          "root": "#V42223"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "V42099": {
+            "id": "V42099",
+            "indicator": "PRO",
+            "type": "MALE-PERSON",
+            "word": "HE",
+            "roles": {
+              "PROFORM": "HE",
+              "LEX": "HE",
+              "WNSENSE": "man%1:18:00"
+            },
+            "start": 0,
+            "end": 3
+          },
+          "root": "#V42099"
+        },
+        {
+          "V42223": {
+            "id": "V42223",
+            "indicator": "SPEECHACT",
+            "type": "SA_YN-QUESTION",
+            "word": null,
+            "roles": {
+              "CONTENT": "#V42104",
+              "LEX": "IS"
+            },
+            "start": 3,
+            "end": 19
+          },
+          "V42104": {
+            "id": "V42104",
+            "indicator": "F",
+            "type": "ELLIPSIS",
+            "word": null,
+            "roles": {
+              "NEUTRAL": "#V42128",
+              "TENSE": "PRES",
+              "PROGR": "+",
+              "LEX": "IS"
+            },
+            "start": 3,
+            "end": 19
+          },
+          "V42128": {
+            "id": "V42128",
+            "indicator": "THE",
+            "type": "PROFESSIONAL",
+            "word": "PRESIDENT",
+            "roles": {
+              "LEX": "PRESIDENT",
+              "WNSENSE": "president%1:18:01::"
+            },
+            "start": 6,
+            "end": 19
+          },
+          "root": "#V42223"
+        }
+      ]
+    ],
+    [
+      {
+        "root": "#NIL"
+      }
+    ],
+    [
+      {
+        "root": "#NIL"
+      }
+    ],
+    [
+      {
+        "root": "#NIL"
+      }
+    ],
+    [
+      {
+        "root": "#NIL"
+      }
+    ]
+  ],
+  "sentence": "He is the president.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190823T104026",
+    "link": "http://trips.ihmc.us/parser/saved/20190823T104026-STEP-abhatia-0-He_is_the_president_.xml",
+    "judgement": 0
+  }
+}

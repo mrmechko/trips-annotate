@@ -1,0 +1,25 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V181255 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V180784 [label=<<font color="green"><br /></font> <font color="black">CONJUNCT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BUT</font> <font color="green"><br /></font> <font color="green">but%4:02:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::CONJUNCT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V180801 [label=<<font color="green"><br /></font> <font color="black">ASK-QUESTION</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">INQUIRE</font> <font color="green"><br /></font> <font color="green">inquire%2:31:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ASK-QUESTION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V180796 [label=<<font color="green"><br /></font> <font color="black">FAMILY-RELATION</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">DAD</font> <font color="green"><br /></font> <font color="green">dad%1:18:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FAMILY-RELATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V180790 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HIS</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V180809 [label=<<font color="green"><br /></font> <font color="black">ASSOCIATED-INFORMATION</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">ABOUT</font> <font color="green"><br /></font> <font color="green">about%4:02:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ASSOCIATED-INFORMATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V180828 [label=<<font color="green"><br /></font> <font color="black">CHART</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">PIE</font> <font color="green"><br /></font> <font color="green">chart%1:10:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::CHART.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V180825 [label=<<font color="green"><br /></font> <font color="black">FRUIT</font> <font color="green"><br /></font> <font color="red">KIND</font> <font color="blue">APPLE</font> <font color="green"><br /></font> <font color="green">apple%1:13:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FRUIT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V180820 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HIS</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V180784 -> V181255 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V180801 -> V180796 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V181255 -> V180801 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V180801 -> V180809 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V181255 -> V180784 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V180796 -> V180790 [label=" ASSOC-POSS   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V180828 -> V180820 [label=" ASSOC-POSS   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V180809 -> V180828 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V180809 -> V180801 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V180828 -> V180825 [label=" ASSOC-WITH   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

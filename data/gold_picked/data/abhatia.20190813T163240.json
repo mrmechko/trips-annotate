@@ -1,0 +1,1172 @@
+{
+  "parse": [
+    {
+      "V61548": {
+        "id": "V61548",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V61385",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 34
+      },
+      "V61385": {
+        "id": "V61385",
+        "indicator": "F",
+        "type": "EVENT-OF-CHANGE",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V60993",
+          "SEQUENCE1": "#V61050",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 34
+      },
+      "V61050": {
+        "id": "V61050",
+        "indicator": "F",
+        "type": "DECIDE",
+        "word": "DECIDE",
+        "roles": {
+          "AGENT": "#V60970",
+          "FORMAL": "#V61092",
+          "LEX": "DECIDED",
+          "WNSENSE": "decide%2:31:00::"
+        },
+        "start": 0,
+        "end": 34
+      },
+      "V60993": {
+        "id": "V60993",
+        "indicator": "F",
+        "type": "CONSUME",
+        "word": "TAKE",
+        "roles": {
+          "AGENT": "#V60970",
+          "AFFECTED": "#V61031",
+          "LEX": "TOOK",
+          "WNSENSE": "take%2:34:00::"
+        },
+        "start": 0,
+        "end": 34
+      },
+      "V60970": {
+        "id": "V60970",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "SHE",
+        "roles": {
+          "PROFORM": "SHE",
+          "LEX": "SHE",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V61031": {
+        "id": "V61031",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 9,
+        "end": 12
+      },
+      "V61092": {
+        "id": "V61092",
+        "indicator": "F",
+        "type": "READ",
+        "word": "READ",
+        "roles": {
+          "AGENT": "#V60970",
+          "FORMAL": "#V61105",
+          "VFORM": "BASE",
+          "LEX": "READ",
+          "WNSENSE": "read%2:31:00::"
+        },
+        "start": 24,
+        "end": 34
+      },
+      "V61105": {
+        "id": "V61105",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00",
+          "COREF": "#V61385"
+        },
+        "start": 32,
+        "end": 34
+      },
+      "root": "#V61548"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V61545": {
+          "id": "V61545",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V61381",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V61381": {
+          "id": "V61381",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V60995",
+            "SEQUENCE1": "#V61050",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V61050": {
+          "id": "V61050",
+          "indicator": "F",
+          "type": "DECIDE",
+          "word": "DECIDE",
+          "roles": {
+            "AGENT": "#V60970",
+            "FORMAL": "#V61092",
+            "LEX": "DECIDED",
+            "WNSENSE": "decide%2:31:00::"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V60995": {
+          "id": "V60995",
+          "indicator": "F",
+          "type": "TAKE-TIME",
+          "word": "TAKE",
+          "roles": {
+            "NEUTRAL": "#V60970",
+            "EXTENT": "#V61031",
+            "LEX": "TOOK",
+            "WNSENSE": "take%2:40:06::"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V60970": {
+          "id": "V60970",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V61031": {
+          "id": "V61031",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 9,
+          "end": 12
+        },
+        "V61092": {
+          "id": "V61092",
+          "indicator": "F",
+          "type": "READ",
+          "word": "READ",
+          "roles": {
+            "AGENT": "#V60970",
+            "FORMAL": "#V61105",
+            "VFORM": "BASE",
+            "LEX": "READ",
+            "WNSENSE": "read%2:31:00::"
+          },
+          "start": 24,
+          "end": 34
+        },
+        "V61105": {
+          "id": "V61105",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 32,
+          "end": 34
+        },
+        "root": "#V61545"
+      }
+    ],
+    [
+      {
+        "V61542": {
+          "id": "V61542",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V61379",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V61379": {
+          "id": "V61379",
+          "indicator": "F",
+          "type": "EVENT-OF-CHANGE",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V60998",
+            "SEQUENCE1": "#V61050",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V61050": {
+          "id": "V61050",
+          "indicator": "F",
+          "type": "DECIDE",
+          "word": "DECIDE",
+          "roles": {
+            "AGENT": "#V60970",
+            "FORMAL": "#V61092",
+            "LEX": "DECIDED",
+            "WNSENSE": "decide%2:31:00::"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V60998": {
+          "id": "V60998",
+          "indicator": "F",
+          "type": "CREATE",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V60970",
+            "AFFECTED-RESULT": "#V61031",
+            "LEX": "TOOK",
+            "WNSENSE": "make%2:36:00"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V60970": {
+          "id": "V60970",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V61031": {
+          "id": "V61031",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 9,
+          "end": 12
+        },
+        "V61092": {
+          "id": "V61092",
+          "indicator": "F",
+          "type": "READ",
+          "word": "READ",
+          "roles": {
+            "AGENT": "#V60970",
+            "FORMAL": "#V61105",
+            "VFORM": "BASE",
+            "LEX": "READ",
+            "WNSENSE": "read%2:31:00::"
+          },
+          "start": 24,
+          "end": 34
+        },
+        "V61105": {
+          "id": "V61105",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 32,
+          "end": 34
+        },
+        "root": "#V61542"
+      }
+    ],
+    [
+      {
+        "V61539": {
+          "id": "V61539",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V61377",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V61377": {
+          "id": "V61377",
+          "indicator": "F",
+          "type": "EVENT-OF-CHANGE",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V60999",
+            "SEQUENCE1": "#V61050",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V61050": {
+          "id": "V61050",
+          "indicator": "F",
+          "type": "DECIDE",
+          "word": "DECIDE",
+          "roles": {
+            "AGENT": "#V60970",
+            "FORMAL": "#V61092",
+            "LEX": "DECIDED",
+            "WNSENSE": "decide%2:31:00::"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V60999": {
+          "id": "V60999",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V60970",
+            "AFFECTED": "#V61031",
+            "LEX": "TOOK",
+            "WNSENSE": "take%2:30:01::"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V60970": {
+          "id": "V60970",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V61031": {
+          "id": "V61031",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 9,
+          "end": 12
+        },
+        "V61092": {
+          "id": "V61092",
+          "indicator": "F",
+          "type": "READ",
+          "word": "READ",
+          "roles": {
+            "AGENT": "#V60970",
+            "FORMAL": "#V61105",
+            "VFORM": "BASE",
+            "LEX": "READ",
+            "WNSENSE": "read%2:31:00::"
+          },
+          "start": 24,
+          "end": 34
+        },
+        "V61105": {
+          "id": "V61105",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 32,
+          "end": 34
+        },
+        "root": "#V61539"
+      }
+    ],
+    [
+      {
+        "V61551": {
+          "id": "V61551",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V61371",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V61371": {
+          "id": "V61371",
+          "indicator": "F",
+          "type": "EVENT-OF-CHANGE",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V61002",
+            "SEQUENCE1": "#V61050",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V61050": {
+          "id": "V61050",
+          "indicator": "F",
+          "type": "DECIDE",
+          "word": "DECIDE",
+          "roles": {
+            "AGENT": "#V60970",
+            "FORMAL": "#V61092",
+            "LEX": "DECIDED",
+            "WNSENSE": "decide%2:31:00::"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V61002": {
+          "id": "V61002",
+          "indicator": "F",
+          "type": "TAKE-EXECUTE",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V60970",
+            "FORMAL": "#V61031",
+            "LEX": "TOOK",
+            "WNSENSE": "take%2:41:04::"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V60970": {
+          "id": "V60970",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V61031": {
+          "id": "V61031",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 9,
+          "end": 12
+        },
+        "V61092": {
+          "id": "V61092",
+          "indicator": "F",
+          "type": "READ",
+          "word": "READ",
+          "roles": {
+            "AGENT": "#V60970",
+            "FORMAL": "#V61105",
+            "VFORM": "BASE",
+            "LEX": "READ",
+            "WNSENSE": "read%2:31:00::"
+          },
+          "start": 24,
+          "end": 34
+        },
+        "V61105": {
+          "id": "V61105",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 32,
+          "end": 34
+        },
+        "root": "#V61551"
+      }
+    ],
+    [
+      {
+        "V61561": {
+          "id": "V61561",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V61383",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V61383": {
+          "id": "V61383",
+          "indicator": "F",
+          "type": "EVENT-OF-CHANGE",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V60994",
+            "SEQUENCE1": "#V61050",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V61050": {
+          "id": "V61050",
+          "indicator": "F",
+          "type": "DECIDE",
+          "word": "DECIDE",
+          "roles": {
+            "AGENT": "#V60970",
+            "FORMAL": "#V61092",
+            "LEX": "DECIDED",
+            "WNSENSE": "decide%2:31:00::"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V60994": {
+          "id": "V60994",
+          "indicator": "F",
+          "type": "MOVE-BY-MEANS",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V60970",
+            "FORMAL": "#V61031",
+            "LEX": "TOOK",
+            "WNSENSE": "take%2:38:02::"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V60970": {
+          "id": "V60970",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V61031": {
+          "id": "V61031",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 9,
+          "end": 12
+        },
+        "V61092": {
+          "id": "V61092",
+          "indicator": "F",
+          "type": "READ",
+          "word": "READ",
+          "roles": {
+            "AGENT": "#V60970",
+            "FORMAL": "#V61105",
+            "VFORM": "BASE",
+            "LEX": "READ",
+            "WNSENSE": "read%2:31:00::"
+          },
+          "start": 24,
+          "end": 34
+        },
+        "V61105": {
+          "id": "V61105",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 32,
+          "end": 34
+        },
+        "root": "#V61561"
+      }
+    ],
+    [
+      {
+        "V61558": {
+          "id": "V61558",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V61375",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V61375": {
+          "id": "V61375",
+          "indicator": "F",
+          "type": "EVENT-OF-CHANGE",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V61000",
+            "SEQUENCE1": "#V61050",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V61050": {
+          "id": "V61050",
+          "indicator": "F",
+          "type": "DECIDE",
+          "word": "DECIDE",
+          "roles": {
+            "AGENT": "#V60970",
+            "FORMAL": "#V61092",
+            "LEX": "DECIDED",
+            "WNSENSE": "decide%2:31:00::"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V61000": {
+          "id": "V61000",
+          "indicator": "F",
+          "type": "CAUSE-MOVE",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V60970",
+            "AFFECTED": "#V61031",
+            "LEX": "TOOK",
+            "WNSENSE": "take%2:38:05::"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V60970": {
+          "id": "V60970",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V61031": {
+          "id": "V61031",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 9,
+          "end": 12
+        },
+        "V61092": {
+          "id": "V61092",
+          "indicator": "F",
+          "type": "READ",
+          "word": "READ",
+          "roles": {
+            "AGENT": "#V60970",
+            "FORMAL": "#V61105",
+            "VFORM": "BASE",
+            "LEX": "READ",
+            "WNSENSE": "read%2:31:00::"
+          },
+          "start": 24,
+          "end": 34
+        },
+        "V61105": {
+          "id": "V61105",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 32,
+          "end": 34
+        },
+        "root": "#V61558"
+      }
+    ],
+    [
+      {
+        "V61712": {
+          "id": "V61712",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V61038",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V61038": {
+          "id": "V61038",
+          "indicator": "F",
+          "type": "EVENT-OF-CHANGE",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V60993",
+            "SEQUENCE1": "#V61050",
+            "TENSE": "PAST",
+            "LEX": "AND",
+            "WNSENSE": "take%2:34:00::"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V60993": {
+          "id": "V60993",
+          "indicator": "F",
+          "type": "CONSUME",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V60970",
+            "AFFECTED": "#V61031",
+            "TENSE": "PAST",
+            "LEX": "TOOK",
+            "WNSENSE": "take%2:34:00::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V60970": {
+          "id": "V60970",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V61031": {
+          "id": "V61031",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 9,
+          "end": 12
+        },
+        "V61050": {
+          "id": "V61050",
+          "indicator": "F",
+          "type": "DECIDE",
+          "word": "DECIDE",
+          "roles": {
+            "AGENT": "#V60970",
+            "FORMAL": "#V61092",
+            "TENSE": "PAST",
+            "LEX": "DECIDED",
+            "WNSENSE": "decide%2:31:00::"
+          },
+          "start": 16,
+          "end": 34
+        },
+        "V61092": {
+          "id": "V61092",
+          "indicator": "F",
+          "type": "READ",
+          "word": "READ",
+          "roles": {
+            "AGENT": "#V60970",
+            "FORMAL": "#V61105",
+            "VFORM": "BASE",
+            "LEX": "READ",
+            "WNSENSE": "read%2:31:00::"
+          },
+          "start": 24,
+          "end": 34
+        },
+        "V61105": {
+          "id": "V61105",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 32,
+          "end": 34
+        },
+        "root": "#V61712"
+      }
+    ],
+    [
+      {
+        "V61709": {
+          "id": "V61709",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V61038",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V61038": {
+          "id": "V61038",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V60995",
+            "SEQUENCE1": "#V61050",
+            "TENSE": "PAST",
+            "LEX": "AND",
+            "WNSENSE": "take%2:40:06::"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V60995": {
+          "id": "V60995",
+          "indicator": "F",
+          "type": "TAKE-TIME",
+          "word": "TAKE",
+          "roles": {
+            "NEUTRAL": "#V60970",
+            "EXTENT": "#V61031",
+            "TENSE": "PAST",
+            "LEX": "TOOK",
+            "WNSENSE": "take%2:40:06::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V60970": {
+          "id": "V60970",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V61031": {
+          "id": "V61031",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 9,
+          "end": 12
+        },
+        "V61050": {
+          "id": "V61050",
+          "indicator": "F",
+          "type": "DECIDE",
+          "word": "DECIDE",
+          "roles": {
+            "AGENT": "#V60970",
+            "FORMAL": "#V61092",
+            "TENSE": "PAST",
+            "LEX": "DECIDED",
+            "WNSENSE": "decide%2:31:00::"
+          },
+          "start": 16,
+          "end": 34
+        },
+        "V61092": {
+          "id": "V61092",
+          "indicator": "F",
+          "type": "READ",
+          "word": "READ",
+          "roles": {
+            "AGENT": "#V60970",
+            "FORMAL": "#V61105",
+            "VFORM": "BASE",
+            "LEX": "READ",
+            "WNSENSE": "read%2:31:00::"
+          },
+          "start": 24,
+          "end": 34
+        },
+        "V61105": {
+          "id": "V61105",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 32,
+          "end": 34
+        },
+        "root": "#V61709"
+      }
+    ],
+    [
+      {
+        "V61706": {
+          "id": "V61706",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V61038",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V61038": {
+          "id": "V61038",
+          "indicator": "F",
+          "type": "EVENT-OF-CHANGE",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V60998",
+            "SEQUENCE1": "#V61050",
+            "TENSE": "PAST",
+            "LEX": "AND",
+            "WNSENSE": "make%2:36:00"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V60998": {
+          "id": "V60998",
+          "indicator": "F",
+          "type": "CREATE",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V60970",
+            "AFFECTED-RESULT": "#V61031",
+            "TENSE": "PAST",
+            "LEX": "TOOK",
+            "WNSENSE": "make%2:36:00"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V60970": {
+          "id": "V60970",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V61031": {
+          "id": "V61031",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 9,
+          "end": 12
+        },
+        "V61050": {
+          "id": "V61050",
+          "indicator": "F",
+          "type": "DECIDE",
+          "word": "DECIDE",
+          "roles": {
+            "AGENT": "#V60970",
+            "FORMAL": "#V61092",
+            "TENSE": "PAST",
+            "LEX": "DECIDED",
+            "WNSENSE": "decide%2:31:00::"
+          },
+          "start": 16,
+          "end": 34
+        },
+        "V61092": {
+          "id": "V61092",
+          "indicator": "F",
+          "type": "READ",
+          "word": "READ",
+          "roles": {
+            "AGENT": "#V60970",
+            "FORMAL": "#V61105",
+            "VFORM": "BASE",
+            "LEX": "READ",
+            "WNSENSE": "read%2:31:00::"
+          },
+          "start": 24,
+          "end": 34
+        },
+        "V61105": {
+          "id": "V61105",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 32,
+          "end": 34
+        },
+        "root": "#V61706"
+      }
+    ]
+  ],
+  "sentence": "She took it and decided to read it.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190813T163240",
+    "link": "http://trips.ihmc.us/parser/saved/20190813T163240-STEP-abhatia-0-She_took_it_and_decided_to_read_it_.xml",
+    "judgement": 0
+  }
+}

@@ -1,0 +1,24 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V98736 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V97717 [label=<<font color="green"><br /></font> <font color="black">SITUATION-ROOT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SITUATION-ROOT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V97543 [label=<<font color="green"><br /></font> <font color="black">SPEND-TIME</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">SPEND</font> <font color="green"><br /></font> <font color="green">spend%2:42:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SPEND-TIME.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V97489 [label=<<font color="green"><br /></font> <font color="black">PURCHASE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BUY</font> <font color="green"><br /></font> <font color="green">buy%2:40:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PURCHASE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V97473 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">MATT</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V97532 [label=<<font color="green"><br /></font> <font color="black">GAME</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">GAME</font> <font color="green"><br /></font> <font color="green">game%1:04:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GAME.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V97617 [label=<<font color="green"><br /></font> <font color="black">MONEY</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">MONEY</font> <font color="green"><br /></font> <font color="green">change%1:21:03</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MONEY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V97574 [label=<<font color="green"><br /></font> <font color="black">MONEY</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">MONEY</font> <font color="green"><br /></font> <font color="green">change%1:21:03</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MONEY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V97569 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HIS</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V97617 -> V97574 [label=" REFSET   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V97574 -> V97569 [label=" ASSOC-POSS   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V97489 -> V97532 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V97489 -> V97473 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V97543 -> V97617 [label=" EXTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V97717 -> V97543 [label=" SEQUENCE1   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V98736 -> V97717 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V97717 -> V97489 [label=" SEQUENCE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V97543 -> V97473 [label=" NEUTRAL   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

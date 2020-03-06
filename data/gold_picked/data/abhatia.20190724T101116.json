@@ -1,0 +1,565 @@
+{
+  "parse": [
+    {
+      "V231837": {
+        "id": "V231837",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V230627",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 43
+      },
+      "V230627": {
+        "id": "V230627",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V230619",
+          "FORMAL": "#V230645",
+          "TENSE": "PAST",
+          "LEX": "WAS",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 0,
+        "end": 43
+      },
+      "V230619": {
+        "id": "V230619",
+        "indicator": "THE",
+        "type": "GEOGRAPHIC-REGION",
+        "word": "AMY",
+        "roles": {
+          "NAME-OF": "AMY",
+          "LEX": "AMY",
+          "WNSENSE": "north_america%1:14:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V230645": {
+        "id": "V230645",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V230687",
+          "FIGURE": "#V230619",
+          "LEX": "ON",
+          "WNSENSE": "on%4:02:00::"
+        },
+        "start": 8,
+        "end": 43
+      },
+      "V230687": {
+        "id": "V230687",
+        "indicator": "BARE",
+        "type": "RENDER-INEFFECTIVE",
+        "word": "BREAK",
+        "roles": {
+          "AFFECTED": "#V230669",
+          "MOD": "#V230708",
+          "LEX": "BREAK",
+          "WNSENSE": "break%2:30:05::"
+        },
+        "start": 11,
+        "end": 43
+      },
+      "V230669": {
+        "id": "V230669",
+        "indicator": "BARE",
+        "type": "MEAL-EVENT",
+        "word": "LUNCH",
+        "roles": {
+          "LEX": "LUNCH"
+        },
+        "start": 11,
+        "end": 17
+      },
+      "V230708": {
+        "id": "V230708",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V230806",
+          "FIGURE": "#V230687",
+          "LEX": "WITH"
+        },
+        "start": 23,
+        "end": 43
+      },
+      "V230806": {
+        "id": "V230806",
+        "indicator": "THE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "ASSOC-POSS": "#V230801",
+          "IDENTIFIED-AS": "#V230820",
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 28,
+        "end": 43
+      },
+      "V230801": {
+        "id": "V230801",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "HER",
+        "roles": {
+          "LEX": "HER",
+          "PROFORM": "HER",
+          "WNSENSE": "woman%1:18:00",
+          "COREF": "#V230820"
+        },
+        "start": 28,
+        "end": 43
+      },
+      "V230820": {
+        "id": "V230820",
+        "indicator": "THE",
+        "type": "PERSON",
+        "word": "BETH",
+        "roles": {
+          "NAME-OF": "BETH",
+          "LEX": "BETH",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 39,
+        "end": 43
+      },
+      "root": "#V231837"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V231814": {
+          "id": "V231814",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V230627",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 44
+        },
+        "V230627": {
+          "id": "V230627",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V230616",
+            "FORMAL": "#V230645",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V230616": {
+          "id": "V230616",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "AMY",
+          "roles": {
+            "NAME-OF": "AMY",
+            "LEX": "AMY",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V230645": {
+          "id": "V230645",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V230683",
+            "FIGURE": "#V230616",
+            "LEX": "ON",
+            "WNSENSE": "on%4:02:00::"
+          },
+          "start": 8,
+          "end": 43
+        },
+        "V230683": {
+          "id": "V230683",
+          "indicator": "BARE",
+          "type": "STOP",
+          "word": "BREAK",
+          "roles": {
+            "AFFECTED": "#V230669",
+            "MOD": "#V230708",
+            "LEX": "BREAK",
+            "WNSENSE": "break%2:30:03::"
+          },
+          "start": 11,
+          "end": 43
+        },
+        "V230669": {
+          "id": "V230669",
+          "indicator": "BARE",
+          "type": "MEAL-EVENT",
+          "word": "LUNCH",
+          "roles": {
+            "LEX": "LUNCH"
+          },
+          "start": 11,
+          "end": 17
+        },
+        "V230708": {
+          "id": "V230708",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V230806",
+            "FIGURE": "#V230683",
+            "LEX": "WITH"
+          },
+          "start": 23,
+          "end": 43
+        },
+        "V230806": {
+          "id": "V230806",
+          "indicator": "THE",
+          "type": "FRIEND",
+          "word": "FRIEND",
+          "roles": {
+            "ASSOC-POSS": "#V230801",
+            "IDENTIFIED-AS": "#V230820",
+            "LEX": "FRIEND",
+            "WNSENSE": "friend%1:18:00::"
+          },
+          "start": 28,
+          "end": 43
+        },
+        "V230801": {
+          "id": "V230801",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 43
+        },
+        "V230820": {
+          "id": "V230820",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "BETH",
+          "roles": {
+            "NAME-OF": "BETH",
+            "LEX": "BETH",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 39,
+          "end": 43
+        },
+        "root": "#V231814"
+      }
+    ],
+    [
+      {
+        "V231811": {
+          "id": "V231811",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V230627",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 44
+        },
+        "V230627": {
+          "id": "V230627",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V230619",
+            "FORMAL": "#V230645",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V230619": {
+          "id": "V230619",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "AMY",
+          "roles": {
+            "NAME-OF": "AMY",
+            "LEX": "AMY",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V230645": {
+          "id": "V230645",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V230683",
+            "FIGURE": "#V230619",
+            "LEX": "ON",
+            "WNSENSE": "on%4:02:00::"
+          },
+          "start": 8,
+          "end": 43
+        },
+        "V230683": {
+          "id": "V230683",
+          "indicator": "BARE",
+          "type": "STOP",
+          "word": "BREAK",
+          "roles": {
+            "AFFECTED": "#V230669",
+            "MOD": "#V230708",
+            "LEX": "BREAK",
+            "WNSENSE": "break%2:30:03::"
+          },
+          "start": 11,
+          "end": 43
+        },
+        "V230669": {
+          "id": "V230669",
+          "indicator": "BARE",
+          "type": "MEAL-EVENT",
+          "word": "LUNCH",
+          "roles": {
+            "LEX": "LUNCH"
+          },
+          "start": 11,
+          "end": 17
+        },
+        "V230708": {
+          "id": "V230708",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V230806",
+            "FIGURE": "#V230683",
+            "LEX": "WITH"
+          },
+          "start": 23,
+          "end": 43
+        },
+        "V230806": {
+          "id": "V230806",
+          "indicator": "THE",
+          "type": "FRIEND",
+          "word": "FRIEND",
+          "roles": {
+            "ASSOC-POSS": "#V230801",
+            "IDENTIFIED-AS": "#V230820",
+            "LEX": "FRIEND",
+            "WNSENSE": "friend%1:18:00::"
+          },
+          "start": 28,
+          "end": 43
+        },
+        "V230801": {
+          "id": "V230801",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 43
+        },
+        "V230820": {
+          "id": "V230820",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "BETH",
+          "roles": {
+            "NAME-OF": "BETH",
+            "LEX": "BETH",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 39,
+          "end": 43
+        },
+        "root": "#V231811"
+      }
+    ],
+    [
+      {
+        "V231788": {
+          "id": "V231788",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V230627",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 44
+        },
+        "V230627": {
+          "id": "V230627",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V230616",
+            "FORMAL": "#V230645",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V230616": {
+          "id": "V230616",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "AMY",
+          "roles": {
+            "NAME-OF": "AMY",
+            "LEX": "AMY",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V230645": {
+          "id": "V230645",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V230686",
+            "FIGURE": "#V230616",
+            "LEX": "ON",
+            "WNSENSE": "on%4:02:00::"
+          },
+          "start": 8,
+          "end": 43
+        },
+        "V230686": {
+          "id": "V230686",
+          "indicator": "BARE",
+          "type": "RENDER-INEFFECTIVE",
+          "word": "BREAK",
+          "roles": {
+            "AFFECTED": "#V230669",
+            "MOD": "#V230708",
+            "LEX": "BREAK",
+            "WNSENSE": "break%2:30:05::"
+          },
+          "start": 11,
+          "end": 43
+        },
+        "V230669": {
+          "id": "V230669",
+          "indicator": "BARE",
+          "type": "MEAL-EVENT",
+          "word": "LUNCH",
+          "roles": {
+            "LEX": "LUNCH"
+          },
+          "start": 11,
+          "end": 17
+        },
+        "V230708": {
+          "id": "V230708",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V230806",
+            "FIGURE": "#V230686",
+            "LEX": "WITH"
+          },
+          "start": 23,
+          "end": 43
+        },
+        "V230806": {
+          "id": "V230806",
+          "indicator": "THE",
+          "type": "FRIEND",
+          "word": "FRIEND",
+          "roles": {
+            "ASSOC-POSS": "#V230801",
+            "IDENTIFIED-AS": "#V230820",
+            "LEX": "FRIEND",
+            "WNSENSE": "friend%1:18:00::"
+          },
+          "start": 28,
+          "end": 43
+        },
+        "V230801": {
+          "id": "V230801",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 43
+        },
+        "V230820": {
+          "id": "V230820",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "BETH",
+          "roles": {
+            "NAME-OF": "BETH",
+            "LEX": "BETH",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 39,
+          "end": 43
+        },
+        "root": "#V231788"
+      }
+    ]
+  ],
+  "sentence": "Amy was on lunch break with her friend Beth.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190724T101116",
+    "link": "http://trips.ihmc.us/parser/saved/20190724T101116-STEP-abhatia-none-Amy_was_on_lunch_break_with_her_friend_B.xml",
+    "judgement": -1
+  }
+}

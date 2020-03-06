@@ -1,0 +1,14 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V330930 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V330676 [label=<<font color="green"><br /></font> <font color="black">EVOKE-SURPRISE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">SURPRISE</font> <font color="green"><br /></font> <font color="green">surprise%1:11:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EVOKE-SURPRISE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V330902 [label=<<font color="green"><br /></font> <font color="black">SEQUENCE</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SEQUENCE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V330668 [label=<<font color="green"><br /></font> <font color="black">EVENT-TIME-INITIALLY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">INITIALLY</font> <font color="green"><br /></font> <font color="green">initially%4:02:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EVENT-TIME-INITIALLY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V330676 -> V330902 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V330668 -> V330676 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V330676 -> V330668 [label=" TIME   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V330930 -> V330676 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

@@ -1,0 +1,348 @@
+{
+  "parse": [
+    {
+      "V62557": {
+        "id": "V62557",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V62316",
+          "LEX": "WENT"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V62316": {
+        "id": "V62316",
+        "indicator": "F",
+        "type": "MOVE",
+        "word": "GO",
+        "roles": {
+          "RESULT": "#V62333",
+          "AGENT": "#V62295",
+          "TENSE": "PAST",
+          "LEX": "WENT",
+          "WNSENSE": "go%2:38:00::"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V62295": {
+        "id": "V62295",
+        "indicator": "THE",
+        "type": "GEOGRAPHIC-REGION",
+        "word": "HELEN",
+        "roles": {
+          "NAME-OF": "HELEN",
+          "LEX": "HELEN",
+          "WNSENSE": "north_america%1:14:00"
+        },
+        "start": 0,
+        "end": 6
+      },
+      "V62333": {
+        "id": "V62333",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V62398",
+          "FIGURE": "#V62295",
+          "LEX": "TO"
+        },
+        "start": 11,
+        "end": 28
+      },
+      "V62398": {
+        "id": "V62398",
+        "indicator": "A",
+        "type": "PRODUCTION-FACILITY",
+        "word": "FACTORY",
+        "roles": {
+          "ASSOC-WITH": "#V62395",
+          "LEX": "FACTORY",
+          "WNSENSE": "factory%1:06:00::"
+        },
+        "start": 14,
+        "end": 28
+      },
+      "V62395": {
+        "id": "V62395",
+        "indicator": "KIND",
+        "type": "MEAT",
+        "word": "MEAT",
+        "roles": {
+          "LEX": "MEAT",
+          "WNSENSE": "meat%1:13:01::"
+        },
+        "start": 14,
+        "end": 28
+      },
+      "root": "#V62557"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V62554": {
+          "id": "V62554",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V62316",
+            "LEX": "WENT"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V62316": {
+          "id": "V62316",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V62333",
+            "AGENT": "#V62292",
+            "TENSE": "PAST",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V62292": {
+          "id": "V62292",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "HELEN",
+          "roles": {
+            "NAME-OF": "HELEN",
+            "LEX": "HELEN",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V62333": {
+          "id": "V62333",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V62398",
+            "FIGURE": "#V62292",
+            "LEX": "TO"
+          },
+          "start": 11,
+          "end": 28
+        },
+        "V62398": {
+          "id": "V62398",
+          "indicator": "A",
+          "type": "PRODUCTION-FACILITY",
+          "word": "FACTORY",
+          "roles": {
+            "ASSOC-WITH": "#V62395",
+            "LEX": "FACTORY",
+            "WNSENSE": "factory%1:06:00::"
+          },
+          "start": 14,
+          "end": 28
+        },
+        "V62395": {
+          "id": "V62395",
+          "indicator": "KIND",
+          "type": "MEAT",
+          "word": "MEAT",
+          "roles": {
+            "LEX": "MEAT",
+            "WNSENSE": "meat%1:13:01::"
+          },
+          "start": 14,
+          "end": 28
+        },
+        "root": "#V62554"
+      }
+    ],
+    [
+      {
+        "V62682": {
+          "id": "V62682",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V62316",
+            "LEX": "WENT"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V62316": {
+          "id": "V62316",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V62334",
+            "AGENT": "#V62295",
+            "TENSE": "PAST",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V62295": {
+          "id": "V62295",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "HELEN",
+          "roles": {
+            "NAME-OF": "HELEN",
+            "LEX": "HELEN",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V62334": {
+          "id": "V62334",
+          "indicator": "F",
+          "type": "RESULTING-OBJECT",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V62398",
+            "FIGURE": "#V62295",
+            "LEX": "TO"
+          },
+          "start": 11,
+          "end": 28
+        },
+        "V62398": {
+          "id": "V62398",
+          "indicator": "A",
+          "type": "PRODUCTION-FACILITY",
+          "word": "FACTORY",
+          "roles": {
+            "ASSOC-WITH": "#V62395",
+            "LEX": "FACTORY",
+            "WNSENSE": "factory%1:06:00::"
+          },
+          "start": 14,
+          "end": 28
+        },
+        "V62395": {
+          "id": "V62395",
+          "indicator": "KIND",
+          "type": "MEAT",
+          "word": "MEAT",
+          "roles": {
+            "LEX": "MEAT",
+            "WNSENSE": "meat%1:13:01::"
+          },
+          "start": 14,
+          "end": 28
+        },
+        "root": "#V62682"
+      }
+    ],
+    [
+      {
+        "V62679": {
+          "id": "V62679",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V62316",
+            "LEX": "WENT"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V62316": {
+          "id": "V62316",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V62334",
+            "AGENT": "#V62292",
+            "TENSE": "PAST",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V62292": {
+          "id": "V62292",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "HELEN",
+          "roles": {
+            "NAME-OF": "HELEN",
+            "LEX": "HELEN",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V62334": {
+          "id": "V62334",
+          "indicator": "F",
+          "type": "RESULTING-OBJECT",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V62398",
+            "FIGURE": "#V62292",
+            "LEX": "TO"
+          },
+          "start": 11,
+          "end": 28
+        },
+        "V62398": {
+          "id": "V62398",
+          "indicator": "A",
+          "type": "PRODUCTION-FACILITY",
+          "word": "FACTORY",
+          "roles": {
+            "ASSOC-WITH": "#V62395",
+            "LEX": "FACTORY",
+            "WNSENSE": "factory%1:06:00::"
+          },
+          "start": 14,
+          "end": 28
+        },
+        "V62395": {
+          "id": "V62395",
+          "indicator": "KIND",
+          "type": "MEAT",
+          "word": "MEAT",
+          "roles": {
+            "LEX": "MEAT",
+            "WNSENSE": "meat%1:13:01::"
+          },
+          "start": 14,
+          "end": 28
+        },
+        "root": "#V62679"
+      }
+    ]
+  ],
+  "sentence": "Helen went to a meat factory.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190806T112109",
+    "link": "http://trips.ihmc.us/parser/saved/20190806T112109-STEP-abhatia-1-Helen_went_to_a_meat_factory_.xml",
+    "judgement": 1
+  }
+}

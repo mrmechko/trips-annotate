@@ -1,0 +1,580 @@
+{
+  "parse": [
+    {
+      "V170162": {
+        "id": "V170162",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V168189",
+          "LEX": "HAD"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V168189": {
+        "id": "V168189",
+        "indicator": "F",
+        "type": "CONSUME",
+        "word": "HAVE",
+        "roles": {
+          "AGENT": "#V168178",
+          "AFFECTED": "#V168249",
+          "BENEFICIARY": "#V168692",
+          "TENSE": "PAST",
+          "LEX": "HAD",
+          "WNSENSE": "have%2:34:00::"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V168178": {
+        "id": "V168178",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "JANE",
+        "roles": {
+          "NAME-OF": "JANE",
+          "LEX": "JANE",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V168692": {
+        "id": "V168692",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "MOD": "#V168246",
+          "LEX": "A"
+        },
+        "start": 9,
+        "end": 16
+      },
+      "V168246": {
+        "id": "V168246",
+        "indicator": "F",
+        "type": "AILING-VAL",
+        "word": "SICK",
+        "roles": {
+          "FIGURE": "#V168692",
+          "SCALE": "ILLNESS-SCALE",
+          "LEX": "SICK",
+          "WNSENSE": "sick%3:00:01::"
+        },
+        "start": 11,
+        "end": 16
+      },
+      "V168249": {
+        "id": "V168249",
+        "indicator": "BARE",
+        "type": "TREE",
+        "word": "TREE",
+        "roles": {
+          "MOD": "#V168257",
+          "LEX": "TREE",
+          "WNSENSE": "tree%1:20:00::"
+        },
+        "start": 16,
+        "end": 40
+      },
+      "V168257": {
+        "id": "V168257",
+        "indicator": "F",
+        "type": "WANT",
+        "word": "WANT",
+        "roles": {
+          "EXPERIENCER": "#V168252",
+          "NEUTRAL": "#V168249",
+          "TENSE": "PAST",
+          "LEX": "WANTED",
+          "WNSENSE": "want%2:37:00::"
+        },
+        "start": 21,
+        "end": 32
+      },
+      "V168252": {
+        "id": "V168252",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "SHE",
+        "roles": {
+          "PROFORM": "SHE",
+          "LEX": "SHE",
+          "WNSENSE": "woman%1:18:00",
+          "COREF": "#V168178"
+        },
+        "start": 21,
+        "end": 25
+      },
+      "V168285": {
+        "id": "V168285",
+        "indicator": "F",
+        "type": "CARVE-CUT",
+        "word": "CUT",
+        "roles": {
+          "MANNER": "#V168340",
+          "AFFECTED": "#V168249",
+          "VFORM": "PASSIVE",
+          "LEX": "CUT",
+          "WNSENSE": "cut%2:35:10::"
+        },
+        "start": 32,
+        "end": 40
+      },
+      "V168340": {
+        "id": "V168340",
+        "indicator": "F",
+        "type": "COMPLETELY",
+        "word": "DOWN",
+        "roles": {
+          "FIGURE": "#V168285",
+          "LEX": "DOWN",
+          "WNSENSE": "down%4:02:02::"
+        },
+        "start": 36,
+        "end": 40
+      },
+      "root": "#V170162"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V170236": {
+          "id": "V170236",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V168189",
+            "LEX": "HAD"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V168189": {
+          "id": "V168189",
+          "indicator": "F",
+          "type": "CONSUME",
+          "word": "HAVE",
+          "roles": {
+            "AGENT": "#V168178",
+            "AFFECTED": "#V168249",
+            "BENEFICIARY": "#V168692",
+            "TENSE": "PAST",
+            "LEX": "HAD",
+            "WNSENSE": "have%2:34:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V168178": {
+          "id": "V168178",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "JANE",
+          "roles": {
+            "NAME-OF": "JANE",
+            "LEX": "JANE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V168692": {
+          "id": "V168692",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V168246",
+            "LEX": "A"
+          },
+          "start": 9,
+          "end": 16
+        },
+        "V168246": {
+          "id": "V168246",
+          "indicator": "F",
+          "type": "AILING-VAL",
+          "word": "SICK",
+          "roles": {
+            "FIGURE": "#V168692",
+            "SCALE": "ILLNESS-SCALE",
+            "LEX": "SICK",
+            "WNSENSE": "sick%3:00:01::"
+          },
+          "start": 11,
+          "end": 16
+        },
+        "V168249": {
+          "id": "V168249",
+          "indicator": "BARE",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V168257",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 16,
+          "end": 40
+        },
+        "V168257": {
+          "id": "V168257",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "WANT",
+          "roles": {
+            "EXPERIENCER": "#V168252",
+            "NEUTRAL": "#V168249",
+            "TENSE": "PAST",
+            "LEX": "WANTED",
+            "WNSENSE": "want%2:37:00::"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V168252": {
+          "id": "V168252",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 21,
+          "end": 25
+        },
+        "V168286": {
+          "id": "V168286",
+          "indicator": "F",
+          "type": "DECREASE",
+          "word": "CUT",
+          "roles": {
+            "MANNER": "#V168340",
+            "AFFECTED": "#V168249",
+            "VFORM": "PASSIVE",
+            "LEX": "CUT",
+            "WNSENSE": "cut%2:30:06::"
+          },
+          "start": 32,
+          "end": 40
+        },
+        "V168340": {
+          "id": "V168340",
+          "indicator": "F",
+          "type": "COMPLETELY",
+          "word": "DOWN",
+          "roles": {
+            "FIGURE": "#V168286",
+            "LEX": "DOWN",
+            "WNSENSE": "down%4:02:02::"
+          },
+          "start": 36,
+          "end": 40
+        },
+        "root": "#V170236"
+      }
+    ],
+    [
+      {
+        "V170381": {
+          "id": "V170381",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V168189",
+            "LEX": "HAD"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V168189": {
+          "id": "V168189",
+          "indicator": "F",
+          "type": "CONSUME",
+          "word": "HAVE",
+          "roles": {
+            "AGENT": "#V168178",
+            "AFFECTED": "#V168249",
+            "BENEFICIARY": "#V168692",
+            "TENSE": "PAST",
+            "LEX": "HAD",
+            "WNSENSE": "have%2:34:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V168178": {
+          "id": "V168178",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "JANE",
+          "roles": {
+            "NAME-OF": "JANE",
+            "LEX": "JANE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V168692": {
+          "id": "V168692",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V168246",
+            "LEX": "A"
+          },
+          "start": 9,
+          "end": 16
+        },
+        "V168246": {
+          "id": "V168246",
+          "indicator": "F",
+          "type": "AILING-VAL",
+          "word": "SICK",
+          "roles": {
+            "FIGURE": "#V168692",
+            "SCALE": "ILLNESS-SCALE",
+            "LEX": "SICK",
+            "WNSENSE": "sick%3:00:01::"
+          },
+          "start": 11,
+          "end": 16
+        },
+        "V168249": {
+          "id": "V168249",
+          "indicator": "BARE",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V168257",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 16,
+          "end": 40
+        },
+        "V168257": {
+          "id": "V168257",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "WANT",
+          "roles": {
+            "EXPERIENCER": "#V168252",
+            "NEUTRAL": "#V168249",
+            "TENSE": "PAST",
+            "LEX": "WANTED",
+            "WNSENSE": "want%2:37:00::"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V168252": {
+          "id": "V168252",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 21,
+          "end": 25
+        },
+        "V168283": {
+          "id": "V168283",
+          "indicator": "F",
+          "type": "EVOKE-HURT",
+          "word": "CUT",
+          "roles": {
+            "AFFECTED": "#V168249",
+            "MANNER": "#V168340",
+            "VFORM": "PASSIVE",
+            "LEX": "CUT",
+            "WNSENSE": "hurt%2:29:01"
+          },
+          "start": 32,
+          "end": 40
+        },
+        "V168340": {
+          "id": "V168340",
+          "indicator": "F",
+          "type": "COMPLETELY",
+          "word": "DOWN",
+          "roles": {
+            "FIGURE": "#V168283",
+            "LEX": "DOWN",
+            "WNSENSE": "down%4:02:02::"
+          },
+          "start": 36,
+          "end": 40
+        },
+        "root": "#V170381"
+      }
+    ],
+    [
+      {
+        "V170343": {
+          "id": "V170343",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V168189",
+            "LEX": "HAD"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V168189": {
+          "id": "V168189",
+          "indicator": "F",
+          "type": "CONSUME",
+          "word": "HAVE",
+          "roles": {
+            "AGENT": "#V168178",
+            "AFFECTED": "#V168249",
+            "BENEFICIARY": "#V168692",
+            "TENSE": "PAST",
+            "LEX": "HAD",
+            "WNSENSE": "have%2:34:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V168178": {
+          "id": "V168178",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "JANE",
+          "roles": {
+            "NAME-OF": "JANE",
+            "LEX": "JANE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V168692": {
+          "id": "V168692",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V168246",
+            "LEX": "A"
+          },
+          "start": 9,
+          "end": 16
+        },
+        "V168246": {
+          "id": "V168246",
+          "indicator": "F",
+          "type": "AILING-VAL",
+          "word": "SICK",
+          "roles": {
+            "FIGURE": "#V168692",
+            "SCALE": "ILLNESS-SCALE",
+            "LEX": "SICK",
+            "WNSENSE": "sick%3:00:01::"
+          },
+          "start": 11,
+          "end": 16
+        },
+        "V168249": {
+          "id": "V168249",
+          "indicator": "BARE",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V168257",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 16,
+          "end": 40
+        },
+        "V168257": {
+          "id": "V168257",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "WANT",
+          "roles": {
+            "EXPERIENCER": "#V168252",
+            "NEUTRAL": "#V168249",
+            "TENSE": "PAST",
+            "LEX": "WANTED",
+            "WNSENSE": "want%2:37:00::"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V168252": {
+          "id": "V168252",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 21,
+          "end": 25
+        },
+        "V168283": {
+          "id": "V168283",
+          "indicator": "F",
+          "type": "EVOKE-HURT",
+          "word": "CUT",
+          "roles": {
+            "RESULT": "#V168339",
+            "AFFECTED": "#V168249",
+            "VFORM": "PASSIVE",
+            "LEX": "CUT",
+            "WNSENSE": "hurt%2:29:01"
+          },
+          "start": 32,
+          "end": 40
+        },
+        "V168339": {
+          "id": "V168339",
+          "indicator": "F",
+          "type": "DIRECTION-DOWN",
+          "word": "DOWN",
+          "roles": {
+            "FIGURE": "#V168249",
+            "LEX": "DOWN"
+          },
+          "start": 36,
+          "end": 40
+        },
+        "root": "#V170343"
+      }
+    ]
+  ],
+  "sentence": "Jane had a sick tree she wanted cut down. ",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190730T063820",
+    "link": "http://trips.ihmc.us/parser/saved/20190730T063820-STEP-abhatia-none-Jane_had_a_sick_tree_she_wanted_cut_down.xml",
+    "judgement": -1
+  }
+}

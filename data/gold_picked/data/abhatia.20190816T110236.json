@@ -1,0 +1,932 @@
+{
+  "parse": [
+    {
+      "V104380": {
+        "id": "V104380",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V103319",
+          "LEX": "GETTING"
+        },
+        "start": 0,
+        "end": 27
+      },
+      "V103319": {
+        "id": "V103319",
+        "indicator": "F",
+        "type": "BECOME",
+        "word": "GET",
+        "roles": {
+          "AFFECTED": "#V103272",
+          "FORMAL": "#V103341",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "GETTING",
+          "WNSENSE": "get%2:30:00::"
+        },
+        "start": 0,
+        "end": 27
+      },
+      "V103272": {
+        "id": "V103272",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V103341": {
+        "id": "V103341",
+        "indicator": "F",
+        "type": "AVAILABLE",
+        "word": "READY",
+        "roles": {
+          "GROUND": "#V103380",
+          "FIGURE": "#V103272",
+          "SCALE": "AVAILABILITY-SCALE",
+          "LEX": "READY",
+          "WNSENSE": "ready%5:00:01:available:00"
+        },
+        "start": 14,
+        "end": 27
+      },
+      "V103380": {
+        "id": "V103380",
+        "indicator": "BARE",
+        "type": "FURNISHINGS",
+        "word": "BED",
+        "roles": {
+          "LEX": "BED",
+          "WNSENSE": "bed%1:06:00::"
+        },
+        "start": 20,
+        "end": 27
+      },
+      "root": "#V104380"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V106584": {
+          "id": "V106584",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V103319",
+            "LEX": "GETTING"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V103319": {
+          "id": "V103319",
+          "indicator": "F",
+          "type": "BECOME",
+          "word": "GET",
+          "roles": {
+            "AFFECTED": "#V103271",
+            "FORMAL": "#V103341",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "GETTING",
+            "WNSENSE": "get%2:30:00::"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V103271": {
+          "id": "V103271",
+          "indicator": "THE",
+          "type": "LETTER-SYMBOL",
+          "word": null,
+          "roles": {
+            "NAME-OF": "I",
+            "LEX": "I",
+            "WNSENSE": "i%1:10:00::"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V103341": {
+          "id": "V103341",
+          "indicator": "F",
+          "type": "AVAILABLE",
+          "word": "READY",
+          "roles": {
+            "GROUND": "#V103380",
+            "FIGURE": "#V103271",
+            "SCALE": "AVAILABILITY-SCALE",
+            "LEX": "READY",
+            "WNSENSE": "ready%5:00:01:available:00"
+          },
+          "start": 14,
+          "end": 27
+        },
+        "V103380": {
+          "id": "V103380",
+          "indicator": "BARE",
+          "type": "FURNISHINGS",
+          "word": "BED",
+          "roles": {
+            "LEX": "BED",
+            "WNSENSE": "bed%1:06:00::"
+          },
+          "start": 20,
+          "end": 27
+        },
+        "root": "#V106584"
+      }
+    ],
+    [
+      {
+        "V106972": {
+          "id": "V106972",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V103319",
+            "LEX": "GETTING"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V103319": {
+          "id": "V103319",
+          "indicator": "F",
+          "type": "BECOME",
+          "word": "GET",
+          "roles": {
+            "AFFECTED": "#V106496",
+            "FORMAL": "#V103341",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "GETTING",
+            "WNSENSE": "get%2:30:00::"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V106496": {
+          "id": "V106496",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V103341": {
+          "id": "V103341",
+          "indicator": "F",
+          "type": "AVAILABLE",
+          "word": "READY",
+          "roles": {
+            "GROUND": "#V103380",
+            "FIGURE": "#V106496",
+            "SCALE": "AVAILABILITY-SCALE",
+            "LEX": "READY",
+            "WNSENSE": "ready%5:00:01:available:00"
+          },
+          "start": 14,
+          "end": 27
+        },
+        "V103380": {
+          "id": "V103380",
+          "indicator": "BARE",
+          "type": "FURNISHINGS",
+          "word": "BED",
+          "roles": {
+            "LEX": "BED",
+            "WNSENSE": "bed%1:06:00::"
+          },
+          "start": 20,
+          "end": 27
+        },
+        "root": "#V106972"
+      }
+    ],
+    [
+      {
+        "V107442": {
+          "id": "V107442",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V103319",
+            "LEX": "GETTING"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V103319": {
+          "id": "V103319",
+          "indicator": "F",
+          "type": "BECOME",
+          "word": "GET",
+          "roles": {
+            "AFFECTED": "#V103272",
+            "FORMAL": "#V103340",
+            "REASON": "#V103354",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "GETTING",
+            "WNSENSE": "get%2:30:00::"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V103272": {
+          "id": "V103272",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V103340": {
+          "id": "V103340",
+          "indicator": "F",
+          "type": "AVAILABLE",
+          "word": "READY",
+          "roles": {
+            "FIGURE": "#V103272",
+            "SCALE": "AVAILABILITY-SCALE",
+            "LEX": "READY",
+            "WNSENSE": "ready%5:00:01:available:00"
+          },
+          "start": 14,
+          "end": 20
+        },
+        "V103354": {
+          "id": "V103354",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V103380",
+            "FIGURE": "#V103319",
+            "LEX": "FOR"
+          },
+          "start": 20,
+          "end": 27
+        },
+        "V103380": {
+          "id": "V103380",
+          "indicator": "BARE",
+          "type": "FURNISHINGS",
+          "word": "BED",
+          "roles": {
+            "LEX": "BED",
+            "WNSENSE": "bed%1:06:00::"
+          },
+          "start": 24,
+          "end": 27
+        },
+        "root": "#V107442"
+      }
+    ],
+    [
+      {
+        "V107424": {
+          "id": "V107424",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V103319",
+            "LEX": "GETTING"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V103319": {
+          "id": "V103319",
+          "indicator": "F",
+          "type": "BECOME",
+          "word": "GET",
+          "roles": {
+            "AFFECTED": "#V103272",
+            "FORMAL": "#V103341",
+            "REASON": "#V103354",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "GETTING",
+            "WNSENSE": "get%2:30:00::"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V103272": {
+          "id": "V103272",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V103341": {
+          "id": "V103341",
+          "indicator": "F",
+          "type": "AVAILABLE",
+          "word": "READY",
+          "roles": {
+            "FIGURE": "#V103272",
+            "SCALE": "AVAILABILITY-SCALE",
+            "LEX": "READY",
+            "WNSENSE": "ready%5:00:01:available:00"
+          },
+          "start": 14,
+          "end": 20
+        },
+        "V103354": {
+          "id": "V103354",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V103380",
+            "FIGURE": "#V103319",
+            "LEX": "FOR"
+          },
+          "start": 20,
+          "end": 27
+        },
+        "V103380": {
+          "id": "V103380",
+          "indicator": "BARE",
+          "type": "FURNISHINGS",
+          "word": "BED",
+          "roles": {
+            "LEX": "BED",
+            "WNSENSE": "bed%1:06:00::"
+          },
+          "start": 24,
+          "end": 27
+        },
+        "root": "#V107424"
+      }
+    ],
+    [
+      {
+        "V107406": {
+          "id": "V107406",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V103319",
+            "LEX": "GETTING"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V103319": {
+          "id": "V103319",
+          "indicator": "F",
+          "type": "BECOME",
+          "word": "GET",
+          "roles": {
+            "AFFECTED": "#V103272",
+            "FORMAL": "#V103342",
+            "REASON": "#V103354",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "GETTING",
+            "WNSENSE": "get%2:30:00::"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V103272": {
+          "id": "V103272",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V103342": {
+          "id": "V103342",
+          "indicator": "F",
+          "type": "AVAILABLE",
+          "word": "READY",
+          "roles": {
+            "FIGURE": "#V103272",
+            "SCALE": "AVAILABILITY-SCALE",
+            "LEX": "READY",
+            "WNSENSE": "ready%5:00:01:available:00"
+          },
+          "start": 14,
+          "end": 20
+        },
+        "V103354": {
+          "id": "V103354",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V103380",
+            "FIGURE": "#V103319",
+            "LEX": "FOR"
+          },
+          "start": 20,
+          "end": 27
+        },
+        "V103380": {
+          "id": "V103380",
+          "indicator": "BARE",
+          "type": "FURNISHINGS",
+          "word": "BED",
+          "roles": {
+            "LEX": "BED",
+            "WNSENSE": "bed%1:06:00::"
+          },
+          "start": 24,
+          "end": 27
+        },
+        "root": "#V107406"
+      }
+    ],
+    [
+      {
+        "V107034": {
+          "id": "V107034",
+          "indicator": "SPEECHACT",
+          "type": "SA_YN-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V103288",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V103288": {
+          "id": "V103288",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V103312",
+            "FORMAL": "#V103341",
+            "TIME": "#V106955",
+            "TENSE": "PAST",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V106955": {
+          "id": "V106955",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V103288",
+            "GROUND": "#V106964"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V106964": {
+          "id": "V106964",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V106496",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V106496": {
+          "id": "V106496",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V103312": {
+          "id": "V103312",
+          "indicator": "BARE",
+          "type": "CAUSE-EFFECT",
+          "word": "GET",
+          "roles": {
+            "LEX": "GETTING",
+            "WNSENSE": "get%2:36:00::"
+          },
+          "start": 6,
+          "end": 14
+        },
+        "V103341": {
+          "id": "V103341",
+          "indicator": "F",
+          "type": "AVAILABLE",
+          "word": "READY",
+          "roles": {
+            "GROUND": "#V103380",
+            "FIGURE": "#V103312",
+            "SCALE": "AVAILABILITY-SCALE",
+            "LEX": "READY",
+            "WNSENSE": "ready%5:00:01:available:00"
+          },
+          "start": 14,
+          "end": 27
+        },
+        "V103380": {
+          "id": "V103380",
+          "indicator": "BARE",
+          "type": "FURNISHINGS",
+          "word": "BED",
+          "roles": {
+            "LEX": "BED",
+            "WNSENSE": "bed%1:06:00::"
+          },
+          "start": 20,
+          "end": 27
+        },
+        "root": "#V107034"
+      }
+    ],
+    [
+      {
+        "V107240": {
+          "id": "V107240",
+          "indicator": "SPEECHACT",
+          "type": "SA_YN-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V103288",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V103288": {
+          "id": "V103288",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V103315",
+            "FORMAL": "#V103341",
+            "TIME": "#V106955",
+            "TENSE": "PAST",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V106955": {
+          "id": "V106955",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V103288",
+            "GROUND": "#V106964"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V106964": {
+          "id": "V106964",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V106496",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V106496": {
+          "id": "V106496",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V103315": {
+          "id": "V103315",
+          "indicator": "BARE",
+          "type": "MAKE-IT-SO",
+          "word": "GET",
+          "roles": {
+            "LEX": "GETTING",
+            "WNSENSE": "get%2:30:02::"
+          },
+          "start": 6,
+          "end": 14
+        },
+        "V103341": {
+          "id": "V103341",
+          "indicator": "F",
+          "type": "AVAILABLE",
+          "word": "READY",
+          "roles": {
+            "GROUND": "#V103380",
+            "FIGURE": "#V103315",
+            "SCALE": "AVAILABILITY-SCALE",
+            "LEX": "READY",
+            "WNSENSE": "ready%5:00:01:available:00"
+          },
+          "start": 14,
+          "end": 27
+        },
+        "V103380": {
+          "id": "V103380",
+          "indicator": "BARE",
+          "type": "FURNISHINGS",
+          "word": "BED",
+          "roles": {
+            "LEX": "BED",
+            "WNSENSE": "bed%1:06:00::"
+          },
+          "start": 20,
+          "end": 27
+        },
+        "root": "#V107240"
+      }
+    ],
+    [
+      {
+        "V107238": {
+          "id": "V107238",
+          "indicator": "SPEECHACT",
+          "type": "SA_YN-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V103288",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V103288": {
+          "id": "V103288",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V103314",
+            "FORMAL": "#V103341",
+            "TIME": "#V106955",
+            "TENSE": "PAST",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V106955": {
+          "id": "V106955",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V103288",
+            "GROUND": "#V106964"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V106964": {
+          "id": "V106964",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V106496",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V106496": {
+          "id": "V106496",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V103314": {
+          "id": "V103314",
+          "indicator": "BARE",
+          "type": "MAKE-IT-SO",
+          "word": "GET",
+          "roles": {
+            "LEX": "GETTING",
+            "WNSENSE": "get%2:30:02::"
+          },
+          "start": 6,
+          "end": 14
+        },
+        "V103341": {
+          "id": "V103341",
+          "indicator": "F",
+          "type": "AVAILABLE",
+          "word": "READY",
+          "roles": {
+            "GROUND": "#V103380",
+            "FIGURE": "#V103314",
+            "SCALE": "AVAILABILITY-SCALE",
+            "LEX": "READY",
+            "WNSENSE": "ready%5:00:01:available:00"
+          },
+          "start": 14,
+          "end": 27
+        },
+        "V103380": {
+          "id": "V103380",
+          "indicator": "BARE",
+          "type": "FURNISHINGS",
+          "word": "BED",
+          "roles": {
+            "LEX": "BED",
+            "WNSENSE": "bed%1:06:00::"
+          },
+          "start": 20,
+          "end": 27
+        },
+        "root": "#V107238"
+      }
+    ],
+    [
+      {
+        "V107236": {
+          "id": "V107236",
+          "indicator": "SPEECHACT",
+          "type": "SA_YN-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V103288",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V103288": {
+          "id": "V103288",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V103313",
+            "FORMAL": "#V103341",
+            "TIME": "#V106955",
+            "TENSE": "PAST",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V106955": {
+          "id": "V106955",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V103288",
+            "GROUND": "#V106964"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V106964": {
+          "id": "V106964",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V106496",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V106496": {
+          "id": "V106496",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V103313": {
+          "id": "V103313",
+          "indicator": "BARE",
+          "type": "HAVE-EXPERIENCE",
+          "word": "GET",
+          "roles": {
+            "LEX": "GETTING",
+            "WNSENSE": "get%2:39:00::"
+          },
+          "start": 6,
+          "end": 14
+        },
+        "V103341": {
+          "id": "V103341",
+          "indicator": "F",
+          "type": "AVAILABLE",
+          "word": "READY",
+          "roles": {
+            "GROUND": "#V103380",
+            "FIGURE": "#V103313",
+            "SCALE": "AVAILABILITY-SCALE",
+            "LEX": "READY",
+            "WNSENSE": "ready%5:00:01:available:00"
+          },
+          "start": 14,
+          "end": 27
+        },
+        "V103380": {
+          "id": "V103380",
+          "indicator": "BARE",
+          "type": "FURNISHINGS",
+          "word": "BED",
+          "roles": {
+            "LEX": "BED",
+            "WNSENSE": "bed%1:06:00::"
+          },
+          "start": 20,
+          "end": 27
+        },
+        "root": "#V107236"
+      }
+    ]
+  ],
+  "sentence": "I was getting ready for bed.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190816T110236",
+    "link": "http://trips.ihmc.us/parser/saved/20190816T110236-STEP-abhatia-none-I_was_getting_ready_for_bed_.xml",
+    "judgement": -1
+  }
+}

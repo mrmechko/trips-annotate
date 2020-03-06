@@ -1,0 +1,138 @@
+{
+  "parse": [
+    {
+      "V40935": {
+        "id": "V40935",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V40462"
+        },
+        "start": 0,
+        "end": 33
+      },
+      "V40462": {
+        "id": "V40462",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V40446",
+          "NEUTRAL1": "#V40485",
+          "TENSE": "PRES"
+        },
+        "start": 0,
+        "end": 33
+      },
+      "V40446": {
+        "id": "V40446",
+        "indicator": "THE",
+        "type": "HEIGHT-SCALE",
+        "word": "HEIGHT",
+        "roles": {
+          "ASSOC-POSS": "#V40378",
+          "SCALE": "HEIGHT-SCALE"
+        },
+        "start": 0,
+        "end": 27
+      },
+      "V40378": {
+        "id": "V40378",
+        "indicator": "THE",
+        "type": "COLUMN-FORMATION",
+        "word": "COLUMN",
+        "roles": {
+          "ORDINAL": "2"
+        },
+        "start": 0,
+        "end": 17
+      },
+      "V40485": {
+        "id": "V40485",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "ONE",
+        "roles": {
+          "PROFORM": "ONE"
+        },
+        "start": 30,
+        "end": 33
+      },
+      "root": "#V40935"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V40932": {
+          "id": "V40932",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V40462"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V40462": {
+          "id": "V40462",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V40446",
+            "NEUTRAL1": "#V40485",
+            "TENSE": "PRES"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V40446": {
+          "id": "V40446",
+          "indicator": "THE",
+          "type": "HEIGHT-SCALE",
+          "word": "HEIGHT",
+          "roles": {
+            "ASSOC-POSS": "#V40414",
+            "SCALE": "HEIGHT-SCALE"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V40414": {
+          "id": "V40414",
+          "indicator": "THE",
+          "type": "COLUMN-FORMATION",
+          "word": "COLUMN",
+          "roles": {
+            "ORDINAL": "2"
+          },
+          "start": 0,
+          "end": 18
+        },
+        "V40485": {
+          "id": "V40485",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "ONE",
+          "roles": {
+            "PROFORM": "ONE"
+          },
+          "start": 30,
+          "end": 33
+        },
+        "root": "#V40932"
+      }
+    ]
+  ],
+  "sentence": "the second column's height is one",
+  "annotation": {
+    "judge": "iperera",
+    "parser": "CABOT",
+    "timestamp": "20190801T091538",
+    "link": "http://trips.ihmc.us/parser/saved/20190801T091538-CABOT-iperera-none-the_second_column_s_height_is_one.xml",
+    "judgement": -1
+  }
+}

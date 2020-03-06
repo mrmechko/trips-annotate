@@ -1,0 +1,465 @@
+{
+  "parse": [
+    {
+      "V333282": {
+        "id": "V333282",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V332832",
+          "LEX": "LOOKING"
+        },
+        "start": 0,
+        "end": 46
+      },
+      "V332832": {
+        "id": "V332832",
+        "indicator": "F",
+        "type": "PHYSICAL-SCRUTINY",
+        "word": "LOOK",
+        "roles": {
+          "AGENT": "#V332803",
+          "MOD": "#V332852",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "LOOKING",
+          "WNSENSE": "look%2:39:02::"
+        },
+        "start": 0,
+        "end": 46
+      },
+      "V332803": {
+        "id": "V332803",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "GARY",
+        "roles": {
+          "NAME-OF": "GARY",
+          "LEX": "GARY",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V332852": {
+        "id": "V332852",
+        "indicator": "F",
+        "type": "COMPLETELY",
+        "word": "THROUGH",
+        "roles": {
+          "GROUND": "#V332867",
+          "FIGURE": "#V332832",
+          "LEX": "THROUGH",
+          "WNSENSE": "through%4:02:03::"
+        },
+        "start": 17,
+        "end": 46
+      },
+      "V332867": {
+        "id": "V332867",
+        "indicator": "THE",
+        "type": "REFRIGERATOR",
+        "word": "FRIDGE",
+        "roles": {
+          "ASSOC-POSS": "#V332862",
+          "MOD": "#V332873",
+          "LEX": "FRIDGE",
+          "WNSENSE": "fridge%1:06:00::"
+        },
+        "start": 25,
+        "end": 46
+      },
+      "V332862": {
+        "id": "V332862",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00",
+          "COREF": "#V332803"
+        },
+        "start": 25,
+        "end": 46
+      },
+      "V332873": {
+        "id": "V332873",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V332900",
+          "FIGURE": "#V332867",
+          "LEX": "FOR"
+        },
+        "start": 36,
+        "end": 46
+      },
+      "V332900": {
+        "id": "V332900",
+        "indicator": "INDEF-SET",
+        "type": "FOOD",
+        "word": "SNACKS",
+        "roles": {
+          "LEX": "SNACKS",
+          "WNSENSE": "solid_food%1:13:00"
+        },
+        "start": 40,
+        "end": 46
+      },
+      "root": "#V333282"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V333519": {
+          "id": "V333519",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V332832",
+            "LEX": "LOOKING"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V332832": {
+          "id": "V332832",
+          "indicator": "F",
+          "type": "PHYSICAL-SCRUTINY",
+          "word": "LOOK",
+          "roles": {
+            "AGENT": "#V332803",
+            "MOD": "#V332852",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "LOOKING",
+            "WNSENSE": "look%2:39:02::"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V332803": {
+          "id": "V332803",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "GARY",
+          "roles": {
+            "NAME-OF": "GARY",
+            "LEX": "GARY",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V332852": {
+          "id": "V332852",
+          "indicator": "F",
+          "type": "COMPLETELY",
+          "word": "THROUGH",
+          "roles": {
+            "GROUND": "#V332867",
+            "FIGURE": "#V332832",
+            "LEX": "THROUGH",
+            "WNSENSE": "through%4:02:03::"
+          },
+          "start": 17,
+          "end": 46
+        },
+        "V332867": {
+          "id": "V332867",
+          "indicator": "THE",
+          "type": "REFRIGERATOR",
+          "word": "FRIDGE",
+          "roles": {
+            "ASSOC-POSS": "#V332862",
+            "MOD": "#V332875",
+            "LEX": "FRIDGE",
+            "WNSENSE": "fridge%1:06:00::"
+          },
+          "start": 25,
+          "end": 46
+        },
+        "V332862": {
+          "id": "V332862",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 25,
+          "end": 46
+        },
+        "V332875": {
+          "id": "V332875",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V332900",
+            "FIGURE": "#V332867",
+            "LEX": "FOR"
+          },
+          "start": 36,
+          "end": 46
+        },
+        "V332900": {
+          "id": "V332900",
+          "indicator": "INDEF-SET",
+          "type": "FOOD",
+          "word": "SNACKS",
+          "roles": {
+            "LEX": "SNACKS",
+            "WNSENSE": "solid_food%1:13:00"
+          },
+          "start": 40,
+          "end": 46
+        },
+        "root": "#V333519"
+      }
+    ],
+    [
+      {
+        "V333435": {
+          "id": "V333435",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V332832",
+            "LEX": "LOOKING"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V332832": {
+          "id": "V332832",
+          "indicator": "F",
+          "type": "PHYSICAL-SCRUTINY",
+          "word": "LOOK",
+          "roles": {
+            "AGENT": "#V332803",
+            "REASON": "#V332873",
+            "MOD": "#V332852",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "LOOKING",
+            "WNSENSE": "look%2:39:02::"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V332803": {
+          "id": "V332803",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "GARY",
+          "roles": {
+            "NAME-OF": "GARY",
+            "LEX": "GARY",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V332852": {
+          "id": "V332852",
+          "indicator": "F",
+          "type": "COMPLETELY",
+          "word": "THROUGH",
+          "roles": {
+            "GROUND": "#V332867",
+            "FIGURE": "#V332832",
+            "LEX": "THROUGH",
+            "WNSENSE": "through%4:02:03::"
+          },
+          "start": 17,
+          "end": 36
+        },
+        "V332867": {
+          "id": "V332867",
+          "indicator": "THE",
+          "type": "REFRIGERATOR",
+          "word": "FRIDGE",
+          "roles": {
+            "ASSOC-POSS": "#V332862",
+            "LEX": "FRIDGE",
+            "WNSENSE": "fridge%1:06:00::"
+          },
+          "start": 25,
+          "end": 36
+        },
+        "V332862": {
+          "id": "V332862",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 25,
+          "end": 36
+        },
+        "V332873": {
+          "id": "V332873",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V332900",
+            "FIGURE": "#V332832",
+            "LEX": "FOR"
+          },
+          "start": 36,
+          "end": 46
+        },
+        "V332900": {
+          "id": "V332900",
+          "indicator": "INDEF-SET",
+          "type": "FOOD",
+          "word": "SNACKS",
+          "roles": {
+            "LEX": "SNACKS",
+            "WNSENSE": "solid_food%1:13:00"
+          },
+          "start": 40,
+          "end": 46
+        },
+        "root": "#V333435"
+      }
+    ],
+    [
+      {
+        "V335184": {
+          "id": "V335184",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V332832",
+            "LEX": "LOOKING"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V332832": {
+          "id": "V332832",
+          "indicator": "F",
+          "type": "PHYSICAL-SCRUTINY",
+          "word": "LOOK",
+          "roles": {
+            "AGENT": "#V332806",
+            "MOD": "#V332852",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "LOOKING",
+            "WNSENSE": "look%2:39:02::"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V332806": {
+          "id": "V332806",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "GARY",
+          "roles": {
+            "NAME-OF": "GARY",
+            "LEX": "GARY",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V332852": {
+          "id": "V332852",
+          "indicator": "F",
+          "type": "COMPLETELY",
+          "word": "THROUGH",
+          "roles": {
+            "GROUND": "#V332867",
+            "FIGURE": "#V332832",
+            "LEX": "THROUGH",
+            "WNSENSE": "through%4:02:03::"
+          },
+          "start": 17,
+          "end": 46
+        },
+        "V332867": {
+          "id": "V332867",
+          "indicator": "THE",
+          "type": "REFRIGERATOR",
+          "word": "FRIDGE",
+          "roles": {
+            "ASSOC-POSS": "#V332862",
+            "MOD": "#V332873",
+            "LEX": "FRIDGE",
+            "WNSENSE": "fridge%1:06:00::"
+          },
+          "start": 25,
+          "end": 46
+        },
+        "V332862": {
+          "id": "V332862",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 25,
+          "end": 46
+        },
+        "V332873": {
+          "id": "V332873",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V332900",
+            "FIGURE": "#V332867",
+            "LEX": "FOR"
+          },
+          "start": 36,
+          "end": 46
+        },
+        "V332900": {
+          "id": "V332900",
+          "indicator": "INDEF-SET",
+          "type": "FOOD",
+          "word": "SNACKS",
+          "roles": {
+            "LEX": "SNACKS",
+            "WNSENSE": "solid_food%1:13:00"
+          },
+          "start": 40,
+          "end": 46
+        },
+        "root": "#V335184"
+      }
+    ]
+  ],
+  "sentence": "Gary was looking through his fridge for snacks.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190807T170735",
+    "link": "http://trips.ihmc.us/parser/saved/20190807T170735-STEP-abhatia-2-Gary_was_looking_through_his_fridge_for_.xml",
+    "judgement": 2
+  }
+}

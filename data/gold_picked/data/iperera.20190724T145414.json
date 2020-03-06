@@ -1,0 +1,210 @@
+{
+  "parse": [
+    {
+      "V66042": {
+        "id": "V66042",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V65269"
+        },
+        "start": 0,
+        "end": 36
+      },
+      "V65269": {
+        "id": "V65269",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V65260",
+          "FORMAL": "#V65325",
+          "TENSE": "PRES"
+        },
+        "start": 0,
+        "end": 36
+      },
+      "V65260": {
+        "id": "V65260",
+        "indicator": "THE",
+        "type": "COLUMN-FORMATION",
+        "word": "COLUMN",
+        "roles": {
+          "MOD": "#V65214"
+        },
+        "start": 0,
+        "end": 16
+      },
+      "V65214": {
+        "id": "V65214",
+        "indicator": "F",
+        "type": "LEFT",
+        "word": "LEFT",
+        "roles": {
+          "FIGURE": "#V65260",
+          "SCALE": "SPATIAL-SCALE"
+        },
+        "start": 4,
+        "end": 9
+      },
+      "V65325": {
+        "id": "V65325",
+        "indicator": "F",
+        "type": "MORE-VAL",
+        "word": "TALL",
+        "roles": {
+          "COMPAR": "#V65397",
+          "FIGURE": "#V65260",
+          "SCALE": "HEIGHT-SCALE",
+          "MOD": "#V65305"
+        },
+        "start": 19,
+        "end": 36
+      },
+      "V65305": {
+        "id": "V65305",
+        "indicator": "F",
+        "type": "NEG",
+        "word": "NOT",
+        "roles": {
+          "FIGURE": "#V65325"
+        },
+        "start": 19,
+        "end": 23
+      },
+      "V65397": {
+        "id": "V65397",
+        "indicator": "A",
+        "type": "QUANTITY",
+        "word": null,
+        "roles": {
+          "AMOUNT": "#V65334"
+        },
+        "start": 30,
+        "end": 36
+      },
+      "V65334": {
+        "id": "V65334",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "2"
+        },
+        "start": 30,
+        "end": 36
+      },
+      "root": "#V66042"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V66039": {
+          "id": "V66039",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V65269"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V65269": {
+          "id": "V65269",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V65260",
+            "FORMAL": "#V65325",
+            "TENSE": "PRES"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V65260": {
+          "id": "V65260",
+          "indicator": "THE",
+          "type": "COLUMN-FORMATION",
+          "word": "COLUMN",
+          "roles": {
+            "MOD": "#V65216"
+          },
+          "start": 0,
+          "end": 16
+        },
+        "V65216": {
+          "id": "V65216",
+          "indicator": "F",
+          "type": "LEFT",
+          "word": "LEFT",
+          "roles": {
+            "FIGURE": "#V65260",
+            "SCALE": "SPATIAL-SCALE"
+          },
+          "start": 4,
+          "end": 9
+        },
+        "V65325": {
+          "id": "V65325",
+          "indicator": "F",
+          "type": "MORE-VAL",
+          "word": "TALL",
+          "roles": {
+            "COMPAR": "#V65397",
+            "FIGURE": "#V65260",
+            "SCALE": "HEIGHT-SCALE",
+            "MOD": "#V65305"
+          },
+          "start": 19,
+          "end": 36
+        },
+        "V65305": {
+          "id": "V65305",
+          "indicator": "F",
+          "type": "NEG",
+          "word": "NOT",
+          "roles": {
+            "FIGURE": "#V65325"
+          },
+          "start": 19,
+          "end": 23
+        },
+        "V65397": {
+          "id": "V65397",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "#V65334"
+          },
+          "start": 30,
+          "end": 36
+        },
+        "V65334": {
+          "id": "V65334",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "2"
+          },
+          "start": 30,
+          "end": 36
+        },
+        "root": "#V66039"
+      }
+    ]
+  ],
+  "sentence": "The left column is not taller than 2",
+  "annotation": {
+    "judge": "iperera",
+    "parser": "CABOT",
+    "timestamp": "20190724T145414",
+    "link": "http://trips.ihmc.us/parser/saved/20190724T145414-CABOT-iperera-0-The_left_column_is_not_taller_than_2.xml",
+    "judgement": 0
+  }
+}

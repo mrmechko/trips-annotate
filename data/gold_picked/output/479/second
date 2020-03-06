@@ -1,0 +1,18 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V282535 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V281769 [label=<<font color="green"><br /></font> <font color="black">CAUSE-COVER</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">LINED</font> <font color="green"><br /></font> <font color="green">cover%2:35:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::CAUSE-COVER.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V281736 [label=<<font color="green"><br /></font> <font color="black">THOROUGHFARE</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">STREET</font> <font color="green"><br /></font> <font color="green">street%1:06:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::THOROUGHFARE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V281793 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">PERSON</font> <font color="green"><br /></font> <font color="green">person%1:03:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V281804 [label=<<font color="green"><br /></font> <font color="black">BE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BE</font> <font color="green"><br /></font> <font color="green">be%2:42:06::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BE.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V281822 [label=<<font color="green"><br /></font> <font color="black">WAIT-WATCH</font> <font color="green"><br /></font> <font color="red">BARE</font> <font color="blue">WATCH</font> <font color="green"><br /></font> <font color="green">watch%2:39:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::WAIT-WATCH.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V282535 -> V281769 [label=" CONTENT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V281804 -> V281793 [label=" NEUTRAL   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V281769 -> V281736 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V281804 -> V281822 [label=" NEUTRAL1   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V281769 -> V281793 [label=" AFFECTED1   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V281793 -> V281804 [label=" MOD   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

@@ -1,0 +1,20 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V160622 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V160232 [label=<<font color="green"><br /></font> <font color="black">EAT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">EAT</font> <font color="green"><br /></font> <font color="green">eat%2:34:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EAT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V160211 [label=<<font color="green"><br /></font> <font color="black">FAMILY-GROUP</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">FAMILY</font> <font color="green"><br /></font> <font color="green">family%1:14:02::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FAMILY-GROUP.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V160208 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">MY</font> <font color="green"><br /></font> <font color="green">person%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V160237 [label=<<font color="green"><br /></font> <font color="black">BEEF</font> <font color="green"><br /></font> <font color="red">BARE</font> <font color="blue">STEAK</font> <font color="green"><br /></font> <font color="green">steak%1:13:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BEEF.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V160240 [label=<<font color="green"><br /></font> <font color="black">EVENT-TIME-REL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">ONE-DAY</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EVENT-TIME-REL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V160350 [label=<<font color="green"><br /></font> <font color="black">TIME-LOC</font> <font color="green"><br /></font> <font color="red">IMPRO</font> <font color="blue">SOMETIME</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TIME-LOC.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V160232 -> V160211 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V160622 -> V160232 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V160211 -> V160208 [label=" ASSOC-POSS   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V160232 -> V160237 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V160240 -> V160350 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V160232 -> V160240 [label=" TIME   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V160240 -> V160232 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

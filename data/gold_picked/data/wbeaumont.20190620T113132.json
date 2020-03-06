@@ -1,0 +1,273 @@
+{
+  "parse": [
+    {
+      "V37472": {
+        "id": "V37472",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V37027",
+          "LEX": "STANDING-IN",
+          "WNSENSE": "stand_in%2:40:00"
+        },
+        "start": 0,
+        "end": 36
+      },
+      "V37027": {
+        "id": "V37027",
+        "indicator": "F",
+        "type": "EXCHANGE",
+        "word": "STANDING-IN",
+        "roles": {
+          "AGENT": "#V36927",
+          "AFFECTED": "#V37045",
+          "TENSE": "PRES",
+          "PROGR": "+",
+          "LEX": "STANDING-IN",
+          "WNSENSE": "stand_in%2:40:00"
+        },
+        "start": 0,
+        "end": 36
+      },
+      "V36927": {
+        "id": "V36927",
+        "indicator": "THE",
+        "type": "PHYS-OBJECT",
+        "word": "OBJECT",
+        "roles": {
+          "LEX": "OBJECT"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V37045": {
+        "id": "V37045",
+        "indicator": "THE",
+        "type": "PHYS-OBJECT",
+        "word": "OBJECT",
+        "roles": {
+          "LEX": "OBJECT"
+        },
+        "start": 26,
+        "end": 36
+      },
+      "root": "#V37472"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V37749": {
+          "id": "V37749",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V36954",
+            "LEX": "STANDING"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V36954": {
+          "id": "V36954",
+          "indicator": "F",
+          "type": "BE-AT-LOC",
+          "word": "STAND",
+          "roles": {
+            "NEUTRAL": "#V36927",
+            "LOCATION": "#V36964",
+            "TENSE": "PRES",
+            "PROGR": "+",
+            "LEX": "STANDING"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V36927": {
+          "id": "V36927",
+          "indicator": "THE",
+          "type": "PHYS-OBJECT",
+          "word": "OBJECT",
+          "roles": {
+            "LEX": "OBJECT"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V36964": {
+          "id": "V36964",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V37045",
+            "FIGURE": "#V36954",
+            "LEX": "IN"
+          },
+          "start": 23,
+          "end": 36
+        },
+        "V37045": {
+          "id": "V37045",
+          "indicator": "THE",
+          "type": "PHYS-OBJECT",
+          "word": "OBJECT",
+          "roles": {
+            "LEX": "OBJECT"
+          },
+          "start": 26,
+          "end": 36
+        },
+        "root": "#V37749"
+      }
+    ],
+    [
+      {
+        "V37640": {
+          "id": "V37640",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V36954",
+            "LEX": "STANDING"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V36954": {
+          "id": "V36954",
+          "indicator": "F",
+          "type": "BE-AT-LOC",
+          "word": "STAND",
+          "roles": {
+            "NEUTRAL": "#V36927",
+            "REASON": "#V36967",
+            "TENSE": "PRES",
+            "PROGR": "+",
+            "LEX": "STANDING"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V36927": {
+          "id": "V36927",
+          "indicator": "THE",
+          "type": "PHYS-OBJECT",
+          "word": "OBJECT",
+          "roles": {
+            "LEX": "OBJECT"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V36967": {
+          "id": "V36967",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V37045",
+            "FIGURE": "#V36954",
+            "LEX": "IN"
+          },
+          "start": 23,
+          "end": 36
+        },
+        "V37045": {
+          "id": "V37045",
+          "indicator": "THE",
+          "type": "PHYS-OBJECT",
+          "word": "OBJECT",
+          "roles": {
+            "LEX": "OBJECT"
+          },
+          "start": 26,
+          "end": 36
+        },
+        "root": "#V37640"
+      }
+    ],
+    [
+      {
+        "V37961": {
+          "id": "V37961",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V36954",
+            "LEX": "STANDING"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V36954": {
+          "id": "V36954",
+          "indicator": "F",
+          "type": "BE-AT-LOC",
+          "word": "STAND",
+          "roles": {
+            "NEUTRAL": "#V36927",
+            "LOCATION": "#V36964",
+            "TENSE": "PRES",
+            "PROGR": "+",
+            "LEX": "STANDING"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V36927": {
+          "id": "V36927",
+          "indicator": "THE",
+          "type": "PHYS-OBJECT",
+          "word": "OBJECT",
+          "roles": {
+            "LEX": "OBJECT"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V36964": {
+          "id": "V36964",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V37045",
+            "FIGURE": "#V36954",
+            "LEX": "IN"
+          },
+          "start": 23,
+          "end": 36
+        },
+        "V37045": {
+          "id": "V37045",
+          "indicator": "THE",
+          "type": "PHYS-OBJECT",
+          "word": "OBJECT",
+          "roles": {
+            "LEX": "OBJECT"
+          },
+          "start": 26,
+          "end": 36
+        },
+        "root": "#V37961"
+      }
+    ]
+  ],
+  "sentence": "The object is standing in the object.",
+  "annotation": {
+    "judge": "wbeaumont",
+    "parser": "STEP",
+    "timestamp": "20190620T113132",
+    "link": "http://trips.ihmc.us/parser/saved/20190620T113132-STEP-wbeaumont-1-The_object_is_standing_in_the_object_.xml",
+    "judgement": 1
+  }
+}

@@ -1,0 +1,20 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V256615 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V255891 [label=<<font color="green"><br /></font> <font color="black">SELECT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">PICK</font> <font color="green"><br /></font> <font color="green">pick%2:31:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SELECT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V255884 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HE</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V255931 [label=<<font color="green"><br /></font> <font color="black">DIRECTION-UP</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">UP</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DIRECTION-UP.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V256003 [label=<<font color="green"><br /></font> <font color="black">NATURAL-OBJECT</font> <font color="green"><br /></font> <font color="red">THE-SET</font> <font color="blue">STICK</font> <font color="green"><br /></font> <font color="green">natural_object%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::NATURAL-OBJECT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V255972 [label=<<font color="green"><br /></font> <font color="black">MUSICAL-INSTRUMENT</font> <font color="green"><br /></font> <font color="red">KIND</font> <font color="blue">DRUM</font> <font color="green"><br /></font> <font color="green">drum%1:06:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MUSICAL-INSTRUMENT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V255966 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HIS</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V255931 -> V256003 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V255891 -> V256003 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V255891 -> V255931 [label=" RESULT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V256003 -> V255966 [label=" ASSOC-POSS   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V256003 -> V255972 [label=" ASSOC-WITH   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V255891 -> V255884 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V256615 -> V255891 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

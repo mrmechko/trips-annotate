@@ -1,0 +1,2168 @@
+{
+  "parse": [
+    {
+      "V47735": {
+        "id": "V47735",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V44565",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 58
+      },
+      "V44565": {
+        "id": "V44565",
+        "indicator": "F",
+        "type": "EVENT-OF-STATE",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V44540",
+          "SEQUENCE1": "#V44576",
+          "EXTENT": "#V47574",
+          "TIME": "#V44777",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 58
+      },
+      "V47574": {
+        "id": "V47574",
+        "indicator": "F",
+        "type": "EXTENT-PREDICATE",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V44565",
+          "GROUND": "#V44767",
+          "LEX": "ONE"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V44767": {
+        "id": "V44767",
+        "indicator": "A",
+        "type": "QUANTITY",
+        "word": null,
+        "roles": {
+          "AMOUNT": "#V44515",
+          "LEX": "ONE"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V44515": {
+        "id": "V44515",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V44777": {
+        "id": "V44777",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V44565",
+          "GROUND": "#V44868"
+        },
+        "start": 4,
+        "end": 11
+      },
+      "V44868": {
+        "id": "V44868",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY-OF-WEEK": "#V44517",
+          "LEX": "SUNDAY"
+        },
+        "start": 4,
+        "end": 11
+      },
+      "V44517": {
+        "id": "V44517",
+        "indicator": "THE",
+        "type": "DAY-NAME",
+        "word": "SUNDAY",
+        "roles": {
+          "NAME-OF": "SUNDAY",
+          "LEX": "SUNDAY",
+          "WNSENSE": "sunday%1:28:00::"
+        },
+        "start": 4,
+        "end": 11
+      },
+      "V44540": {
+        "id": "V44540",
+        "indicator": "F",
+        "type": "HAVE-EXPERIENCE",
+        "word": "HAVE",
+        "roles": {
+          "EXPERIENCER": "#V44523",
+          "NEUTRAL": "#V44560",
+          "MOD": "#V44528",
+          "TENSE": "PAST",
+          "LEX": "HAD",
+          "WNSENSE": "have%2:39:06::"
+        },
+        "start": 11,
+        "end": 31
+      },
+      "V44523": {
+        "id": "V44523",
+        "indicator": "PRO-SET",
+        "type": "PERSON",
+        "word": "WE",
+        "roles": {
+          "PROFORM": "WE",
+          "LEX": "WE",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "US"
+        },
+        "start": 11,
+        "end": 14
+      },
+      "V44528": {
+        "id": "V44528",
+        "indicator": "F",
+        "type": "MODIFIER",
+        "word": "BOTH",
+        "roles": {
+          "FIGURE": "#V44540",
+          "LEX": "BOTH"
+        },
+        "start": 14,
+        "end": 19
+      },
+      "V44560": {
+        "id": "V44560",
+        "indicator": "THE",
+        "type": "FLU",
+        "word": "FLU",
+        "roles": {
+          "LEX": "FLU",
+          "WNSENSE": "flu%1:26:00::"
+        },
+        "start": 23,
+        "end": 31
+      },
+      "V44576": {
+        "id": "V44576",
+        "indicator": "F",
+        "type": "NECESSITY",
+        "word": "HAVE",
+        "roles": {
+          "NEUTRAL": "#V44523",
+          "FORMAL": "#V44621",
+          "TENSE": "PAST",
+          "LEX": "HAD",
+          "WNSENSE": "need%2:34:01"
+        },
+        "start": 35,
+        "end": 58
+      },
+      "V44621": {
+        "id": "V44621",
+        "indicator": "F",
+        "type": "CANCEL",
+        "word": "CANCEL",
+        "roles": {
+          "AGENT": "#V44523",
+          "AFFECTED": "#V44632",
+          "VFORM": "BASE",
+          "LEX": "CANCEL",
+          "WNSENSE": "cancel%2:41:03::"
+        },
+        "start": 39,
+        "end": 58
+      },
+      "V44632": {
+        "id": "V44632",
+        "indicator": "THE-SET",
+        "type": "MENTAL-PLAN",
+        "word": "PLAN",
+        "roles": {
+          "ASSOC-POSS": "#V44626",
+          "LEX": "PLANS",
+          "WNSENSE": "plan%1:09:01::"
+        },
+        "start": 49,
+        "end": 58
+      },
+      "V44626": {
+        "id": "V44626",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "OUR",
+        "roles": {
+          "LEX": "OUR",
+          "PROFORM": "OUR",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "US"
+        },
+        "start": 49,
+        "end": 58
+      },
+      "root": "#V47735"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V47732": {
+          "id": "V47732",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V44565",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 59
+        },
+        "V44565": {
+          "id": "V44565",
+          "indicator": "F",
+          "type": "EVENT-OF-STATE",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V44540",
+            "SEQUENCE1": "#V44576",
+            "EXTENT": "#V47574",
+            "TIME": "#V44777",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V47574": {
+          "id": "V47574",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V44565",
+            "GROUND": "#V44767",
+            "LEX": "ONE"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V44767": {
+          "id": "V44767",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "#V44515",
+            "LEX": "ONE"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V44515": {
+          "id": "V44515",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V44777": {
+          "id": "V44777",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V44565",
+            "GROUND": "#V44868"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V44868": {
+          "id": "V44868",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V44517",
+            "LEX": "SUNDAY"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V44517": {
+          "id": "V44517",
+          "indicator": "THE",
+          "type": "DAY-NAME",
+          "word": "SUNDAY",
+          "roles": {
+            "NAME-OF": "SUNDAY",
+            "LEX": "SUNDAY",
+            "WNSENSE": "sunday%1:28:00::"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V44540": {
+          "id": "V44540",
+          "indicator": "F",
+          "type": "HAVE-EXPERIENCE",
+          "word": "HAVE",
+          "roles": {
+            "EXPERIENCER": "#V44523",
+            "NEUTRAL": "#V44560",
+            "MOD": "#V44528",
+            "TENSE": "PAST",
+            "LEX": "HAD",
+            "WNSENSE": "have%2:39:06::"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V44523": {
+          "id": "V44523",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 11,
+          "end": 14
+        },
+        "V44528": {
+          "id": "V44528",
+          "indicator": "F",
+          "type": "MODIFIER",
+          "word": "BOTH",
+          "roles": {
+            "FIGURE": "#V44540",
+            "LEX": "BOTH"
+          },
+          "start": 14,
+          "end": 19
+        },
+        "V44560": {
+          "id": "V44560",
+          "indicator": "THE",
+          "type": "FLU",
+          "word": "FLU",
+          "roles": {
+            "LEX": "FLU",
+            "WNSENSE": "flu%1:26:00::"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V44576": {
+          "id": "V44576",
+          "indicator": "F",
+          "type": "NECESSITY",
+          "word": "HAVE",
+          "roles": {
+            "NEUTRAL": "#V44523",
+            "FORMAL": "#V44621",
+            "TENSE": "PAST",
+            "LEX": "HAD",
+            "WNSENSE": "need%2:34:01"
+          },
+          "start": 35,
+          "end": 58
+        },
+        "V44621": {
+          "id": "V44621",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "CANCEL",
+          "roles": {
+            "AGENT": "#V44523",
+            "AFFECTED": "#V44633",
+            "VFORM": "BASE",
+            "LEX": "CANCEL",
+            "WNSENSE": "cancel%2:41:03::"
+          },
+          "start": 39,
+          "end": 58
+        },
+        "V44633": {
+          "id": "V44633",
+          "indicator": "THE-SET",
+          "type": "MENTAL-PLAN",
+          "word": "PLAN",
+          "roles": {
+            "ASSOC-POSS": "#V44626",
+            "LEX": "PLANS",
+            "WNSENSE": "plan%1:09:01::"
+          },
+          "start": 49,
+          "end": 58
+        },
+        "V44626": {
+          "id": "V44626",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "OUR",
+          "roles": {
+            "LEX": "OUR",
+            "PROFORM": "OUR",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 49,
+          "end": 58
+        },
+        "root": "#V47732"
+      }
+    ],
+    [
+      {
+        "V47741": {
+          "id": "V47741",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V44974",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 59
+        },
+        "V44974": {
+          "id": "V44974",
+          "indicator": "F",
+          "type": "EVENT-OF-STATE",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V44540",
+            "SEQUENCE1": "#V44576",
+            "EXTENT": "#V47574",
+            "TIME": "#V44777",
+            "MOD": "#V44528",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V44576": {
+          "id": "V44576",
+          "indicator": "F",
+          "type": "NECESSITY",
+          "word": "HAVE",
+          "roles": {
+            "NEUTRAL": "#V44523",
+            "FORMAL": "#V44621",
+            "LEX": "HAD",
+            "WNSENSE": "need%2:34:01"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V44540": {
+          "id": "V44540",
+          "indicator": "F",
+          "type": "HAVE-EXPERIENCE",
+          "word": "HAVE",
+          "roles": {
+            "EXPERIENCER": "#V44523",
+            "NEUTRAL": "#V44560",
+            "LEX": "HAD",
+            "WNSENSE": "have%2:39:06::"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V47574": {
+          "id": "V47574",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V44974",
+            "GROUND": "#V44767",
+            "LEX": "ONE"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V44767": {
+          "id": "V44767",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "#V44515",
+            "LEX": "ONE"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V44515": {
+          "id": "V44515",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V44777": {
+          "id": "V44777",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V44974",
+            "GROUND": "#V44868"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V44868": {
+          "id": "V44868",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V44517",
+            "LEX": "SUNDAY"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V44517": {
+          "id": "V44517",
+          "indicator": "THE",
+          "type": "DAY-NAME",
+          "word": "SUNDAY",
+          "roles": {
+            "NAME-OF": "SUNDAY",
+            "LEX": "SUNDAY",
+            "WNSENSE": "sunday%1:28:00::"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V44523": {
+          "id": "V44523",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 11,
+          "end": 14
+        },
+        "V44528": {
+          "id": "V44528",
+          "indicator": "F",
+          "type": "MODIFIER",
+          "word": "BOTH",
+          "roles": {
+            "FIGURE": "#V44974",
+            "LEX": "BOTH"
+          },
+          "start": 14,
+          "end": 19
+        },
+        "V44560": {
+          "id": "V44560",
+          "indicator": "THE",
+          "type": "FLU",
+          "word": "FLU",
+          "roles": {
+            "LEX": "FLU",
+            "WNSENSE": "flu%1:26:00::"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V44621": {
+          "id": "V44621",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "CANCEL",
+          "roles": {
+            "AGENT": "#V44523",
+            "AFFECTED": "#V44632",
+            "VFORM": "BASE",
+            "LEX": "CANCEL",
+            "WNSENSE": "cancel%2:41:03::"
+          },
+          "start": 39,
+          "end": 58
+        },
+        "V44632": {
+          "id": "V44632",
+          "indicator": "THE-SET",
+          "type": "MENTAL-PLAN",
+          "word": "PLAN",
+          "roles": {
+            "ASSOC-POSS": "#V44626",
+            "LEX": "PLANS",
+            "WNSENSE": "plan%1:09:01::"
+          },
+          "start": 49,
+          "end": 58
+        },
+        "V44626": {
+          "id": "V44626",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "OUR",
+          "roles": {
+            "LEX": "OUR",
+            "PROFORM": "OUR",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 49,
+          "end": 58
+        },
+        "root": "#V47741"
+      }
+    ],
+    [
+      {
+        "V47738": {
+          "id": "V47738",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V44974",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 59
+        },
+        "V44974": {
+          "id": "V44974",
+          "indicator": "F",
+          "type": "EVENT-OF-STATE",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V44540",
+            "SEQUENCE1": "#V44576",
+            "EXTENT": "#V47574",
+            "TIME": "#V44777",
+            "MOD": "#V44528",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V44576": {
+          "id": "V44576",
+          "indicator": "F",
+          "type": "NECESSITY",
+          "word": "HAVE",
+          "roles": {
+            "NEUTRAL": "#V44523",
+            "FORMAL": "#V44621",
+            "LEX": "HAD",
+            "WNSENSE": "need%2:34:01"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V44540": {
+          "id": "V44540",
+          "indicator": "F",
+          "type": "HAVE-EXPERIENCE",
+          "word": "HAVE",
+          "roles": {
+            "EXPERIENCER": "#V44523",
+            "NEUTRAL": "#V44560",
+            "LEX": "HAD",
+            "WNSENSE": "have%2:39:06::"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V47574": {
+          "id": "V47574",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V44974",
+            "GROUND": "#V44767",
+            "LEX": "ONE"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V44767": {
+          "id": "V44767",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "#V44515",
+            "LEX": "ONE"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V44515": {
+          "id": "V44515",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V44777": {
+          "id": "V44777",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V44974",
+            "GROUND": "#V44868"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V44868": {
+          "id": "V44868",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V44517",
+            "LEX": "SUNDAY"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V44517": {
+          "id": "V44517",
+          "indicator": "THE",
+          "type": "DAY-NAME",
+          "word": "SUNDAY",
+          "roles": {
+            "NAME-OF": "SUNDAY",
+            "LEX": "SUNDAY",
+            "WNSENSE": "sunday%1:28:00::"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V44523": {
+          "id": "V44523",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 11,
+          "end": 14
+        },
+        "V44528": {
+          "id": "V44528",
+          "indicator": "F",
+          "type": "MODIFIER",
+          "word": "BOTH",
+          "roles": {
+            "FIGURE": "#V44974",
+            "LEX": "BOTH"
+          },
+          "start": 14,
+          "end": 19
+        },
+        "V44560": {
+          "id": "V44560",
+          "indicator": "THE",
+          "type": "FLU",
+          "word": "FLU",
+          "roles": {
+            "LEX": "FLU",
+            "WNSENSE": "flu%1:26:00::"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V44621": {
+          "id": "V44621",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "CANCEL",
+          "roles": {
+            "AGENT": "#V44523",
+            "AFFECTED": "#V44633",
+            "VFORM": "BASE",
+            "LEX": "CANCEL",
+            "WNSENSE": "cancel%2:41:03::"
+          },
+          "start": 39,
+          "end": 58
+        },
+        "V44633": {
+          "id": "V44633",
+          "indicator": "THE-SET",
+          "type": "MENTAL-PLAN",
+          "word": "PLAN",
+          "roles": {
+            "ASSOC-POSS": "#V44626",
+            "LEX": "PLANS",
+            "WNSENSE": "plan%1:09:01::"
+          },
+          "start": 49,
+          "end": 58
+        },
+        "V44626": {
+          "id": "V44626",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "OUR",
+          "roles": {
+            "LEX": "OUR",
+            "PROFORM": "OUR",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 49,
+          "end": 58
+        },
+        "root": "#V47738"
+      }
+    ],
+    [
+      {
+        "V47775": {
+          "id": "V47775",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V44565",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 59
+        },
+        "V44565": {
+          "id": "V44565",
+          "indicator": "F",
+          "type": "EVENT-OF-STATE",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V44540",
+            "SEQUENCE1": "#V44576",
+            "EXTENT": "#V47574",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V47574": {
+          "id": "V47574",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V44565",
+            "GROUND": "#V44767",
+            "LEX": "ONE"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V44767": {
+          "id": "V44767",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "#V44515",
+            "LEX": "ONE"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V44515": {
+          "id": "V44515",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V44540": {
+          "id": "V44540",
+          "indicator": "F",
+          "type": "HAVE-EXPERIENCE",
+          "word": "HAVE",
+          "roles": {
+            "EXPERIENCER": "#V44523",
+            "NEUTRAL": "#V44560",
+            "TIME": "#V44777",
+            "MOD": "#V44528",
+            "TENSE": "PAST",
+            "LEX": "HAD"
+          },
+          "start": 4,
+          "end": 31
+        },
+        "V44777": {
+          "id": "V44777",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V44540",
+            "GROUND": "#V44868"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V44868": {
+          "id": "V44868",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V44517",
+            "LEX": "SUNDAY"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V44517": {
+          "id": "V44517",
+          "indicator": "THE",
+          "type": "DAY-NAME",
+          "word": "SUNDAY",
+          "roles": {
+            "NAME-OF": "SUNDAY",
+            "LEX": "SUNDAY",
+            "WNSENSE": "sunday%1:28:00::"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V44523": {
+          "id": "V44523",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 11,
+          "end": 14
+        },
+        "V44528": {
+          "id": "V44528",
+          "indicator": "F",
+          "type": "MODIFIER",
+          "word": "BOTH",
+          "roles": {
+            "FIGURE": "#V44540",
+            "LEX": "BOTH"
+          },
+          "start": 14,
+          "end": 19
+        },
+        "V44560": {
+          "id": "V44560",
+          "indicator": "THE",
+          "type": "FLU",
+          "word": "FLU",
+          "roles": {
+            "LEX": "FLU",
+            "WNSENSE": "flu%1:26:00::"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V44576": {
+          "id": "V44576",
+          "indicator": "F",
+          "type": "NECESSITY",
+          "word": "HAVE",
+          "roles": {
+            "NEUTRAL": "#V44523",
+            "FORMAL": "#V44621",
+            "TENSE": "PAST",
+            "LEX": "HAD",
+            "WNSENSE": "need%2:34:01"
+          },
+          "start": 35,
+          "end": 58
+        },
+        "V44621": {
+          "id": "V44621",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "CANCEL",
+          "roles": {
+            "AGENT": "#V44523",
+            "AFFECTED": "#V44632",
+            "VFORM": "BASE",
+            "LEX": "CANCEL",
+            "WNSENSE": "cancel%2:41:03::"
+          },
+          "start": 39,
+          "end": 58
+        },
+        "V44632": {
+          "id": "V44632",
+          "indicator": "THE-SET",
+          "type": "MENTAL-PLAN",
+          "word": "PLAN",
+          "roles": {
+            "ASSOC-POSS": "#V44626",
+            "LEX": "PLANS",
+            "WNSENSE": "plan%1:09:01::"
+          },
+          "start": 49,
+          "end": 58
+        },
+        "V44626": {
+          "id": "V44626",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "OUR",
+          "roles": {
+            "LEX": "OUR",
+            "PROFORM": "OUR",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 49,
+          "end": 58
+        },
+        "root": "#V47775"
+      }
+    ],
+    [
+      {
+        "V47772": {
+          "id": "V47772",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V44565",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 59
+        },
+        "V44565": {
+          "id": "V44565",
+          "indicator": "F",
+          "type": "EVENT-OF-STATE",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V44540",
+            "SEQUENCE1": "#V44576",
+            "EXTENT": "#V47574",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V47574": {
+          "id": "V47574",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V44565",
+            "GROUND": "#V44767",
+            "LEX": "ONE"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V44767": {
+          "id": "V44767",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "#V44515",
+            "LEX": "ONE"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V44515": {
+          "id": "V44515",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V44540": {
+          "id": "V44540",
+          "indicator": "F",
+          "type": "HAVE-EXPERIENCE",
+          "word": "HAVE",
+          "roles": {
+            "EXPERIENCER": "#V44523",
+            "NEUTRAL": "#V44560",
+            "TIME": "#V44777",
+            "MOD": "#V44528",
+            "TENSE": "PAST",
+            "LEX": "HAD"
+          },
+          "start": 4,
+          "end": 31
+        },
+        "V44777": {
+          "id": "V44777",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V44540",
+            "GROUND": "#V44868"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V44868": {
+          "id": "V44868",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V44517",
+            "LEX": "SUNDAY"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V44517": {
+          "id": "V44517",
+          "indicator": "THE",
+          "type": "DAY-NAME",
+          "word": "SUNDAY",
+          "roles": {
+            "NAME-OF": "SUNDAY",
+            "LEX": "SUNDAY",
+            "WNSENSE": "sunday%1:28:00::"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V44523": {
+          "id": "V44523",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 11,
+          "end": 14
+        },
+        "V44528": {
+          "id": "V44528",
+          "indicator": "F",
+          "type": "MODIFIER",
+          "word": "BOTH",
+          "roles": {
+            "FIGURE": "#V44540",
+            "LEX": "BOTH"
+          },
+          "start": 14,
+          "end": 19
+        },
+        "V44560": {
+          "id": "V44560",
+          "indicator": "THE",
+          "type": "FLU",
+          "word": "FLU",
+          "roles": {
+            "LEX": "FLU",
+            "WNSENSE": "flu%1:26:00::"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V44576": {
+          "id": "V44576",
+          "indicator": "F",
+          "type": "NECESSITY",
+          "word": "HAVE",
+          "roles": {
+            "NEUTRAL": "#V44523",
+            "FORMAL": "#V44621",
+            "TENSE": "PAST",
+            "LEX": "HAD",
+            "WNSENSE": "need%2:34:01"
+          },
+          "start": 35,
+          "end": 58
+        },
+        "V44621": {
+          "id": "V44621",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "CANCEL",
+          "roles": {
+            "AGENT": "#V44523",
+            "AFFECTED": "#V44633",
+            "VFORM": "BASE",
+            "LEX": "CANCEL",
+            "WNSENSE": "cancel%2:41:03::"
+          },
+          "start": 39,
+          "end": 58
+        },
+        "V44633": {
+          "id": "V44633",
+          "indicator": "THE-SET",
+          "type": "MENTAL-PLAN",
+          "word": "PLAN",
+          "roles": {
+            "ASSOC-POSS": "#V44626",
+            "LEX": "PLANS",
+            "WNSENSE": "plan%1:09:01::"
+          },
+          "start": 49,
+          "end": 58
+        },
+        "V44626": {
+          "id": "V44626",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "OUR",
+          "roles": {
+            "LEX": "OUR",
+            "PROFORM": "OUR",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 49,
+          "end": 58
+        },
+        "root": "#V47772"
+      }
+    ],
+    [
+      {
+        "V47781": {
+          "id": "V47781",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V45989",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 59
+        },
+        "V45989": {
+          "id": "V45989",
+          "indicator": "F",
+          "type": "EVENT-OF-STATE",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V44540",
+            "SEQUENCE1": "#V44576",
+            "EXTENT": "#V47574",
+            "TIME": "#V44777",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V44576": {
+          "id": "V44576",
+          "indicator": "F",
+          "type": "NECESSITY",
+          "word": "HAVE",
+          "roles": {
+            "NEUTRAL": "#V44523",
+            "FORMAL": "#V44621",
+            "LEX": "HAD",
+            "WNSENSE": "need%2:34:01"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V44540": {
+          "id": "V44540",
+          "indicator": "F",
+          "type": "HAVE-EXPERIENCE",
+          "word": "HAVE",
+          "roles": {
+            "EXPERIENCER": "#V44523",
+            "NEUTRAL": "#V44560",
+            "MOD": "#V44528",
+            "LEX": "HAD",
+            "WNSENSE": "have%2:39:06::"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V47574": {
+          "id": "V47574",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V45989",
+            "GROUND": "#V44767",
+            "LEX": "ONE"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V44767": {
+          "id": "V44767",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "#V44515",
+            "LEX": "ONE"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V44515": {
+          "id": "V44515",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V44777": {
+          "id": "V44777",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V45989",
+            "GROUND": "#V44868"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V44868": {
+          "id": "V44868",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V44517",
+            "LEX": "SUNDAY"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V44517": {
+          "id": "V44517",
+          "indicator": "THE",
+          "type": "DAY-NAME",
+          "word": "SUNDAY",
+          "roles": {
+            "NAME-OF": "SUNDAY",
+            "LEX": "SUNDAY",
+            "WNSENSE": "sunday%1:28:00::"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V44523": {
+          "id": "V44523",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 11,
+          "end": 14
+        },
+        "V44528": {
+          "id": "V44528",
+          "indicator": "F",
+          "type": "MODIFIER",
+          "word": "BOTH",
+          "roles": {
+            "FIGURE": "#V44540",
+            "LEX": "BOTH"
+          },
+          "start": 14,
+          "end": 19
+        },
+        "V44560": {
+          "id": "V44560",
+          "indicator": "THE",
+          "type": "FLU",
+          "word": "FLU",
+          "roles": {
+            "LEX": "FLU",
+            "WNSENSE": "flu%1:26:00::"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V44621": {
+          "id": "V44621",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "CANCEL",
+          "roles": {
+            "AGENT": "#V44523",
+            "AFFECTED": "#V44632",
+            "VFORM": "BASE",
+            "LEX": "CANCEL",
+            "WNSENSE": "cancel%2:41:03::"
+          },
+          "start": 39,
+          "end": 58
+        },
+        "V44632": {
+          "id": "V44632",
+          "indicator": "THE-SET",
+          "type": "MENTAL-PLAN",
+          "word": "PLAN",
+          "roles": {
+            "ASSOC-POSS": "#V44626",
+            "LEX": "PLANS",
+            "WNSENSE": "plan%1:09:01::"
+          },
+          "start": 49,
+          "end": 58
+        },
+        "V44626": {
+          "id": "V44626",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "OUR",
+          "roles": {
+            "LEX": "OUR",
+            "PROFORM": "OUR",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 49,
+          "end": 58
+        },
+        "root": "#V47781"
+      }
+    ],
+    [
+      {
+        "V47778": {
+          "id": "V47778",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V45989",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 59
+        },
+        "V45989": {
+          "id": "V45989",
+          "indicator": "F",
+          "type": "EVENT-OF-STATE",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V44540",
+            "SEQUENCE1": "#V44576",
+            "EXTENT": "#V47574",
+            "TIME": "#V44777",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V44576": {
+          "id": "V44576",
+          "indicator": "F",
+          "type": "NECESSITY",
+          "word": "HAVE",
+          "roles": {
+            "NEUTRAL": "#V44523",
+            "FORMAL": "#V44621",
+            "LEX": "HAD",
+            "WNSENSE": "need%2:34:01"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V44540": {
+          "id": "V44540",
+          "indicator": "F",
+          "type": "HAVE-EXPERIENCE",
+          "word": "HAVE",
+          "roles": {
+            "EXPERIENCER": "#V44523",
+            "NEUTRAL": "#V44560",
+            "MOD": "#V44528",
+            "LEX": "HAD",
+            "WNSENSE": "have%2:39:06::"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V47574": {
+          "id": "V47574",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V45989",
+            "GROUND": "#V44767",
+            "LEX": "ONE"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V44767": {
+          "id": "V44767",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "#V44515",
+            "LEX": "ONE"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V44515": {
+          "id": "V44515",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V44777": {
+          "id": "V44777",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V45989",
+            "GROUND": "#V44868"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V44868": {
+          "id": "V44868",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V44517",
+            "LEX": "SUNDAY"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V44517": {
+          "id": "V44517",
+          "indicator": "THE",
+          "type": "DAY-NAME",
+          "word": "SUNDAY",
+          "roles": {
+            "NAME-OF": "SUNDAY",
+            "LEX": "SUNDAY",
+            "WNSENSE": "sunday%1:28:00::"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V44523": {
+          "id": "V44523",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 11,
+          "end": 14
+        },
+        "V44528": {
+          "id": "V44528",
+          "indicator": "F",
+          "type": "MODIFIER",
+          "word": "BOTH",
+          "roles": {
+            "FIGURE": "#V44540",
+            "LEX": "BOTH"
+          },
+          "start": 14,
+          "end": 19
+        },
+        "V44560": {
+          "id": "V44560",
+          "indicator": "THE",
+          "type": "FLU",
+          "word": "FLU",
+          "roles": {
+            "LEX": "FLU",
+            "WNSENSE": "flu%1:26:00::"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V44621": {
+          "id": "V44621",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "CANCEL",
+          "roles": {
+            "AGENT": "#V44523",
+            "AFFECTED": "#V44633",
+            "VFORM": "BASE",
+            "LEX": "CANCEL",
+            "WNSENSE": "cancel%2:41:03::"
+          },
+          "start": 39,
+          "end": 58
+        },
+        "V44633": {
+          "id": "V44633",
+          "indicator": "THE-SET",
+          "type": "MENTAL-PLAN",
+          "word": "PLAN",
+          "roles": {
+            "ASSOC-POSS": "#V44626",
+            "LEX": "PLANS",
+            "WNSENSE": "plan%1:09:01::"
+          },
+          "start": 49,
+          "end": 58
+        },
+        "V44626": {
+          "id": "V44626",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "OUR",
+          "roles": {
+            "LEX": "OUR",
+            "PROFORM": "OUR",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 49,
+          "end": 58
+        },
+        "root": "#V47778"
+      }
+    ],
+    [
+      {
+        "V47817": {
+          "id": "V47817",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V45765",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 59
+        },
+        "V45765": {
+          "id": "V45765",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V44539",
+            "SEQUENCE1": "#V44576",
+            "EXTENT": "#V47574",
+            "TIME": "#V44777",
+            "MOD": "#V44528",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V44576": {
+          "id": "V44576",
+          "indicator": "F",
+          "type": "NECESSITY",
+          "word": "HAVE",
+          "roles": {
+            "NEUTRAL": "#V44523",
+            "FORMAL": "#V44621",
+            "LEX": "HAD",
+            "WNSENSE": "need%2:34:01"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V44539": {
+          "id": "V44539",
+          "indicator": "F",
+          "type": "HAVE-INFLUENCE",
+          "word": "HAVE",
+          "roles": {
+            "AGENT": "#V44523",
+            "FORMAL": "#V44560",
+            "LEX": "HAD"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V47574": {
+          "id": "V47574",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V45765",
+            "GROUND": "#V44767",
+            "LEX": "ONE"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V44767": {
+          "id": "V44767",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "#V44515",
+            "LEX": "ONE"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V44515": {
+          "id": "V44515",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V44777": {
+          "id": "V44777",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V45765",
+            "GROUND": "#V44868"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V44868": {
+          "id": "V44868",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V44517",
+            "LEX": "SUNDAY"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V44517": {
+          "id": "V44517",
+          "indicator": "THE",
+          "type": "DAY-NAME",
+          "word": "SUNDAY",
+          "roles": {
+            "NAME-OF": "SUNDAY",
+            "LEX": "SUNDAY",
+            "WNSENSE": "sunday%1:28:00::"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V44523": {
+          "id": "V44523",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 11,
+          "end": 14
+        },
+        "V44528": {
+          "id": "V44528",
+          "indicator": "F",
+          "type": "MODIFIER",
+          "word": "BOTH",
+          "roles": {
+            "FIGURE": "#V45765",
+            "LEX": "BOTH"
+          },
+          "start": 14,
+          "end": 19
+        },
+        "V44560": {
+          "id": "V44560",
+          "indicator": "THE",
+          "type": "FLU",
+          "word": "FLU",
+          "roles": {
+            "LEX": "FLU",
+            "WNSENSE": "flu%1:26:00::"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V44621": {
+          "id": "V44621",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "CANCEL",
+          "roles": {
+            "AGENT": "#V44523",
+            "AFFECTED": "#V44632",
+            "VFORM": "BASE",
+            "LEX": "CANCEL",
+            "WNSENSE": "cancel%2:41:03::"
+          },
+          "start": 39,
+          "end": 58
+        },
+        "V44632": {
+          "id": "V44632",
+          "indicator": "THE-SET",
+          "type": "MENTAL-PLAN",
+          "word": "PLAN",
+          "roles": {
+            "ASSOC-POSS": "#V44626",
+            "LEX": "PLANS",
+            "WNSENSE": "plan%1:09:01::"
+          },
+          "start": 49,
+          "end": 58
+        },
+        "V44626": {
+          "id": "V44626",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "OUR",
+          "roles": {
+            "LEX": "OUR",
+            "PROFORM": "OUR",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 49,
+          "end": 58
+        },
+        "root": "#V47817"
+      }
+    ],
+    [
+      {
+        "V47814": {
+          "id": "V47814",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V45765",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 59
+        },
+        "V45765": {
+          "id": "V45765",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V44539",
+            "SEQUENCE1": "#V44576",
+            "EXTENT": "#V47574",
+            "TIME": "#V44777",
+            "MOD": "#V44528",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V44576": {
+          "id": "V44576",
+          "indicator": "F",
+          "type": "NECESSITY",
+          "word": "HAVE",
+          "roles": {
+            "NEUTRAL": "#V44523",
+            "FORMAL": "#V44621",
+            "LEX": "HAD",
+            "WNSENSE": "need%2:34:01"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V44539": {
+          "id": "V44539",
+          "indicator": "F",
+          "type": "HAVE-INFLUENCE",
+          "word": "HAVE",
+          "roles": {
+            "AGENT": "#V44523",
+            "FORMAL": "#V44560",
+            "LEX": "HAD"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V47574": {
+          "id": "V47574",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V45765",
+            "GROUND": "#V44767",
+            "LEX": "ONE"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V44767": {
+          "id": "V44767",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "#V44515",
+            "LEX": "ONE"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V44515": {
+          "id": "V44515",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V44777": {
+          "id": "V44777",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V45765",
+            "GROUND": "#V44868"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V44868": {
+          "id": "V44868",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V44517",
+            "LEX": "SUNDAY"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V44517": {
+          "id": "V44517",
+          "indicator": "THE",
+          "type": "DAY-NAME",
+          "word": "SUNDAY",
+          "roles": {
+            "NAME-OF": "SUNDAY",
+            "LEX": "SUNDAY",
+            "WNSENSE": "sunday%1:28:00::"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V44523": {
+          "id": "V44523",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 11,
+          "end": 14
+        },
+        "V44528": {
+          "id": "V44528",
+          "indicator": "F",
+          "type": "MODIFIER",
+          "word": "BOTH",
+          "roles": {
+            "FIGURE": "#V45765",
+            "LEX": "BOTH"
+          },
+          "start": 14,
+          "end": 19
+        },
+        "V44560": {
+          "id": "V44560",
+          "indicator": "THE",
+          "type": "FLU",
+          "word": "FLU",
+          "roles": {
+            "LEX": "FLU",
+            "WNSENSE": "flu%1:26:00::"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V44621": {
+          "id": "V44621",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "CANCEL",
+          "roles": {
+            "AGENT": "#V44523",
+            "AFFECTED": "#V44633",
+            "VFORM": "BASE",
+            "LEX": "CANCEL",
+            "WNSENSE": "cancel%2:41:03::"
+          },
+          "start": 39,
+          "end": 58
+        },
+        "V44633": {
+          "id": "V44633",
+          "indicator": "THE-SET",
+          "type": "MENTAL-PLAN",
+          "word": "PLAN",
+          "roles": {
+            "ASSOC-POSS": "#V44626",
+            "LEX": "PLANS",
+            "WNSENSE": "plan%1:09:01::"
+          },
+          "start": 49,
+          "end": 58
+        },
+        "V44626": {
+          "id": "V44626",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "OUR",
+          "roles": {
+            "LEX": "OUR",
+            "PROFORM": "OUR",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 49,
+          "end": 58
+        },
+        "root": "#V47814"
+      }
+    ]
+  ],
+  "sentence": "One Sunday we both had the flu and had to cancel our plans.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190829T152626",
+    "link": "http://trips.ihmc.us/parser/saved/20190829T152626-STEP-abhatia-none-One_Sunday_we_both_had_the_flu_and_had_t.xml",
+    "judgement": -1
+  }
+}

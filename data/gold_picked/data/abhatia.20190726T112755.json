@@ -1,0 +1,572 @@
+{
+  "parse": [
+    {
+      "V469539": {
+        "id": "V469539",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V469133",
+          "LEX": "SOLD"
+        },
+        "start": 0,
+        "end": 52
+      },
+      "V469133": {
+        "id": "V469133",
+        "indicator": "F",
+        "type": "COMMERCE-SELL",
+        "word": "SELL",
+        "roles": {
+          "RESULT": "#V469143",
+          "AFFECTED": "#V469111",
+          "TIME": "#V469025",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "SOLD"
+        },
+        "start": 0,
+        "end": 52
+      },
+      "V469025": {
+        "id": "V469025",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V469058",
+          "FIGURE": "#V469133",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 34
+      },
+      "V469058": {
+        "id": "V469058",
+        "indicator": "F",
+        "type": "MOVE",
+        "word": "GO",
+        "roles": {
+          "AGENT": "#V469038",
+          "REASON": "#V469081",
+          "TENSE": "PAST",
+          "LEX": "WENT",
+          "WNSENSE": "go%2:38:00::"
+        },
+        "start": 5,
+        "end": 34
+      },
+      "V469038": {
+        "id": "V469038",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00",
+          "COREF": "#V469108"
+        },
+        "start": 5,
+        "end": 10
+      },
+      "V469081": {
+        "id": "V469081",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V469099",
+          "FIGURE": "#V469058",
+          "LEX": "TO"
+        },
+        "start": 15,
+        "end": 34
+      },
+      "V469099": {
+        "id": "V469099",
+        "indicator": "F",
+        "type": "PURCHASE",
+        "word": "BUY",
+        "roles": {
+          "AFFECTED": "#V469108",
+          "VFORM": "BASE",
+          "LEX": "BUY",
+          "WNSENSE": "buy%2:40:00::"
+        },
+        "start": 18,
+        "end": 34
+      },
+      "V469108": {
+        "id": "V469108",
+        "indicator": "THE-SET",
+        "type": "OFFICIAL-DOCUMENT",
+        "word": "TICKET",
+        "roles": {
+          "LEX": "TICKETS",
+          "WNSENSE": "ticket%1:10:01::"
+        },
+        "start": 22,
+        "end": 34
+      },
+      "V469111": {
+        "id": "V469111",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 34,
+        "end": 39
+      },
+      "V469143": {
+        "id": "V469143",
+        "indicator": "F",
+        "type": "DIRECTION-OUT",
+        "word": "OUT",
+        "roles": {
+          "FIGURE": "#V469111",
+          "LEX": "OUT"
+        },
+        "start": 49,
+        "end": 52
+      },
+      "root": "#V469539"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V469536": {
+          "id": "V469536",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V469133",
+            "LEX": "SOLD"
+          },
+          "start": 0,
+          "end": 53
+        },
+        "V469133": {
+          "id": "V469133",
+          "indicator": "F",
+          "type": "COMMERCE-SELL",
+          "word": "SELL",
+          "roles": {
+            "AFFECTED": "#V469111",
+            "MANNER": "#V469144",
+            "TIME": "#V469025",
+            "TENSE": "PAST",
+            "PASSIVE": "+",
+            "LEX": "SOLD"
+          },
+          "start": 0,
+          "end": 52
+        },
+        "V469025": {
+          "id": "V469025",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V469058",
+            "FIGURE": "#V469133",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V469058": {
+          "id": "V469058",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "AGENT": "#V469038",
+            "REASON": "#V469081",
+            "TENSE": "PAST",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 5,
+          "end": 34
+        },
+        "V469038": {
+          "id": "V469038",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 5,
+          "end": 10
+        },
+        "V469081": {
+          "id": "V469081",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V469099",
+            "FIGURE": "#V469058",
+            "LEX": "TO"
+          },
+          "start": 15,
+          "end": 34
+        },
+        "V469099": {
+          "id": "V469099",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AFFECTED": "#V469108",
+            "VFORM": "BASE",
+            "LEX": "BUY",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 18,
+          "end": 34
+        },
+        "V469108": {
+          "id": "V469108",
+          "indicator": "THE-SET",
+          "type": "OFFICIAL-DOCUMENT",
+          "word": "TICKET",
+          "roles": {
+            "LEX": "TICKETS",
+            "WNSENSE": "ticket%1:10:01::"
+          },
+          "start": 22,
+          "end": 34
+        },
+        "V469111": {
+          "id": "V469111",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 34,
+          "end": 39
+        },
+        "V469144": {
+          "id": "V469144",
+          "indicator": "F",
+          "type": "COMPLETELY",
+          "word": "OUT",
+          "roles": {
+            "FIGURE": "#V469133",
+            "LEX": "OUT",
+            "WNSENSE": "out%4:02:02::"
+          },
+          "start": 49,
+          "end": 52
+        },
+        "root": "#V469536"
+      }
+    ],
+    [
+      {
+        "V469558": {
+          "id": "V469558",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V469133",
+            "LEX": "SOLD"
+          },
+          "start": 0,
+          "end": 53
+        },
+        "V469133": {
+          "id": "V469133",
+          "indicator": "F",
+          "type": "COMMERCE-SELL",
+          "word": "SELL",
+          "roles": {
+            "MANNER": "#V469144",
+            "AFFECTED": "#V469111",
+            "TIME": "#V469025",
+            "TENSE": "PAST",
+            "PASSIVE": "+",
+            "LEX": "SOLD"
+          },
+          "start": 0,
+          "end": 52
+        },
+        "V469025": {
+          "id": "V469025",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V469058",
+            "FIGURE": "#V469133",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V469058": {
+          "id": "V469058",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "AGENT": "#V469038",
+            "REASON": "#V469081",
+            "TENSE": "PAST",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 5,
+          "end": 34
+        },
+        "V469038": {
+          "id": "V469038",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 5,
+          "end": 10
+        },
+        "V469081": {
+          "id": "V469081",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V469099",
+            "FIGURE": "#V469058",
+            "LEX": "TO"
+          },
+          "start": 15,
+          "end": 34
+        },
+        "V469099": {
+          "id": "V469099",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AFFECTED": "#V469108",
+            "VFORM": "BASE",
+            "LEX": "BUY",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 18,
+          "end": 34
+        },
+        "V469108": {
+          "id": "V469108",
+          "indicator": "THE-SET",
+          "type": "OFFICIAL-DOCUMENT",
+          "word": "TICKET",
+          "roles": {
+            "LEX": "TICKETS",
+            "WNSENSE": "ticket%1:10:01::"
+          },
+          "start": 22,
+          "end": 34
+        },
+        "V469111": {
+          "id": "V469111",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 34,
+          "end": 39
+        },
+        "V469144": {
+          "id": "V469144",
+          "indicator": "F",
+          "type": "COMPLETELY",
+          "word": "OUT",
+          "roles": {
+            "FIGURE": "#V469133",
+            "LEX": "OUT",
+            "WNSENSE": "out%4:02:02::"
+          },
+          "start": 49,
+          "end": 52
+        },
+        "root": "#V469558"
+      }
+    ],
+    [
+      {
+        "V469701": {
+          "id": "V469701",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V469133",
+            "LEX": "SOLD"
+          },
+          "start": 0,
+          "end": 53
+        },
+        "V469133": {
+          "id": "V469133",
+          "indicator": "F",
+          "type": "COMMERCE-SELL",
+          "word": "SELL",
+          "roles": {
+            "AFFECTED": "#V469111",
+            "MANNER": "#V469144",
+            "TIME": "#V469025",
+            "REASON": "#V469081",
+            "TENSE": "PAST",
+            "PASSIVE": "+",
+            "LEX": "SOLD"
+          },
+          "start": 0,
+          "end": 52
+        },
+        "V469025": {
+          "id": "V469025",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V469058",
+            "FIGURE": "#V469133",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V469058": {
+          "id": "V469058",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "AGENT": "#V469038",
+            "TENSE": "PAST",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 5,
+          "end": 15
+        },
+        "V469038": {
+          "id": "V469038",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 5,
+          "end": 10
+        },
+        "V469081": {
+          "id": "V469081",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V469099",
+            "FIGURE": "#V469133",
+            "LEX": "TO"
+          },
+          "start": 15,
+          "end": 34
+        },
+        "V469099": {
+          "id": "V469099",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AFFECTED": "#V469108",
+            "VFORM": "BASE",
+            "LEX": "BUY",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 18,
+          "end": 34
+        },
+        "V469108": {
+          "id": "V469108",
+          "indicator": "THE-SET",
+          "type": "OFFICIAL-DOCUMENT",
+          "word": "TICKET",
+          "roles": {
+            "LEX": "TICKETS",
+            "WNSENSE": "ticket%1:10:01::"
+          },
+          "start": 22,
+          "end": 34
+        },
+        "V469111": {
+          "id": "V469111",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 34,
+          "end": 39
+        },
+        "V469144": {
+          "id": "V469144",
+          "indicator": "F",
+          "type": "COMPLETELY",
+          "word": "OUT",
+          "roles": {
+            "FIGURE": "#V469133",
+            "LEX": "OUT",
+            "WNSENSE": "out%4:02:02::"
+          },
+          "start": 49,
+          "end": 52
+        },
+        "root": "#V469701"
+      }
+    ]
+  ],
+  "sentence": "When they went to buy the tickets they were sold out.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190726T112755",
+    "link": "http://trips.ihmc.us/parser/saved/20190726T112755-STEP-abhatia-1-When_they_went_to_buy_the_tickets_they_w.xml",
+    "judgement": 1
+  }
+}

@@ -74,13 +74,13 @@ def transform(taskset, type_="a_b_parse", coverage=3, agreement=0, active=True):
         dataset = json.load(inp)
     tasks = [{
         "annotations": [],
-        "data": dict(data, type=type_, sentence=get_sentence(taskset, data["id"])),
+        "data": dict(data, type=type_), # sentence getting is now done in prepare.py
         "requirements": {
             "agreement": agreement,
             "coverage": coverage,
             "annotators": []
         }
-    } for data in dataset]
+    } for data in dataset if data]
     res = dict(name=taskset, tasks=tasks, definition=dict(type=type_, items=len(tasks), groups=[], is_active=active))
     click.echo(json.dumps(res, indent=2))
 

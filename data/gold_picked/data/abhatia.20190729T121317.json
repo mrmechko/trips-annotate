@@ -1,0 +1,724 @@
+{
+  "parse": [
+    {
+      "V99638": {
+        "id": "V99638",
+        "indicator": "SA-SEQ",
+        "type": "SA-SEQ",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "ACT": "#V99635",
+          "ACT1": "#V98481",
+          "LEX": "TOOK"
+        },
+        "start": 0,
+        "end": 64
+      },
+      "V99635": {
+        "id": "V99635",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V97975",
+          "LEX": "TOOK"
+        },
+        "start": 0,
+        "end": 37
+      },
+      "V97975": {
+        "id": "V97975",
+        "indicator": "F",
+        "type": "TAKE-TIME",
+        "word": "TAKE",
+        "roles": {
+          "NEUTRAL": "#V97948",
+          "EXTENT": "#V98022",
+          "TENSE": "PAST",
+          "LEX": "TOOK",
+          "WNSENSE": "take%2:40:06::"
+        },
+        "start": 0,
+        "end": 37
+      },
+      "V97948": {
+        "id": "V97948",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V98022": {
+        "id": "V98022",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V98016",
+          "SEQUENCE1": "#V98035",
+          "LEX": "AND"
+        },
+        "start": 8,
+        "end": 37
+      },
+      "V98016": {
+        "id": "V98016",
+        "indicator": "INDEF-SET",
+        "type": "OPINION",
+        "word": "THOUGHT",
+        "roles": {
+          "MOD": "#V98010",
+          "LEX": "THOUGHTS",
+          "WNSENSE": "thought%1:09:02::"
+        },
+        "start": 8,
+        "end": 22
+      },
+      "V98010": {
+        "id": "V98010",
+        "indicator": "F",
+        "type": "LONG",
+        "word": "LONG",
+        "roles": {
+          "FIGURE": "#V98016",
+          "SCALE": "LENGTH-SCALE",
+          "LEX": "LONG",
+          "WNSENSE": "long%3:00:02::"
+        },
+        "start": 8,
+        "end": 13
+      },
+      "V98035": {
+        "id": "V98035",
+        "indicator": "INDEF-SET",
+        "type": "ACTIVITY-EVENT",
+        "word": "COMPROMISES",
+        "roles": {
+          "LEX": "COMPROMISES",
+          "WNSENSE": "action%1:04:02"
+        },
+        "start": 26,
+        "end": 37
+      },
+      "V98481": {
+        "id": "V98481",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V98120",
+          "MOD": "#V98098",
+          "LEX": "FOUND"
+        },
+        "start": 39,
+        "end": 64
+      },
+      "V98098": {
+        "id": "V98098",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "BUT",
+        "roles": {
+          "FIGURE": "#V98481",
+          "LEX": "BUT",
+          "WNSENSE": "but%4:02:01::"
+        },
+        "start": 39,
+        "end": 43
+      },
+      "V98120": {
+        "id": "V98120",
+        "indicator": "F",
+        "type": "DETERMINE",
+        "word": "FIND",
+        "roles": {
+          "AGENT": "#V98106",
+          "NEUTRAL": "#V98180",
+          "TENSE": "PAST",
+          "LEX": "FOUND",
+          "WNSENSE": "find%2:32:00::"
+        },
+        "start": 43,
+        "end": 64
+      },
+      "V98106": {
+        "id": "V98106",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "LANE",
+        "roles": {
+          "NAME-OF": "LANE",
+          "LEX": "LANE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 43,
+        "end": 48
+      },
+      "V98180": {
+        "id": "V98180",
+        "indicator": "A",
+        "type": "LIQUID-SUBSTANCE",
+        "word": "SOLUTION",
+        "roles": {
+          "LEX": "SOLUTION",
+          "WNSENSE": "solution%1:27:00::"
+        },
+        "start": 54,
+        "end": 64
+      },
+      "root": "#V99638"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V99615": {
+          "id": "V99615",
+          "indicator": "SA-SEQ",
+          "type": "SA-SEQ",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V99612",
+            "ACT1": "#V98477",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 65
+        },
+        "V99612": {
+          "id": "V99612",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V97978",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V97978": {
+          "id": "V97978",
+          "indicator": "F",
+          "type": "CREATE",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V97948",
+            "AFFECTED-RESULT": "#V98022",
+            "TENSE": "PAST",
+            "LEX": "TOOK",
+            "WNSENSE": "make%2:36:00"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V97948": {
+          "id": "V97948",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V98022": {
+          "id": "V98022",
+          "indicator": "INDEF-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V98016",
+            "SEQUENCE1": "#V98035",
+            "LEX": "AND"
+          },
+          "start": 8,
+          "end": 37
+        },
+        "V98016": {
+          "id": "V98016",
+          "indicator": "INDEF-SET",
+          "type": "OPINION",
+          "word": "THOUGHT",
+          "roles": {
+            "MOD": "#V98010",
+            "LEX": "THOUGHTS",
+            "WNSENSE": "thought%1:09:02::"
+          },
+          "start": 8,
+          "end": 22
+        },
+        "V98010": {
+          "id": "V98010",
+          "indicator": "F",
+          "type": "LONG",
+          "word": "LONG",
+          "roles": {
+            "FIGURE": "#V98016",
+            "SCALE": "LENGTH-SCALE",
+            "LEX": "LONG",
+            "WNSENSE": "long%3:00:02::"
+          },
+          "start": 8,
+          "end": 13
+        },
+        "V98035": {
+          "id": "V98035",
+          "indicator": "INDEF-SET",
+          "type": "ACTIVITY-EVENT",
+          "word": "COMPROMISES",
+          "roles": {
+            "LEX": "COMPROMISES",
+            "WNSENSE": "action%1:04:02"
+          },
+          "start": 26,
+          "end": 37
+        },
+        "V98477": {
+          "id": "V98477",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V98120",
+            "MOD": "#V98098",
+            "LEX": "FOUND"
+          },
+          "start": 39,
+          "end": 64
+        },
+        "V98098": {
+          "id": "V98098",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V98477",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 39,
+          "end": 43
+        },
+        "V98120": {
+          "id": "V98120",
+          "indicator": "F",
+          "type": "DETERMINE",
+          "word": "FIND",
+          "roles": {
+            "AGENT": "#V98106",
+            "NEUTRAL": "#V98179",
+            "TENSE": "PAST",
+            "LEX": "FOUND",
+            "WNSENSE": "find%2:32:00::"
+          },
+          "start": 43,
+          "end": 64
+        },
+        "V98106": {
+          "id": "V98106",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "LANE",
+          "roles": {
+            "NAME-OF": "LANE",
+            "LEX": "LANE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 43,
+          "end": 48
+        },
+        "V98179": {
+          "id": "V98179",
+          "indicator": "A",
+          "type": "INFORMATION-FUNCTION-OBJECT",
+          "word": "SOLUTION",
+          "roles": {
+            "LEX": "SOLUTION",
+            "WNSENSE": "solution%1:14:00::"
+          },
+          "start": 54,
+          "end": 64
+        },
+        "root": "#V99615"
+      }
+    ],
+    [
+      {
+        "V99615": {
+          "id": "V99615",
+          "indicator": "SA-SEQ",
+          "type": "SA-SEQ",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V99612",
+            "ACT1": "#V98481",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 65
+        },
+        "V99612": {
+          "id": "V99612",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V97978",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V97978": {
+          "id": "V97978",
+          "indicator": "F",
+          "type": "CREATE",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V97948",
+            "AFFECTED-RESULT": "#V98022",
+            "TENSE": "PAST",
+            "LEX": "TOOK",
+            "WNSENSE": "make%2:36:00"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V97948": {
+          "id": "V97948",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V98022": {
+          "id": "V98022",
+          "indicator": "INDEF-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V98016",
+            "SEQUENCE1": "#V98035",
+            "LEX": "AND"
+          },
+          "start": 8,
+          "end": 37
+        },
+        "V98016": {
+          "id": "V98016",
+          "indicator": "INDEF-SET",
+          "type": "OPINION",
+          "word": "THOUGHT",
+          "roles": {
+            "MOD": "#V98010",
+            "LEX": "THOUGHTS",
+            "WNSENSE": "thought%1:09:02::"
+          },
+          "start": 8,
+          "end": 22
+        },
+        "V98010": {
+          "id": "V98010",
+          "indicator": "F",
+          "type": "LONG",
+          "word": "LONG",
+          "roles": {
+            "FIGURE": "#V98016",
+            "SCALE": "LENGTH-SCALE",
+            "LEX": "LONG",
+            "WNSENSE": "long%3:00:02::"
+          },
+          "start": 8,
+          "end": 13
+        },
+        "V98035": {
+          "id": "V98035",
+          "indicator": "INDEF-SET",
+          "type": "ACTIVITY-EVENT",
+          "word": "COMPROMISES",
+          "roles": {
+            "LEX": "COMPROMISES",
+            "WNSENSE": "action%1:04:02"
+          },
+          "start": 26,
+          "end": 37
+        },
+        "V98481": {
+          "id": "V98481",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V98120",
+            "MOD": "#V98098",
+            "LEX": "FOUND"
+          },
+          "start": 39,
+          "end": 64
+        },
+        "V98098": {
+          "id": "V98098",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V98481",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 39,
+          "end": 43
+        },
+        "V98120": {
+          "id": "V98120",
+          "indicator": "F",
+          "type": "DETERMINE",
+          "word": "FIND",
+          "roles": {
+            "AGENT": "#V98106",
+            "NEUTRAL": "#V98180",
+            "TENSE": "PAST",
+            "LEX": "FOUND",
+            "WNSENSE": "find%2:32:00::"
+          },
+          "start": 43,
+          "end": 64
+        },
+        "V98106": {
+          "id": "V98106",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "LANE",
+          "roles": {
+            "NAME-OF": "LANE",
+            "LEX": "LANE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 43,
+          "end": 48
+        },
+        "V98180": {
+          "id": "V98180",
+          "indicator": "A",
+          "type": "LIQUID-SUBSTANCE",
+          "word": "SOLUTION",
+          "roles": {
+            "LEX": "SOLUTION",
+            "WNSENSE": "solution%1:27:00::"
+          },
+          "start": 54,
+          "end": 64
+        },
+        "root": "#V99615"
+      }
+    ],
+    [
+      {
+        "V99592": {
+          "id": "V99592",
+          "indicator": "SA-SEQ",
+          "type": "SA-SEQ",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V99589",
+            "ACT1": "#V98477",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 65
+        },
+        "V99589": {
+          "id": "V99589",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V97979",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V97979": {
+          "id": "V97979",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V97948",
+            "AFFECTED": "#V98022",
+            "TENSE": "PAST",
+            "LEX": "TOOK",
+            "WNSENSE": "take%2:30:01::"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V97948": {
+          "id": "V97948",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V98022": {
+          "id": "V98022",
+          "indicator": "INDEF-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V98016",
+            "SEQUENCE1": "#V98035",
+            "LEX": "AND"
+          },
+          "start": 8,
+          "end": 37
+        },
+        "V98016": {
+          "id": "V98016",
+          "indicator": "INDEF-SET",
+          "type": "OPINION",
+          "word": "THOUGHT",
+          "roles": {
+            "MOD": "#V98010",
+            "LEX": "THOUGHTS",
+            "WNSENSE": "thought%1:09:02::"
+          },
+          "start": 8,
+          "end": 22
+        },
+        "V98010": {
+          "id": "V98010",
+          "indicator": "F",
+          "type": "LONG",
+          "word": "LONG",
+          "roles": {
+            "FIGURE": "#V98016",
+            "SCALE": "LENGTH-SCALE",
+            "LEX": "LONG",
+            "WNSENSE": "long%3:00:02::"
+          },
+          "start": 8,
+          "end": 13
+        },
+        "V98035": {
+          "id": "V98035",
+          "indicator": "INDEF-SET",
+          "type": "ACTIVITY-EVENT",
+          "word": "COMPROMISES",
+          "roles": {
+            "LEX": "COMPROMISES",
+            "WNSENSE": "action%1:04:02"
+          },
+          "start": 26,
+          "end": 37
+        },
+        "V98477": {
+          "id": "V98477",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V98120",
+            "MOD": "#V98098",
+            "LEX": "FOUND"
+          },
+          "start": 39,
+          "end": 64
+        },
+        "V98098": {
+          "id": "V98098",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V98477",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 39,
+          "end": 43
+        },
+        "V98120": {
+          "id": "V98120",
+          "indicator": "F",
+          "type": "DETERMINE",
+          "word": "FIND",
+          "roles": {
+            "AGENT": "#V98106",
+            "NEUTRAL": "#V98179",
+            "TENSE": "PAST",
+            "LEX": "FOUND",
+            "WNSENSE": "find%2:32:00::"
+          },
+          "start": 43,
+          "end": 64
+        },
+        "V98106": {
+          "id": "V98106",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "LANE",
+          "roles": {
+            "NAME-OF": "LANE",
+            "LEX": "LANE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 43,
+          "end": 48
+        },
+        "V98179": {
+          "id": "V98179",
+          "indicator": "A",
+          "type": "INFORMATION-FUNCTION-OBJECT",
+          "word": "SOLUTION",
+          "roles": {
+            "LEX": "SOLUTION",
+            "WNSENSE": "solution%1:14:00::"
+          },
+          "start": 54,
+          "end": 64
+        },
+        "root": "#V99592"
+      }
+    ]
+  ],
+  "sentence": "It took long thoughts and compromises, but Lane found a solution.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190729T121317",
+    "link": "http://trips.ihmc.us/parser/saved/20190729T121317-STEP-abhatia-none-It_took_long_thoughts_and_compromises_bu.xml",
+    "judgement": -1
+  }
+}

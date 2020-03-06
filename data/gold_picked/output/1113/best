@@ -1,0 +1,22 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V110990 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V110321 [label=<<font color="green"><br /></font> <font color="black">BREAK-OBJECT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BREAK</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BREAK-OBJECT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V110163 [label=<<font color="green"><br /></font> <font color="black">WHEN-WHILE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">WHEN</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::WHEN-WHILE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V110181 [label=<<font color="green"><br /></font> <font color="black">ARRIVE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">ARRIVE</font> <font color="green"><br /></font> <font color="green">arrive%2:38:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ARRIVE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V110176 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HE</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V110488 [label=<<font color="green"><br /></font> <font color="black">STRUCTURAL-OPENING</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">WINDOW</font> <font color="green"><br /></font> <font color="green">window%1:06:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::STRUCTURAL-OPENING.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V110274 [label=<<font color="green"><br /></font> <font color="black">STRUCTURAL-OPENING</font> <font color="green"><br /></font> <font color="red">THE-SET</font> <font color="blue">WINDOW</font> <font color="green"><br /></font> <font color="green">window%1:06:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::STRUCTURAL-OPENING.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V110221 [label=<<font color="green"><br /></font> <font color="black">LODGING</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">HOUSE</font> <font color="green"><br /></font> <font color="green">house%1:06:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::LODGING.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V110990 -> V110321 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V110163 -> V110181 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V110163 -> V110321 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V110321 -> V110488 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V110321 -> V110163 [label=" TIME   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V110488 -> V110274 [label=" REFSET   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V110274 -> V110221 [label=" ASSOC-POSS   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V110181 -> V110176 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

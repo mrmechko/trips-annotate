@@ -1,0 +1,1912 @@
+{
+  "parse": [
+    {
+      "V72750": {
+        "id": "V72750",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V71875",
+          "LEX": "OFFERED"
+        },
+        "start": 0,
+        "end": 35
+      },
+      "V71875": {
+        "id": "V71875",
+        "indicator": "F",
+        "type": "OFFER",
+        "word": "OFFER",
+        "roles": {
+          "AGENT": "#V71869",
+          "AFFECTED": "#V71886",
+          "TENSE": "PAST",
+          "LEX": "OFFERED",
+          "WNSENSE": "offer%2:41:00::"
+        },
+        "start": 0,
+        "end": 35
+      },
+      "V71869": {
+        "id": "V71869",
+        "indicator": "THE",
+        "type": "FARM",
+        "word": "FARM",
+        "roles": {
+          "LEX": "FARM",
+          "WNSENSE": "farm%1:06:00::"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V71886": {
+        "id": "V71886",
+        "indicator": "INDEF-SET",
+        "type": "KIND",
+        "word": "TYPE",
+        "roles": {
+          "SIZE": "#V71882",
+          "FIGURE": "#V71899",
+          "LEX": "TYPES",
+          "WNSENSE": "type%1:09:00::"
+        },
+        "start": 17,
+        "end": 35
+      },
+      "V71882": {
+        "id": "V71882",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "2"
+        },
+        "start": 17,
+        "end": 21
+      },
+      "V71899": {
+        "id": "V71899",
+        "indicator": "INDEF-SET",
+        "type": "TREE",
+        "word": "TREE",
+        "roles": {
+          "LEX": "TREES",
+          "WNSENSE": "tree%1:20:00::"
+        },
+        "start": 27,
+        "end": 35
+      },
+      "root": "#V72750"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V72266": {
+          "id": "V72266",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V71886",
+            "LEX": "TYPES"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V71886": {
+          "id": "V71886",
+          "indicator": "INDEF-SET",
+          "type": "KIND",
+          "word": "TYPE",
+          "roles": {
+            "SIZE": "#V71882",
+            "FIGURE": "#V71899",
+            "MOD": "#V71874",
+            "LEX": "TYPES",
+            "WNSENSE": "type%1:09:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V71874": {
+          "id": "V71874",
+          "indicator": "F",
+          "type": "OFFER",
+          "word": "OFFER",
+          "roles": {
+            "AGENT": "#V71869",
+            "AGENT1": "#V71886",
+            "LEX": "OFFERED",
+            "WNSENSE": "offer%2:41:00::"
+          },
+          "start": 0,
+          "end": 17
+        },
+        "V71869": {
+          "id": "V71869",
+          "indicator": "KIND",
+          "type": "FARM",
+          "word": "FARM",
+          "roles": {
+            "ASSOC-WITH": "#V71865",
+            "WNSENSE": "farm%1:06:00::"
+          },
+          "start": 0,
+          "end": 17
+        },
+        "V71865": {
+          "id": "V71865",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "NAME-OF": "THE",
+            "LEX": "THE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V71882": {
+          "id": "V71882",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "2"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V71899": {
+          "id": "V71899",
+          "indicator": "INDEF-SET",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "LEX": "TREES",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 27,
+          "end": 35
+        },
+        "root": "#V72266"
+      }
+    ],
+    [
+      {
+        "V72264": {
+          "id": "V72264",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V71886",
+            "LEX": "TYPES"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V71886": {
+          "id": "V71886",
+          "indicator": "INDEF-SET",
+          "type": "KIND",
+          "word": "TYPE",
+          "roles": {
+            "SIZE": "#V71882",
+            "FIGURE": "#V71899",
+            "MOD": "#V71875",
+            "LEX": "TYPES",
+            "WNSENSE": "type%1:09:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V71875": {
+          "id": "V71875",
+          "indicator": "F",
+          "type": "OFFER",
+          "word": "OFFER",
+          "roles": {
+            "AGENT": "#V71869",
+            "AFFECTED": "#V71886",
+            "LEX": "OFFERED",
+            "WNSENSE": "offer%2:41:00::"
+          },
+          "start": 0,
+          "end": 17
+        },
+        "V71869": {
+          "id": "V71869",
+          "indicator": "KIND",
+          "type": "FARM",
+          "word": "FARM",
+          "roles": {
+            "ASSOC-WITH": "#V71865",
+            "WNSENSE": "farm%1:06:00::"
+          },
+          "start": 0,
+          "end": 17
+        },
+        "V71865": {
+          "id": "V71865",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "NAME-OF": "THE",
+            "LEX": "THE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V71882": {
+          "id": "V71882",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "2"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V71899": {
+          "id": "V71899",
+          "indicator": "INDEF-SET",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "LEX": "TREES",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 27,
+          "end": 35
+        },
+        "root": "#V72264"
+      }
+    ],
+    [
+      {
+        "V72298": {
+          "id": "V72298",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V71886",
+            "LEX": "TYPES"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V71886": {
+          "id": "V71886",
+          "indicator": "THE-SET",
+          "type": "KIND",
+          "word": "TYPE",
+          "roles": {
+            "SIZE": "#V71882",
+            "FIGURE": "#V71899",
+            "MOD": "#V71875",
+            "LEX": "TYPES",
+            "WNSENSE": "type%1:09:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V71875": {
+          "id": "V71875",
+          "indicator": "F",
+          "type": "OFFER",
+          "word": "OFFER",
+          "roles": {
+            "AGENT": "#V71869",
+            "AFFECTED": "#V71886",
+            "LEX": "OFFERED",
+            "WNSENSE": "offer%2:41:00::"
+          },
+          "start": 4,
+          "end": 17
+        },
+        "V71869": {
+          "id": "V71869",
+          "indicator": "KIND",
+          "type": "FARM",
+          "word": "FARM",
+          "roles": {
+            "WNSENSE": "farm%1:06:00::"
+          },
+          "start": 4,
+          "end": 17
+        },
+        "V71882": {
+          "id": "V71882",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "2"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V71899": {
+          "id": "V71899",
+          "indicator": "INDEF-SET",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "LEX": "TREES",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 27,
+          "end": 35
+        },
+        "root": "#V72298"
+      }
+    ],
+    [
+      {
+        "V72296": {
+          "id": "V72296",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V71886",
+            "LEX": "TYPES"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V71886": {
+          "id": "V71886",
+          "indicator": "THE-SET",
+          "type": "KIND",
+          "word": "TYPE",
+          "roles": {
+            "SIZE": "#V71882",
+            "FIGURE": "#V71899",
+            "MOD": "#V71874",
+            "LEX": "TYPES",
+            "WNSENSE": "type%1:09:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V71874": {
+          "id": "V71874",
+          "indicator": "F",
+          "type": "OFFER",
+          "word": "OFFER",
+          "roles": {
+            "AGENT": "#V71869",
+            "AGENT1": "#V71886",
+            "LEX": "OFFERED",
+            "WNSENSE": "offer%2:41:00::"
+          },
+          "start": 4,
+          "end": 17
+        },
+        "V71869": {
+          "id": "V71869",
+          "indicator": "KIND",
+          "type": "FARM",
+          "word": "FARM",
+          "roles": {
+            "WNSENSE": "farm%1:06:00::"
+          },
+          "start": 4,
+          "end": 17
+        },
+        "V71882": {
+          "id": "V71882",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "2"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V71899": {
+          "id": "V71899",
+          "indicator": "INDEF-SET",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "LEX": "TREES",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 27,
+          "end": 35
+        },
+        "root": "#V72296"
+      }
+    ],
+    [
+      {
+        "V72346": {
+          "id": "V72346",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V71886",
+            "LEX": "TYPES"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V71886": {
+          "id": "V71886",
+          "indicator": "INDEF-SET",
+          "type": "KIND",
+          "word": "TYPE",
+          "roles": {
+            "ASSOC-WITH": "#V71865",
+            "SIZE": "#V71882",
+            "FIGURE": "#V71899",
+            "MOD": "#V71875",
+            "LEX": "TYPES",
+            "WNSENSE": "type%1:09:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V71865": {
+          "id": "V71865",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "NAME-OF": "THE",
+            "LEX": "THE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V71875": {
+          "id": "V71875",
+          "indicator": "F",
+          "type": "OFFER",
+          "word": "OFFER",
+          "roles": {
+            "AGENT": "#V71869",
+            "AFFECTED": "#V71886",
+            "LEX": "OFFERED",
+            "WNSENSE": "offer%2:41:00::"
+          },
+          "start": 4,
+          "end": 17
+        },
+        "V71869": {
+          "id": "V71869",
+          "indicator": "KIND",
+          "type": "FARM",
+          "word": "FARM",
+          "roles": {
+            "WNSENSE": "farm%1:06:00::"
+          },
+          "start": 4,
+          "end": 17
+        },
+        "V71882": {
+          "id": "V71882",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "2"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V71899": {
+          "id": "V71899",
+          "indicator": "INDEF-SET",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "LEX": "TREES",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 27,
+          "end": 35
+        },
+        "root": "#V72346"
+      }
+    ],
+    [
+      {
+        "V72344": {
+          "id": "V72344",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V71886",
+            "LEX": "TYPES"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V71886": {
+          "id": "V71886",
+          "indicator": "INDEF-SET",
+          "type": "KIND",
+          "word": "TYPE",
+          "roles": {
+            "ASSOC-WITH": "#V71865",
+            "SIZE": "#V71882",
+            "FIGURE": "#V71899",
+            "MOD": "#V71874",
+            "LEX": "TYPES",
+            "WNSENSE": "type%1:09:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V71865": {
+          "id": "V71865",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "NAME-OF": "THE",
+            "LEX": "THE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V71874": {
+          "id": "V71874",
+          "indicator": "F",
+          "type": "OFFER",
+          "word": "OFFER",
+          "roles": {
+            "AGENT": "#V71869",
+            "AGENT1": "#V71886",
+            "LEX": "OFFERED",
+            "WNSENSE": "offer%2:41:00::"
+          },
+          "start": 4,
+          "end": 17
+        },
+        "V71869": {
+          "id": "V71869",
+          "indicator": "KIND",
+          "type": "FARM",
+          "word": "FARM",
+          "roles": {
+            "WNSENSE": "farm%1:06:00::"
+          },
+          "start": 4,
+          "end": 17
+        },
+        "V71882": {
+          "id": "V71882",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "2"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V71899": {
+          "id": "V71899",
+          "indicator": "INDEF-SET",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "LEX": "TREES",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 27,
+          "end": 35
+        },
+        "root": "#V72344"
+      }
+    ],
+    [
+      {
+        "V72370": {
+          "id": "V72370",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V71886",
+            "LEX": "TYPES"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V71886": {
+          "id": "V71886",
+          "indicator": "INDEF-SET",
+          "type": "KIND",
+          "word": "TYPE",
+          "roles": {
+            "SIZE": "#V71882",
+            "MOD": "#V71874",
+            "LEX": "TYPES",
+            "WNSENSE": "type%1:09:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V71874": {
+          "id": "V71874",
+          "indicator": "F",
+          "type": "OFFER",
+          "word": "OFFER",
+          "roles": {
+            "AGENT": "#V71869",
+            "AGENT1": "#V71886",
+            "LEX": "OFFERED",
+            "WNSENSE": "offer%2:41:00::"
+          },
+          "start": 0,
+          "end": 17
+        },
+        "V71869": {
+          "id": "V71869",
+          "indicator": "KIND",
+          "type": "FARM",
+          "word": "FARM",
+          "roles": {
+            "ASSOC-WITH": "#V71865",
+            "WNSENSE": "farm%1:06:00::"
+          },
+          "start": 0,
+          "end": 17
+        },
+        "V71865": {
+          "id": "V71865",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "NAME-OF": "THE",
+            "LEX": "THE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V71882": {
+          "id": "V71882",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "2"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V71891": {
+          "id": "V71891",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "OF",
+          "roles": {
+            "GROUND": "#V71899",
+            "FIGURE": "#V71886",
+            "LEX": "OF"
+          },
+          "start": 27,
+          "end": 35
+        },
+        "V71899": {
+          "id": "V71899",
+          "indicator": "INDEF-SET",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "LEX": "TREES",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "root": "#V72370"
+      }
+    ],
+    [
+      {
+        "V72368": {
+          "id": "V72368",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V71886",
+            "LEX": "TYPES"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V71886": {
+          "id": "V71886",
+          "indicator": "INDEF-SET",
+          "type": "KIND",
+          "word": "TYPE",
+          "roles": {
+            "SIZE": "#V71882",
+            "MOD": "#V71875",
+            "LEX": "TYPES",
+            "WNSENSE": "type%1:09:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V71875": {
+          "id": "V71875",
+          "indicator": "F",
+          "type": "OFFER",
+          "word": "OFFER",
+          "roles": {
+            "AGENT": "#V71869",
+            "AFFECTED": "#V71886",
+            "LEX": "OFFERED",
+            "WNSENSE": "offer%2:41:00::"
+          },
+          "start": 0,
+          "end": 17
+        },
+        "V71869": {
+          "id": "V71869",
+          "indicator": "KIND",
+          "type": "FARM",
+          "word": "FARM",
+          "roles": {
+            "ASSOC-WITH": "#V71865",
+            "WNSENSE": "farm%1:06:00::"
+          },
+          "start": 0,
+          "end": 17
+        },
+        "V71865": {
+          "id": "V71865",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "NAME-OF": "THE",
+            "LEX": "THE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V71882": {
+          "id": "V71882",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "2"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V71891": {
+          "id": "V71891",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "OF",
+          "roles": {
+            "GROUND": "#V71899",
+            "FIGURE": "#V71886",
+            "LEX": "OF"
+          },
+          "start": 27,
+          "end": 35
+        },
+        "V71899": {
+          "id": "V71899",
+          "indicator": "INDEF-SET",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "LEX": "TREES",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "root": "#V72368"
+      }
+    ],
+    [
+      {
+        "V72451": {
+          "id": "V72451",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V71886",
+            "LEX": "TYPES"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V71886": {
+          "id": "V71886",
+          "indicator": "THE-SET",
+          "type": "KIND",
+          "word": "TYPE",
+          "roles": {
+            "SIZE": "#V71882",
+            "MOD": "#V71874",
+            "LEX": "TYPES",
+            "WNSENSE": "type%1:09:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V71874": {
+          "id": "V71874",
+          "indicator": "F",
+          "type": "OFFER",
+          "word": "OFFER",
+          "roles": {
+            "AGENT": "#V71869",
+            "AGENT1": "#V71886",
+            "LEX": "OFFERED",
+            "WNSENSE": "offer%2:41:00::"
+          },
+          "start": 4,
+          "end": 17
+        },
+        "V71869": {
+          "id": "V71869",
+          "indicator": "KIND",
+          "type": "FARM",
+          "word": "FARM",
+          "roles": {
+            "WNSENSE": "farm%1:06:00::"
+          },
+          "start": 4,
+          "end": 17
+        },
+        "V71882": {
+          "id": "V71882",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "2"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V71891": {
+          "id": "V71891",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "OF",
+          "roles": {
+            "GROUND": "#V71899",
+            "FIGURE": "#V71886",
+            "LEX": "OF"
+          },
+          "start": 27,
+          "end": 35
+        },
+        "V71899": {
+          "id": "V71899",
+          "indicator": "INDEF-SET",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "LEX": "TREES",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "root": "#V72451"
+      }
+    ],
+    [
+      {
+        "V72449": {
+          "id": "V72449",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V71886",
+            "LEX": "TYPES"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V71886": {
+          "id": "V71886",
+          "indicator": "THE-SET",
+          "type": "KIND",
+          "word": "TYPE",
+          "roles": {
+            "SIZE": "#V71882",
+            "MOD": "#V71875",
+            "LEX": "TYPES",
+            "WNSENSE": "type%1:09:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V71875": {
+          "id": "V71875",
+          "indicator": "F",
+          "type": "OFFER",
+          "word": "OFFER",
+          "roles": {
+            "AGENT": "#V71869",
+            "AFFECTED": "#V71886",
+            "LEX": "OFFERED",
+            "WNSENSE": "offer%2:41:00::"
+          },
+          "start": 4,
+          "end": 17
+        },
+        "V71869": {
+          "id": "V71869",
+          "indicator": "KIND",
+          "type": "FARM",
+          "word": "FARM",
+          "roles": {
+            "WNSENSE": "farm%1:06:00::"
+          },
+          "start": 4,
+          "end": 17
+        },
+        "V71882": {
+          "id": "V71882",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "2"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V71891": {
+          "id": "V71891",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "OF",
+          "roles": {
+            "GROUND": "#V71899",
+            "FIGURE": "#V71886",
+            "LEX": "OF"
+          },
+          "start": 27,
+          "end": 35
+        },
+        "V71899": {
+          "id": "V71899",
+          "indicator": "INDEF-SET",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "LEX": "TREES",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "root": "#V72449"
+      }
+    ],
+    [
+      {
+        "V72457": {
+          "id": "V72457",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V71886",
+            "LEX": "TYPES"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V71886": {
+          "id": "V71886",
+          "indicator": "INDEF-SET",
+          "type": "KIND",
+          "word": "TYPE",
+          "roles": {
+            "ASSOC-WITH": "#V71865",
+            "SIZE": "#V71882",
+            "MOD": "#V71874",
+            "LEX": "TYPES",
+            "WNSENSE": "type%1:09:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V71865": {
+          "id": "V71865",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "NAME-OF": "THE",
+            "LEX": "THE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V71874": {
+          "id": "V71874",
+          "indicator": "F",
+          "type": "OFFER",
+          "word": "OFFER",
+          "roles": {
+            "AGENT": "#V71869",
+            "AGENT1": "#V71886",
+            "LEX": "OFFERED",
+            "WNSENSE": "offer%2:41:00::"
+          },
+          "start": 4,
+          "end": 17
+        },
+        "V71869": {
+          "id": "V71869",
+          "indicator": "KIND",
+          "type": "FARM",
+          "word": "FARM",
+          "roles": {
+            "WNSENSE": "farm%1:06:00::"
+          },
+          "start": 4,
+          "end": 17
+        },
+        "V71882": {
+          "id": "V71882",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "2"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V71891": {
+          "id": "V71891",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "OF",
+          "roles": {
+            "GROUND": "#V71899",
+            "FIGURE": "#V71886",
+            "LEX": "OF"
+          },
+          "start": 27,
+          "end": 35
+        },
+        "V71899": {
+          "id": "V71899",
+          "indicator": "INDEF-SET",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "LEX": "TREES",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "root": "#V72457"
+      }
+    ],
+    [
+      {
+        "V72455": {
+          "id": "V72455",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V71886",
+            "LEX": "TYPES"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V71886": {
+          "id": "V71886",
+          "indicator": "INDEF-SET",
+          "type": "KIND",
+          "word": "TYPE",
+          "roles": {
+            "ASSOC-WITH": "#V71865",
+            "SIZE": "#V71882",
+            "MOD": "#V71875",
+            "LEX": "TYPES",
+            "WNSENSE": "type%1:09:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V71865": {
+          "id": "V71865",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "NAME-OF": "THE",
+            "LEX": "THE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V71875": {
+          "id": "V71875",
+          "indicator": "F",
+          "type": "OFFER",
+          "word": "OFFER",
+          "roles": {
+            "AGENT": "#V71869",
+            "AFFECTED": "#V71886",
+            "LEX": "OFFERED",
+            "WNSENSE": "offer%2:41:00::"
+          },
+          "start": 4,
+          "end": 17
+        },
+        "V71869": {
+          "id": "V71869",
+          "indicator": "KIND",
+          "type": "FARM",
+          "word": "FARM",
+          "roles": {
+            "WNSENSE": "farm%1:06:00::"
+          },
+          "start": 4,
+          "end": 17
+        },
+        "V71882": {
+          "id": "V71882",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "2"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V71891": {
+          "id": "V71891",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "OF",
+          "roles": {
+            "GROUND": "#V71899",
+            "FIGURE": "#V71886",
+            "LEX": "OF"
+          },
+          "start": 27,
+          "end": 35
+        },
+        "V71899": {
+          "id": "V71899",
+          "indicator": "INDEF-SET",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "LEX": "TREES",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "root": "#V72455"
+      }
+    ],
+    [
+      {
+        "V72491": {
+          "id": "V72491",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V71886",
+            "LEX": "TYPES"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V71886": {
+          "id": "V71886",
+          "indicator": "THE-SET",
+          "type": "KIND",
+          "word": "TYPE",
+          "roles": {
+            "ASSOC-WITH": "#V71882",
+            "FIGURE": "#V71899",
+            "MOD": "#V71875",
+            "LEX": "TYPES",
+            "WNSENSE": "type%1:09:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V71875": {
+          "id": "V71875",
+          "indicator": "F",
+          "type": "OFFER",
+          "word": "OFFER",
+          "roles": {
+            "AGENT": "#V71869",
+            "AFFECTED": "#V71886",
+            "LEX": "OFFERED",
+            "WNSENSE": "offer%2:41:00::"
+          },
+          "start": 4,
+          "end": 17
+        },
+        "V71869": {
+          "id": "V71869",
+          "indicator": "KIND",
+          "type": "FARM",
+          "word": "FARM",
+          "roles": {
+            "WNSENSE": "farm%1:06:00::"
+          },
+          "start": 4,
+          "end": 17
+        },
+        "V71882": {
+          "id": "V71882",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "NAME-OF": "TWO",
+            "HOUR": "2",
+            "LEX": "TWO"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V71899": {
+          "id": "V71899",
+          "indicator": "INDEF-SET",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "LEX": "TREES",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 27,
+          "end": 35
+        },
+        "root": "#V72491"
+      }
+    ],
+    [
+      {
+        "V72489": {
+          "id": "V72489",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V71886",
+            "LEX": "TYPES"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V71886": {
+          "id": "V71886",
+          "indicator": "THE-SET",
+          "type": "KIND",
+          "word": "TYPE",
+          "roles": {
+            "ASSOC-WITH": "#V71882",
+            "FIGURE": "#V71899",
+            "MOD": "#V71874",
+            "LEX": "TYPES",
+            "WNSENSE": "type%1:09:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V71874": {
+          "id": "V71874",
+          "indicator": "F",
+          "type": "OFFER",
+          "word": "OFFER",
+          "roles": {
+            "AGENT": "#V71869",
+            "AGENT1": "#V71886",
+            "LEX": "OFFERED",
+            "WNSENSE": "offer%2:41:00::"
+          },
+          "start": 4,
+          "end": 17
+        },
+        "V71869": {
+          "id": "V71869",
+          "indicator": "KIND",
+          "type": "FARM",
+          "word": "FARM",
+          "roles": {
+            "WNSENSE": "farm%1:06:00::"
+          },
+          "start": 4,
+          "end": 17
+        },
+        "V71882": {
+          "id": "V71882",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "NAME-OF": "TWO",
+            "HOUR": "2",
+            "LEX": "TWO"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V71899": {
+          "id": "V71899",
+          "indicator": "INDEF-SET",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "LEX": "TREES",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 27,
+          "end": 35
+        },
+        "root": "#V72489"
+      }
+    ],
+    [
+      {
+        "V72509": {
+          "id": "V72509",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V71886",
+            "LEX": "TYPES"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V71886": {
+          "id": "V71886",
+          "indicator": "INDEF-SET",
+          "type": "KIND",
+          "word": "TYPE",
+          "roles": {
+            "ASSOC-WITH": "#V71882",
+            "FIGURE": "#V71899",
+            "MOD": "#V71875",
+            "LEX": "TYPES",
+            "WNSENSE": "type%1:09:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V71875": {
+          "id": "V71875",
+          "indicator": "F",
+          "type": "OFFER",
+          "word": "OFFER",
+          "roles": {
+            "AGENT": "#V71869",
+            "AFFECTED": "#V71886",
+            "LEX": "OFFERED",
+            "WNSENSE": "offer%2:41:00::"
+          },
+          "start": 0,
+          "end": 17
+        },
+        "V71869": {
+          "id": "V71869",
+          "indicator": "KIND",
+          "type": "FARM",
+          "word": "FARM",
+          "roles": {
+            "ASSOC-WITH": "#V71865",
+            "WNSENSE": "farm%1:06:00::"
+          },
+          "start": 0,
+          "end": 17
+        },
+        "V71865": {
+          "id": "V71865",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "NAME-OF": "THE",
+            "LEX": "THE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V71882": {
+          "id": "V71882",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "NAME-OF": "TWO",
+            "HOUR": "2",
+            "LEX": "TWO"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V71899": {
+          "id": "V71899",
+          "indicator": "INDEF-SET",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "LEX": "TREES",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 27,
+          "end": 35
+        },
+        "root": "#V72509"
+      }
+    ],
+    [
+      {
+        "V72507": {
+          "id": "V72507",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V71886",
+            "LEX": "TYPES"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V71886": {
+          "id": "V71886",
+          "indicator": "INDEF-SET",
+          "type": "KIND",
+          "word": "TYPE",
+          "roles": {
+            "ASSOC-WITH": "#V71882",
+            "FIGURE": "#V71899",
+            "MOD": "#V71874",
+            "LEX": "TYPES",
+            "WNSENSE": "type%1:09:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V71874": {
+          "id": "V71874",
+          "indicator": "F",
+          "type": "OFFER",
+          "word": "OFFER",
+          "roles": {
+            "AGENT": "#V71869",
+            "AGENT1": "#V71886",
+            "LEX": "OFFERED",
+            "WNSENSE": "offer%2:41:00::"
+          },
+          "start": 0,
+          "end": 17
+        },
+        "V71869": {
+          "id": "V71869",
+          "indicator": "KIND",
+          "type": "FARM",
+          "word": "FARM",
+          "roles": {
+            "ASSOC-WITH": "#V71865",
+            "WNSENSE": "farm%1:06:00::"
+          },
+          "start": 0,
+          "end": 17
+        },
+        "V71865": {
+          "id": "V71865",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "NAME-OF": "THE",
+            "LEX": "THE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V71882": {
+          "id": "V71882",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "NAME-OF": "TWO",
+            "HOUR": "2",
+            "LEX": "TWO"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V71899": {
+          "id": "V71899",
+          "indicator": "INDEF-SET",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "LEX": "TREES",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 27,
+          "end": 35
+        },
+        "root": "#V72507"
+      }
+    ],
+    [
+      {
+        "V72591": {
+          "id": "V72591",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V71886",
+            "LEX": "TYPES"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V71886": {
+          "id": "V71886",
+          "indicator": "INDEF-SET",
+          "type": "KIND",
+          "word": "TYPE",
+          "roles": {
+            "ASSOC-WITH1": "#V71865",
+            "ASSOC-WITH": "#V71882",
+            "FIGURE": "#V71899",
+            "MOD": "#V71875",
+            "LEX": "TYPES",
+            "WNSENSE": "type%1:09:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V71865": {
+          "id": "V71865",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "NAME-OF": "THE",
+            "LEX": "THE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V71875": {
+          "id": "V71875",
+          "indicator": "F",
+          "type": "OFFER",
+          "word": "OFFER",
+          "roles": {
+            "AGENT": "#V71869",
+            "AFFECTED": "#V71886",
+            "LEX": "OFFERED",
+            "WNSENSE": "offer%2:41:00::"
+          },
+          "start": 4,
+          "end": 17
+        },
+        "V71869": {
+          "id": "V71869",
+          "indicator": "KIND",
+          "type": "FARM",
+          "word": "FARM",
+          "roles": {
+            "WNSENSE": "farm%1:06:00::"
+          },
+          "start": 4,
+          "end": 17
+        },
+        "V71882": {
+          "id": "V71882",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "NAME-OF": "TWO",
+            "HOUR": "2",
+            "LEX": "TWO"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V71899": {
+          "id": "V71899",
+          "indicator": "INDEF-SET",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "LEX": "TREES",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 27,
+          "end": 35
+        },
+        "root": "#V72591"
+      }
+    ],
+    [
+      {
+        "V72589": {
+          "id": "V72589",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V71886",
+            "LEX": "TYPES"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V71886": {
+          "id": "V71886",
+          "indicator": "INDEF-SET",
+          "type": "KIND",
+          "word": "TYPE",
+          "roles": {
+            "ASSOC-WITH1": "#V71865",
+            "ASSOC-WITH": "#V71882",
+            "FIGURE": "#V71899",
+            "MOD": "#V71874",
+            "LEX": "TYPES",
+            "WNSENSE": "type%1:09:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V71865": {
+          "id": "V71865",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "NAME-OF": "THE",
+            "LEX": "THE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V71874": {
+          "id": "V71874",
+          "indicator": "F",
+          "type": "OFFER",
+          "word": "OFFER",
+          "roles": {
+            "AGENT": "#V71869",
+            "AGENT1": "#V71886",
+            "LEX": "OFFERED",
+            "WNSENSE": "offer%2:41:00::"
+          },
+          "start": 4,
+          "end": 17
+        },
+        "V71869": {
+          "id": "V71869",
+          "indicator": "KIND",
+          "type": "FARM",
+          "word": "FARM",
+          "roles": {
+            "WNSENSE": "farm%1:06:00::"
+          },
+          "start": 4,
+          "end": 17
+        },
+        "V71882": {
+          "id": "V71882",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "NAME-OF": "TWO",
+            "HOUR": "2",
+            "LEX": "TWO"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V71899": {
+          "id": "V71899",
+          "indicator": "INDEF-SET",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "LEX": "TREES",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 27,
+          "end": 35
+        },
+        "root": "#V72589"
+      }
+    ],
+    [
+      {
+        "V72617": {
+          "id": "V72617",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V71886",
+            "LEX": "TYPES"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V71886": {
+          "id": "V71886",
+          "indicator": "INDEF-SET",
+          "type": "KIND",
+          "word": "TYPE",
+          "roles": {
+            "ASSOC-WITH": "#V71882",
+            "MOD": "#V71875",
+            "LEX": "TYPES",
+            "WNSENSE": "type%1:09:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V71875": {
+          "id": "V71875",
+          "indicator": "F",
+          "type": "OFFER",
+          "word": "OFFER",
+          "roles": {
+            "AGENT": "#V71869",
+            "AFFECTED": "#V71886",
+            "LEX": "OFFERED",
+            "WNSENSE": "offer%2:41:00::"
+          },
+          "start": 0,
+          "end": 17
+        },
+        "V71869": {
+          "id": "V71869",
+          "indicator": "KIND",
+          "type": "FARM",
+          "word": "FARM",
+          "roles": {
+            "ASSOC-WITH": "#V71865",
+            "WNSENSE": "farm%1:06:00::"
+          },
+          "start": 0,
+          "end": 17
+        },
+        "V71865": {
+          "id": "V71865",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "NAME-OF": "THE",
+            "LEX": "THE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V71882": {
+          "id": "V71882",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "NAME-OF": "TWO",
+            "HOUR": "2",
+            "LEX": "TWO"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V71891": {
+          "id": "V71891",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "OF",
+          "roles": {
+            "GROUND": "#V71899",
+            "FIGURE": "#V71886",
+            "LEX": "OF"
+          },
+          "start": 27,
+          "end": 35
+        },
+        "V71899": {
+          "id": "V71899",
+          "indicator": "INDEF-SET",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "LEX": "TREES",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "root": "#V72617"
+      }
+    ]
+  ],
+  "sentence": "The farm offered two types of trees.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20191004T154540",
+    "link": "http://trips.ihmc.us/parser/saved/20191004T154540-STEP-abhatia-0-The_farm_offered_two_types_of_trees_.xml",
+    "judgement": 0
+  }
+}

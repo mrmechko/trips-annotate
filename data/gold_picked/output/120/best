@@ -1,0 +1,16 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V41302 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V41177 [label=<<font color="green"><br /></font> <font color="black">RUB-SCRAPE-WIPE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">WIPE</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::RUB-SCRAPE-WIPE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V41169 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HE</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V41187 [label=<<font color="green"><br /></font> <font color="black">TABLE</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">TABLE</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TABLE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V41192 [label=<<font color="green"><br /></font> <font color="black">CLEAN-VAL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">CLEAN</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::CLEAN-VAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V41192 -> V41187 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V41177 -> V41169 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V41302 -> V41177 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V41177 -> V41192 [label=" RESULT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V41177 -> V41187 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

@@ -1,0 +1,336 @@
+{
+  "parse": [
+    {
+      "V40608": {
+        "id": "V40608",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V40496",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 32
+      },
+      "V40496": {
+        "id": "V40496",
+        "indicator": "F",
+        "type": "EVENT-OF-CAUSATION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V40424",
+          "SEQUENCE1": "#V40440",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 32
+      },
+      "V40440": {
+        "id": "V40440",
+        "indicator": "F",
+        "type": "CAPTURE",
+        "word": "CATCH",
+        "roles": {
+          "AGENT": "#V40419",
+          "AFFECTED": "#V40449",
+          "LEX": "CAUGHT"
+        },
+        "start": 0,
+        "end": 32
+      },
+      "V40424": {
+        "id": "V40424",
+        "indicator": "F",
+        "type": "PURSUE",
+        "word": "CHASE",
+        "roles": {
+          "AGENT": "#V40419",
+          "AFFECTED": "#V40449",
+          "LEX": "CHASED"
+        },
+        "start": 0,
+        "end": 32
+      },
+      "V40419": {
+        "id": "V40419",
+        "indicator": "THE",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "DOG",
+        "roles": {
+          "LEX": "DOG"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V40449": {
+        "id": "V40449",
+        "indicator": "THE",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "CAT",
+        "roles": {
+          "LEX": "CAT"
+        },
+        "start": 26,
+        "end": 32
+      },
+      "root": "#V40608"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V40593": {
+          "id": "V40593",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V40429",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V40429": {
+          "id": "V40429",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V40424",
+            "SEQUENCE1": "#V40440",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V40424": {
+          "id": "V40424",
+          "indicator": "F",
+          "type": "PURSUE",
+          "word": "CHASE",
+          "roles": {
+            "AGENT": "#V40419",
+            "AFFECTED": "#V40449",
+            "TENSE": "PAST",
+            "LEX": "CHASED"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V40419": {
+          "id": "V40419",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOG"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V40440": {
+          "id": "V40440",
+          "indicator": "F",
+          "type": "CAPTURE",
+          "word": "CATCH",
+          "roles": {
+            "AGENT": "#V40419",
+            "AFFECTED": "#V40449",
+            "TENSE": "PAST",
+            "LEX": "CAUGHT"
+          },
+          "start": 19,
+          "end": 33
+        },
+        "V40449": {
+          "id": "V40449",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "CAT",
+          "roles": {
+            "LEX": "CAT"
+          },
+          "start": 26,
+          "end": 33
+        },
+        "root": "#V40593"
+      }
+    ],
+    [
+      {
+        "V40809": {
+          "id": "V40809",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V40496",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V40496": {
+          "id": "V40496",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V40424",
+            "SEQUENCE1": "#V40440",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V40440": {
+          "id": "V40440",
+          "indicator": "F",
+          "type": "CAPTURE",
+          "word": "CATCH",
+          "roles": {
+            "AGENT": "#V40419",
+            "AFFECTED": "#V40449",
+            "LEX": "CAUGHT"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V40424": {
+          "id": "V40424",
+          "indicator": "F",
+          "type": "PURSUE",
+          "word": "CHASE",
+          "roles": {
+            "AGENT": "#V40419",
+            "AFFECTED": "#V40449",
+            "LEX": "CHASED"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V40419": {
+          "id": "V40419",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOG"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V40449": {
+          "id": "V40449",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "CAT",
+          "roles": {
+            "LEX": "CAT"
+          },
+          "start": 26,
+          "end": 33
+        },
+        "root": "#V40809"
+      }
+    ],
+    [
+      {
+        "V40838": {
+          "id": "V40838",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V40429",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V40429": {
+          "id": "V40429",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V40424",
+            "SEQUENCE1": "#V40440",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V40424": {
+          "id": "V40424",
+          "indicator": "F",
+          "type": "PURSUE",
+          "word": "CHASE",
+          "roles": {
+            "AGENT": "#V40419",
+            "AFFECTED": "#V40449",
+            "TENSE": "PAST",
+            "LEX": "CHASED"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V40419": {
+          "id": "V40419",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOG"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V40440": {
+          "id": "V40440",
+          "indicator": "F",
+          "type": "CAPTURE",
+          "word": "CATCH",
+          "roles": {
+            "AGENT": "#V40419",
+            "AFFECTED": "#V40449",
+            "TENSE": "PAST",
+            "LEX": "CAUGHT"
+          },
+          "start": 19,
+          "end": 33
+        },
+        "V40449": {
+          "id": "V40449",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "CAT",
+          "roles": {
+            "LEX": "CAT"
+          },
+          "start": 26,
+          "end": 33
+        },
+        "root": "#V40838"
+      }
+    ]
+  ],
+  "sentence": "the dog chased and caught the cat",
+  "annotation": {
+    "judge": "jallen",
+    "parser": "STEP",
+    "timestamp": "20190610T131126",
+    "link": "http://trips.ihmc.us/parser/saved/20190610T131126-STEP-jallen-0-the_dog_chased_and_caught_the_cat.xml",
+    "judgement": 0
+  }
+}

@@ -1,0 +1,19 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V43178 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V42693 [label=<<font color="green"><br /></font> <font color="black">HAVE-PROPERTY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BE</font> <font color="green"><br /></font> <font color="green">be%2:42:03::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::HAVE-PROPERTY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V42677 [label=<<font color="green"><br /></font> <font color="black">EXTERNAL-BODY-PART</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">ARM</font> <font color="green"><br /></font> <font color="green">arm%1:08:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EXTERNAL-BODY-PART.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V42707 [label=<<font color="green"><br /></font> <font color="black">TO-LOC</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">TO</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TO-LOC.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V42746 [label=<<font color="green"><br /></font> <font color="black">RIGHT-LOC</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">RIGHT</font> <font color="green"><br /></font> <font color="green">right%1:15:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::RIGHT-LOC.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V42777 [label=<<font color="green"><br /></font> <font color="black">GENERAL-STRUCTURE</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">HILL</font> <font color="green"><br /></font> <font color="green">hill%1:06:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GENERAL-STRUCTURE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V42693 -> V42707 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V42707 -> V42746 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V42746 -> V42777 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V42693 -> V42677 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V43178 -> V42693 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V42746 -> V42777 [label=" MOD1   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V42707 -> V42677 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

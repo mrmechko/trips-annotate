@@ -1,0 +1,20 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V222613 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V222121 [label=<<font color="green"><br /></font> <font color="black">EVOKE-SADNESS</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">DEPRESS</font> <font color="green"><br /></font> <font color="green">depress%2:37:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EVOKE-SADNESS.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V222077 [label=<<font color="green"><br /></font> <font color="black">EXPENSE</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">COST</font> <font color="green"><br /></font> <font color="green">cost%1:21:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EXPENSE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V222062 [label=<<font color="green"><br /></font> <font color="black">ADDITIONAL-VAL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">EXTRA</font> <font color="green"><br /></font> <font color="green">extra%5:00:00:additive:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ADDITIONAL-VAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V222091 [label=<<font color="green"><br /></font> <font color="black">ASSOC-WITH</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">OF</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ASSOC-WITH.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V222111 [label=<<font color="green"><br /></font> <font color="black">SENDCOPY</font> <font color="green"><br /></font> <font color="red">THE-SET</font> <font color="blue">COPIES</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SENDCOPY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V222132 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">COREY</font> <font color="green"><br /></font> <font color="green">person%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V222613 -> V222121 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V222062 -> V222077 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V222077 -> V222062 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V222121 -> V222077 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V222091 -> V222111 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V222121 -> V222132 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V222091 -> V222077 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

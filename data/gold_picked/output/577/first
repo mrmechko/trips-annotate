@@ -1,0 +1,13 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V123688 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V123447 [label=<<font color="green"><br /></font> <font color="black">EXPECTATION</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">LOOKED-FOR</font> <font color="green"><br /></font> <font color="green">look_for%2:37:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EXPECTATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V123327 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HE</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V123529 [label=<<font color="green"><br /></font> <font color="black">LIQUID-SUBSTANCE</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">SOLUTION</font> <font color="green"><br /></font> <font color="green">solution%1:27:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::LIQUID-SUBSTANCE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V123688 -> V123447 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V123447 -> V123327 [label=" EXPERIENCER   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V123447 -> V123529 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

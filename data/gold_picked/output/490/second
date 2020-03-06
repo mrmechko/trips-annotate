@@ -1,0 +1,20 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V60819 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V60491 [label=<<font color="green"><br /></font> <font color="black">GIVING</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">GIVE</font> <font color="green"><br /></font> <font color="green">give%2:40:03::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GIVING.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V60477 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">I</font> <font color="green"><br /></font> <font color="green">person%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V60523 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">HANNAH</font> <font color="green"><br /></font> <font color="green">person%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V60570 [label=<<font color="green"><br /></font> <font color="black">INFO-MEDIUM</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">POEM</font> <font color="green"><br /></font> <font color="green">poem%1:10:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::INFO-MEDIUM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V60576 [label=<<font color="green"><br /></font> <font color="black">POS-WRT-SPEAKER-RELN</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">THERE</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::POS-WRT-SPEAKER-RELN.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V60598 [label=<<font color="green"><br /></font> <font color="black">LOCATION</font> <font color="green"><br /></font> <font color="red">IMPRO</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::LOCATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V60491 -> V60477 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V60570 -> V60576 [label=" LOCATION   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V60576 -> V60598 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V60819 -> V60491 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V60576 -> V60570 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V60491 -> V60523 [label=" AFFECTED-RESULT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V60491 -> V60570 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

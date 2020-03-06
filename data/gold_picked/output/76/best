@@ -1,0 +1,20 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V462957 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V462503 [label=<<font color="green"><br /></font> <font color="black">IMPRESS</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">IMPRESS</font> <font color="green"><br /></font> <font color="green">impress%2:37:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::IMPRESS.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V462481 [label=<<font color="green"><br /></font> <font color="black">MALE-CHILD</font> <font color="green"><br /></font> <font color="red">THE-SET</font> <font color="blue">BOY</font> <font color="green"><br /></font> <font color="green">boy%1:18:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-CHILD.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V462526 [label=<<font color="green"><br /></font> <font color="black">WHEN-WHILE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">AS</font> <font color="green"><br /></font> <font color="green">as%4:02:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::WHEN-WHILE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V462550 [label=<<font color="green"><br /></font> <font color="black">SCRUTINY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">WATCH</font> <font color="green"><br /></font> <font color="green">watch%1:04:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SCRUTINY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V462541 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">PRO-SET</font> <font color="blue">THEY</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V462567 [label=<<font color="green"><br /></font> <font color="black">INFORMATION</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">AD</font> <font color="green"><br /></font> <font color="green">information%1:09:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::INFORMATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V462503 -> V462526 [label=" TIME   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V462526 -> V462503 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V462503 -> V462481 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V462526 -> V462550 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V462957 -> V462503 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V462550 -> V462541 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V462550 -> V462567 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

@@ -1,0 +1,380 @@
+{
+  "parse": [
+    {
+      "V411229": {
+        "id": "V411229",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V411052",
+          "LEX": "PRESENTED"
+        },
+        "start": 0,
+        "end": 26
+      },
+      "V411052": {
+        "id": "V411052",
+        "indicator": "F",
+        "type": "SHOW",
+        "word": "PRESENT",
+        "roles": {
+          "AGENT": "#V411047",
+          "AFFECTED": "#V411068",
+          "BENEFICIARY": "#V411059",
+          "TENSE": "PAST",
+          "LEX": "PRESENTED",
+          "WNSENSE": "present%2:39:00::"
+        },
+        "start": 0,
+        "end": 26
+      },
+      "V411047": {
+        "id": "V411047",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V411059": {
+        "id": "V411059",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEM",
+        "roles": {
+          "PROFORM": "THEM",
+          "LEX": "THEM",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 13,
+        "end": 18
+      },
+      "V411068": {
+        "id": "V411068",
+        "indicator": "THE",
+        "type": "CONCEPT-NOTION",
+        "word": "IDEA",
+        "roles": {
+          "ASSOC-POSS": "#V411063",
+          "LEX": "IDEA",
+          "WNSENSE": "idea%1:09:00::"
+        },
+        "start": 18,
+        "end": 26
+      },
+      "V411063": {
+        "id": "V411063",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 18,
+        "end": 26
+      },
+      "root": "#V411229"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V411325": {
+          "id": "V411325",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V411052",
+            "LEX": "PRESENTED"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V411052": {
+          "id": "V411052",
+          "indicator": "F",
+          "type": "SHOW",
+          "word": "PRESENT",
+          "roles": {
+            "AGENT": "#V411047",
+            "AFFECTED": "#V411068",
+            "AFFECTED-RESULT": "#V411318",
+            "TENSE": "PAST",
+            "LEX": "PRESENTED",
+            "WNSENSE": "present%2:39:00::"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V411318": {
+          "id": "V411318",
+          "indicator": "F",
+          "type": "RECIPIENT",
+          "word": "IOBJ",
+          "roles": {
+            "GROUND": "#V411059",
+            "FIGURE": "#V411052"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V411047": {
+          "id": "V411047",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V411059": {
+          "id": "V411059",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEM",
+          "roles": {
+            "PROFORM": "THEM",
+            "LEX": "THEM",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 13,
+          "end": 18
+        },
+        "V411068": {
+          "id": "V411068",
+          "indicator": "THE",
+          "type": "CONCEPT-NOTION",
+          "word": "IDEA",
+          "roles": {
+            "ASSOC-POSS": "#V411063",
+            "LEX": "IDEA",
+            "WNSENSE": "idea%1:09:00::"
+          },
+          "start": 18,
+          "end": 26
+        },
+        "V411063": {
+          "id": "V411063",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 18,
+          "end": 26
+        },
+        "root": "#V411325"
+      }
+    ],
+    [
+      {
+        "V411298": {
+          "id": "V411298",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V411054",
+            "LEX": "PRESENTED"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V411054": {
+          "id": "V411054",
+          "indicator": "F",
+          "type": "ENCODES-MESSAGE",
+          "word": "PRESENT",
+          "roles": {
+            "NEUTRAL": "#V411047",
+            "FORMAL": "#V411068",
+            "BENEFICIARY": "#V411059",
+            "TENSE": "PAST",
+            "LEX": "PRESENTED",
+            "WNSENSE": "present%2:36:08::"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V411047": {
+          "id": "V411047",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V411059": {
+          "id": "V411059",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEM",
+          "roles": {
+            "PROFORM": "THEM",
+            "LEX": "THEM",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 13,
+          "end": 18
+        },
+        "V411068": {
+          "id": "V411068",
+          "indicator": "THE",
+          "type": "CONCEPT-NOTION",
+          "word": "IDEA",
+          "roles": {
+            "ASSOC-POSS": "#V411063",
+            "LEX": "IDEA",
+            "WNSENSE": "idea%1:09:00::"
+          },
+          "start": 18,
+          "end": 26
+        },
+        "V411063": {
+          "id": "V411063",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 18,
+          "end": 26
+        },
+        "root": "#V411298"
+      }
+    ],
+    [
+      {
+        "V411376": {
+          "id": "V411376",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V411054",
+            "LEX": "PRESENTED"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V411054": {
+          "id": "V411054",
+          "indicator": "F",
+          "type": "ENCODES-MESSAGE",
+          "word": "PRESENT",
+          "roles": {
+            "NEUTRAL": "#V411047",
+            "FORMAL": "#V411068",
+            "AFFECTED-RESULT": "#V411361",
+            "TENSE": "PAST",
+            "LEX": "PRESENTED",
+            "WNSENSE": "present%2:36:08::"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V411361": {
+          "id": "V411361",
+          "indicator": "F",
+          "type": "RECIPIENT",
+          "word": "IOBJ",
+          "roles": {
+            "GROUND": "#V411059",
+            "FIGURE": "#V411054"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V411047": {
+          "id": "V411047",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V411059": {
+          "id": "V411059",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEM",
+          "roles": {
+            "PROFORM": "THEM",
+            "LEX": "THEM",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 13,
+          "end": 18
+        },
+        "V411068": {
+          "id": "V411068",
+          "indicator": "THE",
+          "type": "CONCEPT-NOTION",
+          "word": "IDEA",
+          "roles": {
+            "ASSOC-POSS": "#V411063",
+            "LEX": "IDEA",
+            "WNSENSE": "idea%1:09:00::"
+          },
+          "start": 18,
+          "end": 26
+        },
+        "V411063": {
+          "id": "V411063",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 18,
+          "end": 26
+        },
+        "root": "#V411376"
+      }
+    ]
+  ],
+  "sentence": "He presented them his idea.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190808T235011",
+    "link": "http://trips.ihmc.us/parser/saved/20190808T235011-STEP-abhatia-0-He_presented_them_his_idea_.xml",
+    "judgement": 0
+  }
+}

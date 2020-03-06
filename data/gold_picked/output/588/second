@@ -1,0 +1,20 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V72507 [label=<<font color="green"><br /></font> <font color="black">SA_IDENTIFY</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_IDENTIFY.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V71886 [label=<<font color="green"><br /></font> <font color="black">KIND</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">TYPE</font> <font color="green"><br /></font> <font color="green">type%1:09:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::KIND.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V71874 [label=<<font color="green"><br /></font> <font color="black">OFFER</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">OFFER</font> <font color="green"><br /></font> <font color="green">offer%2:41:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::OFFER.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V71869 [label=<<font color="green"><br /></font> <font color="black">FARM</font> <font color="green"><br /></font> <font color="red">KIND</font> <font color="blue">FARM</font> <font color="green"><br /></font> <font color="green">farm%1:06:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FARM.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V71865 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">THE</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V71882 [label=<<font color="green"><br /></font> <font color="black">TIME-LOC</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TIME-LOC.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V71899 [label=<<font color="green"><br /></font> <font color="black">TREE</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">TREE</font> <font color="green"><br /></font> <font color="green">tree%1:20:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TREE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V72507 -> V71886 [label=" CONTENT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V71874 -> V71869 [label=" AGENT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V71869 -> V71865 [label=" ASSOC-WITH   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V71874 -> V71886 [label=" AGENT1   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V71886 -> V71874 [label=" MOD   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V71886 -> V71882 [label=" ASSOC-WITH   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V71886 -> V71899 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

@@ -1,0 +1,504 @@
+{
+  "parse": [
+    {
+      "V36713": {
+        "id": "V36713",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V36302",
+          "LEX": "MOVE"
+        },
+        "start": 0,
+        "end": 36
+      },
+      "V36302": {
+        "id": "V36302",
+        "indicator": "F",
+        "type": "MOVE",
+        "word": "MOVE",
+        "roles": {
+          "RESULT": "#V36314",
+          "AGENT": "#V36714",
+          "LOCATION": "#V36387",
+          "TENSE": "PRES",
+          "LEX": "MOVE",
+          "WNSENSE": "move%1:04:01::"
+        },
+        "start": 0,
+        "end": 36
+      },
+      "V36714": {
+        "id": "V36714",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 0,
+        "end": 36
+      },
+      "V36314": {
+        "id": "V36314",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V36379",
+          "FIGURE": "#V36714",
+          "LEX": "TO"
+        },
+        "start": 5,
+        "end": 16
+      },
+      "V36379": {
+        "id": "V36379",
+        "indicator": "A",
+        "type": "PLACE",
+        "word": "PLACE",
+        "roles": {
+          "LEX": "PLACE",
+          "WNSENSE": "place%1:15:00::"
+        },
+        "start": 8,
+        "end": 16
+      },
+      "V36387": {
+        "id": "V36387",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "WHERE",
+        "roles": {
+          "GROUND": "#V36410",
+          "FIGURE": "#V36302",
+          "LEX": "WHERE"
+        },
+        "start": 16,
+        "end": 36
+      },
+      "V36410": {
+        "id": "V36410",
+        "indicator": "F",
+        "type": "PRECIPITATING",
+        "word": "RAIN",
+        "roles": {
+          "NOROLE": "#V36397",
+          "FREQUENCY": "#V36403",
+          "TENSE": "PRES",
+          "LEX": "RAINS",
+          "WNSENSE": "rain%2:43:00::"
+        },
+        "start": 22,
+        "end": 36
+      },
+      "V36397": {
+        "id": "V36397",
+        "indicator": "PRO",
+        "type": "EXPLETIVE",
+        "word": null,
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT"
+        },
+        "start": 22,
+        "end": 25
+      },
+      "V36403": {
+        "id": "V36403",
+        "indicator": "F",
+        "type": "NEVER",
+        "word": "NEVER",
+        "roles": {
+          "FIGURE": "#V36410",
+          "LEX": "NEVER",
+          "WNSENSE": "never%4:02:00::"
+        },
+        "start": 25,
+        "end": 31
+      },
+      "root": "#V36713"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V36694": {
+          "id": "V36694",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V36302",
+            "LEX": "MOVE"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V36302": {
+          "id": "V36302",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "MOVE",
+          "roles": {
+            "RESULT": "#V36314",
+            "AGENT": "#V36695",
+            "LOCATION": "#V36387",
+            "TENSE": "PRES",
+            "LEX": "MOVE",
+            "WNSENSE": "move%1:04:01::"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V36695": {
+          "id": "V36695",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V36314": {
+          "id": "V36314",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V36379",
+            "FIGURE": "#V36695",
+            "LEX": "TO"
+          },
+          "start": 5,
+          "end": 16
+        },
+        "V36379": {
+          "id": "V36379",
+          "indicator": "A",
+          "type": "PLACE",
+          "word": "PLACE",
+          "roles": {
+            "LEX": "PLACE",
+            "WNSENSE": "place%1:15:00::"
+          },
+          "start": 8,
+          "end": 16
+        },
+        "V36387": {
+          "id": "V36387",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "WHERE",
+          "roles": {
+            "GROUND": "#V36410",
+            "FIGURE": "#V36302",
+            "LEX": "WHERE"
+          },
+          "start": 16,
+          "end": 36
+        },
+        "V36410": {
+          "id": "V36410",
+          "indicator": "F",
+          "type": "PRECIPITATING",
+          "word": "RAIN",
+          "roles": {
+            "NOROLE": "#V36397",
+            "FREQUENCY": "#V36404",
+            "TENSE": "PRES",
+            "LEX": "RAINS",
+            "WNSENSE": "rain%2:43:00::"
+          },
+          "start": 22,
+          "end": 36
+        },
+        "V36397": {
+          "id": "V36397",
+          "indicator": "PRO",
+          "type": "EXPLETIVE",
+          "word": null,
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT"
+          },
+          "start": 22,
+          "end": 25
+        },
+        "V36404": {
+          "id": "V36404",
+          "indicator": "F",
+          "type": "NEVER",
+          "word": "NEVER",
+          "roles": {
+            "FIGURE": "#V36410",
+            "LEX": "NEVER",
+            "WNSENSE": "never%4:02:00::"
+          },
+          "start": 25,
+          "end": 31
+        },
+        "root": "#V36694"
+      }
+    ],
+    [
+      {
+        "V36800": {
+          "id": "V36800",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V36300",
+            "LEX": "MOVE"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V36300": {
+          "id": "V36300",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "MOVE",
+          "roles": {
+            "RESULT": "#V36314",
+            "AFFECTED": "#V36801",
+            "LOCATION": "#V36387",
+            "TENSE": "PRES",
+            "LEX": "MOVE",
+            "WNSENSE": "move%1:04:01::"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V36801": {
+          "id": "V36801",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V36314": {
+          "id": "V36314",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V36379",
+            "FIGURE": "#V36801",
+            "LEX": "TO"
+          },
+          "start": 5,
+          "end": 16
+        },
+        "V36379": {
+          "id": "V36379",
+          "indicator": "A",
+          "type": "PLACE",
+          "word": "PLACE",
+          "roles": {
+            "LEX": "PLACE",
+            "WNSENSE": "place%1:15:00::"
+          },
+          "start": 8,
+          "end": 16
+        },
+        "V36387": {
+          "id": "V36387",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "WHERE",
+          "roles": {
+            "GROUND": "#V36410",
+            "FIGURE": "#V36300",
+            "LEX": "WHERE"
+          },
+          "start": 16,
+          "end": 36
+        },
+        "V36410": {
+          "id": "V36410",
+          "indicator": "F",
+          "type": "PRECIPITATING",
+          "word": "RAIN",
+          "roles": {
+            "NOROLE": "#V36397",
+            "FREQUENCY": "#V36403",
+            "TENSE": "PRES",
+            "LEX": "RAINS",
+            "WNSENSE": "rain%2:43:00::"
+          },
+          "start": 22,
+          "end": 36
+        },
+        "V36397": {
+          "id": "V36397",
+          "indicator": "PRO",
+          "type": "EXPLETIVE",
+          "word": null,
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT"
+          },
+          "start": 22,
+          "end": 25
+        },
+        "V36403": {
+          "id": "V36403",
+          "indicator": "F",
+          "type": "NEVER",
+          "word": "NEVER",
+          "roles": {
+            "FIGURE": "#V36410",
+            "LEX": "NEVER",
+            "WNSENSE": "never%4:02:00::"
+          },
+          "start": 25,
+          "end": 31
+        },
+        "root": "#V36800"
+      }
+    ],
+    [
+      {
+        "V36793": {
+          "id": "V36793",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V36300",
+            "LEX": "MOVE"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V36300": {
+          "id": "V36300",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "MOVE",
+          "roles": {
+            "RESULT": "#V36314",
+            "AFFECTED": "#V36794",
+            "LOCATION": "#V36387",
+            "TENSE": "PRES",
+            "LEX": "MOVE",
+            "WNSENSE": "move%1:04:01::"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V36794": {
+          "id": "V36794",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V36314": {
+          "id": "V36314",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V36379",
+            "FIGURE": "#V36794",
+            "LEX": "TO"
+          },
+          "start": 5,
+          "end": 16
+        },
+        "V36379": {
+          "id": "V36379",
+          "indicator": "A",
+          "type": "PLACE",
+          "word": "PLACE",
+          "roles": {
+            "LEX": "PLACE",
+            "WNSENSE": "place%1:15:00::"
+          },
+          "start": 8,
+          "end": 16
+        },
+        "V36387": {
+          "id": "V36387",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "WHERE",
+          "roles": {
+            "GROUND": "#V36410",
+            "FIGURE": "#V36300",
+            "LEX": "WHERE"
+          },
+          "start": 16,
+          "end": 36
+        },
+        "V36410": {
+          "id": "V36410",
+          "indicator": "F",
+          "type": "PRECIPITATING",
+          "word": "RAIN",
+          "roles": {
+            "NOROLE": "#V36397",
+            "FREQUENCY": "#V36404",
+            "TENSE": "PRES",
+            "LEX": "RAINS",
+            "WNSENSE": "rain%2:43:00::"
+          },
+          "start": 22,
+          "end": 36
+        },
+        "V36397": {
+          "id": "V36397",
+          "indicator": "PRO",
+          "type": "EXPLETIVE",
+          "word": null,
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT"
+          },
+          "start": 22,
+          "end": 25
+        },
+        "V36404": {
+          "id": "V36404",
+          "indicator": "F",
+          "type": "NEVER",
+          "word": "NEVER",
+          "roles": {
+            "FIGURE": "#V36410",
+            "LEX": "NEVER",
+            "WNSENSE": "never%4:02:00::"
+          },
+          "start": 25,
+          "end": 31
+        },
+        "root": "#V36793"
+      }
+    ]
+  ],
+  "sentence": "Move to a place where it never rains.",
+  "annotation": {
+    "judge": "lgalescu",
+    "parser": "STEP",
+    "timestamp": "20190715T175523",
+    "link": "http://trips.ihmc.us/parser/saved/20190715T175523-STEP-lgalescu-none-Move_to_a_place_where_it_never_rains_.xml",
+    "judgement": -1
+  }
+}

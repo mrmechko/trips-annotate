@@ -1,0 +1,16 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V105977 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V105398 [label=<<font color="green"><br /></font> <font color="black">MOVE-RAPIDLY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">RUN</font> <font color="green"><br /></font> <font color="green">run%2:38:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MOVE-RAPIDLY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V105394 [label=<<font color="green"><br /></font> <font color="black">FEMALE-PERSON</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">TAMI</font> <font color="green"><br /></font> <font color="green">woman%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FEMALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V105416 [label=<<font color="green"><br /></font> <font color="black">OUTSIDE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">OUT-OF</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::OUTSIDE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V105493 [label=<<font color="green"><br /></font> <font color="black">FINANCIAL-INSTITUTION</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">BANK</font> <font color="green"><br /></font> <font color="green">bank%1:14:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FINANCIAL-INSTITUTION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V105398 -> V105394 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V105416 -> V105493 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V105398 -> V105416 [label=" RESULT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V105416 -> V105394 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V105977 -> V105398 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

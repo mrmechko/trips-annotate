@@ -1,0 +1,20 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V272165 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V271657 [label=<<font color="green"><br /></font> <font color="black">BECOMING-AWARE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">NOTICE</font> <font color="green"><br /></font> <font color="green">notice%2:39:04::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BECOMING-AWARE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V271652 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">PRO-SET</font> <font color="blue">THEY</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V271687 [label=<<font color="green"><br /></font> <font color="black">SELF-LOCOMOTE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">WALK</font> <font color="green"><br /></font> <font color="green">walk%2:38:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SELF-LOCOMOTE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V271682 [label=<<font color="green"><br /></font> <font color="black">NONHUMAN-ANIMAL</font> <font color="green"><br /></font> <font color="red">THE-SET</font> <font color="blue">ELEPHANT</font> <font color="green"><br /></font> <font color="green">elephant%1:05:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::NONHUMAN-ANIMAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V271699 [label=<<font color="green"><br /></font> <font color="black">ORIENTS-TO</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">TO</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ORIENTS-TO.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V271729 [label=<<font color="green"><br /></font> <font color="black">GEO-OBJECT</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">ARENA</font> <font color="green"><br /></font> <font color="green">arena%1:15:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GEO-OBJECT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V271699 -> V271682 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V272165 -> V271657 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V271687 -> V271699 [label=" RESULT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V271687 -> V271682 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V271699 -> V271729 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V271657 -> V271687 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V271657 -> V271652 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

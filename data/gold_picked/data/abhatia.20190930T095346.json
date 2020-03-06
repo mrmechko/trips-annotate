@@ -1,0 +1,2427 @@
+{
+  "parse": [
+    {
+      "V40522": {
+        "id": "V40522",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V40002",
+          "LEX": "ASKED"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V40002": {
+        "id": "V40002",
+        "indicator": "F",
+        "type": "ASK-QUESTION",
+        "word": "ASK",
+        "roles": {
+          "AGENT": "#V39993",
+          "FORMAL": "#V40017",
+          "REASON": "#V40030",
+          "TENSE": "PAST",
+          "LEX": "ASKED",
+          "WNSENSE": "ask%2:32:02::"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V39993": {
+        "id": "V39993",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "NADINE",
+        "roles": {
+          "NAME-OF": "NADINE",
+          "LEX": "NADINE",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 0,
+        "end": 7
+      },
+      "V40017": {
+        "id": "V40017",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "HER",
+        "roles": {
+          "PROFORM": "HER",
+          "LEX": "HER",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 13,
+        "end": 17
+      },
+      "V40030": {
+        "id": "V40030",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V40049",
+          "FIGURE": "#V40002",
+          "LEX": "TO"
+        },
+        "start": 17,
+        "end": 28
+      },
+      "V40049": {
+        "id": "V40049",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": "BABYSIT",
+        "roles": {
+          "VFORM": "BASE",
+          "LEX": "BABYSIT"
+        },
+        "start": 20,
+        "end": 28
+      },
+      "root": "#V40522"
+    },
+    {
+      "V40205": {
+        "id": "V40205",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V40058",
+          "LEX": "COUSIN"
+        },
+        "start": 28,
+        "end": 38
+      },
+      "V40058": {
+        "id": "V40058",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "COUSIN",
+        "roles": {
+          "ASSOC-POSS": "#V40053",
+          "LEX": "COUSIN",
+          "WNSENSE": "cousin%1:18:00::",
+          "COREF": "#V39993"
+        },
+        "start": 28,
+        "end": 38
+      },
+      "V40053": {
+        "id": "V40053",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "HER",
+        "roles": {
+          "LEX": "HER",
+          "PROFORM": "HER",
+          "WNSENSE": "woman%1:18:00",
+          "COREF": "#V39993"
+        },
+        "start": 28,
+        "end": 38
+      },
+      "root": "#V40205"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V40577": {
+          "id": "V40577",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V40002",
+            "LEX": "ASKED"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V40002": {
+          "id": "V40002",
+          "indicator": "F",
+          "type": "ASK-QUESTION",
+          "word": "ASK",
+          "roles": {
+            "AGENT": "#V39996",
+            "FORMAL": "#V40017",
+            "REASON": "#V40030",
+            "TENSE": "PAST",
+            "LEX": "ASKED",
+            "WNSENSE": "ask%2:32:02::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V39996": {
+          "id": "V39996",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "LEX": "NADINE",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40017": {
+          "id": "V40017",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 13,
+          "end": 17
+        },
+        "V40030": {
+          "id": "V40030",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V40049",
+            "FIGURE": "#V40002",
+            "LEX": "TO"
+          },
+          "start": 17,
+          "end": 28
+        },
+        "V40049": {
+          "id": "V40049",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "BABYSIT",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "BABYSIT"
+          },
+          "start": 20,
+          "end": 28
+        },
+        "root": "#V40577"
+      },
+      {
+        "V40205": {
+          "id": "V40205",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40058",
+            "LEX": "COUSIN"
+          },
+          "start": 28,
+          "end": 39
+        },
+        "V40058": {
+          "id": "V40058",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "COUSIN",
+          "roles": {
+            "ASSOC-POSS": "#V40053",
+            "LEX": "COUSIN",
+            "WNSENSE": "cousin%1:18:00::"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "V40053": {
+          "id": "V40053",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "root": "#V40205"
+      }
+    ],
+    [
+      {
+        "V40522": {
+          "id": "V40522",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V40002",
+            "LEX": "ASKED"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V40002": {
+          "id": "V40002",
+          "indicator": "F",
+          "type": "ASK-QUESTION",
+          "word": "ASK",
+          "roles": {
+            "AGENT": "#V39993",
+            "FORMAL": "#V40017",
+            "REASON": "#V40030",
+            "TENSE": "PAST",
+            "LEX": "ASKED",
+            "WNSENSE": "ask%2:32:02::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V39993": {
+          "id": "V39993",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "LEX": "NADINE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40017": {
+          "id": "V40017",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 13,
+          "end": 17
+        },
+        "V40030": {
+          "id": "V40030",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V40049",
+            "FIGURE": "#V40002",
+            "LEX": "TO"
+          },
+          "start": 17,
+          "end": 28
+        },
+        "V40049": {
+          "id": "V40049",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "BABYSIT",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "BABYSIT"
+          },
+          "start": 20,
+          "end": 28
+        },
+        "root": "#V40522"
+      },
+      {
+        "V40205": {
+          "id": "V40205",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V40058",
+            "LEX": "COUSIN"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "V40058": {
+          "id": "V40058",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "COUSIN",
+          "roles": {
+            "ASSOC-POSS": "#V40053",
+            "LEX": "COUSIN",
+            "WNSENSE": "cousin%1:18:00::"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "V40053": {
+          "id": "V40053",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "root": "#V40205"
+      }
+    ],
+    [
+      {
+        "V40577": {
+          "id": "V40577",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V40002",
+            "LEX": "ASKED"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V40002": {
+          "id": "V40002",
+          "indicator": "F",
+          "type": "ASK-QUESTION",
+          "word": "ASK",
+          "roles": {
+            "AGENT": "#V39996",
+            "FORMAL": "#V40017",
+            "REASON": "#V40030",
+            "TENSE": "PAST",
+            "LEX": "ASKED",
+            "WNSENSE": "ask%2:32:02::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V39996": {
+          "id": "V39996",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "LEX": "NADINE",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40017": {
+          "id": "V40017",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 13,
+          "end": 17
+        },
+        "V40030": {
+          "id": "V40030",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V40049",
+            "FIGURE": "#V40002",
+            "LEX": "TO"
+          },
+          "start": 17,
+          "end": 28
+        },
+        "V40049": {
+          "id": "V40049",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "BABYSIT",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "BABYSIT"
+          },
+          "start": 20,
+          "end": 28
+        },
+        "root": "#V40577"
+      },
+      {
+        "V40205": {
+          "id": "V40205",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V40058",
+            "LEX": "COUSIN"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "V40058": {
+          "id": "V40058",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "COUSIN",
+          "roles": {
+            "ASSOC-POSS": "#V40053",
+            "LEX": "COUSIN",
+            "WNSENSE": "cousin%1:18:00::"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "V40053": {
+          "id": "V40053",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "root": "#V40205"
+      }
+    ],
+    [
+      {
+        "V40522": {
+          "id": "V40522",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V40002",
+            "LEX": "ASKED"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V40002": {
+          "id": "V40002",
+          "indicator": "F",
+          "type": "ASK-QUESTION",
+          "word": "ASK",
+          "roles": {
+            "AGENT": "#V39993",
+            "FORMAL": "#V40017",
+            "REASON": "#V40030",
+            "TENSE": "PAST",
+            "LEX": "ASKED",
+            "WNSENSE": "ask%2:32:02::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V39993": {
+          "id": "V39993",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "LEX": "NADINE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40017": {
+          "id": "V40017",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 13,
+          "end": 17
+        },
+        "V40030": {
+          "id": "V40030",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V40049",
+            "FIGURE": "#V40002",
+            "LEX": "TO"
+          },
+          "start": 17,
+          "end": 28
+        },
+        "V40049": {
+          "id": "V40049",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "BABYSIT",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "BABYSIT"
+          },
+          "start": 20,
+          "end": 28
+        },
+        "root": "#V40522"
+      },
+      {
+        "V40058": {
+          "id": "V40058",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "COUSIN",
+          "roles": {
+            "ASSOC-POSS": "#V40053",
+            "LEX": "COUSIN",
+            "WNSENSE": "cousin%1:18:00::"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "V40053": {
+          "id": "V40053",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "root": "#V40058"
+      }
+    ],
+    [
+      {
+        "V40577": {
+          "id": "V40577",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V40002",
+            "LEX": "ASKED"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V40002": {
+          "id": "V40002",
+          "indicator": "F",
+          "type": "ASK-QUESTION",
+          "word": "ASK",
+          "roles": {
+            "AGENT": "#V39996",
+            "FORMAL": "#V40017",
+            "REASON": "#V40030",
+            "TENSE": "PAST",
+            "LEX": "ASKED",
+            "WNSENSE": "ask%2:32:02::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V39996": {
+          "id": "V39996",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "LEX": "NADINE",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40017": {
+          "id": "V40017",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 13,
+          "end": 17
+        },
+        "V40030": {
+          "id": "V40030",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V40049",
+            "FIGURE": "#V40002",
+            "LEX": "TO"
+          },
+          "start": 17,
+          "end": 28
+        },
+        "V40049": {
+          "id": "V40049",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "BABYSIT",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "BABYSIT"
+          },
+          "start": 20,
+          "end": 28
+        },
+        "root": "#V40577"
+      },
+      {
+        "V40058": {
+          "id": "V40058",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "COUSIN",
+          "roles": {
+            "ASSOC-POSS": "#V40053",
+            "LEX": "COUSIN",
+            "WNSENSE": "cousin%1:18:00::"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "V40053": {
+          "id": "V40053",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "root": "#V40058"
+      }
+    ],
+    [
+      {
+        "V40002": {
+          "id": "V40002",
+          "indicator": "F",
+          "type": "ASK-QUESTION",
+          "word": "ASK",
+          "roles": {
+            "AGENT": "#V39993",
+            "AFFECTED": "#V40017",
+            "REASON": "#V40030",
+            "TENSE": "PAST",
+            "LEX": "ASKED",
+            "WNSENSE": "ask%2:32:02::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V39993": {
+          "id": "V39993",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "LEX": "NADINE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40017": {
+          "id": "V40017",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 13,
+          "end": 17
+        },
+        "V40030": {
+          "id": "V40030",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V40049",
+            "FIGURE": "#V40002",
+            "LEX": "TO"
+          },
+          "start": 17,
+          "end": 28
+        },
+        "V40049": {
+          "id": "V40049",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "BABYSIT",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "BABYSIT"
+          },
+          "start": 20,
+          "end": 28
+        },
+        "root": "#V40002"
+      },
+      {
+        "V40205": {
+          "id": "V40205",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40058",
+            "LEX": "COUSIN"
+          },
+          "start": 28,
+          "end": 39
+        },
+        "V40058": {
+          "id": "V40058",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "COUSIN",
+          "roles": {
+            "ASSOC-POSS": "#V40053",
+            "LEX": "COUSIN",
+            "WNSENSE": "cousin%1:18:00::"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "V40053": {
+          "id": "V40053",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "root": "#V40205"
+      }
+    ],
+    [
+      {
+        "V40544": {
+          "id": "V40544",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V39996",
+            "LEX": "NADINE"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V39996": {
+          "id": "V39996",
+          "indicator": "BARE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "MOD": "#V40002",
+            "LEX": "NADINE",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V40002": {
+          "id": "V40002",
+          "indicator": "F",
+          "type": "ASK-QUESTION",
+          "word": "ASK",
+          "roles": {
+            "AFFECTED": "#V39996",
+            "FORMAL": "#V40017",
+            "REASON": "#V40030",
+            "VFORM": "PASSIVE",
+            "LEX": "ASKED",
+            "WNSENSE": "ask%2:32:02::"
+          },
+          "start": 7,
+          "end": 28
+        },
+        "V40017": {
+          "id": "V40017",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 13,
+          "end": 17
+        },
+        "V40030": {
+          "id": "V40030",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V40049",
+            "FIGURE": "#V40002",
+            "LEX": "TO"
+          },
+          "start": 17,
+          "end": 28
+        },
+        "V40049": {
+          "id": "V40049",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "BABYSIT",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "BABYSIT"
+          },
+          "start": 20,
+          "end": 28
+        },
+        "root": "#V40544"
+      },
+      {
+        "V40205": {
+          "id": "V40205",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40058",
+            "LEX": "COUSIN"
+          },
+          "start": 28,
+          "end": 39
+        },
+        "V40058": {
+          "id": "V40058",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "COUSIN",
+          "roles": {
+            "ASSOC-POSS": "#V40053",
+            "LEX": "COUSIN",
+            "WNSENSE": "cousin%1:18:00::"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "V40053": {
+          "id": "V40053",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "root": "#V40205"
+      }
+    ],
+    [
+      {
+        "V40529": {
+          "id": "V40529",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V39996",
+            "LEX": "NADINE"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V39996": {
+          "id": "V39996",
+          "indicator": "BARE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "MOD": "#V40002",
+            "LEX": "NADINE",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V40002": {
+          "id": "V40002",
+          "indicator": "F",
+          "type": "ASK-QUESTION",
+          "word": "ASK",
+          "roles": {
+            "FORMAL": "#V39996",
+            "AFFECTED": "#V40017",
+            "REASON": "#V40030",
+            "VFORM": "PASSIVE",
+            "LEX": "ASKED",
+            "WNSENSE": "ask%2:32:02::"
+          },
+          "start": 7,
+          "end": 28
+        },
+        "V40017": {
+          "id": "V40017",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 13,
+          "end": 17
+        },
+        "V40030": {
+          "id": "V40030",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V40049",
+            "FIGURE": "#V40002",
+            "LEX": "TO"
+          },
+          "start": 17,
+          "end": 28
+        },
+        "V40049": {
+          "id": "V40049",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "BABYSIT",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "BABYSIT"
+          },
+          "start": 20,
+          "end": 28
+        },
+        "root": "#V40529"
+      },
+      {
+        "V40205": {
+          "id": "V40205",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40058",
+            "LEX": "COUSIN"
+          },
+          "start": 28,
+          "end": 39
+        },
+        "V40058": {
+          "id": "V40058",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "COUSIN",
+          "roles": {
+            "ASSOC-POSS": "#V40053",
+            "LEX": "COUSIN",
+            "WNSENSE": "cousin%1:18:00::"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "V40053": {
+          "id": "V40053",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "root": "#V40205"
+      }
+    ],
+    [
+      {
+        "V40002": {
+          "id": "V40002",
+          "indicator": "F",
+          "type": "ASK-QUESTION",
+          "word": "ASK",
+          "roles": {
+            "AGENT": "#V39996",
+            "AFFECTED": "#V40017",
+            "REASON": "#V40030",
+            "TENSE": "PAST",
+            "LEX": "ASKED",
+            "WNSENSE": "ask%2:32:02::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V39996": {
+          "id": "V39996",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "LEX": "NADINE",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40017": {
+          "id": "V40017",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 13,
+          "end": 17
+        },
+        "V40030": {
+          "id": "V40030",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V40049",
+            "FIGURE": "#V40002",
+            "LEX": "TO"
+          },
+          "start": 17,
+          "end": 28
+        },
+        "V40049": {
+          "id": "V40049",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "BABYSIT",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "BABYSIT"
+          },
+          "start": 20,
+          "end": 28
+        },
+        "root": "#V40002"
+      },
+      {
+        "V40205": {
+          "id": "V40205",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40058",
+            "LEX": "COUSIN"
+          },
+          "start": 28,
+          "end": 39
+        },
+        "V40058": {
+          "id": "V40058",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "COUSIN",
+          "roles": {
+            "ASSOC-POSS": "#V40053",
+            "LEX": "COUSIN",
+            "WNSENSE": "cousin%1:18:00::"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "V40053": {
+          "id": "V40053",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "root": "#V40205"
+      }
+    ],
+    [
+      {
+        "V40002": {
+          "id": "V40002",
+          "indicator": "F",
+          "type": "ASK-QUESTION",
+          "word": "ASK",
+          "roles": {
+            "AGENT": "#V39993",
+            "FORMAL": "#V40017",
+            "REASON": "#V40030",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "ASKED",
+            "WNSENSE": "ask%2:32:02::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V39993": {
+          "id": "V39993",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "LEX": "NADINE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40017": {
+          "id": "V40017",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 13,
+          "end": 17
+        },
+        "V40030": {
+          "id": "V40030",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V40049",
+            "FIGURE": "#V40002",
+            "LEX": "TO"
+          },
+          "start": 17,
+          "end": 28
+        },
+        "V40049": {
+          "id": "V40049",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "BABYSIT",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "BABYSIT"
+          },
+          "start": 20,
+          "end": 28
+        },
+        "root": "#V40002"
+      },
+      {
+        "V40205": {
+          "id": "V40205",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40058",
+            "LEX": "COUSIN"
+          },
+          "start": 28,
+          "end": 39
+        },
+        "V40058": {
+          "id": "V40058",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "COUSIN",
+          "roles": {
+            "ASSOC-POSS": "#V40053",
+            "LEX": "COUSIN",
+            "WNSENSE": "cousin%1:18:00::"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "V40053": {
+          "id": "V40053",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "root": "#V40205"
+      }
+    ],
+    [
+      {
+        "V39996": {
+          "id": "V39996",
+          "indicator": "BARE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "MOD": "#V40002",
+            "LEX": "NADINE",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V40002": {
+          "id": "V40002",
+          "indicator": "F",
+          "type": "ASK-QUESTION",
+          "word": "ASK",
+          "roles": {
+            "AFFECTED": "#V39996",
+            "FORMAL": "#V40017",
+            "REASON": "#V40030",
+            "VFORM": "PASSIVE",
+            "LEX": "ASKED",
+            "WNSENSE": "ask%2:32:02::"
+          },
+          "start": 7,
+          "end": 28
+        },
+        "V40017": {
+          "id": "V40017",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 13,
+          "end": 17
+        },
+        "V40030": {
+          "id": "V40030",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V40049",
+            "FIGURE": "#V40002",
+            "LEX": "TO"
+          },
+          "start": 17,
+          "end": 28
+        },
+        "V40049": {
+          "id": "V40049",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "BABYSIT",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "BABYSIT"
+          },
+          "start": 20,
+          "end": 28
+        },
+        "root": "#V39996"
+      },
+      {
+        "V40205": {
+          "id": "V40205",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40058",
+            "LEX": "COUSIN"
+          },
+          "start": 28,
+          "end": 39
+        },
+        "V40058": {
+          "id": "V40058",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "COUSIN",
+          "roles": {
+            "ASSOC-POSS": "#V40053",
+            "LEX": "COUSIN",
+            "WNSENSE": "cousin%1:18:00::"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "V40053": {
+          "id": "V40053",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "root": "#V40205"
+      }
+    ],
+    [
+      {
+        "V39996": {
+          "id": "V39996",
+          "indicator": "BARE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "MOD": "#V40002",
+            "LEX": "NADINE",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V40002": {
+          "id": "V40002",
+          "indicator": "F",
+          "type": "ASK-QUESTION",
+          "word": "ASK",
+          "roles": {
+            "FORMAL": "#V39996",
+            "AFFECTED": "#V40017",
+            "REASON": "#V40030",
+            "VFORM": "PASSIVE",
+            "LEX": "ASKED",
+            "WNSENSE": "ask%2:32:02::"
+          },
+          "start": 7,
+          "end": 28
+        },
+        "V40017": {
+          "id": "V40017",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 13,
+          "end": 17
+        },
+        "V40030": {
+          "id": "V40030",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V40049",
+            "FIGURE": "#V40002",
+            "LEX": "TO"
+          },
+          "start": 17,
+          "end": 28
+        },
+        "V40049": {
+          "id": "V40049",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "BABYSIT",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "BABYSIT"
+          },
+          "start": 20,
+          "end": 28
+        },
+        "root": "#V39996"
+      },
+      {
+        "V40205": {
+          "id": "V40205",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40058",
+            "LEX": "COUSIN"
+          },
+          "start": 28,
+          "end": 39
+        },
+        "V40058": {
+          "id": "V40058",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "COUSIN",
+          "roles": {
+            "ASSOC-POSS": "#V40053",
+            "LEX": "COUSIN",
+            "WNSENSE": "cousin%1:18:00::"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "V40053": {
+          "id": "V40053",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "root": "#V40205"
+      }
+    ],
+    [
+      {
+        "V40002": {
+          "id": "V40002",
+          "indicator": "F",
+          "type": "ASK-QUESTION",
+          "word": "ASK",
+          "roles": {
+            "AGENT": "#V39993",
+            "AFFECTED": "#V40017",
+            "REASON": "#V40030",
+            "TENSE": "PAST",
+            "LEX": "ASKED",
+            "WNSENSE": "ask%2:32:02::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V39993": {
+          "id": "V39993",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "LEX": "NADINE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40017": {
+          "id": "V40017",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 13,
+          "end": 17
+        },
+        "V40030": {
+          "id": "V40030",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V40049",
+            "FIGURE": "#V40002",
+            "LEX": "TO"
+          },
+          "start": 17,
+          "end": 28
+        },
+        "V40049": {
+          "id": "V40049",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "BABYSIT",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "BABYSIT"
+          },
+          "start": 20,
+          "end": 28
+        },
+        "root": "#V40002"
+      },
+      {
+        "V40205": {
+          "id": "V40205",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V40058",
+            "LEX": "COUSIN"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "V40058": {
+          "id": "V40058",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "COUSIN",
+          "roles": {
+            "ASSOC-POSS": "#V40053",
+            "LEX": "COUSIN",
+            "WNSENSE": "cousin%1:18:00::"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "V40053": {
+          "id": "V40053",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "root": "#V40205"
+      }
+    ],
+    [
+      {
+        "V40599": {
+          "id": "V40599",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V39996",
+            "LEX": "NADINE"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V39996": {
+          "id": "V39996",
+          "indicator": "BARE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "MOD": "#V40336",
+            "LEX": "NADINE",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V40336": {
+          "id": "V40336",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V39996",
+            "GROUND": "#V40002",
+            "LEX": "ASKED"
+          },
+          "start": 7,
+          "end": 28
+        },
+        "V40002": {
+          "id": "V40002",
+          "indicator": "F",
+          "type": "ASK-QUESTION",
+          "word": "ASK",
+          "roles": {
+            "AFFECTED": "#V40017",
+            "FORMAL": "#V39996",
+            "REASON": "#V40030",
+            "WNSENSE": "ask%2:32:02::"
+          },
+          "start": 7,
+          "end": 28
+        },
+        "V40017": {
+          "id": "V40017",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 13,
+          "end": 17
+        },
+        "V40030": {
+          "id": "V40030",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V40049",
+            "FIGURE": "#V40002",
+            "LEX": "TO"
+          },
+          "start": 17,
+          "end": 28
+        },
+        "V40049": {
+          "id": "V40049",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "BABYSIT",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "BABYSIT"
+          },
+          "start": 20,
+          "end": 28
+        },
+        "root": "#V40599"
+      },
+      {
+        "V40205": {
+          "id": "V40205",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40058",
+            "LEX": "COUSIN"
+          },
+          "start": 28,
+          "end": 39
+        },
+        "V40058": {
+          "id": "V40058",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "COUSIN",
+          "roles": {
+            "ASSOC-POSS": "#V40053",
+            "LEX": "COUSIN",
+            "WNSENSE": "cousin%1:18:00::"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "V40053": {
+          "id": "V40053",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "root": "#V40205"
+      }
+    ],
+    [
+      {
+        "V40617": {
+          "id": "V40617",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V39993",
+            "LEX": "NADINE"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V39993": {
+          "id": "V39993",
+          "indicator": "BARE",
+          "type": "FEMALE-PERSON",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "MOD": "#V40002",
+            "LEX": "NADINE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V40002": {
+          "id": "V40002",
+          "indicator": "F",
+          "type": "ASK-QUESTION",
+          "word": "ASK",
+          "roles": {
+            "AFFECTED": "#V39993",
+            "FORMAL": "#V40017",
+            "REASON": "#V40030",
+            "VFORM": "PASSIVE",
+            "LEX": "ASKED",
+            "WNSENSE": "ask%2:32:02::"
+          },
+          "start": 7,
+          "end": 28
+        },
+        "V40017": {
+          "id": "V40017",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 13,
+          "end": 17
+        },
+        "V40030": {
+          "id": "V40030",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V40049",
+            "FIGURE": "#V40002",
+            "LEX": "TO"
+          },
+          "start": 17,
+          "end": 28
+        },
+        "V40049": {
+          "id": "V40049",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "BABYSIT",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "BABYSIT"
+          },
+          "start": 20,
+          "end": 28
+        },
+        "root": "#V40617"
+      },
+      {
+        "V40205": {
+          "id": "V40205",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40058",
+            "LEX": "COUSIN"
+          },
+          "start": 28,
+          "end": 39
+        },
+        "V40058": {
+          "id": "V40058",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "COUSIN",
+          "roles": {
+            "ASSOC-POSS": "#V40053",
+            "LEX": "COUSIN",
+            "WNSENSE": "cousin%1:18:00::"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "V40053": {
+          "id": "V40053",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "root": "#V40205"
+      }
+    ],
+    [
+      {
+        "V40615": {
+          "id": "V40615",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V39993",
+            "LEX": "NADINE"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V39993": {
+          "id": "V39993",
+          "indicator": "BARE",
+          "type": "FEMALE-PERSON",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "MOD": "#V40002",
+            "LEX": "NADINE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V40002": {
+          "id": "V40002",
+          "indicator": "F",
+          "type": "ASK-QUESTION",
+          "word": "ASK",
+          "roles": {
+            "FORMAL": "#V39993",
+            "AFFECTED": "#V40017",
+            "REASON": "#V40030",
+            "VFORM": "PASSIVE",
+            "LEX": "ASKED",
+            "WNSENSE": "ask%2:32:02::"
+          },
+          "start": 7,
+          "end": 28
+        },
+        "V40017": {
+          "id": "V40017",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 13,
+          "end": 17
+        },
+        "V40030": {
+          "id": "V40030",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V40049",
+            "FIGURE": "#V40002",
+            "LEX": "TO"
+          },
+          "start": 17,
+          "end": 28
+        },
+        "V40049": {
+          "id": "V40049",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "BABYSIT",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "BABYSIT"
+          },
+          "start": 20,
+          "end": 28
+        },
+        "root": "#V40615"
+      },
+      {
+        "V40205": {
+          "id": "V40205",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40058",
+            "LEX": "COUSIN"
+          },
+          "start": 28,
+          "end": 39
+        },
+        "V40058": {
+          "id": "V40058",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "COUSIN",
+          "roles": {
+            "ASSOC-POSS": "#V40053",
+            "LEX": "COUSIN",
+            "WNSENSE": "cousin%1:18:00::"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "V40053": {
+          "id": "V40053",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "root": "#V40205"
+      }
+    ],
+    [
+      {
+        "V40002": {
+          "id": "V40002",
+          "indicator": "F",
+          "type": "ASK-QUESTION",
+          "word": "ASK",
+          "roles": {
+            "AGENT": "#V39993",
+            "AFFECTED": "#V40017",
+            "REASON": "#V40030",
+            "TENSE": "PAST",
+            "LEX": "ASKED",
+            "WNSENSE": "ask%2:32:02::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V39993": {
+          "id": "V39993",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "LEX": "NADINE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40017": {
+          "id": "V40017",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 13,
+          "end": 17
+        },
+        "V40030": {
+          "id": "V40030",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V40049",
+            "FIGURE": "#V40002",
+            "LEX": "TO"
+          },
+          "start": 17,
+          "end": 28
+        },
+        "V40049": {
+          "id": "V40049",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "BABYSIT",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "BABYSIT"
+          },
+          "start": 20,
+          "end": 28
+        },
+        "root": "#V40002"
+      },
+      {
+        "V40058": {
+          "id": "V40058",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "COUSIN",
+          "roles": {
+            "ASSOC-POSS": "#V40053",
+            "LEX": "COUSIN",
+            "WNSENSE": "cousin%1:18:00::"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "V40053": {
+          "id": "V40053",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "root": "#V40058"
+      }
+    ],
+    [
+      {
+        "V40544": {
+          "id": "V40544",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V39996",
+            "LEX": "NADINE"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V39996": {
+          "id": "V39996",
+          "indicator": "BARE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "MOD": "#V40002",
+            "LEX": "NADINE",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V40002": {
+          "id": "V40002",
+          "indicator": "F",
+          "type": "ASK-QUESTION",
+          "word": "ASK",
+          "roles": {
+            "AFFECTED": "#V39996",
+            "FORMAL": "#V40017",
+            "REASON": "#V40030",
+            "VFORM": "PASSIVE",
+            "LEX": "ASKED",
+            "WNSENSE": "ask%2:32:02::"
+          },
+          "start": 7,
+          "end": 28
+        },
+        "V40017": {
+          "id": "V40017",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 13,
+          "end": 17
+        },
+        "V40030": {
+          "id": "V40030",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V40049",
+            "FIGURE": "#V40002",
+            "LEX": "TO"
+          },
+          "start": 17,
+          "end": 28
+        },
+        "V40049": {
+          "id": "V40049",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "BABYSIT",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "BABYSIT"
+          },
+          "start": 20,
+          "end": 28
+        },
+        "root": "#V40544"
+      },
+      {
+        "V40205": {
+          "id": "V40205",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V40058",
+            "LEX": "COUSIN"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "V40058": {
+          "id": "V40058",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "COUSIN",
+          "roles": {
+            "ASSOC-POSS": "#V40053",
+            "LEX": "COUSIN",
+            "WNSENSE": "cousin%1:18:00::"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "V40053": {
+          "id": "V40053",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "root": "#V40205"
+      }
+    ],
+    [
+      {
+        "V40529": {
+          "id": "V40529",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V39996",
+            "LEX": "NADINE"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V39996": {
+          "id": "V39996",
+          "indicator": "BARE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "NADINE",
+          "roles": {
+            "NAME-OF": "NADINE",
+            "MOD": "#V40002",
+            "LEX": "NADINE",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V40002": {
+          "id": "V40002",
+          "indicator": "F",
+          "type": "ASK-QUESTION",
+          "word": "ASK",
+          "roles": {
+            "FORMAL": "#V39996",
+            "AFFECTED": "#V40017",
+            "REASON": "#V40030",
+            "VFORM": "PASSIVE",
+            "LEX": "ASKED",
+            "WNSENSE": "ask%2:32:02::"
+          },
+          "start": 7,
+          "end": 28
+        },
+        "V40017": {
+          "id": "V40017",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 13,
+          "end": 17
+        },
+        "V40030": {
+          "id": "V40030",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V40049",
+            "FIGURE": "#V40002",
+            "LEX": "TO"
+          },
+          "start": 17,
+          "end": 28
+        },
+        "V40049": {
+          "id": "V40049",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "BABYSIT",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "BABYSIT"
+          },
+          "start": 20,
+          "end": 28
+        },
+        "root": "#V40529"
+      },
+      {
+        "V40205": {
+          "id": "V40205",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V40058",
+            "LEX": "COUSIN"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "V40058": {
+          "id": "V40058",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "COUSIN",
+          "roles": {
+            "ASSOC-POSS": "#V40053",
+            "LEX": "COUSIN",
+            "WNSENSE": "cousin%1:18:00::"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "V40053": {
+          "id": "V40053",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 38
+        },
+        "root": "#V40205"
+      }
+    ]
+  ],
+  "sentence": "Nadine asked her to babysit her cousin.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190930T095346",
+    "link": "http://trips.ihmc.us/parser/saved/20190930T095346-STEP-abhatia-none-Nadine_asked_her_to_babysit_her_cousin_.xml",
+    "judgement": -1
+  }
+}

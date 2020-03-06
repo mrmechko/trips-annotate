@@ -1,0 +1,1137 @@
+{
+  "parse": [
+    {
+      "V65211": {
+        "id": "V65211",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V64903",
+          "LEX": "AMAZED"
+        },
+        "start": 0,
+        "end": 48
+      },
+      "V64903": {
+        "id": "V64903",
+        "indicator": "F",
+        "type": "IMPRESS",
+        "word": "AMAZE",
+        "roles": {
+          "AFFECTED": "#V64881",
+          "REASON": "#V64908",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "AMAZED",
+          "WNSENSE": "impress%2:37:00"
+        },
+        "start": 0,
+        "end": 48
+      },
+      "V64881": {
+        "id": "V64881",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V64908": {
+        "id": "V64908",
+        "indicator": "F",
+        "type": "REASON",
+        "word": "BECAUSE",
+        "roles": {
+          "GROUND": "#V64928",
+          "FIGURE": "#V64903",
+          "LEX": "BECAUSE"
+        },
+        "start": 14,
+        "end": 48
+      },
+      "V64928": {
+        "id": "V64928",
+        "indicator": "THE",
+        "type": "ACTIVITY-EVENT",
+        "word": "ACTION",
+        "roles": {
+          "LOCATION": "#V64936",
+          "LEX": "ACTION",
+          "WNSENSE": "action%1:04:02::"
+        },
+        "start": 22,
+        "end": 48
+      },
+      "V64936": {
+        "id": "V64936",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V64998",
+          "FIGURE": "#V64928",
+          "LEX": "IN"
+        },
+        "start": 36,
+        "end": 48
+      },
+      "V64998": {
+        "id": "V64998",
+        "indicator": "THE",
+        "type": "COMPOSITION",
+        "word": "MOVIE",
+        "roles": {
+          "LEX": "MOVIE",
+          "WNSENSE": "composition%1:07:01"
+        },
+        "start": 39,
+        "end": 48
+      },
+      "root": "#V65211"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V65245": {
+          "id": "V65245",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V64888",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V64888": {
+          "id": "V64888",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V64881",
+            "FORMAL": "#V65230",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 48
+        },
+        "V64881": {
+          "id": "V64881",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V65230": {
+          "id": "V65230",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V64881",
+            "GROUND": "#V64903",
+            "LEX": "AMAZED"
+          },
+          "start": 7,
+          "end": 48
+        },
+        "V64903": {
+          "id": "V64903",
+          "indicator": "F",
+          "type": "IMPRESS",
+          "word": "AMAZE",
+          "roles": {
+            "AFFECTED": "#V64881",
+            "REASON": "#V64908",
+            "WNSENSE": "impress%2:37:00"
+          },
+          "start": 7,
+          "end": 48
+        },
+        "V64908": {
+          "id": "V64908",
+          "indicator": "F",
+          "type": "REASON",
+          "word": "BECAUSE",
+          "roles": {
+            "GROUND": "#V64928",
+            "FIGURE": "#V64903",
+            "LEX": "BECAUSE"
+          },
+          "start": 14,
+          "end": 48
+        },
+        "V64928": {
+          "id": "V64928",
+          "indicator": "THE",
+          "type": "ACTIVITY-EVENT",
+          "word": "ACTION",
+          "roles": {
+            "LOCATION": "#V64936",
+            "LEX": "ACTION",
+            "WNSENSE": "action%1:04:02::"
+          },
+          "start": 22,
+          "end": 48
+        },
+        "V64936": {
+          "id": "V64936",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V64998",
+            "FIGURE": "#V64928",
+            "LEX": "IN"
+          },
+          "start": 36,
+          "end": 48
+        },
+        "V64998": {
+          "id": "V64998",
+          "indicator": "THE",
+          "type": "COMPOSITION",
+          "word": "MOVIE",
+          "roles": {
+            "LEX": "MOVIE",
+            "WNSENSE": "composition%1:07:01"
+          },
+          "start": 39,
+          "end": 48
+        },
+        "root": "#V65245"
+      }
+    ],
+    [
+      {
+        "V65359": {
+          "id": "V65359",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V64903",
+            "LEX": "AMAZED"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V64903": {
+          "id": "V64903",
+          "indicator": "F",
+          "type": "IMPRESS",
+          "word": "AMAZE",
+          "roles": {
+            "AFFECTED": "#V64881",
+            "LOCATION": "#V64936",
+            "REASON": "#V64908",
+            "TENSE": "PAST",
+            "PASSIVE": "+",
+            "LEX": "AMAZED",
+            "WNSENSE": "impress%2:37:00"
+          },
+          "start": 0,
+          "end": 48
+        },
+        "V64881": {
+          "id": "V64881",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V64908": {
+          "id": "V64908",
+          "indicator": "F",
+          "type": "REASON",
+          "word": "BECAUSE",
+          "roles": {
+            "GROUND": "#V64928",
+            "FIGURE": "#V64903",
+            "LEX": "BECAUSE"
+          },
+          "start": 14,
+          "end": 36
+        },
+        "V64928": {
+          "id": "V64928",
+          "indicator": "THE",
+          "type": "ACTIVITY-EVENT",
+          "word": "ACTION",
+          "roles": {
+            "LEX": "ACTION",
+            "WNSENSE": "action%1:04:02::"
+          },
+          "start": 22,
+          "end": 36
+        },
+        "V64936": {
+          "id": "V64936",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V64998",
+            "FIGURE": "#V64903",
+            "LEX": "IN"
+          },
+          "start": 36,
+          "end": 48
+        },
+        "V64998": {
+          "id": "V64998",
+          "indicator": "THE",
+          "type": "COMPOSITION",
+          "word": "MOVIE",
+          "roles": {
+            "LEX": "MOVIE",
+            "WNSENSE": "composition%1:07:01"
+          },
+          "start": 39,
+          "end": 48
+        },
+        "root": "#V65359"
+      }
+    ],
+    [
+      {
+        "V65381": {
+          "id": "V65381",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V64888",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V64888": {
+          "id": "V64888",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V64881",
+            "FORMAL": "#V65301",
+            "LOCATION": "#V64936",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 48
+        },
+        "V64881": {
+          "id": "V64881",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V65301": {
+          "id": "V65301",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V64881",
+            "GROUND": "#V64903",
+            "LEX": "AMAZED"
+          },
+          "start": 7,
+          "end": 36
+        },
+        "V64903": {
+          "id": "V64903",
+          "indicator": "F",
+          "type": "IMPRESS",
+          "word": "AMAZE",
+          "roles": {
+            "AFFECTED": "#V64881",
+            "REASON": "#V64908",
+            "WNSENSE": "impress%2:37:00"
+          },
+          "start": 7,
+          "end": 36
+        },
+        "V64908": {
+          "id": "V64908",
+          "indicator": "F",
+          "type": "REASON",
+          "word": "BECAUSE",
+          "roles": {
+            "GROUND": "#V64928",
+            "FIGURE": "#V64903",
+            "LEX": "BECAUSE"
+          },
+          "start": 14,
+          "end": 36
+        },
+        "V64928": {
+          "id": "V64928",
+          "indicator": "THE",
+          "type": "ACTIVITY-EVENT",
+          "word": "ACTION",
+          "roles": {
+            "LEX": "ACTION",
+            "WNSENSE": "action%1:04:02::"
+          },
+          "start": 22,
+          "end": 36
+        },
+        "V64936": {
+          "id": "V64936",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V64998",
+            "FIGURE": "#V64888",
+            "LEX": "IN"
+          },
+          "start": 36,
+          "end": 48
+        },
+        "V64998": {
+          "id": "V64998",
+          "indicator": "THE",
+          "type": "COMPOSITION",
+          "word": "MOVIE",
+          "roles": {
+            "LEX": "MOVIE",
+            "WNSENSE": "composition%1:07:01"
+          },
+          "start": 39,
+          "end": 48
+        },
+        "root": "#V65381"
+      }
+    ],
+    [
+      {
+        "V65407": {
+          "id": "V65407",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V64888",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V64888": {
+          "id": "V64888",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V64881",
+            "FORMAL": "#V65396",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 48
+        },
+        "V64881": {
+          "id": "V64881",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V65396": {
+          "id": "V65396",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "GROUND": "#V64903",
+            "LEX": "AMAZED"
+          },
+          "start": 7,
+          "end": 48
+        },
+        "V64903": {
+          "id": "V64903",
+          "indicator": "F",
+          "type": "IMPRESS",
+          "word": "AMAZE",
+          "roles": {
+            "LOCATION": "#V64936",
+            "REASON": "#V64908",
+            "WNSENSE": "impress%2:37:00"
+          },
+          "start": 7,
+          "end": 48
+        },
+        "V64908": {
+          "id": "V64908",
+          "indicator": "F",
+          "type": "REASON",
+          "word": "BECAUSE",
+          "roles": {
+            "GROUND": "#V64928",
+            "FIGURE": "#V64903",
+            "LEX": "BECAUSE"
+          },
+          "start": 14,
+          "end": 36
+        },
+        "V64928": {
+          "id": "V64928",
+          "indicator": "THE",
+          "type": "ACTIVITY-EVENT",
+          "word": "ACTION",
+          "roles": {
+            "LEX": "ACTION",
+            "WNSENSE": "action%1:04:02::"
+          },
+          "start": 22,
+          "end": 36
+        },
+        "V64936": {
+          "id": "V64936",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V64998",
+            "FIGURE": "#V64903",
+            "LEX": "IN"
+          },
+          "start": 36,
+          "end": 48
+        },
+        "V64998": {
+          "id": "V64998",
+          "indicator": "THE",
+          "type": "COMPOSITION",
+          "word": "MOVIE",
+          "roles": {
+            "LEX": "MOVIE",
+            "WNSENSE": "composition%1:07:01"
+          },
+          "start": 39,
+          "end": 48
+        },
+        "root": "#V65407"
+      }
+    ],
+    [
+      {
+        "V65423": {
+          "id": "V65423",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V64903",
+            "LEX": "AMAZED"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V64903": {
+          "id": "V64903",
+          "indicator": "F",
+          "type": "IMPRESS",
+          "word": "AMAZE",
+          "roles": {
+            "AFFECTED": "#V64881",
+            "REASON": "#V64908",
+            "TENSE": "PAST",
+            "PASSIVE": "+",
+            "LEX": "AMAZED",
+            "WNSENSE": "impress%2:37:00"
+          },
+          "start": 0,
+          "end": 48
+        },
+        "V64881": {
+          "id": "V64881",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V64908": {
+          "id": "V64908",
+          "indicator": "F",
+          "type": "REASON",
+          "word": "BECAUSE",
+          "roles": {
+            "GROUND": "#V64928",
+            "FIGURE": "#V64903",
+            "LEX": "BECAUSE"
+          },
+          "start": 14,
+          "end": 36
+        },
+        "V64928": {
+          "id": "V64928",
+          "indicator": "THE",
+          "type": "ACTIVITY-EVENT",
+          "word": "ACTION",
+          "roles": {
+            "LEX": "ACTION",
+            "WNSENSE": "action%1:04:02::"
+          },
+          "start": 22,
+          "end": 36
+        },
+        "V64939": {
+          "id": "V64939",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V64998",
+            "FIGURE": "#V64903",
+            "LEX": "IN",
+            "WNSENSE": "in%4:02:01::"
+          },
+          "start": 36,
+          "end": 48
+        },
+        "V64998": {
+          "id": "V64998",
+          "indicator": "THE",
+          "type": "COMPOSITION",
+          "word": "MOVIE",
+          "roles": {
+            "LEX": "MOVIE",
+            "WNSENSE": "composition%1:07:01"
+          },
+          "start": 39,
+          "end": 48
+        },
+        "root": "#V65423"
+      }
+    ],
+    [
+      {
+        "V65471": {
+          "id": "V65471",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V64903",
+            "LEX": "AMAZED"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V64903": {
+          "id": "V64903",
+          "indicator": "F",
+          "type": "IMPRESS",
+          "word": "AMAZE",
+          "roles": {
+            "AFFECTED": "#V64881",
+            "REASON": "#V64908",
+            "TENSE": "PAST",
+            "PASSIVE": "+",
+            "LEX": "AMAZED",
+            "WNSENSE": "impress%2:37:00"
+          },
+          "start": 0,
+          "end": 48
+        },
+        "V64881": {
+          "id": "V64881",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V64908": {
+          "id": "V64908",
+          "indicator": "F",
+          "type": "REASON",
+          "word": "BECAUSE",
+          "roles": {
+            "GROUND": "#V64928",
+            "FIGURE": "#V64903",
+            "LEX": "BECAUSE"
+          },
+          "start": 14,
+          "end": 36
+        },
+        "V64928": {
+          "id": "V64928",
+          "indicator": "THE",
+          "type": "ACTIVITY-EVENT",
+          "word": "ACTION",
+          "roles": {
+            "LEX": "ACTION",
+            "WNSENSE": "action%1:04:02::"
+          },
+          "start": 22,
+          "end": 36
+        },
+        "V64939": {
+          "id": "V64939",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V65002",
+            "FIGURE": "#V64903",
+            "LEX": "IN",
+            "WNSENSE": "in%4:02:01::"
+          },
+          "start": 36,
+          "end": 48
+        },
+        "V65002": {
+          "id": "V65002",
+          "indicator": "THE",
+          "type": "MATERIAL",
+          "word": "FILM",
+          "roles": {
+            "LEX": "FILM",
+            "WNSENSE": "film%1:06:00::"
+          },
+          "start": 39,
+          "end": 48
+        },
+        "root": "#V65471"
+      }
+    ],
+    [
+      {
+        "V65504": {
+          "id": "V65504",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V64888",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V64888": {
+          "id": "V64888",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V64881",
+            "FORMAL": "#V65492",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 48
+        },
+        "V64881": {
+          "id": "V64881",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V65492": {
+          "id": "V65492",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "GROUND": "#V64903",
+            "LEX": "AMAZED"
+          },
+          "start": 7,
+          "end": 48
+        },
+        "V64903": {
+          "id": "V64903",
+          "indicator": "F",
+          "type": "IMPRESS",
+          "word": "AMAZE",
+          "roles": {
+            "REASON": "#V64908",
+            "WNSENSE": "impress%2:37:00"
+          },
+          "start": 7,
+          "end": 48
+        },
+        "V64908": {
+          "id": "V64908",
+          "indicator": "F",
+          "type": "REASON",
+          "word": "BECAUSE",
+          "roles": {
+            "GROUND": "#V64928",
+            "FIGURE": "#V64903",
+            "LEX": "BECAUSE"
+          },
+          "start": 14,
+          "end": 36
+        },
+        "V64928": {
+          "id": "V64928",
+          "indicator": "THE",
+          "type": "ACTIVITY-EVENT",
+          "word": "ACTION",
+          "roles": {
+            "LEX": "ACTION",
+            "WNSENSE": "action%1:04:02::"
+          },
+          "start": 22,
+          "end": 36
+        },
+        "V64939": {
+          "id": "V64939",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V64998",
+            "FIGURE": "#V64903",
+            "LEX": "IN",
+            "WNSENSE": "in%4:02:01::"
+          },
+          "start": 36,
+          "end": 48
+        },
+        "V64998": {
+          "id": "V64998",
+          "indicator": "THE",
+          "type": "COMPOSITION",
+          "word": "MOVIE",
+          "roles": {
+            "LEX": "MOVIE",
+            "WNSENSE": "composition%1:07:01"
+          },
+          "start": 39,
+          "end": 48
+        },
+        "root": "#V65504"
+      }
+    ],
+    [
+      {
+        "V65555": {
+          "id": "V65555",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V64888",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V64888": {
+          "id": "V64888",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V64881",
+            "FORMAL": "#V65544",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 48
+        },
+        "V64881": {
+          "id": "V64881",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V65544": {
+          "id": "V65544",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "GROUND": "#V64903",
+            "LEX": "AMAZED"
+          },
+          "start": 7,
+          "end": 48
+        },
+        "V64903": {
+          "id": "V64903",
+          "indicator": "F",
+          "type": "IMPRESS",
+          "word": "AMAZE",
+          "roles": {
+            "REASON": "#V64908",
+            "WNSENSE": "impress%2:37:00"
+          },
+          "start": 7,
+          "end": 48
+        },
+        "V64908": {
+          "id": "V64908",
+          "indicator": "F",
+          "type": "REASON",
+          "word": "BECAUSE",
+          "roles": {
+            "GROUND": "#V64928",
+            "FIGURE": "#V64903",
+            "LEX": "BECAUSE"
+          },
+          "start": 14,
+          "end": 36
+        },
+        "V64928": {
+          "id": "V64928",
+          "indicator": "THE",
+          "type": "ACTIVITY-EVENT",
+          "word": "ACTION",
+          "roles": {
+            "LEX": "ACTION",
+            "WNSENSE": "action%1:04:02::"
+          },
+          "start": 22,
+          "end": 36
+        },
+        "V64939": {
+          "id": "V64939",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V65002",
+            "FIGURE": "#V64903",
+            "LEX": "IN",
+            "WNSENSE": "in%4:02:01::"
+          },
+          "start": 36,
+          "end": 48
+        },
+        "V65002": {
+          "id": "V65002",
+          "indicator": "THE",
+          "type": "MATERIAL",
+          "word": "FILM",
+          "roles": {
+            "LEX": "FILM",
+            "WNSENSE": "film%1:06:00::"
+          },
+          "start": 39,
+          "end": 48
+        },
+        "root": "#V65555"
+      }
+    ],
+    [
+      {
+        "V65795": {
+          "id": "V65795",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V64888",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V64888": {
+          "id": "V64888",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V64881",
+            "FORMAL": "#V65301",
+            "SCALE": "#V64940",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 48
+        },
+        "V64881": {
+          "id": "V64881",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V65301": {
+          "id": "V65301",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V64881",
+            "GROUND": "#V64903",
+            "LEX": "AMAZED"
+          },
+          "start": 7,
+          "end": 36
+        },
+        "V64903": {
+          "id": "V64903",
+          "indicator": "F",
+          "type": "IMPRESS",
+          "word": "AMAZE",
+          "roles": {
+            "AFFECTED": "#V64881",
+            "REASON": "#V64908",
+            "WNSENSE": "impress%2:37:00"
+          },
+          "start": 7,
+          "end": 36
+        },
+        "V64908": {
+          "id": "V64908",
+          "indicator": "F",
+          "type": "REASON",
+          "word": "BECAUSE",
+          "roles": {
+            "GROUND": "#V64928",
+            "FIGURE": "#V64903",
+            "LEX": "BECAUSE"
+          },
+          "start": 14,
+          "end": 36
+        },
+        "V64928": {
+          "id": "V64928",
+          "indicator": "THE",
+          "type": "ACTIVITY-EVENT",
+          "word": "ACTION",
+          "roles": {
+            "LEX": "ACTION",
+            "WNSENSE": "action%1:04:02::"
+          },
+          "start": 22,
+          "end": 36
+        },
+        "V64940": {
+          "id": "V64940",
+          "indicator": "F",
+          "type": "IN-SCALE",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V64998",
+            "FIGURE": "#V64888",
+            "LEX": "IN",
+            "WNSENSE": "in%4:02:01::"
+          },
+          "start": 36,
+          "end": 48
+        },
+        "V64998": {
+          "id": "V64998",
+          "indicator": "THE",
+          "type": "COMPOSITION",
+          "word": "MOVIE",
+          "roles": {
+            "LEX": "MOVIE",
+            "WNSENSE": "composition%1:07:01"
+          },
+          "start": 39,
+          "end": 48
+        },
+        "root": "#V65795"
+      }
+    ]
+  ],
+  "sentence": "He was amazed because of the action in the movie.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190909T102831",
+    "link": "http://trips.ihmc.us/parser/saved/20190909T102831-STEP-abhatia-0-He_was_amazed_because_of_the_action_in_t.xml",
+    "judgement": 0
+  }
+}

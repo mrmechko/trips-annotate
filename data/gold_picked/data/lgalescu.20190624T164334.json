@@ -1,0 +1,481 @@
+{
+  "parse": [
+    {
+      "V41048": {
+        "id": "V41048",
+        "indicator": "SPEECHACT",
+        "type": "SA_REQUEST",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V40282"
+        },
+        "start": 0,
+        "end": 70
+      },
+      "V40282": {
+        "id": "V40282",
+        "indicator": "F",
+        "type": "LISTING",
+        "word": "LIST",
+        "roles": {
+          "AGENT": "#V41046",
+          "NEUTRAL": "#V40292",
+          "TENSE": "PRES",
+          "VFORM": "BASE"
+        },
+        "start": 0,
+        "end": 70
+      },
+      "V41046": {
+        "id": "V41046",
+        "indicator": "IMPRO",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "PROFORM": "*YOU*"
+        },
+        "start": 0,
+        "end": 70
+      },
+      "V40292": {
+        "id": "V40292",
+        "indicator": "INDEF-SET",
+        "type": "GENE",
+        "word": "GENE",
+        "roles": {
+          "MOD": "#V40319"
+        },
+        "start": 5,
+        "end": 70
+      },
+      "V40319": {
+        "id": "V40319",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V40292",
+          "FORMAL": "#V40354",
+          "TENSE": "PRES"
+        },
+        "start": 11,
+        "end": 49
+      },
+      "V40354": {
+        "id": "V40354",
+        "indicator": "F",
+        "type": "NOT-COMPATIBLE-VAL",
+        "word": "MUTUALLY-EXCLUSIVE",
+        "roles": {
+          "GROUND": "#V40379",
+          "FIGURE": "#V40292",
+          "SCALE": "COMPATIBILITY-SCALE",
+          "DRUM": "((:DRUM\n  (SPECIALIST :EUI E0614899 :CITATION-FORM \"mutually exclusive\" :MATCHES\n   ((MATCH :SCORE 1.0 :MATCHED \"mutually exclusive\" :EXACT 2)))))"
+        },
+        "start": 20,
+        "end": 49
+      },
+      "V40379": {
+        "id": "V40379",
+        "indicator": "THE",
+        "type": "GENE-PROTEIN",
+        "word": "PTEN",
+        "roles": {
+          "NAME-OF": "PTEN",
+          "DRUM": "((:DRUM\n  (TERM :ID |9588| :NAME \"phosphatase and tensin homolog\" :SCORE 0.85542\n   :MATCHES\n   ((MATCH :SCORE 0.85542 :MATCHED \"PTEN\" :STATUS \"Approved Symbol\" :EXACT 1))\n   :DBXREFS (P60484) :ONT-TYPES (GENE))\n  (TERM :ID C52906 :NAME \"PTEN\" :SCORE 0.85542 :MATCHES\n   ((MATCH :SCORE 0.85542 :MATCHED \"PTEN\" :STATUS \"name\" :EXACT 1)) :MAPPINGS\n   ((MAP :THROUGH\n         (CONCEPT C16612\n          (SENSE (MORPH (POS N) (WORD GENE))\n           (PROVENANCE (NAME NCIT)\n            (FILENAME\n             \"/Users/wbeaumont/bob/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp\"))))\n         :TO GENE))\n   :ONT-TYPES (GENE))\n  (TERM :ID C18181 :NAME\n   \"phosphatidylinositol 3,4,5-trisphosphate 3-phosphatase and dual-specificity protein phosphatase PTEN\"\n   :SCORE 0.71084 :MATCHES\n   ((MATCH :SCORE 0.71084 :MATCHED \"PTEN\" :STATUS \"synonym\" :EXACT 1))\n   :MAPPINGS\n   ((MAP :THROUGH\n         (CONCEPT C17021\n          (SENSE (MORPH (POS N) (WORD PROTEIN))\n           (PROVENANCE (NAME NCIT)\n            (FILENAME\n             \"/Users/wbeaumont/bob/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp\"))))\n         :TO PROTEIN))\n   :ONT-TYPES (PROTEIN))\n  (TERM :ID |0051800| :NAME\n   \"phosphatidylinositol-3,4-bisphosphate 3-phosphatase activity\" :SCORE\n   0.42169 :MATCHES\n   ((MATCH :SCORE 0.42169 :MATCHED \"PTEN\" :STATUS \"BROAD synonym\" :EXACT 1))\n   :ONT-TYPES (PROTEIN))))"
+        },
+        "start": 39,
+        "end": 49
+      },
+      "V40385": {
+        "id": "V40385",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V40437",
+          "FIGURE": "#V40292"
+        },
+        "start": 49,
+        "end": 70
+      },
+      "V40437": {
+        "id": "V40437",
+        "indicator": "BARE",
+        "type": "CANCER",
+        "word": "PANCREATIC-CANCER",
+        "roles": {
+          "DRUM": "((:DRUM\n  (SPECIALIST :EUI E0223598 :CITATION-FORM \"pancreatic cancer\" :MATCHES\n   ((MATCH :SCORE 1.0 :MATCHED \"pancreatic cancer\" :EXACT 2)))))"
+        },
+        "start": 53,
+        "end": 70
+      },
+      "root": "#V41048"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V41113": {
+          "id": "V41113",
+          "indicator": "SPEECHACT",
+          "type": "SA_REQUEST",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V40282"
+          },
+          "start": 0,
+          "end": 70
+        },
+        "V40282": {
+          "id": "V40282",
+          "indicator": "F",
+          "type": "LISTING",
+          "word": "LIST",
+          "roles": {
+            "AGENT": "#V41111",
+            "NEUTRAL": "#V40292",
+            "TENSE": "PRES",
+            "VFORM": "BASE"
+          },
+          "start": 0,
+          "end": 70
+        },
+        "V41111": {
+          "id": "V41111",
+          "indicator": "IMPRO",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "PROFORM": "*YOU*"
+          },
+          "start": 0,
+          "end": 70
+        },
+        "V40292": {
+          "id": "V40292",
+          "indicator": "INDEF-SET",
+          "type": "GENE",
+          "word": "GENE",
+          "roles": {
+            "MOD": "#V40319"
+          },
+          "start": 5,
+          "end": 70
+        },
+        "V40319": {
+          "id": "V40319",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V40292",
+            "FORMAL": "#V40354",
+            "TENSE": "PRES"
+          },
+          "start": 11,
+          "end": 70
+        },
+        "V40354": {
+          "id": "V40354",
+          "indicator": "F",
+          "type": "NOT-COMPATIBLE-VAL",
+          "word": "MUTUALLY-EXCLUSIVE",
+          "roles": {
+            "GROUND": "#V40379",
+            "FIGURE": "#V40292",
+            "SCALE": "COMPATIBILITY-SCALE",
+            "DRUM": "((:DRUM\n  (SPECIALIST :EUI E0614899 :CITATION-FORM \"mutually exclusive\" :MATCHES\n   ((MATCH :SCORE 1.0 :MATCHED \"mutually exclusive\" :EXACT 2)))))"
+          },
+          "start": 20,
+          "end": 70
+        },
+        "V40379": {
+          "id": "V40379",
+          "indicator": "BARE",
+          "type": "GENE-PROTEIN",
+          "word": "PTEN",
+          "roles": {
+            "NAME-OF": "PTEN",
+            "MOD": "#V40385",
+            "DRUM": "((:DRUM\n  (TERM :ID |9588| :NAME \"phosphatase and tensin homolog\" :SCORE 0.85542\n   :MATCHES\n   ((MATCH :SCORE 0.85542 :MATCHED \"PTEN\" :STATUS \"Approved Symbol\" :EXACT 1))\n   :DBXREFS (P60484) :ONT-TYPES (GENE))\n  (TERM :ID C52906 :NAME \"PTEN\" :SCORE 0.85542 :MATCHES\n   ((MATCH :SCORE 0.85542 :MATCHED \"PTEN\" :STATUS \"name\" :EXACT 1)) :MAPPINGS\n   ((MAP :THROUGH\n         (CONCEPT C16612\n          (SENSE (MORPH (POS N) (WORD GENE))\n           (PROVENANCE (NAME NCIT)\n            (FILENAME\n             \"/Users/wbeaumont/bob/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp\"))))\n         :TO GENE))\n   :ONT-TYPES (GENE))\n  (TERM :ID C18181 :NAME\n   \"phosphatidylinositol 3,4,5-trisphosphate 3-phosphatase and dual-specificity protein phosphatase PTEN\"\n   :SCORE 0.71084 :MATCHES\n   ((MATCH :SCORE 0.71084 :MATCHED \"PTEN\" :STATUS \"synonym\" :EXACT 1))\n   :MAPPINGS\n   ((MAP :THROUGH\n         (CONCEPT C17021\n          (SENSE (MORPH (POS N) (WORD PROTEIN))\n           (PROVENANCE (NAME NCIT)\n            (FILENAME\n             \"/Users/wbeaumont/bob/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp\"))))\n         :TO PROTEIN))\n   :ONT-TYPES (PROTEIN))\n  (TERM :ID |0051800| :NAME\n   \"phosphatidylinositol-3,4-bisphosphate 3-phosphatase activity\" :SCORE\n   0.42169 :MATCHES\n   ((MATCH :SCORE 0.42169 :MATCHED \"PTEN\" :STATUS \"BROAD synonym\" :EXACT 1))\n   :ONT-TYPES (PROTEIN))))"
+          },
+          "start": 39,
+          "end": 70
+        },
+        "V40385": {
+          "id": "V40385",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V40437",
+            "FIGURE": "#V40379"
+          },
+          "start": 49,
+          "end": 70
+        },
+        "V40437": {
+          "id": "V40437",
+          "indicator": "BARE",
+          "type": "CANCER",
+          "word": "PANCREATIC-CANCER",
+          "roles": {
+            "DRUM": "((:DRUM\n  (SPECIALIST :EUI E0223598 :CITATION-FORM \"pancreatic cancer\" :MATCHES\n   ((MATCH :SCORE 1.0 :MATCHED \"pancreatic cancer\" :EXACT 2)))))"
+          },
+          "start": 53,
+          "end": 70
+        },
+        "root": "#V41113"
+      }
+    ],
+    [
+      {
+        "V41125": {
+          "id": "V41125",
+          "indicator": "SPEECHACT",
+          "type": "SA_REQUEST",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V40282"
+          },
+          "start": 0,
+          "end": 70
+        },
+        "V40282": {
+          "id": "V40282",
+          "indicator": "F",
+          "type": "LISTING",
+          "word": "LIST",
+          "roles": {
+            "AGENT": "#V41123",
+            "NEUTRAL": "#V40292",
+            "REASON": "#V40385",
+            "TENSE": "PRES",
+            "VFORM": "BASE"
+          },
+          "start": 0,
+          "end": 70
+        },
+        "V41123": {
+          "id": "V41123",
+          "indicator": "IMPRO",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "PROFORM": "*YOU*"
+          },
+          "start": 0,
+          "end": 70
+        },
+        "V40292": {
+          "id": "V40292",
+          "indicator": "INDEF-SET",
+          "type": "GENE",
+          "word": "GENE",
+          "roles": {
+            "MOD": "#V40319"
+          },
+          "start": 5,
+          "end": 49
+        },
+        "V40319": {
+          "id": "V40319",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V40292",
+            "FORMAL": "#V40354",
+            "TENSE": "PRES"
+          },
+          "start": 11,
+          "end": 49
+        },
+        "V40354": {
+          "id": "V40354",
+          "indicator": "F",
+          "type": "NOT-COMPATIBLE-VAL",
+          "word": "MUTUALLY-EXCLUSIVE",
+          "roles": {
+            "GROUND": "#V40379",
+            "FIGURE": "#V40292",
+            "SCALE": "COMPATIBILITY-SCALE",
+            "DRUM": "((:DRUM\n  (SPECIALIST :EUI E0614899 :CITATION-FORM \"mutually exclusive\" :MATCHES\n   ((MATCH :SCORE 1.0 :MATCHED \"mutually exclusive\" :EXACT 2)))))"
+          },
+          "start": 20,
+          "end": 49
+        },
+        "V40379": {
+          "id": "V40379",
+          "indicator": "THE",
+          "type": "GENE-PROTEIN",
+          "word": "PTEN",
+          "roles": {
+            "NAME-OF": "PTEN",
+            "DRUM": "((:DRUM\n  (TERM :ID |9588| :NAME \"phosphatase and tensin homolog\" :SCORE 0.85542\n   :MATCHES\n   ((MATCH :SCORE 0.85542 :MATCHED \"PTEN\" :STATUS \"Approved Symbol\" :EXACT 1))\n   :DBXREFS (P60484) :ONT-TYPES (GENE))\n  (TERM :ID C52906 :NAME \"PTEN\" :SCORE 0.85542 :MATCHES\n   ((MATCH :SCORE 0.85542 :MATCHED \"PTEN\" :STATUS \"name\" :EXACT 1)) :MAPPINGS\n   ((MAP :THROUGH\n         (CONCEPT C16612\n          (SENSE (MORPH (POS N) (WORD GENE))\n           (PROVENANCE (NAME NCIT)\n            (FILENAME\n             \"/Users/wbeaumont/bob/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp\"))))\n         :TO GENE))\n   :ONT-TYPES (GENE))\n  (TERM :ID C18181 :NAME\n   \"phosphatidylinositol 3,4,5-trisphosphate 3-phosphatase and dual-specificity protein phosphatase PTEN\"\n   :SCORE 0.71084 :MATCHES\n   ((MATCH :SCORE 0.71084 :MATCHED \"PTEN\" :STATUS \"synonym\" :EXACT 1))\n   :MAPPINGS\n   ((MAP :THROUGH\n         (CONCEPT C17021\n          (SENSE (MORPH (POS N) (WORD PROTEIN))\n           (PROVENANCE (NAME NCIT)\n            (FILENAME\n             \"/Users/wbeaumont/bob/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp\"))))\n         :TO PROTEIN))\n   :ONT-TYPES (PROTEIN))\n  (TERM :ID |0051800| :NAME\n   \"phosphatidylinositol-3,4-bisphosphate 3-phosphatase activity\" :SCORE\n   0.42169 :MATCHES\n   ((MATCH :SCORE 0.42169 :MATCHED \"PTEN\" :STATUS \"BROAD synonym\" :EXACT 1))\n   :ONT-TYPES (PROTEIN))))"
+          },
+          "start": 39,
+          "end": 49
+        },
+        "V40385": {
+          "id": "V40385",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V40437",
+            "FIGURE": "#V40282"
+          },
+          "start": 49,
+          "end": 70
+        },
+        "V40437": {
+          "id": "V40437",
+          "indicator": "BARE",
+          "type": "CANCER",
+          "word": "PANCREATIC-CANCER",
+          "roles": {
+            "DRUM": "((:DRUM\n  (SPECIALIST :EUI E0223598 :CITATION-FORM \"pancreatic cancer\" :MATCHES\n   ((MATCH :SCORE 1.0 :MATCHED \"pancreatic cancer\" :EXACT 2)))))"
+          },
+          "start": 53,
+          "end": 70
+        },
+        "root": "#V41125"
+      }
+    ],
+    [
+      {
+        "V41184": {
+          "id": "V41184",
+          "indicator": "SPEECHACT",
+          "type": "SA_REQUEST",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V40282"
+          },
+          "start": 0,
+          "end": 70
+        },
+        "V40282": {
+          "id": "V40282",
+          "indicator": "F",
+          "type": "LISTING",
+          "word": "LIST",
+          "roles": {
+            "AGENT": "#V41182",
+            "NEUTRAL": "#V40292",
+            "TENSE": "PRES",
+            "VFORM": "BASE"
+          },
+          "start": 0,
+          "end": 70
+        },
+        "V41182": {
+          "id": "V41182",
+          "indicator": "IMPRO",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "PROFORM": "*YOU*"
+          },
+          "start": 0,
+          "end": 70
+        },
+        "V40292": {
+          "id": "V40292",
+          "indicator": "INDEF-SET",
+          "type": "GENE",
+          "word": "GENE",
+          "roles": {
+            "MOD": "#V40319"
+          },
+          "start": 5,
+          "end": 70
+        },
+        "V40319": {
+          "id": "V40319",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V40292",
+            "FORMAL": "#V40354",
+            "TENSE": "PRES"
+          },
+          "start": 11,
+          "end": 39
+        },
+        "V40354": {
+          "id": "V40354",
+          "indicator": "F",
+          "type": "NOT-COMPATIBLE-VAL",
+          "word": "MUTUALLY-EXCLUSIVE",
+          "roles": {
+            "FIGURE": "#V40292",
+            "SCALE": "COMPATIBILITY-SCALE",
+            "DRUM": "((:DRUM\n  (SPECIALIST :EUI E0614899 :CITATION-FORM \"mutually exclusive\" :MATCHES\n   ((MATCH :SCORE 1.0 :MATCHED \"mutually exclusive\" :EXACT 2)))))"
+          },
+          "start": 20,
+          "end": 39
+        },
+        "V40358": {
+          "id": "V40358",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V40379",
+            "FIGURE": "#V40292"
+          },
+          "start": 39,
+          "end": 49
+        },
+        "V40379": {
+          "id": "V40379",
+          "indicator": "THE",
+          "type": "GENE-PROTEIN",
+          "word": "PTEN",
+          "roles": {
+            "NAME-OF": "PTEN",
+            "DRUM": "((:DRUM\n  (TERM :ID |9588| :NAME \"phosphatase and tensin homolog\" :SCORE 0.85542\n   :MATCHES\n   ((MATCH :SCORE 0.85542 :MATCHED \"PTEN\" :STATUS \"Approved Symbol\" :EXACT 1))\n   :DBXREFS (P60484) :ONT-TYPES (GENE))\n  (TERM :ID C52906 :NAME \"PTEN\" :SCORE 0.85542 :MATCHES\n   ((MATCH :SCORE 0.85542 :MATCHED \"PTEN\" :STATUS \"name\" :EXACT 1)) :MAPPINGS\n   ((MAP :THROUGH\n         (CONCEPT C16612\n          (SENSE (MORPH (POS N) (WORD GENE))\n           (PROVENANCE (NAME NCIT)\n            (FILENAME\n             \"/Users/wbeaumont/bob/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp\"))))\n         :TO GENE))\n   :ONT-TYPES (GENE))\n  (TERM :ID C18181 :NAME\n   \"phosphatidylinositol 3,4,5-trisphosphate 3-phosphatase and dual-specificity protein phosphatase PTEN\"\n   :SCORE 0.71084 :MATCHES\n   ((MATCH :SCORE 0.71084 :MATCHED \"PTEN\" :STATUS \"synonym\" :EXACT 1))\n   :MAPPINGS\n   ((MAP :THROUGH\n         (CONCEPT C17021\n          (SENSE (MORPH (POS N) (WORD PROTEIN))\n           (PROVENANCE (NAME NCIT)\n            (FILENAME\n             \"/Users/wbeaumont/bob/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp\"))))\n         :TO PROTEIN))\n   :ONT-TYPES (PROTEIN))\n  (TERM :ID |0051800| :NAME\n   \"phosphatidylinositol-3,4-bisphosphate 3-phosphatase activity\" :SCORE\n   0.42169 :MATCHES\n   ((MATCH :SCORE 0.42169 :MATCHED \"PTEN\" :STATUS \"BROAD synonym\" :EXACT 1))\n   :ONT-TYPES (PROTEIN))))"
+          },
+          "start": 44,
+          "end": 49
+        },
+        "V40385": {
+          "id": "V40385",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V40437",
+            "FIGURE": "#V40292"
+          },
+          "start": 49,
+          "end": 70
+        },
+        "V40437": {
+          "id": "V40437",
+          "indicator": "BARE",
+          "type": "CANCER",
+          "word": "PANCREATIC-CANCER",
+          "roles": {
+            "DRUM": "((:DRUM\n  (SPECIALIST :EUI E0223598 :CITATION-FORM \"pancreatic cancer\" :MATCHES\n   ((MATCH :SCORE 1.0 :MATCHED \"pancreatic cancer\" :EXACT 2)))))"
+          },
+          "start": 53,
+          "end": 70
+        },
+        "root": "#V41184"
+      }
+    ]
+  ],
+  "sentence": "List genes that are mutually exclusive with PTEN for pancreatic cancer",
+  "annotation": {
+    "judge": "lgalescu",
+    "parser": "BOB",
+    "timestamp": "20190624T164334",
+    "link": "http://trips.ihmc.us/parser/saved/20190624T164334-BOB-lgalescu-2-List_genes_that_are_mutually_exclusive_w.xml",
+    "judgement": 2
+  }
+}

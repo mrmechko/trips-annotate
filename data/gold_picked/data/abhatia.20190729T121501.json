@@ -1,0 +1,638 @@
+{
+  "parse": [
+    {
+      "V100185": {
+        "id": "V100185",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V99698",
+          "LEX": "ARE"
+        },
+        "start": 0,
+        "end": 58
+      },
+      "V99698": {
+        "id": "V99698",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V99691",
+          "FORMAL": "#V99712",
+          "TIME": "#V99675",
+          "REASON": "#V99719",
+          "TENSE": "PRES",
+          "LEX": "ARE"
+        },
+        "start": 0,
+        "end": 58
+      },
+      "V99675": {
+        "id": "V99675",
+        "indicator": "F",
+        "type": "NOW",
+        "word": "NOW",
+        "roles": {
+          "FIGURE": "#V99698",
+          "LEX": "NOW",
+          "WNSENSE": "now%4:02:05::"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V99691": {
+        "id": "V99691",
+        "indicator": "THE-SET",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "SIZE": "BOTH",
+          "LEX": "MEN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 4,
+        "end": 13
+      },
+      "V99712": {
+        "id": "V99712",
+        "indicator": "F",
+        "type": "HAPPY-VAL",
+        "word": "HAPPY",
+        "roles": {
+          "ORIENTATION": "POS",
+          "NEUTRAL": "#V99691",
+          "SCALE": "HAPPINESS-SCALE",
+          "LEX": "HAPPY",
+          "WNSENSE": "happy%3:00:00::"
+        },
+        "start": 17,
+        "end": 23
+      },
+      "V99719": {
+        "id": "V99719",
+        "indicator": "F",
+        "type": "REASON",
+        "word": "BECAUSE",
+        "roles": {
+          "GROUND": "#V99739",
+          "FIGURE": "#V99698",
+          "LEX": "BECAUSE"
+        },
+        "start": 25,
+        "end": 58
+      },
+      "V99739": {
+        "id": "V99739",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V99729",
+          "NEUTRAL1": "#V99803",
+          "TENSE": "PRES",
+          "LEX": "IS",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 33,
+        "end": 58
+      },
+      "V99729": {
+        "id": "V99729",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "LANE",
+        "roles": {
+          "NAME-OF": "LANE",
+          "LEX": "LANE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 33,
+        "end": 38
+      },
+      "V99803": {
+        "id": "V99803",
+        "indicator": "A",
+        "type": "HEALTH-PROFESSIONAL",
+        "word": "DOCTOR",
+        "roles": {
+          "MOD": "#V99799",
+          "LEX": "DOCTOR",
+          "WNSENSE": "doctor%1:18:00::"
+        },
+        "start": 41,
+        "end": 58
+      },
+      "V99799": {
+        "id": "V99799",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": null,
+        "roles": {
+          "GROUND": "#V99861",
+          "FIGURE": "#V99803",
+          "LEX": "MILITARY"
+        },
+        "start": 43,
+        "end": 52
+      },
+      "V99861": {
+        "id": "V99861",
+        "indicator": "KIND",
+        "type": "REFERENTIAL-SEM",
+        "word": "MILITARY",
+        "roles": {},
+        "start": 43,
+        "end": 52
+      },
+      "root": "#V100185"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V100165": {
+          "id": "V100165",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V99698",
+            "LEX": "ARE"
+          },
+          "start": 0,
+          "end": 59
+        },
+        "V99698": {
+          "id": "V99698",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V99691",
+            "FORMAL": "#V99711",
+            "TIME": "#V99675",
+            "REASON": "#V99719",
+            "TENSE": "PRES",
+            "LEX": "ARE"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V99675": {
+          "id": "V99675",
+          "indicator": "F",
+          "type": "NOW",
+          "word": "NOW",
+          "roles": {
+            "FIGURE": "#V99698",
+            "LEX": "NOW",
+            "WNSENSE": "now%4:02:05::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V99691": {
+          "id": "V99691",
+          "indicator": "THE-SET",
+          "type": "MALE-PERSON",
+          "word": "MAN",
+          "roles": {
+            "SIZE": "BOTH",
+            "LEX": "MEN",
+            "WNSENSE": "man%1:18:00::"
+          },
+          "start": 4,
+          "end": 13
+        },
+        "V99711": {
+          "id": "V99711",
+          "indicator": "F",
+          "type": "HAPPY-VAL",
+          "word": "HAPPY",
+          "roles": {
+            "ORIENTATION": "POS",
+            "FIGURE": "#V99691",
+            "SCALE": "HAPPINESS-SCALE",
+            "LEX": "HAPPY",
+            "WNSENSE": "happy%3:00:00::"
+          },
+          "start": 17,
+          "end": 23
+        },
+        "V99719": {
+          "id": "V99719",
+          "indicator": "F",
+          "type": "REASON",
+          "word": "BECAUSE",
+          "roles": {
+            "GROUND": "#V99739",
+            "FIGURE": "#V99698",
+            "LEX": "BECAUSE"
+          },
+          "start": 25,
+          "end": 58
+        },
+        "V99739": {
+          "id": "V99739",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V99729",
+            "NEUTRAL1": "#V99803",
+            "TENSE": "PRES",
+            "LEX": "IS",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 33,
+          "end": 58
+        },
+        "V99729": {
+          "id": "V99729",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "LANE",
+          "roles": {
+            "NAME-OF": "LANE",
+            "LEX": "LANE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 33,
+          "end": 38
+        },
+        "V99803": {
+          "id": "V99803",
+          "indicator": "A",
+          "type": "HEALTH-PROFESSIONAL",
+          "word": "DOCTOR",
+          "roles": {
+            "MOD": "#V99799",
+            "LEX": "DOCTOR",
+            "WNSENSE": "doctor%1:18:00::"
+          },
+          "start": 41,
+          "end": 58
+        },
+        "V99799": {
+          "id": "V99799",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": null,
+          "roles": {
+            "GROUND": "#V99861",
+            "FIGURE": "#V99803",
+            "LEX": "MILITARY"
+          },
+          "start": 43,
+          "end": 52
+        },
+        "V99861": {
+          "id": "V99861",
+          "indicator": "KIND",
+          "type": "REFERENTIAL-SEM",
+          "word": "MILITARY",
+          "roles": {},
+          "start": 43,
+          "end": 52
+        },
+        "root": "#V100165"
+      }
+    ],
+    [
+      {
+        "V100227": {
+          "id": "V100227",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V99698",
+            "LEX": "ARE"
+          },
+          "start": 0,
+          "end": 59
+        },
+        "V99698": {
+          "id": "V99698",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V99691",
+            "FORMAL": "#V99712",
+            "TIME": "#V99675",
+            "REASON": "#V99719",
+            "TENSE": "PRES",
+            "LEX": "ARE"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V99675": {
+          "id": "V99675",
+          "indicator": "F",
+          "type": "NOW",
+          "word": "NOW",
+          "roles": {
+            "FIGURE": "#V99698",
+            "LEX": "NOW",
+            "WNSENSE": "now%4:02:05::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V99691": {
+          "id": "V99691",
+          "indicator": "INDEF-SET",
+          "type": "MALE-PERSON",
+          "word": "MAN",
+          "roles": {
+            "SIZE": "#V99684",
+            "LEX": "MEN",
+            "WNSENSE": "man%1:18:00::"
+          },
+          "start": 4,
+          "end": 13
+        },
+        "V99684": {
+          "id": "V99684",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "BOTH"
+          },
+          "start": 4,
+          "end": 9
+        },
+        "V99712": {
+          "id": "V99712",
+          "indicator": "F",
+          "type": "HAPPY-VAL",
+          "word": "HAPPY",
+          "roles": {
+            "ORIENTATION": "POS",
+            "NEUTRAL": "#V99691",
+            "SCALE": "HAPPINESS-SCALE",
+            "LEX": "HAPPY",
+            "WNSENSE": "happy%3:00:00::"
+          },
+          "start": 17,
+          "end": 23
+        },
+        "V99719": {
+          "id": "V99719",
+          "indicator": "F",
+          "type": "REASON",
+          "word": "BECAUSE",
+          "roles": {
+            "GROUND": "#V99739",
+            "FIGURE": "#V99698",
+            "LEX": "BECAUSE"
+          },
+          "start": 25,
+          "end": 58
+        },
+        "V99739": {
+          "id": "V99739",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V99729",
+            "NEUTRAL1": "#V99803",
+            "TENSE": "PRES",
+            "LEX": "IS",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 33,
+          "end": 58
+        },
+        "V99729": {
+          "id": "V99729",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "LANE",
+          "roles": {
+            "NAME-OF": "LANE",
+            "LEX": "LANE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 33,
+          "end": 38
+        },
+        "V99803": {
+          "id": "V99803",
+          "indicator": "A",
+          "type": "HEALTH-PROFESSIONAL",
+          "word": "DOCTOR",
+          "roles": {
+            "MOD": "#V99799",
+            "LEX": "DOCTOR",
+            "WNSENSE": "doctor%1:18:00::"
+          },
+          "start": 41,
+          "end": 58
+        },
+        "V99799": {
+          "id": "V99799",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": null,
+          "roles": {
+            "GROUND": "#V99861",
+            "FIGURE": "#V99803",
+            "LEX": "MILITARY"
+          },
+          "start": 43,
+          "end": 52
+        },
+        "V99861": {
+          "id": "V99861",
+          "indicator": "KIND",
+          "type": "REFERENTIAL-SEM",
+          "word": "MILITARY",
+          "roles": {},
+          "start": 43,
+          "end": 52
+        },
+        "root": "#V100227"
+      }
+    ],
+    [
+      {
+        "V100224": {
+          "id": "V100224",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V99698",
+            "LEX": "ARE"
+          },
+          "start": 0,
+          "end": 59
+        },
+        "V99698": {
+          "id": "V99698",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V99691",
+            "FORMAL": "#V99711",
+            "TIME": "#V99675",
+            "REASON": "#V99719",
+            "TENSE": "PRES",
+            "LEX": "ARE"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V99675": {
+          "id": "V99675",
+          "indicator": "F",
+          "type": "NOW",
+          "word": "NOW",
+          "roles": {
+            "FIGURE": "#V99698",
+            "LEX": "NOW",
+            "WNSENSE": "now%4:02:05::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V99691": {
+          "id": "V99691",
+          "indicator": "INDEF-SET",
+          "type": "MALE-PERSON",
+          "word": "MAN",
+          "roles": {
+            "SIZE": "#V99684",
+            "LEX": "MEN",
+            "WNSENSE": "man%1:18:00::"
+          },
+          "start": 4,
+          "end": 13
+        },
+        "V99684": {
+          "id": "V99684",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "BOTH"
+          },
+          "start": 4,
+          "end": 9
+        },
+        "V99711": {
+          "id": "V99711",
+          "indicator": "F",
+          "type": "HAPPY-VAL",
+          "word": "HAPPY",
+          "roles": {
+            "ORIENTATION": "POS",
+            "FIGURE": "#V99691",
+            "SCALE": "HAPPINESS-SCALE",
+            "LEX": "HAPPY",
+            "WNSENSE": "happy%3:00:00::"
+          },
+          "start": 17,
+          "end": 23
+        },
+        "V99719": {
+          "id": "V99719",
+          "indicator": "F",
+          "type": "REASON",
+          "word": "BECAUSE",
+          "roles": {
+            "GROUND": "#V99739",
+            "FIGURE": "#V99698",
+            "LEX": "BECAUSE"
+          },
+          "start": 25,
+          "end": 58
+        },
+        "V99739": {
+          "id": "V99739",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V99729",
+            "NEUTRAL1": "#V99803",
+            "TENSE": "PRES",
+            "LEX": "IS",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 33,
+          "end": 58
+        },
+        "V99729": {
+          "id": "V99729",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "LANE",
+          "roles": {
+            "NAME-OF": "LANE",
+            "LEX": "LANE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 33,
+          "end": 38
+        },
+        "V99803": {
+          "id": "V99803",
+          "indicator": "A",
+          "type": "HEALTH-PROFESSIONAL",
+          "word": "DOCTOR",
+          "roles": {
+            "MOD": "#V99799",
+            "LEX": "DOCTOR",
+            "WNSENSE": "doctor%1:18:00::"
+          },
+          "start": 41,
+          "end": 58
+        },
+        "V99799": {
+          "id": "V99799",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": null,
+          "roles": {
+            "GROUND": "#V99861",
+            "FIGURE": "#V99803",
+            "LEX": "MILITARY"
+          },
+          "start": 43,
+          "end": 52
+        },
+        "V99861": {
+          "id": "V99861",
+          "indicator": "KIND",
+          "type": "REFERENTIAL-SEM",
+          "word": "MILITARY",
+          "roles": {},
+          "start": 43,
+          "end": 52
+        },
+        "root": "#V100224"
+      }
+    ]
+  ],
+  "sentence": "Now both men are happy - because Lane is a military doctor.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190729T121501",
+    "link": "http://trips.ihmc.us/parser/saved/20190729T121501-STEP-abhatia-1-Now_both_men_are_happy_-_because_Lane_is.xml",
+    "judgement": 1
+  }
+}

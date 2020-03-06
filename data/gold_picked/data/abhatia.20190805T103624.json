@@ -1,0 +1,845 @@
+{
+  "parse": [
+    {
+      "V454370": {
+        "id": "V454370",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V451966",
+          "LEX": "HAS"
+        },
+        "start": 0,
+        "end": 69
+      },
+      "V451966": {
+        "id": "V451966",
+        "indicator": "F",
+        "type": "NECESSITY",
+        "word": "HAVE",
+        "roles": {
+          "NEUTRAL": "#V451962",
+          "FORMAL": "#V452016",
+          "MOD": "#V451903",
+          "TENSE": "PRES",
+          "LEX": "HAS",
+          "WNSENSE": "need%2:34:01"
+        },
+        "start": 0,
+        "end": 69
+      },
+      "V451903": {
+        "id": "V451903",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "NOW-THAT",
+        "roles": {
+          "GROUND": "#V451938",
+          "FIGURE": "#V451966",
+          "LEX": "NOW-THAT"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V451938": {
+        "id": "V451938",
+        "indicator": "F",
+        "type": "HAVE",
+        "word": "HAVE",
+        "roles": {
+          "NEUTRAL": "#V451931",
+          "NEUTRAL1": "#V451954",
+          "TENSE": "PRES",
+          "LEX": "HAS",
+          "WNSENSE": "have%2:40:00::"
+        },
+        "start": 9,
+        "end": 21
+      },
+      "V451931": {
+        "id": "V451931",
+        "indicator": "THE",
+        "type": "PERSON",
+        "word": "JOE",
+        "roles": {
+          "NAME-OF": "JOE",
+          "LEX": "JOE",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 9,
+        "end": 13
+      },
+      "V451954": {
+        "id": "V451954",
+        "indicator": "INDEF-SET",
+        "type": "CHILD",
+        "word": "KID",
+        "roles": {
+          "LEX": "KIDS",
+          "WNSENSE": "kid%1:18:00::"
+        },
+        "start": 17,
+        "end": 21
+      },
+      "V451962": {
+        "id": "V451962",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00",
+          "COREF": "#V451931"
+        },
+        "start": 23,
+        "end": 26
+      },
+      "V452016": {
+        "id": "V452016",
+        "indicator": "F",
+        "type": "DRIVE",
+        "word": "DRIVE",
+        "roles": {
+          "REASON": "#V452065",
+          "MOD": "#V452050",
+          "EXTENT": "#V452432",
+          "VFORM": "BASE",
+          "LEX": "DRIVE",
+          "WNSENSE": "drive%2:38:01::"
+        },
+        "start": 30,
+        "end": 69
+      },
+      "V452432": {
+        "id": "V452432",
+        "indicator": "F",
+        "type": "EXTENT-PREDICATE",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V452016",
+          "GROUND": "#V452041",
+          "LEX": "MILES",
+          "WNSENSE": "mile%1:23:01::"
+        },
+        "start": 39,
+        "end": 51
+      },
+      "V452041": {
+        "id": "V452041",
+        "indicator": "A",
+        "type": "QUANTITY",
+        "word": null,
+        "roles": {
+          "AMOUNT": "#V452039",
+          "UNIT": "(:* LENGTH-UNIT MILE)",
+          "SCALE": "LINEAR-EXTENT-SCALE",
+          "LEX": "MILES",
+          "WNSENSE": "mile%1:23:01::"
+        },
+        "start": 39,
+        "end": 51
+      },
+      "V452039": {
+        "id": "V452039",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "3"
+        },
+        "start": 39,
+        "end": 51
+      },
+      "V452050": {
+        "id": "V452050",
+        "indicator": "F",
+        "type": "EVAL-WRT-EXPECTATION",
+        "word": "JUST",
+        "roles": {
+          "FIGURE": "#V452016",
+          "LEX": "JUST",
+          "WNSENSE": "just%4:02:00::"
+        },
+        "start": 51,
+        "end": 56
+      },
+      "V452065": {
+        "id": "V452065",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V452235",
+          "FIGURE": "#V452016",
+          "LEX": "TO"
+        },
+        "start": 56,
+        "end": 69
+      },
+      "V452235": {
+        "id": "V452235",
+        "indicator": "F",
+        "type": "COMPLETE",
+        "word": "GET-TO",
+        "roles": {
+          "FORMAL": "#V452287",
+          "VFORM": "BASE",
+          "LEX": "GET-TO",
+          "WNSENSE": "get_to%2:38:02"
+        },
+        "start": 59,
+        "end": 69
+      },
+      "V452287": {
+        "id": "V452287",
+        "indicator": "THE",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "NUMBER": "1",
+          "LEX": "ONE"
+        },
+        "start": 66,
+        "end": 69
+      },
+      "root": "#V454370"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V454367": {
+          "id": "V454367",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V451966",
+            "LEX": "HAS"
+          },
+          "start": 0,
+          "end": 70
+        },
+        "V451966": {
+          "id": "V451966",
+          "indicator": "F",
+          "type": "NECESSITY",
+          "word": "HAVE",
+          "roles": {
+            "NEUTRAL": "#V451962",
+            "FORMAL": "#V452016",
+            "MOD": "#V451903",
+            "TENSE": "PRES",
+            "LEX": "HAS",
+            "WNSENSE": "need%2:34:01"
+          },
+          "start": 0,
+          "end": 69
+        },
+        "V451903": {
+          "id": "V451903",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "NOW-THAT",
+          "roles": {
+            "GROUND": "#V451938",
+            "FIGURE": "#V451966",
+            "LEX": "NOW-THAT"
+          },
+          "start": 0,
+          "end": 21
+        },
+        "V451938": {
+          "id": "V451938",
+          "indicator": "F",
+          "type": "HAVE",
+          "word": "HAVE",
+          "roles": {
+            "NEUTRAL": "#V451925",
+            "NEUTRAL1": "#V451954",
+            "TENSE": "PRES",
+            "LEX": "HAS",
+            "WNSENSE": "have%2:40:00::"
+          },
+          "start": 9,
+          "end": 21
+        },
+        "V451925": {
+          "id": "V451925",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "JOE",
+          "roles": {
+            "NAME-OF": "JOE",
+            "LEX": "JOE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 9,
+          "end": 13
+        },
+        "V451954": {
+          "id": "V451954",
+          "indicator": "INDEF-SET",
+          "type": "CHILD",
+          "word": "KID",
+          "roles": {
+            "LEX": "KIDS",
+            "WNSENSE": "kid%1:18:00::"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V451962": {
+          "id": "V451962",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 23,
+          "end": 26
+        },
+        "V452016": {
+          "id": "V452016",
+          "indicator": "F",
+          "type": "DRIVE",
+          "word": "DRIVE",
+          "roles": {
+            "REASON": "#V452065",
+            "MOD": "#V452050",
+            "EXTENT": "#V452432",
+            "VFORM": "BASE",
+            "LEX": "DRIVE",
+            "WNSENSE": "drive%2:38:01::"
+          },
+          "start": 30,
+          "end": 69
+        },
+        "V452432": {
+          "id": "V452432",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V452016",
+            "GROUND": "#V452041",
+            "LEX": "MILES",
+            "WNSENSE": "mile%1:23:01::"
+          },
+          "start": 39,
+          "end": 51
+        },
+        "V452041": {
+          "id": "V452041",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "#V452039",
+            "UNIT": "(:* LENGTH-UNIT MILE)",
+            "SCALE": "LINEAR-EXTENT-SCALE",
+            "LEX": "MILES",
+            "WNSENSE": "mile%1:23:01::"
+          },
+          "start": 39,
+          "end": 51
+        },
+        "V452039": {
+          "id": "V452039",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "3"
+          },
+          "start": 39,
+          "end": 51
+        },
+        "V452050": {
+          "id": "V452050",
+          "indicator": "F",
+          "type": "EVAL-WRT-EXPECTATION",
+          "word": "JUST",
+          "roles": {
+            "FIGURE": "#V452016",
+            "LEX": "JUST",
+            "WNSENSE": "just%4:02:00::"
+          },
+          "start": 51,
+          "end": 56
+        },
+        "V452065": {
+          "id": "V452065",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V452235",
+            "FIGURE": "#V452016",
+            "LEX": "TO"
+          },
+          "start": 56,
+          "end": 69
+        },
+        "V452235": {
+          "id": "V452235",
+          "indicator": "F",
+          "type": "COMPLETE",
+          "word": "GET-TO",
+          "roles": {
+            "FORMAL": "#V452287",
+            "VFORM": "BASE",
+            "LEX": "GET-TO",
+            "WNSENSE": "get_to%2:38:02"
+          },
+          "start": 59,
+          "end": 69
+        },
+        "V452287": {
+          "id": "V452287",
+          "indicator": "THE",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "NUMBER": "1",
+            "LEX": "ONE"
+          },
+          "start": 66,
+          "end": 69
+        },
+        "root": "#V454367"
+      }
+    ],
+    [
+      {
+        "V454364": {
+          "id": "V454364",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V451966",
+            "LEX": "HAS"
+          },
+          "start": 0,
+          "end": 70
+        },
+        "V451966": {
+          "id": "V451966",
+          "indicator": "F",
+          "type": "NECESSITY",
+          "word": "HAVE",
+          "roles": {
+            "NEUTRAL": "#V451962",
+            "FORMAL": "#V452016",
+            "MOD": "#V451903",
+            "TENSE": "PRES",
+            "LEX": "HAS",
+            "WNSENSE": "need%2:34:01"
+          },
+          "start": 0,
+          "end": 69
+        },
+        "V451903": {
+          "id": "V451903",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "NOW-THAT",
+          "roles": {
+            "GROUND": "#V451938",
+            "FIGURE": "#V451966",
+            "LEX": "NOW-THAT"
+          },
+          "start": 0,
+          "end": 21
+        },
+        "V451938": {
+          "id": "V451938",
+          "indicator": "F",
+          "type": "HAVE",
+          "word": "HAVE",
+          "roles": {
+            "NEUTRAL": "#V451928",
+            "NEUTRAL1": "#V451954",
+            "TENSE": "PRES",
+            "LEX": "HAS",
+            "WNSENSE": "have%2:40:00::"
+          },
+          "start": 9,
+          "end": 21
+        },
+        "V451928": {
+          "id": "V451928",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "JOE",
+          "roles": {
+            "NAME-OF": "JOE",
+            "LEX": "JOE",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 9,
+          "end": 13
+        },
+        "V451954": {
+          "id": "V451954",
+          "indicator": "INDEF-SET",
+          "type": "CHILD",
+          "word": "KID",
+          "roles": {
+            "LEX": "KIDS",
+            "WNSENSE": "kid%1:18:00::"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V451962": {
+          "id": "V451962",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 23,
+          "end": 26
+        },
+        "V452016": {
+          "id": "V452016",
+          "indicator": "F",
+          "type": "DRIVE",
+          "word": "DRIVE",
+          "roles": {
+            "REASON": "#V452065",
+            "MOD": "#V452050",
+            "EXTENT": "#V452432",
+            "VFORM": "BASE",
+            "LEX": "DRIVE",
+            "WNSENSE": "drive%2:38:01::"
+          },
+          "start": 30,
+          "end": 69
+        },
+        "V452432": {
+          "id": "V452432",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V452016",
+            "GROUND": "#V452041",
+            "LEX": "MILES",
+            "WNSENSE": "mile%1:23:01::"
+          },
+          "start": 39,
+          "end": 51
+        },
+        "V452041": {
+          "id": "V452041",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "#V452039",
+            "UNIT": "(:* LENGTH-UNIT MILE)",
+            "SCALE": "LINEAR-EXTENT-SCALE",
+            "LEX": "MILES",
+            "WNSENSE": "mile%1:23:01::"
+          },
+          "start": 39,
+          "end": 51
+        },
+        "V452039": {
+          "id": "V452039",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "3"
+          },
+          "start": 39,
+          "end": 51
+        },
+        "V452050": {
+          "id": "V452050",
+          "indicator": "F",
+          "type": "EVAL-WRT-EXPECTATION",
+          "word": "JUST",
+          "roles": {
+            "FIGURE": "#V452016",
+            "LEX": "JUST",
+            "WNSENSE": "just%4:02:00::"
+          },
+          "start": 51,
+          "end": 56
+        },
+        "V452065": {
+          "id": "V452065",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V452235",
+            "FIGURE": "#V452016",
+            "LEX": "TO"
+          },
+          "start": 56,
+          "end": 69
+        },
+        "V452235": {
+          "id": "V452235",
+          "indicator": "F",
+          "type": "COMPLETE",
+          "word": "GET-TO",
+          "roles": {
+            "FORMAL": "#V452287",
+            "VFORM": "BASE",
+            "LEX": "GET-TO",
+            "WNSENSE": "get_to%2:38:02"
+          },
+          "start": 59,
+          "end": 69
+        },
+        "V452287": {
+          "id": "V452287",
+          "indicator": "THE",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "NUMBER": "1",
+            "LEX": "ONE"
+          },
+          "start": 66,
+          "end": 69
+        },
+        "root": "#V454364"
+      }
+    ],
+    [
+      {
+        "V454361": {
+          "id": "V454361",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V451966",
+            "LEX": "HAS"
+          },
+          "start": 0,
+          "end": 70
+        },
+        "V451966": {
+          "id": "V451966",
+          "indicator": "F",
+          "type": "NECESSITY",
+          "word": "HAVE",
+          "roles": {
+            "NEUTRAL": "#V451962",
+            "FORMAL": "#V452016",
+            "MOD": "#V451903",
+            "TENSE": "PRES",
+            "LEX": "HAS",
+            "WNSENSE": "need%2:34:01"
+          },
+          "start": 0,
+          "end": 69
+        },
+        "V451903": {
+          "id": "V451903",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "NOW-THAT",
+          "roles": {
+            "GROUND": "#V451938",
+            "FIGURE": "#V451966",
+            "LEX": "NOW-THAT"
+          },
+          "start": 0,
+          "end": 21
+        },
+        "V451938": {
+          "id": "V451938",
+          "indicator": "F",
+          "type": "HAVE",
+          "word": "HAVE",
+          "roles": {
+            "NEUTRAL": "#V451931",
+            "NEUTRAL1": "#V451955",
+            "TENSE": "PRES",
+            "LEX": "HAS",
+            "WNSENSE": "have%2:40:00::"
+          },
+          "start": 9,
+          "end": 21
+        },
+        "V451931": {
+          "id": "V451931",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "JOE",
+          "roles": {
+            "NAME-OF": "JOE",
+            "LEX": "JOE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 9,
+          "end": 13
+        },
+        "V451955": {
+          "id": "V451955",
+          "indicator": "INDEF-SET",
+          "type": "CHILD",
+          "word": "KID",
+          "roles": {
+            "LEX": "KIDS",
+            "WNSENSE": "kid%1:18:00::"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V451962": {
+          "id": "V451962",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 23,
+          "end": 26
+        },
+        "V452016": {
+          "id": "V452016",
+          "indicator": "F",
+          "type": "DRIVE",
+          "word": "DRIVE",
+          "roles": {
+            "REASON": "#V452065",
+            "MOD": "#V452050",
+            "EXTENT": "#V452432",
+            "VFORM": "BASE",
+            "LEX": "DRIVE",
+            "WNSENSE": "drive%2:38:01::"
+          },
+          "start": 30,
+          "end": 69
+        },
+        "V452432": {
+          "id": "V452432",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V452016",
+            "GROUND": "#V452041",
+            "LEX": "MILES",
+            "WNSENSE": "mile%1:23:01::"
+          },
+          "start": 39,
+          "end": 51
+        },
+        "V452041": {
+          "id": "V452041",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "#V452039",
+            "UNIT": "(:* LENGTH-UNIT MILE)",
+            "SCALE": "LINEAR-EXTENT-SCALE",
+            "LEX": "MILES",
+            "WNSENSE": "mile%1:23:01::"
+          },
+          "start": 39,
+          "end": 51
+        },
+        "V452039": {
+          "id": "V452039",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "3"
+          },
+          "start": 39,
+          "end": 51
+        },
+        "V452050": {
+          "id": "V452050",
+          "indicator": "F",
+          "type": "EVAL-WRT-EXPECTATION",
+          "word": "JUST",
+          "roles": {
+            "FIGURE": "#V452016",
+            "LEX": "JUST",
+            "WNSENSE": "just%4:02:00::"
+          },
+          "start": 51,
+          "end": 56
+        },
+        "V452065": {
+          "id": "V452065",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V452235",
+            "FIGURE": "#V452016",
+            "LEX": "TO"
+          },
+          "start": 56,
+          "end": 69
+        },
+        "V452235": {
+          "id": "V452235",
+          "indicator": "F",
+          "type": "COMPLETE",
+          "word": "GET-TO",
+          "roles": {
+            "FORMAL": "#V452287",
+            "VFORM": "BASE",
+            "LEX": "GET-TO",
+            "WNSENSE": "get_to%2:38:02"
+          },
+          "start": 59,
+          "end": 69
+        },
+        "V452287": {
+          "id": "V452287",
+          "indicator": "THE",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "NUMBER": "1",
+            "LEX": "ONE"
+          },
+          "start": 66,
+          "end": 69
+        },
+        "root": "#V454361"
+      }
+    ]
+  ],
+  "sentence": "Now that Joe has kids, he has to drive three miles just to get to one.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190805T103624",
+    "link": "http://trips.ihmc.us/parser/saved/20190805T103624-STEP-abhatia-none-Now_that_Joe_has_kids_he_has_to_drive_th.xml",
+    "judgement": -1
+  }
+}

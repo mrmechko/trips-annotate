@@ -1,0 +1,13 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V304689 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V304313 [label=<<font color="green"><br /></font> <font color="black">ACQUIRE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">GET</font> <font color="green"><br /></font> <font color="green">get%2:40:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ACQUIRE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V304266 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">I</font> <font color="green"><br /></font> <font color="green">person%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V304375 [label=<<font color="green"><br /></font> <font color="black">SOCIAL-EVENT</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">DIVORCE</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SOCIAL-EVENT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V304313 -> V304266 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V304313 -> V304375 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V304689 -> V304313 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

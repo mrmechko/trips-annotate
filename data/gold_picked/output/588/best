@@ -1,0 +1,17 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V72750 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V71875 [label=<<font color="green"><br /></font> <font color="black">OFFER</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">OFFER</font> <font color="green"><br /></font> <font color="green">offer%2:41:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::OFFER.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V71869 [label=<<font color="green"><br /></font> <font color="black">FARM</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">FARM</font> <font color="green"><br /></font> <font color="green">farm%1:06:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FARM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V71886 [label=<<font color="green"><br /></font> <font color="black">KIND</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">TYPE</font> <font color="green"><br /></font> <font color="green">type%1:09:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::KIND.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V71882 [label=<<font color="green"><br /></font> <font color="black">NUMBER</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::NUMBER.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V71899 [label=<<font color="green"><br /></font> <font color="black">TREE</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">TREE</font> <font color="green"><br /></font> <font color="green">tree%1:20:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TREE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V71886 -> V71882 [label=" SIZE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V71875 -> V71869 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V72750 -> V71875 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V71875 -> V71886 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V71886 -> V71899 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

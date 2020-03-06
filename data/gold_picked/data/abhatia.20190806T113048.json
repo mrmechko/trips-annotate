@@ -1,0 +1,489 @@
+{
+  "parse": [
+    {
+      "V77771": {
+        "id": "V77771",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V77420",
+          "LEX": "WENT"
+        },
+        "start": 0,
+        "end": 44
+      },
+      "V77420": {
+        "id": "V77420",
+        "indicator": "F",
+        "type": "MOVE",
+        "word": "GO",
+        "roles": {
+          "RESULT": "#V77437",
+          "AGENT": "#V77400",
+          "MOD": "#V77479",
+          "TENSE": "PAST",
+          "LEX": "WENT",
+          "WNSENSE": "go%2:38:00::"
+        },
+        "start": 0,
+        "end": 44
+      },
+      "V77400": {
+        "id": "V77400",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V77437": {
+        "id": "V77437",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V77466",
+          "FIGURE": "#V77400",
+          "LEX": "TO"
+        },
+        "start": 8,
+        "end": 22
+      },
+      "V77466": {
+        "id": "V77466",
+        "indicator": "THE",
+        "type": "HEALTH-PROFESSIONAL",
+        "word": "DOCTOR",
+        "roles": {
+          "LEX": "DOCTOR",
+          "WNSENSE": "doctor%1:18:00::"
+        },
+        "start": 11,
+        "end": 22
+      },
+      "V77479": {
+        "id": "V77479",
+        "indicator": "F",
+        "type": "ASSOCIATED-INFORMATION",
+        "word": "ABOUT",
+        "roles": {
+          "GROUND": "#V77516",
+          "FIGURE": "#V77420",
+          "LEX": "ABOUT",
+          "WNSENSE": "about%4:02:00::"
+        },
+        "start": 22,
+        "end": 44
+      },
+      "V77516": {
+        "id": "V77516",
+        "indicator": "THE",
+        "type": "POWER",
+        "word": "ENERGY-LEVEL",
+        "roles": {
+          "ASSOC-POSS": "#V77490",
+          "LEX": "ENERGY-LEVEL",
+          "WNSENSE": "energy_level%1:19:00"
+        },
+        "start": 28,
+        "end": 44
+      },
+      "V77490": {
+        "id": "V77490",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00",
+          "COREF": "#V77466"
+        },
+        "start": 28,
+        "end": 44
+      },
+      "root": "#V77771"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V77796": {
+          "id": "V77796",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V77420",
+            "LEX": "WENT"
+          },
+          "start": 0,
+          "end": 45
+        },
+        "V77420": {
+          "id": "V77420",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V77437",
+            "AGENT": "#V77400",
+            "TENSE": "PAST",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 0,
+          "end": 44
+        },
+        "V77400": {
+          "id": "V77400",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V77437": {
+          "id": "V77437",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V77466",
+            "FIGURE": "#V77400",
+            "LEX": "TO"
+          },
+          "start": 8,
+          "end": 44
+        },
+        "V77466": {
+          "id": "V77466",
+          "indicator": "THE",
+          "type": "HEALTH-PROFESSIONAL",
+          "word": "DOCTOR",
+          "roles": {
+            "MOD": "#V77479",
+            "LEX": "DOCTOR",
+            "WNSENSE": "doctor%1:18:00::"
+          },
+          "start": 11,
+          "end": 44
+        },
+        "V77479": {
+          "id": "V77479",
+          "indicator": "F",
+          "type": "ASSOCIATED-INFORMATION",
+          "word": "ABOUT",
+          "roles": {
+            "GROUND": "#V77516",
+            "FIGURE": "#V77466",
+            "LEX": "ABOUT",
+            "WNSENSE": "about%4:02:00::"
+          },
+          "start": 22,
+          "end": 44
+        },
+        "V77516": {
+          "id": "V77516",
+          "indicator": "THE",
+          "type": "POWER",
+          "word": "ENERGY-LEVEL",
+          "roles": {
+            "ASSOC-POSS": "#V77490",
+            "LEX": "ENERGY-LEVEL",
+            "WNSENSE": "energy_level%1:19:00"
+          },
+          "start": 28,
+          "end": 44
+        },
+        "V77490": {
+          "id": "V77490",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 28,
+          "end": 44
+        },
+        "root": "#V77796"
+      }
+    ],
+    [
+      {
+        "V77810": {
+          "id": "V77810",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V77420",
+            "LEX": "WENT"
+          },
+          "start": 0,
+          "end": 45
+        },
+        "V77420": {
+          "id": "V77420",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V77437",
+            "AGENT": "#V77400",
+            "MOD": "#V77479",
+            "TENSE": "PAST",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 0,
+          "end": 44
+        },
+        "V77400": {
+          "id": "V77400",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V77437": {
+          "id": "V77437",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V77466",
+            "FIGURE": "#V77400",
+            "LEX": "TO"
+          },
+          "start": 8,
+          "end": 22
+        },
+        "V77466": {
+          "id": "V77466",
+          "indicator": "THE",
+          "type": "HEALTH-PROFESSIONAL",
+          "word": "DOCTOR",
+          "roles": {
+            "LEX": "DOCTOR",
+            "WNSENSE": "doctor%1:18:00::"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "V77479": {
+          "id": "V77479",
+          "indicator": "F",
+          "type": "ASSOCIATED-INFORMATION",
+          "word": "ABOUT",
+          "roles": {
+            "GROUND": "#V77500",
+            "FIGURE": "#V77420",
+            "LEX": "ABOUT",
+            "WNSENSE": "about%4:02:00::"
+          },
+          "start": 22,
+          "end": 44
+        },
+        "V77500": {
+          "id": "V77500",
+          "indicator": "THE",
+          "type": "LEVEL",
+          "word": "LEVEL",
+          "roles": {
+            "ASSOC-POSS": "#V77490",
+            "ASSOC-WITH": "#V77497",
+            "SCALE": "LINEAR-EXTENT-SCALE",
+            "LEX": "LEVEL",
+            "WNSENSE": "level%1:07:00::"
+          },
+          "start": 28,
+          "end": 44
+        },
+        "V77497": {
+          "id": "V77497",
+          "indicator": "KIND",
+          "type": "POWER",
+          "word": "ENERGY",
+          "roles": {
+            "LEX": "ENERGY",
+            "WNSENSE": "energy%1:19:00::"
+          },
+          "start": 28,
+          "end": 44
+        },
+        "V77490": {
+          "id": "V77490",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 28,
+          "end": 44
+        },
+        "root": "#V77810"
+      }
+    ],
+    [
+      {
+        "V77876": {
+          "id": "V77876",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V77420",
+            "LEX": "WENT"
+          },
+          "start": 0,
+          "end": 45
+        },
+        "V77420": {
+          "id": "V77420",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V77437",
+            "AGENT": "#V77400",
+            "TENSE": "PAST",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 0,
+          "end": 44
+        },
+        "V77400": {
+          "id": "V77400",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V77437": {
+          "id": "V77437",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V77466",
+            "FIGURE": "#V77400",
+            "LEX": "TO"
+          },
+          "start": 8,
+          "end": 44
+        },
+        "V77466": {
+          "id": "V77466",
+          "indicator": "THE",
+          "type": "HEALTH-PROFESSIONAL",
+          "word": "DOCTOR",
+          "roles": {
+            "MOD": "#V77479",
+            "LEX": "DOCTOR",
+            "WNSENSE": "doctor%1:18:00::"
+          },
+          "start": 11,
+          "end": 44
+        },
+        "V77479": {
+          "id": "V77479",
+          "indicator": "F",
+          "type": "ASSOCIATED-INFORMATION",
+          "word": "ABOUT",
+          "roles": {
+            "GROUND": "#V77500",
+            "FIGURE": "#V77466",
+            "LEX": "ABOUT",
+            "WNSENSE": "about%4:02:00::"
+          },
+          "start": 22,
+          "end": 44
+        },
+        "V77500": {
+          "id": "V77500",
+          "indicator": "THE",
+          "type": "LEVEL",
+          "word": "LEVEL",
+          "roles": {
+            "ASSOC-POSS": "#V77490",
+            "ASSOC-WITH": "#V77497",
+            "SCALE": "LINEAR-EXTENT-SCALE",
+            "LEX": "LEVEL",
+            "WNSENSE": "level%1:07:00::"
+          },
+          "start": 28,
+          "end": 44
+        },
+        "V77497": {
+          "id": "V77497",
+          "indicator": "KIND",
+          "type": "POWER",
+          "word": "ENERGY",
+          "roles": {
+            "LEX": "ENERGY",
+            "WNSENSE": "energy%1:19:00::"
+          },
+          "start": 28,
+          "end": 44
+        },
+        "V77490": {
+          "id": "V77490",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 28,
+          "end": 44
+        },
+        "root": "#V77876"
+      }
+    ]
+  ],
+  "sentence": "He went to the Doctor about his energy level.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190806T113048",
+    "link": "http://trips.ihmc.us/parser/saved/20190806T113048-STEP-abhatia-0-He_went_to_the_Doctor_about_his_energy_l.xml",
+    "judgement": 0
+  }
+}

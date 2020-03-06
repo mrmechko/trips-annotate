@@ -1,0 +1,525 @@
+{
+  "parse": [
+    {
+      "V380491": {
+        "id": "V380491",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V379400",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 63
+      },
+      "V379400": {
+        "id": "V379400",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V379047",
+          "SEQUENCE1": "#V379105",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 63
+      },
+      "V379105": {
+        "id": "V379105",
+        "indicator": "F",
+        "type": "SAY",
+        "word": "SAY",
+        "roles": {
+          "AGENT": "#V379037",
+          "FORMAL": "#V379140",
+          "LEX": "SAID",
+          "WNSENSE": "say%2:32:01::"
+        },
+        "start": 0,
+        "end": 63
+      },
+      "V379047": {
+        "id": "V379047",
+        "indicator": "F",
+        "type": "STOP",
+        "word": "STOP",
+        "roles": {
+          "AGENT": "#V379037",
+          "AFFECTED": "#V379060",
+          "LEX": "STOPPED",
+          "WNSENSE": "stop%2:38:00::"
+        },
+        "start": 0,
+        "end": 63
+      },
+      "V379037": {
+        "id": "V379037",
+        "indicator": "A",
+        "type": "ATHLETE",
+        "word": "GUARD",
+        "roles": {
+          "LEX": "GUARD",
+          "WNSENSE": "guard%1:18:01::"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V379060": {
+        "id": "V379060",
+        "indicator": "THE",
+        "type": "GEOGRAPHIC-REGION",
+        "word": "CHARLES",
+        "roles": {
+          "NAME-OF": "CHARLES",
+          "LEX": "CHARLES",
+          "WNSENSE": "north_america%1:14:00"
+        },
+        "start": 16,
+        "end": 24
+      },
+      "V379140": {
+        "id": "V379140",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V379126",
+          "NEUTRAL1": "#V379191",
+          "PROP": "+",
+          "TENSE": "PRES",
+          "MODALITY": "(:* MUST MUST)",
+          "LEX": "BE",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 38,
+        "end": 63
+      },
+      "V379126": {
+        "id": "V379126",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00",
+          "COREF": "#V379037"
+        },
+        "start": 38,
+        "end": 41
+      },
+      "V379191": {
+        "id": "V379191",
+        "indicator": "A",
+        "type": "PROFESSIONAL",
+        "word": "PROFESSIONAL",
+        "roles": {
+          "LEX": "PROFESSIONAL",
+          "WNSENSE": "professional%1:18:00::"
+        },
+        "start": 49,
+        "end": 63
+      },
+      "root": "#V380491"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V380488": {
+          "id": "V380488",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V379402",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 64
+        },
+        "V379402": {
+          "id": "V379402",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V379047",
+            "SEQUENCE1": "#V379105",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 63
+        },
+        "V379105": {
+          "id": "V379105",
+          "indicator": "F",
+          "type": "SAY",
+          "word": "SAY",
+          "roles": {
+            "AGENT": "#V379037",
+            "FORMAL": "#V379140",
+            "LEX": "SAID",
+            "WNSENSE": "say%2:32:01::"
+          },
+          "start": 0,
+          "end": 63
+        },
+        "V379047": {
+          "id": "V379047",
+          "indicator": "F",
+          "type": "STOP",
+          "word": "STOP",
+          "roles": {
+            "AGENT": "#V379037",
+            "AFFECTED": "#V379057",
+            "LEX": "STOPPED",
+            "WNSENSE": "stop%2:38:00::"
+          },
+          "start": 0,
+          "end": 63
+        },
+        "V379037": {
+          "id": "V379037",
+          "indicator": "A",
+          "type": "ATHLETE",
+          "word": "GUARD",
+          "roles": {
+            "LEX": "GUARD",
+            "WNSENSE": "guard%1:18:01::"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V379057": {
+          "id": "V379057",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "CHARLES",
+          "roles": {
+            "NAME-OF": "CHARLES",
+            "LEX": "CHARLES",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 16,
+          "end": 24
+        },
+        "V379140": {
+          "id": "V379140",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V379126",
+            "NEUTRAL1": "#V379191",
+            "PROP": "+",
+            "TENSE": "PRES",
+            "MODALITY": "(:* MUST MUST)",
+            "LEX": "BE",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 38,
+          "end": 63
+        },
+        "V379126": {
+          "id": "V379126",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 38,
+          "end": 41
+        },
+        "V379191": {
+          "id": "V379191",
+          "indicator": "A",
+          "type": "PROFESSIONAL",
+          "word": "PROFESSIONAL",
+          "roles": {
+            "LEX": "PROFESSIONAL",
+            "WNSENSE": "professional%1:18:00::"
+          },
+          "start": 49,
+          "end": 63
+        },
+        "root": "#V380488"
+      }
+    ],
+    [
+      {
+        "V380485": {
+          "id": "V380485",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V379404",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 64
+        },
+        "V379404": {
+          "id": "V379404",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V379047",
+            "SEQUENCE1": "#V379105",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 63
+        },
+        "V379105": {
+          "id": "V379105",
+          "indicator": "F",
+          "type": "SAY",
+          "word": "SAY",
+          "roles": {
+            "AGENT": "#V379037",
+            "FORMAL": "#V379140",
+            "LEX": "SAID",
+            "WNSENSE": "say%2:32:01::"
+          },
+          "start": 0,
+          "end": 63
+        },
+        "V379047": {
+          "id": "V379047",
+          "indicator": "F",
+          "type": "STOP",
+          "word": "STOP",
+          "roles": {
+            "AGENT": "#V379037",
+            "AFFECTED": "#V379063",
+            "LEX": "STOPPED",
+            "WNSENSE": "stop%2:38:00::"
+          },
+          "start": 0,
+          "end": 63
+        },
+        "V379037": {
+          "id": "V379037",
+          "indicator": "A",
+          "type": "ATHLETE",
+          "word": "GUARD",
+          "roles": {
+            "LEX": "GUARD",
+            "WNSENSE": "guard%1:18:01::"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V379063": {
+          "id": "V379063",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "CHARLES",
+          "roles": {
+            "NAME-OF": "CHARLES",
+            "LEX": "CHARLES",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 16,
+          "end": 24
+        },
+        "V379140": {
+          "id": "V379140",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V379126",
+            "NEUTRAL1": "#V379191",
+            "PROP": "+",
+            "TENSE": "PRES",
+            "MODALITY": "(:* MUST MUST)",
+            "LEX": "BE",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 38,
+          "end": 63
+        },
+        "V379126": {
+          "id": "V379126",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 38,
+          "end": 41
+        },
+        "V379191": {
+          "id": "V379191",
+          "indicator": "A",
+          "type": "PROFESSIONAL",
+          "word": "PROFESSIONAL",
+          "roles": {
+            "LEX": "PROFESSIONAL",
+            "WNSENSE": "professional%1:18:00::"
+          },
+          "start": 49,
+          "end": 63
+        },
+        "root": "#V380485"
+      }
+    ],
+    [
+      {
+        "V380482": {
+          "id": "V380482",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V379400",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 64
+        },
+        "V379400": {
+          "id": "V379400",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V379047",
+            "SEQUENCE1": "#V379105",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 63
+        },
+        "V379105": {
+          "id": "V379105",
+          "indicator": "F",
+          "type": "SAY",
+          "word": "SAY",
+          "roles": {
+            "AGENT": "#V379037",
+            "FORMAL": "#V379140",
+            "LEX": "SAID",
+            "WNSENSE": "say%2:32:01::"
+          },
+          "start": 0,
+          "end": 63
+        },
+        "V379047": {
+          "id": "V379047",
+          "indicator": "F",
+          "type": "STOP",
+          "word": "STOP",
+          "roles": {
+            "AGENT": "#V379037",
+            "AFFECTED": "#V379060",
+            "LEX": "STOPPED",
+            "WNSENSE": "stop%2:38:00::"
+          },
+          "start": 0,
+          "end": 63
+        },
+        "V379037": {
+          "id": "V379037",
+          "indicator": "A",
+          "type": "ATHLETE",
+          "word": "GUARD",
+          "roles": {
+            "LEX": "GUARD",
+            "WNSENSE": "guard%1:18:01::"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V379060": {
+          "id": "V379060",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "CHARLES",
+          "roles": {
+            "NAME-OF": "CHARLES",
+            "LEX": "CHARLES",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 16,
+          "end": 24
+        },
+        "V379140": {
+          "id": "V379140",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V379126",
+            "NEUTRAL1": "#V379191",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "MODALITY": "(:* MUST MUST)",
+            "LEX": "BE",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 38,
+          "end": 63
+        },
+        "V379126": {
+          "id": "V379126",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 38,
+          "end": 41
+        },
+        "V379191": {
+          "id": "V379191",
+          "indicator": "A",
+          "type": "PROFESSIONAL",
+          "word": "PROFESSIONAL",
+          "roles": {
+            "LEX": "PROFESSIONAL",
+            "WNSENSE": "professional%1:18:00::"
+          },
+          "start": 49,
+          "end": 63
+        },
+        "root": "#V380482"
+      }
+    ]
+  ],
+  "sentence": "A guard stopped Charles and then said he must be a professional.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190802T110132",
+    "link": "http://trips.ihmc.us/parser/saved/20190802T110132-STEP-abhatia-none-A_guard_stopped_Charles_and_then_said_he.xml",
+    "judgement": -1
+  }
+}

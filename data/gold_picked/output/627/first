@@ -1,0 +1,19 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V109585 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V107961 [label=<<font color="green"><br /></font> <font color="black">WANT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">WANT</font> <font color="green"><br /></font> <font color="green">want%2:37:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::WANT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V107955 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">PRO-SET</font> <font color="blue">THEY</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V107993 [label=<<font color="green"><br /></font> <font color="black">TELL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">ANNOUNCE</font> <font color="green"><br /></font> <font color="green">announce%2:32:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V108000 [label=<<font color="green"><br /></font> <font color="black">EXPLETIVE</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EXPLETIVE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V108006 [label=<<font color="green"><br /></font> <font color="black">GOOD</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">NICELY</font> <font color="green"><br /></font> <font color="green">advantageous%3:00:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GOOD.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V107961 -> V107955 [label=" EXPERIENCER   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V107961 -> V108006 [label=" EVALUATION   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V108006 -> V107961 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V109585 -> V107961 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V107993 -> V108000 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V107961 -> V107993 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V107993 -> V107955 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

@@ -1,0 +1,150 @@
+{
+  "parse": [
+    {
+      "V36425": {
+        "id": "V36425",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V34878"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V34878": {
+        "id": "V34878",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V34862",
+          "NEUTRAL1": "#V34977",
+          "TENSE": "PRES"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V34862": {
+        "id": "V34862",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "THIS",
+        "roles": {
+          "PROFORM": "THIS"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V34977": {
+        "id": "V34977",
+        "indicator": "A",
+        "type": "SCRUTINY",
+        "word": "TEST",
+        "roles": {
+          "NEUTRAL": "#V35013"
+        },
+        "start": 8,
+        "end": 21
+      },
+      "V35013": {
+        "id": "V35013",
+        "indicator": "THE",
+        "type": "CELL-LINE",
+        "word": "BOB",
+        "roles": {
+          "NAME-OF": "BOB",
+          "DRUM": "((:DRUM\n  (TERM :ID |2317| :NAME \"Bob\" :SCORE 0.85542 :MATCHES\n   ((MATCH :SCORE 0.85542 :MATCHED \"Bob\" :STATUS \"name\" :EXACT 1)) :ONT-TYPES\n   (CELL-LINE))\n  (TERM :ID E491 :NAME \"BOB\" :SCORE 0.85368 :MATCHES\n   ((MATCH :SCORE 0.85368 :MATCHED \"BOB\" :STATUS \"name\" :INITIAL-CAP-ALL-CAPS\n     1))\n   :ONT-TYPES (CELL-LINE))\n  (TERM :ID D945 :NAME \"MRC-iPS-32\" :SCORE 0.71084 :MATCHES\n   ((MATCH :SCORE 0.71084 :MATCHED \"Bob\" :STATUS \"RELATED synonym\" :EXACT 1))\n   :ONT-TYPES (CELL-LINE))))"
+        },
+        "start": 15,
+        "end": 21
+      },
+      "root": "#V36425"
+    },
+    {
+      "V35027": {
+        "id": "V35027",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL1": "#V35105",
+          "TENSE": "PRES"
+        },
+        "start": 21,
+        "end": 40
+      },
+      "V35105": {
+        "id": "V35105",
+        "indicator": "BARE",
+        "type": "ABLE-SCALE",
+        "word": "ABILITY",
+        "roles": {
+          "FIGURE": "#V35152"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V35152": {
+        "id": "V35152",
+        "indicator": "F",
+        "type": "RETAIN",
+        "word": "SAVE",
+        "roles": {
+          "VFORM": "BASE"
+        },
+        "start": 32,
+        "end": 40
+      },
+      "root": "#V35027"
+    },
+    {
+      "V35344": {
+        "id": "V35344",
+        "indicator": "SPEECHACT",
+        "type": "SA_REQUEST",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V35172"
+        },
+        "start": 40,
+        "end": 47
+      },
+      "V35172": {
+        "id": "V35172",
+        "indicator": "F",
+        "type": "SCRUTINY",
+        "word": "PARSES",
+        "roles": {
+          "AGENT": "#V35320",
+          "TENSE": "PRES",
+          "VFORM": "BASE"
+        },
+        "start": 40,
+        "end": 46
+      },
+      "V35320": {
+        "id": "V35320",
+        "indicator": "IMPRO",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "PROFORM": "*YOU*"
+        },
+        "start": 40,
+        "end": 46
+      },
+      "root": "#V35344"
+    }
+  ],
+  "alternatives": [],
+  "sentence": "This is a test of Bob's ability to save parses.",
+  "annotation": {
+    "judge": "wbeaumont",
+    "parser": "BOB",
+    "timestamp": "20190501T151719",
+    "link": "http://trips.ihmc.us/parser/saved/20190501T151719-BOB-wbeaumont-none-This_is_a_test_of_Bob_s_ability_to_save_.xml",
+    "judgement": -1
+  }
+}

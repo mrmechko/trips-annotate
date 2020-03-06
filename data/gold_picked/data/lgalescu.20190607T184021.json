@@ -1,0 +1,330 @@
+{
+  "parse": [
+    {
+      "V92316": {
+        "id": "V92316",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V91634"
+        },
+        "start": 0,
+        "end": 56
+      },
+      "V91634": {
+        "id": "V91634",
+        "indicator": "F",
+        "type": "BECOME",
+        "word": "COME",
+        "roles": {
+          "AFFECTED": "#V91621",
+          "FORMAL": "#V91701",
+          "RESULT": "#V91654",
+          "TIME": "#V91888",
+          "TENSE": "PAST"
+        },
+        "start": 0,
+        "end": 55
+      },
+      "V91621": {
+        "id": "V91621",
+        "indicator": "INDEF-SET",
+        "type": "TRAVELLER",
+        "word": "REFUGEES",
+        "roles": {
+          "SIZE": "#V91618"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V91618": {
+        "id": "V91618",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "23"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V91654": {
+        "id": "V91654",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V91693",
+          "FIGURE": "#V91701"
+        },
+        "start": 17,
+        "end": 29
+      },
+      "V91693": {
+        "id": "V91693",
+        "indicator": "THE",
+        "type": "COUNTRY",
+        "word": "ETHIOPIA",
+        "roles": {
+          "NAME-OF": "ETHIOPIA"
+        },
+        "start": 20,
+        "end": 29
+      },
+      "V91701": {
+        "id": "V91701",
+        "indicator": "F",
+        "type": "SCALE-RELATION",
+        "word": "BETWEEN",
+        "roles": {
+          "GROUND": "#V91908",
+          "FIGURE": "#V91621"
+        },
+        "start": 29,
+        "end": 37
+      },
+      "V91908": {
+        "id": "V91908",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 29,
+        "end": 37
+      },
+      "V91888": {
+        "id": "V91888",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V91713",
+          "SEQUENCE1": "#V91739",
+          "OPERATOR": "AND"
+        },
+        "start": 37,
+        "end": 55
+      },
+      "V91713": {
+        "id": "V91713",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V91634",
+          "GROUND": "#V91845"
+        },
+        "start": 37,
+        "end": 44
+      },
+      "V91845": {
+        "id": "V91845",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY": "1",
+          "MONTH": "(:* MONTH-NAME JUNE)"
+        },
+        "start": 37,
+        "end": 44
+      },
+      "V91739": {
+        "id": "V91739",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V91634",
+          "GROUND": "#V91849"
+        },
+        "start": 48,
+        "end": 55
+      },
+      "V91849": {
+        "id": "V91849",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY": "15",
+          "MONTH": "(:* MONTH-NAME JUNE)"
+        },
+        "start": 48,
+        "end": 55
+      },
+      "root": "#V92316"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V92422": {
+          "id": "V92422",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V91634"
+          },
+          "start": 0,
+          "end": 56
+        },
+        "V91634": {
+          "id": "V91634",
+          "indicator": "F",
+          "type": "BECOME",
+          "word": "COME",
+          "roles": {
+            "AFFECTED": "#V91621",
+            "FORMAL": "#V91701",
+            "RESULT": "#V91654",
+            "TIME": "#V91888",
+            "TENSE": "PAST"
+          },
+          "start": 0,
+          "end": 55
+        },
+        "V91621": {
+          "id": "V91621",
+          "indicator": "INDEF-SET",
+          "type": "TRAVELLER",
+          "word": "REFUGEES",
+          "roles": {
+            "SIZE": "#V91618"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V91618": {
+          "id": "V91618",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "23"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V91654": {
+          "id": "V91654",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V91690",
+            "FIGURE": "#V91701"
+          },
+          "start": 17,
+          "end": 29
+        },
+        "V91690": {
+          "id": "V91690",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "ETHIOPIA",
+          "roles": {
+            "NAME-OF": "ETHIOPIA"
+          },
+          "start": 20,
+          "end": 29
+        },
+        "V91701": {
+          "id": "V91701",
+          "indicator": "F",
+          "type": "SCALE-RELATION",
+          "word": "BETWEEN",
+          "roles": {
+            "GROUND": "#V91908",
+            "FIGURE": "#V91621"
+          },
+          "start": 29,
+          "end": 37
+        },
+        "V91908": {
+          "id": "V91908",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 29,
+          "end": 37
+        },
+        "V91888": {
+          "id": "V91888",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "SEQUENCE": "#V91713",
+            "SEQUENCE1": "#V91739",
+            "OPERATOR": "AND"
+          },
+          "start": 37,
+          "end": 55
+        },
+        "V91713": {
+          "id": "V91713",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V91634",
+            "GROUND": "#V91845"
+          },
+          "start": 37,
+          "end": 44
+        },
+        "V91845": {
+          "id": "V91845",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY": "1",
+            "MONTH": "(:* MONTH-NAME JUNE)"
+          },
+          "start": 37,
+          "end": 44
+        },
+        "V91739": {
+          "id": "V91739",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V91634",
+            "GROUND": "#V91849"
+          },
+          "start": 48,
+          "end": 55
+        },
+        "V91849": {
+          "id": "V91849",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY": "15",
+            "MONTH": "(:* MONTH-NAME JUNE)"
+          },
+          "start": 48,
+          "end": 55
+        },
+        "root": "#V92422"
+      }
+    ]
+  ],
+  "sentence": "23 refugees came to Ethiopia between June 1 and June 15.",
+  "annotation": {
+    "judge": "lgalescu",
+    "parser": "CWMS",
+    "timestamp": "20190607T184021",
+    "link": "http://trips.ihmc.us/parser/saved/20190607T184021-CWMS-lgalescu-none-23_refugees_came_to_Ethiopia_between_Jun.xml",
+    "judgement": -1
+  }
+}

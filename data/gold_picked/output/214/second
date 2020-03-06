@@ -1,0 +1,35 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V79347 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V77792 [label=<<font color="green"><br /></font> <font color="black">USE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">USE</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::USE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V77550 [label=<<font color="green"><br /></font> <font color="black">IMMEDIATE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">ONCE</font> <font color="green"><br /></font> <font color="green">once%4:02:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::IMMEDIATE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V77600 [label=<<font color="green"><br /></font> <font color="black">EVOKE-HURT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">CUT</font> <font color="green"><br /></font> <font color="green">hurt%2:29:01</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EVOKE-HURT.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V77559 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">IT</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V77655 [label=<<font color="green"><br /></font> <font color="black">DIRECTION-DOWN</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">DOWN</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DIRECTION-DOWN.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V77783 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">PRO-SET</font> <font color="blue">WE</font> <font color="green"><br /></font> <font color="green">person%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V77841 [label=<<font color="green"><br /></font> <font color="black">VEHICLE-CONTAINER</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">CART</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::VEHICLE-CONTAINER.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V77854 [label=<<font color="green"><br /></font> <font color="black">PURPOSE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">TO</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PURPOSE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V77883 [label=<<font color="green"><br /></font> <font color="black">TRANSPORT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BRING</font> <font color="green"><br /></font> <font color="green">bring%2:38:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TRANSPORT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V77898 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">IT</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V77907 [label=<<font color="green"><br /></font> <font color="black">TO-LOC</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">TO</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TO-LOC.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V77935 [label=<<font color="green"><br /></font> <font color="black">LAND-VEHICLE</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">CAR</font> <font color="green"><br /></font> <font color="green">car%1:06:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::LAND-VEHICLE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V77550 -> V77792 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V77792 -> V77550 [label=" TIME   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V77655 -> V77559 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V77854 -> V77883 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V77883 -> V77898 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V77907 -> V77898 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V77792 -> V77854 [label=" REASON   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V77550 -> V77600 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V77883 -> V77907 [label=" RESULT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V77600 -> V77655 [label=" RESULT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V77792 -> V77841 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V77854 -> V77792 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V77600 -> V77559 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V77907 -> V77935 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V79347 -> V77792 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V77792 -> V77783 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

@@ -1,0 +1,1646 @@
+{
+  "parse": [
+    {
+      "V63272": {
+        "id": "V63272",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V61484",
+          "LEX": "DROVE"
+        },
+        "start": 0,
+        "end": 64
+      },
+      "V61484": {
+        "id": "V61484",
+        "indicator": "F",
+        "type": "PROPEL",
+        "word": "DRIVE",
+        "roles": {
+          "AGENT": "#V61477",
+          "AFFECTED": "#V61495",
+          "MOD": "#V61464",
+          "TIME": "#V61513",
+          "RESULT": "#V61500",
+          "TENSE": "PAST",
+          "LEX": "DROVE"
+        },
+        "start": 0,
+        "end": 64
+      },
+      "V61464": {
+        "id": "V61464",
+        "indicator": "F",
+        "type": "CHOICE-OPTION",
+        "word": "INSTEAD-OF",
+        "roles": {
+          "GROUND": "#V61764",
+          "FIGURE": "#V61484",
+          "LEX": "INSTEAD"
+        },
+        "start": 0,
+        "end": 7
+      },
+      "V61764": {
+        "id": "V61764",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "COREF": "#V61477"
+        },
+        "start": 0,
+        "end": 7
+      },
+      "V61477": {
+        "id": "V61477",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "MOM",
+        "roles": {
+          "ASSOC-POSS": "#V61471",
+          "LEX": "MOM",
+          "WNSENSE": "mom%1:18:00::"
+        },
+        "start": 9,
+        "end": 17
+      },
+      "V61471": {
+        "id": "V61471",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "HER",
+        "roles": {
+          "LEX": "HER",
+          "PROFORM": "HER",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 9,
+        "end": 17
+      },
+      "V61495": {
+        "id": "V61495",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEM",
+        "roles": {
+          "PROFORM": "THEM",
+          "LEX": "THEM",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 23,
+        "end": 28
+      },
+      "V61500": {
+        "id": "V61500",
+        "indicator": "F",
+        "type": "AROUND",
+        "word": "AROUND",
+        "roles": {
+          "GROUND": "#V61509",
+          "FIGURE": "#V61484",
+          "LEX": "AROUND"
+        },
+        "start": 28,
+        "end": 40
+      },
+      "V61509": {
+        "id": "V61509",
+        "indicator": "BARE",
+        "type": "DISTRICT",
+        "word": "TOWN",
+        "roles": {
+          "LEX": "TOWN",
+          "WNSENSE": "town%1:15:01::"
+        },
+        "start": 35,
+        "end": 40
+      },
+      "V61513": {
+        "id": "V61513",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "UNTIL",
+        "roles": {
+          "GROUND": "#V61562",
+          "FIGURE": "#V61484",
+          "LEX": "UNTIL"
+        },
+        "start": 40,
+        "end": 64
+      },
+      "V61562": {
+        "id": "V61562",
+        "indicator": "F",
+        "type": "TIME-ELAPSE",
+        "word": "PASS",
+        "roles": {
+          "NEUTRAL": "#V61540",
+          "TENSE": "PAST",
+          "LEX": "PASSED",
+          "WNSENSE": "pass%2:38:00::"
+        },
+        "start": 46,
+        "end": 64
+      },
+      "V61540": {
+        "id": "V61540",
+        "indicator": "INDEF-SET",
+        "type": "TIME-OBJECT",
+        "word": "TIME",
+        "roles": {
+          "SIZE": "ENOUGH",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "TIME"
+        },
+        "start": 46,
+        "end": 58
+      },
+      "root": "#V63272"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V63212": {
+          "id": "V63212",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V61482",
+            "LEX": "DROVE"
+          },
+          "start": 0,
+          "end": 65
+        },
+        "V61482": {
+          "id": "V61482",
+          "indicator": "F",
+          "type": "DRIVE",
+          "word": "DRIVE",
+          "roles": {
+            "AGENT": "#V61477",
+            "AFFECTED": "#V61495",
+            "MOD": "#V61464",
+            "TIME": "#V61513",
+            "RESULT": "#V61500",
+            "TENSE": "PAST",
+            "LEX": "DROVE"
+          },
+          "start": 0,
+          "end": 64
+        },
+        "V61464": {
+          "id": "V61464",
+          "indicator": "F",
+          "type": "CHOICE-OPTION",
+          "word": "INSTEAD-OF",
+          "roles": {
+            "GROUND": "#V61764",
+            "FIGURE": "#V61482",
+            "LEX": "INSTEAD"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V61764": {
+          "id": "V61764",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 0,
+          "end": 7
+        },
+        "V61477": {
+          "id": "V61477",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "MOM",
+          "roles": {
+            "ASSOC-POSS": "#V61471",
+            "LEX": "MOM",
+            "WNSENSE": "mom%1:18:00::"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V61471": {
+          "id": "V61471",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V61495": {
+          "id": "V61495",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEM",
+          "roles": {
+            "PROFORM": "THEM",
+            "LEX": "THEM",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V61500": {
+          "id": "V61500",
+          "indicator": "F",
+          "type": "AROUND",
+          "word": "AROUND",
+          "roles": {
+            "GROUND": "#V61509",
+            "FIGURE": "#V61482",
+            "LEX": "AROUND"
+          },
+          "start": 28,
+          "end": 40
+        },
+        "V61509": {
+          "id": "V61509",
+          "indicator": "BARE",
+          "type": "DISTRICT",
+          "word": "TOWN",
+          "roles": {
+            "LEX": "TOWN",
+            "WNSENSE": "town%1:15:01::"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "V61513": {
+          "id": "V61513",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "UNTIL",
+          "roles": {
+            "GROUND": "#V61562",
+            "FIGURE": "#V61482",
+            "LEX": "UNTIL"
+          },
+          "start": 40,
+          "end": 64
+        },
+        "V61562": {
+          "id": "V61562",
+          "indicator": "F",
+          "type": "TIME-ELAPSE",
+          "word": "PASS",
+          "roles": {
+            "NEUTRAL": "#V61540",
+            "TENSE": "PAST",
+            "LEX": "PASSED",
+            "WNSENSE": "pass%2:38:00::"
+          },
+          "start": 46,
+          "end": 64
+        },
+        "V61540": {
+          "id": "V61540",
+          "indicator": "INDEF-SET",
+          "type": "TIME-OBJECT",
+          "word": "TIME",
+          "roles": {
+            "SIZE": "ENOUGH",
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "TIME"
+          },
+          "start": 46,
+          "end": 58
+        },
+        "root": "#V63212"
+      }
+    ],
+    [
+      {
+        "V63295": {
+          "id": "V63295",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V61484",
+            "LEX": "DROVE"
+          },
+          "start": 0,
+          "end": 65
+        },
+        "V61484": {
+          "id": "V61484",
+          "indicator": "F",
+          "type": "PROPEL",
+          "word": "DRIVE",
+          "roles": {
+            "AGENT": "#V61477",
+            "AFFECTED": "#V61495",
+            "MOD": "#V61464",
+            "TIME": "#V61513",
+            "RESULT": "#V61500",
+            "TENSE": "PAST",
+            "LEX": "DROVE"
+          },
+          "start": 0,
+          "end": 64
+        },
+        "V61464": {
+          "id": "V61464",
+          "indicator": "F",
+          "type": "CHOICE-OPTION",
+          "word": "INSTEAD-OF",
+          "roles": {
+            "GROUND": "#V61764",
+            "FIGURE": "#V61484",
+            "LEX": "INSTEAD"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V61764": {
+          "id": "V61764",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 0,
+          "end": 7
+        },
+        "V61477": {
+          "id": "V61477",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "MOM",
+          "roles": {
+            "ASSOC-POSS": "#V61471",
+            "LEX": "MOM",
+            "WNSENSE": "mom%1:18:00::"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V61471": {
+          "id": "V61471",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V61495": {
+          "id": "V61495",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEM",
+          "roles": {
+            "PROFORM": "THEM",
+            "LEX": "THEM",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V61500": {
+          "id": "V61500",
+          "indicator": "F",
+          "type": "AROUND",
+          "word": "AROUND",
+          "roles": {
+            "GROUND": "#V61509",
+            "FIGURE": "#V61484",
+            "LEX": "AROUND"
+          },
+          "start": 28,
+          "end": 40
+        },
+        "V61509": {
+          "id": "V61509",
+          "indicator": "BARE",
+          "type": "DISTRICT",
+          "word": "TOWN",
+          "roles": {
+            "LEX": "TOWN",
+            "WNSENSE": "town%1:15:01::"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "V61513": {
+          "id": "V61513",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "UNTIL",
+          "roles": {
+            "GROUND": "#V61562",
+            "FIGURE": "#V61484",
+            "LEX": "UNTIL"
+          },
+          "start": 40,
+          "end": 64
+        },
+        "V61562": {
+          "id": "V61562",
+          "indicator": "F",
+          "type": "TIME-ELAPSE",
+          "word": "PASS",
+          "roles": {
+            "NEUTRAL": "#V61543",
+            "TENSE": "PAST",
+            "LEX": "PASSED",
+            "WNSENSE": "pass%2:38:00::"
+          },
+          "start": 46,
+          "end": 64
+        },
+        "V61543": {
+          "id": "V61543",
+          "indicator": "A",
+          "type": "TIME-LOC",
+          "word": "TIME",
+          "roles": {
+            "QUAN": "ENOUGH",
+            "LEX": "TIME",
+            "WNSENSE": "date%1:28:03"
+          },
+          "start": 46,
+          "end": 58
+        },
+        "root": "#V63295"
+      }
+    ],
+    [
+      {
+        "V63235": {
+          "id": "V63235",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V61482",
+            "LEX": "DROVE"
+          },
+          "start": 0,
+          "end": 65
+        },
+        "V61482": {
+          "id": "V61482",
+          "indicator": "F",
+          "type": "DRIVE",
+          "word": "DRIVE",
+          "roles": {
+            "AGENT": "#V61477",
+            "AFFECTED": "#V61495",
+            "MOD": "#V61464",
+            "TIME": "#V61513",
+            "RESULT": "#V61500",
+            "TENSE": "PAST",
+            "LEX": "DROVE"
+          },
+          "start": 0,
+          "end": 64
+        },
+        "V61464": {
+          "id": "V61464",
+          "indicator": "F",
+          "type": "CHOICE-OPTION",
+          "word": "INSTEAD-OF",
+          "roles": {
+            "GROUND": "#V61764",
+            "FIGURE": "#V61482",
+            "LEX": "INSTEAD"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V61764": {
+          "id": "V61764",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 0,
+          "end": 7
+        },
+        "V61477": {
+          "id": "V61477",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "MOM",
+          "roles": {
+            "ASSOC-POSS": "#V61471",
+            "LEX": "MOM",
+            "WNSENSE": "mom%1:18:00::"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V61471": {
+          "id": "V61471",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V61495": {
+          "id": "V61495",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEM",
+          "roles": {
+            "PROFORM": "THEM",
+            "LEX": "THEM",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V61500": {
+          "id": "V61500",
+          "indicator": "F",
+          "type": "AROUND",
+          "word": "AROUND",
+          "roles": {
+            "GROUND": "#V61509",
+            "FIGURE": "#V61482",
+            "LEX": "AROUND"
+          },
+          "start": 28,
+          "end": 40
+        },
+        "V61509": {
+          "id": "V61509",
+          "indicator": "BARE",
+          "type": "DISTRICT",
+          "word": "TOWN",
+          "roles": {
+            "LEX": "TOWN",
+            "WNSENSE": "town%1:15:01::"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "V61513": {
+          "id": "V61513",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "UNTIL",
+          "roles": {
+            "GROUND": "#V61562",
+            "FIGURE": "#V61482",
+            "LEX": "UNTIL"
+          },
+          "start": 40,
+          "end": 64
+        },
+        "V61562": {
+          "id": "V61562",
+          "indicator": "F",
+          "type": "TIME-ELAPSE",
+          "word": "PASS",
+          "roles": {
+            "NEUTRAL": "#V61543",
+            "TENSE": "PAST",
+            "LEX": "PASSED",
+            "WNSENSE": "pass%2:38:00::"
+          },
+          "start": 46,
+          "end": 64
+        },
+        "V61543": {
+          "id": "V61543",
+          "indicator": "A",
+          "type": "TIME-LOC",
+          "word": "TIME",
+          "roles": {
+            "QUAN": "ENOUGH",
+            "LEX": "TIME",
+            "WNSENSE": "date%1:28:03"
+          },
+          "start": 46,
+          "end": 58
+        },
+        "root": "#V63235"
+      }
+    ],
+    [
+      {
+        "V63317": {
+          "id": "V63317",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V61484",
+            "LEX": "DROVE"
+          },
+          "start": 0,
+          "end": 65
+        },
+        "V61484": {
+          "id": "V61484",
+          "indicator": "F",
+          "type": "PROPEL",
+          "word": "DRIVE",
+          "roles": {
+            "AGENT": "#V61477",
+            "AFFECTED": "#V61495",
+            "MOD": "#V61464",
+            "TIME": "#V61513",
+            "RESULT": "#V61500",
+            "TENSE": "PAST",
+            "LEX": "DROVE"
+          },
+          "start": 0,
+          "end": 64
+        },
+        "V61464": {
+          "id": "V61464",
+          "indicator": "F",
+          "type": "CHOICE-OPTION",
+          "word": "INSTEAD-OF",
+          "roles": {
+            "GROUND": "#V61764",
+            "FIGURE": "#V61484",
+            "LEX": "INSTEAD"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V61764": {
+          "id": "V61764",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 0,
+          "end": 7
+        },
+        "V61477": {
+          "id": "V61477",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "MOM",
+          "roles": {
+            "ASSOC-POSS": "#V61471",
+            "LEX": "MOM",
+            "WNSENSE": "mom%1:18:00::"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V61471": {
+          "id": "V61471",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V61495": {
+          "id": "V61495",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEM",
+          "roles": {
+            "PROFORM": "THEM",
+            "LEX": "THEM",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V61500": {
+          "id": "V61500",
+          "indicator": "F",
+          "type": "AROUND",
+          "word": "AROUND",
+          "roles": {
+            "GROUND": "#V61509",
+            "FIGURE": "#V61484",
+            "LEX": "AROUND"
+          },
+          "start": 28,
+          "end": 40
+        },
+        "V61509": {
+          "id": "V61509",
+          "indicator": "BARE",
+          "type": "DISTRICT",
+          "word": "TOWN",
+          "roles": {
+            "LEX": "TOWN",
+            "WNSENSE": "town%1:15:01::"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "V61513": {
+          "id": "V61513",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "UNTIL",
+          "roles": {
+            "GROUND": "#V61561",
+            "FIGURE": "#V61484",
+            "LEX": "UNTIL"
+          },
+          "start": 40,
+          "end": 64
+        },
+        "V61561": {
+          "id": "V61561",
+          "indicator": "F",
+          "type": "PASS-BY",
+          "word": "PASS",
+          "roles": {
+            "AGENT": "#V61542",
+            "TENSE": "PAST",
+            "LEX": "PASSED",
+            "WNSENSE": "pass%2:38:05::"
+          },
+          "start": 46,
+          "end": 64
+        },
+        "V61542": {
+          "id": "V61542",
+          "indicator": "A",
+          "type": "DURATION-SCALE",
+          "word": "TIME",
+          "roles": {
+            "QUAN": "ENOUGH",
+            "LEX": "TIME",
+            "WNSENSE": "time%1:03:00::"
+          },
+          "start": 46,
+          "end": 58
+        },
+        "root": "#V63317"
+      }
+    ],
+    [
+      {
+        "V63302": {
+          "id": "V63302",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V61484",
+            "LEX": "DROVE"
+          },
+          "start": 0,
+          "end": 65
+        },
+        "V61484": {
+          "id": "V61484",
+          "indicator": "F",
+          "type": "PROPEL",
+          "word": "DRIVE",
+          "roles": {
+            "AGENT": "#V61477",
+            "AFFECTED": "#V61495",
+            "MOD": "#V61464",
+            "TIME": "#V61513",
+            "RESULT": "#V61500",
+            "TENSE": "PAST",
+            "LEX": "DROVE"
+          },
+          "start": 0,
+          "end": 64
+        },
+        "V61464": {
+          "id": "V61464",
+          "indicator": "F",
+          "type": "CHOICE-OPTION",
+          "word": "INSTEAD-OF",
+          "roles": {
+            "GROUND": "#V61764",
+            "FIGURE": "#V61484",
+            "LEX": "INSTEAD"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V61764": {
+          "id": "V61764",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 0,
+          "end": 7
+        },
+        "V61477": {
+          "id": "V61477",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "MOM",
+          "roles": {
+            "ASSOC-POSS": "#V61471",
+            "LEX": "MOM",
+            "WNSENSE": "mom%1:18:00::"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V61471": {
+          "id": "V61471",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V61495": {
+          "id": "V61495",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEM",
+          "roles": {
+            "PROFORM": "THEM",
+            "LEX": "THEM",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V61500": {
+          "id": "V61500",
+          "indicator": "F",
+          "type": "AROUND",
+          "word": "AROUND",
+          "roles": {
+            "GROUND": "#V61509",
+            "FIGURE": "#V61484",
+            "LEX": "AROUND"
+          },
+          "start": 28,
+          "end": 40
+        },
+        "V61509": {
+          "id": "V61509",
+          "indicator": "BARE",
+          "type": "DISTRICT",
+          "word": "TOWN",
+          "roles": {
+            "LEX": "TOWN",
+            "WNSENSE": "town%1:15:01::"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "V61513": {
+          "id": "V61513",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "UNTIL",
+          "roles": {
+            "GROUND": "#V61561",
+            "FIGURE": "#V61484",
+            "LEX": "UNTIL"
+          },
+          "start": 40,
+          "end": 64
+        },
+        "V61561": {
+          "id": "V61561",
+          "indicator": "F",
+          "type": "PASS-BY",
+          "word": "PASS",
+          "roles": {
+            "AGENT": "#V61542",
+            "TENSE": "PAST",
+            "LEX": "PASSED",
+            "WNSENSE": "pass%2:38:05::"
+          },
+          "start": 46,
+          "end": 64
+        },
+        "V61542": {
+          "id": "V61542",
+          "indicator": "A",
+          "type": "DURATION-SCALE",
+          "word": "TIME",
+          "roles": {
+            "QUAN": "ENOUGH",
+            "LEX": "TIME",
+            "WNSENSE": "time%1:03:00::"
+          },
+          "start": 46,
+          "end": 58
+        },
+        "root": "#V63302"
+      }
+    ],
+    [
+      {
+        "V63257": {
+          "id": "V63257",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V61482",
+            "LEX": "DROVE"
+          },
+          "start": 0,
+          "end": 65
+        },
+        "V61482": {
+          "id": "V61482",
+          "indicator": "F",
+          "type": "DRIVE",
+          "word": "DRIVE",
+          "roles": {
+            "AGENT": "#V61477",
+            "AFFECTED": "#V61495",
+            "MOD": "#V61464",
+            "TIME": "#V61513",
+            "RESULT": "#V61500",
+            "TENSE": "PAST",
+            "LEX": "DROVE"
+          },
+          "start": 0,
+          "end": 64
+        },
+        "V61464": {
+          "id": "V61464",
+          "indicator": "F",
+          "type": "CHOICE-OPTION",
+          "word": "INSTEAD-OF",
+          "roles": {
+            "GROUND": "#V61764",
+            "FIGURE": "#V61482",
+            "LEX": "INSTEAD"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V61764": {
+          "id": "V61764",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 0,
+          "end": 7
+        },
+        "V61477": {
+          "id": "V61477",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "MOM",
+          "roles": {
+            "ASSOC-POSS": "#V61471",
+            "LEX": "MOM",
+            "WNSENSE": "mom%1:18:00::"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V61471": {
+          "id": "V61471",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V61495": {
+          "id": "V61495",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEM",
+          "roles": {
+            "PROFORM": "THEM",
+            "LEX": "THEM",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V61500": {
+          "id": "V61500",
+          "indicator": "F",
+          "type": "AROUND",
+          "word": "AROUND",
+          "roles": {
+            "GROUND": "#V61509",
+            "FIGURE": "#V61482",
+            "LEX": "AROUND"
+          },
+          "start": 28,
+          "end": 40
+        },
+        "V61509": {
+          "id": "V61509",
+          "indicator": "BARE",
+          "type": "DISTRICT",
+          "word": "TOWN",
+          "roles": {
+            "LEX": "TOWN",
+            "WNSENSE": "town%1:15:01::"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "V61513": {
+          "id": "V61513",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "UNTIL",
+          "roles": {
+            "GROUND": "#V61561",
+            "FIGURE": "#V61482",
+            "LEX": "UNTIL"
+          },
+          "start": 40,
+          "end": 64
+        },
+        "V61561": {
+          "id": "V61561",
+          "indicator": "F",
+          "type": "PASS-BY",
+          "word": "PASS",
+          "roles": {
+            "AGENT": "#V61542",
+            "TENSE": "PAST",
+            "LEX": "PASSED",
+            "WNSENSE": "pass%2:38:05::"
+          },
+          "start": 46,
+          "end": 64
+        },
+        "V61542": {
+          "id": "V61542",
+          "indicator": "A",
+          "type": "DURATION-SCALE",
+          "word": "TIME",
+          "roles": {
+            "QUAN": "ENOUGH",
+            "LEX": "TIME",
+            "WNSENSE": "time%1:03:00::"
+          },
+          "start": 46,
+          "end": 58
+        },
+        "root": "#V63257"
+      }
+    ],
+    [
+      {
+        "V63242": {
+          "id": "V63242",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V61482",
+            "LEX": "DROVE"
+          },
+          "start": 0,
+          "end": 65
+        },
+        "V61482": {
+          "id": "V61482",
+          "indicator": "F",
+          "type": "DRIVE",
+          "word": "DRIVE",
+          "roles": {
+            "AGENT": "#V61477",
+            "AFFECTED": "#V61495",
+            "MOD": "#V61464",
+            "TIME": "#V61513",
+            "RESULT": "#V61500",
+            "TENSE": "PAST",
+            "LEX": "DROVE"
+          },
+          "start": 0,
+          "end": 64
+        },
+        "V61464": {
+          "id": "V61464",
+          "indicator": "F",
+          "type": "CHOICE-OPTION",
+          "word": "INSTEAD-OF",
+          "roles": {
+            "GROUND": "#V61764",
+            "FIGURE": "#V61482",
+            "LEX": "INSTEAD"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V61764": {
+          "id": "V61764",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 0,
+          "end": 7
+        },
+        "V61477": {
+          "id": "V61477",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "MOM",
+          "roles": {
+            "ASSOC-POSS": "#V61471",
+            "LEX": "MOM",
+            "WNSENSE": "mom%1:18:00::"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V61471": {
+          "id": "V61471",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V61495": {
+          "id": "V61495",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEM",
+          "roles": {
+            "PROFORM": "THEM",
+            "LEX": "THEM",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V61500": {
+          "id": "V61500",
+          "indicator": "F",
+          "type": "AROUND",
+          "word": "AROUND",
+          "roles": {
+            "GROUND": "#V61509",
+            "FIGURE": "#V61482",
+            "LEX": "AROUND"
+          },
+          "start": 28,
+          "end": 40
+        },
+        "V61509": {
+          "id": "V61509",
+          "indicator": "BARE",
+          "type": "DISTRICT",
+          "word": "TOWN",
+          "roles": {
+            "LEX": "TOWN",
+            "WNSENSE": "town%1:15:01::"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "V61513": {
+          "id": "V61513",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "UNTIL",
+          "roles": {
+            "GROUND": "#V61561",
+            "FIGURE": "#V61482",
+            "LEX": "UNTIL"
+          },
+          "start": 40,
+          "end": 64
+        },
+        "V61561": {
+          "id": "V61561",
+          "indicator": "F",
+          "type": "PASS-BY",
+          "word": "PASS",
+          "roles": {
+            "AGENT": "#V61542",
+            "TENSE": "PAST",
+            "LEX": "PASSED",
+            "WNSENSE": "pass%2:38:05::"
+          },
+          "start": 46,
+          "end": 64
+        },
+        "V61542": {
+          "id": "V61542",
+          "indicator": "A",
+          "type": "DURATION-SCALE",
+          "word": "TIME",
+          "roles": {
+            "QUAN": "ENOUGH",
+            "LEX": "TIME",
+            "WNSENSE": "time%1:03:00::"
+          },
+          "start": 46,
+          "end": 58
+        },
+        "root": "#V63242"
+      }
+    ],
+    [
+      {
+        "V63579": {
+          "id": "V63579",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V61484",
+            "LEX": "DROVE"
+          },
+          "start": 0,
+          "end": 65
+        },
+        "V61484": {
+          "id": "V61484",
+          "indicator": "F",
+          "type": "PROPEL",
+          "word": "DRIVE",
+          "roles": {
+            "AGENT": "#V61477",
+            "AFFECTED": "#V61495",
+            "MOD": "#V61464",
+            "TIME": "#V61513",
+            "RESULT": "#V61500",
+            "TENSE": "PAST",
+            "LEX": "DROVE"
+          },
+          "start": 0,
+          "end": 64
+        },
+        "V61464": {
+          "id": "V61464",
+          "indicator": "F",
+          "type": "CHOICE-OPTION",
+          "word": "INSTEAD-OF",
+          "roles": {
+            "GROUND": "#V61764",
+            "FIGURE": "#V61484",
+            "LEX": "INSTEAD"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V61764": {
+          "id": "V61764",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 0,
+          "end": 7
+        },
+        "V61477": {
+          "id": "V61477",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "MOM",
+          "roles": {
+            "ASSOC-POSS": "#V61471",
+            "LEX": "MOM",
+            "WNSENSE": "mom%1:18:00::"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V61471": {
+          "id": "V61471",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V61495": {
+          "id": "V61495",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEM",
+          "roles": {
+            "PROFORM": "THEM",
+            "LEX": "THEM",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V61500": {
+          "id": "V61500",
+          "indicator": "F",
+          "type": "AROUND",
+          "word": "AROUND",
+          "roles": {
+            "GROUND": "#V61509",
+            "FIGURE": "#V61484",
+            "LEX": "AROUND"
+          },
+          "start": 28,
+          "end": 40
+        },
+        "V61509": {
+          "id": "V61509",
+          "indicator": "BARE",
+          "type": "DISTRICT",
+          "word": "TOWN",
+          "roles": {
+            "LEX": "TOWN",
+            "WNSENSE": "town%1:15:01::"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "V61513": {
+          "id": "V61513",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "UNTIL",
+          "roles": {
+            "GROUND": "#V61562",
+            "FIGURE": "#V61484",
+            "LEX": "UNTIL"
+          },
+          "start": 40,
+          "end": 64
+        },
+        "V61562": {
+          "id": "V61562",
+          "indicator": "F",
+          "type": "TIME-ELAPSE",
+          "word": "PASS",
+          "roles": {
+            "NEUTRAL": "#V61543",
+            "TENSE": "PAST",
+            "LEX": "PASSED",
+            "WNSENSE": "pass%2:38:00::"
+          },
+          "start": 46,
+          "end": 64
+        },
+        "V61543": {
+          "id": "V61543",
+          "indicator": "BARE",
+          "type": "TIME-LOC",
+          "word": "TIME",
+          "roles": {
+            "SIZE": "#V61523",
+            "LEX": "TIME",
+            "WNSENSE": "date%1:28:03"
+          },
+          "start": 46,
+          "end": 58
+        },
+        "V61523": {
+          "id": "V61523",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "ENOUGH"
+          },
+          "start": 46,
+          "end": 53
+        },
+        "root": "#V63579"
+      }
+    ],
+    [
+      {
+        "V63565": {
+          "id": "V63565",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V61482",
+            "LEX": "DROVE"
+          },
+          "start": 0,
+          "end": 65
+        },
+        "V61482": {
+          "id": "V61482",
+          "indicator": "F",
+          "type": "DRIVE",
+          "word": "DRIVE",
+          "roles": {
+            "AGENT": "#V61477",
+            "AFFECTED": "#V61495",
+            "MOD": "#V61464",
+            "TIME": "#V61513",
+            "RESULT": "#V61500",
+            "TENSE": "PAST",
+            "LEX": "DROVE"
+          },
+          "start": 0,
+          "end": 64
+        },
+        "V61464": {
+          "id": "V61464",
+          "indicator": "F",
+          "type": "CHOICE-OPTION",
+          "word": "INSTEAD-OF",
+          "roles": {
+            "GROUND": "#V61764",
+            "FIGURE": "#V61482",
+            "LEX": "INSTEAD"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V61764": {
+          "id": "V61764",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 0,
+          "end": 7
+        },
+        "V61477": {
+          "id": "V61477",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "MOM",
+          "roles": {
+            "ASSOC-POSS": "#V61471",
+            "LEX": "MOM",
+            "WNSENSE": "mom%1:18:00::"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V61471": {
+          "id": "V61471",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V61495": {
+          "id": "V61495",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEM",
+          "roles": {
+            "PROFORM": "THEM",
+            "LEX": "THEM",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V61500": {
+          "id": "V61500",
+          "indicator": "F",
+          "type": "AROUND",
+          "word": "AROUND",
+          "roles": {
+            "GROUND": "#V61509",
+            "FIGURE": "#V61482",
+            "LEX": "AROUND"
+          },
+          "start": 28,
+          "end": 40
+        },
+        "V61509": {
+          "id": "V61509",
+          "indicator": "BARE",
+          "type": "DISTRICT",
+          "word": "TOWN",
+          "roles": {
+            "LEX": "TOWN",
+            "WNSENSE": "town%1:15:01::"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "V61513": {
+          "id": "V61513",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "UNTIL",
+          "roles": {
+            "GROUND": "#V61562",
+            "FIGURE": "#V61482",
+            "LEX": "UNTIL"
+          },
+          "start": 40,
+          "end": 64
+        },
+        "V61562": {
+          "id": "V61562",
+          "indicator": "F",
+          "type": "TIME-ELAPSE",
+          "word": "PASS",
+          "roles": {
+            "NEUTRAL": "#V61543",
+            "TENSE": "PAST",
+            "LEX": "PASSED",
+            "WNSENSE": "pass%2:38:00::"
+          },
+          "start": 46,
+          "end": 64
+        },
+        "V61543": {
+          "id": "V61543",
+          "indicator": "BARE",
+          "type": "TIME-LOC",
+          "word": "TIME",
+          "roles": {
+            "SIZE": "#V61523",
+            "LEX": "TIME",
+            "WNSENSE": "date%1:28:03"
+          },
+          "start": 46,
+          "end": 58
+        },
+        "V61523": {
+          "id": "V61523",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "ENOUGH"
+          },
+          "start": 46,
+          "end": 53
+        },
+        "root": "#V63565"
+      }
+    ]
+  ],
+  "sentence": "Instead, her mom drove them around town until enough time passed.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190822T231643",
+    "link": "http://trips.ihmc.us/parser/saved/20190822T231643-STEP-abhatia-1-Instead_her_mom_drove_them_around_town_u.xml",
+    "judgement": 1
+  }
+}

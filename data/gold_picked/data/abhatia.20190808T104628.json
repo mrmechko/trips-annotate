@@ -1,0 +1,528 @@
+{
+  "parse": [
+    {
+      "V355711": {
+        "id": "V355711",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V355129",
+          "LEX": "FELT"
+        },
+        "start": 0,
+        "end": 61
+      },
+      "V355129": {
+        "id": "V355129",
+        "indicator": "F",
+        "type": "EXPERIENCER-EMOTION",
+        "word": "FEEL",
+        "roles": {
+          "EXPERIENCER": "#V355112",
+          "FORMAL": "#V355147",
+          "TIME": "#V355045",
+          "TENSE": "PAST",
+          "LEX": "FELT"
+        },
+        "start": 0,
+        "end": 61
+      },
+      "V355045": {
+        "id": "V355045",
+        "indicator": "F",
+        "type": "AFTER",
+        "word": "AFTER",
+        "roles": {
+          "GROUND": "#V355066",
+          "FIGURE": "#V355129",
+          "LEX": "AFTER",
+          "WNSENSE": "after%4:02:01::"
+        },
+        "start": 0,
+        "end": 45
+      },
+      "V355066": {
+        "id": "V355066",
+        "indicator": "F",
+        "type": "STOP",
+        "word": "KILL",
+        "roles": {
+          "AGENT": "#V355061",
+          "AFFECTED": "#V355315",
+          "TENSE": "PAST",
+          "LEX": "KILLED",
+          "WNSENSE": "kill%2:30:08::"
+        },
+        "start": 6,
+        "end": 45
+      },
+      "V355061": {
+        "id": "V355061",
+        "indicator": "THE",
+        "type": "PERSON",
+        "word": "EXTERMINATOR",
+        "roles": {
+          "LEX": "EXTERMINATOR",
+          "WNSENSE": "exterminator%1:18:00::"
+        },
+        "start": 6,
+        "end": 23
+      },
+      "V355315": {
+        "id": "V355315",
+        "indicator": "INDEF-SET",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "RAT",
+        "roles": {
+          "REFSET": "#V355104",
+          "SIZE": "UNIVERSAL",
+          "LEX": "RATS",
+          "WNSENSE": "rat%1:05:00::"
+        },
+        "start": 30,
+        "end": 45
+      },
+      "V355104": {
+        "id": "V355104",
+        "indicator": "THE-SET",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "RAT",
+        "roles": {
+          "LEX": "RATS",
+          "WNSENSE": "rat%1:05:00::"
+        },
+        "start": 34,
+        "end": 45
+      },
+      "V355112": {
+        "id": "V355112",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "GARY",
+        "roles": {
+          "NAME-OF": "GARY",
+          "LEX": "GARY",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 47,
+        "end": 52
+      },
+      "V355147": {
+        "id": "V355147",
+        "indicator": "F",
+        "type": "GOOD",
+        "word": "GOOD",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "MED",
+          "FIGURE": "#V355112",
+          "SCALE": "GOODNESS-SCALE",
+          "LEX": "GOOD",
+          "WNSENSE": "good%5:00:00:nice:00"
+        },
+        "start": 57,
+        "end": 61
+      },
+      "root": "#V355711"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V355708": {
+          "id": "V355708",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V355129",
+            "LEX": "FELT"
+          },
+          "start": 0,
+          "end": 62
+        },
+        "V355129": {
+          "id": "V355129",
+          "indicator": "F",
+          "type": "EXPERIENCER-EMOTION",
+          "word": "FEEL",
+          "roles": {
+            "EXPERIENCER": "#V355112",
+            "FORMAL": "#V355146",
+            "TIME": "#V355045",
+            "TENSE": "PAST",
+            "LEX": "FELT"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V355045": {
+          "id": "V355045",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "AFTER",
+          "roles": {
+            "GROUND": "#V355066",
+            "FIGURE": "#V355129",
+            "LEX": "AFTER",
+            "WNSENSE": "after%4:02:01::"
+          },
+          "start": 0,
+          "end": 45
+        },
+        "V355066": {
+          "id": "V355066",
+          "indicator": "F",
+          "type": "STOP",
+          "word": "KILL",
+          "roles": {
+            "AGENT": "#V355061",
+            "AFFECTED": "#V355315",
+            "TENSE": "PAST",
+            "LEX": "KILLED",
+            "WNSENSE": "kill%2:30:08::"
+          },
+          "start": 6,
+          "end": 45
+        },
+        "V355061": {
+          "id": "V355061",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "EXTERMINATOR",
+          "roles": {
+            "LEX": "EXTERMINATOR",
+            "WNSENSE": "exterminator%1:18:00::"
+          },
+          "start": 6,
+          "end": 23
+        },
+        "V355315": {
+          "id": "V355315",
+          "indicator": "INDEF-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "RAT",
+          "roles": {
+            "REFSET": "#V355104",
+            "SIZE": "UNIVERSAL",
+            "LEX": "RATS",
+            "WNSENSE": "rat%1:05:00::"
+          },
+          "start": 30,
+          "end": 45
+        },
+        "V355104": {
+          "id": "V355104",
+          "indicator": "THE-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "RAT",
+          "roles": {
+            "LEX": "RATS",
+            "WNSENSE": "rat%1:05:00::"
+          },
+          "start": 34,
+          "end": 45
+        },
+        "V355112": {
+          "id": "V355112",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "GARY",
+          "roles": {
+            "NAME-OF": "GARY",
+            "LEX": "GARY",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 47,
+          "end": 52
+        },
+        "V355146": {
+          "id": "V355146",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V355112",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 57,
+          "end": 61
+        },
+        "root": "#V355708"
+      }
+    ],
+    [
+      {
+        "V355705": {
+          "id": "V355705",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V355129",
+            "LEX": "FELT"
+          },
+          "start": 0,
+          "end": 62
+        },
+        "V355129": {
+          "id": "V355129",
+          "indicator": "F",
+          "type": "EXPERIENCER-EMOTION",
+          "word": "FEEL",
+          "roles": {
+            "EXPERIENCER": "#V355118",
+            "FORMAL": "#V355148",
+            "TIME": "#V355045",
+            "TENSE": "PAST",
+            "LEX": "FELT"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V355045": {
+          "id": "V355045",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "AFTER",
+          "roles": {
+            "GROUND": "#V355066",
+            "FIGURE": "#V355129",
+            "LEX": "AFTER",
+            "WNSENSE": "after%4:02:01::"
+          },
+          "start": 0,
+          "end": 45
+        },
+        "V355066": {
+          "id": "V355066",
+          "indicator": "F",
+          "type": "STOP",
+          "word": "KILL",
+          "roles": {
+            "AGENT": "#V355061",
+            "AFFECTED": "#V355315",
+            "TENSE": "PAST",
+            "LEX": "KILLED",
+            "WNSENSE": "kill%2:30:08::"
+          },
+          "start": 6,
+          "end": 45
+        },
+        "V355061": {
+          "id": "V355061",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "EXTERMINATOR",
+          "roles": {
+            "LEX": "EXTERMINATOR",
+            "WNSENSE": "exterminator%1:18:00::"
+          },
+          "start": 6,
+          "end": 23
+        },
+        "V355315": {
+          "id": "V355315",
+          "indicator": "INDEF-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "RAT",
+          "roles": {
+            "REFSET": "#V355104",
+            "SIZE": "UNIVERSAL",
+            "LEX": "RATS",
+            "WNSENSE": "rat%1:05:00::"
+          },
+          "start": 30,
+          "end": 45
+        },
+        "V355104": {
+          "id": "V355104",
+          "indicator": "THE-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "RAT",
+          "roles": {
+            "LEX": "RATS",
+            "WNSENSE": "rat%1:05:00::"
+          },
+          "start": 34,
+          "end": 45
+        },
+        "V355118": {
+          "id": "V355118",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "GARY",
+          "roles": {
+            "NAME-OF": "GARY",
+            "LEX": "GARY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 47,
+          "end": 52
+        },
+        "V355148": {
+          "id": "V355148",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V355118",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 57,
+          "end": 61
+        },
+        "root": "#V355705"
+      }
+    ],
+    [
+      {
+        "V355702": {
+          "id": "V355702",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V355129",
+            "LEX": "FELT"
+          },
+          "start": 0,
+          "end": 62
+        },
+        "V355129": {
+          "id": "V355129",
+          "indicator": "F",
+          "type": "EXPERIENCER-EMOTION",
+          "word": "FEEL",
+          "roles": {
+            "EXPERIENCER": "#V355118",
+            "FORMAL": "#V355147",
+            "TIME": "#V355045",
+            "TENSE": "PAST",
+            "LEX": "FELT"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V355045": {
+          "id": "V355045",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "AFTER",
+          "roles": {
+            "GROUND": "#V355066",
+            "FIGURE": "#V355129",
+            "LEX": "AFTER",
+            "WNSENSE": "after%4:02:01::"
+          },
+          "start": 0,
+          "end": 45
+        },
+        "V355066": {
+          "id": "V355066",
+          "indicator": "F",
+          "type": "STOP",
+          "word": "KILL",
+          "roles": {
+            "AGENT": "#V355061",
+            "AFFECTED": "#V355315",
+            "TENSE": "PAST",
+            "LEX": "KILLED",
+            "WNSENSE": "kill%2:30:08::"
+          },
+          "start": 6,
+          "end": 45
+        },
+        "V355061": {
+          "id": "V355061",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "EXTERMINATOR",
+          "roles": {
+            "LEX": "EXTERMINATOR",
+            "WNSENSE": "exterminator%1:18:00::"
+          },
+          "start": 6,
+          "end": 23
+        },
+        "V355315": {
+          "id": "V355315",
+          "indicator": "INDEF-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "RAT",
+          "roles": {
+            "REFSET": "#V355104",
+            "SIZE": "UNIVERSAL",
+            "LEX": "RATS",
+            "WNSENSE": "rat%1:05:00::"
+          },
+          "start": 30,
+          "end": 45
+        },
+        "V355104": {
+          "id": "V355104",
+          "indicator": "THE-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "RAT",
+          "roles": {
+            "LEX": "RATS",
+            "WNSENSE": "rat%1:05:00::"
+          },
+          "start": 34,
+          "end": 45
+        },
+        "V355118": {
+          "id": "V355118",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "GARY",
+          "roles": {
+            "NAME-OF": "GARY",
+            "LEX": "GARY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 47,
+          "end": 52
+        },
+        "V355147": {
+          "id": "V355147",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V355118",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 57,
+          "end": 61
+        },
+        "root": "#V355702"
+      }
+    ]
+  ],
+  "sentence": "After the exterminator killed all of the rats, Gary felt good.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190808T104628",
+    "link": "http://trips.ihmc.us/parser/saved/20190808T104628-STEP-abhatia-0-After_the_exterminator_killed_all_of_the.xml",
+    "judgement": 0
+  }
+}

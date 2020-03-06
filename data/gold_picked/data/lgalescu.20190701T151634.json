@@ -1,0 +1,192 @@
+{
+  "parse": [
+    {
+      "V176798": {
+        "id": "V176798",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V166882"
+        },
+        "start": 0,
+        "end": 123
+      },
+      "V166882": {
+        "id": "V166882",
+        "indicator": "F",
+        "type": "CORRELATION",
+        "word": "SUGGEST",
+        "roles": {
+          "NEUTRAL": "#V166870",
+          "FORMAL": "#V166976",
+          "TENSE": "PAST"
+        },
+        "start": 0,
+        "end": 123
+      },
+      "V166870": {
+        "id": "V166870",
+        "indicator": "BARE",
+        "type": "PHYSICAL-SCRUTINY",
+        "word": "MONITOR",
+        "roles": {
+          "ASSOC-WITH": "#V166865"
+        },
+        "start": 0,
+        "end": 16
+      },
+      "V166865": {
+        "id": "V166865",
+        "indicator": "KIND",
+        "type": "ROAD",
+        "word": "ROAD",
+        "roles": {},
+        "start": 0,
+        "end": 16
+      },
+      "V166976": {
+        "id": "V166976",
+        "indicator": "F",
+        "type": "DEPART",
+        "word": "LEAVE",
+        "roles": {
+          "AGENT": "#V166916",
+          "NEUTRAL": "#V167005",
+          "REASON": "#V167027",
+          "PROP": "+",
+          "TENSE": "PRES",
+          "PROGR": "+"
+        },
+        "start": 26,
+        "end": 123
+      },
+      "V166916": {
+        "id": "V166916",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "RETURNEES",
+        "roles": {
+          "SOURCE": "#V166920"
+        },
+        "start": 31,
+        "end": 52
+      },
+      "V166920": {
+        "id": "V166920",
+        "indicator": "F",
+        "type": "FROM-LOC",
+        "word": "FROM",
+        "roles": {
+          "GROUND": "#V166943",
+          "FIGURE": "#V166916"
+        },
+        "start": 41,
+        "end": 52
+      },
+      "V166943": {
+        "id": "V166943",
+        "indicator": "THE",
+        "type": "COUNTRY",
+        "word": "KENYA",
+        "roles": {
+          "NAME-OF": "KENYA",
+          "CWMS": "((:CWMS\n  (COUNTRY :NAME \"Republic of Kenya\" :CODE KE :MATCHES\n   ((MATCH :SCORE 1.0 :MATCHED \"Kenya\" :EXACT 1)))))"
+        },
+        "start": 46,
+        "end": 52
+      },
+      "V167005": {
+        "id": "V167005",
+        "indicator": "THE-SET",
+        "type": "GEOGRAPHIC-REGION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V167000",
+          "SEQUENCE1": "#V167024"
+        },
+        "start": 64,
+        "end": 85
+      },
+      "V167000": {
+        "id": "V167000",
+        "indicator": "THE",
+        "type": "GEOGRAPHIC-REGION",
+        "word": "KAKUMA",
+        "roles": {
+          "NAME-OF": "KAKUMA"
+        },
+        "start": 64,
+        "end": 71
+      },
+      "V167024": {
+        "id": "V167024",
+        "indicator": "THE",
+        "type": "GEOGRAPHIC-REGION",
+        "word": "KALOBAYEI",
+        "roles": {
+          "NAME-OF": "KALOBAYEI"
+        },
+        "start": 75,
+        "end": 85
+      },
+      "V167027": {
+        "id": "V167027",
+        "indicator": "F",
+        "type": "DUE-TO",
+        "word": "DUE",
+        "roles": {
+          "GROUND": "#V167392",
+          "FIGURE": "#V166976"
+        },
+        "start": 85,
+        "end": 123
+      },
+      "V167392": {
+        "id": "V167392",
+        "indicator": "BARE",
+        "type": "HEALTH-SCALE",
+        "word": "CONDITION",
+        "roles": {
+          "FIGURE": "#V167079",
+          "MOD": "#V167074"
+        },
+        "start": 89,
+        "end": 123
+      },
+      "V167079": {
+        "id": "V167079",
+        "indicator": "F",
+        "type": "LIVE",
+        "word": "LIVE",
+        "roles": {},
+        "start": 89,
+        "end": 123
+      },
+      "V167074": {
+        "id": "V167074",
+        "indicator": "F",
+        "type": "UNCOMFORTABLE",
+        "word": "UNCOMFORTABLE",
+        "roles": {
+          "FIGURE": "#V167392",
+          "SCALE": "NOT-COMFORTABLE-SCALE"
+        },
+        "start": 92,
+        "end": 106
+      },
+      "root": "#V176798"
+    }
+  ],
+  "alternatives": [],
+  "sentence": "road monitoring suggested that returnees from Kenya are leaving Kakuma and Kalobayei due to uncomfortable living conditions.",
+  "annotation": {
+    "judge": "lgalescu",
+    "parser": "CWMS",
+    "timestamp": "20190701T151634",
+    "link": "http://trips.ihmc.us/parser/saved/20190701T151634-CWMS-lgalescu-0-road_monitoring_suggested_that_returnees.xml",
+    "judgement": 0
+  }
+}

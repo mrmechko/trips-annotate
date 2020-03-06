@@ -1,0 +1,232 @@
+{
+  "parse": [
+    {
+      "V90593": {
+        "id": "V90593",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V87090"
+        },
+        "start": 0,
+        "end": 41
+      },
+      "V87090": {
+        "id": "V87090",
+        "indicator": "F",
+        "type": "COME",
+        "word": "COME",
+        "roles": {
+          "RESULT": "#V87157",
+          "AFFECTED": "#V87078",
+          "TENSE": "PAST"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V87078": {
+        "id": "V87078",
+        "indicator": "INDEF-SET",
+        "type": "TRAVELLER",
+        "word": "REFUGEES",
+        "roles": {
+          "SIZE": "#V87075"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V87075": {
+        "id": "V87075",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "23"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V87111": {
+        "id": "V87111",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V87150",
+          "FIGURE": "#V87078"
+        },
+        "start": 17,
+        "end": 29
+      },
+      "V87150": {
+        "id": "V87150",
+        "indicator": "THE",
+        "type": "COUNTRY",
+        "word": "ETHIOPIA",
+        "roles": {
+          "NAME-OF": "ETHIOPIA"
+        },
+        "start": 20,
+        "end": 29
+      },
+      "V87157": {
+        "id": "V87157",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V87203",
+          "FIGURE": "#V87090"
+        },
+        "start": 29,
+        "end": 40
+      },
+      "V87203": {
+        "id": "V87203",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "ST",
+        "roles": {
+          "ASSOC-WITH": "#V87194"
+        },
+        "start": 32,
+        "end": 40
+      },
+      "V87194": {
+        "id": "V87194",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY": "1",
+          "MONTH": "(:* MONTH-NAME JUNE)"
+        },
+        "start": 32,
+        "end": 38
+      },
+      "root": "#V90593"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V90653": {
+          "id": "V90653",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V87090"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V87090": {
+          "id": "V87090",
+          "indicator": "F",
+          "type": "COME",
+          "word": "COME",
+          "roles": {
+            "RESULT": "#V87157",
+            "AFFECTED": "#V87078",
+            "TENSE": "PAST"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V87078": {
+          "id": "V87078",
+          "indicator": "INDEF-SET",
+          "type": "TRAVELLER",
+          "word": "REFUGEES",
+          "roles": {
+            "SIZE": "#V87075"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V87075": {
+          "id": "V87075",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "23"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V87111": {
+          "id": "V87111",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V87147",
+            "FIGURE": "#V87078"
+          },
+          "start": 17,
+          "end": 29
+        },
+        "V87147": {
+          "id": "V87147",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "ETHIOPIA",
+          "roles": {
+            "NAME-OF": "ETHIOPIA"
+          },
+          "start": 20,
+          "end": 29
+        },
+        "V87157": {
+          "id": "V87157",
+          "indicator": "F",
+          "type": "ON",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V87203",
+            "FIGURE": "#V87090"
+          },
+          "start": 29,
+          "end": 40
+        },
+        "V87203": {
+          "id": "V87203",
+          "indicator": "BARE",
+          "type": "REFERENTIAL-SEM",
+          "word": "ST",
+          "roles": {
+            "ASSOC-WITH": "#V87194"
+          },
+          "start": 32,
+          "end": 40
+        },
+        "V87194": {
+          "id": "V87194",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY": "1",
+            "MONTH": "(:* MONTH-NAME JUNE)"
+          },
+          "start": 32,
+          "end": 38
+        },
+        "root": "#V90653"
+      }
+    ]
+  ],
+  "sentence": "23 refugees came to Ethiopia on June 1st.",
+  "annotation": {
+    "judge": "lgalescu",
+    "parser": "CWMS",
+    "timestamp": "20190607T183915",
+    "link": "http://trips.ihmc.us/parser/saved/20190607T183915-CWMS-lgalescu-none-23_refugees_came_to_Ethiopia_on_June_1st.xml",
+    "judgement": -1
+  }
+}

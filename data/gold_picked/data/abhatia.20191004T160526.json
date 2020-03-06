@@ -1,0 +1,1867 @@
+{
+  "parse": [
+    {
+      "V83699": {
+        "id": "V83699",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V83346",
+          "LEX": "TOOK"
+        },
+        "start": 0,
+        "end": 26
+      },
+      "V83346": {
+        "id": "V83346",
+        "indicator": "F",
+        "type": "CREATE",
+        "word": "TAKE",
+        "roles": {
+          "AGENT": "#V83318",
+          "AFFECTED-RESULT": "#V83390",
+          "MOD": "#V83312",
+          "TENSE": "PAST",
+          "LEX": "TOOK"
+        },
+        "start": 0,
+        "end": 26
+      },
+      "V83312": {
+        "id": "V83312",
+        "indicator": "F",
+        "type": "SEQUENCE-POSITION",
+        "word": "THEN",
+        "roles": {
+          "FIGURE": "#V83346",
+          "LEX": "THEN",
+          "WNSENSE": "then%4:02:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V83318": {
+        "id": "V83318",
+        "indicator": "PRO-SET",
+        "type": "PERSON",
+        "word": "WE",
+        "roles": {
+          "PROFORM": "WE",
+          "LEX": "WE",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "US"
+        },
+        "start": 5,
+        "end": 8
+      },
+      "V83390": {
+        "id": "V83390",
+        "indicator": "THE",
+        "type": "RELATIVE-LOCATION",
+        "word": "HOME",
+        "roles": {
+          "ASSOC-WITH": "#V83384",
+          "LEX": "HOME",
+          "WNSENSE": "home%1:15:02::"
+        },
+        "start": 13,
+        "end": 26
+      },
+      "V83384": {
+        "id": "V83384",
+        "indicator": "KIND",
+        "type": "TREE",
+        "word": "TREE",
+        "roles": {
+          "LEX": "TREE",
+          "WNSENSE": "tree%1:20:00::"
+        },
+        "start": 13,
+        "end": 26
+      },
+      "root": "#V83699"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V83696": {
+          "id": "V83696",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V83347",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V83347": {
+          "id": "V83347",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V83318",
+            "AFFECTED": "#V83390",
+            "MOD": "#V83312",
+            "TENSE": "PAST",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V83312": {
+          "id": "V83312",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "THEN",
+          "roles": {
+            "FIGURE": "#V83347",
+            "LEX": "THEN",
+            "WNSENSE": "then%4:02:00::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V83318": {
+          "id": "V83318",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 5,
+          "end": 8
+        },
+        "V83390": {
+          "id": "V83390",
+          "indicator": "THE",
+          "type": "RELATIVE-LOCATION",
+          "word": "HOME",
+          "roles": {
+            "ASSOC-WITH": "#V83384",
+            "LEX": "HOME",
+            "WNSENSE": "home%1:15:02::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V83384": {
+          "id": "V83384",
+          "indicator": "KIND",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "root": "#V83696"
+      }
+    ],
+    [
+      {
+        "V83693": {
+          "id": "V83693",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V83341",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V83341": {
+          "id": "V83341",
+          "indicator": "F",
+          "type": "CONSUME",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V83318",
+            "AFFECTED": "#V83384",
+            "MOD": "#V83312",
+            "TENSE": "PAST",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V83312": {
+          "id": "V83312",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "THEN",
+          "roles": {
+            "FIGURE": "#V83341",
+            "LEX": "THEN",
+            "WNSENSE": "then%4:02:00::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V83318": {
+          "id": "V83318",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 5,
+          "end": 8
+        },
+        "V83384": {
+          "id": "V83384",
+          "indicator": "THE",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V83387",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V83387": {
+          "id": "V83387",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "HOME",
+          "roles": {
+            "GROUND": "#V83470",
+            "FIGURE": "#V83384",
+            "LEX": "HOME",
+            "WNSENSE": "home%4:02:01::"
+          },
+          "start": 22,
+          "end": 26
+        },
+        "V83470": {
+          "id": "V83470",
+          "indicator": "IMPRO",
+          "type": "RELATIVE-LOCATION",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOME"
+          },
+          "start": 22,
+          "end": 26
+        },
+        "root": "#V83693"
+      }
+    ],
+    [
+      {
+        "V83690": {
+          "id": "V83690",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V83346",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V83346": {
+          "id": "V83346",
+          "indicator": "F",
+          "type": "CREATE",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V83318",
+            "AFFECTED-RESULT": "#V83384",
+            "MOD": "#V83312",
+            "TENSE": "PAST",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V83312": {
+          "id": "V83312",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "THEN",
+          "roles": {
+            "FIGURE": "#V83346",
+            "LEX": "THEN",
+            "WNSENSE": "then%4:02:00::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V83318": {
+          "id": "V83318",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 5,
+          "end": 8
+        },
+        "V83384": {
+          "id": "V83384",
+          "indicator": "THE",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V83387",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V83387": {
+          "id": "V83387",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "HOME",
+          "roles": {
+            "GROUND": "#V83470",
+            "FIGURE": "#V83384",
+            "LEX": "HOME",
+            "WNSENSE": "home%4:02:01::"
+          },
+          "start": 22,
+          "end": 26
+        },
+        "V83470": {
+          "id": "V83470",
+          "indicator": "IMPRO",
+          "type": "RELATIVE-LOCATION",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOME"
+          },
+          "start": 22,
+          "end": 26
+        },
+        "root": "#V83690"
+      }
+    ],
+    [
+      {
+        "V83687": {
+          "id": "V83687",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V83347",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V83347": {
+          "id": "V83347",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V83318",
+            "AFFECTED": "#V83384",
+            "MOD": "#V83312",
+            "TENSE": "PAST",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V83312": {
+          "id": "V83312",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "THEN",
+          "roles": {
+            "FIGURE": "#V83347",
+            "LEX": "THEN",
+            "WNSENSE": "then%4:02:00::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V83318": {
+          "id": "V83318",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 5,
+          "end": 8
+        },
+        "V83384": {
+          "id": "V83384",
+          "indicator": "THE",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V83387",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V83387": {
+          "id": "V83387",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "HOME",
+          "roles": {
+            "GROUND": "#V83470",
+            "FIGURE": "#V83384",
+            "LEX": "HOME",
+            "WNSENSE": "home%4:02:01::"
+          },
+          "start": 22,
+          "end": 26
+        },
+        "V83470": {
+          "id": "V83470",
+          "indicator": "IMPRO",
+          "type": "RELATIVE-LOCATION",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOME"
+          },
+          "start": 22,
+          "end": 26
+        },
+        "root": "#V83687"
+      }
+    ],
+    [
+      {
+        "V83684": {
+          "id": "V83684",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V83348",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V83348": {
+          "id": "V83348",
+          "indicator": "F",
+          "type": "CAUSE-MOVE",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V83318",
+            "AFFECTED": "#V83384",
+            "MOD": "#V83312",
+            "TENSE": "PAST",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V83312": {
+          "id": "V83312",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "THEN",
+          "roles": {
+            "FIGURE": "#V83348",
+            "LEX": "THEN",
+            "WNSENSE": "then%4:02:00::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V83318": {
+          "id": "V83318",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 5,
+          "end": 8
+        },
+        "V83384": {
+          "id": "V83384",
+          "indicator": "THE",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V83387",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V83387": {
+          "id": "V83387",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "HOME",
+          "roles": {
+            "GROUND": "#V83470",
+            "FIGURE": "#V83384",
+            "LEX": "HOME",
+            "WNSENSE": "home%4:02:01::"
+          },
+          "start": 22,
+          "end": 26
+        },
+        "V83470": {
+          "id": "V83470",
+          "indicator": "IMPRO",
+          "type": "RELATIVE-LOCATION",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOME"
+          },
+          "start": 22,
+          "end": 26
+        },
+        "root": "#V83684"
+      }
+    ],
+    [
+      {
+        "V83779": {
+          "id": "V83779",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V83341",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V83341": {
+          "id": "V83341",
+          "indicator": "F",
+          "type": "CONSUME",
+          "word": "TAKE",
+          "roles": {
+            "RESULT": "#V83387",
+            "AGENT": "#V83318",
+            "AFFECTED": "#V83384",
+            "MOD": "#V83312",
+            "TENSE": "PAST",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V83312": {
+          "id": "V83312",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "THEN",
+          "roles": {
+            "FIGURE": "#V83341",
+            "LEX": "THEN",
+            "WNSENSE": "then%4:02:00::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V83318": {
+          "id": "V83318",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 5,
+          "end": 8
+        },
+        "V83384": {
+          "id": "V83384",
+          "indicator": "THE",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 22
+        },
+        "V83387": {
+          "id": "V83387",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "HOME",
+          "roles": {
+            "GROUND": "#V83470",
+            "FIGURE": "#V83384",
+            "LEX": "HOME",
+            "WNSENSE": "home%4:02:01::"
+          },
+          "start": 22,
+          "end": 26
+        },
+        "V83470": {
+          "id": "V83470",
+          "indicator": "IMPRO",
+          "type": "RELATIVE-LOCATION",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOME"
+          },
+          "start": 22,
+          "end": 26
+        },
+        "root": "#V83779"
+      }
+    ],
+    [
+      {
+        "V83776": {
+          "id": "V83776",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V83347",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V83347": {
+          "id": "V83347",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "TAKE",
+          "roles": {
+            "RESULT": "#V83387",
+            "AGENT": "#V83318",
+            "AFFECTED": "#V83384",
+            "MOD": "#V83312",
+            "TENSE": "PAST",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V83312": {
+          "id": "V83312",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "THEN",
+          "roles": {
+            "FIGURE": "#V83347",
+            "LEX": "THEN",
+            "WNSENSE": "then%4:02:00::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V83318": {
+          "id": "V83318",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 5,
+          "end": 8
+        },
+        "V83384": {
+          "id": "V83384",
+          "indicator": "THE",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 22
+        },
+        "V83387": {
+          "id": "V83387",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "HOME",
+          "roles": {
+            "GROUND": "#V83470",
+            "FIGURE": "#V83384",
+            "LEX": "HOME",
+            "WNSENSE": "home%4:02:01::"
+          },
+          "start": 22,
+          "end": 26
+        },
+        "V83470": {
+          "id": "V83470",
+          "indicator": "IMPRO",
+          "type": "RELATIVE-LOCATION",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOME"
+          },
+          "start": 22,
+          "end": 26
+        },
+        "root": "#V83776"
+      }
+    ],
+    [
+      {
+        "V83773": {
+          "id": "V83773",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V83348",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V83348": {
+          "id": "V83348",
+          "indicator": "F",
+          "type": "CAUSE-MOVE",
+          "word": "TAKE",
+          "roles": {
+            "RESULT": "#V83387",
+            "AGENT": "#V83318",
+            "AFFECTED": "#V83384",
+            "MOD": "#V83312",
+            "TENSE": "PAST",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V83312": {
+          "id": "V83312",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "THEN",
+          "roles": {
+            "FIGURE": "#V83348",
+            "LEX": "THEN",
+            "WNSENSE": "then%4:02:00::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V83318": {
+          "id": "V83318",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 5,
+          "end": 8
+        },
+        "V83384": {
+          "id": "V83384",
+          "indicator": "THE",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 22
+        },
+        "V83387": {
+          "id": "V83387",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "HOME",
+          "roles": {
+            "GROUND": "#V83470",
+            "FIGURE": "#V83384",
+            "LEX": "HOME",
+            "WNSENSE": "home%4:02:01::"
+          },
+          "start": 22,
+          "end": 26
+        },
+        "V83470": {
+          "id": "V83470",
+          "indicator": "IMPRO",
+          "type": "RELATIVE-LOCATION",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOME"
+          },
+          "start": 22,
+          "end": 26
+        },
+        "root": "#V83773"
+      }
+    ],
+    [
+      {
+        "V83968": {
+          "id": "V83968",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V83341",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V83341": {
+          "id": "V83341",
+          "indicator": "F",
+          "type": "CONSUME",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V83318",
+            "AFFECTED": "#V83390",
+            "MOD": "#V83312",
+            "TENSE": "PAST",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V83312": {
+          "id": "V83312",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "THEN",
+          "roles": {
+            "FIGURE": "#V83341",
+            "LEX": "THEN",
+            "WNSENSE": "then%4:02:00::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V83318": {
+          "id": "V83318",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 5,
+          "end": 8
+        },
+        "V83390": {
+          "id": "V83390",
+          "indicator": "THE",
+          "type": "RELATIVE-LOCATION",
+          "word": "HOME",
+          "roles": {
+            "ASSOC-WITH": "#V83384",
+            "LEX": "HOME",
+            "WNSENSE": "home%1:15:02::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V83384": {
+          "id": "V83384",
+          "indicator": "KIND",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "root": "#V83968"
+      }
+    ],
+    [
+      {
+        "V83950": {
+          "id": "V83950",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V83342",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V83342": {
+          "id": "V83342",
+          "indicator": "F",
+          "type": "MOVE-BY-MEANS",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V83318",
+            "FORMAL": "#V83390",
+            "MOD": "#V83312",
+            "TENSE": "PAST",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V83312": {
+          "id": "V83312",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "THEN",
+          "roles": {
+            "FIGURE": "#V83342",
+            "LEX": "THEN",
+            "WNSENSE": "then%4:02:00::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V83318": {
+          "id": "V83318",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 5,
+          "end": 8
+        },
+        "V83390": {
+          "id": "V83390",
+          "indicator": "THE",
+          "type": "RELATIVE-LOCATION",
+          "word": "HOME",
+          "roles": {
+            "ASSOC-WITH": "#V83384",
+            "LEX": "HOME",
+            "WNSENSE": "home%1:15:02::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V83384": {
+          "id": "V83384",
+          "indicator": "KIND",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "root": "#V83950"
+      }
+    ],
+    [
+      {
+        "V83932": {
+          "id": "V83932",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V83348",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V83348": {
+          "id": "V83348",
+          "indicator": "F",
+          "type": "CAUSE-MOVE",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V83318",
+            "AFFECTED": "#V83390",
+            "MOD": "#V83312",
+            "TENSE": "PAST",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V83312": {
+          "id": "V83312",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "THEN",
+          "roles": {
+            "FIGURE": "#V83348",
+            "LEX": "THEN",
+            "WNSENSE": "then%4:02:00::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V83318": {
+          "id": "V83318",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 5,
+          "end": 8
+        },
+        "V83390": {
+          "id": "V83390",
+          "indicator": "THE",
+          "type": "RELATIVE-LOCATION",
+          "word": "HOME",
+          "roles": {
+            "ASSOC-WITH": "#V83384",
+            "LEX": "HOME",
+            "WNSENSE": "home%1:15:02::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V83384": {
+          "id": "V83384",
+          "indicator": "KIND",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "root": "#V83932"
+      }
+    ],
+    [
+      {
+        "V83914": {
+          "id": "V83914",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V83342",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V83342": {
+          "id": "V83342",
+          "indicator": "F",
+          "type": "MOVE-BY-MEANS",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V83318",
+            "FORMAL": "#V83384",
+            "MOD": "#V83312",
+            "TENSE": "PAST",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V83312": {
+          "id": "V83312",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "THEN",
+          "roles": {
+            "FIGURE": "#V83342",
+            "LEX": "THEN",
+            "WNSENSE": "then%4:02:00::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V83318": {
+          "id": "V83318",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 5,
+          "end": 8
+        },
+        "V83384": {
+          "id": "V83384",
+          "indicator": "THE",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V83387",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V83387": {
+          "id": "V83387",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "HOME",
+          "roles": {
+            "GROUND": "#V83470",
+            "FIGURE": "#V83384",
+            "LEX": "HOME",
+            "WNSENSE": "home%4:02:01::"
+          },
+          "start": 22,
+          "end": 26
+        },
+        "V83470": {
+          "id": "V83470",
+          "indicator": "IMPRO",
+          "type": "RELATIVE-LOCATION",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOME"
+          },
+          "start": 22,
+          "end": 26
+        },
+        "root": "#V83914"
+      }
+    ],
+    [
+      {
+        "V84013": {
+          "id": "V84013",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V83349",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V83349": {
+          "id": "V83349",
+          "indicator": "F",
+          "type": "IS-COMPATIBLE-WITH",
+          "word": "TAKE",
+          "roles": {
+            "NEUTRAL": "#V83318",
+            "NEUTRAL1": "#V83390",
+            "MOD": "#V83312",
+            "TENSE": "PAST",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V83312": {
+          "id": "V83312",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "THEN",
+          "roles": {
+            "FIGURE": "#V83349",
+            "LEX": "THEN",
+            "WNSENSE": "then%4:02:00::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V83318": {
+          "id": "V83318",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 5,
+          "end": 8
+        },
+        "V83390": {
+          "id": "V83390",
+          "indicator": "THE",
+          "type": "RELATIVE-LOCATION",
+          "word": "HOME",
+          "roles": {
+            "ASSOC-WITH": "#V83384",
+            "LEX": "HOME",
+            "WNSENSE": "home%1:15:02::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V83384": {
+          "id": "V83384",
+          "indicator": "KIND",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "root": "#V84013"
+      }
+    ],
+    [
+      {
+        "V84010": {
+          "id": "V84010",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V83349",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V83349": {
+          "id": "V83349",
+          "indicator": "F",
+          "type": "IS-COMPATIBLE-WITH",
+          "word": "TAKE",
+          "roles": {
+            "NEUTRAL": "#V83318",
+            "NEUTRAL1": "#V83384",
+            "MOD": "#V83312",
+            "TENSE": "PAST",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V83312": {
+          "id": "V83312",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "THEN",
+          "roles": {
+            "FIGURE": "#V83349",
+            "LEX": "THEN",
+            "WNSENSE": "then%4:02:00::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V83318": {
+          "id": "V83318",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 5,
+          "end": 8
+        },
+        "V83384": {
+          "id": "V83384",
+          "indicator": "THE",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V83387",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V83387": {
+          "id": "V83387",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "HOME",
+          "roles": {
+            "GROUND": "#V83470",
+            "FIGURE": "#V83384",
+            "LEX": "HOME",
+            "WNSENSE": "home%4:02:01::"
+          },
+          "start": 22,
+          "end": 26
+        },
+        "V83470": {
+          "id": "V83470",
+          "indicator": "IMPRO",
+          "type": "RELATIVE-LOCATION",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOME"
+          },
+          "start": 22,
+          "end": 26
+        },
+        "root": "#V84010"
+      }
+    ],
+    [
+      {
+        "V83585": {
+          "id": "V83585",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V83348",
+            "MOD": "#V83312",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V83312": {
+          "id": "V83312",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "THEN",
+          "roles": {
+            "FIGURE": "#V83585",
+            "LEX": "THEN",
+            "WNSENSE": "then%4:02:00::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V83348": {
+          "id": "V83348",
+          "indicator": "F",
+          "type": "CAUSE-MOVE",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V83318",
+            "AFFECTED": "#V83384",
+            "TENSE": "PAST",
+            "LEX": "TOOK",
+            "WNSENSE": "take%2:38:05::"
+          },
+          "start": 5,
+          "end": 26
+        },
+        "V83318": {
+          "id": "V83318",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 5,
+          "end": 8
+        },
+        "V83384": {
+          "id": "V83384",
+          "indicator": "THE",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V83387",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V83387": {
+          "id": "V83387",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "HOME",
+          "roles": {
+            "GROUND": "#V83470",
+            "FIGURE": "#V83384",
+            "LEX": "HOME",
+            "WNSENSE": "home%4:02:01::"
+          },
+          "start": 22,
+          "end": 26
+        },
+        "V83470": {
+          "id": "V83470",
+          "indicator": "IMPRO",
+          "type": "RELATIVE-LOCATION",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOME"
+          },
+          "start": 22,
+          "end": 26
+        },
+        "root": "#V83585"
+      }
+    ],
+    [
+      {
+        "V83588": {
+          "id": "V83588",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V83347",
+            "MOD": "#V83312",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V83312": {
+          "id": "V83312",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "THEN",
+          "roles": {
+            "FIGURE": "#V83588",
+            "LEX": "THEN",
+            "WNSENSE": "then%4:02:00::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V83347": {
+          "id": "V83347",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V83318",
+            "AFFECTED": "#V83384",
+            "TENSE": "PAST",
+            "LEX": "TOOK",
+            "WNSENSE": "take%2:30:01::"
+          },
+          "start": 5,
+          "end": 26
+        },
+        "V83318": {
+          "id": "V83318",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 5,
+          "end": 8
+        },
+        "V83384": {
+          "id": "V83384",
+          "indicator": "THE",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V83387",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V83387": {
+          "id": "V83387",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "HOME",
+          "roles": {
+            "GROUND": "#V83470",
+            "FIGURE": "#V83384",
+            "LEX": "HOME",
+            "WNSENSE": "home%4:02:01::"
+          },
+          "start": 22,
+          "end": 26
+        },
+        "V83470": {
+          "id": "V83470",
+          "indicator": "IMPRO",
+          "type": "RELATIVE-LOCATION",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOME"
+          },
+          "start": 22,
+          "end": 26
+        },
+        "root": "#V83588"
+      }
+    ],
+    [
+      {
+        "V83591": {
+          "id": "V83591",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V83346",
+            "MOD": "#V83312",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V83312": {
+          "id": "V83312",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "THEN",
+          "roles": {
+            "FIGURE": "#V83591",
+            "LEX": "THEN",
+            "WNSENSE": "then%4:02:00::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V83346": {
+          "id": "V83346",
+          "indicator": "F",
+          "type": "CREATE",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V83318",
+            "AFFECTED-RESULT": "#V83384",
+            "TENSE": "PAST",
+            "LEX": "TOOK",
+            "WNSENSE": "make%2:36:00"
+          },
+          "start": 5,
+          "end": 26
+        },
+        "V83318": {
+          "id": "V83318",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 5,
+          "end": 8
+        },
+        "V83384": {
+          "id": "V83384",
+          "indicator": "THE",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V83387",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V83387": {
+          "id": "V83387",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "HOME",
+          "roles": {
+            "GROUND": "#V83470",
+            "FIGURE": "#V83384",
+            "LEX": "HOME",
+            "WNSENSE": "home%4:02:01::"
+          },
+          "start": 22,
+          "end": 26
+        },
+        "V83470": {
+          "id": "V83470",
+          "indicator": "IMPRO",
+          "type": "RELATIVE-LOCATION",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOME"
+          },
+          "start": 22,
+          "end": 26
+        },
+        "root": "#V83591"
+      }
+    ],
+    [
+      {
+        "V83594": {
+          "id": "V83594",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V83341",
+            "MOD": "#V83312",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V83312": {
+          "id": "V83312",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "THEN",
+          "roles": {
+            "FIGURE": "#V83594",
+            "LEX": "THEN",
+            "WNSENSE": "then%4:02:00::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V83341": {
+          "id": "V83341",
+          "indicator": "F",
+          "type": "CONSUME",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V83318",
+            "AFFECTED": "#V83384",
+            "TENSE": "PAST",
+            "LEX": "TOOK",
+            "WNSENSE": "take%2:34:00::"
+          },
+          "start": 5,
+          "end": 26
+        },
+        "V83318": {
+          "id": "V83318",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 5,
+          "end": 8
+        },
+        "V83384": {
+          "id": "V83384",
+          "indicator": "THE",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V83387",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V83387": {
+          "id": "V83387",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "HOME",
+          "roles": {
+            "GROUND": "#V83470",
+            "FIGURE": "#V83384",
+            "LEX": "HOME",
+            "WNSENSE": "home%4:02:01::"
+          },
+          "start": 22,
+          "end": 26
+        },
+        "V83470": {
+          "id": "V83470",
+          "indicator": "IMPRO",
+          "type": "RELATIVE-LOCATION",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOME"
+          },
+          "start": 22,
+          "end": 26
+        },
+        "root": "#V83594"
+      }
+    ],
+    [
+      {
+        "V83616": {
+          "id": "V83616",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V83347",
+            "MOD": "#V83312",
+            "LEX": "TOOK"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V83312": {
+          "id": "V83312",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "THEN",
+          "roles": {
+            "FIGURE": "#V83616",
+            "LEX": "THEN",
+            "WNSENSE": "then%4:02:00::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V83347": {
+          "id": "V83347",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V83318",
+            "AFFECTED": "#V83390",
+            "TENSE": "PAST",
+            "LEX": "TOOK",
+            "WNSENSE": "take%2:30:01::"
+          },
+          "start": 5,
+          "end": 26
+        },
+        "V83318": {
+          "id": "V83318",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "WE",
+          "roles": {
+            "PROFORM": "WE",
+            "LEX": "WE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 5,
+          "end": 8
+        },
+        "V83390": {
+          "id": "V83390",
+          "indicator": "THE",
+          "type": "RELATIVE-LOCATION",
+          "word": "HOME",
+          "roles": {
+            "ASSOC-WITH": "#V83384",
+            "LEX": "HOME",
+            "WNSENSE": "home%1:15:02::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V83384": {
+          "id": "V83384",
+          "indicator": "KIND",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "root": "#V83616"
+      }
+    ]
+  ],
+  "sentence": "Then we took the tree home.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20191004T160526",
+    "link": "http://trips.ihmc.us/parser/saved/20191004T160526-STEP-abhatia-6-Then_we_took_the_tree_home_.xml",
+    "judgement": 6
+  }
+}

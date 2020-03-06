@@ -1,0 +1,324 @@
+{
+  "parse": [
+    {
+      "V388939": {
+        "id": "V388939",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V388770",
+          "LEX": "LOST"
+        },
+        "start": 0,
+        "end": 35
+      },
+      "V388770": {
+        "id": "V388770",
+        "indicator": "F",
+        "type": "LOSE",
+        "word": "LOSE",
+        "roles": {
+          "AGENT": "#V388765",
+          "AFFECTED": "#V388781",
+          "MOD": "#V388749",
+          "TENSE": "PAST",
+          "LEX": "LOST",
+          "WNSENSE": "lose%2:40:02::"
+        },
+        "start": 0,
+        "end": 35
+      },
+      "V388749": {
+        "id": "V388749",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "WORSE",
+        "roles": {
+          "FIGURE": "#V388770",
+          "LEX": "WORSE",
+          "WNSENSE": "worse%4:02:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V388765": {
+        "id": "V388765",
+        "indicator": "THE",
+        "type": "AIRLINE",
+        "word": "AIRLINE",
+        "roles": {
+          "LEX": "AIRLINE",
+          "WNSENSE": "airline%1:06:00::"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V388781": {
+        "id": "V388781",
+        "indicator": "THE",
+        "type": "FUNCTIONAL-PHYS-OBJECT",
+        "word": "LUGGAGE",
+        "roles": {
+          "LEX": "LUGGAGE",
+          "WNSENSE": "instrumentality%1:06:00"
+        },
+        "start": 24,
+        "end": 35
+      },
+      "root": "#V388939"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V388896": {
+          "id": "V388896",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V388770",
+            "MOD": "#V388749",
+            "LEX": "LOST"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V388749": {
+          "id": "V388749",
+          "indicator": "F",
+          "type": "PREDICATE",
+          "word": "WORSE",
+          "roles": {
+            "FIGURE": "#V388896",
+            "LEX": "WORSE",
+            "WNSENSE": "worse%4:02:00::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V388770": {
+          "id": "V388770",
+          "indicator": "F",
+          "type": "LOSE",
+          "word": "LOSE",
+          "roles": {
+            "AGENT": "#V388765",
+            "AFFECTED": "#V388781",
+            "TENSE": "PAST",
+            "LEX": "LOST",
+            "WNSENSE": "lose%2:40:02::"
+          },
+          "start": 7,
+          "end": 35
+        },
+        "V388765": {
+          "id": "V388765",
+          "indicator": "THE",
+          "type": "AIRLINE",
+          "word": "AIRLINE",
+          "roles": {
+            "LEX": "AIRLINE",
+            "WNSENSE": "airline%1:06:00::"
+          },
+          "start": 7,
+          "end": 19
+        },
+        "V388781": {
+          "id": "V388781",
+          "indicator": "THE",
+          "type": "FUNCTIONAL-PHYS-OBJECT",
+          "word": "LUGGAGE",
+          "roles": {
+            "LEX": "LUGGAGE",
+            "WNSENSE": "instrumentality%1:06:00"
+          },
+          "start": 24,
+          "end": 35
+        },
+        "root": "#V388896"
+      }
+    ],
+    [
+      {
+        "V388956": {
+          "id": "V388956",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V388770",
+            "LEX": "LOST"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V388770": {
+          "id": "V388770",
+          "indicator": "F",
+          "type": "LOSE",
+          "word": "LOSE",
+          "roles": {
+            "TIME": "#V388895",
+            "AGENT": "#V388765",
+            "AFFECTED": "#V388781",
+            "TENSE": "PAST",
+            "LEX": "LOST",
+            "WNSENSE": "lose%2:40:02::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V388895": {
+          "id": "V388895",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V388770",
+            "GROUND": "#V388746"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V388746": {
+          "id": "V388746",
+          "indicator": "F",
+          "type": "LESS-VAL",
+          "word": "BAD",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V388765",
+            "SCALE": "ACCEPTABILITY-VAL",
+            "LEX": "WORSE"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V388765": {
+          "id": "V388765",
+          "indicator": "THE",
+          "type": "AIRLINE",
+          "word": "AIRLINE",
+          "roles": {
+            "LEX": "AIRLINE",
+            "WNSENSE": "airline%1:06:00::"
+          },
+          "start": 7,
+          "end": 19
+        },
+        "V388781": {
+          "id": "V388781",
+          "indicator": "THE",
+          "type": "FUNCTIONAL-PHYS-OBJECT",
+          "word": "LUGGAGE",
+          "roles": {
+            "LEX": "LUGGAGE",
+            "WNSENSE": "instrumentality%1:06:00"
+          },
+          "start": 24,
+          "end": 35
+        },
+        "root": "#V388956"
+      }
+    ],
+    [
+      {
+        "V388975": {
+          "id": "V388975",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V388770",
+            "LEX": "LOST"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V388770": {
+          "id": "V388770",
+          "indicator": "F",
+          "type": "LOSE",
+          "word": "LOSE",
+          "roles": {
+            "TIME": "#V388911",
+            "AGENT": "#V388765",
+            "AFFECTED": "#V388781",
+            "TENSE": "PAST",
+            "LEX": "LOST",
+            "WNSENSE": "lose%2:40:02::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V388911": {
+          "id": "V388911",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V388770",
+            "GROUND": "#V388746"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V388746": {
+          "id": "V388746",
+          "indicator": "F",
+          "type": "LESS-VAL",
+          "word": "BAD",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V388765",
+            "SCALE": "ACCEPTABILITY-VAL",
+            "LEX": "WORSE"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V388765": {
+          "id": "V388765",
+          "indicator": "THE",
+          "type": "AIRLINE",
+          "word": "AIRLINE",
+          "roles": {
+            "LEX": "AIRLINE",
+            "WNSENSE": "airline%1:06:00::"
+          },
+          "start": 7,
+          "end": 19
+        },
+        "V388781": {
+          "id": "V388781",
+          "indicator": "THE",
+          "type": "FUNCTIONAL-PHYS-OBJECT",
+          "word": "LUGGAGE",
+          "roles": {
+            "LEX": "LUGGAGE",
+            "WNSENSE": "instrumentality%1:06:00"
+          },
+          "start": 24,
+          "end": 35
+        },
+        "root": "#V388975"
+      }
+    ]
+  ],
+  "sentence": "Worse, the airline lost the luggage.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190725T143015",
+    "link": "http://trips.ihmc.us/parser/saved/20190725T143015-STEP-abhatia-1-Worse_the_airline_lost_the_luggage_.xml",
+    "judgement": 1
+  }
+}

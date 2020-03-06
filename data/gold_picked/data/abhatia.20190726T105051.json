@@ -1,0 +1,514 @@
+{
+  "parse": [
+    {
+      "V433708": {
+        "id": "V433708",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V433504",
+          "LEX": "ARRIVED"
+        },
+        "start": 0,
+        "end": 35
+      },
+      "V433504": {
+        "id": "V433504",
+        "indicator": "F",
+        "type": "ARRIVE",
+        "word": "ARRIVE",
+        "roles": {
+          "AGENT": "#V433483",
+          "LOCATION": "#V433513",
+          "TENSE": "PAST",
+          "LEX": "ARRIVED",
+          "WNSENSE": "arrive%2:38:00::"
+        },
+        "start": 0,
+        "end": 35
+      },
+      "V433483": {
+        "id": "V433483",
+        "indicator": "THE-SET",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V433474",
+          "SEQUENCE1": "#V433499",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 16
+      },
+      "V433474": {
+        "id": "V433474",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "AMY",
+        "roles": {
+          "NAME-OF": "AMY",
+          "LEX": "AMY",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V433499": {
+        "id": "V433499",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "DAD",
+        "roles": {
+          "ASSOC-POSS": "#V433493",
+          "LEX": "DAD",
+          "WNSENSE": "dad%1:18:00::"
+        },
+        "start": 8,
+        "end": 16
+      },
+      "V433493": {
+        "id": "V433493",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "HER",
+        "roles": {
+          "LEX": "HER",
+          "PROFORM": "HER",
+          "WNSENSE": "woman%1:18:00",
+          "COREF": "#V433474"
+        },
+        "start": 8,
+        "end": 16
+      },
+      "V433513": {
+        "id": "V433513",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V433532",
+          "FIGURE": "#V433504",
+          "LEX": "AT"
+        },
+        "start": 24,
+        "end": 35
+      },
+      "V433532": {
+        "id": "V433532",
+        "indicator": "THE",
+        "type": "LODGING",
+        "word": "DORM",
+        "roles": {
+          "ASSOC-POSS": "#V433525",
+          "LEX": "DORM",
+          "WNSENSE": "dorm%1:06:00::"
+        },
+        "start": 27,
+        "end": 35
+      },
+      "V433525": {
+        "id": "V433525",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "HER",
+        "roles": {
+          "LEX": "HER",
+          "PROFORM": "HER",
+          "WNSENSE": "woman%1:18:00",
+          "COREF": "#V433474"
+        },
+        "start": 27,
+        "end": 35
+      },
+      "root": "#V433708"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V433705": {
+          "id": "V433705",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V433504",
+            "LEX": "ARRIVED"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V433504": {
+          "id": "V433504",
+          "indicator": "F",
+          "type": "ARRIVE",
+          "word": "ARRIVE",
+          "roles": {
+            "AGENT": "#V433483",
+            "LOCATION": "#V433513",
+            "TENSE": "PAST",
+            "LEX": "ARRIVED",
+            "WNSENSE": "arrive%2:38:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V433483": {
+          "id": "V433483",
+          "indicator": "THE-SET",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V433474",
+            "SEQUENCE1": "#V433499",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 16
+        },
+        "V433474": {
+          "id": "V433474",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "AMY",
+          "roles": {
+            "NAME-OF": "AMY",
+            "LEX": "AMY",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V433499": {
+          "id": "V433499",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "DAD",
+          "roles": {
+            "ASSOC-POSS": "#V433493",
+            "LEX": "DAD",
+            "WNSENSE": "dad%1:18:00::"
+          },
+          "start": 8,
+          "end": 16
+        },
+        "V433493": {
+          "id": "V433493",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 8,
+          "end": 16
+        },
+        "V433513": {
+          "id": "V433513",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V433535",
+            "FIGURE": "#V433504",
+            "LEX": "AT"
+          },
+          "start": 24,
+          "end": 35
+        },
+        "V433535": {
+          "id": "V433535",
+          "indicator": "THE",
+          "type": "BUILDING",
+          "word": "DORM",
+          "roles": {
+            "ASSOC-POSS": "#V433525",
+            "LEX": "DORM",
+            "WNSENSE": "building%1:06:00"
+          },
+          "start": 27,
+          "end": 35
+        },
+        "V433525": {
+          "id": "V433525",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 27,
+          "end": 35
+        },
+        "root": "#V433705"
+      }
+    ],
+    [
+      {
+        "V433765": {
+          "id": "V433765",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V433504",
+            "LEX": "ARRIVED"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V433504": {
+          "id": "V433504",
+          "indicator": "F",
+          "type": "ARRIVE",
+          "word": "ARRIVE",
+          "roles": {
+            "AGENT": "#V433483",
+            "LOCATION": "#V433513",
+            "TENSE": "PAST",
+            "LEX": "ARRIVED",
+            "WNSENSE": "arrive%2:38:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V433483": {
+          "id": "V433483",
+          "indicator": "THE-SET",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V433474",
+            "SEQUENCE1": "#V433499",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 16
+        },
+        "V433474": {
+          "id": "V433474",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "AMY",
+          "roles": {
+            "NAME-OF": "AMY",
+            "LEX": "AMY",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V433499": {
+          "id": "V433499",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "DAD",
+          "roles": {
+            "ASSOC-POSS": "#V433493",
+            "LEX": "DAD",
+            "WNSENSE": "dad%1:18:00::"
+          },
+          "start": 8,
+          "end": 16
+        },
+        "V433493": {
+          "id": "V433493",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 8,
+          "end": 16
+        },
+        "V433513": {
+          "id": "V433513",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V433532",
+            "FIGURE": "#V433504",
+            "LEX": "AT"
+          },
+          "start": 24,
+          "end": 35
+        },
+        "V433532": {
+          "id": "V433532",
+          "indicator": "THE",
+          "type": "LODGING",
+          "word": "DORM",
+          "roles": {
+            "ASSOC-POSS": "#V433525",
+            "LEX": "DORM",
+            "WNSENSE": "dorm%1:06:00::"
+          },
+          "start": 27,
+          "end": 35
+        },
+        "V433525": {
+          "id": "V433525",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 27,
+          "end": 35
+        },
+        "root": "#V433765"
+      }
+    ],
+    [
+      {
+        "V433762": {
+          "id": "V433762",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V433504",
+            "LEX": "ARRIVED"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V433504": {
+          "id": "V433504",
+          "indicator": "F",
+          "type": "ARRIVE",
+          "word": "ARRIVE",
+          "roles": {
+            "AGENT": "#V433483",
+            "LOCATION": "#V433513",
+            "TENSE": "PAST",
+            "LEX": "ARRIVED",
+            "WNSENSE": "arrive%2:38:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V433483": {
+          "id": "V433483",
+          "indicator": "THE-SET",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V433474",
+            "SEQUENCE1": "#V433499",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 16
+        },
+        "V433474": {
+          "id": "V433474",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "AMY",
+          "roles": {
+            "NAME-OF": "AMY",
+            "LEX": "AMY",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V433499": {
+          "id": "V433499",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "DAD",
+          "roles": {
+            "ASSOC-POSS": "#V433493",
+            "LEX": "DAD",
+            "WNSENSE": "dad%1:18:00::"
+          },
+          "start": 8,
+          "end": 16
+        },
+        "V433493": {
+          "id": "V433493",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 8,
+          "end": 16
+        },
+        "V433513": {
+          "id": "V433513",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V433535",
+            "FIGURE": "#V433504",
+            "LEX": "AT"
+          },
+          "start": 24,
+          "end": 35
+        },
+        "V433535": {
+          "id": "V433535",
+          "indicator": "THE",
+          "type": "BUILDING",
+          "word": "DORM",
+          "roles": {
+            "ASSOC-POSS": "#V433525",
+            "LEX": "DORM",
+            "WNSENSE": "building%1:06:00"
+          },
+          "start": 27,
+          "end": 35
+        },
+        "V433525": {
+          "id": "V433525",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 27,
+          "end": 35
+        },
+        "root": "#V433762"
+      }
+    ]
+  ],
+  "sentence": "Amy and her dad arrived at her dorm. ",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190726T105051",
+    "link": "http://trips.ihmc.us/parser/saved/20190726T105051-STEP-abhatia-0-Amy_and_her_dad_arrived_at_her_dorm_.xml",
+    "judgement": 0
+  }
+}

@@ -1,0 +1,21 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V63302 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V62968 [label=<<font color="green"><br /></font> <font color="black">ACT-BEHAVE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">WALKED-AROUND</font> <font color="green"><br /></font> <font color="green">walk_around%2:41:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ACT-BEHAVE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V62928 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">PRO-SET</font> <font color="blue">THEY</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V62987 [label=<<font color="green"><br /></font> <font color="black">PURPOSE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">TO</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PURPOSE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V63005 [label=<<font color="green"><br /></font> <font color="black">PHYSICAL-SCRUTINY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">EXPLORE</font> <font color="green"><br /></font> <font color="green">explore%2:31:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PHYSICAL-SCRUTINY.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V63013 [label=<<font color="green"><br /></font> <font color="black">ATTRACT</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">ATTRACTIONS</font> <font color="green"><br /></font> <font color="green">attract%2:35:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ATTRACT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V63010 [label=<<font color="green"><br /></font> <font color="black">DIFFERENT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">DIFFERENT</font> <font color="green"><br /></font> <font color="green">different%3:00:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DIFFERENT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V62968 -> V62928 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V63010 -> V63013 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V63302 -> V62968 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V63013 -> V63010 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V62987 -> V63005 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V62968 -> V62987 [label=" REASON   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V63005 -> V63013 [label=" AFFECTED   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V62987 -> V62968 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

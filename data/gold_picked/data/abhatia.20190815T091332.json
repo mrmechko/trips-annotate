@@ -1,0 +1,1255 @@
+{
+  "parse": [
+    {
+      "V43172": {
+        "id": "V43172",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V42908",
+          "LEX": "PHONED"
+        },
+        "start": 0,
+        "end": 36
+      },
+      "V42908": {
+        "id": "V42908",
+        "indicator": "F",
+        "type": "ESTABLISH-COMMUNICATION",
+        "word": "PHONE",
+        "roles": {
+          "AGENT": "#V42903",
+          "AGENT1": "#V43068",
+          "BENEFICIARY": "#V42914",
+          "TENSE": "PAST",
+          "LEX": "PHONED",
+          "WNSENSE": "phone%2:32:00::"
+        },
+        "start": 0,
+        "end": 36
+      },
+      "V42903": {
+        "id": "V42903",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V42914": {
+        "id": "V42914",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "BROTHER",
+        "roles": {
+          "ASSOC-POSS": "#V42911",
+          "LEX": "BROTHER",
+          "WNSENSE": "brother%1:18:00::"
+        },
+        "start": 12,
+        "end": 23
+      },
+      "V42911": {
+        "id": "V42911",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 12,
+        "end": 23
+      },
+      "V43068": {
+        "id": "V43068",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "QUANTITY": "#V42920",
+          "UNIT": "(:* HOUR-DURATION HOUR)",
+          "SCALE": "DURATION-SCALE",
+          "MOD": "#V42926",
+          "LEX": "HOUR"
+        },
+        "start": 23,
+        "end": 36
+      },
+      "V42920": {
+        "id": "V42920",
+        "indicator": "A",
+        "type": "QUANTITY",
+        "word": null,
+        "roles": {
+          "UNIT": "(:* HOUR-DURATION HOUR)",
+          "SCALE": "DURATION-SCALE",
+          "LEX": "HOUR",
+          "WNSENSE": "hour%1:28:00::"
+        },
+        "start": 23,
+        "end": 31
+      },
+      "V42926": {
+        "id": "V42926",
+        "indicator": "F",
+        "type": "MORE-VAL",
+        "word": "LATE",
+        "roles": {
+          "INTENSITY": "HI",
+          "FIGURE": "#V43068",
+          "SCALE": "DOMAIN",
+          "LEX": "LATER",
+          "WNSENSE": "better%3:00:00::"
+        },
+        "start": 31,
+        "end": 36
+      },
+      "root": "#V43172"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V43169": {
+          "id": "V43169",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V42908",
+            "LEX": "PHONED"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V42908": {
+          "id": "V42908",
+          "indicator": "F",
+          "type": "ESTABLISH-COMMUNICATION",
+          "word": "PHONE",
+          "roles": {
+            "AGENT": "#V42903",
+            "AGENT1": "#V43069",
+            "BENEFICIARY": "#V42914",
+            "TENSE": "PAST",
+            "LEX": "PHONED",
+            "WNSENSE": "phone%2:32:00::"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V42903": {
+          "id": "V42903",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V42914": {
+          "id": "V42914",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "BROTHER",
+          "roles": {
+            "ASSOC-POSS": "#V42911",
+            "LEX": "BROTHER",
+            "WNSENSE": "brother%1:18:00::"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V42911": {
+          "id": "V42911",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V43069": {
+          "id": "V43069",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V42920",
+            "MOD": "#V42926",
+            "LEX": "HOUR"
+          },
+          "start": 23,
+          "end": 36
+        },
+        "V42920": {
+          "id": "V42920",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* HOUR-DURATION HOUR)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "HOUR",
+            "WNSENSE": "hour%1:28:00::"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V42926": {
+          "id": "V42926",
+          "indicator": "F",
+          "type": "MORE-VAL",
+          "word": "LATE",
+          "roles": {
+            "INTENSITY": "HI",
+            "FIGURE": "#V43069",
+            "SCALE": "DOMAIN",
+            "LEX": "LATER",
+            "WNSENSE": "better%3:00:00::"
+          },
+          "start": 31,
+          "end": 36
+        },
+        "root": "#V43169"
+      }
+    ],
+    [
+      {
+        "V43247": {
+          "id": "V43247",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V42908",
+            "LEX": "PHONED"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V42908": {
+          "id": "V42908",
+          "indicator": "F",
+          "type": "ESTABLISH-COMMUNICATION",
+          "word": "PHONE",
+          "roles": {
+            "AGENT": "#V42903",
+            "AGENT1": "#V43030",
+            "BENEFICIARY": "#V42914",
+            "TIME": "#V42925",
+            "TENSE": "PAST",
+            "LEX": "PHONED",
+            "WNSENSE": "phone%2:32:00::"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V42903": {
+          "id": "V42903",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V42914": {
+          "id": "V42914",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "BROTHER",
+          "roles": {
+            "ASSOC-POSS": "#V42911",
+            "LEX": "BROTHER",
+            "WNSENSE": "brother%1:18:00::"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V42911": {
+          "id": "V42911",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V43030": {
+          "id": "V43030",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V42920",
+            "LEX": "HOUR"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V42920": {
+          "id": "V42920",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* HOUR-DURATION HOUR)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "HOUR",
+            "WNSENSE": "hour%1:28:00::"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V42925": {
+          "id": "V42925",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "LATER",
+          "roles": {
+            "FIGURE": "#V42908",
+            "LEX": "LATER",
+            "WNSENSE": "later%4:02:01::"
+          },
+          "start": 31,
+          "end": 36
+        },
+        "root": "#V43247"
+      }
+    ],
+    [
+      {
+        "V43280": {
+          "id": "V43280",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V42908",
+            "LEX": "PHONED"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V42908": {
+          "id": "V42908",
+          "indicator": "F",
+          "type": "ESTABLISH-COMMUNICATION",
+          "word": "PHONE",
+          "roles": {
+            "AGENT": "#V42903",
+            "AGENT1": "#V43030",
+            "BENEFICIARY": "#V42914",
+            "EXTENT": "#V42950",
+            "TENSE": "PAST",
+            "LEX": "PHONED",
+            "WNSENSE": "phone%2:32:00::"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V42903": {
+          "id": "V42903",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V42914": {
+          "id": "V42914",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "BROTHER",
+          "roles": {
+            "ASSOC-POSS": "#V42911",
+            "LEX": "BROTHER",
+            "WNSENSE": "brother%1:18:00::"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V42911": {
+          "id": "V42911",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V43030": {
+          "id": "V43030",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V42920",
+            "LEX": "HOUR"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V42920": {
+          "id": "V42920",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* HOUR-DURATION HOUR)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "HOUR",
+            "WNSENSE": "hour%1:28:00::"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V42950": {
+          "id": "V42950",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V42908",
+            "GROUND": "#V42951",
+            "LEX": "LATER",
+            "WNSENSE": "better%3:00:00::"
+          },
+          "start": 31,
+          "end": 36
+        },
+        "V42951": {
+          "id": "V42951",
+          "indicator": "THE",
+          "type": "VALUE",
+          "word": null,
+          "roles": {
+            "MOD": "#V42926"
+          },
+          "start": 31,
+          "end": 36
+        },
+        "V42926": {
+          "id": "V42926",
+          "indicator": "F",
+          "type": "MORE-VAL",
+          "word": "LATE",
+          "roles": {
+            "INTENSITY": "HI",
+            "FIGURE": "#V42951",
+            "SCALE": "DOMAIN",
+            "LEX": "LATER",
+            "WNSENSE": "better%3:00:00::"
+          },
+          "start": 31,
+          "end": 36
+        },
+        "root": "#V43280"
+      }
+    ],
+    [
+      {
+        "V43250": {
+          "id": "V43250",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V42908",
+            "LEX": "PHONED"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V42908": {
+          "id": "V42908",
+          "indicator": "F",
+          "type": "ESTABLISH-COMMUNICATION",
+          "word": "PHONE",
+          "roles": {
+            "AGENT": "#V42903",
+            "AGENT1": "#V43030",
+            "BENEFICIARY": "#V42914",
+            "EXTENT": "#V42950",
+            "TENSE": "PAST",
+            "LEX": "PHONED",
+            "WNSENSE": "phone%2:32:00::"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V42903": {
+          "id": "V42903",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V42914": {
+          "id": "V42914",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "BROTHER",
+          "roles": {
+            "ASSOC-POSS": "#V42911",
+            "LEX": "BROTHER",
+            "WNSENSE": "brother%1:18:00::"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V42911": {
+          "id": "V42911",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V43030": {
+          "id": "V43030",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V42920",
+            "LEX": "HOUR"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V42920": {
+          "id": "V42920",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* HOUR-DURATION HOUR)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "HOUR",
+            "WNSENSE": "hour%1:28:00::"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V42950": {
+          "id": "V42950",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V42908",
+            "GROUND": "#V42951",
+            "LEX": "LATER",
+            "WNSENSE": "better%3:00:00::"
+          },
+          "start": 31,
+          "end": 36
+        },
+        "V42951": {
+          "id": "V42951",
+          "indicator": "THE",
+          "type": "VALUE",
+          "word": null,
+          "roles": {
+            "MOD": "#V42926"
+          },
+          "start": 31,
+          "end": 36
+        },
+        "V42926": {
+          "id": "V42926",
+          "indicator": "F",
+          "type": "MORE-VAL",
+          "word": "LATE",
+          "roles": {
+            "INTENSITY": "HI",
+            "FIGURE": "#V42951",
+            "SCALE": "DOMAIN",
+            "LEX": "LATER",
+            "WNSENSE": "better%3:00:00::"
+          },
+          "start": 31,
+          "end": 36
+        },
+        "root": "#V43250"
+      }
+    ],
+    [
+      {
+        "V43206": {
+          "id": "V43206",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V42908",
+            "LEX": "PHONED"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V42908": {
+          "id": "V42908",
+          "indicator": "F",
+          "type": "ESTABLISH-COMMUNICATION",
+          "word": "PHONE",
+          "roles": {
+            "AGENT": "#V42903",
+            "AGENT1": "#V43068",
+            "BENEFICIARY": "#V42914",
+            "TENSE": "PAST",
+            "LEX": "PHONED",
+            "WNSENSE": "phone%2:32:00::"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V42903": {
+          "id": "V42903",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V42914": {
+          "id": "V42914",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "BROTHER",
+          "roles": {
+            "ASSOC-POSS": "#V42911",
+            "LEX": "BROTHER",
+            "WNSENSE": "brother%1:18:00::"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V42911": {
+          "id": "V42911",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V43068": {
+          "id": "V43068",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "QUANTITY": "#V42920",
+            "UNIT": "(:* HOUR-DURATION HOUR)",
+            "SCALE": "DURATION-SCALE",
+            "MOD": "#V42926",
+            "LEX": "HOUR"
+          },
+          "start": 23,
+          "end": 36
+        },
+        "V42920": {
+          "id": "V42920",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* HOUR-DURATION HOUR)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "HOUR",
+            "WNSENSE": "hour%1:28:00::"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V42926": {
+          "id": "V42926",
+          "indicator": "F",
+          "type": "MORE-VAL",
+          "word": "LATE",
+          "roles": {
+            "INTENSITY": "HI",
+            "FIGURE": "#V43068",
+            "SCALE": "DOMAIN",
+            "LEX": "LATER",
+            "WNSENSE": "better%3:00:00::"
+          },
+          "start": 31,
+          "end": 36
+        },
+        "root": "#V43206"
+      }
+    ],
+    [
+      {
+        "V43203": {
+          "id": "V43203",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V42908",
+            "LEX": "PHONED"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V42908": {
+          "id": "V42908",
+          "indicator": "F",
+          "type": "ESTABLISH-COMMUNICATION",
+          "word": "PHONE",
+          "roles": {
+            "AGENT": "#V42903",
+            "AGENT1": "#V43069",
+            "BENEFICIARY": "#V42914",
+            "TENSE": "PAST",
+            "LEX": "PHONED",
+            "WNSENSE": "phone%2:32:00::"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V42903": {
+          "id": "V42903",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V42914": {
+          "id": "V42914",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "BROTHER",
+          "roles": {
+            "ASSOC-POSS": "#V42911",
+            "LEX": "BROTHER",
+            "WNSENSE": "brother%1:18:00::"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V42911": {
+          "id": "V42911",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V43069": {
+          "id": "V43069",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V42920",
+            "MOD": "#V42926",
+            "LEX": "HOUR"
+          },
+          "start": 23,
+          "end": 36
+        },
+        "V42920": {
+          "id": "V42920",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* HOUR-DURATION HOUR)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "HOUR",
+            "WNSENSE": "hour%1:28:00::"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V42926": {
+          "id": "V42926",
+          "indicator": "F",
+          "type": "MORE-VAL",
+          "word": "LATE",
+          "roles": {
+            "INTENSITY": "HI",
+            "FIGURE": "#V43069",
+            "SCALE": "DOMAIN",
+            "LEX": "LATER",
+            "WNSENSE": "better%3:00:00::"
+          },
+          "start": 31,
+          "end": 36
+        },
+        "root": "#V43203"
+      }
+    ],
+    [
+      {
+        "V43296": {
+          "id": "V43296",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V42908",
+            "LEX": "PHONED"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V42908": {
+          "id": "V42908",
+          "indicator": "F",
+          "type": "ESTABLISH-COMMUNICATION",
+          "word": "PHONE",
+          "roles": {
+            "AGENT": "#V42903",
+            "AGENT1": "#V43030",
+            "BENEFICIARY": "#V42914",
+            "EXTENT": "#V42972",
+            "TENSE": "PAST",
+            "LEX": "PHONED",
+            "WNSENSE": "phone%2:32:00::"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V42903": {
+          "id": "V42903",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V42914": {
+          "id": "V42914",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "BROTHER",
+          "roles": {
+            "ASSOC-POSS": "#V42911",
+            "LEX": "BROTHER",
+            "WNSENSE": "brother%1:18:00::"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V42911": {
+          "id": "V42911",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V43030": {
+          "id": "V43030",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V42920",
+            "LEX": "HOUR"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V42920": {
+          "id": "V42920",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* HOUR-DURATION HOUR)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "HOUR",
+            "WNSENSE": "hour%1:28:00::"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V42972": {
+          "id": "V42972",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V42908",
+            "GROUND": "#V42973",
+            "LEX": "LATER",
+            "WNSENSE": "better%3:00:00::"
+          },
+          "start": 31,
+          "end": 36
+        },
+        "V42973": {
+          "id": "V42973",
+          "indicator": "THE",
+          "type": "VALUE",
+          "word": null,
+          "roles": {
+            "MOD": "#V42926"
+          },
+          "start": 31,
+          "end": 36
+        },
+        "V42926": {
+          "id": "V42926",
+          "indicator": "F",
+          "type": "MORE-VAL",
+          "word": "LATE",
+          "roles": {
+            "INTENSITY": "HI",
+            "FIGURE": "#V42973",
+            "SCALE": "DOMAIN",
+            "LEX": "LATER",
+            "WNSENSE": "better%3:00:00::"
+          },
+          "start": 31,
+          "end": 36
+        },
+        "root": "#V43296"
+      }
+    ],
+    [
+      {
+        "V43273": {
+          "id": "V43273",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V42908",
+            "LEX": "PHONED"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V42908": {
+          "id": "V42908",
+          "indicator": "F",
+          "type": "ESTABLISH-COMMUNICATION",
+          "word": "PHONE",
+          "roles": {
+            "AGENT": "#V42903",
+            "AGENT1": "#V43030",
+            "BENEFICIARY": "#V42914",
+            "EXTENT": "#V42972",
+            "TENSE": "PAST",
+            "LEX": "PHONED",
+            "WNSENSE": "phone%2:32:00::"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V42903": {
+          "id": "V42903",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V42914": {
+          "id": "V42914",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "BROTHER",
+          "roles": {
+            "ASSOC-POSS": "#V42911",
+            "LEX": "BROTHER",
+            "WNSENSE": "brother%1:18:00::"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V42911": {
+          "id": "V42911",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V43030": {
+          "id": "V43030",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V42920",
+            "LEX": "HOUR"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V42920": {
+          "id": "V42920",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* HOUR-DURATION HOUR)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "HOUR",
+            "WNSENSE": "hour%1:28:00::"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V42972": {
+          "id": "V42972",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V42908",
+            "GROUND": "#V42973",
+            "LEX": "LATER",
+            "WNSENSE": "better%3:00:00::"
+          },
+          "start": 31,
+          "end": 36
+        },
+        "V42973": {
+          "id": "V42973",
+          "indicator": "THE",
+          "type": "VALUE",
+          "word": null,
+          "roles": {
+            "MOD": "#V42926"
+          },
+          "start": 31,
+          "end": 36
+        },
+        "V42926": {
+          "id": "V42926",
+          "indicator": "F",
+          "type": "MORE-VAL",
+          "word": "LATE",
+          "roles": {
+            "INTENSITY": "HI",
+            "FIGURE": "#V42973",
+            "SCALE": "DOMAIN",
+            "LEX": "LATER",
+            "WNSENSE": "better%3:00:00::"
+          },
+          "start": 31,
+          "end": 36
+        },
+        "root": "#V43273"
+      }
+    ],
+    [
+      {
+        "V43347": {
+          "id": "V43347",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V42908",
+            "LEX": "PHONED"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V42908": {
+          "id": "V42908",
+          "indicator": "F",
+          "type": "ESTABLISH-COMMUNICATION",
+          "word": "PHONE",
+          "roles": {
+            "AGENT": "#V42903",
+            "AGENT1": "#V43028",
+            "BENEFICIARY": "#V42914",
+            "TIME": "#V42925",
+            "TENSE": "PAST",
+            "LEX": "PHONED",
+            "WNSENSE": "phone%2:32:00::"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V42903": {
+          "id": "V42903",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V42914": {
+          "id": "V42914",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "BROTHER",
+          "roles": {
+            "ASSOC-POSS": "#V42911",
+            "LEX": "BROTHER",
+            "WNSENSE": "brother%1:18:00::"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V42911": {
+          "id": "V42911",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 12,
+          "end": 23
+        },
+        "V43028": {
+          "id": "V43028",
+          "indicator": "SM",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "QUANTITY": "#V42920",
+            "UNIT": "(:* HOUR-DURATION HOUR)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "HOUR"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V42920": {
+          "id": "V42920",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* HOUR-DURATION HOUR)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "HOUR",
+            "WNSENSE": "hour%1:28:00::"
+          },
+          "start": 23,
+          "end": 31
+        },
+        "V42925": {
+          "id": "V42925",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "LATER",
+          "roles": {
+            "FIGURE": "#V42908",
+            "LEX": "LATER",
+            "WNSENSE": "later%4:02:01::"
+          },
+          "start": 31,
+          "end": 36
+        },
+        "root": "#V43347"
+      }
+    ]
+  ],
+  "sentence": "They phoned my brother an hour later, telling him to come pick it up.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190815T091332",
+    "link": "http://trips.ihmc.us/parser/saved/20190815T091332-STEP-abhatia-none-They_phoned_my_brother_an_hour_later_tel.xml",
+    "judgement": -1
+  }
+}

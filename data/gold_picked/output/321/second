@@ -1,0 +1,20 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V56972 [label=<<font color="green"><br /></font> <font color="black">SA_WH-QUESTION</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_WH-QUESTION.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V56451 [label=<<font color="green"><br /></font> <font color="black">HAVE-PROPERTY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BE</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::HAVE-PROPERTY.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V56440 [label=<<font color="green"><br /></font> <font color="black">AT-SCALE-VALUE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::AT-SCALE-VALUE.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V56522 [label=<<font color="green"><br /></font> <font color="black">LEVEL</font> <font color="green"><br /></font> <font color="red">WH-TERM</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::LEVEL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V56489 [label=<<font color="green"><br /></font> <font color="black">SMALL-CONTAINER</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">CAN</font> <font color="green"><br /></font> <font color="green">can%1:06:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SMALL-CONTAINER.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V56478 [label=<<font color="green"><br /></font> <font color="black">CONTENT</font> <font color="green"><br /></font> <font color="red">KIND</font> <font color="blue">RUBBISH</font> <font color="green"><br /></font> <font color="green">rubbish%1:10:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::CONTENT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V56440 -> V56522 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V56440 -> V56489 [label=" FIGURE   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V56972 -> V56451 [label=" CONTENT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V56972 -> V56522 [label=" FOCUS   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V56522 -> V56440 [label=" SUCHTHAT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V56489 -> V56478 [label=" ASSOC-WITH   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V56451 -> V56440 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V56451 -> V56489 [label=" NEUTRAL   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

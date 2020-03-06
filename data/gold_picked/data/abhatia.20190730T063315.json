@@ -1,0 +1,499 @@
+{
+  "parse": [
+    {
+      "V166563": {
+        "id": "V166563",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V163823",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 43
+      },
+      "V163823": {
+        "id": "V163823",
+        "indicator": "F",
+        "type": "EVENT-OF-CAUSATION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V163525",
+          "SEQUENCE1": "#V163576",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 43
+      },
+      "V163576": {
+        "id": "V163576",
+        "indicator": "F",
+        "type": "ACQUIRE",
+        "word": "GET",
+        "roles": {
+          "AGENT": "#V163496",
+          "AFFECTED": "#V163608",
+          "RESULT": "#V163611",
+          "LEX": "GOT",
+          "WNSENSE": "get%2:40:00::"
+        },
+        "start": 0,
+        "end": 43
+      },
+      "V163525": {
+        "id": "V163525",
+        "indicator": "F",
+        "type": "MOVE",
+        "word": "GO",
+        "roles": {
+          "RESULT": "#V163541",
+          "AGENT": "#V163496",
+          "LEX": "WENT",
+          "WNSENSE": "go%2:38:00::"
+        },
+        "start": 0,
+        "end": 43
+      },
+      "V163496": {
+        "id": "V163496",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V163541": {
+        "id": "V163541",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "INSIDE",
+        "roles": {
+          "GROUND": "#V163713",
+          "FIGURE": "#V163496",
+          "LEX": "INSIDE"
+        },
+        "start": 7,
+        "end": 14
+      },
+      "V163713": {
+        "id": "V163713",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "COREF": "#V163608"
+        },
+        "start": 7,
+        "end": 14
+      },
+      "V163608": {
+        "id": "V163608",
+        "indicator": "THE",
+        "type": "STEEP",
+        "word": "MARINATING",
+        "roles": {
+          "LEX": "MARINATING",
+          "WNSENSE": "steep%2:30:00"
+        },
+        "start": 22,
+        "end": 37
+      },
+      "V163611": {
+        "id": "V163611",
+        "indicator": "F",
+        "type": "BEEF",
+        "word": "STEAK",
+        "roles": {
+          "LEX": "STEAKS",
+          "WNSENSE": "steak%1:13:00::"
+        },
+        "start": 37,
+        "end": 43
+      },
+      "root": "#V166563"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V166607": {
+          "id": "V166607",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V163873",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 44
+        },
+        "V163873": {
+          "id": "V163873",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V163525",
+            "SEQUENCE1": "#V163576",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V163576": {
+          "id": "V163576",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "GET",
+          "roles": {
+            "AGENT": "#V163496",
+            "AFFECTED": "#V163608",
+            "RESULT": "#V163611",
+            "LEX": "GOT",
+            "WNSENSE": "get%2:40:00::"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V163525": {
+          "id": "V163525",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "AGENT": "#V163496",
+            "RESULT": "#V163541",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V163496": {
+          "id": "V163496",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V163541": {
+          "id": "V163541",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "INSIDE",
+          "roles": {
+            "GROUND": "#V163713",
+            "FIGURE": "#V163525",
+            "LEX": "INSIDE"
+          },
+          "start": 7,
+          "end": 14
+        },
+        "V163713": {
+          "id": "V163713",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 7,
+          "end": 14
+        },
+        "V163608": {
+          "id": "V163608",
+          "indicator": "THE",
+          "type": "STEEP",
+          "word": "MARINATING",
+          "roles": {
+            "LEX": "MARINATING",
+            "WNSENSE": "steep%2:30:00"
+          },
+          "start": 22,
+          "end": 37
+        },
+        "V163611": {
+          "id": "V163611",
+          "indicator": "F",
+          "type": "BEEF",
+          "word": "STEAK",
+          "roles": {
+            "LEX": "STEAKS",
+            "WNSENSE": "steak%1:13:00::"
+          },
+          "start": 37,
+          "end": 43
+        },
+        "root": "#V166607"
+      }
+    ],
+    [
+      {
+        "V166651": {
+          "id": "V166651",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V163970",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 44
+        },
+        "V163970": {
+          "id": "V163970",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V163525",
+            "SEQUENCE1": "#V163576",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V163576": {
+          "id": "V163576",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "GET",
+          "roles": {
+            "AGENT": "#V163496",
+            "AFFECTED": "#V163608",
+            "RESULT": "#V163611",
+            "LEX": "GOT",
+            "WNSENSE": "get%2:40:00::"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V163525": {
+          "id": "V163525",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "AGENT": "#V163496",
+            "RESULT": "#V163541",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V163496": {
+          "id": "V163496",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V163541": {
+          "id": "V163541",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "INSIDE",
+          "roles": {
+            "GROUND": "#V163713",
+            "FIGURE": "#V163525",
+            "LEX": "INSIDE"
+          },
+          "start": 7,
+          "end": 14
+        },
+        "V163713": {
+          "id": "V163713",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 7,
+          "end": 14
+        },
+        "V163608": {
+          "id": "V163608",
+          "indicator": "THE",
+          "type": "STEEP",
+          "word": "MARINATING",
+          "roles": {
+            "LEX": "MARINATING",
+            "WNSENSE": "steep%2:30:00"
+          },
+          "start": 22,
+          "end": 37
+        },
+        "V163611": {
+          "id": "V163611",
+          "indicator": "F",
+          "type": "BEEF",
+          "word": "STEAK",
+          "roles": {
+            "LEX": "STEAKS",
+            "WNSENSE": "steak%1:13:00::"
+          },
+          "start": 37,
+          "end": 43
+        },
+        "root": "#V166651"
+      }
+    ],
+    [
+      {
+        "V166691": {
+          "id": "V166691",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V163966",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 44
+        },
+        "V163966": {
+          "id": "V163966",
+          "indicator": "F",
+          "type": "EVENT-OF-CHANGE",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V163519",
+            "SEQUENCE1": "#V163576",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V163576": {
+          "id": "V163576",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "GET",
+          "roles": {
+            "AGENT": "#V163496",
+            "AFFECTED": "#V163608",
+            "RESULT": "#V163611",
+            "LEX": "GOT",
+            "WNSENSE": "get%2:40:00::"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V163519": {
+          "id": "V163519",
+          "indicator": "F",
+          "type": "UNDERGO-ACTION",
+          "word": "GO",
+          "roles": {
+            "AFFECTED": "#V163496",
+            "LOCATION": "#V163541",
+            "LEX": "WENT",
+            "WNSENSE": "go_down%2:42:00"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V163496": {
+          "id": "V163496",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V163541": {
+          "id": "V163541",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "INSIDE",
+          "roles": {
+            "GROUND": "#V163713",
+            "FIGURE": "#V163519",
+            "LEX": "INSIDE"
+          },
+          "start": 7,
+          "end": 14
+        },
+        "V163713": {
+          "id": "V163713",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 7,
+          "end": 14
+        },
+        "V163608": {
+          "id": "V163608",
+          "indicator": "THE",
+          "type": "STEEP",
+          "word": "MARINATING",
+          "roles": {
+            "LEX": "MARINATING",
+            "WNSENSE": "steep%2:30:00"
+          },
+          "start": 22,
+          "end": 37
+        },
+        "V163611": {
+          "id": "V163611",
+          "indicator": "F",
+          "type": "BEEF",
+          "word": "STEAK",
+          "roles": {
+            "LEX": "STEAKS",
+            "WNSENSE": "steak%1:13:00::"
+          },
+          "start": 37,
+          "end": 43
+        },
+        "root": "#V166691"
+      }
+    ]
+  ],
+  "sentence": "I went inside and got the marinating steaks.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190730T063315",
+    "link": "http://trips.ihmc.us/parser/saved/20190730T063315-STEP-abhatia-none-I_went_inside_and_got_the_marinating_ste.xml",
+    "judgement": -1
+  }
+}

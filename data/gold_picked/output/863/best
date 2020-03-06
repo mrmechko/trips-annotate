@@ -1,0 +1,23 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V47703 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V46686 [label=<<font color="green"><br /></font> <font color="black">COME-TO-UNDERSTAND</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">REALIZE</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::COME-TO-UNDERSTAND.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V46630 [label=<<font color="green"><br /></font> <font color="black">UNLUCKY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">UNFORTUNATELY</font> <font color="green"><br /></font> <font color="green">unlucky%3:00:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::UNLUCKY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V46636 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HE</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V46702 [label=<<font color="green"><br /></font> <font color="black">HAVE-PROPERTY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BE</font> <font color="green"><br /></font> <font color="green">be%2:42:03::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::HAVE-PROPERTY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V46695 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HE</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V46715 [label=<<font color="green"><br /></font> <font color="black">SENSITIVITY-VAL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">SENSITIVE</font> <font color="green"><br /></font> <font color="green">sensitive%3:00:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SENSITIVITY-VAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V46747 [label=<<font color="green"><br /></font> <font color="black">WEATHER</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">WEATHER</font> <font color="green"><br /></font> <font color="green">weather%1:19:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::WEATHER.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V46686 -> V46702 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V46715 -> V46695 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V47703 -> V46686 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V46702 -> V46695 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V46686 -> V46636 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V46686 -> V46630 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V46702 -> V46715 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V46630 -> V46686 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V46715 -> V46747 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

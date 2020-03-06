@@ -1,0 +1,727 @@
+{
+  "parse": [
+    {
+      "V351336": {
+        "id": "V351336",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V350185",
+          "LEX": "LOST"
+        },
+        "start": 0,
+        "end": 35
+      },
+      "V350185": {
+        "id": "V350185",
+        "indicator": "F",
+        "type": "LOSE",
+        "word": "LOSE",
+        "roles": {
+          "AGENT": "#V350179",
+          "AFFECTED": "#V350201",
+          "TENSE": "PAST",
+          "LEX": "LOST",
+          "WNSENSE": "lose%2:40:02::"
+        },
+        "start": 0,
+        "end": 35
+      },
+      "V350179": {
+        "id": "V350179",
+        "indicator": "THE",
+        "type": "GEOGRAPHIC-REGION",
+        "word": "KAY",
+        "roles": {
+          "NAME-OF": "KAY",
+          "LEX": "KAY",
+          "WNSENSE": "north_america%1:14:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V350201": {
+        "id": "V350201",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V350533",
+          "SEQUENCE1": "#V350216",
+          "LEX": "AND",
+          "WNSENSE": "clothes%1:06:00::"
+        },
+        "start": 9,
+        "end": 35
+      },
+      "V350533": {
+        "id": "V350533",
+        "indicator": "A",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V350195",
+          "LEX": "POUNDS"
+        },
+        "start": 9,
+        "end": 19
+      },
+      "V350195": {
+        "id": "V350195",
+        "indicator": "A",
+        "type": "QUANTITY",
+        "word": null,
+        "roles": {
+          "AMOUNT": "#V350191",
+          "UNIT": "(:* WEIGHT-UNIT POUND)",
+          "SCALE": "WEIGHT-SCALE",
+          "LEX": "POUNDS",
+          "WNSENSE": "pound%1:23:09::"
+        },
+        "start": 9,
+        "end": 19
+      },
+      "V350191": {
+        "id": "V350191",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "50"
+        },
+        "start": 9,
+        "end": 19
+      },
+      "V350216": {
+        "id": "V350216",
+        "indicator": "THE",
+        "type": "ATTIRE",
+        "word": "CLOTHES",
+        "roles": {
+          "ASSOC-POSS": "#V350211",
+          "LEX": "CLOTHES",
+          "WNSENSE": "clothes%1:06:00::"
+        },
+        "start": 23,
+        "end": 35
+      },
+      "V350211": {
+        "id": "V350211",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "HER",
+        "roles": {
+          "LEX": "HER",
+          "PROFORM": "HER",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 23,
+        "end": 35
+      },
+      "root": "#V351336"
+    },
+    {
+      "V351513": {
+        "id": "V351513",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V350266",
+          "LEX": "FIT"
+        },
+        "start": 35,
+        "end": 48
+      },
+      "V350266": {
+        "id": "V350266",
+        "indicator": "F",
+        "type": "CONNECTED",
+        "word": "FIT",
+        "roles": {
+          "AGENT": "#V351514",
+          "FREQUENCY": "#V350225",
+          "TENSE": "PAST",
+          "LEX": "FIT",
+          "WNSENSE": "adjoin%2:35:03"
+        },
+        "start": 35,
+        "end": 48
+      },
+      "V351514": {
+        "id": "V351514",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ",
+          "COREF": "#V350179"
+        },
+        "start": 35,
+        "end": 48
+      },
+      "V350225": {
+        "id": "V350225",
+        "indicator": "F",
+        "type": "FREQUENCY",
+        "word": "NO-LONGER",
+        "roles": {
+          "FIGURE": "#V350266",
+          "LEX": "NO-LONGER"
+        },
+        "start": 35,
+        "end": 45
+      },
+      "root": "#V351513"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V351336": {
+          "id": "V351336",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V350185",
+            "LEX": "LOST"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V350185": {
+          "id": "V350185",
+          "indicator": "F",
+          "type": "LOSE",
+          "word": "LOSE",
+          "roles": {
+            "AGENT": "#V350179",
+            "AFFECTED": "#V350201",
+            "TENSE": "PAST",
+            "LEX": "LOST",
+            "WNSENSE": "lose%2:40:02::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V350179": {
+          "id": "V350179",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "KAY",
+          "roles": {
+            "NAME-OF": "KAY",
+            "LEX": "KAY",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V350201": {
+          "id": "V350201",
+          "indicator": "INDEF-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V350533",
+            "SEQUENCE1": "#V350216",
+            "LEX": "AND",
+            "WNSENSE": "clothes%1:06:00::"
+          },
+          "start": 9,
+          "end": 35
+        },
+        "V350533": {
+          "id": "V350533",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V350195",
+            "LEX": "POUNDS"
+          },
+          "start": 9,
+          "end": 19
+        },
+        "V350195": {
+          "id": "V350195",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "#V350191",
+            "UNIT": "(:* WEIGHT-UNIT POUND)",
+            "SCALE": "WEIGHT-SCALE",
+            "LEX": "POUNDS",
+            "WNSENSE": "pound%1:23:09::"
+          },
+          "start": 9,
+          "end": 19
+        },
+        "V350191": {
+          "id": "V350191",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "50"
+          },
+          "start": 9,
+          "end": 19
+        },
+        "V350216": {
+          "id": "V350216",
+          "indicator": "THE",
+          "type": "ATTIRE",
+          "word": "CLOTHES",
+          "roles": {
+            "ASSOC-POSS": "#V350211",
+            "LEX": "CLOTHES",
+            "WNSENSE": "clothes%1:06:00::"
+          },
+          "start": 23,
+          "end": 35
+        },
+        "V350211": {
+          "id": "V350211",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 23,
+          "end": 35
+        },
+        "root": "#V351336"
+      },
+      {
+        "V351510": {
+          "id": "V351510",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V350273",
+            "LEX": "FIT"
+          },
+          "start": 35,
+          "end": 49
+        },
+        "V350273": {
+          "id": "V350273",
+          "indicator": "F",
+          "type": "CONNECTED",
+          "word": "FIT",
+          "roles": {
+            "AGENT": "#V351511",
+            "FREQUENCY": "#V350225",
+            "TENSE": "PRES",
+            "LEX": "FIT",
+            "WNSENSE": "adjoin%2:35:03"
+          },
+          "start": 35,
+          "end": 48
+        },
+        "V351511": {
+          "id": "V351511",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 35,
+          "end": 48
+        },
+        "V350225": {
+          "id": "V350225",
+          "indicator": "F",
+          "type": "FREQUENCY",
+          "word": "NO-LONGER",
+          "roles": {
+            "FIGURE": "#V350273",
+            "LEX": "NO-LONGER"
+          },
+          "start": 35,
+          "end": 45
+        },
+        "root": "#V351510"
+      }
+    ],
+    [
+      {
+        "V351336": {
+          "id": "V351336",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V350185",
+            "LEX": "LOST"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V350185": {
+          "id": "V350185",
+          "indicator": "F",
+          "type": "LOSE",
+          "word": "LOSE",
+          "roles": {
+            "AGENT": "#V350179",
+            "AFFECTED": "#V350201",
+            "TENSE": "PAST",
+            "LEX": "LOST",
+            "WNSENSE": "lose%2:40:02::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V350179": {
+          "id": "V350179",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "KAY",
+          "roles": {
+            "NAME-OF": "KAY",
+            "LEX": "KAY",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V350201": {
+          "id": "V350201",
+          "indicator": "INDEF-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V350533",
+            "SEQUENCE1": "#V350216",
+            "LEX": "AND",
+            "WNSENSE": "clothes%1:06:00::"
+          },
+          "start": 9,
+          "end": 35
+        },
+        "V350533": {
+          "id": "V350533",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V350195",
+            "LEX": "POUNDS"
+          },
+          "start": 9,
+          "end": 19
+        },
+        "V350195": {
+          "id": "V350195",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "#V350191",
+            "UNIT": "(:* WEIGHT-UNIT POUND)",
+            "SCALE": "WEIGHT-SCALE",
+            "LEX": "POUNDS",
+            "WNSENSE": "pound%1:23:09::"
+          },
+          "start": 9,
+          "end": 19
+        },
+        "V350191": {
+          "id": "V350191",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "50"
+          },
+          "start": 9,
+          "end": 19
+        },
+        "V350216": {
+          "id": "V350216",
+          "indicator": "THE",
+          "type": "ATTIRE",
+          "word": "CLOTHES",
+          "roles": {
+            "ASSOC-POSS": "#V350211",
+            "LEX": "CLOTHES",
+            "WNSENSE": "clothes%1:06:00::"
+          },
+          "start": 23,
+          "end": 35
+        },
+        "V350211": {
+          "id": "V350211",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 23,
+          "end": 35
+        },
+        "root": "#V351336"
+      },
+      {
+        "V351507": {
+          "id": "V351507",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V350266",
+            "LEX": "FIT"
+          },
+          "start": 35,
+          "end": 49
+        },
+        "V350266": {
+          "id": "V350266",
+          "indicator": "F",
+          "type": "CONNECTED",
+          "word": "FIT",
+          "roles": {
+            "AGENT": "#V351508",
+            "FREQUENCY": "#V350253",
+            "TENSE": "PAST",
+            "LEX": "FIT",
+            "WNSENSE": "adjoin%2:35:03"
+          },
+          "start": 35,
+          "end": 48
+        },
+        "V351508": {
+          "id": "V351508",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 35,
+          "end": 48
+        },
+        "V350253": {
+          "id": "V350253",
+          "indicator": "F",
+          "type": "FREQUENCY",
+          "word": "NO-LONGER",
+          "roles": {
+            "FIGURE": "#V350266",
+            "LEX": "NO-LONGER",
+            "WNSENSE": "no_longer%4:02:00"
+          },
+          "start": 35,
+          "end": 45
+        },
+        "root": "#V351507"
+      }
+    ],
+    [
+      {
+        "V351336": {
+          "id": "V351336",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V350185",
+            "LEX": "LOST"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V350185": {
+          "id": "V350185",
+          "indicator": "F",
+          "type": "LOSE",
+          "word": "LOSE",
+          "roles": {
+            "AGENT": "#V350179",
+            "AFFECTED": "#V350201",
+            "TENSE": "PAST",
+            "LEX": "LOST",
+            "WNSENSE": "lose%2:40:02::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V350179": {
+          "id": "V350179",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "KAY",
+          "roles": {
+            "NAME-OF": "KAY",
+            "LEX": "KAY",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V350201": {
+          "id": "V350201",
+          "indicator": "INDEF-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V350533",
+            "SEQUENCE1": "#V350216",
+            "LEX": "AND",
+            "WNSENSE": "clothes%1:06:00::"
+          },
+          "start": 9,
+          "end": 35
+        },
+        "V350533": {
+          "id": "V350533",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V350195",
+            "LEX": "POUNDS"
+          },
+          "start": 9,
+          "end": 19
+        },
+        "V350195": {
+          "id": "V350195",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "#V350191",
+            "UNIT": "(:* WEIGHT-UNIT POUND)",
+            "SCALE": "WEIGHT-SCALE",
+            "LEX": "POUNDS",
+            "WNSENSE": "pound%1:23:09::"
+          },
+          "start": 9,
+          "end": 19
+        },
+        "V350191": {
+          "id": "V350191",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "50"
+          },
+          "start": 9,
+          "end": 19
+        },
+        "V350216": {
+          "id": "V350216",
+          "indicator": "THE",
+          "type": "ATTIRE",
+          "word": "CLOTHES",
+          "roles": {
+            "ASSOC-POSS": "#V350211",
+            "LEX": "CLOTHES",
+            "WNSENSE": "clothes%1:06:00::"
+          },
+          "start": 23,
+          "end": 35
+        },
+        "V350211": {
+          "id": "V350211",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 23,
+          "end": 35
+        },
+        "root": "#V351336"
+      },
+      {
+        "V351504": {
+          "id": "V351504",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V350273",
+            "LEX": "FIT"
+          },
+          "start": 35,
+          "end": 49
+        },
+        "V350273": {
+          "id": "V350273",
+          "indicator": "F",
+          "type": "CONNECTED",
+          "word": "FIT",
+          "roles": {
+            "AGENT": "#V351505",
+            "FREQUENCY": "#V350253",
+            "TENSE": "PRES",
+            "LEX": "FIT",
+            "WNSENSE": "adjoin%2:35:03"
+          },
+          "start": 35,
+          "end": 48
+        },
+        "V351505": {
+          "id": "V351505",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 35,
+          "end": 48
+        },
+        "V350253": {
+          "id": "V350253",
+          "indicator": "F",
+          "type": "FREQUENCY",
+          "word": "NO-LONGER",
+          "roles": {
+            "FIGURE": "#V350273",
+            "LEX": "NO-LONGER",
+            "WNSENSE": "no_longer%4:02:00"
+          },
+          "start": 35,
+          "end": 45
+        },
+        "root": "#V351504"
+      }
+    ]
+  ],
+  "sentence": "Kay lost 50 pounds and her clothes no longer fit.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190802T101157",
+    "link": "http://trips.ihmc.us/parser/saved/20190802T101157-STEP-abhatia-none-Kay_lost_50_pounds_and_her_clothes_no_lo.xml",
+    "judgement": -1
+  }
+}

@@ -1,0 +1,18 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V63417 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V62906 [label=<<font color="green"><br /></font> <font color="black">COMMAND</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">TELL</font> <font color="green"><br /></font> <font color="green">tell%2:32:02::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::COMMAND.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V62894 [label=<<font color="green"><br /></font> <font color="black">GROUP-OBJECT</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">GROUP</font> <font color="green"><br /></font> <font color="green">group%1:03:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GROUP-OBJECT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V62885 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">MY</font> <font color="green"><br /></font> <font color="green">person%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V62914 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">ME</font> <font color="green"><br /></font> <font color="green">person%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V63101 [label=<<font color="green"><br /></font> <font color="black">TRY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">GIVE-IT-A-TRY</font> <font color="green"><br /></font> <font color="green">give_it_a_try%2:41:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TRY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V63101 -> V62914 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V63417 -> V62906 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V62894 -> V62885 [label=" ASSOC-POSS   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V62906 -> V63101 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V62906 -> V62894 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V62906 -> V62914 [label=" AGENT1   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

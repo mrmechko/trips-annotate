@@ -1,0 +1,24 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V71371 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70886 [label=<<font color="green"><br /></font> <font color="black">BE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BE</font> <font color="green"><br /></font> <font color="green">be%2:42:06::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70844 [label=<<font color="green"><br /></font> <font color="black">PLACE</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">PLACE</font> <font color="green"><br /></font> <font color="green">place%1:15:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PLACE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70875 [label=<<font color="green"><br /></font> <font color="black">PRECIPITATING</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">RAIN</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PRECIPITATING.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70851 [label=<<font color="green"><br /></font> <font color="black">AT-LOC</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">WHERE</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::AT-LOC.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70862 [label=<<font color="green"><br /></font> <font color="black">EXPLETIVE</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EXPLETIVE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70868 [label=<<font color="green"><br /></font> <font color="black">NEVER</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">NEVER</font> <font color="green"><br /></font> <font color="green">never%4:02:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::NEVER.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70908 [label=<<font color="green"><br /></font> <font color="black">GEOGRAPHIC-REGION</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">ARIZONA</font> <font color="green"><br /></font> <font color="green">north_america%1:14:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GEOGRAPHIC-REGION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70875 -> V70862 [label=" NOROLE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70886 -> V70844 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70875 -> V70851 [label=" LOCATION   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70851 -> V70844 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70851 -> V70875 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70844 -> V70875 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70875 -> V70868 [label=" FREQUENCY   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70886 -> V70908 [label=" NEUTRAL1   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V71371 -> V70886 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70868 -> V70875 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

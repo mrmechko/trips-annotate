@@ -1,0 +1,14 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V51244 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V50979 [label=<<font color="green"><br /></font> <font color="black">APPEAR</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BREAK</font> <font color="green"><br /></font> <font color="green">break%2:38:09::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::APPEAR.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V50967 [label=<<font color="green"><br /></font> <font color="black">COMPANY</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">COMPANY</font> <font color="green"><br /></font> <font color="green">company%1:14:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::COMPANY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V51020 [label=<<font color="green"><br /></font> <font color="black">MODIFIER</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">EVEN</font> <font color="green"><br /></font> <font color="green">even%4:02:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MODIFIER.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V51244 -> V50979 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V51020 -> V50979 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V50979 -> V51020 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V50979 -> V50967 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

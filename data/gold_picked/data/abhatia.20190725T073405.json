@@ -1,0 +1,563 @@
+{
+  "parse": [
+    {
+      "V341161": {
+        "id": "V341161",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V333288",
+          "LEX": "GOT"
+        },
+        "start": 0,
+        "end": 45
+      },
+      "V333288": {
+        "id": "V333288",
+        "indicator": "F",
+        "type": "ACQUIRE",
+        "word": "GET",
+        "roles": {
+          "AGENT": "#V333259",
+          "AFFECTED": "#V333315",
+          "BENEFICIARY": "#V333309",
+          "TENSE": "PAST",
+          "LEX": "GOT",
+          "WNSENSE": "get%2:40:00::"
+        },
+        "start": 0,
+        "end": 45
+      },
+      "V333259": {
+        "id": "V333259",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00",
+          "COREF": "#V333427"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V333309": {
+        "id": "V333309",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 7,
+        "end": 10
+      },
+      "V333315": {
+        "id": "V333315",
+        "indicator": "BARE",
+        "type": "BELIEVE",
+        "word": "THINK",
+        "roles": {
+          "FORMAL": "#V333376",
+          "LEX": "THINKING",
+          "WNSENSE": "think%2:31:01::"
+        },
+        "start": 10,
+        "end": 45
+      },
+      "V333376": {
+        "id": "V333376",
+        "indicator": "F",
+        "type": "USE",
+        "word": "USE",
+        "roles": {
+          "AGENT": "#V333352",
+          "AFFECTED": "#V333427",
+          "PROP": "+",
+          "TENSE": "PRES",
+          "MODALITY": "(:* CONDITIONAL COULD)",
+          "LEX": "USE",
+          "WNSENSE": "use%1:04:00::"
+        },
+        "start": 19,
+        "end": 45
+      },
+      "V333352": {
+        "id": "V333352",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 24,
+        "end": 26
+      },
+      "V333427": {
+        "id": "V333427",
+        "indicator": "A",
+        "type": "WORKING",
+        "word": "JOB",
+        "roles": {
+          "MOD": "#V333424",
+          "LEX": "JOB",
+          "WNSENSE": "work%2:41:05"
+        },
+        "start": 36,
+        "end": 45
+      },
+      "V333424": {
+        "id": "V333424",
+        "indicator": "F",
+        "type": "NOVELTY-VAL",
+        "word": "NEW",
+        "roles": {
+          "FIGURE": "#V333427",
+          "SCALE": "NOT-CONVENTIONAL-SCALE",
+          "LEX": "NEW",
+          "WNSENSE": "new%5:00:00:original:00"
+        },
+        "start": 38,
+        "end": 42
+      },
+      "root": "#V341161"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V340933": {
+          "id": "V340933",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V333288",
+            "LEX": "GOT"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V333288": {
+          "id": "V333288",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "GET",
+          "roles": {
+            "AGENT": "#V333259",
+            "AFFECTED": "#V333315",
+            "BENEFICIARY": "#V333309",
+            "TENSE": "PAST",
+            "LEX": "GOT",
+            "WNSENSE": "get%2:40:00::"
+          },
+          "start": 0,
+          "end": 45
+        },
+        "V333259": {
+          "id": "V333259",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V333309": {
+          "id": "V333309",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 7,
+          "end": 10
+        },
+        "V333315": {
+          "id": "V333315",
+          "indicator": "BARE",
+          "type": "BELIEVE",
+          "word": "THINK",
+          "roles": {
+            "FORMAL": "#V333376",
+            "LEX": "THINKING",
+            "WNSENSE": "think%2:31:01::"
+          },
+          "start": 10,
+          "end": 45
+        },
+        "V333376": {
+          "id": "V333376",
+          "indicator": "F",
+          "type": "USE",
+          "word": "USE",
+          "roles": {
+            "AGENT": "#V333352",
+            "AFFECTED": "#V333427",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "MODALITY": "(:* CONDITIONAL COULD)",
+            "LEX": "USE",
+            "WNSENSE": "use%1:04:00::"
+          },
+          "start": 19,
+          "end": 45
+        },
+        "V333352": {
+          "id": "V333352",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 24,
+          "end": 26
+        },
+        "V333427": {
+          "id": "V333427",
+          "indicator": "A",
+          "type": "WORKING",
+          "word": "JOB",
+          "roles": {
+            "MOD": "#V333424",
+            "LEX": "JOB",
+            "WNSENSE": "work%2:41:05"
+          },
+          "start": 36,
+          "end": 45
+        },
+        "V333424": {
+          "id": "V333424",
+          "indicator": "F",
+          "type": "NOVELTY-VAL",
+          "word": "NEW",
+          "roles": {
+            "FIGURE": "#V333427",
+            "SCALE": "NOT-CONVENTIONAL-SCALE",
+            "LEX": "NEW",
+            "WNSENSE": "new%5:00:00:original:00"
+          },
+          "start": 38,
+          "end": 42
+        },
+        "root": "#V340933"
+      }
+    ],
+    [
+      {
+        "V341179": {
+          "id": "V341179",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V333288",
+            "LEX": "GOT"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V333288": {
+          "id": "V333288",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "GET",
+          "roles": {
+            "AGENT": "#V333259",
+            "AFFECTED": "#V333309",
+            "TIME": "#V341149",
+            "TENSE": "PAST",
+            "LEX": "GOT",
+            "WNSENSE": "get%2:40:00::"
+          },
+          "start": 0,
+          "end": 45
+        },
+        "V333259": {
+          "id": "V333259",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V333309": {
+          "id": "V333309",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 7,
+          "end": 10
+        },
+        "V341149": {
+          "id": "V341149",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V333288",
+            "GROUND": "#V333315",
+            "LEX": "THINKING"
+          },
+          "start": 10,
+          "end": 45
+        },
+        "V333315": {
+          "id": "V333315",
+          "indicator": "F",
+          "type": "BELIEVE",
+          "word": "THINK",
+          "roles": {
+            "FORMAL": "#V333376",
+            "VFORM": "ING",
+            "LEX": "THINKING",
+            "WNSENSE": "think%2:31:01::"
+          },
+          "start": 10,
+          "end": 45
+        },
+        "V333376": {
+          "id": "V333376",
+          "indicator": "F",
+          "type": "USE",
+          "word": "USE",
+          "roles": {
+            "AGENT": "#V333352",
+            "AFFECTED": "#V333427",
+            "PROP": "+",
+            "TENSE": "PRES",
+            "MODALITY": "(:* CONDITIONAL COULD)",
+            "LEX": "USE",
+            "WNSENSE": "use%1:04:00::"
+          },
+          "start": 19,
+          "end": 45
+        },
+        "V333352": {
+          "id": "V333352",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 24,
+          "end": 26
+        },
+        "V333427": {
+          "id": "V333427",
+          "indicator": "A",
+          "type": "WORKING",
+          "word": "JOB",
+          "roles": {
+            "MOD": "#V333424",
+            "LEX": "JOB",
+            "WNSENSE": "work%2:41:05"
+          },
+          "start": 36,
+          "end": 45
+        },
+        "V333424": {
+          "id": "V333424",
+          "indicator": "F",
+          "type": "NOVELTY-VAL",
+          "word": "NEW",
+          "roles": {
+            "FIGURE": "#V333427",
+            "SCALE": "NOT-CONVENTIONAL-SCALE",
+            "LEX": "NEW",
+            "WNSENSE": "new%5:00:00:original:00"
+          },
+          "start": 38,
+          "end": 42
+        },
+        "root": "#V341179"
+      }
+    ],
+    [
+      {
+        "V340951": {
+          "id": "V340951",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V333288",
+            "LEX": "GOT"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V333288": {
+          "id": "V333288",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "GET",
+          "roles": {
+            "AGENT": "#V333259",
+            "AFFECTED": "#V333309",
+            "TIME": "#V340921",
+            "TENSE": "PAST",
+            "LEX": "GOT",
+            "WNSENSE": "get%2:40:00::"
+          },
+          "start": 0,
+          "end": 45
+        },
+        "V333259": {
+          "id": "V333259",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V333309": {
+          "id": "V333309",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 7,
+          "end": 10
+        },
+        "V340921": {
+          "id": "V340921",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V333288",
+            "GROUND": "#V333315",
+            "LEX": "THINKING"
+          },
+          "start": 10,
+          "end": 45
+        },
+        "V333315": {
+          "id": "V333315",
+          "indicator": "F",
+          "type": "BELIEVE",
+          "word": "THINK",
+          "roles": {
+            "FORMAL": "#V333376",
+            "VFORM": "ING",
+            "LEX": "THINKING",
+            "WNSENSE": "think%2:31:01::"
+          },
+          "start": 10,
+          "end": 45
+        },
+        "V333376": {
+          "id": "V333376",
+          "indicator": "F",
+          "type": "USE",
+          "word": "USE",
+          "roles": {
+            "AGENT": "#V333352",
+            "AFFECTED": "#V333427",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "MODALITY": "(:* CONDITIONAL COULD)",
+            "LEX": "USE",
+            "WNSENSE": "use%1:04:00::"
+          },
+          "start": 19,
+          "end": 45
+        },
+        "V333352": {
+          "id": "V333352",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 24,
+          "end": 26
+        },
+        "V333427": {
+          "id": "V333427",
+          "indicator": "A",
+          "type": "WORKING",
+          "word": "JOB",
+          "roles": {
+            "MOD": "#V333424",
+            "LEX": "JOB",
+            "WNSENSE": "work%2:41:05"
+          },
+          "start": 36,
+          "end": 45
+        },
+        "V333424": {
+          "id": "V333424",
+          "indicator": "F",
+          "type": "NOVELTY-VAL",
+          "word": "NEW",
+          "roles": {
+            "FIGURE": "#V333427",
+            "SCALE": "NOT-CONVENTIONAL-SCALE",
+            "LEX": "NEW",
+            "WNSENSE": "new%5:00:00:original:00"
+          },
+          "start": 38,
+          "end": 42
+        },
+        "root": "#V340951"
+      }
+    ]
+  ],
+  "sentence": "It got me thinking that I could use a new job.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190725T073405",
+    "link": "http://trips.ihmc.us/parser/saved/20190725T073405-STEP-abhatia-none-It_got_me_thinking_that_I_could_use_a_ne.xml",
+    "judgement": -1
+  }
+}

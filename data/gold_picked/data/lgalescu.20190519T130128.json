@@ -1,0 +1,138 @@
+{
+  "parse": [
+    {
+      "V47273": {
+        "id": "V47273",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V39344",
+          "FOCUS": "#V39565"
+        },
+        "start": 0,
+        "end": 43
+      },
+      "V39344": {
+        "id": "V39344",
+        "indicator": "F",
+        "type": "INCREASE",
+        "word": "INCREASE",
+        "roles": {
+          "AFFECTED": "#V39565",
+          "TENSE": "PRES",
+          "PERF": "+"
+        },
+        "start": 0,
+        "end": 43
+      },
+      "V39565": {
+        "id": "V39565",
+        "indicator": "WH-TERM-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "ITEM",
+        "roles": {
+          "REFSET": "#V39175",
+          "QUAN": "WHICH"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V39175": {
+        "id": "V39175",
+        "indicator": "THE-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "ITEM",
+        "roles": {
+          "LOCATION": "#V39185"
+        },
+        "start": 6,
+        "end": 28
+      },
+      "V39185": {
+        "id": "V39185",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V39290",
+          "FIGURE": "#V39175"
+        },
+        "start": 19,
+        "end": 28
+      },
+      "V39290": {
+        "id": "V39290",
+        "indicator": "THE",
+        "type": "LIST",
+        "word": "LIST",
+        "roles": {
+          "NAME-OF": "(LIST 1)"
+        },
+        "start": 22,
+        "end": 28
+      },
+      "root": "#V47273"
+    },
+    {
+      "V40842": {
+        "id": "V40842",
+        "indicator": "SPEECHACT",
+        "type": "SA_YN-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V39418",
+          "PUNCTYPE": "YNQ"
+        },
+        "start": 43,
+        "end": 65
+      },
+      "V39418": {
+        "id": "V39418",
+        "indicator": "A",
+        "type": "QUANTITY",
+        "word": null,
+        "roles": {
+          "AMOUNT": "PLURAL",
+          "UNIT": "(:* MULTIPLE FOLD)",
+          "SCALE": "DOMAIN",
+          "ASSOC-WITH": "#V39354"
+        },
+        "start": 43,
+        "end": 64
+      },
+      "V39354": {
+        "id": "V39354",
+        "indicator": "KIND",
+        "type": "GENE-EXPRESSION",
+        "word": "EXPRESSION",
+        "roles": {
+          "AGENT": "#V39407"
+        },
+        "start": 43,
+        "end": 64
+      },
+      "V39407": {
+        "id": "V39407",
+        "indicator": "THE",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "NUMBER": "10"
+        },
+        "start": 54,
+        "end": 59
+      },
+      "root": "#V40842"
+    }
+  ],
+  "alternatives": [],
+  "sentence": "Which of the items in LIST1 have increased expression by 10-fold?",
+  "annotation": {
+    "judge": "lgalescu",
+    "parser": "BOB",
+    "timestamp": "20190519T130128",
+    "link": "http://trips.ihmc.us/parser/saved/20190519T130128-BOB-lgalescu-0-Which_of_the_items_in_LIST1_have_increas.xml",
+    "judgement": 0
+  }
+}

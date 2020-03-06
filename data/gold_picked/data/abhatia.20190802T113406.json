@@ -1,0 +1,585 @@
+{
+  "parse": [
+    {
+      "V397360": {
+        "id": "V397360",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V395226",
+          "LEX": "DAY"
+        },
+        "start": 0,
+        "end": 14
+      },
+      "V395226": {
+        "id": "V395226",
+        "indicator": "THE",
+        "type": "DAY",
+        "word": "DAY",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V395218",
+          "LEX": "DAY",
+          "WNSENSE": "day%1:28:03::"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V395218": {
+        "id": "V395218",
+        "indicator": "F",
+        "type": "SEQUENCE-VAL-NEXT",
+        "word": "NEXT",
+        "roles": {
+          "FIGURE": "#V395226",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "NEXT",
+          "WNSENSE": "next%5:00:00:succeeding:00"
+        },
+        "start": 4,
+        "end": 9
+      },
+      "root": "#V397360"
+    },
+    {
+      "V395889": {
+        "id": "V395889",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V395296",
+          "LEX": "CALLED-ON"
+        },
+        "start": 14,
+        "end": 65
+      },
+      "V395296": {
+        "id": "V395296",
+        "indicator": "F",
+        "type": "REQUEST",
+        "word": "CALLED-ON",
+        "roles": {
+          "AGENT": "#V395239",
+          "AGENT1": "#V395357",
+          "FORMAL": "#V395408",
+          "TENSE": "PAST",
+          "LEX": "CALLED-ON",
+          "WNSENSE": "call_on%2:32:00"
+        },
+        "start": 14,
+        "end": 65
+      },
+      "V395239": {
+        "id": "V395239",
+        "indicator": "THE",
+        "type": "PROFESSIONAL",
+        "word": "TEACHER",
+        "roles": {
+          "LEX": "TEACHER",
+          "WNSENSE": "teacher%1:18:00::"
+        },
+        "start": 14,
+        "end": 26
+      },
+      "V395357": {
+        "id": "V395357",
+        "indicator": "THE",
+        "type": "GROUP-OBJECT",
+        "word": "GROUP",
+        "roles": {
+          "ASSOC-POSS": "#V395348",
+          "LEX": "GROUP",
+          "WNSENSE": "group%1:03:00::"
+        },
+        "start": 36,
+        "end": 46
+      },
+      "V395348": {
+        "id": "V395348",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "OUR",
+        "roles": {
+          "LEX": "OUR",
+          "PROFORM": "OUR",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "US"
+        },
+        "start": 36,
+        "end": 46
+      },
+      "V395408": {
+        "id": "V395408",
+        "indicator": "F",
+        "type": "START",
+        "word": "START",
+        "roles": {
+          "AGENT": "#V395357",
+          "FORMAL": "#V395435",
+          "VFORM": "BASE",
+          "LEX": "START",
+          "WNSENSE": "start%1:11:00::"
+        },
+        "start": 46,
+        "end": 65
+      },
+      "V395435": {
+        "id": "V395435",
+        "indicator": "F",
+        "type": "APPEAR",
+        "word": "PRESENT",
+        "roles": {
+          "AFFECTED": "#V395357",
+          "VFORM": "ING",
+          "LEX": "PRESENTING",
+          "WNSENSE": "appear%2:30:00"
+        },
+        "start": 55,
+        "end": 65
+      },
+      "root": "#V395889"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V397360": {
+          "id": "V397360",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V395226",
+            "LEX": "DAY"
+          },
+          "start": 0,
+          "end": 14
+        },
+        "V395226": {
+          "id": "V395226",
+          "indicator": "THE",
+          "type": "DAY",
+          "word": "DAY",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE",
+            "MOD": "#V395218",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:03::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V395218": {
+          "id": "V395218",
+          "indicator": "F",
+          "type": "SEQUENCE-VAL-NEXT",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V395226",
+            "SCALE": "RELATIONAL-PROPERTY-SCALE",
+            "LEX": "NEXT",
+            "WNSENSE": "next%5:00:00:succeeding:00"
+          },
+          "start": 4,
+          "end": 9
+        },
+        "root": "#V397360"
+      },
+      {
+        "V395886": {
+          "id": "V395886",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V395300",
+            "LEX": "CALLED-ON"
+          },
+          "start": 14,
+          "end": 66
+        },
+        "V395300": {
+          "id": "V395300",
+          "indicator": "F",
+          "type": "REQUEST",
+          "word": "CALLED-ON",
+          "roles": {
+            "AGENT": "#V395239",
+            "AFFECTED": "#V395357",
+            "FORMAL": "#V395408",
+            "TENSE": "PAST",
+            "LEX": "CALLED-ON",
+            "WNSENSE": "call_on%2:32:00"
+          },
+          "start": 14,
+          "end": 65
+        },
+        "V395239": {
+          "id": "V395239",
+          "indicator": "THE",
+          "type": "PROFESSIONAL",
+          "word": "TEACHER",
+          "roles": {
+            "LEX": "TEACHER",
+            "WNSENSE": "teacher%1:18:00::"
+          },
+          "start": 14,
+          "end": 26
+        },
+        "V395357": {
+          "id": "V395357",
+          "indicator": "THE",
+          "type": "GROUP-OBJECT",
+          "word": "GROUP",
+          "roles": {
+            "ASSOC-POSS": "#V395348",
+            "LEX": "GROUP",
+            "WNSENSE": "group%1:03:00::"
+          },
+          "start": 36,
+          "end": 46
+        },
+        "V395348": {
+          "id": "V395348",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "OUR",
+          "roles": {
+            "LEX": "OUR",
+            "PROFORM": "OUR",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 36,
+          "end": 46
+        },
+        "V395408": {
+          "id": "V395408",
+          "indicator": "F",
+          "type": "START",
+          "word": "START",
+          "roles": {
+            "FORMAL": "#V395435",
+            "VFORM": "BASE",
+            "LEX": "START",
+            "WNSENSE": "start%1:11:00::"
+          },
+          "start": 46,
+          "end": 65
+        },
+        "V395435": {
+          "id": "V395435",
+          "indicator": "F",
+          "type": "APPEAR",
+          "word": "PRESENT",
+          "roles": {
+            "VFORM": "ING",
+            "LEX": "PRESENTING",
+            "WNSENSE": "appear%2:30:00"
+          },
+          "start": 55,
+          "end": 65
+        },
+        "root": "#V395886"
+      }
+    ],
+    [
+      {
+        "V397360": {
+          "id": "V397360",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V395226",
+            "LEX": "DAY"
+          },
+          "start": 0,
+          "end": 14
+        },
+        "V395226": {
+          "id": "V395226",
+          "indicator": "THE",
+          "type": "DAY",
+          "word": "DAY",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE",
+            "MOD": "#V395218",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:03::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V395218": {
+          "id": "V395218",
+          "indicator": "F",
+          "type": "SEQUENCE-VAL-NEXT",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V395226",
+            "SCALE": "RELATIONAL-PROPERTY-SCALE",
+            "LEX": "NEXT",
+            "WNSENSE": "next%5:00:00:succeeding:00"
+          },
+          "start": 4,
+          "end": 9
+        },
+        "root": "#V397360"
+      },
+      {
+        "V395883": {
+          "id": "V395883",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V395310",
+            "LEX": "CALLED-ON"
+          },
+          "start": 14,
+          "end": 66
+        },
+        "V395310": {
+          "id": "V395310",
+          "indicator": "F",
+          "type": "REQUEST",
+          "word": "CALLED-ON",
+          "roles": {
+            "AGENT": "#V395239",
+            "AFFECTED": "#V395357",
+            "FORMAL": "#V395408",
+            "TENSE": "PAST",
+            "LEX": "CALLED-ON",
+            "WNSENSE": "call_on%2:32:00"
+          },
+          "start": 14,
+          "end": 65
+        },
+        "V395239": {
+          "id": "V395239",
+          "indicator": "THE",
+          "type": "PROFESSIONAL",
+          "word": "TEACHER",
+          "roles": {
+            "LEX": "TEACHER",
+            "WNSENSE": "teacher%1:18:00::"
+          },
+          "start": 14,
+          "end": 26
+        },
+        "V395357": {
+          "id": "V395357",
+          "indicator": "THE",
+          "type": "GROUP-OBJECT",
+          "word": "GROUP",
+          "roles": {
+            "ASSOC-POSS": "#V395348",
+            "LEX": "GROUP",
+            "WNSENSE": "group%1:03:00::"
+          },
+          "start": 36,
+          "end": 46
+        },
+        "V395348": {
+          "id": "V395348",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "OUR",
+          "roles": {
+            "LEX": "OUR",
+            "PROFORM": "OUR",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 36,
+          "end": 46
+        },
+        "V395408": {
+          "id": "V395408",
+          "indicator": "F",
+          "type": "START",
+          "word": "START",
+          "roles": {
+            "AGENT": "#V395357",
+            "FORMAL": "#V395435",
+            "VFORM": "BASE",
+            "LEX": "START",
+            "WNSENSE": "start%1:11:00::"
+          },
+          "start": 46,
+          "end": 65
+        },
+        "V395435": {
+          "id": "V395435",
+          "indicator": "F",
+          "type": "APPEAR",
+          "word": "PRESENT",
+          "roles": {
+            "AFFECTED": "#V395357",
+            "VFORM": "ING",
+            "LEX": "PRESENTING",
+            "WNSENSE": "appear%2:30:00"
+          },
+          "start": 55,
+          "end": 65
+        },
+        "root": "#V395883"
+      }
+    ],
+    [
+      {
+        "V397360": {
+          "id": "V397360",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V395226",
+            "LEX": "DAY"
+          },
+          "start": 0,
+          "end": 14
+        },
+        "V395226": {
+          "id": "V395226",
+          "indicator": "THE",
+          "type": "DAY",
+          "word": "DAY",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE",
+            "MOD": "#V395218",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:03::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V395218": {
+          "id": "V395218",
+          "indicator": "F",
+          "type": "SEQUENCE-VAL-NEXT",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V395226",
+            "SCALE": "RELATIONAL-PROPERTY-SCALE",
+            "LEX": "NEXT",
+            "WNSENSE": "next%5:00:00:succeeding:00"
+          },
+          "start": 4,
+          "end": 9
+        },
+        "root": "#V397360"
+      },
+      {
+        "V395880": {
+          "id": "V395880",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V395300",
+            "LEX": "CALLED-ON"
+          },
+          "start": 14,
+          "end": 66
+        },
+        "V395300": {
+          "id": "V395300",
+          "indicator": "F",
+          "type": "REQUEST",
+          "word": "CALLED-ON",
+          "roles": {
+            "AGENT": "#V395239",
+            "AFFECTED": "#V395356",
+            "FORMAL": "#V395408",
+            "TENSE": "PAST",
+            "LEX": "CALLED-ON",
+            "WNSENSE": "call_on%2:32:00"
+          },
+          "start": 14,
+          "end": 65
+        },
+        "V395239": {
+          "id": "V395239",
+          "indicator": "THE",
+          "type": "PROFESSIONAL",
+          "word": "TEACHER",
+          "roles": {
+            "LEX": "TEACHER",
+            "WNSENSE": "teacher%1:18:00::"
+          },
+          "start": 14,
+          "end": 26
+        },
+        "V395356": {
+          "id": "V395356",
+          "indicator": "THE",
+          "type": "GROUP-OBJECT",
+          "word": "GROUP",
+          "roles": {
+            "ASSOC-POSS": "#V395348",
+            "LEX": "GROUP",
+            "WNSENSE": "group%1:03:00::"
+          },
+          "start": 36,
+          "end": 46
+        },
+        "V395348": {
+          "id": "V395348",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "OUR",
+          "roles": {
+            "LEX": "OUR",
+            "PROFORM": "OUR",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 36,
+          "end": 46
+        },
+        "V395408": {
+          "id": "V395408",
+          "indicator": "F",
+          "type": "START",
+          "word": "START",
+          "roles": {
+            "FORMAL": "#V395435",
+            "VFORM": "BASE",
+            "LEX": "START",
+            "WNSENSE": "start%1:11:00::"
+          },
+          "start": 46,
+          "end": 65
+        },
+        "V395435": {
+          "id": "V395435",
+          "indicator": "F",
+          "type": "APPEAR",
+          "word": "PRESENT",
+          "roles": {
+            "VFORM": "ING",
+            "LEX": "PRESENTING",
+            "WNSENSE": "appear%2:30:00"
+          },
+          "start": 55,
+          "end": 65
+        },
+        "root": "#V395880"
+      }
+    ]
+  ],
+  "sentence": "The next day, the teacher called on our group to start presenting.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190802T113406",
+    "link": "http://trips.ihmc.us/parser/saved/20190802T113406-STEP-abhatia-none-The_next_day_the_teacher_called_on_our_g.xml",
+    "judgement": -1
+  }
+}

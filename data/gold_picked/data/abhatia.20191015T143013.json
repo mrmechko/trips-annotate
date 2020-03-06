@@ -1,0 +1,2000 @@
+{
+  "parse": [
+    {
+      "V59103": {
+        "id": "V59103",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V57998",
+          "LEX": "SINGING-ALONG"
+        },
+        "start": 0,
+        "end": 33
+      },
+      "V57998": {
+        "id": "V57998",
+        "indicator": "F",
+        "type": "SING",
+        "word": "SINGING-ALONG",
+        "roles": {
+          "AGENT": "#V57944",
+          "TIME": "#V58009",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "SINGING-ALONG",
+          "WNSENSE": "sing_along%2:36:00"
+        },
+        "start": 0,
+        "end": 33
+      },
+      "V57944": {
+        "id": "V57944",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V58009": {
+        "id": "V58009",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V58032",
+          "FIGURE": "#V57998",
+          "LEX": "TO"
+        },
+        "start": 20,
+        "end": 33
+      },
+      "V58032": {
+        "id": "V58032",
+        "indicator": "QUANTIFIER",
+        "type": "MUSIC",
+        "word": "SONG",
+        "roles": {
+          "QUAN": "EVERY",
+          "LEX": "SONG",
+          "WNSENSE": "song%1:10:00::"
+        },
+        "start": 23,
+        "end": 33
+      },
+      "root": "#V59103"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V59152": {
+          "id": "V59152",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V57998",
+            "LEX": "SINGING-ALONG"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V57998": {
+          "id": "V57998",
+          "indicator": "F",
+          "type": "SING",
+          "word": "SINGING-ALONG",
+          "roles": {
+            "AGENT": "#V58365",
+            "TIME": "#V58009",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "SINGING-ALONG",
+            "WNSENSE": "sing_along%2:36:00"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V58365": {
+          "id": "V58365",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58009": {
+          "id": "V58009",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V58032",
+            "FIGURE": "#V57998",
+            "LEX": "TO"
+          },
+          "start": 20,
+          "end": 33
+        },
+        "V58032": {
+          "id": "V58032",
+          "indicator": "QUANTIFIER",
+          "type": "MUSIC",
+          "word": "SONG",
+          "roles": {
+            "QUAN": "EVERY",
+            "LEX": "SONG",
+            "WNSENSE": "song%1:10:00::"
+          },
+          "start": 23,
+          "end": 33
+        },
+        "root": "#V59152"
+      }
+    ],
+    [
+      {
+        "V58446": {
+          "id": "V58446",
+          "indicator": "SPEECHACT",
+          "type": "SA_YN-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V57960",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V57960": {
+          "id": "V57960",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V57996",
+            "FORMAL": "#V58008",
+            "TIME": "#V58417",
+            "TENSE": "PAST",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V58417": {
+          "id": "V58417",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V57960",
+            "GROUND": "#V58425"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58425": {
+          "id": "V58425",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V58365",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58365": {
+          "id": "V58365",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V57996": {
+          "id": "V57996",
+          "indicator": "BARE",
+          "type": "SING",
+          "word": "SINGING-ALONG",
+          "roles": {
+            "LEX": "SINGING-ALONG",
+            "WNSENSE": "sing_along%2:36:00"
+          },
+          "start": 6,
+          "end": 20
+        },
+        "V58008": {
+          "id": "V58008",
+          "indicator": "F",
+          "type": "RESULTING-STATE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V58032",
+            "FIGURE": "#V57996",
+            "LEX": "TO"
+          },
+          "start": 20,
+          "end": 33
+        },
+        "V58032": {
+          "id": "V58032",
+          "indicator": "QUANTIFIER",
+          "type": "MUSIC",
+          "word": "SONG",
+          "roles": {
+            "QUAN": "EVERY",
+            "LEX": "SONG",
+            "WNSENSE": "song%1:10:00::"
+          },
+          "start": 23,
+          "end": 33
+        },
+        "root": "#V58446"
+      }
+    ],
+    [
+      {
+        "V58444": {
+          "id": "V58444",
+          "indicator": "SPEECHACT",
+          "type": "SA_YN-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V57960",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V57960": {
+          "id": "V57960",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V57998",
+            "FORMAL": "#V58008",
+            "TIME": "#V58417",
+            "TENSE": "PAST",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V58417": {
+          "id": "V58417",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V57960",
+            "GROUND": "#V58425"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58425": {
+          "id": "V58425",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V58365",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58365": {
+          "id": "V58365",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V57998": {
+          "id": "V57998",
+          "indicator": "BARE",
+          "type": "SING",
+          "word": "SINGING-ALONG",
+          "roles": {
+            "LEX": "SINGING-ALONG",
+            "WNSENSE": "sing_along%2:36:00"
+          },
+          "start": 6,
+          "end": 20
+        },
+        "V58008": {
+          "id": "V58008",
+          "indicator": "F",
+          "type": "RESULTING-STATE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V58032",
+            "FIGURE": "#V57998",
+            "LEX": "TO"
+          },
+          "start": 20,
+          "end": 33
+        },
+        "V58032": {
+          "id": "V58032",
+          "indicator": "QUANTIFIER",
+          "type": "MUSIC",
+          "word": "SONG",
+          "roles": {
+            "QUAN": "EVERY",
+            "LEX": "SONG",
+            "WNSENSE": "song%1:10:00::"
+          },
+          "start": 23,
+          "end": 33
+        },
+        "root": "#V58444"
+      }
+    ],
+    [
+      {
+        "V58448": {
+          "id": "V58448",
+          "indicator": "SPEECHACT",
+          "type": "SA_YN-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V57960",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V57960": {
+          "id": "V57960",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V57998",
+            "FORMAL": "#V58008",
+            "TIME": "#V58417",
+            "TENSE": "PAST",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V58417": {
+          "id": "V58417",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V57960",
+            "GROUND": "#V58425"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58425": {
+          "id": "V58425",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V58365",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58365": {
+          "id": "V58365",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V57998": {
+          "id": "V57998",
+          "indicator": "BARE",
+          "type": "SING",
+          "word": "SINGING-ALONG",
+          "roles": {
+            "LEX": "SINGING-ALONG",
+            "WNSENSE": "sing_along%2:36:00"
+          },
+          "start": 6,
+          "end": 20
+        },
+        "V58008": {
+          "id": "V58008",
+          "indicator": "F",
+          "type": "RESULTING-STATE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V58032",
+            "FIGURE": "#V57998",
+            "LEX": "TO"
+          },
+          "start": 20,
+          "end": 33
+        },
+        "V58032": {
+          "id": "V58032",
+          "indicator": "QUANTIFIER",
+          "type": "MUSIC",
+          "word": "SONG",
+          "roles": {
+            "QUAN": "EVERY",
+            "LEX": "SONG",
+            "WNSENSE": "song%1:10:00::"
+          },
+          "start": 23,
+          "end": 33
+        },
+        "root": "#V58448"
+      }
+    ],
+    [
+      {
+        "V59410": {
+          "id": "V59410",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V57998",
+            "LEX": "SINGING-ALONG"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V57998": {
+          "id": "V57998",
+          "indicator": "F",
+          "type": "SING",
+          "word": "SINGING-ALONG",
+          "roles": {
+            "AGENT": "#V57943",
+            "TIME": "#V58009",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "SINGING-ALONG",
+            "WNSENSE": "sing_along%2:36:00"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V57943": {
+          "id": "V57943",
+          "indicator": "THE",
+          "type": "LETTER-SYMBOL",
+          "word": null,
+          "roles": {
+            "NAME-OF": "I",
+            "LEX": "I",
+            "WNSENSE": "i%1:10:00::"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58009": {
+          "id": "V58009",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V58032",
+            "FIGURE": "#V57998",
+            "LEX": "TO"
+          },
+          "start": 20,
+          "end": 33
+        },
+        "V58032": {
+          "id": "V58032",
+          "indicator": "QUANTIFIER",
+          "type": "MUSIC",
+          "word": "SONG",
+          "roles": {
+            "QUAN": "EVERY",
+            "LEX": "SONG",
+            "WNSENSE": "song%1:10:00::"
+          },
+          "start": 23,
+          "end": 33
+        },
+        "root": "#V59410"
+      }
+    ],
+    [
+      {
+        "V59150": {
+          "id": "V59150",
+          "indicator": "SPEECHACT",
+          "type": "SA_YN-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V57957",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V57957": {
+          "id": "V57957",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V57998",
+            "TIME": "#V58417",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V58417": {
+          "id": "V58417",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V57957",
+            "GROUND": "#V58425"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58425": {
+          "id": "V58425",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V58365",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58365": {
+          "id": "V58365",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V57998": {
+          "id": "V57998",
+          "indicator": "BARE",
+          "type": "SING",
+          "word": "SINGING-ALONG",
+          "roles": {
+            "TIME": "#V58009",
+            "LEX": "SINGING-ALONG",
+            "WNSENSE": "sing_along%2:36:00"
+          },
+          "start": 6,
+          "end": 33
+        },
+        "V58009": {
+          "id": "V58009",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V58032",
+            "FIGURE": "#V57998",
+            "LEX": "TO"
+          },
+          "start": 20,
+          "end": 33
+        },
+        "V58032": {
+          "id": "V58032",
+          "indicator": "QUANTIFIER",
+          "type": "MUSIC",
+          "word": "SONG",
+          "roles": {
+            "QUAN": "EVERY",
+            "LEX": "SONG",
+            "WNSENSE": "song%1:10:00::"
+          },
+          "start": 23,
+          "end": 33
+        },
+        "root": "#V59150"
+      }
+    ],
+    [
+      {
+        "V58844": {
+          "id": "V58844",
+          "indicator": "SPEECHACT",
+          "type": "SA_YN-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V57960",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V57960": {
+          "id": "V57960",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V57998",
+            "FORMAL": "#V58006",
+            "TIME": "#V58417",
+            "TENSE": "PAST",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V58417": {
+          "id": "V58417",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V57960",
+            "GROUND": "#V58425"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58425": {
+          "id": "V58425",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V58365",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58365": {
+          "id": "V58365",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V57998": {
+          "id": "V57998",
+          "indicator": "BARE",
+          "type": "SING",
+          "word": "SINGING-ALONG",
+          "roles": {
+            "LEX": "SINGING-ALONG",
+            "WNSENSE": "sing_along%2:36:00"
+          },
+          "start": 6,
+          "end": 20
+        },
+        "V58006": {
+          "id": "V58006",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V58032",
+            "FIGURE": "#V57998",
+            "LEX": "TO"
+          },
+          "start": 20,
+          "end": 33
+        },
+        "V58032": {
+          "id": "V58032",
+          "indicator": "QUANTIFIER",
+          "type": "MUSIC",
+          "word": "SONG",
+          "roles": {
+            "QUAN": "EVERY",
+            "LEX": "SONG",
+            "WNSENSE": "song%1:10:00::"
+          },
+          "start": 23,
+          "end": 33
+        },
+        "root": "#V58844"
+      }
+    ],
+    [
+      {
+        "V58842": {
+          "id": "V58842",
+          "indicator": "SPEECHACT",
+          "type": "SA_YN-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V57960",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V57960": {
+          "id": "V57960",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V57996",
+            "FORMAL": "#V58006",
+            "TIME": "#V58417",
+            "TENSE": "PAST",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V58417": {
+          "id": "V58417",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V57960",
+            "GROUND": "#V58425"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58425": {
+          "id": "V58425",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V58365",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58365": {
+          "id": "V58365",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V57996": {
+          "id": "V57996",
+          "indicator": "BARE",
+          "type": "SING",
+          "word": "SINGING-ALONG",
+          "roles": {
+            "LEX": "SINGING-ALONG",
+            "WNSENSE": "sing_along%2:36:00"
+          },
+          "start": 6,
+          "end": 20
+        },
+        "V58006": {
+          "id": "V58006",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V58032",
+            "FIGURE": "#V57996",
+            "LEX": "TO"
+          },
+          "start": 20,
+          "end": 33
+        },
+        "V58032": {
+          "id": "V58032",
+          "indicator": "QUANTIFIER",
+          "type": "MUSIC",
+          "word": "SONG",
+          "roles": {
+            "QUAN": "EVERY",
+            "LEX": "SONG",
+            "WNSENSE": "song%1:10:00::"
+          },
+          "start": 23,
+          "end": 33
+        },
+        "root": "#V58842"
+      }
+    ],
+    [
+      {
+        "V58846": {
+          "id": "V58846",
+          "indicator": "SPEECHACT",
+          "type": "SA_YN-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V57960",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V57960": {
+          "id": "V57960",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V57998",
+            "FORMAL": "#V58006",
+            "TIME": "#V58417",
+            "TENSE": "PAST",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V58417": {
+          "id": "V58417",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V57960",
+            "GROUND": "#V58425"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58425": {
+          "id": "V58425",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V58365",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58365": {
+          "id": "V58365",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V57998": {
+          "id": "V57998",
+          "indicator": "BARE",
+          "type": "SING",
+          "word": "SINGING-ALONG",
+          "roles": {
+            "LEX": "SINGING-ALONG",
+            "WNSENSE": "sing_along%2:36:00"
+          },
+          "start": 6,
+          "end": 20
+        },
+        "V58006": {
+          "id": "V58006",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V58032",
+            "FIGURE": "#V57998",
+            "LEX": "TO"
+          },
+          "start": 20,
+          "end": 33
+        },
+        "V58032": {
+          "id": "V58032",
+          "indicator": "QUANTIFIER",
+          "type": "MUSIC",
+          "word": "SONG",
+          "roles": {
+            "QUAN": "EVERY",
+            "LEX": "SONG",
+            "WNSENSE": "song%1:10:00::"
+          },
+          "start": 23,
+          "end": 33
+        },
+        "root": "#V58846"
+      }
+    ],
+    [
+      {
+        "V59727": {
+          "id": "V59727",
+          "indicator": "SPEECHACT",
+          "type": "SA_YN-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V57960",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V57960": {
+          "id": "V57960",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V57998",
+            "FORMAL": "#V58009",
+            "TIME": "#V58417",
+            "TENSE": "PAST",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V58417": {
+          "id": "V58417",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V57960",
+            "GROUND": "#V58425"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58425": {
+          "id": "V58425",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V58365",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58365": {
+          "id": "V58365",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V57998": {
+          "id": "V57998",
+          "indicator": "BARE",
+          "type": "SING",
+          "word": "SINGING-ALONG",
+          "roles": {
+            "LEX": "SINGING-ALONG",
+            "WNSENSE": "sing_along%2:36:00"
+          },
+          "start": 6,
+          "end": 20
+        },
+        "V58009": {
+          "id": "V58009",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V58032",
+            "FIGURE": "#V57998",
+            "LEX": "TO"
+          },
+          "start": 20,
+          "end": 33
+        },
+        "V58032": {
+          "id": "V58032",
+          "indicator": "QUANTIFIER",
+          "type": "MUSIC",
+          "word": "SONG",
+          "roles": {
+            "QUAN": "EVERY",
+            "LEX": "SONG",
+            "WNSENSE": "song%1:10:00::"
+          },
+          "start": 23,
+          "end": 33
+        },
+        "root": "#V59727"
+      }
+    ],
+    [
+      {
+        "V59725": {
+          "id": "V59725",
+          "indicator": "SPEECHACT",
+          "type": "SA_YN-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V57960",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V57960": {
+          "id": "V57960",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V57996",
+            "FORMAL": "#V58009",
+            "TIME": "#V58417",
+            "TENSE": "PAST",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V58417": {
+          "id": "V58417",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V57960",
+            "GROUND": "#V58425"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58425": {
+          "id": "V58425",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V58365",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58365": {
+          "id": "V58365",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V57996": {
+          "id": "V57996",
+          "indicator": "BARE",
+          "type": "SING",
+          "word": "SINGING-ALONG",
+          "roles": {
+            "LEX": "SINGING-ALONG",
+            "WNSENSE": "sing_along%2:36:00"
+          },
+          "start": 6,
+          "end": 20
+        },
+        "V58009": {
+          "id": "V58009",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V58032",
+            "FIGURE": "#V57996",
+            "LEX": "TO"
+          },
+          "start": 20,
+          "end": 33
+        },
+        "V58032": {
+          "id": "V58032",
+          "indicator": "QUANTIFIER",
+          "type": "MUSIC",
+          "word": "SONG",
+          "roles": {
+            "QUAN": "EVERY",
+            "LEX": "SONG",
+            "WNSENSE": "song%1:10:00::"
+          },
+          "start": 23,
+          "end": 33
+        },
+        "root": "#V59725"
+      }
+    ],
+    [
+      {
+        "V59731": {
+          "id": "V59731",
+          "indicator": "SPEECHACT",
+          "type": "SA_YN-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V57960",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V57960": {
+          "id": "V57960",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V57998",
+            "FORMAL": "#V58009",
+            "TIME": "#V58417",
+            "TENSE": "PAST",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V58417": {
+          "id": "V58417",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V57960",
+            "GROUND": "#V58425"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58425": {
+          "id": "V58425",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V58365",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58365": {
+          "id": "V58365",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V57998": {
+          "id": "V57998",
+          "indicator": "BARE",
+          "type": "SING",
+          "word": "SINGING-ALONG",
+          "roles": {
+            "LEX": "SINGING-ALONG",
+            "WNSENSE": "sing_along%2:36:00"
+          },
+          "start": 6,
+          "end": 20
+        },
+        "V58009": {
+          "id": "V58009",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V58032",
+            "FIGURE": "#V57998",
+            "LEX": "TO"
+          },
+          "start": 20,
+          "end": 33
+        },
+        "V58032": {
+          "id": "V58032",
+          "indicator": "QUANTIFIER",
+          "type": "MUSIC",
+          "word": "SONG",
+          "roles": {
+            "QUAN": "EVERY",
+            "LEX": "SONG",
+            "WNSENSE": "song%1:10:00::"
+          },
+          "start": 23,
+          "end": 33
+        },
+        "root": "#V59731"
+      }
+    ],
+    [
+      {
+        "V59103": {
+          "id": "V59103",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57998",
+            "LEX": "SINGING-ALONG"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V57998": {
+          "id": "V57998",
+          "indicator": "F",
+          "type": "SING",
+          "word": "SINGING-ALONG",
+          "roles": {
+            "AGENT": "#V57944",
+            "TIME": "#V58009",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "SINGING-ALONG",
+            "WNSENSE": "sing_along%2:36:00"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V57944": {
+          "id": "V57944",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58009": {
+          "id": "V58009",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V58032",
+            "FIGURE": "#V57998",
+            "LEX": "TO"
+          },
+          "start": 20,
+          "end": 33
+        },
+        "V58032": {
+          "id": "V58032",
+          "indicator": "QUANTIFIER",
+          "type": "MUSIC",
+          "word": "SONG",
+          "roles": {
+            "QUAN": "EVERY",
+            "LEX": "SONG",
+            "WNSENSE": "song%1:10:00::"
+          },
+          "start": 23,
+          "end": 33
+        },
+        "root": "#V59103"
+      }
+    ],
+    [
+      {
+        "V59319": {
+          "id": "V59319",
+          "indicator": "SPEECHACT",
+          "type": "SA_YN-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V57957",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V57957": {
+          "id": "V57957",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V57998",
+            "TIME": "#V58417",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V58417": {
+          "id": "V58417",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V57957",
+            "GROUND": "#V58425"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58425": {
+          "id": "V58425",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V58365",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58365": {
+          "id": "V58365",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V57998": {
+          "id": "V57998",
+          "indicator": "BARE",
+          "type": "SING",
+          "word": "SINGING-ALONG",
+          "roles": {
+            "TIME": "#V58009",
+            "LEX": "SINGING-ALONG",
+            "WNSENSE": "sing_along%2:36:00"
+          },
+          "start": 6,
+          "end": 33
+        },
+        "V58009": {
+          "id": "V58009",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V58032",
+            "FIGURE": "#V57998",
+            "LEX": "TO"
+          },
+          "start": 20,
+          "end": 33
+        },
+        "V58032": {
+          "id": "V58032",
+          "indicator": "QUANTIFIER",
+          "type": "MUSIC",
+          "word": "SONG",
+          "roles": {
+            "QUAN": "EVERY",
+            "LEX": "SONG",
+            "WNSENSE": "song%1:10:00::"
+          },
+          "start": 23,
+          "end": 33
+        },
+        "root": "#V59319"
+      }
+    ],
+    [
+      {
+        "V59317": {
+          "id": "V59317",
+          "indicator": "SPEECHACT",
+          "type": "SA_YN-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V57957",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V57957": {
+          "id": "V57957",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V57996",
+            "TIME": "#V58417",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V58417": {
+          "id": "V58417",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V57957",
+            "GROUND": "#V58425"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58425": {
+          "id": "V58425",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V58365",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58365": {
+          "id": "V58365",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V57996": {
+          "id": "V57996",
+          "indicator": "BARE",
+          "type": "SING",
+          "word": "SINGING-ALONG",
+          "roles": {
+            "TIME": "#V58009",
+            "LEX": "SINGING-ALONG",
+            "WNSENSE": "sing_along%2:36:00"
+          },
+          "start": 6,
+          "end": 33
+        },
+        "V58009": {
+          "id": "V58009",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V58032",
+            "FIGURE": "#V57996",
+            "LEX": "TO"
+          },
+          "start": 20,
+          "end": 33
+        },
+        "V58032": {
+          "id": "V58032",
+          "indicator": "QUANTIFIER",
+          "type": "MUSIC",
+          "word": "SONG",
+          "roles": {
+            "QUAN": "EVERY",
+            "LEX": "SONG",
+            "WNSENSE": "song%1:10:00::"
+          },
+          "start": 23,
+          "end": 33
+        },
+        "root": "#V59317"
+      }
+    ],
+    [
+      {
+        "V59333": {
+          "id": "V59333",
+          "indicator": "SPEECHACT",
+          "type": "SA_YN-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V57957",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V57957": {
+          "id": "V57957",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V57998",
+            "TIME": "#V58417",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V58417": {
+          "id": "V58417",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V57957",
+            "GROUND": "#V58425"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58425": {
+          "id": "V58425",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V58365",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58365": {
+          "id": "V58365",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V57998": {
+          "id": "V57998",
+          "indicator": "BARE",
+          "type": "SING",
+          "word": "SINGING-ALONG",
+          "roles": {
+            "TIME": "#V58009",
+            "LEX": "SINGING-ALONG",
+            "WNSENSE": "sing_along%2:36:00"
+          },
+          "start": 6,
+          "end": 33
+        },
+        "V58009": {
+          "id": "V58009",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V58032",
+            "FIGURE": "#V57998",
+            "LEX": "TO"
+          },
+          "start": 20,
+          "end": 33
+        },
+        "V58032": {
+          "id": "V58032",
+          "indicator": "QUANTIFIER",
+          "type": "MUSIC",
+          "word": "SONG",
+          "roles": {
+            "QUAN": "EVERY",
+            "LEX": "SONG",
+            "WNSENSE": "song%1:10:00::"
+          },
+          "start": 23,
+          "end": 33
+        },
+        "root": "#V59333"
+      }
+    ],
+    [
+      {
+        "V59331": {
+          "id": "V59331",
+          "indicator": "SPEECHACT",
+          "type": "SA_YN-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V57957",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V57957": {
+          "id": "V57957",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V57996",
+            "TIME": "#V58417",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V58417": {
+          "id": "V58417",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V57957",
+            "GROUND": "#V58425"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58425": {
+          "id": "V58425",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V58365",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58365": {
+          "id": "V58365",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V57996": {
+          "id": "V57996",
+          "indicator": "BARE",
+          "type": "SING",
+          "word": "SINGING-ALONG",
+          "roles": {
+            "TIME": "#V58009",
+            "LEX": "SINGING-ALONG",
+            "WNSENSE": "sing_along%2:36:00"
+          },
+          "start": 6,
+          "end": 33
+        },
+        "V58009": {
+          "id": "V58009",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V58032",
+            "FIGURE": "#V57996",
+            "LEX": "TO"
+          },
+          "start": 20,
+          "end": 33
+        },
+        "V58032": {
+          "id": "V58032",
+          "indicator": "QUANTIFIER",
+          "type": "MUSIC",
+          "word": "SONG",
+          "roles": {
+            "QUAN": "EVERY",
+            "LEX": "SONG",
+            "WNSENSE": "song%1:10:00::"
+          },
+          "start": 23,
+          "end": 33
+        },
+        "root": "#V59331"
+      }
+    ],
+    [
+      {
+        "V59152": {
+          "id": "V59152",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57998",
+            "LEX": "SINGING-ALONG"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V57998": {
+          "id": "V57998",
+          "indicator": "F",
+          "type": "SING",
+          "word": "SINGING-ALONG",
+          "roles": {
+            "AGENT": "#V58365",
+            "TIME": "#V58009",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "SINGING-ALONG",
+            "WNSENSE": "sing_along%2:36:00"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V58365": {
+          "id": "V58365",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58009": {
+          "id": "V58009",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V58032",
+            "FIGURE": "#V57998",
+            "LEX": "TO"
+          },
+          "start": 20,
+          "end": 33
+        },
+        "V58032": {
+          "id": "V58032",
+          "indicator": "QUANTIFIER",
+          "type": "MUSIC",
+          "word": "SONG",
+          "roles": {
+            "QUAN": "EVERY",
+            "LEX": "SONG",
+            "WNSENSE": "song%1:10:00::"
+          },
+          "start": 23,
+          "end": 33
+        },
+        "root": "#V59152"
+      }
+    ],
+    [
+      {
+        "V58446": {
+          "id": "V58446",
+          "indicator": "SPEECHACT",
+          "type": "SA_YN-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57960",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V57960": {
+          "id": "V57960",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V57996",
+            "FORMAL": "#V58008",
+            "TIME": "#V58417",
+            "TENSE": "PAST",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V58417": {
+          "id": "V58417",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V57960",
+            "GROUND": "#V58425"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58425": {
+          "id": "V58425",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V58365",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V58365": {
+          "id": "V58365",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V57996": {
+          "id": "V57996",
+          "indicator": "BARE",
+          "type": "SING",
+          "word": "SINGING-ALONG",
+          "roles": {
+            "LEX": "SINGING-ALONG",
+            "WNSENSE": "sing_along%2:36:00"
+          },
+          "start": 6,
+          "end": 20
+        },
+        "V58008": {
+          "id": "V58008",
+          "indicator": "F",
+          "type": "RESULTING-STATE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V58032",
+            "FIGURE": "#V57996",
+            "LEX": "TO"
+          },
+          "start": 20,
+          "end": 33
+        },
+        "V58032": {
+          "id": "V58032",
+          "indicator": "QUANTIFIER",
+          "type": "MUSIC",
+          "word": "SONG",
+          "roles": {
+            "QUAN": "EVERY",
+            "LEX": "SONG",
+            "WNSENSE": "song%1:10:00::"
+          },
+          "start": 23,
+          "end": 33
+        },
+        "root": "#V58446"
+      }
+    ]
+  ],
+  "sentence": "I was singing along to every song.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20191015T143013",
+    "link": "http://trips.ihmc.us/parser/saved/20191015T143013-STEP-abhatia-none-I_was_singing_along_to_every_song_.xml",
+    "judgement": -1
+  }
+}

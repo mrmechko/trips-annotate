@@ -1,0 +1,492 @@
+{
+  "parse": [
+    {
+      "V106321": {
+        "id": "V106321",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V106026",
+          "FOCUS": "#V106130",
+          "LEX": "DENY"
+        },
+        "start": 0,
+        "end": 33
+      },
+      "V106026": {
+        "id": "V106026",
+        "indicator": "F",
+        "type": "CONTEST-DENY-OPPOSE-PROTEST",
+        "word": "DENY",
+        "roles": {
+          "AGENT": "#V106020",
+          "FORMAL": "#V106049",
+          "MOD": "#V105997",
+          "TENSE": "PAST",
+          "MODALITY": "(:* DO DO)",
+          "LEX": "DENY"
+        },
+        "start": 0,
+        "end": 33
+      },
+      "V105997": {
+        "id": "V105997",
+        "indicator": "F",
+        "type": "REASON-FOR",
+        "word": "WHY",
+        "roles": {
+          "GROUND": "#V106130",
+          "FIGURE": "#V106026",
+          "LEX": "WHY"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V106130": {
+        "id": "V106130",
+        "indicator": "WH-TERM",
+        "type": "REASON",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHY",
+          "SUCHTHAT": "#V105997"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V106020": {
+        "id": "V106020",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE"
+        },
+        "start": 8,
+        "end": 11
+      },
+      "V106049": {
+        "id": "V106049",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V106042",
+          "FORMAL": "#V106065",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 16,
+        "end": 33
+      },
+      "V106042": {
+        "id": "V106042",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE"
+        },
+        "start": 21,
+        "end": 24
+      },
+      "V106065": {
+        "id": "V106065",
+        "indicator": "F",
+        "type": "POS-WRT-SPEAKER-RELN",
+        "word": "THERE",
+        "roles": {
+          "GROUND": "#V106136",
+          "FIGURE": "#V106042",
+          "LEX": "THERE"
+        },
+        "start": 28,
+        "end": 33
+      },
+      "V106136": {
+        "id": "V106136",
+        "indicator": "IMPRO",
+        "type": "LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "THERE"
+        },
+        "start": 28,
+        "end": 33
+      },
+      "root": "#V106321"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V106324": {
+          "id": "V106324",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "YNQ",
+            "CONTENT": "#V106026",
+            "FOCUS": "#V106130",
+            "LEX": "DENY"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V106026": {
+          "id": "V106026",
+          "indicator": "F",
+          "type": "CONTEST-DENY-OPPOSE-PROTEST",
+          "word": "DENY",
+          "roles": {
+            "AGENT": "#V106020",
+            "FORMAL": "#V106050",
+            "MOD": "#V105997",
+            "TENSE": "PAST",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "DENY"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V105997": {
+          "id": "V105997",
+          "indicator": "F",
+          "type": "REASON-FOR",
+          "word": "WHY",
+          "roles": {
+            "GROUND": "#V106130",
+            "FIGURE": "#V106026",
+            "LEX": "WHY"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V106130": {
+          "id": "V106130",
+          "indicator": "WH-TERM",
+          "type": "REASON",
+          "word": null,
+          "roles": {
+            "PROFORM": "WHY",
+            "SUCHTHAT": "#V105997"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V106020": {
+          "id": "V106020",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE"
+          },
+          "start": 8,
+          "end": 11
+        },
+        "V106050": {
+          "id": "V106050",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V106042",
+            "NEUTRAL1": "#V106064",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "WAS"
+          },
+          "start": 16,
+          "end": 33
+        },
+        "V106042": {
+          "id": "V106042",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE"
+          },
+          "start": 21,
+          "end": 24
+        },
+        "V106064": {
+          "id": "V106064",
+          "indicator": "PRO",
+          "type": "LOCATION",
+          "word": "THERE",
+          "roles": {
+            "PROFORM": "THERE",
+            "LEX": "THERE"
+          },
+          "start": 28,
+          "end": 33
+        },
+        "root": "#V106324"
+      }
+    ],
+    [
+      {
+        "V106491": {
+          "id": "V106491",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "YNQ",
+            "CONTENT": "#V106026",
+            "FOCUS": "#V106130",
+            "LEX": "DENY"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V106026": {
+          "id": "V106026",
+          "indicator": "F",
+          "type": "CONTEST-DENY-OPPOSE-PROTEST",
+          "word": "DENY",
+          "roles": {
+            "AGENT": "#V106020",
+            "FORMAL": "#V106046",
+            "MOD": "#V105997",
+            "LOCATION": "#V106065",
+            "TENSE": "PAST",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "DENY"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V105997": {
+          "id": "V105997",
+          "indicator": "F",
+          "type": "REASON-FOR",
+          "word": "WHY",
+          "roles": {
+            "GROUND": "#V106130",
+            "FIGURE": "#V106026",
+            "LEX": "WHY"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V106130": {
+          "id": "V106130",
+          "indicator": "WH-TERM",
+          "type": "REASON",
+          "word": null,
+          "roles": {
+            "PROFORM": "WHY",
+            "SUCHTHAT": "#V105997"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V106020": {
+          "id": "V106020",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE"
+          },
+          "start": 8,
+          "end": 11
+        },
+        "V106046": {
+          "id": "V106046",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V106042",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WAS"
+          },
+          "start": 16,
+          "end": 28
+        },
+        "V106042": {
+          "id": "V106042",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE"
+          },
+          "start": 21,
+          "end": 24
+        },
+        "V106065": {
+          "id": "V106065",
+          "indicator": "F",
+          "type": "POS-WRT-SPEAKER-RELN",
+          "word": "THERE",
+          "roles": {
+            "GROUND": "#V106136",
+            "FIGURE": "#V106026",
+            "LEX": "THERE"
+          },
+          "start": 28,
+          "end": 33
+        },
+        "V106136": {
+          "id": "V106136",
+          "indicator": "IMPRO",
+          "type": "LOCATION",
+          "word": null,
+          "roles": {
+            "PROFORM": "THERE"
+          },
+          "start": 28,
+          "end": 33
+        },
+        "root": "#V106491"
+      }
+    ],
+    [
+      {
+        "V106321": {
+          "id": "V106321",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V106026",
+            "FOCUS": "#V106130",
+            "LEX": "DENY"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V106026": {
+          "id": "V106026",
+          "indicator": "F",
+          "type": "CONTEST-DENY-OPPOSE-PROTEST",
+          "word": "DENY",
+          "roles": {
+            "AGENT": "#V106020",
+            "FORMAL": "#V106049",
+            "MOD": "#V105997",
+            "TENSE": "PAST",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "DENY"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V105997": {
+          "id": "V105997",
+          "indicator": "F",
+          "type": "REASON-FOR",
+          "word": "WHY",
+          "roles": {
+            "GROUND": "#V106130",
+            "FIGURE": "#V106026",
+            "LEX": "WHY"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V106130": {
+          "id": "V106130",
+          "indicator": "WH-TERM",
+          "type": "REASON",
+          "word": null,
+          "roles": {
+            "PROFORM": "WHY",
+            "SUCHTHAT": "#V105997"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V106020": {
+          "id": "V106020",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE"
+          },
+          "start": 8,
+          "end": 11
+        },
+        "V106049": {
+          "id": "V106049",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V106042",
+            "FORMAL": "#V106065",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "WAS"
+          },
+          "start": 16,
+          "end": 33
+        },
+        "V106042": {
+          "id": "V106042",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE"
+          },
+          "start": 21,
+          "end": 24
+        },
+        "V106065": {
+          "id": "V106065",
+          "indicator": "F",
+          "type": "POS-WRT-SPEAKER-RELN",
+          "word": "THERE",
+          "roles": {
+            "GROUND": "#V106136",
+            "FIGURE": "#V106042",
+            "LEX": "THERE"
+          },
+          "start": 28,
+          "end": 33
+        },
+        "V106136": {
+          "id": "V106136",
+          "indicator": "IMPRO",
+          "type": "LOCATION",
+          "word": null,
+          "roles": {
+            "PROFORM": "THERE"
+          },
+          "start": 28,
+          "end": 33
+        },
+        "root": "#V106321"
+      }
+    ]
+  ],
+  "sentence": "Why did he deny that he was there?",
+  "annotation": {
+    "judge": "jallen",
+    "parser": "STEP",
+    "timestamp": "20190707T190135",
+    "link": "http://trips.ihmc.us/parser/saved/20190707T190135-STEP-jallen-0-Why_did_he_deny_that_he_was_there_.xml",
+    "judgement": 0
+  }
+}

@@ -1,0 +1,1250 @@
+{
+  "parse": [
+    {
+      "V128533": {
+        "id": "V128533",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V128020",
+          "MOD": "#V128006",
+          "LEX": "LOST"
+        },
+        "start": 0,
+        "end": 46
+      },
+      "V128006": {
+        "id": "V128006",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "FIGURE": "#V128533",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V128020": {
+        "id": "V128020",
+        "indicator": "F",
+        "type": "LOSE-COMPETE",
+        "word": "LOSE",
+        "roles": {
+          "AGENT": "#V128014",
+          "LOCATION": "#V128034",
+          "EVALUATION": "#V128025",
+          "TENSE": "PAST",
+          "LEX": "LOST",
+          "WNSENSE": "lose%2:33:00::"
+        },
+        "start": 4,
+        "end": 46
+      },
+      "V128014": {
+        "id": "V128014",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00",
+          "COREF": "#V128160"
+        },
+        "start": 4,
+        "end": 9
+      },
+      "V128025": {
+        "id": "V128025",
+        "indicator": "F",
+        "type": "AWFUL-VAL",
+        "word": "HORRIBLY",
+        "roles": {
+          "FIGURE": "#V128020",
+          "SCALE": "BADNESS-SCALE",
+          "ORIENTATION": "NEG",
+          "INTENSITY": "HI",
+          "LEX": "HORRIBLY",
+          "WNSENSE": "nasty%3:00:00"
+        },
+        "start": 14,
+        "end": 23
+      },
+      "V128034": {
+        "id": "V128034",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V128090",
+          "FIGURE": "#V128020",
+          "LEX": "IN"
+        },
+        "start": 23,
+        "end": 46
+      },
+      "V128090": {
+        "id": "V128090",
+        "indicator": "BARE",
+        "type": "OBJECT-DEPENDENT-LOCATION",
+        "word": "FRONT",
+        "roles": {
+          "FIGURE": "#V128160",
+          "LEX": "FRONT",
+          "WNSENSE": "front%1:15:03::"
+        },
+        "start": 26,
+        "end": 46
+      },
+      "V128160": {
+        "id": "V128160",
+        "indicator": "INDEF-SET",
+        "type": "PERSON",
+        "word": "PERSON",
+        "roles": {
+          "SIZE": "MANY",
+          "LEX": "PEOPLE",
+          "WNSENSE": "person%1:03:00::"
+        },
+        "start": 32,
+        "end": 46
+      },
+      "root": "#V128533"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V128648": {
+          "id": "V128648",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V128020",
+            "MOD": "#V128006",
+            "LEX": "LOST"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V128006": {
+          "id": "V128006",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "AND",
+          "roles": {
+            "FIGURE": "#V128648",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V128020": {
+          "id": "V128020",
+          "indicator": "F",
+          "type": "LOSE-COMPETE",
+          "word": "LOSE",
+          "roles": {
+            "AGENT": "#V128014",
+            "REASON": "#V128037",
+            "EVALUATION": "#V128025",
+            "TENSE": "PAST",
+            "LEX": "LOST",
+            "WNSENSE": "lose%2:33:00::"
+          },
+          "start": 4,
+          "end": 46
+        },
+        "V128014": {
+          "id": "V128014",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 4,
+          "end": 9
+        },
+        "V128025": {
+          "id": "V128025",
+          "indicator": "F",
+          "type": "AWFUL-VAL",
+          "word": "HORRIBLY",
+          "roles": {
+            "FIGURE": "#V128020",
+            "SCALE": "BADNESS-SCALE",
+            "ORIENTATION": "NEG",
+            "INTENSITY": "HI",
+            "LEX": "HORRIBLY",
+            "WNSENSE": "nasty%3:00:00"
+          },
+          "start": 14,
+          "end": 23
+        },
+        "V128037": {
+          "id": "V128037",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V128090",
+            "FIGURE": "#V128020",
+            "LEX": "IN",
+            "WNSENSE": "in%4:02:01::"
+          },
+          "start": 23,
+          "end": 46
+        },
+        "V128090": {
+          "id": "V128090",
+          "indicator": "BARE",
+          "type": "OBJECT-DEPENDENT-LOCATION",
+          "word": "FRONT",
+          "roles": {
+            "FIGURE": "#V128160",
+            "LEX": "FRONT",
+            "WNSENSE": "front%1:15:03::"
+          },
+          "start": 26,
+          "end": 46
+        },
+        "V128160": {
+          "id": "V128160",
+          "indicator": "INDEF-SET",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "SIZE": "MANY",
+            "LEX": "PEOPLE",
+            "WNSENSE": "person%1:03:00::"
+          },
+          "start": 32,
+          "end": 46
+        },
+        "root": "#V128648"
+      }
+    ],
+    [
+      {
+        "V128674": {
+          "id": "V128674",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V128020",
+            "MOD": "#V128006",
+            "LEX": "LOST"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V128006": {
+          "id": "V128006",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "AND",
+          "roles": {
+            "FIGURE": "#V128674",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V128020": {
+          "id": "V128020",
+          "indicator": "F",
+          "type": "LOSE-COMPETE",
+          "word": "LOSE",
+          "roles": {
+            "AGENT": "#V128014",
+            "LOCATION": "#V128034",
+            "EVALUATION": "#V128025",
+            "TENSE": "PAST",
+            "LEX": "LOST",
+            "WNSENSE": "lose%2:33:00::"
+          },
+          "start": 4,
+          "end": 46
+        },
+        "V128014": {
+          "id": "V128014",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 4,
+          "end": 9
+        },
+        "V128025": {
+          "id": "V128025",
+          "indicator": "F",
+          "type": "AWFUL-VAL",
+          "word": "HORRIBLY",
+          "roles": {
+            "FIGURE": "#V128020",
+            "SCALE": "BADNESS-SCALE",
+            "ORIENTATION": "NEG",
+            "INTENSITY": "HI",
+            "LEX": "HORRIBLY",
+            "WNSENSE": "nasty%3:00:00"
+          },
+          "start": 14,
+          "end": 23
+        },
+        "V128034": {
+          "id": "V128034",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V128090",
+            "FIGURE": "#V128020",
+            "LEX": "IN"
+          },
+          "start": 23,
+          "end": 46
+        },
+        "V128090": {
+          "id": "V128090",
+          "indicator": "BARE",
+          "type": "OBJECT-DEPENDENT-LOCATION",
+          "word": "FRONT",
+          "roles": {
+            "FIGURE": "#V128160",
+            "LEX": "FRONT",
+            "WNSENSE": "front%1:15:03::"
+          },
+          "start": 26,
+          "end": 46
+        },
+        "V128160": {
+          "id": "V128160",
+          "indicator": "INDEF-SET",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "SIZE": "#V128157",
+            "LEX": "PEOPLE",
+            "WNSENSE": "person%1:03:00::"
+          },
+          "start": 32,
+          "end": 46
+        },
+        "V128157": {
+          "id": "V128157",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "MANY"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "root": "#V128674"
+      }
+    ],
+    [
+      {
+        "V128736": {
+          "id": "V128736",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V128020",
+            "MOD": "#V128006",
+            "LEX": "LOST"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V128006": {
+          "id": "V128006",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "AND",
+          "roles": {
+            "FIGURE": "#V128736",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V128020": {
+          "id": "V128020",
+          "indicator": "F",
+          "type": "LOSE-COMPETE",
+          "word": "LOSE",
+          "roles": {
+            "AGENT": "#V128014",
+            "LOCATION": "#V128034",
+            "EVALUATION": "#V128025",
+            "TENSE": "PAST",
+            "LEX": "LOST",
+            "WNSENSE": "lose%2:33:00::"
+          },
+          "start": 4,
+          "end": 46
+        },
+        "V128014": {
+          "id": "V128014",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 4,
+          "end": 9
+        },
+        "V128025": {
+          "id": "V128025",
+          "indicator": "F",
+          "type": "AWFUL-VAL",
+          "word": "HORRIBLY",
+          "roles": {
+            "FIGURE": "#V128020",
+            "SCALE": "BADNESS-SCALE",
+            "ORIENTATION": "NEG",
+            "INTENSITY": "HI",
+            "LEX": "HORRIBLY",
+            "WNSENSE": "nasty%3:00:00"
+          },
+          "start": 14,
+          "end": 23
+        },
+        "V128034": {
+          "id": "V128034",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V128090",
+            "FIGURE": "#V128020",
+            "LEX": "IN"
+          },
+          "start": 23,
+          "end": 46
+        },
+        "V128090": {
+          "id": "V128090",
+          "indicator": "BARE",
+          "type": "OBJECT-DEPENDENT-LOCATION",
+          "word": "FRONT",
+          "roles": {
+            "MOD": "#V128149",
+            "LEX": "FRONT",
+            "WNSENSE": "front%1:15:03::"
+          },
+          "start": 26,
+          "end": 46
+        },
+        "V128149": {
+          "id": "V128149",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "OF",
+          "roles": {
+            "GROUND": "#V128160",
+            "FIGURE": "#V128090",
+            "LEX": "OF"
+          },
+          "start": 32,
+          "end": 46
+        },
+        "V128160": {
+          "id": "V128160",
+          "indicator": "INDEF-SET",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "SIZE": "MANY",
+            "LEX": "PEOPLE",
+            "WNSENSE": "person%1:03:00::"
+          },
+          "start": 35,
+          "end": 46
+        },
+        "root": "#V128736"
+      }
+    ],
+    [
+      {
+        "V128787": {
+          "id": "V128787",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V128020",
+            "MOD": "#V128006",
+            "LEX": "LOST"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V128006": {
+          "id": "V128006",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "AND",
+          "roles": {
+            "FIGURE": "#V128787",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V128020": {
+          "id": "V128020",
+          "indicator": "F",
+          "type": "LOSE-COMPETE",
+          "word": "LOSE",
+          "roles": {
+            "AGENT": "#V128014",
+            "LOCATION": "#V128034",
+            "EVALUATION": "#V128025",
+            "TENSE": "PAST",
+            "LEX": "LOST",
+            "WNSENSE": "lose%2:33:00::"
+          },
+          "start": 4,
+          "end": 46
+        },
+        "V128014": {
+          "id": "V128014",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 4,
+          "end": 9
+        },
+        "V128025": {
+          "id": "V128025",
+          "indicator": "F",
+          "type": "AWFUL-VAL",
+          "word": "HORRIBLY",
+          "roles": {
+            "FIGURE": "#V128020",
+            "SCALE": "BADNESS-SCALE",
+            "ORIENTATION": "NEG",
+            "INTENSITY": "HI",
+            "LEX": "HORRIBLY",
+            "WNSENSE": "nasty%3:00:00"
+          },
+          "start": 14,
+          "end": 23
+        },
+        "V128034": {
+          "id": "V128034",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V128090",
+            "FIGURE": "#V128020",
+            "LEX": "IN"
+          },
+          "start": 23,
+          "end": 46
+        },
+        "V128090": {
+          "id": "V128090",
+          "indicator": "BARE",
+          "type": "OBJECT-DEPENDENT-LOCATION",
+          "word": "FRONT",
+          "roles": {
+            "FIGURE": "#V128160",
+            "LEX": "FRONT",
+            "WNSENSE": "front%1:15:03::"
+          },
+          "start": 26,
+          "end": 46
+        },
+        "V128160": {
+          "id": "V128160",
+          "indicator": "INDEF-SET",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "SIZE": "MANY",
+            "LEX": "PEOPLE",
+            "WNSENSE": "person%1:03:00::"
+          },
+          "start": 32,
+          "end": 46
+        },
+        "root": "#V128787"
+      }
+    ],
+    [
+      {
+        "V128838": {
+          "id": "V128838",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V128020",
+            "MOD": "#V128006",
+            "LEX": "LOST"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V128006": {
+          "id": "V128006",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "AND",
+          "roles": {
+            "FIGURE": "#V128838",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V128020": {
+          "id": "V128020",
+          "indicator": "F",
+          "type": "LOSE-COMPETE",
+          "word": "LOSE",
+          "roles": {
+            "AGENT": "#V128014",
+            "REASON": "#V128037",
+            "EVALUATION": "#V128025",
+            "TENSE": "PAST",
+            "LEX": "LOST",
+            "WNSENSE": "lose%2:33:00::"
+          },
+          "start": 4,
+          "end": 46
+        },
+        "V128014": {
+          "id": "V128014",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 4,
+          "end": 9
+        },
+        "V128025": {
+          "id": "V128025",
+          "indicator": "F",
+          "type": "AWFUL-VAL",
+          "word": "HORRIBLY",
+          "roles": {
+            "FIGURE": "#V128020",
+            "SCALE": "BADNESS-SCALE",
+            "ORIENTATION": "NEG",
+            "INTENSITY": "HI",
+            "LEX": "HORRIBLY",
+            "WNSENSE": "nasty%3:00:00"
+          },
+          "start": 14,
+          "end": 23
+        },
+        "V128037": {
+          "id": "V128037",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V128090",
+            "FIGURE": "#V128020",
+            "LEX": "IN",
+            "WNSENSE": "in%4:02:01::"
+          },
+          "start": 23,
+          "end": 46
+        },
+        "V128090": {
+          "id": "V128090",
+          "indicator": "BARE",
+          "type": "OBJECT-DEPENDENT-LOCATION",
+          "word": "FRONT",
+          "roles": {
+            "FIGURE": "#V128160",
+            "LEX": "FRONT",
+            "WNSENSE": "front%1:15:03::"
+          },
+          "start": 26,
+          "end": 46
+        },
+        "V128160": {
+          "id": "V128160",
+          "indicator": "INDEF-SET",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "SIZE": "#V128157",
+            "LEX": "PEOPLE",
+            "WNSENSE": "person%1:03:00::"
+          },
+          "start": 32,
+          "end": 46
+        },
+        "V128157": {
+          "id": "V128157",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "MANY"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "root": "#V128838"
+      }
+    ],
+    [
+      {
+        "V128921": {
+          "id": "V128921",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V128020",
+            "MOD": "#V128006",
+            "LEX": "LOST"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V128006": {
+          "id": "V128006",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "AND",
+          "roles": {
+            "FIGURE": "#V128921",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V128020": {
+          "id": "V128020",
+          "indicator": "F",
+          "type": "LOSE-COMPETE",
+          "word": "LOSE",
+          "roles": {
+            "AGENT": "#V128014",
+            "REASON": "#V128037",
+            "EVALUATION": "#V128025",
+            "TENSE": "PAST",
+            "LEX": "LOST",
+            "WNSENSE": "lose%2:33:00::"
+          },
+          "start": 4,
+          "end": 46
+        },
+        "V128014": {
+          "id": "V128014",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 4,
+          "end": 9
+        },
+        "V128025": {
+          "id": "V128025",
+          "indicator": "F",
+          "type": "AWFUL-VAL",
+          "word": "HORRIBLY",
+          "roles": {
+            "FIGURE": "#V128020",
+            "SCALE": "BADNESS-SCALE",
+            "ORIENTATION": "NEG",
+            "INTENSITY": "HI",
+            "LEX": "HORRIBLY",
+            "WNSENSE": "nasty%3:00:00"
+          },
+          "start": 14,
+          "end": 23
+        },
+        "V128037": {
+          "id": "V128037",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V128090",
+            "FIGURE": "#V128020",
+            "LEX": "IN",
+            "WNSENSE": "in%4:02:01::"
+          },
+          "start": 23,
+          "end": 46
+        },
+        "V128090": {
+          "id": "V128090",
+          "indicator": "BARE",
+          "type": "OBJECT-DEPENDENT-LOCATION",
+          "word": "FRONT",
+          "roles": {
+            "MOD": "#V128149",
+            "LEX": "FRONT",
+            "WNSENSE": "front%1:15:03::"
+          },
+          "start": 26,
+          "end": 46
+        },
+        "V128149": {
+          "id": "V128149",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "OF",
+          "roles": {
+            "GROUND": "#V128160",
+            "FIGURE": "#V128090",
+            "LEX": "OF"
+          },
+          "start": 32,
+          "end": 46
+        },
+        "V128160": {
+          "id": "V128160",
+          "indicator": "INDEF-SET",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "SIZE": "MANY",
+            "LEX": "PEOPLE",
+            "WNSENSE": "person%1:03:00::"
+          },
+          "start": 35,
+          "end": 46
+        },
+        "root": "#V128921"
+      }
+    ],
+    [
+      {
+        "V128955": {
+          "id": "V128955",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V128020",
+            "MOD": "#V128006",
+            "LEX": "LOST"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V128006": {
+          "id": "V128006",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "AND",
+          "roles": {
+            "FIGURE": "#V128955",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V128020": {
+          "id": "V128020",
+          "indicator": "F",
+          "type": "LOSE-COMPETE",
+          "word": "LOSE",
+          "roles": {
+            "AGENT": "#V128014",
+            "REASON": "#V128037",
+            "EVALUATION": "#V128025",
+            "TENSE": "PAST",
+            "LEX": "LOST",
+            "WNSENSE": "lose%2:33:00::"
+          },
+          "start": 4,
+          "end": 46
+        },
+        "V128014": {
+          "id": "V128014",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 4,
+          "end": 9
+        },
+        "V128025": {
+          "id": "V128025",
+          "indicator": "F",
+          "type": "AWFUL-VAL",
+          "word": "HORRIBLY",
+          "roles": {
+            "FIGURE": "#V128020",
+            "SCALE": "BADNESS-SCALE",
+            "ORIENTATION": "NEG",
+            "INTENSITY": "HI",
+            "LEX": "HORRIBLY",
+            "WNSENSE": "nasty%3:00:00"
+          },
+          "start": 14,
+          "end": 23
+        },
+        "V128037": {
+          "id": "V128037",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V128090",
+            "FIGURE": "#V128020",
+            "LEX": "IN",
+            "WNSENSE": "in%4:02:01::"
+          },
+          "start": 23,
+          "end": 46
+        },
+        "V128090": {
+          "id": "V128090",
+          "indicator": "BARE",
+          "type": "OBJECT-DEPENDENT-LOCATION",
+          "word": "FRONT",
+          "roles": {
+            "FIGURE": "#V128160",
+            "LEX": "FRONT",
+            "WNSENSE": "front%1:15:03::"
+          },
+          "start": 26,
+          "end": 46
+        },
+        "V128160": {
+          "id": "V128160",
+          "indicator": "INDEF-SET",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "SIZE": "MANY",
+            "LEX": "PEOPLE",
+            "WNSENSE": "person%1:03:00::"
+          },
+          "start": 32,
+          "end": 46
+        },
+        "root": "#V128955"
+      }
+    ],
+    [
+      {
+        "V129007": {
+          "id": "V129007",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V128020",
+            "MOD": "#V128006",
+            "LEX": "LOST"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V128006": {
+          "id": "V128006",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "AND",
+          "roles": {
+            "FIGURE": "#V129007",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V128020": {
+          "id": "V128020",
+          "indicator": "F",
+          "type": "LOSE-COMPETE",
+          "word": "LOSE",
+          "roles": {
+            "AGENT": "#V128014",
+            "LOCATION": "#V128034",
+            "EVALUATION": "#V128025",
+            "TENSE": "PAST",
+            "LEX": "LOST",
+            "WNSENSE": "lose%2:33:00::"
+          },
+          "start": 4,
+          "end": 46
+        },
+        "V128014": {
+          "id": "V128014",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 4,
+          "end": 9
+        },
+        "V128025": {
+          "id": "V128025",
+          "indicator": "F",
+          "type": "AWFUL-VAL",
+          "word": "HORRIBLY",
+          "roles": {
+            "FIGURE": "#V128020",
+            "SCALE": "BADNESS-SCALE",
+            "ORIENTATION": "NEG",
+            "INTENSITY": "HI",
+            "LEX": "HORRIBLY",
+            "WNSENSE": "nasty%3:00:00"
+          },
+          "start": 14,
+          "end": 23
+        },
+        "V128034": {
+          "id": "V128034",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V128090",
+            "FIGURE": "#V128020",
+            "LEX": "IN"
+          },
+          "start": 23,
+          "end": 46
+        },
+        "V128090": {
+          "id": "V128090",
+          "indicator": "BARE",
+          "type": "OBJECT-DEPENDENT-LOCATION",
+          "word": "FRONT",
+          "roles": {
+            "MOD": "#V128149",
+            "LEX": "FRONT",
+            "WNSENSE": "front%1:15:03::"
+          },
+          "start": 26,
+          "end": 46
+        },
+        "V128149": {
+          "id": "V128149",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "OF",
+          "roles": {
+            "GROUND": "#V128160",
+            "FIGURE": "#V128090",
+            "LEX": "OF"
+          },
+          "start": 32,
+          "end": 46
+        },
+        "V128160": {
+          "id": "V128160",
+          "indicator": "INDEF-SET",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "SIZE": "#V128157",
+            "LEX": "PEOPLE",
+            "WNSENSE": "person%1:03:00::"
+          },
+          "start": 35,
+          "end": 46
+        },
+        "V128157": {
+          "id": "V128157",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "MANY"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "root": "#V129007"
+      }
+    ],
+    [
+      {
+        "V129046": {
+          "id": "V129046",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V128020",
+            "MOD": "#V128006",
+            "LEX": "LOST"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V128006": {
+          "id": "V128006",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "AND",
+          "roles": {
+            "FIGURE": "#V129046",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V128020": {
+          "id": "V128020",
+          "indicator": "F",
+          "type": "LOSE-COMPETE",
+          "word": "LOSE",
+          "roles": {
+            "AGENT": "#V128014",
+            "LOCATION": "#V128034",
+            "EVALUATION": "#V128025",
+            "TENSE": "PAST",
+            "LEX": "LOST",
+            "WNSENSE": "lose%2:33:00::"
+          },
+          "start": 4,
+          "end": 46
+        },
+        "V128014": {
+          "id": "V128014",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 4,
+          "end": 9
+        },
+        "V128025": {
+          "id": "V128025",
+          "indicator": "F",
+          "type": "AWFUL-VAL",
+          "word": "HORRIBLY",
+          "roles": {
+            "FIGURE": "#V128020",
+            "SCALE": "BADNESS-SCALE",
+            "ORIENTATION": "NEG",
+            "INTENSITY": "HI",
+            "LEX": "HORRIBLY",
+            "WNSENSE": "nasty%3:00:00"
+          },
+          "start": 14,
+          "end": 23
+        },
+        "V128034": {
+          "id": "V128034",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V128090",
+            "FIGURE": "#V128020",
+            "LEX": "IN"
+          },
+          "start": 23,
+          "end": 46
+        },
+        "V128090": {
+          "id": "V128090",
+          "indicator": "BARE",
+          "type": "OBJECT-DEPENDENT-LOCATION",
+          "word": "FRONT",
+          "roles": {
+            "FIGURE": "#V128160",
+            "LEX": "FRONT",
+            "WNSENSE": "front%1:15:03::"
+          },
+          "start": 26,
+          "end": 46
+        },
+        "V128160": {
+          "id": "V128160",
+          "indicator": "INDEF-SET",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "SIZE": "#V128157",
+            "LEX": "PEOPLE",
+            "WNSENSE": "person%1:03:00::"
+          },
+          "start": 32,
+          "end": 46
+        },
+        "V128157": {
+          "id": "V128157",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "MANY"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "root": "#V129046"
+      }
+    ]
+  ],
+  "sentence": "And they lost horribly in front of many people.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190820T172749",
+    "link": "http://trips.ihmc.us/parser/saved/20190820T172749-STEP-abhatia-3-And_they_lost_horribly_in_front_of_many_.xml",
+    "judgement": 3
+  }
+}

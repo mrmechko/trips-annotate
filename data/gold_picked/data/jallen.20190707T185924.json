@@ -1,0 +1,345 @@
+{
+  "parse": [
+    {
+      "V104951": {
+        "id": "V104951",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V104689",
+          "FOCUS": "#V104719",
+          "LEX": "OPEN"
+        },
+        "start": 0,
+        "end": 24
+      },
+      "V104689": {
+        "id": "V104689",
+        "indicator": "F",
+        "type": "OPEN",
+        "word": "OPEN",
+        "roles": {
+          "AGENT": "#V104677",
+          "AFFECTED": "#V104704",
+          "METHOD": "#V104646",
+          "TENSE": "PAST",
+          "MODALITY": "(:* DO DO)",
+          "LEX": "OPEN"
+        },
+        "start": 0,
+        "end": 24
+      },
+      "V104646": {
+        "id": "V104646",
+        "indicator": "F",
+        "type": "BY-MEANS-OF",
+        "word": "HOW",
+        "roles": {
+          "GROUND": "#V104719",
+          "FIGURE": "#V104689",
+          "LEX": "HOW"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V104719": {
+        "id": "V104719",
+        "indicator": "WH-TERM",
+        "type": "METHOD",
+        "word": null,
+        "roles": {
+          "PROFORM": "HOW",
+          "SUCHTHAT": "#V104646"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V104677": {
+        "id": "V104677",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "COREF": "SYS"
+        },
+        "start": 8,
+        "end": 12
+      },
+      "V104704": {
+        "id": "V104704",
+        "indicator": "THE",
+        "type": "BOX",
+        "word": "BOX",
+        "roles": {
+          "LEX": "BOX"
+        },
+        "start": 17,
+        "end": 24
+      },
+      "root": "#V104951"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V104976": {
+          "id": "V104976",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "YNQ",
+            "CONTENT": "#V104689",
+            "FOCUS": "#V104719",
+            "LEX": "OPEN"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V104689": {
+          "id": "V104689",
+          "indicator": "F",
+          "type": "OPEN",
+          "word": "OPEN",
+          "roles": {
+            "AGENT": "#V104677",
+            "AFFECTED": "#V104703",
+            "METHOD": "#V104646",
+            "TENSE": "PAST",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "OPEN"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V104646": {
+          "id": "V104646",
+          "indicator": "F",
+          "type": "BY-MEANS-OF",
+          "word": "HOW",
+          "roles": {
+            "GROUND": "#V104719",
+            "FIGURE": "#V104689",
+            "LEX": "HOW"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V104719": {
+          "id": "V104719",
+          "indicator": "WH-TERM",
+          "type": "METHOD",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOW",
+            "SUCHTHAT": "#V104646"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V104677": {
+          "id": "V104677",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "YOU",
+          "roles": {
+            "PROFORM": "YOU",
+            "LEX": "YOU"
+          },
+          "start": 8,
+          "end": 12
+        },
+        "V104703": {
+          "id": "V104703",
+          "indicator": "THE",
+          "type": "TEXT-FIELD",
+          "word": "BOX",
+          "roles": {
+            "LEX": "BOX"
+          },
+          "start": 17,
+          "end": 24
+        },
+        "root": "#V104976"
+      }
+    ],
+    [
+      {
+        "V104979": {
+          "id": "V104979",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "YNQ",
+            "CONTENT": "#V104689",
+            "FOCUS": "#V104719",
+            "LEX": "OPEN"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V104689": {
+          "id": "V104689",
+          "indicator": "F",
+          "type": "OPEN",
+          "word": "OPEN",
+          "roles": {
+            "AGENT": "#V104678",
+            "AFFECTED": "#V104704",
+            "METHOD": "#V104646",
+            "TENSE": "PAST",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "OPEN"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V104646": {
+          "id": "V104646",
+          "indicator": "F",
+          "type": "BY-MEANS-OF",
+          "word": "HOW",
+          "roles": {
+            "GROUND": "#V104719",
+            "FIGURE": "#V104689",
+            "LEX": "HOW"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V104719": {
+          "id": "V104719",
+          "indicator": "WH-TERM",
+          "type": "METHOD",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOW",
+            "SUCHTHAT": "#V104646"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V104678": {
+          "id": "V104678",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "YOU",
+          "roles": {
+            "PROFORM": "YOU",
+            "LEX": "YOU"
+          },
+          "start": 8,
+          "end": 12
+        },
+        "V104704": {
+          "id": "V104704",
+          "indicator": "THE",
+          "type": "BOX",
+          "word": "BOX",
+          "roles": {
+            "LEX": "BOX"
+          },
+          "start": 17,
+          "end": 24
+        },
+        "root": "#V104979"
+      }
+    ],
+    [
+      {
+        "V104997": {
+          "id": "V104997",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "YNQ",
+            "CONTENT": "#V104689",
+            "FOCUS": "#V104719",
+            "LEX": "OPEN"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V104689": {
+          "id": "V104689",
+          "indicator": "F",
+          "type": "OPEN",
+          "word": "OPEN",
+          "roles": {
+            "AGENT": "#V104678",
+            "AFFECTED": "#V104703",
+            "METHOD": "#V104646",
+            "TENSE": "PAST",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "OPEN"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V104646": {
+          "id": "V104646",
+          "indicator": "F",
+          "type": "BY-MEANS-OF",
+          "word": "HOW",
+          "roles": {
+            "GROUND": "#V104719",
+            "FIGURE": "#V104689",
+            "LEX": "HOW"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V104719": {
+          "id": "V104719",
+          "indicator": "WH-TERM",
+          "type": "METHOD",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOW",
+            "SUCHTHAT": "#V104646"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V104678": {
+          "id": "V104678",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "YOU",
+          "roles": {
+            "PROFORM": "YOU",
+            "LEX": "YOU"
+          },
+          "start": 8,
+          "end": 12
+        },
+        "V104703": {
+          "id": "V104703",
+          "indicator": "THE",
+          "type": "TEXT-FIELD",
+          "word": "BOX",
+          "roles": {
+            "LEX": "BOX"
+          },
+          "start": 17,
+          "end": 24
+        },
+        "root": "#V104997"
+      }
+    ]
+  ],
+  "sentence": "How did you open the box?",
+  "annotation": {
+    "judge": "jallen",
+    "parser": "STEP",
+    "timestamp": "20190707T185924",
+    "link": "http://trips.ihmc.us/parser/saved/20190707T185924-STEP-jallen-0-How_did_you_open_the_box_.xml",
+    "judgement": 0
+  }
+}

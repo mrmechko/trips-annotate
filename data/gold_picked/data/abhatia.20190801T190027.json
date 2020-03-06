@@ -1,0 +1,580 @@
+{
+  "parse": [
+    {
+      "V297469": {
+        "id": "V297469",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V297102",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 55
+      },
+      "V297102": {
+        "id": "V297102",
+        "indicator": "F",
+        "type": "EVENT-OF-CAUSATION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V296611",
+          "SEQUENCE1": "#V296694",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 55
+      },
+      "V296694": {
+        "id": "V296694",
+        "indicator": "F",
+        "type": "ACQUIRE",
+        "word": "GET",
+        "roles": {
+          "AGENT": "#V296591",
+          "AFFECTED": "#V296764",
+          "LEX": "GOT",
+          "WNSENSE": "get%2:40:00::"
+        },
+        "start": 0,
+        "end": 55
+      },
+      "V296611": {
+        "id": "V296611",
+        "indicator": "F",
+        "type": "MOVE",
+        "word": "GO",
+        "roles": {
+          "RESULT": "#V296630",
+          "AGENT": "#V296591",
+          "LEX": "WENT",
+          "WNSENSE": "go%2:38:00::"
+        },
+        "start": 0,
+        "end": 55
+      },
+      "V296591": {
+        "id": "V296591",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "SHE",
+        "roles": {
+          "PROFORM": "SHE",
+          "LEX": "SHE",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V296630": {
+        "id": "V296630",
+        "indicator": "F",
+        "type": "RESULTING-STATE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V296656",
+          "FIGURE": "#V296591",
+          "LEX": "TO"
+        },
+        "start": 9,
+        "end": 28
+      },
+      "V296656": {
+        "id": "V296656",
+        "indicator": "THE",
+        "type": "GATHERING-EVENT",
+        "word": "APPOINTMENT",
+        "roles": {
+          "ASSOC-POSS": "#V296651",
+          "LEX": "APPOINTMENT",
+          "WNSENSE": "appointment%1:14:00::"
+        },
+        "start": 12,
+        "end": 28
+      },
+      "V296651": {
+        "id": "V296651",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "HER",
+        "roles": {
+          "LEX": "HER",
+          "PROFORM": "HER",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 12,
+        "end": 28
+      },
+      "V296764": {
+        "id": "V296764",
+        "indicator": "A",
+        "type": "MEDICAL-EVENT",
+        "word": "MASSAGE",
+        "roles": {
+          "EVALUATION": "#V296757",
+          "LEX": "MASSAGE",
+          "WNSENSE": "massage%1:04:00::"
+        },
+        "start": 36,
+        "end": 55
+      },
+      "V296757": {
+        "id": "V296757",
+        "indicator": "F",
+        "type": "GREAT-VAL",
+        "word": "WONDERFUL",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V296764",
+          "SCALE": "GOODNESS-SCALE",
+          "LEX": "WONDERFUL",
+          "WNSENSE": "wonderful%5:00:00:extraordinary:00"
+        },
+        "start": 38,
+        "end": 48
+      },
+      "root": "#V297469"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V297458": {
+          "id": "V297458",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V297102",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 56
+        },
+        "V297102": {
+          "id": "V297102",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V296611",
+            "SEQUENCE1": "#V296694",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 55
+        },
+        "V296694": {
+          "id": "V296694",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "GET",
+          "roles": {
+            "AGENT": "#V296591",
+            "AFFECTED": "#V296764",
+            "LEX": "GOT",
+            "WNSENSE": "get%2:40:00::"
+          },
+          "start": 0,
+          "end": 55
+        },
+        "V296611": {
+          "id": "V296611",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V296630",
+            "AGENT": "#V296591",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 0,
+          "end": 55
+        },
+        "V296591": {
+          "id": "V296591",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V296630": {
+          "id": "V296630",
+          "indicator": "F",
+          "type": "RESULTING-STATE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V296656",
+            "FIGURE": "#V296591",
+            "LEX": "TO"
+          },
+          "start": 9,
+          "end": 28
+        },
+        "V296656": {
+          "id": "V296656",
+          "indicator": "THE",
+          "type": "GATHERING-EVENT",
+          "word": "APPOINTMENT",
+          "roles": {
+            "ASSOC-POSS": "#V296651",
+            "LEX": "APPOINTMENT",
+            "WNSENSE": "appointment%1:14:00::"
+          },
+          "start": 12,
+          "end": 28
+        },
+        "V296651": {
+          "id": "V296651",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 12,
+          "end": 28
+        },
+        "V296764": {
+          "id": "V296764",
+          "indicator": "A",
+          "type": "MEDICAL-EVENT",
+          "word": "MASSAGE",
+          "roles": {
+            "EVALUATION": "#V296756",
+            "LEX": "MASSAGE",
+            "WNSENSE": "massage%1:04:00::"
+          },
+          "start": 36,
+          "end": 55
+        },
+        "V296756": {
+          "id": "V296756",
+          "indicator": "F",
+          "type": "GREAT-VAL",
+          "word": "WONDERFUL",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "HI",
+            "FIGURE": "#V296764",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "WONDERFUL",
+            "WNSENSE": "wonderful%5:00:00:extraordinary:00"
+          },
+          "start": 38,
+          "end": 48
+        },
+        "root": "#V297458"
+      }
+    ],
+    [
+      {
+        "V297447": {
+          "id": "V297447",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V297102",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 56
+        },
+        "V297102": {
+          "id": "V297102",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V296611",
+            "SEQUENCE1": "#V296694",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 55
+        },
+        "V296694": {
+          "id": "V296694",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "GET",
+          "roles": {
+            "AGENT": "#V296591",
+            "AFFECTED": "#V296764",
+            "LEX": "GOT",
+            "WNSENSE": "get%2:40:00::"
+          },
+          "start": 0,
+          "end": 55
+        },
+        "V296611": {
+          "id": "V296611",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V296630",
+            "AGENT": "#V296591",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 0,
+          "end": 55
+        },
+        "V296591": {
+          "id": "V296591",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V296630": {
+          "id": "V296630",
+          "indicator": "F",
+          "type": "RESULTING-STATE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V296656",
+            "FIGURE": "#V296591",
+            "LEX": "TO"
+          },
+          "start": 9,
+          "end": 28
+        },
+        "V296656": {
+          "id": "V296656",
+          "indicator": "THE",
+          "type": "GATHERING-EVENT",
+          "word": "APPOINTMENT",
+          "roles": {
+            "ASSOC-POSS": "#V296651",
+            "LEX": "APPOINTMENT",
+            "WNSENSE": "appointment%1:14:00::"
+          },
+          "start": 12,
+          "end": 28
+        },
+        "V296651": {
+          "id": "V296651",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 12,
+          "end": 28
+        },
+        "V296764": {
+          "id": "V296764",
+          "indicator": "A",
+          "type": "MEDICAL-EVENT",
+          "word": "MASSAGE",
+          "roles": {
+            "EVALUATION": "#V296755",
+            "LEX": "MASSAGE",
+            "WNSENSE": "massage%1:04:00::"
+          },
+          "start": 36,
+          "end": 55
+        },
+        "V296755": {
+          "id": "V296755",
+          "indicator": "F",
+          "type": "GREAT-VAL",
+          "word": "WONDERFUL",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "HI",
+            "FIGURE": "#V296764",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "WONDERFUL",
+            "WNSENSE": "wonderful%5:00:00:extraordinary:00"
+          },
+          "start": 38,
+          "end": 48
+        },
+        "root": "#V297447"
+      }
+    ],
+    [
+      {
+        "V297513": {
+          "id": "V297513",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V297102",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 56
+        },
+        "V297102": {
+          "id": "V297102",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V296611",
+            "SEQUENCE1": "#V296686",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 55
+        },
+        "V296686": {
+          "id": "V296686",
+          "indicator": "F",
+          "type": "HAVE-EXPERIENCE",
+          "word": "GET",
+          "roles": {
+            "EXPERIENCER": "#V296591",
+            "NEUTRAL": "#V296764",
+            "LEX": "GOT",
+            "WNSENSE": "get%2:39:00::"
+          },
+          "start": 0,
+          "end": 55
+        },
+        "V296611": {
+          "id": "V296611",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V296630",
+            "AGENT": "#V296591",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 0,
+          "end": 55
+        },
+        "V296591": {
+          "id": "V296591",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V296630": {
+          "id": "V296630",
+          "indicator": "F",
+          "type": "RESULTING-STATE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V296656",
+            "FIGURE": "#V296591",
+            "LEX": "TO"
+          },
+          "start": 9,
+          "end": 28
+        },
+        "V296656": {
+          "id": "V296656",
+          "indicator": "THE",
+          "type": "GATHERING-EVENT",
+          "word": "APPOINTMENT",
+          "roles": {
+            "ASSOC-POSS": "#V296651",
+            "LEX": "APPOINTMENT",
+            "WNSENSE": "appointment%1:14:00::"
+          },
+          "start": 12,
+          "end": 28
+        },
+        "V296651": {
+          "id": "V296651",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 12,
+          "end": 28
+        },
+        "V296764": {
+          "id": "V296764",
+          "indicator": "A",
+          "type": "MEDICAL-EVENT",
+          "word": "MASSAGE",
+          "roles": {
+            "EVALUATION": "#V296757",
+            "LEX": "MASSAGE",
+            "WNSENSE": "massage%1:04:00::"
+          },
+          "start": 36,
+          "end": 55
+        },
+        "V296757": {
+          "id": "V296757",
+          "indicator": "F",
+          "type": "GREAT-VAL",
+          "word": "WONDERFUL",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "HI",
+            "FIGURE": "#V296764",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "WONDERFUL",
+            "WNSENSE": "wonderful%5:00:00:extraordinary:00"
+          },
+          "start": 38,
+          "end": 48
+        },
+        "root": "#V297513"
+      }
+    ]
+  ],
+  "sentence": "She went to her appointment and got a wonderful massage. ",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190801T190027",
+    "link": "http://trips.ihmc.us/parser/saved/20190801T190027-STEP-abhatia-0-She_went_to_her_appointment_and_got_a_wo.xml",
+    "judgement": 0
+  }
+}

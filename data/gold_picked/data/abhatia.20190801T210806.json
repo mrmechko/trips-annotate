@@ -1,0 +1,462 @@
+{
+  "parse": [
+    {
+      "V306506": {
+        "id": "V306506",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V305887",
+          "LEX": "HIRED"
+        },
+        "start": 0,
+        "end": 36
+      },
+      "V305887": {
+        "id": "V305887",
+        "indicator": "F",
+        "type": "EMPLOY",
+        "word": "HIRE",
+        "roles": {
+          "AGENT": "#V305872",
+          "AFFECTED": "#V305931",
+          "REASON": "#V305942",
+          "TENSE": "PAST",
+          "LEX": "HIRED",
+          "WNSENSE": "hire%2:41:00::"
+        },
+        "start": 0,
+        "end": 36
+      },
+      "V305872": {
+        "id": "V305872",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V305931": {
+        "id": "V305931",
+        "indicator": "A",
+        "type": "PROFESSIONAL",
+        "word": "LAWYER",
+        "roles": {
+          "LEX": "LAWYER",
+          "WNSENSE": "lawyer%1:18:00::"
+        },
+        "start": 8,
+        "end": 17
+      },
+      "V305942": {
+        "id": "V305942",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V305960",
+          "FIGURE": "#V305887",
+          "LEX": "TO"
+        },
+        "start": 17,
+        "end": 36
+      },
+      "V305960": {
+        "id": "V305960",
+        "indicator": "F",
+        "type": "FIGHTING",
+        "word": "FIGHT",
+        "roles": {
+          "NEUTRAL": "#V305982",
+          "VFORM": "BASE",
+          "LEX": "FIGHT",
+          "WNSENSE": "fight%2:33:00::"
+        },
+        "start": 20,
+        "end": 36
+      },
+      "V305982": {
+        "id": "V305982",
+        "indicator": "THE",
+        "type": "APPROPRIATE",
+        "word": "CLAIMS",
+        "roles": {
+          "AFFECTED": "#V305968",
+          "LEX": "CLAIMS",
+          "WNSENSE": "claim%2:32:03"
+        },
+        "start": 26,
+        "end": 36
+      },
+      "V305968": {
+        "id": "V305968",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "HER",
+        "roles": {
+          "LEX": "HER",
+          "PROFORM": "HER",
+          "WNSENSE": "woman%1:18:00",
+          "COREF": "#V305931"
+        },
+        "start": 26,
+        "end": 36
+      },
+      "root": "#V306506"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V306503": {
+          "id": "V306503",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V305887",
+            "LEX": "HIRED"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V305887": {
+          "id": "V305887",
+          "indicator": "F",
+          "type": "EMPLOY",
+          "word": "HIRE",
+          "roles": {
+            "AGENT": "#V305872",
+            "AFFECTED": "#V305931",
+            "REASON": "#V305942",
+            "TENSE": "PAST",
+            "LEX": "HIRED",
+            "WNSENSE": "hire%2:41:00::"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V305872": {
+          "id": "V305872",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V305931": {
+          "id": "V305931",
+          "indicator": "A",
+          "type": "PROFESSIONAL",
+          "word": "LAWYER",
+          "roles": {
+            "LEX": "LAWYER",
+            "WNSENSE": "lawyer%1:18:00::"
+          },
+          "start": 8,
+          "end": 17
+        },
+        "V305942": {
+          "id": "V305942",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V305960",
+            "FIGURE": "#V305887",
+            "LEX": "TO"
+          },
+          "start": 17,
+          "end": 36
+        },
+        "V305960": {
+          "id": "V305960",
+          "indicator": "F",
+          "type": "FIGHTING",
+          "word": "FIGHT",
+          "roles": {
+            "NEUTRAL": "#V305983",
+            "VFORM": "BASE",
+            "LEX": "FIGHT",
+            "WNSENSE": "fight%2:33:00::"
+          },
+          "start": 20,
+          "end": 36
+        },
+        "V305983": {
+          "id": "V305983",
+          "indicator": "THE",
+          "type": "ASSERT",
+          "word": "CLAIMS",
+          "roles": {
+            "AFFECTED": "#V305968",
+            "LEX": "CLAIMS",
+            "WNSENSE": "assert%2:32:01"
+          },
+          "start": 26,
+          "end": 36
+        },
+        "V305968": {
+          "id": "V305968",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 26,
+          "end": 36
+        },
+        "root": "#V306503"
+      }
+    ],
+    [
+      {
+        "V306500": {
+          "id": "V306500",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V305887",
+            "LEX": "HIRED"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V305887": {
+          "id": "V305887",
+          "indicator": "F",
+          "type": "EMPLOY",
+          "word": "HIRE",
+          "roles": {
+            "AGENT": "#V305872",
+            "AFFECTED": "#V305931",
+            "REASON": "#V305942",
+            "TENSE": "PAST",
+            "LEX": "HIRED",
+            "WNSENSE": "hire%2:41:00::"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V305872": {
+          "id": "V305872",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V305931": {
+          "id": "V305931",
+          "indicator": "A",
+          "type": "PROFESSIONAL",
+          "word": "LAWYER",
+          "roles": {
+            "LEX": "LAWYER",
+            "WNSENSE": "lawyer%1:18:00::"
+          },
+          "start": 8,
+          "end": 17
+        },
+        "V305942": {
+          "id": "V305942",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V305960",
+            "FIGURE": "#V305887",
+            "LEX": "TO"
+          },
+          "start": 17,
+          "end": 36
+        },
+        "V305960": {
+          "id": "V305960",
+          "indicator": "F",
+          "type": "FIGHTING",
+          "word": "FIGHT",
+          "roles": {
+            "NEUTRAL": "#V305980",
+            "VFORM": "BASE",
+            "LEX": "FIGHT",
+            "WNSENSE": "fight%2:33:00::"
+          },
+          "start": 20,
+          "end": 36
+        },
+        "V305980": {
+          "id": "V305980",
+          "indicator": "THE",
+          "type": "ASSERT",
+          "word": "CLAIMS",
+          "roles": {
+            "AGENT": "#V305968",
+            "LEX": "CLAIMS",
+            "WNSENSE": "assert%2:32:01"
+          },
+          "start": 26,
+          "end": 36
+        },
+        "V305968": {
+          "id": "V305968",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 26,
+          "end": 36
+        },
+        "root": "#V306500"
+      }
+    ],
+    [
+      {
+        "V306531": {
+          "id": "V306531",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V305887",
+            "LEX": "HIRED"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V305887": {
+          "id": "V305887",
+          "indicator": "F",
+          "type": "EMPLOY",
+          "word": "HIRE",
+          "roles": {
+            "AGENT": "#V305872",
+            "AFFECTED": "#V305931",
+            "REASON": "#V305942",
+            "TENSE": "PAST",
+            "LEX": "HIRED",
+            "WNSENSE": "hire%2:41:00::"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V305872": {
+          "id": "V305872",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V305931": {
+          "id": "V305931",
+          "indicator": "A",
+          "type": "PROFESSIONAL",
+          "word": "LAWYER",
+          "roles": {
+            "LEX": "LAWYER",
+            "WNSENSE": "lawyer%1:18:00::"
+          },
+          "start": 8,
+          "end": 17
+        },
+        "V305942": {
+          "id": "V305942",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V305960",
+            "FIGURE": "#V305887",
+            "LEX": "TO"
+          },
+          "start": 17,
+          "end": 36
+        },
+        "V305960": {
+          "id": "V305960",
+          "indicator": "F",
+          "type": "FIGHTING",
+          "word": "FIGHT",
+          "roles": {
+            "NEUTRAL": "#V305979",
+            "VFORM": "BASE",
+            "LEX": "FIGHT",
+            "WNSENSE": "fight%2:33:00::"
+          },
+          "start": 20,
+          "end": 36
+        },
+        "V305979": {
+          "id": "V305979",
+          "indicator": "THE-SET",
+          "type": "ASSERT",
+          "word": "CLAIMS",
+          "roles": {
+            "ASSOC-POSS": "#V305968",
+            "LEX": "CLAIMS",
+            "WNSENSE": "assert%2:32:01"
+          },
+          "start": 26,
+          "end": 36
+        },
+        "V305968": {
+          "id": "V305968",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 26,
+          "end": 36
+        },
+        "root": "#V306531"
+      }
+    ]
+  ],
+  "sentence": "I hired a lawyer to fight her claims.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190801T210806",
+    "link": "http://trips.ihmc.us/parser/saved/20190801T210806-STEP-abhatia-0-I_hired_a_lawyer_to_fight_her_claims_.xml",
+    "judgement": 0
+  }
+}

@@ -1,0 +1,17 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V155610 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V155305 [label=<<font color="green"><br /></font> <font color="black">FLY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">FLY</font> <font color="green"><br /></font> <font color="green">fly%2:38:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FLY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V155296 [label=<<font color="green"><br /></font> <font color="black">BIRD</font> <font color="green"><br /></font> <font color="red">THE-SET</font> <font color="blue">BIRD</font> <font color="green"><br /></font> <font color="green">bird%1:05:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BIRD.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V155299 [label=<<font color="green"><br /></font> <font color="black">SPEEDY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">QUICKLY</font> <font color="green"><br /></font> <font color="green">quick%5:00:02:fast:01</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SPEEDY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V155310 [label=<<font color="green"><br /></font> <font color="black">AWAY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">AWAY</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::AWAY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V155610 -> V155305 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V155305 -> V155299 [label=" MANNER   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V155299 -> V155305 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V155305 -> V155296 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V155310 -> V155305 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V155305 -> V155310 [label=" RESULT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

@@ -1,0 +1,230 @@
+{
+  "parse": [
+    {
+      "V46528": {
+        "id": "V46528",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V46296",
+          "LEX": "BAKED"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V46296": {
+        "id": "V46296",
+        "indicator": "F",
+        "type": "CREATE-BY-COOKING",
+        "word": "BAKE",
+        "roles": {
+          "AGENT": "#V46290",
+          "AFFECTED-RESULT": "#V46309",
+          "TENSE": "PAST",
+          "LEX": "BAKED"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V46290": {
+        "id": "V46290",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "THE",
+        "roles": {
+          "NAME-OF": "THE",
+          "LEX": "THE"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V46309": {
+        "id": "V46309",
+        "indicator": "BARE",
+        "type": "REFERENTIAL-SEM",
+        "word": "THING",
+        "roles": {
+          "LEX": "THING"
+        },
+        "start": 10,
+        "end": 15
+      },
+      "root": "#V46528"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V46523": {
+          "id": "V46523",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V46299",
+            "LEX": "BAKED"
+          },
+          "start": 0,
+          "end": 16
+        },
+        "V46299": {
+          "id": "V46299",
+          "indicator": "F",
+          "type": "BAKE",
+          "word": "BAKE",
+          "roles": {
+            "AGENT": "#V46290",
+            "AFFECTED": "#V46309",
+            "TENSE": "PAST",
+            "LEX": "BAKED"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V46290": {
+          "id": "V46290",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "NAME-OF": "THE",
+            "LEX": "THE"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V46309": {
+          "id": "V46309",
+          "indicator": "BARE",
+          "type": "REFERENTIAL-SEM",
+          "word": "THING",
+          "roles": {
+            "LEX": "THING"
+          },
+          "start": 10,
+          "end": 15
+        },
+        "root": "#V46523"
+      }
+    ],
+    [
+      {
+        "V46528": {
+          "id": "V46528",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V46296",
+            "LEX": "BAKED"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V46296": {
+          "id": "V46296",
+          "indicator": "F",
+          "type": "CREATE-BY-COOKING",
+          "word": "BAKE",
+          "roles": {
+            "AGENT": "#V46290",
+            "AFFECTED-RESULT": "#V46309",
+            "TENSE": "PAST",
+            "LEX": "BAKED"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V46290": {
+          "id": "V46290",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "NAME-OF": "THE",
+            "LEX": "THE"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V46309": {
+          "id": "V46309",
+          "indicator": "BARE",
+          "type": "REFERENTIAL-SEM",
+          "word": "THING",
+          "roles": {
+            "LEX": "THING"
+          },
+          "start": 10,
+          "end": 15
+        },
+        "root": "#V46528"
+      }
+    ],
+    [
+      {
+        "V46523": {
+          "id": "V46523",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V46299",
+            "LEX": "BAKED"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V46299": {
+          "id": "V46299",
+          "indicator": "F",
+          "type": "BAKE",
+          "word": "BAKE",
+          "roles": {
+            "AGENT": "#V46290",
+            "AFFECTED": "#V46309",
+            "TENSE": "PAST",
+            "LEX": "BAKED"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V46290": {
+          "id": "V46290",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "NAME-OF": "THE",
+            "LEX": "THE"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V46309": {
+          "id": "V46309",
+          "indicator": "BARE",
+          "type": "REFERENTIAL-SEM",
+          "word": "THING",
+          "roles": {
+            "LEX": "THING"
+          },
+          "start": 10,
+          "end": 15
+        },
+        "root": "#V46523"
+      }
+    ]
+  ],
+  "sentence": "The baked thing.",
+  "annotation": {
+    "judge": "wbeaumont",
+    "parser": "STEP",
+    "timestamp": "20190617T154040",
+    "link": "http://trips.ihmc.us/parser/saved/20190617T154040-STEP-wbeaumont-none-The_baked_thing_.xml",
+    "judgement": -1
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "parse": [
+    {
+      "V35419": {
+        "id": "V35419",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V35349",
+          "LEX": "ANGERED"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V35349": {
+        "id": "V35349",
+        "indicator": "F",
+        "type": "EVOKE-ANGER",
+        "word": "ANGER",
+        "roles": {
+          "AGENT": "#V35344",
+          "AFFECTED": "#V35358",
+          "TENSE": "PAST",
+          "LEX": "ANGERED"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V35344": {
+        "id": "V35344",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V35358": {
+        "id": "V35358",
+        "indicator": "THE",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "LION",
+        "roles": {
+          "LEX": "LION"
+        },
+        "start": 11,
+        "end": 19
+      },
+      "root": "#V35419"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V35419": {
+          "id": "V35419",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V35349",
+            "LEX": "ANGERED"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V35349": {
+          "id": "V35349",
+          "indicator": "F",
+          "type": "EVOKE-ANGER",
+          "word": "ANGER",
+          "roles": {
+            "AGENT": "#V35344",
+            "AFFECTED": "#V35358",
+            "TENSE": "PAST",
+            "LEX": "ANGERED"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V35344": {
+          "id": "V35344",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V35358": {
+          "id": "V35358",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "LION",
+          "roles": {
+            "LEX": "LION"
+          },
+          "start": 11,
+          "end": 19
+        },
+        "root": "#V35419"
+      }
+    ],
+    [
+      {
+        "V35349": {
+          "id": "V35349",
+          "indicator": "F",
+          "type": "EVOKE-ANGER",
+          "word": "ANGER",
+          "roles": {
+            "AGENT": "#V35344",
+            "AFFECTED": "#V35358",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "ANGERED"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V35344": {
+          "id": "V35344",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V35358": {
+          "id": "V35358",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "LION",
+          "roles": {
+            "LEX": "LION"
+          },
+          "start": 11,
+          "end": 19
+        },
+        "root": "#V35349"
+      }
+    ],
+    [
+      [
+        {
+          "V35344": {
+            "id": "V35344",
+            "indicator": "PRO",
+            "type": "MALE-PERSON",
+            "word": "HE",
+            "roles": {
+              "PROFORM": "HE",
+              "LEX": "HE"
+            },
+            "start": 0,
+            "end": 3
+          },
+          "root": "#V35344"
+        },
+        {
+          "V35443": {
+            "id": "V35443",
+            "indicator": "SPEECHACT",
+            "type": "SA_TELL",
+            "word": null,
+            "roles": {
+              "PUNCTYPE": "DECL",
+              "CONTENT": "#V35349",
+              "LEX": "ANGERED"
+            },
+            "start": 3,
+            "end": 20
+          },
+          "V35349": {
+            "id": "V35349",
+            "indicator": "F",
+            "type": "EVOKE-ANGER",
+            "word": "ANGER",
+            "roles": {
+              "AGENT": "#V35444",
+              "AFFECTED": "#V35358",
+              "TENSE": "PAST",
+              "LEX": "ANGERED"
+            },
+            "start": 3,
+            "end": 19
+          },
+          "V35444": {
+            "id": "V35444",
+            "indicator": "IMPRO",
+            "type": "REFERENTIAL-SEM",
+            "word": null,
+            "roles": {
+              "PROFORM": "SUBJ"
+            },
+            "start": 3,
+            "end": 19
+          },
+          "V35358": {
+            "id": "V35358",
+            "indicator": "THE",
+            "type": "NONHUMAN-ANIMAL",
+            "word": "LION",
+            "roles": {
+              "LEX": "LION"
+            },
+            "start": 11,
+            "end": 19
+          },
+          "root": "#V35443"
+        }
+      ]
+    ]
+  ],
+  "sentence": "He angered the lion.",
+  "annotation": {
+    "judge": "jallen",
+    "parser": "STEP",
+    "timestamp": "20190507T144709",
+    "link": "http://trips.ihmc.us/parser/saved/20190507T144709-STEP-jallen-0-He_angered_the_lion_.xml",
+    "judgement": 0
+  }
+}

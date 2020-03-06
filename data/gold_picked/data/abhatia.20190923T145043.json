@@ -1,0 +1,898 @@
+{
+  "parse": [
+    {
+      "V90764": {
+        "id": "V90764",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V90557",
+          "LEX": "DECIDES"
+        },
+        "start": 0,
+        "end": 25
+      },
+      "V90557": {
+        "id": "V90557",
+        "indicator": "F",
+        "type": "DECIDE",
+        "word": "DECIDE",
+        "roles": {
+          "AGENT": "#V90552",
+          "FORMAL": "#V90595",
+          "TENSE": "PRES",
+          "LEX": "DECIDES",
+          "WNSENSE": "decide%2:31:00::"
+        },
+        "start": 0,
+        "end": 25
+      },
+      "V90552": {
+        "id": "V90552",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "SHE",
+        "roles": {
+          "PROFORM": "SHE",
+          "LEX": "SHE",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V90595": {
+        "id": "V90595",
+        "indicator": "F",
+        "type": "STEAL",
+        "word": "ROB",
+        "roles": {
+          "AGENT": "#V90552",
+          "AFFECTED-RESULT": "#V90642",
+          "VFORM": "BASE",
+          "LEX": "ROB",
+          "WNSENSE": "rob%2:40:00::"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V90642": {
+        "id": "V90642",
+        "indicator": "A",
+        "type": "SHORE",
+        "word": "BANK",
+        "roles": {
+          "LEX": "BANK",
+          "WNSENSE": "bank%1:17:01::"
+        },
+        "start": 19,
+        "end": 25
+      },
+      "root": "#V90764"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V90767": {
+          "id": "V90767",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V90557",
+            "LEX": "DECIDES"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V90557": {
+          "id": "V90557",
+          "indicator": "F",
+          "type": "DECIDE",
+          "word": "DECIDE",
+          "roles": {
+            "AGENT": "#V90552",
+            "FORMAL": "#V90595",
+            "TENSE": "PRES",
+            "LEX": "DECIDES",
+            "WNSENSE": "decide%2:31:00::"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V90552": {
+          "id": "V90552",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V90595": {
+          "id": "V90595",
+          "indicator": "F",
+          "type": "STEAL",
+          "word": "ROB",
+          "roles": {
+            "AGENT": "#V90552",
+            "AFFECTED-RESULT": "#V90641",
+            "VFORM": "BASE",
+            "LEX": "ROB",
+            "WNSENSE": "rob%2:40:00::"
+          },
+          "start": 12,
+          "end": 25
+        },
+        "V90641": {
+          "id": "V90641",
+          "indicator": "A",
+          "type": "FINANCIAL-INSTITUTION",
+          "word": "BANK",
+          "roles": {
+            "LEX": "BANK",
+            "WNSENSE": "bank%1:14:00::"
+          },
+          "start": 19,
+          "end": 25
+        },
+        "root": "#V90767"
+      }
+    ],
+    [
+      {
+        "V90846": {
+          "id": "V90846",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V90560",
+            "LEX": "DECIDES"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V90560": {
+          "id": "V90560",
+          "indicator": "F",
+          "type": "DECIDE",
+          "word": "DECIDE",
+          "roles": {
+            "AGENT": "#V90552",
+            "REASON": "#V90575",
+            "TENSE": "PRES",
+            "LEX": "DECIDES",
+            "WNSENSE": "decide%2:31:00::"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V90552": {
+          "id": "V90552",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V90575": {
+          "id": "V90575",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V90595",
+            "FIGURE": "#V90560",
+            "LEX": "TO"
+          },
+          "start": 12,
+          "end": 25
+        },
+        "V90595": {
+          "id": "V90595",
+          "indicator": "F",
+          "type": "STEAL",
+          "word": "ROB",
+          "roles": {
+            "AFFECTED-RESULT": "#V90642",
+            "VFORM": "BASE",
+            "LEX": "ROB",
+            "WNSENSE": "rob%2:40:00::"
+          },
+          "start": 15,
+          "end": 25
+        },
+        "V90642": {
+          "id": "V90642",
+          "indicator": "A",
+          "type": "SHORE",
+          "word": "BANK",
+          "roles": {
+            "LEX": "BANK",
+            "WNSENSE": "bank%1:17:01::"
+          },
+          "start": 19,
+          "end": 25
+        },
+        "root": "#V90846"
+      }
+    ],
+    [
+      {
+        "V90852": {
+          "id": "V90852",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V90560",
+            "LEX": "DECIDES"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V90560": {
+          "id": "V90560",
+          "indicator": "F",
+          "type": "DECIDE",
+          "word": "DECIDE",
+          "roles": {
+            "AGENT": "#V90552",
+            "REASON": "#V90575",
+            "TENSE": "PRES",
+            "LEX": "DECIDES",
+            "WNSENSE": "decide%2:31:00::"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V90552": {
+          "id": "V90552",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V90575": {
+          "id": "V90575",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V90595",
+            "FIGURE": "#V90560",
+            "LEX": "TO"
+          },
+          "start": 12,
+          "end": 25
+        },
+        "V90595": {
+          "id": "V90595",
+          "indicator": "F",
+          "type": "STEAL",
+          "word": "ROB",
+          "roles": {
+            "AFFECTED-RESULT": "#V90641",
+            "VFORM": "BASE",
+            "LEX": "ROB",
+            "WNSENSE": "rob%2:40:00::"
+          },
+          "start": 15,
+          "end": 25
+        },
+        "V90641": {
+          "id": "V90641",
+          "indicator": "A",
+          "type": "FINANCIAL-INSTITUTION",
+          "word": "BANK",
+          "roles": {
+            "LEX": "BANK",
+            "WNSENSE": "bank%1:14:00::"
+          },
+          "start": 19,
+          "end": 25
+        },
+        "root": "#V90852"
+      }
+    ],
+    [
+      {
+        "V91219": {
+          "id": "V91219",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V90557",
+            "LEX": "DECIDES"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V90557": {
+          "id": "V90557",
+          "indicator": "F",
+          "type": "DECIDE",
+          "word": "DECIDE",
+          "roles": {
+            "AGENT": "#V90552",
+            "FORMAL": "#V90595",
+            "TENSE": "PRES",
+            "LEX": "DECIDES",
+            "WNSENSE": "decide%2:31:00::"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V90552": {
+          "id": "V90552",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V90595": {
+          "id": "V90595",
+          "indicator": "F",
+          "type": "STEAL",
+          "word": "ROB",
+          "roles": {
+            "AGENT": "#V90552",
+            "AFFECTED-RESULT": "#V90642",
+            "VFORM": "BASE",
+            "LEX": "ROB",
+            "WNSENSE": "rob%2:40:00::"
+          },
+          "start": 12,
+          "end": 25
+        },
+        "V90642": {
+          "id": "V90642",
+          "indicator": "BARE",
+          "type": "SHORE",
+          "word": "BANK",
+          "roles": {
+            "ASSOC-WITH": "#V90613",
+            "LEX": "BANK",
+            "WNSENSE": "bank%1:17:01::"
+          },
+          "start": 19,
+          "end": 25
+        },
+        "V90613": {
+          "id": "V90613",
+          "indicator": "THE",
+          "type": "LETTER-SYMBOL",
+          "word": null,
+          "roles": {
+            "NAME-OF": "A",
+            "LEX": "A",
+            "WNSENSE": "a%1:10:00::"
+          },
+          "start": 19,
+          "end": 21
+        },
+        "root": "#V91219"
+      }
+    ],
+    [
+      {
+        "V91396": {
+          "id": "V91396",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V90557",
+            "LEX": "DECIDES"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V90557": {
+          "id": "V90557",
+          "indicator": "F",
+          "type": "DECIDE",
+          "word": "DECIDE",
+          "roles": {
+            "AGENT": "#V90552",
+            "FORMAL": "#V90595",
+            "TENSE": "PRES",
+            "LEX": "DECIDES",
+            "WNSENSE": "decide%2:31:00::"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V90552": {
+          "id": "V90552",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V90595": {
+          "id": "V90595",
+          "indicator": "F",
+          "type": "STEAL",
+          "word": "ROB",
+          "roles": {
+            "AGENT": "#V90552",
+            "AFFECTED-RESULT": "#V90641",
+            "VFORM": "BASE",
+            "LEX": "ROB",
+            "WNSENSE": "rob%2:40:00::"
+          },
+          "start": 12,
+          "end": 25
+        },
+        "V90641": {
+          "id": "V90641",
+          "indicator": "BARE",
+          "type": "FINANCIAL-INSTITUTION",
+          "word": "BANK",
+          "roles": {
+            "ASSOC-WITH": "#V90613",
+            "LEX": "BANK",
+            "WNSENSE": "bank%1:14:00::"
+          },
+          "start": 19,
+          "end": 25
+        },
+        "V90613": {
+          "id": "V90613",
+          "indicator": "THE",
+          "type": "LETTER-SYMBOL",
+          "word": null,
+          "roles": {
+            "NAME-OF": "A",
+            "LEX": "A",
+            "WNSENSE": "a%1:10:00::"
+          },
+          "start": 19,
+          "end": 21
+        },
+        "root": "#V91396"
+      }
+    ],
+    [
+      {
+        "V91492": {
+          "id": "V91492",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V90557",
+            "LEX": "DECIDES"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V90557": {
+          "id": "V90557",
+          "indicator": "F",
+          "type": "DECIDE",
+          "word": "DECIDE",
+          "roles": {
+            "AGENT": "#V90552",
+            "FORMAL": "#V90595",
+            "TENSE": "PRES",
+            "LEX": "DECIDES",
+            "WNSENSE": "decide%2:31:00::"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V90552": {
+          "id": "V90552",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V90595": {
+          "id": "V90595",
+          "indicator": "F",
+          "type": "STEAL",
+          "word": "ROB",
+          "roles": {
+            "AGENT": "#V90552",
+            "AFFECTED-RESULT": "#V90642",
+            "VFORM": "BASE",
+            "LEX": "ROB",
+            "WNSENSE": "rob%2:40:00::"
+          },
+          "start": 12,
+          "end": 25
+        },
+        "V90642": {
+          "id": "V90642",
+          "indicator": "BARE",
+          "type": "SHORE",
+          "word": "BANK",
+          "roles": {
+            "ASSOC-WITH": "#V91047",
+            "LEX": "BANK",
+            "WNSENSE": "bank%1:17:01::"
+          },
+          "start": 19,
+          "end": 25
+        },
+        "V91047": {
+          "id": "V91047",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V91018",
+            "LEX": "A"
+          },
+          "start": 19,
+          "end": 21
+        },
+        "V91018": {
+          "id": "V91018",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(A)",
+            "VAL": "(A)",
+            "LEX": "A"
+          },
+          "start": 19,
+          "end": 21
+        },
+        "root": "#V91492"
+      }
+    ],
+    [
+      {
+        "V91687": {
+          "id": "V91687",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V90557",
+            "LEX": "DECIDES"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V90557": {
+          "id": "V90557",
+          "indicator": "F",
+          "type": "DECIDE",
+          "word": "DECIDE",
+          "roles": {
+            "AGENT": "#V90552",
+            "FORMAL": "#V90595",
+            "TENSE": "PRES",
+            "LEX": "DECIDES",
+            "WNSENSE": "decide%2:31:00::"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V90552": {
+          "id": "V90552",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V90595": {
+          "id": "V90595",
+          "indicator": "F",
+          "type": "STEAL",
+          "word": "ROB",
+          "roles": {
+            "AGENT": "#V90552",
+            "AFFECTED-RESULT": "#V90641",
+            "VFORM": "BASE",
+            "LEX": "ROB",
+            "WNSENSE": "rob%2:40:00::"
+          },
+          "start": 12,
+          "end": 25
+        },
+        "V90641": {
+          "id": "V90641",
+          "indicator": "BARE",
+          "type": "FINANCIAL-INSTITUTION",
+          "word": "BANK",
+          "roles": {
+            "ASSOC-WITH": "#V91047",
+            "LEX": "BANK",
+            "WNSENSE": "bank%1:14:00::"
+          },
+          "start": 19,
+          "end": 25
+        },
+        "V91047": {
+          "id": "V91047",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V91018",
+            "LEX": "A"
+          },
+          "start": 19,
+          "end": 21
+        },
+        "V91018": {
+          "id": "V91018",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(A)",
+            "VAL": "(A)",
+            "LEX": "A"
+          },
+          "start": 19,
+          "end": 21
+        },
+        "root": "#V91687"
+      }
+    ],
+    [
+      {
+        "V91243": {
+          "id": "V91243",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V90560",
+            "LEX": "DECIDES"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V90560": {
+          "id": "V90560",
+          "indicator": "F",
+          "type": "DECIDE",
+          "word": "DECIDE",
+          "roles": {
+            "AGENT": "#V90552",
+            "REASON": "#V90575",
+            "TENSE": "PRES",
+            "LEX": "DECIDES",
+            "WNSENSE": "decide%2:31:00::"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V90552": {
+          "id": "V90552",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V90575": {
+          "id": "V90575",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V90595",
+            "FIGURE": "#V90560",
+            "LEX": "TO"
+          },
+          "start": 12,
+          "end": 25
+        },
+        "V90595": {
+          "id": "V90595",
+          "indicator": "F",
+          "type": "STEAL",
+          "word": "ROB",
+          "roles": {
+            "AFFECTED-RESULT": "#V90642",
+            "VFORM": "BASE",
+            "LEX": "ROB",
+            "WNSENSE": "rob%2:40:00::"
+          },
+          "start": 15,
+          "end": 25
+        },
+        "V90642": {
+          "id": "V90642",
+          "indicator": "BARE",
+          "type": "SHORE",
+          "word": "BANK",
+          "roles": {
+            "ASSOC-WITH": "#V90613",
+            "LEX": "BANK",
+            "WNSENSE": "bank%1:17:01::"
+          },
+          "start": 19,
+          "end": 25
+        },
+        "V90613": {
+          "id": "V90613",
+          "indicator": "THE",
+          "type": "LETTER-SYMBOL",
+          "word": null,
+          "roles": {
+            "NAME-OF": "A",
+            "LEX": "A",
+            "WNSENSE": "a%1:10:00::"
+          },
+          "start": 19,
+          "end": 21
+        },
+        "root": "#V91243"
+      }
+    ],
+    [
+      {
+        "V91420": {
+          "id": "V91420",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V90560",
+            "LEX": "DECIDES"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V90560": {
+          "id": "V90560",
+          "indicator": "F",
+          "type": "DECIDE",
+          "word": "DECIDE",
+          "roles": {
+            "AGENT": "#V90552",
+            "REASON": "#V90575",
+            "TENSE": "PRES",
+            "LEX": "DECIDES",
+            "WNSENSE": "decide%2:31:00::"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V90552": {
+          "id": "V90552",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V90575": {
+          "id": "V90575",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V90595",
+            "FIGURE": "#V90560",
+            "LEX": "TO"
+          },
+          "start": 12,
+          "end": 25
+        },
+        "V90595": {
+          "id": "V90595",
+          "indicator": "F",
+          "type": "STEAL",
+          "word": "ROB",
+          "roles": {
+            "AFFECTED-RESULT": "#V90641",
+            "VFORM": "BASE",
+            "LEX": "ROB",
+            "WNSENSE": "rob%2:40:00::"
+          },
+          "start": 15,
+          "end": 25
+        },
+        "V90641": {
+          "id": "V90641",
+          "indicator": "BARE",
+          "type": "FINANCIAL-INSTITUTION",
+          "word": "BANK",
+          "roles": {
+            "ASSOC-WITH": "#V90613",
+            "LEX": "BANK",
+            "WNSENSE": "bank%1:14:00::"
+          },
+          "start": 19,
+          "end": 25
+        },
+        "V90613": {
+          "id": "V90613",
+          "indicator": "THE",
+          "type": "LETTER-SYMBOL",
+          "word": null,
+          "roles": {
+            "NAME-OF": "A",
+            "LEX": "A",
+            "WNSENSE": "a%1:10:00::"
+          },
+          "start": 19,
+          "end": 21
+        },
+        "root": "#V91420"
+      }
+    ]
+  ],
+  "sentence": "She decides to rob a bank.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190923T145043",
+    "link": "http://trips.ihmc.us/parser/saved/20190923T145043-STEP-abhatia-none-She_decides_to_rob_a_bank_.xml",
+    "judgement": -1
+  }
+}

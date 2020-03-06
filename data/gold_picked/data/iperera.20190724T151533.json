@@ -1,0 +1,205 @@
+{
+  "parse": [
+    {
+      "V75003": {
+        "id": "V75003",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V74653"
+        },
+        "start": 0,
+        "end": 31
+      },
+      "V74653": {
+        "id": "V74653",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V74645",
+          "FORMAL": "#V74676",
+          "TENSE": "PRES"
+        },
+        "start": 0,
+        "end": 31
+      },
+      "V74645": {
+        "id": "V74645",
+        "indicator": "THE-SET",
+        "type": "COLUMN-FORMATION",
+        "word": "COLUMN",
+        "roles": {
+          "MOD": "#V74641"
+        },
+        "start": 0,
+        "end": 18
+      },
+      "V74641": {
+        "id": "V74641",
+        "indicator": "F",
+        "type": "EXTERNAL",
+        "word": "OUTER",
+        "roles": {
+          "FIGURE": "#V74645",
+          "SCALE": "SPATIAL-SCALE"
+        },
+        "start": 4,
+        "end": 10
+      },
+      "V74676": {
+        "id": "V74676",
+        "indicator": "F",
+        "type": "IDENTITY-VAL",
+        "word": "SAME",
+        "roles": {
+          "INTENSITY": "HI",
+          "FIGURE": "#V74645",
+          "SCALE": "SIMILARITY-SCALE"
+        },
+        "start": 22,
+        "end": 31
+      },
+      "root": "#V75003"
+    },
+    {
+      "V74863": {
+        "id": "V74863",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V74696"
+        },
+        "start": 31,
+        "end": 37
+      },
+      "V74696": {
+        "id": "V74696",
+        "indicator": "BARE",
+        "type": "WIDTH-SCALE",
+        "word": "WIDTH",
+        "roles": {
+          "SCALE": "WIDTH-SCALE"
+        },
+        "start": 31,
+        "end": 36
+      },
+      "root": "#V74863"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V75021": {
+          "id": "V75021",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V74654"
+          },
+          "start": 0,
+          "end": 31
+        },
+        "V74654": {
+          "id": "V74654",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V74645",
+            "NEUTRAL1": "#V74784",
+            "TENSE": "PRES"
+          },
+          "start": 0,
+          "end": 31
+        },
+        "V74645": {
+          "id": "V74645",
+          "indicator": "THE-SET",
+          "type": "COLUMN-FORMATION",
+          "word": "COLUMN",
+          "roles": {
+            "MOD": "#V74641"
+          },
+          "start": 0,
+          "end": 18
+        },
+        "V74641": {
+          "id": "V74641",
+          "indicator": "F",
+          "type": "EXTERNAL",
+          "word": "OUTER",
+          "roles": {
+            "FIGURE": "#V74645",
+            "SCALE": "SPATIAL-SCALE"
+          },
+          "start": 4,
+          "end": 10
+        },
+        "V74784": {
+          "id": "V74784",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V74684"
+          },
+          "start": 22,
+          "end": 31
+        },
+        "V74684": {
+          "id": "V74684",
+          "indicator": "F",
+          "type": "SAME",
+          "word": "SAME",
+          "roles": {
+            "INTENSITY": "HI",
+            "FIGURE": "#V74784",
+            "SCALE": "SAME-SCALE"
+          },
+          "start": 26,
+          "end": 31
+        },
+        "root": "#V75021"
+      },
+      {
+        "V74863": {
+          "id": "V74863",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V74696"
+          },
+          "start": 31,
+          "end": 37
+        },
+        "V74696": {
+          "id": "V74696",
+          "indicator": "BARE",
+          "type": "WIDTH-SCALE",
+          "word": "WIDTH",
+          "roles": {
+            "SCALE": "WIDTH-SCALE"
+          },
+          "start": 31,
+          "end": 36
+        },
+        "root": "#V74863"
+      }
+    ]
+  ],
+  "sentence": "The outer columns are the same width.",
+  "annotation": {
+    "judge": "iperera",
+    "parser": "CABOT",
+    "timestamp": "20190724T151533",
+    "link": "http://trips.ihmc.us/parser/saved/20190724T151533-CABOT-iperera-none-The_outer_columns_are_the_same_width_.xml",
+    "judgement": -1
+  }
+}

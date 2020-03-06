@@ -1,0 +1,164 @@
+{
+  "parse": [
+    {
+      "V38260": {
+        "id": "V38260",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V37926"
+        },
+        "start": 0,
+        "end": 36
+      },
+      "V37926": {
+        "id": "V37926",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V37916",
+          "NEUTRAL1": "#V38066",
+          "TENSE": "PRES"
+        },
+        "start": 0,
+        "end": 35
+      },
+      "V37916": {
+        "id": "V37916",
+        "indicator": "THE",
+        "type": "COLUMN-FORMATION",
+        "word": "COLUMN",
+        "roles": {
+          "MOD": "#V37912"
+        },
+        "start": 0,
+        "end": 20
+      },
+      "V37912": {
+        "id": "V37912",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "LEFT",
+        "roles": {
+          "FIGURE": "#V37916",
+          "SCALE": "DOMAIN"
+        },
+        "start": 4,
+        "end": 13
+      },
+      "V38066": {
+        "id": "V38066",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "MOD": "#V37960"
+        },
+        "start": 23,
+        "end": 35
+      },
+      "V37960": {
+        "id": "V37960",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "SHORT",
+        "roles": {
+          "FIGURE": "#V38066",
+          "SCALE": "DOMAIN"
+        },
+        "start": 27,
+        "end": 35
+      },
+      "root": "#V38260"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V38257": {
+          "id": "V38257",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V37926"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V37926": {
+          "id": "V37926",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V37916",
+            "NEUTRAL1": "#V38066",
+            "TENSE": "PRES"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V37916": {
+          "id": "V37916",
+          "indicator": "THE",
+          "type": "COLUMN-FORMATION",
+          "word": "COLUMN",
+          "roles": {
+            "MOD": "#V37912"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V37912": {
+          "id": "V37912",
+          "indicator": "F",
+          "type": "MAX-VAL",
+          "word": "LEFT",
+          "roles": {
+            "FIGURE": "#V37916",
+            "SCALE": "DOMAIN"
+          },
+          "start": 4,
+          "end": 13
+        },
+        "V38066": {
+          "id": "V38066",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V37958"
+          },
+          "start": 23,
+          "end": 35
+        },
+        "V37958": {
+          "id": "V37958",
+          "indicator": "F",
+          "type": "MIN-VAL",
+          "word": "SHORT",
+          "roles": {
+            "FIGURE": "#V38066",
+            "SCALE": "HEIGHT-SCALE"
+          },
+          "start": 27,
+          "end": 35
+        },
+        "root": "#V38257"
+      }
+    ]
+  ],
+  "sentence": "The leftmost column is the shortest.",
+  "annotation": {
+    "judge": "iperera",
+    "parser": "CABOT",
+    "timestamp": "20190715T102948",
+    "link": "http://trips.ihmc.us/parser/saved/20190715T102948-CABOT-iperera-1-The_leftmost_column_is_the_shortest_.xml",
+    "judgement": 1
+  }
+}

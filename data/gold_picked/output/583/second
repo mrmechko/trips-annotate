@@ -1,0 +1,24 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V151035 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V150445 [label=<<font color="green"><br /></font> <font color="black">BE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BE</font> <font color="green"><br /></font> <font color="green">be%2:42:06::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V150435 [label=<<font color="green"><br /></font> <font color="black">TODAY</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">TODAY</font> <font color="green"><br /></font> <font color="green">today%1:28:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TODAY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V150474 [label=<<font color="green"><br /></font> <font color="black">DAY</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">DAY</font> <font color="green"><br /></font> <font color="green">day%1:28:03::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DAY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V150458 [label=<<font color="green"><br /></font> <font color="black">FEMALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HER</font> <font color="green"><br /></font> <font color="green">woman%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FEMALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V150498 [label=<<font color="green"><br /></font> <font color="black">MANNER</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">AS</font> <font color="green"><br /></font> <font color="green">as%4:02:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MANNER.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V150557 [label=<<font color="green"><br /></font> <font color="black">PROFESSIONAL</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">OFFICER</font> <font color="green"><br /></font> <font color="green">officer%1:18:03::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PROFESSIONAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V150552 [label=<<font color="green"><br /></font> <font color="black">REPAIR</font> <font color="green"><br /></font> <font color="red">KIND</font> <font color="blue">CORRECTIONS</font> <font color="green"><br /></font> <font color="green">repair%2:30:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REPAIR.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V151035 -> V150445 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V150498 -> V150445 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V150445 -> V150435 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V150458 -> V150557 [label=" COREF   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V150445 -> V150498 [label=" MANNER   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V150445 -> V150474 [label=" NEUTRAL1   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V150435 -> V150435 [label=" COREF   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V150474 -> V150458 [label=" ASSOC-POSS   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V150557 -> V150552 [label=" ASSOC-WITH   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V150498 -> V150557 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

@@ -1,0 +1,857 @@
+{
+  "parse": [
+    {
+      "V45365": {
+        "id": "V45365",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V45362",
+          "LEX": "WENT"
+        },
+        "start": 0,
+        "end": 61
+      },
+      "V45362": {
+        "id": "V45362",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": null,
+        "roles": {
+          "AGENT": "#V40409",
+          "AFFECTED": "#V40627",
+          "METHOD": "#V40438",
+          "FORMAL": "#V40672",
+          "TENSE": "PAST",
+          "LEX": "WENT"
+        },
+        "start": 0,
+        "end": 61
+      },
+      "V40409": {
+        "id": "V40409",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V40438": {
+        "id": "V40438",
+        "indicator": "F",
+        "type": "MOVE",
+        "word": "GO",
+        "roles": {
+          "RESULT": "#V40456",
+          "AGENT": "#V40409",
+          "TIME": "#V41551",
+          "TENSE": "PAST",
+          "LEX": "WENT"
+        },
+        "start": 2,
+        "end": 41
+      },
+      "V40456": {
+        "id": "V40456",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V40517",
+          "FIGURE": "#V40409",
+          "LEX": "TO"
+        },
+        "start": 7,
+        "end": 35
+      },
+      "V40517": {
+        "id": "V40517",
+        "indicator": "A",
+        "type": "ACADEMIC-INSTITUTION",
+        "word": "SCHOOL",
+        "roles": {
+          "MOD": "#V40547",
+          "LEX": "SCHOOL"
+        },
+        "start": 10,
+        "end": 35
+      },
+      "V40547": {
+        "id": "V40547",
+        "indicator": "F",
+        "type": "EXISTS",
+        "word": "BE",
+        "roles": {
+          "NOROLE": "#V40535",
+          "LOCATION": "#V40522",
+          "TENSE": "PAST",
+          "LEX": "WERE"
+        },
+        "start": 19,
+        "end": 35
+      },
+      "V40522": {
+        "id": "V40522",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "WHERE",
+        "roles": {
+          "GROUND": "#V40517",
+          "FIGURE": "#V40547",
+          "LEX": "WHERE"
+        },
+        "start": 19,
+        "end": 25
+      },
+      "V40535": {
+        "id": "V40535",
+        "indicator": "PRO",
+        "type": "EXPLETIVE",
+        "word": null,
+        "roles": {
+          "PROFORM": "THERE",
+          "LEX": "THERE"
+        },
+        "start": 25,
+        "end": 31
+      },
+      "V41551": {
+        "id": "V41551",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V40438",
+          "GROUND": "#V41647",
+          "MOD": "#V40560",
+          "LEX": "-"
+        },
+        "start": 35,
+        "end": 41
+      },
+      "V41647": {
+        "id": "V41647",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY-OF-WEEK": "#V41378",
+          "LEX": "A"
+        },
+        "start": 35,
+        "end": 41
+      },
+      "V40560": {
+        "id": "V40560",
+        "indicator": "F",
+        "type": "NEG",
+        "word": "N^T",
+        "roles": {
+          "FIGURE": "#V41551",
+          "LEX": "N^T"
+        },
+        "start": 35,
+        "end": 39
+      },
+      "V41378": {
+        "id": "V41378",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(A)",
+          "VAL": "(A)",
+          "LEX": "A"
+        },
+        "start": 39,
+        "end": 41
+      },
+      "V40627": {
+        "id": "V40627",
+        "indicator": "BARE",
+        "type": "AREA-DEF-BY-USE",
+        "word": "LOT",
+        "roles": {
+          "LEX": "LOT"
+        },
+        "start": 41,
+        "end": 45
+      },
+      "V40672": {
+        "id": "V40672",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V40680",
+          "FIGURE": "#V40627",
+          "LEX": "OF"
+        },
+        "start": 45,
+        "end": 61
+      },
+      "V40680": {
+        "id": "V40680",
+        "indicator": "INDEF-SET",
+        "type": "EVENT-TYPE",
+        "word": "OPPORTUNITY",
+        "roles": {
+          "LEX": "OPPORTUNITIES"
+        },
+        "start": 48,
+        "end": 61
+      },
+      "root": "#V45365"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V45327": {
+          "id": "V45327",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V45324",
+            "LEX": "WENT"
+          },
+          "start": 0,
+          "end": 62
+        },
+        "V45324": {
+          "id": "V45324",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": null,
+          "roles": {
+            "AGENT": "#V40409",
+            "AFFECTED": "#V40627",
+            "METHOD": "#V40438",
+            "FORMAL": "#V40672",
+            "TENSE": "PAST",
+            "LEX": "WENT"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V40409": {
+          "id": "V40409",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V40438": {
+          "id": "V40438",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V40456",
+            "AGENT": "#V40409",
+            "TIME": "#V41551",
+            "TENSE": "PAST",
+            "LEX": "WENT"
+          },
+          "start": 2,
+          "end": 41
+        },
+        "V40456": {
+          "id": "V40456",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V40517",
+            "FIGURE": "#V40409",
+            "LEX": "TO"
+          },
+          "start": 7,
+          "end": 36
+        },
+        "V40517": {
+          "id": "V40517",
+          "indicator": "A",
+          "type": "ACADEMIC-INSTITUTION",
+          "word": "SCHOOL",
+          "roles": {
+            "MOD": "#V40572",
+            "LEX": "SCHOOL"
+          },
+          "start": 10,
+          "end": 36
+        },
+        "V40572": {
+          "id": "V40572",
+          "indicator": "F",
+          "type": "EXISTS",
+          "word": "BE",
+          "roles": {
+            "NOROLE": "#V40535",
+            "LOCATION": "#V40522",
+            "TENSE": "PAST",
+            "LEX": "WERE"
+          },
+          "start": 19,
+          "end": 36
+        },
+        "V40522": {
+          "id": "V40522",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "WHERE",
+          "roles": {
+            "GROUND": "#V40517",
+            "FIGURE": "#V40572",
+            "LEX": "WHERE"
+          },
+          "start": 19,
+          "end": 25
+        },
+        "V40535": {
+          "id": "V40535",
+          "indicator": "PRO",
+          "type": "EXPLETIVE",
+          "word": null,
+          "roles": {
+            "PROFORM": "THERE",
+            "LEX": "THERE"
+          },
+          "start": 25,
+          "end": 31
+        },
+        "V41551": {
+          "id": "V41551",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V40438",
+            "GROUND": "#V41647",
+            "MOD": "#V40582",
+            "LEX": "-"
+          },
+          "start": 36,
+          "end": 41
+        },
+        "V41647": {
+          "id": "V41647",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V41378",
+            "LEX": "A"
+          },
+          "start": 36,
+          "end": 41
+        },
+        "V40582": {
+          "id": "V40582",
+          "indicator": "F",
+          "type": "NEG",
+          "word": "N^T",
+          "roles": {
+            "FIGURE": "#V41551",
+            "LEX": "N^T"
+          },
+          "start": 36,
+          "end": 39
+        },
+        "V41378": {
+          "id": "V41378",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(A)",
+            "VAL": "(A)",
+            "LEX": "A"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "V40627": {
+          "id": "V40627",
+          "indicator": "BARE",
+          "type": "AREA-DEF-BY-USE",
+          "word": "LOT",
+          "roles": {
+            "LEX": "LOT"
+          },
+          "start": 41,
+          "end": 45
+        },
+        "V40672": {
+          "id": "V40672",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "OF",
+          "roles": {
+            "GROUND": "#V40680",
+            "FIGURE": "#V40627",
+            "LEX": "OF"
+          },
+          "start": 45,
+          "end": 61
+        },
+        "V40680": {
+          "id": "V40680",
+          "indicator": "INDEF-SET",
+          "type": "EVENT-TYPE",
+          "word": "OPPORTUNITY",
+          "roles": {
+            "LEX": "OPPORTUNITIES"
+          },
+          "start": 48,
+          "end": 61
+        },
+        "root": "#V45327"
+      }
+    ],
+    [
+      {
+        "V47063": {
+          "id": "V47063",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V47060",
+            "LEX": "WENT"
+          },
+          "start": 0,
+          "end": 62
+        },
+        "V47060": {
+          "id": "V47060",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": null,
+          "roles": {
+            "AGENT": "#V40409",
+            "AFFECTED": "#V40627",
+            "METHOD": "#V40438",
+            "FORMAL": "#V40672",
+            "TENSE": "PAST",
+            "LEX": "WENT"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V40409": {
+          "id": "V40409",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V40438": {
+          "id": "V40438",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V40456",
+            "AGENT": "#V40409",
+            "TIME": "#V41551",
+            "TENSE": "PAST",
+            "LEX": "WENT"
+          },
+          "start": 2,
+          "end": 41
+        },
+        "V40456": {
+          "id": "V40456",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V40517",
+            "FIGURE": "#V40409",
+            "LEX": "TO"
+          },
+          "start": 7,
+          "end": 36
+        },
+        "V40517": {
+          "id": "V40517",
+          "indicator": "A",
+          "type": "ACADEMIC-INSTITUTION",
+          "word": "SCHOOL",
+          "roles": {
+            "MOD": "#V40567",
+            "LEX": "SCHOOL"
+          },
+          "start": 10,
+          "end": 36
+        },
+        "V40567": {
+          "id": "V40567",
+          "indicator": "F",
+          "type": "EXPECTATION",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V40535",
+            "LOCATION": "#V40522",
+            "TENSE": "PAST",
+            "LEX": "WERE"
+          },
+          "start": 19,
+          "end": 36
+        },
+        "V40522": {
+          "id": "V40522",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "WHERE",
+          "roles": {
+            "GROUND": "#V40517",
+            "FIGURE": "#V40567",
+            "LEX": "WHERE"
+          },
+          "start": 19,
+          "end": 25
+        },
+        "V40535": {
+          "id": "V40535",
+          "indicator": "PRO",
+          "type": "EXPLETIVE",
+          "word": null,
+          "roles": {
+            "PROFORM": "THERE",
+            "LEX": "THERE"
+          },
+          "start": 25,
+          "end": 31
+        },
+        "V41551": {
+          "id": "V41551",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V40438",
+            "GROUND": "#V41647",
+            "MOD": "#V40582",
+            "LEX": "-"
+          },
+          "start": 36,
+          "end": 41
+        },
+        "V41647": {
+          "id": "V41647",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V41378",
+            "LEX": "A"
+          },
+          "start": 36,
+          "end": 41
+        },
+        "V40582": {
+          "id": "V40582",
+          "indicator": "F",
+          "type": "NEG",
+          "word": "N^T",
+          "roles": {
+            "FIGURE": "#V41551",
+            "LEX": "N^T"
+          },
+          "start": 36,
+          "end": 39
+        },
+        "V41378": {
+          "id": "V41378",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(A)",
+            "VAL": "(A)",
+            "LEX": "A"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "V40627": {
+          "id": "V40627",
+          "indicator": "BARE",
+          "type": "AREA-DEF-BY-USE",
+          "word": "LOT",
+          "roles": {
+            "LEX": "LOT"
+          },
+          "start": 41,
+          "end": 45
+        },
+        "V40672": {
+          "id": "V40672",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "OF",
+          "roles": {
+            "GROUND": "#V40680",
+            "FIGURE": "#V40627",
+            "LEX": "OF"
+          },
+          "start": 45,
+          "end": 61
+        },
+        "V40680": {
+          "id": "V40680",
+          "indicator": "INDEF-SET",
+          "type": "EVENT-TYPE",
+          "word": "OPPORTUNITY",
+          "roles": {
+            "LEX": "OPPORTUNITIES"
+          },
+          "start": 48,
+          "end": 61
+        },
+        "root": "#V47063"
+      }
+    ],
+    [
+      {
+        "V45376": {
+          "id": "V45376",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V45362",
+            "LEX": "WENT"
+          },
+          "start": 0,
+          "end": 62
+        },
+        "V45362": {
+          "id": "V45362",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": null,
+          "roles": {
+            "AGENT": "#V40408",
+            "AFFECTED": "#V40627",
+            "METHOD": "#V40438",
+            "FORMAL": "#V40672",
+            "TENSE": "PAST",
+            "LEX": "WENT"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V40408": {
+          "id": "V40408",
+          "indicator": "THE",
+          "type": "LETTER-SYMBOL",
+          "word": null,
+          "roles": {
+            "NAME-OF": "I",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V40438": {
+          "id": "V40438",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V40456",
+            "AGENT": "#V40408",
+            "TIME": "#V41551",
+            "TENSE": "PAST",
+            "LEX": "WENT"
+          },
+          "start": 2,
+          "end": 41
+        },
+        "V40456": {
+          "id": "V40456",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V40517",
+            "FIGURE": "#V40408",
+            "LEX": "TO"
+          },
+          "start": 7,
+          "end": 35
+        },
+        "V40517": {
+          "id": "V40517",
+          "indicator": "A",
+          "type": "ACADEMIC-INSTITUTION",
+          "word": "SCHOOL",
+          "roles": {
+            "MOD": "#V40547",
+            "LEX": "SCHOOL"
+          },
+          "start": 10,
+          "end": 35
+        },
+        "V40547": {
+          "id": "V40547",
+          "indicator": "F",
+          "type": "EXISTS",
+          "word": "BE",
+          "roles": {
+            "NOROLE": "#V40535",
+            "LOCATION": "#V40522",
+            "TENSE": "PAST",
+            "LEX": "WERE"
+          },
+          "start": 19,
+          "end": 35
+        },
+        "V40522": {
+          "id": "V40522",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "WHERE",
+          "roles": {
+            "GROUND": "#V40517",
+            "FIGURE": "#V40547",
+            "LEX": "WHERE"
+          },
+          "start": 19,
+          "end": 25
+        },
+        "V40535": {
+          "id": "V40535",
+          "indicator": "PRO",
+          "type": "EXPLETIVE",
+          "word": null,
+          "roles": {
+            "PROFORM": "THERE",
+            "LEX": "THERE"
+          },
+          "start": 25,
+          "end": 31
+        },
+        "V41551": {
+          "id": "V41551",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V40438",
+            "GROUND": "#V41647",
+            "MOD": "#V40560",
+            "LEX": "-"
+          },
+          "start": 35,
+          "end": 41
+        },
+        "V41647": {
+          "id": "V41647",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V41378",
+            "LEX": "A"
+          },
+          "start": 35,
+          "end": 41
+        },
+        "V40560": {
+          "id": "V40560",
+          "indicator": "F",
+          "type": "NEG",
+          "word": "N^T",
+          "roles": {
+            "FIGURE": "#V41551",
+            "LEX": "N^T"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "V41378": {
+          "id": "V41378",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(A)",
+            "VAL": "(A)",
+            "LEX": "A"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "V40627": {
+          "id": "V40627",
+          "indicator": "BARE",
+          "type": "AREA-DEF-BY-USE",
+          "word": "LOT",
+          "roles": {
+            "LEX": "LOT"
+          },
+          "start": 41,
+          "end": 45
+        },
+        "V40672": {
+          "id": "V40672",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "OF",
+          "roles": {
+            "GROUND": "#V40680",
+            "FIGURE": "#V40627",
+            "LEX": "OF"
+          },
+          "start": 45,
+          "end": 61
+        },
+        "V40680": {
+          "id": "V40680",
+          "indicator": "INDEF-SET",
+          "type": "EVENT-TYPE",
+          "word": "OPPORTUNITY",
+          "roles": {
+            "LEX": "OPPORTUNITIES"
+          },
+          "start": 48,
+          "end": 61
+        },
+        "root": "#V45376"
+      }
+    ]
+  ],
+  "sentence": "I went to a school where there weren't a lot of opportunities. ",
+  "annotation": {
+    "judge": "lgalescu",
+    "parser": "STEP",
+    "timestamp": "20190701T114559",
+    "link": "http://trips.ihmc.us/parser/saved/20190701T114559-STEP-lgalescu-none-I_went_to_a_school_where_there_weren_t_a.xml",
+    "judgement": -1
+  }
+}

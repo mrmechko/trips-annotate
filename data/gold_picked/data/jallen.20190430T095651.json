@@ -1,0 +1,222 @@
+{
+  "parse": [
+    {
+      "V47283": {
+        "id": "V47283",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V47261",
+          "LEX": "TESTING"
+        },
+        "start": 0,
+        "end": 33
+      },
+      "V47261": {
+        "id": "V47261",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V47284",
+          "GROUND": "#V46916",
+          "LEX": "TESTING"
+        },
+        "start": 0,
+        "end": 33
+      },
+      "V47284": {
+        "id": "V47284",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "COREF": "#V46988"
+        },
+        "start": 0,
+        "end": 33
+      },
+      "V46916": {
+        "id": "V46916",
+        "indicator": "F",
+        "type": "SCRUTINY",
+        "word": "TEST",
+        "roles": {
+          "NEUTRAL": "#V46988",
+          "FREQUENCY": "#V47052",
+          "VFORM": "ING",
+          "LEX": "TESTING"
+        },
+        "start": 0,
+        "end": 33
+      },
+      "V46988": {
+        "id": "V46988",
+        "indicator": "BARE",
+        "type": "RETRIEVE",
+        "word": "LOGGING-IN",
+        "roles": {
+          "MANNER": "#V47008",
+          "LEX": "LOGGING-IN",
+          "WNSENSE": "log_in%2:40:00"
+        },
+        "start": 8,
+        "end": 28
+      },
+      "V47008": {
+        "id": "V47008",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "AS",
+        "roles": {
+          "GROUND": "#V47042",
+          "FIGURE": "#V46988",
+          "LEX": "AS"
+        },
+        "start": 19,
+        "end": 28
+      },
+      "V47042": {
+        "id": "V47042",
+        "indicator": "THE",
+        "type": "GEOGRAPHIC-REGION",
+        "word": "JAMES",
+        "roles": {
+          "NAME-OF": "JAMES",
+          "LEX": "JAMES"
+        },
+        "start": 22,
+        "end": 28
+      },
+      "V47052": {
+        "id": "V47052",
+        "indicator": "F",
+        "type": "FREQUENCY",
+        "word": "AGAIN",
+        "roles": {
+          "FIGURE": "#V46916",
+          "LEX": "AGAIN"
+        },
+        "start": 28,
+        "end": 33
+      },
+      "root": "#V47283"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V47320": {
+          "id": "V47320",
+          "indicator": "SPEECHACT",
+          "type": "SA_PRED-FRAGMENT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V47310",
+            "LEX": "TESTING"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V47310": {
+          "id": "V47310",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V47321",
+            "GROUND": "#V46916",
+            "LEX": "TESTING"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V47321": {
+          "id": "V47321",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 0,
+          "end": 33
+        },
+        "V46916": {
+          "id": "V46916",
+          "indicator": "F",
+          "type": "SCRUTINY",
+          "word": "TEST",
+          "roles": {
+            "NEUTRAL": "#V46988",
+            "FREQUENCY": "#V47052",
+            "VFORM": "ING",
+            "LEX": "TESTING"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V46988": {
+          "id": "V46988",
+          "indicator": "BARE",
+          "type": "RETRIEVE",
+          "word": "LOGGING-IN",
+          "roles": {
+            "MANNER": "#V47008",
+            "LEX": "LOGGING-IN",
+            "WNSENSE": "log_in%2:40:00"
+          },
+          "start": 8,
+          "end": 28
+        },
+        "V47008": {
+          "id": "V47008",
+          "indicator": "F",
+          "type": "MANNER",
+          "word": "AS",
+          "roles": {
+            "GROUND": "#V47042",
+            "FIGURE": "#V46988",
+            "LEX": "AS"
+          },
+          "start": 19,
+          "end": 28
+        },
+        "V47042": {
+          "id": "V47042",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "JAMES",
+          "roles": {
+            "NAME-OF": "JAMES",
+            "LEX": "JAMES"
+          },
+          "start": 22,
+          "end": 28
+        },
+        "V47052": {
+          "id": "V47052",
+          "indicator": "F",
+          "type": "FREQUENCY",
+          "word": "AGAIN",
+          "roles": {
+            "FIGURE": "#V46916",
+            "LEX": "AGAIN"
+          },
+          "start": 28,
+          "end": 33
+        },
+        "root": "#V47320"
+      }
+    ]
+  ],
+  "sentence": "Testing logging in as James again.",
+  "annotation": {
+    "judge": "jallen",
+    "parser": "STEP",
+    "timestamp": "20190430T095651",
+    "link": "http://trips.ihmc.us/parser/saved/20190430T095651-STEP-jallen-none-Testing_logging_in_as_James_again_.xml",
+    "judgement": -1
+  }
+}

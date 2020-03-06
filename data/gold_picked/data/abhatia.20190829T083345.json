@@ -1,0 +1,1559 @@
+{
+  "parse": [
+    {
+      "V142533": {
+        "id": "V142533",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V141543",
+          "LEX": "TAKES"
+        },
+        "start": 0,
+        "end": 46
+      },
+      "V141543": {
+        "id": "V141543",
+        "indicator": "F",
+        "type": "CAUSE-OUT-OF",
+        "word": "TAKE-OUT",
+        "roles": {
+          "AGENT": "#V141514",
+          "AFFECTED": "#V141564",
+          "FREQUENCY": "#V141878",
+          "TIME": "#V141590",
+          "TENSE": "PRES",
+          "LEX": "TAKES"
+        },
+        "start": 0,
+        "end": 46
+      },
+      "V141878": {
+        "id": "V141878",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V141543",
+          "GROUND": "#V141705",
+          "LEX": "-"
+        },
+        "start": 0,
+        "end": 13
+      },
+      "V141705": {
+        "id": "V141705",
+        "indicator": "QUANTIFIER",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DOW": "#V141505",
+          "QUAN": "EVERY"
+        },
+        "start": 0,
+        "end": 13
+      },
+      "V141505": {
+        "id": "V141505",
+        "indicator": "THE",
+        "type": "DAY-NAME",
+        "word": "SUNDAY",
+        "roles": {
+          "NAME-OF": "SUNDAY",
+          "LEX": "SUNDAY",
+          "WNSENSE": "sunday%1:28:00::"
+        },
+        "start": 6,
+        "end": 13
+      },
+      "V141514": {
+        "id": "V141514",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "HUSBAND",
+        "roles": {
+          "ASSOC-POSS": "#V141511",
+          "LEX": "HUSBAND",
+          "WNSENSE": "husband%1:18:00::"
+        },
+        "start": 13,
+        "end": 24
+      },
+      "V141511": {
+        "id": "V141511",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 13,
+        "end": 24
+      },
+      "V141564": {
+        "id": "V141564",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 30,
+        "end": 33
+      },
+      "V141590": {
+        "id": "V141590",
+        "indicator": "F",
+        "type": "TIME-ON-REL",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V141653",
+          "FIGURE": "#V141543",
+          "LEX": "ON",
+          "WNSENSE": "on%4:02:00::"
+        },
+        "start": 37,
+        "end": 46
+      },
+      "V141653": {
+        "id": "V141653",
+        "indicator": "A",
+        "type": "TIME-POINT",
+        "word": "DATE",
+        "roles": {
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "DATE",
+          "WNSENSE": "date%1:28:04::"
+        },
+        "start": 40,
+        "end": 46
+      },
+      "root": "#V142533"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V142485": {
+          "id": "V142485",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V141543",
+            "LEX": "TAKES"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V141543": {
+          "id": "V141543",
+          "indicator": "F",
+          "type": "CAUSE-OUT-OF",
+          "word": "TAKE-OUT",
+          "roles": {
+            "RESULT": "#V141593",
+            "AGENT": "#V141514",
+            "AFFECTED": "#V141564",
+            "FREQUENCY": "#V141878",
+            "TENSE": "PRES",
+            "LEX": "TAKES"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V141878": {
+          "id": "V141878",
+          "indicator": "F",
+          "type": "ITERATION-PERIOD",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V141543",
+            "GROUND": "#V141705",
+            "LEX": "-"
+          },
+          "start": 0,
+          "end": 13
+        },
+        "V141705": {
+          "id": "V141705",
+          "indicator": "QUANTIFIER",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DOW": "#V141505",
+            "QUAN": "EVERY"
+          },
+          "start": 0,
+          "end": 13
+        },
+        "V141505": {
+          "id": "V141505",
+          "indicator": "THE",
+          "type": "DAY-NAME",
+          "word": "SUNDAY",
+          "roles": {
+            "NAME-OF": "SUNDAY",
+            "LEX": "SUNDAY",
+            "WNSENSE": "sunday%1:28:00::"
+          },
+          "start": 6,
+          "end": 13
+        },
+        "V141514": {
+          "id": "V141514",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "HUSBAND",
+          "roles": {
+            "ASSOC-POSS": "#V141511",
+            "LEX": "HUSBAND",
+            "WNSENSE": "husband%1:18:00::"
+          },
+          "start": 13,
+          "end": 24
+        },
+        "V141511": {
+          "id": "V141511",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 13,
+          "end": 24
+        },
+        "V141564": {
+          "id": "V141564",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 30,
+          "end": 33
+        },
+        "V141593": {
+          "id": "V141593",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V141653",
+            "FIGURE": "#V141564",
+            "LEX": "ON",
+            "WNSENSE": "on%4:02:00::"
+          },
+          "start": 37,
+          "end": 46
+        },
+        "V141653": {
+          "id": "V141653",
+          "indicator": "A",
+          "type": "TIME-POINT",
+          "word": "DATE",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "DATE",
+            "WNSENSE": "date%1:28:04::"
+          },
+          "start": 40,
+          "end": 46
+        },
+        "root": "#V142485"
+      }
+    ],
+    [
+      {
+        "V142894": {
+          "id": "V142894",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V141543",
+            "LEX": "TAKES"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V141543": {
+          "id": "V141543",
+          "indicator": "F",
+          "type": "CAUSE-OUT-OF",
+          "word": "TAKE-OUT",
+          "roles": {
+            "AGENT": "#V141514",
+            "AFFECTED": "#V141564",
+            "FREQUENCY": "#V141878",
+            "TIME": "#V141590",
+            "TENSE": "PRES",
+            "LEX": "TAKES"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V141878": {
+          "id": "V141878",
+          "indicator": "F",
+          "type": "ITERATION-PERIOD",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V141543",
+            "GROUND": "#V141705",
+            "LEX": "-"
+          },
+          "start": 0,
+          "end": 13
+        },
+        "V141705": {
+          "id": "V141705",
+          "indicator": "QUANTIFIER",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DOW": "#V141505",
+            "QUAN": "EVERY"
+          },
+          "start": 0,
+          "end": 13
+        },
+        "V141505": {
+          "id": "V141505",
+          "indicator": "THE",
+          "type": "DAY-NAME",
+          "word": "SUNDAY",
+          "roles": {
+            "NAME-OF": "SUNDAY",
+            "LEX": "SUNDAY",
+            "WNSENSE": "sunday%1:28:00::"
+          },
+          "start": 6,
+          "end": 13
+        },
+        "V141514": {
+          "id": "V141514",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "HUSBAND",
+          "roles": {
+            "ASSOC-POSS": "#V141511",
+            "LEX": "HUSBAND",
+            "WNSENSE": "husband%1:18:00::"
+          },
+          "start": 13,
+          "end": 24
+        },
+        "V141511": {
+          "id": "V141511",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 13,
+          "end": 24
+        },
+        "V141564": {
+          "id": "V141564",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 30,
+          "end": 33
+        },
+        "V141590": {
+          "id": "V141590",
+          "indicator": "F",
+          "type": "TIME-ON-REL",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V141653",
+            "FIGURE": "#V141543",
+            "LEX": "ON",
+            "WNSENSE": "on%4:02:00::"
+          },
+          "start": 37,
+          "end": 46
+        },
+        "V141653": {
+          "id": "V141653",
+          "indicator": "BARE",
+          "type": "TIME-POINT",
+          "word": "DATE",
+          "roles": {
+            "IDENTIFIED-AS": "#V142341",
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "DATE"
+          },
+          "start": 40,
+          "end": 46
+        },
+        "V142341": {
+          "id": "V142341",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V142206",
+            "LEX": "A"
+          },
+          "start": 40,
+          "end": 42
+        },
+        "V142206": {
+          "id": "V142206",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(A)",
+            "VAL": "(A)",
+            "LEX": "A"
+          },
+          "start": 40,
+          "end": 42
+        },
+        "root": "#V142894"
+      }
+    ],
+    [
+      {
+        "V143168": {
+          "id": "V143168",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V141537",
+            "LEX": "TAKES"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V141537": {
+          "id": "V141537",
+          "indicator": "F",
+          "type": "CAUSE-MOVE",
+          "word": "TAKE",
+          "roles": {
+            "RESULT": "#V141574",
+            "AGENT": "#V141514",
+            "AFFECTED": "#V141564",
+            "FREQUENCY": "#V141878",
+            "TIME": "#V141590",
+            "TENSE": "PRES",
+            "LEX": "TAKES"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V141878": {
+          "id": "V141878",
+          "indicator": "F",
+          "type": "ITERATION-PERIOD",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V141537",
+            "GROUND": "#V141705",
+            "LEX": "-"
+          },
+          "start": 0,
+          "end": 13
+        },
+        "V141705": {
+          "id": "V141705",
+          "indicator": "QUANTIFIER",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DOW": "#V141505",
+            "QUAN": "EVERY"
+          },
+          "start": 0,
+          "end": 13
+        },
+        "V141505": {
+          "id": "V141505",
+          "indicator": "THE",
+          "type": "DAY-NAME",
+          "word": "SUNDAY",
+          "roles": {
+            "NAME-OF": "SUNDAY",
+            "LEX": "SUNDAY",
+            "WNSENSE": "sunday%1:28:00::"
+          },
+          "start": 6,
+          "end": 13
+        },
+        "V141514": {
+          "id": "V141514",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "HUSBAND",
+          "roles": {
+            "ASSOC-POSS": "#V141511",
+            "LEX": "HUSBAND",
+            "WNSENSE": "husband%1:18:00::"
+          },
+          "start": 13,
+          "end": 24
+        },
+        "V141511": {
+          "id": "V141511",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 13,
+          "end": 24
+        },
+        "V141564": {
+          "id": "V141564",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 30,
+          "end": 33
+        },
+        "V141574": {
+          "id": "V141574",
+          "indicator": "F",
+          "type": "DIRECTION-OUT",
+          "word": "OUT",
+          "roles": {
+            "FIGURE": "#V141564",
+            "LEX": "OUT"
+          },
+          "start": 33,
+          "end": 37
+        },
+        "V141590": {
+          "id": "V141590",
+          "indicator": "F",
+          "type": "TIME-ON-REL",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V141653",
+            "FIGURE": "#V141537",
+            "LEX": "ON",
+            "WNSENSE": "on%4:02:00::"
+          },
+          "start": 37,
+          "end": 46
+        },
+        "V141653": {
+          "id": "V141653",
+          "indicator": "A",
+          "type": "TIME-POINT",
+          "word": "DATE",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "DATE",
+            "WNSENSE": "date%1:28:04::"
+          },
+          "start": 40,
+          "end": 46
+        },
+        "root": "#V143168"
+      }
+    ],
+    [
+      {
+        "V143127": {
+          "id": "V143127",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V141536",
+            "LEX": "TAKES"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V141536": {
+          "id": "V141536",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "TAKE",
+          "roles": {
+            "RESULT": "#V141574",
+            "AGENT": "#V141514",
+            "AFFECTED": "#V141564",
+            "FREQUENCY": "#V141878",
+            "TIME": "#V141590",
+            "TENSE": "PRES",
+            "LEX": "TAKES"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V141878": {
+          "id": "V141878",
+          "indicator": "F",
+          "type": "ITERATION-PERIOD",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V141536",
+            "GROUND": "#V141705",
+            "LEX": "-"
+          },
+          "start": 0,
+          "end": 13
+        },
+        "V141705": {
+          "id": "V141705",
+          "indicator": "QUANTIFIER",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DOW": "#V141505",
+            "QUAN": "EVERY"
+          },
+          "start": 0,
+          "end": 13
+        },
+        "V141505": {
+          "id": "V141505",
+          "indicator": "THE",
+          "type": "DAY-NAME",
+          "word": "SUNDAY",
+          "roles": {
+            "NAME-OF": "SUNDAY",
+            "LEX": "SUNDAY",
+            "WNSENSE": "sunday%1:28:00::"
+          },
+          "start": 6,
+          "end": 13
+        },
+        "V141514": {
+          "id": "V141514",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "HUSBAND",
+          "roles": {
+            "ASSOC-POSS": "#V141511",
+            "LEX": "HUSBAND",
+            "WNSENSE": "husband%1:18:00::"
+          },
+          "start": 13,
+          "end": 24
+        },
+        "V141511": {
+          "id": "V141511",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 13,
+          "end": 24
+        },
+        "V141564": {
+          "id": "V141564",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 30,
+          "end": 33
+        },
+        "V141574": {
+          "id": "V141574",
+          "indicator": "F",
+          "type": "DIRECTION-OUT",
+          "word": "OUT",
+          "roles": {
+            "FIGURE": "#V141564",
+            "LEX": "OUT"
+          },
+          "start": 33,
+          "end": 37
+        },
+        "V141590": {
+          "id": "V141590",
+          "indicator": "F",
+          "type": "TIME-ON-REL",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V141653",
+            "FIGURE": "#V141536",
+            "LEX": "ON",
+            "WNSENSE": "on%4:02:00::"
+          },
+          "start": 37,
+          "end": 46
+        },
+        "V141653": {
+          "id": "V141653",
+          "indicator": "A",
+          "type": "TIME-POINT",
+          "word": "DATE",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "DATE",
+            "WNSENSE": "date%1:28:04::"
+          },
+          "start": 40,
+          "end": 46
+        },
+        "root": "#V143127"
+      }
+    ],
+    [
+      {
+        "V143252": {
+          "id": "V143252",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V141536",
+            "LEX": "TAKES"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V141536": {
+          "id": "V141536",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "TAKE",
+          "roles": {
+            "RESULT": "#V141574",
+            "AGENT": "#V141514",
+            "AFFECTED": "#V141564",
+            "FREQUENCY": "#V141878",
+            "TENSE": "PRES",
+            "LEX": "TAKES"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V141878": {
+          "id": "V141878",
+          "indicator": "F",
+          "type": "ITERATION-PERIOD",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V141536",
+            "GROUND": "#V141705",
+            "LEX": "-"
+          },
+          "start": 0,
+          "end": 13
+        },
+        "V141705": {
+          "id": "V141705",
+          "indicator": "QUANTIFIER",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DOW": "#V141505",
+            "QUAN": "EVERY"
+          },
+          "start": 0,
+          "end": 13
+        },
+        "V141505": {
+          "id": "V141505",
+          "indicator": "THE",
+          "type": "DAY-NAME",
+          "word": "SUNDAY",
+          "roles": {
+            "NAME-OF": "SUNDAY",
+            "LEX": "SUNDAY",
+            "WNSENSE": "sunday%1:28:00::"
+          },
+          "start": 6,
+          "end": 13
+        },
+        "V141514": {
+          "id": "V141514",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "HUSBAND",
+          "roles": {
+            "ASSOC-POSS": "#V141511",
+            "LEX": "HUSBAND",
+            "WNSENSE": "husband%1:18:00::"
+          },
+          "start": 13,
+          "end": 24
+        },
+        "V141511": {
+          "id": "V141511",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 13,
+          "end": 24
+        },
+        "V141564": {
+          "id": "V141564",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 30,
+          "end": 33
+        },
+        "V141574": {
+          "id": "V141574",
+          "indicator": "F",
+          "type": "DIRECTION-OUT",
+          "word": "OUT",
+          "roles": {
+            "FIGURE": "#V141564",
+            "LEX": "OUT"
+          },
+          "start": 33,
+          "end": 37
+        },
+        "V141593": {
+          "id": "V141593",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V141653",
+            "FIGURE": "#V141564",
+            "LEX": "ON",
+            "WNSENSE": "on%4:02:00::"
+          },
+          "start": 37,
+          "end": 46
+        },
+        "V141653": {
+          "id": "V141653",
+          "indicator": "A",
+          "type": "TIME-POINT",
+          "word": "DATE",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "DATE",
+            "WNSENSE": "date%1:28:04::"
+          },
+          "start": 40,
+          "end": 46
+        },
+        "root": "#V143252"
+      }
+    ],
+    [
+      {
+        "V143211": {
+          "id": "V143211",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V141537",
+            "LEX": "TAKES"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V141537": {
+          "id": "V141537",
+          "indicator": "F",
+          "type": "CAUSE-MOVE",
+          "word": "TAKE",
+          "roles": {
+            "RESULT": "#V141574",
+            "AGENT": "#V141514",
+            "AFFECTED": "#V141564",
+            "FREQUENCY": "#V141878",
+            "TENSE": "PRES",
+            "LEX": "TAKES"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V141878": {
+          "id": "V141878",
+          "indicator": "F",
+          "type": "ITERATION-PERIOD",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V141537",
+            "GROUND": "#V141705",
+            "LEX": "-"
+          },
+          "start": 0,
+          "end": 13
+        },
+        "V141705": {
+          "id": "V141705",
+          "indicator": "QUANTIFIER",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DOW": "#V141505",
+            "QUAN": "EVERY"
+          },
+          "start": 0,
+          "end": 13
+        },
+        "V141505": {
+          "id": "V141505",
+          "indicator": "THE",
+          "type": "DAY-NAME",
+          "word": "SUNDAY",
+          "roles": {
+            "NAME-OF": "SUNDAY",
+            "LEX": "SUNDAY",
+            "WNSENSE": "sunday%1:28:00::"
+          },
+          "start": 6,
+          "end": 13
+        },
+        "V141514": {
+          "id": "V141514",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "HUSBAND",
+          "roles": {
+            "ASSOC-POSS": "#V141511",
+            "LEX": "HUSBAND",
+            "WNSENSE": "husband%1:18:00::"
+          },
+          "start": 13,
+          "end": 24
+        },
+        "V141511": {
+          "id": "V141511",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 13,
+          "end": 24
+        },
+        "V141564": {
+          "id": "V141564",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 30,
+          "end": 33
+        },
+        "V141574": {
+          "id": "V141574",
+          "indicator": "F",
+          "type": "DIRECTION-OUT",
+          "word": "OUT",
+          "roles": {
+            "FIGURE": "#V141564",
+            "LEX": "OUT"
+          },
+          "start": 33,
+          "end": 37
+        },
+        "V141593": {
+          "id": "V141593",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V141653",
+            "FIGURE": "#V141564",
+            "LEX": "ON",
+            "WNSENSE": "on%4:02:00::"
+          },
+          "start": 37,
+          "end": 46
+        },
+        "V141653": {
+          "id": "V141653",
+          "indicator": "A",
+          "type": "TIME-POINT",
+          "word": "DATE",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "DATE",
+            "WNSENSE": "date%1:28:04::"
+          },
+          "start": 40,
+          "end": 46
+        },
+        "root": "#V143211"
+      }
+    ],
+    [
+      {
+        "V143423": {
+          "id": "V143423",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V141537",
+            "LEX": "TAKES"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V141537": {
+          "id": "V141537",
+          "indicator": "F",
+          "type": "CAUSE-MOVE",
+          "word": "TAKE",
+          "roles": {
+            "RESULT": "#V141574",
+            "AGENT": "#V141514",
+            "AFFECTED": "#V141564",
+            "FREQUENCY": "#V141878",
+            "TIME": "#V141590",
+            "TENSE": "PRES",
+            "LEX": "TAKES"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V141878": {
+          "id": "V141878",
+          "indicator": "F",
+          "type": "ITERATION-PERIOD",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V141537",
+            "GROUND": "#V141705",
+            "LEX": "-"
+          },
+          "start": 0,
+          "end": 13
+        },
+        "V141705": {
+          "id": "V141705",
+          "indicator": "QUANTIFIER",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DOW": "#V141505",
+            "QUAN": "EVERY"
+          },
+          "start": 0,
+          "end": 13
+        },
+        "V141505": {
+          "id": "V141505",
+          "indicator": "THE",
+          "type": "DAY-NAME",
+          "word": "SUNDAY",
+          "roles": {
+            "NAME-OF": "SUNDAY",
+            "LEX": "SUNDAY",
+            "WNSENSE": "sunday%1:28:00::"
+          },
+          "start": 6,
+          "end": 13
+        },
+        "V141514": {
+          "id": "V141514",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "HUSBAND",
+          "roles": {
+            "ASSOC-POSS": "#V141511",
+            "LEX": "HUSBAND",
+            "WNSENSE": "husband%1:18:00::"
+          },
+          "start": 13,
+          "end": 24
+        },
+        "V141511": {
+          "id": "V141511",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 13,
+          "end": 24
+        },
+        "V141564": {
+          "id": "V141564",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 30,
+          "end": 33
+        },
+        "V141574": {
+          "id": "V141574",
+          "indicator": "F",
+          "type": "DIRECTION-OUT",
+          "word": "OUT",
+          "roles": {
+            "FIGURE": "#V141564",
+            "LEX": "OUT"
+          },
+          "start": 33,
+          "end": 37
+        },
+        "V141590": {
+          "id": "V141590",
+          "indicator": "F",
+          "type": "TIME-ON-REL",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V141653",
+            "FIGURE": "#V141537",
+            "LEX": "ON",
+            "WNSENSE": "on%4:02:00::"
+          },
+          "start": 37,
+          "end": 46
+        },
+        "V141653": {
+          "id": "V141653",
+          "indicator": "BARE",
+          "type": "TIME-POINT",
+          "word": "DATE",
+          "roles": {
+            "IDENTIFIED-AS": "#V142341",
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "DATE"
+          },
+          "start": 40,
+          "end": 46
+        },
+        "V142341": {
+          "id": "V142341",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V142206",
+            "LEX": "A"
+          },
+          "start": 40,
+          "end": 42
+        },
+        "V142206": {
+          "id": "V142206",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(A)",
+            "VAL": "(A)",
+            "LEX": "A"
+          },
+          "start": 40,
+          "end": 42
+        },
+        "root": "#V143423"
+      }
+    ],
+    [
+      {
+        "V143382": {
+          "id": "V143382",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V141536",
+            "LEX": "TAKES"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V141536": {
+          "id": "V141536",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "TAKE",
+          "roles": {
+            "RESULT": "#V141574",
+            "AGENT": "#V141514",
+            "AFFECTED": "#V141564",
+            "FREQUENCY": "#V141878",
+            "TIME": "#V141590",
+            "TENSE": "PRES",
+            "LEX": "TAKES"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V141878": {
+          "id": "V141878",
+          "indicator": "F",
+          "type": "ITERATION-PERIOD",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V141536",
+            "GROUND": "#V141705",
+            "LEX": "-"
+          },
+          "start": 0,
+          "end": 13
+        },
+        "V141705": {
+          "id": "V141705",
+          "indicator": "QUANTIFIER",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DOW": "#V141505",
+            "QUAN": "EVERY"
+          },
+          "start": 0,
+          "end": 13
+        },
+        "V141505": {
+          "id": "V141505",
+          "indicator": "THE",
+          "type": "DAY-NAME",
+          "word": "SUNDAY",
+          "roles": {
+            "NAME-OF": "SUNDAY",
+            "LEX": "SUNDAY",
+            "WNSENSE": "sunday%1:28:00::"
+          },
+          "start": 6,
+          "end": 13
+        },
+        "V141514": {
+          "id": "V141514",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "HUSBAND",
+          "roles": {
+            "ASSOC-POSS": "#V141511",
+            "LEX": "HUSBAND",
+            "WNSENSE": "husband%1:18:00::"
+          },
+          "start": 13,
+          "end": 24
+        },
+        "V141511": {
+          "id": "V141511",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 13,
+          "end": 24
+        },
+        "V141564": {
+          "id": "V141564",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 30,
+          "end": 33
+        },
+        "V141574": {
+          "id": "V141574",
+          "indicator": "F",
+          "type": "DIRECTION-OUT",
+          "word": "OUT",
+          "roles": {
+            "FIGURE": "#V141564",
+            "LEX": "OUT"
+          },
+          "start": 33,
+          "end": 37
+        },
+        "V141590": {
+          "id": "V141590",
+          "indicator": "F",
+          "type": "TIME-ON-REL",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V141653",
+            "FIGURE": "#V141536",
+            "LEX": "ON",
+            "WNSENSE": "on%4:02:00::"
+          },
+          "start": 37,
+          "end": 46
+        },
+        "V141653": {
+          "id": "V141653",
+          "indicator": "BARE",
+          "type": "TIME-POINT",
+          "word": "DATE",
+          "roles": {
+            "IDENTIFIED-AS": "#V142341",
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "DATE"
+          },
+          "start": 40,
+          "end": 46
+        },
+        "V142341": {
+          "id": "V142341",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V142206",
+            "LEX": "A"
+          },
+          "start": 40,
+          "end": 42
+        },
+        "V142206": {
+          "id": "V142206",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(A)",
+            "VAL": "(A)",
+            "LEX": "A"
+          },
+          "start": 40,
+          "end": 42
+        },
+        "root": "#V143382"
+      }
+    ],
+    [
+      {
+        "V143589": {
+          "id": "V143589",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V141536",
+            "LEX": "TAKES"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V141536": {
+          "id": "V141536",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "TAKE",
+          "roles": {
+            "MANNER": "#V141575",
+            "AGENT": "#V141514",
+            "AFFECTED": "#V141564",
+            "FREQUENCY": "#V141878",
+            "TIME": "#V141590",
+            "TENSE": "PRES",
+            "LEX": "TAKES"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V141878": {
+          "id": "V141878",
+          "indicator": "F",
+          "type": "ITERATION-PERIOD",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V141536",
+            "GROUND": "#V141705",
+            "LEX": "-"
+          },
+          "start": 0,
+          "end": 13
+        },
+        "V141705": {
+          "id": "V141705",
+          "indicator": "QUANTIFIER",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DOW": "#V141505",
+            "QUAN": "EVERY"
+          },
+          "start": 0,
+          "end": 13
+        },
+        "V141505": {
+          "id": "V141505",
+          "indicator": "THE",
+          "type": "DAY-NAME",
+          "word": "SUNDAY",
+          "roles": {
+            "NAME-OF": "SUNDAY",
+            "LEX": "SUNDAY",
+            "WNSENSE": "sunday%1:28:00::"
+          },
+          "start": 6,
+          "end": 13
+        },
+        "V141514": {
+          "id": "V141514",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "HUSBAND",
+          "roles": {
+            "ASSOC-POSS": "#V141511",
+            "LEX": "HUSBAND",
+            "WNSENSE": "husband%1:18:00::"
+          },
+          "start": 13,
+          "end": 24
+        },
+        "V141511": {
+          "id": "V141511",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 13,
+          "end": 24
+        },
+        "V141564": {
+          "id": "V141564",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 30,
+          "end": 33
+        },
+        "V141575": {
+          "id": "V141575",
+          "indicator": "F",
+          "type": "COMPLETELY",
+          "word": "OUT",
+          "roles": {
+            "FIGURE": "#V141536",
+            "LEX": "OUT",
+            "WNSENSE": "out%4:02:02::"
+          },
+          "start": 33,
+          "end": 37
+        },
+        "V141590": {
+          "id": "V141590",
+          "indicator": "F",
+          "type": "TIME-ON-REL",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V141653",
+            "FIGURE": "#V141536",
+            "LEX": "ON",
+            "WNSENSE": "on%4:02:00::"
+          },
+          "start": 37,
+          "end": 46
+        },
+        "V141653": {
+          "id": "V141653",
+          "indicator": "A",
+          "type": "TIME-POINT",
+          "word": "DATE",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "DATE",
+            "WNSENSE": "date%1:28:04::"
+          },
+          "start": 40,
+          "end": 46
+        },
+        "root": "#V143589"
+      }
+    ]
+  ],
+  "sentence": "Every Sunday my husband takes me out on a date.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190829T083345",
+    "link": "http://trips.ihmc.us/parser/saved/20190829T083345-STEP-abhatia-none-Every_Sunday_my_husband_takes_me_out_on_.xml",
+    "judgement": -1
+  }
+}

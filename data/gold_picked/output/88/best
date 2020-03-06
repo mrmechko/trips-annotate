@@ -1,0 +1,29 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V185525 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V182333 [label=<<font color="green"><br /></font> <font color="black">NECESSITY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">NEED</font> <font color="green"><br /></font> <font color="green">need%2:42:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::NECESSITY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V182325 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">PRO-SET</font> <font color="blue">THEY</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V182374 [label=<<font color="green"><br /></font> <font color="black">DRIVE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">DRIVE</font> <font color="green"><br /></font> <font color="green">drive%2:38:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DRIVE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V182405 [label=<<font color="green"><br /></font> <font color="black">REMOTE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">FAR</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REMOTE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V182397 [label=<<font color="green"><br /></font> <font color="black">DEGREE-MODIFIER-HIGH</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">REALLY</font> <font color="green"><br /></font> <font color="green">really%4:02:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DEGREE-MODIFIER-HIGH.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V182417 [label=<<font color="green"><br /></font> <font color="black">PURPOSE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">TO</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PURPOSE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V182460 [label=<<font color="green"><br /></font> <font color="black">ACQUIRE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">GET</font> <font color="green"><br /></font> <font color="green">get%2:40:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ACQUIRE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V182488 [label=<<font color="green"><br /></font> <font color="black">DEVICE</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">PHONE</font> <font color="green"><br /></font> <font color="green">phone%1:06:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DEVICE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V182480 [label=<<font color="green"><br /></font> <font color="black">FEMALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HER</font> <font color="green"><br /></font> <font color="green">woman%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FEMALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V182405 -> V182325 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V185525 -> V182333 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V182333 -> V182325 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V182417 -> V182460 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V182374 -> V182417 [label=" REASON   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V182488 -> V182480 [label=" ASSOC-POSS   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V182397 -> V182405 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V182374 -> V182405 [label=" RESULT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V182333 -> V182374 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V182460 -> V182488 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V182374 -> V182325 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V182417 -> V182374 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V182405 -> V182397 [label=" DEGREE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

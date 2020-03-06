@@ -1,0 +1,24 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V138060 [label=<<font color="green"><br /></font> <font color="black">SPEECH-ACT</font> <font color="green"><br /></font> <font color="red">SA-SEQ</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SPEECH-ACT.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V138025 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V137731 [label=<<font color="green"><br /></font> <font color="black">MOVE-BACK-AND-FORTH</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">SWING</font> <font color="green"><br /></font> <font color="green">swing%2:38:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MOVE-BACK-AND-FORTH.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V137724 [label=<<font color="green"><br /></font> <font color="black">ATHLETE</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">ATHLETE</font> <font color="green"><br /></font> <font color="green">athlete%1:18:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ATHLETE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V137759 [label=<<font color="green"><br /></font> <font color="black">INTENSE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">HARD</font> <font color="green"><br /></font> <font color="green">hard%5:00:00:strong:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::INTENSE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V138069 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V137792 [label=<<font color="green"><br /></font> <font color="black">CRUSH</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">CRUSH</font> <font color="green"><br /></font> <font color="green">crush%1:04:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::CRUSH.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V138070 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">IMPRO</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V137802 [label=<<font color="green"><br /></font> <font color="black">MANUFACTURED-OBJECT</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">BALL</font> <font color="green"><br /></font> <font color="green">ball%1:06:02::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MANUFACTURED-OBJECT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V138060 -> V138069 [label=" ACT1   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V137792 -> V137802 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V138025 -> V137731 [label=" CONTENT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V137792 -> V138070 [label=" AGENT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V138069 -> V137792 [label=" CONTENT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V137731 -> V137724 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V137731 -> V137759 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V138060 -> V138025 [label=" ACT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V137759 -> V137731 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

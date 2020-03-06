@@ -1,0 +1,275 @@
+{
+  "parse": [
+    {
+      "V98382": {
+        "id": "V98382",
+        "indicator": "SPEECHACT",
+        "type": "SA_REQUEST",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V97590"
+        },
+        "start": 0,
+        "end": 51
+      },
+      "V97590": {
+        "id": "V97590",
+        "indicator": "F",
+        "type": "PUT",
+        "word": "PUT",
+        "roles": {
+          "AGENT": "#V98376",
+          "AFFECTED": "#V97624",
+          "RESULT": "#V97634",
+          "TENSE": "PRES",
+          "VFORM": "BASE"
+        },
+        "start": 0,
+        "end": 51
+      },
+      "V98376": {
+        "id": "V98376",
+        "indicator": "IMPRO",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "PROFORM": "*YOU*"
+        },
+        "start": 0,
+        "end": 51
+      },
+      "V97624": {
+        "id": "V97624",
+        "indicator": "THE",
+        "type": "BLOCK",
+        "word": "BLOCK",
+        "roles": {},
+        "start": 4,
+        "end": 14
+      },
+      "V97634": {
+        "id": "V97634",
+        "indicator": "F",
+        "type": "ADJACENT",
+        "word": "NEXT-TO",
+        "roles": {
+          "GROUND": "#V97870",
+          "FIGURE": "#V97624"
+        },
+        "start": 14,
+        "end": 51
+      },
+      "V97870": {
+        "id": "V97870",
+        "indicator": "THE",
+        "type": "LOCATION",
+        "word": null,
+        "roles": {
+          "SUCHTHAT": "#V97696"
+        },
+        "start": 22,
+        "end": 51
+      },
+      "V97696": {
+        "id": "V97696",
+        "indicator": "F",
+        "type": "SUBMIT",
+        "word": "PLACE",
+        "roles": {
+          "LOCATION": "#V97668",
+          "AGENT": "#V97687",
+          "AFFECTED": "#V97741"
+        },
+        "start": 22,
+        "end": 51
+      },
+      "V97668": {
+        "id": "V97668",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "WHERE",
+        "roles": {
+          "GROUND": "#V97870",
+          "FIGURE": "#V97696"
+        },
+        "start": 22,
+        "end": 28
+      },
+      "V97687": {
+        "id": "V97687",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU"
+        },
+        "start": 28,
+        "end": 32
+      },
+      "V97741": {
+        "id": "V97741",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": "ONE",
+        "roles": {
+          "MOD": "#V97714"
+        },
+        "start": 39,
+        "end": 51
+      },
+      "V97714": {
+        "id": "V97714",
+        "indicator": "F",
+        "type": "LAST-VAL",
+        "word": "LAST",
+        "roles": {
+          "FIGURE": "#V97741",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE"
+        },
+        "start": 43,
+        "end": 48
+      },
+      "root": "#V98382"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V98619": {
+          "id": "V98619",
+          "indicator": "SPEECHACT",
+          "type": "SA_REQUEST",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V97590"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V97590": {
+          "id": "V97590",
+          "indicator": "F",
+          "type": "PUT",
+          "word": "PUT",
+          "roles": {
+            "AGENT": "#V98613",
+            "AFFECTED": "#V97624",
+            "RESULT": "#V97634",
+            "TENSE": "PRES",
+            "VFORM": "BASE"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V98613": {
+          "id": "V98613",
+          "indicator": "IMPRO",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "PROFORM": "*YOU*"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V97624": {
+          "id": "V97624",
+          "indicator": "THE",
+          "type": "BLOCK",
+          "word": "BLOCK",
+          "roles": {},
+          "start": 4,
+          "end": 14
+        },
+        "V97634": {
+          "id": "V97634",
+          "indicator": "F",
+          "type": "ADJACENT",
+          "word": "NEXT-TO",
+          "roles": {
+            "GROUND": "#V97870",
+            "FIGURE": "#V97624"
+          },
+          "start": 14,
+          "end": 51
+        },
+        "V97870": {
+          "id": "V97870",
+          "indicator": "THE",
+          "type": "LOCATION",
+          "word": null,
+          "roles": {
+            "SUCHTHAT": "#V97696"
+          },
+          "start": 22,
+          "end": 51
+        },
+        "V97696": {
+          "id": "V97696",
+          "indicator": "F",
+          "type": "SUBMIT",
+          "word": "PLACE",
+          "roles": {
+            "LOCATION": "#V97668",
+            "AGENT": "#V97687",
+            "AFFECTED": "#V98018"
+          },
+          "start": 22,
+          "end": 51
+        },
+        "V97668": {
+          "id": "V97668",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "WHERE",
+          "roles": {
+            "GROUND": "#V97870",
+            "FIGURE": "#V97696"
+          },
+          "start": 22,
+          "end": 28
+        },
+        "V97687": {
+          "id": "V97687",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "YOU",
+          "roles": {
+            "PROFORM": "YOU"
+          },
+          "start": 28,
+          "end": 32
+        },
+        "V98018": {
+          "id": "V98018",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": "ONE",
+          "roles": {
+            "FIGURE": "#V97726"
+          },
+          "start": 39,
+          "end": 51
+        },
+        "V97726": {
+          "id": "V97726",
+          "indicator": "F",
+          "type": "ACTIVITY",
+          "word": "LAST",
+          "roles": {},
+          "start": 39,
+          "end": 51
+        },
+        "root": "#V98619"
+      }
+    ]
+  ],
+  "sentence": "put the block next to where you placed the last one",
+  "annotation": {
+    "judge": "lgalescu",
+    "parser": "COGENT",
+    "timestamp": "20190725T154831",
+    "link": "http://trips.ihmc.us/parser/saved/20190725T154831-COGENT-lgalescu-0-put_the_block_next_to_where_you_placed_t.xml",
+    "judgement": 0
+  }
+}

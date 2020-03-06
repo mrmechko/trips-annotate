@@ -1,0 +1,187 @@
+{
+  "parse": [
+    {
+      "V51853": {
+        "id": "V51853",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V51359"
+        },
+        "start": 0,
+        "end": 32
+      },
+      "V51359": {
+        "id": "V51359",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V51344",
+          "FORMAL": "#V51388",
+          "TENSE": "PRES"
+        },
+        "start": 0,
+        "end": 32
+      },
+      "V51344": {
+        "id": "V51344",
+        "indicator": "THE",
+        "type": "WIDTH-SCALE",
+        "word": "WIDTH",
+        "roles": {
+          "SCALE": "WIDTH-SCALE"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V51388": {
+        "id": "V51388",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V51445",
+          "FIGURE": "#V51344"
+        },
+        "start": 13,
+        "end": 32
+      },
+      "V51445": {
+        "id": "V51445",
+        "indicator": "INDEF-SET",
+        "type": "BLOCK",
+        "word": "BLOCK",
+        "roles": {
+          "SIZE": "#V51443",
+          "MOD": "#V51413"
+        },
+        "start": 16,
+        "end": 32
+      },
+      "V51413": {
+        "id": "V51413",
+        "indicator": "F",
+        "type": "PROPERTY-VAL",
+        "word": "LEAST",
+        "roles": {
+          "FIGURE": "#V51445",
+          "SCALE": "DOMAIN"
+        },
+        "start": 16,
+        "end": 22
+      },
+      "V51443": {
+        "id": "V51443",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "2"
+        },
+        "start": 22,
+        "end": 26
+      },
+      "root": "#V51853"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V51997": {
+          "id": "V51997",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V51359"
+          },
+          "start": 0,
+          "end": 32
+        },
+        "V51359": {
+          "id": "V51359",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V51344",
+            "FORMAL": "#V51388",
+            "TENSE": "PRES"
+          },
+          "start": 0,
+          "end": 32
+        },
+        "V51344": {
+          "id": "V51344",
+          "indicator": "THE",
+          "type": "WIDTH-SCALE",
+          "word": "WIDTH",
+          "roles": {
+            "SCALE": "WIDTH-SCALE"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V51388": {
+          "id": "V51388",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V51445",
+            "FIGURE": "#V51344"
+          },
+          "start": 13,
+          "end": 32
+        },
+        "V51445": {
+          "id": "V51445",
+          "indicator": "INDEF-SET",
+          "type": "BLOCK",
+          "word": "BLOCK",
+          "roles": {
+            "ASSOC-WITH": "#V51443",
+            "MOD": "#V51413"
+          },
+          "start": 16,
+          "end": 32
+        },
+        "V51413": {
+          "id": "V51413",
+          "indicator": "F",
+          "type": "PROPERTY-VAL",
+          "word": "LEAST",
+          "roles": {
+            "FIGURE": "#V51445",
+            "SCALE": "DOMAIN"
+          },
+          "start": 16,
+          "end": 22
+        },
+        "V51443": {
+          "id": "V51443",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "NAME-OF": "TWO",
+            "HOUR": "2"
+          },
+          "start": 22,
+          "end": 26
+        },
+        "root": "#V51997"
+      }
+    ]
+  ],
+  "sentence": "the width is at least two blocks",
+  "annotation": {
+    "judge": "iperera",
+    "parser": "CABOT",
+    "timestamp": "20190801T092008",
+    "link": "http://trips.ihmc.us/parser/saved/20190801T092008-CABOT-iperera-none-the_width_is_at_least_two_blocks.xml",
+    "judgement": -1
+  }
+}

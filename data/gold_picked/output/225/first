@@ -1,0 +1,21 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V106977 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V106419 [label=<<font color="green"><br /></font> <font color="black">TRANSPORT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BRING</font> <font color="green"><br /></font> <font color="green">bring%2:38:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TRANSPORT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V106404 [label=<<font color="green"><br /></font> <font color="black">FEMALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">SHE</font> <font color="green"><br /></font> <font color="green">woman%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FEMALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V106442 [label=<<font color="green"><br /></font> <font color="black">PART</font> <font color="green"><br /></font> <font color="red">THE-SET</font> <font color="blue">LEFTOVERS</font> <font color="green"><br /></font> <font color="green">part%1:24:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PART.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V106453 [label=<<font color="green"><br /></font> <font color="black">DESTINATION-LOC</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">TO</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DESTINATION-LOC.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V106515 [label=<<font color="green"><br /></font> <font color="black">PUBLIC-SERVICE-FACILITY</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">SHELTER</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PUBLIC-SERVICE-FACILITY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V106512 [label=<<font color="green"><br /></font> <font color="black">UNLUCKY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">HOMELESS</font> <font color="green"><br /></font> <font color="green">homeless%5:00:00:unfortunate:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::UNLUCKY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V106419 -> V106404 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V106442 -> V106453 [label=" MOD   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V106419 -> V106442 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V106453 -> V106515 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V106515 -> V106512 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V106977 -> V106419 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V106512 -> V106515 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V106453 -> V106442 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

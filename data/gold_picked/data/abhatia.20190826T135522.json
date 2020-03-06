@@ -1,0 +1,752 @@
+{
+  "parse": [
+    {
+      "V167981": {
+        "id": "V167981",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V167398",
+          "LEX": "STARTED"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V167398": {
+        "id": "V167398",
+        "indicator": "F",
+        "type": "START",
+        "word": "START",
+        "roles": {
+          "AGENT": "#V167380",
+          "FORMAL": "#V167417",
+          "TENSE": "PAST",
+          "LEX": "STARTED",
+          "WNSENSE": "start%1:11:00::"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V167380": {
+        "id": "V167380",
+        "indicator": "THE",
+        "type": "GEOGRAPHIC-REGION",
+        "word": "KATIE",
+        "roles": {
+          "NAME-OF": "KATIE",
+          "LEX": "KATIE",
+          "WNSENSE": "north_america%1:14:00"
+        },
+        "start": 0,
+        "end": 6
+      },
+      "V167417": {
+        "id": "V167417",
+        "indicator": "F",
+        "type": "MEET",
+        "word": "MEET",
+        "roles": {
+          "AGENT": "#V167380",
+          "AGENT1": "#V167441",
+          "VFORM": "ING",
+          "LEX": "MEETING",
+          "WNSENSE": "meet%2:38:01::"
+        },
+        "start": 14,
+        "end": 28
+      },
+      "V167441": {
+        "id": "V167441",
+        "indicator": "THE",
+        "type": "PERSON",
+        "word": "ROBERT",
+        "roles": {
+          "NAME-OF": "ROBERT",
+          "LEX": "ROBERT",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 22,
+        "end": 28
+      },
+      "root": "#V167981"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V167978": {
+          "id": "V167978",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V167398",
+            "LEX": "STARTED"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V167398": {
+          "id": "V167398",
+          "indicator": "F",
+          "type": "START",
+          "word": "START",
+          "roles": {
+            "AGENT": "#V167377",
+            "FORMAL": "#V167422",
+            "TENSE": "PAST",
+            "LEX": "STARTED",
+            "WNSENSE": "start%1:11:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V167377": {
+          "id": "V167377",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "KATIE",
+          "roles": {
+            "NAME-OF": "KATIE",
+            "LEX": "KATIE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V167422": {
+          "id": "V167422",
+          "indicator": "F",
+          "type": "IS-COMPATIBLE-WITH",
+          "word": "MEET",
+          "roles": {
+            "NEUTRAL": "#V167377",
+            "NEUTRAL1": "#V167441",
+            "VFORM": "ING",
+            "LEX": "MEETING",
+            "WNSENSE": "accept%2:42:00"
+          },
+          "start": 14,
+          "end": 28
+        },
+        "V167441": {
+          "id": "V167441",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 22,
+          "end": 28
+        },
+        "root": "#V167978"
+      }
+    ],
+    [
+      {
+        "V167975": {
+          "id": "V167975",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V167398",
+            "LEX": "STARTED"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V167398": {
+          "id": "V167398",
+          "indicator": "F",
+          "type": "START",
+          "word": "START",
+          "roles": {
+            "AGENT": "#V167380",
+            "FORMAL": "#V167422",
+            "TENSE": "PAST",
+            "LEX": "STARTED",
+            "WNSENSE": "start%1:11:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V167380": {
+          "id": "V167380",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "KATIE",
+          "roles": {
+            "NAME-OF": "KATIE",
+            "LEX": "KATIE",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V167422": {
+          "id": "V167422",
+          "indicator": "F",
+          "type": "IS-COMPATIBLE-WITH",
+          "word": "MEET",
+          "roles": {
+            "NEUTRAL": "#V167380",
+            "NEUTRAL1": "#V167441",
+            "VFORM": "ING",
+            "LEX": "MEETING",
+            "WNSENSE": "accept%2:42:00"
+          },
+          "start": 14,
+          "end": 28
+        },
+        "V167441": {
+          "id": "V167441",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 22,
+          "end": 28
+        },
+        "root": "#V167975"
+      }
+    ],
+    [
+      {
+        "V167972": {
+          "id": "V167972",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V167398",
+            "LEX": "STARTED"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V167398": {
+          "id": "V167398",
+          "indicator": "F",
+          "type": "START",
+          "word": "START",
+          "roles": {
+            "AGENT": "#V167377",
+            "FORMAL": "#V167417",
+            "TENSE": "PAST",
+            "LEX": "STARTED",
+            "WNSENSE": "start%1:11:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V167377": {
+          "id": "V167377",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "KATIE",
+          "roles": {
+            "NAME-OF": "KATIE",
+            "LEX": "KATIE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V167417": {
+          "id": "V167417",
+          "indicator": "F",
+          "type": "MEET",
+          "word": "MEET",
+          "roles": {
+            "AGENT": "#V167377",
+            "AGENT1": "#V167435",
+            "VFORM": "ING",
+            "LEX": "MEETING",
+            "WNSENSE": "meet%2:38:01::"
+          },
+          "start": 14,
+          "end": 28
+        },
+        "V167435": {
+          "id": "V167435",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 22,
+          "end": 28
+        },
+        "root": "#V167972"
+      }
+    ],
+    [
+      {
+        "V167969": {
+          "id": "V167969",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V167398",
+            "LEX": "STARTED"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V167398": {
+          "id": "V167398",
+          "indicator": "F",
+          "type": "START",
+          "word": "START",
+          "roles": {
+            "AGENT": "#V167380",
+            "FORMAL": "#V167417",
+            "TENSE": "PAST",
+            "LEX": "STARTED",
+            "WNSENSE": "start%1:11:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V167380": {
+          "id": "V167380",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "KATIE",
+          "roles": {
+            "NAME-OF": "KATIE",
+            "LEX": "KATIE",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V167417": {
+          "id": "V167417",
+          "indicator": "F",
+          "type": "MEET",
+          "word": "MEET",
+          "roles": {
+            "AGENT": "#V167380",
+            "AGENT1": "#V167435",
+            "VFORM": "ING",
+            "LEX": "MEETING",
+            "WNSENSE": "meet%2:38:01::"
+          },
+          "start": 14,
+          "end": 28
+        },
+        "V167435": {
+          "id": "V167435",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 22,
+          "end": 28
+        },
+        "root": "#V167969"
+      }
+    ],
+    [
+      {
+        "V167966": {
+          "id": "V167966",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V167398",
+            "LEX": "STARTED"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V167398": {
+          "id": "V167398",
+          "indicator": "F",
+          "type": "START",
+          "word": "START",
+          "roles": {
+            "AGENT": "#V167377",
+            "FORMAL": "#V167422",
+            "TENSE": "PAST",
+            "LEX": "STARTED",
+            "WNSENSE": "start%1:11:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V167377": {
+          "id": "V167377",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "KATIE",
+          "roles": {
+            "NAME-OF": "KATIE",
+            "LEX": "KATIE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V167422": {
+          "id": "V167422",
+          "indicator": "F",
+          "type": "IS-COMPATIBLE-WITH",
+          "word": "MEET",
+          "roles": {
+            "NEUTRAL": "#V167377",
+            "NEUTRAL1": "#V167435",
+            "VFORM": "ING",
+            "LEX": "MEETING",
+            "WNSENSE": "accept%2:42:00"
+          },
+          "start": 14,
+          "end": 28
+        },
+        "V167435": {
+          "id": "V167435",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 22,
+          "end": 28
+        },
+        "root": "#V167966"
+      }
+    ],
+    [
+      {
+        "V167963": {
+          "id": "V167963",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V167398",
+            "LEX": "STARTED"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V167398": {
+          "id": "V167398",
+          "indicator": "F",
+          "type": "START",
+          "word": "START",
+          "roles": {
+            "AGENT": "#V167380",
+            "FORMAL": "#V167422",
+            "TENSE": "PAST",
+            "LEX": "STARTED",
+            "WNSENSE": "start%1:11:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V167380": {
+          "id": "V167380",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "KATIE",
+          "roles": {
+            "NAME-OF": "KATIE",
+            "LEX": "KATIE",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V167422": {
+          "id": "V167422",
+          "indicator": "F",
+          "type": "IS-COMPATIBLE-WITH",
+          "word": "MEET",
+          "roles": {
+            "NEUTRAL": "#V167380",
+            "NEUTRAL1": "#V167435",
+            "VFORM": "ING",
+            "LEX": "MEETING",
+            "WNSENSE": "accept%2:42:00"
+          },
+          "start": 14,
+          "end": 28
+        },
+        "V167435": {
+          "id": "V167435",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 22,
+          "end": 28
+        },
+        "root": "#V167963"
+      }
+    ],
+    [
+      {
+        "V167960": {
+          "id": "V167960",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V167398",
+            "LEX": "STARTED"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V167398": {
+          "id": "V167398",
+          "indicator": "F",
+          "type": "START",
+          "word": "START",
+          "roles": {
+            "AGENT": "#V167377",
+            "FORMAL": "#V167421",
+            "TENSE": "PAST",
+            "LEX": "STARTED",
+            "WNSENSE": "start%1:11:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V167377": {
+          "id": "V167377",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "KATIE",
+          "roles": {
+            "NAME-OF": "KATIE",
+            "LEX": "KATIE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V167421": {
+          "id": "V167421",
+          "indicator": "F",
+          "type": "INTERSECT",
+          "word": "MEET",
+          "roles": {
+            "NEUTRAL": "#V167377",
+            "NEUTRAL1": "#V167438",
+            "VFORM": "ING",
+            "LEX": "MEETING",
+            "WNSENSE": "cross%2:38:03"
+          },
+          "start": 14,
+          "end": 28
+        },
+        "V167438": {
+          "id": "V167438",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 22,
+          "end": 28
+        },
+        "root": "#V167960"
+      }
+    ],
+    [
+      {
+        "V167957": {
+          "id": "V167957",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V167398",
+            "LEX": "STARTED"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V167398": {
+          "id": "V167398",
+          "indicator": "F",
+          "type": "START",
+          "word": "START",
+          "roles": {
+            "AGENT": "#V167380",
+            "FORMAL": "#V167421",
+            "TENSE": "PAST",
+            "LEX": "STARTED",
+            "WNSENSE": "start%1:11:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V167380": {
+          "id": "V167380",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "KATIE",
+          "roles": {
+            "NAME-OF": "KATIE",
+            "LEX": "KATIE",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V167421": {
+          "id": "V167421",
+          "indicator": "F",
+          "type": "INTERSECT",
+          "word": "MEET",
+          "roles": {
+            "NEUTRAL": "#V167380",
+            "NEUTRAL1": "#V167438",
+            "VFORM": "ING",
+            "LEX": "MEETING",
+            "WNSENSE": "cross%2:38:03"
+          },
+          "start": 14,
+          "end": 28
+        },
+        "V167438": {
+          "id": "V167438",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 22,
+          "end": 28
+        },
+        "root": "#V167957"
+      }
+    ],
+    [
+      {
+        "V167954": {
+          "id": "V167954",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V167398",
+            "LEX": "STARTED"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V167398": {
+          "id": "V167398",
+          "indicator": "F",
+          "type": "START",
+          "word": "START",
+          "roles": {
+            "AGENT": "#V167377",
+            "FORMAL": "#V167422",
+            "TENSE": "PAST",
+            "LEX": "STARTED",
+            "WNSENSE": "start%1:11:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V167377": {
+          "id": "V167377",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "KATIE",
+          "roles": {
+            "NAME-OF": "KATIE",
+            "LEX": "KATIE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V167422": {
+          "id": "V167422",
+          "indicator": "F",
+          "type": "IS-COMPATIBLE-WITH",
+          "word": "MEET",
+          "roles": {
+            "NEUTRAL": "#V167377",
+            "NEUTRAL1": "#V167438",
+            "VFORM": "ING",
+            "LEX": "MEETING",
+            "WNSENSE": "accept%2:42:00"
+          },
+          "start": 14,
+          "end": 28
+        },
+        "V167438": {
+          "id": "V167438",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 22,
+          "end": 28
+        },
+        "root": "#V167954"
+      }
+    ]
+  ],
+  "sentence": "Katie started meeting Robert.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190826T135522",
+    "link": "http://trips.ihmc.us/parser/saved/20190826T135522-STEP-abhatia-3-Katie_started_meeting_Robert_.xml",
+    "judgement": 3
+  }
+}

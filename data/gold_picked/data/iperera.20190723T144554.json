@@ -1,0 +1,258 @@
+{
+  "parse": [
+    {
+      "V48367": {
+        "id": "V48367",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V47440"
+        },
+        "start": 0,
+        "end": 53
+      },
+      "V47440": {
+        "id": "V47440",
+        "indicator": "F",
+        "type": "HINDERING",
+        "word": "BLOCK",
+        "roles": {
+          "AGENT": "#V47331",
+          "AFFECTED": "#V47556",
+          "MANNER": "#V47467",
+          "TENSE": "PRES"
+        },
+        "start": 0,
+        "end": 53
+      },
+      "V47331": {
+        "id": "V47331",
+        "indicator": "THE",
+        "type": "TOP-LOCATION",
+        "word": "TOP",
+        "roles": {
+          "MOD": "#V47372"
+        },
+        "start": 0,
+        "end": 21
+      },
+      "V47372": {
+        "id": "V47372",
+        "indicator": "F",
+        "type": "CONTAINMENT",
+        "word": "CONTAIN",
+        "roles": {
+          "NEUTRAL": "#V47363",
+          "NEUTRAL1": "#V47331",
+          "TENSE": "PRES"
+        },
+        "start": 8,
+        "end": 21
+      },
+      "V47363": {
+        "id": "V47363",
+        "indicator": "BARE",
+        "type": "ROW-FORMATION",
+        "word": "ROW",
+        "roles": {},
+        "start": 8,
+        "end": 12
+      },
+      "V47394": {
+        "id": "V47394",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "AS",
+        "roles": {
+          "GROUND": "#V47593",
+          "FIGURE": "#V47440"
+        },
+        "start": 21,
+        "end": 29
+      },
+      "V47593": {
+        "id": "V47593",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "MANY"
+        },
+        "start": 24,
+        "end": 29
+      },
+      "V47467": {
+        "id": "V47467",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "AS",
+        "roles": {
+          "GROUND": "#V47521",
+          "FIGURE": "#V47440"
+        },
+        "start": 36,
+        "end": 50
+      },
+      "V47521": {
+        "id": "V47521",
+        "indicator": "THE",
+        "type": "BOTTOM-LOCATION",
+        "word": "BOTTOM",
+        "roles": {},
+        "start": 39,
+        "end": 50
+      },
+      "V47556": {
+        "id": "V47556",
+        "indicator": "BARE",
+        "type": "ROW-FORMATION",
+        "word": "ROW",
+        "roles": {},
+        "start": 50,
+        "end": 53
+      },
+      "root": "#V48367"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V48377": {
+          "id": "V48377",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V47440"
+          },
+          "start": 0,
+          "end": 53
+        },
+        "V47440": {
+          "id": "V47440",
+          "indicator": "F",
+          "type": "HINDERING",
+          "word": "BLOCK",
+          "roles": {
+            "AGENT": "#V47331",
+            "AFFECTED": "#V47556",
+            "MANNER": "#V47467",
+            "TENSE": "PRES"
+          },
+          "start": 0,
+          "end": 53
+        },
+        "V47331": {
+          "id": "V47331",
+          "indicator": "THE",
+          "type": "TOP-LOCATION",
+          "word": "TOP",
+          "roles": {
+            "MOD": "#V47372"
+          },
+          "start": 0,
+          "end": 21
+        },
+        "V47372": {
+          "id": "V47372",
+          "indicator": "F",
+          "type": "CONTAINMENT",
+          "word": "CONTAIN",
+          "roles": {
+            "NEUTRAL": "#V47363",
+            "NEUTRAL1": "#V47331",
+            "TENSE": "PRES"
+          },
+          "start": 8,
+          "end": 21
+        },
+        "V47363": {
+          "id": "V47363",
+          "indicator": "BARE",
+          "type": "ROW-FORMATION",
+          "word": "ROW",
+          "roles": {},
+          "start": 8,
+          "end": 12
+        },
+        "V47394": {
+          "id": "V47394",
+          "indicator": "F",
+          "type": "MANNER",
+          "word": "AS",
+          "roles": {
+            "GROUND": "#V47593",
+            "FIGURE": "#V47440"
+          },
+          "start": 21,
+          "end": 29
+        },
+        "V47593": {
+          "id": "V47593",
+          "indicator": "INDEF-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "MANY"
+          },
+          "start": 24,
+          "end": 29
+        },
+        "V47467": {
+          "id": "V47467",
+          "indicator": "F",
+          "type": "MANNER",
+          "word": "AS",
+          "roles": {
+            "GROUND": "#V47689",
+            "FIGURE": "#V47440"
+          },
+          "start": 36,
+          "end": 50
+        },
+        "V47689": {
+          "id": "V47689",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V47520"
+          },
+          "start": 39,
+          "end": 50
+        },
+        "V47520": {
+          "id": "V47520",
+          "indicator": "F",
+          "type": "BOTTOM-LOCATION-VAL",
+          "word": "BOTTOM",
+          "roles": {
+            "FIGURE": "#V47689",
+            "SCALE": "SPATIAL-SCALE"
+          },
+          "start": 43,
+          "end": 50
+        },
+        "V47556": {
+          "id": "V47556",
+          "indicator": "BARE",
+          "type": "ROW-FORMATION",
+          "word": "ROW",
+          "roles": {},
+          "start": 50,
+          "end": 53
+        },
+        "root": "#V48377"
+      }
+    ]
+  ],
+  "sentence": "The top row contains as many blocks as the bottom row",
+  "annotation": {
+    "judge": "iperera",
+    "parser": "CABOT",
+    "timestamp": "20190723T144554",
+    "link": "http://trips.ihmc.us/parser/saved/20190723T144554-CABOT-iperera-none-The_top_row_contains_as_many_blocks_as_t.xml",
+    "judgement": -1
+  }
+}

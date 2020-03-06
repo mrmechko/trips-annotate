@@ -1,0 +1,1574 @@
+{
+  "parse": [
+    {
+      "V40423": {
+        "id": "V40423",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V39772",
+          "LEX": "STAYED-UP"
+        },
+        "start": 0,
+        "end": 48
+      },
+      "V39772": {
+        "id": "V39772",
+        "indicator": "F",
+        "type": "AWAKE",
+        "word": "STAYED-UP",
+        "roles": {
+          "AGENT": "#V39704",
+          "TIME": "#V40403",
+          "TENSE": "PAST",
+          "LEX": "STAYED-UP",
+          "WNSENSE": "stay_up%2:29:00"
+        },
+        "start": 0,
+        "end": 48
+      },
+      "V39704": {
+        "id": "V39704",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "SHE",
+        "roles": {
+          "PROFORM": "SHE",
+          "LEX": "SHE",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V40403": {
+        "id": "V40403",
+        "indicator": "F",
+        "type": "IMPLICIT-OVERLAP",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V39772",
+          "GROUND": "#V39788",
+          "LEX": "STUDYING"
+        },
+        "start": 14,
+        "end": 48
+      },
+      "V39788": {
+        "id": "V39788",
+        "indicator": "F",
+        "type": "SCRUTINY",
+        "word": "STUDY",
+        "roles": {
+          "NEUTRAL": "#V40081",
+          "MOD": "#V39821",
+          "TIME": "#V39812",
+          "VFORM": "ING",
+          "LEX": "STUDYING",
+          "WNSENSE": "study%2:31:02::"
+        },
+        "start": 14,
+        "end": 48
+      },
+      "V40081": {
+        "id": "V40081",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V39805",
+          "LEX": "NIGHT"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V39805": {
+        "id": "V39805",
+        "indicator": "THE",
+        "type": "QUANTITY",
+        "word": null,
+        "roles": {
+          "UNIT": "(:* TIME-UNIT NIGHT)",
+          "SCALE": "DURATION-SCALE",
+          "MOD": "#V39796",
+          "LEX": "NIGHT",
+          "WNSENSE": "night%1:28:02::"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V39796": {
+        "id": "V39796",
+        "indicator": "F",
+        "type": "COLD",
+        "word": "COLD",
+        "roles": {
+          "FIGURE": "#V39805",
+          "SCALE": "COLD-SCALE",
+          "LEX": "COLD",
+          "WNSENSE": "cold%5:00:00:cool:03"
+        },
+        "start": 27,
+        "end": 32
+      },
+      "V39812": {
+        "id": "V39812",
+        "indicator": "F",
+        "type": "BEFORE",
+        "word": "BEFORE",
+        "roles": {
+          "GROUND": "#V39936",
+          "FIGURE": "#V39788",
+          "LEX": "BEFORE",
+          "WNSENSE": "before%4:02:03::"
+        },
+        "start": 38,
+        "end": 45
+      },
+      "V39936": {
+        "id": "V39936",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "COREF": "#V40081"
+        },
+        "start": 38,
+        "end": 45
+      },
+      "V39821": {
+        "id": "V39821",
+        "indicator": "F",
+        "type": "ADDITIVE",
+        "word": "TOO",
+        "roles": {
+          "FIGURE": "#V39788",
+          "LEX": "TOO",
+          "WNSENSE": "too%4:02:00::"
+        },
+        "start": 45,
+        "end": 48
+      },
+      "root": "#V40423"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V40410": {
+          "id": "V40410",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V39768",
+            "LEX": "STAYED-UP"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V39768": {
+          "id": "V39768",
+          "indicator": "F",
+          "type": "AWAKE",
+          "word": "STAYED-UP",
+          "roles": {
+            "AFFECTED": "#V39704",
+            "TIME": "#V40403",
+            "TENSE": "PAST",
+            "LEX": "STAYED-UP",
+            "WNSENSE": "stay_up%2:29:00"
+          },
+          "start": 0,
+          "end": 48
+        },
+        "V39704": {
+          "id": "V39704",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V40403": {
+          "id": "V40403",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V39768",
+            "GROUND": "#V39788",
+            "LEX": "STUDYING"
+          },
+          "start": 14,
+          "end": 48
+        },
+        "V39788": {
+          "id": "V39788",
+          "indicator": "F",
+          "type": "SCRUTINY",
+          "word": "STUDY",
+          "roles": {
+            "NEUTRAL": "#V40081",
+            "MOD": "#V39821",
+            "TIME": "#V39812",
+            "VFORM": "ING",
+            "LEX": "STUDYING",
+            "WNSENSE": "study%2:31:02::"
+          },
+          "start": 14,
+          "end": 48
+        },
+        "V40081": {
+          "id": "V40081",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V39805",
+            "LEX": "NIGHT"
+          },
+          "start": 23,
+          "end": 38
+        },
+        "V39805": {
+          "id": "V39805",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* TIME-UNIT NIGHT)",
+            "SCALE": "DURATION-SCALE",
+            "MOD": "#V39796",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:02::"
+          },
+          "start": 23,
+          "end": 38
+        },
+        "V39796": {
+          "id": "V39796",
+          "indicator": "F",
+          "type": "COLD",
+          "word": "COLD",
+          "roles": {
+            "FIGURE": "#V39805",
+            "SCALE": "COLD-SCALE",
+            "LEX": "COLD",
+            "WNSENSE": "cold%5:00:00:cool:03"
+          },
+          "start": 27,
+          "end": 32
+        },
+        "V39812": {
+          "id": "V39812",
+          "indicator": "F",
+          "type": "BEFORE",
+          "word": "BEFORE",
+          "roles": {
+            "GROUND": "#V39936",
+            "FIGURE": "#V39788",
+            "LEX": "BEFORE",
+            "WNSENSE": "before%4:02:03::"
+          },
+          "start": 38,
+          "end": 45
+        },
+        "V39936": {
+          "id": "V39936",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 38,
+          "end": 45
+        },
+        "V39821": {
+          "id": "V39821",
+          "indicator": "F",
+          "type": "ADDITIVE",
+          "word": "TOO",
+          "roles": {
+            "FIGURE": "#V39788",
+            "LEX": "TOO",
+            "WNSENSE": "too%4:02:00::"
+          },
+          "start": 45,
+          "end": 48
+        },
+        "root": "#V40410"
+      }
+    ],
+    [
+      {
+        "V40632": {
+          "id": "V40632",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V39772",
+            "LEX": "STAYED-UP"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V39772": {
+          "id": "V39772",
+          "indicator": "F",
+          "type": "AWAKE",
+          "word": "STAYED-UP",
+          "roles": {
+            "AGENT": "#V39704",
+            "TIME": "#V40614",
+            "TENSE": "PAST",
+            "LEX": "STAYED-UP",
+            "WNSENSE": "stay_up%2:29:00"
+          },
+          "start": 0,
+          "end": 48
+        },
+        "V39704": {
+          "id": "V39704",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V40614": {
+          "id": "V40614",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V39772",
+            "GROUND": "#V39788",
+            "LEX": "STUDYING"
+          },
+          "start": 14,
+          "end": 48
+        },
+        "V39788": {
+          "id": "V39788",
+          "indicator": "F",
+          "type": "SCRUTINY",
+          "word": "STUDY",
+          "roles": {
+            "NEUTRAL": "#V40079",
+            "MOD": "#V39821",
+            "TIME": "#V39812",
+            "VFORM": "ING",
+            "LEX": "STUDYING",
+            "WNSENSE": "study%2:31:02::"
+          },
+          "start": 14,
+          "end": 48
+        },
+        "V40079": {
+          "id": "V40079",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "QUANTITY": "#V39805",
+            "LEX": "NIGHT"
+          },
+          "start": 23,
+          "end": 38
+        },
+        "V39805": {
+          "id": "V39805",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* TIME-UNIT NIGHT)",
+            "SCALE": "DURATION-SCALE",
+            "MOD": "#V39796",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:02::"
+          },
+          "start": 23,
+          "end": 38
+        },
+        "V39796": {
+          "id": "V39796",
+          "indicator": "F",
+          "type": "COLD",
+          "word": "COLD",
+          "roles": {
+            "FIGURE": "#V39805",
+            "SCALE": "COLD-SCALE",
+            "LEX": "COLD",
+            "WNSENSE": "cold%5:00:00:cool:03"
+          },
+          "start": 27,
+          "end": 32
+        },
+        "V39812": {
+          "id": "V39812",
+          "indicator": "F",
+          "type": "BEFORE",
+          "word": "BEFORE",
+          "roles": {
+            "GROUND": "#V39936",
+            "FIGURE": "#V39788",
+            "LEX": "BEFORE",
+            "WNSENSE": "before%4:02:03::"
+          },
+          "start": 38,
+          "end": 45
+        },
+        "V39936": {
+          "id": "V39936",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 38,
+          "end": 45
+        },
+        "V39821": {
+          "id": "V39821",
+          "indicator": "F",
+          "type": "ADDITIVE",
+          "word": "TOO",
+          "roles": {
+            "FIGURE": "#V39788",
+            "LEX": "TOO",
+            "WNSENSE": "too%4:02:00::"
+          },
+          "start": 45,
+          "end": 48
+        },
+        "root": "#V40632"
+      }
+    ],
+    [
+      {
+        "V40621": {
+          "id": "V40621",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V39768",
+            "LEX": "STAYED-UP"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V39768": {
+          "id": "V39768",
+          "indicator": "F",
+          "type": "AWAKE",
+          "word": "STAYED-UP",
+          "roles": {
+            "AFFECTED": "#V39704",
+            "TIME": "#V40614",
+            "TENSE": "PAST",
+            "LEX": "STAYED-UP",
+            "WNSENSE": "stay_up%2:29:00"
+          },
+          "start": 0,
+          "end": 48
+        },
+        "V39704": {
+          "id": "V39704",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V40614": {
+          "id": "V40614",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V39768",
+            "GROUND": "#V39788",
+            "LEX": "STUDYING"
+          },
+          "start": 14,
+          "end": 48
+        },
+        "V39788": {
+          "id": "V39788",
+          "indicator": "F",
+          "type": "SCRUTINY",
+          "word": "STUDY",
+          "roles": {
+            "NEUTRAL": "#V40079",
+            "MOD": "#V39821",
+            "TIME": "#V39812",
+            "VFORM": "ING",
+            "LEX": "STUDYING",
+            "WNSENSE": "study%2:31:02::"
+          },
+          "start": 14,
+          "end": 48
+        },
+        "V40079": {
+          "id": "V40079",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "QUANTITY": "#V39805",
+            "LEX": "NIGHT"
+          },
+          "start": 23,
+          "end": 38
+        },
+        "V39805": {
+          "id": "V39805",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* TIME-UNIT NIGHT)",
+            "SCALE": "DURATION-SCALE",
+            "MOD": "#V39796",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:02::"
+          },
+          "start": 23,
+          "end": 38
+        },
+        "V39796": {
+          "id": "V39796",
+          "indicator": "F",
+          "type": "COLD",
+          "word": "COLD",
+          "roles": {
+            "FIGURE": "#V39805",
+            "SCALE": "COLD-SCALE",
+            "LEX": "COLD",
+            "WNSENSE": "cold%5:00:00:cool:03"
+          },
+          "start": 27,
+          "end": 32
+        },
+        "V39812": {
+          "id": "V39812",
+          "indicator": "F",
+          "type": "BEFORE",
+          "word": "BEFORE",
+          "roles": {
+            "GROUND": "#V39936",
+            "FIGURE": "#V39788",
+            "LEX": "BEFORE",
+            "WNSENSE": "before%4:02:03::"
+          },
+          "start": 38,
+          "end": 45
+        },
+        "V39936": {
+          "id": "V39936",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 38,
+          "end": 45
+        },
+        "V39821": {
+          "id": "V39821",
+          "indicator": "F",
+          "type": "ADDITIVE",
+          "word": "TOO",
+          "roles": {
+            "FIGURE": "#V39788",
+            "LEX": "TOO",
+            "WNSENSE": "too%4:02:00::"
+          },
+          "start": 45,
+          "end": 48
+        },
+        "root": "#V40621"
+      }
+    ],
+    [
+      {
+        "V40567": {
+          "id": "V40567",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V39709",
+            "LEX": "STAYED"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V39709": {
+          "id": "V39709",
+          "indicator": "F",
+          "type": "STAY",
+          "word": "STAY",
+          "roles": {
+            "AFFECTED": "#V39704",
+            "MANNER": "#V39743",
+            "TIME": "#V40403",
+            "TENSE": "PAST",
+            "LEX": "STAYED",
+            "WNSENSE": "stay%2:30:00::"
+          },
+          "start": 0,
+          "end": 48
+        },
+        "V39704": {
+          "id": "V39704",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V39743": {
+          "id": "V39743",
+          "indicator": "F",
+          "type": "COMPLETELY",
+          "word": "UP",
+          "roles": {
+            "FIGURE": "#V39709",
+            "LEX": "UP",
+            "WNSENSE": "up%4:02:00::"
+          },
+          "start": 11,
+          "end": 14
+        },
+        "V40403": {
+          "id": "V40403",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V39709",
+            "GROUND": "#V39788",
+            "LEX": "STUDYING"
+          },
+          "start": 14,
+          "end": 48
+        },
+        "V39788": {
+          "id": "V39788",
+          "indicator": "F",
+          "type": "SCRUTINY",
+          "word": "STUDY",
+          "roles": {
+            "NEUTRAL": "#V40081",
+            "MOD": "#V39821",
+            "TIME": "#V39812",
+            "VFORM": "ING",
+            "LEX": "STUDYING",
+            "WNSENSE": "study%2:31:02::"
+          },
+          "start": 14,
+          "end": 48
+        },
+        "V40081": {
+          "id": "V40081",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V39805",
+            "LEX": "NIGHT"
+          },
+          "start": 23,
+          "end": 38
+        },
+        "V39805": {
+          "id": "V39805",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* TIME-UNIT NIGHT)",
+            "SCALE": "DURATION-SCALE",
+            "MOD": "#V39796",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:02::"
+          },
+          "start": 23,
+          "end": 38
+        },
+        "V39796": {
+          "id": "V39796",
+          "indicator": "F",
+          "type": "COLD",
+          "word": "COLD",
+          "roles": {
+            "FIGURE": "#V39805",
+            "SCALE": "COLD-SCALE",
+            "LEX": "COLD",
+            "WNSENSE": "cold%5:00:00:cool:03"
+          },
+          "start": 27,
+          "end": 32
+        },
+        "V39812": {
+          "id": "V39812",
+          "indicator": "F",
+          "type": "BEFORE",
+          "word": "BEFORE",
+          "roles": {
+            "GROUND": "#V39936",
+            "FIGURE": "#V39788",
+            "LEX": "BEFORE",
+            "WNSENSE": "before%4:02:03::"
+          },
+          "start": 38,
+          "end": 45
+        },
+        "V39936": {
+          "id": "V39936",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 38,
+          "end": 45
+        },
+        "V39821": {
+          "id": "V39821",
+          "indicator": "F",
+          "type": "ADDITIVE",
+          "word": "TOO",
+          "roles": {
+            "FIGURE": "#V39788",
+            "LEX": "TOO",
+            "WNSENSE": "too%4:02:00::"
+          },
+          "start": 45,
+          "end": 48
+        },
+        "root": "#V40567"
+      }
+    ],
+    [
+      {
+        "V40739": {
+          "id": "V40739",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V39709",
+            "LEX": "STAYED"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V39709": {
+          "id": "V39709",
+          "indicator": "F",
+          "type": "STAY",
+          "word": "STAY",
+          "roles": {
+            "MANNER": "#V39743",
+            "AFFECTED": "#V39704",
+            "TIME": "#V40403",
+            "TENSE": "PAST",
+            "LEX": "STAYED",
+            "WNSENSE": "stay%2:30:00::"
+          },
+          "start": 0,
+          "end": 48
+        },
+        "V39704": {
+          "id": "V39704",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V39743": {
+          "id": "V39743",
+          "indicator": "F",
+          "type": "COMPLETELY",
+          "word": "UP",
+          "roles": {
+            "FIGURE": "#V39709",
+            "LEX": "UP",
+            "WNSENSE": "up%4:02:00::"
+          },
+          "start": 11,
+          "end": 14
+        },
+        "V40403": {
+          "id": "V40403",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V39709",
+            "GROUND": "#V39788",
+            "LEX": "STUDYING"
+          },
+          "start": 14,
+          "end": 48
+        },
+        "V39788": {
+          "id": "V39788",
+          "indicator": "F",
+          "type": "SCRUTINY",
+          "word": "STUDY",
+          "roles": {
+            "NEUTRAL": "#V40081",
+            "MOD": "#V39821",
+            "TIME": "#V39812",
+            "VFORM": "ING",
+            "LEX": "STUDYING",
+            "WNSENSE": "study%2:31:02::"
+          },
+          "start": 14,
+          "end": 48
+        },
+        "V40081": {
+          "id": "V40081",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V39805",
+            "LEX": "NIGHT"
+          },
+          "start": 23,
+          "end": 38
+        },
+        "V39805": {
+          "id": "V39805",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* TIME-UNIT NIGHT)",
+            "SCALE": "DURATION-SCALE",
+            "MOD": "#V39796",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:02::"
+          },
+          "start": 23,
+          "end": 38
+        },
+        "V39796": {
+          "id": "V39796",
+          "indicator": "F",
+          "type": "COLD",
+          "word": "COLD",
+          "roles": {
+            "FIGURE": "#V39805",
+            "SCALE": "COLD-SCALE",
+            "LEX": "COLD",
+            "WNSENSE": "cold%5:00:00:cool:03"
+          },
+          "start": 27,
+          "end": 32
+        },
+        "V39812": {
+          "id": "V39812",
+          "indicator": "F",
+          "type": "BEFORE",
+          "word": "BEFORE",
+          "roles": {
+            "GROUND": "#V39936",
+            "FIGURE": "#V39788",
+            "LEX": "BEFORE",
+            "WNSENSE": "before%4:02:03::"
+          },
+          "start": 38,
+          "end": 45
+        },
+        "V39936": {
+          "id": "V39936",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 38,
+          "end": 45
+        },
+        "V39821": {
+          "id": "V39821",
+          "indicator": "F",
+          "type": "ADDITIVE",
+          "word": "TOO",
+          "roles": {
+            "FIGURE": "#V39788",
+            "LEX": "TOO",
+            "WNSENSE": "too%4:02:00::"
+          },
+          "start": 45,
+          "end": 48
+        },
+        "root": "#V40739"
+      }
+    ],
+    [
+      {
+        "V40765": {
+          "id": "V40765",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V39709",
+            "LEX": "STAYED"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V39709": {
+          "id": "V39709",
+          "indicator": "F",
+          "type": "STAY",
+          "word": "STAY",
+          "roles": {
+            "AFFECTED": "#V39704",
+            "MANNER": "#V39743",
+            "TIME": "#V40614",
+            "TENSE": "PAST",
+            "LEX": "STAYED",
+            "WNSENSE": "stay%2:30:00::"
+          },
+          "start": 0,
+          "end": 48
+        },
+        "V39704": {
+          "id": "V39704",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V39743": {
+          "id": "V39743",
+          "indicator": "F",
+          "type": "COMPLETELY",
+          "word": "UP",
+          "roles": {
+            "FIGURE": "#V39709",
+            "LEX": "UP",
+            "WNSENSE": "up%4:02:00::"
+          },
+          "start": 11,
+          "end": 14
+        },
+        "V40614": {
+          "id": "V40614",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V39709",
+            "GROUND": "#V39788",
+            "LEX": "STUDYING"
+          },
+          "start": 14,
+          "end": 48
+        },
+        "V39788": {
+          "id": "V39788",
+          "indicator": "F",
+          "type": "SCRUTINY",
+          "word": "STUDY",
+          "roles": {
+            "NEUTRAL": "#V40079",
+            "MOD": "#V39821",
+            "TIME": "#V39812",
+            "VFORM": "ING",
+            "LEX": "STUDYING",
+            "WNSENSE": "study%2:31:02::"
+          },
+          "start": 14,
+          "end": 48
+        },
+        "V40079": {
+          "id": "V40079",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "QUANTITY": "#V39805",
+            "LEX": "NIGHT"
+          },
+          "start": 23,
+          "end": 38
+        },
+        "V39805": {
+          "id": "V39805",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* TIME-UNIT NIGHT)",
+            "SCALE": "DURATION-SCALE",
+            "MOD": "#V39796",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:02::"
+          },
+          "start": 23,
+          "end": 38
+        },
+        "V39796": {
+          "id": "V39796",
+          "indicator": "F",
+          "type": "COLD",
+          "word": "COLD",
+          "roles": {
+            "FIGURE": "#V39805",
+            "SCALE": "COLD-SCALE",
+            "LEX": "COLD",
+            "WNSENSE": "cold%5:00:00:cool:03"
+          },
+          "start": 27,
+          "end": 32
+        },
+        "V39812": {
+          "id": "V39812",
+          "indicator": "F",
+          "type": "BEFORE",
+          "word": "BEFORE",
+          "roles": {
+            "GROUND": "#V39936",
+            "FIGURE": "#V39788",
+            "LEX": "BEFORE",
+            "WNSENSE": "before%4:02:03::"
+          },
+          "start": 38,
+          "end": 45
+        },
+        "V39936": {
+          "id": "V39936",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 38,
+          "end": 45
+        },
+        "V39821": {
+          "id": "V39821",
+          "indicator": "F",
+          "type": "ADDITIVE",
+          "word": "TOO",
+          "roles": {
+            "FIGURE": "#V39788",
+            "LEX": "TOO",
+            "WNSENSE": "too%4:02:00::"
+          },
+          "start": 45,
+          "end": 48
+        },
+        "root": "#V40765"
+      }
+    ],
+    [
+      {
+        "V40848": {
+          "id": "V40848",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V39772",
+            "LEX": "STAYED-UP"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V39772": {
+          "id": "V39772",
+          "indicator": "F",
+          "type": "AWAKE",
+          "word": "STAYED-UP",
+          "roles": {
+            "AGENT": "#V39704",
+            "MOD": "#V39821",
+            "TIME": "#V40162",
+            "TENSE": "PAST",
+            "LEX": "STAYED-UP",
+            "WNSENSE": "stay_up%2:29:00"
+          },
+          "start": 0,
+          "end": 48
+        },
+        "V39704": {
+          "id": "V39704",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V40162": {
+          "id": "V40162",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V39772",
+            "GROUND": "#V39788",
+            "LEX": "STUDYING"
+          },
+          "start": 14,
+          "end": 38
+        },
+        "V39788": {
+          "id": "V39788",
+          "indicator": "F",
+          "type": "SCRUTINY",
+          "word": "STUDY",
+          "roles": {
+            "NEUTRAL": "#V40081",
+            "VFORM": "ING",
+            "LEX": "STUDYING",
+            "WNSENSE": "study%2:31:02::"
+          },
+          "start": 14,
+          "end": 38
+        },
+        "V40081": {
+          "id": "V40081",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V39805",
+            "LEX": "NIGHT"
+          },
+          "start": 23,
+          "end": 38
+        },
+        "V39805": {
+          "id": "V39805",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* TIME-UNIT NIGHT)",
+            "SCALE": "DURATION-SCALE",
+            "MOD": "#V39796",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:02::"
+          },
+          "start": 23,
+          "end": 38
+        },
+        "V39796": {
+          "id": "V39796",
+          "indicator": "F",
+          "type": "COLD",
+          "word": "COLD",
+          "roles": {
+            "FIGURE": "#V39805",
+            "SCALE": "COLD-SCALE",
+            "LEX": "COLD",
+            "WNSENSE": "cold%5:00:00:cool:03"
+          },
+          "start": 27,
+          "end": 32
+        },
+        "V39812": {
+          "id": "V39812",
+          "indicator": "F",
+          "type": "BEFORE",
+          "word": "BEFORE",
+          "roles": {
+            "GROUND": "#V39936",
+            "FIGURE": "#V39772",
+            "LEX": "BEFORE",
+            "WNSENSE": "before%4:02:03::"
+          },
+          "start": 38,
+          "end": 45
+        },
+        "V39936": {
+          "id": "V39936",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 38,
+          "end": 45
+        },
+        "V39821": {
+          "id": "V39821",
+          "indicator": "F",
+          "type": "ADDITIVE",
+          "word": "TOO",
+          "roles": {
+            "FIGURE": "#V39772",
+            "LEX": "TOO",
+            "WNSENSE": "too%4:02:00::"
+          },
+          "start": 45,
+          "end": 48
+        },
+        "root": "#V40848"
+      }
+    ],
+    [
+      {
+        "V40834": {
+          "id": "V40834",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V39768",
+            "LEX": "STAYED-UP"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V39768": {
+          "id": "V39768",
+          "indicator": "F",
+          "type": "AWAKE",
+          "word": "STAYED-UP",
+          "roles": {
+            "AFFECTED": "#V39704",
+            "MOD": "#V39821",
+            "TIME": "#V40162",
+            "TENSE": "PAST",
+            "LEX": "STAYED-UP",
+            "WNSENSE": "stay_up%2:29:00"
+          },
+          "start": 0,
+          "end": 48
+        },
+        "V39704": {
+          "id": "V39704",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V40162": {
+          "id": "V40162",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V39768",
+            "GROUND": "#V39788",
+            "LEX": "STUDYING"
+          },
+          "start": 14,
+          "end": 38
+        },
+        "V39788": {
+          "id": "V39788",
+          "indicator": "F",
+          "type": "SCRUTINY",
+          "word": "STUDY",
+          "roles": {
+            "NEUTRAL": "#V40081",
+            "VFORM": "ING",
+            "LEX": "STUDYING",
+            "WNSENSE": "study%2:31:02::"
+          },
+          "start": 14,
+          "end": 38
+        },
+        "V40081": {
+          "id": "V40081",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V39805",
+            "LEX": "NIGHT"
+          },
+          "start": 23,
+          "end": 38
+        },
+        "V39805": {
+          "id": "V39805",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* TIME-UNIT NIGHT)",
+            "SCALE": "DURATION-SCALE",
+            "MOD": "#V39796",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:02::"
+          },
+          "start": 23,
+          "end": 38
+        },
+        "V39796": {
+          "id": "V39796",
+          "indicator": "F",
+          "type": "COLD",
+          "word": "COLD",
+          "roles": {
+            "FIGURE": "#V39805",
+            "SCALE": "COLD-SCALE",
+            "LEX": "COLD",
+            "WNSENSE": "cold%5:00:00:cool:03"
+          },
+          "start": 27,
+          "end": 32
+        },
+        "V39812": {
+          "id": "V39812",
+          "indicator": "F",
+          "type": "BEFORE",
+          "word": "BEFORE",
+          "roles": {
+            "GROUND": "#V39936",
+            "FIGURE": "#V39768",
+            "LEX": "BEFORE",
+            "WNSENSE": "before%4:02:03::"
+          },
+          "start": 38,
+          "end": 45
+        },
+        "V39936": {
+          "id": "V39936",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 38,
+          "end": 45
+        },
+        "V39821": {
+          "id": "V39821",
+          "indicator": "F",
+          "type": "ADDITIVE",
+          "word": "TOO",
+          "roles": {
+            "FIGURE": "#V39768",
+            "LEX": "TOO",
+            "WNSENSE": "too%4:02:00::"
+          },
+          "start": 45,
+          "end": 48
+        },
+        "root": "#V40834"
+      }
+    ],
+    [
+      {
+        "V40878": {
+          "id": "V40878",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V39772",
+            "LEX": "STAYED-UP"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V39772": {
+          "id": "V39772",
+          "indicator": "F",
+          "type": "AWAKE",
+          "word": "STAYED-UP",
+          "roles": {
+            "AGENT": "#V39704",
+            "MOD": "#V39821",
+            "TIME": "#V40466",
+            "TENSE": "PAST",
+            "LEX": "STAYED-UP",
+            "WNSENSE": "stay_up%2:29:00"
+          },
+          "start": 0,
+          "end": 48
+        },
+        "V39704": {
+          "id": "V39704",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V40466": {
+          "id": "V40466",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V39772",
+            "GROUND": "#V39788",
+            "LEX": "STUDYING"
+          },
+          "start": 14,
+          "end": 45
+        },
+        "V39788": {
+          "id": "V39788",
+          "indicator": "F",
+          "type": "SCRUTINY",
+          "word": "STUDY",
+          "roles": {
+            "NEUTRAL": "#V40081",
+            "TIME": "#V39812",
+            "VFORM": "ING",
+            "LEX": "STUDYING",
+            "WNSENSE": "study%2:31:02::"
+          },
+          "start": 14,
+          "end": 45
+        },
+        "V40081": {
+          "id": "V40081",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V39805",
+            "LEX": "NIGHT"
+          },
+          "start": 23,
+          "end": 38
+        },
+        "V39805": {
+          "id": "V39805",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* TIME-UNIT NIGHT)",
+            "SCALE": "DURATION-SCALE",
+            "MOD": "#V39796",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:02::"
+          },
+          "start": 23,
+          "end": 38
+        },
+        "V39796": {
+          "id": "V39796",
+          "indicator": "F",
+          "type": "COLD",
+          "word": "COLD",
+          "roles": {
+            "FIGURE": "#V39805",
+            "SCALE": "COLD-SCALE",
+            "LEX": "COLD",
+            "WNSENSE": "cold%5:00:00:cool:03"
+          },
+          "start": 27,
+          "end": 32
+        },
+        "V39812": {
+          "id": "V39812",
+          "indicator": "F",
+          "type": "BEFORE",
+          "word": "BEFORE",
+          "roles": {
+            "GROUND": "#V39936",
+            "FIGURE": "#V39788",
+            "LEX": "BEFORE",
+            "WNSENSE": "before%4:02:03::"
+          },
+          "start": 38,
+          "end": 45
+        },
+        "V39936": {
+          "id": "V39936",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 38,
+          "end": 45
+        },
+        "V39821": {
+          "id": "V39821",
+          "indicator": "F",
+          "type": "ADDITIVE",
+          "word": "TOO",
+          "roles": {
+            "FIGURE": "#V39772",
+            "LEX": "TOO",
+            "WNSENSE": "too%4:02:00::"
+          },
+          "start": 45,
+          "end": 48
+        },
+        "root": "#V40878"
+      }
+    ]
+  ],
+  "sentence": "She stayed up studying the cold night before too.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190821T145947",
+    "link": "http://trips.ihmc.us/parser/saved/20190821T145947-STEP-abhatia-none-She_stayed_up_studying_the_cold_night_be.xml",
+    "judgement": -1
+  }
+}

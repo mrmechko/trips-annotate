@@ -1,0 +1,588 @@
+{
+  "parse": [
+    {
+      "V352900": {
+        "id": "V352900",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V351886",
+          "LEX": "CALLED"
+        },
+        "start": 0,
+        "end": 67
+      },
+      "V351886": {
+        "id": "V351886",
+        "indicator": "F",
+        "type": "ESTABLISH-COMMUNICATION",
+        "word": "CALL",
+        "roles": {
+          "AGENT": "#V351874",
+          "AGENT1": "#V351906",
+          "TENSE": "PAST",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:32:01::"
+        },
+        "start": 0,
+        "end": 67
+      },
+      "V351874": {
+        "id": "V351874",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "GARY",
+        "roles": {
+          "NAME-OF": "GARY",
+          "LEX": "GARY",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V351906": {
+        "id": "V351906",
+        "indicator": "THE",
+        "type": "PERSON",
+        "word": "EXTERMINATOR",
+        "roles": {
+          "MOD": "#V351901",
+          "LEX": "EXTERMINATOR",
+          "WNSENSE": "exterminator%1:18:00::"
+        },
+        "start": 12,
+        "end": 67
+      },
+      "V351901": {
+        "id": "V351901",
+        "indicator": "F",
+        "type": "LOCAL-VAL",
+        "word": "LOCAL",
+        "roles": {
+          "ORIENTATION": "LESS",
+          "INTENSITY": "MED",
+          "FIGURE": "#V351906",
+          "SCALE": "DISTANCE-SCALE",
+          "LEX": "LOCAL",
+          "WNSENSE": "local%3:00:01::"
+        },
+        "start": 16,
+        "end": 22
+      },
+      "V351929": {
+        "id": "V351929",
+        "indicator": "F",
+        "type": "MOVE",
+        "word": "GO",
+        "roles": {
+          "RESULT": "#V351946",
+          "AGENT": "#V351906",
+          "MANNER": "#V352034",
+          "TENSE": "PAST",
+          "LEX": "WENT",
+          "WNSENSE": "go%2:38:00::"
+        },
+        "start": 35,
+        "end": 67
+      },
+      "V351946": {
+        "id": "V351946",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V352030",
+          "FIGURE": "#V351906",
+          "LEX": "TO"
+        },
+        "start": 44,
+        "end": 60
+      },
+      "V352030": {
+        "id": "V352030",
+        "indicator": "THE",
+        "type": "LODGING",
+        "word": "HOUSE",
+        "roles": {
+          "ASSOC-POSS": "#V351976",
+          "LEX": "HOUSE",
+          "WNSENSE": "house%1:06:00::"
+        },
+        "start": 47,
+        "end": 60
+      },
+      "V351976": {
+        "id": "V351976",
+        "indicator": "THE",
+        "type": "PERSON",
+        "word": "GARY",
+        "roles": {
+          "NAME-OF": "GARY",
+          "LEX": "GARY",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 47,
+        "end": 51
+      },
+      "V352034": {
+        "id": "V352034",
+        "indicator": "F",
+        "type": "SPEEDY",
+        "word": "QUICKLY",
+        "roles": {
+          "FIGURE": "#V351929",
+          "SCALE": "SPEED-SCALE",
+          "LEX": "QUICKLY",
+          "WNSENSE": "quick%5:00:02:fast:01"
+        },
+        "start": 60,
+        "end": 67
+      },
+      "root": "#V352900"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V352888": {
+          "id": "V352888",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V351889",
+            "LEX": "CALLED"
+          },
+          "start": 0,
+          "end": 68
+        },
+        "V351889": {
+          "id": "V351889",
+          "indicator": "F",
+          "type": "APPEAL-APPLY-DEMAND",
+          "word": "CALL",
+          "roles": {
+            "AGENT": "#V351874",
+            "NEUTRAL": "#V351906",
+            "TENSE": "PAST",
+            "LEX": "CALLED",
+            "WNSENSE": "call%2:38:00::"
+          },
+          "start": 0,
+          "end": 67
+        },
+        "V351874": {
+          "id": "V351874",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "GARY",
+          "roles": {
+            "NAME-OF": "GARY",
+            "LEX": "GARY",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V351906": {
+          "id": "V351906",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "EXTERMINATOR",
+          "roles": {
+            "MOD": "#V351901",
+            "LEX": "EXTERMINATOR",
+            "WNSENSE": "exterminator%1:18:00::"
+          },
+          "start": 12,
+          "end": 67
+        },
+        "V351901": {
+          "id": "V351901",
+          "indicator": "F",
+          "type": "LOCAL-VAL",
+          "word": "LOCAL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V351906",
+            "SCALE": "DISTANCE-SCALE",
+            "LEX": "LOCAL",
+            "WNSENSE": "local%3:00:01::"
+          },
+          "start": 16,
+          "end": 22
+        },
+        "V351929": {
+          "id": "V351929",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V351946",
+            "AGENT": "#V351906",
+            "MANNER": "#V352034",
+            "TENSE": "PAST",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 35,
+          "end": 67
+        },
+        "V351946": {
+          "id": "V351946",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V352030",
+            "FIGURE": "#V351906",
+            "LEX": "TO"
+          },
+          "start": 44,
+          "end": 60
+        },
+        "V352030": {
+          "id": "V352030",
+          "indicator": "THE",
+          "type": "LODGING",
+          "word": "HOUSE",
+          "roles": {
+            "ASSOC-POSS": "#V351976",
+            "LEX": "HOUSE",
+            "WNSENSE": "house%1:06:00::"
+          },
+          "start": 47,
+          "end": 60
+        },
+        "V351976": {
+          "id": "V351976",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "GARY",
+          "roles": {
+            "NAME-OF": "GARY",
+            "LEX": "GARY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 47,
+          "end": 51
+        },
+        "V352034": {
+          "id": "V352034",
+          "indicator": "F",
+          "type": "SPEEDY",
+          "word": "QUICKLY",
+          "roles": {
+            "FIGURE": "#V351929",
+            "SCALE": "SPEED-SCALE",
+            "LEX": "QUICKLY",
+            "WNSENSE": "quick%5:00:02:fast:01"
+          },
+          "start": 60,
+          "end": 67
+        },
+        "root": "#V352888"
+      }
+    ],
+    [
+      {
+        "V352837": {
+          "id": "V352837",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V351886",
+            "LEX": "CALLED"
+          },
+          "start": 0,
+          "end": 68
+        },
+        "V351886": {
+          "id": "V351886",
+          "indicator": "F",
+          "type": "ESTABLISH-COMMUNICATION",
+          "word": "CALL",
+          "roles": {
+            "AGENT": "#V351874",
+            "AGENT1": "#V351906",
+            "TENSE": "PAST",
+            "LEX": "CALLED",
+            "WNSENSE": "call%2:32:01::"
+          },
+          "start": 0,
+          "end": 67
+        },
+        "V351874": {
+          "id": "V351874",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "GARY",
+          "roles": {
+            "NAME-OF": "GARY",
+            "LEX": "GARY",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V351906": {
+          "id": "V351906",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "EXTERMINATOR",
+          "roles": {
+            "MOD": "#V351901",
+            "LEX": "EXTERMINATOR",
+            "WNSENSE": "exterminator%1:18:00::"
+          },
+          "start": 12,
+          "end": 67
+        },
+        "V351901": {
+          "id": "V351901",
+          "indicator": "F",
+          "type": "LOCAL-VAL",
+          "word": "LOCAL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V351906",
+            "SCALE": "DISTANCE-SCALE",
+            "LEX": "LOCAL",
+            "WNSENSE": "local%3:00:01::"
+          },
+          "start": 16,
+          "end": 22
+        },
+        "V351929": {
+          "id": "V351929",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V351946",
+            "AGENT": "#V351906",
+            "MANNER": "#V352034",
+            "TENSE": "PAST",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 35,
+          "end": 67
+        },
+        "V351946": {
+          "id": "V351946",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V352030",
+            "FIGURE": "#V351906",
+            "LEX": "TO"
+          },
+          "start": 44,
+          "end": 60
+        },
+        "V352030": {
+          "id": "V352030",
+          "indicator": "THE",
+          "type": "LODGING",
+          "word": "HOUSE",
+          "roles": {
+            "ASSOC-POSS": "#V351970",
+            "LEX": "HOUSE",
+            "WNSENSE": "house%1:06:00::"
+          },
+          "start": 47,
+          "end": 60
+        },
+        "V351970": {
+          "id": "V351970",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "GARY",
+          "roles": {
+            "NAME-OF": "GARY",
+            "LEX": "GARY",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 47,
+          "end": 51
+        },
+        "V352034": {
+          "id": "V352034",
+          "indicator": "F",
+          "type": "SPEEDY",
+          "word": "QUICKLY",
+          "roles": {
+            "FIGURE": "#V351929",
+            "SCALE": "SPEED-SCALE",
+            "LEX": "QUICKLY",
+            "WNSENSE": "quick%5:00:02:fast:01"
+          },
+          "start": 60,
+          "end": 67
+        },
+        "root": "#V352837"
+      }
+    ],
+    [
+      {
+        "V352825": {
+          "id": "V352825",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V351889",
+            "LEX": "CALLED"
+          },
+          "start": 0,
+          "end": 68
+        },
+        "V351889": {
+          "id": "V351889",
+          "indicator": "F",
+          "type": "APPEAL-APPLY-DEMAND",
+          "word": "CALL",
+          "roles": {
+            "AGENT": "#V351874",
+            "NEUTRAL": "#V351906",
+            "TENSE": "PAST",
+            "LEX": "CALLED",
+            "WNSENSE": "call%2:38:00::"
+          },
+          "start": 0,
+          "end": 67
+        },
+        "V351874": {
+          "id": "V351874",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "GARY",
+          "roles": {
+            "NAME-OF": "GARY",
+            "LEX": "GARY",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V351906": {
+          "id": "V351906",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "EXTERMINATOR",
+          "roles": {
+            "MOD": "#V351901",
+            "LEX": "EXTERMINATOR",
+            "WNSENSE": "exterminator%1:18:00::"
+          },
+          "start": 12,
+          "end": 67
+        },
+        "V351901": {
+          "id": "V351901",
+          "indicator": "F",
+          "type": "LOCAL-VAL",
+          "word": "LOCAL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V351906",
+            "SCALE": "DISTANCE-SCALE",
+            "LEX": "LOCAL",
+            "WNSENSE": "local%3:00:01::"
+          },
+          "start": 16,
+          "end": 22
+        },
+        "V351929": {
+          "id": "V351929",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V351946",
+            "AGENT": "#V351906",
+            "MANNER": "#V352034",
+            "TENSE": "PAST",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 35,
+          "end": 67
+        },
+        "V351946": {
+          "id": "V351946",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V352030",
+            "FIGURE": "#V351906",
+            "LEX": "TO"
+          },
+          "start": 44,
+          "end": 60
+        },
+        "V352030": {
+          "id": "V352030",
+          "indicator": "THE",
+          "type": "LODGING",
+          "word": "HOUSE",
+          "roles": {
+            "ASSOC-POSS": "#V351970",
+            "LEX": "HOUSE",
+            "WNSENSE": "house%1:06:00::"
+          },
+          "start": 47,
+          "end": 60
+        },
+        "V351970": {
+          "id": "V351970",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "GARY",
+          "roles": {
+            "NAME-OF": "GARY",
+            "LEX": "GARY",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 47,
+          "end": 51
+        },
+        "V352034": {
+          "id": "V352034",
+          "indicator": "F",
+          "type": "SPEEDY",
+          "word": "QUICKLY",
+          "roles": {
+            "FIGURE": "#V351929",
+            "SCALE": "SPEED-SCALE",
+            "LEX": "QUICKLY",
+            "WNSENSE": "quick%5:00:02:fast:01"
+          },
+          "start": 60,
+          "end": 67
+        },
+        "root": "#V352825"
+      }
+    ]
+  ],
+  "sentence": "Gary called the local exterminator who went to Gary's house quickly.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190808T103707",
+    "link": "http://trips.ihmc.us/parser/saved/20190808T103707-STEP-abhatia-0-Gary_called_the_local_exterminator_who_w.xml",
+    "judgement": 0
+  }
+}

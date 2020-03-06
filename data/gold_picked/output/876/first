@@ -1,0 +1,16 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V135645 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V135355 [label=<<font color="green"><br /></font> <font color="black">CAUSE-BODY-EFFECT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">TIRE</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::CAUSE-BODY-EFFECT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V135332 [label=<<font color="green"><br /></font> <font color="black">GAME</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">GAME</font> <font color="green"><br /></font> <font color="green">game%1:04:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GAME.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V135329 [label=<<font color="green"><br /></font> <font color="black">ATHLETIC-GAME</font> <font color="green"><br /></font> <font color="red">KIND</font> <font color="blue">BASEBALL</font> <font color="green"><br /></font> <font color="green">baseball%1:04:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ATHLETIC-GAME.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V135326 [label=<<font color="green"><br /></font> <font color="black">TIME-INTERVAL</font> <font color="green"><br /></font> <font color="red">KIND</font> <font color="blue">EXTRA-INNINGS</font> <font color="green"><br /></font> <font color="green">extra_innings%1:28:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TIME-INTERVAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V135360 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">PRO-SET</font> <font color="blue">US</font> <font color="green"><br /></font> <font color="green">person%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V135355 -> V135360 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V135645 -> V135355 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V135355 -> V135332 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V135332 -> V135329 [label=" ASSOC-WITH   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

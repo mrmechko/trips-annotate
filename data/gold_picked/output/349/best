@@ -1,0 +1,29 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V236441 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V235423 [label=<<font color="green"><br /></font> <font color="black">MOVE-FLUIDLY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">SLIDE</font> <font color="green"><br /></font> <font color="green">slide%1:04:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MOVE-FLUIDLY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V235409 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">I</font> <font color="green"><br /></font> <font color="green">person%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V235433 [label=<<font color="green"><br /></font> <font color="black">GOAL-AS-CONTAINMENT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">INTO</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GOAL-AS-CONTAINMENT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V235487 [label=<<font color="green"><br /></font> <font color="black">BODY-OF-WATER</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">PUDDLE</font> <font color="green"><br /></font> <font color="green">puddle%1:17:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BODY-OF-WATER.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V235479 [label=<<font color="green"><br /></font> <font color="black">SMALL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">SMALL</font> <font color="green"><br /></font> <font color="green">small%3:00:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SMALL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V235492 [label=<<font color="green"><br /></font> <font color="black">NEAR-RELN</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">NEAR</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::NEAR-RELN.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V235562 [label=<<font color="green"><br /></font> <font color="black">MANUFACTURED-OBJECT</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">SIGN</font> <font color="green"><br /></font> <font color="green">artifact%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MANUFACTURED-OBJECT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V235554 [label=<<font color="green"><br /></font> <font color="black">STRUCTURE-INTERNAL-COMPONENT</font> <font color="green"><br /></font> <font color="red">KIND</font> <font color="blue">FLOOR</font> <font color="green"><br /></font> <font color="green">floor%1:06:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::STRUCTURE-INTERNAL-COMPONENT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V235547 [label=<<font color="green"><br /></font> <font color="black">WET-VAL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">WET</font> <font color="green"><br /></font> <font color="green">wet%3:00:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::WET-VAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V235433 -> V235487 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V235433 -> V235409 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V235479 -> V235487 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V235487 -> V235492 [label=" LOCATION   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V235492 -> V235562 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V235492 -> V235487 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V235547 -> V235562 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V235562 -> V235554 [label=" ASSOC-WITH   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V235562 -> V235547 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V235423 -> V235433 [label=" RESULT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V236441 -> V235423 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V235423 -> V235409 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V235487 -> V235479 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

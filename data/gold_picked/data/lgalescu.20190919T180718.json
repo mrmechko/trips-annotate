@@ -1,0 +1,126 @@
+{
+  "parse": [
+    {
+      "V61653": {
+        "id": "V61653",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V59813"
+        },
+        "start": 0,
+        "end": 51
+      },
+      "V59813": {
+        "id": "V59813",
+        "indicator": "F",
+        "type": "APPRECIATE",
+        "word": "LIKE",
+        "roles": {
+          "EXPERIENCER": "#V59771",
+          "NEUTRAL": "#V59905",
+          "TENSE": "PRES",
+          "WNSENSE": "like%2:37:05::"
+        },
+        "start": 0,
+        "end": 51
+      },
+      "V59771": {
+        "id": "V59771",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V59905": {
+        "id": "V59905",
+        "indicator": "INDEF-SET",
+        "type": "DAIRY",
+        "word": "DAIRY-PRODUCTS",
+        "roles": {
+          "ASSOC-WITH": "#V59876",
+          "WNSENSE": "dairy_product%1:13:00"
+        },
+        "start": 7,
+        "end": 51
+      },
+      "V59876": {
+        "id": "V59876",
+        "indicator": "KIND",
+        "type": "DAIRY",
+        "word": "WHOLE-MILK",
+        "roles": {
+          "MOD": "#V59945",
+          "WNSENSE": "whole_milk%1:13:00"
+        },
+        "start": 7,
+        "end": 51
+      },
+      "V59941": {
+        "id": "V59941",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V59876",
+          "GROUND": "#V59836"
+        },
+        "start": 7,
+        "end": 16
+      },
+      "V59836": {
+        "id": "V59836",
+        "indicator": "F",
+        "type": "TRANSPORT",
+        "word": "IMPORT",
+        "roles": {
+          "AFFECTED": "#V59876",
+          "WNSENSE": "bring%2:38:00"
+        },
+        "start": 7,
+        "end": 16
+      },
+      "V59945": {
+        "id": "V59945",
+        "indicator": "F",
+        "type": "STATE-RESULTING-FROM",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V59876",
+          "GROUND": "#V59844"
+        },
+        "start": 16,
+        "end": 26
+      },
+      "V59844": {
+        "id": "V59844",
+        "indicator": "F",
+        "type": "LIFE-TRANSFORMATION",
+        "word": "FERMENT",
+        "roles": {
+          "AFFECTED": "#V59876",
+          "WNSENSE": "ferment%2:30:01::"
+        },
+        "start": 16,
+        "end": 26
+      },
+      "root": "#V61653"
+    }
+  ],
+  "alternatives": [],
+  "sentence": "i like imported fermented whole milk dairy products.",
+  "annotation": {
+    "judge": "lgalescu",
+    "parser": "CWMS",
+    "timestamp": "20190919T180718",
+    "link": "http://trips.ihmc.us/parser/saved/20190919T180718-CWMS-lgalescu-none-i_like_imported_fermented_whole_milk_dai.xml",
+    "judgement": -1
+  }
+}

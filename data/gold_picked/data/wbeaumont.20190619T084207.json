@@ -1,0 +1,188 @@
+{
+  "parse": [
+    {
+      "V51910": {
+        "id": "V51910",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V51857",
+          "LEX": "THING"
+        },
+        "start": 0,
+        "end": 16
+      },
+      "V51857": {
+        "id": "V51857",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": "THING",
+        "roles": {
+          "ASSOC-WITH": "#V51854",
+          "LEX": "THING"
+        },
+        "start": 0,
+        "end": 16
+      },
+      "V51854": {
+        "id": "V51854",
+        "indicator": "KIND",
+        "type": "FRUIT",
+        "word": "BANANA",
+        "roles": {
+          "LEX": "BANANA"
+        },
+        "start": 0,
+        "end": 16
+      },
+      "root": "#V51910"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V51920": {
+          "id": "V51920",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V51857",
+            "LEX": "THING"
+          },
+          "start": 0,
+          "end": 17
+        },
+        "V51857": {
+          "id": "V51857",
+          "indicator": "BARE",
+          "type": "REFERENTIAL-SEM",
+          "word": "THING",
+          "roles": {
+            "ASSOC-WITH": "#V51854",
+            "LEX": "THING"
+          },
+          "start": 0,
+          "end": 16
+        },
+        "V51854": {
+          "id": "V51854",
+          "indicator": "KIND",
+          "type": "FRUIT",
+          "word": "BANANA",
+          "roles": {
+            "ASSOC-WITH": "#V51846",
+            "LEX": "BANANA"
+          },
+          "start": 0,
+          "end": 16
+        },
+        "V51846": {
+          "id": "V51846",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "NAME-OF": "THE",
+            "LEX": "THE"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "root": "#V51920"
+      }
+    ],
+    [
+      {
+        "V51923": {
+          "id": "V51923",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V51857",
+            "LEX": "THING"
+          },
+          "start": 0,
+          "end": 17
+        },
+        "V51857": {
+          "id": "V51857",
+          "indicator": "BARE",
+          "type": "REFERENTIAL-SEM",
+          "word": "THING",
+          "roles": {
+            "ASSOC-WITH": "#V51854",
+            "LEX": "THING"
+          },
+          "start": 0,
+          "end": 16
+        },
+        "V51854": {
+          "id": "V51854",
+          "indicator": "KIND",
+          "type": "FRUIT",
+          "word": "BANANA",
+          "roles": {
+            "LEX": "BANANA"
+          },
+          "start": 0,
+          "end": 16
+        },
+        "V51846": {
+          "id": "V51846",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "NAME-OF": "THE",
+            "LEX": "THE"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "root": "#V51923"
+      }
+    ],
+    [
+      {
+        "V51857": {
+          "id": "V51857",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": "THING",
+          "roles": {
+            "ASSOC-WITH": "#V51854",
+            "LEX": "THING"
+          },
+          "start": 0,
+          "end": 16
+        },
+        "V51854": {
+          "id": "V51854",
+          "indicator": "KIND",
+          "type": "FRUIT",
+          "word": "BANANA",
+          "roles": {
+            "LEX": "BANANA"
+          },
+          "start": 0,
+          "end": 16
+        },
+        "root": "#V51857"
+      }
+    ]
+  ],
+  "sentence": "The banana thing.",
+  "annotation": {
+    "judge": "wbeaumont",
+    "parser": "STEP",
+    "timestamp": "20190619T084207",
+    "link": "http://trips.ihmc.us/parser/saved/20190619T084207-STEP-wbeaumont-0-The_banana_thing_.xml",
+    "judgement": 0
+  }
+}

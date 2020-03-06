@@ -1,0 +1,961 @@
+{
+  "parse": [
+    {
+      "V110998": {
+        "id": "V110998",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V110758",
+          "LEX": "WALKED"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V110758": {
+        "id": "V110758",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "RESULT": "#V110768",
+          "AGENT": "#V110753",
+          "TENSE": "PAST",
+          "LEX": "WALKED",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V110753": {
+        "id": "V110753",
+        "indicator": "A",
+        "type": "MALE-PERSON",
+        "word": "MAN",
+        "roles": {
+          "LEX": "MAN",
+          "WNSENSE": "man%1:18:00::"
+        },
+        "start": 0,
+        "end": 6
+      },
+      "V110768": {
+        "id": "V110768",
+        "indicator": "F",
+        "type": "GOAL-AS-CONTAINMENT",
+        "word": "INTO",
+        "roles": {
+          "GROUND": "#V110821",
+          "FIGURE": "#V110753",
+          "LEX": "INTO"
+        },
+        "start": 13,
+        "end": 29
+      },
+      "V110821": {
+        "id": "V110821",
+        "indicator": "A",
+        "type": "COMMERCIAL-FACILITY",
+        "word": "STORE",
+        "roles": {
+          "ASSOC-WITH": "#V110814",
+          "LEX": "STORE",
+          "WNSENSE": "store%1:06:00::"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "V110814": {
+        "id": "V110814",
+        "indicator": "KIND",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "PET",
+        "roles": {
+          "LEX": "PET",
+          "WNSENSE": "pet%1:05:00::"
+        },
+        "start": 18,
+        "end": 29
+      },
+      "root": "#V110998"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V111237": {
+          "id": "V111237",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V110758",
+            "LEX": "WALKED"
+          },
+          "start": 0,
+          "end": 30
+        },
+        "V110758": {
+          "id": "V110758",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V110766",
+            "AGENT": "#V110753",
+            "TENSE": "PAST",
+            "LEX": "WALKED",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V110753": {
+          "id": "V110753",
+          "indicator": "A",
+          "type": "MALE-PERSON",
+          "word": "MAN",
+          "roles": {
+            "LEX": "MAN",
+            "WNSENSE": "man%1:18:00::"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V110766": {
+          "id": "V110766",
+          "indicator": "F",
+          "type": "RESULTING-OBJECT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V110821",
+            "FIGURE": "#V110753",
+            "LEX": "INTO"
+          },
+          "start": 13,
+          "end": 29
+        },
+        "V110821": {
+          "id": "V110821",
+          "indicator": "A",
+          "type": "COMMERCIAL-FACILITY",
+          "word": "STORE",
+          "roles": {
+            "ASSOC-WITH": "#V110814",
+            "LEX": "STORE",
+            "WNSENSE": "store%1:06:00::"
+          },
+          "start": 18,
+          "end": 29
+        },
+        "V110814": {
+          "id": "V110814",
+          "indicator": "KIND",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "PET",
+          "roles": {
+            "LEX": "PET",
+            "WNSENSE": "pet%1:05:00::"
+          },
+          "start": 18,
+          "end": 29
+        },
+        "root": "#V111237"
+      }
+    ],
+    [
+      {
+        "V111793": {
+          "id": "V111793",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V110758",
+            "LEX": "WALKED"
+          },
+          "start": 0,
+          "end": 30
+        },
+        "V110758": {
+          "id": "V110758",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V110768",
+            "AGENT": "#V110753",
+            "TENSE": "PAST",
+            "LEX": "WALKED",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V110753": {
+          "id": "V110753",
+          "indicator": "BARE",
+          "type": "MALE-PERSON",
+          "word": "MAN",
+          "roles": {
+            "ASSOC-WITH": "#V110728",
+            "LEX": "MAN",
+            "WNSENSE": "man%1:18:00::"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V110728": {
+          "id": "V110728",
+          "indicator": "THE",
+          "type": "LETTER-SYMBOL",
+          "word": null,
+          "roles": {
+            "NAME-OF": "A",
+            "LEX": "A",
+            "WNSENSE": "a%1:10:00::"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V110768": {
+          "id": "V110768",
+          "indicator": "F",
+          "type": "GOAL-AS-CONTAINMENT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V110821",
+            "FIGURE": "#V110753",
+            "LEX": "INTO"
+          },
+          "start": 13,
+          "end": 29
+        },
+        "V110821": {
+          "id": "V110821",
+          "indicator": "A",
+          "type": "COMMERCIAL-FACILITY",
+          "word": "STORE",
+          "roles": {
+            "ASSOC-WITH": "#V110814",
+            "LEX": "STORE",
+            "WNSENSE": "store%1:06:00::"
+          },
+          "start": 18,
+          "end": 29
+        },
+        "V110814": {
+          "id": "V110814",
+          "indicator": "KIND",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "PET",
+          "roles": {
+            "LEX": "PET",
+            "WNSENSE": "pet%1:05:00::"
+          },
+          "start": 18,
+          "end": 29
+        },
+        "root": "#V111793"
+      }
+    ],
+    [
+      {
+        "V111991": {
+          "id": "V111991",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V110758",
+            "LEX": "WALKED"
+          },
+          "start": 0,
+          "end": 30
+        },
+        "V110758": {
+          "id": "V110758",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V110768",
+            "AGENT": "#V110753",
+            "TENSE": "PAST",
+            "LEX": "WALKED",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V110753": {
+          "id": "V110753",
+          "indicator": "BARE",
+          "type": "MALE-PERSON",
+          "word": "MAN",
+          "roles": {
+            "ASSOC-WITH": "#V111251",
+            "LEX": "MAN",
+            "WNSENSE": "man%1:18:00::"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V111251": {
+          "id": "V111251",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V111166",
+            "LEX": "A"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V111166": {
+          "id": "V111166",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(A)",
+            "VAL": "(A)",
+            "LEX": "A"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V110768": {
+          "id": "V110768",
+          "indicator": "F",
+          "type": "GOAL-AS-CONTAINMENT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V110821",
+            "FIGURE": "#V110753",
+            "LEX": "INTO"
+          },
+          "start": 13,
+          "end": 29
+        },
+        "V110821": {
+          "id": "V110821",
+          "indicator": "A",
+          "type": "COMMERCIAL-FACILITY",
+          "word": "STORE",
+          "roles": {
+            "ASSOC-WITH": "#V110814",
+            "LEX": "STORE",
+            "WNSENSE": "store%1:06:00::"
+          },
+          "start": 18,
+          "end": 29
+        },
+        "V110814": {
+          "id": "V110814",
+          "indicator": "KIND",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "PET",
+          "roles": {
+            "LEX": "PET",
+            "WNSENSE": "pet%1:05:00::"
+          },
+          "start": 18,
+          "end": 29
+        },
+        "root": "#V111991"
+      }
+    ],
+    [
+      {
+        "V111587": {
+          "id": "V111587",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V110760",
+            "LEX": "WALKED"
+          },
+          "start": 0,
+          "end": 30
+        },
+        "V110760": {
+          "id": "V110760",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "AGENT": "#V110753",
+            "NEUTRAL": "#V110821",
+            "RESULT": "#V110768",
+            "TENSE": "PAST",
+            "LEX": "WALKED",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V110753": {
+          "id": "V110753",
+          "indicator": "A",
+          "type": "MALE-PERSON",
+          "word": "MAN",
+          "roles": {
+            "LEX": "MAN",
+            "WNSENSE": "man%1:18:00::"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V110768": {
+          "id": "V110768",
+          "indicator": "F",
+          "type": "GOAL-AS-CONTAINMENT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V110814",
+            "FIGURE": "#V110821",
+            "LEX": "INTO"
+          },
+          "start": 13,
+          "end": 24
+        },
+        "V110814": {
+          "id": "V110814",
+          "indicator": "A",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "PET",
+          "roles": {
+            "LEX": "PET",
+            "WNSENSE": "pet%1:05:00::"
+          },
+          "start": 18,
+          "end": 24
+        },
+        "V110821": {
+          "id": "V110821",
+          "indicator": "BARE",
+          "type": "COMMERCIAL-FACILITY",
+          "word": "STORE",
+          "roles": {
+            "LEX": "STORE",
+            "WNSENSE": "store%1:06:00::"
+          },
+          "start": 24,
+          "end": 29
+        },
+        "root": "#V111587"
+      }
+    ],
+    [
+      {
+        "V111605": {
+          "id": "V111605",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V110760",
+            "LEX": "WALKED"
+          },
+          "start": 0,
+          "end": 30
+        },
+        "V110760": {
+          "id": "V110760",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "AGENT": "#V110753",
+            "NEUTRAL": "#V110821",
+            "RESULT": "#V110766",
+            "TENSE": "PAST",
+            "LEX": "WALKED",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V110753": {
+          "id": "V110753",
+          "indicator": "A",
+          "type": "MALE-PERSON",
+          "word": "MAN",
+          "roles": {
+            "LEX": "MAN",
+            "WNSENSE": "man%1:18:00::"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V110766": {
+          "id": "V110766",
+          "indicator": "F",
+          "type": "RESULTING-OBJECT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V110814",
+            "FIGURE": "#V110821",
+            "LEX": "INTO"
+          },
+          "start": 13,
+          "end": 24
+        },
+        "V110814": {
+          "id": "V110814",
+          "indicator": "A",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "PET",
+          "roles": {
+            "LEX": "PET",
+            "WNSENSE": "pet%1:05:00::"
+          },
+          "start": 18,
+          "end": 24
+        },
+        "V110821": {
+          "id": "V110821",
+          "indicator": "BARE",
+          "type": "COMMERCIAL-FACILITY",
+          "word": "STORE",
+          "roles": {
+            "LEX": "STORE",
+            "WNSENSE": "store%1:06:00::"
+          },
+          "start": 24,
+          "end": 29
+        },
+        "root": "#V111605"
+      }
+    ],
+    [
+      {
+        "V111869": {
+          "id": "V111869",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V110760",
+            "LEX": "WALKED"
+          },
+          "start": 0,
+          "end": 30
+        },
+        "V110760": {
+          "id": "V110760",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "AGENT": "#V110753",
+            "NEUTRAL": "#V110821",
+            "RESULT": "#V110767",
+            "TENSE": "PAST",
+            "LEX": "WALKED",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V110753": {
+          "id": "V110753",
+          "indicator": "A",
+          "type": "MALE-PERSON",
+          "word": "MAN",
+          "roles": {
+            "LEX": "MAN",
+            "WNSENSE": "man%1:18:00::"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V110767": {
+          "id": "V110767",
+          "indicator": "F",
+          "type": "RESULTING-STATE",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V110789",
+            "FIGURE": "#V110821",
+            "LEX": "INTO"
+          },
+          "start": 13,
+          "end": 20
+        },
+        "V110789": {
+          "id": "V110789",
+          "indicator": "THE",
+          "type": "LETTER-SYMBOL",
+          "word": null,
+          "roles": {
+            "NAME-OF": "A",
+            "LEX": "A",
+            "WNSENSE": "a%1:10:00::"
+          },
+          "start": 18,
+          "end": 20
+        },
+        "V110821": {
+          "id": "V110821",
+          "indicator": "BARE",
+          "type": "COMMERCIAL-FACILITY",
+          "word": "STORE",
+          "roles": {
+            "ASSOC-WITH": "#V110814",
+            "LEX": "STORE",
+            "WNSENSE": "store%1:06:00::"
+          },
+          "start": 20,
+          "end": 29
+        },
+        "V110814": {
+          "id": "V110814",
+          "indicator": "KIND",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "PET",
+          "roles": {
+            "LEX": "PET",
+            "WNSENSE": "pet%1:05:00::"
+          },
+          "start": 20,
+          "end": 29
+        },
+        "root": "#V111869"
+      }
+    ],
+    [
+      {
+        "V112169": {
+          "id": "V112169",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V110760",
+            "LEX": "WALKED"
+          },
+          "start": 0,
+          "end": 30
+        },
+        "V110760": {
+          "id": "V110760",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "AGENT": "#V110753",
+            "NEUTRAL": "#V110821",
+            "RESULT": "#V110768",
+            "TENSE": "PAST",
+            "LEX": "WALKED",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V110753": {
+          "id": "V110753",
+          "indicator": "A",
+          "type": "MALE-PERSON",
+          "word": "MAN",
+          "roles": {
+            "LEX": "MAN",
+            "WNSENSE": "man%1:18:00::"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V110768": {
+          "id": "V110768",
+          "indicator": "F",
+          "type": "GOAL-AS-CONTAINMENT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V111169",
+            "FIGURE": "#V110821",
+            "LEX": "INTO"
+          },
+          "start": 13,
+          "end": 20
+        },
+        "V111169": {
+          "id": "V111169",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(A)",
+            "VAL": "(A)",
+            "LEX": "A"
+          },
+          "start": 18,
+          "end": 20
+        },
+        "V110821": {
+          "id": "V110821",
+          "indicator": "BARE",
+          "type": "COMMERCIAL-FACILITY",
+          "word": "STORE",
+          "roles": {
+            "ASSOC-WITH": "#V110814",
+            "LEX": "STORE",
+            "WNSENSE": "store%1:06:00::"
+          },
+          "start": 20,
+          "end": 29
+        },
+        "V110814": {
+          "id": "V110814",
+          "indicator": "KIND",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "PET",
+          "roles": {
+            "LEX": "PET",
+            "WNSENSE": "pet%1:05:00::"
+          },
+          "start": 20,
+          "end": 29
+        },
+        "root": "#V112169"
+      }
+    ],
+    [
+      {
+        "V111513": {
+          "id": "V111513",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V110758",
+            "LEX": "WALKED"
+          },
+          "start": 0,
+          "end": 30
+        },
+        "V110758": {
+          "id": "V110758",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V110768",
+            "AGENT": "#V110753",
+            "TIME": "#V111251",
+            "TENSE": "PAST",
+            "LEX": "WALKED"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V111251": {
+          "id": "V111251",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V110758",
+            "GROUND": "#V111313"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V111313": {
+          "id": "V111313",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V111166",
+            "LEX": "A"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V111166": {
+          "id": "V111166",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(A)",
+            "VAL": "(A)",
+            "LEX": "A"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V110753": {
+          "id": "V110753",
+          "indicator": "BARE",
+          "type": "MALE-PERSON",
+          "word": "MAN",
+          "roles": {
+            "LEX": "MAN",
+            "WNSENSE": "man%1:18:00::"
+          },
+          "start": 2,
+          "end": 6
+        },
+        "V110768": {
+          "id": "V110768",
+          "indicator": "F",
+          "type": "GOAL-AS-CONTAINMENT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V110821",
+            "FIGURE": "#V110753",
+            "LEX": "INTO"
+          },
+          "start": 13,
+          "end": 29
+        },
+        "V110821": {
+          "id": "V110821",
+          "indicator": "A",
+          "type": "COMMERCIAL-FACILITY",
+          "word": "STORE",
+          "roles": {
+            "ASSOC-WITH": "#V110814",
+            "LEX": "STORE",
+            "WNSENSE": "store%1:06:00::"
+          },
+          "start": 18,
+          "end": 29
+        },
+        "V110814": {
+          "id": "V110814",
+          "indicator": "KIND",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "PET",
+          "roles": {
+            "LEX": "PET",
+            "WNSENSE": "pet%1:05:00::"
+          },
+          "start": 18,
+          "end": 29
+        },
+        "root": "#V111513"
+      }
+    ],
+    [
+      {
+        "V111842": {
+          "id": "V111842",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V110758",
+            "LEX": "WALKED"
+          },
+          "start": 0,
+          "end": 30
+        },
+        "V110758": {
+          "id": "V110758",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V110766",
+            "AGENT": "#V110753",
+            "TENSE": "PAST",
+            "LEX": "WALKED",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V110753": {
+          "id": "V110753",
+          "indicator": "BARE",
+          "type": "MALE-PERSON",
+          "word": "MAN",
+          "roles": {
+            "ASSOC-WITH": "#V110728",
+            "LEX": "MAN",
+            "WNSENSE": "man%1:18:00::"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V110728": {
+          "id": "V110728",
+          "indicator": "THE",
+          "type": "LETTER-SYMBOL",
+          "word": null,
+          "roles": {
+            "NAME-OF": "A",
+            "LEX": "A",
+            "WNSENSE": "a%1:10:00::"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V110766": {
+          "id": "V110766",
+          "indicator": "F",
+          "type": "RESULTING-OBJECT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V110821",
+            "FIGURE": "#V110753",
+            "LEX": "INTO"
+          },
+          "start": 13,
+          "end": 29
+        },
+        "V110821": {
+          "id": "V110821",
+          "indicator": "A",
+          "type": "COMMERCIAL-FACILITY",
+          "word": "STORE",
+          "roles": {
+            "ASSOC-WITH": "#V110814",
+            "LEX": "STORE",
+            "WNSENSE": "store%1:06:00::"
+          },
+          "start": 18,
+          "end": 29
+        },
+        "V110814": {
+          "id": "V110814",
+          "indicator": "KIND",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "PET",
+          "roles": {
+            "LEX": "PET",
+            "WNSENSE": "pet%1:05:00::"
+          },
+          "start": 18,
+          "end": 29
+        },
+        "root": "#V111842"
+      }
+    ]
+  ],
+  "sentence": "A man walked into a pet store.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190924T121207",
+    "link": "http://trips.ihmc.us/parser/saved/20190924T121207-STEP-abhatia-0-A_man_walked_into_a_pet_store_.xml",
+    "judgement": 0
+  }
+}

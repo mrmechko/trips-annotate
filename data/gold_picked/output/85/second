@@ -1,0 +1,17 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V72516 [label=<<font color="green"><br /></font> <font color="black">SA_WH-QUESTION</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_WH-QUESTION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V72100 [label=<<font color="green"><br /></font> <font color="black">SHOULD-BE-AT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">GO</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SHOULD-BE-AT.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V72056 [label=<<font color="green"><br /></font> <font color="black">AT-SCALE-VALUE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">HOW</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::AT-SCALE-VALUE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V72141 [label=<<font color="green"><br /></font> <font color="black">STATUS</font> <font color="green"><br /></font> <font color="red">WH-TERM</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::STATUS.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V72079 [label=<<font color="green"><br /></font> <font color="black">MUSIC</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">SONG</font> <font color="green"><br /></font> <font color="green">song%1:10:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MUSIC.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V72516 -> V72141 [label=" FOCUS   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V72100 -> V72056 [label=" LOCATION   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V72516 -> V72100 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V72056 -> V72141 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V72141 -> V72056 [label=" SUCHTHAT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V72100 -> V72079 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

@@ -1,0 +1,171 @@
+{
+  "parse": [
+    {
+      "V69547": {
+        "id": "V69547",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V69253"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V69253": {
+        "id": "V69253",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V69237",
+          "NEUTRAL1": "#V69328",
+          "TENSE": "PRES"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V69237": {
+        "id": "V69237",
+        "indicator": "THE",
+        "type": "HEIGHT-SCALE",
+        "word": "HEIGHT",
+        "roles": {
+          "SCALE": "HEIGHT-SCALE"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V69328": {
+        "id": "V69328",
+        "indicator": "THE",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "MOD": "#V69281"
+        },
+        "start": 14,
+        "end": 29
+      },
+      "V69281": {
+        "id": "V69281",
+        "indicator": "F",
+        "type": "QMODIFIER",
+        "word": "MAX",
+        "roles": {
+          "FIGURE": "#V69328",
+          "GROUND": "#V69364"
+        },
+        "start": 14,
+        "end": 29
+      },
+      "V69364": {
+        "id": "V69364",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "2"
+        },
+        "start": 14,
+        "end": 29
+      },
+      "root": "#V69547"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V69929": {
+          "id": "V69929",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V69253"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V69253": {
+          "id": "V69253",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V69237",
+            "NEUTRAL1": "#V69441",
+            "TENSE": "PRES"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V69237": {
+          "id": "V69237",
+          "indicator": "THE",
+          "type": "HEIGHT-SCALE",
+          "word": "HEIGHT",
+          "roles": {
+            "SCALE": "HEIGHT-SCALE"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V69441": {
+          "id": "V69441",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "#V69328"
+          },
+          "start": 14,
+          "end": 29
+        },
+        "V69328": {
+          "id": "V69328",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "MOD": "#V69281"
+          },
+          "start": 14,
+          "end": 29
+        },
+        "V69281": {
+          "id": "V69281",
+          "indicator": "F",
+          "type": "QMODIFIER",
+          "word": "MAX",
+          "roles": {
+            "FIGURE": "#V69328",
+            "GROUND": "#V69364"
+          },
+          "start": 14,
+          "end": 29
+        },
+        "V69364": {
+          "id": "V69364",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "2"
+          },
+          "start": 14,
+          "end": 29
+        },
+        "root": "#V69929"
+      }
+    ]
+  ],
+  "sentence": "The height is not more than 2",
+  "annotation": {
+    "judge": "iperera",
+    "parser": "CABOT",
+    "timestamp": "20190724T150336",
+    "link": "http://trips.ihmc.us/parser/saved/20190724T150336-CABOT-iperera-0-The_height_is_not_more_than_2.xml",
+    "judgement": 0
+  }
+}

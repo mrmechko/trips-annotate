@@ -1,0 +1,420 @@
+{
+  "parse": [
+    {
+      "V72826": {
+        "id": "V72826",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V72545",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 44
+      },
+      "V72545": {
+        "id": "V72545",
+        "indicator": "F",
+        "type": "MOVE",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V72214",
+          "SEQUENCE1": "#V72243",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 44
+      },
+      "V72243": {
+        "id": "V72243",
+        "indicator": "F",
+        "type": "JUMP",
+        "word": "JUMP",
+        "roles": {
+          "AGENT": "#V72209",
+          "MOD": "#V72476",
+          "LEX": "JUMPED",
+          "WNSENSE": "jump%2:38:01::"
+        },
+        "start": 0,
+        "end": 44
+      },
+      "V72214": {
+        "id": "V72214",
+        "indicator": "F",
+        "type": "LOCOMOTE-UP",
+        "word": "SURFACED",
+        "roles": {
+          "AGENT": "#V72209",
+          "LEX": "SURFACED",
+          "WNSENSE": "climb%2:38:00"
+        },
+        "start": 0,
+        "end": 44
+      },
+      "V72209": {
+        "id": "V72209",
+        "indicator": "A",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "WHALE",
+        "roles": {
+          "MOD": "#V72206",
+          "LEX": "WHALE",
+          "WNSENSE": "whale%1:05:00::"
+        },
+        "start": 0,
+        "end": 14
+      },
+      "V72206": {
+        "id": "V72206",
+        "indicator": "F",
+        "type": "SMALL",
+        "word": "SMALL",
+        "roles": {
+          "ORIENTATION": "LESS",
+          "INTENSITY": "MED",
+          "FIGURE": "#V72209",
+          "SCALE": "SIZE-SCALE",
+          "LEX": "SMALL",
+          "WNSENSE": "small%3:00:00::"
+        },
+        "start": 2,
+        "end": 8
+      },
+      "V72476": {
+        "id": "V72476",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "IN-THE-AIR",
+        "roles": {
+          "FIGURE": "#V72243",
+          "LEX": "IN-THE-AIR",
+          "WNSENSE": "in_the_air%4:02:00"
+        },
+        "start": 34,
+        "end": 44
+      },
+      "root": "#V72826"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V72816": {
+          "id": "V72816",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V72545",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 45
+        },
+        "V72545": {
+          "id": "V72545",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V72214",
+            "SEQUENCE1": "#V72243",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 44
+        },
+        "V72243": {
+          "id": "V72243",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "AGENT": "#V72209",
+            "MOD": "#V72474",
+            "LEX": "JUMPED",
+            "WNSENSE": "jump%2:38:01::"
+          },
+          "start": 0,
+          "end": 44
+        },
+        "V72214": {
+          "id": "V72214",
+          "indicator": "F",
+          "type": "LOCOMOTE-UP",
+          "word": "SURFACED",
+          "roles": {
+            "AGENT": "#V72209",
+            "LEX": "SURFACED",
+            "WNSENSE": "climb%2:38:00"
+          },
+          "start": 0,
+          "end": 44
+        },
+        "V72209": {
+          "id": "V72209",
+          "indicator": "A",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "WHALE",
+          "roles": {
+            "MOD": "#V72206",
+            "LEX": "WHALE",
+            "WNSENSE": "whale%1:05:00::"
+          },
+          "start": 0,
+          "end": 14
+        },
+        "V72206": {
+          "id": "V72206",
+          "indicator": "F",
+          "type": "SMALL",
+          "word": "SMALL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V72209",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "SMALL",
+            "WNSENSE": "small%3:00:00::"
+          },
+          "start": 2,
+          "end": 8
+        },
+        "V72474": {
+          "id": "V72474",
+          "indicator": "F",
+          "type": "PREDICATE",
+          "word": "IN-THE-AIR",
+          "roles": {
+            "FIGURE": "#V72243",
+            "LEX": "IN-THE-AIR",
+            "WNSENSE": "in_the_air%4:02:00"
+          },
+          "start": 34,
+          "end": 44
+        },
+        "root": "#V72816"
+      }
+    ],
+    [
+      {
+        "V72892": {
+          "id": "V72892",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V72581",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 45
+        },
+        "V72581": {
+          "id": "V72581",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V72216",
+            "SEQUENCE1": "#V72243",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 44
+        },
+        "V72243": {
+          "id": "V72243",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "AGENT": "#V72209",
+            "MOD": "#V72474",
+            "LEX": "JUMPED",
+            "WNSENSE": "jump%2:38:01::"
+          },
+          "start": 0,
+          "end": 44
+        },
+        "V72216": {
+          "id": "V72216",
+          "indicator": "F",
+          "type": "LOCOMOTE-UP",
+          "word": "SURFACED",
+          "roles": {
+            "AGENT": "#V72209",
+            "LEX": "SURFACED",
+            "WNSENSE": "climb%2:38:00"
+          },
+          "start": 0,
+          "end": 44
+        },
+        "V72209": {
+          "id": "V72209",
+          "indicator": "A",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "WHALE",
+          "roles": {
+            "MOD": "#V72206",
+            "LEX": "WHALE",
+            "WNSENSE": "whale%1:05:00::"
+          },
+          "start": 0,
+          "end": 14
+        },
+        "V72206": {
+          "id": "V72206",
+          "indicator": "F",
+          "type": "SMALL",
+          "word": "SMALL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V72209",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "SMALL",
+            "WNSENSE": "small%3:00:00::"
+          },
+          "start": 2,
+          "end": 8
+        },
+        "V72474": {
+          "id": "V72474",
+          "indicator": "F",
+          "type": "PREDICATE",
+          "word": "IN-THE-AIR",
+          "roles": {
+            "FIGURE": "#V72243",
+            "LEX": "IN-THE-AIR",
+            "WNSENSE": "in_the_air%4:02:00"
+          },
+          "start": 34,
+          "end": 44
+        },
+        "root": "#V72892"
+      }
+    ],
+    [
+      {
+        "V72882": {
+          "id": "V72882",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V72581",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 45
+        },
+        "V72581": {
+          "id": "V72581",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V72216",
+            "SEQUENCE1": "#V72243",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 44
+        },
+        "V72243": {
+          "id": "V72243",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "AGENT": "#V72209",
+            "MOD": "#V72476",
+            "LEX": "JUMPED",
+            "WNSENSE": "jump%2:38:01::"
+          },
+          "start": 0,
+          "end": 44
+        },
+        "V72216": {
+          "id": "V72216",
+          "indicator": "F",
+          "type": "LOCOMOTE-UP",
+          "word": "SURFACED",
+          "roles": {
+            "AGENT": "#V72209",
+            "LEX": "SURFACED",
+            "WNSENSE": "climb%2:38:00"
+          },
+          "start": 0,
+          "end": 44
+        },
+        "V72209": {
+          "id": "V72209",
+          "indicator": "A",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "WHALE",
+          "roles": {
+            "MOD": "#V72206",
+            "LEX": "WHALE",
+            "WNSENSE": "whale%1:05:00::"
+          },
+          "start": 0,
+          "end": 14
+        },
+        "V72206": {
+          "id": "V72206",
+          "indicator": "F",
+          "type": "SMALL",
+          "word": "SMALL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V72209",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "SMALL",
+            "WNSENSE": "small%3:00:00::"
+          },
+          "start": 2,
+          "end": 8
+        },
+        "V72476": {
+          "id": "V72476",
+          "indicator": "F",
+          "type": "PREDICATE",
+          "word": "IN-THE-AIR",
+          "roles": {
+            "FIGURE": "#V72243",
+            "LEX": "IN-THE-AIR",
+            "WNSENSE": "in_the_air%4:02:00"
+          },
+          "start": 34,
+          "end": 44
+        },
+        "root": "#V72882"
+      }
+    ]
+  ],
+  "sentence": "A small whale surfaced and jumped in the air.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190729T115956",
+    "link": "http://trips.ihmc.us/parser/saved/20190729T115956-STEP-abhatia-none-A_small_whale_surfaced_and_jumped_in_the.xml",
+    "judgement": -1
+  }
+}

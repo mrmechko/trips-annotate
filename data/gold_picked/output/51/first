@@ -1,0 +1,32 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V347911 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V345679 [label=<<font color="green"><br /></font> <font color="black">BECOMING-AWARE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">NOTICE</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BECOMING-AWARE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V345499 [label=<<font color="green"><br /></font> <font color="black">WHEN-WHILE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">WHEN</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::WHEN-WHILE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V345517 [label=<<font color="green"><br /></font> <font color="black">SCRUTINY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">LOOK</font> <font color="green"><br /></font> <font color="green">take%2:31:02</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SCRUTINY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V345661 [label=<<font color="green"><br /></font> <font color="black">AUTHOR</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">BARD</font> <font color="green"><br /></font> <font color="green">bard%1:18:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::AUTHOR.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V345654 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HIS</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V345674 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HE</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V345692 [label=<<font color="green"><br /></font> <font color="black">HAVE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">HAVE</font> <font color="green"><br /></font> <font color="green">have%2:40:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::HAVE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V345686 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">QUANTIFIER</font> <font color="blue">EVERYTHING</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V345726 [label=<<font color="green"><br /></font> <font color="black">GRAPHIC-SYMBOL</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">MARK</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GRAPHIC-SYMBOL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V345715 [label=<<font color="green"><br /></font> <font color="black">WOUND</font> <font color="green"><br /></font> <font color="red">KIND</font> <font color="blue">BITE</font> <font color="green"><br /></font> <font color="green">bite%1:26:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::WOUND.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V345710 [label=<<font color="green"><br /></font> <font color="black">SMALL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">SMALL</font> <font color="green"><br /></font> <font color="green">small%3:00:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SMALL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V345679 -> V345499 [label=" TIME   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V345674 -> V345661 [label=" COREF   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V345710 -> V345726 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V345499 -> V345679 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V347911 -> V345679 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V345679 -> V345674 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V345499 -> V345517 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V345517 -> V345661 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V345661 -> V345654 [label=" ASSOC-POSS   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V345692 -> V345726 [label=" NEUTRAL1   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V345726 -> V345710 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V345692 -> V345686 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V345726 -> V345715 [label=" ASSOC-WITH   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V345679 -> V345692 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

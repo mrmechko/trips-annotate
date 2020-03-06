@@ -1,0 +1,11 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V38346 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V38166 [label=<<font color="green"><br /></font> <font color="black">COHERE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">HARMONIZE</font> <font color="green"><br /></font> <font color="green">harmonize%2:42:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::COHERE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V38114 [label=<<font color="green"><br /></font> <font color="black">COLOR-SCALE</font> <font color="green"><br /></font> <font color="red">THE-SET</font> <font color="blue">COLOR</font> <font color="green"><br /></font> <font color="green">color%1:07:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::COLOR-SCALE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V38346 -> V38166 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V38166 -> V38114 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

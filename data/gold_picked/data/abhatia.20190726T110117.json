@@ -1,0 +1,577 @@
+{
+  "parse": [
+    {
+      "V437990": {
+        "id": "V437990",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V437320",
+          "LEX": "UNPACKED"
+        },
+        "start": 0,
+        "end": 56
+      },
+      "V437320": {
+        "id": "V437320",
+        "indicator": "F",
+        "type": "CAUSE-COME-FROM",
+        "word": "UNPACKED",
+        "roles": {
+          "AGENT": "#V437302",
+          "AFFECTED": "#V437333",
+          "TIME": "#V437257",
+          "MANNER": "#V437313",
+          "TENSE": "PAST",
+          "LEX": "UNPACKED"
+        },
+        "start": 0,
+        "end": 56
+      },
+      "V437257": {
+        "id": "V437257",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHILE",
+        "roles": {
+          "GROUND": "#V437283",
+          "FIGURE": "#V437320",
+          "LEX": "WHILE"
+        },
+        "start": 0,
+        "end": 26
+      },
+      "V437283": {
+        "id": "V437283",
+        "indicator": "F",
+        "type": "MOVE",
+        "word": "MOVE",
+        "roles": {
+          "AGENT": "#V437273",
+          "MANNER": "#V437292",
+          "TENSE": "PAST",
+          "LEX": "MOVED",
+          "WNSENSE": "move%1:04:01::"
+        },
+        "start": 6,
+        "end": 26
+      },
+      "V437273": {
+        "id": "V437273",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "DAD",
+        "roles": {
+          "ASSOC-POSS": "#V437267",
+          "LEX": "DAD",
+          "WNSENSE": "dad%1:18:00::"
+        },
+        "start": 6,
+        "end": 14
+      },
+      "V437267": {
+        "id": "V437267",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "HER",
+        "roles": {
+          "LEX": "HER",
+          "PROFORM": "HER",
+          "WNSENSE": "woman%1:18:00",
+          "COREF": "#V437302"
+        },
+        "start": 6,
+        "end": 14
+      },
+      "V437292": {
+        "id": "V437292",
+        "indicator": "F",
+        "type": "SLOW-VAL",
+        "word": "SLOWLY",
+        "roles": {
+          "FIGURE": "#V437283",
+          "SCALE": "SPEED-SCALE",
+          "LEX": "SLOWLY",
+          "WNSENSE": "slow%3:00:01"
+        },
+        "start": 20,
+        "end": 26
+      },
+      "V437302": {
+        "id": "V437302",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "AMY",
+        "roles": {
+          "NAME-OF": "AMY",
+          "LEX": "AMY",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 28,
+        "end": 32
+      },
+      "V437313": {
+        "id": "V437313",
+        "indicator": "F",
+        "type": "SPEEDY",
+        "word": "QUICKLY",
+        "roles": {
+          "FIGURE": "#V437320",
+          "SCALE": "SPEED-SCALE",
+          "LEX": "QUICKLY",
+          "WNSENSE": "quick%5:00:02:fast:01"
+        },
+        "start": 32,
+        "end": 40
+      },
+      "V437333": {
+        "id": "V437333",
+        "indicator": "THE",
+        "type": "LAND-VEHICLE",
+        "word": "CAR",
+        "roles": {
+          "LEX": "CAR",
+          "WNSENSE": "car%1:06:00::"
+        },
+        "start": 49,
+        "end": 56
+      },
+      "root": "#V437990"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V437987": {
+          "id": "V437987",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V437320",
+            "LEX": "UNPACKED"
+          },
+          "start": 0,
+          "end": 57
+        },
+        "V437320": {
+          "id": "V437320",
+          "indicator": "F",
+          "type": "CAUSE-COME-FROM",
+          "word": "UNPACKED",
+          "roles": {
+            "AGENT": "#V437305",
+            "AFFECTED": "#V437333",
+            "TIME": "#V437257",
+            "MANNER": "#V437313",
+            "TENSE": "PAST",
+            "LEX": "UNPACKED"
+          },
+          "start": 0,
+          "end": 56
+        },
+        "V437257": {
+          "id": "V437257",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHILE",
+          "roles": {
+            "GROUND": "#V437283",
+            "FIGURE": "#V437320",
+            "LEX": "WHILE"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V437283": {
+          "id": "V437283",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "MOVE",
+          "roles": {
+            "AGENT": "#V437273",
+            "MANNER": "#V437292",
+            "TENSE": "PAST",
+            "LEX": "MOVED",
+            "WNSENSE": "move%1:04:01::"
+          },
+          "start": 6,
+          "end": 26
+        },
+        "V437273": {
+          "id": "V437273",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "DAD",
+          "roles": {
+            "ASSOC-POSS": "#V437267",
+            "LEX": "DAD",
+            "WNSENSE": "dad%1:18:00::"
+          },
+          "start": 6,
+          "end": 14
+        },
+        "V437267": {
+          "id": "V437267",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 6,
+          "end": 14
+        },
+        "V437292": {
+          "id": "V437292",
+          "indicator": "F",
+          "type": "SLOW-VAL",
+          "word": "SLOWLY",
+          "roles": {
+            "FIGURE": "#V437283",
+            "SCALE": "SPEED-SCALE",
+            "LEX": "SLOWLY",
+            "WNSENSE": "slow%3:00:01"
+          },
+          "start": 20,
+          "end": 26
+        },
+        "V437305": {
+          "id": "V437305",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "AMY",
+          "roles": {
+            "NAME-OF": "AMY",
+            "LEX": "AMY",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 28,
+          "end": 32
+        },
+        "V437313": {
+          "id": "V437313",
+          "indicator": "F",
+          "type": "SPEEDY",
+          "word": "QUICKLY",
+          "roles": {
+            "FIGURE": "#V437320",
+            "SCALE": "SPEED-SCALE",
+            "LEX": "QUICKLY",
+            "WNSENSE": "quick%5:00:02:fast:01"
+          },
+          "start": 32,
+          "end": 40
+        },
+        "V437333": {
+          "id": "V437333",
+          "indicator": "THE",
+          "type": "LAND-VEHICLE",
+          "word": "CAR",
+          "roles": {
+            "LEX": "CAR",
+            "WNSENSE": "car%1:06:00::"
+          },
+          "start": 49,
+          "end": 56
+        },
+        "root": "#V437987"
+      }
+    ],
+    [
+      {
+        "V437984": {
+          "id": "V437984",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V437318",
+            "LEX": "UNPACKED"
+          },
+          "start": 0,
+          "end": 57
+        },
+        "V437318": {
+          "id": "V437318",
+          "indicator": "F",
+          "type": "CAUSE-COME-FROM",
+          "word": "UNPACKED",
+          "roles": {
+            "AGENT": "#V437308",
+            "AFFECTED": "#V437333",
+            "TIME": "#V437257",
+            "MANNER": "#V437313",
+            "TENSE": "PAST",
+            "LEX": "UNPACKED"
+          },
+          "start": 0,
+          "end": 56
+        },
+        "V437257": {
+          "id": "V437257",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHILE",
+          "roles": {
+            "GROUND": "#V437283",
+            "FIGURE": "#V437318",
+            "LEX": "WHILE"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V437283": {
+          "id": "V437283",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "MOVE",
+          "roles": {
+            "AGENT": "#V437273",
+            "MANNER": "#V437292",
+            "TENSE": "PAST",
+            "LEX": "MOVED",
+            "WNSENSE": "move%1:04:01::"
+          },
+          "start": 6,
+          "end": 26
+        },
+        "V437273": {
+          "id": "V437273",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "DAD",
+          "roles": {
+            "ASSOC-POSS": "#V437267",
+            "LEX": "DAD",
+            "WNSENSE": "dad%1:18:00::"
+          },
+          "start": 6,
+          "end": 14
+        },
+        "V437267": {
+          "id": "V437267",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 6,
+          "end": 14
+        },
+        "V437292": {
+          "id": "V437292",
+          "indicator": "F",
+          "type": "SLOW-VAL",
+          "word": "SLOWLY",
+          "roles": {
+            "FIGURE": "#V437283",
+            "SCALE": "SPEED-SCALE",
+            "LEX": "SLOWLY",
+            "WNSENSE": "slow%3:00:01"
+          },
+          "start": 20,
+          "end": 26
+        },
+        "V437308": {
+          "id": "V437308",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "AMY",
+          "roles": {
+            "NAME-OF": "AMY",
+            "LEX": "AMY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 28,
+          "end": 32
+        },
+        "V437313": {
+          "id": "V437313",
+          "indicator": "F",
+          "type": "SPEEDY",
+          "word": "QUICKLY",
+          "roles": {
+            "FIGURE": "#V437318",
+            "SCALE": "SPEED-SCALE",
+            "LEX": "QUICKLY",
+            "WNSENSE": "quick%5:00:02:fast:01"
+          },
+          "start": 32,
+          "end": 40
+        },
+        "V437333": {
+          "id": "V437333",
+          "indicator": "THE",
+          "type": "LAND-VEHICLE",
+          "word": "CAR",
+          "roles": {
+            "LEX": "CAR",
+            "WNSENSE": "car%1:06:00::"
+          },
+          "start": 49,
+          "end": 56
+        },
+        "root": "#V437984"
+      }
+    ],
+    [
+      {
+        "V437981": {
+          "id": "V437981",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V437318",
+            "LEX": "UNPACKED"
+          },
+          "start": 0,
+          "end": 57
+        },
+        "V437318": {
+          "id": "V437318",
+          "indicator": "F",
+          "type": "CAUSE-COME-FROM",
+          "word": "UNPACKED",
+          "roles": {
+            "AGENT": "#V437302",
+            "AFFECTED": "#V437333",
+            "TIME": "#V437257",
+            "MANNER": "#V437313",
+            "TENSE": "PAST",
+            "LEX": "UNPACKED"
+          },
+          "start": 0,
+          "end": 56
+        },
+        "V437257": {
+          "id": "V437257",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHILE",
+          "roles": {
+            "GROUND": "#V437283",
+            "FIGURE": "#V437318",
+            "LEX": "WHILE"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V437283": {
+          "id": "V437283",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "MOVE",
+          "roles": {
+            "AGENT": "#V437273",
+            "MANNER": "#V437292",
+            "TENSE": "PAST",
+            "LEX": "MOVED",
+            "WNSENSE": "move%1:04:01::"
+          },
+          "start": 6,
+          "end": 26
+        },
+        "V437273": {
+          "id": "V437273",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "DAD",
+          "roles": {
+            "ASSOC-POSS": "#V437267",
+            "LEX": "DAD",
+            "WNSENSE": "dad%1:18:00::"
+          },
+          "start": 6,
+          "end": 14
+        },
+        "V437267": {
+          "id": "V437267",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 6,
+          "end": 14
+        },
+        "V437292": {
+          "id": "V437292",
+          "indicator": "F",
+          "type": "SLOW-VAL",
+          "word": "SLOWLY",
+          "roles": {
+            "FIGURE": "#V437283",
+            "SCALE": "SPEED-SCALE",
+            "LEX": "SLOWLY",
+            "WNSENSE": "slow%3:00:01"
+          },
+          "start": 20,
+          "end": 26
+        },
+        "V437302": {
+          "id": "V437302",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "AMY",
+          "roles": {
+            "NAME-OF": "AMY",
+            "LEX": "AMY",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 32
+        },
+        "V437313": {
+          "id": "V437313",
+          "indicator": "F",
+          "type": "SPEEDY",
+          "word": "QUICKLY",
+          "roles": {
+            "FIGURE": "#V437318",
+            "SCALE": "SPEED-SCALE",
+            "LEX": "QUICKLY",
+            "WNSENSE": "quick%5:00:02:fast:01"
+          },
+          "start": 32,
+          "end": 40
+        },
+        "V437333": {
+          "id": "V437333",
+          "indicator": "THE",
+          "type": "LAND-VEHICLE",
+          "word": "CAR",
+          "roles": {
+            "LEX": "CAR",
+            "WNSENSE": "car%1:06:00::"
+          },
+          "start": 49,
+          "end": 56
+        },
+        "root": "#V437981"
+      }
+    ]
+  ],
+  "sentence": "While her dad moved slowly, Amy quickly unpacked the car.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190726T110117",
+    "link": "http://trips.ihmc.us/parser/saved/20190726T110117-STEP-abhatia-0-While_her_dad_moved_slowly_Amy_quickly_u.xml",
+    "judgement": 0
+  }
+}

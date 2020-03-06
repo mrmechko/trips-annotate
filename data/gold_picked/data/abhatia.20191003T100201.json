@@ -1,0 +1,2360 @@
+{
+  "parse": [
+    {
+      "V40935": {
+        "id": "V40935",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V40644",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 50
+      },
+      "V40644": {
+        "id": "V40644",
+        "indicator": "F",
+        "type": "EVOKE-ANNOYANCE",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V40535",
+          "SEQUENCE1": "#V40559",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 50
+      },
+      "V40559": {
+        "id": "V40559",
+        "indicator": "F",
+        "type": "EVOKE-ANNOYANCE",
+        "word": "FRUSTRATE",
+        "roles": {
+          "AFFECTED": "#V40498",
+          "MANNER": "#V40568",
+          "LEX": "FRUSTRATED",
+          "WNSENSE": "bother%2:37:00"
+        },
+        "start": 0,
+        "end": 50
+      },
+      "V40535": {
+        "id": "V40535",
+        "indicator": "F",
+        "type": "EVOKE-ANNOYANCE",
+        "word": "ANNOY",
+        "roles": {
+          "AFFECTED": "#V40498",
+          "LEX": "ANNOYED",
+          "WNSENSE": "annoy%2:37:00::"
+        },
+        "start": 0,
+        "end": 50
+      },
+      "V40498": {
+        "id": "V40498",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "MATT",
+        "roles": {
+          "NAME-OF": "MATT",
+          "LEX": "MATT",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V40568": {
+        "id": "V40568",
+        "indicator": "F",
+        "type": "MANNER",
+        "word": "WITH",
+        "roles": {
+          "GROUND": "#V40585",
+          "FIGURE": "#V40559",
+          "LEX": "WITH"
+        },
+        "start": 32,
+        "end": 50
+      },
+      "V40585": {
+        "id": "V40585",
+        "indicator": "THE",
+        "type": "STATUS",
+        "word": "SITUATION",
+        "roles": {
+          "LEX": "SITUATION",
+          "WNSENSE": "situation%1:26:01::"
+        },
+        "start": 37,
+        "end": 50
+      },
+      "root": "#V40935"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V41158": {
+          "id": "V41158",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40520",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V40520": {
+          "id": "V40520",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V40498",
+            "FORMAL": "#V40730",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V40498": {
+          "id": "V40498",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "MATT",
+          "roles": {
+            "NAME-OF": "MATT",
+            "LEX": "MATT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V40730": {
+          "id": "V40730",
+          "indicator": "F",
+          "type": "PROPERTY-VAL",
+          "word": null,
+          "roles": {
+            "SEQUENCE": "#V40541",
+            "SEQUENCE1": "#V40900",
+            "OPERATOR": "AND",
+            "LEX": "-",
+            "WNSENSE": "annoyed%5:00:00:troubled:00"
+          },
+          "start": 9,
+          "end": 50
+        },
+        "V40541": {
+          "id": "V40541",
+          "indicator": "F",
+          "type": "UNEASY",
+          "word": "ANNOYED",
+          "roles": {
+            "FIGURE": "#V40498",
+            "SCALE": "NERVOUSNESS-SCALE",
+            "LEX": "ANNOYED",
+            "WNSENSE": "annoyed%5:00:00:troubled:00"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V40900": {
+          "id": "V40900",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V40498",
+            "GROUND": "#V40559",
+            "LEX": "FRUSTRATED"
+          },
+          "start": 21,
+          "end": 50
+        },
+        "V40559": {
+          "id": "V40559",
+          "indicator": "F",
+          "type": "EVOKE-ANNOYANCE",
+          "word": "FRUSTRATE",
+          "roles": {
+            "AFFECTED": "#V40498",
+            "MANNER": "#V40568",
+            "WNSENSE": "bother%2:37:00"
+          },
+          "start": 21,
+          "end": 50
+        },
+        "V40568": {
+          "id": "V40568",
+          "indicator": "F",
+          "type": "MANNER",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V40585",
+            "FIGURE": "#V40559",
+            "LEX": "WITH"
+          },
+          "start": 32,
+          "end": 50
+        },
+        "V40585": {
+          "id": "V40585",
+          "indicator": "THE",
+          "type": "STATUS",
+          "word": "SITUATION",
+          "roles": {
+            "LEX": "SITUATION",
+            "WNSENSE": "situation%1:26:01::"
+          },
+          "start": 37,
+          "end": 50
+        },
+        "root": "#V41158"
+      }
+    ],
+    [
+      {
+        "V41143": {
+          "id": "V41143",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40520",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V40520": {
+          "id": "V40520",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V40498",
+            "FORMAL": "#V40731",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V40498": {
+          "id": "V40498",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "MATT",
+          "roles": {
+            "NAME-OF": "MATT",
+            "LEX": "MATT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V40731": {
+          "id": "V40731",
+          "indicator": "F",
+          "type": "PROPERTY-VAL",
+          "word": null,
+          "roles": {
+            "SEQUENCE": "#V40538",
+            "SEQUENCE1": "#V40900",
+            "OPERATOR": "AND",
+            "LEX": "-",
+            "WNSENSE": "annoyed%5:00:00:displeased:00"
+          },
+          "start": 9,
+          "end": 50
+        },
+        "V40538": {
+          "id": "V40538",
+          "indicator": "F",
+          "type": "UNHAPPY",
+          "word": "ANNOYED",
+          "roles": {
+            "ORIENTATION": "NEG",
+            "FIGURE": "#V40498",
+            "SCALE": "HAPPINESS-SCALE",
+            "LEX": "ANNOYED",
+            "WNSENSE": "annoyed%5:00:00:displeased:00"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V40900": {
+          "id": "V40900",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V40498",
+            "GROUND": "#V40559",
+            "LEX": "FRUSTRATED"
+          },
+          "start": 21,
+          "end": 50
+        },
+        "V40559": {
+          "id": "V40559",
+          "indicator": "F",
+          "type": "EVOKE-ANNOYANCE",
+          "word": "FRUSTRATE",
+          "roles": {
+            "AFFECTED": "#V40498",
+            "MANNER": "#V40568",
+            "WNSENSE": "bother%2:37:00"
+          },
+          "start": 21,
+          "end": 50
+        },
+        "V40568": {
+          "id": "V40568",
+          "indicator": "F",
+          "type": "MANNER",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V40585",
+            "FIGURE": "#V40559",
+            "LEX": "WITH"
+          },
+          "start": 32,
+          "end": 50
+        },
+        "V40585": {
+          "id": "V40585",
+          "indicator": "THE",
+          "type": "STATUS",
+          "word": "SITUATION",
+          "roles": {
+            "LEX": "SITUATION",
+            "WNSENSE": "situation%1:26:01::"
+          },
+          "start": 37,
+          "end": 50
+        },
+        "root": "#V41143"
+      }
+    ],
+    [
+      {
+        "V41128": {
+          "id": "V41128",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40520",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V40520": {
+          "id": "V40520",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V40498",
+            "FORMAL": "#V40731",
+            "MANNER": "#V40568",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V40498": {
+          "id": "V40498",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "MATT",
+          "roles": {
+            "NAME-OF": "MATT",
+            "LEX": "MATT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V40731": {
+          "id": "V40731",
+          "indicator": "F",
+          "type": "PROPERTY-VAL",
+          "word": null,
+          "roles": {
+            "SEQUENCE": "#V40538",
+            "SEQUENCE1": "#V40638",
+            "OPERATOR": "AND",
+            "LEX": "-",
+            "WNSENSE": "annoyed%5:00:00:displeased:00"
+          },
+          "start": 9,
+          "end": 32
+        },
+        "V40538": {
+          "id": "V40538",
+          "indicator": "F",
+          "type": "UNHAPPY",
+          "word": "ANNOYED",
+          "roles": {
+            "ORIENTATION": "NEG",
+            "FIGURE": "#V40498",
+            "SCALE": "HAPPINESS-SCALE",
+            "LEX": "ANNOYED",
+            "WNSENSE": "annoyed%5:00:00:displeased:00"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V40638": {
+          "id": "V40638",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V40498",
+            "GROUND": "#V40559",
+            "LEX": "FRUSTRATED"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V40559": {
+          "id": "V40559",
+          "indicator": "F",
+          "type": "EVOKE-ANNOYANCE",
+          "word": "FRUSTRATE",
+          "roles": {
+            "AFFECTED": "#V40498",
+            "WNSENSE": "bother%2:37:00"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V40568": {
+          "id": "V40568",
+          "indicator": "F",
+          "type": "MANNER",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V40585",
+            "FIGURE": "#V40520",
+            "LEX": "WITH"
+          },
+          "start": 32,
+          "end": 50
+        },
+        "V40585": {
+          "id": "V40585",
+          "indicator": "THE",
+          "type": "STATUS",
+          "word": "SITUATION",
+          "roles": {
+            "LEX": "SITUATION",
+            "WNSENSE": "situation%1:26:01::"
+          },
+          "start": 37,
+          "end": 50
+        },
+        "root": "#V41128"
+      }
+    ],
+    [
+      {
+        "V41117": {
+          "id": "V41117",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40520",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V40520": {
+          "id": "V40520",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V40498",
+            "FORMAL": "#V40730",
+            "MANNER": "#V40568",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V40498": {
+          "id": "V40498",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "MATT",
+          "roles": {
+            "NAME-OF": "MATT",
+            "LEX": "MATT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V40730": {
+          "id": "V40730",
+          "indicator": "F",
+          "type": "PROPERTY-VAL",
+          "word": null,
+          "roles": {
+            "SEQUENCE": "#V40541",
+            "SEQUENCE1": "#V40638",
+            "OPERATOR": "AND",
+            "LEX": "-",
+            "WNSENSE": "annoyed%5:00:00:troubled:00"
+          },
+          "start": 9,
+          "end": 32
+        },
+        "V40541": {
+          "id": "V40541",
+          "indicator": "F",
+          "type": "UNEASY",
+          "word": "ANNOYED",
+          "roles": {
+            "FIGURE": "#V40498",
+            "SCALE": "NERVOUSNESS-SCALE",
+            "LEX": "ANNOYED",
+            "WNSENSE": "annoyed%5:00:00:troubled:00"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V40638": {
+          "id": "V40638",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V40498",
+            "GROUND": "#V40559",
+            "LEX": "FRUSTRATED"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V40559": {
+          "id": "V40559",
+          "indicator": "F",
+          "type": "EVOKE-ANNOYANCE",
+          "word": "FRUSTRATE",
+          "roles": {
+            "AFFECTED": "#V40498",
+            "WNSENSE": "bother%2:37:00"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V40568": {
+          "id": "V40568",
+          "indicator": "F",
+          "type": "MANNER",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V40585",
+            "FIGURE": "#V40520",
+            "LEX": "WITH"
+          },
+          "start": 32,
+          "end": 50
+        },
+        "V40585": {
+          "id": "V40585",
+          "indicator": "THE",
+          "type": "STATUS",
+          "word": "SITUATION",
+          "roles": {
+            "LEX": "SITUATION",
+            "WNSENSE": "situation%1:26:01::"
+          },
+          "start": 37,
+          "end": 50
+        },
+        "root": "#V41117"
+      }
+    ],
+    [
+      {
+        "V41282": {
+          "id": "V41282",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40520",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V40520": {
+          "id": "V40520",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V40509",
+            "FORMAL": "#V40731",
+            "MANNER": "#V40568",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V40509": {
+          "id": "V40509",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "MATT",
+          "roles": {
+            "NAME-OF": "MATT",
+            "LEX": "MATT",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V40731": {
+          "id": "V40731",
+          "indicator": "F",
+          "type": "PROPERTY-VAL",
+          "word": null,
+          "roles": {
+            "SEQUENCE": "#V40538",
+            "SEQUENCE1": "#V40562",
+            "OPERATOR": "AND",
+            "LEX": "-"
+          },
+          "start": 9,
+          "end": 32
+        },
+        "V40538": {
+          "id": "V40538",
+          "indicator": "F",
+          "type": "UNHAPPY",
+          "word": "ANNOYED",
+          "roles": {
+            "ORIENTATION": "NEG",
+            "FIGURE": "#V40509",
+            "SCALE": "HAPPINESS-SCALE",
+            "LEX": "ANNOYED",
+            "WNSENSE": "annoyed%5:00:00:displeased:00"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V40562": {
+          "id": "V40562",
+          "indicator": "F",
+          "type": "NOT-SUCCESSFUL-VAL",
+          "word": "FRUSTRATED",
+          "roles": {
+            "FIGURE": "#V40509",
+            "SCALE": "FAILURE-SCALE",
+            "LEX": "FRUSTRATED",
+            "WNSENSE": "frustrated%5:00:00:unsuccessful:00"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V40568": {
+          "id": "V40568",
+          "indicator": "F",
+          "type": "MANNER",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V40585",
+            "FIGURE": "#V40520",
+            "LEX": "WITH"
+          },
+          "start": 32,
+          "end": 50
+        },
+        "V40585": {
+          "id": "V40585",
+          "indicator": "THE",
+          "type": "STATUS",
+          "word": "SITUATION",
+          "roles": {
+            "LEX": "SITUATION",
+            "WNSENSE": "situation%1:26:01::"
+          },
+          "start": 37,
+          "end": 50
+        },
+        "root": "#V41282"
+      }
+    ],
+    [
+      {
+        "V41279": {
+          "id": "V41279",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40520",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V40520": {
+          "id": "V40520",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V40498",
+            "FORMAL": "#V40731",
+            "MANNER": "#V40568",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V40498": {
+          "id": "V40498",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "MATT",
+          "roles": {
+            "NAME-OF": "MATT",
+            "LEX": "MATT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V40731": {
+          "id": "V40731",
+          "indicator": "F",
+          "type": "PROPERTY-VAL",
+          "word": null,
+          "roles": {
+            "SEQUENCE": "#V40538",
+            "SEQUENCE1": "#V40562",
+            "OPERATOR": "AND",
+            "LEX": "-"
+          },
+          "start": 9,
+          "end": 32
+        },
+        "V40538": {
+          "id": "V40538",
+          "indicator": "F",
+          "type": "UNHAPPY",
+          "word": "ANNOYED",
+          "roles": {
+            "ORIENTATION": "NEG",
+            "FIGURE": "#V40498",
+            "SCALE": "HAPPINESS-SCALE",
+            "LEX": "ANNOYED",
+            "WNSENSE": "annoyed%5:00:00:displeased:00"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V40562": {
+          "id": "V40562",
+          "indicator": "F",
+          "type": "NOT-SUCCESSFUL-VAL",
+          "word": "FRUSTRATED",
+          "roles": {
+            "FIGURE": "#V40498",
+            "SCALE": "FAILURE-SCALE",
+            "LEX": "FRUSTRATED",
+            "WNSENSE": "frustrated%5:00:00:unsuccessful:00"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V40568": {
+          "id": "V40568",
+          "indicator": "F",
+          "type": "MANNER",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V40585",
+            "FIGURE": "#V40520",
+            "LEX": "WITH"
+          },
+          "start": 32,
+          "end": 50
+        },
+        "V40585": {
+          "id": "V40585",
+          "indicator": "THE",
+          "type": "STATUS",
+          "word": "SITUATION",
+          "roles": {
+            "LEX": "SITUATION",
+            "WNSENSE": "situation%1:26:01::"
+          },
+          "start": 37,
+          "end": 50
+        },
+        "root": "#V41279"
+      }
+    ],
+    [
+      {
+        "V41261": {
+          "id": "V41261",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40520",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V40520": {
+          "id": "V40520",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V40509",
+            "FORMAL": "#V40730",
+            "MANNER": "#V40568",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V40509": {
+          "id": "V40509",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "MATT",
+          "roles": {
+            "NAME-OF": "MATT",
+            "LEX": "MATT",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V40730": {
+          "id": "V40730",
+          "indicator": "F",
+          "type": "PROPERTY-VAL",
+          "word": null,
+          "roles": {
+            "SEQUENCE": "#V40541",
+            "SEQUENCE1": "#V40562",
+            "OPERATOR": "AND",
+            "LEX": "-"
+          },
+          "start": 9,
+          "end": 32
+        },
+        "V40541": {
+          "id": "V40541",
+          "indicator": "F",
+          "type": "UNEASY",
+          "word": "ANNOYED",
+          "roles": {
+            "FIGURE": "#V40509",
+            "SCALE": "NERVOUSNESS-SCALE",
+            "LEX": "ANNOYED",
+            "WNSENSE": "annoyed%5:00:00:troubled:00"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V40562": {
+          "id": "V40562",
+          "indicator": "F",
+          "type": "NOT-SUCCESSFUL-VAL",
+          "word": "FRUSTRATED",
+          "roles": {
+            "FIGURE": "#V40509",
+            "SCALE": "FAILURE-SCALE",
+            "LEX": "FRUSTRATED",
+            "WNSENSE": "frustrated%5:00:00:unsuccessful:00"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V40568": {
+          "id": "V40568",
+          "indicator": "F",
+          "type": "MANNER",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V40585",
+            "FIGURE": "#V40520",
+            "LEX": "WITH"
+          },
+          "start": 32,
+          "end": 50
+        },
+        "V40585": {
+          "id": "V40585",
+          "indicator": "THE",
+          "type": "STATUS",
+          "word": "SITUATION",
+          "roles": {
+            "LEX": "SITUATION",
+            "WNSENSE": "situation%1:26:01::"
+          },
+          "start": 37,
+          "end": 50
+        },
+        "root": "#V41261"
+      }
+    ],
+    [
+      {
+        "V41258": {
+          "id": "V41258",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40520",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V40520": {
+          "id": "V40520",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V40498",
+            "FORMAL": "#V40730",
+            "MANNER": "#V40568",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V40498": {
+          "id": "V40498",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "MATT",
+          "roles": {
+            "NAME-OF": "MATT",
+            "LEX": "MATT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V40730": {
+          "id": "V40730",
+          "indicator": "F",
+          "type": "PROPERTY-VAL",
+          "word": null,
+          "roles": {
+            "SEQUENCE": "#V40541",
+            "SEQUENCE1": "#V40562",
+            "OPERATOR": "AND",
+            "LEX": "-"
+          },
+          "start": 9,
+          "end": 32
+        },
+        "V40541": {
+          "id": "V40541",
+          "indicator": "F",
+          "type": "UNEASY",
+          "word": "ANNOYED",
+          "roles": {
+            "FIGURE": "#V40498",
+            "SCALE": "NERVOUSNESS-SCALE",
+            "LEX": "ANNOYED",
+            "WNSENSE": "annoyed%5:00:00:troubled:00"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V40562": {
+          "id": "V40562",
+          "indicator": "F",
+          "type": "NOT-SUCCESSFUL-VAL",
+          "word": "FRUSTRATED",
+          "roles": {
+            "FIGURE": "#V40498",
+            "SCALE": "FAILURE-SCALE",
+            "LEX": "FRUSTRATED",
+            "WNSENSE": "frustrated%5:00:00:unsuccessful:00"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V40568": {
+          "id": "V40568",
+          "indicator": "F",
+          "type": "MANNER",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V40585",
+            "FIGURE": "#V40520",
+            "LEX": "WITH"
+          },
+          "start": 32,
+          "end": 50
+        },
+        "V40585": {
+          "id": "V40585",
+          "indicator": "THE",
+          "type": "STATUS",
+          "word": "SITUATION",
+          "roles": {
+            "LEX": "SITUATION",
+            "WNSENSE": "situation%1:26:01::"
+          },
+          "start": 37,
+          "end": 50
+        },
+        "root": "#V41258"
+      }
+    ],
+    [
+      {
+        "V41708": {
+          "id": "V41708",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40644",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V40644": {
+          "id": "V40644",
+          "indicator": "F",
+          "type": "EVOKE-ANNOYANCE",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V40535",
+            "SEQUENCE1": "#V40559",
+            "TENSE": "PAST",
+            "PASSIVE": "+",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V40559": {
+          "id": "V40559",
+          "indicator": "F",
+          "type": "EVOKE-ANNOYANCE",
+          "word": "FRUSTRATE",
+          "roles": {
+            "RESULT": "#V40567",
+            "AFFECTED": "#V40498",
+            "LEX": "FRUSTRATED",
+            "WNSENSE": "bother%2:37:00"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V40535": {
+          "id": "V40535",
+          "indicator": "F",
+          "type": "EVOKE-ANNOYANCE",
+          "word": "ANNOY",
+          "roles": {
+            "AFFECTED": "#V40498",
+            "LEX": "ANNOYED",
+            "WNSENSE": "annoy%2:37:00::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V40498": {
+          "id": "V40498",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "MATT",
+          "roles": {
+            "NAME-OF": "MATT",
+            "LEX": "MATT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V40567": {
+          "id": "V40567",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V40585",
+            "FIGURE": "#V40498",
+            "LEX": "WITH"
+          },
+          "start": 32,
+          "end": 50
+        },
+        "V40585": {
+          "id": "V40585",
+          "indicator": "THE",
+          "type": "STATUS",
+          "word": "SITUATION",
+          "roles": {
+            "LEX": "SITUATION",
+            "WNSENSE": "situation%1:26:01::"
+          },
+          "start": 37,
+          "end": 50
+        },
+        "root": "#V41708"
+      }
+    ],
+    [
+      {
+        "V41331": {
+          "id": "V41331",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40520",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V40520": {
+          "id": "V40520",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V40490",
+            "FORMAL": "#V40731",
+            "MANNER": "#V40568",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V40490": {
+          "id": "V40490",
+          "indicator": "BARE",
+          "type": "ATTRIBUTE",
+          "word": "MATT",
+          "roles": {
+            "LEX": "MATT",
+            "WNSENSE": "matt%1:07:00::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V40731": {
+          "id": "V40731",
+          "indicator": "F",
+          "type": "PROPERTY-VAL",
+          "word": null,
+          "roles": {
+            "SEQUENCE": "#V40538",
+            "SEQUENCE1": "#V40562",
+            "OPERATOR": "AND",
+            "LEX": "-"
+          },
+          "start": 9,
+          "end": 32
+        },
+        "V40538": {
+          "id": "V40538",
+          "indicator": "F",
+          "type": "UNHAPPY",
+          "word": "ANNOYED",
+          "roles": {
+            "ORIENTATION": "NEG",
+            "FIGURE": "#V40490",
+            "SCALE": "HAPPINESS-SCALE",
+            "LEX": "ANNOYED",
+            "WNSENSE": "annoyed%5:00:00:displeased:00"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V40562": {
+          "id": "V40562",
+          "indicator": "F",
+          "type": "NOT-SUCCESSFUL-VAL",
+          "word": "FRUSTRATED",
+          "roles": {
+            "FIGURE": "#V40490",
+            "SCALE": "FAILURE-SCALE",
+            "LEX": "FRUSTRATED",
+            "WNSENSE": "frustrated%5:00:00:unsuccessful:00"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V40568": {
+          "id": "V40568",
+          "indicator": "F",
+          "type": "MANNER",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V40585",
+            "FIGURE": "#V40520",
+            "LEX": "WITH"
+          },
+          "start": 32,
+          "end": 50
+        },
+        "V40585": {
+          "id": "V40585",
+          "indicator": "THE",
+          "type": "STATUS",
+          "word": "SITUATION",
+          "roles": {
+            "LEX": "SITUATION",
+            "WNSENSE": "situation%1:26:01::"
+          },
+          "start": 37,
+          "end": 50
+        },
+        "root": "#V41331"
+      }
+    ],
+    [
+      {
+        "V41328": {
+          "id": "V41328",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40520",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V40520": {
+          "id": "V40520",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V40490",
+            "FORMAL": "#V40730",
+            "MANNER": "#V40568",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V40490": {
+          "id": "V40490",
+          "indicator": "BARE",
+          "type": "ATTRIBUTE",
+          "word": "MATT",
+          "roles": {
+            "LEX": "MATT",
+            "WNSENSE": "matt%1:07:00::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V40730": {
+          "id": "V40730",
+          "indicator": "F",
+          "type": "PROPERTY-VAL",
+          "word": null,
+          "roles": {
+            "SEQUENCE": "#V40541",
+            "SEQUENCE1": "#V40562",
+            "OPERATOR": "AND",
+            "LEX": "-"
+          },
+          "start": 9,
+          "end": 32
+        },
+        "V40541": {
+          "id": "V40541",
+          "indicator": "F",
+          "type": "UNEASY",
+          "word": "ANNOYED",
+          "roles": {
+            "FIGURE": "#V40490",
+            "SCALE": "NERVOUSNESS-SCALE",
+            "LEX": "ANNOYED",
+            "WNSENSE": "annoyed%5:00:00:troubled:00"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V40562": {
+          "id": "V40562",
+          "indicator": "F",
+          "type": "NOT-SUCCESSFUL-VAL",
+          "word": "FRUSTRATED",
+          "roles": {
+            "FIGURE": "#V40490",
+            "SCALE": "FAILURE-SCALE",
+            "LEX": "FRUSTRATED",
+            "WNSENSE": "frustrated%5:00:00:unsuccessful:00"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V40568": {
+          "id": "V40568",
+          "indicator": "F",
+          "type": "MANNER",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V40585",
+            "FIGURE": "#V40520",
+            "LEX": "WITH"
+          },
+          "start": 32,
+          "end": 50
+        },
+        "V40585": {
+          "id": "V40585",
+          "indicator": "THE",
+          "type": "STATUS",
+          "word": "SITUATION",
+          "roles": {
+            "LEX": "SITUATION",
+            "WNSENSE": "situation%1:26:01::"
+          },
+          "start": 37,
+          "end": 50
+        },
+        "root": "#V41328"
+      }
+    ],
+    [
+      {
+        "V41357": {
+          "id": "V41357",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40520",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V40520": {
+          "id": "V40520",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V40492",
+            "FORMAL": "#V40731",
+            "MANNER": "#V40568",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V40492": {
+          "id": "V40492",
+          "indicator": "BARE",
+          "type": "ATTRIBUTE",
+          "word": "MATT",
+          "roles": {
+            "LEX": "MATT",
+            "WNSENSE": "matt%1:07:00::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V40731": {
+          "id": "V40731",
+          "indicator": "F",
+          "type": "PROPERTY-VAL",
+          "word": null,
+          "roles": {
+            "SEQUENCE": "#V40538",
+            "SEQUENCE1": "#V40562",
+            "OPERATOR": "AND",
+            "LEX": "-"
+          },
+          "start": 9,
+          "end": 32
+        },
+        "V40538": {
+          "id": "V40538",
+          "indicator": "F",
+          "type": "UNHAPPY",
+          "word": "ANNOYED",
+          "roles": {
+            "ORIENTATION": "NEG",
+            "FIGURE": "#V40492",
+            "SCALE": "HAPPINESS-SCALE",
+            "LEX": "ANNOYED",
+            "WNSENSE": "annoyed%5:00:00:displeased:00"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V40562": {
+          "id": "V40562",
+          "indicator": "F",
+          "type": "NOT-SUCCESSFUL-VAL",
+          "word": "FRUSTRATED",
+          "roles": {
+            "FIGURE": "#V40492",
+            "SCALE": "FAILURE-SCALE",
+            "LEX": "FRUSTRATED",
+            "WNSENSE": "frustrated%5:00:00:unsuccessful:00"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V40568": {
+          "id": "V40568",
+          "indicator": "F",
+          "type": "MANNER",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V40585",
+            "FIGURE": "#V40520",
+            "LEX": "WITH"
+          },
+          "start": 32,
+          "end": 50
+        },
+        "V40585": {
+          "id": "V40585",
+          "indicator": "THE",
+          "type": "STATUS",
+          "word": "SITUATION",
+          "roles": {
+            "LEX": "SITUATION",
+            "WNSENSE": "situation%1:26:01::"
+          },
+          "start": 37,
+          "end": 50
+        },
+        "root": "#V41357"
+      }
+    ],
+    [
+      {
+        "V41354": {
+          "id": "V41354",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40520",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V40520": {
+          "id": "V40520",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V40492",
+            "FORMAL": "#V40730",
+            "MANNER": "#V40568",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V40492": {
+          "id": "V40492",
+          "indicator": "BARE",
+          "type": "ATTRIBUTE",
+          "word": "MATT",
+          "roles": {
+            "LEX": "MATT",
+            "WNSENSE": "matt%1:07:00::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V40730": {
+          "id": "V40730",
+          "indicator": "F",
+          "type": "PROPERTY-VAL",
+          "word": null,
+          "roles": {
+            "SEQUENCE": "#V40541",
+            "SEQUENCE1": "#V40562",
+            "OPERATOR": "AND",
+            "LEX": "-"
+          },
+          "start": 9,
+          "end": 32
+        },
+        "V40541": {
+          "id": "V40541",
+          "indicator": "F",
+          "type": "UNEASY",
+          "word": "ANNOYED",
+          "roles": {
+            "FIGURE": "#V40492",
+            "SCALE": "NERVOUSNESS-SCALE",
+            "LEX": "ANNOYED",
+            "WNSENSE": "annoyed%5:00:00:troubled:00"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V40562": {
+          "id": "V40562",
+          "indicator": "F",
+          "type": "NOT-SUCCESSFUL-VAL",
+          "word": "FRUSTRATED",
+          "roles": {
+            "FIGURE": "#V40492",
+            "SCALE": "FAILURE-SCALE",
+            "LEX": "FRUSTRATED",
+            "WNSENSE": "frustrated%5:00:00:unsuccessful:00"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V40568": {
+          "id": "V40568",
+          "indicator": "F",
+          "type": "MANNER",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V40585",
+            "FIGURE": "#V40520",
+            "LEX": "WITH"
+          },
+          "start": 32,
+          "end": 50
+        },
+        "V40585": {
+          "id": "V40585",
+          "indicator": "THE",
+          "type": "STATUS",
+          "word": "SITUATION",
+          "roles": {
+            "LEX": "SITUATION",
+            "WNSENSE": "situation%1:26:01::"
+          },
+          "start": 37,
+          "end": 50
+        },
+        "root": "#V41354"
+      }
+    ],
+    [
+      {
+        "V41950": {
+          "id": "V41950",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40520",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V40520": {
+          "id": "V40520",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V40498",
+            "FORMAL": "#V40730",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V40498": {
+          "id": "V40498",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "MATT",
+          "roles": {
+            "NAME-OF": "MATT",
+            "LEX": "MATT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V40730": {
+          "id": "V40730",
+          "indicator": "F",
+          "type": "PROPERTY-VAL",
+          "word": null,
+          "roles": {
+            "SEQUENCE": "#V40541",
+            "SEQUENCE1": "#V41836",
+            "OPERATOR": "AND",
+            "LEX": "-",
+            "WNSENSE": "annoyed%5:00:00:troubled:00"
+          },
+          "start": 9,
+          "end": 50
+        },
+        "V40541": {
+          "id": "V40541",
+          "indicator": "F",
+          "type": "UNEASY",
+          "word": "ANNOYED",
+          "roles": {
+            "FIGURE": "#V40498",
+            "SCALE": "NERVOUSNESS-SCALE",
+            "LEX": "ANNOYED",
+            "WNSENSE": "annoyed%5:00:00:troubled:00"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V41836": {
+          "id": "V41836",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V40498",
+            "GROUND": "#V40559",
+            "LEX": "FRUSTRATED"
+          },
+          "start": 21,
+          "end": 50
+        },
+        "V40559": {
+          "id": "V40559",
+          "indicator": "F",
+          "type": "EVOKE-ANNOYANCE",
+          "word": "FRUSTRATE",
+          "roles": {
+            "RESULT": "#V40567",
+            "AFFECTED": "#V40498",
+            "WNSENSE": "bother%2:37:00"
+          },
+          "start": 21,
+          "end": 50
+        },
+        "V40567": {
+          "id": "V40567",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V40585",
+            "FIGURE": "#V40498",
+            "LEX": "WITH"
+          },
+          "start": 32,
+          "end": 50
+        },
+        "V40585": {
+          "id": "V40585",
+          "indicator": "THE",
+          "type": "STATUS",
+          "word": "SITUATION",
+          "roles": {
+            "LEX": "SITUATION",
+            "WNSENSE": "situation%1:26:01::"
+          },
+          "start": 37,
+          "end": 50
+        },
+        "root": "#V41950"
+      }
+    ],
+    [
+      {
+        "V41927": {
+          "id": "V41927",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40520",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V40520": {
+          "id": "V40520",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V40498",
+            "FORMAL": "#V40731",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V40498": {
+          "id": "V40498",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "MATT",
+          "roles": {
+            "NAME-OF": "MATT",
+            "LEX": "MATT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V40731": {
+          "id": "V40731",
+          "indicator": "F",
+          "type": "PROPERTY-VAL",
+          "word": null,
+          "roles": {
+            "SEQUENCE": "#V40538",
+            "SEQUENCE1": "#V41836",
+            "OPERATOR": "AND",
+            "LEX": "-",
+            "WNSENSE": "annoyed%5:00:00:displeased:00"
+          },
+          "start": 9,
+          "end": 50
+        },
+        "V40538": {
+          "id": "V40538",
+          "indicator": "F",
+          "type": "UNHAPPY",
+          "word": "ANNOYED",
+          "roles": {
+            "ORIENTATION": "NEG",
+            "FIGURE": "#V40498",
+            "SCALE": "HAPPINESS-SCALE",
+            "LEX": "ANNOYED",
+            "WNSENSE": "annoyed%5:00:00:displeased:00"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V41836": {
+          "id": "V41836",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V40498",
+            "GROUND": "#V40559",
+            "LEX": "FRUSTRATED"
+          },
+          "start": 21,
+          "end": 50
+        },
+        "V40559": {
+          "id": "V40559",
+          "indicator": "F",
+          "type": "EVOKE-ANNOYANCE",
+          "word": "FRUSTRATE",
+          "roles": {
+            "RESULT": "#V40567",
+            "AFFECTED": "#V40498",
+            "WNSENSE": "bother%2:37:00"
+          },
+          "start": 21,
+          "end": 50
+        },
+        "V40567": {
+          "id": "V40567",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V40585",
+            "FIGURE": "#V40498",
+            "LEX": "WITH"
+          },
+          "start": 32,
+          "end": 50
+        },
+        "V40585": {
+          "id": "V40585",
+          "indicator": "THE",
+          "type": "STATUS",
+          "word": "SITUATION",
+          "roles": {
+            "LEX": "SITUATION",
+            "WNSENSE": "situation%1:26:01::"
+          },
+          "start": 37,
+          "end": 50
+        },
+        "root": "#V41927"
+      }
+    ],
+    [
+      {
+        "V41559": {
+          "id": "V41559",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40644",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V40644": {
+          "id": "V40644",
+          "indicator": "F",
+          "type": "EVOKE-ANNOYANCE",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V40535",
+            "SEQUENCE1": "#V40559",
+            "TENSE": "PAST",
+            "PASSIVE": "+",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V40559": {
+          "id": "V40559",
+          "indicator": "F",
+          "type": "EVOKE-ANNOYANCE",
+          "word": "FRUSTRATE",
+          "roles": {
+            "AFFECTED": "#V40509",
+            "MANNER": "#V40568",
+            "LEX": "FRUSTRATED",
+            "WNSENSE": "bother%2:37:00"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V40535": {
+          "id": "V40535",
+          "indicator": "F",
+          "type": "EVOKE-ANNOYANCE",
+          "word": "ANNOY",
+          "roles": {
+            "AFFECTED": "#V40509",
+            "LEX": "ANNOYED",
+            "WNSENSE": "annoy%2:37:00::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V40509": {
+          "id": "V40509",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "MATT",
+          "roles": {
+            "NAME-OF": "MATT",
+            "LEX": "MATT",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V40568": {
+          "id": "V40568",
+          "indicator": "F",
+          "type": "MANNER",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V40585",
+            "FIGURE": "#V40559",
+            "LEX": "WITH"
+          },
+          "start": 32,
+          "end": 50
+        },
+        "V40585": {
+          "id": "V40585",
+          "indicator": "THE",
+          "type": "STATUS",
+          "word": "SITUATION",
+          "roles": {
+            "LEX": "SITUATION",
+            "WNSENSE": "situation%1:26:01::"
+          },
+          "start": 37,
+          "end": 50
+        },
+        "root": "#V41559"
+      }
+    ],
+    [
+      {
+        "V41756": {
+          "id": "V41756",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40520",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V40520": {
+          "id": "V40520",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V40509",
+            "FORMAL": "#V40730",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V40509": {
+          "id": "V40509",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "MATT",
+          "roles": {
+            "NAME-OF": "MATT",
+            "LEX": "MATT",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V40730": {
+          "id": "V40730",
+          "indicator": "F",
+          "type": "PROPERTY-VAL",
+          "word": null,
+          "roles": {
+            "SEQUENCE": "#V40541",
+            "SEQUENCE1": "#V40900",
+            "OPERATOR": "AND",
+            "LEX": "-",
+            "WNSENSE": "annoyed%5:00:00:troubled:00"
+          },
+          "start": 9,
+          "end": 50
+        },
+        "V40541": {
+          "id": "V40541",
+          "indicator": "F",
+          "type": "UNEASY",
+          "word": "ANNOYED",
+          "roles": {
+            "FIGURE": "#V40509",
+            "SCALE": "NERVOUSNESS-SCALE",
+            "LEX": "ANNOYED",
+            "WNSENSE": "annoyed%5:00:00:troubled:00"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V40900": {
+          "id": "V40900",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V40509",
+            "GROUND": "#V40559",
+            "LEX": "FRUSTRATED"
+          },
+          "start": 21,
+          "end": 50
+        },
+        "V40559": {
+          "id": "V40559",
+          "indicator": "F",
+          "type": "EVOKE-ANNOYANCE",
+          "word": "FRUSTRATE",
+          "roles": {
+            "AFFECTED": "#V40509",
+            "MANNER": "#V40568",
+            "WNSENSE": "bother%2:37:00"
+          },
+          "start": 21,
+          "end": 50
+        },
+        "V40568": {
+          "id": "V40568",
+          "indicator": "F",
+          "type": "MANNER",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V40585",
+            "FIGURE": "#V40559",
+            "LEX": "WITH"
+          },
+          "start": 32,
+          "end": 50
+        },
+        "V40585": {
+          "id": "V40585",
+          "indicator": "THE",
+          "type": "STATUS",
+          "word": "SITUATION",
+          "roles": {
+            "LEX": "SITUATION",
+            "WNSENSE": "situation%1:26:01::"
+          },
+          "start": 37,
+          "end": 50
+        },
+        "root": "#V41756"
+      }
+    ],
+    [
+      {
+        "V41753": {
+          "id": "V41753",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40520",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V40520": {
+          "id": "V40520",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V40509",
+            "FORMAL": "#V40731",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V40509": {
+          "id": "V40509",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "MATT",
+          "roles": {
+            "NAME-OF": "MATT",
+            "LEX": "MATT",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V40731": {
+          "id": "V40731",
+          "indicator": "F",
+          "type": "PROPERTY-VAL",
+          "word": null,
+          "roles": {
+            "SEQUENCE": "#V40538",
+            "SEQUENCE1": "#V40900",
+            "OPERATOR": "AND",
+            "LEX": "-",
+            "WNSENSE": "annoyed%5:00:00:displeased:00"
+          },
+          "start": 9,
+          "end": 50
+        },
+        "V40538": {
+          "id": "V40538",
+          "indicator": "F",
+          "type": "UNHAPPY",
+          "word": "ANNOYED",
+          "roles": {
+            "ORIENTATION": "NEG",
+            "FIGURE": "#V40509",
+            "SCALE": "HAPPINESS-SCALE",
+            "LEX": "ANNOYED",
+            "WNSENSE": "annoyed%5:00:00:displeased:00"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V40900": {
+          "id": "V40900",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V40509",
+            "GROUND": "#V40559",
+            "LEX": "FRUSTRATED"
+          },
+          "start": 21,
+          "end": 50
+        },
+        "V40559": {
+          "id": "V40559",
+          "indicator": "F",
+          "type": "EVOKE-ANNOYANCE",
+          "word": "FRUSTRATE",
+          "roles": {
+            "AFFECTED": "#V40509",
+            "MANNER": "#V40568",
+            "WNSENSE": "bother%2:37:00"
+          },
+          "start": 21,
+          "end": 50
+        },
+        "V40568": {
+          "id": "V40568",
+          "indicator": "F",
+          "type": "MANNER",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V40585",
+            "FIGURE": "#V40559",
+            "LEX": "WITH"
+          },
+          "start": 32,
+          "end": 50
+        },
+        "V40585": {
+          "id": "V40585",
+          "indicator": "THE",
+          "type": "STATUS",
+          "word": "SITUATION",
+          "roles": {
+            "LEX": "SITUATION",
+            "WNSENSE": "situation%1:26:01::"
+          },
+          "start": 37,
+          "end": 50
+        },
+        "root": "#V41753"
+      }
+    ],
+    [
+      {
+        "V41750": {
+          "id": "V41750",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40520",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V40520": {
+          "id": "V40520",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V40509",
+            "FORMAL": "#V40731",
+            "MANNER": "#V40568",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V40509": {
+          "id": "V40509",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "MATT",
+          "roles": {
+            "NAME-OF": "MATT",
+            "LEX": "MATT",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V40731": {
+          "id": "V40731",
+          "indicator": "F",
+          "type": "PROPERTY-VAL",
+          "word": null,
+          "roles": {
+            "SEQUENCE": "#V40538",
+            "SEQUENCE1": "#V40638",
+            "OPERATOR": "AND",
+            "LEX": "-",
+            "WNSENSE": "annoyed%5:00:00:displeased:00"
+          },
+          "start": 9,
+          "end": 32
+        },
+        "V40538": {
+          "id": "V40538",
+          "indicator": "F",
+          "type": "UNHAPPY",
+          "word": "ANNOYED",
+          "roles": {
+            "ORIENTATION": "NEG",
+            "FIGURE": "#V40509",
+            "SCALE": "HAPPINESS-SCALE",
+            "LEX": "ANNOYED",
+            "WNSENSE": "annoyed%5:00:00:displeased:00"
+          },
+          "start": 9,
+          "end": 17
+        },
+        "V40638": {
+          "id": "V40638",
+          "indicator": "F",
+          "type": "STATE-RESULTING-FROM",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V40509",
+            "GROUND": "#V40559",
+            "LEX": "FRUSTRATED"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V40559": {
+          "id": "V40559",
+          "indicator": "F",
+          "type": "EVOKE-ANNOYANCE",
+          "word": "FRUSTRATE",
+          "roles": {
+            "AFFECTED": "#V40509",
+            "WNSENSE": "bother%2:37:00"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V40568": {
+          "id": "V40568",
+          "indicator": "F",
+          "type": "MANNER",
+          "word": "WITH",
+          "roles": {
+            "GROUND": "#V40585",
+            "FIGURE": "#V40520",
+            "LEX": "WITH"
+          },
+          "start": 32,
+          "end": 50
+        },
+        "V40585": {
+          "id": "V40585",
+          "indicator": "THE",
+          "type": "STATUS",
+          "word": "SITUATION",
+          "roles": {
+            "LEX": "SITUATION",
+            "WNSENSE": "situation%1:26:01::"
+          },
+          "start": 37,
+          "end": 50
+        },
+        "root": "#V41750"
+      }
+    ]
+  ],
+  "sentence": "Matt was annoyed and frustrated with the situation.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20191003T100201",
+    "link": "http://trips.ihmc.us/parser/saved/20191003T100201-STEP-abhatia-none-Matt_was_annoyed_and_frustrated_with_the.xml",
+    "judgement": -1
+  }
+}

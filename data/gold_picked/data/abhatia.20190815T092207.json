@@ -1,0 +1,1923 @@
+{
+  "parse": [
+    {
+      "V59693": {
+        "id": "V59693",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V59332",
+          "MOD": "#V59324",
+          "LEX": "SHE"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V59324": {
+        "id": "V59324",
+        "indicator": "F",
+        "type": "AFTER",
+        "word": "LATER",
+        "roles": {
+          "FIGURE": "#V59693",
+          "LEX": "LATER",
+          "WNSENSE": "later%4:02:01::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V59332": {
+        "id": "V59332",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "SHE",
+        "roles": {
+          "PROFORM": "SHE",
+          "LEX": "SHE",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 7,
+        "end": 11
+      },
+      "root": "#V59693"
+    },
+    {
+      "V59343": {
+        "id": "V59343",
+        "indicator": "F",
+        "type": "APPEAL-APPLY-DEMAND",
+        "word": "CALL",
+        "roles": {
+          "VFORM": "PASSIVE",
+          "LEX": "CALLED",
+          "WNSENSE": "call%2:38:00::"
+        },
+        "start": 11,
+        "end": 18
+      },
+      "root": "#V59343"
+    },
+    {
+      "V61738": {
+        "id": "V61738",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V59438",
+          "LEX": "WAS"
+        },
+        "start": 18,
+        "end": 59
+      },
+      "V59438": {
+        "id": "V59438",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V59429",
+          "FORMAL": "#V59453",
+          "REASON": "#V59357",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 18,
+        "end": 59
+      },
+      "V59357": {
+        "id": "V59357",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V59376",
+          "FIGURE": "#V59438",
+          "LEX": "TO"
+        },
+        "start": 18,
+        "end": 41
+      },
+      "V59376": {
+        "id": "V59376",
+        "indicator": "F",
+        "type": "SAY",
+        "word": "SAY",
+        "roles": {
+          "FORMAL": "#V59404",
+          "VFORM": "BASE",
+          "LEX": "SAY",
+          "WNSENSE": "say%2:32:01::"
+        },
+        "start": 21,
+        "end": 41
+      },
+      "V59404": {
+        "id": "V59404",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V59397",
+          "FORMAL": "#V59417",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "LEX": "WAS",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 25,
+        "end": 41
+      },
+      "V59397": {
+        "id": "V59397",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "SHE",
+        "roles": {
+          "PROFORM": "SHE",
+          "LEX": "SHE",
+          "WNSENSE": "woman%1:18:00",
+          "COREF": "#V59332"
+        },
+        "start": 25,
+        "end": 29
+      },
+      "V59417": {
+        "id": "V59417",
+        "indicator": "F",
+        "type": "INCORRECT",
+        "word": "MISTAKEN",
+        "roles": {
+          "ORIENTATION": "NEG",
+          "INTENSITY": "HI",
+          "FIGURE": "#V59397",
+          "SCALE": "CORRECTNESS-SCALE",
+          "LEX": "MISTAKEN",
+          "WNSENSE": "mistaken%5:00:00:incorrect:00"
+        },
+        "start": 33,
+        "end": 41
+      },
+      "V59429": {
+        "id": "V59429",
+        "indicator": "THE",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "CAT",
+        "roles": {
+          "LEX": "CAT",
+          "WNSENSE": "cat%1:05:00::"
+        },
+        "start": 43,
+        "end": 51
+      },
+      "V59453": {
+        "id": "V59453",
+        "indicator": "F",
+        "type": "GOOD",
+        "word": "FINE",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "LO",
+          "FIGURE": "#V59429",
+          "SCALE": "GOODNESS-SCALE",
+          "LEX": "FINE",
+          "WNSENSE": "fine%5:00:00:satisfactory:00"
+        },
+        "start": 55,
+        "end": 59
+      },
+      "root": "#V61738"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V59693": {
+          "id": "V59693",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V59332",
+            "MOD": "#V59324",
+            "LEX": "SHE"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V59324": {
+          "id": "V59324",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "LATER",
+          "roles": {
+            "FIGURE": "#V59693",
+            "LEX": "LATER",
+            "WNSENSE": "later%4:02:01::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V59332": {
+          "id": "V59332",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 7,
+          "end": 11
+        },
+        "root": "#V59693"
+      },
+      {
+        "V59343": {
+          "id": "V59343",
+          "indicator": "F",
+          "type": "APPEAL-APPLY-DEMAND",
+          "word": "CALL",
+          "roles": {
+            "VFORM": "PASSIVE",
+            "LEX": "CALLED",
+            "WNSENSE": "call%2:38:00::"
+          },
+          "start": 11,
+          "end": 18
+        },
+        "root": "#V59343"
+      },
+      {
+        "V61735": {
+          "id": "V61735",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V59438",
+            "LEX": "WAS"
+          },
+          "start": 18,
+          "end": 60
+        },
+        "V59438": {
+          "id": "V59438",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V59429",
+            "FORMAL": "#V59452",
+            "REASON": "#V59357",
+            "TENSE": "PAST",
+            "LEX": "WAS"
+          },
+          "start": 18,
+          "end": 59
+        },
+        "V59357": {
+          "id": "V59357",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V59376",
+            "FIGURE": "#V59438",
+            "LEX": "TO"
+          },
+          "start": 18,
+          "end": 41
+        },
+        "V59376": {
+          "id": "V59376",
+          "indicator": "F",
+          "type": "SAY",
+          "word": "SAY",
+          "roles": {
+            "FORMAL": "#V59404",
+            "VFORM": "BASE",
+            "LEX": "SAY",
+            "WNSENSE": "say%2:32:01::"
+          },
+          "start": 21,
+          "end": 41
+        },
+        "V59404": {
+          "id": "V59404",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V59397",
+            "FORMAL": "#V59417",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 25,
+          "end": 41
+        },
+        "V59397": {
+          "id": "V59397",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 25,
+          "end": 29
+        },
+        "V59417": {
+          "id": "V59417",
+          "indicator": "F",
+          "type": "INCORRECT",
+          "word": "MISTAKEN",
+          "roles": {
+            "ORIENTATION": "NEG",
+            "INTENSITY": "HI",
+            "FIGURE": "#V59397",
+            "SCALE": "CORRECTNESS-SCALE",
+            "LEX": "MISTAKEN",
+            "WNSENSE": "mistaken%5:00:00:incorrect:00"
+          },
+          "start": 33,
+          "end": 41
+        },
+        "V59429": {
+          "id": "V59429",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "CAT",
+          "roles": {
+            "LEX": "CAT",
+            "WNSENSE": "cat%1:05:00::"
+          },
+          "start": 43,
+          "end": 51
+        },
+        "V59452": {
+          "id": "V59452",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "FINE",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "LO",
+            "FIGURE": "#V59429",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "FINE",
+            "WNSENSE": "fine%5:00:00:satisfactory:00"
+          },
+          "start": 55,
+          "end": 59
+        },
+        "root": "#V61735"
+      }
+    ],
+    [
+      {
+        "V59693": {
+          "id": "V59693",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V59332",
+            "MOD": "#V59324",
+            "LEX": "SHE"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V59324": {
+          "id": "V59324",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "LATER",
+          "roles": {
+            "FIGURE": "#V59693",
+            "LEX": "LATER",
+            "WNSENSE": "later%4:02:01::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V59332": {
+          "id": "V59332",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 7,
+          "end": 11
+        },
+        "root": "#V59693"
+      },
+      {
+        "V59343": {
+          "id": "V59343",
+          "indicator": "F",
+          "type": "APPEAL-APPLY-DEMAND",
+          "word": "CALL",
+          "roles": {
+            "VFORM": "PASSIVE",
+            "LEX": "CALLED",
+            "WNSENSE": "call%2:38:00::"
+          },
+          "start": 11,
+          "end": 18
+        },
+        "root": "#V59343"
+      },
+      {
+        "V61732": {
+          "id": "V61732",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V59438",
+            "LEX": "WAS"
+          },
+          "start": 18,
+          "end": 60
+        },
+        "V59438": {
+          "id": "V59438",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V59429",
+            "FORMAL": "#V59451",
+            "REASON": "#V59357",
+            "TENSE": "PAST",
+            "LEX": "WAS"
+          },
+          "start": 18,
+          "end": 59
+        },
+        "V59357": {
+          "id": "V59357",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V59376",
+            "FIGURE": "#V59438",
+            "LEX": "TO"
+          },
+          "start": 18,
+          "end": 41
+        },
+        "V59376": {
+          "id": "V59376",
+          "indicator": "F",
+          "type": "SAY",
+          "word": "SAY",
+          "roles": {
+            "FORMAL": "#V59404",
+            "VFORM": "BASE",
+            "LEX": "SAY",
+            "WNSENSE": "say%2:32:01::"
+          },
+          "start": 21,
+          "end": 41
+        },
+        "V59404": {
+          "id": "V59404",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V59397",
+            "FORMAL": "#V59417",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 25,
+          "end": 41
+        },
+        "V59397": {
+          "id": "V59397",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 25,
+          "end": 29
+        },
+        "V59417": {
+          "id": "V59417",
+          "indicator": "F",
+          "type": "INCORRECT",
+          "word": "MISTAKEN",
+          "roles": {
+            "ORIENTATION": "NEG",
+            "INTENSITY": "HI",
+            "FIGURE": "#V59397",
+            "SCALE": "CORRECTNESS-SCALE",
+            "LEX": "MISTAKEN",
+            "WNSENSE": "mistaken%5:00:00:incorrect:00"
+          },
+          "start": 33,
+          "end": 41
+        },
+        "V59429": {
+          "id": "V59429",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "CAT",
+          "roles": {
+            "LEX": "CAT",
+            "WNSENSE": "cat%1:05:00::"
+          },
+          "start": 43,
+          "end": 51
+        },
+        "V59451": {
+          "id": "V59451",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "FINE",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "LO",
+            "FIGURE": "#V59429",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "FINE",
+            "WNSENSE": "fine%5:00:00:satisfactory:00"
+          },
+          "start": 55,
+          "end": 59
+        },
+        "root": "#V61732"
+      }
+    ],
+    [
+      {
+        "V59693": {
+          "id": "V59693",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V59332",
+            "MOD": "#V59324",
+            "LEX": "SHE"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V59324": {
+          "id": "V59324",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "LATER",
+          "roles": {
+            "FIGURE": "#V59693",
+            "LEX": "LATER",
+            "WNSENSE": "later%4:02:01::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V59332": {
+          "id": "V59332",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 7,
+          "end": 11
+        },
+        "root": "#V59693"
+      },
+      {
+        "V59343": {
+          "id": "V59343",
+          "indicator": "F",
+          "type": "APPEAL-APPLY-DEMAND",
+          "word": "CALL",
+          "roles": {
+            "VFORM": "PASSIVE",
+            "LEX": "CALLED",
+            "WNSENSE": "call%2:38:00::"
+          },
+          "start": 11,
+          "end": 18
+        },
+        "root": "#V59343"
+      },
+      {
+        "V61729": {
+          "id": "V61729",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V59438",
+            "LEX": "WAS"
+          },
+          "start": 18,
+          "end": 60
+        },
+        "V59438": {
+          "id": "V59438",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V59429",
+            "FORMAL": "#V59453",
+            "REASON": "#V59357",
+            "TENSE": "PAST",
+            "LEX": "WAS"
+          },
+          "start": 18,
+          "end": 59
+        },
+        "V59357": {
+          "id": "V59357",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V59379",
+            "FIGURE": "#V59438",
+            "LEX": "TO"
+          },
+          "start": 18,
+          "end": 41
+        },
+        "V59379": {
+          "id": "V59379",
+          "indicator": "F",
+          "type": "ASSERT",
+          "word": "SAY",
+          "roles": {
+            "FORMAL": "#V59404",
+            "VFORM": "BASE",
+            "LEX": "SAY",
+            "WNSENSE": "assert%2:32:01"
+          },
+          "start": 21,
+          "end": 41
+        },
+        "V59404": {
+          "id": "V59404",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V59397",
+            "FORMAL": "#V59417",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 25,
+          "end": 41
+        },
+        "V59397": {
+          "id": "V59397",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 25,
+          "end": 29
+        },
+        "V59417": {
+          "id": "V59417",
+          "indicator": "F",
+          "type": "INCORRECT",
+          "word": "MISTAKEN",
+          "roles": {
+            "ORIENTATION": "NEG",
+            "INTENSITY": "HI",
+            "FIGURE": "#V59397",
+            "SCALE": "CORRECTNESS-SCALE",
+            "LEX": "MISTAKEN",
+            "WNSENSE": "mistaken%5:00:00:incorrect:00"
+          },
+          "start": 33,
+          "end": 41
+        },
+        "V59429": {
+          "id": "V59429",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "CAT",
+          "roles": {
+            "LEX": "CAT",
+            "WNSENSE": "cat%1:05:00::"
+          },
+          "start": 43,
+          "end": 51
+        },
+        "V59453": {
+          "id": "V59453",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "FINE",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "LO",
+            "FIGURE": "#V59429",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "FINE",
+            "WNSENSE": "fine%5:00:00:satisfactory:00"
+          },
+          "start": 55,
+          "end": 59
+        },
+        "root": "#V61729"
+      }
+    ],
+    [
+      {
+        "V59693": {
+          "id": "V59693",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V59332",
+            "MOD": "#V59324",
+            "LEX": "SHE"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V59324": {
+          "id": "V59324",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "LATER",
+          "roles": {
+            "FIGURE": "#V59693",
+            "LEX": "LATER",
+            "WNSENSE": "later%4:02:01::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V59332": {
+          "id": "V59332",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 7,
+          "end": 11
+        },
+        "root": "#V59693"
+      },
+      {
+        "V59343": {
+          "id": "V59343",
+          "indicator": "F",
+          "type": "APPEAL-APPLY-DEMAND",
+          "word": "CALL",
+          "roles": {
+            "VFORM": "PASSIVE",
+            "LEX": "CALLED",
+            "WNSENSE": "call%2:38:00::"
+          },
+          "start": 11,
+          "end": 18
+        },
+        "root": "#V59343"
+      },
+      {
+        "V61726": {
+          "id": "V61726",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V59438",
+            "LEX": "WAS"
+          },
+          "start": 18,
+          "end": 60
+        },
+        "V59438": {
+          "id": "V59438",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V59429",
+            "FORMAL": "#V59452",
+            "REASON": "#V59357",
+            "TENSE": "PAST",
+            "LEX": "WAS"
+          },
+          "start": 18,
+          "end": 59
+        },
+        "V59357": {
+          "id": "V59357",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V59379",
+            "FIGURE": "#V59438",
+            "LEX": "TO"
+          },
+          "start": 18,
+          "end": 41
+        },
+        "V59379": {
+          "id": "V59379",
+          "indicator": "F",
+          "type": "ASSERT",
+          "word": "SAY",
+          "roles": {
+            "FORMAL": "#V59404",
+            "VFORM": "BASE",
+            "LEX": "SAY",
+            "WNSENSE": "assert%2:32:01"
+          },
+          "start": 21,
+          "end": 41
+        },
+        "V59404": {
+          "id": "V59404",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V59397",
+            "FORMAL": "#V59417",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 25,
+          "end": 41
+        },
+        "V59397": {
+          "id": "V59397",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 25,
+          "end": 29
+        },
+        "V59417": {
+          "id": "V59417",
+          "indicator": "F",
+          "type": "INCORRECT",
+          "word": "MISTAKEN",
+          "roles": {
+            "ORIENTATION": "NEG",
+            "INTENSITY": "HI",
+            "FIGURE": "#V59397",
+            "SCALE": "CORRECTNESS-SCALE",
+            "LEX": "MISTAKEN",
+            "WNSENSE": "mistaken%5:00:00:incorrect:00"
+          },
+          "start": 33,
+          "end": 41
+        },
+        "V59429": {
+          "id": "V59429",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "CAT",
+          "roles": {
+            "LEX": "CAT",
+            "WNSENSE": "cat%1:05:00::"
+          },
+          "start": 43,
+          "end": 51
+        },
+        "V59452": {
+          "id": "V59452",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "FINE",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "LO",
+            "FIGURE": "#V59429",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "FINE",
+            "WNSENSE": "fine%5:00:00:satisfactory:00"
+          },
+          "start": 55,
+          "end": 59
+        },
+        "root": "#V61726"
+      }
+    ],
+    [
+      {
+        "V59693": {
+          "id": "V59693",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V59332",
+            "MOD": "#V59324",
+            "LEX": "SHE"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V59324": {
+          "id": "V59324",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "LATER",
+          "roles": {
+            "FIGURE": "#V59693",
+            "LEX": "LATER",
+            "WNSENSE": "later%4:02:01::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V59332": {
+          "id": "V59332",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 7,
+          "end": 11
+        },
+        "root": "#V59693"
+      },
+      {
+        "V59343": {
+          "id": "V59343",
+          "indicator": "F",
+          "type": "APPEAL-APPLY-DEMAND",
+          "word": "CALL",
+          "roles": {
+            "VFORM": "PASSIVE",
+            "LEX": "CALLED",
+            "WNSENSE": "call%2:38:00::"
+          },
+          "start": 11,
+          "end": 18
+        },
+        "root": "#V59343"
+      },
+      {
+        "V61723": {
+          "id": "V61723",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V59438",
+            "LEX": "WAS"
+          },
+          "start": 18,
+          "end": 60
+        },
+        "V59438": {
+          "id": "V59438",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V59429",
+            "FORMAL": "#V59451",
+            "REASON": "#V59357",
+            "TENSE": "PAST",
+            "LEX": "WAS"
+          },
+          "start": 18,
+          "end": 59
+        },
+        "V59357": {
+          "id": "V59357",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V59379",
+            "FIGURE": "#V59438",
+            "LEX": "TO"
+          },
+          "start": 18,
+          "end": 41
+        },
+        "V59379": {
+          "id": "V59379",
+          "indicator": "F",
+          "type": "ASSERT",
+          "word": "SAY",
+          "roles": {
+            "FORMAL": "#V59404",
+            "VFORM": "BASE",
+            "LEX": "SAY",
+            "WNSENSE": "assert%2:32:01"
+          },
+          "start": 21,
+          "end": 41
+        },
+        "V59404": {
+          "id": "V59404",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V59397",
+            "FORMAL": "#V59417",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 25,
+          "end": 41
+        },
+        "V59397": {
+          "id": "V59397",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 25,
+          "end": 29
+        },
+        "V59417": {
+          "id": "V59417",
+          "indicator": "F",
+          "type": "INCORRECT",
+          "word": "MISTAKEN",
+          "roles": {
+            "ORIENTATION": "NEG",
+            "INTENSITY": "HI",
+            "FIGURE": "#V59397",
+            "SCALE": "CORRECTNESS-SCALE",
+            "LEX": "MISTAKEN",
+            "WNSENSE": "mistaken%5:00:00:incorrect:00"
+          },
+          "start": 33,
+          "end": 41
+        },
+        "V59429": {
+          "id": "V59429",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "CAT",
+          "roles": {
+            "LEX": "CAT",
+            "WNSENSE": "cat%1:05:00::"
+          },
+          "start": 43,
+          "end": 51
+        },
+        "V59451": {
+          "id": "V59451",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "FINE",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "LO",
+            "FIGURE": "#V59429",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "FINE",
+            "WNSENSE": "fine%5:00:00:satisfactory:00"
+          },
+          "start": 55,
+          "end": 59
+        },
+        "root": "#V61723"
+      }
+    ],
+    [
+      {
+        "V59693": {
+          "id": "V59693",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V59332",
+            "MOD": "#V59324",
+            "LEX": "SHE"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V59324": {
+          "id": "V59324",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "LATER",
+          "roles": {
+            "FIGURE": "#V59693",
+            "LEX": "LATER",
+            "WNSENSE": "later%4:02:01::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V59332": {
+          "id": "V59332",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 7,
+          "end": 11
+        },
+        "root": "#V59693"
+      },
+      {
+        "V59343": {
+          "id": "V59343",
+          "indicator": "F",
+          "type": "APPEAL-APPLY-DEMAND",
+          "word": "CALL",
+          "roles": {
+            "VFORM": "PASSIVE",
+            "LEX": "CALLED",
+            "WNSENSE": "call%2:38:00::"
+          },
+          "start": 11,
+          "end": 18
+        },
+        "root": "#V59343"
+      },
+      {
+        "V61720": {
+          "id": "V61720",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V59438",
+            "LEX": "WAS"
+          },
+          "start": 18,
+          "end": 60
+        },
+        "V59438": {
+          "id": "V59438",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V59429",
+            "FORMAL": "#V59453",
+            "REASON": "#V59357",
+            "TENSE": "PAST",
+            "LEX": "WAS"
+          },
+          "start": 18,
+          "end": 59
+        },
+        "V59357": {
+          "id": "V59357",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V59380",
+            "FIGURE": "#V59438",
+            "LEX": "TO"
+          },
+          "start": 18,
+          "end": 41
+        },
+        "V59380": {
+          "id": "V59380",
+          "indicator": "F",
+          "type": "ENCODES-MESSAGE",
+          "word": "SAY",
+          "roles": {
+            "FORMAL": "#V59404",
+            "VFORM": "BASE",
+            "LEX": "SAY",
+            "WNSENSE": "say%2:42:00::"
+          },
+          "start": 21,
+          "end": 41
+        },
+        "V59404": {
+          "id": "V59404",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V59397",
+            "FORMAL": "#V59417",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 25,
+          "end": 41
+        },
+        "V59397": {
+          "id": "V59397",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 25,
+          "end": 29
+        },
+        "V59417": {
+          "id": "V59417",
+          "indicator": "F",
+          "type": "INCORRECT",
+          "word": "MISTAKEN",
+          "roles": {
+            "ORIENTATION": "NEG",
+            "INTENSITY": "HI",
+            "FIGURE": "#V59397",
+            "SCALE": "CORRECTNESS-SCALE",
+            "LEX": "MISTAKEN",
+            "WNSENSE": "mistaken%5:00:00:incorrect:00"
+          },
+          "start": 33,
+          "end": 41
+        },
+        "V59429": {
+          "id": "V59429",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "CAT",
+          "roles": {
+            "LEX": "CAT",
+            "WNSENSE": "cat%1:05:00::"
+          },
+          "start": 43,
+          "end": 51
+        },
+        "V59453": {
+          "id": "V59453",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "FINE",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "LO",
+            "FIGURE": "#V59429",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "FINE",
+            "WNSENSE": "fine%5:00:00:satisfactory:00"
+          },
+          "start": 55,
+          "end": 59
+        },
+        "root": "#V61720"
+      }
+    ],
+    [
+      {
+        "V59693": {
+          "id": "V59693",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V59332",
+            "MOD": "#V59324",
+            "LEX": "SHE"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V59324": {
+          "id": "V59324",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "LATER",
+          "roles": {
+            "FIGURE": "#V59693",
+            "LEX": "LATER",
+            "WNSENSE": "later%4:02:01::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V59332": {
+          "id": "V59332",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 7,
+          "end": 11
+        },
+        "root": "#V59693"
+      },
+      {
+        "V59343": {
+          "id": "V59343",
+          "indicator": "F",
+          "type": "APPEAL-APPLY-DEMAND",
+          "word": "CALL",
+          "roles": {
+            "VFORM": "PASSIVE",
+            "LEX": "CALLED",
+            "WNSENSE": "call%2:38:00::"
+          },
+          "start": 11,
+          "end": 18
+        },
+        "root": "#V59343"
+      },
+      {
+        "V61717": {
+          "id": "V61717",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V59438",
+            "LEX": "WAS"
+          },
+          "start": 18,
+          "end": 60
+        },
+        "V59438": {
+          "id": "V59438",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V59429",
+            "FORMAL": "#V59452",
+            "REASON": "#V59357",
+            "TENSE": "PAST",
+            "LEX": "WAS"
+          },
+          "start": 18,
+          "end": 59
+        },
+        "V59357": {
+          "id": "V59357",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V59380",
+            "FIGURE": "#V59438",
+            "LEX": "TO"
+          },
+          "start": 18,
+          "end": 41
+        },
+        "V59380": {
+          "id": "V59380",
+          "indicator": "F",
+          "type": "ENCODES-MESSAGE",
+          "word": "SAY",
+          "roles": {
+            "FORMAL": "#V59404",
+            "VFORM": "BASE",
+            "LEX": "SAY",
+            "WNSENSE": "say%2:42:00::"
+          },
+          "start": 21,
+          "end": 41
+        },
+        "V59404": {
+          "id": "V59404",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V59397",
+            "FORMAL": "#V59417",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 25,
+          "end": 41
+        },
+        "V59397": {
+          "id": "V59397",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 25,
+          "end": 29
+        },
+        "V59417": {
+          "id": "V59417",
+          "indicator": "F",
+          "type": "INCORRECT",
+          "word": "MISTAKEN",
+          "roles": {
+            "ORIENTATION": "NEG",
+            "INTENSITY": "HI",
+            "FIGURE": "#V59397",
+            "SCALE": "CORRECTNESS-SCALE",
+            "LEX": "MISTAKEN",
+            "WNSENSE": "mistaken%5:00:00:incorrect:00"
+          },
+          "start": 33,
+          "end": 41
+        },
+        "V59429": {
+          "id": "V59429",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "CAT",
+          "roles": {
+            "LEX": "CAT",
+            "WNSENSE": "cat%1:05:00::"
+          },
+          "start": 43,
+          "end": 51
+        },
+        "V59452": {
+          "id": "V59452",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "FINE",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "LO",
+            "FIGURE": "#V59429",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "FINE",
+            "WNSENSE": "fine%5:00:00:satisfactory:00"
+          },
+          "start": 55,
+          "end": 59
+        },
+        "root": "#V61717"
+      }
+    ],
+    [
+      {
+        "V59693": {
+          "id": "V59693",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V59332",
+            "MOD": "#V59324",
+            "LEX": "SHE"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V59324": {
+          "id": "V59324",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "LATER",
+          "roles": {
+            "FIGURE": "#V59693",
+            "LEX": "LATER",
+            "WNSENSE": "later%4:02:01::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V59332": {
+          "id": "V59332",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 7,
+          "end": 11
+        },
+        "root": "#V59693"
+      },
+      {
+        "V59343": {
+          "id": "V59343",
+          "indicator": "F",
+          "type": "APPEAL-APPLY-DEMAND",
+          "word": "CALL",
+          "roles": {
+            "VFORM": "PASSIVE",
+            "LEX": "CALLED",
+            "WNSENSE": "call%2:38:00::"
+          },
+          "start": 11,
+          "end": 18
+        },
+        "root": "#V59343"
+      },
+      {
+        "V61714": {
+          "id": "V61714",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V59438",
+            "LEX": "WAS"
+          },
+          "start": 18,
+          "end": 60
+        },
+        "V59438": {
+          "id": "V59438",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V59429",
+            "FORMAL": "#V59451",
+            "REASON": "#V59357",
+            "TENSE": "PAST",
+            "LEX": "WAS"
+          },
+          "start": 18,
+          "end": 59
+        },
+        "V59357": {
+          "id": "V59357",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V59380",
+            "FIGURE": "#V59438",
+            "LEX": "TO"
+          },
+          "start": 18,
+          "end": 41
+        },
+        "V59380": {
+          "id": "V59380",
+          "indicator": "F",
+          "type": "ENCODES-MESSAGE",
+          "word": "SAY",
+          "roles": {
+            "FORMAL": "#V59404",
+            "VFORM": "BASE",
+            "LEX": "SAY",
+            "WNSENSE": "say%2:42:00::"
+          },
+          "start": 21,
+          "end": 41
+        },
+        "V59404": {
+          "id": "V59404",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V59397",
+            "FORMAL": "#V59417",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 25,
+          "end": 41
+        },
+        "V59397": {
+          "id": "V59397",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 25,
+          "end": 29
+        },
+        "V59417": {
+          "id": "V59417",
+          "indicator": "F",
+          "type": "INCORRECT",
+          "word": "MISTAKEN",
+          "roles": {
+            "ORIENTATION": "NEG",
+            "INTENSITY": "HI",
+            "FIGURE": "#V59397",
+            "SCALE": "CORRECTNESS-SCALE",
+            "LEX": "MISTAKEN",
+            "WNSENSE": "mistaken%5:00:00:incorrect:00"
+          },
+          "start": 33,
+          "end": 41
+        },
+        "V59429": {
+          "id": "V59429",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "CAT",
+          "roles": {
+            "LEX": "CAT",
+            "WNSENSE": "cat%1:05:00::"
+          },
+          "start": 43,
+          "end": 51
+        },
+        "V59451": {
+          "id": "V59451",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "FINE",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "LO",
+            "FIGURE": "#V59429",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "FINE",
+            "WNSENSE": "fine%5:00:00:satisfactory:00"
+          },
+          "start": 55,
+          "end": 59
+        },
+        "root": "#V61714"
+      }
+    ],
+    [
+      {
+        "V59693": {
+          "id": "V59693",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V59332",
+            "MOD": "#V59324",
+            "LEX": "SHE"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V59324": {
+          "id": "V59324",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "LATER",
+          "roles": {
+            "FIGURE": "#V59693",
+            "LEX": "LATER",
+            "WNSENSE": "later%4:02:01::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V59332": {
+          "id": "V59332",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 7,
+          "end": 11
+        },
+        "root": "#V59693"
+      },
+      {
+        "V59343": {
+          "id": "V59343",
+          "indicator": "F",
+          "type": "APPEAL-APPLY-DEMAND",
+          "word": "CALL",
+          "roles": {
+            "VFORM": "PASSIVE",
+            "LEX": "CALLED",
+            "WNSENSE": "call%2:38:00::"
+          },
+          "start": 11,
+          "end": 18
+        },
+        "root": "#V59343"
+      },
+      {
+        "V61711": {
+          "id": "V61711",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V59438",
+            "LEX": "WAS"
+          },
+          "start": 18,
+          "end": 60
+        },
+        "V59438": {
+          "id": "V59438",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V59429",
+            "FORMAL": "#V59453",
+            "REASON": "#V59357",
+            "TENSE": "PAST",
+            "LEX": "WAS"
+          },
+          "start": 18,
+          "end": 59
+        },
+        "V59357": {
+          "id": "V59357",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V59385",
+            "FIGURE": "#V59438",
+            "LEX": "TO"
+          },
+          "start": 18,
+          "end": 41
+        },
+        "V59385": {
+          "id": "V59385",
+          "indicator": "F",
+          "type": "SUGGEST",
+          "word": "SAY",
+          "roles": {
+            "FORMAL": "#V59404",
+            "VFORM": "BASE",
+            "LEX": "SAY",
+            "WNSENSE": "advise%2:32:02"
+          },
+          "start": 21,
+          "end": 41
+        },
+        "V59404": {
+          "id": "V59404",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V59397",
+            "FORMAL": "#V59417",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 25,
+          "end": 41
+        },
+        "V59397": {
+          "id": "V59397",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 25,
+          "end": 29
+        },
+        "V59417": {
+          "id": "V59417",
+          "indicator": "F",
+          "type": "INCORRECT",
+          "word": "MISTAKEN",
+          "roles": {
+            "ORIENTATION": "NEG",
+            "INTENSITY": "HI",
+            "FIGURE": "#V59397",
+            "SCALE": "CORRECTNESS-SCALE",
+            "LEX": "MISTAKEN",
+            "WNSENSE": "mistaken%5:00:00:incorrect:00"
+          },
+          "start": 33,
+          "end": 41
+        },
+        "V59429": {
+          "id": "V59429",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "CAT",
+          "roles": {
+            "LEX": "CAT",
+            "WNSENSE": "cat%1:05:00::"
+          },
+          "start": 43,
+          "end": 51
+        },
+        "V59453": {
+          "id": "V59453",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "FINE",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "LO",
+            "FIGURE": "#V59429",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "FINE",
+            "WNSENSE": "fine%5:00:00:satisfactory:00"
+          },
+          "start": 55,
+          "end": 59
+        },
+        "root": "#V61711"
+      }
+    ]
+  ],
+  "sentence": "Later, she called to say she was mistaken, the cat was fine.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190815T092207",
+    "link": "http://trips.ihmc.us/parser/saved/20190815T092207-STEP-abhatia-none-Later_she_called_to_say_she_was_mistaken.xml",
+    "judgement": -1
+  }
+}

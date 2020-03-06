@@ -1,0 +1,183 @@
+{
+  "parse": [
+    {
+      "V44560": {
+        "id": "V44560",
+        "indicator": "SPEECHACT",
+        "type": "SA_YN-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V43646",
+          "PUNCTYPE": "YNQ",
+          "LEX": "DO-"
+        },
+        "start": 0,
+        "end": 25
+      },
+      "V43646": {
+        "id": "V43646",
+        "indicator": "BARE",
+        "type": "MALE-PERSON",
+        "word": "DO",
+        "roles": {
+          "NAME-OF": "DO-",
+          "MOD": "#V43681",
+          "LEX": "DO-"
+        },
+        "start": 0,
+        "end": 25
+      },
+      "V43681": {
+        "id": "V43681",
+        "indicator": "F",
+        "type": "NECESSITY",
+        "word": "HAVE",
+        "roles": {
+          "NEUTRAL": "#V43666",
+          "FORMAL": "#V43794",
+          "TENSE": "PRES",
+          "LEX": "HAVE"
+        },
+        "start": 3,
+        "end": 25
+      },
+      "V43666": {
+        "id": "V43666",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "COREF": "USER"
+        },
+        "start": 3,
+        "end": 5
+      },
+      "V43794": {
+        "id": "V43794",
+        "indicator": "F",
+        "type": "RETRIEVE",
+        "word": "LOG-IN",
+        "roles": {
+          "AGENT": "#V43666",
+          "AFFECTED": "#V43646",
+          "FREQUENCY": "#V43797",
+          "VFORM": "BASE",
+          "LEX": "LOG-IN",
+          "WNSENSE": "log_in%2:40:00"
+        },
+        "start": 10,
+        "end": 25
+      },
+      "V43797": {
+        "id": "V43797",
+        "indicator": "F",
+        "type": "REPETITION",
+        "word": "TWICE",
+        "roles": {
+          "FIGURE": "#V43794",
+          "LEX": "TWICE"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "root": "#V44560"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V44747": {
+          "id": "V44747",
+          "indicator": "SPEECHACT",
+          "type": "SA_YN-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V43646",
+            "PUNCTYPE": "YNQ",
+            "LEX": "DO-"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V43646": {
+          "id": "V43646",
+          "indicator": "BARE",
+          "type": "MALE-PERSON",
+          "word": "DO",
+          "roles": {
+            "NAME-OF": "DO-",
+            "MOD": "#V43681",
+            "LEX": "DO-"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V43681": {
+          "id": "V43681",
+          "indicator": "F",
+          "type": "NECESSITY",
+          "word": "HAVE",
+          "roles": {
+            "NEUTRAL": "#V43666",
+            "FORMAL": "#V43794",
+            "FREQUENCY": "#V43797",
+            "TENSE": "PRES",
+            "LEX": "HAVE"
+          },
+          "start": 3,
+          "end": 25
+        },
+        "V43666": {
+          "id": "V43666",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I"
+          },
+          "start": 3,
+          "end": 5
+        },
+        "V43794": {
+          "id": "V43794",
+          "indicator": "F",
+          "type": "RETRIEVE",
+          "word": "LOG-IN",
+          "roles": {
+            "AGENT": "#V43666",
+            "AFFECTED": "#V43646",
+            "VFORM": "BASE",
+            "LEX": "LOG-IN",
+            "WNSENSE": "log_in%2:40:00"
+          },
+          "start": 10,
+          "end": 20
+        },
+        "V43797": {
+          "id": "V43797",
+          "indicator": "F",
+          "type": "REPETITION",
+          "word": "TWICE",
+          "roles": {
+            "FIGURE": "#V43681",
+            "LEX": "TWICE"
+          },
+          "start": 20,
+          "end": 25
+        },
+        "root": "#V44747"
+      }
+    ]
+  ],
+  "sentence": "Do I have to log in twice?",
+  "annotation": {
+    "judge": "wbeaumont",
+    "parser": "STEP",
+    "timestamp": "20190430T094908",
+    "link": "http://trips.ihmc.us/parser/saved/20190430T094908-STEP-wbeaumont-none-Do_I_have_to_log_in_twice_.xml",
+    "judgement": -1
+  }
+}

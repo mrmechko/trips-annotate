@@ -1,0 +1,24 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V404923 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V404445 [label=<<font color="green"><br /></font> <font color="black">CREATE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BUILD</font> <font color="green"><br /></font> <font color="green">build%2:36:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::CREATE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V404433 [label=<<font color="green"><br /></font> <font color="black">GEOGRAPHIC-REGION</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">MARTIN</font> <font color="green"><br /></font> <font color="green">north_america%1:14:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GEOGRAPHIC-REGION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V404494 [label=<<font color="green"><br /></font> <font color="black">PRODUCT-MODEL</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">MODEL</font> <font color="green"><br /></font> <font color="green">model%1:09:03::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PRODUCT-MODEL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V404551 [label=<<font color="green"><br /></font> <font color="black">TABLEWARE</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">BOWL</font> <font color="green"><br /></font> <font color="green">bowl%1:06:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TABLEWARE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V404568 [label=<<font color="green"><br /></font> <font color="black">SEPARATION</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">SEPARATE</font> <font color="green"><br /></font> <font color="green">separate%2:42:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SEPARATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V404592 [label=<<font color="green"><br /></font> <font color="black">FOOD</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FOOD.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V404601 [label=<<font color="green"><br /></font> <font color="black">MILK</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">MILK</font> <font color="green"><br /></font> <font color="green">milk%1:13:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MILK.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V404586 [label=<<font color="green"><br /></font> <font color="black">FOOD-GRAINS</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">CEREAL</font> <font color="green"><br /></font> <font color="green">cereal%1:13:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FOOD-GRAINS.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V404494 -> V404551 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V404923 -> V404445 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V404568 -> V404592 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V404551 -> V404568 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V404568 -> V404551 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V404592 -> V404601 [label=" SEQUENCE1   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V404445 -> V404494 [label=" AFFECTED-RESULT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V404445 -> V404433 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V404592 -> V404586 [label=" SEQUENCE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

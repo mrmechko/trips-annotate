@@ -1,0 +1,26 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V194741 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V194286 [label=<<font color="green"><br /></font> <font color="black">EVENT-OF-ACTION</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EVENT-OF-ACTION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V194232 [label=<<font color="green"><br /></font> <font color="black">SELECT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">CHOOSE</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SELECT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V194221 [label=<<font color="green"><br /></font> <font color="black">SEQUENCE-POSITION</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">THEN</font> <font color="green"><br /></font> <font color="green">then%4:02:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SEQUENCE-POSITION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V194227 [label=<<font color="green"><br /></font> <font color="black">FEMALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">SHE</font> <font color="green"><br /></font> <font color="green">woman%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FEMALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V194280 [label=<<font color="green"><br /></font> <font color="black">TIME-POINT</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">DATE</font> <font color="green"><br /></font> <font color="green">date%1:28:04::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TIME-POINT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V194297 [label=<<font color="green"><br /></font> <font color="black">SEND</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">SEND</font> <font color="green"><br /></font> <font color="green">send%2:35:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SEND.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V194311 [label=<<font color="green"><br /></font> <font color="black">DIRECTION-OUT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">OUT</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DIRECTION-OUT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V194325 [label=<<font color="green"><br /></font> <font color="black">REQUEST</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">INVITATIONS</font> <font color="green"><br /></font> <font color="green">call%2:41:04</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REQUEST.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V194286 -> V194297 [label=" SEQUENCE1   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V194297 -> V194227 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V194297 -> V194325 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V194232 -> V194227 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V194286 -> V194232 [label=" SEQUENCE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V194297 -> V194311 [label=" RESULT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V194741 -> V194286 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V194232 -> V194280 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V194311 -> V194325 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V194221 -> V194232 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V194232 -> V194221 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

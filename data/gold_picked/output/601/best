@@ -1,0 +1,21 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V145552 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V145454 [label=<<font color="green"><br /></font> <font color="black">SITUATION-ROOT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SITUATION-ROOT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V144773 [label=<<font color="green"><br /></font> <font color="black">SUGGEST</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">SUGGEST</font> <font color="green"><br /></font> <font color="green">suggest%2:32:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SUGGEST.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V144704 [label=<<font color="green"><br /></font> <font color="black">BELIEVE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">THINK</font> <font color="green"><br /></font> <font color="green">think%2:31:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BELIEVE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V144692 [label=<<font color="green"><br /></font> <font color="black">PROFESSIONAL</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">CLERK</font> <font color="green"><br /></font> <font color="green">clerk%1:18:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PROFESSIONAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V144740 [label=<<font color="green"><br /></font> <font color="black">INTENSE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">HARD</font> <font color="green"><br /></font> <font color="green">hard%5:00:00:strong:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::INTENSE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V144823 [label=<<font color="green"><br /></font> <font color="black">BIRD</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">FALCON</font> <font color="green"><br /></font> <font color="green">falcon%1:05:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BIRD.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V145454 -> V144704 [label=" SEQUENCE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V144773 -> V144692 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V144773 -> V144823 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V144740 -> V144704 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V145454 -> V144773 [label=" SEQUENCE1   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V144704 -> V144692 [label=" EXPERIENCER   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V144704 -> V144740 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V145552 -> V145454 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

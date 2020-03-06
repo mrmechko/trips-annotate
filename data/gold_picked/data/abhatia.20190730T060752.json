@@ -1,0 +1,348 @@
+{
+  "parse": [
+    {
+      "V146104": {
+        "id": "V146104",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V144540",
+          "LEX": "TRYING"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V144540": {
+        "id": "V144540",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V144496",
+          "EXTENT": "#V144554",
+          "TENSE": "PAST",
+          "PERF": "+",
+          "PROGR": "+",
+          "LEX": "TRYING",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V144496": {
+        "id": "V144496",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "SHE",
+        "roles": {
+          "PROFORM": "SHE",
+          "LEX": "SHE",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V144554": {
+        "id": "V144554",
+        "indicator": "F",
+        "type": "TIME-DURATION-REL",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V144600",
+          "FIGURE": "#V144540",
+          "LEX": "FOR"
+        },
+        "start": 20,
+        "end": 29
+      },
+      "V144600": {
+        "id": "V144600",
+        "indicator": "A",
+        "type": "QUANTITY",
+        "word": null,
+        "roles": {
+          "AMOUNT": "PLURAL",
+          "UNIT": "(:* YEAR-DURATION YEAR)",
+          "SCALE": "DURATION-SCALE",
+          "LEX": "YEARS"
+        },
+        "start": 24,
+        "end": 29
+      },
+      "root": "#V146104"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V147293": {
+          "id": "V147293",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V144540",
+            "LEX": "TRYING"
+          },
+          "start": 0,
+          "end": 30
+        },
+        "V144540": {
+          "id": "V144540",
+          "indicator": "F",
+          "type": "TRY",
+          "word": "TRY",
+          "roles": {
+            "AGENT": "#V144496",
+            "REASON": "#V144550",
+            "TENSE": "PAST",
+            "PERF": "+",
+            "PROGR": "+",
+            "LEX": "TRYING",
+            "WNSENSE": "try%1:04:00::"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V144496": {
+          "id": "V144496",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V144550": {
+          "id": "V144550",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V144829",
+            "FIGURE": "#V144540",
+            "LEX": "FOR"
+          },
+          "start": 20,
+          "end": 29
+        },
+        "V144829": {
+          "id": "V144829",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V144600",
+            "LEX": "YEARS"
+          },
+          "start": 24,
+          "end": 29
+        },
+        "V144600": {
+          "id": "V144600",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "PLURAL",
+            "UNIT": "(:* YEAR-DURATION YEAR)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "YEARS"
+          },
+          "start": 24,
+          "end": 29
+        },
+        "root": "#V147293"
+      }
+    ],
+    [
+      {
+        "V147273": {
+          "id": "V147273",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V144540",
+            "LEX": "TRYING"
+          },
+          "start": 0,
+          "end": 30
+        },
+        "V144540": {
+          "id": "V144540",
+          "indicator": "F",
+          "type": "TRY",
+          "word": "TRY",
+          "roles": {
+            "AGENT": "#V144496",
+            "BENEFICIARY": "#V144553",
+            "TENSE": "PAST",
+            "PERF": "+",
+            "PROGR": "+",
+            "LEX": "TRYING",
+            "WNSENSE": "try%1:04:00::"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V144496": {
+          "id": "V144496",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V144553": {
+          "id": "V144553",
+          "indicator": "F",
+          "type": "BENEFICIARY",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V144829",
+            "FIGURE": "#V144540",
+            "LEX": "FOR"
+          },
+          "start": 20,
+          "end": 29
+        },
+        "V144829": {
+          "id": "V144829",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V144600",
+            "LEX": "YEARS"
+          },
+          "start": 24,
+          "end": 29
+        },
+        "V144600": {
+          "id": "V144600",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "PLURAL",
+            "UNIT": "(:* YEAR-DURATION YEAR)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "YEARS"
+          },
+          "start": 24,
+          "end": 29
+        },
+        "root": "#V147273"
+      }
+    ],
+    [
+      {
+        "V147253": {
+          "id": "V147253",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V144540",
+            "LEX": "TRYING"
+          },
+          "start": 0,
+          "end": 30
+        },
+        "V144540": {
+          "id": "V144540",
+          "indicator": "F",
+          "type": "TRY",
+          "word": "TRY",
+          "roles": {
+            "AGENT": "#V144496",
+            "EXTENT": "#V144554",
+            "TENSE": "PAST",
+            "PERF": "+",
+            "PROGR": "+",
+            "LEX": "TRYING",
+            "WNSENSE": "try%1:04:00::"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V144496": {
+          "id": "V144496",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V144554": {
+          "id": "V144554",
+          "indicator": "F",
+          "type": "TIME-DURATION-REL",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V144829",
+            "FIGURE": "#V144540",
+            "LEX": "FOR"
+          },
+          "start": 20,
+          "end": 29
+        },
+        "V144829": {
+          "id": "V144829",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V144600",
+            "LEX": "YEARS"
+          },
+          "start": 24,
+          "end": 29
+        },
+        "V144600": {
+          "id": "V144600",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "PLURAL",
+            "UNIT": "(:* YEAR-DURATION YEAR)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "YEARS"
+          },
+          "start": 24,
+          "end": 29
+        },
+        "root": "#V147253"
+      }
+    ]
+  ],
+  "sentence": "She had been trying for years. ",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190730T060752",
+    "link": "http://trips.ihmc.us/parser/saved/20190730T060752-STEP-abhatia-0-She_had_been_trying_for_years_.xml",
+    "judgement": 0
+  }
+}

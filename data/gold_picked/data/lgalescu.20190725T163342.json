@@ -1,0 +1,209 @@
+{
+  "parse": [
+    {
+      "V126549": {
+        "id": "V126549",
+        "indicator": "F",
+        "type": "PUT",
+        "word": "PUT",
+        "roles": {
+          "AFFECTED": "#V126586",
+          "LOCATION": "#V126598",
+          "VFORM": "PASSIVE"
+        },
+        "start": 0,
+        "end": 52
+      },
+      "V126586": {
+        "id": "V126586",
+        "indicator": "THE",
+        "type": "BLOCK",
+        "word": "BLOCK",
+        "roles": {},
+        "start": 4,
+        "end": 14
+      },
+      "V126598": {
+        "id": "V126598",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "WHERE",
+        "roles": {
+          "GROUND": "#V126625",
+          "FIGURE": "#V126549"
+        },
+        "start": 14,
+        "end": 52
+      },
+      "V126625": {
+        "id": "V126625",
+        "indicator": "F",
+        "type": "WANT",
+        "word": "WANT",
+        "roles": {
+          "EXPERIENCER": "#V126615",
+          "FORMAL": "#V126661",
+          "TENSE": "PAST"
+        },
+        "start": 20,
+        "end": 52
+      },
+      "V126615": {
+        "id": "V126615",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU"
+        },
+        "start": 20,
+        "end": 24
+      },
+      "V126661": {
+        "id": "V126661",
+        "indicator": "F",
+        "type": "SUBMIT",
+        "word": "PLACE",
+        "roles": {
+          "AGENT": "#V126615",
+          "AFFECTED": "#V126704",
+          "VFORM": "BASE"
+        },
+        "start": 31,
+        "end": 52
+      },
+      "V126704": {
+        "id": "V126704",
+        "indicator": "THE",
+        "type": "REFERENTIAL-SEM",
+        "word": "ONE",
+        "roles": {
+          "MOD": "#V126677"
+        },
+        "start": 40,
+        "end": 52
+      },
+      "V126677": {
+        "id": "V126677",
+        "indicator": "F",
+        "type": "LAST-VAL",
+        "word": "LAST",
+        "roles": {
+          "FIGURE": "#V126704",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE"
+        },
+        "start": 44,
+        "end": 49
+      },
+      "root": "#V126549"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V126549": {
+          "id": "V126549",
+          "indicator": "F",
+          "type": "PUT",
+          "word": "PUT",
+          "roles": {
+            "AFFECTED": "#V126586",
+            "LOCATION": "#V126598",
+            "VFORM": "PASSIVE"
+          },
+          "start": 0,
+          "end": 52
+        },
+        "V126586": {
+          "id": "V126586",
+          "indicator": "THE",
+          "type": "BLOCK",
+          "word": "BLOCK",
+          "roles": {},
+          "start": 4,
+          "end": 14
+        },
+        "V126598": {
+          "id": "V126598",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "WHERE",
+          "roles": {
+            "GROUND": "#V126626",
+            "FIGURE": "#V126549"
+          },
+          "start": 14,
+          "end": 52
+        },
+        "V126626": {
+          "id": "V126626",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "WANT",
+          "roles": {
+            "EXPERIENCER": "#V126615",
+            "FORMAL": "#V126661",
+            "TENSE": "PAST"
+          },
+          "start": 20,
+          "end": 52
+        },
+        "V126615": {
+          "id": "V126615",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "YOU",
+          "roles": {
+            "PROFORM": "YOU"
+          },
+          "start": 20,
+          "end": 24
+        },
+        "V126661": {
+          "id": "V126661",
+          "indicator": "F",
+          "type": "SUBMIT",
+          "word": "PLACE",
+          "roles": {
+            "AFFECTED": "#V126704",
+            "VFORM": "BASE"
+          },
+          "start": 31,
+          "end": 52
+        },
+        "V126704": {
+          "id": "V126704",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": "ONE",
+          "roles": {
+            "MOD": "#V126677"
+          },
+          "start": 40,
+          "end": 52
+        },
+        "V126677": {
+          "id": "V126677",
+          "indicator": "F",
+          "type": "LAST-VAL",
+          "word": "LAST",
+          "roles": {
+            "FIGURE": "#V126704",
+            "SCALE": "RELATIONAL-PROPERTY-SCALE"
+          },
+          "start": 44,
+          "end": 49
+        },
+        "root": "#V126549"
+      }
+    ]
+  ],
+  "sentence": "Put the block where you wanted to place the last one.",
+  "annotation": {
+    "judge": "lgalescu",
+    "parser": "COGENT",
+    "timestamp": "20190725T163342",
+    "link": "http://trips.ihmc.us/parser/saved/20190725T163342-COGENT-lgalescu-0-Put_the_block_where_you_wanted_to_place_.xml",
+    "judgement": 0
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "parse": [
+    {
+      "V178258": {
+        "id": "V178258",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V177566"
+        },
+        "start": 0,
+        "end": 51
+      },
+      "V177566": {
+        "id": "V177566",
+        "indicator": "F",
+        "type": "PHYSICAL-SCRUTINY",
+        "word": "MONITOR",
+        "roles": {
+          "AGENT": "#V177560",
+          "FORMAL": "#V177585",
+          "TIME": "#V177589",
+          "TENSE": "PAST"
+        },
+        "start": 0,
+        "end": 51
+      },
+      "V177560": {
+        "id": "V177560",
+        "indicator": "PRO-SET",
+        "type": "PERSON",
+        "word": "WE",
+        "roles": {
+          "PROFORM": "WE"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V177585": {
+        "id": "V177585",
+        "indicator": "THE",
+        "type": "ROAD",
+        "word": "ROAD",
+        "roles": {},
+        "start": 13,
+        "end": 22
+      },
+      "V177589": {
+        "id": "V177589",
+        "indicator": "F",
+        "type": "DURING",
+        "word": "DURING",
+        "roles": {
+          "GROUND": "#V177641",
+          "FIGURE": "#V177566"
+        },
+        "start": 22,
+        "end": 51
+      },
+      "V177641": {
+        "id": "V177641",
+        "indicator": "THE",
+        "type": "PART",
+        "word": "FIRST-HALF",
+        "roles": {
+          "MOD": "#V177645",
+          "WNSENSE": "first_half%1:28:00"
+        },
+        "start": 29,
+        "end": 51
+      },
+      "V177645": {
+        "id": "V177645",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V177659",
+          "FIGURE": "#V177641"
+        },
+        "start": 44,
+        "end": 51
+      },
+      "V177659": {
+        "id": "V177659",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "YEAR": "2018"
+        },
+        "start": 47,
+        "end": 51
+      },
+      "root": "#V178258"
+    }
+  ],
+  "alternatives": [],
+  "sentence": "We monitored the road during the first half of 2018.",
+  "annotation": {
+    "judge": "lgalescu",
+    "parser": "CWMS",
+    "timestamp": "20190701T152945",
+    "link": "http://trips.ihmc.us/parser/saved/20190701T152945-CWMS-lgalescu-0-We_monitored_the_road_during_the_first_h.xml",
+    "judgement": 0
+  }
+}

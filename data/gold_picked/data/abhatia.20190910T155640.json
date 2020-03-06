@@ -1,0 +1,877 @@
+{
+  "parse": [
+    {
+      "V70659": {
+        "id": "V70659",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V70326",
+          "FOCUS": "#V70370",
+          "LEX": "GO"
+        },
+        "start": 0,
+        "end": 27
+      },
+      "V70326": {
+        "id": "V70326",
+        "indicator": "F",
+        "type": "UNDERGO-ACTION",
+        "word": "GO",
+        "roles": {
+          "AFFECTED": "#V70312",
+          "METHOD": "#V70288",
+          "FREQUENCY": "#V70349",
+          "TENSE": "PRES",
+          "MODALITY": "(:* DO DO)",
+          "LEX": "GO",
+          "WNSENSE": "go_down%2:42:00"
+        },
+        "start": 0,
+        "end": 27
+      },
+      "V70288": {
+        "id": "V70288",
+        "indicator": "F",
+        "type": "BY-MEANS-OF",
+        "word": "HOW",
+        "roles": {
+          "GROUND": "#V70370",
+          "FIGURE": "#V70326",
+          "LEX": "HOW"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V70370": {
+        "id": "V70370",
+        "indicator": "WH-TERM",
+        "type": "METHOD",
+        "word": null,
+        "roles": {
+          "PROFORM": "HOW",
+          "SUCHTHAT": "#V70288"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V70312": {
+        "id": "V70312",
+        "indicator": "THE",
+        "type": "MUSIC",
+        "word": "SONG",
+        "roles": {
+          "PROFORM": "THIS",
+          "LEX": "SONG",
+          "WNSENSE": "song%1:10:00::"
+        },
+        "start": 9,
+        "end": 19
+      },
+      "V70349": {
+        "id": "V70349",
+        "indicator": "F",
+        "type": "AGAIN",
+        "word": "AGAIN",
+        "roles": {
+          "FIGURE": "#V70326",
+          "LEX": "AGAIN",
+          "WNSENSE": "again%4:02:00::"
+        },
+        "start": 22,
+        "end": 27
+      },
+      "root": "#V70659"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V70645": {
+          "id": "V70645",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "YNQ",
+            "CONTENT": "#V70326",
+            "FOCUS": "#V70370",
+            "MOD": "#V70350",
+            "LEX": "GO"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V70326": {
+          "id": "V70326",
+          "indicator": "F",
+          "type": "UNDERGO-ACTION",
+          "word": "GO",
+          "roles": {
+            "AFFECTED": "#V70312",
+            "METHOD": "#V70288",
+            "TENSE": "PRES",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "GO",
+            "WNSENSE": "go_down%2:42:00"
+          },
+          "start": 0,
+          "end": 22
+        },
+        "V70288": {
+          "id": "V70288",
+          "indicator": "F",
+          "type": "BY-MEANS-OF",
+          "word": "HOW",
+          "roles": {
+            "GROUND": "#V70370",
+            "FIGURE": "#V70326",
+            "LEX": "HOW"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V70370": {
+          "id": "V70370",
+          "indicator": "WH-TERM",
+          "type": "METHOD",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOW",
+            "SUCHTHAT": "#V70288"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V70312": {
+          "id": "V70312",
+          "indicator": "THE",
+          "type": "MUSIC",
+          "word": "SONG",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "SONG",
+            "WNSENSE": "song%1:10:00::"
+          },
+          "start": 9,
+          "end": 19
+        },
+        "V70350": {
+          "id": "V70350",
+          "indicator": "F",
+          "type": "AGAIN",
+          "word": "AGAIN",
+          "roles": {
+            "FIGURE": "#V70645",
+            "LEX": "AGAIN",
+            "WNSENSE": "again%4:02:00::"
+          },
+          "start": 22,
+          "end": 27
+        },
+        "root": "#V70645"
+      }
+    ],
+    [
+      {
+        "V70780": {
+          "id": "V70780",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "YNQ",
+            "CONTENT": "#V70330",
+            "FOCUS": "#V70373",
+            "LEX": "GO"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V70330": {
+          "id": "V70330",
+          "indicator": "F",
+          "type": "BECOME",
+          "word": "GO",
+          "roles": {
+            "AFFECTED": "#V70312",
+            "FORMAL": "#V70289",
+            "FREQUENCY": "#V70349",
+            "TENSE": "PRES",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "GO"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V70289": {
+          "id": "V70289",
+          "indicator": "F",
+          "type": "AT-SCALE-VALUE",
+          "word": "HOW",
+          "roles": {
+            "GROUND": "#V70373",
+            "FIGURE": "#V70312",
+            "LEX": "HOW"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V70373": {
+          "id": "V70373",
+          "indicator": "WH-TERM",
+          "type": "STATUS",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOW",
+            "SUCHTHAT": "#V70289"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V70312": {
+          "id": "V70312",
+          "indicator": "THE",
+          "type": "MUSIC",
+          "word": "SONG",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "SONG",
+            "WNSENSE": "song%1:10:00::"
+          },
+          "start": 9,
+          "end": 19
+        },
+        "V70349": {
+          "id": "V70349",
+          "indicator": "F",
+          "type": "AGAIN",
+          "word": "AGAIN",
+          "roles": {
+            "FIGURE": "#V70330",
+            "LEX": "AGAIN",
+            "WNSENSE": "again%4:02:00::"
+          },
+          "start": 22,
+          "end": 27
+        },
+        "root": "#V70780"
+      }
+    ],
+    [
+      {
+        "V70833": {
+          "id": "V70833",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "YNQ",
+            "CONTENT": "#V70332",
+            "FOCUS": "#V70370",
+            "LEX": "GO"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V70332": {
+          "id": "V70332",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "GO",
+          "roles": {
+            "AGENT": "#V70312",
+            "METHOD": "#V70288",
+            "FREQUENCY": "#V70349",
+            "TENSE": "PRES",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "GO",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V70288": {
+          "id": "V70288",
+          "indicator": "F",
+          "type": "BY-MEANS-OF",
+          "word": "HOW",
+          "roles": {
+            "GROUND": "#V70370",
+            "FIGURE": "#V70332",
+            "LEX": "HOW"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V70370": {
+          "id": "V70370",
+          "indicator": "WH-TERM",
+          "type": "METHOD",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOW",
+            "SUCHTHAT": "#V70288"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V70312": {
+          "id": "V70312",
+          "indicator": "THE",
+          "type": "MUSIC",
+          "word": "SONG",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "SONG",
+            "WNSENSE": "song%1:10:00::"
+          },
+          "start": 9,
+          "end": 19
+        },
+        "V70349": {
+          "id": "V70349",
+          "indicator": "F",
+          "type": "AGAIN",
+          "word": "AGAIN",
+          "roles": {
+            "FIGURE": "#V70332",
+            "LEX": "AGAIN",
+            "WNSENSE": "again%4:02:00::"
+          },
+          "start": 22,
+          "end": 27
+        },
+        "root": "#V70833"
+      }
+    ],
+    [
+      {
+        "V70796": {
+          "id": "V70796",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "YNQ",
+            "CONTENT": "#V70330",
+            "FOCUS": "#V70373",
+            "MOD": "#V70350",
+            "LEX": "GO"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V70330": {
+          "id": "V70330",
+          "indicator": "F",
+          "type": "BECOME",
+          "word": "GO",
+          "roles": {
+            "AFFECTED": "#V70312",
+            "FORMAL": "#V70289",
+            "TENSE": "PRES",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "GO"
+          },
+          "start": 0,
+          "end": 22
+        },
+        "V70289": {
+          "id": "V70289",
+          "indicator": "F",
+          "type": "AT-SCALE-VALUE",
+          "word": "HOW",
+          "roles": {
+            "GROUND": "#V70373",
+            "FIGURE": "#V70312",
+            "LEX": "HOW"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V70373": {
+          "id": "V70373",
+          "indicator": "WH-TERM",
+          "type": "STATUS",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOW",
+            "SUCHTHAT": "#V70289"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V70312": {
+          "id": "V70312",
+          "indicator": "THE",
+          "type": "MUSIC",
+          "word": "SONG",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "SONG",
+            "WNSENSE": "song%1:10:00::"
+          },
+          "start": 9,
+          "end": 19
+        },
+        "V70350": {
+          "id": "V70350",
+          "indicator": "F",
+          "type": "AGAIN",
+          "word": "AGAIN",
+          "roles": {
+            "FIGURE": "#V70796",
+            "LEX": "AGAIN",
+            "WNSENSE": "again%4:02:00::"
+          },
+          "start": 22,
+          "end": 27
+        },
+        "root": "#V70796"
+      }
+    ],
+    [
+      {
+        "V70659": {
+          "id": "V70659",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V70326",
+            "FOCUS": "#V70370",
+            "LEX": "GO"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V70326": {
+          "id": "V70326",
+          "indicator": "F",
+          "type": "UNDERGO-ACTION",
+          "word": "GO",
+          "roles": {
+            "AFFECTED": "#V70312",
+            "METHOD": "#V70288",
+            "FREQUENCY": "#V70349",
+            "TENSE": "PRES",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "GO",
+            "WNSENSE": "go_down%2:42:00"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V70288": {
+          "id": "V70288",
+          "indicator": "F",
+          "type": "BY-MEANS-OF",
+          "word": "HOW",
+          "roles": {
+            "GROUND": "#V70370",
+            "FIGURE": "#V70326",
+            "LEX": "HOW"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V70370": {
+          "id": "V70370",
+          "indicator": "WH-TERM",
+          "type": "METHOD",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOW",
+            "SUCHTHAT": "#V70288"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V70312": {
+          "id": "V70312",
+          "indicator": "THE",
+          "type": "MUSIC",
+          "word": "SONG",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "SONG",
+            "WNSENSE": "song%1:10:00::"
+          },
+          "start": 9,
+          "end": 19
+        },
+        "V70349": {
+          "id": "V70349",
+          "indicator": "F",
+          "type": "AGAIN",
+          "word": "AGAIN",
+          "roles": {
+            "FIGURE": "#V70326",
+            "LEX": "AGAIN",
+            "WNSENSE": "again%4:02:00::"
+          },
+          "start": 22,
+          "end": 27
+        },
+        "root": "#V70659"
+      }
+    ],
+    [
+      {
+        "V70922": {
+          "id": "V70922",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "YNQ",
+            "CONTENT": "#V70328",
+            "FOCUS": "#V70370",
+            "LEX": "GO"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V70328": {
+          "id": "V70328",
+          "indicator": "F",
+          "type": "OCCURRING",
+          "word": "GO",
+          "roles": {
+            "NEUTRAL": "#V70312",
+            "METHOD": "#V70288",
+            "FREQUENCY": "#V70349",
+            "TENSE": "PRES",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "GO",
+            "WNSENSE": "go%2:30:01::"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V70288": {
+          "id": "V70288",
+          "indicator": "F",
+          "type": "BY-MEANS-OF",
+          "word": "HOW",
+          "roles": {
+            "GROUND": "#V70370",
+            "FIGURE": "#V70328",
+            "LEX": "HOW"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V70370": {
+          "id": "V70370",
+          "indicator": "WH-TERM",
+          "type": "METHOD",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOW",
+            "SUCHTHAT": "#V70288"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V70312": {
+          "id": "V70312",
+          "indicator": "THE",
+          "type": "MUSIC",
+          "word": "SONG",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "SONG",
+            "WNSENSE": "song%1:10:00::"
+          },
+          "start": 9,
+          "end": 19
+        },
+        "V70349": {
+          "id": "V70349",
+          "indicator": "F",
+          "type": "AGAIN",
+          "word": "AGAIN",
+          "roles": {
+            "FIGURE": "#V70328",
+            "LEX": "AGAIN",
+            "WNSENSE": "again%4:02:00::"
+          },
+          "start": 22,
+          "end": 27
+        },
+        "root": "#V70922"
+      }
+    ],
+    [
+      {
+        "V70920": {
+          "id": "V70920",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "YNQ",
+            "CONTENT": "#V70327",
+            "FOCUS": "#V70370",
+            "LEX": "GO"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V70327": {
+          "id": "V70327",
+          "indicator": "F",
+          "type": "OCCURRING",
+          "word": "GO",
+          "roles": {
+            "NEUTRAL": "#V70312",
+            "METHOD": "#V70288",
+            "FREQUENCY": "#V70349",
+            "TENSE": "PRES",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "GO",
+            "WNSENSE": "go%2:30:01::"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V70288": {
+          "id": "V70288",
+          "indicator": "F",
+          "type": "BY-MEANS-OF",
+          "word": "HOW",
+          "roles": {
+            "GROUND": "#V70370",
+            "FIGURE": "#V70327",
+            "LEX": "HOW"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V70370": {
+          "id": "V70370",
+          "indicator": "WH-TERM",
+          "type": "METHOD",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOW",
+            "SUCHTHAT": "#V70288"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V70312": {
+          "id": "V70312",
+          "indicator": "THE",
+          "type": "MUSIC",
+          "word": "SONG",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "SONG",
+            "WNSENSE": "song%1:10:00::"
+          },
+          "start": 9,
+          "end": 19
+        },
+        "V70349": {
+          "id": "V70349",
+          "indicator": "F",
+          "type": "AGAIN",
+          "word": "AGAIN",
+          "roles": {
+            "FIGURE": "#V70327",
+            "LEX": "AGAIN",
+            "WNSENSE": "again%4:02:00::"
+          },
+          "start": 22,
+          "end": 27
+        },
+        "root": "#V70920"
+      }
+    ],
+    [
+      {
+        "V70875": {
+          "id": "V70875",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "YNQ",
+            "CONTENT": "#V70332",
+            "FOCUS": "#V70370",
+            "MOD": "#V70350",
+            "LEX": "GO"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V70332": {
+          "id": "V70332",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "GO",
+          "roles": {
+            "AGENT": "#V70312",
+            "METHOD": "#V70288",
+            "TENSE": "PRES",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "GO",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 0,
+          "end": 22
+        },
+        "V70288": {
+          "id": "V70288",
+          "indicator": "F",
+          "type": "BY-MEANS-OF",
+          "word": "HOW",
+          "roles": {
+            "GROUND": "#V70370",
+            "FIGURE": "#V70332",
+            "LEX": "HOW"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V70370": {
+          "id": "V70370",
+          "indicator": "WH-TERM",
+          "type": "METHOD",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOW",
+            "SUCHTHAT": "#V70288"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V70312": {
+          "id": "V70312",
+          "indicator": "THE",
+          "type": "MUSIC",
+          "word": "SONG",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "SONG",
+            "WNSENSE": "song%1:10:00::"
+          },
+          "start": 9,
+          "end": 19
+        },
+        "V70350": {
+          "id": "V70350",
+          "indicator": "F",
+          "type": "AGAIN",
+          "word": "AGAIN",
+          "roles": {
+            "FIGURE": "#V70875",
+            "LEX": "AGAIN",
+            "WNSENSE": "again%4:02:00::"
+          },
+          "start": 22,
+          "end": 27
+        },
+        "root": "#V70875"
+      }
+    ],
+    [
+      {
+        "V70945": {
+          "id": "V70945",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "YNQ",
+            "CONTENT": "#V70333",
+            "FOCUS": "#V70370",
+            "LEX": "GO"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V70333": {
+          "id": "V70333",
+          "indicator": "F",
+          "type": "SHOULD-BE-AT",
+          "word": "GO",
+          "roles": {
+            "NEUTRAL": "#V70312",
+            "LOCATION": "#V70288",
+            "FREQUENCY": "#V70349",
+            "TENSE": "PRES",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "GO"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V70288": {
+          "id": "V70288",
+          "indicator": "F",
+          "type": "BY-MEANS-OF",
+          "word": "HOW",
+          "roles": {
+            "GROUND": "#V70370",
+            "LEX": "HOW"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V70370": {
+          "id": "V70370",
+          "indicator": "WH-TERM",
+          "type": "METHOD",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOW",
+            "SUCHTHAT": "#V70288"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V70312": {
+          "id": "V70312",
+          "indicator": "THE",
+          "type": "MUSIC",
+          "word": "SONG",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "SONG",
+            "WNSENSE": "song%1:10:00::"
+          },
+          "start": 9,
+          "end": 19
+        },
+        "V70349": {
+          "id": "V70349",
+          "indicator": "F",
+          "type": "AGAIN",
+          "word": "AGAIN",
+          "roles": {
+            "FIGURE": "#V70333",
+            "LEX": "AGAIN",
+            "WNSENSE": "again%4:02:00::"
+          },
+          "start": 22,
+          "end": 27
+        },
+        "root": "#V70945"
+      }
+    ]
+  ],
+  "sentence": "How does this song go again?",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190910T155640",
+    "link": "http://trips.ihmc.us/parser/saved/20190910T155640-STEP-abhatia-6-How_does_this_song_go_again_.xml",
+    "judgement": 6
+  }
+}

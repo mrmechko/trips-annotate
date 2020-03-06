@@ -1,0 +1,15 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V52558 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V52233 [label=<<font color="green"><br /></font> <font color="black">BECOMING-AWARE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">NOTICE</font> <font color="green"><br /></font> <font color="green">notice%2:39:04::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BECOMING-AWARE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V52228 [label=<<font color="green"><br /></font> <font color="black">FEMALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">SHE</font> <font color="green"><br /></font> <font color="green">woman%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FEMALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V52310 [label=<<font color="green"><br /></font> <font color="black">ROTATE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">FLIP</font> <font color="green"><br /></font> <font color="green">flip%2:38:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ROTATE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V52288 [label=<<font color="green"><br /></font> <font color="black">CONTAINER</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">GARBAGE-CAN</font> <font color="green"><br /></font> <font color="green">garbage_can%1:06:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::CONTAINER.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V52558 -> V52233 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V52310 -> V52288 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V52233 -> V52228 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V52233 -> V52310 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

@@ -1,0 +1,19 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V128540 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V126236 [label=<<font color="green"><br /></font> <font color="black">APPEAR</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">APPEAR</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::APPEAR.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V126230 [label=<<font color="green"><br /></font> <font color="black">BOXCAR</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">CAR</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BOXCAR.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V126252 [label=<<font color="green"><br /></font> <font color="black">TIME-IN-REL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">IN</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TIME-IN-REL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V126321 [label=<<font color="green"><br /></font> <font color="black">EVENING</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">EVENING</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EVENING.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V126317 [label=<<font color="green"><br /></font> <font color="black">EARLY-IN-PROCESS</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">EARLY</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EARLY-IN-PROCESS.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V128540 -> V126236 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V126252 -> V126321 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V126236 -> V126252 [label=" TIME   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V126252 -> V126236 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V126317 -> V126321 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V126321 -> V126317 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V126236 -> V126230 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

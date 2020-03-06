@@ -1,0 +1,3234 @@
+{
+  "parse": [
+    {
+      "V59523": {
+        "id": "V59523",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V57711",
+          "FOCUS": "#V57915",
+          "LEX": "REMEMBER"
+        },
+        "start": 0,
+        "end": 35
+      },
+      "V57711": {
+        "id": "V57711",
+        "indicator": "F",
+        "type": "REMEMBER",
+        "word": "REMEMBER",
+        "roles": {
+          "AGENT": "#V57670",
+          "FORMAL": "#V57737",
+          "TENSE": "PAST",
+          "NEGATION": "+",
+          "MODALITY": "(:* DO DO)",
+          "LEX": "REMEMBER",
+          "WNSENSE": "remember%2:31:00::"
+        },
+        "start": 0,
+        "end": 35
+      },
+      "V57670": {
+        "id": "V57670",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V57737": {
+        "id": "V57737",
+        "indicator": "SM",
+        "type": "MONEY",
+        "word": "MONEY",
+        "roles": {
+          "QUANTITY": "#V57915",
+          "LEX": "MONEY",
+          "WNSENSE": "money%1:21:00::"
+        },
+        "start": 20,
+        "end": 35
+      },
+      "V57915": {
+        "id": "V57915",
+        "indicator": "WH-TERM",
+        "type": "QUANTITY",
+        "word": null,
+        "roles": {
+          "QUAN": "MUCH"
+        },
+        "start": 20,
+        "end": 35
+      },
+      "root": "#V59523"
+    },
+    {
+      "V58618": {
+        "id": "V58618",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V57748",
+          "LEX": "MAY"
+        },
+        "start": 35,
+        "end": 42
+      },
+      "V57748": {
+        "id": "V57748",
+        "indicator": "F",
+        "type": "ELLIPSIS",
+        "word": null,
+        "roles": {
+          "NEUTRAL": "#V57740",
+          "TENSE": "PRES",
+          "MODALITY": "(:* POSSIBILITY MAY)",
+          "LEX": "MAY"
+        },
+        "start": 35,
+        "end": 42
+      },
+      "V57740": {
+        "id": "V57740",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00",
+          "COREF": "#V57670"
+        },
+        "start": 35,
+        "end": 38
+      },
+      "root": "#V58618"
+    },
+    {
+      "V58576": {
+        "id": "V58576",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V57777",
+          "LEX": "BLOWN"
+        },
+        "start": 42,
+        "end": 58
+      },
+      "V57777": {
+        "id": "V57777",
+        "indicator": "F",
+        "type": "BLOW",
+        "word": "BLOW",
+        "roles": {
+          "AGENT": "#V58577",
+          "MOD": "#V57879",
+          "TENSE": "PRES",
+          "PERF": "+",
+          "LEX": "BLOWN",
+          "WNSENSE": "blow%2:29:00::"
+        },
+        "start": 42,
+        "end": 58
+      },
+      "V58577": {
+        "id": "V58577",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ",
+          "COREF": "#V57670"
+        },
+        "start": 42,
+        "end": 58
+      },
+      "V57879": {
+        "id": "V57879",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "ON-IT",
+        "roles": {
+          "FIGURE": "#V57777",
+          "LEX": "ON-IT",
+          "WNSENSE": "on_it%4:02:00"
+        },
+        "start": 53,
+        "end": 58
+      },
+      "root": "#V58576"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V59514": {
+          "id": "V59514",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57711",
+            "FOCUS": "#V57915",
+            "LEX": "REMEMBER"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V57711": {
+          "id": "V57711",
+          "indicator": "F",
+          "type": "REMEMBER",
+          "word": "REMEMBER",
+          "roles": {
+            "AGENT": "#V57670",
+            "FORMAL": "#V57737",
+            "TENSE": "PAST",
+            "NEGATION": "+",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "REMEMBER",
+            "WNSENSE": "remember%2:31:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V57670": {
+          "id": "V57670",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V57737": {
+          "id": "V57737",
+          "indicator": "SM",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "QUANTITY": "#V57915",
+            "LEX": "MONEY",
+            "WNSENSE": "money%1:21:00::"
+          },
+          "start": 20,
+          "end": 35
+        },
+        "V57915": {
+          "id": "V57915",
+          "indicator": "WH-TERM",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "QUAN": "MUCH"
+          },
+          "start": 20,
+          "end": 35
+        },
+        "root": "#V59514"
+      },
+      {
+        "V58618": {
+          "id": "V58618",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57748",
+            "LEX": "MAY"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "V57748": {
+          "id": "V57748",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V57740",
+            "TENSE": "PRES",
+            "MODALITY": "(:* POSSIBILITY MAY)",
+            "LEX": "MAY"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "V57740": {
+          "id": "V57740",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "root": "#V58618"
+      },
+      {
+        "V58576": {
+          "id": "V58576",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V57777",
+            "LEX": "BLOWN"
+          },
+          "start": 42,
+          "end": 59
+        },
+        "V57777": {
+          "id": "V57777",
+          "indicator": "F",
+          "type": "BLOW",
+          "word": "BLOW",
+          "roles": {
+            "AGENT": "#V58577",
+            "MOD": "#V57879",
+            "TENSE": "PRES",
+            "PERF": "+",
+            "LEX": "BLOWN",
+            "WNSENSE": "blow%2:29:00::"
+          },
+          "start": 42,
+          "end": 58
+        },
+        "V58577": {
+          "id": "V58577",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 42,
+          "end": 58
+        },
+        "V57879": {
+          "id": "V57879",
+          "indicator": "F",
+          "type": "PREDICATE",
+          "word": "ON-IT",
+          "roles": {
+            "FIGURE": "#V57777",
+            "LEX": "ON-IT",
+            "WNSENSE": "on_it%4:02:00"
+          },
+          "start": 53,
+          "end": 58
+        },
+        "root": "#V58576"
+      }
+    ],
+    [
+      {
+        "V59523": {
+          "id": "V59523",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57711",
+            "FOCUS": "#V57915",
+            "LEX": "REMEMBER"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V57711": {
+          "id": "V57711",
+          "indicator": "F",
+          "type": "REMEMBER",
+          "word": "REMEMBER",
+          "roles": {
+            "AGENT": "#V57670",
+            "FORMAL": "#V57737",
+            "TENSE": "PAST",
+            "NEGATION": "+",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "REMEMBER",
+            "WNSENSE": "remember%2:31:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V57670": {
+          "id": "V57670",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V57737": {
+          "id": "V57737",
+          "indicator": "SM",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "QUANTITY": "#V57915",
+            "LEX": "MONEY",
+            "WNSENSE": "money%1:21:00::"
+          },
+          "start": 20,
+          "end": 35
+        },
+        "V57915": {
+          "id": "V57915",
+          "indicator": "WH-TERM",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "QUAN": "MUCH"
+          },
+          "start": 20,
+          "end": 35
+        },
+        "root": "#V59523"
+      },
+      {
+        "V58618": {
+          "id": "V58618",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57748",
+            "LEX": "MAY"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "V57748": {
+          "id": "V57748",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V57740",
+            "TENSE": "PRES",
+            "MODALITY": "(:* POSSIBILITY MAY)",
+            "LEX": "MAY"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "V57740": {
+          "id": "V57740",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "root": "#V58618"
+      },
+      {
+        "V59123": {
+          "id": "V59123",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V57777",
+            "LEX": "BLOWN"
+          },
+          "start": 42,
+          "end": 59
+        },
+        "V57777": {
+          "id": "V57777",
+          "indicator": "F",
+          "type": "BLOW",
+          "word": "BLOW",
+          "roles": {
+            "RESULT": "#V57789",
+            "AGENT": "#V59124",
+            "TENSE": "PRES",
+            "PERF": "+",
+            "LEX": "BLOWN",
+            "WNSENSE": "blow%2:29:00::"
+          },
+          "start": 42,
+          "end": 58
+        },
+        "V59124": {
+          "id": "V59124",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 42,
+          "end": 58
+        },
+        "V57789": {
+          "id": "V57789",
+          "indicator": "F",
+          "type": "ON",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V57811",
+            "FIGURE": "#V59124",
+            "LEX": "ON"
+          },
+          "start": 53,
+          "end": 58
+        },
+        "V57811": {
+          "id": "V57811",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 56,
+          "end": 58
+        },
+        "root": "#V59123"
+      }
+    ],
+    [
+      {
+        "V59514": {
+          "id": "V59514",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57711",
+            "FOCUS": "#V57915",
+            "LEX": "REMEMBER"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V57711": {
+          "id": "V57711",
+          "indicator": "F",
+          "type": "REMEMBER",
+          "word": "REMEMBER",
+          "roles": {
+            "AGENT": "#V57670",
+            "FORMAL": "#V57737",
+            "TENSE": "PAST",
+            "NEGATION": "+",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "REMEMBER",
+            "WNSENSE": "remember%2:31:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V57670": {
+          "id": "V57670",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V57737": {
+          "id": "V57737",
+          "indicator": "SM",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "QUANTITY": "#V57915",
+            "LEX": "MONEY",
+            "WNSENSE": "money%1:21:00::"
+          },
+          "start": 20,
+          "end": 35
+        },
+        "V57915": {
+          "id": "V57915",
+          "indicator": "WH-TERM",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "QUAN": "MUCH"
+          },
+          "start": 20,
+          "end": 35
+        },
+        "root": "#V59514"
+      },
+      {
+        "V58618": {
+          "id": "V58618",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57748",
+            "LEX": "MAY"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "V57748": {
+          "id": "V57748",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V57740",
+            "TENSE": "PRES",
+            "MODALITY": "(:* POSSIBILITY MAY)",
+            "LEX": "MAY"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "V57740": {
+          "id": "V57740",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "root": "#V58618"
+      },
+      {
+        "V59123": {
+          "id": "V59123",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V57777",
+            "LEX": "BLOWN"
+          },
+          "start": 42,
+          "end": 59
+        },
+        "V57777": {
+          "id": "V57777",
+          "indicator": "F",
+          "type": "BLOW",
+          "word": "BLOW",
+          "roles": {
+            "RESULT": "#V57789",
+            "AGENT": "#V59124",
+            "TENSE": "PRES",
+            "PERF": "+",
+            "LEX": "BLOWN",
+            "WNSENSE": "blow%2:29:00::"
+          },
+          "start": 42,
+          "end": 58
+        },
+        "V59124": {
+          "id": "V59124",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 42,
+          "end": 58
+        },
+        "V57789": {
+          "id": "V57789",
+          "indicator": "F",
+          "type": "ON",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V57811",
+            "FIGURE": "#V59124",
+            "LEX": "ON"
+          },
+          "start": 53,
+          "end": 58
+        },
+        "V57811": {
+          "id": "V57811",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 56,
+          "end": 58
+        },
+        "root": "#V59123"
+      }
+    ],
+    [
+      {
+        "V59523": {
+          "id": "V59523",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57711",
+            "FOCUS": "#V57915",
+            "LEX": "REMEMBER"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V57711": {
+          "id": "V57711",
+          "indicator": "F",
+          "type": "REMEMBER",
+          "word": "REMEMBER",
+          "roles": {
+            "AGENT": "#V57670",
+            "FORMAL": "#V57737",
+            "TENSE": "PAST",
+            "NEGATION": "+",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "REMEMBER",
+            "WNSENSE": "remember%2:31:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V57670": {
+          "id": "V57670",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V57737": {
+          "id": "V57737",
+          "indicator": "SM",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "QUANTITY": "#V57915",
+            "LEX": "MONEY",
+            "WNSENSE": "money%1:21:00::"
+          },
+          "start": 20,
+          "end": 35
+        },
+        "V57915": {
+          "id": "V57915",
+          "indicator": "WH-TERM",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "QUAN": "MUCH"
+          },
+          "start": 20,
+          "end": 35
+        },
+        "root": "#V59523"
+      },
+      {
+        "V58618": {
+          "id": "V58618",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57748",
+            "LEX": "MAY"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "V57748": {
+          "id": "V57748",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V57740",
+            "TENSE": "PRES",
+            "MODALITY": "(:* POSSIBILITY MAY)",
+            "LEX": "MAY"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "V57740": {
+          "id": "V57740",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "root": "#V58618"
+      },
+      {
+        "V59258": {
+          "id": "V59258",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V57777",
+            "LEX": "BLOWN"
+          },
+          "start": 42,
+          "end": 59
+        },
+        "V57777": {
+          "id": "V57777",
+          "indicator": "F",
+          "type": "BLOW",
+          "word": "BLOW",
+          "roles": {
+            "AGENT": "#V59259",
+            "RESULT": "#V57789",
+            "TENSE": "PRES",
+            "PERF": "+",
+            "LEX": "BLOWN",
+            "WNSENSE": "blow%2:29:00::"
+          },
+          "start": 42,
+          "end": 58
+        },
+        "V59259": {
+          "id": "V59259",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 42,
+          "end": 58
+        },
+        "V57789": {
+          "id": "V57789",
+          "indicator": "F",
+          "type": "ON",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V57811",
+            "FIGURE": "#V57777",
+            "LEX": "ON"
+          },
+          "start": 53,
+          "end": 58
+        },
+        "V57811": {
+          "id": "V57811",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 56,
+          "end": 58
+        },
+        "root": "#V59258"
+      }
+    ],
+    [
+      {
+        "V59523": {
+          "id": "V59523",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57711",
+            "FOCUS": "#V57915",
+            "LEX": "REMEMBER"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V57711": {
+          "id": "V57711",
+          "indicator": "F",
+          "type": "REMEMBER",
+          "word": "REMEMBER",
+          "roles": {
+            "AGENT": "#V57670",
+            "FORMAL": "#V57737",
+            "TENSE": "PAST",
+            "NEGATION": "+",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "REMEMBER",
+            "WNSENSE": "remember%2:31:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V57670": {
+          "id": "V57670",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V57737": {
+          "id": "V57737",
+          "indicator": "SM",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "QUANTITY": "#V57915",
+            "LEX": "MONEY",
+            "WNSENSE": "money%1:21:00::"
+          },
+          "start": 20,
+          "end": 35
+        },
+        "V57915": {
+          "id": "V57915",
+          "indicator": "WH-TERM",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "QUAN": "MUCH"
+          },
+          "start": 20,
+          "end": 35
+        },
+        "root": "#V59523"
+      },
+      {
+        "V58618": {
+          "id": "V58618",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57748",
+            "LEX": "MAY"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "V57748": {
+          "id": "V57748",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V57740",
+            "TENSE": "PRES",
+            "MODALITY": "(:* POSSIBILITY MAY)",
+            "LEX": "MAY"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "V57740": {
+          "id": "V57740",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "root": "#V58618"
+      },
+      {
+        "V59219": {
+          "id": "V59219",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V57777",
+            "LEX": "BLOWN"
+          },
+          "start": 42,
+          "end": 59
+        },
+        "V57777": {
+          "id": "V57777",
+          "indicator": "F",
+          "type": "BLOW",
+          "word": "BLOW",
+          "roles": {
+            "RESULT": "#V57790",
+            "AGENT": "#V59220",
+            "TENSE": "PRES",
+            "PERF": "+",
+            "LEX": "BLOWN",
+            "WNSENSE": "blow%2:29:00::"
+          },
+          "start": 42,
+          "end": 58
+        },
+        "V59220": {
+          "id": "V59220",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 42,
+          "end": 58
+        },
+        "V57790": {
+          "id": "V57790",
+          "indicator": "F",
+          "type": "ON-MEDICATION",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V57811",
+            "FIGURE": "#V59220",
+            "LEX": "ON",
+            "WNSENSE": "on%4:02:00::"
+          },
+          "start": 53,
+          "end": 58
+        },
+        "V57811": {
+          "id": "V57811",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 56,
+          "end": 58
+        },
+        "root": "#V59219"
+      }
+    ],
+    [
+      {
+        "V59514": {
+          "id": "V59514",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57711",
+            "FOCUS": "#V57915",
+            "LEX": "REMEMBER"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V57711": {
+          "id": "V57711",
+          "indicator": "F",
+          "type": "REMEMBER",
+          "word": "REMEMBER",
+          "roles": {
+            "AGENT": "#V57670",
+            "FORMAL": "#V57737",
+            "TENSE": "PAST",
+            "NEGATION": "+",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "REMEMBER",
+            "WNSENSE": "remember%2:31:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V57670": {
+          "id": "V57670",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V57737": {
+          "id": "V57737",
+          "indicator": "SM",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "QUANTITY": "#V57915",
+            "LEX": "MONEY",
+            "WNSENSE": "money%1:21:00::"
+          },
+          "start": 20,
+          "end": 35
+        },
+        "V57915": {
+          "id": "V57915",
+          "indicator": "WH-TERM",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "QUAN": "MUCH"
+          },
+          "start": 20,
+          "end": 35
+        },
+        "root": "#V59514"
+      },
+      {
+        "V58618": {
+          "id": "V58618",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57748",
+            "LEX": "MAY"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "V57748": {
+          "id": "V57748",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V57740",
+            "TENSE": "PRES",
+            "MODALITY": "(:* POSSIBILITY MAY)",
+            "LEX": "MAY"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "V57740": {
+          "id": "V57740",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "root": "#V58618"
+      },
+      {
+        "V59258": {
+          "id": "V59258",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V57777",
+            "LEX": "BLOWN"
+          },
+          "start": 42,
+          "end": 59
+        },
+        "V57777": {
+          "id": "V57777",
+          "indicator": "F",
+          "type": "BLOW",
+          "word": "BLOW",
+          "roles": {
+            "AGENT": "#V59259",
+            "RESULT": "#V57789",
+            "TENSE": "PRES",
+            "PERF": "+",
+            "LEX": "BLOWN",
+            "WNSENSE": "blow%2:29:00::"
+          },
+          "start": 42,
+          "end": 58
+        },
+        "V59259": {
+          "id": "V59259",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 42,
+          "end": 58
+        },
+        "V57789": {
+          "id": "V57789",
+          "indicator": "F",
+          "type": "ON",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V57811",
+            "FIGURE": "#V57777",
+            "LEX": "ON"
+          },
+          "start": 53,
+          "end": 58
+        },
+        "V57811": {
+          "id": "V57811",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 56,
+          "end": 58
+        },
+        "root": "#V59258"
+      }
+    ],
+    [
+      {
+        "V59514": {
+          "id": "V59514",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57711",
+            "FOCUS": "#V57915",
+            "LEX": "REMEMBER"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V57711": {
+          "id": "V57711",
+          "indicator": "F",
+          "type": "REMEMBER",
+          "word": "REMEMBER",
+          "roles": {
+            "AGENT": "#V57670",
+            "FORMAL": "#V57737",
+            "TENSE": "PAST",
+            "NEGATION": "+",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "REMEMBER",
+            "WNSENSE": "remember%2:31:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V57670": {
+          "id": "V57670",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V57737": {
+          "id": "V57737",
+          "indicator": "SM",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "QUANTITY": "#V57915",
+            "LEX": "MONEY",
+            "WNSENSE": "money%1:21:00::"
+          },
+          "start": 20,
+          "end": 35
+        },
+        "V57915": {
+          "id": "V57915",
+          "indicator": "WH-TERM",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "QUAN": "MUCH"
+          },
+          "start": 20,
+          "end": 35
+        },
+        "root": "#V59514"
+      },
+      {
+        "V58618": {
+          "id": "V58618",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57748",
+            "LEX": "MAY"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "V57748": {
+          "id": "V57748",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V57740",
+            "TENSE": "PRES",
+            "MODALITY": "(:* POSSIBILITY MAY)",
+            "LEX": "MAY"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "V57740": {
+          "id": "V57740",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "root": "#V58618"
+      },
+      {
+        "V59219": {
+          "id": "V59219",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V57777",
+            "LEX": "BLOWN"
+          },
+          "start": 42,
+          "end": 59
+        },
+        "V57777": {
+          "id": "V57777",
+          "indicator": "F",
+          "type": "BLOW",
+          "word": "BLOW",
+          "roles": {
+            "RESULT": "#V57790",
+            "AGENT": "#V59220",
+            "TENSE": "PRES",
+            "PERF": "+",
+            "LEX": "BLOWN",
+            "WNSENSE": "blow%2:29:00::"
+          },
+          "start": 42,
+          "end": 58
+        },
+        "V59220": {
+          "id": "V59220",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 42,
+          "end": 58
+        },
+        "V57790": {
+          "id": "V57790",
+          "indicator": "F",
+          "type": "ON-MEDICATION",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V57811",
+            "FIGURE": "#V59220",
+            "LEX": "ON",
+            "WNSENSE": "on%4:02:00::"
+          },
+          "start": 53,
+          "end": 58
+        },
+        "V57811": {
+          "id": "V57811",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 56,
+          "end": 58
+        },
+        "root": "#V59219"
+      }
+    ],
+    [
+      {
+        "V59523": {
+          "id": "V59523",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57711",
+            "FOCUS": "#V57915",
+            "LEX": "REMEMBER"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V57711": {
+          "id": "V57711",
+          "indicator": "F",
+          "type": "REMEMBER",
+          "word": "REMEMBER",
+          "roles": {
+            "AGENT": "#V57670",
+            "FORMAL": "#V57737",
+            "TENSE": "PAST",
+            "NEGATION": "+",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "REMEMBER",
+            "WNSENSE": "remember%2:31:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V57670": {
+          "id": "V57670",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V57737": {
+          "id": "V57737",
+          "indicator": "SM",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "QUANTITY": "#V57915",
+            "LEX": "MONEY",
+            "WNSENSE": "money%1:21:00::"
+          },
+          "start": 20,
+          "end": 35
+        },
+        "V57915": {
+          "id": "V57915",
+          "indicator": "WH-TERM",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "QUAN": "MUCH"
+          },
+          "start": 20,
+          "end": 35
+        },
+        "root": "#V59523"
+      },
+      {
+        "V58618": {
+          "id": "V58618",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57748",
+            "LEX": "MAY"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "V57748": {
+          "id": "V57748",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V57740",
+            "TENSE": "PRES",
+            "MODALITY": "(:* POSSIBILITY MAY)",
+            "LEX": "MAY"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "V57740": {
+          "id": "V57740",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "root": "#V58618"
+      },
+      {
+        "V59375": {
+          "id": "V59375",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V57777",
+            "LEX": "BLOWN"
+          },
+          "start": 42,
+          "end": 59
+        },
+        "V57777": {
+          "id": "V57777",
+          "indicator": "F",
+          "type": "BLOW",
+          "word": "BLOW",
+          "roles": {
+            "RESULT": "#V57791",
+            "AGENT": "#V59376",
+            "TENSE": "PRES",
+            "PERF": "+",
+            "LEX": "BLOWN",
+            "WNSENSE": "blow%2:29:00::"
+          },
+          "start": 42,
+          "end": 58
+        },
+        "V59376": {
+          "id": "V59376",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 42,
+          "end": 58
+        },
+        "V57791": {
+          "id": "V57791",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V57811",
+            "FIGURE": "#V59376",
+            "LEX": "ON",
+            "WNSENSE": "on%4:02:00::"
+          },
+          "start": 53,
+          "end": 58
+        },
+        "V57811": {
+          "id": "V57811",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 56,
+          "end": 58
+        },
+        "root": "#V59375"
+      }
+    ],
+    [
+      {
+        "V59514": {
+          "id": "V59514",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57711",
+            "FOCUS": "#V57915",
+            "LEX": "REMEMBER"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V57711": {
+          "id": "V57711",
+          "indicator": "F",
+          "type": "REMEMBER",
+          "word": "REMEMBER",
+          "roles": {
+            "AGENT": "#V57670",
+            "FORMAL": "#V57737",
+            "TENSE": "PAST",
+            "NEGATION": "+",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "REMEMBER",
+            "WNSENSE": "remember%2:31:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V57670": {
+          "id": "V57670",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V57737": {
+          "id": "V57737",
+          "indicator": "SM",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "QUANTITY": "#V57915",
+            "LEX": "MONEY",
+            "WNSENSE": "money%1:21:00::"
+          },
+          "start": 20,
+          "end": 35
+        },
+        "V57915": {
+          "id": "V57915",
+          "indicator": "WH-TERM",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "QUAN": "MUCH"
+          },
+          "start": 20,
+          "end": 35
+        },
+        "root": "#V59514"
+      },
+      {
+        "V58618": {
+          "id": "V58618",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57748",
+            "LEX": "MAY"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "V57748": {
+          "id": "V57748",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V57740",
+            "TENSE": "PRES",
+            "MODALITY": "(:* POSSIBILITY MAY)",
+            "LEX": "MAY"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "V57740": {
+          "id": "V57740",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "root": "#V58618"
+      },
+      {
+        "V59375": {
+          "id": "V59375",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V57777",
+            "LEX": "BLOWN"
+          },
+          "start": 42,
+          "end": 59
+        },
+        "V57777": {
+          "id": "V57777",
+          "indicator": "F",
+          "type": "BLOW",
+          "word": "BLOW",
+          "roles": {
+            "RESULT": "#V57791",
+            "AGENT": "#V59376",
+            "TENSE": "PRES",
+            "PERF": "+",
+            "LEX": "BLOWN",
+            "WNSENSE": "blow%2:29:00::"
+          },
+          "start": 42,
+          "end": 58
+        },
+        "V59376": {
+          "id": "V59376",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 42,
+          "end": 58
+        },
+        "V57791": {
+          "id": "V57791",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V57811",
+            "FIGURE": "#V59376",
+            "LEX": "ON",
+            "WNSENSE": "on%4:02:00::"
+          },
+          "start": 53,
+          "end": 58
+        },
+        "V57811": {
+          "id": "V57811",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 56,
+          "end": 58
+        },
+        "root": "#V59375"
+      }
+    ],
+    [
+      {
+        "V59523": {
+          "id": "V59523",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57711",
+            "FOCUS": "#V57915",
+            "LEX": "REMEMBER"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V57711": {
+          "id": "V57711",
+          "indicator": "F",
+          "type": "REMEMBER",
+          "word": "REMEMBER",
+          "roles": {
+            "AGENT": "#V57670",
+            "FORMAL": "#V57737",
+            "TENSE": "PAST",
+            "NEGATION": "+",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "REMEMBER",
+            "WNSENSE": "remember%2:31:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V57670": {
+          "id": "V57670",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V57737": {
+          "id": "V57737",
+          "indicator": "SM",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "QUANTITY": "#V57915",
+            "LEX": "MONEY",
+            "WNSENSE": "money%1:21:00::"
+          },
+          "start": 20,
+          "end": 35
+        },
+        "V57915": {
+          "id": "V57915",
+          "indicator": "WH-TERM",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "QUAN": "MUCH"
+          },
+          "start": 20,
+          "end": 35
+        },
+        "root": "#V59523"
+      },
+      {
+        "V58618": {
+          "id": "V58618",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57748",
+            "LEX": "MAY"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "V57748": {
+          "id": "V57748",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V57740",
+            "TENSE": "PRES",
+            "MODALITY": "(:* POSSIBILITY MAY)",
+            "LEX": "MAY"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "V57740": {
+          "id": "V57740",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "root": "#V58618"
+      },
+      {
+        "V60478": {
+          "id": "V60478",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V57777",
+            "LEX": "BLOWN"
+          },
+          "start": 42,
+          "end": 59
+        },
+        "V57777": {
+          "id": "V57777",
+          "indicator": "F",
+          "type": "BLOW",
+          "word": "BLOW",
+          "roles": {
+            "RESULT": "#V57789",
+            "AGENT": "#V60479",
+            "TENSE": "PRES",
+            "PERF": "+",
+            "LEX": "BLOWN",
+            "WNSENSE": "blow%2:29:00::"
+          },
+          "start": 42,
+          "end": 58
+        },
+        "V60479": {
+          "id": "V60479",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 42,
+          "end": 58
+        },
+        "V57789": {
+          "id": "V57789",
+          "indicator": "F",
+          "type": "ON",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V57812",
+            "FIGURE": "#V60479",
+            "LEX": "ON"
+          },
+          "start": 53,
+          "end": 58
+        },
+        "V57812": {
+          "id": "V57812",
+          "indicator": "PRO",
+          "type": "EXPLETIVE",
+          "word": null,
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT"
+          },
+          "start": 56,
+          "end": 58
+        },
+        "root": "#V60478"
+      }
+    ],
+    [
+      {
+        "V59514": {
+          "id": "V59514",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57711",
+            "FOCUS": "#V57915",
+            "LEX": "REMEMBER"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V57711": {
+          "id": "V57711",
+          "indicator": "F",
+          "type": "REMEMBER",
+          "word": "REMEMBER",
+          "roles": {
+            "AGENT": "#V57670",
+            "FORMAL": "#V57737",
+            "TENSE": "PAST",
+            "NEGATION": "+",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "REMEMBER",
+            "WNSENSE": "remember%2:31:00::"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V57670": {
+          "id": "V57670",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V57737": {
+          "id": "V57737",
+          "indicator": "SM",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "QUANTITY": "#V57915",
+            "LEX": "MONEY",
+            "WNSENSE": "money%1:21:00::"
+          },
+          "start": 20,
+          "end": 35
+        },
+        "V57915": {
+          "id": "V57915",
+          "indicator": "WH-TERM",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "QUAN": "MUCH"
+          },
+          "start": 20,
+          "end": 35
+        },
+        "root": "#V59514"
+      },
+      {
+        "V58618": {
+          "id": "V58618",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57748",
+            "LEX": "MAY"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "V57748": {
+          "id": "V57748",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V57740",
+            "TENSE": "PRES",
+            "MODALITY": "(:* POSSIBILITY MAY)",
+            "LEX": "MAY"
+          },
+          "start": 35,
+          "end": 42
+        },
+        "V57740": {
+          "id": "V57740",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "root": "#V58618"
+      },
+      {
+        "V60478": {
+          "id": "V60478",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V57777",
+            "LEX": "BLOWN"
+          },
+          "start": 42,
+          "end": 59
+        },
+        "V57777": {
+          "id": "V57777",
+          "indicator": "F",
+          "type": "BLOW",
+          "word": "BLOW",
+          "roles": {
+            "RESULT": "#V57789",
+            "AGENT": "#V60479",
+            "TENSE": "PRES",
+            "PERF": "+",
+            "LEX": "BLOWN",
+            "WNSENSE": "blow%2:29:00::"
+          },
+          "start": 42,
+          "end": 58
+        },
+        "V60479": {
+          "id": "V60479",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 42,
+          "end": 58
+        },
+        "V57789": {
+          "id": "V57789",
+          "indicator": "F",
+          "type": "ON",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V57812",
+            "FIGURE": "#V60479",
+            "LEX": "ON"
+          },
+          "start": 53,
+          "end": 58
+        },
+        "V57812": {
+          "id": "V57812",
+          "indicator": "PRO",
+          "type": "EXPLETIVE",
+          "word": null,
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT"
+          },
+          "start": 56,
+          "end": 58
+        },
+        "root": "#V60478"
+      }
+    ],
+    [
+      {
+        "V59466": {
+          "id": "V59466",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57711",
+            "LEX": "REMEMBER"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V57711": {
+          "id": "V57711",
+          "indicator": "F",
+          "type": "REMEMBER",
+          "word": "REMEMBER",
+          "roles": {
+            "AGENT": "#V57670",
+            "FORMAL": "#V57737",
+            "TENSE": "PAST",
+            "NEGATION": "+",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "REMEMBER",
+            "WNSENSE": "remember%2:31:00::"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V57670": {
+          "id": "V57670",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V57737": {
+          "id": "V57737",
+          "indicator": "SM",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "SUCHTHAT": "#V57759",
+            "QUANTITY": "#V57915",
+            "LEX": "MONEY",
+            "WNSENSE": "money%1:21:00::"
+          },
+          "start": 20,
+          "end": 47
+        },
+        "V57915": {
+          "id": "V57915",
+          "indicator": "WH-TERM",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "QUAN": "MUCH"
+          },
+          "start": 20,
+          "end": 47
+        },
+        "V57759": {
+          "id": "V57759",
+          "indicator": "F",
+          "type": "HAVE",
+          "word": "HAVE",
+          "roles": {
+            "NEUTRAL": "#V57740",
+            "NEUTRAL1": "#V57737",
+            "TENSE": "PRES",
+            "MODALITY": "(:* POSSIBILITY MAY)",
+            "LEX": "HAVE",
+            "WNSENSE": "have%2:40:00::"
+          },
+          "start": 35,
+          "end": 47
+        },
+        "V57740": {
+          "id": "V57740",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "root": "#V59466"
+      },
+      {
+        "V57776": {
+          "id": "V57776",
+          "indicator": "F",
+          "type": "ATMOSPHERIC-EVENT",
+          "word": "BLOW",
+          "roles": {
+            "MOD": "#V57879",
+            "VFORM": "PASTPART",
+            "LEX": "BLOWN",
+            "WNSENSE": "blow%2:43:00::"
+          },
+          "start": 47,
+          "end": 58
+        },
+        "V57879": {
+          "id": "V57879",
+          "indicator": "F",
+          "type": "PREDICATE",
+          "word": "ON-IT",
+          "roles": {
+            "FIGURE": "#V57776",
+            "LEX": "ON-IT",
+            "WNSENSE": "on_it%4:02:00"
+          },
+          "start": 53,
+          "end": 58
+        },
+        "root": "#V57776"
+      }
+    ],
+    [
+      {
+        "V59466": {
+          "id": "V59466",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57711",
+            "LEX": "REMEMBER"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V57711": {
+          "id": "V57711",
+          "indicator": "F",
+          "type": "REMEMBER",
+          "word": "REMEMBER",
+          "roles": {
+            "AGENT": "#V57670",
+            "FORMAL": "#V57737",
+            "TENSE": "PAST",
+            "NEGATION": "+",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "REMEMBER",
+            "WNSENSE": "remember%2:31:00::"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V57670": {
+          "id": "V57670",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V57737": {
+          "id": "V57737",
+          "indicator": "SM",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "SUCHTHAT": "#V57759",
+            "QUANTITY": "#V57915",
+            "LEX": "MONEY",
+            "WNSENSE": "money%1:21:00::"
+          },
+          "start": 20,
+          "end": 47
+        },
+        "V57915": {
+          "id": "V57915",
+          "indicator": "WH-TERM",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "QUAN": "MUCH"
+          },
+          "start": 20,
+          "end": 47
+        },
+        "V57759": {
+          "id": "V57759",
+          "indicator": "F",
+          "type": "HAVE",
+          "word": "HAVE",
+          "roles": {
+            "NEUTRAL": "#V57740",
+            "NEUTRAL1": "#V57737",
+            "TENSE": "PRES",
+            "MODALITY": "(:* POSSIBILITY MAY)",
+            "LEX": "HAVE",
+            "WNSENSE": "have%2:40:00::"
+          },
+          "start": 35,
+          "end": 47
+        },
+        "V57740": {
+          "id": "V57740",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "root": "#V59466"
+      },
+      {
+        "V57777": {
+          "id": "V57777",
+          "indicator": "F",
+          "type": "BLOW",
+          "word": "BLOW",
+          "roles": {
+            "MOD": "#V57879",
+            "VFORM": "PASTPART",
+            "LEX": "BLOWN",
+            "WNSENSE": "blow%2:29:00::"
+          },
+          "start": 47,
+          "end": 58
+        },
+        "V57879": {
+          "id": "V57879",
+          "indicator": "F",
+          "type": "PREDICATE",
+          "word": "ON-IT",
+          "roles": {
+            "FIGURE": "#V57777",
+            "LEX": "ON-IT",
+            "WNSENSE": "on_it%4:02:00"
+          },
+          "start": 53,
+          "end": 58
+        },
+        "root": "#V57777"
+      }
+    ],
+    [
+      {
+        "V59452": {
+          "id": "V59452",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57711",
+            "LEX": "REMEMBER"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V57711": {
+          "id": "V57711",
+          "indicator": "F",
+          "type": "REMEMBER",
+          "word": "REMEMBER",
+          "roles": {
+            "AGENT": "#V57670",
+            "FORMAL": "#V57737",
+            "TENSE": "PAST",
+            "NEGATION": "+",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "REMEMBER",
+            "WNSENSE": "remember%2:31:00::"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V57670": {
+          "id": "V57670",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V57737": {
+          "id": "V57737",
+          "indicator": "SM",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "SUCHTHAT": "#V57759",
+            "QUANTITY": "#V57915",
+            "LEX": "MONEY",
+            "WNSENSE": "money%1:21:00::"
+          },
+          "start": 20,
+          "end": 47
+        },
+        "V57915": {
+          "id": "V57915",
+          "indicator": "WH-TERM",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "QUAN": "MUCH"
+          },
+          "start": 20,
+          "end": 47
+        },
+        "V57759": {
+          "id": "V57759",
+          "indicator": "F",
+          "type": "HAVE",
+          "word": "HAVE",
+          "roles": {
+            "NEUTRAL": "#V57740",
+            "NEUTRAL1": "#V57737",
+            "TENSE": "PRES",
+            "MODALITY": "(:* POSSIBILITY MAY)",
+            "LEX": "HAVE",
+            "WNSENSE": "have%2:40:00::"
+          },
+          "start": 35,
+          "end": 47
+        },
+        "V57740": {
+          "id": "V57740",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "root": "#V59452"
+      },
+      {
+        "V57776": {
+          "id": "V57776",
+          "indicator": "F",
+          "type": "ATMOSPHERIC-EVENT",
+          "word": "BLOW",
+          "roles": {
+            "MOD": "#V57879",
+            "VFORM": "PASTPART",
+            "LEX": "BLOWN",
+            "WNSENSE": "blow%2:43:00::"
+          },
+          "start": 47,
+          "end": 58
+        },
+        "V57879": {
+          "id": "V57879",
+          "indicator": "F",
+          "type": "PREDICATE",
+          "word": "ON-IT",
+          "roles": {
+            "FIGURE": "#V57776",
+            "LEX": "ON-IT",
+            "WNSENSE": "on_it%4:02:00"
+          },
+          "start": 53,
+          "end": 58
+        },
+        "root": "#V57776"
+      }
+    ],
+    [
+      {
+        "V59452": {
+          "id": "V59452",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57711",
+            "LEX": "REMEMBER"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V57711": {
+          "id": "V57711",
+          "indicator": "F",
+          "type": "REMEMBER",
+          "word": "REMEMBER",
+          "roles": {
+            "AGENT": "#V57670",
+            "FORMAL": "#V57737",
+            "TENSE": "PAST",
+            "NEGATION": "+",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "REMEMBER",
+            "WNSENSE": "remember%2:31:00::"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V57670": {
+          "id": "V57670",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V57737": {
+          "id": "V57737",
+          "indicator": "SM",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "SUCHTHAT": "#V57759",
+            "QUANTITY": "#V57915",
+            "LEX": "MONEY",
+            "WNSENSE": "money%1:21:00::"
+          },
+          "start": 20,
+          "end": 47
+        },
+        "V57915": {
+          "id": "V57915",
+          "indicator": "WH-TERM",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "QUAN": "MUCH"
+          },
+          "start": 20,
+          "end": 47
+        },
+        "V57759": {
+          "id": "V57759",
+          "indicator": "F",
+          "type": "HAVE",
+          "word": "HAVE",
+          "roles": {
+            "NEUTRAL": "#V57740",
+            "NEUTRAL1": "#V57737",
+            "TENSE": "PRES",
+            "MODALITY": "(:* POSSIBILITY MAY)",
+            "LEX": "HAVE",
+            "WNSENSE": "have%2:40:00::"
+          },
+          "start": 35,
+          "end": 47
+        },
+        "V57740": {
+          "id": "V57740",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "root": "#V59452"
+      },
+      {
+        "V57777": {
+          "id": "V57777",
+          "indicator": "F",
+          "type": "BLOW",
+          "word": "BLOW",
+          "roles": {
+            "MOD": "#V57879",
+            "VFORM": "PASTPART",
+            "LEX": "BLOWN",
+            "WNSENSE": "blow%2:29:00::"
+          },
+          "start": 47,
+          "end": 58
+        },
+        "V57879": {
+          "id": "V57879",
+          "indicator": "F",
+          "type": "PREDICATE",
+          "word": "ON-IT",
+          "roles": {
+            "FIGURE": "#V57777",
+            "LEX": "ON-IT",
+            "WNSENSE": "on_it%4:02:00"
+          },
+          "start": 53,
+          "end": 58
+        },
+        "root": "#V57777"
+      }
+    ],
+    [
+      {
+        "V59438": {
+          "id": "V59438",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57711",
+            "LEX": "REMEMBER"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V57711": {
+          "id": "V57711",
+          "indicator": "F",
+          "type": "REMEMBER",
+          "word": "REMEMBER",
+          "roles": {
+            "AGENT": "#V57670",
+            "FORMAL": "#V57737",
+            "TENSE": "PAST",
+            "NEGATION": "+",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "REMEMBER",
+            "WNSENSE": "remember%2:31:00::"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V57670": {
+          "id": "V57670",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V57737": {
+          "id": "V57737",
+          "indicator": "SM",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "SUCHTHAT": "#V57759",
+            "QUANTITY": "#V57915",
+            "LEX": "MONEY",
+            "WNSENSE": "money%1:21:00::"
+          },
+          "start": 20,
+          "end": 47
+        },
+        "V57915": {
+          "id": "V57915",
+          "indicator": "WH-TERM",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "QUAN": "MUCH"
+          },
+          "start": 20,
+          "end": 47
+        },
+        "V57759": {
+          "id": "V57759",
+          "indicator": "F",
+          "type": "HAVE",
+          "word": "HAVE",
+          "roles": {
+            "NEUTRAL": "#V57740",
+            "NEUTRAL1": "#V57737",
+            "TENSE": "PAST",
+            "MODALITY": "(:* POSSIBILITY MAY)",
+            "LEX": "HAVE",
+            "WNSENSE": "have%2:40:00::"
+          },
+          "start": 35,
+          "end": 47
+        },
+        "V57740": {
+          "id": "V57740",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "root": "#V59438"
+      },
+      {
+        "V57776": {
+          "id": "V57776",
+          "indicator": "F",
+          "type": "ATMOSPHERIC-EVENT",
+          "word": "BLOW",
+          "roles": {
+            "MOD": "#V57879",
+            "VFORM": "PASTPART",
+            "LEX": "BLOWN",
+            "WNSENSE": "blow%2:43:00::"
+          },
+          "start": 47,
+          "end": 58
+        },
+        "V57879": {
+          "id": "V57879",
+          "indicator": "F",
+          "type": "PREDICATE",
+          "word": "ON-IT",
+          "roles": {
+            "FIGURE": "#V57776",
+            "LEX": "ON-IT",
+            "WNSENSE": "on_it%4:02:00"
+          },
+          "start": 53,
+          "end": 58
+        },
+        "root": "#V57776"
+      }
+    ],
+    [
+      {
+        "V59438": {
+          "id": "V59438",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57711",
+            "LEX": "REMEMBER"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V57711": {
+          "id": "V57711",
+          "indicator": "F",
+          "type": "REMEMBER",
+          "word": "REMEMBER",
+          "roles": {
+            "AGENT": "#V57670",
+            "FORMAL": "#V57737",
+            "TENSE": "PAST",
+            "NEGATION": "+",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "REMEMBER",
+            "WNSENSE": "remember%2:31:00::"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V57670": {
+          "id": "V57670",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V57737": {
+          "id": "V57737",
+          "indicator": "SM",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "SUCHTHAT": "#V57759",
+            "QUANTITY": "#V57915",
+            "LEX": "MONEY",
+            "WNSENSE": "money%1:21:00::"
+          },
+          "start": 20,
+          "end": 47
+        },
+        "V57915": {
+          "id": "V57915",
+          "indicator": "WH-TERM",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "QUAN": "MUCH"
+          },
+          "start": 20,
+          "end": 47
+        },
+        "V57759": {
+          "id": "V57759",
+          "indicator": "F",
+          "type": "HAVE",
+          "word": "HAVE",
+          "roles": {
+            "NEUTRAL": "#V57740",
+            "NEUTRAL1": "#V57737",
+            "TENSE": "PAST",
+            "MODALITY": "(:* POSSIBILITY MAY)",
+            "LEX": "HAVE",
+            "WNSENSE": "have%2:40:00::"
+          },
+          "start": 35,
+          "end": 47
+        },
+        "V57740": {
+          "id": "V57740",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "root": "#V59438"
+      },
+      {
+        "V57777": {
+          "id": "V57777",
+          "indicator": "F",
+          "type": "BLOW",
+          "word": "BLOW",
+          "roles": {
+            "MOD": "#V57879",
+            "VFORM": "PASTPART",
+            "LEX": "BLOWN",
+            "WNSENSE": "blow%2:29:00::"
+          },
+          "start": 47,
+          "end": 58
+        },
+        "V57879": {
+          "id": "V57879",
+          "indicator": "F",
+          "type": "PREDICATE",
+          "word": "ON-IT",
+          "roles": {
+            "FIGURE": "#V57777",
+            "LEX": "ON-IT",
+            "WNSENSE": "on_it%4:02:00"
+          },
+          "start": 53,
+          "end": 58
+        },
+        "root": "#V57777"
+      }
+    ],
+    [
+      {
+        "V59424": {
+          "id": "V59424",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57711",
+            "LEX": "REMEMBER"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V57711": {
+          "id": "V57711",
+          "indicator": "F",
+          "type": "REMEMBER",
+          "word": "REMEMBER",
+          "roles": {
+            "AGENT": "#V57670",
+            "FORMAL": "#V57737",
+            "TENSE": "PAST",
+            "NEGATION": "+",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "REMEMBER",
+            "WNSENSE": "remember%2:31:00::"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V57670": {
+          "id": "V57670",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V57737": {
+          "id": "V57737",
+          "indicator": "SM",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "SUCHTHAT": "#V57759",
+            "QUANTITY": "#V57915",
+            "LEX": "MONEY",
+            "WNSENSE": "money%1:21:00::"
+          },
+          "start": 20,
+          "end": 47
+        },
+        "V57915": {
+          "id": "V57915",
+          "indicator": "WH-TERM",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "QUAN": "MUCH"
+          },
+          "start": 20,
+          "end": 47
+        },
+        "V57759": {
+          "id": "V57759",
+          "indicator": "F",
+          "type": "HAVE",
+          "word": "HAVE",
+          "roles": {
+            "NEUTRAL": "#V57740",
+            "NEUTRAL1": "#V57737",
+            "TENSE": "PAST",
+            "MODALITY": "(:* POSSIBILITY MAY)",
+            "LEX": "HAVE",
+            "WNSENSE": "have%2:40:00::"
+          },
+          "start": 35,
+          "end": 47
+        },
+        "V57740": {
+          "id": "V57740",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "root": "#V59424"
+      },
+      {
+        "V57776": {
+          "id": "V57776",
+          "indicator": "F",
+          "type": "ATMOSPHERIC-EVENT",
+          "word": "BLOW",
+          "roles": {
+            "MOD": "#V57879",
+            "VFORM": "PASTPART",
+            "LEX": "BLOWN",
+            "WNSENSE": "blow%2:43:00::"
+          },
+          "start": 47,
+          "end": 58
+        },
+        "V57879": {
+          "id": "V57879",
+          "indicator": "F",
+          "type": "PREDICATE",
+          "word": "ON-IT",
+          "roles": {
+            "FIGURE": "#V57776",
+            "LEX": "ON-IT",
+            "WNSENSE": "on_it%4:02:00"
+          },
+          "start": 53,
+          "end": 58
+        },
+        "root": "#V57776"
+      }
+    ],
+    [
+      {
+        "V59424": {
+          "id": "V59424",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V57711",
+            "LEX": "REMEMBER"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V57711": {
+          "id": "V57711",
+          "indicator": "F",
+          "type": "REMEMBER",
+          "word": "REMEMBER",
+          "roles": {
+            "AGENT": "#V57670",
+            "FORMAL": "#V57737",
+            "TENSE": "PAST",
+            "NEGATION": "+",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "REMEMBER",
+            "WNSENSE": "remember%2:31:00::"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V57670": {
+          "id": "V57670",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V57737": {
+          "id": "V57737",
+          "indicator": "SM",
+          "type": "MONEY",
+          "word": "MONEY",
+          "roles": {
+            "SUCHTHAT": "#V57759",
+            "QUANTITY": "#V57915",
+            "LEX": "MONEY",
+            "WNSENSE": "money%1:21:00::"
+          },
+          "start": 20,
+          "end": 47
+        },
+        "V57915": {
+          "id": "V57915",
+          "indicator": "WH-TERM",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "QUAN": "MUCH"
+          },
+          "start": 20,
+          "end": 47
+        },
+        "V57759": {
+          "id": "V57759",
+          "indicator": "F",
+          "type": "HAVE",
+          "word": "HAVE",
+          "roles": {
+            "NEUTRAL": "#V57740",
+            "NEUTRAL1": "#V57737",
+            "TENSE": "PAST",
+            "MODALITY": "(:* POSSIBILITY MAY)",
+            "LEX": "HAVE",
+            "WNSENSE": "have%2:40:00::"
+          },
+          "start": 35,
+          "end": 47
+        },
+        "V57740": {
+          "id": "V57740",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "root": "#V59424"
+      },
+      {
+        "V57777": {
+          "id": "V57777",
+          "indicator": "F",
+          "type": "BLOW",
+          "word": "BLOW",
+          "roles": {
+            "MOD": "#V57879",
+            "VFORM": "PASTPART",
+            "LEX": "BLOWN",
+            "WNSENSE": "blow%2:29:00::"
+          },
+          "start": 47,
+          "end": 58
+        },
+        "V57879": {
+          "id": "V57879",
+          "indicator": "F",
+          "type": "PREDICATE",
+          "word": "ON-IT",
+          "roles": {
+            "FIGURE": "#V57777",
+            "LEX": "ON-IT",
+            "WNSENSE": "on_it%4:02:00"
+          },
+          "start": 53,
+          "end": 58
+        },
+        "root": "#V57777"
+      }
+    ]
+  ],
+  "sentence": "He did not remember how much money he may have blown on it.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20191008T084825",
+    "link": "http://trips.ihmc.us/parser/saved/20191008T084825-STEP-abhatia-none-He_did_not_remember_how_much_money_he_ma.xml",
+    "judgement": -1
+  }
+}

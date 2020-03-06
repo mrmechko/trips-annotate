@@ -1,0 +1,1635 @@
+{
+  "parse": [
+    {
+      "V101935": {
+        "id": "V101935",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V101611",
+          "LEX": "FOUND"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V101611": {
+        "id": "V101611",
+        "indicator": "F",
+        "type": "DETERMINE",
+        "word": "FIND",
+        "roles": {
+          "AGENT": "#V101598",
+          "NEUTRAL": "#V101648",
+          "TENSE": "PAST",
+          "LEX": "FOUND",
+          "WNSENSE": "find%1:04:00::"
+        },
+        "start": 0,
+        "end": 28
+      },
+      "V101598": {
+        "id": "V101598",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "SHE",
+        "roles": {
+          "PROFORM": "SHE",
+          "LEX": "SHE",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V101648": {
+        "id": "V101648",
+        "indicator": "THE-SET",
+        "type": "ATTIRE",
+        "word": "SOCK",
+        "roles": {
+          "MOD": "#V101642",
+          "LEX": "SOCKS",
+          "WNSENSE": "sock%1:06:00::"
+        },
+        "start": 10,
+        "end": 28
+      },
+      "V101642": {
+        "id": "V101642",
+        "indicator": "F",
+        "type": "DUPLICATE-VAL",
+        "word": "MATCHING",
+        "roles": {
+          "FIGURE": "#V101648",
+          "SCALE": "DOMAIN",
+          "LEX": "MATCHING",
+          "WNSENSE": "matching%5:00:02:matched:00"
+        },
+        "start": 14,
+        "end": 23
+      },
+      "root": "#V101935"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V102083": {
+          "id": "V102083",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V101606",
+            "LEX": "FOUND"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V101606": {
+          "id": "V101606",
+          "indicator": "F",
+          "type": "COME-TO-UNDERSTAND",
+          "word": "FIND",
+          "roles": {
+            "AGENT": "#V101598",
+            "NEUTRAL": "#V101639",
+            "FORMAL": "#V101768",
+            "TENSE": "PAST",
+            "LEX": "FOUND",
+            "WNSENSE": "see%2:31:01"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V101598": {
+          "id": "V101598",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V101639": {
+          "id": "V101639",
+          "indicator": "THE",
+          "type": "RESEMBLE",
+          "word": "MATCH",
+          "roles": {
+            "LEX": "MATCHING",
+            "WNSENSE": "match%2:42:00::"
+          },
+          "start": 10,
+          "end": 23
+        },
+        "V101768": {
+          "id": "V101768",
+          "indicator": "F",
+          "type": "MEMBERSHIP",
+          "word": null,
+          "roles": {
+            "GROUND": "#V101648",
+            "LEX": "SOCKS"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V101648": {
+          "id": "V101648",
+          "indicator": "THE-SET",
+          "type": "ATTIRE",
+          "word": "SOCK",
+          "roles": {},
+          "start": 23,
+          "end": 28
+        },
+        "root": "#V102083"
+      }
+    ],
+    [
+      {
+        "V102075": {
+          "id": "V102075",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V101606",
+            "LEX": "FOUND"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V101606": {
+          "id": "V101606",
+          "indicator": "F",
+          "type": "COME-TO-UNDERSTAND",
+          "word": "FIND",
+          "roles": {
+            "AGENT": "#V101598",
+            "NEUTRAL": "#V101638",
+            "FORMAL": "#V101768",
+            "TENSE": "PAST",
+            "LEX": "FOUND",
+            "WNSENSE": "see%2:31:01"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V101598": {
+          "id": "V101598",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V101638": {
+          "id": "V101638",
+          "indicator": "THE",
+          "type": "RESEMBLE",
+          "word": "MATCH",
+          "roles": {
+            "LEX": "MATCHING",
+            "WNSENSE": "match%2:42:00::"
+          },
+          "start": 10,
+          "end": 23
+        },
+        "V101768": {
+          "id": "V101768",
+          "indicator": "F",
+          "type": "MEMBERSHIP",
+          "word": null,
+          "roles": {
+            "GROUND": "#V101648",
+            "LEX": "SOCKS"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V101648": {
+          "id": "V101648",
+          "indicator": "THE-SET",
+          "type": "ATTIRE",
+          "word": "SOCK",
+          "roles": {},
+          "start": 23,
+          "end": 28
+        },
+        "root": "#V102075"
+      }
+    ],
+    [
+      {
+        "V102067": {
+          "id": "V102067",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V101606",
+            "LEX": "FOUND"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V101606": {
+          "id": "V101606",
+          "indicator": "F",
+          "type": "COME-TO-UNDERSTAND",
+          "word": "FIND",
+          "roles": {
+            "AGENT": "#V101598",
+            "NEUTRAL": "#V101637",
+            "FORMAL": "#V101768",
+            "TENSE": "PAST",
+            "LEX": "FOUND",
+            "WNSENSE": "see%2:31:01"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V101598": {
+          "id": "V101598",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V101637": {
+          "id": "V101637",
+          "indicator": "THE",
+          "type": "RESEMBLE",
+          "word": "MATCH",
+          "roles": {
+            "LEX": "MATCHING",
+            "WNSENSE": "match%2:42:00::"
+          },
+          "start": 10,
+          "end": 23
+        },
+        "V101768": {
+          "id": "V101768",
+          "indicator": "F",
+          "type": "MEMBERSHIP",
+          "word": null,
+          "roles": {
+            "GROUND": "#V101648",
+            "LEX": "SOCKS"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V101648": {
+          "id": "V101648",
+          "indicator": "THE-SET",
+          "type": "ATTIRE",
+          "word": "SOCK",
+          "roles": {},
+          "start": 23,
+          "end": 28
+        },
+        "root": "#V102067"
+      }
+    ],
+    [
+      {
+        "V102269": {
+          "id": "V102269",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V101611",
+            "LEX": "FOUND"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V101611": {
+          "id": "V101611",
+          "indicator": "F",
+          "type": "DETERMINE",
+          "word": "FIND",
+          "roles": {
+            "AGENT": "#V101598",
+            "NEUTRAL": "#V101648",
+            "TENSE": "PAST",
+            "LEX": "FOUND",
+            "WNSENSE": "find%1:04:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V101598": {
+          "id": "V101598",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V101648": {
+          "id": "V101648",
+          "indicator": "THE-SET",
+          "type": "ATTIRE",
+          "word": "SOCK",
+          "roles": {
+            "MOD": "#V101639",
+            "LEX": "SOCKS",
+            "WNSENSE": "sock%1:06:00::"
+          },
+          "start": 10,
+          "end": 28
+        },
+        "V101639": {
+          "id": "V101639",
+          "indicator": "F",
+          "type": "RESEMBLE",
+          "word": "MATCH",
+          "roles": {
+            "NEUTRAL": "#V101648",
+            "LEX": "MATCHING",
+            "WNSENSE": "match%2:42:00::"
+          },
+          "start": 14,
+          "end": 23
+        },
+        "root": "#V102269"
+      }
+    ],
+    [
+      {
+        "V102192": {
+          "id": "V102192",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V101606",
+            "LEX": "FOUND"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V101606": {
+          "id": "V101606",
+          "indicator": "F",
+          "type": "COME-TO-UNDERSTAND",
+          "word": "FIND",
+          "roles": {
+            "AGENT": "#V101598",
+            "NEUTRAL": "#V101765",
+            "FORMAL": "#V101768",
+            "TENSE": "PAST",
+            "LEX": "FOUND",
+            "WNSENSE": "see%2:31:01"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V101598": {
+          "id": "V101598",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V101765": {
+          "id": "V101765",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V101642",
+            "LEX": "THE"
+          },
+          "start": 10,
+          "end": 23
+        },
+        "V101642": {
+          "id": "V101642",
+          "indicator": "F",
+          "type": "DUPLICATE-VAL",
+          "word": "MATCHING",
+          "roles": {
+            "FIGURE": "#V101765",
+            "SCALE": "DOMAIN",
+            "LEX": "MATCHING",
+            "WNSENSE": "matching%5:00:02:matched:00"
+          },
+          "start": 14,
+          "end": 23
+        },
+        "V101768": {
+          "id": "V101768",
+          "indicator": "F",
+          "type": "MEMBERSHIP",
+          "word": null,
+          "roles": {
+            "GROUND": "#V101648",
+            "LEX": "SOCKS"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V101648": {
+          "id": "V101648",
+          "indicator": "THE-SET",
+          "type": "ATTIRE",
+          "word": "SOCK",
+          "roles": {},
+          "start": 23,
+          "end": 28
+        },
+        "root": "#V102192"
+      }
+    ],
+    [
+      {
+        "V102410": {
+          "id": "V102410",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V101611",
+            "LEX": "FOUND"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V101611": {
+          "id": "V101611",
+          "indicator": "F",
+          "type": "DETERMINE",
+          "word": "FIND",
+          "roles": {
+            "AGENT": "#V101598",
+            "NEUTRAL": "#V101648",
+            "BENEFICIARY": "#V101765",
+            "TENSE": "PAST",
+            "LEX": "FOUND",
+            "WNSENSE": "find%1:04:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V101598": {
+          "id": "V101598",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V101765": {
+          "id": "V101765",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V101642",
+            "LEX": "THE"
+          },
+          "start": 10,
+          "end": 23
+        },
+        "V101642": {
+          "id": "V101642",
+          "indicator": "F",
+          "type": "DUPLICATE-VAL",
+          "word": "MATCHING",
+          "roles": {
+            "FIGURE": "#V101765",
+            "SCALE": "DOMAIN",
+            "LEX": "MATCHING",
+            "WNSENSE": "matching%5:00:02:matched:00"
+          },
+          "start": 14,
+          "end": 23
+        },
+        "V101648": {
+          "id": "V101648",
+          "indicator": "INDEF-SET",
+          "type": "ATTIRE",
+          "word": "SOCK",
+          "roles": {
+            "LEX": "SOCKS",
+            "WNSENSE": "sock%1:06:00::"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "root": "#V102410"
+      }
+    ],
+    [
+      {
+        "V102448": {
+          "id": "V102448",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V101606",
+            "LEX": "FOUND"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V101606": {
+          "id": "V101606",
+          "indicator": "F",
+          "type": "COME-TO-UNDERSTAND",
+          "word": "FIND",
+          "roles": {
+            "AGENT": "#V101598",
+            "NEUTRAL": "#V101765",
+            "FORMAL": "#V101768",
+            "TENSE": "PAST",
+            "LEX": "FOUND",
+            "WNSENSE": "see%2:31:01"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V101598": {
+          "id": "V101598",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V101765": {
+          "id": "V101765",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V101639",
+            "LEX": "THE"
+          },
+          "start": 10,
+          "end": 23
+        },
+        "V101639": {
+          "id": "V101639",
+          "indicator": "F",
+          "type": "RESEMBLE",
+          "word": "MATCH",
+          "roles": {
+            "NEUTRAL": "#V101765",
+            "LEX": "MATCHING",
+            "WNSENSE": "match%2:42:00::"
+          },
+          "start": 14,
+          "end": 23
+        },
+        "V101768": {
+          "id": "V101768",
+          "indicator": "F",
+          "type": "MEMBERSHIP",
+          "word": null,
+          "roles": {
+            "GROUND": "#V101648",
+            "LEX": "SOCKS"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V101648": {
+          "id": "V101648",
+          "indicator": "THE-SET",
+          "type": "ATTIRE",
+          "word": "SOCK",
+          "roles": {},
+          "start": 23,
+          "end": 28
+        },
+        "root": "#V102448"
+      }
+    ],
+    [
+      {
+        "V102653": {
+          "id": "V102653",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V101611",
+            "LEX": "FOUND"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V101611": {
+          "id": "V101611",
+          "indicator": "F",
+          "type": "DETERMINE",
+          "word": "FIND",
+          "roles": {
+            "AGENT": "#V101598",
+            "NEUTRAL": "#V101648",
+            "TENSE": "PAST",
+            "LEX": "FOUND",
+            "WNSENSE": "find%1:04:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V101598": {
+          "id": "V101598",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V101648": {
+          "id": "V101648",
+          "indicator": "THE-SET",
+          "type": "ATTIRE",
+          "word": "SOCK",
+          "roles": {
+            "MOD": "#V101642",
+            "LEX": "SOCKS",
+            "WNSENSE": "sock%1:06:00::"
+          },
+          "start": 10,
+          "end": 28
+        },
+        "V101642": {
+          "id": "V101642",
+          "indicator": "F",
+          "type": "DUPLICATE-VAL",
+          "word": "MATCHING",
+          "roles": {
+            "FIGURE": "#V101648",
+            "SCALE": "DOMAIN",
+            "LEX": "MATCHING",
+            "WNSENSE": "matching%5:00:02:matched:00"
+          },
+          "start": 14,
+          "end": 23
+        },
+        "root": "#V102653"
+      }
+    ],
+    [
+      {
+        "V102546": {
+          "id": "V102546",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V101611",
+            "LEX": "FOUND"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V101611": {
+          "id": "V101611",
+          "indicator": "F",
+          "type": "DETERMINE",
+          "word": "FIND",
+          "roles": {
+            "AGENT": "#V101598",
+            "NEUTRAL": "#V101648",
+            "BENEFICIARY": "#V101765",
+            "TENSE": "PAST",
+            "LEX": "FOUND",
+            "WNSENSE": "find%1:04:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V101598": {
+          "id": "V101598",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V101765": {
+          "id": "V101765",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V101639",
+            "LEX": "THE"
+          },
+          "start": 10,
+          "end": 23
+        },
+        "V101639": {
+          "id": "V101639",
+          "indicator": "F",
+          "type": "RESEMBLE",
+          "word": "MATCH",
+          "roles": {
+            "NEUTRAL": "#V101765",
+            "LEX": "MATCHING",
+            "WNSENSE": "match%2:42:00::"
+          },
+          "start": 14,
+          "end": 23
+        },
+        "V101648": {
+          "id": "V101648",
+          "indicator": "INDEF-SET",
+          "type": "ATTIRE",
+          "word": "SOCK",
+          "roles": {
+            "LEX": "SOCKS",
+            "WNSENSE": "sock%1:06:00::"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "root": "#V102546"
+      }
+    ],
+    [
+      {
+        "V102612": {
+          "id": "V102612",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V101611",
+            "LEX": "FOUND"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V101611": {
+          "id": "V101611",
+          "indicator": "F",
+          "type": "DETERMINE",
+          "word": "FIND",
+          "roles": {
+            "AGENT": "#V101598",
+            "NEUTRAL": "#V101648",
+            "AFFECTED-RESULT": "#V102540",
+            "TENSE": "PAST",
+            "LEX": "FOUND",
+            "WNSENSE": "find%1:04:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V102540": {
+          "id": "V102540",
+          "indicator": "F",
+          "type": "RECIPIENT",
+          "word": "IOBJ",
+          "roles": {
+            "GROUND": "#V101765",
+            "FIGURE": "#V101611"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V101598": {
+          "id": "V101598",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V101765": {
+          "id": "V101765",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V101642",
+            "LEX": "THE"
+          },
+          "start": 10,
+          "end": 23
+        },
+        "V101642": {
+          "id": "V101642",
+          "indicator": "F",
+          "type": "DUPLICATE-VAL",
+          "word": "MATCHING",
+          "roles": {
+            "FIGURE": "#V101765",
+            "SCALE": "DOMAIN",
+            "LEX": "MATCHING",
+            "WNSENSE": "matching%5:00:02:matched:00"
+          },
+          "start": 14,
+          "end": 23
+        },
+        "V101648": {
+          "id": "V101648",
+          "indicator": "INDEF-SET",
+          "type": "ATTIRE",
+          "word": "SOCK",
+          "roles": {
+            "LEX": "SOCKS",
+            "WNSENSE": "sock%1:06:00::"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "root": "#V102612"
+      }
+    ],
+    [
+      {
+        "V102821": {
+          "id": "V102821",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V101611",
+            "LEX": "FOUND"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V101611": {
+          "id": "V101611",
+          "indicator": "F",
+          "type": "DETERMINE",
+          "word": "FIND",
+          "roles": {
+            "AGENT": "#V101598",
+            "NEUTRAL": "#V101648",
+            "AFFECTED-RESULT": "#V102540",
+            "TENSE": "PAST",
+            "LEX": "FOUND",
+            "WNSENSE": "find%1:04:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V102540": {
+          "id": "V102540",
+          "indicator": "F",
+          "type": "RECIPIENT",
+          "word": "IOBJ",
+          "roles": {
+            "GROUND": "#V101765",
+            "FIGURE": "#V101611"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V101598": {
+          "id": "V101598",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V101765": {
+          "id": "V101765",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V101639",
+            "LEX": "THE"
+          },
+          "start": 10,
+          "end": 23
+        },
+        "V101639": {
+          "id": "V101639",
+          "indicator": "F",
+          "type": "RESEMBLE",
+          "word": "MATCH",
+          "roles": {
+            "NEUTRAL": "#V101765",
+            "LEX": "MATCHING",
+            "WNSENSE": "match%2:42:00::"
+          },
+          "start": 14,
+          "end": 23
+        },
+        "V101648": {
+          "id": "V101648",
+          "indicator": "INDEF-SET",
+          "type": "ATTIRE",
+          "word": "SOCK",
+          "roles": {
+            "LEX": "SOCKS",
+            "WNSENSE": "sock%1:06:00::"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "root": "#V102821"
+      }
+    ],
+    [
+      {
+        "V103052": {
+          "id": "V103052",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V101611",
+            "LEX": "FOUND"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V101611": {
+          "id": "V101611",
+          "indicator": "F",
+          "type": "DETERMINE",
+          "word": "FIND",
+          "roles": {
+            "AGENT": "#V101598",
+            "NEUTRAL": "#V101648",
+            "TENSE": "PAST",
+            "LEX": "FOUND",
+            "WNSENSE": "find%1:04:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V101598": {
+          "id": "V101598",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V101648": {
+          "id": "V101648",
+          "indicator": "THE-SET",
+          "type": "ATTIRE",
+          "word": "SOCK",
+          "roles": {
+            "MOD": "#V101639",
+            "LEX": "SOCKS",
+            "WNSENSE": "sock%1:06:00::"
+          },
+          "start": 10,
+          "end": 28
+        },
+        "V101639": {
+          "id": "V101639",
+          "indicator": "F",
+          "type": "RESEMBLE",
+          "word": "MATCH",
+          "roles": {
+            "NEUTRAL": "#V101648",
+            "LEX": "MATCHING",
+            "WNSENSE": "match%2:42:00::"
+          },
+          "start": 14,
+          "end": 23
+        },
+        "root": "#V103052"
+      }
+    ],
+    [
+      {
+        "V101935": {
+          "id": "V101935",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V101611",
+            "LEX": "FOUND"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V101611": {
+          "id": "V101611",
+          "indicator": "F",
+          "type": "DETERMINE",
+          "word": "FIND",
+          "roles": {
+            "AGENT": "#V101598",
+            "NEUTRAL": "#V101648",
+            "TENSE": "PAST",
+            "LEX": "FOUND",
+            "WNSENSE": "find%1:04:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V101598": {
+          "id": "V101598",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V101648": {
+          "id": "V101648",
+          "indicator": "THE-SET",
+          "type": "ATTIRE",
+          "word": "SOCK",
+          "roles": {
+            "MOD": "#V101642",
+            "LEX": "SOCKS",
+            "WNSENSE": "sock%1:06:00::"
+          },
+          "start": 10,
+          "end": 28
+        },
+        "V101642": {
+          "id": "V101642",
+          "indicator": "F",
+          "type": "DUPLICATE-VAL",
+          "word": "MATCHING",
+          "roles": {
+            "FIGURE": "#V101648",
+            "SCALE": "DOMAIN",
+            "LEX": "MATCHING",
+            "WNSENSE": "matching%5:00:02:matched:00"
+          },
+          "start": 14,
+          "end": 23
+        },
+        "root": "#V101935"
+      }
+    ],
+    [
+      {
+        "V102083": {
+          "id": "V102083",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V101606",
+            "LEX": "FOUND"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V101606": {
+          "id": "V101606",
+          "indicator": "F",
+          "type": "COME-TO-UNDERSTAND",
+          "word": "FIND",
+          "roles": {
+            "AGENT": "#V101598",
+            "NEUTRAL": "#V101639",
+            "FORMAL": "#V101768",
+            "TENSE": "PAST",
+            "LEX": "FOUND",
+            "WNSENSE": "see%2:31:01"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V101598": {
+          "id": "V101598",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V101639": {
+          "id": "V101639",
+          "indicator": "THE",
+          "type": "RESEMBLE",
+          "word": "MATCH",
+          "roles": {
+            "LEX": "MATCHING",
+            "WNSENSE": "match%2:42:00::"
+          },
+          "start": 10,
+          "end": 23
+        },
+        "V101768": {
+          "id": "V101768",
+          "indicator": "F",
+          "type": "MEMBERSHIP",
+          "word": null,
+          "roles": {
+            "GROUND": "#V101648",
+            "LEX": "SOCKS"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V101648": {
+          "id": "V101648",
+          "indicator": "THE-SET",
+          "type": "ATTIRE",
+          "word": "SOCK",
+          "roles": {},
+          "start": 23,
+          "end": 28
+        },
+        "root": "#V102083"
+      }
+    ],
+    [
+      {
+        "V102075": {
+          "id": "V102075",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V101606",
+            "LEX": "FOUND"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V101606": {
+          "id": "V101606",
+          "indicator": "F",
+          "type": "COME-TO-UNDERSTAND",
+          "word": "FIND",
+          "roles": {
+            "AGENT": "#V101598",
+            "NEUTRAL": "#V101638",
+            "FORMAL": "#V101768",
+            "TENSE": "PAST",
+            "LEX": "FOUND",
+            "WNSENSE": "see%2:31:01"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V101598": {
+          "id": "V101598",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V101638": {
+          "id": "V101638",
+          "indicator": "THE",
+          "type": "RESEMBLE",
+          "word": "MATCH",
+          "roles": {
+            "LEX": "MATCHING",
+            "WNSENSE": "match%2:42:00::"
+          },
+          "start": 10,
+          "end": 23
+        },
+        "V101768": {
+          "id": "V101768",
+          "indicator": "F",
+          "type": "MEMBERSHIP",
+          "word": null,
+          "roles": {
+            "GROUND": "#V101648",
+            "LEX": "SOCKS"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V101648": {
+          "id": "V101648",
+          "indicator": "THE-SET",
+          "type": "ATTIRE",
+          "word": "SOCK",
+          "roles": {},
+          "start": 23,
+          "end": 28
+        },
+        "root": "#V102075"
+      }
+    ],
+    [
+      {
+        "V102067": {
+          "id": "V102067",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V101606",
+            "LEX": "FOUND"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V101606": {
+          "id": "V101606",
+          "indicator": "F",
+          "type": "COME-TO-UNDERSTAND",
+          "word": "FIND",
+          "roles": {
+            "AGENT": "#V101598",
+            "NEUTRAL": "#V101637",
+            "FORMAL": "#V101768",
+            "TENSE": "PAST",
+            "LEX": "FOUND",
+            "WNSENSE": "see%2:31:01"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V101598": {
+          "id": "V101598",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V101637": {
+          "id": "V101637",
+          "indicator": "THE",
+          "type": "RESEMBLE",
+          "word": "MATCH",
+          "roles": {
+            "LEX": "MATCHING",
+            "WNSENSE": "match%2:42:00::"
+          },
+          "start": 10,
+          "end": 23
+        },
+        "V101768": {
+          "id": "V101768",
+          "indicator": "F",
+          "type": "MEMBERSHIP",
+          "word": null,
+          "roles": {
+            "GROUND": "#V101648",
+            "LEX": "SOCKS"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V101648": {
+          "id": "V101648",
+          "indicator": "THE-SET",
+          "type": "ATTIRE",
+          "word": "SOCK",
+          "roles": {},
+          "start": 23,
+          "end": 28
+        },
+        "root": "#V102067"
+      }
+    ],
+    [
+      {
+        "V102269": {
+          "id": "V102269",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V101611",
+            "LEX": "FOUND"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V101611": {
+          "id": "V101611",
+          "indicator": "F",
+          "type": "DETERMINE",
+          "word": "FIND",
+          "roles": {
+            "AGENT": "#V101598",
+            "NEUTRAL": "#V101648",
+            "TENSE": "PAST",
+            "LEX": "FOUND",
+            "WNSENSE": "find%1:04:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V101598": {
+          "id": "V101598",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V101648": {
+          "id": "V101648",
+          "indicator": "THE-SET",
+          "type": "ATTIRE",
+          "word": "SOCK",
+          "roles": {
+            "MOD": "#V101639",
+            "LEX": "SOCKS",
+            "WNSENSE": "sock%1:06:00::"
+          },
+          "start": 10,
+          "end": 28
+        },
+        "V101639": {
+          "id": "V101639",
+          "indicator": "F",
+          "type": "RESEMBLE",
+          "word": "MATCH",
+          "roles": {
+            "NEUTRAL": "#V101648",
+            "LEX": "MATCHING",
+            "WNSENSE": "match%2:42:00::"
+          },
+          "start": 14,
+          "end": 23
+        },
+        "root": "#V102269"
+      }
+    ],
+    [
+      {
+        "V102192": {
+          "id": "V102192",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V101606",
+            "LEX": "FOUND"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V101606": {
+          "id": "V101606",
+          "indicator": "F",
+          "type": "COME-TO-UNDERSTAND",
+          "word": "FIND",
+          "roles": {
+            "AGENT": "#V101598",
+            "NEUTRAL": "#V101765",
+            "FORMAL": "#V101768",
+            "TENSE": "PAST",
+            "LEX": "FOUND",
+            "WNSENSE": "see%2:31:01"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V101598": {
+          "id": "V101598",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V101765": {
+          "id": "V101765",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V101642",
+            "LEX": "THE"
+          },
+          "start": 10,
+          "end": 23
+        },
+        "V101642": {
+          "id": "V101642",
+          "indicator": "F",
+          "type": "DUPLICATE-VAL",
+          "word": "MATCHING",
+          "roles": {
+            "FIGURE": "#V101765",
+            "SCALE": "DOMAIN",
+            "LEX": "MATCHING",
+            "WNSENSE": "matching%5:00:02:matched:00"
+          },
+          "start": 14,
+          "end": 23
+        },
+        "V101768": {
+          "id": "V101768",
+          "indicator": "F",
+          "type": "MEMBERSHIP",
+          "word": null,
+          "roles": {
+            "GROUND": "#V101648",
+            "LEX": "SOCKS"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "V101648": {
+          "id": "V101648",
+          "indicator": "THE-SET",
+          "type": "ATTIRE",
+          "word": "SOCK",
+          "roles": {},
+          "start": 23,
+          "end": 28
+        },
+        "root": "#V102192"
+      }
+    ],
+    [
+      {
+        "V103017": {
+          "id": "V103017",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V101611",
+            "LEX": "FOUND"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V101611": {
+          "id": "V101611",
+          "indicator": "F",
+          "type": "DETERMINE",
+          "word": "FIND",
+          "roles": {
+            "AGENT": "#V101598",
+            "NEUTRAL": "#V101648",
+            "BENEFICIARY": "#V101637",
+            "TENSE": "PAST",
+            "LEX": "FOUND",
+            "WNSENSE": "find%1:04:00::"
+          },
+          "start": 0,
+          "end": 28
+        },
+        "V101598": {
+          "id": "V101598",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V101637": {
+          "id": "V101637",
+          "indicator": "THE",
+          "type": "RESEMBLE",
+          "word": "MATCH",
+          "roles": {
+            "LEX": "MATCHING",
+            "WNSENSE": "match%2:42:00::"
+          },
+          "start": 10,
+          "end": 23
+        },
+        "V101648": {
+          "id": "V101648",
+          "indicator": "INDEF-SET",
+          "type": "ATTIRE",
+          "word": "SOCK",
+          "roles": {
+            "LEX": "SOCKS",
+            "WNSENSE": "sock%1:06:00::"
+          },
+          "start": 23,
+          "end": 28
+        },
+        "root": "#V103017"
+      }
+    ]
+  ],
+  "sentence": "She found the matching socks.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20191009T162602",
+    "link": "http://trips.ihmc.us/parser/saved/20191009T162602-STEP-abhatia-none-She_found_the_matching_socks_.xml",
+    "judgement": -1
+  }
+}

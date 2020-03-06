@@ -1,0 +1,3994 @@
+{
+  "parse": [
+    {
+      "V197325": {
+        "id": "V197325",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V197006",
+          "FOCUS": "#V197234",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V197006": {
+        "id": "V197006",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V197234",
+          "FIGURE": "#V197326",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V197326": {
+        "id": "V197326",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {},
+        "start": 0,
+        "end": 5
+      },
+      "V197234": {
+        "id": "V197234",
+        "indicator": "WH-TERM",
+        "type": "TIME-POINT",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHEN",
+          "SUCHTHAT": "#V197006"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "root": "#V197325"
+    },
+    {
+      "V204136": {
+        "id": "V204136",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V197083",
+          "LEX": "COME-OUT"
+        },
+        "start": 5,
+        "end": 45
+      },
+      "V197083": {
+        "id": "V197083",
+        "indicator": "F",
+        "type": "APPEAR",
+        "word": "COME-OUT",
+        "roles": {
+          "AFFECTED": "#V197078",
+          "TENSE": "PAST",
+          "LEX": "COME-OUT"
+        },
+        "start": 5,
+        "end": 45
+      },
+      "V197078": {
+        "id": "V197078",
+        "indicator": "INDEF-SET",
+        "type": "INFORMATION",
+        "word": "REPORT-CARDS",
+        "roles": {
+          "FORMAL": "#V197147",
+          "LEX": "REPORT-CARDS",
+          "WNSENSE": "report_card%1:10:00"
+        },
+        "start": 5,
+        "end": 18
+      },
+      "V197147": {
+        "id": "V197147",
+        "indicator": "F",
+        "type": "INCUR-INHERIT-RECEIVE",
+        "word": "RECEIVE",
+        "roles": {
+          "AFFECTED": "#V197121",
+          "TENSE": "PAST",
+          "PERF": "+",
+          "LEX": "RECEIVED",
+          "WNSENSE": "receive%2:39:15::"
+        },
+        "start": 28,
+        "end": 45
+      },
+      "V197121": {
+        "id": "V197121",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "SHE",
+        "roles": {
+          "PROFORM": "SHE",
+          "LEX": "SHE",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 28,
+        "end": 32
+      },
+      "root": "#V204136"
+    },
+    {
+      "V197774": {
+        "id": "V197774",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "ACT": "#V197278",
+          "ACT1": "#V197420",
+          "LEX": "EVALUATION"
+        },
+        "start": 45,
+        "end": 60
+      },
+      "V197278": {
+        "id": "V197278",
+        "indicator": "SPEECHACT",
+        "type": "SA_EVALUATE",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V197159",
+          "LEX": "GOOD"
+        },
+        "start": 45,
+        "end": 50
+      },
+      "V197159": {
+        "id": "V197159",
+        "indicator": "F",
+        "type": "GOOD",
+        "word": "GOOD",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "MED",
+          "FIGURE": "#V197279",
+          "SCALE": "GOODNESS-SCALE",
+          "LEX": "GOOD",
+          "WNSENSE": "good%5:00:00:nice:00"
+        },
+        "start": 45,
+        "end": 50
+      },
+      "V197279": {
+        "id": "V197279",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "COREF": "#V197121"
+        },
+        "start": 45,
+        "end": 50
+      },
+      "V197420": {
+        "id": "V197420",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V197166",
+          "LEX": "EVALUATION"
+        },
+        "start": 50,
+        "end": 60
+      },
+      "V197166": {
+        "id": "V197166",
+        "indicator": "BARE",
+        "type": "SCRUTINY",
+        "word": "EVALUATION",
+        "roles": {
+          "LEX": "EVALUATION",
+          "WNSENSE": "take%2:31:02"
+        },
+        "start": 50,
+        "end": 60
+      },
+      "root": "#V197774"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V197325": {
+          "id": "V197325",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197006",
+            "FOCUS": "#V197234",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197006": {
+          "id": "V197006",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V197234",
+            "FIGURE": "#V197326",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197326": {
+          "id": "V197326",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 0,
+          "end": 5
+        },
+        "V197234": {
+          "id": "V197234",
+          "indicator": "WH-TERM",
+          "type": "TIME-POINT",
+          "word": null,
+          "roles": {
+            "PROFORM": "WHEN",
+            "SUCHTHAT": "#V197006"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "root": "#V197325"
+      },
+      {
+        "V204136": {
+          "id": "V204136",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197083",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197083": {
+          "id": "V197083",
+          "indicator": "F",
+          "type": "APPEAR",
+          "word": "COME-OUT",
+          "roles": {
+            "AFFECTED": "#V197078",
+            "TENSE": "PAST",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197078": {
+          "id": "V197078",
+          "indicator": "INDEF-SET",
+          "type": "INFORMATION",
+          "word": "REPORT-CARDS",
+          "roles": {
+            "FORMAL": "#V197147",
+            "LEX": "REPORT-CARDS",
+            "WNSENSE": "report_card%1:10:00"
+          },
+          "start": 5,
+          "end": 18
+        },
+        "V197147": {
+          "id": "V197147",
+          "indicator": "F",
+          "type": "INCUR-INHERIT-RECEIVE",
+          "word": "RECEIVE",
+          "roles": {
+            "AFFECTED": "#V197121",
+            "TENSE": "PAST",
+            "PERF": "+",
+            "LEX": "RECEIVED",
+            "WNSENSE": "receive%2:39:15::"
+          },
+          "start": 28,
+          "end": 45
+        },
+        "V197121": {
+          "id": "V197121",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 32
+        },
+        "root": "#V204136"
+      },
+      {
+        "V197773": {
+          "id": "V197773",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V197272",
+            "ACT1": "#V197420",
+            "LEX": "EVALUATION"
+          },
+          "start": 45,
+          "end": 61
+        },
+        "V197272": {
+          "id": "V197272",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197158",
+            "LEX": "GOOD"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197158": {
+          "id": "V197158",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V197273",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197273": {
+          "id": "V197273",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 45,
+          "end": 50
+        },
+        "V197420": {
+          "id": "V197420",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197166",
+            "LEX": "EVALUATION"
+          },
+          "start": 50,
+          "end": 60
+        },
+        "V197166": {
+          "id": "V197166",
+          "indicator": "BARE",
+          "type": "SCRUTINY",
+          "word": "EVALUATION",
+          "roles": {
+            "LEX": "EVALUATION",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 50,
+          "end": 60
+        },
+        "root": "#V197773"
+      }
+    ],
+    [
+      {
+        "V197325": {
+          "id": "V197325",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197006",
+            "FOCUS": "#V197234",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197006": {
+          "id": "V197006",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V197234",
+            "FIGURE": "#V197326",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197326": {
+          "id": "V197326",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 0,
+          "end": 5
+        },
+        "V197234": {
+          "id": "V197234",
+          "indicator": "WH-TERM",
+          "type": "TIME-POINT",
+          "word": null,
+          "roles": {
+            "PROFORM": "WHEN",
+            "SUCHTHAT": "#V197006"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "root": "#V197325"
+      },
+      {
+        "V204136": {
+          "id": "V204136",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197083",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197083": {
+          "id": "V197083",
+          "indicator": "F",
+          "type": "APPEAR",
+          "word": "COME-OUT",
+          "roles": {
+            "AFFECTED": "#V197078",
+            "TENSE": "PAST",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197078": {
+          "id": "V197078",
+          "indicator": "INDEF-SET",
+          "type": "INFORMATION",
+          "word": "REPORT-CARDS",
+          "roles": {
+            "FORMAL": "#V197147",
+            "LEX": "REPORT-CARDS",
+            "WNSENSE": "report_card%1:10:00"
+          },
+          "start": 5,
+          "end": 18
+        },
+        "V197147": {
+          "id": "V197147",
+          "indicator": "F",
+          "type": "INCUR-INHERIT-RECEIVE",
+          "word": "RECEIVE",
+          "roles": {
+            "AFFECTED": "#V197121",
+            "TENSE": "PAST",
+            "PERF": "+",
+            "LEX": "RECEIVED",
+            "WNSENSE": "receive%2:39:15::"
+          },
+          "start": 28,
+          "end": 45
+        },
+        "V197121": {
+          "id": "V197121",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 32
+        },
+        "root": "#V204136"
+      },
+      {
+        "V197772": {
+          "id": "V197772",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V197266",
+            "ACT1": "#V197420",
+            "LEX": "EVALUATION"
+          },
+          "start": 45,
+          "end": 61
+        },
+        "V197266": {
+          "id": "V197266",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197157",
+            "LEX": "GOOD"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197157": {
+          "id": "V197157",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V197267",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197267": {
+          "id": "V197267",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 45,
+          "end": 50
+        },
+        "V197420": {
+          "id": "V197420",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197166",
+            "LEX": "EVALUATION"
+          },
+          "start": 50,
+          "end": 60
+        },
+        "V197166": {
+          "id": "V197166",
+          "indicator": "BARE",
+          "type": "SCRUTINY",
+          "word": "EVALUATION",
+          "roles": {
+            "LEX": "EVALUATION",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 50,
+          "end": 60
+        },
+        "root": "#V197772"
+      }
+    ],
+    [
+      {
+        "V197325": {
+          "id": "V197325",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197006",
+            "FOCUS": "#V197234",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197006": {
+          "id": "V197006",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V197234",
+            "FIGURE": "#V197326",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197326": {
+          "id": "V197326",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 0,
+          "end": 5
+        },
+        "V197234": {
+          "id": "V197234",
+          "indicator": "WH-TERM",
+          "type": "TIME-POINT",
+          "word": null,
+          "roles": {
+            "PROFORM": "WHEN",
+            "SUCHTHAT": "#V197006"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "root": "#V197325"
+      },
+      {
+        "V204512": {
+          "id": "V204512",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197083",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197083": {
+          "id": "V197083",
+          "indicator": "F",
+          "type": "APPEAR",
+          "word": "COME-OUT",
+          "roles": {
+            "AFFECTED": "#V197078",
+            "TENSE": "PAST",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197078": {
+          "id": "V197078",
+          "indicator": "BARE",
+          "type": "INFORMATION",
+          "word": "REPORT-CARDS",
+          "roles": {
+            "FORMAL": "#V197147",
+            "LEX": "REPORT-CARDS",
+            "WNSENSE": "report_card%1:10:00"
+          },
+          "start": 5,
+          "end": 18
+        },
+        "V197147": {
+          "id": "V197147",
+          "indicator": "F",
+          "type": "INCUR-INHERIT-RECEIVE",
+          "word": "RECEIVE",
+          "roles": {
+            "AFFECTED": "#V197121",
+            "TENSE": "PAST",
+            "PERF": "+",
+            "LEX": "RECEIVED",
+            "WNSENSE": "receive%2:39:15::"
+          },
+          "start": 28,
+          "end": 45
+        },
+        "V197121": {
+          "id": "V197121",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 32
+        },
+        "root": "#V204512"
+      },
+      {
+        "V197774": {
+          "id": "V197774",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V197278",
+            "ACT1": "#V197420",
+            "LEX": "EVALUATION"
+          },
+          "start": 45,
+          "end": 61
+        },
+        "V197278": {
+          "id": "V197278",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197159",
+            "LEX": "GOOD"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197159": {
+          "id": "V197159",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V197279",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197279": {
+          "id": "V197279",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 45,
+          "end": 50
+        },
+        "V197420": {
+          "id": "V197420",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197166",
+            "LEX": "EVALUATION"
+          },
+          "start": 50,
+          "end": 60
+        },
+        "V197166": {
+          "id": "V197166",
+          "indicator": "BARE",
+          "type": "SCRUTINY",
+          "word": "EVALUATION",
+          "roles": {
+            "LEX": "EVALUATION",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 50,
+          "end": 60
+        },
+        "root": "#V197774"
+      }
+    ],
+    [
+      {
+        "V197325": {
+          "id": "V197325",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197006",
+            "FOCUS": "#V197234",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197006": {
+          "id": "V197006",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V197234",
+            "FIGURE": "#V197326",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197326": {
+          "id": "V197326",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 0,
+          "end": 5
+        },
+        "V197234": {
+          "id": "V197234",
+          "indicator": "WH-TERM",
+          "type": "TIME-POINT",
+          "word": null,
+          "roles": {
+            "PROFORM": "WHEN",
+            "SUCHTHAT": "#V197006"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "root": "#V197325"
+      },
+      {
+        "V204512": {
+          "id": "V204512",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197083",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197083": {
+          "id": "V197083",
+          "indicator": "F",
+          "type": "APPEAR",
+          "word": "COME-OUT",
+          "roles": {
+            "AFFECTED": "#V197078",
+            "TENSE": "PAST",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197078": {
+          "id": "V197078",
+          "indicator": "BARE",
+          "type": "INFORMATION",
+          "word": "REPORT-CARDS",
+          "roles": {
+            "FORMAL": "#V197147",
+            "LEX": "REPORT-CARDS",
+            "WNSENSE": "report_card%1:10:00"
+          },
+          "start": 5,
+          "end": 18
+        },
+        "V197147": {
+          "id": "V197147",
+          "indicator": "F",
+          "type": "INCUR-INHERIT-RECEIVE",
+          "word": "RECEIVE",
+          "roles": {
+            "AFFECTED": "#V197121",
+            "TENSE": "PAST",
+            "PERF": "+",
+            "LEX": "RECEIVED",
+            "WNSENSE": "receive%2:39:15::"
+          },
+          "start": 28,
+          "end": 45
+        },
+        "V197121": {
+          "id": "V197121",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 32
+        },
+        "root": "#V204512"
+      },
+      {
+        "V197773": {
+          "id": "V197773",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V197272",
+            "ACT1": "#V197420",
+            "LEX": "EVALUATION"
+          },
+          "start": 45,
+          "end": 61
+        },
+        "V197272": {
+          "id": "V197272",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197158",
+            "LEX": "GOOD"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197158": {
+          "id": "V197158",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V197273",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197273": {
+          "id": "V197273",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 45,
+          "end": 50
+        },
+        "V197420": {
+          "id": "V197420",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197166",
+            "LEX": "EVALUATION"
+          },
+          "start": 50,
+          "end": 60
+        },
+        "V197166": {
+          "id": "V197166",
+          "indicator": "BARE",
+          "type": "SCRUTINY",
+          "word": "EVALUATION",
+          "roles": {
+            "LEX": "EVALUATION",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 50,
+          "end": 60
+        },
+        "root": "#V197773"
+      }
+    ],
+    [
+      {
+        "V197325": {
+          "id": "V197325",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197006",
+            "FOCUS": "#V197234",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197006": {
+          "id": "V197006",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V197234",
+            "FIGURE": "#V197326",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197326": {
+          "id": "V197326",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 0,
+          "end": 5
+        },
+        "V197234": {
+          "id": "V197234",
+          "indicator": "WH-TERM",
+          "type": "TIME-POINT",
+          "word": null,
+          "roles": {
+            "PROFORM": "WHEN",
+            "SUCHTHAT": "#V197006"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "root": "#V197325"
+      },
+      {
+        "V204512": {
+          "id": "V204512",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197083",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197083": {
+          "id": "V197083",
+          "indicator": "F",
+          "type": "APPEAR",
+          "word": "COME-OUT",
+          "roles": {
+            "AFFECTED": "#V197078",
+            "TENSE": "PAST",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197078": {
+          "id": "V197078",
+          "indicator": "BARE",
+          "type": "INFORMATION",
+          "word": "REPORT-CARDS",
+          "roles": {
+            "FORMAL": "#V197147",
+            "LEX": "REPORT-CARDS",
+            "WNSENSE": "report_card%1:10:00"
+          },
+          "start": 5,
+          "end": 18
+        },
+        "V197147": {
+          "id": "V197147",
+          "indicator": "F",
+          "type": "INCUR-INHERIT-RECEIVE",
+          "word": "RECEIVE",
+          "roles": {
+            "AFFECTED": "#V197121",
+            "TENSE": "PAST",
+            "PERF": "+",
+            "LEX": "RECEIVED",
+            "WNSENSE": "receive%2:39:15::"
+          },
+          "start": 28,
+          "end": 45
+        },
+        "V197121": {
+          "id": "V197121",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 32
+        },
+        "root": "#V204512"
+      },
+      {
+        "V197772": {
+          "id": "V197772",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V197266",
+            "ACT1": "#V197420",
+            "LEX": "EVALUATION"
+          },
+          "start": 45,
+          "end": 61
+        },
+        "V197266": {
+          "id": "V197266",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197157",
+            "LEX": "GOOD"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197157": {
+          "id": "V197157",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V197267",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197267": {
+          "id": "V197267",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 45,
+          "end": 50
+        },
+        "V197420": {
+          "id": "V197420",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197166",
+            "LEX": "EVALUATION"
+          },
+          "start": 50,
+          "end": 60
+        },
+        "V197166": {
+          "id": "V197166",
+          "indicator": "BARE",
+          "type": "SCRUTINY",
+          "word": "EVALUATION",
+          "roles": {
+            "LEX": "EVALUATION",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 50,
+          "end": 60
+        },
+        "root": "#V197772"
+      }
+    ],
+    [
+      {
+        "V197325": {
+          "id": "V197325",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197006",
+            "FOCUS": "#V197234",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197006": {
+          "id": "V197006",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V197234",
+            "FIGURE": "#V197326",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197326": {
+          "id": "V197326",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 0,
+          "end": 5
+        },
+        "V197234": {
+          "id": "V197234",
+          "indicator": "WH-TERM",
+          "type": "TIME-POINT",
+          "word": null,
+          "roles": {
+            "PROFORM": "WHEN",
+            "SUCHTHAT": "#V197006"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "root": "#V197325"
+      },
+      {
+        "V204136": {
+          "id": "V204136",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197083",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197083": {
+          "id": "V197083",
+          "indicator": "F",
+          "type": "APPEAR",
+          "word": "COME-OUT",
+          "roles": {
+            "AFFECTED": "#V197078",
+            "TENSE": "PAST",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197078": {
+          "id": "V197078",
+          "indicator": "INDEF-SET",
+          "type": "INFORMATION",
+          "word": "REPORT-CARDS",
+          "roles": {
+            "FORMAL": "#V197147",
+            "LEX": "REPORT-CARDS",
+            "WNSENSE": "report_card%1:10:00"
+          },
+          "start": 5,
+          "end": 18
+        },
+        "V197147": {
+          "id": "V197147",
+          "indicator": "F",
+          "type": "INCUR-INHERIT-RECEIVE",
+          "word": "RECEIVE",
+          "roles": {
+            "AFFECTED": "#V197121",
+            "TENSE": "PAST",
+            "PERF": "+",
+            "LEX": "RECEIVED",
+            "WNSENSE": "receive%2:39:15::"
+          },
+          "start": 28,
+          "end": 45
+        },
+        "V197121": {
+          "id": "V197121",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 32
+        },
+        "root": "#V204136"
+      },
+      {
+        "V197772": {
+          "id": "V197772",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "ACT": "#V197266",
+            "ACT1": "#V197420",
+            "LEX": "EVALUATION"
+          },
+          "start": 45,
+          "end": 61
+        },
+        "V197266": {
+          "id": "V197266",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197157",
+            "LEX": "GOOD"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197157": {
+          "id": "V197157",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V197267",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197267": {
+          "id": "V197267",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 45,
+          "end": 50
+        },
+        "V197420": {
+          "id": "V197420",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V197166",
+            "LEX": "EVALUATION"
+          },
+          "start": 50,
+          "end": 61
+        },
+        "V197166": {
+          "id": "V197166",
+          "indicator": "BARE",
+          "type": "SCRUTINY",
+          "word": "EVALUATION",
+          "roles": {
+            "LEX": "EVALUATION",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 50,
+          "end": 60
+        },
+        "root": "#V197772"
+      }
+    ],
+    [
+      {
+        "V197325": {
+          "id": "V197325",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197006",
+            "FOCUS": "#V197234",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197006": {
+          "id": "V197006",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V197234",
+            "FIGURE": "#V197326",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197326": {
+          "id": "V197326",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 0,
+          "end": 5
+        },
+        "V197234": {
+          "id": "V197234",
+          "indicator": "WH-TERM",
+          "type": "TIME-POINT",
+          "word": null,
+          "roles": {
+            "PROFORM": "WHEN",
+            "SUCHTHAT": "#V197006"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "root": "#V197325"
+      },
+      {
+        "V204136": {
+          "id": "V204136",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197083",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197083": {
+          "id": "V197083",
+          "indicator": "F",
+          "type": "APPEAR",
+          "word": "COME-OUT",
+          "roles": {
+            "AFFECTED": "#V197078",
+            "TENSE": "PAST",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197078": {
+          "id": "V197078",
+          "indicator": "INDEF-SET",
+          "type": "INFORMATION",
+          "word": "REPORT-CARDS",
+          "roles": {
+            "FORMAL": "#V197147",
+            "LEX": "REPORT-CARDS",
+            "WNSENSE": "report_card%1:10:00"
+          },
+          "start": 5,
+          "end": 18
+        },
+        "V197147": {
+          "id": "V197147",
+          "indicator": "F",
+          "type": "INCUR-INHERIT-RECEIVE",
+          "word": "RECEIVE",
+          "roles": {
+            "AFFECTED": "#V197121",
+            "TENSE": "PAST",
+            "PERF": "+",
+            "LEX": "RECEIVED",
+            "WNSENSE": "receive%2:39:15::"
+          },
+          "start": 28,
+          "end": 45
+        },
+        "V197121": {
+          "id": "V197121",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 32
+        },
+        "root": "#V204136"
+      },
+      {
+        "V197773": {
+          "id": "V197773",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "ACT": "#V197272",
+            "ACT1": "#V197420",
+            "LEX": "EVALUATION"
+          },
+          "start": 45,
+          "end": 61
+        },
+        "V197272": {
+          "id": "V197272",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197158",
+            "LEX": "GOOD"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197158": {
+          "id": "V197158",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V197273",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197273": {
+          "id": "V197273",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 45,
+          "end": 50
+        },
+        "V197420": {
+          "id": "V197420",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V197166",
+            "LEX": "EVALUATION"
+          },
+          "start": 50,
+          "end": 61
+        },
+        "V197166": {
+          "id": "V197166",
+          "indicator": "BARE",
+          "type": "SCRUTINY",
+          "word": "EVALUATION",
+          "roles": {
+            "LEX": "EVALUATION",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 50,
+          "end": 60
+        },
+        "root": "#V197773"
+      }
+    ],
+    [
+      {
+        "V197325": {
+          "id": "V197325",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197006",
+            "FOCUS": "#V197234",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197006": {
+          "id": "V197006",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V197234",
+            "FIGURE": "#V197326",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197326": {
+          "id": "V197326",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 0,
+          "end": 5
+        },
+        "V197234": {
+          "id": "V197234",
+          "indicator": "WH-TERM",
+          "type": "TIME-POINT",
+          "word": null,
+          "roles": {
+            "PROFORM": "WHEN",
+            "SUCHTHAT": "#V197006"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "root": "#V197325"
+      },
+      {
+        "V204136": {
+          "id": "V204136",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197083",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197083": {
+          "id": "V197083",
+          "indicator": "F",
+          "type": "APPEAR",
+          "word": "COME-OUT",
+          "roles": {
+            "AFFECTED": "#V197078",
+            "TENSE": "PAST",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197078": {
+          "id": "V197078",
+          "indicator": "INDEF-SET",
+          "type": "INFORMATION",
+          "word": "REPORT-CARDS",
+          "roles": {
+            "FORMAL": "#V197147",
+            "LEX": "REPORT-CARDS",
+            "WNSENSE": "report_card%1:10:00"
+          },
+          "start": 5,
+          "end": 18
+        },
+        "V197147": {
+          "id": "V197147",
+          "indicator": "F",
+          "type": "INCUR-INHERIT-RECEIVE",
+          "word": "RECEIVE",
+          "roles": {
+            "AFFECTED": "#V197121",
+            "TENSE": "PAST",
+            "PERF": "+",
+            "LEX": "RECEIVED",
+            "WNSENSE": "receive%2:39:15::"
+          },
+          "start": 28,
+          "end": 45
+        },
+        "V197121": {
+          "id": "V197121",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 32
+        },
+        "root": "#V204136"
+      },
+      {
+        "V197774": {
+          "id": "V197774",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "ACT": "#V197278",
+            "ACT1": "#V197420",
+            "LEX": "EVALUATION"
+          },
+          "start": 45,
+          "end": 61
+        },
+        "V197278": {
+          "id": "V197278",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197159",
+            "LEX": "GOOD"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197159": {
+          "id": "V197159",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V197279",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197279": {
+          "id": "V197279",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 45,
+          "end": 50
+        },
+        "V197420": {
+          "id": "V197420",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V197166",
+            "LEX": "EVALUATION"
+          },
+          "start": 50,
+          "end": 61
+        },
+        "V197166": {
+          "id": "V197166",
+          "indicator": "BARE",
+          "type": "SCRUTINY",
+          "word": "EVALUATION",
+          "roles": {
+            "LEX": "EVALUATION",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 50,
+          "end": 60
+        },
+        "root": "#V197774"
+      }
+    ],
+    [
+      {
+        "V197325": {
+          "id": "V197325",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197006",
+            "FOCUS": "#V197234",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197006": {
+          "id": "V197006",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V197234",
+            "FIGURE": "#V197326",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197326": {
+          "id": "V197326",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 0,
+          "end": 5
+        },
+        "V197234": {
+          "id": "V197234",
+          "indicator": "WH-TERM",
+          "type": "TIME-POINT",
+          "word": null,
+          "roles": {
+            "PROFORM": "WHEN",
+            "SUCHTHAT": "#V197006"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "root": "#V197325"
+      },
+      {
+        "V204136": {
+          "id": "V204136",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197083",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197083": {
+          "id": "V197083",
+          "indicator": "F",
+          "type": "APPEAR",
+          "word": "COME-OUT",
+          "roles": {
+            "AFFECTED": "#V197078",
+            "TENSE": "PAST",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197078": {
+          "id": "V197078",
+          "indicator": "INDEF-SET",
+          "type": "INFORMATION",
+          "word": "REPORT-CARDS",
+          "roles": {
+            "FORMAL": "#V197147",
+            "LEX": "REPORT-CARDS",
+            "WNSENSE": "report_card%1:10:00"
+          },
+          "start": 5,
+          "end": 18
+        },
+        "V197147": {
+          "id": "V197147",
+          "indicator": "F",
+          "type": "INCUR-INHERIT-RECEIVE",
+          "word": "RECEIVE",
+          "roles": {
+            "AFFECTED": "#V197121",
+            "TENSE": "PAST",
+            "PERF": "+",
+            "LEX": "RECEIVED",
+            "WNSENSE": "receive%2:39:15::"
+          },
+          "start": 28,
+          "end": 45
+        },
+        "V197121": {
+          "id": "V197121",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 32
+        },
+        "root": "#V204136"
+      },
+      {
+        "V197774": {
+          "id": "V197774",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V197278",
+            "ACT1": "#V197572",
+            "LEX": "EVALUATION"
+          },
+          "start": 45,
+          "end": 61
+        },
+        "V197278": {
+          "id": "V197278",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197159",
+            "LEX": "GOOD"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197159": {
+          "id": "V197159",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V197279",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197279": {
+          "id": "V197279",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 45,
+          "end": 50
+        },
+        "V197572": {
+          "id": "V197572",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197166",
+            "LEX": "EVALUATION"
+          },
+          "start": 50,
+          "end": 60
+        },
+        "V197166": {
+          "id": "V197166",
+          "indicator": "BARE",
+          "type": "SCRUTINY",
+          "word": "EVALUATION",
+          "roles": {
+            "LEX": "EVALUATION",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 50,
+          "end": 60
+        },
+        "root": "#V197774"
+      }
+    ],
+    [
+      {
+        "V197325": {
+          "id": "V197325",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197006",
+            "FOCUS": "#V197234",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197006": {
+          "id": "V197006",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V197234",
+            "FIGURE": "#V197326",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197326": {
+          "id": "V197326",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 0,
+          "end": 5
+        },
+        "V197234": {
+          "id": "V197234",
+          "indicator": "WH-TERM",
+          "type": "TIME-POINT",
+          "word": null,
+          "roles": {
+            "PROFORM": "WHEN",
+            "SUCHTHAT": "#V197006"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "root": "#V197325"
+      },
+      {
+        "V204136": {
+          "id": "V204136",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197083",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197083": {
+          "id": "V197083",
+          "indicator": "F",
+          "type": "APPEAR",
+          "word": "COME-OUT",
+          "roles": {
+            "AFFECTED": "#V197078",
+            "TENSE": "PAST",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197078": {
+          "id": "V197078",
+          "indicator": "INDEF-SET",
+          "type": "INFORMATION",
+          "word": "REPORT-CARDS",
+          "roles": {
+            "FORMAL": "#V197147",
+            "LEX": "REPORT-CARDS",
+            "WNSENSE": "report_card%1:10:00"
+          },
+          "start": 5,
+          "end": 18
+        },
+        "V197147": {
+          "id": "V197147",
+          "indicator": "F",
+          "type": "INCUR-INHERIT-RECEIVE",
+          "word": "RECEIVE",
+          "roles": {
+            "AFFECTED": "#V197121",
+            "TENSE": "PAST",
+            "PERF": "+",
+            "LEX": "RECEIVED",
+            "WNSENSE": "receive%2:39:15::"
+          },
+          "start": 28,
+          "end": 45
+        },
+        "V197121": {
+          "id": "V197121",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 32
+        },
+        "root": "#V204136"
+      },
+      {
+        "V197773": {
+          "id": "V197773",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V197272",
+            "ACT1": "#V197572",
+            "LEX": "EVALUATION"
+          },
+          "start": 45,
+          "end": 61
+        },
+        "V197272": {
+          "id": "V197272",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197158",
+            "LEX": "GOOD"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197158": {
+          "id": "V197158",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V197273",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197273": {
+          "id": "V197273",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 45,
+          "end": 50
+        },
+        "V197572": {
+          "id": "V197572",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197166",
+            "LEX": "EVALUATION"
+          },
+          "start": 50,
+          "end": 60
+        },
+        "V197166": {
+          "id": "V197166",
+          "indicator": "BARE",
+          "type": "SCRUTINY",
+          "word": "EVALUATION",
+          "roles": {
+            "LEX": "EVALUATION",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 50,
+          "end": 60
+        },
+        "root": "#V197773"
+      }
+    ],
+    [
+      {
+        "V197325": {
+          "id": "V197325",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197006",
+            "FOCUS": "#V197234",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197006": {
+          "id": "V197006",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V197234",
+            "FIGURE": "#V197326",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197326": {
+          "id": "V197326",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 0,
+          "end": 5
+        },
+        "V197234": {
+          "id": "V197234",
+          "indicator": "WH-TERM",
+          "type": "TIME-POINT",
+          "word": null,
+          "roles": {
+            "PROFORM": "WHEN",
+            "SUCHTHAT": "#V197006"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "root": "#V197325"
+      },
+      {
+        "V204136": {
+          "id": "V204136",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197083",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197083": {
+          "id": "V197083",
+          "indicator": "F",
+          "type": "APPEAR",
+          "word": "COME-OUT",
+          "roles": {
+            "AFFECTED": "#V197078",
+            "TENSE": "PAST",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197078": {
+          "id": "V197078",
+          "indicator": "INDEF-SET",
+          "type": "INFORMATION",
+          "word": "REPORT-CARDS",
+          "roles": {
+            "FORMAL": "#V197147",
+            "LEX": "REPORT-CARDS",
+            "WNSENSE": "report_card%1:10:00"
+          },
+          "start": 5,
+          "end": 18
+        },
+        "V197147": {
+          "id": "V197147",
+          "indicator": "F",
+          "type": "INCUR-INHERIT-RECEIVE",
+          "word": "RECEIVE",
+          "roles": {
+            "AFFECTED": "#V197121",
+            "TENSE": "PAST",
+            "PERF": "+",
+            "LEX": "RECEIVED",
+            "WNSENSE": "receive%2:39:15::"
+          },
+          "start": 28,
+          "end": 45
+        },
+        "V197121": {
+          "id": "V197121",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 32
+        },
+        "root": "#V204136"
+      },
+      {
+        "V197772": {
+          "id": "V197772",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V197266",
+            "ACT1": "#V197572",
+            "LEX": "EVALUATION"
+          },
+          "start": 45,
+          "end": 61
+        },
+        "V197266": {
+          "id": "V197266",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197157",
+            "LEX": "GOOD"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197157": {
+          "id": "V197157",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V197267",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197267": {
+          "id": "V197267",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 45,
+          "end": 50
+        },
+        "V197572": {
+          "id": "V197572",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197166",
+            "LEX": "EVALUATION"
+          },
+          "start": 50,
+          "end": 60
+        },
+        "V197166": {
+          "id": "V197166",
+          "indicator": "BARE",
+          "type": "SCRUTINY",
+          "word": "EVALUATION",
+          "roles": {
+            "LEX": "EVALUATION",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 50,
+          "end": 60
+        },
+        "root": "#V197772"
+      }
+    ],
+    [
+      {
+        "V197325": {
+          "id": "V197325",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197006",
+            "FOCUS": "#V197234",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197006": {
+          "id": "V197006",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V197234",
+            "FIGURE": "#V197326",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197326": {
+          "id": "V197326",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 0,
+          "end": 5
+        },
+        "V197234": {
+          "id": "V197234",
+          "indicator": "WH-TERM",
+          "type": "TIME-POINT",
+          "word": null,
+          "roles": {
+            "PROFORM": "WHEN",
+            "SUCHTHAT": "#V197006"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "root": "#V197325"
+      },
+      {
+        "V204512": {
+          "id": "V204512",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197083",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197083": {
+          "id": "V197083",
+          "indicator": "F",
+          "type": "APPEAR",
+          "word": "COME-OUT",
+          "roles": {
+            "AFFECTED": "#V197078",
+            "TENSE": "PAST",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197078": {
+          "id": "V197078",
+          "indicator": "BARE",
+          "type": "INFORMATION",
+          "word": "REPORT-CARDS",
+          "roles": {
+            "FORMAL": "#V197147",
+            "LEX": "REPORT-CARDS",
+            "WNSENSE": "report_card%1:10:00"
+          },
+          "start": 5,
+          "end": 18
+        },
+        "V197147": {
+          "id": "V197147",
+          "indicator": "F",
+          "type": "INCUR-INHERIT-RECEIVE",
+          "word": "RECEIVE",
+          "roles": {
+            "AFFECTED": "#V197121",
+            "TENSE": "PAST",
+            "PERF": "+",
+            "LEX": "RECEIVED",
+            "WNSENSE": "receive%2:39:15::"
+          },
+          "start": 28,
+          "end": 45
+        },
+        "V197121": {
+          "id": "V197121",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 32
+        },
+        "root": "#V204512"
+      },
+      {
+        "V197772": {
+          "id": "V197772",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "ACT": "#V197266",
+            "ACT1": "#V197420",
+            "LEX": "EVALUATION"
+          },
+          "start": 45,
+          "end": 61
+        },
+        "V197266": {
+          "id": "V197266",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197157",
+            "LEX": "GOOD"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197157": {
+          "id": "V197157",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V197267",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197267": {
+          "id": "V197267",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 45,
+          "end": 50
+        },
+        "V197420": {
+          "id": "V197420",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V197166",
+            "LEX": "EVALUATION"
+          },
+          "start": 50,
+          "end": 61
+        },
+        "V197166": {
+          "id": "V197166",
+          "indicator": "BARE",
+          "type": "SCRUTINY",
+          "word": "EVALUATION",
+          "roles": {
+            "LEX": "EVALUATION",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 50,
+          "end": 60
+        },
+        "root": "#V197772"
+      }
+    ],
+    [
+      {
+        "V197325": {
+          "id": "V197325",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197006",
+            "FOCUS": "#V197234",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197006": {
+          "id": "V197006",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V197234",
+            "FIGURE": "#V197326",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197326": {
+          "id": "V197326",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 0,
+          "end": 5
+        },
+        "V197234": {
+          "id": "V197234",
+          "indicator": "WH-TERM",
+          "type": "TIME-POINT",
+          "word": null,
+          "roles": {
+            "PROFORM": "WHEN",
+            "SUCHTHAT": "#V197006"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "root": "#V197325"
+      },
+      {
+        "V204512": {
+          "id": "V204512",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197083",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197083": {
+          "id": "V197083",
+          "indicator": "F",
+          "type": "APPEAR",
+          "word": "COME-OUT",
+          "roles": {
+            "AFFECTED": "#V197078",
+            "TENSE": "PAST",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197078": {
+          "id": "V197078",
+          "indicator": "BARE",
+          "type": "INFORMATION",
+          "word": "REPORT-CARDS",
+          "roles": {
+            "FORMAL": "#V197147",
+            "LEX": "REPORT-CARDS",
+            "WNSENSE": "report_card%1:10:00"
+          },
+          "start": 5,
+          "end": 18
+        },
+        "V197147": {
+          "id": "V197147",
+          "indicator": "F",
+          "type": "INCUR-INHERIT-RECEIVE",
+          "word": "RECEIVE",
+          "roles": {
+            "AFFECTED": "#V197121",
+            "TENSE": "PAST",
+            "PERF": "+",
+            "LEX": "RECEIVED",
+            "WNSENSE": "receive%2:39:15::"
+          },
+          "start": 28,
+          "end": 45
+        },
+        "V197121": {
+          "id": "V197121",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 32
+        },
+        "root": "#V204512"
+      },
+      {
+        "V197773": {
+          "id": "V197773",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "ACT": "#V197272",
+            "ACT1": "#V197420",
+            "LEX": "EVALUATION"
+          },
+          "start": 45,
+          "end": 61
+        },
+        "V197272": {
+          "id": "V197272",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197158",
+            "LEX": "GOOD"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197158": {
+          "id": "V197158",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V197273",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197273": {
+          "id": "V197273",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 45,
+          "end": 50
+        },
+        "V197420": {
+          "id": "V197420",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V197166",
+            "LEX": "EVALUATION"
+          },
+          "start": 50,
+          "end": 61
+        },
+        "V197166": {
+          "id": "V197166",
+          "indicator": "BARE",
+          "type": "SCRUTINY",
+          "word": "EVALUATION",
+          "roles": {
+            "LEX": "EVALUATION",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 50,
+          "end": 60
+        },
+        "root": "#V197773"
+      }
+    ],
+    [
+      {
+        "V197325": {
+          "id": "V197325",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197006",
+            "FOCUS": "#V197234",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197006": {
+          "id": "V197006",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V197234",
+            "FIGURE": "#V197326",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197326": {
+          "id": "V197326",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 0,
+          "end": 5
+        },
+        "V197234": {
+          "id": "V197234",
+          "indicator": "WH-TERM",
+          "type": "TIME-POINT",
+          "word": null,
+          "roles": {
+            "PROFORM": "WHEN",
+            "SUCHTHAT": "#V197006"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "root": "#V197325"
+      },
+      {
+        "V204512": {
+          "id": "V204512",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197083",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197083": {
+          "id": "V197083",
+          "indicator": "F",
+          "type": "APPEAR",
+          "word": "COME-OUT",
+          "roles": {
+            "AFFECTED": "#V197078",
+            "TENSE": "PAST",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197078": {
+          "id": "V197078",
+          "indicator": "BARE",
+          "type": "INFORMATION",
+          "word": "REPORT-CARDS",
+          "roles": {
+            "FORMAL": "#V197147",
+            "LEX": "REPORT-CARDS",
+            "WNSENSE": "report_card%1:10:00"
+          },
+          "start": 5,
+          "end": 18
+        },
+        "V197147": {
+          "id": "V197147",
+          "indicator": "F",
+          "type": "INCUR-INHERIT-RECEIVE",
+          "word": "RECEIVE",
+          "roles": {
+            "AFFECTED": "#V197121",
+            "TENSE": "PAST",
+            "PERF": "+",
+            "LEX": "RECEIVED",
+            "WNSENSE": "receive%2:39:15::"
+          },
+          "start": 28,
+          "end": 45
+        },
+        "V197121": {
+          "id": "V197121",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 32
+        },
+        "root": "#V204512"
+      },
+      {
+        "V197774": {
+          "id": "V197774",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "ACT": "#V197278",
+            "ACT1": "#V197420",
+            "LEX": "EVALUATION"
+          },
+          "start": 45,
+          "end": 61
+        },
+        "V197278": {
+          "id": "V197278",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197159",
+            "LEX": "GOOD"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197159": {
+          "id": "V197159",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V197279",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197279": {
+          "id": "V197279",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 45,
+          "end": 50
+        },
+        "V197420": {
+          "id": "V197420",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V197166",
+            "LEX": "EVALUATION"
+          },
+          "start": 50,
+          "end": 61
+        },
+        "V197166": {
+          "id": "V197166",
+          "indicator": "BARE",
+          "type": "SCRUTINY",
+          "word": "EVALUATION",
+          "roles": {
+            "LEX": "EVALUATION",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 50,
+          "end": 60
+        },
+        "root": "#V197774"
+      }
+    ],
+    [
+      {
+        "V197325": {
+          "id": "V197325",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197006",
+            "FOCUS": "#V197234",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197006": {
+          "id": "V197006",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V197234",
+            "FIGURE": "#V197326",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197326": {
+          "id": "V197326",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 0,
+          "end": 5
+        },
+        "V197234": {
+          "id": "V197234",
+          "indicator": "WH-TERM",
+          "type": "TIME-POINT",
+          "word": null,
+          "roles": {
+            "PROFORM": "WHEN",
+            "SUCHTHAT": "#V197006"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "root": "#V197325"
+      },
+      {
+        "V204512": {
+          "id": "V204512",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197083",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197083": {
+          "id": "V197083",
+          "indicator": "F",
+          "type": "APPEAR",
+          "word": "COME-OUT",
+          "roles": {
+            "AFFECTED": "#V197078",
+            "TENSE": "PAST",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197078": {
+          "id": "V197078",
+          "indicator": "BARE",
+          "type": "INFORMATION",
+          "word": "REPORT-CARDS",
+          "roles": {
+            "FORMAL": "#V197147",
+            "LEX": "REPORT-CARDS",
+            "WNSENSE": "report_card%1:10:00"
+          },
+          "start": 5,
+          "end": 18
+        },
+        "V197147": {
+          "id": "V197147",
+          "indicator": "F",
+          "type": "INCUR-INHERIT-RECEIVE",
+          "word": "RECEIVE",
+          "roles": {
+            "AFFECTED": "#V197121",
+            "TENSE": "PAST",
+            "PERF": "+",
+            "LEX": "RECEIVED",
+            "WNSENSE": "receive%2:39:15::"
+          },
+          "start": 28,
+          "end": 45
+        },
+        "V197121": {
+          "id": "V197121",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 32
+        },
+        "root": "#V204512"
+      },
+      {
+        "V197774": {
+          "id": "V197774",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V197278",
+            "ACT1": "#V197572",
+            "LEX": "EVALUATION"
+          },
+          "start": 45,
+          "end": 61
+        },
+        "V197278": {
+          "id": "V197278",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197159",
+            "LEX": "GOOD"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197159": {
+          "id": "V197159",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V197279",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197279": {
+          "id": "V197279",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 45,
+          "end": 50
+        },
+        "V197572": {
+          "id": "V197572",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197166",
+            "LEX": "EVALUATION"
+          },
+          "start": 50,
+          "end": 60
+        },
+        "V197166": {
+          "id": "V197166",
+          "indicator": "BARE",
+          "type": "SCRUTINY",
+          "word": "EVALUATION",
+          "roles": {
+            "LEX": "EVALUATION",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 50,
+          "end": 60
+        },
+        "root": "#V197774"
+      }
+    ],
+    [
+      {
+        "V197325": {
+          "id": "V197325",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197006",
+            "FOCUS": "#V197234",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197006": {
+          "id": "V197006",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V197234",
+            "FIGURE": "#V197326",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197326": {
+          "id": "V197326",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 0,
+          "end": 5
+        },
+        "V197234": {
+          "id": "V197234",
+          "indicator": "WH-TERM",
+          "type": "TIME-POINT",
+          "word": null,
+          "roles": {
+            "PROFORM": "WHEN",
+            "SUCHTHAT": "#V197006"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "root": "#V197325"
+      },
+      {
+        "V204512": {
+          "id": "V204512",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197083",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197083": {
+          "id": "V197083",
+          "indicator": "F",
+          "type": "APPEAR",
+          "word": "COME-OUT",
+          "roles": {
+            "AFFECTED": "#V197078",
+            "TENSE": "PAST",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197078": {
+          "id": "V197078",
+          "indicator": "BARE",
+          "type": "INFORMATION",
+          "word": "REPORT-CARDS",
+          "roles": {
+            "FORMAL": "#V197147",
+            "LEX": "REPORT-CARDS",
+            "WNSENSE": "report_card%1:10:00"
+          },
+          "start": 5,
+          "end": 18
+        },
+        "V197147": {
+          "id": "V197147",
+          "indicator": "F",
+          "type": "INCUR-INHERIT-RECEIVE",
+          "word": "RECEIVE",
+          "roles": {
+            "AFFECTED": "#V197121",
+            "TENSE": "PAST",
+            "PERF": "+",
+            "LEX": "RECEIVED",
+            "WNSENSE": "receive%2:39:15::"
+          },
+          "start": 28,
+          "end": 45
+        },
+        "V197121": {
+          "id": "V197121",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 32
+        },
+        "root": "#V204512"
+      },
+      {
+        "V197773": {
+          "id": "V197773",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V197272",
+            "ACT1": "#V197572",
+            "LEX": "EVALUATION"
+          },
+          "start": 45,
+          "end": 61
+        },
+        "V197272": {
+          "id": "V197272",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197158",
+            "LEX": "GOOD"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197158": {
+          "id": "V197158",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V197273",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197273": {
+          "id": "V197273",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 45,
+          "end": 50
+        },
+        "V197572": {
+          "id": "V197572",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197166",
+            "LEX": "EVALUATION"
+          },
+          "start": 50,
+          "end": 60
+        },
+        "V197166": {
+          "id": "V197166",
+          "indicator": "BARE",
+          "type": "SCRUTINY",
+          "word": "EVALUATION",
+          "roles": {
+            "LEX": "EVALUATION",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 50,
+          "end": 60
+        },
+        "root": "#V197773"
+      }
+    ],
+    [
+      {
+        "V197325": {
+          "id": "V197325",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197006",
+            "FOCUS": "#V197234",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197006": {
+          "id": "V197006",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V197234",
+            "FIGURE": "#V197326",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197326": {
+          "id": "V197326",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 0,
+          "end": 5
+        },
+        "V197234": {
+          "id": "V197234",
+          "indicator": "WH-TERM",
+          "type": "TIME-POINT",
+          "word": null,
+          "roles": {
+            "PROFORM": "WHEN",
+            "SUCHTHAT": "#V197006"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "root": "#V197325"
+      },
+      {
+        "V204512": {
+          "id": "V204512",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197083",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197083": {
+          "id": "V197083",
+          "indicator": "F",
+          "type": "APPEAR",
+          "word": "COME-OUT",
+          "roles": {
+            "AFFECTED": "#V197078",
+            "TENSE": "PAST",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197078": {
+          "id": "V197078",
+          "indicator": "BARE",
+          "type": "INFORMATION",
+          "word": "REPORT-CARDS",
+          "roles": {
+            "FORMAL": "#V197147",
+            "LEX": "REPORT-CARDS",
+            "WNSENSE": "report_card%1:10:00"
+          },
+          "start": 5,
+          "end": 18
+        },
+        "V197147": {
+          "id": "V197147",
+          "indicator": "F",
+          "type": "INCUR-INHERIT-RECEIVE",
+          "word": "RECEIVE",
+          "roles": {
+            "AFFECTED": "#V197121",
+            "TENSE": "PAST",
+            "PERF": "+",
+            "LEX": "RECEIVED",
+            "WNSENSE": "receive%2:39:15::"
+          },
+          "start": 28,
+          "end": 45
+        },
+        "V197121": {
+          "id": "V197121",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 32
+        },
+        "root": "#V204512"
+      },
+      {
+        "V197772": {
+          "id": "V197772",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V197266",
+            "ACT1": "#V197572",
+            "LEX": "EVALUATION"
+          },
+          "start": 45,
+          "end": 61
+        },
+        "V197266": {
+          "id": "V197266",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197157",
+            "LEX": "GOOD"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197157": {
+          "id": "V197157",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V197267",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197267": {
+          "id": "V197267",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 45,
+          "end": 50
+        },
+        "V197572": {
+          "id": "V197572",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197166",
+            "LEX": "EVALUATION"
+          },
+          "start": 50,
+          "end": 60
+        },
+        "V197166": {
+          "id": "V197166",
+          "indicator": "BARE",
+          "type": "SCRUTINY",
+          "word": "EVALUATION",
+          "roles": {
+            "LEX": "EVALUATION",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 50,
+          "end": 60
+        },
+        "root": "#V197772"
+      }
+    ],
+    [
+      {
+        "V197325": {
+          "id": "V197325",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197006",
+            "FOCUS": "#V197234",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197006": {
+          "id": "V197006",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V197234",
+            "FIGURE": "#V197326",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197326": {
+          "id": "V197326",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 0,
+          "end": 5
+        },
+        "V197234": {
+          "id": "V197234",
+          "indicator": "WH-TERM",
+          "type": "TIME-POINT",
+          "word": null,
+          "roles": {
+            "PROFORM": "WHEN",
+            "SUCHTHAT": "#V197006"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "root": "#V197325"
+      },
+      {
+        "V204136": {
+          "id": "V204136",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197083",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197083": {
+          "id": "V197083",
+          "indicator": "F",
+          "type": "APPEAR",
+          "word": "COME-OUT",
+          "roles": {
+            "AFFECTED": "#V197078",
+            "TENSE": "PAST",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197078": {
+          "id": "V197078",
+          "indicator": "INDEF-SET",
+          "type": "INFORMATION",
+          "word": "REPORT-CARDS",
+          "roles": {
+            "FORMAL": "#V197147",
+            "LEX": "REPORT-CARDS",
+            "WNSENSE": "report_card%1:10:00"
+          },
+          "start": 5,
+          "end": 18
+        },
+        "V197147": {
+          "id": "V197147",
+          "indicator": "F",
+          "type": "INCUR-INHERIT-RECEIVE",
+          "word": "RECEIVE",
+          "roles": {
+            "AFFECTED": "#V197121",
+            "TENSE": "PAST",
+            "PERF": "+",
+            "LEX": "RECEIVED",
+            "WNSENSE": "receive%2:39:15::"
+          },
+          "start": 28,
+          "end": 45
+        },
+        "V197121": {
+          "id": "V197121",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 32
+        },
+        "root": "#V204136"
+      },
+      {
+        "V197772": {
+          "id": "V197772",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "ACT": "#V197266",
+            "ACT1": "#V197572",
+            "LEX": "EVALUATION"
+          },
+          "start": 45,
+          "end": 61
+        },
+        "V197266": {
+          "id": "V197266",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197157",
+            "LEX": "GOOD"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197157": {
+          "id": "V197157",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V197267",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197267": {
+          "id": "V197267",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 45,
+          "end": 50
+        },
+        "V197572": {
+          "id": "V197572",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V197166",
+            "LEX": "EVALUATION"
+          },
+          "start": 50,
+          "end": 61
+        },
+        "V197166": {
+          "id": "V197166",
+          "indicator": "BARE",
+          "type": "SCRUTINY",
+          "word": "EVALUATION",
+          "roles": {
+            "LEX": "EVALUATION",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 50,
+          "end": 60
+        },
+        "root": "#V197772"
+      }
+    ],
+    [
+      {
+        "V197325": {
+          "id": "V197325",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197006",
+            "FOCUS": "#V197234",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197006": {
+          "id": "V197006",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V197234",
+            "FIGURE": "#V197326",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V197326": {
+          "id": "V197326",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 0,
+          "end": 5
+        },
+        "V197234": {
+          "id": "V197234",
+          "indicator": "WH-TERM",
+          "type": "TIME-POINT",
+          "word": null,
+          "roles": {
+            "PROFORM": "WHEN",
+            "SUCHTHAT": "#V197006"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "root": "#V197325"
+      },
+      {
+        "V204136": {
+          "id": "V204136",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197083",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197083": {
+          "id": "V197083",
+          "indicator": "F",
+          "type": "APPEAR",
+          "word": "COME-OUT",
+          "roles": {
+            "AFFECTED": "#V197078",
+            "TENSE": "PAST",
+            "LEX": "COME-OUT"
+          },
+          "start": 5,
+          "end": 45
+        },
+        "V197078": {
+          "id": "V197078",
+          "indicator": "INDEF-SET",
+          "type": "INFORMATION",
+          "word": "REPORT-CARDS",
+          "roles": {
+            "FORMAL": "#V197147",
+            "LEX": "REPORT-CARDS",
+            "WNSENSE": "report_card%1:10:00"
+          },
+          "start": 5,
+          "end": 18
+        },
+        "V197147": {
+          "id": "V197147",
+          "indicator": "F",
+          "type": "INCUR-INHERIT-RECEIVE",
+          "word": "RECEIVE",
+          "roles": {
+            "AFFECTED": "#V197121",
+            "TENSE": "PAST",
+            "PERF": "+",
+            "LEX": "RECEIVED",
+            "WNSENSE": "receive%2:39:15::"
+          },
+          "start": 28,
+          "end": 45
+        },
+        "V197121": {
+          "id": "V197121",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 32
+        },
+        "root": "#V204136"
+      },
+      {
+        "V197773": {
+          "id": "V197773",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "ACT": "#V197272",
+            "ACT1": "#V197572",
+            "LEX": "EVALUATION"
+          },
+          "start": 45,
+          "end": 61
+        },
+        "V197272": {
+          "id": "V197272",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V197158",
+            "LEX": "GOOD"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197158": {
+          "id": "V197158",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V197273",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 45,
+          "end": 50
+        },
+        "V197273": {
+          "id": "V197273",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 45,
+          "end": 50
+        },
+        "V197572": {
+          "id": "V197572",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V197166",
+            "LEX": "EVALUATION"
+          },
+          "start": 50,
+          "end": 61
+        },
+        "V197166": {
+          "id": "V197166",
+          "indicator": "BARE",
+          "type": "SCRUTINY",
+          "word": "EVALUATION",
+          "roles": {
+            "LEX": "EVALUATION",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 50,
+          "end": 60
+        },
+        "root": "#V197773"
+      }
+    ]
+  ],
+  "sentence": "When report cards came out, she had received good evaluation!",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20191010T104953",
+    "link": "http://trips.ihmc.us/parser/saved/20191010T104953-STEP-abhatia-none-When_report_cards_came_out_she_had_recei.xml",
+    "judgement": -1
+  }
+}

@@ -1,0 +1,514 @@
+{
+  "parse": [
+    {
+      "V142995": {
+        "id": "V142995",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V142628",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 33
+      },
+      "V142628": {
+        "id": "V142628",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V142495",
+          "SEQUENCE1": "#V142531",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 33
+      },
+      "V142531": {
+        "id": "V142531",
+        "indicator": "F",
+        "type": "MOVE",
+        "word": "GO",
+        "roles": {
+          "RESULT": "#V142549",
+          "AGENT": "#V142487",
+          "REASON": "#V142563",
+          "LEX": "WENT",
+          "WNSENSE": "go%2:38:00::"
+        },
+        "start": 0,
+        "end": 33
+      },
+      "V142495": {
+        "id": "V142495",
+        "indicator": "F",
+        "type": "ACCEPT-AGREE",
+        "word": "AGREE",
+        "roles": {
+          "AGENT": "#V142487",
+          "LEX": "AGREED",
+          "WNSENSE": "agree%2:32:00::"
+        },
+        "start": 0,
+        "end": 33
+      },
+      "V142487": {
+        "id": "V142487",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V142549": {
+        "id": "V142549",
+        "indicator": "F",
+        "type": "POS-WRT-SPEAKER-RELN",
+        "word": "THERE",
+        "roles": {
+          "GROUND": "#V142624",
+          "FIGURE": "#V142487",
+          "LEX": "THERE"
+        },
+        "start": 21,
+        "end": 27
+      },
+      "V142624": {
+        "id": "V142624",
+        "indicator": "IMPRO",
+        "type": "LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "THERE"
+        },
+        "start": 21,
+        "end": 27
+      },
+      "V142563": {
+        "id": "V142563",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V142582",
+          "FIGURE": "#V142531",
+          "LEX": "TO"
+        },
+        "start": 27,
+        "end": 33
+      },
+      "V142582": {
+        "id": "V142582",
+        "indicator": "F",
+        "type": "EAT",
+        "word": "EAT",
+        "roles": {
+          "VFORM": "BASE",
+          "LEX": "EAT",
+          "WNSENSE": "eat%2:34:00::"
+        },
+        "start": 30,
+        "end": 33
+      },
+      "root": "#V142995"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V143040": {
+          "id": "V143040",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V142628",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V142628": {
+          "id": "V142628",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V142495",
+            "SEQUENCE1": "#V142531",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V142531": {
+          "id": "V142531",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "AGENT": "#V142487",
+            "REASON": "#V142563",
+            "RESULT": "#V142549",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V142495": {
+          "id": "V142495",
+          "indicator": "F",
+          "type": "ACCEPT-AGREE",
+          "word": "AGREE",
+          "roles": {
+            "AGENT": "#V142487",
+            "LEX": "AGREED",
+            "WNSENSE": "agree%2:32:00::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V142487": {
+          "id": "V142487",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V142549": {
+          "id": "V142549",
+          "indicator": "F",
+          "type": "POS-WRT-SPEAKER-RELN",
+          "word": "THERE",
+          "roles": {
+            "GROUND": "#V142624",
+            "FIGURE": "#V142531",
+            "LEX": "THERE"
+          },
+          "start": 21,
+          "end": 27
+        },
+        "V142624": {
+          "id": "V142624",
+          "indicator": "IMPRO",
+          "type": "LOCATION",
+          "word": null,
+          "roles": {
+            "PROFORM": "THERE"
+          },
+          "start": 21,
+          "end": 27
+        },
+        "V142563": {
+          "id": "V142563",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V142582",
+            "FIGURE": "#V142531",
+            "LEX": "TO"
+          },
+          "start": 27,
+          "end": 33
+        },
+        "V142582": {
+          "id": "V142582",
+          "indicator": "F",
+          "type": "EAT",
+          "word": "EAT",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "EAT",
+            "WNSENSE": "eat%2:34:00::"
+          },
+          "start": 30,
+          "end": 33
+        },
+        "root": "#V143040"
+      }
+    ],
+    [
+      {
+        "V143016": {
+          "id": "V143016",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V142505",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V142505": {
+          "id": "V142505",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V142495",
+            "SEQUENCE1": "#V142531",
+            "TENSE": "PAST",
+            "LEX": "AND",
+            "WNSENSE": "agree%2:32:00::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V142495": {
+          "id": "V142495",
+          "indicator": "F",
+          "type": "ACCEPT-AGREE",
+          "word": "AGREE",
+          "roles": {
+            "AGENT": "#V142487",
+            "TENSE": "PAST",
+            "LEX": "AGREED",
+            "WNSENSE": "agree%2:32:00::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V142487": {
+          "id": "V142487",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V142531": {
+          "id": "V142531",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V142549",
+            "AGENT": "#V142487",
+            "REASON": "#V142563",
+            "TENSE": "PAST",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 16,
+          "end": 33
+        },
+        "V142549": {
+          "id": "V142549",
+          "indicator": "F",
+          "type": "POS-WRT-SPEAKER-RELN",
+          "word": "THERE",
+          "roles": {
+            "GROUND": "#V142624",
+            "FIGURE": "#V142487",
+            "LEX": "THERE"
+          },
+          "start": 21,
+          "end": 27
+        },
+        "V142624": {
+          "id": "V142624",
+          "indicator": "IMPRO",
+          "type": "LOCATION",
+          "word": null,
+          "roles": {
+            "PROFORM": "THERE"
+          },
+          "start": 21,
+          "end": 27
+        },
+        "V142563": {
+          "id": "V142563",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V142582",
+            "FIGURE": "#V142531",
+            "LEX": "TO"
+          },
+          "start": 27,
+          "end": 33
+        },
+        "V142582": {
+          "id": "V142582",
+          "indicator": "F",
+          "type": "EAT",
+          "word": "EAT",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "EAT",
+            "WNSENSE": "eat%2:34:00::"
+          },
+          "start": 30,
+          "end": 33
+        },
+        "root": "#V143016"
+      }
+    ],
+    [
+      {
+        "V143034": {
+          "id": "V143034",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V142505",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V142505": {
+          "id": "V142505",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V142495",
+            "SEQUENCE1": "#V142531",
+            "TENSE": "PAST",
+            "LEX": "AND",
+            "WNSENSE": "agree%2:32:00::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V142495": {
+          "id": "V142495",
+          "indicator": "F",
+          "type": "ACCEPT-AGREE",
+          "word": "AGREE",
+          "roles": {
+            "AGENT": "#V142487",
+            "TENSE": "PAST",
+            "LEX": "AGREED",
+            "WNSENSE": "agree%2:32:00::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V142487": {
+          "id": "V142487",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V142531": {
+          "id": "V142531",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "AGENT": "#V142487",
+            "REASON": "#V142563",
+            "RESULT": "#V142549",
+            "TENSE": "PAST",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 16,
+          "end": 33
+        },
+        "V142549": {
+          "id": "V142549",
+          "indicator": "F",
+          "type": "POS-WRT-SPEAKER-RELN",
+          "word": "THERE",
+          "roles": {
+            "GROUND": "#V142624",
+            "FIGURE": "#V142531",
+            "LEX": "THERE"
+          },
+          "start": 21,
+          "end": 27
+        },
+        "V142624": {
+          "id": "V142624",
+          "indicator": "IMPRO",
+          "type": "LOCATION",
+          "word": null,
+          "roles": {
+            "PROFORM": "THERE"
+          },
+          "start": 21,
+          "end": 27
+        },
+        "V142563": {
+          "id": "V142563",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V142582",
+            "FIGURE": "#V142531",
+            "LEX": "TO"
+          },
+          "start": 27,
+          "end": 33
+        },
+        "V142582": {
+          "id": "V142582",
+          "indicator": "F",
+          "type": "EAT",
+          "word": "EAT",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "EAT",
+            "WNSENSE": "eat%2:34:00::"
+          },
+          "start": 30,
+          "end": 33
+        },
+        "root": "#V143034"
+      }
+    ]
+  ],
+  "sentence": "They agreed and went there to eat. ",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190730T060553",
+    "link": "http://trips.ihmc.us/parser/saved/20190730T060553-STEP-abhatia-0-They_agreed_and_went_there_to_eat_.xml",
+    "judgement": 0
+  }
+}

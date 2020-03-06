@@ -1,0 +1,287 @@
+{
+  "parse": [
+    {
+      "V40853": {
+        "id": "V40853",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V40583",
+          "LEX": "STAY"
+        },
+        "start": 0,
+        "end": 17
+      },
+      "V40583": {
+        "id": "V40583",
+        "indicator": "F",
+        "type": "STAY",
+        "word": "STAY",
+        "roles": {
+          "AFFECTED": "#V40854",
+          "LOCATION": "#V40589",
+          "TENSE": "PRES",
+          "LEX": "STAY"
+        },
+        "start": 0,
+        "end": 17
+      },
+      "V40854": {
+        "id": "V40854",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ"
+        },
+        "start": 0,
+        "end": 17
+      },
+      "V40589": {
+        "id": "V40589",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "WHERE",
+        "roles": {
+          "GROUND": "#V40614",
+          "FIGURE": "#V40583",
+          "LEX": "WHERE"
+        },
+        "start": 5,
+        "end": 17
+      },
+      "V40614": {
+        "id": "V40614",
+        "indicator": "F",
+        "type": "ELLIPSIS",
+        "word": null,
+        "roles": {
+          "NEUTRAL": "#V40606",
+          "TENSE": "PRES",
+          "PROGR": "+",
+          "LEX": "ARE"
+        },
+        "start": 11,
+        "end": 17
+      },
+      "V40606": {
+        "id": "V40606",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "COREF": "SYS"
+        },
+        "start": 11,
+        "end": 15
+      },
+      "root": "#V40853"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V40859": {
+          "id": "V40859",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V40583",
+            "LEX": "STAY"
+          },
+          "start": 0,
+          "end": 18
+        },
+        "V40583": {
+          "id": "V40583",
+          "indicator": "F",
+          "type": "STAY",
+          "word": "STAY",
+          "roles": {
+            "AFFECTED": "#V40860",
+            "LOCATION": "#V40589",
+            "TENSE": "PRES",
+            "LEX": "STAY"
+          },
+          "start": 0,
+          "end": 18
+        },
+        "V40860": {
+          "id": "V40860",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 0,
+          "end": 18
+        },
+        "V40589": {
+          "id": "V40589",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "WHERE",
+          "roles": {
+            "GROUND": "#V40614",
+            "FIGURE": "#V40583",
+            "LEX": "WHERE"
+          },
+          "start": 5,
+          "end": 18
+        },
+        "V40614": {
+          "id": "V40614",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V40607",
+            "TENSE": "PRES",
+            "PROGR": "+",
+            "LEX": "ARE"
+          },
+          "start": 11,
+          "end": 18
+        },
+        "V40607": {
+          "id": "V40607",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "YOU",
+          "roles": {
+            "PROFORM": "YOU",
+            "LEX": "YOU"
+          },
+          "start": 11,
+          "end": 15
+        },
+        "root": "#V40859"
+      }
+    ],
+    [
+      {
+        "V40583": {
+          "id": "V40583",
+          "indicator": "F",
+          "type": "STAY",
+          "word": "STAY",
+          "roles": {
+            "LOCATION": "#V40589",
+            "TENSE": "PRES",
+            "LEX": "STAY"
+          },
+          "start": 0,
+          "end": 18
+        },
+        "V40589": {
+          "id": "V40589",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "WHERE",
+          "roles": {
+            "GROUND": "#V40618",
+            "FIGURE": "#V40583",
+            "LEX": "WHERE"
+          },
+          "start": 5,
+          "end": 18
+        },
+        "V40618": {
+          "id": "V40618",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V40606",
+            "TENSE": "PRES",
+            "LEX": "ARE"
+          },
+          "start": 11,
+          "end": 18
+        },
+        "V40606": {
+          "id": "V40606",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "YOU",
+          "roles": {
+            "PROFORM": "YOU",
+            "LEX": "YOU"
+          },
+          "start": 11,
+          "end": 15
+        },
+        "root": "#V40583"
+      }
+    ],
+    [
+      {
+        "V40583": {
+          "id": "V40583",
+          "indicator": "F",
+          "type": "STAY",
+          "word": "STAY",
+          "roles": {
+            "LOCATION": "#V40589",
+            "VFORM": "BASE",
+            "LEX": "STAY"
+          },
+          "start": 0,
+          "end": 18
+        },
+        "V40589": {
+          "id": "V40589",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "WHERE",
+          "roles": {
+            "GROUND": "#V40618",
+            "FIGURE": "#V40583",
+            "LEX": "WHERE"
+          },
+          "start": 5,
+          "end": 18
+        },
+        "V40618": {
+          "id": "V40618",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V40606",
+            "TENSE": "PRES",
+            "LEX": "ARE"
+          },
+          "start": 11,
+          "end": 18
+        },
+        "V40606": {
+          "id": "V40606",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "YOU",
+          "roles": {
+            "PROFORM": "YOU",
+            "LEX": "YOU"
+          },
+          "start": 11,
+          "end": 15
+        },
+        "root": "#V40583"
+      }
+    ]
+  ],
+  "sentence": "stay where you are",
+  "annotation": {
+    "judge": "lgalescu",
+    "parser": "STEP",
+    "timestamp": "20190624T162625",
+    "link": "http://trips.ihmc.us/parser/saved/20190624T162625-STEP-lgalescu-none-stay_where_you_are.xml",
+    "judgement": -1
+  }
+}

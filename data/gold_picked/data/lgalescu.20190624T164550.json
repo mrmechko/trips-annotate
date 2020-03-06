@@ -1,0 +1,229 @@
+{
+  "parse": [
+    {
+      "V41834": {
+        "id": "V41834",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V41695",
+          "FOCUS": "#V41646"
+        },
+        "start": 0,
+        "end": 38
+      },
+      "V41695": {
+        "id": "V41695",
+        "indicator": "F",
+        "type": "DIRECT-AT",
+        "word": "TARGET",
+        "roles": {
+          "NEUTRAL": "#V41676",
+          "NEUTRAL1": "#V41646",
+          "TENSE": "PRES",
+          "MODALITY": "(:* DO DO)"
+        },
+        "start": 0,
+        "end": 37
+      },
+      "V41646": {
+        "id": "V41646",
+        "indicator": "WH-TERM-SET",
+        "type": "PROTEIN",
+        "word": "PROTEIN",
+        "roles": {
+          "PROFORM": "WHAT"
+        },
+        "start": 0,
+        "end": 14
+      },
+      "V41676": {
+        "id": "V41676",
+        "indicator": "THE",
+        "type": "PHARMACOLOGIC-SUBSTANCE",
+        "word": "VEMURAFENIB",
+        "roles": {
+          "NAME-OF": "VEMURAFENIB",
+          "DRUM": "((:DRUM\n  (TERM :ID C64768 :NAME \"vemurafenib\" :SCORE 0.85542 :MATCHES\n   ((MATCH :SCORE 0.85542 :MATCHED \"vemurafenib\" :STATUS \"name\" :EXACT 1)\n    (MATCH :SCORE 0.7091 :MATCHED \"VEMURAFENIB\" :STATUS \"synonym\"\n     :NO-CAPS-ALL-CAPS 1))\n   :MAPPINGS\n   ((MAP :THROUGH\n         (CONCEPT C1909\n          (SENSE (MORPH (POS N) (WORD (PHARMACOLOGIC SUBSTANCE)))\n           (PROVENANCE (NAME NCIT)\n            (FILENAME\n             \"/Users/wbeaumont/bob/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00190.lisp\"))))\n         :TO PHARMACOLOGIC-SUBSTANCE))\n   :ONT-TYPES (PHARMACOLOGIC-SUBSTANCE))\n  (TERM :ID |42611257| :NAME \"Vemurafenib\" :SCORE 0.85368 :MATCHES\n   ((MATCH :SCORE 0.85368 :MATCHED \"Vemurafenib\" :STATUS \"Name\"\n     :NO-CAPS-INITIAL-CAP 1))\n   :ONT-TYPES (PHARMACOLOGIC-SUBSTANCE))))"
+        },
+        "start": 19,
+        "end": 31
+      },
+      "root": "#V41834"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V41900": {
+          "id": "V41900",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "YNQ",
+            "CONTENT": "#V41695",
+            "FOCUS": "#V41646"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V41695": {
+          "id": "V41695",
+          "indicator": "F",
+          "type": "DIRECT-AT",
+          "word": "TARGET",
+          "roles": {
+            "NEUTRAL": "#V41685",
+            "NEUTRAL1": "#V41646",
+            "TENSE": "PRES",
+            "MODALITY": "(:* DO DO)"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V41646": {
+          "id": "V41646",
+          "indicator": "WH-TERM-SET",
+          "type": "PROTEIN",
+          "word": "PROTEIN",
+          "roles": {
+            "PROFORM": "WHAT"
+          },
+          "start": 0,
+          "end": 14
+        },
+        "V41685": {
+          "id": "V41685",
+          "indicator": "BARE",
+          "type": "MOLECULE",
+          "word": "VEMURAFENIB",
+          "roles": {
+            "DRUM": "((:DRUM\n  (TERM :ID |63637| :NAME \"vemurafenib\" :SCORE 0.85542 :MATCHES\n   ((MATCH :SCORE 0.85542 :MATCHED \"vemurafenib\" :STATUS \"name\" :EXACT 1))\n   :MAPPINGS\n   ((MAP :THROUGH\n         (CONCEPT |52217|\n          (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))\n           (PROVENANCE (NAME CHEBI)\n            (FILENAME\n             \"/Users/wbeaumont/bob/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005221.lisp\"))))\n         :TO PHARMACOLOGIC-SUBSTANCE)\n    (MAP :THROUGH\n         (CONCEPT |24432|\n          (SENSE (MORPH (POS N) (WORD (BIOLOGICAL ROLE)))\n           (PROVENANCE (NAME CHEBI)\n            (FILENAME\n             \"/Users/wbeaumont/bob/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002443.lisp\"))))\n         :TO CHEMICAL)\n    (MAP :THROUGH\n         (CONCEPT |23367|\n          (SENSE (MORPH (POS N) (WORD (MOLECULAR ENTITY)))\n           (PROVENANCE (NAME CHEBI)\n            (FILENAME\n             \"/Users/wbeaumont/bob/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002336.lisp\"))))\n         :TO MOLECULE))\n   :ONT-TYPES (PHARMACOLOGIC-SUBSTANCE CHEMICAL MOLECULE))))"
+          },
+          "start": 19,
+          "end": 31
+        },
+        "root": "#V41900"
+      }
+    ],
+    [
+      {
+        "V41897": {
+          "id": "V41897",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "YNQ",
+            "CONTENT": "#V41695",
+            "FOCUS": "#V41646"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V41695": {
+          "id": "V41695",
+          "indicator": "F",
+          "type": "DIRECT-AT",
+          "word": "TARGET",
+          "roles": {
+            "NEUTRAL": "#V41676",
+            "NEUTRAL1": "#V41646",
+            "TENSE": "PRES",
+            "MODALITY": "(:* DO DO)"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V41646": {
+          "id": "V41646",
+          "indicator": "WH-TERM-SET",
+          "type": "PROTEIN",
+          "word": "PROTEIN",
+          "roles": {
+            "PROFORM": "WHAT"
+          },
+          "start": 0,
+          "end": 14
+        },
+        "V41676": {
+          "id": "V41676",
+          "indicator": "BARE",
+          "type": "PHARMACOLOGIC-SUBSTANCE",
+          "word": "VEMURAFENIB",
+          "roles": {
+            "DRUM": "((:DRUM\n  (TERM :ID C64768 :NAME \"vemurafenib\" :SCORE 0.85542 :MATCHES\n   ((MATCH :SCORE 0.85542 :MATCHED \"vemurafenib\" :STATUS \"name\" :EXACT 1)\n    (MATCH :SCORE 0.7091 :MATCHED \"VEMURAFENIB\" :STATUS \"synonym\"\n     :NO-CAPS-ALL-CAPS 1))\n   :MAPPINGS\n   ((MAP :THROUGH\n         (CONCEPT C1909\n          (SENSE (MORPH (POS N) (WORD (PHARMACOLOGIC SUBSTANCE)))\n           (PROVENANCE (NAME NCIT)\n            (FILENAME\n             \"/Users/wbeaumont/bob/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/00190.lisp\"))))\n         :TO PHARMACOLOGIC-SUBSTANCE))\n   :ONT-TYPES (PHARMACOLOGIC-SUBSTANCE))\n  (TERM :ID |42611257| :NAME \"Vemurafenib\" :SCORE 0.85368 :MATCHES\n   ((MATCH :SCORE 0.85368 :MATCHED \"Vemurafenib\" :STATUS \"Name\"\n     :NO-CAPS-INITIAL-CAP 1))\n   :ONT-TYPES (PHARMACOLOGIC-SUBSTANCE))))"
+          },
+          "start": 19,
+          "end": 31
+        },
+        "root": "#V41897"
+      }
+    ],
+    [
+      {
+        "V41903": {
+          "id": "V41903",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "YNQ",
+            "CONTENT": "#V41695",
+            "FOCUS": "#V41646"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V41695": {
+          "id": "V41695",
+          "indicator": "F",
+          "type": "DIRECT-AT",
+          "word": "TARGET",
+          "roles": {
+            "NEUTRAL": "#V41681",
+            "NEUTRAL1": "#V41646",
+            "TENSE": "PRES",
+            "MODALITY": "(:* DO DO)"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V41646": {
+          "id": "V41646",
+          "indicator": "WH-TERM-SET",
+          "type": "PROTEIN",
+          "word": "PROTEIN",
+          "roles": {
+            "PROFORM": "WHAT"
+          },
+          "start": 0,
+          "end": 14
+        },
+        "V41681": {
+          "id": "V41681",
+          "indicator": "BARE",
+          "type": "CHEMICAL",
+          "word": "VEMURAFENIB",
+          "roles": {
+            "DRUM": "((:DRUM\n  (TERM :ID |63637| :NAME \"vemurafenib\" :SCORE 0.85542 :MATCHES\n   ((MATCH :SCORE 0.85542 :MATCHED \"vemurafenib\" :STATUS \"name\" :EXACT 1))\n   :MAPPINGS\n   ((MAP :THROUGH\n         (CONCEPT |52217|\n          (SENSE (MORPH (POS N) (WORD PHARMACEUTICAL))\n           (PROVENANCE (NAME CHEBI)\n            (FILENAME\n             \"/Users/wbeaumont/bob/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/005221.lisp\"))))\n         :TO PHARMACOLOGIC-SUBSTANCE)\n    (MAP :THROUGH\n         (CONCEPT |24432|\n          (SENSE (MORPH (POS N) (WORD (BIOLOGICAL ROLE)))\n           (PROVENANCE (NAME CHEBI)\n            (FILENAME\n             \"/Users/wbeaumont/bob/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002443.lisp\"))))\n         :TO CHEMICAL)\n    (MAP :THROUGH\n         (CONCEPT |23367|\n          (SENSE (MORPH (POS N) (WORD (MOLECULAR ENTITY)))\n           (PROVENANCE (NAME CHEBI)\n            (FILENAME\n             \"/Users/wbeaumont/bob/src/config/lisp/../../../src/TextTagger/drum-dsl/CHEBI/002336.lisp\"))))\n         :TO MOLECULE))\n   :ONT-TYPES (PHARMACOLOGIC-SUBSTANCE CHEMICAL MOLECULE))))"
+          },
+          "start": 19,
+          "end": 31
+        },
+        "root": "#V41903"
+      }
+    ]
+  ],
+  "sentence": "What proteins does vemurafenib target?",
+  "annotation": {
+    "judge": "lgalescu",
+    "parser": "BOB",
+    "timestamp": "20190624T164550",
+    "link": "http://trips.ihmc.us/parser/saved/20190624T164550-BOB-lgalescu-0-What_proteins_does_vemurafenib_target_.xml",
+    "judgement": 0
+  }
+}

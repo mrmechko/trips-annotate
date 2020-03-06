@@ -1,0 +1,345 @@
+{
+  "parse": [
+    {
+      "V107512": {
+        "id": "V107512",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V107321",
+          "FOCUS": "#V107366",
+          "LEX": "BUY"
+        },
+        "start": 0,
+        "end": 25
+      },
+      "V107321": {
+        "id": "V107321",
+        "indicator": "F",
+        "type": "PURCHASE",
+        "word": "BUY",
+        "roles": {
+          "AGENT": "#V107312",
+          "AFFECTED": "#V107330",
+          "LOCATION": "#V107277",
+          "TENSE": "PAST",
+          "MODALITY": "(:* DO DO)",
+          "LEX": "BUY"
+        },
+        "start": 0,
+        "end": 25
+      },
+      "V107277": {
+        "id": "V107277",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "WHERE",
+        "roles": {
+          "GROUND": "#V107366",
+          "FIGURE": "#V107321",
+          "LEX": "WHERE"
+        },
+        "start": 0,
+        "end": 6
+      },
+      "V107366": {
+        "id": "V107366",
+        "indicator": "WH-TERM",
+        "type": "LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "WHERE",
+          "SUCHTHAT": "#V107277"
+        },
+        "start": 0,
+        "end": 6
+      },
+      "V107312": {
+        "id": "V107312",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "YOU",
+        "roles": {
+          "PROFORM": "YOU",
+          "LEX": "YOU",
+          "COREF": "SYS"
+        },
+        "start": 10,
+        "end": 14
+      },
+      "V107330": {
+        "id": "V107330",
+        "indicator": "THE",
+        "type": "LAND-VEHICLE",
+        "word": "CAR",
+        "roles": {
+          "LEX": "CAR"
+        },
+        "start": 18,
+        "end": 25
+      },
+      "root": "#V107512"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V107521": {
+          "id": "V107521",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "YNQ",
+            "CONTENT": "#V107321",
+            "FOCUS": "#V107366",
+            "LEX": "BUY"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V107321": {
+          "id": "V107321",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AGENT": "#V107312",
+            "AFFECTED": "#V107331",
+            "LOCATION": "#V107277",
+            "TENSE": "PAST",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "BUY"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V107277": {
+          "id": "V107277",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "WHERE",
+          "roles": {
+            "GROUND": "#V107366",
+            "FIGURE": "#V107321",
+            "LEX": "WHERE"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V107366": {
+          "id": "V107366",
+          "indicator": "WH-TERM",
+          "type": "LOCATION",
+          "word": null,
+          "roles": {
+            "PROFORM": "WHERE",
+            "SUCHTHAT": "#V107277"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V107312": {
+          "id": "V107312",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "YOU",
+          "roles": {
+            "PROFORM": "YOU",
+            "LEX": "YOU"
+          },
+          "start": 10,
+          "end": 14
+        },
+        "V107331": {
+          "id": "V107331",
+          "indicator": "THE",
+          "type": "BOXCAR",
+          "word": "CAR",
+          "roles": {
+            "LEX": "CAR"
+          },
+          "start": 18,
+          "end": 25
+        },
+        "root": "#V107521"
+      }
+    ],
+    [
+      {
+        "V107524": {
+          "id": "V107524",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "YNQ",
+            "CONTENT": "#V107321",
+            "FOCUS": "#V107366",
+            "LEX": "BUY"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V107321": {
+          "id": "V107321",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AGENT": "#V107313",
+            "AFFECTED": "#V107330",
+            "LOCATION": "#V107277",
+            "TENSE": "PAST",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "BUY"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V107277": {
+          "id": "V107277",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "WHERE",
+          "roles": {
+            "GROUND": "#V107366",
+            "FIGURE": "#V107321",
+            "LEX": "WHERE"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V107366": {
+          "id": "V107366",
+          "indicator": "WH-TERM",
+          "type": "LOCATION",
+          "word": null,
+          "roles": {
+            "PROFORM": "WHERE",
+            "SUCHTHAT": "#V107277"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V107313": {
+          "id": "V107313",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "YOU",
+          "roles": {
+            "PROFORM": "YOU",
+            "LEX": "YOU"
+          },
+          "start": 10,
+          "end": 14
+        },
+        "V107330": {
+          "id": "V107330",
+          "indicator": "THE",
+          "type": "LAND-VEHICLE",
+          "word": "CAR",
+          "roles": {
+            "LEX": "CAR"
+          },
+          "start": 18,
+          "end": 25
+        },
+        "root": "#V107524"
+      }
+    ],
+    [
+      {
+        "V107536": {
+          "id": "V107536",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "YNQ",
+            "CONTENT": "#V107321",
+            "FOCUS": "#V107366",
+            "LEX": "BUY"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V107321": {
+          "id": "V107321",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AGENT": "#V107313",
+            "AFFECTED": "#V107331",
+            "LOCATION": "#V107277",
+            "TENSE": "PAST",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "BUY"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V107277": {
+          "id": "V107277",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "WHERE",
+          "roles": {
+            "GROUND": "#V107366",
+            "FIGURE": "#V107321",
+            "LEX": "WHERE"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V107366": {
+          "id": "V107366",
+          "indicator": "WH-TERM",
+          "type": "LOCATION",
+          "word": null,
+          "roles": {
+            "PROFORM": "WHERE",
+            "SUCHTHAT": "#V107277"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V107313": {
+          "id": "V107313",
+          "indicator": "PRO-SET",
+          "type": "PERSON",
+          "word": "YOU",
+          "roles": {
+            "PROFORM": "YOU",
+            "LEX": "YOU"
+          },
+          "start": 10,
+          "end": 14
+        },
+        "V107331": {
+          "id": "V107331",
+          "indicator": "THE",
+          "type": "BOXCAR",
+          "word": "CAR",
+          "roles": {
+            "LEX": "CAR"
+          },
+          "start": 18,
+          "end": 25
+        },
+        "root": "#V107536"
+      }
+    ]
+  ],
+  "sentence": "Where did you buy the car?",
+  "annotation": {
+    "judge": "jallen",
+    "parser": "STEP",
+    "timestamp": "20190707T191728",
+    "link": "http://trips.ihmc.us/parser/saved/20190707T191728-STEP-jallen-0-Where_did_you_buy_the_car_.xml",
+    "judgement": 0
+  }
+}

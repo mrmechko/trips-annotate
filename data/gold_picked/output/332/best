@@ -1,0 +1,16 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V268434 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V268198 [label=<<font color="green"><br /></font> <font color="black">CAUSE-EFFECT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">MAKE</font> <font color="green"><br /></font> <font color="green">make%2:36:08::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::CAUSE-EFFECT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V268188 [label=<<font color="green"><br /></font> <font color="black">COMPOSITION</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">STORY</font> <font color="green"><br /></font> <font color="green">composition%1:07:01</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::COMPOSITION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V268212 [label=<<font color="green"><br /></font> <font color="black">FEMALE-CHILD</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">GIRL</font> <font color="green"><br /></font> <font color="green">girl%1:18:02::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FEMALE-CHILD.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V268218 [label=<<font color="green"><br /></font> <font color="black">FACIAL-EXPRESSION</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">SMILE</font> <font color="green"><br /></font> <font color="green">smile%2:29:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FACIAL-EXPRESSION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V268218 -> V268212 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V268434 -> V268198 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V268198 -> V268218 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V268198 -> V268212 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V268198 -> V268188 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

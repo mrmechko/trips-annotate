@@ -1,0 +1,190 @@
+{
+  "parse": [
+    {
+      "V83342": {
+        "id": "V83342",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V82648"
+        },
+        "start": 0,
+        "end": 20
+      },
+      "V82648": {
+        "id": "V82648",
+        "indicator": "F",
+        "type": "ELLIPSIS",
+        "word": null,
+        "roles": {
+          "NEUTRAL": "#V82621",
+          "TENSE": "PAST",
+          "MODALITY": "(:* MUST MUST)",
+          "PROGR": "+"
+        },
+        "start": 0,
+        "end": 20
+      },
+      "V82621": {
+        "id": "V82621",
+        "indicator": "THE-SET",
+        "type": "COLUMN-FORMATION",
+        "word": "COLUMN",
+        "roles": {},
+        "start": 0,
+        "end": 12
+      },
+      "root": "#V83342"
+    },
+    {
+      "V82981": {
+        "id": "V82981",
+        "indicator": "SPEECHACT",
+        "type": "SA_REQUEST",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V82681"
+        },
+        "start": 20,
+        "end": 32
+      },
+      "V82681": {
+        "id": "V82681",
+        "indicator": "F",
+        "type": "CHANGE",
+        "word": "EQUAL",
+        "roles": {
+          "AGENT": "#V82977",
+          "AFFECTED": "#V82691",
+          "TENSE": "PRES",
+          "VFORM": "BASE"
+        },
+        "start": 20,
+        "end": 32
+      },
+      "V82977": {
+        "id": "V82977",
+        "indicator": "IMPRO",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "PROFORM": "*YOU*"
+        },
+        "start": 20,
+        "end": 32
+      },
+      "V82691": {
+        "id": "V82691",
+        "indicator": "BARE",
+        "type": "HEIGHT-SCALE",
+        "word": "HEIGHT",
+        "roles": {
+          "SCALE": "HEIGHT-SCALE"
+        },
+        "start": 26,
+        "end": 32
+      },
+      "root": "#V82981"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V83339": {
+          "id": "V83339",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V82648"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V82648": {
+          "id": "V82648",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V82621",
+            "TENSE": "PRES",
+            "MODALITY": "(:* MUST MUST)",
+            "PROGR": "+"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V82621": {
+          "id": "V82621",
+          "indicator": "THE-SET",
+          "type": "COLUMN-FORMATION",
+          "word": "COLUMN",
+          "roles": {},
+          "start": 0,
+          "end": 12
+        },
+        "root": "#V83339"
+      },
+      {
+        "V82981": {
+          "id": "V82981",
+          "indicator": "SPEECHACT",
+          "type": "SA_REQUEST",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V82681"
+          },
+          "start": 20,
+          "end": 32
+        },
+        "V82681": {
+          "id": "V82681",
+          "indicator": "F",
+          "type": "CHANGE",
+          "word": "EQUAL",
+          "roles": {
+            "AGENT": "#V82977",
+            "AFFECTED": "#V82691",
+            "TENSE": "PRES",
+            "VFORM": "BASE"
+          },
+          "start": 20,
+          "end": 32
+        },
+        "V82977": {
+          "id": "V82977",
+          "indicator": "IMPRO",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "PROFORM": "*YOU*"
+          },
+          "start": 20,
+          "end": 32
+        },
+        "V82691": {
+          "id": "V82691",
+          "indicator": "BARE",
+          "type": "HEIGHT-SCALE",
+          "word": "HEIGHT",
+          "roles": {
+            "SCALE": "HEIGHT-SCALE"
+          },
+          "start": 26,
+          "end": 32
+        },
+        "root": "#V82981"
+      }
+    ]
+  ],
+  "sentence": "The columns must be equal height",
+  "annotation": {
+    "judge": "iperera",
+    "parser": "CABOT",
+    "timestamp": "20190729T063026",
+    "link": "http://trips.ihmc.us/parser/saved/20190729T063026-CABOT-iperera-none-The_columns_must_be_equal_height.xml",
+    "judgement": -1
+  }
+}

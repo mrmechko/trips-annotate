@@ -1,0 +1,739 @@
+{
+  "parse": [
+    {
+      "V131256": {
+        "id": "V131256",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V130137",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 46
+      },
+      "V130137": {
+        "id": "V130137",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V130063",
+          "SEQUENCE1": "#V130159",
+          "TENSE": "PAST",
+          "LEX": "AND",
+          "WNSENSE": "misread%2:31:00::"
+        },
+        "start": 0,
+        "end": 46
+      },
+      "V130063": {
+        "id": "V130063",
+        "indicator": "F",
+        "type": "CLASSIFY",
+        "word": "MISREAD",
+        "roles": {
+          "AGENT": "#V130049",
+          "NEUTRAL": "#V130093",
+          "FORMAL": "#V130132",
+          "TENSE": "PAST",
+          "LEX": "MISREAD",
+          "WNSENSE": "misread%2:31:00::"
+        },
+        "start": 0,
+        "end": 34
+      },
+      "V130049": {
+        "id": "V130049",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V130093": {
+        "id": "V130093",
+        "indicator": "THE",
+        "type": "DURATION-SCALE",
+        "word": "TIME",
+        "roles": {
+          "LEX": "TIME",
+          "WNSENSE": "time%1:03:00::"
+        },
+        "start": 11,
+        "end": 20
+      },
+      "V130132": {
+        "id": "V130132",
+        "indicator": "THE",
+        "type": "RECIPE",
+        "word": "RECIPE",
+        "roles": {
+          "LEX": "RECIPE"
+        },
+        "start": 20,
+        "end": 34
+      },
+      "V130159": {
+        "id": "V130159",
+        "indicator": "F",
+        "type": "DEPART",
+        "word": "LEAVE",
+        "roles": {
+          "AGENT": "#V130049",
+          "NEUTRAL": "#V130178",
+          "TENSE": "PAST",
+          "LEX": "LEFT",
+          "WNSENSE": "leave%2:38:01::"
+        },
+        "start": 38,
+        "end": 46
+      },
+      "V130178": {
+        "id": "V130178",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00",
+          "COREF": "#V130137"
+        },
+        "start": 43,
+        "end": 46
+      },
+      "root": "#V131256"
+    },
+    {
+      "V130189": {
+        "id": "V130189",
+        "indicator": "F",
+        "type": "DIRECTION-IN",
+        "word": "IN",
+        "roles": {
+          "LEX": "IN"
+        },
+        "start": 46,
+        "end": 49
+      },
+      "root": "#V130189"
+    },
+    {
+      "V131208": {
+        "id": "V131208",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V130251",
+          "LEX": "LONG"
+        },
+        "start": 49,
+        "end": 57
+      },
+      "V130251": {
+        "id": "V130251",
+        "indicator": "F",
+        "type": "LONG",
+        "word": "LONG",
+        "roles": {
+          "FIGURE": "#V131209",
+          "SCALE": "LENGTH-SCALE",
+          "DEGREE": "#V130246",
+          "LEX": "LONG"
+        },
+        "start": 49,
+        "end": 57
+      },
+      "V131209": {
+        "id": "V131209",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "CONTEXT-REL": "UTT-FRAG",
+          "COREF": "#V130049"
+        },
+        "start": 49,
+        "end": 57
+      },
+      "V130246": {
+        "id": "V130246",
+        "indicator": "F",
+        "type": "DEGREE-MODIFIER-HIGH",
+        "word": "TOO",
+        "roles": {
+          "FIGURE": "#V130251",
+          "LEX": "TOO",
+          "WNSENSE": "too%4:02:00::"
+        },
+        "start": 49,
+        "end": 53
+      },
+      "root": "#V131208"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V131343": {
+          "id": "V131343",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V130137",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V130137": {
+          "id": "V130137",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V130063",
+            "SEQUENCE1": "#V130161",
+            "TENSE": "PAST",
+            "LEX": "AND",
+            "WNSENSE": "misread%2:31:00::"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V130063": {
+          "id": "V130063",
+          "indicator": "F",
+          "type": "CLASSIFY",
+          "word": "MISREAD",
+          "roles": {
+            "AGENT": "#V130049",
+            "NEUTRAL": "#V130093",
+            "FORMAL": "#V130132",
+            "TENSE": "PAST",
+            "LEX": "MISREAD",
+            "WNSENSE": "misread%2:31:00::"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V130049": {
+          "id": "V130049",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V130093": {
+          "id": "V130093",
+          "indicator": "THE",
+          "type": "DURATION-SCALE",
+          "word": "TIME",
+          "roles": {
+            "LEX": "TIME",
+            "WNSENSE": "time%1:03:00::"
+          },
+          "start": 11,
+          "end": 20
+        },
+        "V130132": {
+          "id": "V130132",
+          "indicator": "THE",
+          "type": "RECIPE",
+          "word": "RECIPE",
+          "roles": {
+            "LEX": "RECIPE"
+          },
+          "start": 20,
+          "end": 34
+        },
+        "V130161": {
+          "id": "V130161",
+          "indicator": "F",
+          "type": "LEAVE-BEHIND",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V130049",
+            "AFFECTED": "#V130178",
+            "TENSE": "PAST",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:31:05::"
+          },
+          "start": 38,
+          "end": 46
+        },
+        "V130178": {
+          "id": "V130178",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 43,
+          "end": 46
+        },
+        "root": "#V131343"
+      },
+      {
+        "V130189": {
+          "id": "V130189",
+          "indicator": "F",
+          "type": "DIRECTION-IN",
+          "word": "IN",
+          "roles": {
+            "LEX": "IN"
+          },
+          "start": 46,
+          "end": 49
+        },
+        "root": "#V130189"
+      },
+      {
+        "V131208": {
+          "id": "V131208",
+          "indicator": "SPEECHACT",
+          "type": "SA_PRED-FRAGMENT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V130251",
+            "LEX": "LONG"
+          },
+          "start": 49,
+          "end": 58
+        },
+        "V130251": {
+          "id": "V130251",
+          "indicator": "F",
+          "type": "LONG",
+          "word": "LONG",
+          "roles": {
+            "FIGURE": "#V131209",
+            "SCALE": "LENGTH-SCALE",
+            "DEGREE": "#V130246",
+            "LEX": "LONG"
+          },
+          "start": 49,
+          "end": 57
+        },
+        "V131209": {
+          "id": "V131209",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {
+            "CONTEXT-REL": "UTT-FRAG"
+          },
+          "start": 49,
+          "end": 57
+        },
+        "V130246": {
+          "id": "V130246",
+          "indicator": "F",
+          "type": "DEGREE-MODIFIER-HIGH",
+          "word": "TOO",
+          "roles": {
+            "FIGURE": "#V130251",
+            "LEX": "TOO",
+            "WNSENSE": "too%4:02:00::"
+          },
+          "start": 49,
+          "end": 53
+        },
+        "root": "#V131208"
+      }
+    ],
+    [
+      {
+        "V131424": {
+          "id": "V131424",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V130137",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V130137": {
+          "id": "V130137",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V130063",
+            "SEQUENCE1": "#V130162",
+            "TENSE": "PAST",
+            "LEX": "AND",
+            "WNSENSE": "misread%2:31:00::"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V130063": {
+          "id": "V130063",
+          "indicator": "F",
+          "type": "CLASSIFY",
+          "word": "MISREAD",
+          "roles": {
+            "AGENT": "#V130049",
+            "NEUTRAL": "#V130093",
+            "FORMAL": "#V130132",
+            "TENSE": "PAST",
+            "LEX": "MISREAD",
+            "WNSENSE": "misread%2:31:00::"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V130049": {
+          "id": "V130049",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V130093": {
+          "id": "V130093",
+          "indicator": "THE",
+          "type": "DURATION-SCALE",
+          "word": "TIME",
+          "roles": {
+            "LEX": "TIME",
+            "WNSENSE": "time%1:03:00::"
+          },
+          "start": 11,
+          "end": 20
+        },
+        "V130132": {
+          "id": "V130132",
+          "indicator": "THE",
+          "type": "RECIPE",
+          "word": "RECIPE",
+          "roles": {
+            "LEX": "RECIPE"
+          },
+          "start": 20,
+          "end": 34
+        },
+        "V130162": {
+          "id": "V130162",
+          "indicator": "F",
+          "type": "LEAVE-TIME",
+          "word": "LEAVE",
+          "roles": {
+            "NEUTRAL": "#V130049",
+            "EXTENT": "#V130178",
+            "TENSE": "PAST",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:42:01::"
+          },
+          "start": 38,
+          "end": 46
+        },
+        "V130178": {
+          "id": "V130178",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 43,
+          "end": 46
+        },
+        "root": "#V131424"
+      },
+      {
+        "V130189": {
+          "id": "V130189",
+          "indicator": "F",
+          "type": "DIRECTION-IN",
+          "word": "IN",
+          "roles": {
+            "LEX": "IN"
+          },
+          "start": 46,
+          "end": 49
+        },
+        "root": "#V130189"
+      },
+      {
+        "V131208": {
+          "id": "V131208",
+          "indicator": "SPEECHACT",
+          "type": "SA_PRED-FRAGMENT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V130251",
+            "LEX": "LONG"
+          },
+          "start": 49,
+          "end": 58
+        },
+        "V130251": {
+          "id": "V130251",
+          "indicator": "F",
+          "type": "LONG",
+          "word": "LONG",
+          "roles": {
+            "FIGURE": "#V131209",
+            "SCALE": "LENGTH-SCALE",
+            "DEGREE": "#V130246",
+            "LEX": "LONG"
+          },
+          "start": 49,
+          "end": 57
+        },
+        "V131209": {
+          "id": "V131209",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {
+            "CONTEXT-REL": "UTT-FRAG"
+          },
+          "start": 49,
+          "end": 57
+        },
+        "V130246": {
+          "id": "V130246",
+          "indicator": "F",
+          "type": "DEGREE-MODIFIER-HIGH",
+          "word": "TOO",
+          "roles": {
+            "FIGURE": "#V130251",
+            "LEX": "TOO",
+            "WNSENSE": "too%4:02:00::"
+          },
+          "start": 49,
+          "end": 53
+        },
+        "root": "#V131208"
+      }
+    ],
+    [
+      {
+        "V131490": {
+          "id": "V131490",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V130137",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V130137": {
+          "id": "V130137",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V130063",
+            "SEQUENCE1": "#V130159",
+            "TENSE": "PAST",
+            "LEX": "AND",
+            "WNSENSE": "misread%2:31:00::"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V130063": {
+          "id": "V130063",
+          "indicator": "F",
+          "type": "CLASSIFY",
+          "word": "MISREAD",
+          "roles": {
+            "AGENT": "#V130049",
+            "NEUTRAL": "#V130090",
+            "FORMAL": "#V130132",
+            "TENSE": "PAST",
+            "LEX": "MISREAD",
+            "WNSENSE": "misread%2:31:00::"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V130049": {
+          "id": "V130049",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V130090": {
+          "id": "V130090",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* MULTIPLE TIME)",
+            "SCALE": "DOMAIN",
+            "LEX": "TIME"
+          },
+          "start": 11,
+          "end": 20
+        },
+        "V130132": {
+          "id": "V130132",
+          "indicator": "THE",
+          "type": "RECIPE",
+          "word": "RECIPE",
+          "roles": {
+            "LEX": "RECIPE"
+          },
+          "start": 20,
+          "end": 34
+        },
+        "V130159": {
+          "id": "V130159",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V130049",
+            "NEUTRAL": "#V130178",
+            "TENSE": "PAST",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:38:01::"
+          },
+          "start": 38,
+          "end": 46
+        },
+        "V130178": {
+          "id": "V130178",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 43,
+          "end": 46
+        },
+        "root": "#V131490"
+      },
+      {
+        "V130189": {
+          "id": "V130189",
+          "indicator": "F",
+          "type": "DIRECTION-IN",
+          "word": "IN",
+          "roles": {
+            "LEX": "IN"
+          },
+          "start": 46,
+          "end": 49
+        },
+        "root": "#V130189"
+      },
+      {
+        "V131208": {
+          "id": "V131208",
+          "indicator": "SPEECHACT",
+          "type": "SA_PRED-FRAGMENT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V130251",
+            "LEX": "LONG"
+          },
+          "start": 49,
+          "end": 58
+        },
+        "V130251": {
+          "id": "V130251",
+          "indicator": "F",
+          "type": "LONG",
+          "word": "LONG",
+          "roles": {
+            "FIGURE": "#V131209",
+            "SCALE": "LENGTH-SCALE",
+            "DEGREE": "#V130246",
+            "LEX": "LONG"
+          },
+          "start": 49,
+          "end": 57
+        },
+        "V131209": {
+          "id": "V131209",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {
+            "CONTEXT-REL": "UTT-FRAG"
+          },
+          "start": 49,
+          "end": 57
+        },
+        "V130246": {
+          "id": "V130246",
+          "indicator": "F",
+          "type": "DEGREE-MODIFIER-HIGH",
+          "word": "TOO",
+          "roles": {
+            "FIGURE": "#V130251",
+            "LEX": "TOO",
+            "WNSENSE": "too%4:02:00::"
+          },
+          "start": 49,
+          "end": 53
+        },
+        "root": "#V131208"
+      }
+    ]
+  ],
+  "sentence": "He misread the time on the recipe and left it in too long.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190723T160440",
+    "link": "http://trips.ihmc.us/parser/saved/20190723T160440-STEP-abhatia-none-He_misread_the_time_on_the_recipe_and_le.xml",
+    "judgement": -1
+  }
+}

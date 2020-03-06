@@ -1,0 +1,1527 @@
+{
+  "parse": [
+    {
+      "V128296": {
+        "id": "V128296",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V127754",
+          "LEX": "INSISTED"
+        },
+        "start": 0,
+        "end": 50
+      },
+      "V127754": {
+        "id": "V127754",
+        "indicator": "F",
+        "type": "REQUEST",
+        "word": "INSIST",
+        "roles": {
+          "AGENT": "#V127745",
+          "NEUTRAL": "#V127763",
+          "REASON": "#V127775",
+          "TENSE": "PAST",
+          "LEX": "INSISTED",
+          "WNSENSE": "insist%2:32:00::"
+        },
+        "start": 0,
+        "end": 50
+      },
+      "V127745": {
+        "id": "V127745",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "FATHER",
+        "roles": {
+          "ASSOC-POSS": "#V127740",
+          "LEX": "FATHER",
+          "WNSENSE": "father%1:18:00::"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V127740": {
+        "id": "V127740",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00",
+          "COREF": "#V127763"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V127763": {
+        "id": "V127763",
+        "indicator": "THE",
+        "type": "PERSON",
+        "word": "GREG",
+        "roles": {
+          "NAME-OF": "GREG",
+          "LEX": "GREG",
+          "WNSENSE": "person%1:03:00"
+        },
+        "start": 20,
+        "end": 25
+      },
+      "V127775": {
+        "id": "V127775",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V127811",
+          "FIGURE": "#V127754",
+          "LEX": "TO"
+        },
+        "start": 25,
+        "end": 50
+      },
+      "V127811": {
+        "id": "V127811",
+        "indicator": "F",
+        "type": "START",
+        "word": "GO",
+        "roles": {
+          "FORMAL": "#V127827",
+          "VFORM": "BASE",
+          "LEX": "GO",
+          "WNSENSE": "go%2:38:09::"
+        },
+        "start": 28,
+        "end": 50
+      },
+      "V127827": {
+        "id": "V127827",
+        "indicator": "F",
+        "type": "PURCHASE",
+        "word": "BUY",
+        "roles": {
+          "AFFECTED": "#V127888",
+          "VFORM": "BASE",
+          "LEX": "BUY",
+          "WNSENSE": "buy%2:40:00::"
+        },
+        "start": 31,
+        "end": 50
+      },
+      "V127888": {
+        "id": "V127888",
+        "indicator": "A",
+        "type": "CAKE-PIE",
+        "word": "APPLE-PIE",
+        "roles": {
+          "MOD": "#V127872",
+          "LEX": "APPLE-PIE",
+          "WNSENSE": "apple_pie%1:13:00"
+        },
+        "start": 35,
+        "end": 50
+      },
+      "V127872": {
+        "id": "V127872",
+        "indicator": "F",
+        "type": "NOVELTY-VAL",
+        "word": "NEW",
+        "roles": {
+          "FIGURE": "#V127888",
+          "SCALE": "NOT-CONVENTIONAL-SCALE",
+          "LEX": "NEW",
+          "WNSENSE": "new%5:00:00:original:00"
+        },
+        "start": 37,
+        "end": 41
+      },
+      "root": "#V128296"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V128284": {
+          "id": "V128284",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V127754",
+            "LEX": "INSISTED"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V127754": {
+          "id": "V127754",
+          "indicator": "F",
+          "type": "REQUEST",
+          "word": "INSIST",
+          "roles": {
+            "AGENT": "#V127745",
+            "NEUTRAL": "#V127760",
+            "REASON": "#V127775",
+            "TENSE": "PAST",
+            "LEX": "INSISTED",
+            "WNSENSE": "insist%2:32:00::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V127745": {
+          "id": "V127745",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "FATHER",
+          "roles": {
+            "ASSOC-POSS": "#V127740",
+            "LEX": "FATHER",
+            "WNSENSE": "father%1:18:00::"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V127740": {
+          "id": "V127740",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V127760": {
+          "id": "V127760",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "GREG",
+          "roles": {
+            "NAME-OF": "GREG",
+            "LEX": "GREG",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 20,
+          "end": 25
+        },
+        "V127775": {
+          "id": "V127775",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V127811",
+            "FIGURE": "#V127754",
+            "LEX": "TO"
+          },
+          "start": 25,
+          "end": 50
+        },
+        "V127811": {
+          "id": "V127811",
+          "indicator": "F",
+          "type": "START",
+          "word": "GO",
+          "roles": {
+            "FORMAL": "#V127827",
+            "VFORM": "BASE",
+            "LEX": "GO",
+            "WNSENSE": "go%2:38:09::"
+          },
+          "start": 28,
+          "end": 50
+        },
+        "V127827": {
+          "id": "V127827",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AFFECTED": "#V127888",
+            "VFORM": "BASE",
+            "LEX": "BUY",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 31,
+          "end": 50
+        },
+        "V127888": {
+          "id": "V127888",
+          "indicator": "A",
+          "type": "CAKE-PIE",
+          "word": "APPLE-PIE",
+          "roles": {
+            "MOD": "#V127872",
+            "LEX": "APPLE-PIE",
+            "WNSENSE": "apple_pie%1:13:00"
+          },
+          "start": 35,
+          "end": 50
+        },
+        "V127872": {
+          "id": "V127872",
+          "indicator": "F",
+          "type": "NOVELTY-VAL",
+          "word": "NEW",
+          "roles": {
+            "FIGURE": "#V127888",
+            "SCALE": "NOT-CONVENTIONAL-SCALE",
+            "LEX": "NEW",
+            "WNSENSE": "new%5:00:00:original:00"
+          },
+          "start": 37,
+          "end": 41
+        },
+        "root": "#V128284"
+      }
+    ],
+    [
+      {
+        "V128772": {
+          "id": "V128772",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V127754",
+            "LEX": "INSISTED"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V127754": {
+          "id": "V127754",
+          "indicator": "F",
+          "type": "REQUEST",
+          "word": "INSIST",
+          "roles": {
+            "AGENT": "#V127745",
+            "NEUTRAL": "#V127763",
+            "REASON": "#V127775",
+            "TENSE": "PAST",
+            "LEX": "INSISTED",
+            "WNSENSE": "insist%2:32:00::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V127745": {
+          "id": "V127745",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "FATHER",
+          "roles": {
+            "ASSOC-POSS": "#V127740",
+            "LEX": "FATHER",
+            "WNSENSE": "father%1:18:00::"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V127740": {
+          "id": "V127740",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V127763": {
+          "id": "V127763",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "GREG",
+          "roles": {
+            "NAME-OF": "GREG",
+            "LEX": "GREG",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 20,
+          "end": 25
+        },
+        "V127775": {
+          "id": "V127775",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V127811",
+            "FIGURE": "#V127754",
+            "LEX": "TO"
+          },
+          "start": 25,
+          "end": 50
+        },
+        "V127811": {
+          "id": "V127811",
+          "indicator": "F",
+          "type": "START",
+          "word": "GO",
+          "roles": {
+            "FORMAL": "#V127827",
+            "VFORM": "BASE",
+            "LEX": "GO",
+            "WNSENSE": "go%2:38:09::"
+          },
+          "start": 28,
+          "end": 50
+        },
+        "V127827": {
+          "id": "V127827",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AFFECTED": "#V127878",
+            "VFORM": "BASE",
+            "LEX": "BUY",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 31,
+          "end": 50
+        },
+        "V127878": {
+          "id": "V127878",
+          "indicator": "A",
+          "type": "CHART",
+          "word": "PIE",
+          "roles": {
+            "ASSOC-WITH": "#V127875",
+            "MOD": "#V127872",
+            "LEX": "PIE",
+            "WNSENSE": "chart%1:10:00"
+          },
+          "start": 35,
+          "end": 50
+        },
+        "V127875": {
+          "id": "V127875",
+          "indicator": "KIND",
+          "type": "FRUIT",
+          "word": "APPLE",
+          "roles": {
+            "LEX": "APPLE",
+            "WNSENSE": "apple%1:13:00::"
+          },
+          "start": 35,
+          "end": 50
+        },
+        "V127872": {
+          "id": "V127872",
+          "indicator": "F",
+          "type": "NOVELTY-VAL",
+          "word": "NEW",
+          "roles": {
+            "FIGURE": "#V127878",
+            "SCALE": "NOT-CONVENTIONAL-SCALE",
+            "LEX": "NEW",
+            "WNSENSE": "new%5:00:00:original:00"
+          },
+          "start": 37,
+          "end": 41
+        },
+        "root": "#V128772"
+      }
+    ],
+    [
+      {
+        "V128758": {
+          "id": "V128758",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V127754",
+            "LEX": "INSISTED"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V127754": {
+          "id": "V127754",
+          "indicator": "F",
+          "type": "REQUEST",
+          "word": "INSIST",
+          "roles": {
+            "AGENT": "#V127745",
+            "NEUTRAL": "#V127760",
+            "REASON": "#V127775",
+            "TENSE": "PAST",
+            "LEX": "INSISTED",
+            "WNSENSE": "insist%2:32:00::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V127745": {
+          "id": "V127745",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "FATHER",
+          "roles": {
+            "ASSOC-POSS": "#V127740",
+            "LEX": "FATHER",
+            "WNSENSE": "father%1:18:00::"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V127740": {
+          "id": "V127740",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V127760": {
+          "id": "V127760",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "GREG",
+          "roles": {
+            "NAME-OF": "GREG",
+            "LEX": "GREG",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 20,
+          "end": 25
+        },
+        "V127775": {
+          "id": "V127775",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V127811",
+            "FIGURE": "#V127754",
+            "LEX": "TO"
+          },
+          "start": 25,
+          "end": 50
+        },
+        "V127811": {
+          "id": "V127811",
+          "indicator": "F",
+          "type": "START",
+          "word": "GO",
+          "roles": {
+            "FORMAL": "#V127827",
+            "VFORM": "BASE",
+            "LEX": "GO",
+            "WNSENSE": "go%2:38:09::"
+          },
+          "start": 28,
+          "end": 50
+        },
+        "V127827": {
+          "id": "V127827",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AFFECTED": "#V127878",
+            "VFORM": "BASE",
+            "LEX": "BUY",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 31,
+          "end": 50
+        },
+        "V127878": {
+          "id": "V127878",
+          "indicator": "A",
+          "type": "CHART",
+          "word": "PIE",
+          "roles": {
+            "ASSOC-WITH": "#V127875",
+            "MOD": "#V127872",
+            "LEX": "PIE",
+            "WNSENSE": "chart%1:10:00"
+          },
+          "start": 35,
+          "end": 50
+        },
+        "V127875": {
+          "id": "V127875",
+          "indicator": "KIND",
+          "type": "FRUIT",
+          "word": "APPLE",
+          "roles": {
+            "LEX": "APPLE",
+            "WNSENSE": "apple%1:13:00::"
+          },
+          "start": 35,
+          "end": 50
+        },
+        "V127872": {
+          "id": "V127872",
+          "indicator": "F",
+          "type": "NOVELTY-VAL",
+          "word": "NEW",
+          "roles": {
+            "FIGURE": "#V127878",
+            "SCALE": "NOT-CONVENTIONAL-SCALE",
+            "LEX": "NEW",
+            "WNSENSE": "new%5:00:00:original:00"
+          },
+          "start": 37,
+          "end": 41
+        },
+        "root": "#V128758"
+      }
+    ],
+    [
+      {
+        "V128686": {
+          "id": "V128686",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V127754",
+            "LEX": "INSISTED"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V127754": {
+          "id": "V127754",
+          "indicator": "F",
+          "type": "REQUEST",
+          "word": "INSIST",
+          "roles": {
+            "AGENT": "#V127745",
+            "NEUTRAL": "#V127763",
+            "REASON": "#V127775",
+            "TENSE": "PAST",
+            "LEX": "INSISTED",
+            "WNSENSE": "insist%2:32:00::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V127745": {
+          "id": "V127745",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "FATHER",
+          "roles": {
+            "ASSOC-POSS": "#V127740",
+            "LEX": "FATHER",
+            "WNSENSE": "father%1:18:00::"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V127740": {
+          "id": "V127740",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V127763": {
+          "id": "V127763",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "GREG",
+          "roles": {
+            "NAME-OF": "GREG",
+            "LEX": "GREG",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 20,
+          "end": 25
+        },
+        "V127775": {
+          "id": "V127775",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V127811",
+            "FIGURE": "#V127754",
+            "LEX": "TO"
+          },
+          "start": 25,
+          "end": 50
+        },
+        "V127811": {
+          "id": "V127811",
+          "indicator": "F",
+          "type": "START",
+          "word": "GO",
+          "roles": {
+            "FORMAL": "#V127827",
+            "VFORM": "BASE",
+            "LEX": "GO",
+            "WNSENSE": "go%2:38:09::"
+          },
+          "start": 28,
+          "end": 50
+        },
+        "V127827": {
+          "id": "V127827",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AFFECTED": "#V127879",
+            "VFORM": "BASE",
+            "LEX": "BUY",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 31,
+          "end": 50
+        },
+        "V127879": {
+          "id": "V127879",
+          "indicator": "A",
+          "type": "CAKE-PIE",
+          "word": "PIE",
+          "roles": {
+            "ASSOC-WITH": "#V127875",
+            "MOD": "#V127872",
+            "LEX": "PIE",
+            "WNSENSE": "pie%1:13:00::"
+          },
+          "start": 35,
+          "end": 50
+        },
+        "V127875": {
+          "id": "V127875",
+          "indicator": "KIND",
+          "type": "FRUIT",
+          "word": "APPLE",
+          "roles": {
+            "LEX": "APPLE",
+            "WNSENSE": "apple%1:13:00::"
+          },
+          "start": 35,
+          "end": 50
+        },
+        "V127872": {
+          "id": "V127872",
+          "indicator": "F",
+          "type": "NOVELTY-VAL",
+          "word": "NEW",
+          "roles": {
+            "FIGURE": "#V127879",
+            "SCALE": "NOT-CONVENTIONAL-SCALE",
+            "LEX": "NEW",
+            "WNSENSE": "new%5:00:00:original:00"
+          },
+          "start": 37,
+          "end": 41
+        },
+        "root": "#V128686"
+      }
+    ],
+    [
+      {
+        "V128672": {
+          "id": "V128672",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V127754",
+            "LEX": "INSISTED"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V127754": {
+          "id": "V127754",
+          "indicator": "F",
+          "type": "REQUEST",
+          "word": "INSIST",
+          "roles": {
+            "AGENT": "#V127745",
+            "NEUTRAL": "#V127760",
+            "REASON": "#V127775",
+            "TENSE": "PAST",
+            "LEX": "INSISTED",
+            "WNSENSE": "insist%2:32:00::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V127745": {
+          "id": "V127745",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "FATHER",
+          "roles": {
+            "ASSOC-POSS": "#V127740",
+            "LEX": "FATHER",
+            "WNSENSE": "father%1:18:00::"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V127740": {
+          "id": "V127740",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V127760": {
+          "id": "V127760",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "GREG",
+          "roles": {
+            "NAME-OF": "GREG",
+            "LEX": "GREG",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 20,
+          "end": 25
+        },
+        "V127775": {
+          "id": "V127775",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V127811",
+            "FIGURE": "#V127754",
+            "LEX": "TO"
+          },
+          "start": 25,
+          "end": 50
+        },
+        "V127811": {
+          "id": "V127811",
+          "indicator": "F",
+          "type": "START",
+          "word": "GO",
+          "roles": {
+            "FORMAL": "#V127827",
+            "VFORM": "BASE",
+            "LEX": "GO",
+            "WNSENSE": "go%2:38:09::"
+          },
+          "start": 28,
+          "end": 50
+        },
+        "V127827": {
+          "id": "V127827",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AFFECTED": "#V127879",
+            "VFORM": "BASE",
+            "LEX": "BUY",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 31,
+          "end": 50
+        },
+        "V127879": {
+          "id": "V127879",
+          "indicator": "A",
+          "type": "CAKE-PIE",
+          "word": "PIE",
+          "roles": {
+            "ASSOC-WITH": "#V127875",
+            "MOD": "#V127872",
+            "LEX": "PIE",
+            "WNSENSE": "pie%1:13:00::"
+          },
+          "start": 35,
+          "end": 50
+        },
+        "V127875": {
+          "id": "V127875",
+          "indicator": "KIND",
+          "type": "FRUIT",
+          "word": "APPLE",
+          "roles": {
+            "LEX": "APPLE",
+            "WNSENSE": "apple%1:13:00::"
+          },
+          "start": 35,
+          "end": 50
+        },
+        "V127872": {
+          "id": "V127872",
+          "indicator": "F",
+          "type": "NOVELTY-VAL",
+          "word": "NEW",
+          "roles": {
+            "FIGURE": "#V127879",
+            "SCALE": "NOT-CONVENTIONAL-SCALE",
+            "LEX": "NEW",
+            "WNSENSE": "new%5:00:00:original:00"
+          },
+          "start": 37,
+          "end": 41
+        },
+        "root": "#V128672"
+      }
+    ],
+    [
+      {
+        "V128600": {
+          "id": "V128600",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V127754",
+            "LEX": "INSISTED"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V127754": {
+          "id": "V127754",
+          "indicator": "F",
+          "type": "REQUEST",
+          "word": "INSIST",
+          "roles": {
+            "AGENT": "#V127745",
+            "NEUTRAL": "#V127763",
+            "REASON": "#V127775",
+            "TENSE": "PAST",
+            "LEX": "INSISTED",
+            "WNSENSE": "insist%2:32:00::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V127745": {
+          "id": "V127745",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "FATHER",
+          "roles": {
+            "ASSOC-POSS": "#V127740",
+            "LEX": "FATHER",
+            "WNSENSE": "father%1:18:00::"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V127740": {
+          "id": "V127740",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V127763": {
+          "id": "V127763",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "GREG",
+          "roles": {
+            "NAME-OF": "GREG",
+            "LEX": "GREG",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 20,
+          "end": 25
+        },
+        "V127775": {
+          "id": "V127775",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V127811",
+            "FIGURE": "#V127754",
+            "LEX": "TO"
+          },
+          "start": 25,
+          "end": 50
+        },
+        "V127811": {
+          "id": "V127811",
+          "indicator": "F",
+          "type": "START",
+          "word": "GO",
+          "roles": {
+            "FORMAL": "#V127827",
+            "VFORM": "BASE",
+            "LEX": "GO",
+            "WNSENSE": "go%2:38:09::"
+          },
+          "start": 28,
+          "end": 50
+        },
+        "V127827": {
+          "id": "V127827",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AFFECTED": "#V127878",
+            "VFORM": "BASE",
+            "LEX": "BUY",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 31,
+          "end": 50
+        },
+        "V127878": {
+          "id": "V127878",
+          "indicator": "A",
+          "type": "CHART",
+          "word": "PIE",
+          "roles": {
+            "ASSOC-WITH": "#V127875",
+            "LEX": "PIE",
+            "WNSENSE": "chart%1:10:00"
+          },
+          "start": 35,
+          "end": 50
+        },
+        "V127875": {
+          "id": "V127875",
+          "indicator": "KIND",
+          "type": "FRUIT",
+          "word": "APPLE",
+          "roles": {
+            "MOD": "#V127872",
+            "LEX": "APPLE",
+            "WNSENSE": "apple%1:13:00::"
+          },
+          "start": 35,
+          "end": 50
+        },
+        "V127872": {
+          "id": "V127872",
+          "indicator": "F",
+          "type": "NOVELTY-VAL",
+          "word": "NEW",
+          "roles": {
+            "FIGURE": "#V127875",
+            "SCALE": "NOT-CONVENTIONAL-SCALE",
+            "LEX": "NEW",
+            "WNSENSE": "new%5:00:00:original:00"
+          },
+          "start": 37,
+          "end": 41
+        },
+        "root": "#V128600"
+      }
+    ],
+    [
+      {
+        "V128586": {
+          "id": "V128586",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V127754",
+            "LEX": "INSISTED"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V127754": {
+          "id": "V127754",
+          "indicator": "F",
+          "type": "REQUEST",
+          "word": "INSIST",
+          "roles": {
+            "AGENT": "#V127745",
+            "NEUTRAL": "#V127760",
+            "REASON": "#V127775",
+            "TENSE": "PAST",
+            "LEX": "INSISTED",
+            "WNSENSE": "insist%2:32:00::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V127745": {
+          "id": "V127745",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "FATHER",
+          "roles": {
+            "ASSOC-POSS": "#V127740",
+            "LEX": "FATHER",
+            "WNSENSE": "father%1:18:00::"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V127740": {
+          "id": "V127740",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V127760": {
+          "id": "V127760",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "GREG",
+          "roles": {
+            "NAME-OF": "GREG",
+            "LEX": "GREG",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 20,
+          "end": 25
+        },
+        "V127775": {
+          "id": "V127775",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V127811",
+            "FIGURE": "#V127754",
+            "LEX": "TO"
+          },
+          "start": 25,
+          "end": 50
+        },
+        "V127811": {
+          "id": "V127811",
+          "indicator": "F",
+          "type": "START",
+          "word": "GO",
+          "roles": {
+            "FORMAL": "#V127827",
+            "VFORM": "BASE",
+            "LEX": "GO",
+            "WNSENSE": "go%2:38:09::"
+          },
+          "start": 28,
+          "end": 50
+        },
+        "V127827": {
+          "id": "V127827",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AFFECTED": "#V127878",
+            "VFORM": "BASE",
+            "LEX": "BUY",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 31,
+          "end": 50
+        },
+        "V127878": {
+          "id": "V127878",
+          "indicator": "A",
+          "type": "CHART",
+          "word": "PIE",
+          "roles": {
+            "ASSOC-WITH": "#V127875",
+            "LEX": "PIE",
+            "WNSENSE": "chart%1:10:00"
+          },
+          "start": 35,
+          "end": 50
+        },
+        "V127875": {
+          "id": "V127875",
+          "indicator": "KIND",
+          "type": "FRUIT",
+          "word": "APPLE",
+          "roles": {
+            "MOD": "#V127872",
+            "LEX": "APPLE",
+            "WNSENSE": "apple%1:13:00::"
+          },
+          "start": 35,
+          "end": 50
+        },
+        "V127872": {
+          "id": "V127872",
+          "indicator": "F",
+          "type": "NOVELTY-VAL",
+          "word": "NEW",
+          "roles": {
+            "FIGURE": "#V127875",
+            "SCALE": "NOT-CONVENTIONAL-SCALE",
+            "LEX": "NEW",
+            "WNSENSE": "new%5:00:00:original:00"
+          },
+          "start": 37,
+          "end": 41
+        },
+        "root": "#V128586"
+      }
+    ],
+    [
+      {
+        "V128514": {
+          "id": "V128514",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V127754",
+            "LEX": "INSISTED"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V127754": {
+          "id": "V127754",
+          "indicator": "F",
+          "type": "REQUEST",
+          "word": "INSIST",
+          "roles": {
+            "AGENT": "#V127745",
+            "NEUTRAL": "#V127763",
+            "REASON": "#V127775",
+            "TENSE": "PAST",
+            "LEX": "INSISTED",
+            "WNSENSE": "insist%2:32:00::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V127745": {
+          "id": "V127745",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "FATHER",
+          "roles": {
+            "ASSOC-POSS": "#V127740",
+            "LEX": "FATHER",
+            "WNSENSE": "father%1:18:00::"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V127740": {
+          "id": "V127740",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V127763": {
+          "id": "V127763",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "GREG",
+          "roles": {
+            "NAME-OF": "GREG",
+            "LEX": "GREG",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 20,
+          "end": 25
+        },
+        "V127775": {
+          "id": "V127775",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V127811",
+            "FIGURE": "#V127754",
+            "LEX": "TO"
+          },
+          "start": 25,
+          "end": 50
+        },
+        "V127811": {
+          "id": "V127811",
+          "indicator": "F",
+          "type": "START",
+          "word": "GO",
+          "roles": {
+            "FORMAL": "#V127827",
+            "VFORM": "BASE",
+            "LEX": "GO",
+            "WNSENSE": "go%2:38:09::"
+          },
+          "start": 28,
+          "end": 50
+        },
+        "V127827": {
+          "id": "V127827",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AFFECTED": "#V127879",
+            "VFORM": "BASE",
+            "LEX": "BUY",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 31,
+          "end": 50
+        },
+        "V127879": {
+          "id": "V127879",
+          "indicator": "A",
+          "type": "CAKE-PIE",
+          "word": "PIE",
+          "roles": {
+            "ASSOC-WITH": "#V127875",
+            "LEX": "PIE",
+            "WNSENSE": "pie%1:13:00::"
+          },
+          "start": 35,
+          "end": 50
+        },
+        "V127875": {
+          "id": "V127875",
+          "indicator": "KIND",
+          "type": "FRUIT",
+          "word": "APPLE",
+          "roles": {
+            "MOD": "#V127872",
+            "LEX": "APPLE",
+            "WNSENSE": "apple%1:13:00::"
+          },
+          "start": 35,
+          "end": 50
+        },
+        "V127872": {
+          "id": "V127872",
+          "indicator": "F",
+          "type": "NOVELTY-VAL",
+          "word": "NEW",
+          "roles": {
+            "FIGURE": "#V127875",
+            "SCALE": "NOT-CONVENTIONAL-SCALE",
+            "LEX": "NEW",
+            "WNSENSE": "new%5:00:00:original:00"
+          },
+          "start": 37,
+          "end": 41
+        },
+        "root": "#V128514"
+      }
+    ],
+    [
+      {
+        "V128500": {
+          "id": "V128500",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V127754",
+            "LEX": "INSISTED"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V127754": {
+          "id": "V127754",
+          "indicator": "F",
+          "type": "REQUEST",
+          "word": "INSIST",
+          "roles": {
+            "AGENT": "#V127745",
+            "NEUTRAL": "#V127760",
+            "REASON": "#V127775",
+            "TENSE": "PAST",
+            "LEX": "INSISTED",
+            "WNSENSE": "insist%2:32:00::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V127745": {
+          "id": "V127745",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "FATHER",
+          "roles": {
+            "ASSOC-POSS": "#V127740",
+            "LEX": "FATHER",
+            "WNSENSE": "father%1:18:00::"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V127740": {
+          "id": "V127740",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V127760": {
+          "id": "V127760",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "GREG",
+          "roles": {
+            "NAME-OF": "GREG",
+            "LEX": "GREG",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 20,
+          "end": 25
+        },
+        "V127775": {
+          "id": "V127775",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V127811",
+            "FIGURE": "#V127754",
+            "LEX": "TO"
+          },
+          "start": 25,
+          "end": 50
+        },
+        "V127811": {
+          "id": "V127811",
+          "indicator": "F",
+          "type": "START",
+          "word": "GO",
+          "roles": {
+            "FORMAL": "#V127827",
+            "VFORM": "BASE",
+            "LEX": "GO",
+            "WNSENSE": "go%2:38:09::"
+          },
+          "start": 28,
+          "end": 50
+        },
+        "V127827": {
+          "id": "V127827",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AFFECTED": "#V127879",
+            "VFORM": "BASE",
+            "LEX": "BUY",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 31,
+          "end": 50
+        },
+        "V127879": {
+          "id": "V127879",
+          "indicator": "A",
+          "type": "CAKE-PIE",
+          "word": "PIE",
+          "roles": {
+            "ASSOC-WITH": "#V127875",
+            "LEX": "PIE",
+            "WNSENSE": "pie%1:13:00::"
+          },
+          "start": 35,
+          "end": 50
+        },
+        "V127875": {
+          "id": "V127875",
+          "indicator": "KIND",
+          "type": "FRUIT",
+          "word": "APPLE",
+          "roles": {
+            "MOD": "#V127872",
+            "LEX": "APPLE",
+            "WNSENSE": "apple%1:13:00::"
+          },
+          "start": 35,
+          "end": 50
+        },
+        "V127872": {
+          "id": "V127872",
+          "indicator": "F",
+          "type": "NOVELTY-VAL",
+          "word": "NEW",
+          "roles": {
+            "FIGURE": "#V127875",
+            "SCALE": "NOT-CONVENTIONAL-SCALE",
+            "LEX": "NEW",
+            "WNSENSE": "new%5:00:00:original:00"
+          },
+          "start": 37,
+          "end": 41
+        },
+        "root": "#V128500"
+      }
+    ]
+  ],
+  "sentence": "His father insisted Greg to go buy a new apple pie.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190812T094053",
+    "link": "http://trips.ihmc.us/parser/saved/20190812T094053-STEP-abhatia-0-His_father_insisted_Greg_to_go_buy_a_new.xml",
+    "judgement": 0
+  }
+}

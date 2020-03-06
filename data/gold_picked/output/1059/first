@@ -1,0 +1,16 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V66903 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V66518 [label=<<font color="green"><br /></font> <font color="black">WORKING</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">TOIL</font> <font color="green"><br /></font> <font color="green">toil%2:41:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::WORKING.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V66491 [label=<<font color="green"><br /></font> <font color="black">GEOGRAPHIC-REGION</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">CHESTER</font> <font color="green"><br /></font> <font color="green">north_america%1:14:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GEOGRAPHIC-REGION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V66521 [label=<<font color="green"><br /></font> <font color="black">DURING</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">DURING</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DURING.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V66526 [label=<<font color="green"><br /></font> <font color="black">SUMMER</font> <font color="green"><br /></font> <font color="red">BARE</font> <font color="blue">SUMMER</font> <font color="green"><br /></font> <font color="green">summer%1:28:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SUMMER.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V66518 -> V66491 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V66903 -> V66518 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V66521 -> V66526 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V66518 -> V66521 [label=" TIME   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V66521 -> V66518 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

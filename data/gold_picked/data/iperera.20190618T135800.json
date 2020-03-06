@@ -1,0 +1,112 @@
+{
+  "parse": [
+    {
+      "V45423": {
+        "id": "V45423",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V45169"
+        },
+        "start": 0,
+        "end": 24
+      },
+      "V45169": {
+        "id": "V45169",
+        "indicator": "F",
+        "type": "HAVE",
+        "word": "HAVE",
+        "roles": {
+          "NEUTRAL": "#V45163",
+          "NEUTRAL1": "#V45194",
+          "TENSE": "PRES"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V45163": {
+        "id": "V45163",
+        "indicator": "THE",
+        "type": "COLUMN-FORMATION",
+        "word": "COLUMN",
+        "roles": {},
+        "start": 0,
+        "end": 11
+      },
+      "V45194": {
+        "id": "V45194",
+        "indicator": "THE",
+        "type": "HEIGHT-SCALE",
+        "word": "HEIGHT",
+        "roles": {
+          "NAME-OF": "(HEIGHT 4)"
+        },
+        "start": 15,
+        "end": 23
+      },
+      "root": "#V45423"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V45413": {
+          "id": "V45413",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V45169"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V45169": {
+          "id": "V45169",
+          "indicator": "F",
+          "type": "HAVE",
+          "word": "HAVE",
+          "roles": {
+            "NEUTRAL": "#V45163",
+            "NEUTRAL1": "#V45195",
+            "TENSE": "PRES"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V45163": {
+          "id": "V45163",
+          "indicator": "THE",
+          "type": "COLUMN-FORMATION",
+          "word": "COLUMN",
+          "roles": {},
+          "start": 0,
+          "end": 11
+        },
+        "V45195": {
+          "id": "V45195",
+          "indicator": "THE",
+          "type": "HEIGHT-SCALE",
+          "word": "HEIGHT",
+          "roles": {
+            "NAME-OF": "(HEIGHT 4)"
+          },
+          "start": 15,
+          "end": 23
+        },
+        "root": "#V45413"
+      }
+    ]
+  ],
+  "sentence": "The column has height 4.",
+  "annotation": {
+    "judge": "iperera",
+    "parser": "CABOT",
+    "timestamp": "20190618T135800",
+    "link": "http://trips.ihmc.us/parser/saved/20190618T135800-CABOT-iperera-none-The_column_has_height_4_.xml",
+    "judgement": -1
+  }
+}

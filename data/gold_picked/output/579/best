@@ -1,0 +1,26 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V51418 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V48009 [label=<<font color="green"><br /></font> <font color="black">BECOME</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BECOME</font> <font color="green"><br /></font> <font color="green">become%2:30:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BECOME.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V47969 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">BARE</font> <font color="blue">TOM</font> <font color="green"><br /></font> <font color="green">tom%1:18:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V48014 [label=<<font color="green"><br /></font> <font color="black">MORE-VAL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">HAPPY</font> <font color="green"><br /></font> <font color="green">better%3:00:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MORE-VAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V48019 [label=<<font color="green"><br /></font> <font color="black">DUE-TO</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">DUE</font> <font color="green"><br /></font> <font color="green">due%4:02:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DUE-TO.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V48101 [label=<<font color="green"><br /></font> <font color="black">EXECUTE</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">PERFORMANCES</font> <font color="green"><br /></font> <font color="green">fulfil%2:36:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EXECUTE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V48097 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">KIND</font> <font color="blue">BARTBALL</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V48051 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HIS</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V48063 [label=<<font color="green"><br /></font> <font color="black">PRIMARY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">STELLAR</font> <font color="green"><br /></font> <font color="green">stellar%5:00:00:major:06</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PRIMARY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V48101 -> V48051 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V51418 -> V48009 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V48101 -> V48097 [label=" ASSOC-WITH   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V48009 -> V48014 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V48097 -> V48063 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V48014 -> V47969 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V48019 -> V48101 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V48019 -> V48009 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V48063 -> V48097 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V48009 -> V48019 [label=" REASON   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V48009 -> V47969 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

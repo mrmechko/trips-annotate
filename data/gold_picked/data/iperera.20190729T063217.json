@@ -1,0 +1,188 @@
+{
+  "parse": [
+    {
+      "V86626": {
+        "id": "V86626",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V85962"
+        },
+        "start": 0,
+        "end": 36
+      },
+      "V85962": {
+        "id": "V85962",
+        "indicator": "F",
+        "type": "EXISTS",
+        "word": "BE",
+        "roles": {
+          "NOROLE": "#V85924",
+          "NEUTRAL": "#V85978",
+          "TENSE": "PAST",
+          "MODALITY": "(:* MUST MUST)"
+        },
+        "start": 0,
+        "end": 36
+      },
+      "V85924": {
+        "id": "V85924",
+        "indicator": "PRO",
+        "type": "EXPLETIVE",
+        "word": null,
+        "roles": {
+          "PROFORM": "THERE"
+        },
+        "start": 0,
+        "end": 6
+      },
+      "V85978": {
+        "id": "V85978",
+        "indicator": "INDEF-SET",
+        "type": "BLOCK",
+        "word": "BLOCK",
+        "roles": {
+          "LOCATION": "#V85993"
+        },
+        "start": 14,
+        "end": 36
+      },
+      "V85993": {
+        "id": "V85993",
+        "indicator": "F",
+        "type": "ON",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V86072",
+          "FIGURE": "#V85978"
+        },
+        "start": 21,
+        "end": 36
+      },
+      "V86072": {
+        "id": "V86072",
+        "indicator": "QUANTIFIER",
+        "type": "ROW-FORMATION",
+        "word": "ROW",
+        "roles": {
+          "QUAN": "EACH",
+          "MOD": "#V86036"
+        },
+        "start": 24,
+        "end": 36
+      },
+      "V86036": {
+        "id": "V86036",
+        "indicator": "F",
+        "type": "TOP-LOCATION-VAL",
+        "word": "TOP",
+        "roles": {
+          "FIGURE": "#V86072",
+          "SCALE": "SPATIAL-SCALE"
+        },
+        "start": 29,
+        "end": 33
+      },
+      "root": "#V86626"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V86623": {
+          "id": "V86623",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V85962"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V85962": {
+          "id": "V85962",
+          "indicator": "F",
+          "type": "EXISTS",
+          "word": "BE",
+          "roles": {
+            "NOROLE": "#V85924",
+            "NEUTRAL": "#V85978",
+            "TENSE": "PRES",
+            "MODALITY": "(:* MUST MUST)"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V85924": {
+          "id": "V85924",
+          "indicator": "PRO",
+          "type": "EXPLETIVE",
+          "word": null,
+          "roles": {
+            "PROFORM": "THERE"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V85978": {
+          "id": "V85978",
+          "indicator": "INDEF-SET",
+          "type": "BLOCK",
+          "word": "BLOCK",
+          "roles": {
+            "LOCATION": "#V85993"
+          },
+          "start": 14,
+          "end": 36
+        },
+        "V85993": {
+          "id": "V85993",
+          "indicator": "F",
+          "type": "ON",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V86072",
+            "FIGURE": "#V85978"
+          },
+          "start": 21,
+          "end": 36
+        },
+        "V86072": {
+          "id": "V86072",
+          "indicator": "QUANTIFIER",
+          "type": "ROW-FORMATION",
+          "word": "ROW",
+          "roles": {
+            "QUAN": "EACH",
+            "MOD": "#V86036"
+          },
+          "start": 24,
+          "end": 36
+        },
+        "V86036": {
+          "id": "V86036",
+          "indicator": "F",
+          "type": "TOP-LOCATION-VAL",
+          "word": "TOP",
+          "roles": {
+            "FIGURE": "#V86072",
+            "SCALE": "SPATIAL-SCALE"
+          },
+          "start": 29,
+          "end": 33
+        },
+        "root": "#V86623"
+      }
+    ]
+  ],
+  "sentence": "There must be blocks on each top row",
+  "annotation": {
+    "judge": "iperera",
+    "parser": "CABOT",
+    "timestamp": "20190729T063217",
+    "link": "http://trips.ihmc.us/parser/saved/20190729T063217-CABOT-iperera-0-There_must_be_blocks_on_each_top_row.xml",
+    "judgement": 0
+  }
+}

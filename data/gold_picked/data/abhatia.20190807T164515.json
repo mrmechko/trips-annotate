@@ -1,0 +1,581 @@
+{
+  "parse": [
+    {
+      "V235924": {
+        "id": "V235924",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V235816",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V235816": {
+        "id": "V235816",
+        "indicator": "F",
+        "type": "EVENT-OF-STATE",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V235584",
+          "SEQUENCE1": "#V235623",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V235623": {
+        "id": "V235623",
+        "indicator": "F",
+        "type": "WANT",
+        "word": "WANT",
+        "roles": {
+          "EXPERIENCER": "#V235568",
+          "FORMAL": "#V235656",
+          "LEX": "WANTED",
+          "WNSENSE": "want%2:37:00::"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V235584": {
+        "id": "V235584",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V235568",
+          "FORMAL": "#V235600",
+          "LEX": "WAS",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V235568": {
+        "id": "V235568",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V235600": {
+        "id": "V235600",
+        "indicator": "F",
+        "type": "COLD",
+        "word": "COLD",
+        "roles": {
+          "FIGURE": "#V235568",
+          "SCALE": "COLD-SCALE",
+          "DEGREE": "#V235597",
+          "LEX": "COLD"
+        },
+        "start": 6,
+        "end": 16
+      },
+      "V235597": {
+        "id": "V235597",
+        "indicator": "F",
+        "type": "DEGREE-MODIFIER-HIGH",
+        "word": "VERY",
+        "roles": {
+          "FIGURE": "#V235600",
+          "LEX": "VERY",
+          "WNSENSE": "very%4:02:00::"
+        },
+        "start": 6,
+        "end": 11
+      },
+      "V235656": {
+        "id": "V235656",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "HURRY",
+        "roles": {
+          "RESULT": "#V235660",
+          "AGENT": "#V235568",
+          "VFORM": "BASE",
+          "LEX": "HURRY",
+          "WNSENSE": "hurry%1:04:00::"
+        },
+        "start": 27,
+        "end": 40
+      },
+      "V235660": {
+        "id": "V235660",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "HOME",
+        "roles": {
+          "GROUND": "#V235735",
+          "FIGURE": "#V235568",
+          "LEX": "HOME",
+          "WNSENSE": "home%4:02:01::"
+        },
+        "start": 36,
+        "end": 40
+      },
+      "V235735": {
+        "id": "V235735",
+        "indicator": "IMPRO",
+        "type": "RELATIVE-LOCATION",
+        "word": null,
+        "roles": {
+          "PROFORM": "HOME"
+        },
+        "start": 36,
+        "end": 40
+      },
+      "root": "#V235924"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V235936": {
+          "id": "V235936",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V235611",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V235611": {
+          "id": "V235611",
+          "indicator": "F",
+          "type": "EVENT-OF-STATE",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V235584",
+            "SEQUENCE1": "#V235623",
+            "TENSE": "PAST",
+            "LEX": "AND",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V235584": {
+          "id": "V235584",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V235568",
+            "FORMAL": "#V235600",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 16
+        },
+        "V235568": {
+          "id": "V235568",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V235600": {
+          "id": "V235600",
+          "indicator": "F",
+          "type": "COLD",
+          "word": "COLD",
+          "roles": {
+            "FIGURE": "#V235568",
+            "SCALE": "COLD-SCALE",
+            "DEGREE": "#V235597",
+            "LEX": "COLD"
+          },
+          "start": 6,
+          "end": 16
+        },
+        "V235597": {
+          "id": "V235597",
+          "indicator": "F",
+          "type": "DEGREE-MODIFIER-HIGH",
+          "word": "VERY",
+          "roles": {
+            "FIGURE": "#V235600",
+            "LEX": "VERY",
+            "WNSENSE": "very%4:02:00::"
+          },
+          "start": 6,
+          "end": 11
+        },
+        "V235623": {
+          "id": "V235623",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "WANT",
+          "roles": {
+            "EXPERIENCER": "#V235568",
+            "FORMAL": "#V235656",
+            "TENSE": "PAST",
+            "LEX": "WANTED",
+            "WNSENSE": "want%2:37:00::"
+          },
+          "start": 20,
+          "end": 40
+        },
+        "V235656": {
+          "id": "V235656",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "HURRY",
+          "roles": {
+            "RESULT": "#V235660",
+            "AGENT": "#V235568",
+            "VFORM": "BASE",
+            "LEX": "HURRY",
+            "WNSENSE": "hurry%1:04:00::"
+          },
+          "start": 27,
+          "end": 40
+        },
+        "V235660": {
+          "id": "V235660",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "HOME",
+          "roles": {
+            "GROUND": "#V235735",
+            "FIGURE": "#V235568",
+            "LEX": "HOME",
+            "WNSENSE": "home%4:02:01::"
+          },
+          "start": 36,
+          "end": 40
+        },
+        "V235735": {
+          "id": "V235735",
+          "indicator": "IMPRO",
+          "type": "RELATIVE-LOCATION",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOME"
+          },
+          "start": 36,
+          "end": 40
+        },
+        "root": "#V235936"
+      }
+    ],
+    [
+      {
+        "V236008": {
+          "id": "V236008",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V235953",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V235953": {
+          "id": "V235953",
+          "indicator": "F",
+          "type": "EVENT-OF-STATE",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V235584",
+            "SEQUENCE1": "#V235623",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V235623": {
+          "id": "V235623",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "WANT",
+          "roles": {
+            "EXPERIENCER": "#V235568",
+            "FORMAL": "#V235656",
+            "LEX": "WANTED",
+            "WNSENSE": "want%2:37:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V235584": {
+          "id": "V235584",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V235568",
+            "FORMAL": "#V235600",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V235568": {
+          "id": "V235568",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V235600": {
+          "id": "V235600",
+          "indicator": "F",
+          "type": "COLD",
+          "word": "COLD",
+          "roles": {
+            "SCALE": "COLD-SCALE",
+            "DEGREE": "#V235597",
+            "LEX": "COLD"
+          },
+          "start": 6,
+          "end": 16
+        },
+        "V235597": {
+          "id": "V235597",
+          "indicator": "F",
+          "type": "DEGREE-MODIFIER-HIGH",
+          "word": "VERY",
+          "roles": {
+            "FIGURE": "#V235600",
+            "LEX": "VERY",
+            "WNSENSE": "very%4:02:00::"
+          },
+          "start": 6,
+          "end": 11
+        },
+        "V235656": {
+          "id": "V235656",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "HURRY",
+          "roles": {
+            "RESULT": "#V235660",
+            "AGENT": "#V235568",
+            "VFORM": "BASE",
+            "LEX": "HURRY",
+            "WNSENSE": "hurry%1:04:00::"
+          },
+          "start": 27,
+          "end": 40
+        },
+        "V235660": {
+          "id": "V235660",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "HOME",
+          "roles": {
+            "GROUND": "#V235735",
+            "FIGURE": "#V235568",
+            "LEX": "HOME",
+            "WNSENSE": "home%4:02:01::"
+          },
+          "start": 36,
+          "end": 40
+        },
+        "V235735": {
+          "id": "V235735",
+          "indicator": "IMPRO",
+          "type": "RELATIVE-LOCATION",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOME"
+          },
+          "start": 36,
+          "end": 40
+        },
+        "root": "#V236008"
+      }
+    ],
+    [
+      {
+        "V236051": {
+          "id": "V236051",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V235611",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V235611": {
+          "id": "V235611",
+          "indicator": "F",
+          "type": "EVENT-OF-STATE",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V235584",
+            "SEQUENCE1": "#V235623",
+            "TENSE": "PAST",
+            "LEX": "AND",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V235584": {
+          "id": "V235584",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V235568",
+            "FORMAL": "#V235600",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 16
+        },
+        "V235568": {
+          "id": "V235568",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V235600": {
+          "id": "V235600",
+          "indicator": "F",
+          "type": "COLD",
+          "word": "COLD",
+          "roles": {
+            "SCALE": "COLD-SCALE",
+            "DEGREE": "#V235597",
+            "LEX": "COLD"
+          },
+          "start": 6,
+          "end": 16
+        },
+        "V235597": {
+          "id": "V235597",
+          "indicator": "F",
+          "type": "DEGREE-MODIFIER-HIGH",
+          "word": "VERY",
+          "roles": {
+            "FIGURE": "#V235600",
+            "LEX": "VERY",
+            "WNSENSE": "very%4:02:00::"
+          },
+          "start": 6,
+          "end": 11
+        },
+        "V235623": {
+          "id": "V235623",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "WANT",
+          "roles": {
+            "EXPERIENCER": "#V235568",
+            "FORMAL": "#V235656",
+            "TENSE": "PAST",
+            "LEX": "WANTED",
+            "WNSENSE": "want%2:37:00::"
+          },
+          "start": 20,
+          "end": 40
+        },
+        "V235656": {
+          "id": "V235656",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "HURRY",
+          "roles": {
+            "RESULT": "#V235660",
+            "AGENT": "#V235568",
+            "VFORM": "BASE",
+            "LEX": "HURRY",
+            "WNSENSE": "hurry%1:04:00::"
+          },
+          "start": 27,
+          "end": 40
+        },
+        "V235660": {
+          "id": "V235660",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "HOME",
+          "roles": {
+            "GROUND": "#V235735",
+            "FIGURE": "#V235568",
+            "LEX": "HOME",
+            "WNSENSE": "home%4:02:01::"
+          },
+          "start": 36,
+          "end": 40
+        },
+        "V235735": {
+          "id": "V235735",
+          "indicator": "IMPRO",
+          "type": "RELATIVE-LOCATION",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOME"
+          },
+          "start": 36,
+          "end": 40
+        },
+        "root": "#V236051"
+      }
+    ]
+  ],
+  "sentence": "I was very cold and wanted to hurry home.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190807T164515",
+    "link": "http://trips.ihmc.us/parser/saved/20190807T164515-STEP-abhatia-0-I_was_very_cold_and_wanted_to_hurry_home.xml",
+    "judgement": 0
+  }
+}

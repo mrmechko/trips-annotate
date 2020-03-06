@@ -1,0 +1,768 @@
+{
+  "parse": [
+    {
+      "V86947": {
+        "id": "V86947",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V86596",
+          "LEX": "MANAGED"
+        },
+        "start": 0,
+        "end": 32
+      },
+      "V86596": {
+        "id": "V86596",
+        "indicator": "F",
+        "type": "MANAGE-TO-COMPLETE",
+        "word": "MANAGE",
+        "roles": {
+          "AGENT": "#V86591",
+          "FORMAL": "#V86627",
+          "TENSE": "PAST",
+          "LEX": "MANAGED",
+          "WNSENSE": "manage%2:41:09::"
+        },
+        "start": 0,
+        "end": 32
+      },
+      "V86591": {
+        "id": "V86591",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V86627": {
+        "id": "V86627",
+        "indicator": "F",
+        "type": "PARTICIPATE-ATTEND",
+        "word": "ATTEND",
+        "roles": {
+          "AGENT": "#V86591",
+          "NEUTRAL": "#V86638",
+          "VFORM": "BASE",
+          "LEX": "ATTEND",
+          "WNSENSE": "attend%2:42:00::"
+        },
+        "start": 11,
+        "end": 32
+      },
+      "V86638": {
+        "id": "V86638",
+        "indicator": "THE",
+        "type": "GATHERING-EVENT",
+        "word": "MEETING",
+        "roles": {
+          "LEX": "MEETING",
+          "WNSENSE": "meeting%1:14:00::"
+        },
+        "start": 21,
+        "end": 32
+      },
+      "root": "#V86947"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V86944": {
+          "id": "V86944",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V86596",
+            "LEX": "MANAGED"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V86596": {
+          "id": "V86596",
+          "indicator": "F",
+          "type": "MANAGE-TO-COMPLETE",
+          "word": "MANAGE",
+          "roles": {
+            "AGENT": "#V86591",
+            "FORMAL": "#V86628",
+            "TENSE": "PAST",
+            "LEX": "MANAGED",
+            "WNSENSE": "manage%2:41:09::"
+          },
+          "start": 0,
+          "end": 32
+        },
+        "V86591": {
+          "id": "V86591",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V86628": {
+          "id": "V86628",
+          "indicator": "F",
+          "type": "PAY-ATTENTION",
+          "word": "ATTEND",
+          "roles": {
+            "AGENT": "#V86591",
+            "NEUTRAL": "#V86638",
+            "VFORM": "BASE",
+            "LEX": "ATTEND",
+            "WNSENSE": "attend%2:39:00::"
+          },
+          "start": 11,
+          "end": 32
+        },
+        "V86638": {
+          "id": "V86638",
+          "indicator": "THE",
+          "type": "GATHERING-EVENT",
+          "word": "MEETING",
+          "roles": {
+            "LEX": "MEETING",
+            "WNSENSE": "meeting%1:14:00::"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "root": "#V86944"
+      }
+    ],
+    [
+      {
+        "V86981": {
+          "id": "V86981",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V86596",
+            "LEX": "MANAGED"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V86596": {
+          "id": "V86596",
+          "indicator": "F",
+          "type": "MANAGE-TO-COMPLETE",
+          "word": "MANAGE",
+          "roles": {
+            "AGENT": "#V86591",
+            "FORMAL": "#V86628",
+            "TENSE": "PAST",
+            "LEX": "MANAGED",
+            "WNSENSE": "manage%2:41:09::"
+          },
+          "start": 0,
+          "end": 32
+        },
+        "V86591": {
+          "id": "V86591",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V86628": {
+          "id": "V86628",
+          "indicator": "F",
+          "type": "PAY-ATTENTION",
+          "word": "ATTEND",
+          "roles": {
+            "AGENT": "#V86591",
+            "NEUTRAL": "#V86645",
+            "VFORM": "BASE",
+            "LEX": "ATTEND",
+            "WNSENSE": "attend%2:39:00::"
+          },
+          "start": 11,
+          "end": 32
+        },
+        "V86645": {
+          "id": "V86645",
+          "indicator": "THE",
+          "type": "IS-COMPATIBLE-WITH",
+          "word": "MEET",
+          "roles": {
+            "LEX": "MEETING",
+            "WNSENSE": "accept%2:42:00"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "root": "#V86981"
+      }
+    ],
+    [
+      {
+        "V86978": {
+          "id": "V86978",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V86596",
+            "LEX": "MANAGED"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V86596": {
+          "id": "V86596",
+          "indicator": "F",
+          "type": "MANAGE-TO-COMPLETE",
+          "word": "MANAGE",
+          "roles": {
+            "AGENT": "#V86591",
+            "FORMAL": "#V86628",
+            "TENSE": "PAST",
+            "LEX": "MANAGED",
+            "WNSENSE": "manage%2:41:09::"
+          },
+          "start": 0,
+          "end": 32
+        },
+        "V86591": {
+          "id": "V86591",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V86628": {
+          "id": "V86628",
+          "indicator": "F",
+          "type": "PAY-ATTENTION",
+          "word": "ATTEND",
+          "roles": {
+            "AGENT": "#V86591",
+            "NEUTRAL": "#V86644",
+            "VFORM": "BASE",
+            "LEX": "ATTEND",
+            "WNSENSE": "attend%2:39:00::"
+          },
+          "start": 11,
+          "end": 32
+        },
+        "V86644": {
+          "id": "V86644",
+          "indicator": "THE",
+          "type": "INTERSECT",
+          "word": "MEET",
+          "roles": {
+            "LEX": "MEETING",
+            "WNSENSE": "cross%2:38:03"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "root": "#V86978"
+      }
+    ],
+    [
+      {
+        "V86975": {
+          "id": "V86975",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V86596",
+            "LEX": "MANAGED"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V86596": {
+          "id": "V86596",
+          "indicator": "F",
+          "type": "MANAGE-TO-COMPLETE",
+          "word": "MANAGE",
+          "roles": {
+            "AGENT": "#V86591",
+            "FORMAL": "#V86628",
+            "TENSE": "PAST",
+            "LEX": "MANAGED",
+            "WNSENSE": "manage%2:41:09::"
+          },
+          "start": 0,
+          "end": 32
+        },
+        "V86591": {
+          "id": "V86591",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V86628": {
+          "id": "V86628",
+          "indicator": "F",
+          "type": "PAY-ATTENTION",
+          "word": "ATTEND",
+          "roles": {
+            "AGENT": "#V86591",
+            "NEUTRAL": "#V86643",
+            "VFORM": "BASE",
+            "LEX": "ATTEND",
+            "WNSENSE": "attend%2:39:00::"
+          },
+          "start": 11,
+          "end": 32
+        },
+        "V86643": {
+          "id": "V86643",
+          "indicator": "THE",
+          "type": "INTERSECT",
+          "word": "MEET",
+          "roles": {
+            "LEX": "MEETING",
+            "WNSENSE": "cross%2:38:03"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "root": "#V86975"
+      }
+    ],
+    [
+      {
+        "V86972": {
+          "id": "V86972",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V86596",
+            "LEX": "MANAGED"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V86596": {
+          "id": "V86596",
+          "indicator": "F",
+          "type": "MANAGE-TO-COMPLETE",
+          "word": "MANAGE",
+          "roles": {
+            "AGENT": "#V86591",
+            "FORMAL": "#V86628",
+            "TENSE": "PAST",
+            "LEX": "MANAGED",
+            "WNSENSE": "manage%2:41:09::"
+          },
+          "start": 0,
+          "end": 32
+        },
+        "V86591": {
+          "id": "V86591",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V86628": {
+          "id": "V86628",
+          "indicator": "F",
+          "type": "PAY-ATTENTION",
+          "word": "ATTEND",
+          "roles": {
+            "AGENT": "#V86591",
+            "NEUTRAL": "#V86642",
+            "VFORM": "BASE",
+            "LEX": "ATTEND",
+            "WNSENSE": "attend%2:39:00::"
+          },
+          "start": 11,
+          "end": 32
+        },
+        "V86642": {
+          "id": "V86642",
+          "indicator": "THE",
+          "type": "MEET",
+          "word": "MEET",
+          "roles": {
+            "LEX": "MEETING",
+            "WNSENSE": "meet%2:38:01::"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "root": "#V86972"
+      }
+    ],
+    [
+      {
+        "V86969": {
+          "id": "V86969",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V86596",
+            "LEX": "MANAGED"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V86596": {
+          "id": "V86596",
+          "indicator": "F",
+          "type": "MANAGE-TO-COMPLETE",
+          "word": "MANAGE",
+          "roles": {
+            "AGENT": "#V86591",
+            "FORMAL": "#V86628",
+            "TENSE": "PAST",
+            "LEX": "MANAGED",
+            "WNSENSE": "manage%2:41:09::"
+          },
+          "start": 0,
+          "end": 32
+        },
+        "V86591": {
+          "id": "V86591",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V86628": {
+          "id": "V86628",
+          "indicator": "F",
+          "type": "PAY-ATTENTION",
+          "word": "ATTEND",
+          "roles": {
+            "AGENT": "#V86591",
+            "NEUTRAL": "#V86641",
+            "VFORM": "BASE",
+            "LEX": "ATTEND",
+            "WNSENSE": "attend%2:39:00::"
+          },
+          "start": 11,
+          "end": 32
+        },
+        "V86641": {
+          "id": "V86641",
+          "indicator": "THE",
+          "type": "MEET",
+          "word": "MEET",
+          "roles": {
+            "LEX": "MEETING",
+            "WNSENSE": "meet%2:38:01::"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "root": "#V86969"
+      }
+    ],
+    [
+      {
+        "V86966": {
+          "id": "V86966",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V86596",
+            "LEX": "MANAGED"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V86596": {
+          "id": "V86596",
+          "indicator": "F",
+          "type": "MANAGE-TO-COMPLETE",
+          "word": "MANAGE",
+          "roles": {
+            "AGENT": "#V86591",
+            "FORMAL": "#V86628",
+            "TENSE": "PAST",
+            "LEX": "MANAGED",
+            "WNSENSE": "manage%2:41:09::"
+          },
+          "start": 0,
+          "end": 32
+        },
+        "V86591": {
+          "id": "V86591",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V86628": {
+          "id": "V86628",
+          "indicator": "F",
+          "type": "PAY-ATTENTION",
+          "word": "ATTEND",
+          "roles": {
+            "AGENT": "#V86591",
+            "NEUTRAL": "#V86640",
+            "VFORM": "BASE",
+            "LEX": "ATTEND",
+            "WNSENSE": "attend%2:39:00::"
+          },
+          "start": 11,
+          "end": 32
+        },
+        "V86640": {
+          "id": "V86640",
+          "indicator": "THE",
+          "type": "MEET",
+          "word": "MEET",
+          "roles": {
+            "LEX": "MEETING",
+            "WNSENSE": "meet%2:38:01::"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "root": "#V86966"
+      }
+    ],
+    [
+      {
+        "V87204": {
+          "id": "V87204",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V86596",
+            "LEX": "MANAGED"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V86596": {
+          "id": "V86596",
+          "indicator": "F",
+          "type": "MANAGE-TO-COMPLETE",
+          "word": "MANAGE",
+          "roles": {
+            "AGENT": "#V86591",
+            "FORMAL": "#V86628",
+            "TENSE": "PAST",
+            "LEX": "MANAGED",
+            "WNSENSE": "manage%2:41:09::"
+          },
+          "start": 0,
+          "end": 32
+        },
+        "V86591": {
+          "id": "V86591",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V86628": {
+          "id": "V86628",
+          "indicator": "F",
+          "type": "PAY-ATTENTION",
+          "word": "ATTEND",
+          "roles": {
+            "AGENT": "#V86591",
+            "NEUTRAL": "#V86729",
+            "VFORM": "BASE",
+            "LEX": "ATTEND",
+            "WNSENSE": "attend%2:39:00::"
+          },
+          "start": 11,
+          "end": 32
+        },
+        "V86729": {
+          "id": "V86729",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V86642",
+            "LEX": "THE"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V86642": {
+          "id": "V86642",
+          "indicator": "F",
+          "type": "MEET",
+          "word": "MEET",
+          "roles": {
+            "AGENT": "#V86729",
+            "LEX": "MEETING",
+            "WNSENSE": "meet%2:38:01::"
+          },
+          "start": 25,
+          "end": 32
+        },
+        "root": "#V87204"
+      }
+    ],
+    [
+      {
+        "V87517": {
+          "id": "V87517",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V86596",
+            "LEX": "MANAGED"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V86596": {
+          "id": "V86596",
+          "indicator": "F",
+          "type": "MANAGE-TO-COMPLETE",
+          "word": "MANAGE",
+          "roles": {
+            "AGENT": "#V86591",
+            "FORMAL": "#V86628",
+            "TENSE": "PAST",
+            "LEX": "MANAGED",
+            "WNSENSE": "manage%2:41:09::"
+          },
+          "start": 0,
+          "end": 32
+        },
+        "V86591": {
+          "id": "V86591",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V86628": {
+          "id": "V86628",
+          "indicator": "F",
+          "type": "PAY-ATTENTION",
+          "word": "ATTEND",
+          "roles": {
+            "AGENT": "#V86591",
+            "NEUTRAL": "#V86729",
+            "VFORM": "BASE",
+            "LEX": "ATTEND",
+            "WNSENSE": "attend%2:39:00::"
+          },
+          "start": 11,
+          "end": 32
+        },
+        "V86729": {
+          "id": "V86729",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V86641",
+            "LEX": "THE"
+          },
+          "start": 21,
+          "end": 32
+        },
+        "V86641": {
+          "id": "V86641",
+          "indicator": "F",
+          "type": "MEET",
+          "word": "MEET",
+          "roles": {
+            "AGENT": "#V86729",
+            "LEX": "MEETING",
+            "WNSENSE": "meet%2:38:01::"
+          },
+          "start": 25,
+          "end": 32
+        },
+        "root": "#V87517"
+      }
+    ]
+  ],
+  "sentence": "He managed to attend the meeting.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190829T153750",
+    "link": "http://trips.ihmc.us/parser/saved/20190829T153750-STEP-abhatia-0-He_managed_to_attend_the_meeting_.xml",
+    "judgement": 0
+  }
+}

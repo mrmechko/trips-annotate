@@ -1,0 +1,1315 @@
+{
+  "parse": [
+    {
+      "V134182": {
+        "id": "V134182",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V132187",
+          "LEX": "FLOCK"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V132187": {
+        "id": "V132187",
+        "indicator": "A",
+        "type": "ANIMAL-GROUP",
+        "word": "FLOCK",
+        "roles": {
+          "CONTENTS": "#V132204",
+          "LEX": "FLOCK",
+          "WNSENSE": "flock%1:14:00::"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V132204": {
+        "id": "V132204",
+        "indicator": "INDEF-SET",
+        "type": "PIGEON",
+        "word": "PIGEONS",
+        "roles": {
+          "LEX": "PIGEONS",
+          "WNSENSE": "pigeon%1:05:00"
+        },
+        "start": 8,
+        "end": 19
+      },
+      "root": "#V134182"
+    },
+    {
+      "V133273": {
+        "id": "V133273",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V132226",
+          "LEX": "FLYING"
+        },
+        "start": 19,
+        "end": 47
+      },
+      "V132226": {
+        "id": "V132226",
+        "indicator": "F",
+        "type": "FLY",
+        "word": "FLY",
+        "roles": {
+          "AGENT": "#V133274",
+          "MOD": "#V132232",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "FLYING",
+          "WNSENSE": "fly%2:38:00::"
+        },
+        "start": 19,
+        "end": 47
+      },
+      "V133274": {
+        "id": "V133274",
+        "indicator": "IMPRO",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "PROFORM": "SUBJ",
+          "COREF": "#V132187"
+        },
+        "start": 19,
+        "end": 47
+      },
+      "V132232": {
+        "id": "V132232",
+        "indicator": "F",
+        "type": "SITUATED-IN",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V132303",
+          "FIGURE": "#V132226",
+          "LEX": "IN",
+          "WNSENSE": "in%4:02:01::"
+        },
+        "start": 31,
+        "end": 47
+      },
+      "V132303": {
+        "id": "V132303",
+        "indicator": "A",
+        "type": "GUIDING",
+        "word": "DIRECTION",
+        "roles": {
+          "SIZE": "#V132312",
+          "LEX": "DIRECTION",
+          "WNSENSE": "direction%1:04:00::"
+        },
+        "start": 34,
+        "end": 47
+      },
+      "V132312": {
+        "id": "V132312",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 34,
+        "end": 47
+      },
+      "root": "#V133273"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V134182": {
+          "id": "V134182",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V132187",
+            "LEX": "FLOCK"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V132187": {
+          "id": "V132187",
+          "indicator": "A",
+          "type": "ANIMAL-GROUP",
+          "word": "FLOCK",
+          "roles": {
+            "CONTENTS": "#V132204",
+            "LEX": "FLOCK",
+            "WNSENSE": "flock%1:14:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V132204": {
+          "id": "V132204",
+          "indicator": "INDEF-SET",
+          "type": "PIGEON",
+          "word": "PIGEONS",
+          "roles": {
+            "LEX": "PIGEONS",
+            "WNSENSE": "pigeon%1:05:00"
+          },
+          "start": 8,
+          "end": 19
+        },
+        "root": "#V134182"
+      },
+      {
+        "V133270": {
+          "id": "V133270",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V132226",
+            "LEX": "FLYING"
+          },
+          "start": 19,
+          "end": 48
+        },
+        "V132226": {
+          "id": "V132226",
+          "indicator": "F",
+          "type": "FLY",
+          "word": "FLY",
+          "roles": {
+            "AGENT": "#V133271",
+            "MOD": "#V132232",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "FLYING",
+            "WNSENSE": "fly%2:38:00::"
+          },
+          "start": 19,
+          "end": 47
+        },
+        "V133271": {
+          "id": "V133271",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 19,
+          "end": 47
+        },
+        "V132232": {
+          "id": "V132232",
+          "indicator": "F",
+          "type": "SITUATED-IN",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V132302",
+            "FIGURE": "#V132226",
+            "LEX": "IN",
+            "WNSENSE": "in%4:02:01::"
+          },
+          "start": 31,
+          "end": 47
+        },
+        "V132302": {
+          "id": "V132302",
+          "indicator": "A",
+          "type": "GUIDING",
+          "word": "DIRECTION",
+          "roles": {
+            "SIZE": "#V132312",
+            "LEX": "DIRECTION",
+            "WNSENSE": "direction%1:04:00::"
+          },
+          "start": 34,
+          "end": 47
+        },
+        "V132312": {
+          "id": "V132312",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 34,
+          "end": 47
+        },
+        "root": "#V133270"
+      }
+    ],
+    [
+      {
+        "V134182": {
+          "id": "V134182",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V132187",
+            "LEX": "FLOCK"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V132187": {
+          "id": "V132187",
+          "indicator": "A",
+          "type": "ANIMAL-GROUP",
+          "word": "FLOCK",
+          "roles": {
+            "CONTENTS": "#V132204",
+            "LEX": "FLOCK",
+            "WNSENSE": "flock%1:14:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V132204": {
+          "id": "V132204",
+          "indicator": "INDEF-SET",
+          "type": "PIGEON",
+          "word": "PIGEONS",
+          "roles": {
+            "LEX": "PIGEONS",
+            "WNSENSE": "pigeon%1:05:00"
+          },
+          "start": 8,
+          "end": 19
+        },
+        "root": "#V134182"
+      },
+      {
+        "V133506": {
+          "id": "V133506",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V132212",
+            "LEX": "WERE"
+          },
+          "start": 19,
+          "end": 48
+        },
+        "V132212": {
+          "id": "V132212",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V133507",
+            "NEUTRAL1": "#V132226",
+            "TENSE": "PAST",
+            "LEX": "WERE",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 19,
+          "end": 47
+        },
+        "V133507": {
+          "id": "V133507",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 19,
+          "end": 47
+        },
+        "V132226": {
+          "id": "V132226",
+          "indicator": "BARE",
+          "type": "FLY",
+          "word": "FLY",
+          "roles": {
+            "MOD": "#V132232",
+            "LEX": "FLYING",
+            "WNSENSE": "fly%2:38:00::"
+          },
+          "start": 24,
+          "end": 47
+        },
+        "V132232": {
+          "id": "V132232",
+          "indicator": "F",
+          "type": "SITUATED-IN",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V132303",
+            "FIGURE": "#V132226",
+            "LEX": "IN",
+            "WNSENSE": "in%4:02:01::"
+          },
+          "start": 31,
+          "end": 47
+        },
+        "V132303": {
+          "id": "V132303",
+          "indicator": "A",
+          "type": "GUIDING",
+          "word": "DIRECTION",
+          "roles": {
+            "SIZE": "#V132312",
+            "LEX": "DIRECTION",
+            "WNSENSE": "direction%1:04:00::"
+          },
+          "start": 34,
+          "end": 47
+        },
+        "V132312": {
+          "id": "V132312",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 34,
+          "end": 47
+        },
+        "root": "#V133506"
+      }
+    ],
+    [
+      {
+        "V134182": {
+          "id": "V134182",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V132187",
+            "LEX": "FLOCK"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V132187": {
+          "id": "V132187",
+          "indicator": "A",
+          "type": "ANIMAL-GROUP",
+          "word": "FLOCK",
+          "roles": {
+            "CONTENTS": "#V132204",
+            "LEX": "FLOCK",
+            "WNSENSE": "flock%1:14:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V132204": {
+          "id": "V132204",
+          "indicator": "INDEF-SET",
+          "type": "PIGEON",
+          "word": "PIGEONS",
+          "roles": {
+            "LEX": "PIGEONS",
+            "WNSENSE": "pigeon%1:05:00"
+          },
+          "start": 8,
+          "end": 19
+        },
+        "root": "#V134182"
+      },
+      {
+        "V133503": {
+          "id": "V133503",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V132212",
+            "LEX": "WERE"
+          },
+          "start": 19,
+          "end": 48
+        },
+        "V132212": {
+          "id": "V132212",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V133504",
+            "NEUTRAL1": "#V132226",
+            "TENSE": "PAST",
+            "LEX": "WERE",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 19,
+          "end": 47
+        },
+        "V133504": {
+          "id": "V133504",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 19,
+          "end": 47
+        },
+        "V132226": {
+          "id": "V132226",
+          "indicator": "BARE",
+          "type": "FLY",
+          "word": "FLY",
+          "roles": {
+            "MOD": "#V132232",
+            "LEX": "FLYING",
+            "WNSENSE": "fly%2:38:00::"
+          },
+          "start": 24,
+          "end": 47
+        },
+        "V132232": {
+          "id": "V132232",
+          "indicator": "F",
+          "type": "SITUATED-IN",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V132302",
+            "FIGURE": "#V132226",
+            "LEX": "IN",
+            "WNSENSE": "in%4:02:01::"
+          },
+          "start": 31,
+          "end": 47
+        },
+        "V132302": {
+          "id": "V132302",
+          "indicator": "A",
+          "type": "GUIDING",
+          "word": "DIRECTION",
+          "roles": {
+            "SIZE": "#V132312",
+            "LEX": "DIRECTION",
+            "WNSENSE": "direction%1:04:00::"
+          },
+          "start": 34,
+          "end": 47
+        },
+        "V132312": {
+          "id": "V132312",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 34,
+          "end": 47
+        },
+        "root": "#V133503"
+      }
+    ],
+    [
+      {
+        "V134182": {
+          "id": "V134182",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V132187",
+            "LEX": "FLOCK"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V132187": {
+          "id": "V132187",
+          "indicator": "A",
+          "type": "ANIMAL-GROUP",
+          "word": "FLOCK",
+          "roles": {
+            "CONTENTS": "#V132204",
+            "LEX": "FLOCK",
+            "WNSENSE": "flock%1:14:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V132204": {
+          "id": "V132204",
+          "indicator": "INDEF-SET",
+          "type": "PIGEON",
+          "word": "PIGEONS",
+          "roles": {
+            "LEX": "PIGEONS",
+            "WNSENSE": "pigeon%1:05:00"
+          },
+          "start": 8,
+          "end": 19
+        },
+        "root": "#V134182"
+      },
+      {
+        "V133625": {
+          "id": "V133625",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V132212",
+            "LEX": "WERE"
+          },
+          "start": 19,
+          "end": 48
+        },
+        "V132212": {
+          "id": "V132212",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V133626",
+            "NEUTRAL1": "#V132225",
+            "TENSE": "PAST",
+            "LEX": "WERE",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 19,
+          "end": 47
+        },
+        "V133626": {
+          "id": "V133626",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 19,
+          "end": 47
+        },
+        "V132225": {
+          "id": "V132225",
+          "indicator": "BARE",
+          "type": "FLY",
+          "word": "FLY",
+          "roles": {
+            "MOD": "#V132232",
+            "LEX": "FLYING",
+            "WNSENSE": "fly%2:38:00::"
+          },
+          "start": 24,
+          "end": 47
+        },
+        "V132232": {
+          "id": "V132232",
+          "indicator": "F",
+          "type": "SITUATED-IN",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V132303",
+            "FIGURE": "#V132225",
+            "LEX": "IN",
+            "WNSENSE": "in%4:02:01::"
+          },
+          "start": 31,
+          "end": 47
+        },
+        "V132303": {
+          "id": "V132303",
+          "indicator": "A",
+          "type": "GUIDING",
+          "word": "DIRECTION",
+          "roles": {
+            "SIZE": "#V132312",
+            "LEX": "DIRECTION",
+            "WNSENSE": "direction%1:04:00::"
+          },
+          "start": 34,
+          "end": 47
+        },
+        "V132312": {
+          "id": "V132312",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 34,
+          "end": 47
+        },
+        "root": "#V133625"
+      }
+    ],
+    [
+      {
+        "V134182": {
+          "id": "V134182",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V132187",
+            "LEX": "FLOCK"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V132187": {
+          "id": "V132187",
+          "indicator": "A",
+          "type": "ANIMAL-GROUP",
+          "word": "FLOCK",
+          "roles": {
+            "CONTENTS": "#V132204",
+            "LEX": "FLOCK",
+            "WNSENSE": "flock%1:14:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V132204": {
+          "id": "V132204",
+          "indicator": "INDEF-SET",
+          "type": "PIGEON",
+          "word": "PIGEONS",
+          "roles": {
+            "LEX": "PIGEONS",
+            "WNSENSE": "pigeon%1:05:00"
+          },
+          "start": 8,
+          "end": 19
+        },
+        "root": "#V134182"
+      },
+      {
+        "V133622": {
+          "id": "V133622",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V132212",
+            "LEX": "WERE"
+          },
+          "start": 19,
+          "end": 48
+        },
+        "V132212": {
+          "id": "V132212",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V133623",
+            "NEUTRAL1": "#V132226",
+            "TENSE": "PAST",
+            "LEX": "WERE",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 19,
+          "end": 47
+        },
+        "V133623": {
+          "id": "V133623",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 19,
+          "end": 47
+        },
+        "V132226": {
+          "id": "V132226",
+          "indicator": "BARE",
+          "type": "FLY",
+          "word": "FLY",
+          "roles": {
+            "MOD": "#V132232",
+            "LEX": "FLYING",
+            "WNSENSE": "fly%2:38:00::"
+          },
+          "start": 24,
+          "end": 47
+        },
+        "V132232": {
+          "id": "V132232",
+          "indicator": "F",
+          "type": "SITUATED-IN",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V132303",
+            "FIGURE": "#V132226",
+            "LEX": "IN",
+            "WNSENSE": "in%4:02:01::"
+          },
+          "start": 31,
+          "end": 47
+        },
+        "V132303": {
+          "id": "V132303",
+          "indicator": "A",
+          "type": "GUIDING",
+          "word": "DIRECTION",
+          "roles": {
+            "SIZE": "#V132312",
+            "LEX": "DIRECTION",
+            "WNSENSE": "direction%1:04:00::"
+          },
+          "start": 34,
+          "end": 47
+        },
+        "V132312": {
+          "id": "V132312",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 34,
+          "end": 47
+        },
+        "root": "#V133622"
+      }
+    ],
+    [
+      {
+        "V134182": {
+          "id": "V134182",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V132187",
+            "LEX": "FLOCK"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V132187": {
+          "id": "V132187",
+          "indicator": "A",
+          "type": "ANIMAL-GROUP",
+          "word": "FLOCK",
+          "roles": {
+            "CONTENTS": "#V132204",
+            "LEX": "FLOCK",
+            "WNSENSE": "flock%1:14:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V132204": {
+          "id": "V132204",
+          "indicator": "INDEF-SET",
+          "type": "PIGEON",
+          "word": "PIGEONS",
+          "roles": {
+            "LEX": "PIGEONS",
+            "WNSENSE": "pigeon%1:05:00"
+          },
+          "start": 8,
+          "end": 19
+        },
+        "root": "#V134182"
+      },
+      {
+        "V133619": {
+          "id": "V133619",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V132212",
+            "LEX": "WERE"
+          },
+          "start": 19,
+          "end": 48
+        },
+        "V132212": {
+          "id": "V132212",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V133620",
+            "NEUTRAL1": "#V132225",
+            "TENSE": "PAST",
+            "LEX": "WERE",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 19,
+          "end": 47
+        },
+        "V133620": {
+          "id": "V133620",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 19,
+          "end": 47
+        },
+        "V132225": {
+          "id": "V132225",
+          "indicator": "BARE",
+          "type": "FLY",
+          "word": "FLY",
+          "roles": {
+            "MOD": "#V132232",
+            "LEX": "FLYING",
+            "WNSENSE": "fly%2:38:00::"
+          },
+          "start": 24,
+          "end": 47
+        },
+        "V132232": {
+          "id": "V132232",
+          "indicator": "F",
+          "type": "SITUATED-IN",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V132302",
+            "FIGURE": "#V132225",
+            "LEX": "IN",
+            "WNSENSE": "in%4:02:01::"
+          },
+          "start": 31,
+          "end": 47
+        },
+        "V132302": {
+          "id": "V132302",
+          "indicator": "A",
+          "type": "GUIDING",
+          "word": "DIRECTION",
+          "roles": {
+            "SIZE": "#V132312",
+            "LEX": "DIRECTION",
+            "WNSENSE": "direction%1:04:00::"
+          },
+          "start": 34,
+          "end": 47
+        },
+        "V132312": {
+          "id": "V132312",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 34,
+          "end": 47
+        },
+        "root": "#V133619"
+      }
+    ],
+    [
+      {
+        "V134182": {
+          "id": "V134182",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V132187",
+            "LEX": "FLOCK"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V132187": {
+          "id": "V132187",
+          "indicator": "A",
+          "type": "ANIMAL-GROUP",
+          "word": "FLOCK",
+          "roles": {
+            "CONTENTS": "#V132204",
+            "LEX": "FLOCK",
+            "WNSENSE": "flock%1:14:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V132204": {
+          "id": "V132204",
+          "indicator": "INDEF-SET",
+          "type": "PIGEON",
+          "word": "PIGEONS",
+          "roles": {
+            "LEX": "PIGEONS",
+            "WNSENSE": "pigeon%1:05:00"
+          },
+          "start": 8,
+          "end": 19
+        },
+        "root": "#V134182"
+      },
+      {
+        "V133616": {
+          "id": "V133616",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V132212",
+            "LEX": "WERE"
+          },
+          "start": 19,
+          "end": 48
+        },
+        "V132212": {
+          "id": "V132212",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V133617",
+            "NEUTRAL1": "#V132226",
+            "TENSE": "PAST",
+            "LEX": "WERE",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 19,
+          "end": 47
+        },
+        "V133617": {
+          "id": "V133617",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 19,
+          "end": 47
+        },
+        "V132226": {
+          "id": "V132226",
+          "indicator": "BARE",
+          "type": "FLY",
+          "word": "FLY",
+          "roles": {
+            "MOD": "#V132232",
+            "LEX": "FLYING",
+            "WNSENSE": "fly%2:38:00::"
+          },
+          "start": 24,
+          "end": 47
+        },
+        "V132232": {
+          "id": "V132232",
+          "indicator": "F",
+          "type": "SITUATED-IN",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V132302",
+            "FIGURE": "#V132226",
+            "LEX": "IN",
+            "WNSENSE": "in%4:02:01::"
+          },
+          "start": 31,
+          "end": 47
+        },
+        "V132302": {
+          "id": "V132302",
+          "indicator": "A",
+          "type": "GUIDING",
+          "word": "DIRECTION",
+          "roles": {
+            "SIZE": "#V132312",
+            "LEX": "DIRECTION",
+            "WNSENSE": "direction%1:04:00::"
+          },
+          "start": 34,
+          "end": 47
+        },
+        "V132312": {
+          "id": "V132312",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 34,
+          "end": 47
+        },
+        "root": "#V133616"
+      }
+    ],
+    [
+      {
+        "V134182": {
+          "id": "V134182",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V132187",
+            "LEX": "FLOCK"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V132187": {
+          "id": "V132187",
+          "indicator": "A",
+          "type": "ANIMAL-GROUP",
+          "word": "FLOCK",
+          "roles": {
+            "CONTENTS": "#V132204",
+            "LEX": "FLOCK",
+            "WNSENSE": "flock%1:14:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V132204": {
+          "id": "V132204",
+          "indicator": "INDEF-SET",
+          "type": "PIGEON",
+          "word": "PIGEONS",
+          "roles": {
+            "LEX": "PIGEONS",
+            "WNSENSE": "pigeon%1:05:00"
+          },
+          "start": 8,
+          "end": 19
+        },
+        "root": "#V134182"
+      },
+      {
+        "V133635": {
+          "id": "V133635",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V132226",
+            "LEX": "FLYING"
+          },
+          "start": 19,
+          "end": 48
+        },
+        "V132226": {
+          "id": "V132226",
+          "indicator": "F",
+          "type": "FLY",
+          "word": "FLY",
+          "roles": {
+            "AGENT": "#V133636",
+            "REASON": "#V132238",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "FLYING",
+            "WNSENSE": "fly%2:38:00::"
+          },
+          "start": 19,
+          "end": 47
+        },
+        "V133636": {
+          "id": "V133636",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 19,
+          "end": 47
+        },
+        "V132238": {
+          "id": "V132238",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V132302",
+            "FIGURE": "#V132226",
+            "LEX": "IN",
+            "WNSENSE": "in%4:02:01::"
+          },
+          "start": 31,
+          "end": 47
+        },
+        "V132302": {
+          "id": "V132302",
+          "indicator": "A",
+          "type": "GUIDING",
+          "word": "DIRECTION",
+          "roles": {
+            "SIZE": "#V132312",
+            "LEX": "DIRECTION",
+            "WNSENSE": "direction%1:04:00::"
+          },
+          "start": 34,
+          "end": 47
+        },
+        "V132312": {
+          "id": "V132312",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 34,
+          "end": 47
+        },
+        "root": "#V133635"
+      }
+    ],
+    [
+      {
+        "V134182": {
+          "id": "V134182",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V132187",
+            "LEX": "FLOCK"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V132187": {
+          "id": "V132187",
+          "indicator": "A",
+          "type": "ANIMAL-GROUP",
+          "word": "FLOCK",
+          "roles": {
+            "CONTENTS": "#V132204",
+            "LEX": "FLOCK",
+            "WNSENSE": "flock%1:14:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V132204": {
+          "id": "V132204",
+          "indicator": "INDEF-SET",
+          "type": "PIGEON",
+          "word": "PIGEONS",
+          "roles": {
+            "LEX": "PIGEONS",
+            "WNSENSE": "pigeon%1:05:00"
+          },
+          "start": 8,
+          "end": 19
+        },
+        "root": "#V134182"
+      },
+      {
+        "V133632": {
+          "id": "V133632",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V132226",
+            "LEX": "FLYING"
+          },
+          "start": 19,
+          "end": 48
+        },
+        "V132226": {
+          "id": "V132226",
+          "indicator": "F",
+          "type": "FLY",
+          "word": "FLY",
+          "roles": {
+            "AGENT": "#V133633",
+            "REASON": "#V132238",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "FLYING",
+            "WNSENSE": "fly%2:38:00::"
+          },
+          "start": 19,
+          "end": 47
+        },
+        "V133633": {
+          "id": "V133633",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 19,
+          "end": 47
+        },
+        "V132238": {
+          "id": "V132238",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V132303",
+            "FIGURE": "#V132226",
+            "LEX": "IN",
+            "WNSENSE": "in%4:02:01::"
+          },
+          "start": 31,
+          "end": 47
+        },
+        "V132303": {
+          "id": "V132303",
+          "indicator": "A",
+          "type": "GUIDING",
+          "word": "DIRECTION",
+          "roles": {
+            "SIZE": "#V132312",
+            "LEX": "DIRECTION",
+            "WNSENSE": "direction%1:04:00::"
+          },
+          "start": 34,
+          "end": 47
+        },
+        "V132312": {
+          "id": "V132312",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 34,
+          "end": 47
+        },
+        "root": "#V133632"
+      }
+    ]
+  ],
+  "sentence": "A flock of pigeons were flying in one direction.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190820T173520",
+    "link": "http://trips.ihmc.us/parser/saved/20190820T173520-STEP-abhatia-none-A_flock_of_pigeons_were_flying_in_one_di.xml",
+    "judgement": -1
+  }
+}

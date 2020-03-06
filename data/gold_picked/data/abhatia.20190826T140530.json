@@ -1,0 +1,602 @@
+{
+  "parse": [
+    {
+      "V174033": {
+        "id": "V174033",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V173886",
+          "LEX": "CHEATING"
+        },
+        "start": 0,
+        "end": 25
+      },
+      "V173886": {
+        "id": "V173886",
+        "indicator": "BARE",
+        "type": "TAKE-BY-DECEPTION",
+        "word": "CHEAT",
+        "roles": {
+          "AFFECTED": "#V173869",
+          "MOD": "#V173877",
+          "LEX": "CHEATING",
+          "WNSENSE": "cheat%2:41:00::"
+        },
+        "start": 0,
+        "end": 25
+      },
+      "V173869": {
+        "id": "V173869",
+        "indicator": "THE",
+        "type": "GEOGRAPHIC-REGION",
+        "word": "ROBERT",
+        "roles": {
+          "NAME-OF": "ROBERT",
+          "LEX": "ROBERT",
+          "WNSENSE": "north_america%1:14:00"
+        },
+        "start": 0,
+        "end": 7
+      },
+      "V173877": {
+        "id": "V173877",
+        "indicator": "F",
+        "type": "RESULTING-STATE-VAL",
+        "word": "COMMITTED",
+        "roles": {
+          "FIGURE": "#V173886",
+          "SCALE": "DOMAIN",
+          "LEX": "COMMITTED",
+          "WNSENSE": "committed%3:00:00::"
+        },
+        "start": 7,
+        "end": 17
+      },
+      "root": "#V174033"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V174031": {
+          "id": "V174031",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V173886",
+            "LEX": "CHEATING"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V173886": {
+          "id": "V173886",
+          "indicator": "BARE",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "AFFECTED": "#V173866",
+            "MOD": "#V173877",
+            "LEX": "CHEATING",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V173866": {
+          "id": "V173866",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V173877": {
+          "id": "V173877",
+          "indicator": "F",
+          "type": "RESULTING-STATE-VAL",
+          "word": "COMMITTED",
+          "roles": {
+            "FIGURE": "#V173886",
+            "SCALE": "DOMAIN",
+            "LEX": "COMMITTED",
+            "WNSENSE": "committed%3:00:00::"
+          },
+          "start": 7,
+          "end": 17
+        },
+        "root": "#V174031"
+      }
+    ],
+    [
+      {
+        "V174029": {
+          "id": "V174029",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V173886",
+            "LEX": "CHEATING"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V173886": {
+          "id": "V173886",
+          "indicator": "BARE",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "AFFECTED": "#V173869",
+            "MOD": "#V173880",
+            "LEX": "CHEATING",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V173869": {
+          "id": "V173869",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V173880": {
+          "id": "V173880",
+          "indicator": "F",
+          "type": "NOT-FREE-VAL",
+          "word": "COMMITTED",
+          "roles": {
+            "FIGURE": "#V173886",
+            "SCALE": "EVALUATION-SCALE",
+            "LEX": "COMMITTED",
+            "WNSENSE": "committed%3:00:04::"
+          },
+          "start": 7,
+          "end": 17
+        },
+        "root": "#V174029"
+      }
+    ],
+    [
+      {
+        "V174027": {
+          "id": "V174027",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V173886",
+            "LEX": "CHEATING"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V173886": {
+          "id": "V173886",
+          "indicator": "BARE",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "AFFECTED": "#V173866",
+            "MOD": "#V173880",
+            "LEX": "CHEATING",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V173866": {
+          "id": "V173866",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V173880": {
+          "id": "V173880",
+          "indicator": "F",
+          "type": "NOT-FREE-VAL",
+          "word": "COMMITTED",
+          "roles": {
+            "FIGURE": "#V173886",
+            "SCALE": "EVALUATION-SCALE",
+            "LEX": "COMMITTED",
+            "WNSENSE": "committed%3:00:04::"
+          },
+          "start": 7,
+          "end": 17
+        },
+        "root": "#V174027"
+      }
+    ],
+    [
+      {
+        "V174063": {
+          "id": "V174063",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V173886",
+            "LEX": "CHEATING"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V173886": {
+          "id": "V173886",
+          "indicator": "BARE",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "ASSOC-WITH": "#V173869",
+            "MOD": "#V173877",
+            "LEX": "CHEATING",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V173869": {
+          "id": "V173869",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V173877": {
+          "id": "V173877",
+          "indicator": "F",
+          "type": "RESULTING-STATE-VAL",
+          "word": "COMMITTED",
+          "roles": {
+            "FIGURE": "#V173886",
+            "SCALE": "DOMAIN",
+            "LEX": "COMMITTED",
+            "WNSENSE": "committed%3:00:00::"
+          },
+          "start": 7,
+          "end": 17
+        },
+        "root": "#V174063"
+      }
+    ],
+    [
+      {
+        "V174061": {
+          "id": "V174061",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V173886",
+            "LEX": "CHEATING"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V173886": {
+          "id": "V173886",
+          "indicator": "BARE",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "ASSOC-WITH": "#V173866",
+            "MOD": "#V173877",
+            "LEX": "CHEATING",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V173866": {
+          "id": "V173866",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V173877": {
+          "id": "V173877",
+          "indicator": "F",
+          "type": "RESULTING-STATE-VAL",
+          "word": "COMMITTED",
+          "roles": {
+            "FIGURE": "#V173886",
+            "SCALE": "DOMAIN",
+            "LEX": "COMMITTED",
+            "WNSENSE": "committed%3:00:00::"
+          },
+          "start": 7,
+          "end": 17
+        },
+        "root": "#V174061"
+      }
+    ],
+    [
+      {
+        "V174059": {
+          "id": "V174059",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V173886",
+            "LEX": "CHEATING"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V173886": {
+          "id": "V173886",
+          "indicator": "BARE",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "ASSOC-WITH": "#V173869",
+            "MOD": "#V173880",
+            "LEX": "CHEATING",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V173869": {
+          "id": "V173869",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V173880": {
+          "id": "V173880",
+          "indicator": "F",
+          "type": "NOT-FREE-VAL",
+          "word": "COMMITTED",
+          "roles": {
+            "FIGURE": "#V173886",
+            "SCALE": "EVALUATION-SCALE",
+            "LEX": "COMMITTED",
+            "WNSENSE": "committed%3:00:04::"
+          },
+          "start": 7,
+          "end": 17
+        },
+        "root": "#V174059"
+      }
+    ],
+    [
+      {
+        "V174057": {
+          "id": "V174057",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V173886",
+            "LEX": "CHEATING"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V173886": {
+          "id": "V173886",
+          "indicator": "BARE",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "ASSOC-WITH": "#V173866",
+            "MOD": "#V173880",
+            "LEX": "CHEATING",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V173866": {
+          "id": "V173866",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V173880": {
+          "id": "V173880",
+          "indicator": "F",
+          "type": "NOT-FREE-VAL",
+          "word": "COMMITTED",
+          "roles": {
+            "FIGURE": "#V173886",
+            "SCALE": "EVALUATION-SCALE",
+            "LEX": "COMMITTED",
+            "WNSENSE": "committed%3:00:04::"
+          },
+          "start": 7,
+          "end": 17
+        },
+        "root": "#V174057"
+      }
+    ],
+    [
+      {
+        "V174082": {
+          "id": "V174082",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V173886",
+            "LEX": "CHEATING"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V173886": {
+          "id": "V173886",
+          "indicator": "BARE",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "AFFECTED": "#V173869",
+            "LEX": "CHEATING",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V173869": {
+          "id": "V173869",
+          "indicator": "BARE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "MOD": "#V173877",
+            "LEX": "ROBERT",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 17
+        },
+        "V173877": {
+          "id": "V173877",
+          "indicator": "F",
+          "type": "RESULTING-STATE-VAL",
+          "word": "COMMITTED",
+          "roles": {
+            "FIGURE": "#V173869",
+            "SCALE": "DOMAIN",
+            "LEX": "COMMITTED",
+            "WNSENSE": "committed%3:00:00::"
+          },
+          "start": 7,
+          "end": 17
+        },
+        "root": "#V174082"
+      }
+    ],
+    [
+      {
+        "V174080": {
+          "id": "V174080",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V173886",
+            "LEX": "CHEATING"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V173886": {
+          "id": "V173886",
+          "indicator": "BARE",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "AFFECTED": "#V173869",
+            "LEX": "CHEATING",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V173869": {
+          "id": "V173869",
+          "indicator": "BARE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "MOD": "#V173877",
+            "LEX": "ROBERT",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 17
+        },
+        "V173877": {
+          "id": "V173877",
+          "indicator": "F",
+          "type": "RESULTING-STATE-VAL",
+          "word": "COMMITTED",
+          "roles": {
+            "FIGURE": "#V173869",
+            "SCALE": "DOMAIN",
+            "LEX": "COMMITTED",
+            "WNSENSE": "committed%3:00:00::"
+          },
+          "start": 7,
+          "end": 17
+        },
+        "root": "#V174080"
+      }
+    ]
+  ],
+  "sentence": "Robert committed cheating.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190826T140530",
+    "link": "http://trips.ihmc.us/parser/saved/20190826T140530-STEP-abhatia-none-Robert_committed_cheating_.xml",
+    "judgement": -1
+  }
+}

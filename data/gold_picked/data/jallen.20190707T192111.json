@@ -1,0 +1,348 @@
+{
+  "parse": [
+    {
+      "V111743": {
+        "id": "V111743",
+        "indicator": "SPEECHACT",
+        "type": "SA_WH-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V111389",
+          "FOCUS": "#V111364",
+          "LEX": "RECEIVE"
+        },
+        "start": 0,
+        "end": 39
+      },
+      "V111389": {
+        "id": "V111389",
+        "indicator": "F",
+        "type": "INCUR-INHERIT-RECEIVE",
+        "word": "RECEIVE",
+        "roles": {
+          "AFFECTED": "#V111384",
+          "AFFECTED1": "#V111402",
+          "TIME": "#V111335",
+          "TENSE": "PAST",
+          "MODALITY": "(:* DO DO)",
+          "LEX": "RECEIVE"
+        },
+        "start": 0,
+        "end": 39
+      },
+      "V111335": {
+        "id": "V111335",
+        "indicator": "F",
+        "type": "TIME-ON-REL",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V111364",
+          "FIGURE": "#V111389",
+          "LEX": "ON"
+        },
+        "start": 0,
+        "end": 13
+      },
+      "V111364": {
+        "id": "V111364",
+        "indicator": "WH-TERM",
+        "type": "DAY",
+        "word": "DAY",
+        "roles": {
+          "QUAN": "WHICH",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "DAY"
+        },
+        "start": 3,
+        "end": 13
+      },
+      "V111384": {
+        "id": "V111384",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE"
+        },
+        "start": 17,
+        "end": 20
+      },
+      "V111402": {
+        "id": "V111402",
+        "indicator": "THE",
+        "type": "PACKAGE",
+        "word": "PACKAGE",
+        "roles": {
+          "LEX": "PACKAGE"
+        },
+        "start": 28,
+        "end": 39
+      },
+      "root": "#V111743"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V111760": {
+          "id": "V111760",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "YNQ",
+            "CONTENT": "#V111389",
+            "FOCUS": "#V111437",
+            "LEX": "RECEIVE"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V111389": {
+          "id": "V111389",
+          "indicator": "F",
+          "type": "INCUR-INHERIT-RECEIVE",
+          "word": "RECEIVE",
+          "roles": {
+            "AFFECTED": "#V111384",
+            "AFFECTED1": "#V111402",
+            "LOCATION": "#V111336",
+            "TENSE": "PAST",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "RECEIVE"
+          },
+          "start": 0,
+          "end": 39
+        },
+        "V111336": {
+          "id": "V111336",
+          "indicator": "F",
+          "type": "ON",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V111363",
+            "FIGURE": "#V111389",
+            "LEX": "ON"
+          },
+          "start": 0,
+          "end": 13
+        },
+        "V111363": {
+          "id": "V111363",
+          "indicator": "QUANTIFIER",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "SCALE": "DURATION-SCALE",
+            "QUAN": "WHICH",
+            "LEX": "DAY"
+          },
+          "start": 3,
+          "end": 13
+        },
+        "V111384": {
+          "id": "V111384",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE"
+          },
+          "start": 17,
+          "end": 20
+        },
+        "V111402": {
+          "id": "V111402",
+          "indicator": "THE",
+          "type": "PACKAGE",
+          "word": "PACKAGE",
+          "roles": {
+            "LEX": "PACKAGE"
+          },
+          "start": 28,
+          "end": 39
+        },
+        "root": "#V111760"
+      }
+    ],
+    [
+      {
+        "V111743": {
+          "id": "V111743",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V111389",
+            "FOCUS": "#V111364",
+            "LEX": "RECEIVE"
+          },
+          "start": 0,
+          "end": 39
+        },
+        "V111389": {
+          "id": "V111389",
+          "indicator": "F",
+          "type": "INCUR-INHERIT-RECEIVE",
+          "word": "RECEIVE",
+          "roles": {
+            "AFFECTED": "#V111384",
+            "AFFECTED1": "#V111402",
+            "TIME": "#V111335",
+            "TENSE": "PAST",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "RECEIVE"
+          },
+          "start": 0,
+          "end": 39
+        },
+        "V111335": {
+          "id": "V111335",
+          "indicator": "F",
+          "type": "TIME-ON-REL",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V111364",
+            "FIGURE": "#V111389",
+            "LEX": "ON"
+          },
+          "start": 0,
+          "end": 13
+        },
+        "V111364": {
+          "id": "V111364",
+          "indicator": "WH-TERM",
+          "type": "DAY",
+          "word": "DAY",
+          "roles": {
+            "QUAN": "WHICH",
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "DAY"
+          },
+          "start": 3,
+          "end": 13
+        },
+        "V111384": {
+          "id": "V111384",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE"
+          },
+          "start": 17,
+          "end": 20
+        },
+        "V111402": {
+          "id": "V111402",
+          "indicator": "THE",
+          "type": "PACKAGE",
+          "word": "PACKAGE",
+          "roles": {
+            "LEX": "PACKAGE"
+          },
+          "start": 28,
+          "end": 39
+        },
+        "root": "#V111743"
+      }
+    ],
+    [
+      {
+        "V111760": {
+          "id": "V111760",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V111389",
+            "FOCUS": "#V111437",
+            "LEX": "RECEIVE"
+          },
+          "start": 0,
+          "end": 39
+        },
+        "V111389": {
+          "id": "V111389",
+          "indicator": "F",
+          "type": "INCUR-INHERIT-RECEIVE",
+          "word": "RECEIVE",
+          "roles": {
+            "AFFECTED": "#V111384",
+            "AFFECTED1": "#V111402",
+            "LOCATION": "#V111336",
+            "TENSE": "PAST",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "RECEIVE"
+          },
+          "start": 0,
+          "end": 39
+        },
+        "V111336": {
+          "id": "V111336",
+          "indicator": "F",
+          "type": "ON",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V111363",
+            "FIGURE": "#V111389",
+            "LEX": "ON"
+          },
+          "start": 0,
+          "end": 13
+        },
+        "V111363": {
+          "id": "V111363",
+          "indicator": "QUANTIFIER",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "SCALE": "DURATION-SCALE",
+            "QUAN": "WHICH",
+            "LEX": "DAY"
+          },
+          "start": 3,
+          "end": 13
+        },
+        "V111384": {
+          "id": "V111384",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE"
+          },
+          "start": 17,
+          "end": 20
+        },
+        "V111402": {
+          "id": "V111402",
+          "indicator": "THE",
+          "type": "PACKAGE",
+          "word": "PACKAGE",
+          "roles": {
+            "LEX": "PACKAGE"
+          },
+          "start": 28,
+          "end": 39
+        },
+        "root": "#V111760"
+      }
+    ]
+  ],
+  "sentence": "On which day did he receive the package?",
+  "annotation": {
+    "judge": "jallen",
+    "parser": "STEP",
+    "timestamp": "20190707T192111",
+    "link": "http://trips.ihmc.us/parser/saved/20190707T192111-STEP-jallen-0-On_which_day_did_he_receive_the_package_.xml",
+    "judgement": 0
+  }
+}

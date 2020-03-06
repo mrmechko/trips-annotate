@@ -1,0 +1,31 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V64570 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V64317 [label=<<font color="green"><br /></font> <font color="black">SITUATION-ROOT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SITUATION-ROOT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V63381 [label=<<font color="green"><br /></font> <font color="black">COGITATION</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">WONDER</font> <font color="green"><br /></font> <font color="green">look_at%2:31:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::COGITATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V63276 [label=<<font color="green"><br /></font> <font color="black">ACTIVE-PERCEPTION</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">SEE</font> <font color="green"><br /></font> <font color="green">see%2:39:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ACTIVE-PERCEPTION.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V63245 [label=<<font color="green"><br /></font> <font color="black">FEMALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">SHE</font> <font color="green"><br /></font> <font color="green">woman%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FEMALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V63296 [label=<<font color="green"><br /></font> <font color="black">SUBSTANCE</font> <font color="green"><br /></font> <font color="red">BARE</font> <font color="blue">ICE</font> <font color="green"><br /></font> <font color="green">ice%1:17:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SUBSTANCE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V63303 [label=<<font color="green"><br /></font> <font color="black">ON</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">ON</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V63364 [label=<<font color="green"><br /></font> <font color="black">FUNCTIONAL-PHYS-OBJECT</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">POLE</font> <font color="green"><br /></font> <font color="green">pole%1:06:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FUNCTIONAL-PHYS-OBJECT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V63511 [label=<<font color="green"><br /></font> <font color="black">CLAUSE-CONDITION</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">IF</font> <font color="green"><br /></font> <font color="green">taste%2:39:02::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::CLAUSE-CONDITION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V63402 [label=<<font color="green"><br /></font> <font color="black">APPEARS-TO-HAVE-PROPERTY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">TASTE</font> <font color="green"><br /></font> <font color="green">taste%2:39:02::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::APPEARS-TO-HAVE-PROPERTY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V63395 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">IT</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V63415 [label=<<font color="green"><br /></font> <font color="black">GOOD</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">GOOD</font> <font color="green"><br /></font> <font color="green">good%5:00:00:nice:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GOOD.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V64570 -> V64317 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V63402 -> V63415 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V63303 -> V63296 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V63276 -> V63245 [label=" EXPERIENCER   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V64317 -> V63381 [label=" SEQUENCE1   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V63381 -> V63511 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V63303 -> V63364 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V63402 -> V63395 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V64317 -> V63276 [label=" SEQUENCE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V63381 -> V63245 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V63276 -> V63296 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V63511 -> V63402 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V63276 -> V63303 [label=" FORMAL   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

@@ -1,0 +1,25 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V42625 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V42342 [label=<<font color="green"><br /></font> <font color="black">EVENT-OF-CAUSATION</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EVENT-OF-CAUSATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V41999 [label=<<font color="green"><br /></font> <font color="black">RUB-SCRAPE-WIPE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">PETTED</font> <font color="green"><br /></font> <font color="green">rub%2:35:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::RUB-SCRAPE-WIPE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V41922 [label=<<font color="green"><br /></font> <font color="black">FEEDING</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">FEED</font> <font color="green"><br /></font> <font color="green">feed%2:34:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FEEDING.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V41911 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HE</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V41930 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HIM</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V41982 [label=<<font color="green"><br /></font> <font color="black">WEAPON</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">PELLETS</font> <font color="green"><br /></font> <font color="green">weapon%1:06:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::WEAPON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V41963 [label=<<font color="green"><br /></font> <font color="black">DIFFICULT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">HARD</font> <font color="green"><br /></font> <font color="green">hard%3:00:06::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DIFFICULT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V42002 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HIM</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V41999 -> V42002 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V41922 -> V41911 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V41982 -> V41963 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V41922 -> V41982 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V41963 -> V41982 [label=" NOROLE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V41999 -> V41911 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V42342 -> V41999 [label=" SEQUENCE1   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V42342 -> V41922 [label=" SEQUENCE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V42625 -> V42342 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V41922 -> V41930 [label=" AFFECTED-RESULT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

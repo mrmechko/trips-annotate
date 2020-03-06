@@ -1,0 +1,21 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V44309 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V42613 [label=<<font color="green"><br /></font> <font color="black">HAVE-EXPERIENCE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">GET</font> <font color="green"><br /></font> <font color="green">get%2:39:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::HAVE-EXPERIENCE.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V42584 [label=<<font color="green"><br /></font> <font color="black">FEMALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">SHE</font> <font color="green"><br /></font> <font color="green">woman%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FEMALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V42587 [label=<<font color="green"><br /></font> <font color="black">EVENT-TIME-REL-CULMINATION</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">FINALLY</font> <font color="green"><br /></font> <font color="green">finally%4:02:02::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EVENT-TIME-REL-CULMINATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V42647 [label=<<font color="green"><br /></font> <font color="black">INTERVIEW</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">INTERVIEW</font> <font color="green"><br /></font> <font color="green">interview%1:10:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::INTERVIEW.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V42728 [label=<<font color="green"><br /></font> <font color="black">COMPANY</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">COMPANY</font> <font color="green"><br /></font> <font color="green">company%1:14:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::COMPANY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V42721 [label=<<font color="green"><br /></font> <font color="black">GOOD</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">GOOD</font> <font color="green"><br /></font> <font color="green">good%5:00:00:nice:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GOOD.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V42613 -> V42584 [label=" EXPERIENCER   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V44309 -> V42613 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V42721 -> V42728 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V42613 -> V42647 [label=" NEUTRAL   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V42647 -> V42728 [label=" AGENT1   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V42728 -> V42721 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V42587 -> V42613 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V42613 -> V42587 [label=" TIME   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

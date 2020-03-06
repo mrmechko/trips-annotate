@@ -1,0 +1,422 @@
+{
+  "parse": [
+    {
+      "V42187": {
+        "id": "V42187",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V41979",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 47
+      },
+      "V41979": {
+        "id": "V41979",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V41967",
+          "NEUTRAL1": "#V41997",
+          "TENSE": "PAST",
+          "LEX": "WAS",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 0,
+        "end": 47
+      },
+      "V41967": {
+        "id": "V41967",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "THAT",
+        "roles": {
+          "PROFORM": "THAT",
+          "LEX": "THAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V41997": {
+        "id": "V41997",
+        "indicator": "THE",
+        "type": "PERCEIVABLE-SMELL-PROPERTY",
+        "word": "PERFUME",
+        "roles": {
+          "MOD": "#V42007",
+          "LEX": "PERFUME",
+          "WNSENSE": "perfume%1:09:00::"
+        },
+        "start": 9,
+        "end": 47
+      },
+      "V42007": {
+        "id": "V42007",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": "CAUSE",
+        "roles": {
+          "AGENT": "#V41997",
+          "AFFECTED": "#V42018",
+          "TENSE": "PAST",
+          "LEX": "CAUSED",
+          "WNSENSE": "cause%2:36:00::"
+        },
+        "start": 21,
+        "end": 47
+      },
+      "V42018": {
+        "id": "V42018",
+        "indicator": "THE-SET",
+        "type": "HEADACHE",
+        "word": "HEADACHE",
+        "roles": {
+          "ASSOC-POSS": "#V42013",
+          "LEX": "HEADACHES",
+          "WNSENSE": "headache%1:26:00::"
+        },
+        "start": 34,
+        "end": 47
+      },
+      "V42013": {
+        "id": "V42013",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "HER",
+        "roles": {
+          "LEX": "HER",
+          "PROFORM": "HER",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 34,
+        "end": 47
+      },
+      "root": "#V42187"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V42501": {
+          "id": "V42501",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V41979",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 48
+        },
+        "V41979": {
+          "id": "V41979",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V41967",
+            "NEUTRAL1": "#V41997",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V41967": {
+          "id": "V41967",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "THAT",
+          "roles": {
+            "PROFORM": "THAT",
+            "LEX": "THAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V41997": {
+          "id": "V41997",
+          "indicator": "THE",
+          "type": "PERCEIVABLE-SMELL-PROPERTY",
+          "word": "PERFUME",
+          "roles": {
+            "MOD": "#V42007",
+            "LEX": "PERFUME",
+            "WNSENSE": "perfume%1:09:00::"
+          },
+          "start": 9,
+          "end": 47
+        },
+        "V42007": {
+          "id": "V42007",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": "CAUSE",
+          "roles": {
+            "AGENT": "#V41997",
+            "AFFECTED": "#V42018",
+            "AFFECTED-RESULT": "#V42485",
+            "TENSE": "PAST",
+            "LEX": "CAUSED",
+            "WNSENSE": "cause%2:36:00::"
+          },
+          "start": 21,
+          "end": 47
+        },
+        "V42485": {
+          "id": "V42485",
+          "indicator": "F",
+          "type": "RECIPIENT",
+          "word": "IOBJ",
+          "roles": {
+            "GROUND": "#V42014",
+            "FIGURE": "#V42007"
+          },
+          "start": 21,
+          "end": 47
+        },
+        "V42014": {
+          "id": "V42014",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 34,
+          "end": 38
+        },
+        "V42018": {
+          "id": "V42018",
+          "indicator": "INDEF-SET",
+          "type": "HEADACHE",
+          "word": "HEADACHE",
+          "roles": {
+            "LEX": "HEADACHES",
+            "WNSENSE": "headache%1:26:00::"
+          },
+          "start": 38,
+          "end": 47
+        },
+        "root": "#V42501"
+      }
+    ],
+    [
+      {
+        "V42599": {
+          "id": "V42599",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V41979",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 48
+        },
+        "V41979": {
+          "id": "V41979",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V41967",
+            "NEUTRAL1": "#V42592",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V41967": {
+          "id": "V41967",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "THAT",
+          "roles": {
+            "PROFORM": "THAT",
+            "LEX": "THAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V42592": {
+          "id": "V42592",
+          "indicator": "THE",
+          "type": "HEADACHE",
+          "word": "HEADACHE",
+          "roles": {
+            "FIGURE": "#V41997",
+            "LEX": "HEADACHE"
+          },
+          "start": 9,
+          "end": 47
+        },
+        "V41997": {
+          "id": "V41997",
+          "indicator": "F",
+          "type": "PERCEIVABLE-SMELL-PROPERTY",
+          "word": "PERFUME",
+          "roles": {
+            "MOD": "#V42007",
+            "LEX": "PERFUME",
+            "WNSENSE": "perfume%1:09:00::"
+          },
+          "start": 9,
+          "end": 47
+        },
+        "V42007": {
+          "id": "V42007",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": "CAUSE",
+          "roles": {
+            "AGENT": "#V41997",
+            "AFFECTED": "#V42014",
+            "TENSE": "PAST",
+            "LEX": "CAUSED",
+            "WNSENSE": "cause%2:36:00::"
+          },
+          "start": 21,
+          "end": 38
+        },
+        "V42014": {
+          "id": "V42014",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 34,
+          "end": 38
+        },
+        "root": "#V42599"
+      }
+    ],
+    [
+      {
+        "V42187": {
+          "id": "V42187",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V41979",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V41979": {
+          "id": "V41979",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V41967",
+            "NEUTRAL1": "#V41997",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V41967": {
+          "id": "V41967",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "THAT",
+          "roles": {
+            "PROFORM": "THAT",
+            "LEX": "THAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V41997": {
+          "id": "V41997",
+          "indicator": "THE",
+          "type": "PERCEIVABLE-SMELL-PROPERTY",
+          "word": "PERFUME",
+          "roles": {
+            "MOD": "#V42007",
+            "LEX": "PERFUME",
+            "WNSENSE": "perfume%1:09:00::"
+          },
+          "start": 9,
+          "end": 47
+        },
+        "V42007": {
+          "id": "V42007",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": "CAUSE",
+          "roles": {
+            "AGENT": "#V41997",
+            "AFFECTED": "#V42018",
+            "TENSE": "PAST",
+            "LEX": "CAUSED",
+            "WNSENSE": "cause%2:36:00::"
+          },
+          "start": 21,
+          "end": 47
+        },
+        "V42018": {
+          "id": "V42018",
+          "indicator": "THE-SET",
+          "type": "HEADACHE",
+          "word": "HEADACHE",
+          "roles": {
+            "ASSOC-POSS": "#V42013",
+            "LEX": "HEADACHES",
+            "WNSENSE": "headache%1:26:00::"
+          },
+          "start": 34,
+          "end": 47
+        },
+        "V42013": {
+          "id": "V42013",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 34,
+          "end": 47
+        },
+        "root": "#V42187"
+      }
+    ]
+  ],
+  "sentence": "That was the perfume which caused her headaches.",
+  "annotation": {
+    "judge": "lgalescu",
+    "parser": "STEP",
+    "timestamp": "20190715T180740",
+    "link": "http://trips.ihmc.us/parser/saved/20190715T180740-STEP-lgalescu-0-That_was_the_perfume_which_caused_her_he.xml",
+    "judgement": 0
+  }
+}

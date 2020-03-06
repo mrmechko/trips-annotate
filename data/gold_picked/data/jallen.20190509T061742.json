@@ -1,0 +1,396 @@
+{
+  "parse": [
+    {
+      "V52227": {
+        "id": "V52227",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V51780",
+          "LEX": "VISITED"
+        },
+        "start": 0,
+        "end": 35
+      },
+      "V51780": {
+        "id": "V51780",
+        "indicator": "F",
+        "type": "SOCIAL-ACTIVITY",
+        "word": "VISIT",
+        "roles": {
+          "AGENT": "#V51765",
+          "AFFECTED": "#V51796",
+          "TENSE": "PAST",
+          "LEX": "VISITED"
+        },
+        "start": 0,
+        "end": 35
+      },
+      "V51765": {
+        "id": "V51765",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V51796": {
+        "id": "V51796",
+        "indicator": "THE",
+        "type": "PLACE",
+        "word": "PLACE",
+        "roles": {
+          "MOD": "#V51855",
+          "LEX": "PLACE"
+        },
+        "start": 10,
+        "end": 35
+      },
+      "V51855": {
+        "id": "V51855",
+        "indicator": "F",
+        "type": "BE-BORN",
+        "word": "BEAR",
+        "roles": {
+          "AFFECTED-RESULT": "#V51825",
+          "LOCATION": "#V51804",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "BORN"
+        },
+        "start": 20,
+        "end": 35
+      },
+      "V51804": {
+        "id": "V51804",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "WHERE",
+        "roles": {
+          "GROUND": "#V51796",
+          "FIGURE": "#V51855",
+          "LEX": "WHERE"
+        },
+        "start": 20,
+        "end": 26
+      },
+      "V51825": {
+        "id": "V51825",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "COREF": "USER"
+        },
+        "start": 26,
+        "end": 28
+      },
+      "root": "#V52227"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V52338": {
+          "id": "V52338",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V51780",
+            "LEX": "VISITED"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V51780": {
+          "id": "V51780",
+          "indicator": "F",
+          "type": "SOCIAL-ACTIVITY",
+          "word": "VISIT",
+          "roles": {
+            "AGENT": "#V51765",
+            "AFFECTED": "#V51796",
+            "TENSE": "PAST",
+            "LEX": "VISITED"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V51765": {
+          "id": "V51765",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V51796": {
+          "id": "V51796",
+          "indicator": "THE",
+          "type": "PLACE",
+          "word": "PLACE",
+          "roles": {
+            "MOD": "#V51855",
+            "LEX": "PLACE"
+          },
+          "start": 10,
+          "end": 36
+        },
+        "V51855": {
+          "id": "V51855",
+          "indicator": "F",
+          "type": "BE-BORN",
+          "word": "BEAR",
+          "roles": {
+            "AFFECTED-RESULT": "#V51825",
+            "LOCATION": "#V51804",
+            "TENSE": "PAST",
+            "PASSIVE": "+",
+            "LEX": "BORN"
+          },
+          "start": 20,
+          "end": 36
+        },
+        "V51804": {
+          "id": "V51804",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "WHERE",
+          "roles": {
+            "GROUND": "#V51796",
+            "FIGURE": "#V51855",
+            "LEX": "WHERE"
+          },
+          "start": 20,
+          "end": 26
+        },
+        "V51825": {
+          "id": "V51825",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I"
+          },
+          "start": 26,
+          "end": 28
+        },
+        "root": "#V52338"
+      }
+    ],
+    [
+      {
+        "V52558": {
+          "id": "V52558",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V51780",
+            "LEX": "VISITED"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V51780": {
+          "id": "V51780",
+          "indicator": "F",
+          "type": "SOCIAL-ACTIVITY",
+          "word": "VISIT",
+          "roles": {
+            "AGENT": "#V51765",
+            "AFFECTED": "#V51796",
+            "TENSE": "PAST",
+            "LEX": "VISITED"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V51765": {
+          "id": "V51765",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V51796": {
+          "id": "V51796",
+          "indicator": "THE",
+          "type": "PLACE",
+          "word": "PLACE",
+          "roles": {
+            "MOD": "#V51855",
+            "LEX": "PLACE"
+          },
+          "start": 10,
+          "end": 36
+        },
+        "V51855": {
+          "id": "V51855",
+          "indicator": "F",
+          "type": "BE-BORN",
+          "word": "BEAR",
+          "roles": {
+            "AFFECTED-RESULT": "#V52204",
+            "LOCATION": "#V51804",
+            "TENSE": "PAST",
+            "PASSIVE": "+",
+            "LEX": "BORN"
+          },
+          "start": 20,
+          "end": 36
+        },
+        "V51804": {
+          "id": "V51804",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "WHERE",
+          "roles": {
+            "GROUND": "#V51796",
+            "FIGURE": "#V51855",
+            "LEX": "WHERE"
+          },
+          "start": 20,
+          "end": 26
+        },
+        "V52204": {
+          "id": "V52204",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 26,
+          "end": 28
+        },
+        "root": "#V52558"
+      }
+    ],
+    [
+      {
+        "V52661": {
+          "id": "V52661",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V51780",
+            "LEX": "VISITED"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V51780": {
+          "id": "V51780",
+          "indicator": "F",
+          "type": "SOCIAL-ACTIVITY",
+          "word": "VISIT",
+          "roles": {
+            "AGENT": "#V51765",
+            "AFFECTED": "#V51796",
+            "TENSE": "PAST",
+            "LEX": "VISITED"
+          },
+          "start": 0,
+          "end": 36
+        },
+        "V51765": {
+          "id": "V51765",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V51796": {
+          "id": "V51796",
+          "indicator": "THE",
+          "type": "PLACE",
+          "word": "PLACE",
+          "roles": {
+            "MOD": "#V51855",
+            "LEX": "PLACE"
+          },
+          "start": 10,
+          "end": 36
+        },
+        "V51855": {
+          "id": "V51855",
+          "indicator": "F",
+          "type": "BE-BORN",
+          "word": "BEAR",
+          "roles": {
+            "AFFECTED-RESULT": "#V52204",
+            "LOCATION": "#V51804",
+            "TENSE": "PAST",
+            "PASSIVE": "+",
+            "LEX": "BORN"
+          },
+          "start": 20,
+          "end": 36
+        },
+        "V51804": {
+          "id": "V51804",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "WHERE",
+          "roles": {
+            "GROUND": "#V51796",
+            "FIGURE": "#V51855",
+            "LEX": "WHERE"
+          },
+          "start": 20,
+          "end": 26
+        },
+        "V52204": {
+          "id": "V52204",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 26,
+          "end": 28
+        },
+        "root": "#V52661"
+      }
+    ]
+  ],
+  "sentence": "I visited the place where I was born",
+  "annotation": {
+    "judge": "jallen",
+    "parser": "STEP",
+    "timestamp": "20190509T061742",
+    "link": "http://trips.ihmc.us/parser/saved/20190509T061742-STEP-jallen-0-I_visited_the_place_where_I_was_born.xml",
+    "judgement": 0
+  }
+}

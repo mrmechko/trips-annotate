@@ -1,0 +1,394 @@
+{
+  "parse": [
+    {
+      "V37661": {
+        "id": "V37661",
+        "indicator": "SPEECHACT",
+        "type": "SA_REQUEST",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V37194",
+          "LEX": "SHOW"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V37194": {
+        "id": "V37194",
+        "indicator": "F",
+        "type": "SHOW",
+        "word": "SHOW",
+        "roles": {
+          "AGENT": "#V37659",
+          "NEUTRAL": "#V37209",
+          "LOCATION": "#V37215",
+          "TENSE": "PRES",
+          "VFORM": "BASE",
+          "LEX": "SHOW"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V37659": {
+        "id": "V37659",
+        "indicator": "IMPRO",
+        "type": "PERSON",
+        "word": null,
+        "roles": {
+          "PROFORM": "*YOU*",
+          "COREF": "SYS"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V37209": {
+        "id": "V37209",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "ME",
+        "roles": {
+          "PROFORM": "ME",
+          "LEX": "ME",
+          "COREF": "USER"
+        },
+        "start": 5,
+        "end": 8
+      },
+      "V37215": {
+        "id": "V37215",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "WHERE",
+        "roles": {
+          "GROUND": "#V37245",
+          "FIGURE": "#V37194",
+          "LEX": "WHERE"
+        },
+        "start": 8,
+        "end": 29
+      },
+      "V37245": {
+        "id": "V37245",
+        "indicator": "F",
+        "type": "BE-AHEAD",
+        "word": "LEAD",
+        "roles": {
+          "NEUTRAL": "#V37232",
+          "TENSE": "PRES",
+          "LEX": "LEADS"
+        },
+        "start": 14,
+        "end": 29
+      },
+      "V37232": {
+        "id": "V37232",
+        "indicator": "THE",
+        "type": "MENTAL-PLAN",
+        "word": "PLAN",
+        "roles": {
+          "PROFORM": "THIS",
+          "LEX": "PLAN"
+        },
+        "start": 14,
+        "end": 24
+      },
+      "root": "#V37661"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V37648": {
+          "id": "V37648",
+          "indicator": "SPEECHACT",
+          "type": "SA_REQUEST",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V37194",
+            "LEX": "SHOW"
+          },
+          "start": 0,
+          "end": 30
+        },
+        "V37194": {
+          "id": "V37194",
+          "indicator": "F",
+          "type": "SHOW",
+          "word": "SHOW",
+          "roles": {
+            "AGENT": "#V37646",
+            "NEUTRAL": "#V37209",
+            "LOCATION": "#V37215",
+            "TENSE": "PRES",
+            "VFORM": "BASE",
+            "LEX": "SHOW"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V37646": {
+          "id": "V37646",
+          "indicator": "IMPRO",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "PROFORM": "*YOU*"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V37209": {
+          "id": "V37209",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME"
+          },
+          "start": 5,
+          "end": 8
+        },
+        "V37215": {
+          "id": "V37215",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "WHERE",
+          "roles": {
+            "GROUND": "#V37245",
+            "FIGURE": "#V37194",
+            "LEX": "WHERE"
+          },
+          "start": 8,
+          "end": 29
+        },
+        "V37245": {
+          "id": "V37245",
+          "indicator": "F",
+          "type": "BE-AHEAD",
+          "word": "LEAD",
+          "roles": {
+            "NEUTRAL": "#V37233",
+            "TENSE": "PRES",
+            "LEX": "LEADS"
+          },
+          "start": 14,
+          "end": 29
+        },
+        "V37233": {
+          "id": "V37233",
+          "indicator": "THE",
+          "type": "MENTAL-PLAN",
+          "word": "PLAN",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "PLAN"
+          },
+          "start": 14,
+          "end": 24
+        },
+        "root": "#V37648"
+      }
+    ],
+    [
+      {
+        "V37635": {
+          "id": "V37635",
+          "indicator": "SPEECHACT",
+          "type": "SA_REQUEST",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V37193",
+            "LEX": "SHOW"
+          },
+          "start": 0,
+          "end": 30
+        },
+        "V37193": {
+          "id": "V37193",
+          "indicator": "F",
+          "type": "SHOW",
+          "word": "SHOW",
+          "roles": {
+            "AGENT": "#V37633",
+            "AGENT1": "#V37209",
+            "LOCATION": "#V37215",
+            "TENSE": "PRES",
+            "VFORM": "BASE",
+            "LEX": "SHOW"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V37633": {
+          "id": "V37633",
+          "indicator": "IMPRO",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "PROFORM": "*YOU*"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V37209": {
+          "id": "V37209",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME"
+          },
+          "start": 5,
+          "end": 8
+        },
+        "V37215": {
+          "id": "V37215",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "WHERE",
+          "roles": {
+            "GROUND": "#V37245",
+            "FIGURE": "#V37193",
+            "LEX": "WHERE"
+          },
+          "start": 8,
+          "end": 29
+        },
+        "V37245": {
+          "id": "V37245",
+          "indicator": "F",
+          "type": "BE-AHEAD",
+          "word": "LEAD",
+          "roles": {
+            "NEUTRAL": "#V37232",
+            "TENSE": "PRES",
+            "LEX": "LEADS"
+          },
+          "start": 14,
+          "end": 29
+        },
+        "V37232": {
+          "id": "V37232",
+          "indicator": "THE",
+          "type": "MENTAL-PLAN",
+          "word": "PLAN",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "PLAN"
+          },
+          "start": 14,
+          "end": 24
+        },
+        "root": "#V37635"
+      }
+    ],
+    [
+      {
+        "V37622": {
+          "id": "V37622",
+          "indicator": "SPEECHACT",
+          "type": "SA_REQUEST",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V37193",
+            "LEX": "SHOW"
+          },
+          "start": 0,
+          "end": 30
+        },
+        "V37193": {
+          "id": "V37193",
+          "indicator": "F",
+          "type": "SHOW",
+          "word": "SHOW",
+          "roles": {
+            "AGENT": "#V37620",
+            "AGENT1": "#V37209",
+            "LOCATION": "#V37215",
+            "TENSE": "PRES",
+            "VFORM": "BASE",
+            "LEX": "SHOW"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V37620": {
+          "id": "V37620",
+          "indicator": "IMPRO",
+          "type": "PERSON",
+          "word": null,
+          "roles": {
+            "PROFORM": "*YOU*"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V37209": {
+          "id": "V37209",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "ME",
+          "roles": {
+            "PROFORM": "ME",
+            "LEX": "ME"
+          },
+          "start": 5,
+          "end": 8
+        },
+        "V37215": {
+          "id": "V37215",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "WHERE",
+          "roles": {
+            "GROUND": "#V37245",
+            "FIGURE": "#V37193",
+            "LEX": "WHERE"
+          },
+          "start": 8,
+          "end": 29
+        },
+        "V37245": {
+          "id": "V37245",
+          "indicator": "F",
+          "type": "BE-AHEAD",
+          "word": "LEAD",
+          "roles": {
+            "NEUTRAL": "#V37233",
+            "TENSE": "PRES",
+            "LEX": "LEADS"
+          },
+          "start": 14,
+          "end": 29
+        },
+        "V37233": {
+          "id": "V37233",
+          "indicator": "THE",
+          "type": "MENTAL-PLAN",
+          "word": "PLAN",
+          "roles": {
+            "PROFORM": "THIS",
+            "LEX": "PLAN"
+          },
+          "start": 14,
+          "end": 24
+        },
+        "root": "#V37622"
+      }
+    ]
+  ],
+  "sentence": "Show me where this plan leads.",
+  "annotation": {
+    "judge": "lgalescu",
+    "parser": "STEP",
+    "timestamp": "20190624T162034",
+    "link": "http://trips.ihmc.us/parser/saved/20190624T162034-STEP-lgalescu-none-Show_me_where_this_plan_leads_.xml",
+    "judgement": -1
+  }
+}

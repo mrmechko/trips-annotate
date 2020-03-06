@@ -1,0 +1,546 @@
+{
+  "parse": [
+    {
+      "V47674": {
+        "id": "V47674",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V47160",
+          "LEX": "WENT"
+        },
+        "start": 0,
+        "end": 50
+      },
+      "V47160": {
+        "id": "V47160",
+        "indicator": "F",
+        "type": "MOVE",
+        "word": "GO",
+        "roles": {
+          "RESULT": "#V47178",
+          "AGENT": "#V47131",
+          "LOCATION": "#V47245",
+          "TENSE": "PAST",
+          "LEX": "WENT"
+        },
+        "start": 0,
+        "end": 50
+      },
+      "V47131": {
+        "id": "V47131",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V47178": {
+        "id": "V47178",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V47239",
+          "LEX": "TO"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V47239": {
+        "id": "V47239",
+        "indicator": "A",
+        "type": "ACADEMIC-INSTITUTION",
+        "word": "SCHOOL",
+        "roles": {
+          "LEX": "SCHOOL"
+        },
+        "start": 10,
+        "end": 19
+      },
+      "V47245": {
+        "id": "V47245",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "WHERE",
+        "roles": {
+          "GROUND": "#V47260",
+          "FIGURE": "#V47160",
+          "LEX": "WHERE"
+        },
+        "start": 19,
+        "end": 50
+      },
+      "V47260": {
+        "id": "V47260",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V47253",
+          "FORMAL": "#V47282",
+          "TENSE": "PAST",
+          "LEX": "WAS"
+        },
+        "start": 25,
+        "end": 50
+      },
+      "V47253": {
+        "id": "V47253",
+        "indicator": "QUANTIFIER",
+        "type": "PERSON",
+        "word": "EVERYONE",
+        "roles": {
+          "QUAN": "EVERYONE",
+          "LEX": "EVERYONE"
+        },
+        "start": 25,
+        "end": 34
+      },
+      "V47282": {
+        "id": "V47282",
+        "indicator": "F",
+        "type": "SMART",
+        "word": "SMART",
+        "roles": {
+          "FIGURE": "#V47253",
+          "SCALE": "PSYCHOLOGICAL-CONDITION-SCALE",
+          "DEGREE": "#V47274",
+          "LEX": "SMART"
+        },
+        "start": 38,
+        "end": 50
+      },
+      "V47274": {
+        "id": "V47274",
+        "indicator": "F",
+        "type": "DEGREE-MODIFIER-HIGH",
+        "word": "REALLY",
+        "roles": {
+          "FIGURE": "#V47282",
+          "LEX": "REALLY"
+        },
+        "start": 38,
+        "end": 45
+      },
+      "root": "#V47674"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V47629": {
+          "id": "V47629",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V47160",
+            "LEX": "WENT"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V47160": {
+          "id": "V47160",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V47178",
+            "AGENT": "#V47131",
+            "LOCATION": "#V47245",
+            "TENSE": "PAST",
+            "LEX": "WENT"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V47131": {
+          "id": "V47131",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V47178": {
+          "id": "V47178",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V47239",
+            "FIGURE": "#V47131",
+            "LEX": "TO"
+          },
+          "start": 7,
+          "end": 19
+        },
+        "V47239": {
+          "id": "V47239",
+          "indicator": "A",
+          "type": "ACADEMIC-INSTITUTION",
+          "word": "SCHOOL",
+          "roles": {
+            "LEX": "SCHOOL"
+          },
+          "start": 10,
+          "end": 19
+        },
+        "V47245": {
+          "id": "V47245",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "WHERE",
+          "roles": {
+            "GROUND": "#V47260",
+            "FIGURE": "#V47160",
+            "LEX": "WHERE"
+          },
+          "start": 19,
+          "end": 50
+        },
+        "V47260": {
+          "id": "V47260",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V47253",
+            "FORMAL": "#V47282",
+            "TENSE": "PAST",
+            "LEX": "WAS"
+          },
+          "start": 25,
+          "end": 50
+        },
+        "V47253": {
+          "id": "V47253",
+          "indicator": "QUANTIFIER",
+          "type": "PERSON",
+          "word": "EVERYONE",
+          "roles": {
+            "QUAN": "EVERYONE",
+            "LEX": "EVERYONE"
+          },
+          "start": 25,
+          "end": 34
+        },
+        "V47282": {
+          "id": "V47282",
+          "indicator": "F",
+          "type": "SMART",
+          "word": "SMART",
+          "roles": {
+            "FIGURE": "#V47253",
+            "SCALE": "PSYCHOLOGICAL-CONDITION-SCALE",
+            "DEGREE": "#V47274",
+            "LEX": "SMART"
+          },
+          "start": 38,
+          "end": 50
+        },
+        "V47274": {
+          "id": "V47274",
+          "indicator": "F",
+          "type": "DEGREE-MODIFIER-HIGH",
+          "word": "REALLY",
+          "roles": {
+            "FIGURE": "#V47282",
+            "LEX": "REALLY"
+          },
+          "start": 38,
+          "end": 45
+        },
+        "root": "#V47629"
+      }
+    ],
+    [
+      {
+        "V47694": {
+          "id": "V47694",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V47160",
+            "LEX": "WENT"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V47160": {
+          "id": "V47160",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V47178",
+            "AGENT": "#V47131",
+            "LOCATION": "#V47245",
+            "TENSE": "PAST",
+            "LEX": "WENT"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V47131": {
+          "id": "V47131",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V47178": {
+          "id": "V47178",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V47239",
+            "LEX": "TO"
+          },
+          "start": 7,
+          "end": 19
+        },
+        "V47239": {
+          "id": "V47239",
+          "indicator": "A",
+          "type": "ACADEMIC-INSTITUTION",
+          "word": "SCHOOL",
+          "roles": {
+            "LEX": "SCHOOL"
+          },
+          "start": 10,
+          "end": 19
+        },
+        "V47245": {
+          "id": "V47245",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "WHERE",
+          "roles": {
+            "GROUND": "#V47260",
+            "FIGURE": "#V47160",
+            "LEX": "WHERE"
+          },
+          "start": 19,
+          "end": 50
+        },
+        "V47260": {
+          "id": "V47260",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V47253",
+            "FORMAL": "#V47282",
+            "TENSE": "PAST",
+            "LEX": "WAS"
+          },
+          "start": 25,
+          "end": 50
+        },
+        "V47253": {
+          "id": "V47253",
+          "indicator": "QUANTIFIER",
+          "type": "PERSON",
+          "word": "EVERYONE",
+          "roles": {
+            "QUAN": "EVERYONE",
+            "LEX": "EVERYONE"
+          },
+          "start": 25,
+          "end": 34
+        },
+        "V47282": {
+          "id": "V47282",
+          "indicator": "F",
+          "type": "SMART",
+          "word": "SMART",
+          "roles": {
+            "FIGURE": "#V47253",
+            "SCALE": "PSYCHOLOGICAL-CONDITION-SCALE",
+            "DEGREE": "#V47274",
+            "LEX": "SMART"
+          },
+          "start": 38,
+          "end": 50
+        },
+        "V47274": {
+          "id": "V47274",
+          "indicator": "F",
+          "type": "DEGREE-MODIFIER-HIGH",
+          "word": "REALLY",
+          "roles": {
+            "FIGURE": "#V47282",
+            "LEX": "REALLY"
+          },
+          "start": 38,
+          "end": 45
+        },
+        "root": "#V47694"
+      }
+    ],
+    [
+      {
+        "V47648": {
+          "id": "V47648",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V47160",
+            "LEX": "WENT"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V47160": {
+          "id": "V47160",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V47178",
+            "AGENT": "#V47131",
+            "LOCATION": "#V47245",
+            "TENSE": "PAST",
+            "LEX": "WENT"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V47131": {
+          "id": "V47131",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V47178": {
+          "id": "V47178",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V47239",
+            "FIGURE": "#V47131",
+            "LEX": "TO"
+          },
+          "start": 7,
+          "end": 19
+        },
+        "V47239": {
+          "id": "V47239",
+          "indicator": "A",
+          "type": "ACADEMIC-INSTITUTION",
+          "word": "SCHOOL",
+          "roles": {
+            "LEX": "SCHOOL"
+          },
+          "start": 10,
+          "end": 19
+        },
+        "V47245": {
+          "id": "V47245",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "WHERE",
+          "roles": {
+            "GROUND": "#V47260",
+            "FIGURE": "#V47160",
+            "LEX": "WHERE"
+          },
+          "start": 19,
+          "end": 50
+        },
+        "V47260": {
+          "id": "V47260",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V47253",
+            "FORMAL": "#V47282",
+            "TENSE": "PAST",
+            "LEX": "WAS"
+          },
+          "start": 25,
+          "end": 50
+        },
+        "V47253": {
+          "id": "V47253",
+          "indicator": "QUANTIFIER",
+          "type": "PERSON",
+          "word": "EVERYONE",
+          "roles": {
+            "QUAN": "EVERYONE",
+            "LEX": "EVERYONE"
+          },
+          "start": 25,
+          "end": 34
+        },
+        "V47282": {
+          "id": "V47282",
+          "indicator": "F",
+          "type": "SMART",
+          "word": "SMART",
+          "roles": {
+            "SCALE": "PSYCHOLOGICAL-CONDITION-SCALE",
+            "DEGREE": "#V47274",
+            "LEX": "SMART"
+          },
+          "start": 38,
+          "end": 50
+        },
+        "V47274": {
+          "id": "V47274",
+          "indicator": "F",
+          "type": "DEGREE-MODIFIER-HIGH",
+          "word": "REALLY",
+          "roles": {
+            "FIGURE": "#V47282",
+            "LEX": "REALLY"
+          },
+          "start": 38,
+          "end": 45
+        },
+        "root": "#V47648"
+      }
+    ]
+  ],
+  "sentence": "I went to a school where everyone was really smart.",
+  "annotation": {
+    "judge": "lgalescu",
+    "parser": "STEP",
+    "timestamp": "20190701T114720",
+    "link": "http://trips.ihmc.us/parser/saved/20190701T114720-STEP-lgalescu-none-I_went_to_a_school_where_everyone_was_re.xml",
+    "judgement": -1
+  }
+}

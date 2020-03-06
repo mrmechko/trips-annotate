@@ -1,0 +1,288 @@
+{
+  "parse": [
+    {
+      "V232088": {
+        "id": "V232088",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V231899",
+          "LEX": "DRINKING"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V231899": {
+        "id": "V231899",
+        "indicator": "F",
+        "type": "DRINK",
+        "word": "DRINK",
+        "roles": {
+          "AGENT": "#V231874",
+          "AFFECTED": "#V231944",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "DRINKING",
+          "WNSENSE": "drink%2:34:00::"
+        },
+        "start": 0,
+        "end": 23
+      },
+      "V231874": {
+        "id": "V231874",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "AMY",
+        "roles": {
+          "NAME-OF": "AMY",
+          "LEX": "AMY",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V231944": {
+        "id": "V231944",
+        "indicator": "A",
+        "type": "SODA",
+        "word": "COKE",
+        "roles": {
+          "LEX": "COKE",
+          "WNSENSE": "coke%1:13:00::"
+        },
+        "start": 17,
+        "end": 23
+      },
+      "root": "#V232088"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V232484": {
+          "id": "V232484",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V231899",
+            "LEX": "DRINKING"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V231899": {
+          "id": "V231899",
+          "indicator": "F",
+          "type": "DRINK",
+          "word": "DRINK",
+          "roles": {
+            "AGENT": "#V231874",
+            "AFFECTED": "#V231944",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "DRINKING",
+            "WNSENSE": "drink%2:34:00::"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V231874": {
+          "id": "V231874",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "AMY",
+          "roles": {
+            "NAME-OF": "AMY",
+            "LEX": "AMY",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V231944": {
+          "id": "V231944",
+          "indicator": "BARE",
+          "type": "SODA",
+          "word": "COKE",
+          "roles": {
+            "ASSOC-WITH": "#V231919",
+            "LEX": "COKE",
+            "WNSENSE": "coke%1:13:00::"
+          },
+          "start": 17,
+          "end": 23
+        },
+        "V231919": {
+          "id": "V231919",
+          "indicator": "THE",
+          "type": "LETTER-SYMBOL",
+          "word": null,
+          "roles": {
+            "NAME-OF": "A",
+            "LEX": "A",
+            "WNSENSE": "a%1:10:00::"
+          },
+          "start": 17,
+          "end": 19
+        },
+        "root": "#V232484"
+      }
+    ],
+    [
+      {
+        "V232604": {
+          "id": "V232604",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V231899",
+            "LEX": "DRINKING"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V231899": {
+          "id": "V231899",
+          "indicator": "F",
+          "type": "DRINK",
+          "word": "DRINK",
+          "roles": {
+            "AGENT": "#V231874",
+            "AFFECTED": "#V231944",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "DRINKING",
+            "WNSENSE": "drink%2:34:00::"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V231874": {
+          "id": "V231874",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "AMY",
+          "roles": {
+            "NAME-OF": "AMY",
+            "LEX": "AMY",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V231944": {
+          "id": "V231944",
+          "indicator": "BARE",
+          "type": "SODA",
+          "word": "COKE",
+          "roles": {
+            "ASSOC-WITH": "#V232243",
+            "LEX": "COKE",
+            "WNSENSE": "coke%1:13:00::"
+          },
+          "start": 17,
+          "end": 23
+        },
+        "V232243": {
+          "id": "V232243",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V232223",
+            "LEX": "A"
+          },
+          "start": 17,
+          "end": 19
+        },
+        "V232223": {
+          "id": "V232223",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(A)",
+            "VAL": "(A)",
+            "LEX": "A"
+          },
+          "start": 17,
+          "end": 19
+        },
+        "root": "#V232604"
+      }
+    ],
+    [
+      {
+        "V232238": {
+          "id": "V232238",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V231899",
+            "LEX": "DRINKING"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V231899": {
+          "id": "V231899",
+          "indicator": "F",
+          "type": "DRINK",
+          "word": "DRINK",
+          "roles": {
+            "AGENT": "#V231877",
+            "AFFECTED": "#V231944",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "DRINKING",
+            "WNSENSE": "drink%2:34:00::"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V231877": {
+          "id": "V231877",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "AMY",
+          "roles": {
+            "NAME-OF": "AMY",
+            "LEX": "AMY",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V231944": {
+          "id": "V231944",
+          "indicator": "A",
+          "type": "SODA",
+          "word": "COKE",
+          "roles": {
+            "LEX": "COKE",
+            "WNSENSE": "coke%1:13:00::"
+          },
+          "start": 17,
+          "end": 23
+        },
+        "root": "#V232238"
+      }
+    ]
+  ],
+  "sentence": "Amy was drinking a Coke.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190724T101218",
+    "link": "http://trips.ihmc.us/parser/saved/20190724T101218-STEP-abhatia-0-Amy_was_drinking_a_Coke_.xml",
+    "judgement": 0
+  }
+}

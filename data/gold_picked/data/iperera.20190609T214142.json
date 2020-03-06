@@ -1,0 +1,158 @@
+{
+  "parse": [
+    {
+      "V70197": {
+        "id": "V70197",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V68901"
+        },
+        "start": 0,
+        "end": 39
+      },
+      "V68901": {
+        "id": "V68901",
+        "indicator": "THE",
+        "type": "HEIGHT-SCALE",
+        "word": "HEIGHT",
+        "roles": {
+          "ASSOC-WITH": "#V68840",
+          "SCALE": "HEIGHT-SCALE"
+        },
+        "start": 0,
+        "end": 39
+      },
+      "V68840": {
+        "id": "V68840",
+        "indicator": "KIND",
+        "type": "SURFACE-LOCATION",
+        "word": "OUTSIDE",
+        "roles": {
+          "MOD": "#V68858"
+        },
+        "start": 0,
+        "end": 39
+      },
+      "V68858": {
+        "id": "V68858",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V68850",
+          "FORMAL": "#V68881",
+          "TENSE": "PRES"
+        },
+        "start": 12,
+        "end": 33
+      },
+      "V68850": {
+        "id": "V68850",
+        "indicator": "INDEF-SET",
+        "type": "COLUMN-FORMATION",
+        "word": "COLUMN",
+        "roles": {},
+        "start": 12,
+        "end": 20
+      },
+      "V68881": {
+        "id": "V68881",
+        "indicator": "F",
+        "type": "IDENTITY-VAL",
+        "word": "SAME",
+        "roles": {
+          "INTENSITY": "HI",
+          "FIGURE": "#V68850"
+        },
+        "start": 24,
+        "end": 33
+      },
+      "root": "#V70197"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V70235": {
+          "id": "V70235",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V68901"
+          },
+          "start": 0,
+          "end": 39
+        },
+        "V68901": {
+          "id": "V68901",
+          "indicator": "THE",
+          "type": "HEIGHT-SCALE",
+          "word": "HEIGHT",
+          "roles": {
+            "ASSOC-WITH": "#V68840",
+            "SCALE": "HEIGHT-SCALE"
+          },
+          "start": 0,
+          "end": 39
+        },
+        "V68840": {
+          "id": "V68840",
+          "indicator": "KIND",
+          "type": "SURFACE-LOCATION",
+          "word": "OUTSIDE",
+          "roles": {
+            "MOD": "#V68858"
+          },
+          "start": 0,
+          "end": 39
+        },
+        "V68858": {
+          "id": "V68858",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V68850",
+            "FORMAL": "#V68881",
+            "TENSE": "PRES"
+          },
+          "start": 12,
+          "end": 33
+        },
+        "V68850": {
+          "id": "V68850",
+          "indicator": "INDEF-SET",
+          "type": "COLUMN-FORMATION",
+          "word": "COLUMN",
+          "roles": {},
+          "start": 12,
+          "end": 20
+        },
+        "V68881": {
+          "id": "V68881",
+          "indicator": "F",
+          "type": "IDENTITY-VAL",
+          "word": "SAME",
+          "roles": {
+            "INTENSITY": "HI",
+            "FIGURE": "#V68850"
+          },
+          "start": 24,
+          "end": 33
+        },
+        "root": "#V70235"
+      }
+    ]
+  ],
+  "sentence": "The outside columns are the same height",
+  "annotation": {
+    "judge": "iperera",
+    "parser": "CABOT",
+    "timestamp": "20190609T214142",
+    "link": "http://trips.ihmc.us/parser/saved/20190609T214142-CABOT-iperera-none-The_outside_columns_are_the_same_height.xml",
+    "judgement": -1
+  }
+}

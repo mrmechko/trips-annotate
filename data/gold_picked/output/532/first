@@ -1,0 +1,13 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V57807 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V57698 [label=<<font color="green"><br /></font> <font color="black">SOW-SEED</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">PLANT</font> <font color="green"><br /></font> <font color="green">plant%2:35:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SOW-SEED.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V57692 [label=<<font color="green"><br /></font> <font color="black">CHILD</font> <font color="green"><br /></font> <font color="red">THE-SET</font> <font color="blue">KID</font> <font color="green"><br /></font> <font color="green">kid%1:18:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::CHILD.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V57702 [label=<<font color="green"><br /></font> <font color="black">PLANT</font> <font color="green"><br /></font> <font color="red">INDEF-SET</font> <font color="blue">MARIGOLDS</font> <font color="green"><br /></font> <font color="green">plant%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PLANT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V57807 -> V57698 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V57698 -> V57702 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V57698 -> V57692 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

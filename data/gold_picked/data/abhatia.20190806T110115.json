@@ -1,0 +1,628 @@
+{
+  "parse": [
+    {
+      "V49496": {
+        "id": "V49496",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V49490",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 57
+      },
+      "V49490": {
+        "id": "V49490",
+        "indicator": "F",
+        "type": "EVENT-OF-CAUSATION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V48985",
+          "SEQUENCE1": "#V49126",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 57
+      },
+      "V49126": {
+        "id": "V49126",
+        "indicator": "F",
+        "type": "EVOKE-CONFUSION",
+        "word": "DISTRACT",
+        "roles": {
+          "AFFECTED": "#V48965",
+          "LEX": "DISTRACTED",
+          "WNSENSE": "distract%2:37:00::"
+        },
+        "start": 0,
+        "end": 57
+      },
+      "V48985": {
+        "id": "V48985",
+        "indicator": "F",
+        "type": "MOVE",
+        "word": "GO",
+        "roles": {
+          "RESULT": "#V49002",
+          "AGENT": "#V48965",
+          "REASON": "#V49041",
+          "LEX": "WENT",
+          "WNSENSE": "go%2:38:00::"
+        },
+        "start": 0,
+        "end": 57
+      },
+      "V48965": {
+        "id": "V48965",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "SHE",
+        "roles": {
+          "PROFORM": "SHE",
+          "LEX": "SHE",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V49002": {
+        "id": "V49002",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V49030",
+          "FIGURE": "#V48965",
+          "LEX": "TO"
+        },
+        "start": 9,
+        "end": 21
+      },
+      "V49030": {
+        "id": "V49030",
+        "indicator": "THE",
+        "type": "INTERNAL-ENCLOSURE",
+        "word": "ROOM",
+        "roles": {
+          "ASSOC-POSS": "#V49025",
+          "LEX": "ROOM",
+          "WNSENSE": "room%1:06:00::"
+        },
+        "start": 12,
+        "end": 21
+      },
+      "V49025": {
+        "id": "V49025",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "HER",
+        "roles": {
+          "LEX": "HER",
+          "PROFORM": "HER",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 12,
+        "end": 21
+      },
+      "V49041": {
+        "id": "V49041",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V49059",
+          "FIGURE": "#V48985",
+          "LEX": "TO"
+        },
+        "start": 21,
+        "end": 39
+      },
+      "V49059": {
+        "id": "V49059",
+        "indicator": "F",
+        "type": "ACQUIRE",
+        "word": "GRAB",
+        "roles": {
+          "AFFECTED": "#V49062",
+          "VFORM": "BASE",
+          "LEX": "GRAB",
+          "WNSENSE": "grab%2:40:00::"
+        },
+        "start": 24,
+        "end": 39
+      },
+      "V49062": {
+        "id": "V49062",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "SOMETHING",
+        "roles": {
+          "PROFORM": "SOMETHING",
+          "LEX": "SOMETHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 29,
+        "end": 39
+      },
+      "root": "#V49496"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V49474": {
+          "id": "V49474",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V49067",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V49067": {
+          "id": "V49067",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V48985",
+            "SEQUENCE1": "#V49126",
+            "TENSE": "PAST",
+            "LEX": "AND",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 0,
+          "end": 57
+        },
+        "V48985": {
+          "id": "V48985",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V49002",
+            "AGENT": "#V48965",
+            "REASON": "#V49041",
+            "TENSE": "PAST",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 0,
+          "end": 39
+        },
+        "V48965": {
+          "id": "V48965",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V49002": {
+          "id": "V49002",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V49030",
+            "FIGURE": "#V48965",
+            "LEX": "TO"
+          },
+          "start": 9,
+          "end": 21
+        },
+        "V49030": {
+          "id": "V49030",
+          "indicator": "THE",
+          "type": "INTERNAL-ENCLOSURE",
+          "word": "ROOM",
+          "roles": {
+            "ASSOC-POSS": "#V49025",
+            "LEX": "ROOM",
+            "WNSENSE": "room%1:06:00::"
+          },
+          "start": 12,
+          "end": 21
+        },
+        "V49025": {
+          "id": "V49025",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 12,
+          "end": 21
+        },
+        "V49041": {
+          "id": "V49041",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V49059",
+            "FIGURE": "#V48985",
+            "LEX": "TO"
+          },
+          "start": 21,
+          "end": 39
+        },
+        "V49059": {
+          "id": "V49059",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "GRAB",
+          "roles": {
+            "AFFECTED": "#V49062",
+            "VFORM": "BASE",
+            "LEX": "GRAB",
+            "WNSENSE": "grab%2:40:00::"
+          },
+          "start": 24,
+          "end": 39
+        },
+        "V49062": {
+          "id": "V49062",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "SOMETHING",
+          "roles": {
+            "PROFORM": "SOMETHING",
+            "LEX": "SOMETHING",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 29,
+          "end": 39
+        },
+        "V49126": {
+          "id": "V49126",
+          "indicator": "F",
+          "type": "EVOKE-CONFUSION",
+          "word": "DISTRACT",
+          "roles": {
+            "AFFECTED": "#V48965",
+            "TENSE": "PAST",
+            "PASSIVE": "+",
+            "LEX": "DISTRACTED",
+            "WNSENSE": "distract%2:37:00::"
+          },
+          "start": 43,
+          "end": 57
+        },
+        "root": "#V49474"
+      }
+    ],
+    [
+      {
+        "V49751": {
+          "id": "V49751",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V49745",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V49745": {
+          "id": "V49745",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V48985",
+            "SEQUENCE1": "#V49126",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 57
+        },
+        "V49126": {
+          "id": "V49126",
+          "indicator": "F",
+          "type": "EVOKE-CONFUSION",
+          "word": "DISTRACT",
+          "roles": {
+            "AFFECTED": "#V48965",
+            "LEX": "DISTRACTED",
+            "WNSENSE": "distract%2:37:00::"
+          },
+          "start": 0,
+          "end": 57
+        },
+        "V48985": {
+          "id": "V48985",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V49003",
+            "AGENT": "#V48965",
+            "REASON": "#V49041",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 0,
+          "end": 57
+        },
+        "V48965": {
+          "id": "V48965",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V49003": {
+          "id": "V49003",
+          "indicator": "F",
+          "type": "RESULTING-OBJECT",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V49030",
+            "FIGURE": "#V48965",
+            "LEX": "TO"
+          },
+          "start": 9,
+          "end": 21
+        },
+        "V49030": {
+          "id": "V49030",
+          "indicator": "THE",
+          "type": "INTERNAL-ENCLOSURE",
+          "word": "ROOM",
+          "roles": {
+            "ASSOC-POSS": "#V49025",
+            "LEX": "ROOM",
+            "WNSENSE": "room%1:06:00::"
+          },
+          "start": 12,
+          "end": 21
+        },
+        "V49025": {
+          "id": "V49025",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 12,
+          "end": 21
+        },
+        "V49041": {
+          "id": "V49041",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V49059",
+            "FIGURE": "#V48985",
+            "LEX": "TO"
+          },
+          "start": 21,
+          "end": 39
+        },
+        "V49059": {
+          "id": "V49059",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "GRAB",
+          "roles": {
+            "AFFECTED": "#V49062",
+            "VFORM": "BASE",
+            "LEX": "GRAB",
+            "WNSENSE": "grab%2:40:00::"
+          },
+          "start": 24,
+          "end": 39
+        },
+        "V49062": {
+          "id": "V49062",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "SOMETHING",
+          "roles": {
+            "PROFORM": "SOMETHING",
+            "LEX": "SOMETHING",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 29,
+          "end": 39
+        },
+        "root": "#V49751"
+      }
+    ],
+    [
+      {
+        "V50019": {
+          "id": "V50019",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V50013",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 58
+        },
+        "V50013": {
+          "id": "V50013",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V48985",
+            "SEQUENCE1": "#V49126",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 57
+        },
+        "V49126": {
+          "id": "V49126",
+          "indicator": "F",
+          "type": "EVOKE-CONFUSION",
+          "word": "DISTRACT",
+          "roles": {
+            "AFFECTED": "#V48965",
+            "LEX": "DISTRACTED",
+            "WNSENSE": "distract%2:37:00::"
+          },
+          "start": 0,
+          "end": 57
+        },
+        "V48985": {
+          "id": "V48985",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V49005",
+            "AGENT": "#V48965",
+            "REASON": "#V49041",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 0,
+          "end": 57
+        },
+        "V48965": {
+          "id": "V48965",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V49005": {
+          "id": "V49005",
+          "indicator": "F",
+          "type": "ORIENTS-TO",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V49030",
+            "FIGURE": "#V48965",
+            "LEX": "TO"
+          },
+          "start": 9,
+          "end": 21
+        },
+        "V49030": {
+          "id": "V49030",
+          "indicator": "THE",
+          "type": "INTERNAL-ENCLOSURE",
+          "word": "ROOM",
+          "roles": {
+            "ASSOC-POSS": "#V49025",
+            "LEX": "ROOM",
+            "WNSENSE": "room%1:06:00::"
+          },
+          "start": 12,
+          "end": 21
+        },
+        "V49025": {
+          "id": "V49025",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 12,
+          "end": 21
+        },
+        "V49041": {
+          "id": "V49041",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V49059",
+            "FIGURE": "#V48985",
+            "LEX": "TO"
+          },
+          "start": 21,
+          "end": 39
+        },
+        "V49059": {
+          "id": "V49059",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "GRAB",
+          "roles": {
+            "AFFECTED": "#V49062",
+            "VFORM": "BASE",
+            "LEX": "GRAB",
+            "WNSENSE": "grab%2:40:00::"
+          },
+          "start": 24,
+          "end": 39
+        },
+        "V49062": {
+          "id": "V49062",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "SOMETHING",
+          "roles": {
+            "PROFORM": "SOMETHING",
+            "LEX": "SOMETHING",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 29,
+          "end": 39
+        },
+        "root": "#V50019"
+      }
+    ]
+  ],
+  "sentence": "She went to her room to grab something and got distracted.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190806T110115",
+    "link": "http://trips.ihmc.us/parser/saved/20190806T110115-STEP-abhatia-0-She_went_to_her_room_to_grab_something_a.xml",
+    "judgement": 0
+  }
+}

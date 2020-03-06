@@ -1,0 +1,245 @@
+{
+  "parse": [
+    {
+      "V40005": {
+        "id": "V40005",
+        "indicator": "F",
+        "type": "CONTAINMENT",
+        "word": "HOLD",
+        "roles": {
+          "NEUTRAL": "#V39981",
+          "RESULT": "#V40017",
+          "TENSE": "PRES",
+          "PROGR": "+",
+          "LEX": "HOLDING"
+        },
+        "start": 0,
+        "end": 37
+      },
+      "V39981": {
+        "id": "V39981",
+        "indicator": "THE",
+        "type": "PHYS-OBJECT",
+        "word": "OBJECT",
+        "roles": {
+          "LEX": "OBJECT"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V40017": {
+        "id": "V40017",
+        "indicator": "F",
+        "type": "GOAL-AS-ON",
+        "word": "ONTO",
+        "roles": {
+          "GROUND": "#V40030",
+          "FIGURE": "#V40005",
+          "LEX": "ONTO"
+        },
+        "start": 22,
+        "end": 37
+      },
+      "V40030": {
+        "id": "V40030",
+        "indicator": "THE",
+        "type": "PHYS-OBJECT",
+        "word": "OBJECT",
+        "roles": {
+          "LEX": "OBJECT"
+        },
+        "start": 27,
+        "end": 37
+      },
+      "root": "#V40005"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V40006": {
+          "id": "V40006",
+          "indicator": "F",
+          "type": "BODY-MANIPULATION",
+          "word": "HOLD",
+          "roles": {
+            "AGENT": "#V39981",
+            "RESULT": "#V40017",
+            "TENSE": "PRES",
+            "PROGR": "+",
+            "LEX": "HOLDING"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V39981": {
+          "id": "V39981",
+          "indicator": "THE",
+          "type": "PHYS-OBJECT",
+          "word": "OBJECT",
+          "roles": {
+            "LEX": "OBJECT"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V40017": {
+          "id": "V40017",
+          "indicator": "F",
+          "type": "GOAL-AS-ON",
+          "word": "ONTO",
+          "roles": {
+            "GROUND": "#V40030",
+            "FIGURE": "#V40006",
+            "LEX": "ONTO"
+          },
+          "start": 22,
+          "end": 37
+        },
+        "V40030": {
+          "id": "V40030",
+          "indicator": "THE",
+          "type": "PHYS-OBJECT",
+          "word": "OBJECT",
+          "roles": {
+            "LEX": "OBJECT"
+          },
+          "start": 27,
+          "end": 37
+        },
+        "root": "#V40006"
+      }
+    ],
+    [
+      {
+        "V40007": {
+          "id": "V40007",
+          "indicator": "F",
+          "type": "RETAIN",
+          "word": "HOLD",
+          "roles": {
+            "AGENT": "#V39981",
+            "RESULT": "#V40017",
+            "TENSE": "PRES",
+            "PROGR": "+",
+            "LEX": "HOLDING"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V39981": {
+          "id": "V39981",
+          "indicator": "THE",
+          "type": "PHYS-OBJECT",
+          "word": "OBJECT",
+          "roles": {
+            "LEX": "OBJECT"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V40017": {
+          "id": "V40017",
+          "indicator": "F",
+          "type": "GOAL-AS-ON",
+          "word": "ONTO",
+          "roles": {
+            "GROUND": "#V40030",
+            "FIGURE": "#V40007",
+            "LEX": "ONTO"
+          },
+          "start": 22,
+          "end": 37
+        },
+        "V40030": {
+          "id": "V40030",
+          "indicator": "THE",
+          "type": "PHYS-OBJECT",
+          "word": "OBJECT",
+          "roles": {
+            "LEX": "OBJECT"
+          },
+          "start": 27,
+          "end": 37
+        },
+        "root": "#V40007"
+      }
+    ],
+    [
+      {
+        "V40005": {
+          "id": "V40005",
+          "indicator": "F",
+          "type": "CONTAINMENT",
+          "word": "HOLD",
+          "roles": {
+            "NEUTRAL": "#V39981",
+            "RESULT": "#V40017",
+            "TENSE": "PRES",
+            "PROGR": "+",
+            "LEX": "HOLDING"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V39981": {
+          "id": "V39981",
+          "indicator": "BARE",
+          "type": "PHYS-OBJECT",
+          "word": "OBJECT",
+          "roles": {
+            "ASSOC-WITH": "#V39974",
+            "LEX": "OBJECT"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V39974": {
+          "id": "V39974",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "NAME-OF": "THE",
+            "LEX": "THE"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V40017": {
+          "id": "V40017",
+          "indicator": "F",
+          "type": "GOAL-AS-ON",
+          "word": "ONTO",
+          "roles": {
+            "GROUND": "#V40030",
+            "FIGURE": "#V40005",
+            "LEX": "ONTO"
+          },
+          "start": 22,
+          "end": 37
+        },
+        "V40030": {
+          "id": "V40030",
+          "indicator": "THE",
+          "type": "PHYS-OBJECT",
+          "word": "OBJECT",
+          "roles": {
+            "LEX": "OBJECT"
+          },
+          "start": 27,
+          "end": 37
+        },
+        "root": "#V40005"
+      }
+    ]
+  ],
+  "sentence": "The object is holding onto the object.",
+  "annotation": {
+    "judge": "wbeaumont",
+    "parser": "STEP",
+    "timestamp": "20190617T135148",
+    "link": "http://trips.ihmc.us/parser/saved/20190617T135148-STEP-wbeaumont-none-The_object_is_holding_onto_the_object_.xml",
+    "judgement": -1
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "parse": [
+    {
+      "V150354": {
+        "id": "V150354",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V149959",
+          "LEX": "GOES"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V149959": {
+        "id": "V149959",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "GO",
+        "roles": {
+          "AGENT": "#V149946",
+          "FORMAL": "#V149979",
+          "TENSE": "PRES",
+          "LEX": "GOES",
+          "WNSENSE": "fulfil%2:36:00"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V149946": {
+        "id": "V149946",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V149979": {
+        "id": "V149979",
+        "indicator": "F",
+        "type": "RIDE",
+        "word": "BOATING",
+        "roles": {
+          "AGENT": "#V149946",
+          "AFFECTED": "#V149986",
+          "VFORM": "ING",
+          "LEX": "BOATING",
+          "WNSENSE": "boating%1:04:00::"
+        },
+        "start": 8,
+        "end": 29
+      },
+      "V149986": {
+        "id": "V149986",
+        "indicator": "QUANTIFIER",
+        "type": "TIME-INTERVAL",
+        "word": "WEEKEND",
+        "roles": {
+          "QUAN": "EVERY",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "WEEKEND",
+          "WNSENSE": "weekend%1:28:00::"
+        },
+        "start": 16,
+        "end": 29
+      },
+      "root": "#V150354"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V150239": {
+          "id": "V150239",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V149959",
+            "LEX": "GOES"
+          },
+          "start": 0,
+          "end": 30
+        },
+        "V149959": {
+          "id": "V149959",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "GO",
+          "roles": {
+            "AGENT": "#V149946",
+            "FORMAL": "#V149979",
+            "TENSE": "PRES",
+            "LEX": "GOES",
+            "WNSENSE": "fulfil%2:36:00"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V149946": {
+          "id": "V149946",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V149979": {
+          "id": "V149979",
+          "indicator": "F",
+          "type": "RIDE",
+          "word": "BOATING",
+          "roles": {
+            "AGENT": "#V149946",
+            "AFFECTED": "#V149987",
+            "VFORM": "ING",
+            "LEX": "BOATING",
+            "WNSENSE": "boating%1:04:00::"
+          },
+          "start": 8,
+          "end": 29
+        },
+        "V149987": {
+          "id": "V149987",
+          "indicator": "QUANTIFIER",
+          "type": "TIME-INTERVAL",
+          "word": "WEEKEND",
+          "roles": {
+            "QUAN": "EVERY",
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "WEEKEND",
+            "WNSENSE": "weekend%1:28:00::"
+          },
+          "start": 16,
+          "end": 29
+        },
+        "root": "#V150239"
+      }
+    ],
+    [
+      {
+        "V150377": {
+          "id": "V150377",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V149962",
+            "LEX": "GOES"
+          },
+          "start": 0,
+          "end": 30
+        },
+        "V149962": {
+          "id": "V149962",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "AGENT": "#V149946",
+            "TIME": "#V150370",
+            "TENSE": "PRES",
+            "LEX": "GOES",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V149946": {
+          "id": "V149946",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V150370": {
+          "id": "V150370",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V149962",
+            "GROUND": "#V149979",
+            "LEX": "BOATING"
+          },
+          "start": 8,
+          "end": 29
+        },
+        "V149979": {
+          "id": "V149979",
+          "indicator": "F",
+          "type": "RIDE",
+          "word": "BOATING",
+          "roles": {
+            "AFFECTED": "#V149986",
+            "VFORM": "ING",
+            "LEX": "BOATING",
+            "WNSENSE": "boating%1:04:00::"
+          },
+          "start": 8,
+          "end": 29
+        },
+        "V149986": {
+          "id": "V149986",
+          "indicator": "QUANTIFIER",
+          "type": "TIME-INTERVAL",
+          "word": "WEEKEND",
+          "roles": {
+            "QUAN": "EVERY",
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "WEEKEND",
+            "WNSENSE": "weekend%1:28:00::"
+          },
+          "start": 16,
+          "end": 29
+        },
+        "root": "#V150377"
+      }
+    ],
+    [
+      {
+        "V150262": {
+          "id": "V150262",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V149962",
+            "LEX": "GOES"
+          },
+          "start": 0,
+          "end": 30
+        },
+        "V149962": {
+          "id": "V149962",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "AGENT": "#V149946",
+            "TIME": "#V150255",
+            "TENSE": "PRES",
+            "LEX": "GOES",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V149946": {
+          "id": "V149946",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V150255": {
+          "id": "V150255",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V149962",
+            "GROUND": "#V149979",
+            "LEX": "BOATING"
+          },
+          "start": 8,
+          "end": 29
+        },
+        "V149979": {
+          "id": "V149979",
+          "indicator": "F",
+          "type": "RIDE",
+          "word": "BOATING",
+          "roles": {
+            "AFFECTED": "#V149987",
+            "VFORM": "ING",
+            "LEX": "BOATING",
+            "WNSENSE": "boating%1:04:00::"
+          },
+          "start": 8,
+          "end": 29
+        },
+        "V149987": {
+          "id": "V149987",
+          "indicator": "QUANTIFIER",
+          "type": "TIME-INTERVAL",
+          "word": "WEEKEND",
+          "roles": {
+            "QUAN": "EVERY",
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "WEEKEND",
+            "WNSENSE": "weekend%1:28:00::"
+          },
+          "start": 16,
+          "end": 29
+        },
+        "root": "#V150262"
+      }
+    ]
+  ],
+  "sentence": "He goes boating every weekend.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190723T162612",
+    "link": "http://trips.ihmc.us/parser/saved/20190723T162612-STEP-abhatia-none-He_goes_boating_every_weekend_.xml",
+    "judgement": -1
+  }
+}

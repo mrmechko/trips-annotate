@@ -1,0 +1,162 @@
+{
+  "parse": [
+    {
+      "V41716": {
+        "id": "V41716",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V41069"
+        },
+        "start": 0,
+        "end": 33
+      },
+      "V41069": {
+        "id": "V41069",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V41053",
+          "NEUTRAL1": "#V41092",
+          "TENSE": "PRES"
+        },
+        "start": 0,
+        "end": 33
+      },
+      "V41053": {
+        "id": "V41053",
+        "indicator": "THE",
+        "type": "HEIGHT-SCALE",
+        "word": "HEIGHT",
+        "roles": {
+          "ASSOC-POSS": "#V40985",
+          "SCALE": "HEIGHT-SCALE"
+        },
+        "start": 0,
+        "end": 27
+      },
+      "V40985": {
+        "id": "V40985",
+        "indicator": "THE",
+        "type": "COLUMN-FORMATION",
+        "word": "COLUMN",
+        "roles": {
+          "MOD": "#V40960"
+        },
+        "start": 0,
+        "end": 17
+      },
+      "V40960": {
+        "id": "V40960",
+        "indicator": "F",
+        "type": "MIDDLE-LOCATION-VAL",
+        "word": "MIDDLE",
+        "roles": {
+          "FIGURE": "#V40985",
+          "SCALE": "SPATIAL-SCALE"
+        },
+        "start": 4,
+        "end": 11
+      },
+      "V41092": {
+        "id": "V41092",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "ONE",
+        "roles": {
+          "PROFORM": "ONE"
+        },
+        "start": 30,
+        "end": 33
+      },
+      "root": "#V41716"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V41713": {
+          "id": "V41713",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V41069"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V41069": {
+          "id": "V41069",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V41053",
+            "NEUTRAL1": "#V41092",
+            "TENSE": "PRES"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V41053": {
+          "id": "V41053",
+          "indicator": "THE",
+          "type": "HEIGHT-SCALE",
+          "word": "HEIGHT",
+          "roles": {
+            "ASSOC-POSS": "#V41021",
+            "SCALE": "HEIGHT-SCALE"
+          },
+          "start": 0,
+          "end": 27
+        },
+        "V41021": {
+          "id": "V41021",
+          "indicator": "THE",
+          "type": "COLUMN-FORMATION",
+          "word": "COLUMN",
+          "roles": {
+            "MOD": "#V40958"
+          },
+          "start": 0,
+          "end": 18
+        },
+        "V40958": {
+          "id": "V40958",
+          "indicator": "F",
+          "type": "MIDDLE-LOCATION-VAL",
+          "word": "MIDDLE",
+          "roles": {
+            "FIGURE": "#V41021",
+            "SCALE": "SPATIAL-SCALE"
+          },
+          "start": 4,
+          "end": 11
+        },
+        "V41092": {
+          "id": "V41092",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "ONE",
+          "roles": {
+            "PROFORM": "ONE"
+          },
+          "start": 30,
+          "end": 33
+        },
+        "root": "#V41713"
+      }
+    ]
+  ],
+  "sentence": "the middle column's height is one",
+  "annotation": {
+    "judge": "iperera",
+    "parser": "CABOT",
+    "timestamp": "20190801T091630",
+    "link": "http://trips.ihmc.us/parser/saved/20190801T091630-CABOT-iperera-none-the_middle_column_s_height_is_one.xml",
+    "judgement": -1
+  }
+}

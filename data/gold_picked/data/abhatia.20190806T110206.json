@@ -1,0 +1,410 @@
+{
+  "parse": [
+    {
+      "V50618": {
+        "id": "V50618",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V50117",
+          "LEX": "ENDED-UP"
+        },
+        "start": 0,
+        "end": 37
+      },
+      "V50117": {
+        "id": "V50117",
+        "indicator": "F",
+        "type": "ACTIVITY-EVENT",
+        "word": "ENDED-UP",
+        "roles": {
+          "AGENT": "#V50048",
+          "AFFECTED": "#V50135",
+          "TENSE": "PAST",
+          "LEX": "ENDED-UP",
+          "WNSENSE": "end_up%2:30:01"
+        },
+        "start": 0,
+        "end": 37
+      },
+      "V50048": {
+        "id": "V50048",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "SHE",
+        "roles": {
+          "PROFORM": "SHE",
+          "LEX": "SHE",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V50135": {
+        "id": "V50135",
+        "indicator": "BARE",
+        "type": "CLEAN",
+        "word": "CLEAN",
+        "roles": {
+          "REASON": "#V50142",
+          "LEX": "CLEANING",
+          "WNSENSE": "clean%2:35:00::"
+        },
+        "start": 13,
+        "end": 37
+      },
+      "V50142": {
+        "id": "V50142",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V50169",
+          "FIGURE": "#V50135",
+          "LEX": "FOR"
+        },
+        "start": 22,
+        "end": 37
+      },
+      "V50169": {
+        "id": "V50169",
+        "indicator": "INDEF-SET",
+        "type": "CHRONICLE",
+        "word": "MINUTES",
+        "roles": {
+          "SIZE": "#V50167",
+          "LEX": "MINUTES"
+        },
+        "start": 26,
+        "end": 37
+      },
+      "V50167": {
+        "id": "V50167",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "10"
+        },
+        "start": 26,
+        "end": 30
+      },
+      "root": "#V50618"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V50686": {
+          "id": "V50686",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V50117",
+            "LEX": "ENDED-UP"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V50117": {
+          "id": "V50117",
+          "indicator": "F",
+          "type": "ACTIVITY-EVENT",
+          "word": "ENDED-UP",
+          "roles": {
+            "AGENT": "#V50048",
+            "AFFECTED": "#V50135",
+            "TENSE": "PAST",
+            "LEX": "ENDED-UP",
+            "WNSENSE": "end_up%2:30:01"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V50048": {
+          "id": "V50048",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V50135": {
+          "id": "V50135",
+          "indicator": "BARE",
+          "type": "CLEAN",
+          "word": "CLEAN",
+          "roles": {
+            "REASON": "#V50142",
+            "LEX": "CLEANING",
+            "WNSENSE": "clean%2:35:00::"
+          },
+          "start": 13,
+          "end": 37
+        },
+        "V50142": {
+          "id": "V50142",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V50280",
+            "FIGURE": "#V50135",
+            "LEX": "FOR"
+          },
+          "start": 22,
+          "end": 37
+        },
+        "V50280": {
+          "id": "V50280",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V50170",
+            "LEX": "MINUTES"
+          },
+          "start": 26,
+          "end": 37
+        },
+        "V50170": {
+          "id": "V50170",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "#V50167",
+            "UNIT": "(:* MINUTE-DURATION MINUTE)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "MINUTES",
+            "WNSENSE": "minute%1:28:00::"
+          },
+          "start": 26,
+          "end": 37
+        },
+        "V50167": {
+          "id": "V50167",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "10"
+          },
+          "start": 26,
+          "end": 37
+        },
+        "root": "#V50686"
+      }
+    ],
+    [
+      {
+        "V50712": {
+          "id": "V50712",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V50117",
+            "LEX": "ENDED-UP"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V50117": {
+          "id": "V50117",
+          "indicator": "F",
+          "type": "ACTIVITY-EVENT",
+          "word": "ENDED-UP",
+          "roles": {
+            "AGENT": "#V50048",
+            "AFFECTED": "#V50135",
+            "TENSE": "PAST",
+            "LEX": "ENDED-UP",
+            "WNSENSE": "end_up%2:30:01"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V50048": {
+          "id": "V50048",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V50135": {
+          "id": "V50135",
+          "indicator": "BARE",
+          "type": "CLEAN",
+          "word": "CLEAN",
+          "roles": {
+            "MOD": "#V50144",
+            "LEX": "CLEANING",
+            "WNSENSE": "clean%2:35:00::"
+          },
+          "start": 13,
+          "end": 37
+        },
+        "V50144": {
+          "id": "V50144",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V50170",
+            "FIGURE": "#V50135",
+            "LEX": "FOR"
+          },
+          "start": 22,
+          "end": 37
+        },
+        "V50170": {
+          "id": "V50170",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "#V50167",
+            "UNIT": "(:* MINUTE-DURATION MINUTE)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "MINUTES",
+            "WNSENSE": "minute%1:28:00::"
+          },
+          "start": 26,
+          "end": 37
+        },
+        "V50167": {
+          "id": "V50167",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "10"
+          },
+          "start": 26,
+          "end": 37
+        },
+        "root": "#V50712"
+      }
+    ],
+    [
+      {
+        "V50895": {
+          "id": "V50895",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V50117",
+            "LEX": "ENDED-UP"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V50117": {
+          "id": "V50117",
+          "indicator": "F",
+          "type": "ACTIVITY-EVENT",
+          "word": "ENDED-UP",
+          "roles": {
+            "AGENT": "#V50048",
+            "AFFECTED": "#V50135",
+            "TENSE": "PAST",
+            "LEX": "ENDED-UP",
+            "WNSENSE": "end_up%2:30:01"
+          },
+          "start": 0,
+          "end": 37
+        },
+        "V50048": {
+          "id": "V50048",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V50135": {
+          "id": "V50135",
+          "indicator": "BARE",
+          "type": "CLEAN",
+          "word": "CLEAN",
+          "roles": {
+            "REASON": "#V50142",
+            "LEX": "CLEANING",
+            "WNSENSE": "clean%2:35:00::"
+          },
+          "start": 13,
+          "end": 37
+        },
+        "V50142": {
+          "id": "V50142",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V50169",
+            "FIGURE": "#V50135",
+            "LEX": "FOR"
+          },
+          "start": 22,
+          "end": 37
+        },
+        "V50169": {
+          "id": "V50169",
+          "indicator": "INDEF-SET",
+          "type": "CHRONICLE",
+          "word": "MINUTES",
+          "roles": {
+            "SIZE": "#V50167",
+            "LEX": "MINUTES"
+          },
+          "start": 26,
+          "end": 37
+        },
+        "V50167": {
+          "id": "V50167",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "10"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "root": "#V50895"
+      }
+    ]
+  ],
+  "sentence": "She ended up cleaning for ten minutes.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190806T110206",
+    "link": "http://trips.ihmc.us/parser/saved/20190806T110206-STEP-abhatia-none-She_ended_up_cleaning_for_ten_minutes_.xml",
+    "judgement": -1
+  }
+}

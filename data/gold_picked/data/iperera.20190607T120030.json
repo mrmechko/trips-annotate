@@ -1,0 +1,86 @@
+{
+  "parse": [
+    {
+      "V52182": {
+        "id": "V52182",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V51793"
+        },
+        "start": 0,
+        "end": 39
+      },
+      "V51793": {
+        "id": "V51793",
+        "indicator": "F",
+        "type": "HAVE",
+        "word": "HAVE",
+        "roles": {
+          "NEUTRAL": "#V51787",
+          "NEUTRAL1": "#V51895",
+          "TENSE": "PRES"
+        },
+        "start": 0,
+        "end": 38
+      },
+      "V51787": {
+        "id": "V51787",
+        "indicator": "QUANTIFIER",
+        "type": "COLUMN-FORMATION",
+        "word": "COLUMN",
+        "roles": {
+          "QUAN": "EVERY-OTHER"
+        },
+        "start": 0,
+        "end": 19
+      },
+      "V51895": {
+        "id": "V51895",
+        "indicator": "A",
+        "type": "HEIGHT-SCALE",
+        "word": "HEIGHT",
+        "roles": {
+          "SCALE": "HEIGHT-SCALE",
+          "FIGURE": "#V51927"
+        },
+        "start": 23,
+        "end": 38
+      },
+      "V51927": {
+        "id": "V51927",
+        "indicator": "A",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V51937"
+        },
+        "start": 32,
+        "end": 38
+      },
+      "V51937": {
+        "id": "V51937",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 32,
+        "end": 38
+      },
+      "root": "#V52182"
+    }
+  ],
+  "alternatives": [],
+  "sentence": "Every other column has a height of one.",
+  "annotation": {
+    "judge": "iperera",
+    "parser": "CABOT",
+    "timestamp": "20190607T120030",
+    "link": "http://trips.ihmc.us/parser/saved/20190607T120030-CABOT-iperera-0-Every_other_column_has_a_height_of_one_.xml",
+    "judgement": 0
+  }
+}

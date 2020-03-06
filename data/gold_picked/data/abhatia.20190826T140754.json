@@ -1,0 +1,453 @@
+{
+  "parse": [
+    {
+      "V175047": {
+        "id": "V175047",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V174964",
+          "LEX": "ROBERT"
+        },
+        "start": 0,
+        "end": 14
+      },
+      "V174964": {
+        "id": "V174964",
+        "indicator": "BARE",
+        "type": "GEOGRAPHIC-REGION",
+        "word": "ROBERT",
+        "roles": {
+          "NAME-OF": "ROBERT",
+          "MOD": "#V174970",
+          "LEX": "ROBERT",
+          "WNSENSE": "north_america%1:14:00"
+        },
+        "start": 0,
+        "end": 14
+      },
+      "V174970": {
+        "id": "V174970",
+        "indicator": "F",
+        "type": "TAKE-BY-DECEPTION",
+        "word": "CHEAT",
+        "roles": {
+          "AFFECTED": "#V174964",
+          "VFORM": "PASSIVE",
+          "LEX": "CHEATED",
+          "WNSENSE": "cheat%2:41:00::"
+        },
+        "start": 7,
+        "end": 14
+      },
+      "root": "#V175047"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V175040": {
+          "id": "V175040",
+          "indicator": "SPEECHACT",
+          "type": "SA_PRED-FRAGMENT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V174970",
+            "LEX": "CHEATED"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V174970": {
+          "id": "V174970",
+          "indicator": "F",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "AGENT": "#V174964",
+            "AFFECTED": "#V175041",
+            "LEX": "CHEATED",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 14
+        },
+        "V175041": {
+          "id": "V175041",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {
+            "CONTEXT-REL": "UTT-FRAG"
+          },
+          "start": 0,
+          "end": 14
+        },
+        "V174964": {
+          "id": "V174964",
+          "indicator": "KIND",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 14
+        },
+        "root": "#V175040"
+      }
+    ],
+    [
+      {
+        "V175076": {
+          "id": "V175076",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V174961",
+            "LEX": "ROBERT"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V174961": {
+          "id": "V174961",
+          "indicator": "BARE",
+          "type": "MALE-PERSON",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "MOD": "#V174970",
+            "LEX": "ROBERT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 14
+        },
+        "V174970": {
+          "id": "V174970",
+          "indicator": "F",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "AFFECTED": "#V174961",
+            "VFORM": "PASSIVE",
+            "LEX": "CHEATED",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 7,
+          "end": 14
+        },
+        "root": "#V175076"
+      }
+    ],
+    [
+      {
+        "V175066": {
+          "id": "V175066",
+          "indicator": "SPEECHACT",
+          "type": "SA_PRED-FRAGMENT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V174970",
+            "LEX": "CHEATED"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V174970": {
+          "id": "V174970",
+          "indicator": "F",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "AGENT": "#V174961",
+            "AFFECTED": "#V175067",
+            "LEX": "CHEATED",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 14
+        },
+        "V175067": {
+          "id": "V175067",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {
+            "CONTEXT-REL": "UTT-FRAG"
+          },
+          "start": 0,
+          "end": 14
+        },
+        "V174961": {
+          "id": "V174961",
+          "indicator": "KIND",
+          "type": "MALE-PERSON",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 14
+        },
+        "root": "#V175066"
+      }
+    ],
+    [
+      {
+        "V175047": {
+          "id": "V175047",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V174964",
+            "LEX": "ROBERT"
+          },
+          "start": 0,
+          "end": 14
+        },
+        "V174964": {
+          "id": "V174964",
+          "indicator": "BARE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "MOD": "#V174970",
+            "LEX": "ROBERT",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 14
+        },
+        "V174970": {
+          "id": "V174970",
+          "indicator": "F",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "AFFECTED": "#V174964",
+            "VFORM": "PASSIVE",
+            "LEX": "CHEATED",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 7,
+          "end": 14
+        },
+        "root": "#V175047"
+      }
+    ],
+    [
+      {
+        "V174970": {
+          "id": "V174970",
+          "indicator": "F",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "AGENT": "#V174964",
+            "LEX": "CHEATED",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 14
+        },
+        "V174964": {
+          "id": "V174964",
+          "indicator": "KIND",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 14
+        },
+        "root": "#V174970"
+      }
+    ],
+    [
+      {
+        "V174964": {
+          "id": "V174964",
+          "indicator": "BARE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "MOD": "#V174970",
+            "LEX": "ROBERT",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 14
+        },
+        "V174970": {
+          "id": "V174970",
+          "indicator": "F",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "AFFECTED": "#V174964",
+            "VFORM": "PASSIVE",
+            "LEX": "CHEATED",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 7,
+          "end": 14
+        },
+        "root": "#V174964"
+      }
+    ],
+    [
+      {
+        "V175040": {
+          "id": "V175040",
+          "indicator": "SPEECHACT",
+          "type": "SA_PRED-FRAGMENT",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V174970",
+            "LEX": "CHEATED"
+          },
+          "start": 0,
+          "end": 14
+        },
+        "V174970": {
+          "id": "V174970",
+          "indicator": "F",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "AGENT": "#V174964",
+            "AFFECTED": "#V175041",
+            "LEX": "CHEATED",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 14
+        },
+        "V175041": {
+          "id": "V175041",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {
+            "CONTEXT-REL": "UTT-FRAG"
+          },
+          "start": 0,
+          "end": 14
+        },
+        "V174964": {
+          "id": "V174964",
+          "indicator": "KIND",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 14
+        },
+        "root": "#V175040"
+      }
+    ],
+    [
+      {
+        "V175076": {
+          "id": "V175076",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V174961",
+            "LEX": "ROBERT"
+          },
+          "start": 0,
+          "end": 14
+        },
+        "V174961": {
+          "id": "V174961",
+          "indicator": "BARE",
+          "type": "MALE-PERSON",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "MOD": "#V174970",
+            "LEX": "ROBERT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 14
+        },
+        "V174970": {
+          "id": "V174970",
+          "indicator": "F",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "AFFECTED": "#V174961",
+            "VFORM": "PASSIVE",
+            "LEX": "CHEATED",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 7,
+          "end": 14
+        },
+        "root": "#V175076"
+      }
+    ],
+    [
+      {
+        "V174970": {
+          "id": "V174970",
+          "indicator": "F",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "AGENT": "#V174961",
+            "TENSE": "PAST",
+            "LEX": "CHEATED",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 14
+        },
+        "V174961": {
+          "id": "V174961",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "root": "#V174970"
+      }
+    ]
+  ],
+  "sentence": "Robert cheated.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190826T140754",
+    "link": "http://trips.ihmc.us/parser/saved/20190826T140754-STEP-abhatia-3-Robert_cheated_.xml",
+    "judgement": 3
+  }
+}

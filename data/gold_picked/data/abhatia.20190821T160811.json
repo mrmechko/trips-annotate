@@ -1,0 +1,1273 @@
+{
+  "parse": [
+    {
+      "V67260": {
+        "id": "V67260",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V66154",
+          "LEX": "ALLOWED"
+        },
+        "start": 0,
+        "end": 51
+      },
+      "V66154": {
+        "id": "V66154",
+        "indicator": "F",
+        "type": "ALLOW",
+        "word": "ALLOW",
+        "roles": {
+          "AGENT": "#V66149",
+          "AFFECTED": "#V66165",
+          "FORMAL": "#V66222",
+          "TENSE": "PAST",
+          "LEX": "ALLOWED",
+          "WNSENSE": "allow%2:41:00::"
+        },
+        "start": 0,
+        "end": 51
+      },
+      "V66149": {
+        "id": "V66149",
+        "indicator": "THE",
+        "type": "PROFESSIONAL",
+        "word": "TEACHER",
+        "roles": {
+          "ASSOC-POSS": "#V66096",
+          "LEX": "TEACHER",
+          "WNSENSE": "teacher%1:18:00::"
+        },
+        "start": 0,
+        "end": 15
+      },
+      "V66096": {
+        "id": "V66096",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "JILL",
+        "roles": {
+          "NAME-OF": "JILL",
+          "LEX": "JILL",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V66165": {
+        "id": "V66165",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "HER",
+        "roles": {
+          "PROFORM": "HER",
+          "LEX": "HER",
+          "WNSENSE": "woman%1:18:00",
+          "COREF": "#V66096"
+        },
+        "start": 23,
+        "end": 27
+      },
+      "V66222": {
+        "id": "V66222",
+        "indicator": "F",
+        "type": "IS-COMPATIBLE-WITH",
+        "word": "TAKE",
+        "roles": {
+          "NEUTRAL": "#V66165",
+          "NEUTRAL1": "#V66258",
+          "LOCATION": "#V66277",
+          "VFORM": "BASE",
+          "LEX": "TAKE",
+          "WNSENSE": "take%2:42:03::"
+        },
+        "start": 27,
+        "end": 51
+      },
+      "V66258": {
+        "id": "V66258",
+        "indicator": "THE",
+        "type": "SCRUTINY",
+        "word": "TEST",
+        "roles": {
+          "LEX": "TEST",
+          "WNSENSE": "take%2:31:02"
+        },
+        "start": 35,
+        "end": 44
+      },
+      "V66277": {
+        "id": "V66277",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V66291",
+          "FIGURE": "#V66222",
+          "LEX": "AT"
+        },
+        "start": 44,
+        "end": 51
+      },
+      "V66291": {
+        "id": "V66291",
+        "indicator": "BARE",
+        "type": "RELATIVE-LOCATION",
+        "word": "HOME",
+        "roles": {
+          "LEX": "HOME",
+          "WNSENSE": "home%1:15:02::"
+        },
+        "start": 47,
+        "end": 51
+      },
+      "root": "#V67260"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V67232": {
+          "id": "V67232",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V66154",
+            "LEX": "ALLOWED"
+          },
+          "start": 0,
+          "end": 52
+        },
+        "V66154": {
+          "id": "V66154",
+          "indicator": "F",
+          "type": "ALLOW",
+          "word": "ALLOW",
+          "roles": {
+            "AGENT": "#V66149",
+            "AFFECTED": "#V66165",
+            "FORMAL": "#V66223",
+            "TENSE": "PAST",
+            "LEX": "ALLOWED",
+            "WNSENSE": "allow%2:41:00::"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V66149": {
+          "id": "V66149",
+          "indicator": "THE",
+          "type": "PROFESSIONAL",
+          "word": "TEACHER",
+          "roles": {
+            "ASSOC-POSS": "#V66099",
+            "LEX": "TEACHER",
+            "WNSENSE": "teacher%1:18:00::"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V66099": {
+          "id": "V66099",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "JILL",
+          "roles": {
+            "NAME-OF": "JILL",
+            "LEX": "JILL",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V66165": {
+          "id": "V66165",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 23,
+          "end": 27
+        },
+        "V66223": {
+          "id": "V66223",
+          "indicator": "F",
+          "type": "TAKE-EXECUTE",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V66165",
+            "FORMAL": "#V66258",
+            "LOCATION": "#V66277",
+            "VFORM": "BASE",
+            "LEX": "TAKE",
+            "WNSENSE": "take%2:41:04::"
+          },
+          "start": 27,
+          "end": 51
+        },
+        "V66258": {
+          "id": "V66258",
+          "indicator": "THE",
+          "type": "SCRUTINY",
+          "word": "TEST",
+          "roles": {
+            "LEX": "TEST",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 35,
+          "end": 44
+        },
+        "V66277": {
+          "id": "V66277",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V66291",
+            "FIGURE": "#V66223",
+            "LEX": "AT"
+          },
+          "start": 44,
+          "end": 51
+        },
+        "V66291": {
+          "id": "V66291",
+          "indicator": "BARE",
+          "type": "RELATIVE-LOCATION",
+          "word": "HOME",
+          "roles": {
+            "LEX": "HOME",
+            "WNSENSE": "home%1:15:02::"
+          },
+          "start": 47,
+          "end": 51
+        },
+        "root": "#V67232"
+      }
+    ],
+    [
+      {
+        "V67229": {
+          "id": "V67229",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V66154",
+            "LEX": "ALLOWED"
+          },
+          "start": 0,
+          "end": 52
+        },
+        "V66154": {
+          "id": "V66154",
+          "indicator": "F",
+          "type": "ALLOW",
+          "word": "ALLOW",
+          "roles": {
+            "AGENT": "#V66149",
+            "AFFECTED": "#V66165",
+            "FORMAL": "#V66223",
+            "TENSE": "PAST",
+            "LEX": "ALLOWED",
+            "WNSENSE": "allow%2:41:00::"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V66149": {
+          "id": "V66149",
+          "indicator": "THE",
+          "type": "PROFESSIONAL",
+          "word": "TEACHER",
+          "roles": {
+            "ASSOC-POSS": "#V66096",
+            "LEX": "TEACHER",
+            "WNSENSE": "teacher%1:18:00::"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V66096": {
+          "id": "V66096",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "JILL",
+          "roles": {
+            "NAME-OF": "JILL",
+            "LEX": "JILL",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V66165": {
+          "id": "V66165",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 23,
+          "end": 27
+        },
+        "V66223": {
+          "id": "V66223",
+          "indicator": "F",
+          "type": "TAKE-EXECUTE",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V66165",
+            "FORMAL": "#V66258",
+            "LOCATION": "#V66277",
+            "VFORM": "BASE",
+            "LEX": "TAKE",
+            "WNSENSE": "take%2:41:04::"
+          },
+          "start": 27,
+          "end": 51
+        },
+        "V66258": {
+          "id": "V66258",
+          "indicator": "THE",
+          "type": "SCRUTINY",
+          "word": "TEST",
+          "roles": {
+            "LEX": "TEST",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 35,
+          "end": 44
+        },
+        "V66277": {
+          "id": "V66277",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V66291",
+            "FIGURE": "#V66223",
+            "LEX": "AT"
+          },
+          "start": 44,
+          "end": 51
+        },
+        "V66291": {
+          "id": "V66291",
+          "indicator": "BARE",
+          "type": "RELATIVE-LOCATION",
+          "word": "HOME",
+          "roles": {
+            "LEX": "HOME",
+            "WNSENSE": "home%1:15:02::"
+          },
+          "start": 47,
+          "end": 51
+        },
+        "root": "#V67229"
+      }
+    ],
+    [
+      {
+        "V67194": {
+          "id": "V67194",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V66154",
+            "LEX": "ALLOWED"
+          },
+          "start": 0,
+          "end": 52
+        },
+        "V66154": {
+          "id": "V66154",
+          "indicator": "F",
+          "type": "ALLOW",
+          "word": "ALLOW",
+          "roles": {
+            "AGENT": "#V66149",
+            "AFFECTED": "#V66165",
+            "FORMAL": "#V66220",
+            "TENSE": "PAST",
+            "LEX": "ALLOWED",
+            "WNSENSE": "allow%2:41:00::"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V66149": {
+          "id": "V66149",
+          "indicator": "THE",
+          "type": "PROFESSIONAL",
+          "word": "TEACHER",
+          "roles": {
+            "ASSOC-POSS": "#V66099",
+            "LEX": "TEACHER",
+            "WNSENSE": "teacher%1:18:00::"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V66099": {
+          "id": "V66099",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "JILL",
+          "roles": {
+            "NAME-OF": "JILL",
+            "LEX": "JILL",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V66165": {
+          "id": "V66165",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 23,
+          "end": 27
+        },
+        "V66220": {
+          "id": "V66220",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V66165",
+            "AFFECTED": "#V66259",
+            "LOCATION": "#V66277",
+            "VFORM": "BASE",
+            "LEX": "TAKE",
+            "WNSENSE": "take%2:30:01::"
+          },
+          "start": 27,
+          "end": 51
+        },
+        "V66259": {
+          "id": "V66259",
+          "indicator": "THE",
+          "type": "SCRUTINY",
+          "word": "TEST",
+          "roles": {
+            "LEX": "TEST",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 35,
+          "end": 44
+        },
+        "V66277": {
+          "id": "V66277",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V66291",
+            "FIGURE": "#V66220",
+            "LEX": "AT"
+          },
+          "start": 44,
+          "end": 51
+        },
+        "V66291": {
+          "id": "V66291",
+          "indicator": "BARE",
+          "type": "RELATIVE-LOCATION",
+          "word": "HOME",
+          "roles": {
+            "LEX": "HOME",
+            "WNSENSE": "home%1:15:02::"
+          },
+          "start": 47,
+          "end": 51
+        },
+        "root": "#V67194"
+      }
+    ],
+    [
+      {
+        "V67191": {
+          "id": "V67191",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V66154",
+            "LEX": "ALLOWED"
+          },
+          "start": 0,
+          "end": 52
+        },
+        "V66154": {
+          "id": "V66154",
+          "indicator": "F",
+          "type": "ALLOW",
+          "word": "ALLOW",
+          "roles": {
+            "AGENT": "#V66149",
+            "AFFECTED": "#V66165",
+            "FORMAL": "#V66220",
+            "TENSE": "PAST",
+            "LEX": "ALLOWED",
+            "WNSENSE": "allow%2:41:00::"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V66149": {
+          "id": "V66149",
+          "indicator": "THE",
+          "type": "PROFESSIONAL",
+          "word": "TEACHER",
+          "roles": {
+            "ASSOC-POSS": "#V66096",
+            "LEX": "TEACHER",
+            "WNSENSE": "teacher%1:18:00::"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V66096": {
+          "id": "V66096",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "JILL",
+          "roles": {
+            "NAME-OF": "JILL",
+            "LEX": "JILL",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V66165": {
+          "id": "V66165",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 23,
+          "end": 27
+        },
+        "V66220": {
+          "id": "V66220",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V66165",
+            "AFFECTED": "#V66259",
+            "LOCATION": "#V66277",
+            "VFORM": "BASE",
+            "LEX": "TAKE",
+            "WNSENSE": "take%2:30:01::"
+          },
+          "start": 27,
+          "end": 51
+        },
+        "V66259": {
+          "id": "V66259",
+          "indicator": "THE",
+          "type": "SCRUTINY",
+          "word": "TEST",
+          "roles": {
+            "LEX": "TEST",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 35,
+          "end": 44
+        },
+        "V66277": {
+          "id": "V66277",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V66291",
+            "FIGURE": "#V66220",
+            "LEX": "AT"
+          },
+          "start": 44,
+          "end": 51
+        },
+        "V66291": {
+          "id": "V66291",
+          "indicator": "BARE",
+          "type": "RELATIVE-LOCATION",
+          "word": "HOME",
+          "roles": {
+            "LEX": "HOME",
+            "WNSENSE": "home%1:15:02::"
+          },
+          "start": 47,
+          "end": 51
+        },
+        "root": "#V67191"
+      }
+    ],
+    [
+      {
+        "V67156": {
+          "id": "V67156",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V66154",
+            "LEX": "ALLOWED"
+          },
+          "start": 0,
+          "end": 52
+        },
+        "V66154": {
+          "id": "V66154",
+          "indicator": "F",
+          "type": "ALLOW",
+          "word": "ALLOW",
+          "roles": {
+            "AGENT": "#V66149",
+            "AFFECTED": "#V66165",
+            "FORMAL": "#V66221",
+            "TENSE": "PAST",
+            "LEX": "ALLOWED",
+            "WNSENSE": "allow%2:41:00::"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V66149": {
+          "id": "V66149",
+          "indicator": "THE",
+          "type": "PROFESSIONAL",
+          "word": "TEACHER",
+          "roles": {
+            "ASSOC-POSS": "#V66099",
+            "LEX": "TEACHER",
+            "WNSENSE": "teacher%1:18:00::"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V66099": {
+          "id": "V66099",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "JILL",
+          "roles": {
+            "NAME-OF": "JILL",
+            "LEX": "JILL",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V66165": {
+          "id": "V66165",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 23,
+          "end": 27
+        },
+        "V66221": {
+          "id": "V66221",
+          "indicator": "F",
+          "type": "CAUSE-MOVE",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V66165",
+            "AFFECTED": "#V66259",
+            "LOCATION": "#V66277",
+            "VFORM": "BASE",
+            "LEX": "TAKE",
+            "WNSENSE": "take%2:38:05::"
+          },
+          "start": 27,
+          "end": 51
+        },
+        "V66259": {
+          "id": "V66259",
+          "indicator": "THE",
+          "type": "SCRUTINY",
+          "word": "TEST",
+          "roles": {
+            "LEX": "TEST",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 35,
+          "end": 44
+        },
+        "V66277": {
+          "id": "V66277",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V66291",
+            "FIGURE": "#V66221",
+            "LEX": "AT"
+          },
+          "start": 44,
+          "end": 51
+        },
+        "V66291": {
+          "id": "V66291",
+          "indicator": "BARE",
+          "type": "RELATIVE-LOCATION",
+          "word": "HOME",
+          "roles": {
+            "LEX": "HOME",
+            "WNSENSE": "home%1:15:02::"
+          },
+          "start": 47,
+          "end": 51
+        },
+        "root": "#V67156"
+      }
+    ],
+    [
+      {
+        "V67153": {
+          "id": "V67153",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V66154",
+            "LEX": "ALLOWED"
+          },
+          "start": 0,
+          "end": 52
+        },
+        "V66154": {
+          "id": "V66154",
+          "indicator": "F",
+          "type": "ALLOW",
+          "word": "ALLOW",
+          "roles": {
+            "AGENT": "#V66149",
+            "AFFECTED": "#V66165",
+            "FORMAL": "#V66221",
+            "TENSE": "PAST",
+            "LEX": "ALLOWED",
+            "WNSENSE": "allow%2:41:00::"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V66149": {
+          "id": "V66149",
+          "indicator": "THE",
+          "type": "PROFESSIONAL",
+          "word": "TEACHER",
+          "roles": {
+            "ASSOC-POSS": "#V66096",
+            "LEX": "TEACHER",
+            "WNSENSE": "teacher%1:18:00::"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V66096": {
+          "id": "V66096",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "JILL",
+          "roles": {
+            "NAME-OF": "JILL",
+            "LEX": "JILL",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V66165": {
+          "id": "V66165",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 23,
+          "end": 27
+        },
+        "V66221": {
+          "id": "V66221",
+          "indicator": "F",
+          "type": "CAUSE-MOVE",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V66165",
+            "AFFECTED": "#V66259",
+            "LOCATION": "#V66277",
+            "VFORM": "BASE",
+            "LEX": "TAKE",
+            "WNSENSE": "take%2:38:05::"
+          },
+          "start": 27,
+          "end": 51
+        },
+        "V66259": {
+          "id": "V66259",
+          "indicator": "THE",
+          "type": "SCRUTINY",
+          "word": "TEST",
+          "roles": {
+            "LEX": "TEST",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 35,
+          "end": 44
+        },
+        "V66277": {
+          "id": "V66277",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V66291",
+            "FIGURE": "#V66221",
+            "LEX": "AT"
+          },
+          "start": 44,
+          "end": 51
+        },
+        "V66291": {
+          "id": "V66291",
+          "indicator": "BARE",
+          "type": "RELATIVE-LOCATION",
+          "word": "HOME",
+          "roles": {
+            "LEX": "HOME",
+            "WNSENSE": "home%1:15:02::"
+          },
+          "start": 47,
+          "end": 51
+        },
+        "root": "#V67153"
+      }
+    ],
+    [
+      {
+        "V67118": {
+          "id": "V67118",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V66154",
+            "LEX": "ALLOWED"
+          },
+          "start": 0,
+          "end": 52
+        },
+        "V66154": {
+          "id": "V66154",
+          "indicator": "F",
+          "type": "ALLOW",
+          "word": "ALLOW",
+          "roles": {
+            "AGENT": "#V66149",
+            "AFFECTED": "#V66165",
+            "FORMAL": "#V66222",
+            "TENSE": "PAST",
+            "LEX": "ALLOWED",
+            "WNSENSE": "allow%2:41:00::"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V66149": {
+          "id": "V66149",
+          "indicator": "THE",
+          "type": "PROFESSIONAL",
+          "word": "TEACHER",
+          "roles": {
+            "ASSOC-POSS": "#V66099",
+            "LEX": "TEACHER",
+            "WNSENSE": "teacher%1:18:00::"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V66099": {
+          "id": "V66099",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "JILL",
+          "roles": {
+            "NAME-OF": "JILL",
+            "LEX": "JILL",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V66165": {
+          "id": "V66165",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 23,
+          "end": 27
+        },
+        "V66222": {
+          "id": "V66222",
+          "indicator": "F",
+          "type": "IS-COMPATIBLE-WITH",
+          "word": "TAKE",
+          "roles": {
+            "NEUTRAL": "#V66165",
+            "NEUTRAL1": "#V66259",
+            "LOCATION": "#V66277",
+            "VFORM": "BASE",
+            "LEX": "TAKE",
+            "WNSENSE": "take%2:42:03::"
+          },
+          "start": 27,
+          "end": 51
+        },
+        "V66259": {
+          "id": "V66259",
+          "indicator": "THE",
+          "type": "SCRUTINY",
+          "word": "TEST",
+          "roles": {
+            "LEX": "TEST",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 35,
+          "end": 44
+        },
+        "V66277": {
+          "id": "V66277",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V66291",
+            "FIGURE": "#V66222",
+            "LEX": "AT"
+          },
+          "start": 44,
+          "end": 51
+        },
+        "V66291": {
+          "id": "V66291",
+          "indicator": "BARE",
+          "type": "RELATIVE-LOCATION",
+          "word": "HOME",
+          "roles": {
+            "LEX": "HOME",
+            "WNSENSE": "home%1:15:02::"
+          },
+          "start": 47,
+          "end": 51
+        },
+        "root": "#V67118"
+      }
+    ],
+    [
+      {
+        "V67115": {
+          "id": "V67115",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V66154",
+            "LEX": "ALLOWED"
+          },
+          "start": 0,
+          "end": 52
+        },
+        "V66154": {
+          "id": "V66154",
+          "indicator": "F",
+          "type": "ALLOW",
+          "word": "ALLOW",
+          "roles": {
+            "AGENT": "#V66149",
+            "AFFECTED": "#V66165",
+            "FORMAL": "#V66222",
+            "TENSE": "PAST",
+            "LEX": "ALLOWED",
+            "WNSENSE": "allow%2:41:00::"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V66149": {
+          "id": "V66149",
+          "indicator": "THE",
+          "type": "PROFESSIONAL",
+          "word": "TEACHER",
+          "roles": {
+            "ASSOC-POSS": "#V66096",
+            "LEX": "TEACHER",
+            "WNSENSE": "teacher%1:18:00::"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V66096": {
+          "id": "V66096",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "JILL",
+          "roles": {
+            "NAME-OF": "JILL",
+            "LEX": "JILL",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V66165": {
+          "id": "V66165",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 23,
+          "end": 27
+        },
+        "V66222": {
+          "id": "V66222",
+          "indicator": "F",
+          "type": "IS-COMPATIBLE-WITH",
+          "word": "TAKE",
+          "roles": {
+            "NEUTRAL": "#V66165",
+            "NEUTRAL1": "#V66259",
+            "LOCATION": "#V66277",
+            "VFORM": "BASE",
+            "LEX": "TAKE",
+            "WNSENSE": "take%2:42:03::"
+          },
+          "start": 27,
+          "end": 51
+        },
+        "V66259": {
+          "id": "V66259",
+          "indicator": "THE",
+          "type": "SCRUTINY",
+          "word": "TEST",
+          "roles": {
+            "LEX": "TEST",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 35,
+          "end": 44
+        },
+        "V66277": {
+          "id": "V66277",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V66291",
+            "FIGURE": "#V66222",
+            "LEX": "AT"
+          },
+          "start": 44,
+          "end": 51
+        },
+        "V66291": {
+          "id": "V66291",
+          "indicator": "BARE",
+          "type": "RELATIVE-LOCATION",
+          "word": "HOME",
+          "roles": {
+            "LEX": "HOME",
+            "WNSENSE": "home%1:15:02::"
+          },
+          "start": 47,
+          "end": 51
+        },
+        "root": "#V67115"
+      }
+    ],
+    [
+      {
+        "V67087": {
+          "id": "V67087",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V66154",
+            "LEX": "ALLOWED"
+          },
+          "start": 0,
+          "end": 52
+        },
+        "V66154": {
+          "id": "V66154",
+          "indicator": "F",
+          "type": "ALLOW",
+          "word": "ALLOW",
+          "roles": {
+            "AGENT": "#V66149",
+            "AFFECTED": "#V66165",
+            "FORMAL": "#V66223",
+            "TENSE": "PAST",
+            "LEX": "ALLOWED",
+            "WNSENSE": "allow%2:41:00::"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V66149": {
+          "id": "V66149",
+          "indicator": "THE",
+          "type": "PROFESSIONAL",
+          "word": "TEACHER",
+          "roles": {
+            "ASSOC-POSS": "#V66099",
+            "LEX": "TEACHER",
+            "WNSENSE": "teacher%1:18:00::"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V66099": {
+          "id": "V66099",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "JILL",
+          "roles": {
+            "NAME-OF": "JILL",
+            "LEX": "JILL",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V66165": {
+          "id": "V66165",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 23,
+          "end": 27
+        },
+        "V66223": {
+          "id": "V66223",
+          "indicator": "F",
+          "type": "TAKE-EXECUTE",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V66165",
+            "FORMAL": "#V66259",
+            "LOCATION": "#V66277",
+            "VFORM": "BASE",
+            "LEX": "TAKE",
+            "WNSENSE": "take%2:41:04::"
+          },
+          "start": 27,
+          "end": 51
+        },
+        "V66259": {
+          "id": "V66259",
+          "indicator": "THE",
+          "type": "SCRUTINY",
+          "word": "TEST",
+          "roles": {
+            "LEX": "TEST",
+            "WNSENSE": "take%2:31:02"
+          },
+          "start": 35,
+          "end": 44
+        },
+        "V66277": {
+          "id": "V66277",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V66291",
+            "FIGURE": "#V66223",
+            "LEX": "AT"
+          },
+          "start": 44,
+          "end": 51
+        },
+        "V66291": {
+          "id": "V66291",
+          "indicator": "BARE",
+          "type": "RELATIVE-LOCATION",
+          "word": "HOME",
+          "roles": {
+            "LEX": "HOME",
+            "WNSENSE": "home%1:15:02::"
+          },
+          "start": 47,
+          "end": 51
+        },
+        "root": "#V67087"
+      }
+    ]
+  ],
+  "sentence": "Jill's teacher allowed her to take the test at home.  ",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190821T160811",
+    "link": "http://trips.ihmc.us/parser/saved/20190821T160811-STEP-abhatia-2-Jill_s_teacher_allowed_her_to_take_the_t.xml",
+    "judgement": 2
+  }
+}

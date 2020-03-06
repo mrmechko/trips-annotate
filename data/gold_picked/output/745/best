@@ -1,0 +1,24 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V275754 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V275174 [label=<<font color="green"><br /></font> <font color="black">ADDITIVE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">IN-ADDITION</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ADDITIVE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V275234 [label=<<font color="green"><br /></font> <font color="black">MANNER-SAY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">SCREAM</font> <font color="green"><br /></font> <font color="green">scream%2:32:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MANNER-SAY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V275226 [label=<<font color="green"><br /></font> <font color="black">FEMALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">SHE</font> <font color="green"><br /></font> <font color="green">woman%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FEMALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V275240 [label=<<font color="green"><br /></font> <font color="black">WHEN-WHILE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">WHEN</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::WHEN-WHILE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V275265 [label=<<font color="green"><br /></font> <font color="black">FLY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">FLY</font> <font color="green"><br /></font> <font color="green">fly%2:38:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FLY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V275259 [label=<<font color="green"><br /></font> <font color="black">AIR-VEHICLE</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">PLANE</font> <font color="green"><br /></font> <font color="green">plane%1:06:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::AIR-VEHICLE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V275296 [label=<<font color="green"><br /></font> <font color="black">DIRECTION-DOWN</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">DOWN</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DIRECTION-DOWN.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V275265 -> V275296 [label=" RESULT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V275265 -> V275259 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V275240 -> V275234 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V275234 -> V275226 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V275754 -> V275174 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V275174 -> V275754 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V275240 -> V275265 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V275754 -> V275234 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V275234 -> V275240 [label=" TIME   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V275296 -> V275259 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

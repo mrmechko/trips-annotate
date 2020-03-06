@@ -1,0 +1,1287 @@
+{
+  "parse": [
+    {
+      "V168379": {
+        "id": "V168379",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V168046",
+          "LEX": "FORGOT"
+        },
+        "start": 0,
+        "end": 55
+      },
+      "V168046": {
+        "id": "V168046",
+        "indicator": "F",
+        "type": "CANCEL",
+        "word": "FORGET",
+        "roles": {
+          "AGENT": "#V168035",
+          "AFFECTED": "#V168073",
+          "TIME": "#V168077",
+          "TENSE": "PAST",
+          "LEX": "FORGOT",
+          "WNSENSE": "call_off%2:41:00"
+        },
+        "start": 0,
+        "end": 55
+      },
+      "V168035": {
+        "id": "V168035",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "SHE",
+        "roles": {
+          "PROFORM": "SHE",
+          "LEX": "SHE",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V168073": {
+        "id": "V168073",
+        "indicator": "BARE",
+        "type": "RELATIVE-LOCATION",
+        "word": "HOME",
+        "roles": {
+          "LEX": "HOME",
+          "WNSENSE": "home%1:15:02::"
+        },
+        "start": 11,
+        "end": 22
+      },
+      "V168077": {
+        "id": "V168077",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V168095",
+          "FIGURE": "#V168046",
+          "LEX": "WHEN"
+        },
+        "start": 22,
+        "end": 55
+      },
+      "V168095": {
+        "id": "V168095",
+        "indicator": "F",
+        "type": "ARRIVE",
+        "word": "ARRIVE",
+        "roles": {
+          "RESULT": "#V168104",
+          "AGENT": "#V168090",
+          "TENSE": "PAST",
+          "LEX": "ARRIVED",
+          "WNSENSE": "arrive%2:38:00::"
+        },
+        "start": 27,
+        "end": 55
+      },
+      "V168090": {
+        "id": "V168090",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "SHE",
+        "roles": {
+          "PROFORM": "SHE",
+          "LEX": "SHE",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 27,
+        "end": 31
+      },
+      "V168104": {
+        "id": "V168104",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "AT",
+        "roles": {
+          "GROUND": "#V168123",
+          "FIGURE": "#V168090",
+          "LEX": "AT"
+        },
+        "start": 39,
+        "end": 55
+      },
+      "V168123": {
+        "id": "V168123",
+        "indicator": "THE",
+        "type": "EVENT-DEFINED-BY-ACTIVITY",
+        "word": "SLEEPOVER",
+        "roles": {
+          "LEX": "SLEEPOVER",
+          "WNSENSE": "sleepover%1:11:00::"
+        },
+        "start": 42,
+        "end": 55
+      },
+      "root": "#V168379"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V168373": {
+          "id": "V168373",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V168044",
+            "LEX": "FORGOT"
+          },
+          "start": 0,
+          "end": 56
+        },
+        "V168044": {
+          "id": "V168044",
+          "indicator": "F",
+          "type": "FORGET",
+          "word": "FORGET",
+          "roles": {
+            "AGENT": "#V168035",
+            "NEUTRAL": "#V168073",
+            "TIME": "#V168077",
+            "TENSE": "PAST",
+            "LEX": "FORGOT",
+            "WNSENSE": "forget%2:31:01::"
+          },
+          "start": 0,
+          "end": 55
+        },
+        "V168035": {
+          "id": "V168035",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V168073": {
+          "id": "V168073",
+          "indicator": "BARE",
+          "type": "RELATIVE-LOCATION",
+          "word": "HOME",
+          "roles": {
+            "LEX": "HOME",
+            "WNSENSE": "home%1:15:02::"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "V168077": {
+          "id": "V168077",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V168095",
+            "FIGURE": "#V168044",
+            "LEX": "WHEN"
+          },
+          "start": 22,
+          "end": 55
+        },
+        "V168095": {
+          "id": "V168095",
+          "indicator": "F",
+          "type": "ARRIVE",
+          "word": "ARRIVE",
+          "roles": {
+            "RESULT": "#V168104",
+            "AGENT": "#V168090",
+            "TENSE": "PAST",
+            "LEX": "ARRIVED",
+            "WNSENSE": "arrive%2:38:00::"
+          },
+          "start": 27,
+          "end": 55
+        },
+        "V168090": {
+          "id": "V168090",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 27,
+          "end": 31
+        },
+        "V168104": {
+          "id": "V168104",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V168123",
+            "FIGURE": "#V168090",
+            "LEX": "AT"
+          },
+          "start": 39,
+          "end": 55
+        },
+        "V168123": {
+          "id": "V168123",
+          "indicator": "THE",
+          "type": "EVENT-DEFINED-BY-ACTIVITY",
+          "word": "SLEEPOVER",
+          "roles": {
+            "LEX": "SLEEPOVER",
+            "WNSENSE": "sleepover%1:11:00::"
+          },
+          "start": 42,
+          "end": 55
+        },
+        "root": "#V168373"
+      }
+    ],
+    [
+      {
+        "V168415": {
+          "id": "V168415",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V168046",
+            "LEX": "FORGOT"
+          },
+          "start": 0,
+          "end": 56
+        },
+        "V168046": {
+          "id": "V168046",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "FORGET",
+          "roles": {
+            "AGENT": "#V168035",
+            "AFFECTED": "#V168073",
+            "TIME": "#V168077",
+            "TENSE": "PAST",
+            "LEX": "FORGOT",
+            "WNSENSE": "call_off%2:41:00"
+          },
+          "start": 0,
+          "end": 55
+        },
+        "V168035": {
+          "id": "V168035",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V168073": {
+          "id": "V168073",
+          "indicator": "BARE",
+          "type": "RELATIVE-LOCATION",
+          "word": "HOME",
+          "roles": {
+            "LEX": "HOME",
+            "WNSENSE": "home%1:15:02::"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "V168077": {
+          "id": "V168077",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V168095",
+            "FIGURE": "#V168046",
+            "LEX": "WHEN"
+          },
+          "start": 22,
+          "end": 55
+        },
+        "V168095": {
+          "id": "V168095",
+          "indicator": "F",
+          "type": "ARRIVE",
+          "word": "ARRIVE",
+          "roles": {
+            "AGENT": "#V168090",
+            "LOCATION": "#V168104",
+            "TENSE": "PAST",
+            "LEX": "ARRIVED",
+            "WNSENSE": "arrive%2:38:00::"
+          },
+          "start": 27,
+          "end": 55
+        },
+        "V168090": {
+          "id": "V168090",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 27,
+          "end": 31
+        },
+        "V168104": {
+          "id": "V168104",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V168123",
+            "FIGURE": "#V168095",
+            "LEX": "AT"
+          },
+          "start": 39,
+          "end": 55
+        },
+        "V168123": {
+          "id": "V168123",
+          "indicator": "THE",
+          "type": "EVENT-DEFINED-BY-ACTIVITY",
+          "word": "SLEEPOVER",
+          "roles": {
+            "LEX": "SLEEPOVER",
+            "WNSENSE": "sleepover%1:11:00::"
+          },
+          "start": 42,
+          "end": 55
+        },
+        "root": "#V168415"
+      }
+    ],
+    [
+      {
+        "V168405": {
+          "id": "V168405",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V168044",
+            "LEX": "FORGOT"
+          },
+          "start": 0,
+          "end": 56
+        },
+        "V168044": {
+          "id": "V168044",
+          "indicator": "F",
+          "type": "FORGET",
+          "word": "FORGET",
+          "roles": {
+            "AGENT": "#V168035",
+            "NEUTRAL": "#V168073",
+            "TIME": "#V168077",
+            "TENSE": "PAST",
+            "LEX": "FORGOT",
+            "WNSENSE": "forget%2:31:01::"
+          },
+          "start": 0,
+          "end": 55
+        },
+        "V168035": {
+          "id": "V168035",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V168073": {
+          "id": "V168073",
+          "indicator": "BARE",
+          "type": "RELATIVE-LOCATION",
+          "word": "HOME",
+          "roles": {
+            "LEX": "HOME",
+            "WNSENSE": "home%1:15:02::"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "V168077": {
+          "id": "V168077",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V168095",
+            "FIGURE": "#V168044",
+            "LEX": "WHEN"
+          },
+          "start": 22,
+          "end": 55
+        },
+        "V168095": {
+          "id": "V168095",
+          "indicator": "F",
+          "type": "ARRIVE",
+          "word": "ARRIVE",
+          "roles": {
+            "AGENT": "#V168090",
+            "LOCATION": "#V168104",
+            "TENSE": "PAST",
+            "LEX": "ARRIVED",
+            "WNSENSE": "arrive%2:38:00::"
+          },
+          "start": 27,
+          "end": 55
+        },
+        "V168090": {
+          "id": "V168090",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 27,
+          "end": 31
+        },
+        "V168104": {
+          "id": "V168104",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V168123",
+            "FIGURE": "#V168095",
+            "LEX": "AT"
+          },
+          "start": 39,
+          "end": 55
+        },
+        "V168123": {
+          "id": "V168123",
+          "indicator": "THE",
+          "type": "EVENT-DEFINED-BY-ACTIVITY",
+          "word": "SLEEPOVER",
+          "roles": {
+            "LEX": "SLEEPOVER",
+            "WNSENSE": "sleepover%1:11:00::"
+          },
+          "start": 42,
+          "end": 55
+        },
+        "root": "#V168405"
+      }
+    ],
+    [
+      {
+        "V168505": {
+          "id": "V168505",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V168046",
+            "LEX": "FORGOT"
+          },
+          "start": 0,
+          "end": 56
+        },
+        "V168046": {
+          "id": "V168046",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "FORGET",
+          "roles": {
+            "AGENT": "#V168035",
+            "AFFECTED": "#V168073",
+            "TIME": "#V168077",
+            "TENSE": "PAST",
+            "LEX": "FORGOT",
+            "WNSENSE": "call_off%2:41:00"
+          },
+          "start": 0,
+          "end": 55
+        },
+        "V168035": {
+          "id": "V168035",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V168073": {
+          "id": "V168073",
+          "indicator": "BARE",
+          "type": "RELATIVE-LOCATION",
+          "word": "HOME",
+          "roles": {
+            "LEX": "HOME",
+            "WNSENSE": "home%1:15:02::"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "V168077": {
+          "id": "V168077",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V168095",
+            "FIGURE": "#V168046",
+            "LEX": "WHEN"
+          },
+          "start": 22,
+          "end": 55
+        },
+        "V168095": {
+          "id": "V168095",
+          "indicator": "F",
+          "type": "ARRIVE",
+          "word": "ARRIVE",
+          "roles": {
+            "AGENT": "#V168090",
+            "MOD": "#V168103",
+            "TENSE": "PAST",
+            "LEX": "ARRIVED",
+            "WNSENSE": "arrive%2:38:00::"
+          },
+          "start": 27,
+          "end": 55
+        },
+        "V168090": {
+          "id": "V168090",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 27,
+          "end": 31
+        },
+        "V168103": {
+          "id": "V168103",
+          "indicator": "F",
+          "type": "SITUATED-IN",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V168123",
+            "FIGURE": "#V168095",
+            "LEX": "AT"
+          },
+          "start": 39,
+          "end": 55
+        },
+        "V168123": {
+          "id": "V168123",
+          "indicator": "THE",
+          "type": "EVENT-DEFINED-BY-ACTIVITY",
+          "word": "SLEEPOVER",
+          "roles": {
+            "LEX": "SLEEPOVER",
+            "WNSENSE": "sleepover%1:11:00::"
+          },
+          "start": 42,
+          "end": 55
+        },
+        "root": "#V168505"
+      }
+    ],
+    [
+      {
+        "V168495": {
+          "id": "V168495",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V168044",
+            "LEX": "FORGOT"
+          },
+          "start": 0,
+          "end": 56
+        },
+        "V168044": {
+          "id": "V168044",
+          "indicator": "F",
+          "type": "FORGET",
+          "word": "FORGET",
+          "roles": {
+            "AGENT": "#V168035",
+            "NEUTRAL": "#V168073",
+            "TIME": "#V168077",
+            "TENSE": "PAST",
+            "LEX": "FORGOT",
+            "WNSENSE": "forget%2:31:01::"
+          },
+          "start": 0,
+          "end": 55
+        },
+        "V168035": {
+          "id": "V168035",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V168073": {
+          "id": "V168073",
+          "indicator": "BARE",
+          "type": "RELATIVE-LOCATION",
+          "word": "HOME",
+          "roles": {
+            "LEX": "HOME",
+            "WNSENSE": "home%1:15:02::"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "V168077": {
+          "id": "V168077",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V168095",
+            "FIGURE": "#V168044",
+            "LEX": "WHEN"
+          },
+          "start": 22,
+          "end": 55
+        },
+        "V168095": {
+          "id": "V168095",
+          "indicator": "F",
+          "type": "ARRIVE",
+          "word": "ARRIVE",
+          "roles": {
+            "AGENT": "#V168090",
+            "MOD": "#V168103",
+            "TENSE": "PAST",
+            "LEX": "ARRIVED",
+            "WNSENSE": "arrive%2:38:00::"
+          },
+          "start": 27,
+          "end": 55
+        },
+        "V168090": {
+          "id": "V168090",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 27,
+          "end": 31
+        },
+        "V168103": {
+          "id": "V168103",
+          "indicator": "F",
+          "type": "SITUATED-IN",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V168123",
+            "FIGURE": "#V168095",
+            "LEX": "AT"
+          },
+          "start": 39,
+          "end": 55
+        },
+        "V168123": {
+          "id": "V168123",
+          "indicator": "THE",
+          "type": "EVENT-DEFINED-BY-ACTIVITY",
+          "word": "SLEEPOVER",
+          "roles": {
+            "LEX": "SLEEPOVER",
+            "WNSENSE": "sleepover%1:11:00::"
+          },
+          "start": 42,
+          "end": 55
+        },
+        "root": "#V168495"
+      }
+    ],
+    [
+      {
+        "V168626": {
+          "id": "V168626",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V168046",
+            "LEX": "FORGOT"
+          },
+          "start": 0,
+          "end": 56
+        },
+        "V168046": {
+          "id": "V168046",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "FORGET",
+          "roles": {
+            "AGENT": "#V168035",
+            "AFFECTED": "#V168073",
+            "TIME": "#V168077",
+            "TENSE": "PAST",
+            "LEX": "FORGOT",
+            "WNSENSE": "call_off%2:41:00"
+          },
+          "start": 0,
+          "end": 55
+        },
+        "V168035": {
+          "id": "V168035",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V168073": {
+          "id": "V168073",
+          "indicator": "BARE",
+          "type": "RELATIVE-LOCATION",
+          "word": "HOME",
+          "roles": {
+            "LEX": "HOME",
+            "WNSENSE": "home%1:15:02::"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "V168077": {
+          "id": "V168077",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V168095",
+            "FIGURE": "#V168046",
+            "LEX": "WHEN"
+          },
+          "start": 22,
+          "end": 55
+        },
+        "V168095": {
+          "id": "V168095",
+          "indicator": "F",
+          "type": "ARRIVE",
+          "word": "ARRIVE",
+          "roles": {
+            "AGENT": "#V168090",
+            "LOCATION": "#V168104",
+            "TENSE": "PAST",
+            "LEX": "ARRIVED",
+            "WNSENSE": "arrive%2:38:00::"
+          },
+          "start": 27,
+          "end": 55
+        },
+        "V168090": {
+          "id": "V168090",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 27,
+          "end": 31
+        },
+        "V168104": {
+          "id": "V168104",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V168123",
+            "FIGURE": "#V168095",
+            "LEX": "AT"
+          },
+          "start": 39,
+          "end": 55
+        },
+        "V168123": {
+          "id": "V168123",
+          "indicator": "THE",
+          "type": "EVENT-DEFINED-BY-ACTIVITY",
+          "word": "SLEEPOVER",
+          "roles": {
+            "LEX": "SLEEPOVER",
+            "WNSENSE": "sleepover%1:11:00::"
+          },
+          "start": 42,
+          "end": 55
+        },
+        "root": "#V168626"
+      }
+    ],
+    [
+      {
+        "V168616": {
+          "id": "V168616",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V168044",
+            "LEX": "FORGOT"
+          },
+          "start": 0,
+          "end": 56
+        },
+        "V168044": {
+          "id": "V168044",
+          "indicator": "F",
+          "type": "FORGET",
+          "word": "FORGET",
+          "roles": {
+            "AGENT": "#V168035",
+            "NEUTRAL": "#V168073",
+            "TIME": "#V168077",
+            "TENSE": "PAST",
+            "LEX": "FORGOT",
+            "WNSENSE": "forget%2:31:01::"
+          },
+          "start": 0,
+          "end": 55
+        },
+        "V168035": {
+          "id": "V168035",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V168073": {
+          "id": "V168073",
+          "indicator": "BARE",
+          "type": "RELATIVE-LOCATION",
+          "word": "HOME",
+          "roles": {
+            "LEX": "HOME",
+            "WNSENSE": "home%1:15:02::"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "V168077": {
+          "id": "V168077",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V168095",
+            "FIGURE": "#V168044",
+            "LEX": "WHEN"
+          },
+          "start": 22,
+          "end": 55
+        },
+        "V168095": {
+          "id": "V168095",
+          "indicator": "F",
+          "type": "ARRIVE",
+          "word": "ARRIVE",
+          "roles": {
+            "AGENT": "#V168090",
+            "LOCATION": "#V168104",
+            "TENSE": "PAST",
+            "LEX": "ARRIVED",
+            "WNSENSE": "arrive%2:38:00::"
+          },
+          "start": 27,
+          "end": 55
+        },
+        "V168090": {
+          "id": "V168090",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 27,
+          "end": 31
+        },
+        "V168104": {
+          "id": "V168104",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V168123",
+            "FIGURE": "#V168095",
+            "LEX": "AT"
+          },
+          "start": 39,
+          "end": 55
+        },
+        "V168123": {
+          "id": "V168123",
+          "indicator": "THE",
+          "type": "EVENT-DEFINED-BY-ACTIVITY",
+          "word": "SLEEPOVER",
+          "roles": {
+            "LEX": "SLEEPOVER",
+            "WNSENSE": "sleepover%1:11:00::"
+          },
+          "start": 42,
+          "end": 55
+        },
+        "root": "#V168616"
+      }
+    ],
+    [
+      {
+        "V168808": {
+          "id": "V168808",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V168044",
+            "LEX": "FORGOT"
+          },
+          "start": 0,
+          "end": 56
+        },
+        "V168044": {
+          "id": "V168044",
+          "indicator": "F",
+          "type": "FORGET",
+          "word": "FORGET",
+          "roles": {
+            "AGENT": "#V168035",
+            "NEUTRAL": "#V168073",
+            "TIME": "#V168077",
+            "TENSE": "PAST",
+            "LEX": "FORGOT",
+            "WNSENSE": "forget%2:31:01::"
+          },
+          "start": 0,
+          "end": 55
+        },
+        "V168035": {
+          "id": "V168035",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V168073": {
+          "id": "V168073",
+          "indicator": "BARE",
+          "type": "RELATIVE-LOCATION",
+          "word": "HOME",
+          "roles": {
+            "LEX": "HOME",
+            "WNSENSE": "home%1:15:02::"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "V168077": {
+          "id": "V168077",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V168095",
+            "FIGURE": "#V168044",
+            "LEX": "WHEN"
+          },
+          "start": 22,
+          "end": 55
+        },
+        "V168095": {
+          "id": "V168095",
+          "indicator": "F",
+          "type": "ARRIVE",
+          "word": "ARRIVE",
+          "roles": {
+            "AGENT": "#V168090",
+            "MOD": "#V168103",
+            "TENSE": "PAST",
+            "LEX": "ARRIVED",
+            "WNSENSE": "arrive%2:38:00::"
+          },
+          "start": 27,
+          "end": 55
+        },
+        "V168090": {
+          "id": "V168090",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 27,
+          "end": 31
+        },
+        "V168103": {
+          "id": "V168103",
+          "indicator": "F",
+          "type": "SITUATED-IN",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V168123",
+            "FIGURE": "#V168095",
+            "LEX": "AT"
+          },
+          "start": 39,
+          "end": 55
+        },
+        "V168123": {
+          "id": "V168123",
+          "indicator": "THE",
+          "type": "EVENT-DEFINED-BY-ACTIVITY",
+          "word": "SLEEPOVER",
+          "roles": {
+            "LEX": "SLEEPOVER",
+            "WNSENSE": "sleepover%1:11:00::"
+          },
+          "start": 42,
+          "end": 55
+        },
+        "root": "#V168808"
+      }
+    ],
+    [
+      {
+        "V168773": {
+          "id": "V168773",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V168045",
+            "LEX": "FORGOT"
+          },
+          "start": 0,
+          "end": 56
+        },
+        "V168045": {
+          "id": "V168045",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "FORGET",
+          "roles": {
+            "AGENT": "#V168035",
+            "AFFECTED": "#V168148",
+            "MOD": "#V168060",
+            "TENSE": "PAST",
+            "LEX": "FORGOT",
+            "WNSENSE": "call_off%2:41:00"
+          },
+          "start": 0,
+          "end": 55
+        },
+        "V168035": {
+          "id": "V168035",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V168060": {
+          "id": "V168060",
+          "indicator": "F",
+          "type": "ASSOCIATED-INFORMATION",
+          "word": "ABOUT",
+          "roles": {
+            "GROUND": "#V168073",
+            "FIGURE": "#V168045",
+            "LEX": "ABOUT",
+            "WNSENSE": "about%4:02:00::"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "V168073": {
+          "id": "V168073",
+          "indicator": "BARE",
+          "type": "RELATIVE-LOCATION",
+          "word": "HOME",
+          "roles": {
+            "LEX": "HOME",
+            "WNSENSE": "home%1:15:02::"
+          },
+          "start": 17,
+          "end": 22
+        },
+        "V168148": {
+          "id": "V168148",
+          "indicator": "THE",
+          "type": "TIME-POINT",
+          "word": null,
+          "roles": {
+            "SUCHTHAT": "#V168095",
+            "LEX": "WHEN"
+          },
+          "start": 22,
+          "end": 55
+        },
+        "V168095": {
+          "id": "V168095",
+          "indicator": "F",
+          "type": "ARRIVE",
+          "word": "ARRIVE",
+          "roles": {
+            "TIME": "#V168081",
+            "RESULT": "#V168104",
+            "AGENT": "#V168090",
+            "WNSENSE": "arrive%2:38:00::"
+          },
+          "start": 22,
+          "end": 55
+        },
+        "V168081": {
+          "id": "V168081",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V168148",
+            "FIGURE": "#V168095",
+            "LEX": "WHEN"
+          },
+          "start": 22,
+          "end": 27
+        },
+        "V168090": {
+          "id": "V168090",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 27,
+          "end": 31
+        },
+        "V168104": {
+          "id": "V168104",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V168123",
+            "FIGURE": "#V168090",
+            "LEX": "AT"
+          },
+          "start": 39,
+          "end": 55
+        },
+        "V168123": {
+          "id": "V168123",
+          "indicator": "THE",
+          "type": "EVENT-DEFINED-BY-ACTIVITY",
+          "word": "SLEEPOVER",
+          "roles": {
+            "LEX": "SLEEPOVER",
+            "WNSENSE": "sleepover%1:11:00::"
+          },
+          "start": 42,
+          "end": 55
+        },
+        "root": "#V168773"
+      }
+    ]
+  ],
+  "sentence": "She forgot about home when she arrived at the sleepover.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190816T132220",
+    "link": "http://trips.ihmc.us/parser/saved/20190816T132220-STEP-abhatia-1-She_forgot_about_home_when_she_arrived_a.xml",
+    "judgement": 1
+  }
+}

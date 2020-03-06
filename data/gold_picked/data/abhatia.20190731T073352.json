@@ -1,0 +1,544 @@
+{
+  "parse": [
+    {
+      "V206061": {
+        "id": "V206061",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V201974",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 43
+      },
+      "V201974": {
+        "id": "V201974",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V201548",
+          "SEQUENCE1": "#V201589",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 43
+      },
+      "V201589": {
+        "id": "V201589",
+        "indicator": "F",
+        "type": "HAVE",
+        "word": "HAVE",
+        "roles": {
+          "NEUTRAL": "#V201514",
+          "NEUTRAL1": "#V201648",
+          "LOCATION": "#V201658",
+          "LEX": "HAD",
+          "WNSENSE": "have%2:40:00::"
+        },
+        "start": 0,
+        "end": 43
+      },
+      "V201548": {
+        "id": "V201548",
+        "indicator": "F",
+        "type": "WORKING-OUT",
+        "word": "WORK",
+        "roles": {
+          "DEGREE": "#V201536",
+          "AFFECTED": "#V201514",
+          "LEX": "WORKED",
+          "WNSENSE": "work%2:29:00::"
+        },
+        "start": 0,
+        "end": 43
+      },
+      "V201536": {
+        "id": "V201536",
+        "indicator": "F",
+        "type": "DEGREE-MODIFIER-HIGH",
+        "word": "OVER-",
+        "roles": {
+          "FIGURE": "#V201548"
+        },
+        "start": 0,
+        "end": 43
+      },
+      "V201514": {
+        "id": "V201514",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "SHE",
+        "roles": {
+          "PROFORM": "SHE",
+          "LEX": "SHE",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V201648": {
+        "id": "V201648",
+        "indicator": "QUANTIFIER",
+        "type": "DURATION-SCALE",
+        "word": "TIME",
+        "roles": {
+          "QUAN": "NONE",
+          "MOD": "#V201633",
+          "LEX": "TIME",
+          "WNSENSE": "time%1:03:00::"
+        },
+        "start": 27,
+        "end": 40
+      },
+      "V201633": {
+        "id": "V201633",
+        "indicator": "F",
+        "type": "COMMERCE-PAY",
+        "word": "PAY",
+        "roles": {
+          "AFFECTED-RESULT": "#V201648",
+          "LEX": "PAID",
+          "WNSENSE": "pay%2:40:00::"
+        },
+        "start": 30,
+        "end": 35
+      },
+      "V201658": {
+        "id": "V201658",
+        "indicator": "F",
+        "type": "DIRECTION",
+        "word": "OFF",
+        "roles": {
+          "FIGURE": "#V201589",
+          "LEX": "OFF",
+          "WNSENSE": "direction%1:15:00"
+        },
+        "start": 40,
+        "end": 43
+      },
+      "root": "#V206061"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V206114": {
+          "id": "V206114",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V202647",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 44
+        },
+        "V202647": {
+          "id": "V202647",
+          "indicator": "F",
+          "type": "EVENT-OF-STATE",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V201521",
+            "SEQUENCE1": "#V201589",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V201589": {
+          "id": "V201589",
+          "indicator": "F",
+          "type": "HAVE",
+          "word": "HAVE",
+          "roles": {
+            "NEUTRAL": "#V201514",
+            "NEUTRAL1": "#V201648",
+            "LOCATION": "#V201658",
+            "LEX": "HAD",
+            "WNSENSE": "have%2:40:00::"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V201521": {
+          "id": "V201521",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V201514",
+            "FORMAL": "#V201572",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V201514": {
+          "id": "V201514",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V201572": {
+          "id": "V201572",
+          "indicator": "F",
+          "type": "PROPERTY-VAL",
+          "word": "OVERWORKED",
+          "roles": {
+            "FIGURE": "#V201514",
+            "SCALE": "DOMAIN",
+            "LEX": "OVERWORKED"
+          },
+          "start": 8,
+          "end": 19
+        },
+        "V201648": {
+          "id": "V201648",
+          "indicator": "QUANTIFIER",
+          "type": "DURATION-SCALE",
+          "word": "TIME",
+          "roles": {
+            "QUAN": "NONE",
+            "MOD": "#V201633",
+            "LEX": "TIME",
+            "WNSENSE": "time%1:03:00::"
+          },
+          "start": 27,
+          "end": 40
+        },
+        "V201633": {
+          "id": "V201633",
+          "indicator": "F",
+          "type": "COMMERCE-PAY",
+          "word": "PAY",
+          "roles": {
+            "AFFECTED-RESULT": "#V201648",
+            "LEX": "PAID",
+            "WNSENSE": "pay%2:40:00::"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V201658": {
+          "id": "V201658",
+          "indicator": "F",
+          "type": "DIRECTION",
+          "word": "OFF",
+          "roles": {
+            "FIGURE": "#V201589",
+            "LEX": "OFF",
+            "WNSENSE": "direction%1:15:00"
+          },
+          "start": 40,
+          "end": 43
+        },
+        "root": "#V206114"
+      }
+    ],
+    [
+      {
+        "V206096": {
+          "id": "V206096",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V202648",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 44
+        },
+        "V202648": {
+          "id": "V202648",
+          "indicator": "F",
+          "type": "EVENT-OF-STATE",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V201521",
+            "SEQUENCE1": "#V201589",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V201589": {
+          "id": "V201589",
+          "indicator": "F",
+          "type": "HAVE",
+          "word": "HAVE",
+          "roles": {
+            "NEUTRAL": "#V201514",
+            "NEUTRAL1": "#V201648",
+            "LOCATION": "#V201658",
+            "LEX": "HAD",
+            "WNSENSE": "have%2:40:00::"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V201521": {
+          "id": "V201521",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V201514",
+            "FORMAL": "#V201572",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V201514": {
+          "id": "V201514",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V201572": {
+          "id": "V201572",
+          "indicator": "F",
+          "type": "PROPERTY-VAL",
+          "word": "OVERWORKED",
+          "roles": {
+            "FIGURE": "#V201514",
+            "SCALE": "DOMAIN",
+            "LEX": "OVERWORKED"
+          },
+          "start": 8,
+          "end": 19
+        },
+        "V201648": {
+          "id": "V201648",
+          "indicator": "QUANTIFIER",
+          "type": "DURATION-SCALE",
+          "word": "TIME",
+          "roles": {
+            "QUAN": "NONE",
+            "MOD": "#V201633",
+            "LEX": "TIME",
+            "WNSENSE": "time%1:03:00::"
+          },
+          "start": 27,
+          "end": 40
+        },
+        "V201633": {
+          "id": "V201633",
+          "indicator": "F",
+          "type": "COMMERCE-PAY",
+          "word": "PAY",
+          "roles": {
+            "AFFECTED-RESULT": "#V201648",
+            "LEX": "PAID",
+            "WNSENSE": "pay%2:40:00::"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V201658": {
+          "id": "V201658",
+          "indicator": "F",
+          "type": "DIRECTION",
+          "word": "OFF",
+          "roles": {
+            "FIGURE": "#V201589",
+            "LEX": "OFF",
+            "WNSENSE": "direction%1:15:00"
+          },
+          "start": 40,
+          "end": 43
+        },
+        "root": "#V206096"
+      }
+    ],
+    [
+      {
+        "V202354": {
+          "id": "V202354",
+          "indicator": "SA-SEQ",
+          "type": "SA-SEQ",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V202236",
+            "ACT1": "#V206306",
+            "LEX": "WORKED"
+          },
+          "start": 0,
+          "end": 44
+        },
+        "V202236": {
+          "id": "V202236",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V201548",
+            "LEX": "WORKED"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V201548": {
+          "id": "V201548",
+          "indicator": "F",
+          "type": "WORKING-OUT",
+          "word": "WORK",
+          "roles": {
+            "DEGREE": "#V201536",
+            "AFFECTED": "#V201514",
+            "TENSE": "PAST",
+            "PASSIVE": "+",
+            "LEX": "WORKED",
+            "WNSENSE": "work%2:29:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V201536": {
+          "id": "V201536",
+          "indicator": "F",
+          "type": "DEGREE-MODIFIER-HIGH",
+          "word": "OVER-",
+          "roles": {
+            "FIGURE": "#V201548"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V201514": {
+          "id": "V201514",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V206306": {
+          "id": "V206306",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V201589",
+            "LEX": "HAD"
+          },
+          "start": 23,
+          "end": 43
+        },
+        "V201589": {
+          "id": "V201589",
+          "indicator": "F",
+          "type": "HAVE",
+          "word": "HAVE",
+          "roles": {
+            "NEUTRAL": "#V206307",
+            "NEUTRAL1": "#V201648",
+            "LOCATION": "#V201658",
+            "TENSE": "PAST",
+            "LEX": "HAD",
+            "WNSENSE": "have%2:40:00::"
+          },
+          "start": 23,
+          "end": 43
+        },
+        "V206307": {
+          "id": "V206307",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 23,
+          "end": 43
+        },
+        "V201648": {
+          "id": "V201648",
+          "indicator": "QUANTIFIER",
+          "type": "DURATION-SCALE",
+          "word": "TIME",
+          "roles": {
+            "QUAN": "NONE",
+            "MOD": "#V201633",
+            "LEX": "TIME",
+            "WNSENSE": "time%1:03:00::"
+          },
+          "start": 27,
+          "end": 40
+        },
+        "V201633": {
+          "id": "V201633",
+          "indicator": "F",
+          "type": "COMMERCE-PAY",
+          "word": "PAY",
+          "roles": {
+            "AFFECTED-RESULT": "#V201648",
+            "LEX": "PAID",
+            "WNSENSE": "pay%2:40:00::"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V201658": {
+          "id": "V201658",
+          "indicator": "F",
+          "type": "DIRECTION",
+          "word": "OFF",
+          "roles": {
+            "FIGURE": "#V201589",
+            "LEX": "OFF",
+            "WNSENSE": "direction%1:15:00"
+          },
+          "start": 40,
+          "end": 43
+        },
+        "root": "#V202354"
+      }
+    ]
+  ],
+  "sentence": "She was overworked and had no paid time off.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190731T073352",
+    "link": "http://trips.ihmc.us/parser/saved/20190731T073352-STEP-abhatia-none-She_was_overworked_and_had_no_paid_time_.xml",
+    "judgement": -1
+  }
+}

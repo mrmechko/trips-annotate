@@ -1,0 +1,482 @@
+{
+  "parse": [
+    {
+      "V135077": {
+        "id": "V135077",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V134513",
+          "LEX": "TRYING"
+        },
+        "start": 0,
+        "end": 45
+      },
+      "V134513": {
+        "id": "V134513",
+        "indicator": "F",
+        "type": "TRY",
+        "word": "TRY",
+        "roles": {
+          "AGENT": "#V134489",
+          "FORMAL": "#V134551",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "TRYING",
+          "WNSENSE": "try%1:04:00::"
+        },
+        "start": 0,
+        "end": 45
+      },
+      "V134489": {
+        "id": "V134489",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "KATHY",
+        "roles": {
+          "NAME-OF": "KATHY",
+          "LEX": "KATHY",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 0,
+        "end": 6
+      },
+      "V134551": {
+        "id": "V134551",
+        "indicator": "F",
+        "type": "SELECT",
+        "word": "PICK",
+        "roles": {
+          "AGENT": "#V134489",
+          "NEUTRAL": "#V134606",
+          "REASON": "#V134619",
+          "VFORM": "BASE",
+          "LEX": "PICK",
+          "WNSENSE": "pick%2:31:00::"
+        },
+        "start": 17,
+        "end": 45
+      },
+      "V134606": {
+        "id": "V134606",
+        "indicator": "A",
+        "type": "PLACE",
+        "word": "PLACE",
+        "roles": {
+          "LEX": "PLACE",
+          "WNSENSE": "place%1:15:00::"
+        },
+        "start": 25,
+        "end": 33
+      },
+      "V134619": {
+        "id": "V134619",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V134637",
+          "FIGURE": "#V134551",
+          "LEX": "TO"
+        },
+        "start": 33,
+        "end": 45
+      },
+      "V134637": {
+        "id": "V134637",
+        "indicator": "F",
+        "type": "EAT",
+        "word": "EAT",
+        "roles": {
+          "AFFECTED": "#V134648",
+          "VFORM": "BASE",
+          "LEX": "EAT",
+          "WNSENSE": "eat%2:34:00::"
+        },
+        "start": 36,
+        "end": 45
+      },
+      "V134648": {
+        "id": "V134648",
+        "indicator": "BARE",
+        "type": "FOOD",
+        "word": "LUNCH",
+        "roles": {
+          "LEX": "LUNCH",
+          "WNSENSE": "lunch%1:13:00::"
+        },
+        "start": 40,
+        "end": 45
+      },
+      "root": "#V135077"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V135220": {
+          "id": "V135220",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V134513",
+            "LEX": "TRYING"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V134513": {
+          "id": "V134513",
+          "indicator": "F",
+          "type": "TRY",
+          "word": "TRY",
+          "roles": {
+            "AGENT": "#V134489",
+            "FORMAL": "#V134551",
+            "REASON": "#V134619",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "TRYING",
+            "WNSENSE": "try%1:04:00::"
+          },
+          "start": 0,
+          "end": 45
+        },
+        "V134489": {
+          "id": "V134489",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "KATHY",
+          "roles": {
+            "NAME-OF": "KATHY",
+            "LEX": "KATHY",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V134551": {
+          "id": "V134551",
+          "indicator": "F",
+          "type": "SELECT",
+          "word": "PICK",
+          "roles": {
+            "AGENT": "#V134489",
+            "NEUTRAL": "#V134606",
+            "VFORM": "BASE",
+            "LEX": "PICK",
+            "WNSENSE": "pick%2:31:00::"
+          },
+          "start": 17,
+          "end": 33
+        },
+        "V134606": {
+          "id": "V134606",
+          "indicator": "A",
+          "type": "PLACE",
+          "word": "PLACE",
+          "roles": {
+            "LEX": "PLACE",
+            "WNSENSE": "place%1:15:00::"
+          },
+          "start": 25,
+          "end": 33
+        },
+        "V134619": {
+          "id": "V134619",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V134637",
+            "FIGURE": "#V134513",
+            "LEX": "TO"
+          },
+          "start": 33,
+          "end": 45
+        },
+        "V134637": {
+          "id": "V134637",
+          "indicator": "F",
+          "type": "EAT",
+          "word": "EAT",
+          "roles": {
+            "AFFECTED": "#V134648",
+            "VFORM": "BASE",
+            "LEX": "EAT",
+            "WNSENSE": "eat%2:34:00::"
+          },
+          "start": 36,
+          "end": 45
+        },
+        "V134648": {
+          "id": "V134648",
+          "indicator": "BARE",
+          "type": "FOOD",
+          "word": "LUNCH",
+          "roles": {
+            "LEX": "LUNCH",
+            "WNSENSE": "lunch%1:13:00::"
+          },
+          "start": 40,
+          "end": 45
+        },
+        "root": "#V135220"
+      }
+    ],
+    [
+      {
+        "V137673": {
+          "id": "V137673",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V134513",
+            "LEX": "TRYING"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V134513": {
+          "id": "V134513",
+          "indicator": "F",
+          "type": "TRY",
+          "word": "TRY",
+          "roles": {
+            "AGENT": "#V134489",
+            "FORMAL": "#V134552",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "TRYING",
+            "WNSENSE": "try%1:04:00::"
+          },
+          "start": 0,
+          "end": 45
+        },
+        "V134489": {
+          "id": "V134489",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "KATHY",
+          "roles": {
+            "NAME-OF": "KATHY",
+            "LEX": "KATHY",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V134552": {
+          "id": "V134552",
+          "indicator": "F",
+          "type": "SELECT",
+          "word": "PICK",
+          "roles": {
+            "AGENT": "#V134489",
+            "FORMAL": "#V134606",
+            "REASON": "#V134619",
+            "VFORM": "BASE",
+            "LEX": "PICK",
+            "WNSENSE": "pick%2:31:00::"
+          },
+          "start": 17,
+          "end": 45
+        },
+        "V134606": {
+          "id": "V134606",
+          "indicator": "F",
+          "type": "PLACE",
+          "word": "PLACE",
+          "roles": {
+            "LEX": "PLACE",
+            "WNSENSE": "place%1:15:00::"
+          },
+          "start": 25,
+          "end": 33
+        },
+        "V134619": {
+          "id": "V134619",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V134637",
+            "FIGURE": "#V134552",
+            "LEX": "TO"
+          },
+          "start": 33,
+          "end": 45
+        },
+        "V134637": {
+          "id": "V134637",
+          "indicator": "F",
+          "type": "EAT",
+          "word": "EAT",
+          "roles": {
+            "AFFECTED": "#V134648",
+            "VFORM": "BASE",
+            "LEX": "EAT",
+            "WNSENSE": "eat%2:34:00::"
+          },
+          "start": 36,
+          "end": 45
+        },
+        "V134648": {
+          "id": "V134648",
+          "indicator": "BARE",
+          "type": "FOOD",
+          "word": "LUNCH",
+          "roles": {
+            "LEX": "LUNCH",
+            "WNSENSE": "lunch%1:13:00::"
+          },
+          "start": 40,
+          "end": 45
+        },
+        "root": "#V137673"
+      }
+    ],
+    [
+      {
+        "V138690": {
+          "id": "V138690",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V134513",
+            "LEX": "TRYING"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V134513": {
+          "id": "V134513",
+          "indicator": "F",
+          "type": "TRY",
+          "word": "TRY",
+          "roles": {
+            "AGENT": "#V134489",
+            "FORMAL": "#V134551",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "TRYING",
+            "WNSENSE": "try%1:04:00::"
+          },
+          "start": 0,
+          "end": 45
+        },
+        "V134489": {
+          "id": "V134489",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "KATHY",
+          "roles": {
+            "NAME-OF": "KATHY",
+            "LEX": "KATHY",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V134551": {
+          "id": "V134551",
+          "indicator": "F",
+          "type": "SELECT",
+          "word": "PICK",
+          "roles": {
+            "AGENT": "#V134489",
+            "NEUTRAL": "#V134606",
+            "REASON": "#V134619",
+            "VFORM": "BASE",
+            "LEX": "PICK",
+            "WNSENSE": "pick%2:31:00::"
+          },
+          "start": 17,
+          "end": 45
+        },
+        "V134606": {
+          "id": "V134606",
+          "indicator": "BARE",
+          "type": "PLACE",
+          "word": "PLACE",
+          "roles": {
+            "ASSOC-WITH": "#V134577",
+            "LEX": "PLACE",
+            "WNSENSE": "place%1:15:00::"
+          },
+          "start": 25,
+          "end": 33
+        },
+        "V134577": {
+          "id": "V134577",
+          "indicator": "THE",
+          "type": "LETTER-SYMBOL",
+          "word": null,
+          "roles": {
+            "NAME-OF": "A",
+            "LEX": "A",
+            "WNSENSE": "a%1:10:00::"
+          },
+          "start": 25,
+          "end": 27
+        },
+        "V134619": {
+          "id": "V134619",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V134637",
+            "FIGURE": "#V134551",
+            "LEX": "TO"
+          },
+          "start": 33,
+          "end": 45
+        },
+        "V134637": {
+          "id": "V134637",
+          "indicator": "F",
+          "type": "EAT",
+          "word": "EAT",
+          "roles": {
+            "AFFECTED": "#V134648",
+            "VFORM": "BASE",
+            "LEX": "EAT",
+            "WNSENSE": "eat%2:34:00::"
+          },
+          "start": 36,
+          "end": 45
+        },
+        "V134648": {
+          "id": "V134648",
+          "indicator": "BARE",
+          "type": "FOOD",
+          "word": "LUNCH",
+          "roles": {
+            "LEX": "LUNCH",
+            "WNSENSE": "lunch%1:13:00::"
+          },
+          "start": 40,
+          "end": 45
+        },
+        "root": "#V138690"
+      }
+    ]
+  ],
+  "sentence": "Kathy was trying to pick a place to eat lunch.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190730T055910",
+    "link": "http://trips.ihmc.us/parser/saved/20190730T055910-STEP-abhatia-0-Kathy_was_trying_to_pick_a_place_to_eat_.xml",
+    "judgement": 0
+  }
+}

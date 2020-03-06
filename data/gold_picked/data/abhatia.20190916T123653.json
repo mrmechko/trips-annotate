@@ -1,0 +1,880 @@
+{
+  "parse": [
+    {
+      "V40790": {
+        "id": "V40790",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V40441",
+          "LEX": "SLEEP"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V40441": {
+        "id": "V40441",
+        "indicator": "F",
+        "type": "SLEEP",
+        "word": "SLEEP",
+        "roles": {
+          "AFFECTED": "#V40407",
+          "TIME": "#V40460",
+          "TENSE": "PRES",
+          "MODALITY": "(:* CONDITIONAL COULD)",
+          "NEGATION": "+",
+          "LEX": "SLEEP",
+          "WNSENSE": "sleep%1:26:00::"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V40407": {
+        "id": "V40407",
+        "indicator": "THE-SET",
+        "type": "CHILD",
+        "word": "KID",
+        "roles": {
+          "LEX": "KIDS",
+          "WNSENSE": "kid%1:18:00::"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V40460": {
+        "id": "V40460",
+        "indicator": "F",
+        "type": "BEFORE",
+        "word": "BEFORE",
+        "roles": {
+          "EXTENT": "#V40453",
+          "GROUND": "#V40537",
+          "FIGURE": "#V40441"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V40537": {
+        "id": "V40537",
+        "indicator": "IMPRO",
+        "type": "ANY-SEM",
+        "word": null,
+        "roles": {
+          "COREF": "#V40453"
+        },
+        "start": 24,
+        "end": 40
+      },
+      "V40453": {
+        "id": "V40453",
+        "indicator": "THE",
+        "type": "QUANTITY",
+        "word": null,
+        "roles": {
+          "UNIT": "(:* TIME-UNIT NIGHT)",
+          "SCALE": "DURATION-SCALE",
+          "LEX": "NIGHT",
+          "WNSENSE": "night%1:28:02::"
+        },
+        "start": 24,
+        "end": 34
+      },
+      "root": "#V40790"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V40787": {
+          "id": "V40787",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40441",
+            "LEX": "SLEEP"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V40441": {
+          "id": "V40441",
+          "indicator": "F",
+          "type": "SLEEP",
+          "word": "SLEEP",
+          "roles": {
+            "AFFECTED": "#V40406",
+            "TIME": "#V40460",
+            "TENSE": "PRES",
+            "MODALITY": "(:* CONDITIONAL COULD)",
+            "NEGATION": "+",
+            "LEX": "SLEEP",
+            "WNSENSE": "sleep%1:26:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V40406": {
+          "id": "V40406",
+          "indicator": "THE-SET",
+          "type": "CHILD",
+          "word": "KID",
+          "roles": {
+            "LEX": "KIDS",
+            "WNSENSE": "kid%1:18:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V40460": {
+          "id": "V40460",
+          "indicator": "F",
+          "type": "BEFORE",
+          "word": "BEFORE",
+          "roles": {
+            "EXTENT": "#V40453",
+            "GROUND": "#V40537",
+            "FIGURE": "#V40441"
+          },
+          "start": 24,
+          "end": 40
+        },
+        "V40537": {
+          "id": "V40537",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 24,
+          "end": 40
+        },
+        "V40453": {
+          "id": "V40453",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* TIME-UNIT NIGHT)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:02::"
+          },
+          "start": 24,
+          "end": 34
+        },
+        "root": "#V40787"
+      }
+    ],
+    [
+      {
+        "V40825": {
+          "id": "V40825",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40441",
+            "LEX": "SLEEP"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V40441": {
+          "id": "V40441",
+          "indicator": "F",
+          "type": "SLEEP",
+          "word": "SLEEP",
+          "roles": {
+            "AFFECTED": "#V40407",
+            "TIME": "#V40460",
+            "TENSE": "PRES",
+            "MODALITY": "(:* CONDITIONAL COULD)",
+            "NEGATION": "+",
+            "LEX": "SLEEP",
+            "WNSENSE": "sleep%1:26:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V40407": {
+          "id": "V40407",
+          "indicator": "THE-SET",
+          "type": "CHILD",
+          "word": "KID",
+          "roles": {
+            "LEX": "KIDS",
+            "WNSENSE": "kid%1:18:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V40460": {
+          "id": "V40460",
+          "indicator": "F",
+          "type": "BEFORE",
+          "word": "BEFORE",
+          "roles": {
+            "EXTENT": "#V40453",
+            "GROUND": "#V40537",
+            "FIGURE": "#V40441"
+          },
+          "start": 24,
+          "end": 40
+        },
+        "V40537": {
+          "id": "V40537",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 24,
+          "end": 40
+        },
+        "V40453": {
+          "id": "V40453",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* TIME-UNIT NIGHT)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:02::"
+          },
+          "start": 24,
+          "end": 34
+        },
+        "root": "#V40825"
+      }
+    ],
+    [
+      {
+        "V40822": {
+          "id": "V40822",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40441",
+            "LEX": "SLEEP"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V40441": {
+          "id": "V40441",
+          "indicator": "F",
+          "type": "SLEEP",
+          "word": "SLEEP",
+          "roles": {
+            "AFFECTED": "#V40406",
+            "TIME": "#V40460",
+            "TENSE": "PRES",
+            "MODALITY": "(:* CONDITIONAL COULD)",
+            "NEGATION": "+",
+            "LEX": "SLEEP",
+            "WNSENSE": "sleep%1:26:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V40406": {
+          "id": "V40406",
+          "indicator": "THE-SET",
+          "type": "CHILD",
+          "word": "KID",
+          "roles": {
+            "LEX": "KIDS",
+            "WNSENSE": "kid%1:18:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V40460": {
+          "id": "V40460",
+          "indicator": "F",
+          "type": "BEFORE",
+          "word": "BEFORE",
+          "roles": {
+            "EXTENT": "#V40453",
+            "GROUND": "#V40537",
+            "FIGURE": "#V40441"
+          },
+          "start": 24,
+          "end": 40
+        },
+        "V40537": {
+          "id": "V40537",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 24,
+          "end": 40
+        },
+        "V40453": {
+          "id": "V40453",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* TIME-UNIT NIGHT)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:02::"
+          },
+          "start": 24,
+          "end": 34
+        },
+        "root": "#V40822"
+      }
+    ],
+    [
+      {
+        "V40808": {
+          "id": "V40808",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40441",
+            "LEX": "SLEEP"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V40441": {
+          "id": "V40441",
+          "indicator": "F",
+          "type": "SLEEP",
+          "word": "SLEEP",
+          "roles": {
+            "AFFECTED": "#V40407",
+            "TIME": "#V40460",
+            "TENSE": "PRES",
+            "MODALITY": "(:* CONDITIONAL COULD)",
+            "NEGATION": "+",
+            "LEX": "SLEEP",
+            "WNSENSE": "sleep%1:26:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V40407": {
+          "id": "V40407",
+          "indicator": "INDEF-SET",
+          "type": "CHILD",
+          "word": "KID",
+          "roles": {
+            "ASSOC-WITH": "#V40402",
+            "LEX": "KIDS",
+            "WNSENSE": "kid%1:18:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V40402": {
+          "id": "V40402",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "NAME-OF": "THE",
+            "LEX": "THE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V40460": {
+          "id": "V40460",
+          "indicator": "F",
+          "type": "BEFORE",
+          "word": "BEFORE",
+          "roles": {
+            "EXTENT": "#V40453",
+            "GROUND": "#V40537",
+            "FIGURE": "#V40441"
+          },
+          "start": 24,
+          "end": 40
+        },
+        "V40537": {
+          "id": "V40537",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 24,
+          "end": 40
+        },
+        "V40453": {
+          "id": "V40453",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* TIME-UNIT NIGHT)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:02::"
+          },
+          "start": 24,
+          "end": 34
+        },
+        "root": "#V40808"
+      }
+    ],
+    [
+      {
+        "V40805": {
+          "id": "V40805",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40441",
+            "LEX": "SLEEP"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V40441": {
+          "id": "V40441",
+          "indicator": "F",
+          "type": "SLEEP",
+          "word": "SLEEP",
+          "roles": {
+            "AFFECTED": "#V40406",
+            "TIME": "#V40460",
+            "TENSE": "PRES",
+            "MODALITY": "(:* CONDITIONAL COULD)",
+            "NEGATION": "+",
+            "LEX": "SLEEP",
+            "WNSENSE": "sleep%1:26:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V40406": {
+          "id": "V40406",
+          "indicator": "INDEF-SET",
+          "type": "CHILD",
+          "word": "KID",
+          "roles": {
+            "ASSOC-WITH": "#V40402",
+            "LEX": "KIDS",
+            "WNSENSE": "kid%1:18:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V40402": {
+          "id": "V40402",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "NAME-OF": "THE",
+            "LEX": "THE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V40460": {
+          "id": "V40460",
+          "indicator": "F",
+          "type": "BEFORE",
+          "word": "BEFORE",
+          "roles": {
+            "EXTENT": "#V40453",
+            "GROUND": "#V40537",
+            "FIGURE": "#V40441"
+          },
+          "start": 24,
+          "end": 40
+        },
+        "V40537": {
+          "id": "V40537",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 24,
+          "end": 40
+        },
+        "V40453": {
+          "id": "V40453",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* TIME-UNIT NIGHT)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:02::"
+          },
+          "start": 24,
+          "end": 34
+        },
+        "root": "#V40805"
+      }
+    ],
+    [
+      {
+        "V40872": {
+          "id": "V40872",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40441",
+            "LEX": "SLEEP"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V40441": {
+          "id": "V40441",
+          "indicator": "F",
+          "type": "SLEEP",
+          "word": "SLEEP",
+          "roles": {
+            "AFFECTED": "#V40407",
+            "TIME": "#V40460",
+            "TENSE": "PRES",
+            "MODALITY": "(:* CONDITIONAL COULD)",
+            "NEGATION": "+",
+            "LEX": "SLEEP",
+            "WNSENSE": "sleep%1:26:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V40407": {
+          "id": "V40407",
+          "indicator": "INDEF-SET",
+          "type": "CHILD",
+          "word": "KID",
+          "roles": {
+            "ASSOC-WITH": "#V40402",
+            "LEX": "KIDS",
+            "WNSENSE": "kid%1:18:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V40402": {
+          "id": "V40402",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "NAME-OF": "THE",
+            "LEX": "THE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V40460": {
+          "id": "V40460",
+          "indicator": "F",
+          "type": "BEFORE",
+          "word": "BEFORE",
+          "roles": {
+            "EXTENT": "#V40453",
+            "GROUND": "#V40537",
+            "FIGURE": "#V40441"
+          },
+          "start": 24,
+          "end": 40
+        },
+        "V40537": {
+          "id": "V40537",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 24,
+          "end": 40
+        },
+        "V40453": {
+          "id": "V40453",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* TIME-UNIT NIGHT)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:02::"
+          },
+          "start": 24,
+          "end": 34
+        },
+        "root": "#V40872"
+      }
+    ],
+    [
+      {
+        "V40869": {
+          "id": "V40869",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40441",
+            "LEX": "SLEEP"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V40441": {
+          "id": "V40441",
+          "indicator": "F",
+          "type": "SLEEP",
+          "word": "SLEEP",
+          "roles": {
+            "AFFECTED": "#V40406",
+            "TIME": "#V40460",
+            "TENSE": "PRES",
+            "MODALITY": "(:* CONDITIONAL COULD)",
+            "NEGATION": "+",
+            "LEX": "SLEEP",
+            "WNSENSE": "sleep%1:26:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V40406": {
+          "id": "V40406",
+          "indicator": "INDEF-SET",
+          "type": "CHILD",
+          "word": "KID",
+          "roles": {
+            "ASSOC-WITH": "#V40402",
+            "LEX": "KIDS",
+            "WNSENSE": "kid%1:18:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V40402": {
+          "id": "V40402",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "NAME-OF": "THE",
+            "LEX": "THE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V40460": {
+          "id": "V40460",
+          "indicator": "F",
+          "type": "BEFORE",
+          "word": "BEFORE",
+          "roles": {
+            "EXTENT": "#V40453",
+            "GROUND": "#V40537",
+            "FIGURE": "#V40441"
+          },
+          "start": 24,
+          "end": 40
+        },
+        "V40537": {
+          "id": "V40537",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 24,
+          "end": 40
+        },
+        "V40453": {
+          "id": "V40453",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* TIME-UNIT NIGHT)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:02::"
+          },
+          "start": 24,
+          "end": 34
+        },
+        "root": "#V40869"
+      }
+    ],
+    [
+      {
+        "V41327": {
+          "id": "V41327",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40441",
+            "LEX": "SLEEP"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V40441": {
+          "id": "V40441",
+          "indicator": "F",
+          "type": "SLEEP",
+          "word": "SLEEP",
+          "roles": {
+            "AFFECTED": "#V40407",
+            "TIME": "#V40461",
+            "TENSE": "PRES",
+            "MODALITY": "(:* CONDITIONAL COULD)",
+            "NEGATION": "+",
+            "LEX": "SLEEP",
+            "WNSENSE": "sleep%1:26:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V40407": {
+          "id": "V40407",
+          "indicator": "THE-SET",
+          "type": "CHILD",
+          "word": "KID",
+          "roles": {
+            "LEX": "KIDS",
+            "WNSENSE": "kid%1:18:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V40461": {
+          "id": "V40461",
+          "indicator": "F",
+          "type": "BEFORE",
+          "word": "BEFORE",
+          "roles": {
+            "EXTENT": "#V40453",
+            "FIGURE": "#V40441"
+          },
+          "start": 24,
+          "end": 40
+        },
+        "V40453": {
+          "id": "V40453",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* TIME-UNIT NIGHT)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:02::"
+          },
+          "start": 24,
+          "end": 34
+        },
+        "root": "#V41327"
+      }
+    ],
+    [
+      {
+        "V41324": {
+          "id": "V41324",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40441",
+            "LEX": "SLEEP"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V40441": {
+          "id": "V40441",
+          "indicator": "F",
+          "type": "SLEEP",
+          "word": "SLEEP",
+          "roles": {
+            "AFFECTED": "#V40406",
+            "TIME": "#V40461",
+            "TENSE": "PRES",
+            "MODALITY": "(:* CONDITIONAL COULD)",
+            "NEGATION": "+",
+            "LEX": "SLEEP",
+            "WNSENSE": "sleep%1:26:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V40406": {
+          "id": "V40406",
+          "indicator": "THE-SET",
+          "type": "CHILD",
+          "word": "KID",
+          "roles": {
+            "LEX": "KIDS",
+            "WNSENSE": "kid%1:18:00::"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V40461": {
+          "id": "V40461",
+          "indicator": "F",
+          "type": "BEFORE",
+          "word": "BEFORE",
+          "roles": {
+            "EXTENT": "#V40453",
+            "FIGURE": "#V40441"
+          },
+          "start": 24,
+          "end": 40
+        },
+        "V40453": {
+          "id": "V40453",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* TIME-UNIT NIGHT)",
+            "SCALE": "DURATION-SCALE",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:02::"
+          },
+          "start": 24,
+          "end": 34
+        },
+        "root": "#V41324"
+      }
+    ]
+  ],
+  "sentence": "The kids couldn't sleep the night before.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190916T123653",
+    "link": "http://trips.ihmc.us/parser/saved/20190916T123653-STEP-abhatia-none-The_kids_couldn_t_sleep_the_night_before.xml",
+    "judgement": -1
+  }
+}

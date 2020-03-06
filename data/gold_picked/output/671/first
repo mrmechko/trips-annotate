@@ -1,0 +1,19 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V170308 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V169398 [label=<<font color="green"><br /></font> <font color="black">HAVE-INFLUENCE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">HAVE</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::HAVE-INFLUENCE.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V169389 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">PRO-SET</font> <font color="blue">THEY</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V169461 [label=<<font color="green"><br /></font> <font color="black">SOCIAL-RELATIONSHIP</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">RELATIONSHIP</font> <font color="green"><br /></font> <font color="green">relationship%1:24:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SOCIAL-RELATIONSHIP.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V169455 [label=<<font color="green"><br /></font> <font color="black">GREAT-VAL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">WONDERFUL</font> <font color="green"><br /></font> <font color="green">wonderful%5:00:00:extraordinary:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GREAT-VAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V169465 [label=<<font color="green"><br /></font> <font color="black">EVENT-TIME-INITIALLY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">INITIALLY</font> <font color="green"><br /></font> <font color="green">initially%4:02:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EVENT-TIME-INITIALLY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V169398 -> V169465 [label=" TIME   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V169465 -> V169398 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V169461 -> V169455 [label=" EVALUATION   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V170308 -> V169398 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V169398 -> V169389 [label=" AGENT   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V169455 -> V169461 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V169398 -> V169461 [label=" FORMAL   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

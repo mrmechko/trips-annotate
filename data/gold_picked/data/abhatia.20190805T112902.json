@@ -1,0 +1,341 @@
+{
+  "parse": [
+    {
+      "V499390": {
+        "id": "V499390",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V499173",
+          "LEX": "LOVED"
+        },
+        "start": 0,
+        "end": 25
+      },
+      "V499173": {
+        "id": "V499173",
+        "indicator": "F",
+        "type": "APPRECIATE",
+        "word": "LOVE",
+        "roles": {
+          "EXPERIENCER": "#V499162",
+          "FORMAL": "#V499215",
+          "TENSE": "PAST",
+          "LEX": "LOVED",
+          "WNSENSE": "love%2:37:00::"
+        },
+        "start": 0,
+        "end": 25
+      },
+      "V499162": {
+        "id": "V499162",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "FRANK",
+        "roles": {
+          "NAME-OF": "FRANK",
+          "LEX": "FRANK",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 0,
+        "end": 6
+      },
+      "V499215": {
+        "id": "V499215",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "GO",
+        "roles": {
+          "AGENT": "#V499162",
+          "FORMAL": "#V499236",
+          "VFORM": "BASE",
+          "LEX": "GO",
+          "WNSENSE": "fulfil%2:36:00"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V499236": {
+        "id": "V499236",
+        "indicator": "F",
+        "type": "PHYSICAL-ACTIVITY",
+        "word": "FISH",
+        "roles": {
+          "AGENT": "#V499162",
+          "VFORM": "ING",
+          "LEX": "FISHING"
+        },
+        "start": 18,
+        "end": 25
+      },
+      "root": "#V499390"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V499542": {
+          "id": "V499542",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V499173",
+            "LEX": "LOVED"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V499173": {
+          "id": "V499173",
+          "indicator": "F",
+          "type": "APPRECIATE",
+          "word": "LOVE",
+          "roles": {
+            "EXPERIENCER": "#V499162",
+            "FORMAL": "#V499218",
+            "TENSE": "PAST",
+            "LEX": "LOVED",
+            "WNSENSE": "love%2:37:00::"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V499162": {
+          "id": "V499162",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "FRANK",
+          "roles": {
+            "NAME-OF": "FRANK",
+            "LEX": "FRANK",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V499218": {
+          "id": "V499218",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "AGENT": "#V499162",
+            "TIME": "#V499370",
+            "VFORM": "BASE",
+            "LEX": "GO",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 12,
+          "end": 25
+        },
+        "V499370": {
+          "id": "V499370",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V499218",
+            "GROUND": "#V499236",
+            "LEX": "FISHING"
+          },
+          "start": 18,
+          "end": 25
+        },
+        "V499236": {
+          "id": "V499236",
+          "indicator": "F",
+          "type": "PHYSICAL-ACTIVITY",
+          "word": "FISH",
+          "roles": {
+            "VFORM": "ING",
+            "LEX": "FISHING"
+          },
+          "start": 18,
+          "end": 25
+        },
+        "root": "#V499542"
+      }
+    ],
+    [
+      {
+        "V499695": {
+          "id": "V499695",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V499173",
+            "LEX": "LOVED"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V499173": {
+          "id": "V499173",
+          "indicator": "F",
+          "type": "APPRECIATE",
+          "word": "LOVE",
+          "roles": {
+            "EXPERIENCER": "#V499162",
+            "FORMAL": "#V499212",
+            "TENSE": "PAST",
+            "LEX": "LOVED",
+            "WNSENSE": "love%2:37:00::"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V499162": {
+          "id": "V499162",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "FRANK",
+          "roles": {
+            "NAME-OF": "FRANK",
+            "LEX": "FRANK",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V499212": {
+          "id": "V499212",
+          "indicator": "F",
+          "type": "UNDERGO-ACTION",
+          "word": "GO",
+          "roles": {
+            "AFFECTED": "#V499162",
+            "TIME": "#V499370",
+            "VFORM": "BASE",
+            "LEX": "GO",
+            "WNSENSE": "go_down%2:42:00"
+          },
+          "start": 12,
+          "end": 25
+        },
+        "V499370": {
+          "id": "V499370",
+          "indicator": "F",
+          "type": "IMPLICIT-OVERLAP",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V499212",
+            "GROUND": "#V499236",
+            "LEX": "FISHING"
+          },
+          "start": 18,
+          "end": 25
+        },
+        "V499236": {
+          "id": "V499236",
+          "indicator": "F",
+          "type": "PHYSICAL-ACTIVITY",
+          "word": "FISH",
+          "roles": {
+            "VFORM": "ING",
+            "LEX": "FISHING"
+          },
+          "start": 18,
+          "end": 25
+        },
+        "root": "#V499695"
+      }
+    ],
+    [
+      {
+        "V500013": {
+          "id": "V500013",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V499172",
+            "LEX": "LOVED"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V499172": {
+          "id": "V499172",
+          "indicator": "F",
+          "type": "APPRECIATE",
+          "word": "LOVE",
+          "roles": {
+            "EXPERIENCER": "#V499162",
+            "NEUTRAL": "#V499236",
+            "TENSE": "PAST",
+            "LEX": "LOVED",
+            "WNSENSE": "love%2:37:00::"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V499162": {
+          "id": "V499162",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "FRANK",
+          "roles": {
+            "NAME-OF": "FRANK",
+            "LEX": "FRANK",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 6
+        },
+        "V499236": {
+          "id": "V499236",
+          "indicator": "BARE",
+          "type": "PHYSICAL-ACTIVITY",
+          "word": "FISH",
+          "roles": {
+            "TIME": "#V499183",
+            "LEX": "FISHING"
+          },
+          "start": 12,
+          "end": 25
+        },
+        "V499183": {
+          "id": "V499183",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V499222",
+            "FIGURE": "#V499236",
+            "LEX": "TO"
+          },
+          "start": 12,
+          "end": 18
+        },
+        "V499222": {
+          "id": "V499222",
+          "indicator": "BARE",
+          "type": "BOARD-GAME",
+          "word": "GO",
+          "roles": {
+            "LEX": "GO",
+            "WNSENSE": "go%1:04:00::"
+          },
+          "start": 15,
+          "end": 18
+        },
+        "root": "#V500013"
+      }
+    ]
+  ],
+  "sentence": "Frank loved to go fishing.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190805T112902",
+    "link": "http://trips.ihmc.us/parser/saved/20190805T112902-STEP-abhatia-0-Frank_loved_to_go_fishing_.xml",
+    "judgement": 0
+  }
+}

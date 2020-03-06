@@ -1,0 +1,514 @@
+{
+  "parse": [
+    {
+      "V463131": {
+        "id": "V463131",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V459797",
+          "LEX": "SPENT"
+        },
+        "start": 0,
+        "end": 50
+      },
+      "V459797": {
+        "id": "V459797",
+        "indicator": "F",
+        "type": "COMMERCE-PAY",
+        "word": "SPEND",
+        "roles": {
+          "RESULT": "#V459812",
+          "AGENT": "#V459790",
+          "EXTENT": "#V459976",
+          "TENSE": "PAST",
+          "LEX": "SPENT",
+          "WNSENSE": "spend%2:40:00::"
+        },
+        "start": 0,
+        "end": 50
+      },
+      "V459790": {
+        "id": "V459790",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "SHE",
+        "roles": {
+          "PROFORM": "SHE",
+          "LEX": "SHE",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V459976": {
+        "id": "V459976",
+        "indicator": "INDEF-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "MOST",
+          "LEX": "MOST"
+        },
+        "start": 10,
+        "end": 15
+      },
+      "V459812": {
+        "id": "V459812",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V462621",
+          "FIGURE": "#V459976",
+          "LEX": "OF"
+        },
+        "start": 15,
+        "end": 50
+      },
+      "V462621": {
+        "id": "V462621",
+        "indicator": "BARE",
+        "type": "DONATE-GIVE",
+        "word": "GIFT",
+        "roles": {
+          "FIGURE": "#V459917",
+          "LEX": "GIFT"
+        },
+        "start": 18,
+        "end": 50
+      },
+      "V459917": {
+        "id": "V459917",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": "GET",
+        "roles": {
+          "FORMAL": "#V459942",
+          "AFFECTED": "#V459891",
+          "LEX": "GETTING",
+          "WNSENSE": "get%2:36:00::"
+        },
+        "start": 18,
+        "end": 50
+      },
+      "V459891": {
+        "id": "V459891",
+        "indicator": "A",
+        "type": "SCRUTINY",
+        "word": "CHECK",
+        "roles": {
+          "LEX": "CHECK",
+          "WNSENSE": "check%2:42:09::"
+        },
+        "start": 18,
+        "end": 26
+      },
+      "V459942": {
+        "id": "V459942",
+        "indicator": "F",
+        "type": "ATTENTIVE-VAL",
+        "word": "THOUGHTFUL",
+        "roles": {
+          "ORIENTATION": "POS",
+          "SCALE": "ATTENTIVENESS-SCALE",
+          "LEX": "THOUGHTFUL",
+          "WNSENSE": "thoughtful%3:00:04::"
+        },
+        "start": 34,
+        "end": 45
+      },
+      "root": "#V463131"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V463117": {
+          "id": "V463117",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V459797",
+            "LEX": "SPENT"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V459797": {
+          "id": "V459797",
+          "indicator": "F",
+          "type": "COMMERCE-PAY",
+          "word": "SPEND",
+          "roles": {
+            "RESULT": "#V459812",
+            "AGENT": "#V459790",
+            "EXTENT": "#V459976",
+            "TENSE": "PAST",
+            "LEX": "SPENT",
+            "WNSENSE": "spend%2:40:00::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V459790": {
+          "id": "V459790",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V459976": {
+          "id": "V459976",
+          "indicator": "INDEF-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "MOST",
+            "LEX": "MOST"
+          },
+          "start": 10,
+          "end": 15
+        },
+        "V459812": {
+          "id": "V459812",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "OF",
+          "roles": {
+            "GROUND": "#V462619",
+            "FIGURE": "#V459976",
+            "LEX": "OF"
+          },
+          "start": 15,
+          "end": 50
+        },
+        "V462619": {
+          "id": "V462619",
+          "indicator": "BARE",
+          "type": "DONATE-GIVE",
+          "word": "GIFT",
+          "roles": {
+            "FIGURE": "#V459918",
+            "LEX": "GIFT"
+          },
+          "start": 18,
+          "end": 50
+        },
+        "V459918": {
+          "id": "V459918",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "GET",
+          "roles": {
+            "RESULT": "#V459942",
+            "AFFECTED": "#V459891",
+            "LEX": "GETTING",
+            "WNSENSE": "get%2:40:00::"
+          },
+          "start": 18,
+          "end": 50
+        },
+        "V459891": {
+          "id": "V459891",
+          "indicator": "A",
+          "type": "SCRUTINY",
+          "word": "CHECK",
+          "roles": {
+            "LEX": "CHECK",
+            "WNSENSE": "check%2:42:09::"
+          },
+          "start": 18,
+          "end": 26
+        },
+        "V459942": {
+          "id": "V459942",
+          "indicator": "F",
+          "type": "ATTENTIVE-VAL",
+          "word": "THOUGHTFUL",
+          "roles": {
+            "ORIENTATION": "POS",
+            "SCALE": "ATTENTIVENESS-SCALE",
+            "LEX": "THOUGHTFUL",
+            "WNSENSE": "thoughtful%3:00:04::"
+          },
+          "start": 34,
+          "end": 45
+        },
+        "root": "#V463117"
+      }
+    ],
+    [
+      {
+        "V463190": {
+          "id": "V463190",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V459797",
+            "LEX": "SPENT"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V459797": {
+          "id": "V459797",
+          "indicator": "F",
+          "type": "COMMERCE-PAY",
+          "word": "SPEND",
+          "roles": {
+            "RESULT": "#V459812",
+            "AGENT": "#V459790",
+            "EXTENT": "#V459976",
+            "TENSE": "PAST",
+            "LEX": "SPENT",
+            "WNSENSE": "spend%2:40:00::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V459790": {
+          "id": "V459790",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V459976": {
+          "id": "V459976",
+          "indicator": "INDEF-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "MOST",
+            "LEX": "MOST"
+          },
+          "start": 10,
+          "end": 15
+        },
+        "V459812": {
+          "id": "V459812",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "OF",
+          "roles": {
+            "GROUND": "#V459890",
+            "FIGURE": "#V459976",
+            "LEX": "OF"
+          },
+          "start": 15,
+          "end": 50
+        },
+        "V459890": {
+          "id": "V459890",
+          "indicator": "A",
+          "type": "GRAPHIC-SYMBOL",
+          "word": "CHECK",
+          "roles": {
+            "MOD": "#V459913",
+            "LEX": "CHECK"
+          },
+          "start": 18,
+          "end": 50
+        },
+        "V459913": {
+          "id": "V459913",
+          "indicator": "F",
+          "type": "HAVE-EXPERIENCE",
+          "word": "GET",
+          "roles": {
+            "EXPERIENCER": "#V459890",
+            "NEUTRAL": "#V459945",
+            "VFORM": "ING",
+            "LEX": "GETTING",
+            "WNSENSE": "get%2:39:00::"
+          },
+          "start": 26,
+          "end": 50
+        },
+        "V459945": {
+          "id": "V459945",
+          "indicator": "INDEF-SET",
+          "type": "DONATE-GIVE",
+          "word": "GIFT",
+          "roles": {
+            "MOD": "#V459942",
+            "LEX": "GIFTS",
+            "WNSENSE": "gift%1:21:00::"
+          },
+          "start": 34,
+          "end": 50
+        },
+        "V459942": {
+          "id": "V459942",
+          "indicator": "F",
+          "type": "ATTENTIVE-VAL",
+          "word": "THOUGHTFUL",
+          "roles": {
+            "ORIENTATION": "POS",
+            "FIGURE": "#V459945",
+            "SCALE": "ATTENTIVENESS-SCALE",
+            "LEX": "THOUGHTFUL",
+            "WNSENSE": "thoughtful%3:00:04::"
+          },
+          "start": 34,
+          "end": 45
+        },
+        "root": "#V463190"
+      }
+    ],
+    [
+      {
+        "V463268": {
+          "id": "V463268",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V459797",
+            "LEX": "SPENT"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V459797": {
+          "id": "V459797",
+          "indicator": "F",
+          "type": "COMMERCE-PAY",
+          "word": "SPEND",
+          "roles": {
+            "RESULT": "#V459812",
+            "AGENT": "#V459790",
+            "EXTENT": "#V459976",
+            "TENSE": "PAST",
+            "LEX": "SPENT",
+            "WNSENSE": "spend%2:40:00::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V459790": {
+          "id": "V459790",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V459976": {
+          "id": "V459976",
+          "indicator": "INDEF-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "MOST",
+            "LEX": "MOST"
+          },
+          "start": 10,
+          "end": 15
+        },
+        "V459812": {
+          "id": "V459812",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "OF",
+          "roles": {
+            "GROUND": "#V459890",
+            "FIGURE": "#V459976",
+            "LEX": "OF"
+          },
+          "start": 15,
+          "end": 50
+        },
+        "V459890": {
+          "id": "V459890",
+          "indicator": "A",
+          "type": "GRAPHIC-SYMBOL",
+          "word": "CHECK",
+          "roles": {
+            "MOD": "#V459921",
+            "LEX": "CHECK"
+          },
+          "start": 18,
+          "end": 50
+        },
+        "V459921": {
+          "id": "V459921",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "GET",
+          "roles": {
+            "AGENT": "#V459890",
+            "AFFECTED": "#V459945",
+            "VFORM": "ING",
+            "LEX": "GETTING",
+            "WNSENSE": "get%2:40:00::"
+          },
+          "start": 26,
+          "end": 50
+        },
+        "V459945": {
+          "id": "V459945",
+          "indicator": "INDEF-SET",
+          "type": "DONATE-GIVE",
+          "word": "GIFT",
+          "roles": {
+            "MOD": "#V459942",
+            "LEX": "GIFTS",
+            "WNSENSE": "gift%1:21:00::"
+          },
+          "start": 34,
+          "end": 50
+        },
+        "V459942": {
+          "id": "V459942",
+          "indicator": "F",
+          "type": "ATTENTIVE-VAL",
+          "word": "THOUGHTFUL",
+          "roles": {
+            "ORIENTATION": "POS",
+            "FIGURE": "#V459945",
+            "SCALE": "ATTENTIVENESS-SCALE",
+            "LEX": "THOUGHTFUL",
+            "WNSENSE": "thoughtful%3:00:04::"
+          },
+          "start": 34,
+          "end": 45
+        },
+        "root": "#V463268"
+      }
+    ]
+  ],
+  "sentence": "She spent most of a check getting thoughtful gifts. ",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190726T112201",
+    "link": "http://trips.ihmc.us/parser/saved/20190726T112201-STEP-abhatia-none-She_spent_most_of_a_check_getting_though.xml",
+    "judgement": -1
+  }
+}

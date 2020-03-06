@@ -1,0 +1,371 @@
+{
+  "parse": [
+    {
+      "V63624": {
+        "id": "V63624",
+        "indicator": "SPEECHACT",
+        "type": "SA_YN-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V62372"
+        },
+        "start": 0,
+        "end": 41
+      },
+      "V62372": {
+        "id": "V62372",
+        "indicator": "F",
+        "type": "EXISTS",
+        "word": "BE",
+        "roles": {
+          "MOD": "#V62484",
+          "NOROLE": "#V62394",
+          "NEUTRAL": "#V62412",
+          "TENSE": "PRES"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V62394": {
+        "id": "V62394",
+        "indicator": "PRO",
+        "type": "EXPLETIVE",
+        "word": null,
+        "roles": {
+          "PROFORM": "THERE"
+        },
+        "start": 4,
+        "end": 10
+      },
+      "V62412": {
+        "id": "V62412",
+        "indicator": "INDEF-SET",
+        "type": "GENE",
+        "word": "GENE",
+        "roles": {
+          "QUAN": "ANY",
+          "MOD": "#V62432"
+        },
+        "start": 10,
+        "end": 29
+      },
+      "V62432": {
+        "id": "V62432",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V62423",
+          "NEUTRAL1": "#V62412",
+          "TENSE": "PRES"
+        },
+        "start": 20,
+        "end": 29
+      },
+      "V62423": {
+        "id": "V62423",
+        "indicator": "THE",
+        "type": "GENE-PROTEIN",
+        "word": "STAT-3",
+        "roles": {
+          "NAME-OF": "STAT-3",
+          "DRUM": "((:DRUM\n  (TERM :ID |11364| :NAME \"signal transducer and activator of transcription 3\"\n   :SCORE 0.85368 :MATCHES\n   ((MATCH :SCORE 0.85368 :MATCHED \"STAT3\" :STATUS \"Approved Symbol\"\n     :NO-CAPS-ALL-CAPS 1))\n   :DBXREFS (P40763) :ONT-TYPES (GENE))\n  (TERM :ID C52153 :NAME \"STAT3\" :SCORE 0.85368 :MATCHES\n   ((MATCH :SCORE 0.85368 :MATCHED \"STAT3\" :STATUS \"name\" :NO-CAPS-ALL-CAPS 1))\n   :MAPPINGS\n   ((MAP :THROUGH\n         (CONCEPT C16612\n          (SENSE (MORPH (POS N) (WORD GENE))\n           (PROVENANCE (NAME NCIT)\n            (FILENAME\n             \"/Users/wbeaumont/bob/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp\"))))\n         :TO GENE))\n   :ONT-TYPES (GENE))\n  (TERM :ID C28664 :NAME \"signal transducer and activator of transcription 3\"\n   :SCORE 0.7091 :MATCHES\n   ((MATCH :SCORE 0.7091 :MATCHED \"STAT3\" :STATUS \"synonym\" :NO-CAPS-ALL-CAPS\n     1))\n   :MAPPINGS\n   ((MAP :THROUGH\n         (CONCEPT C17021\n          (SENSE (MORPH (POS N) (WORD PROTEIN))\n           (PROVENANCE (NAME NCIT)\n            (FILENAME\n             \"/Users/wbeaumont/bob/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp\"))))\n         :TO PROTEIN))\n   :ONT-TYPES (PROTEIN))))"
+        },
+        "start": 20,
+        "end": 26
+      },
+      "V62484": {
+        "id": "V62484",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "UPSTREAM-OF",
+        "roles": {
+          "FIGURE": "#V62372"
+        },
+        "start": 29,
+        "end": 40
+      },
+      "root": "#V63624"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V63612": {
+          "id": "V63612",
+          "indicator": "SPEECHACT",
+          "type": "SA_YN-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "YNQ",
+            "CONTENT": "#V62372"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V62372": {
+          "id": "V62372",
+          "indicator": "F",
+          "type": "EXISTS",
+          "word": "BE",
+          "roles": {
+            "NOROLE": "#V62394",
+            "NEUTRAL": "#V62412",
+            "TENSE": "PRES"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V62394": {
+          "id": "V62394",
+          "indicator": "PRO",
+          "type": "EXPLETIVE",
+          "word": null,
+          "roles": {
+            "PROFORM": "THERE"
+          },
+          "start": 4,
+          "end": 10
+        },
+        "V62412": {
+          "id": "V62412",
+          "indicator": "INDEF-SET",
+          "type": "GENE",
+          "word": "GENE",
+          "roles": {
+            "QUAN": "ANY",
+            "MOD": "#V62431"
+          },
+          "start": 10,
+          "end": 40
+        },
+        "V62431": {
+          "id": "V62431",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V62423",
+            "FORMAL": "#V62455",
+            "TENSE": "PRES"
+          },
+          "start": 20,
+          "end": 40
+        },
+        "V62423": {
+          "id": "V62423",
+          "indicator": "THE",
+          "type": "GENE-PROTEIN",
+          "word": "STAT-3",
+          "roles": {
+            "NAME-OF": "STAT-3",
+            "DRUM": "((:DRUM\n  (TERM :ID |11364| :NAME \"signal transducer and activator of transcription 3\"\n   :SCORE 0.85368 :MATCHES\n   ((MATCH :SCORE 0.85368 :MATCHED \"STAT3\" :STATUS \"Approved Symbol\"\n     :NO-CAPS-ALL-CAPS 1))\n   :DBXREFS (P40763) :ONT-TYPES (GENE))\n  (TERM :ID C52153 :NAME \"STAT3\" :SCORE 0.85368 :MATCHES\n   ((MATCH :SCORE 0.85368 :MATCHED \"STAT3\" :STATUS \"name\" :NO-CAPS-ALL-CAPS 1))\n   :MAPPINGS\n   ((MAP :THROUGH\n         (CONCEPT C16612\n          (SENSE (MORPH (POS N) (WORD GENE))\n           (PROVENANCE (NAME NCIT)\n            (FILENAME\n             \"/Users/wbeaumont/bob/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp\"))))\n         :TO GENE))\n   :ONT-TYPES (GENE))\n  (TERM :ID C28664 :NAME \"signal transducer and activator of transcription 3\"\n   :SCORE 0.7091 :MATCHES\n   ((MATCH :SCORE 0.7091 :MATCHED \"STAT3\" :STATUS \"synonym\" :NO-CAPS-ALL-CAPS\n     1))\n   :MAPPINGS\n   ((MAP :THROUGH\n         (CONCEPT C17021\n          (SENSE (MORPH (POS N) (WORD PROTEIN))\n           (PROVENANCE (NAME NCIT)\n            (FILENAME\n             \"/Users/wbeaumont/bob/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp\"))))\n         :TO PROTEIN))\n   :ONT-TYPES (PROTEIN))))"
+          },
+          "start": 20,
+          "end": 26
+        },
+        "V62455": {
+          "id": "V62455",
+          "indicator": "F",
+          "type": "DIRECTION-UP-GROUND",
+          "word": "UPSTREAM",
+          "roles": {
+            "GROUND": "#V62412",
+            "FIGURE": "#V62423"
+          },
+          "start": 29,
+          "end": 40
+        },
+        "root": "#V63612"
+      }
+    ],
+    [
+      {
+        "V63674": {
+          "id": "V63674",
+          "indicator": "SPEECHACT",
+          "type": "SA_YN-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "YNQ",
+            "CONTENT": "#V62372"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V62372": {
+          "id": "V62372",
+          "indicator": "F",
+          "type": "EXISTS",
+          "word": "BE",
+          "roles": {
+            "NOROLE": "#V62394",
+            "NEUTRAL": "#V62412",
+            "TENSE": "PRES"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V62394": {
+          "id": "V62394",
+          "indicator": "PRO",
+          "type": "EXPLETIVE",
+          "word": null,
+          "roles": {
+            "PROFORM": "THERE"
+          },
+          "start": 4,
+          "end": 10
+        },
+        "V62412": {
+          "id": "V62412",
+          "indicator": "INDEF-SET",
+          "type": "GENE",
+          "word": "GENE",
+          "roles": {
+            "QUAN": "ANY",
+            "MOD": "#V62432"
+          },
+          "start": 10,
+          "end": 40
+        },
+        "V62432": {
+          "id": "V62432",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V62423",
+            "NEUTRAL1": "#V62412",
+            "MOD": "#V62484",
+            "TENSE": "PRES"
+          },
+          "start": 20,
+          "end": 40
+        },
+        "V62423": {
+          "id": "V62423",
+          "indicator": "THE",
+          "type": "GENE-PROTEIN",
+          "word": "STAT-3",
+          "roles": {
+            "NAME-OF": "STAT-3",
+            "DRUM": "((:DRUM\n  (TERM :ID |11364| :NAME \"signal transducer and activator of transcription 3\"\n   :SCORE 0.85368 :MATCHES\n   ((MATCH :SCORE 0.85368 :MATCHED \"STAT3\" :STATUS \"Approved Symbol\"\n     :NO-CAPS-ALL-CAPS 1))\n   :DBXREFS (P40763) :ONT-TYPES (GENE))\n  (TERM :ID C52153 :NAME \"STAT3\" :SCORE 0.85368 :MATCHES\n   ((MATCH :SCORE 0.85368 :MATCHED \"STAT3\" :STATUS \"name\" :NO-CAPS-ALL-CAPS 1))\n   :MAPPINGS\n   ((MAP :THROUGH\n         (CONCEPT C16612\n          (SENSE (MORPH (POS N) (WORD GENE))\n           (PROVENANCE (NAME NCIT)\n            (FILENAME\n             \"/Users/wbeaumont/bob/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp\"))))\n         :TO GENE))\n   :ONT-TYPES (GENE))\n  (TERM :ID C28664 :NAME \"signal transducer and activator of transcription 3\"\n   :SCORE 0.7091 :MATCHES\n   ((MATCH :SCORE 0.7091 :MATCHED \"STAT3\" :STATUS \"synonym\" :NO-CAPS-ALL-CAPS\n     1))\n   :MAPPINGS\n   ((MAP :THROUGH\n         (CONCEPT C17021\n          (SENSE (MORPH (POS N) (WORD PROTEIN))\n           (PROVENANCE (NAME NCIT)\n            (FILENAME\n             \"/Users/wbeaumont/bob/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp\"))))\n         :TO PROTEIN))\n   :ONT-TYPES (PROTEIN))))"
+          },
+          "start": 20,
+          "end": 26
+        },
+        "V62484": {
+          "id": "V62484",
+          "indicator": "F",
+          "type": "PREDICATE",
+          "word": "UPSTREAM-OF",
+          "roles": {
+            "FIGURE": "#V62432"
+          },
+          "start": 29,
+          "end": 40
+        },
+        "root": "#V63674"
+      }
+    ],
+    [
+      {
+        "V63779": {
+          "id": "V63779",
+          "indicator": "SPEECHACT",
+          "type": "SA_YN-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "YNQ",
+            "CONTENT": "#V62372"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V62372": {
+          "id": "V62372",
+          "indicator": "F",
+          "type": "EXISTS",
+          "word": "BE",
+          "roles": {
+            "NOROLE": "#V62394",
+            "NEUTRAL": "#V62412",
+            "TENSE": "PRES"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V62394": {
+          "id": "V62394",
+          "indicator": "PRO",
+          "type": "EXPLETIVE",
+          "word": null,
+          "roles": {
+            "PROFORM": "THERE"
+          },
+          "start": 4,
+          "end": 10
+        },
+        "V62412": {
+          "id": "V62412",
+          "indicator": "INDEF-SET",
+          "type": "GENE",
+          "word": "GENE",
+          "roles": {
+            "QUAN": "ANY",
+            "MOD": "#V62432"
+          },
+          "start": 10,
+          "end": 40
+        },
+        "V62432": {
+          "id": "V62432",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V62423",
+            "NEUTRAL1": "#V62454",
+            "TENSE": "PRES"
+          },
+          "start": 20,
+          "end": 40
+        },
+        "V62423": {
+          "id": "V62423",
+          "indicator": "THE",
+          "type": "GENE-PROTEIN",
+          "word": "STAT-3",
+          "roles": {
+            "NAME-OF": "STAT-3",
+            "DRUM": "((:DRUM\n  (TERM :ID |11364| :NAME \"signal transducer and activator of transcription 3\"\n   :SCORE 0.85368 :MATCHES\n   ((MATCH :SCORE 0.85368 :MATCHED \"STAT3\" :STATUS \"Approved Symbol\"\n     :NO-CAPS-ALL-CAPS 1))\n   :DBXREFS (P40763) :ONT-TYPES (GENE))\n  (TERM :ID C52153 :NAME \"STAT3\" :SCORE 0.85368 :MATCHES\n   ((MATCH :SCORE 0.85368 :MATCHED \"STAT3\" :STATUS \"name\" :NO-CAPS-ALL-CAPS 1))\n   :MAPPINGS\n   ((MAP :THROUGH\n         (CONCEPT C16612\n          (SENSE (MORPH (POS N) (WORD GENE))\n           (PROVENANCE (NAME NCIT)\n            (FILENAME\n             \"/Users/wbeaumont/bob/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01661.lisp\"))))\n         :TO GENE))\n   :ONT-TYPES (GENE))\n  (TERM :ID C28664 :NAME \"signal transducer and activator of transcription 3\"\n   :SCORE 0.7091 :MATCHES\n   ((MATCH :SCORE 0.7091 :MATCHED \"STAT3\" :STATUS \"synonym\" :NO-CAPS-ALL-CAPS\n     1))\n   :MAPPINGS\n   ((MAP :THROUGH\n         (CONCEPT C17021\n          (SENSE (MORPH (POS N) (WORD PROTEIN))\n           (PROVENANCE (NAME NCIT)\n            (FILENAME\n             \"/Users/wbeaumont/bob/src/config/lisp/../../../src/TextTagger/drum-dsl/NCIT/01702.lisp\"))))\n         :TO PROTEIN))\n   :ONT-TYPES (PROTEIN))))"
+          },
+          "start": 20,
+          "end": 26
+        },
+        "V62454": {
+          "id": "V62454",
+          "indicator": "BARE",
+          "type": "PREDECESSOR",
+          "word": "UPSTREAM",
+          "roles": {
+            "FIGURE": "#V62412"
+          },
+          "start": 29,
+          "end": 40
+        },
+        "root": "#V63779"
+      }
+    ]
+  ],
+  "sentence": "Are there any genes stat3 is upstream of?",
+  "annotation": {
+    "judge": "wbeaumont",
+    "parser": "BOB",
+    "timestamp": "20190503T175249",
+    "link": "http://trips.ihmc.us/parser/saved/20190503T175249-BOB-wbeaumont-1-Are_there_any_genes_stat3_is_upstream_of.xml",
+    "judgement": 1
+  }
+}

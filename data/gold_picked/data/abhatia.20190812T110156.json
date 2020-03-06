@@ -1,0 +1,1221 @@
+{
+  "parse": [
+    {
+      "V229870": {
+        "id": "V229870",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V229150",
+          "LEX": "WALKED"
+        },
+        "start": 0,
+        "end": 45
+      },
+      "V229150": {
+        "id": "V229150",
+        "indicator": "F",
+        "type": "SELF-LOCOMOTE",
+        "word": "WALK",
+        "roles": {
+          "RESULT": "#V229160",
+          "AGENT": "#V229136",
+          "TIME": "#V229358",
+          "TENSE": "PAST",
+          "LEX": "WALKED",
+          "WNSENSE": "walk%2:38:00::"
+        },
+        "start": 0,
+        "end": 45
+      },
+      "V229136": {
+        "id": "V229136",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V229160": {
+        "id": "V229160",
+        "indicator": "F",
+        "type": "GOAL-AS-CONTAINMENT",
+        "word": "INTO",
+        "roles": {
+          "GROUND": "#V229225",
+          "FIGURE": "#V229136",
+          "LEX": "INTO"
+        },
+        "start": 9,
+        "end": 37
+      },
+      "V229225": {
+        "id": "V229225",
+        "indicator": "A",
+        "type": "RESTAURANT",
+        "word": "RESTAURANT",
+        "roles": {
+          "ASSOC-WITH": "#V229222",
+          "LEX": "RESTAURANT",
+          "WNSENSE": "restaurant%1:06:00::"
+        },
+        "start": 14,
+        "end": 37
+      },
+      "V229222": {
+        "id": "V229222",
+        "indicator": "KIND",
+        "type": "FAST-FOOD",
+        "word": "FAST-FOOD",
+        "roles": {
+          "LEX": "FAST-FOOD",
+          "WNSENSE": "fast_food%1:13:00"
+        },
+        "start": 14,
+        "end": 37
+      },
+      "V229358": {
+        "id": "V229358",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V229150",
+          "GROUND": "#V229242",
+          "LEX": "DAY"
+        },
+        "start": 37,
+        "end": 45
+      },
+      "V229242": {
+        "id": "V229242",
+        "indicator": "THE",
+        "type": "DAY",
+        "word": "DAY",
+        "roles": {
+          "PROFORM": "THAT",
+          "SCALE": "TIME-LOC-SCALE",
+          "LEX": "DAY",
+          "WNSENSE": "day%1:28:03::"
+        },
+        "start": 37,
+        "end": 45
+      },
+      "root": "#V229870"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V229962": {
+          "id": "V229962",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V229150",
+            "LEX": "WALKED"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V229150": {
+          "id": "V229150",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V229160",
+            "AGENT": "#V229136",
+            "TIME": "#V229358",
+            "TENSE": "PAST",
+            "LEX": "WALKED",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 0,
+          "end": 45
+        },
+        "V229136": {
+          "id": "V229136",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V229160": {
+          "id": "V229160",
+          "indicator": "F",
+          "type": "GOAL-AS-CONTAINMENT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V229225",
+            "FIGURE": "#V229136",
+            "LEX": "INTO"
+          },
+          "start": 9,
+          "end": 37
+        },
+        "V229225": {
+          "id": "V229225",
+          "indicator": "A",
+          "type": "RESTAURANT",
+          "word": "RESTAURANT",
+          "roles": {
+            "ASSOC-WITH": "#V229210",
+            "LEX": "RESTAURANT",
+            "WNSENSE": "restaurant%1:06:00::"
+          },
+          "start": 14,
+          "end": 37
+        },
+        "V229210": {
+          "id": "V229210",
+          "indicator": "KIND",
+          "type": "FAST-FOOD",
+          "word": "FAST-FOOD",
+          "roles": {
+            "LEX": "FAST-FOOD"
+          },
+          "start": 14,
+          "end": 37
+        },
+        "V229358": {
+          "id": "V229358",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V229150",
+            "GROUND": "#V229242",
+            "LEX": "DAY"
+          },
+          "start": 37,
+          "end": 45
+        },
+        "V229242": {
+          "id": "V229242",
+          "indicator": "THE",
+          "type": "DAY",
+          "word": "DAY",
+          "roles": {
+            "PROFORM": "THAT",
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:03::"
+          },
+          "start": 37,
+          "end": 45
+        },
+        "root": "#V229962"
+      }
+    ],
+    [
+      {
+        "V230103": {
+          "id": "V230103",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V229150",
+            "LEX": "WALKED"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V229150": {
+          "id": "V229150",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V229160",
+            "AGENT": "#V229136",
+            "TIME": "#V229358",
+            "TENSE": "PAST",
+            "LEX": "WALKED",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 0,
+          "end": 45
+        },
+        "V229136": {
+          "id": "V229136",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V229160": {
+          "id": "V229160",
+          "indicator": "F",
+          "type": "GOAL-AS-CONTAINMENT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V229225",
+            "FIGURE": "#V229136",
+            "LEX": "INTO"
+          },
+          "start": 9,
+          "end": 37
+        },
+        "V229225": {
+          "id": "V229225",
+          "indicator": "A",
+          "type": "RESTAURANT",
+          "word": "RESTAURANT",
+          "roles": {
+            "ASSOC-WITH": "#V229215",
+            "MOD": "#V229207",
+            "LEX": "RESTAURANT",
+            "WNSENSE": "restaurant%1:06:00::"
+          },
+          "start": 14,
+          "end": 37
+        },
+        "V229215": {
+          "id": "V229215",
+          "indicator": "KIND",
+          "type": "FOOD",
+          "word": "FOOD",
+          "roles": {
+            "LEX": "FOOD",
+            "WNSENSE": "food%1:03:00::"
+          },
+          "start": 14,
+          "end": 37
+        },
+        "V229207": {
+          "id": "V229207",
+          "indicator": "F",
+          "type": "SPEEDY",
+          "word": "FAST",
+          "roles": {
+            "FIGURE": "#V229225",
+            "SCALE": "SPEED-SCALE",
+            "LEX": "FAST",
+            "WNSENSE": "fast%3:00:01::"
+          },
+          "start": 16,
+          "end": 21
+        },
+        "V229358": {
+          "id": "V229358",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V229150",
+            "GROUND": "#V229242",
+            "LEX": "DAY"
+          },
+          "start": 37,
+          "end": 45
+        },
+        "V229242": {
+          "id": "V229242",
+          "indicator": "THE",
+          "type": "DAY",
+          "word": "DAY",
+          "roles": {
+            "PROFORM": "THAT",
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:03::"
+          },
+          "start": 37,
+          "end": 45
+        },
+        "root": "#V230103"
+      }
+    ],
+    [
+      {
+        "V230087": {
+          "id": "V230087",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V229150",
+            "LEX": "WALKED"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V229150": {
+          "id": "V229150",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V229160",
+            "AGENT": "#V229136",
+            "TIME": "#V229358",
+            "TENSE": "PAST",
+            "LEX": "WALKED",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 0,
+          "end": 45
+        },
+        "V229136": {
+          "id": "V229136",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V229160": {
+          "id": "V229160",
+          "indicator": "F",
+          "type": "GOAL-AS-CONTAINMENT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V229225",
+            "FIGURE": "#V229136",
+            "LEX": "INTO"
+          },
+          "start": 9,
+          "end": 37
+        },
+        "V229225": {
+          "id": "V229225",
+          "indicator": "A",
+          "type": "RESTAURANT",
+          "word": "RESTAURANT",
+          "roles": {
+            "ASSOC-WITH": "#V229215",
+            "MOD": "#V229208",
+            "LEX": "RESTAURANT",
+            "WNSENSE": "restaurant%1:06:00::"
+          },
+          "start": 14,
+          "end": 37
+        },
+        "V229215": {
+          "id": "V229215",
+          "indicator": "KIND",
+          "type": "FOOD",
+          "word": "FOOD",
+          "roles": {
+            "LEX": "FOOD",
+            "WNSENSE": "food%1:03:00::"
+          },
+          "start": 14,
+          "end": 37
+        },
+        "V229208": {
+          "id": "V229208",
+          "indicator": "F",
+          "type": "SPEEDY",
+          "word": "FAST",
+          "roles": {
+            "FIGURE": "#V229225",
+            "SCALE": "SPEED-SCALE",
+            "LEX": "FAST",
+            "WNSENSE": "fast%3:00:01::"
+          },
+          "start": 16,
+          "end": 21
+        },
+        "V229358": {
+          "id": "V229358",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V229150",
+            "GROUND": "#V229242",
+            "LEX": "DAY"
+          },
+          "start": 37,
+          "end": 45
+        },
+        "V229242": {
+          "id": "V229242",
+          "indicator": "THE",
+          "type": "DAY",
+          "word": "DAY",
+          "roles": {
+            "PROFORM": "THAT",
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:03::"
+          },
+          "start": 37,
+          "end": 45
+        },
+        "root": "#V230087"
+      }
+    ],
+    [
+      {
+        "V230071": {
+          "id": "V230071",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V229150",
+            "LEX": "WALKED"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V229150": {
+          "id": "V229150",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V229160",
+            "AGENT": "#V229136",
+            "TIME": "#V229358",
+            "TENSE": "PAST",
+            "LEX": "WALKED",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 0,
+          "end": 45
+        },
+        "V229136": {
+          "id": "V229136",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V229160": {
+          "id": "V229160",
+          "indicator": "F",
+          "type": "GOAL-AS-CONTAINMENT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V229225",
+            "FIGURE": "#V229136",
+            "LEX": "INTO"
+          },
+          "start": 9,
+          "end": 37
+        },
+        "V229225": {
+          "id": "V229225",
+          "indicator": "A",
+          "type": "RESTAURANT",
+          "word": "RESTAURANT",
+          "roles": {
+            "ASSOC-WITH": "#V229215",
+            "LEX": "RESTAURANT",
+            "WNSENSE": "restaurant%1:06:00::"
+          },
+          "start": 14,
+          "end": 37
+        },
+        "V229215": {
+          "id": "V229215",
+          "indicator": "KIND",
+          "type": "FOOD",
+          "word": "FOOD",
+          "roles": {
+            "MOD": "#V229208",
+            "LEX": "FOOD",
+            "WNSENSE": "food%1:03:00::"
+          },
+          "start": 14,
+          "end": 37
+        },
+        "V229208": {
+          "id": "V229208",
+          "indicator": "F",
+          "type": "SPEEDY",
+          "word": "FAST",
+          "roles": {
+            "FIGURE": "#V229215",
+            "SCALE": "SPEED-SCALE",
+            "LEX": "FAST",
+            "WNSENSE": "fast%3:00:01::"
+          },
+          "start": 16,
+          "end": 21
+        },
+        "V229358": {
+          "id": "V229358",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V229150",
+            "GROUND": "#V229242",
+            "LEX": "DAY"
+          },
+          "start": 37,
+          "end": 45
+        },
+        "V229242": {
+          "id": "V229242",
+          "indicator": "THE",
+          "type": "DAY",
+          "word": "DAY",
+          "roles": {
+            "PROFORM": "THAT",
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:03::"
+          },
+          "start": 37,
+          "end": 45
+        },
+        "root": "#V230071"
+      }
+    ],
+    [
+      {
+        "V230055": {
+          "id": "V230055",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V229150",
+            "LEX": "WALKED"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V229150": {
+          "id": "V229150",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "WALK",
+          "roles": {
+            "RESULT": "#V229160",
+            "AGENT": "#V229136",
+            "TIME": "#V229358",
+            "TENSE": "PAST",
+            "LEX": "WALKED",
+            "WNSENSE": "walk%2:38:00::"
+          },
+          "start": 0,
+          "end": 45
+        },
+        "V229136": {
+          "id": "V229136",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V229160": {
+          "id": "V229160",
+          "indicator": "F",
+          "type": "GOAL-AS-CONTAINMENT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V229225",
+            "FIGURE": "#V229136",
+            "LEX": "INTO"
+          },
+          "start": 9,
+          "end": 37
+        },
+        "V229225": {
+          "id": "V229225",
+          "indicator": "A",
+          "type": "RESTAURANT",
+          "word": "RESTAURANT",
+          "roles": {
+            "ASSOC-WITH": "#V229215",
+            "LEX": "RESTAURANT",
+            "WNSENSE": "restaurant%1:06:00::"
+          },
+          "start": 14,
+          "end": 37
+        },
+        "V229215": {
+          "id": "V229215",
+          "indicator": "KIND",
+          "type": "FOOD",
+          "word": "FOOD",
+          "roles": {
+            "MOD": "#V229207",
+            "LEX": "FOOD",
+            "WNSENSE": "food%1:03:00::"
+          },
+          "start": 14,
+          "end": 37
+        },
+        "V229207": {
+          "id": "V229207",
+          "indicator": "F",
+          "type": "SPEEDY",
+          "word": "FAST",
+          "roles": {
+            "FIGURE": "#V229215",
+            "SCALE": "SPEED-SCALE",
+            "LEX": "FAST",
+            "WNSENSE": "fast%3:00:01::"
+          },
+          "start": 16,
+          "end": 21
+        },
+        "V229358": {
+          "id": "V229358",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V229150",
+            "GROUND": "#V229242",
+            "LEX": "DAY"
+          },
+          "start": 37,
+          "end": 45
+        },
+        "V229242": {
+          "id": "V229242",
+          "indicator": "THE",
+          "type": "DAY",
+          "word": "DAY",
+          "roles": {
+            "PROFORM": "THAT",
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:03::"
+          },
+          "start": 37,
+          "end": 45
+        },
+        "root": "#V230055"
+      }
+    ],
+    [
+      {
+        "V230587": {
+          "id": "V230587",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V229151",
+            "LEX": "WALKED"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V229151": {
+          "id": "V229151",
+          "indicator": "F",
+          "type": "WALKING",
+          "word": "WALK",
+          "roles": {
+            "AGENT": "#V229136",
+            "AFFECTED": "#V229720",
+            "RESULT": "#V229160",
+            "TENSE": "PAST",
+            "LEX": "WALKED",
+            "WNSENSE": "walk%2:38:05::"
+          },
+          "start": 0,
+          "end": 45
+        },
+        "V229136": {
+          "id": "V229136",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V229160": {
+          "id": "V229160",
+          "indicator": "F",
+          "type": "GOAL-AS-CONTAINMENT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V229225",
+            "FIGURE": "#V229720",
+            "LEX": "INTO"
+          },
+          "start": 9,
+          "end": 37
+        },
+        "V229225": {
+          "id": "V229225",
+          "indicator": "A",
+          "type": "RESTAURANT",
+          "word": "RESTAURANT",
+          "roles": {
+            "ASSOC-WITH": "#V229222",
+            "LEX": "RESTAURANT",
+            "WNSENSE": "restaurant%1:06:00::"
+          },
+          "start": 14,
+          "end": 37
+        },
+        "V229222": {
+          "id": "V229222",
+          "indicator": "KIND",
+          "type": "FAST-FOOD",
+          "word": "FAST-FOOD",
+          "roles": {
+            "LEX": "FAST-FOOD",
+            "WNSENSE": "fast_food%1:13:00"
+          },
+          "start": 14,
+          "end": 37
+        },
+        "V229720": {
+          "id": "V229720",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V229241",
+            "LEX": "DAY"
+          },
+          "start": 37,
+          "end": 45
+        },
+        "V229241": {
+          "id": "V229241",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "SCALE": "DURATION-SCALE",
+            "PROFORM": "THAT",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 37,
+          "end": 45
+        },
+        "root": "#V230587"
+      }
+    ],
+    [
+      {
+        "V230617": {
+          "id": "V230617",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V229151",
+            "LEX": "WALKED"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V229151": {
+          "id": "V229151",
+          "indicator": "F",
+          "type": "WALKING",
+          "word": "WALK",
+          "roles": {
+            "AGENT": "#V229136",
+            "AFFECTED": "#V229720",
+            "RESULT": "#V229160",
+            "TENSE": "PAST",
+            "LEX": "WALKED",
+            "WNSENSE": "walk%2:38:05::"
+          },
+          "start": 0,
+          "end": 45
+        },
+        "V229136": {
+          "id": "V229136",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V229160": {
+          "id": "V229160",
+          "indicator": "F",
+          "type": "GOAL-AS-CONTAINMENT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V229225",
+            "FIGURE": "#V229720",
+            "LEX": "INTO"
+          },
+          "start": 9,
+          "end": 37
+        },
+        "V229225": {
+          "id": "V229225",
+          "indicator": "A",
+          "type": "RESTAURANT",
+          "word": "RESTAURANT",
+          "roles": {
+            "ASSOC-WITH": "#V229210",
+            "LEX": "RESTAURANT",
+            "WNSENSE": "restaurant%1:06:00::"
+          },
+          "start": 14,
+          "end": 37
+        },
+        "V229210": {
+          "id": "V229210",
+          "indicator": "KIND",
+          "type": "FAST-FOOD",
+          "word": "FAST-FOOD",
+          "roles": {
+            "LEX": "FAST-FOOD"
+          },
+          "start": 14,
+          "end": 37
+        },
+        "V229720": {
+          "id": "V229720",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V229241",
+            "LEX": "DAY"
+          },
+          "start": 37,
+          "end": 45
+        },
+        "V229241": {
+          "id": "V229241",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "SCALE": "DURATION-SCALE",
+            "PROFORM": "THAT",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 37,
+          "end": 45
+        },
+        "root": "#V230617"
+      }
+    ],
+    [
+      {
+        "V230750": {
+          "id": "V230750",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V229151",
+            "LEX": "WALKED"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V229151": {
+          "id": "V229151",
+          "indicator": "F",
+          "type": "WALKING",
+          "word": "WALK",
+          "roles": {
+            "AGENT": "#V229136",
+            "AFFECTED": "#V229720",
+            "RESULT": "#V229160",
+            "TENSE": "PAST",
+            "LEX": "WALKED",
+            "WNSENSE": "walk%2:38:05::"
+          },
+          "start": 0,
+          "end": 45
+        },
+        "V229136": {
+          "id": "V229136",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V229160": {
+          "id": "V229160",
+          "indicator": "F",
+          "type": "GOAL-AS-CONTAINMENT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V229225",
+            "FIGURE": "#V229720",
+            "LEX": "INTO"
+          },
+          "start": 9,
+          "end": 37
+        },
+        "V229225": {
+          "id": "V229225",
+          "indicator": "A",
+          "type": "RESTAURANT",
+          "word": "RESTAURANT",
+          "roles": {
+            "ASSOC-WITH": "#V229215",
+            "MOD": "#V229207",
+            "LEX": "RESTAURANT",
+            "WNSENSE": "restaurant%1:06:00::"
+          },
+          "start": 14,
+          "end": 37
+        },
+        "V229215": {
+          "id": "V229215",
+          "indicator": "KIND",
+          "type": "FOOD",
+          "word": "FOOD",
+          "roles": {
+            "LEX": "FOOD",
+            "WNSENSE": "food%1:03:00::"
+          },
+          "start": 14,
+          "end": 37
+        },
+        "V229207": {
+          "id": "V229207",
+          "indicator": "F",
+          "type": "SPEEDY",
+          "word": "FAST",
+          "roles": {
+            "FIGURE": "#V229225",
+            "SCALE": "SPEED-SCALE",
+            "LEX": "FAST",
+            "WNSENSE": "fast%3:00:01::"
+          },
+          "start": 16,
+          "end": 21
+        },
+        "V229720": {
+          "id": "V229720",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V229241",
+            "LEX": "DAY"
+          },
+          "start": 37,
+          "end": 45
+        },
+        "V229241": {
+          "id": "V229241",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "SCALE": "DURATION-SCALE",
+            "PROFORM": "THAT",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 37,
+          "end": 45
+        },
+        "root": "#V230750"
+      }
+    ],
+    [
+      {
+        "V230732": {
+          "id": "V230732",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V229151",
+            "LEX": "WALKED"
+          },
+          "start": 0,
+          "end": 46
+        },
+        "V229151": {
+          "id": "V229151",
+          "indicator": "F",
+          "type": "WALKING",
+          "word": "WALK",
+          "roles": {
+            "AGENT": "#V229136",
+            "AFFECTED": "#V229720",
+            "RESULT": "#V229160",
+            "TENSE": "PAST",
+            "LEX": "WALKED",
+            "WNSENSE": "walk%2:38:05::"
+          },
+          "start": 0,
+          "end": 45
+        },
+        "V229136": {
+          "id": "V229136",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V229160": {
+          "id": "V229160",
+          "indicator": "F",
+          "type": "GOAL-AS-CONTAINMENT",
+          "word": "INTO",
+          "roles": {
+            "GROUND": "#V229225",
+            "FIGURE": "#V229720",
+            "LEX": "INTO"
+          },
+          "start": 9,
+          "end": 37
+        },
+        "V229225": {
+          "id": "V229225",
+          "indicator": "A",
+          "type": "RESTAURANT",
+          "word": "RESTAURANT",
+          "roles": {
+            "ASSOC-WITH": "#V229215",
+            "LEX": "RESTAURANT",
+            "WNSENSE": "restaurant%1:06:00::"
+          },
+          "start": 14,
+          "end": 37
+        },
+        "V229215": {
+          "id": "V229215",
+          "indicator": "KIND",
+          "type": "FOOD",
+          "word": "FOOD",
+          "roles": {
+            "MOD": "#V229207",
+            "LEX": "FOOD",
+            "WNSENSE": "food%1:03:00::"
+          },
+          "start": 14,
+          "end": 37
+        },
+        "V229207": {
+          "id": "V229207",
+          "indicator": "F",
+          "type": "SPEEDY",
+          "word": "FAST",
+          "roles": {
+            "FIGURE": "#V229215",
+            "SCALE": "SPEED-SCALE",
+            "LEX": "FAST",
+            "WNSENSE": "fast%3:00:01::"
+          },
+          "start": 16,
+          "end": 21
+        },
+        "V229720": {
+          "id": "V229720",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V229241",
+            "LEX": "DAY"
+          },
+          "start": 37,
+          "end": 45
+        },
+        "V229241": {
+          "id": "V229241",
+          "indicator": "THE",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "SCALE": "DURATION-SCALE",
+            "PROFORM": "THAT",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 37,
+          "end": 45
+        },
+        "root": "#V230732"
+      }
+    ]
+  ],
+  "sentence": "I walked into a fast food restaurant that day.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190812T110156",
+    "link": "http://trips.ihmc.us/parser/saved/20190812T110156-STEP-abhatia-0-I_walked_into_a_fast_food_restaurant_tha.xml",
+    "judgement": 0
+  }
+}

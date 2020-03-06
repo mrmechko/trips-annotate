@@ -1,0 +1,206 @@
+{
+  "parse": [
+    {
+      "V45672": {
+        "id": "V45672",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V37082"
+        },
+        "start": 0,
+        "end": 117
+      },
+      "V37082": {
+        "id": "V37082",
+        "indicator": "F",
+        "type": "ARRIVE",
+        "word": "ARRIVE",
+        "roles": {
+          "RESULT": "#V37207",
+          "AGENT": "#V37077",
+          "TIME": "#V37297",
+          "LOCATION": "#V37093",
+          "TENSE": "PAST"
+        },
+        "start": 0,
+        "end": 117
+      },
+      "V36982": {
+        "id": "V36982",
+        "indicator": "F",
+        "type": "SINCE",
+        "word": "SINCE",
+        "roles": {
+          "GROUND": "#V37005",
+          "FIGURE": "#V37082"
+        },
+        "start": 0,
+        "end": 37
+      },
+      "V37005": {
+        "id": "V37005",
+        "indicator": "THE",
+        "type": "START",
+        "word": "BEGIN",
+        "roles": {
+          "MOD": "#V37023"
+        },
+        "start": 6,
+        "end": 37
+      },
+      "V37023": {
+        "id": "V37023",
+        "indicator": "F",
+        "type": "ASSOC-WITH",
+        "word": "OF",
+        "roles": {
+          "GROUND": "#V37036",
+          "FIGURE": "#V37005"
+        },
+        "start": 20,
+        "end": 37
+      },
+      "V37036": {
+        "id": "V37036",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "MONTH": "(:* MONTH-NAME SEPTEMBER)",
+          "YEAR": "2016"
+        },
+        "start": 23,
+        "end": 37
+      },
+      "V37077": {
+        "id": "V37077",
+        "indicator": "INDEF-SET",
+        "type": "TRAVELLER",
+        "word": "REFUGEES",
+        "roles": {
+          "SIZE": "#V37377"
+        },
+        "start": 39,
+        "end": 62
+      },
+      "V37377": {
+        "id": "V37377",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "MOD": "#V37046"
+        },
+        "start": 39,
+        "end": 53
+      },
+      "V37046": {
+        "id": "V37046",
+        "indicator": "F",
+        "type": "QMODIFIER",
+        "word": "ALMOST",
+        "roles": {
+          "FIGURE": "#V37377",
+          "GROUND": "#V37464"
+        },
+        "start": 39,
+        "end": 53
+      },
+      "V37464": {
+        "id": "V37464",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "40000"
+        },
+        "start": 39,
+        "end": 53
+      },
+      "V37093": {
+        "id": "V37093",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V37202",
+          "FIGURE": "#V37082"
+        },
+        "start": 70,
+        "end": 82
+      },
+      "V37202": {
+        "id": "V37202",
+        "indicator": "THE",
+        "type": "COUNTRY",
+        "word": "ETHIOPIA",
+        "roles": {
+          "NAME-OF": "ETHIOPIA",
+          "CWMS": "((:CWMS\n  (COUNTRY :NAME \"Federal Democratic Republic of Ethiopia\" :CODE ET :MATCHES\n   ((MATCH :SCORE 1.0 :MATCHED \"Ethiopia\" :EXACT 1)))))"
+        },
+        "start": 73,
+        "end": 82
+      },
+      "V37207": {
+        "id": "V37207",
+        "indicator": "F",
+        "type": "FROM-LOC",
+        "word": "FROM",
+        "roles": {
+          "GROUND": "#V37268"
+        },
+        "start": 82,
+        "end": 99
+      },
+      "V37268": {
+        "id": "V37268",
+        "indicator": "THE",
+        "type": "COUNTRY",
+        "word": "SOUTH-SUDAN",
+        "roles": {
+          "NAME-OF": "SOUTH-SUDAN",
+          "CWMS": "((:CWMS\n  (COUNTRY :NAME \"Republic of South Sudan\" :CODE SS :MATCHES\n   ((MATCH :SCORE 1.0 :MATCHED \"South Sudan\" :EXACT 2)))))"
+        },
+        "start": 87,
+        "end": 99
+      },
+      "V37297": {
+        "id": "V37297",
+        "indicator": "F",
+        "type": "SINCE-UNTIL",
+        "word": "AS-OF",
+        "roles": {
+          "GROUND": "#V37353",
+          "FIGURE": "#V37082"
+        },
+        "start": 99,
+        "end": 117
+      },
+      "V37353": {
+        "id": "V37353",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "MONTH": "(:* MONTH-NAME NOVEMBER)",
+          "PHASE": "(:* MIDDLE-VAL MID)"
+        },
+        "start": 105,
+        "end": 117
+      },
+      "root": "#V45672"
+    }
+  ],
+  "alternatives": [],
+  "sentence": "Since the beginning of September 2016, almost 40,000 refugees arrived in Ethiopia from South Sudan as of mid-November.",
+  "annotation": {
+    "judge": "lgalescu",
+    "parser": "CWMS",
+    "timestamp": "20190621T172630",
+    "link": "http://trips.ihmc.us/parser/saved/20190621T172630-CWMS-lgalescu-0-Since_the_beginning_of_September_2016_al.xml",
+    "judgement": 0
+  }
+}

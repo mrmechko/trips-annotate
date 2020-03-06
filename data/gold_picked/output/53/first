@@ -1,0 +1,20 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V92720 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V89464 [label=<<font color="green"><br /></font> <font color="black">MANAGE-TO-COMPLETE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">MANAGE</font> <font color="green"><br /></font> <font color="green">manage%2:41:09::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MANAGE-TO-COMPLETE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V89459 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HE</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V89496 [label=<<font color="green"><br /></font> <font color="black">PAY-ATTENTION</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">ATTEND</font> <font color="green"><br /></font> <font color="green">attend%2:39:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PAY-ATTENTION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V89734 [label=<<font color="green"><br /></font> <font color="black">NIGHT</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">NIGHT</font> <font color="green"><br /></font> <font color="green">night%1:28:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::NIGHT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V89728 [label=<<font color="green"><br /></font> <font color="black">MATERIAL</font> <font color="green"><br /></font> <font color="red">KIND</font> <font color="blue">FILM</font> <font color="green"><br /></font> <font color="green">film%1:06:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MATERIAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V89570 [label=<<font color="green"><br /></font> <font color="black">LODGING</font> <font color="green"><br /></font> <font color="red">KIND</font> <font color="blue">HOUSE</font> <font color="green"><br /></font> <font color="green">house%1:06:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::LODGING.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V89548 [label=<<font color="green"><br /></font> <font color="black">LENGTH-UNIT</font> <font color="green"><br /></font> <font color="red">KIND</font> <font color="blue">INCH</font> <font color="green"><br /></font> <font color="green">inch%1:23:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::LENGTH-UNIT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V89734 -> V89728 [label=" ASSOC-WITH   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V89464 -> V89496 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V92720 -> V89464 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V89570 -> V89548 [label=" ASSOC-WITH   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V89496 -> V89734 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V89464 -> V89459 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

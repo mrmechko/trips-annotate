@@ -1,0 +1,4026 @@
+{
+  "parse": [
+    {
+      "V102555": {
+        "id": "V102555",
+        "indicator": "SA-SEQ",
+        "type": "SPEECH-ACT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "ACT": "#V102493",
+          "ACT1": "#V100806",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 67
+      },
+      "V102493": {
+        "id": "V102493",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V100328",
+          "MOD": "#V100312",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 38
+      },
+      "V100312": {
+        "id": "V100312",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "BUT",
+        "roles": {
+          "FIGURE": "#V102493",
+          "LEX": "BUT",
+          "WNSENSE": "but%4:02:01::"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V100328": {
+        "id": "V100328",
+        "indicator": "F",
+        "type": "BE",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V100318",
+          "NEUTRAL1": "#V100343",
+          "TENSE": "PAST",
+          "LEX": "WAS",
+          "WNSENSE": "be%2:42:06::"
+        },
+        "start": 4,
+        "end": 38
+      },
+      "V100318": {
+        "id": "V100318",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00",
+          "COREF": "#V100355"
+        },
+        "start": 4,
+        "end": 7
+      },
+      "V100343": {
+        "id": "V100343",
+        "indicator": "WH-TERM",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V100355",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 11,
+        "end": 38
+      },
+      "V100355": {
+        "id": "V100355",
+        "indicator": "F",
+        "type": "WANT",
+        "word": "LIKE",
+        "roles": {
+          "EXPERIENCER": "#V100350",
+          "FORMAL": "#V100400",
+          "TENSE": "PAST",
+          "LEX": "LIKED",
+          "WNSENSE": "like%2:37:01::"
+        },
+        "start": 16,
+        "end": 38
+      },
+      "V100350": {
+        "id": "V100350",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 16,
+        "end": 19
+      },
+      "V100400": {
+        "id": "V100400",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "AGENT": "#V100350",
+          "NEUTRAL": "#V100343",
+          "REASON": "#V100409",
+          "VFORM": "BASE",
+          "LEX": "DO-",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 25,
+        "end": 38
+      },
+      "V100409": {
+        "id": "V100409",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V100441",
+          "FIGURE": "#V100400",
+          "LEX": "FOR"
+        },
+        "start": 31,
+        "end": 38
+      },
+      "V100441": {
+        "id": "V100441",
+        "indicator": "INDEF-SET",
+        "type": "CONTENT",
+        "word": "FUN",
+        "roles": {
+          "LEX": "FUN",
+          "WNSENSE": "fun%1:10:00::"
+        },
+        "start": 35,
+        "end": 38
+      },
+      "V100806": {
+        "id": "V100806",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V100582",
+          "MOD": "#V100459",
+          "LEX": "CONTINUE"
+        },
+        "start": 40,
+        "end": 67
+      },
+      "V100459": {
+        "id": "V100459",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "SO",
+        "roles": {
+          "FIGURE": "#V100806",
+          "LEX": "SO",
+          "WNSENSE": "so%4:02:02::"
+        },
+        "start": 40,
+        "end": 43
+      },
+      "V100582": {
+        "id": "V100582",
+        "indicator": "F",
+        "type": "ACTIVITY-ONGOING",
+        "word": "CONTINUE",
+        "roles": {
+          "AGENT": "#V100470",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "MODALITY": "(:* GOING-TO GOING-TO)",
+          "LEX": "CONTINUE",
+          "WNSENSE": "continue%2:42:01::"
+        },
+        "start": 43,
+        "end": 67
+      },
+      "V100470": {
+        "id": "V100470",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00",
+          "COREF": "#V100350"
+        },
+        "start": 43,
+        "end": 46
+      },
+      "root": "#V102555"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V102555": {
+          "id": "V102555",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V102493",
+            "ACT1": "#V100809",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 68
+        },
+        "V102493": {
+          "id": "V102493",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V100328",
+            "MOD": "#V100312",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V100312": {
+          "id": "V100312",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V102493",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V100328": {
+          "id": "V100328",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V100318",
+            "NEUTRAL1": "#V100343",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 4,
+          "end": 38
+        },
+        "V100318": {
+          "id": "V100318",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 4,
+          "end": 7
+        },
+        "V100343": {
+          "id": "V100343",
+          "indicator": "WH-TERM",
+          "type": "REFERENTIAL-SEM",
+          "word": "WHAT",
+          "roles": {
+            "SUCHTHAT": "#V100355",
+            "PROFORM": "WHAT",
+            "LEX": "WHAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 11,
+          "end": 38
+        },
+        "V100355": {
+          "id": "V100355",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "LIKE",
+          "roles": {
+            "EXPERIENCER": "#V100350",
+            "FORMAL": "#V100400",
+            "TENSE": "PAST",
+            "LEX": "LIKED",
+            "WNSENSE": "like%2:37:01::"
+          },
+          "start": 16,
+          "end": 38
+        },
+        "V100350": {
+          "id": "V100350",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 16,
+          "end": 19
+        },
+        "V100400": {
+          "id": "V100400",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V100350",
+            "NEUTRAL": "#V100343",
+            "REASON": "#V100409",
+            "VFORM": "BASE",
+            "LEX": "DO-",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 25,
+          "end": 38
+        },
+        "V100409": {
+          "id": "V100409",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V100441",
+            "FIGURE": "#V100400",
+            "LEX": "FOR"
+          },
+          "start": 31,
+          "end": 38
+        },
+        "V100441": {
+          "id": "V100441",
+          "indicator": "INDEF-SET",
+          "type": "CONTENT",
+          "word": "FUN",
+          "roles": {
+            "LEX": "FUN",
+            "WNSENSE": "fun%1:10:00::"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "V100809": {
+          "id": "V100809",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V100582",
+            "MOD": "#V100459",
+            "LEX": "CONTINUE"
+          },
+          "start": 40,
+          "end": 67
+        },
+        "V100459": {
+          "id": "V100459",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "SO",
+          "roles": {
+            "FIGURE": "#V100809",
+            "LEX": "SO",
+            "WNSENSE": "so%4:02:02::"
+          },
+          "start": 40,
+          "end": 43
+        },
+        "V100582": {
+          "id": "V100582",
+          "indicator": "F",
+          "type": "ACTIVITY-ONGOING",
+          "word": "CONTINUE",
+          "roles": {
+            "AGENT": "#V100470",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "MODALITY": "(:* GOING-TO GOING-TO)",
+            "LEX": "CONTINUE",
+            "WNSENSE": "continue%2:42:01::"
+          },
+          "start": 43,
+          "end": 67
+        },
+        "V100470": {
+          "id": "V100470",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 43,
+          "end": 46
+        },
+        "root": "#V102555"
+      }
+    ],
+    [
+      {
+        "V102555": {
+          "id": "V102555",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V102493",
+            "ACT1": "#V101323",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 68
+        },
+        "V102493": {
+          "id": "V102493",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V100328",
+            "MOD": "#V100312",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V100312": {
+          "id": "V100312",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V102493",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V100328": {
+          "id": "V100328",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V100318",
+            "NEUTRAL1": "#V100343",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 4,
+          "end": 38
+        },
+        "V100318": {
+          "id": "V100318",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 4,
+          "end": 7
+        },
+        "V100343": {
+          "id": "V100343",
+          "indicator": "WH-TERM",
+          "type": "REFERENTIAL-SEM",
+          "word": "WHAT",
+          "roles": {
+            "SUCHTHAT": "#V100355",
+            "PROFORM": "WHAT",
+            "LEX": "WHAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 11,
+          "end": 38
+        },
+        "V100355": {
+          "id": "V100355",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "LIKE",
+          "roles": {
+            "EXPERIENCER": "#V100350",
+            "FORMAL": "#V100400",
+            "TENSE": "PAST",
+            "LEX": "LIKED",
+            "WNSENSE": "like%2:37:01::"
+          },
+          "start": 16,
+          "end": 38
+        },
+        "V100350": {
+          "id": "V100350",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 16,
+          "end": 19
+        },
+        "V100400": {
+          "id": "V100400",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V100350",
+            "NEUTRAL": "#V100343",
+            "REASON": "#V100409",
+            "VFORM": "BASE",
+            "LEX": "DO-",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 25,
+          "end": 38
+        },
+        "V100409": {
+          "id": "V100409",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V100441",
+            "FIGURE": "#V100400",
+            "LEX": "FOR"
+          },
+          "start": 31,
+          "end": 38
+        },
+        "V100441": {
+          "id": "V100441",
+          "indicator": "INDEF-SET",
+          "type": "CONTENT",
+          "word": "FUN",
+          "roles": {
+            "LEX": "FUN",
+            "WNSENSE": "fun%1:10:00::"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "V101323": {
+          "id": "V101323",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V100579",
+            "MOD": "#V100459",
+            "LEX": "CONTINUE"
+          },
+          "start": 40,
+          "end": 67
+        },
+        "V100459": {
+          "id": "V100459",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "SO",
+          "roles": {
+            "FIGURE": "#V101323",
+            "LEX": "SO",
+            "WNSENSE": "so%4:02:02::"
+          },
+          "start": 40,
+          "end": 43
+        },
+        "V100579": {
+          "id": "V100579",
+          "indicator": "F",
+          "type": "GO-ON",
+          "word": "CONTINUE",
+          "roles": {
+            "AGENT": "#V100470",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "MODALITY": "(:* GOING-TO GOING-TO)",
+            "LEX": "CONTINUE",
+            "WNSENSE": "continue%2:38:00::"
+          },
+          "start": 43,
+          "end": 67
+        },
+        "V100470": {
+          "id": "V100470",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 43,
+          "end": 46
+        },
+        "root": "#V102555"
+      }
+    ],
+    [
+      {
+        "V102555": {
+          "id": "V102555",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V102493",
+            "ACT1": "#V101326",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 68
+        },
+        "V102493": {
+          "id": "V102493",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V100328",
+            "MOD": "#V100312",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V100312": {
+          "id": "V100312",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V102493",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V100328": {
+          "id": "V100328",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V100318",
+            "NEUTRAL1": "#V100343",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 4,
+          "end": 38
+        },
+        "V100318": {
+          "id": "V100318",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 4,
+          "end": 7
+        },
+        "V100343": {
+          "id": "V100343",
+          "indicator": "WH-TERM",
+          "type": "REFERENTIAL-SEM",
+          "word": "WHAT",
+          "roles": {
+            "SUCHTHAT": "#V100355",
+            "PROFORM": "WHAT",
+            "LEX": "WHAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 11,
+          "end": 38
+        },
+        "V100355": {
+          "id": "V100355",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "LIKE",
+          "roles": {
+            "EXPERIENCER": "#V100350",
+            "FORMAL": "#V100400",
+            "TENSE": "PAST",
+            "LEX": "LIKED",
+            "WNSENSE": "like%2:37:01::"
+          },
+          "start": 16,
+          "end": 38
+        },
+        "V100350": {
+          "id": "V100350",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 16,
+          "end": 19
+        },
+        "V100400": {
+          "id": "V100400",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V100350",
+            "NEUTRAL": "#V100343",
+            "REASON": "#V100409",
+            "VFORM": "BASE",
+            "LEX": "DO-",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 25,
+          "end": 38
+        },
+        "V100409": {
+          "id": "V100409",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V100441",
+            "FIGURE": "#V100400",
+            "LEX": "FOR"
+          },
+          "start": 31,
+          "end": 38
+        },
+        "V100441": {
+          "id": "V100441",
+          "indicator": "INDEF-SET",
+          "type": "CONTENT",
+          "word": "FUN",
+          "roles": {
+            "LEX": "FUN",
+            "WNSENSE": "fun%1:10:00::"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "V101326": {
+          "id": "V101326",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V100579",
+            "MOD": "#V100459",
+            "LEX": "CONTINUE"
+          },
+          "start": 40,
+          "end": 67
+        },
+        "V100459": {
+          "id": "V100459",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "SO",
+          "roles": {
+            "FIGURE": "#V101326",
+            "LEX": "SO",
+            "WNSENSE": "so%4:02:02::"
+          },
+          "start": 40,
+          "end": 43
+        },
+        "V100579": {
+          "id": "V100579",
+          "indicator": "F",
+          "type": "GO-ON",
+          "word": "CONTINUE",
+          "roles": {
+            "AGENT": "#V100470",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "MODALITY": "(:* GOING-TO GOING-TO)",
+            "LEX": "CONTINUE",
+            "WNSENSE": "continue%2:38:00::"
+          },
+          "start": 43,
+          "end": 67
+        },
+        "V100470": {
+          "id": "V100470",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 43,
+          "end": 46
+        },
+        "root": "#V102555"
+      }
+    ],
+    [
+      {
+        "V102944": {
+          "id": "V102944",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V100328",
+            "MOD": "#V100312",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 68
+        },
+        "V100312": {
+          "id": "V100312",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V102944",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V100328": {
+          "id": "V100328",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V100318",
+            "NEUTRAL1": "#V100343",
+            "MOD": "#V100458",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 4,
+          "end": 67
+        },
+        "V100318": {
+          "id": "V100318",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 4,
+          "end": 7
+        },
+        "V100343": {
+          "id": "V100343",
+          "indicator": "WH-TERM",
+          "type": "REFERENTIAL-SEM",
+          "word": "WHAT",
+          "roles": {
+            "SUCHTHAT": "#V100355",
+            "PROFORM": "WHAT",
+            "LEX": "WHAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 11,
+          "end": 38
+        },
+        "V100355": {
+          "id": "V100355",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "LIKE",
+          "roles": {
+            "EXPERIENCER": "#V100350",
+            "FORMAL": "#V100400",
+            "TENSE": "PAST",
+            "LEX": "LIKED",
+            "WNSENSE": "like%2:37:01::"
+          },
+          "start": 16,
+          "end": 38
+        },
+        "V100350": {
+          "id": "V100350",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 16,
+          "end": 19
+        },
+        "V100400": {
+          "id": "V100400",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V100350",
+            "NEUTRAL": "#V100343",
+            "REASON": "#V100409",
+            "VFORM": "BASE",
+            "LEX": "DO-",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 25,
+          "end": 38
+        },
+        "V100409": {
+          "id": "V100409",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V100441",
+            "FIGURE": "#V100400",
+            "LEX": "FOR"
+          },
+          "start": 31,
+          "end": 38
+        },
+        "V100441": {
+          "id": "V100441",
+          "indicator": "INDEF-SET",
+          "type": "CONTENT",
+          "word": "FUN",
+          "roles": {
+            "LEX": "FUN",
+            "WNSENSE": "fun%1:10:00::"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "V100458": {
+          "id": "V100458",
+          "indicator": "F",
+          "type": "THEREFORE",
+          "word": "SO",
+          "roles": {
+            "GROUND": "#V100582",
+            "FIGURE": "#V100328",
+            "LEX": "SO",
+            "WNSENSE": "so%4:02:02::"
+          },
+          "start": 38,
+          "end": 67
+        },
+        "V100582": {
+          "id": "V100582",
+          "indicator": "F",
+          "type": "ACTIVITY-ONGOING",
+          "word": "CONTINUE",
+          "roles": {
+            "AGENT": "#V100470",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "MODALITY": "(:* GOING-TO GOING-TO)",
+            "LEX": "CONTINUE",
+            "WNSENSE": "continue%2:42:01::"
+          },
+          "start": 43,
+          "end": 67
+        },
+        "V100470": {
+          "id": "V100470",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 43,
+          "end": 46
+        },
+        "root": "#V102944"
+      }
+    ],
+    [
+      {
+        "V102773": {
+          "id": "V102773",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V100328",
+            "MOD": "#V100312",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 68
+        },
+        "V100312": {
+          "id": "V100312",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V102773",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V100328": {
+          "id": "V100328",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V100318",
+            "NEUTRAL1": "#V100343",
+            "MOD": "#V100458",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 4,
+          "end": 67
+        },
+        "V100318": {
+          "id": "V100318",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 4,
+          "end": 7
+        },
+        "V100343": {
+          "id": "V100343",
+          "indicator": "WH-TERM",
+          "type": "REFERENTIAL-SEM",
+          "word": "WHAT",
+          "roles": {
+            "SUCHTHAT": "#V100355",
+            "PROFORM": "WHAT",
+            "LEX": "WHAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 11,
+          "end": 38
+        },
+        "V100355": {
+          "id": "V100355",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "LIKE",
+          "roles": {
+            "EXPERIENCER": "#V100350",
+            "FORMAL": "#V100400",
+            "TENSE": "PAST",
+            "LEX": "LIKED",
+            "WNSENSE": "like%2:37:01::"
+          },
+          "start": 16,
+          "end": 38
+        },
+        "V100350": {
+          "id": "V100350",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 16,
+          "end": 19
+        },
+        "V100400": {
+          "id": "V100400",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V100350",
+            "NEUTRAL": "#V100343",
+            "REASON": "#V100409",
+            "VFORM": "BASE",
+            "LEX": "DO-",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 25,
+          "end": 38
+        },
+        "V100409": {
+          "id": "V100409",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V100441",
+            "FIGURE": "#V100400",
+            "LEX": "FOR"
+          },
+          "start": 31,
+          "end": 38
+        },
+        "V100441": {
+          "id": "V100441",
+          "indicator": "INDEF-SET",
+          "type": "CONTENT",
+          "word": "FUN",
+          "roles": {
+            "LEX": "FUN",
+            "WNSENSE": "fun%1:10:00::"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "V100458": {
+          "id": "V100458",
+          "indicator": "F",
+          "type": "THEREFORE",
+          "word": "SO",
+          "roles": {
+            "GROUND": "#V100582",
+            "FIGURE": "#V100328",
+            "LEX": "SO",
+            "WNSENSE": "so%4:02:02::"
+          },
+          "start": 38,
+          "end": 67
+        },
+        "V100582": {
+          "id": "V100582",
+          "indicator": "F",
+          "type": "ACTIVITY-ONGOING",
+          "word": "CONTINUE",
+          "roles": {
+            "AGENT": "#V100470",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "MODALITY": "(:* GOING-TO GOING-TO)",
+            "LEX": "CONTINUE",
+            "WNSENSE": "continue%2:42:01::"
+          },
+          "start": 43,
+          "end": 67
+        },
+        "V100470": {
+          "id": "V100470",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 43,
+          "end": 46
+        },
+        "root": "#V102773"
+      }
+    ],
+    [
+      {
+        "V102947": {
+          "id": "V102947",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V100328",
+            "MOD": "#V100312",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 68
+        },
+        "V100312": {
+          "id": "V100312",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V102947",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V100328": {
+          "id": "V100328",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V100318",
+            "NEUTRAL1": "#V100343",
+            "MOD": "#V100458",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 4,
+          "end": 67
+        },
+        "V100318": {
+          "id": "V100318",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 4,
+          "end": 7
+        },
+        "V100343": {
+          "id": "V100343",
+          "indicator": "WH-TERM",
+          "type": "REFERENTIAL-SEM",
+          "word": "WHAT",
+          "roles": {
+            "SUCHTHAT": "#V100355",
+            "PROFORM": "WHAT",
+            "LEX": "WHAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 11,
+          "end": 38
+        },
+        "V100355": {
+          "id": "V100355",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "LIKE",
+          "roles": {
+            "EXPERIENCER": "#V100350",
+            "FORMAL": "#V100400",
+            "TENSE": "PAST",
+            "LEX": "LIKED",
+            "WNSENSE": "like%2:37:01::"
+          },
+          "start": 16,
+          "end": 38
+        },
+        "V100350": {
+          "id": "V100350",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 16,
+          "end": 19
+        },
+        "V100400": {
+          "id": "V100400",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V100350",
+            "NEUTRAL": "#V100343",
+            "REASON": "#V100409",
+            "VFORM": "BASE",
+            "LEX": "DO-",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 25,
+          "end": 38
+        },
+        "V100409": {
+          "id": "V100409",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V100441",
+            "FIGURE": "#V100400",
+            "LEX": "FOR"
+          },
+          "start": 31,
+          "end": 38
+        },
+        "V100441": {
+          "id": "V100441",
+          "indicator": "INDEF-SET",
+          "type": "CONTENT",
+          "word": "FUN",
+          "roles": {
+            "LEX": "FUN",
+            "WNSENSE": "fun%1:10:00::"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "V100458": {
+          "id": "V100458",
+          "indicator": "F",
+          "type": "THEREFORE",
+          "word": "SO",
+          "roles": {
+            "GROUND": "#V100582",
+            "FIGURE": "#V100328",
+            "LEX": "SO",
+            "WNSENSE": "so%4:02:02::"
+          },
+          "start": 38,
+          "end": 67
+        },
+        "V100582": {
+          "id": "V100582",
+          "indicator": "F",
+          "type": "ACTIVITY-ONGOING",
+          "word": "CONTINUE",
+          "roles": {
+            "AGENT": "#V100470",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "MODALITY": "(:* GOING-TO GOING-TO)",
+            "LEX": "CONTINUE",
+            "WNSENSE": "continue%2:42:01::"
+          },
+          "start": 43,
+          "end": 67
+        },
+        "V100470": {
+          "id": "V100470",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 43,
+          "end": 46
+        },
+        "root": "#V102947"
+      }
+    ],
+    [
+      {
+        "V102776": {
+          "id": "V102776",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V100328",
+            "MOD": "#V100312",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 68
+        },
+        "V100312": {
+          "id": "V100312",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V102776",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V100328": {
+          "id": "V100328",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V100318",
+            "NEUTRAL1": "#V100343",
+            "MOD": "#V100458",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 4,
+          "end": 67
+        },
+        "V100318": {
+          "id": "V100318",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 4,
+          "end": 7
+        },
+        "V100343": {
+          "id": "V100343",
+          "indicator": "WH-TERM",
+          "type": "REFERENTIAL-SEM",
+          "word": "WHAT",
+          "roles": {
+            "SUCHTHAT": "#V100355",
+            "PROFORM": "WHAT",
+            "LEX": "WHAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 11,
+          "end": 38
+        },
+        "V100355": {
+          "id": "V100355",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "LIKE",
+          "roles": {
+            "EXPERIENCER": "#V100350",
+            "FORMAL": "#V100400",
+            "TENSE": "PAST",
+            "LEX": "LIKED",
+            "WNSENSE": "like%2:37:01::"
+          },
+          "start": 16,
+          "end": 38
+        },
+        "V100350": {
+          "id": "V100350",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 16,
+          "end": 19
+        },
+        "V100400": {
+          "id": "V100400",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V100350",
+            "NEUTRAL": "#V100343",
+            "REASON": "#V100409",
+            "VFORM": "BASE",
+            "LEX": "DO-",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 25,
+          "end": 38
+        },
+        "V100409": {
+          "id": "V100409",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V100441",
+            "FIGURE": "#V100400",
+            "LEX": "FOR"
+          },
+          "start": 31,
+          "end": 38
+        },
+        "V100441": {
+          "id": "V100441",
+          "indicator": "INDEF-SET",
+          "type": "CONTENT",
+          "word": "FUN",
+          "roles": {
+            "LEX": "FUN",
+            "WNSENSE": "fun%1:10:00::"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "V100458": {
+          "id": "V100458",
+          "indicator": "F",
+          "type": "THEREFORE",
+          "word": "SO",
+          "roles": {
+            "GROUND": "#V100582",
+            "FIGURE": "#V100328",
+            "LEX": "SO",
+            "WNSENSE": "so%4:02:02::"
+          },
+          "start": 38,
+          "end": 67
+        },
+        "V100582": {
+          "id": "V100582",
+          "indicator": "F",
+          "type": "ACTIVITY-ONGOING",
+          "word": "CONTINUE",
+          "roles": {
+            "AGENT": "#V100470",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "MODALITY": "(:* GOING-TO GOING-TO)",
+            "LEX": "CONTINUE",
+            "WNSENSE": "continue%2:42:01::"
+          },
+          "start": 43,
+          "end": 67
+        },
+        "V100470": {
+          "id": "V100470",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 43,
+          "end": 46
+        },
+        "root": "#V102776"
+      }
+    ],
+    [
+      {
+        "V102555": {
+          "id": "V102555",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V102493",
+            "ACT1": "#V101454",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 68
+        },
+        "V102493": {
+          "id": "V102493",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V100328",
+            "MOD": "#V100312",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V100312": {
+          "id": "V100312",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V102493",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V100328": {
+          "id": "V100328",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V100318",
+            "NEUTRAL1": "#V100343",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 4,
+          "end": 38
+        },
+        "V100318": {
+          "id": "V100318",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 4,
+          "end": 7
+        },
+        "V100343": {
+          "id": "V100343",
+          "indicator": "WH-TERM",
+          "type": "REFERENTIAL-SEM",
+          "word": "WHAT",
+          "roles": {
+            "SUCHTHAT": "#V100355",
+            "PROFORM": "WHAT",
+            "LEX": "WHAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 11,
+          "end": 38
+        },
+        "V100355": {
+          "id": "V100355",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "LIKE",
+          "roles": {
+            "EXPERIENCER": "#V100350",
+            "FORMAL": "#V100400",
+            "TENSE": "PAST",
+            "LEX": "LIKED",
+            "WNSENSE": "like%2:37:01::"
+          },
+          "start": 16,
+          "end": 38
+        },
+        "V100350": {
+          "id": "V100350",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 16,
+          "end": 19
+        },
+        "V100400": {
+          "id": "V100400",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V100350",
+            "NEUTRAL": "#V100343",
+            "REASON": "#V100409",
+            "VFORM": "BASE",
+            "LEX": "DO-",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 25,
+          "end": 38
+        },
+        "V100409": {
+          "id": "V100409",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V100441",
+            "FIGURE": "#V100400",
+            "LEX": "FOR"
+          },
+          "start": 31,
+          "end": 38
+        },
+        "V100441": {
+          "id": "V100441",
+          "indicator": "INDEF-SET",
+          "type": "CONTENT",
+          "word": "FUN",
+          "roles": {
+            "LEX": "FUN",
+            "WNSENSE": "fun%1:10:00::"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "V101454": {
+          "id": "V101454",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V100504",
+            "MOD": "#V100459",
+            "LEX": "GOING"
+          },
+          "start": 40,
+          "end": 67
+        },
+        "V100459": {
+          "id": "V100459",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "SO",
+          "roles": {
+            "FIGURE": "#V101454",
+            "LEX": "SO",
+            "WNSENSE": "so%4:02:02::"
+          },
+          "start": 40,
+          "end": 43
+        },
+        "V100504": {
+          "id": "V100504",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "GO",
+          "roles": {
+            "AGENT": "#V100470",
+            "REASON": "#V100528",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "GOING",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 43,
+          "end": 67
+        },
+        "V100470": {
+          "id": "V100470",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 43,
+          "end": 46
+        },
+        "V100528": {
+          "id": "V100528",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V100582",
+            "FIGURE": "#V100504",
+            "LEX": "TO"
+          },
+          "start": 56,
+          "end": 67
+        },
+        "V100582": {
+          "id": "V100582",
+          "indicator": "F",
+          "type": "ACTIVITY-ONGOING",
+          "word": "CONTINUE",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "CONTINUE",
+            "WNSENSE": "continue%2:42:01::"
+          },
+          "start": 59,
+          "end": 67
+        },
+        "root": "#V102555"
+      }
+    ],
+    [
+      {
+        "V102555": {
+          "id": "V102555",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V102493",
+            "ACT1": "#V101459",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 68
+        },
+        "V102493": {
+          "id": "V102493",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V100328",
+            "MOD": "#V100312",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V100312": {
+          "id": "V100312",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V102493",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V100328": {
+          "id": "V100328",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V100318",
+            "NEUTRAL1": "#V100343",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 4,
+          "end": 38
+        },
+        "V100318": {
+          "id": "V100318",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 4,
+          "end": 7
+        },
+        "V100343": {
+          "id": "V100343",
+          "indicator": "WH-TERM",
+          "type": "REFERENTIAL-SEM",
+          "word": "WHAT",
+          "roles": {
+            "SUCHTHAT": "#V100355",
+            "PROFORM": "WHAT",
+            "LEX": "WHAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 11,
+          "end": 38
+        },
+        "V100355": {
+          "id": "V100355",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "LIKE",
+          "roles": {
+            "EXPERIENCER": "#V100350",
+            "FORMAL": "#V100400",
+            "TENSE": "PAST",
+            "LEX": "LIKED",
+            "WNSENSE": "like%2:37:01::"
+          },
+          "start": 16,
+          "end": 38
+        },
+        "V100350": {
+          "id": "V100350",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 16,
+          "end": 19
+        },
+        "V100400": {
+          "id": "V100400",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V100350",
+            "NEUTRAL": "#V100343",
+            "REASON": "#V100409",
+            "VFORM": "BASE",
+            "LEX": "DO-",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 25,
+          "end": 38
+        },
+        "V100409": {
+          "id": "V100409",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V100441",
+            "FIGURE": "#V100400",
+            "LEX": "FOR"
+          },
+          "start": 31,
+          "end": 38
+        },
+        "V100441": {
+          "id": "V100441",
+          "indicator": "INDEF-SET",
+          "type": "CONTENT",
+          "word": "FUN",
+          "roles": {
+            "LEX": "FUN",
+            "WNSENSE": "fun%1:10:00::"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "V101459": {
+          "id": "V101459",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V100504",
+            "MOD": "#V100459",
+            "LEX": "GOING"
+          },
+          "start": 40,
+          "end": 67
+        },
+        "V100459": {
+          "id": "V100459",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "SO",
+          "roles": {
+            "FIGURE": "#V101459",
+            "LEX": "SO",
+            "WNSENSE": "so%4:02:02::"
+          },
+          "start": 40,
+          "end": 43
+        },
+        "V100504": {
+          "id": "V100504",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "GO",
+          "roles": {
+            "AGENT": "#V100470",
+            "REASON": "#V100528",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "GOING",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 43,
+          "end": 67
+        },
+        "V100470": {
+          "id": "V100470",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 43,
+          "end": 46
+        },
+        "V100528": {
+          "id": "V100528",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V100582",
+            "FIGURE": "#V100504",
+            "LEX": "TO"
+          },
+          "start": 56,
+          "end": 67
+        },
+        "V100582": {
+          "id": "V100582",
+          "indicator": "F",
+          "type": "ACTIVITY-ONGOING",
+          "word": "CONTINUE",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "CONTINUE",
+            "WNSENSE": "continue%2:42:01::"
+          },
+          "start": 59,
+          "end": 67
+        },
+        "root": "#V102555"
+      }
+    ],
+    [
+      {
+        "V102555": {
+          "id": "V102555",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V102493",
+            "ACT1": "#V102015",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 68
+        },
+        "V102493": {
+          "id": "V102493",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V100328",
+            "MOD": "#V100312",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V100312": {
+          "id": "V100312",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V102493",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V100328": {
+          "id": "V100328",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V100318",
+            "NEUTRAL1": "#V100343",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 4,
+          "end": 38
+        },
+        "V100318": {
+          "id": "V100318",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 4,
+          "end": 7
+        },
+        "V100343": {
+          "id": "V100343",
+          "indicator": "WH-TERM",
+          "type": "REFERENTIAL-SEM",
+          "word": "WHAT",
+          "roles": {
+            "SUCHTHAT": "#V100355",
+            "PROFORM": "WHAT",
+            "LEX": "WHAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 11,
+          "end": 38
+        },
+        "V100355": {
+          "id": "V100355",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "LIKE",
+          "roles": {
+            "EXPERIENCER": "#V100350",
+            "FORMAL": "#V100400",
+            "TENSE": "PAST",
+            "LEX": "LIKED",
+            "WNSENSE": "like%2:37:01::"
+          },
+          "start": 16,
+          "end": 38
+        },
+        "V100350": {
+          "id": "V100350",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 16,
+          "end": 19
+        },
+        "V100400": {
+          "id": "V100400",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V100350",
+            "NEUTRAL": "#V100343",
+            "REASON": "#V100409",
+            "VFORM": "BASE",
+            "LEX": "DO-",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 25,
+          "end": 38
+        },
+        "V100409": {
+          "id": "V100409",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V100441",
+            "FIGURE": "#V100400",
+            "LEX": "FOR"
+          },
+          "start": 31,
+          "end": 38
+        },
+        "V100441": {
+          "id": "V100441",
+          "indicator": "INDEF-SET",
+          "type": "CONTENT",
+          "word": "FUN",
+          "roles": {
+            "LEX": "FUN",
+            "WNSENSE": "fun%1:10:00::"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "V102015": {
+          "id": "V102015",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V100504",
+            "MOD": "#V100459",
+            "LEX": "GOING"
+          },
+          "start": 40,
+          "end": 67
+        },
+        "V100459": {
+          "id": "V100459",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "SO",
+          "roles": {
+            "FIGURE": "#V102015",
+            "LEX": "SO",
+            "WNSENSE": "so%4:02:02::"
+          },
+          "start": 40,
+          "end": 43
+        },
+        "V100504": {
+          "id": "V100504",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "GO",
+          "roles": {
+            "AGENT": "#V100470",
+            "REASON": "#V100528",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "GOING",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 43,
+          "end": 67
+        },
+        "V100470": {
+          "id": "V100470",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 43,
+          "end": 46
+        },
+        "V100528": {
+          "id": "V100528",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V100579",
+            "FIGURE": "#V100504",
+            "LEX": "TO"
+          },
+          "start": 56,
+          "end": 67
+        },
+        "V100579": {
+          "id": "V100579",
+          "indicator": "F",
+          "type": "GO-ON",
+          "word": "CONTINUE",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "CONTINUE",
+            "WNSENSE": "continue%2:38:00::"
+          },
+          "start": 59,
+          "end": 67
+        },
+        "root": "#V102555"
+      }
+    ],
+    [
+      {
+        "V102817": {
+          "id": "V102817",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V100328",
+            "MOD": "#V100312",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 68
+        },
+        "V100312": {
+          "id": "V100312",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V102817",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V100328": {
+          "id": "V100328",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V100318",
+            "NEUTRAL1": "#V100343",
+            "MOD": "#V100458",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 4,
+          "end": 67
+        },
+        "V100318": {
+          "id": "V100318",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 4,
+          "end": 7
+        },
+        "V100343": {
+          "id": "V100343",
+          "indicator": "WH-TERM",
+          "type": "REFERENTIAL-SEM",
+          "word": "WHAT",
+          "roles": {
+            "SUCHTHAT": "#V100355",
+            "PROFORM": "WHAT",
+            "LEX": "WHAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 11,
+          "end": 38
+        },
+        "V100355": {
+          "id": "V100355",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "LIKE",
+          "roles": {
+            "EXPERIENCER": "#V100350",
+            "FORMAL": "#V100400",
+            "TENSE": "PAST",
+            "LEX": "LIKED",
+            "WNSENSE": "like%2:37:01::"
+          },
+          "start": 16,
+          "end": 38
+        },
+        "V100350": {
+          "id": "V100350",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 16,
+          "end": 19
+        },
+        "V100400": {
+          "id": "V100400",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V100350",
+            "NEUTRAL": "#V100343",
+            "REASON": "#V100409",
+            "VFORM": "BASE",
+            "LEX": "DO-",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 25,
+          "end": 38
+        },
+        "V100409": {
+          "id": "V100409",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V100441",
+            "FIGURE": "#V100400",
+            "LEX": "FOR"
+          },
+          "start": 31,
+          "end": 38
+        },
+        "V100441": {
+          "id": "V100441",
+          "indicator": "INDEF-SET",
+          "type": "CONTENT",
+          "word": "FUN",
+          "roles": {
+            "LEX": "FUN",
+            "WNSENSE": "fun%1:10:00::"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "V100458": {
+          "id": "V100458",
+          "indicator": "F",
+          "type": "THEREFORE",
+          "word": "SO",
+          "roles": {
+            "GROUND": "#V100579",
+            "FIGURE": "#V100328",
+            "LEX": "SO",
+            "WNSENSE": "so%4:02:02::"
+          },
+          "start": 38,
+          "end": 67
+        },
+        "V100579": {
+          "id": "V100579",
+          "indicator": "F",
+          "type": "GO-ON",
+          "word": "CONTINUE",
+          "roles": {
+            "AGENT": "#V100470",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "MODALITY": "(:* GOING-TO GOING-TO)",
+            "LEX": "CONTINUE",
+            "WNSENSE": "continue%2:38:00::"
+          },
+          "start": 43,
+          "end": 67
+        },
+        "V100470": {
+          "id": "V100470",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 43,
+          "end": 46
+        },
+        "root": "#V102817"
+      }
+    ],
+    [
+      {
+        "V102820": {
+          "id": "V102820",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V100328",
+            "MOD": "#V100312",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 68
+        },
+        "V100312": {
+          "id": "V100312",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V102820",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V100328": {
+          "id": "V100328",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V100318",
+            "NEUTRAL1": "#V100343",
+            "MOD": "#V100458",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 4,
+          "end": 67
+        },
+        "V100318": {
+          "id": "V100318",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 4,
+          "end": 7
+        },
+        "V100343": {
+          "id": "V100343",
+          "indicator": "WH-TERM",
+          "type": "REFERENTIAL-SEM",
+          "word": "WHAT",
+          "roles": {
+            "SUCHTHAT": "#V100355",
+            "PROFORM": "WHAT",
+            "LEX": "WHAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 11,
+          "end": 38
+        },
+        "V100355": {
+          "id": "V100355",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "LIKE",
+          "roles": {
+            "EXPERIENCER": "#V100350",
+            "FORMAL": "#V100400",
+            "TENSE": "PAST",
+            "LEX": "LIKED",
+            "WNSENSE": "like%2:37:01::"
+          },
+          "start": 16,
+          "end": 38
+        },
+        "V100350": {
+          "id": "V100350",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 16,
+          "end": 19
+        },
+        "V100400": {
+          "id": "V100400",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V100350",
+            "NEUTRAL": "#V100343",
+            "REASON": "#V100409",
+            "VFORM": "BASE",
+            "LEX": "DO-",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 25,
+          "end": 38
+        },
+        "V100409": {
+          "id": "V100409",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V100441",
+            "FIGURE": "#V100400",
+            "LEX": "FOR"
+          },
+          "start": 31,
+          "end": 38
+        },
+        "V100441": {
+          "id": "V100441",
+          "indicator": "INDEF-SET",
+          "type": "CONTENT",
+          "word": "FUN",
+          "roles": {
+            "LEX": "FUN",
+            "WNSENSE": "fun%1:10:00::"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "V100458": {
+          "id": "V100458",
+          "indicator": "F",
+          "type": "THEREFORE",
+          "word": "SO",
+          "roles": {
+            "GROUND": "#V100579",
+            "FIGURE": "#V100328",
+            "LEX": "SO",
+            "WNSENSE": "so%4:02:02::"
+          },
+          "start": 38,
+          "end": 67
+        },
+        "V100579": {
+          "id": "V100579",
+          "indicator": "F",
+          "type": "GO-ON",
+          "word": "CONTINUE",
+          "roles": {
+            "AGENT": "#V100470",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "MODALITY": "(:* GOING-TO GOING-TO)",
+            "LEX": "CONTINUE",
+            "WNSENSE": "continue%2:38:00::"
+          },
+          "start": 43,
+          "end": 67
+        },
+        "V100470": {
+          "id": "V100470",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 43,
+          "end": 46
+        },
+        "root": "#V102820"
+      }
+    ],
+    [
+      {
+        "V103020": {
+          "id": "V103020",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V100328",
+            "MOD": "#V100312",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 68
+        },
+        "V100312": {
+          "id": "V100312",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V103020",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V100328": {
+          "id": "V100328",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V100318",
+            "NEUTRAL1": "#V100343",
+            "MOD": "#V100458",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 4,
+          "end": 67
+        },
+        "V100318": {
+          "id": "V100318",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 4,
+          "end": 7
+        },
+        "V100343": {
+          "id": "V100343",
+          "indicator": "WH-TERM",
+          "type": "REFERENTIAL-SEM",
+          "word": "WHAT",
+          "roles": {
+            "SUCHTHAT": "#V100355",
+            "PROFORM": "WHAT",
+            "LEX": "WHAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 11,
+          "end": 38
+        },
+        "V100355": {
+          "id": "V100355",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "LIKE",
+          "roles": {
+            "EXPERIENCER": "#V100350",
+            "FORMAL": "#V100400",
+            "TENSE": "PAST",
+            "LEX": "LIKED",
+            "WNSENSE": "like%2:37:01::"
+          },
+          "start": 16,
+          "end": 38
+        },
+        "V100350": {
+          "id": "V100350",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 16,
+          "end": 19
+        },
+        "V100400": {
+          "id": "V100400",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V100350",
+            "NEUTRAL": "#V100343",
+            "REASON": "#V100409",
+            "VFORM": "BASE",
+            "LEX": "DO-",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 25,
+          "end": 38
+        },
+        "V100409": {
+          "id": "V100409",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V100441",
+            "FIGURE": "#V100400",
+            "LEX": "FOR"
+          },
+          "start": 31,
+          "end": 38
+        },
+        "V100441": {
+          "id": "V100441",
+          "indicator": "INDEF-SET",
+          "type": "CONTENT",
+          "word": "FUN",
+          "roles": {
+            "LEX": "FUN",
+            "WNSENSE": "fun%1:10:00::"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "V100458": {
+          "id": "V100458",
+          "indicator": "F",
+          "type": "THEREFORE",
+          "word": "SO",
+          "roles": {
+            "GROUND": "#V100582",
+            "FIGURE": "#V100328",
+            "LEX": "SO",
+            "WNSENSE": "so%4:02:02::"
+          },
+          "start": 40,
+          "end": 67
+        },
+        "V100582": {
+          "id": "V100582",
+          "indicator": "F",
+          "type": "ACTIVITY-ONGOING",
+          "word": "CONTINUE",
+          "roles": {
+            "AGENT": "#V100470",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "MODALITY": "(:* GOING-TO GOING-TO)",
+            "LEX": "CONTINUE",
+            "WNSENSE": "continue%2:42:01::"
+          },
+          "start": 43,
+          "end": 67
+        },
+        "V100470": {
+          "id": "V100470",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 43,
+          "end": 46
+        },
+        "root": "#V103020"
+      }
+    ],
+    [
+      {
+        "V102826": {
+          "id": "V102826",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V100328",
+            "MOD": "#V100312",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 68
+        },
+        "V100312": {
+          "id": "V100312",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V102826",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V100328": {
+          "id": "V100328",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V100318",
+            "NEUTRAL1": "#V100343",
+            "MOD": "#V100458",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 4,
+          "end": 67
+        },
+        "V100318": {
+          "id": "V100318",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 4,
+          "end": 7
+        },
+        "V100343": {
+          "id": "V100343",
+          "indicator": "WH-TERM",
+          "type": "REFERENTIAL-SEM",
+          "word": "WHAT",
+          "roles": {
+            "SUCHTHAT": "#V100355",
+            "PROFORM": "WHAT",
+            "LEX": "WHAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 11,
+          "end": 38
+        },
+        "V100355": {
+          "id": "V100355",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "LIKE",
+          "roles": {
+            "EXPERIENCER": "#V100350",
+            "FORMAL": "#V100400",
+            "TENSE": "PAST",
+            "LEX": "LIKED",
+            "WNSENSE": "like%2:37:01::"
+          },
+          "start": 16,
+          "end": 38
+        },
+        "V100350": {
+          "id": "V100350",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 16,
+          "end": 19
+        },
+        "V100400": {
+          "id": "V100400",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V100350",
+            "NEUTRAL": "#V100343",
+            "REASON": "#V100409",
+            "VFORM": "BASE",
+            "LEX": "DO-",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 25,
+          "end": 38
+        },
+        "V100409": {
+          "id": "V100409",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V100441",
+            "FIGURE": "#V100400",
+            "LEX": "FOR"
+          },
+          "start": 31,
+          "end": 38
+        },
+        "V100441": {
+          "id": "V100441",
+          "indicator": "INDEF-SET",
+          "type": "CONTENT",
+          "word": "FUN",
+          "roles": {
+            "LEX": "FUN",
+            "WNSENSE": "fun%1:10:00::"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "V100458": {
+          "id": "V100458",
+          "indicator": "F",
+          "type": "THEREFORE",
+          "word": "SO",
+          "roles": {
+            "GROUND": "#V100582",
+            "FIGURE": "#V100328",
+            "LEX": "SO",
+            "WNSENSE": "so%4:02:02::"
+          },
+          "start": 40,
+          "end": 67
+        },
+        "V100582": {
+          "id": "V100582",
+          "indicator": "F",
+          "type": "ACTIVITY-ONGOING",
+          "word": "CONTINUE",
+          "roles": {
+            "AGENT": "#V100470",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "MODALITY": "(:* GOING-TO GOING-TO)",
+            "LEX": "CONTINUE",
+            "WNSENSE": "continue%2:42:01::"
+          },
+          "start": 43,
+          "end": 67
+        },
+        "V100470": {
+          "id": "V100470",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 43,
+          "end": 46
+        },
+        "root": "#V102826"
+      }
+    ],
+    [
+      {
+        "V103026": {
+          "id": "V103026",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V100328",
+            "MOD": "#V100312",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 68
+        },
+        "V100312": {
+          "id": "V100312",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V103026",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V100328": {
+          "id": "V100328",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V100318",
+            "NEUTRAL1": "#V100343",
+            "MOD": "#V100458",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 4,
+          "end": 67
+        },
+        "V100318": {
+          "id": "V100318",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 4,
+          "end": 7
+        },
+        "V100343": {
+          "id": "V100343",
+          "indicator": "WH-TERM",
+          "type": "REFERENTIAL-SEM",
+          "word": "WHAT",
+          "roles": {
+            "SUCHTHAT": "#V100355",
+            "PROFORM": "WHAT",
+            "LEX": "WHAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 11,
+          "end": 38
+        },
+        "V100355": {
+          "id": "V100355",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "LIKE",
+          "roles": {
+            "EXPERIENCER": "#V100350",
+            "FORMAL": "#V100400",
+            "TENSE": "PAST",
+            "LEX": "LIKED",
+            "WNSENSE": "like%2:37:01::"
+          },
+          "start": 16,
+          "end": 38
+        },
+        "V100350": {
+          "id": "V100350",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 16,
+          "end": 19
+        },
+        "V100400": {
+          "id": "V100400",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V100350",
+            "NEUTRAL": "#V100343",
+            "REASON": "#V100409",
+            "VFORM": "BASE",
+            "LEX": "DO-",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 25,
+          "end": 38
+        },
+        "V100409": {
+          "id": "V100409",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V100441",
+            "FIGURE": "#V100400",
+            "LEX": "FOR"
+          },
+          "start": 31,
+          "end": 38
+        },
+        "V100441": {
+          "id": "V100441",
+          "indicator": "INDEF-SET",
+          "type": "CONTENT",
+          "word": "FUN",
+          "roles": {
+            "LEX": "FUN",
+            "WNSENSE": "fun%1:10:00::"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "V100458": {
+          "id": "V100458",
+          "indicator": "F",
+          "type": "THEREFORE",
+          "word": "SO",
+          "roles": {
+            "GROUND": "#V100582",
+            "FIGURE": "#V100328",
+            "LEX": "SO",
+            "WNSENSE": "so%4:02:02::"
+          },
+          "start": 40,
+          "end": 67
+        },
+        "V100582": {
+          "id": "V100582",
+          "indicator": "F",
+          "type": "ACTIVITY-ONGOING",
+          "word": "CONTINUE",
+          "roles": {
+            "AGENT": "#V100470",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "MODALITY": "(:* GOING-TO GOING-TO)",
+            "LEX": "CONTINUE",
+            "WNSENSE": "continue%2:42:01::"
+          },
+          "start": 43,
+          "end": 67
+        },
+        "V100470": {
+          "id": "V100470",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 43,
+          "end": 46
+        },
+        "root": "#V103026"
+      }
+    ],
+    [
+      {
+        "V102830": {
+          "id": "V102830",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V100328",
+            "MOD": "#V100312",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 68
+        },
+        "V100312": {
+          "id": "V100312",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V102830",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V100328": {
+          "id": "V100328",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V100318",
+            "NEUTRAL1": "#V100343",
+            "MOD": "#V100458",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 4,
+          "end": 67
+        },
+        "V100318": {
+          "id": "V100318",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 4,
+          "end": 7
+        },
+        "V100343": {
+          "id": "V100343",
+          "indicator": "WH-TERM",
+          "type": "REFERENTIAL-SEM",
+          "word": "WHAT",
+          "roles": {
+            "SUCHTHAT": "#V100355",
+            "PROFORM": "WHAT",
+            "LEX": "WHAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 11,
+          "end": 38
+        },
+        "V100355": {
+          "id": "V100355",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "LIKE",
+          "roles": {
+            "EXPERIENCER": "#V100350",
+            "FORMAL": "#V100400",
+            "TENSE": "PAST",
+            "LEX": "LIKED",
+            "WNSENSE": "like%2:37:01::"
+          },
+          "start": 16,
+          "end": 38
+        },
+        "V100350": {
+          "id": "V100350",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 16,
+          "end": 19
+        },
+        "V100400": {
+          "id": "V100400",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V100350",
+            "NEUTRAL": "#V100343",
+            "REASON": "#V100409",
+            "VFORM": "BASE",
+            "LEX": "DO-",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 25,
+          "end": 38
+        },
+        "V100409": {
+          "id": "V100409",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V100441",
+            "FIGURE": "#V100400",
+            "LEX": "FOR"
+          },
+          "start": 31,
+          "end": 38
+        },
+        "V100441": {
+          "id": "V100441",
+          "indicator": "INDEF-SET",
+          "type": "CONTENT",
+          "word": "FUN",
+          "roles": {
+            "LEX": "FUN",
+            "WNSENSE": "fun%1:10:00::"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "V100458": {
+          "id": "V100458",
+          "indicator": "F",
+          "type": "THEREFORE",
+          "word": "SO",
+          "roles": {
+            "GROUND": "#V100582",
+            "FIGURE": "#V100328",
+            "LEX": "SO",
+            "WNSENSE": "so%4:02:02::"
+          },
+          "start": 40,
+          "end": 67
+        },
+        "V100582": {
+          "id": "V100582",
+          "indicator": "F",
+          "type": "ACTIVITY-ONGOING",
+          "word": "CONTINUE",
+          "roles": {
+            "AGENT": "#V100470",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "MODALITY": "(:* GOING-TO GOING-TO)",
+            "LEX": "CONTINUE",
+            "WNSENSE": "continue%2:42:01::"
+          },
+          "start": 43,
+          "end": 67
+        },
+        "V100470": {
+          "id": "V100470",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 43,
+          "end": 46
+        },
+        "root": "#V102830"
+      }
+    ],
+    [
+      {
+        "V102881": {
+          "id": "V102881",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V100328",
+            "MOD": "#V100312",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 68
+        },
+        "V100312": {
+          "id": "V100312",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V102881",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V100328": {
+          "id": "V100328",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V100318",
+            "NEUTRAL1": "#V100343",
+            "MOD": "#V100458",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 4,
+          "end": 67
+        },
+        "V100318": {
+          "id": "V100318",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 4,
+          "end": 7
+        },
+        "V100343": {
+          "id": "V100343",
+          "indicator": "WH-TERM",
+          "type": "REFERENTIAL-SEM",
+          "word": "WHAT",
+          "roles": {
+            "SUCHTHAT": "#V100355",
+            "PROFORM": "WHAT",
+            "LEX": "WHAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 11,
+          "end": 38
+        },
+        "V100355": {
+          "id": "V100355",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "LIKE",
+          "roles": {
+            "EXPERIENCER": "#V100350",
+            "FORMAL": "#V100400",
+            "TENSE": "PAST",
+            "LEX": "LIKED",
+            "WNSENSE": "like%2:37:01::"
+          },
+          "start": 16,
+          "end": 38
+        },
+        "V100350": {
+          "id": "V100350",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 16,
+          "end": 19
+        },
+        "V100400": {
+          "id": "V100400",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V100350",
+            "NEUTRAL": "#V100343",
+            "REASON": "#V100409",
+            "VFORM": "BASE",
+            "LEX": "DO-",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 25,
+          "end": 38
+        },
+        "V100409": {
+          "id": "V100409",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V100441",
+            "FIGURE": "#V100400",
+            "LEX": "FOR"
+          },
+          "start": 31,
+          "end": 38
+        },
+        "V100441": {
+          "id": "V100441",
+          "indicator": "INDEF-SET",
+          "type": "CONTENT",
+          "word": "FUN",
+          "roles": {
+            "LEX": "FUN",
+            "WNSENSE": "fun%1:10:00::"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "V100458": {
+          "id": "V100458",
+          "indicator": "F",
+          "type": "THEREFORE",
+          "word": "SO",
+          "roles": {
+            "GROUND": "#V100579",
+            "FIGURE": "#V100328",
+            "LEX": "SO",
+            "WNSENSE": "so%4:02:02::"
+          },
+          "start": 40,
+          "end": 67
+        },
+        "V100579": {
+          "id": "V100579",
+          "indicator": "F",
+          "type": "GO-ON",
+          "word": "CONTINUE",
+          "roles": {
+            "AGENT": "#V100470",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "MODALITY": "(:* GOING-TO GOING-TO)",
+            "LEX": "CONTINUE",
+            "WNSENSE": "continue%2:38:00::"
+          },
+          "start": 43,
+          "end": 67
+        },
+        "V100470": {
+          "id": "V100470",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 43,
+          "end": 46
+        },
+        "root": "#V102881"
+      }
+    ],
+    [
+      {
+        "V102884": {
+          "id": "V102884",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V100328",
+            "MOD": "#V100312",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 68
+        },
+        "V100312": {
+          "id": "V100312",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V102884",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V100328": {
+          "id": "V100328",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V100318",
+            "NEUTRAL1": "#V100343",
+            "MOD": "#V100458",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 4,
+          "end": 67
+        },
+        "V100318": {
+          "id": "V100318",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 4,
+          "end": 7
+        },
+        "V100343": {
+          "id": "V100343",
+          "indicator": "WH-TERM",
+          "type": "REFERENTIAL-SEM",
+          "word": "WHAT",
+          "roles": {
+            "SUCHTHAT": "#V100355",
+            "PROFORM": "WHAT",
+            "LEX": "WHAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 11,
+          "end": 38
+        },
+        "V100355": {
+          "id": "V100355",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "LIKE",
+          "roles": {
+            "EXPERIENCER": "#V100350",
+            "FORMAL": "#V100400",
+            "TENSE": "PAST",
+            "LEX": "LIKED",
+            "WNSENSE": "like%2:37:01::"
+          },
+          "start": 16,
+          "end": 38
+        },
+        "V100350": {
+          "id": "V100350",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 16,
+          "end": 19
+        },
+        "V100400": {
+          "id": "V100400",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V100350",
+            "NEUTRAL": "#V100343",
+            "REASON": "#V100409",
+            "VFORM": "BASE",
+            "LEX": "DO-",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 25,
+          "end": 38
+        },
+        "V100409": {
+          "id": "V100409",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V100441",
+            "FIGURE": "#V100400",
+            "LEX": "FOR"
+          },
+          "start": 31,
+          "end": 38
+        },
+        "V100441": {
+          "id": "V100441",
+          "indicator": "INDEF-SET",
+          "type": "CONTENT",
+          "word": "FUN",
+          "roles": {
+            "LEX": "FUN",
+            "WNSENSE": "fun%1:10:00::"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "V100458": {
+          "id": "V100458",
+          "indicator": "F",
+          "type": "THEREFORE",
+          "word": "SO",
+          "roles": {
+            "GROUND": "#V100579",
+            "FIGURE": "#V100328",
+            "LEX": "SO",
+            "WNSENSE": "so%4:02:02::"
+          },
+          "start": 40,
+          "end": 67
+        },
+        "V100579": {
+          "id": "V100579",
+          "indicator": "F",
+          "type": "GO-ON",
+          "word": "CONTINUE",
+          "roles": {
+            "AGENT": "#V100470",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "MODALITY": "(:* GOING-TO GOING-TO)",
+            "LEX": "CONTINUE",
+            "WNSENSE": "continue%2:38:00::"
+          },
+          "start": 43,
+          "end": 67
+        },
+        "V100470": {
+          "id": "V100470",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 43,
+          "end": 46
+        },
+        "root": "#V102884"
+      }
+    ],
+    [
+      {
+        "V103112": {
+          "id": "V103112",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V100328",
+            "MOD": "#V100312",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 68
+        },
+        "V100312": {
+          "id": "V100312",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "BUT",
+          "roles": {
+            "FIGURE": "#V103112",
+            "LEX": "BUT",
+            "WNSENSE": "but%4:02:01::"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V100328": {
+          "id": "V100328",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V100318",
+            "NEUTRAL1": "#V100343",
+            "MOD": "#V100458",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 4,
+          "end": 67
+        },
+        "V100318": {
+          "id": "V100318",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 4,
+          "end": 7
+        },
+        "V100343": {
+          "id": "V100343",
+          "indicator": "WH-TERM",
+          "type": "REFERENTIAL-SEM",
+          "word": "WHAT",
+          "roles": {
+            "SUCHTHAT": "#V100355",
+            "PROFORM": "WHAT",
+            "LEX": "WHAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 11,
+          "end": 38
+        },
+        "V100355": {
+          "id": "V100355",
+          "indicator": "F",
+          "type": "WANT",
+          "word": "LIKE",
+          "roles": {
+            "EXPERIENCER": "#V100350",
+            "FORMAL": "#V100400",
+            "TENSE": "PAST",
+            "LEX": "LIKED",
+            "WNSENSE": "like%2:37:01::"
+          },
+          "start": 16,
+          "end": 38
+        },
+        "V100350": {
+          "id": "V100350",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 16,
+          "end": 19
+        },
+        "V100400": {
+          "id": "V100400",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V100350",
+            "NEUTRAL": "#V100343",
+            "REASON": "#V100409",
+            "VFORM": "BASE",
+            "LEX": "DO-",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 25,
+          "end": 38
+        },
+        "V100409": {
+          "id": "V100409",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V100441",
+            "FIGURE": "#V100400",
+            "LEX": "FOR"
+          },
+          "start": 31,
+          "end": 38
+        },
+        "V100441": {
+          "id": "V100441",
+          "indicator": "INDEF-SET",
+          "type": "CONTENT",
+          "word": "FUN",
+          "roles": {
+            "LEX": "FUN",
+            "WNSENSE": "fun%1:10:00::"
+          },
+          "start": 35,
+          "end": 38
+        },
+        "V100458": {
+          "id": "V100458",
+          "indicator": "F",
+          "type": "THEREFORE",
+          "word": "SO",
+          "roles": {
+            "GROUND": "#V100504",
+            "FIGURE": "#V100328",
+            "LEX": "SO",
+            "WNSENSE": "so%4:02:02::"
+          },
+          "start": 38,
+          "end": 67
+        },
+        "V100504": {
+          "id": "V100504",
+          "indicator": "F",
+          "type": "SELF-LOCOMOTE",
+          "word": "GO",
+          "roles": {
+            "AGENT": "#V100470",
+            "REASON": "#V100528",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "GOING",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 43,
+          "end": 67
+        },
+        "V100470": {
+          "id": "V100470",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 43,
+          "end": 46
+        },
+        "V100528": {
+          "id": "V100528",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V100582",
+            "FIGURE": "#V100504",
+            "LEX": "TO"
+          },
+          "start": 56,
+          "end": 67
+        },
+        "V100582": {
+          "id": "V100582",
+          "indicator": "F",
+          "type": "ACTIVITY-ONGOING",
+          "word": "CONTINUE",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "CONTINUE",
+            "WNSENSE": "continue%2:42:01::"
+          },
+          "start": 59,
+          "end": 67
+        },
+        "root": "#V103112"
+      }
+    ]
+  ],
+  "sentence": "But it was what he liked to do for fun, so he was going to continue.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20191008T085748",
+    "link": "http://trips.ihmc.us/parser/saved/20191008T085748-STEP-abhatia-1-But_it_was_what_he_liked_to_do_for_fun_s.xml",
+    "judgement": 1
+  }
+}

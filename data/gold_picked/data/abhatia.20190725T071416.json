@@ -1,0 +1,586 @@
+{
+  "parse": [
+    {
+      "V327942": {
+        "id": "V327942",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V326955",
+          "MOD": "#V326889",
+          "LEX": "INVITED"
+        },
+        "start": 0,
+        "end": 42
+      },
+      "V326889": {
+        "id": "V326889",
+        "indicator": "F",
+        "type": "SEQUENCE-POSITION",
+        "word": "LAST",
+        "roles": {
+          "FIGURE": "#V327942",
+          "LEX": "LAST",
+          "WNSENSE": "last%4:02:00::"
+        },
+        "start": 0,
+        "end": 5
+      },
+      "V326955": {
+        "id": "V326955",
+        "indicator": "F",
+        "type": "REQUEST",
+        "word": "INVITE",
+        "roles": {
+          "AFFECTED": "#V326924",
+          "NEUTRAL": "#V327031",
+          "TIME": "#V327123",
+          "TENSE": "PAST",
+          "PASSIVE": "+",
+          "LEX": "INVITED"
+        },
+        "start": 5,
+        "end": 42
+      },
+      "V327123": {
+        "id": "V327123",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V326955",
+          "GROUND": "#V327174"
+        },
+        "start": 5,
+        "end": 11
+      },
+      "V327174": {
+        "id": "V327174",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY-OF-WEEK": "#V326902",
+          "LEX": "FRIDAY"
+        },
+        "start": 5,
+        "end": 11
+      },
+      "V326902": {
+        "id": "V326902",
+        "indicator": "THE",
+        "type": "DAY-NAME",
+        "word": "FRIDAY",
+        "roles": {
+          "NAME-OF": "FRIDAY",
+          "LEX": "FRIDAY",
+          "WNSENSE": "friday%1:28:00::"
+        },
+        "start": 5,
+        "end": 11
+      },
+      "V326924": {
+        "id": "V326924",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 13,
+        "end": 15
+      },
+      "V327031": {
+        "id": "V327031",
+        "indicator": "A",
+        "type": "QUANTITY",
+        "word": null,
+        "roles": {
+          "AMOUNT": "#V326998",
+          "UNIT": "(:* HOUR-DURATION HOUR)",
+          "SCALE": "DURATION-SCALE",
+          "MOD": "#V327027",
+          "LEX": "HOUR",
+          "WNSENSE": "hour%1:28:00::"
+        },
+        "start": 27,
+        "end": 42
+      },
+      "V326998": {
+        "id": "V326998",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 27,
+        "end": 42
+      },
+      "V327027": {
+        "id": "V327027",
+        "indicator": "F",
+        "type": "HAPPY-VAL",
+        "word": "HAPPY",
+        "roles": {
+          "ORIENTATION": "POS",
+          "NEUTRAL": "#V327031",
+          "SCALE": "HAPPINESS-SCALE",
+          "LEX": "HAPPY",
+          "WNSENSE": "happy%3:00:00::"
+        },
+        "start": 32,
+        "end": 38
+      },
+      "root": "#V327942"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V328122": {
+          "id": "V328122",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V326955",
+            "MOD": "#V326889",
+            "LEX": "INVITED"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V326889": {
+          "id": "V326889",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "LAST",
+          "roles": {
+            "FIGURE": "#V328122",
+            "LEX": "LAST",
+            "WNSENSE": "last%4:02:00::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V326955": {
+          "id": "V326955",
+          "indicator": "F",
+          "type": "REQUEST",
+          "word": "INVITE",
+          "roles": {
+            "AFFECTED": "#V326924",
+            "NEUTRAL": "#V327031",
+            "TIME": "#V327123",
+            "TENSE": "PAST",
+            "PASSIVE": "+",
+            "LEX": "INVITED"
+          },
+          "start": 5,
+          "end": 42
+        },
+        "V327123": {
+          "id": "V327123",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V326955",
+            "GROUND": "#V327174"
+          },
+          "start": 5,
+          "end": 11
+        },
+        "V327174": {
+          "id": "V327174",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V326902",
+            "LEX": "FRIDAY"
+          },
+          "start": 5,
+          "end": 11
+        },
+        "V326902": {
+          "id": "V326902",
+          "indicator": "THE",
+          "type": "DAY-NAME",
+          "word": "FRIDAY",
+          "roles": {
+            "NAME-OF": "FRIDAY",
+            "LEX": "FRIDAY",
+            "WNSENSE": "friday%1:28:00::"
+          },
+          "start": 5,
+          "end": 11
+        },
+        "V326924": {
+          "id": "V326924",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 13,
+          "end": 15
+        },
+        "V327031": {
+          "id": "V327031",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "UNIT": "(:* HOUR-DURATION HOUR)",
+            "SCALE": "DURATION-SCALE",
+            "MOD": "#V327027",
+            "LEX": "HOUR",
+            "WNSENSE": "hour%1:28:00::"
+          },
+          "start": 27,
+          "end": 42
+        },
+        "V327027": {
+          "id": "V327027",
+          "indicator": "F",
+          "type": "HAPPY-VAL",
+          "word": "HAPPY",
+          "roles": {
+            "ORIENTATION": "POS",
+            "NEUTRAL": "#V327031",
+            "SCALE": "HAPPINESS-SCALE",
+            "LEX": "HAPPY",
+            "WNSENSE": "happy%3:00:00::"
+          },
+          "start": 32,
+          "end": 38
+        },
+        "root": "#V328122"
+      }
+    ],
+    [
+      {
+        "V328178": {
+          "id": "V328178",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V326955",
+            "MOD": "#V326889",
+            "LEX": "INVITED"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V326889": {
+          "id": "V326889",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "LAST",
+          "roles": {
+            "FIGURE": "#V328178",
+            "LEX": "LAST",
+            "WNSENSE": "last%4:02:00::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V326955": {
+          "id": "V326955",
+          "indicator": "F",
+          "type": "REQUEST",
+          "word": "INVITE",
+          "roles": {
+            "AFFECTED": "#V326924",
+            "NEUTRAL": "#V327288",
+            "TIME": "#V327123",
+            "TENSE": "PAST",
+            "PASSIVE": "+",
+            "LEX": "INVITED"
+          },
+          "start": 5,
+          "end": 42
+        },
+        "V327123": {
+          "id": "V327123",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V326955",
+            "GROUND": "#V327174"
+          },
+          "start": 5,
+          "end": 11
+        },
+        "V327174": {
+          "id": "V327174",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V326902",
+            "LEX": "FRIDAY"
+          },
+          "start": 5,
+          "end": 11
+        },
+        "V326902": {
+          "id": "V326902",
+          "indicator": "THE",
+          "type": "DAY-NAME",
+          "word": "FRIDAY",
+          "roles": {
+            "NAME-OF": "FRIDAY",
+            "LEX": "FRIDAY",
+            "WNSENSE": "friday%1:28:00::"
+          },
+          "start": 5,
+          "end": 11
+        },
+        "V326924": {
+          "id": "V326924",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 13,
+          "end": 15
+        },
+        "V327288": {
+          "id": "V327288",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V327031",
+            "LEX": "HOUR"
+          },
+          "start": 27,
+          "end": 42
+        },
+        "V327031": {
+          "id": "V327031",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "#V326998",
+            "UNIT": "(:* HOUR-DURATION HOUR)",
+            "SCALE": "DURATION-SCALE",
+            "MOD": "#V327027",
+            "LEX": "HOUR",
+            "WNSENSE": "hour%1:28:00::"
+          },
+          "start": 30,
+          "end": 42
+        },
+        "V326998": {
+          "id": "V326998",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 30,
+          "end": 42
+        },
+        "V327027": {
+          "id": "V327027",
+          "indicator": "F",
+          "type": "HAPPY-VAL",
+          "word": "HAPPY",
+          "roles": {
+            "ORIENTATION": "POS",
+            "NEUTRAL": "#V327031",
+            "SCALE": "HAPPINESS-SCALE",
+            "LEX": "HAPPY",
+            "WNSENSE": "happy%3:00:00::"
+          },
+          "start": 32,
+          "end": 38
+        },
+        "root": "#V328178"
+      }
+    ],
+    [
+      {
+        "V328346": {
+          "id": "V328346",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V326957",
+            "MOD": "#V326889",
+            "LEX": "INVITED"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V326889": {
+          "id": "V326889",
+          "indicator": "F",
+          "type": "SEQUENCE-POSITION",
+          "word": "LAST",
+          "roles": {
+            "FIGURE": "#V328346",
+            "LEX": "LAST",
+            "WNSENSE": "last%4:02:00::"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V326957": {
+          "id": "V326957",
+          "indicator": "F",
+          "type": "ADMIT",
+          "word": "INVITE",
+          "roles": {
+            "RESULT": "#V326964",
+            "AFFECTED": "#V326924",
+            "TIME": "#V327123",
+            "TENSE": "PAST",
+            "PASSIVE": "+",
+            "LEX": "INVITED"
+          },
+          "start": 5,
+          "end": 42
+        },
+        "V327123": {
+          "id": "V327123",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V326957",
+            "GROUND": "#V327174"
+          },
+          "start": 5,
+          "end": 11
+        },
+        "V327174": {
+          "id": "V327174",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V326902",
+            "LEX": "FRIDAY"
+          },
+          "start": 5,
+          "end": 11
+        },
+        "V326902": {
+          "id": "V326902",
+          "indicator": "THE",
+          "type": "DAY-NAME",
+          "word": "FRIDAY",
+          "roles": {
+            "NAME-OF": "FRIDAY",
+            "LEX": "FRIDAY",
+            "WNSENSE": "friday%1:28:00::"
+          },
+          "start": 5,
+          "end": 11
+        },
+        "V326924": {
+          "id": "V326924",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 13,
+          "end": 15
+        },
+        "V326964": {
+          "id": "V326964",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V327031",
+            "FIGURE": "#V326924",
+            "LEX": "TO"
+          },
+          "start": 27,
+          "end": 42
+        },
+        "V327031": {
+          "id": "V327031",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "#V326998",
+            "UNIT": "(:* HOUR-DURATION HOUR)",
+            "SCALE": "DURATION-SCALE",
+            "MOD": "#V327027",
+            "LEX": "HOUR",
+            "WNSENSE": "hour%1:28:00::"
+          },
+          "start": 30,
+          "end": 42
+        },
+        "V326998": {
+          "id": "V326998",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 30,
+          "end": 42
+        },
+        "V327027": {
+          "id": "V327027",
+          "indicator": "F",
+          "type": "HAPPY-VAL",
+          "word": "HAPPY",
+          "roles": {
+            "ORIENTATION": "POS",
+            "NEUTRAL": "#V327031",
+            "SCALE": "HAPPINESS-SCALE",
+            "LEX": "HAPPY",
+            "WNSENSE": "happy%3:00:00::"
+          },
+          "start": 32,
+          "end": 38
+        },
+        "root": "#V328346"
+      }
+    ]
+  ],
+  "sentence": "Last Friday, I was invited to a happy hour.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190725T071416",
+    "link": "http://trips.ihmc.us/parser/saved/20190725T071416-STEP-abhatia-none-Last_Friday_I_was_invited_to_a_happy_hou.xml",
+    "judgement": -1
+  }
+}

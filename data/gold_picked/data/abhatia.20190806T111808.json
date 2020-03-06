@@ -1,0 +1,653 @@
+{
+  "parse": [
+    {
+      "V61850": {
+        "id": "V61850",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V60987",
+          "LEX": "THINK"
+        },
+        "start": 0,
+        "end": 69
+      },
+      "V60987": {
+        "id": "V60987",
+        "indicator": "F",
+        "type": "BELIEVE",
+        "word": "THINK",
+        "roles": {
+          "EXPERIENCER": "#V60925",
+          "FORMAL": "#V61016",
+          "TENSE": "PRES",
+          "MODALITY": "(:* DO DO)",
+          "NEGATION": "+",
+          "LEX": "THINK",
+          "WNSENSE": "think%2:31:01::"
+        },
+        "start": 0,
+        "end": 69
+      },
+      "V60925": {
+        "id": "V60925",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V61016": {
+        "id": "V61016",
+        "indicator": "F",
+        "type": "EXISTS",
+        "word": "BE",
+        "roles": {
+          "NOROLE": "#V61003",
+          "NEUTRAL": "#V61027",
+          "TIME": "#V61057",
+          "PROP": "+",
+          "TENSE": "PRES",
+          "LEX": "IS",
+          "WNSENSE": "be%2:42:00::"
+        },
+        "start": 14,
+        "end": 69
+      },
+      "V61003": {
+        "id": "V61003",
+        "indicator": "PRO",
+        "type": "EXPLETIVE",
+        "word": null,
+        "roles": {
+          "PROFORM": "THERE",
+          "LEX": "THERE"
+        },
+        "start": 14,
+        "end": 20
+      },
+      "V61027": {
+        "id": "V61027",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "ANYTHING",
+        "roles": {
+          "PROFORM": "ANYTHING",
+          "MOD": "#V61030",
+          "LEX": "ANYTHING",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 23,
+        "end": 56
+      },
+      "V61030": {
+        "id": "V61030",
+        "indicator": "F",
+        "type": "MORE-VAL",
+        "word": "GOOD",
+        "roles": {
+          "COMPAR": "#V61053",
+          "ORIENTATION": "MORE",
+          "INTENSITY": "MED",
+          "FIGURE": "#V61027",
+          "SCALE": "ACCEPTABILITY-VAL",
+          "LEX": "BETTER"
+        },
+        "start": 32,
+        "end": 56
+      },
+      "V61053": {
+        "id": "V61053",
+        "indicator": "INDEF-SET",
+        "type": "EXTERNAL-BODY-PART",
+        "word": "HAND",
+        "roles": {
+          "MOD": "#V61040",
+          "LEX": "HANDS",
+          "WNSENSE": "hand%1:08:00::"
+        },
+        "start": 39,
+        "end": 56
+      },
+      "V61040": {
+        "id": "V61040",
+        "indicator": "F",
+        "type": "CLEAN-VAL",
+        "word": "CLEAN",
+        "roles": {
+          "FIGURE": "#V61053",
+          "SCALE": "CLEAN-SCALE",
+          "LEX": "CLEAN",
+          "WNSENSE": "clean%3:00:01::"
+        },
+        "start": 44,
+        "end": 50
+      },
+      "V61057": {
+        "id": "V61057",
+        "indicator": "F",
+        "type": "AFTER",
+        "word": "AFTER",
+        "roles": {
+          "GROUND": "#V61109",
+          "FIGURE": "#V61016",
+          "LEX": "AFTER",
+          "WNSENSE": "after%4:02:01::"
+        },
+        "start": 56,
+        "end": 69
+      },
+      "V61109": {
+        "id": "V61109",
+        "indicator": "A",
+        "type": "CAPTURE",
+        "word": "CATCH",
+        "roles": {
+          "LEX": "CATCH",
+          "WNSENSE": "catch%2:35:01::"
+        },
+        "start": 62,
+        "end": 69
+      },
+      "root": "#V61850"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V61713": {
+          "id": "V61713",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V60987",
+            "LEX": "THINK"
+          },
+          "start": 0,
+          "end": 70
+        },
+        "V60987": {
+          "id": "V60987",
+          "indicator": "F",
+          "type": "BELIEVE",
+          "word": "THINK",
+          "roles": {
+            "EXPERIENCER": "#V60925",
+            "FORMAL": "#V61016",
+            "TENSE": "PRES",
+            "MODALITY": "(:* DO DO)",
+            "NEGATION": "+",
+            "LEX": "THINK",
+            "WNSENSE": "think%2:31:01::"
+          },
+          "start": 0,
+          "end": 69
+        },
+        "V60925": {
+          "id": "V60925",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V61016": {
+          "id": "V61016",
+          "indicator": "F",
+          "type": "EXISTS",
+          "word": "BE",
+          "roles": {
+            "NOROLE": "#V61003",
+            "NEUTRAL": "#V61027",
+            "TIME": "#V61057",
+            "PROP": "+",
+            "TENSE": "PRES",
+            "LEX": "IS",
+            "WNSENSE": "be%2:42:00::"
+          },
+          "start": 14,
+          "end": 69
+        },
+        "V61003": {
+          "id": "V61003",
+          "indicator": "PRO",
+          "type": "EXPLETIVE",
+          "word": null,
+          "roles": {
+            "PROFORM": "THERE",
+            "LEX": "THERE"
+          },
+          "start": 14,
+          "end": 20
+        },
+        "V61027": {
+          "id": "V61027",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "ANYTHING",
+          "roles": {
+            "PROFORM": "ANYTHING",
+            "MOD": "#V61030",
+            "LEX": "ANYTHING",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 23,
+          "end": 56
+        },
+        "V61030": {
+          "id": "V61030",
+          "indicator": "F",
+          "type": "MORE-VAL",
+          "word": "GOOD",
+          "roles": {
+            "COMPAR": "#V61053",
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V61027",
+            "SCALE": "ACCEPTABILITY-VAL",
+            "LEX": "BETTER"
+          },
+          "start": 32,
+          "end": 56
+        },
+        "V61053": {
+          "id": "V61053",
+          "indicator": "INDEF-SET",
+          "type": "EXTERNAL-BODY-PART",
+          "word": "HAND",
+          "roles": {
+            "MOD": "#V61040",
+            "LEX": "HANDS",
+            "WNSENSE": "hand%1:08:00::"
+          },
+          "start": 39,
+          "end": 56
+        },
+        "V61040": {
+          "id": "V61040",
+          "indicator": "F",
+          "type": "CLEAN-VAL",
+          "word": "CLEAN",
+          "roles": {
+            "FIGURE": "#V61053",
+            "SCALE": "CLEAN-SCALE",
+            "LEX": "CLEAN",
+            "WNSENSE": "clean%3:00:01::"
+          },
+          "start": 44,
+          "end": 50
+        },
+        "V61057": {
+          "id": "V61057",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "AFTER",
+          "roles": {
+            "GROUND": "#V61109",
+            "FIGURE": "#V61016",
+            "LEX": "AFTER",
+            "WNSENSE": "after%4:02:01::"
+          },
+          "start": 56,
+          "end": 69
+        },
+        "V61109": {
+          "id": "V61109",
+          "indicator": "A",
+          "type": "CAPTURE",
+          "word": "CATCH",
+          "roles": {
+            "LEX": "CATCH",
+            "WNSENSE": "catch%2:35:01::"
+          },
+          "start": 62,
+          "end": 69
+        },
+        "root": "#V61713"
+      }
+    ],
+    [
+      {
+        "V61865": {
+          "id": "V61865",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V60987",
+            "LEX": "THINK"
+          },
+          "start": 0,
+          "end": 70
+        },
+        "V60987": {
+          "id": "V60987",
+          "indicator": "F",
+          "type": "BELIEVE",
+          "word": "THINK",
+          "roles": {
+            "EXPERIENCER": "#V60925",
+            "FORMAL": "#V61016",
+            "TENSE": "PRES",
+            "MODALITY": "(:* DO DO)",
+            "NEGATION": "+",
+            "LEX": "THINK",
+            "WNSENSE": "think%2:31:01::"
+          },
+          "start": 0,
+          "end": 69
+        },
+        "V60925": {
+          "id": "V60925",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V61016": {
+          "id": "V61016",
+          "indicator": "F",
+          "type": "EXISTS",
+          "word": "BE",
+          "roles": {
+            "NOROLE": "#V61003",
+            "NEUTRAL": "#V61027",
+            "TIME": "#V61057",
+            "PROP": "+",
+            "TENSE": "PRES",
+            "LEX": "IS",
+            "WNSENSE": "be%2:42:00::"
+          },
+          "start": 14,
+          "end": 69
+        },
+        "V61003": {
+          "id": "V61003",
+          "indicator": "PRO",
+          "type": "EXPLETIVE",
+          "word": null,
+          "roles": {
+            "PROFORM": "THERE",
+            "LEX": "THERE"
+          },
+          "start": 14,
+          "end": 20
+        },
+        "V61027": {
+          "id": "V61027",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "ANYTHING",
+          "roles": {
+            "PROFORM": "ANYTHING",
+            "MOD": "#V61030",
+            "LEX": "ANYTHING",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 23,
+          "end": 56
+        },
+        "V61030": {
+          "id": "V61030",
+          "indicator": "F",
+          "type": "MORE-VAL",
+          "word": "GOOD",
+          "roles": {
+            "COMPAR": "#V61053",
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V61027",
+            "SCALE": "ACCEPTABILITY-VAL",
+            "LEX": "BETTER"
+          },
+          "start": 32,
+          "end": 56
+        },
+        "V61053": {
+          "id": "V61053",
+          "indicator": "INDEF-SET",
+          "type": "EXTERNAL-BODY-PART",
+          "word": "HAND",
+          "roles": {
+            "MOD": "#V61040",
+            "LEX": "HANDS",
+            "WNSENSE": "hand%1:08:00::"
+          },
+          "start": 39,
+          "end": 56
+        },
+        "V61040": {
+          "id": "V61040",
+          "indicator": "F",
+          "type": "CLEAN-VAL",
+          "word": "CLEAN",
+          "roles": {
+            "FIGURE": "#V61053",
+            "SCALE": "CLEAN-SCALE",
+            "LEX": "CLEAN",
+            "WNSENSE": "clean%3:00:01::"
+          },
+          "start": 44,
+          "end": 50
+        },
+        "V61057": {
+          "id": "V61057",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "AFTER",
+          "roles": {
+            "GROUND": "#V61109",
+            "FIGURE": "#V61016",
+            "LEX": "AFTER",
+            "WNSENSE": "after%4:02:01::"
+          },
+          "start": 56,
+          "end": 69
+        },
+        "V61109": {
+          "id": "V61109",
+          "indicator": "A",
+          "type": "CAPTURE",
+          "word": "CATCH",
+          "roles": {
+            "LEX": "CATCH",
+            "WNSENSE": "catch%2:35:01::"
+          },
+          "start": 62,
+          "end": 69
+        },
+        "root": "#V61865"
+      }
+    ],
+    [
+      {
+        "V61728": {
+          "id": "V61728",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V60987",
+            "LEX": "THINK"
+          },
+          "start": 0,
+          "end": 70
+        },
+        "V60987": {
+          "id": "V60987",
+          "indicator": "F",
+          "type": "BELIEVE",
+          "word": "THINK",
+          "roles": {
+            "EXPERIENCER": "#V60925",
+            "FORMAL": "#V61016",
+            "TENSE": "PRES",
+            "MODALITY": "(:* DO DO)",
+            "NEGATION": "+",
+            "LEX": "THINK",
+            "WNSENSE": "think%2:31:01::"
+          },
+          "start": 0,
+          "end": 69
+        },
+        "V60925": {
+          "id": "V60925",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V61016": {
+          "id": "V61016",
+          "indicator": "F",
+          "type": "EXISTS",
+          "word": "BE",
+          "roles": {
+            "NOROLE": "#V61003",
+            "NEUTRAL": "#V61027",
+            "TIME": "#V61057",
+            "PROP": "+",
+            "TENSE": "PRES",
+            "LEX": "IS",
+            "WNSENSE": "be%2:42:00::"
+          },
+          "start": 14,
+          "end": 69
+        },
+        "V61003": {
+          "id": "V61003",
+          "indicator": "PRO",
+          "type": "EXPLETIVE",
+          "word": null,
+          "roles": {
+            "PROFORM": "THERE",
+            "LEX": "THERE"
+          },
+          "start": 14,
+          "end": 20
+        },
+        "V61027": {
+          "id": "V61027",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "ANYTHING",
+          "roles": {
+            "PROFORM": "ANYTHING",
+            "MOD": "#V61030",
+            "LEX": "ANYTHING",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 23,
+          "end": 56
+        },
+        "V61030": {
+          "id": "V61030",
+          "indicator": "F",
+          "type": "MORE-VAL",
+          "word": "GOOD",
+          "roles": {
+            "COMPAR": "#V61053",
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V61027",
+            "SCALE": "ACCEPTABILITY-VAL",
+            "LEX": "BETTER"
+          },
+          "start": 32,
+          "end": 56
+        },
+        "V61053": {
+          "id": "V61053",
+          "indicator": "INDEF-SET",
+          "type": "EXTERNAL-BODY-PART",
+          "word": "HAND",
+          "roles": {
+            "MOD": "#V61040",
+            "LEX": "HANDS",
+            "WNSENSE": "hand%1:08:00::"
+          },
+          "start": 39,
+          "end": 56
+        },
+        "V61040": {
+          "id": "V61040",
+          "indicator": "F",
+          "type": "CLEAN-VAL",
+          "word": "CLEAN",
+          "roles": {
+            "FIGURE": "#V61053",
+            "SCALE": "CLEAN-SCALE",
+            "LEX": "CLEAN",
+            "WNSENSE": "clean%3:00:01::"
+          },
+          "start": 44,
+          "end": 50
+        },
+        "V61057": {
+          "id": "V61057",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "AFTER",
+          "roles": {
+            "GROUND": "#V61109",
+            "FIGURE": "#V61016",
+            "LEX": "AFTER",
+            "WNSENSE": "after%4:02:01::"
+          },
+          "start": 56,
+          "end": 69
+        },
+        "V61109": {
+          "id": "V61109",
+          "indicator": "A",
+          "type": "CAPTURE",
+          "word": "CATCH",
+          "roles": {
+            "LEX": "CATCH",
+            "WNSENSE": "catch%2:35:01::"
+          },
+          "start": 62,
+          "end": 69
+        },
+        "root": "#V61728"
+      }
+    ]
+  ],
+  "sentence": "I don't think there is anything better than clean hands after a catch.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190806T111808",
+    "link": "http://trips.ihmc.us/parser/saved/20190806T111808-STEP-abhatia-0-I_don_t_think_there_is_anything_better_t.xml",
+    "judgement": 0
+  }
+}

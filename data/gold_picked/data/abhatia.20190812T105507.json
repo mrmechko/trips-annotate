@@ -1,0 +1,1604 @@
+{
+  "parse": [
+    {
+      "V224892": {
+        "id": "V224892",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V224888",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 61
+      },
+      "V224888": {
+        "id": "V224888",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V224372",
+          "SEQUENCE1": "#V224419",
+          "SEQUENCE2": "#V224478",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 61
+      },
+      "V224367": {
+        "id": "V224367",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "SHE",
+        "roles": {
+          "PROFORM": "SHE",
+          "LEX": "SHE",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V224372": {
+        "id": "V224372",
+        "indicator": "F",
+        "type": "MOVE-RAPIDLY",
+        "word": "RUN",
+        "roles": {
+          "RESULT": "#V224383",
+          "AGENT": "#V224367",
+          "TENSE": "PAST",
+          "LEX": "RAN",
+          "WNSENSE": "run%2:38:00::"
+        },
+        "start": 4,
+        "end": 19
+      },
+      "V224383": {
+        "id": "V224383",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V224411",
+          "FIGURE": "#V224367",
+          "LEX": "TO"
+        },
+        "start": 8,
+        "end": 19
+      },
+      "V224411": {
+        "id": "V224411",
+        "indicator": "THE-SET",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "DOG",
+        "roles": {
+          "LEX": "DOGS",
+          "WNSENSE": "dog%1:05:00::"
+        },
+        "start": 11,
+        "end": 19
+      },
+      "V224419": {
+        "id": "V224419",
+        "indicator": "F",
+        "type": "ACQUIRE",
+        "word": "GRAB",
+        "roles": {
+          "AGENT": "#V224367",
+          "AFFECTED": "#V224428",
+          "SOURCE": "#V224450",
+          "TENSE": "PAST",
+          "LEX": "GRABBED",
+          "WNSENSE": "grab%2:40:00::"
+        },
+        "start": 21,
+        "end": 53
+      },
+      "V224428": {
+        "id": "V224428",
+        "indicator": "THE-SET",
+        "type": "ATTIRE",
+        "word": "SHOE",
+        "roles": {
+          "LEX": "SHOES",
+          "WNSENSE": "clothing%1:06:00"
+        },
+        "start": 29,
+        "end": 39
+      },
+      "V224450": {
+        "id": "V224450",
+        "indicator": "THE-SET",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "DOG",
+        "roles": {
+          "LEX": "DOGS",
+          "WNSENSE": "dog%1:05:00::"
+        },
+        "start": 39,
+        "end": 53
+      },
+      "V224478": {
+        "id": "V224478",
+        "indicator": "F",
+        "type": "DEPART",
+        "word": "LEAVE",
+        "roles": {
+          "AGENT": "#V224367",
+          "TENSE": "PAST",
+          "LEX": "LEFT",
+          "WNSENSE": "leave%2:38:01::"
+        },
+        "start": 57,
+        "end": 61
+      },
+      "root": "#V224892"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V225029": {
+          "id": "V225029",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V225023",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 62
+        },
+        "V225023": {
+          "id": "V225023",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V224372",
+            "SEQUENCE1": "#V224419",
+            "SEQUENCE2": "#V224478",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V224478": {
+          "id": "V224478",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V224367",
+            "LEX": "LEFT"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V224419": {
+          "id": "V224419",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "GRAB",
+          "roles": {
+            "AGENT": "#V224367",
+            "AFFECTED": "#V224428",
+            "SOURCE": "#V224450",
+            "LEX": "GRABBED"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V224372": {
+          "id": "V224372",
+          "indicator": "F",
+          "type": "MOVE-RAPIDLY",
+          "word": "RUN",
+          "roles": {
+            "RESULT": "#V224383",
+            "AGENT": "#V224367",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V224367": {
+          "id": "V224367",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V224383": {
+          "id": "V224383",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V224411",
+            "FIGURE": "#V224367",
+            "LEX": "TO"
+          },
+          "start": 8,
+          "end": 19
+        },
+        "V224411": {
+          "id": "V224411",
+          "indicator": "THE-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOGS",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 11,
+          "end": 19
+        },
+        "V224428": {
+          "id": "V224428",
+          "indicator": "THE-SET",
+          "type": "ATTIRE",
+          "word": "SHOE",
+          "roles": {
+            "LEX": "SHOES",
+            "WNSENSE": "clothing%1:06:00"
+          },
+          "start": 29,
+          "end": 39
+        },
+        "V224450": {
+          "id": "V224450",
+          "indicator": "THE-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOGS",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 39,
+          "end": 53
+        },
+        "root": "#V225029"
+      }
+    ],
+    [
+      {
+        "V224967": {
+          "id": "V224967",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V224963",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 62
+        },
+        "V224963": {
+          "id": "V224963",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V224372",
+            "SEQUENCE1": "#V224419",
+            "SEQUENCE2": "#V224478",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V224367": {
+          "id": "V224367",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V224372": {
+          "id": "V224372",
+          "indicator": "F",
+          "type": "MOVE-RAPIDLY",
+          "word": "RUN",
+          "roles": {
+            "RESULT": "#V224383",
+            "AGENT": "#V224367",
+            "TENSE": "PAST",
+            "LEX": "RAN",
+            "WNSENSE": "run%2:38:00::"
+          },
+          "start": 4,
+          "end": 19
+        },
+        "V224383": {
+          "id": "V224383",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V224411",
+            "FIGURE": "#V224367",
+            "LEX": "TO"
+          },
+          "start": 8,
+          "end": 19
+        },
+        "V224411": {
+          "id": "V224411",
+          "indicator": "THE-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOGS",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 11,
+          "end": 19
+        },
+        "V224419": {
+          "id": "V224419",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "GRAB",
+          "roles": {
+            "AGENT": "#V224367",
+            "AFFECTED": "#V224428",
+            "TENSE": "PAST",
+            "LEX": "GRABBED",
+            "WNSENSE": "grab%2:40:00::"
+          },
+          "start": 21,
+          "end": 53
+        },
+        "V224428": {
+          "id": "V224428",
+          "indicator": "THE-SET",
+          "type": "ATTIRE",
+          "word": "SHOE",
+          "roles": {
+            "SOURCE": "#V224432",
+            "LEX": "SHOES",
+            "WNSENSE": "clothing%1:06:00"
+          },
+          "start": 29,
+          "end": 53
+        },
+        "V224432": {
+          "id": "V224432",
+          "indicator": "F",
+          "type": "SOURCE-AS-LOC",
+          "word": "FROM",
+          "roles": {
+            "GROUND": "#V224450",
+            "FIGURE": "#V224428",
+            "LEX": "FROM"
+          },
+          "start": 39,
+          "end": 53
+        },
+        "V224450": {
+          "id": "V224450",
+          "indicator": "THE-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOGS",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 44,
+          "end": 53
+        },
+        "V224478": {
+          "id": "V224478",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V224367",
+            "TENSE": "PAST",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:38:01::"
+          },
+          "start": 57,
+          "end": 61
+        },
+        "root": "#V224967"
+      }
+    ],
+    [
+      {
+        "V225098": {
+          "id": "V225098",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V225092",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 62
+        },
+        "V225092": {
+          "id": "V225092",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V224372",
+            "SEQUENCE1": "#V224419",
+            "SEQUENCE2": "#V224478",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V224478": {
+          "id": "V224478",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V224367",
+            "LEX": "LEFT"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V224419": {
+          "id": "V224419",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "GRAB",
+          "roles": {
+            "AGENT": "#V224367",
+            "AFFECTED": "#V224428",
+            "LEX": "GRABBED"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V224372": {
+          "id": "V224372",
+          "indicator": "F",
+          "type": "MOVE-RAPIDLY",
+          "word": "RUN",
+          "roles": {
+            "RESULT": "#V224383",
+            "AGENT": "#V224367",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V224367": {
+          "id": "V224367",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V224383": {
+          "id": "V224383",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V224411",
+            "FIGURE": "#V224367",
+            "LEX": "TO"
+          },
+          "start": 8,
+          "end": 19
+        },
+        "V224411": {
+          "id": "V224411",
+          "indicator": "THE-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOGS",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 11,
+          "end": 19
+        },
+        "V224428": {
+          "id": "V224428",
+          "indicator": "THE-SET",
+          "type": "ATTIRE",
+          "word": "SHOE",
+          "roles": {
+            "SOURCE": "#V224432",
+            "LEX": "SHOES",
+            "WNSENSE": "clothing%1:06:00"
+          },
+          "start": 29,
+          "end": 53
+        },
+        "V224432": {
+          "id": "V224432",
+          "indicator": "F",
+          "type": "SOURCE-AS-LOC",
+          "word": "FROM",
+          "roles": {
+            "GROUND": "#V224450",
+            "FIGURE": "#V224428",
+            "LEX": "FROM"
+          },
+          "start": 39,
+          "end": 53
+        },
+        "V224450": {
+          "id": "V224450",
+          "indicator": "THE-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOGS",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 44,
+          "end": 53
+        },
+        "root": "#V225098"
+      }
+    ],
+    [
+      {
+        "V225158": {
+          "id": "V225158",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V225064",
+            "ACT1": "#V224942",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 62
+        },
+        "V225064": {
+          "id": "V225064",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V224372",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V224372": {
+          "id": "V224372",
+          "indicator": "F",
+          "type": "MOVE-RAPIDLY",
+          "word": "RUN",
+          "roles": {
+            "RESULT": "#V224383",
+            "AGENT": "#V224367",
+            "TENSE": "PAST",
+            "LEX": "RAN",
+            "WNSENSE": "run%2:38:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V224367": {
+          "id": "V224367",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V224383": {
+          "id": "V224383",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V224411",
+            "FIGURE": "#V224367",
+            "LEX": "TO"
+          },
+          "start": 8,
+          "end": 19
+        },
+        "V224411": {
+          "id": "V224411",
+          "indicator": "THE-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOGS",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 11,
+          "end": 19
+        },
+        "V224942": {
+          "id": "V224942",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V224750",
+            "LEX": "AND"
+          },
+          "start": 21,
+          "end": 61
+        },
+        "V224750": {
+          "id": "V224750",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V224419",
+            "SEQUENCE1": "#V224478",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 21,
+          "end": 61
+        },
+        "V224478": {
+          "id": "V224478",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V224943",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:38:01::"
+          },
+          "start": 21,
+          "end": 61
+        },
+        "V224419": {
+          "id": "V224419",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "GRAB",
+          "roles": {
+            "AGENT": "#V224943",
+            "AFFECTED": "#V224428",
+            "SOURCE": "#V224450",
+            "LEX": "GRABBED",
+            "WNSENSE": "grab%2:40:00::"
+          },
+          "start": 21,
+          "end": 61
+        },
+        "V224943": {
+          "id": "V224943",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 21,
+          "end": 61
+        },
+        "V224428": {
+          "id": "V224428",
+          "indicator": "THE-SET",
+          "type": "ATTIRE",
+          "word": "SHOE",
+          "roles": {
+            "LEX": "SHOES",
+            "WNSENSE": "clothing%1:06:00"
+          },
+          "start": 29,
+          "end": 39
+        },
+        "V224450": {
+          "id": "V224450",
+          "indicator": "THE-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOGS",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 39,
+          "end": 53
+        },
+        "root": "#V225158"
+      }
+    ],
+    [
+      {
+        "V225877": {
+          "id": "V225877",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V225872",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 62
+        },
+        "V225872": {
+          "id": "V225872",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V224375",
+            "SEQUENCE1": "#V224478",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V224478": {
+          "id": "V224478",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V224367",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:38:01::"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V224375": {
+          "id": "V224375",
+          "indicator": "F",
+          "type": "GOVERNING",
+          "word": "RUN",
+          "roles": {
+            "AGENT": "#V224367",
+            "AFFECTED": "#V224428",
+            "RESULT": "#V224384",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V224367": {
+          "id": "V224367",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V224384": {
+          "id": "V224384",
+          "indicator": "F",
+          "type": "RESULTING-OBJECT",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V224411",
+            "FIGURE": "#V224428",
+            "LEX": "TO"
+          },
+          "start": 8,
+          "end": 29
+        },
+        "V224411": {
+          "id": "V224411",
+          "indicator": "THE-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "MOD": "#V224419",
+            "LEX": "DOGS",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 11,
+          "end": 29
+        },
+        "V224419": {
+          "id": "V224419",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "GRAB",
+          "roles": {
+            "AFFECTED": "#V224411",
+            "VFORM": "PASSIVE",
+            "LEX": "GRABBED",
+            "WNSENSE": "grab%2:40:00::"
+          },
+          "start": 21,
+          "end": 29
+        },
+        "V224428": {
+          "id": "V224428",
+          "indicator": "THE-SET",
+          "type": "ATTIRE",
+          "word": "SHOE",
+          "roles": {
+            "SOURCE": "#V224432",
+            "LEX": "SHOES",
+            "WNSENSE": "clothing%1:06:00"
+          },
+          "start": 29,
+          "end": 53
+        },
+        "V224432": {
+          "id": "V224432",
+          "indicator": "F",
+          "type": "SOURCE-AS-LOC",
+          "word": "FROM",
+          "roles": {
+            "GROUND": "#V224450",
+            "FIGURE": "#V224428",
+            "LEX": "FROM"
+          },
+          "start": 39,
+          "end": 53
+        },
+        "V224450": {
+          "id": "V224450",
+          "indicator": "THE-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOGS",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 44,
+          "end": 53
+        },
+        "root": "#V225877"
+      }
+    ],
+    [
+      {
+        "V225158": {
+          "id": "V225158",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V225064",
+            "ACT1": "#V225208",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 62
+        },
+        "V225064": {
+          "id": "V225064",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V224372",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V224372": {
+          "id": "V224372",
+          "indicator": "F",
+          "type": "MOVE-RAPIDLY",
+          "word": "RUN",
+          "roles": {
+            "RESULT": "#V224383",
+            "AGENT": "#V224367",
+            "TENSE": "PAST",
+            "LEX": "RAN",
+            "WNSENSE": "run%2:38:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V224367": {
+          "id": "V224367",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V224383": {
+          "id": "V224383",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V224411",
+            "FIGURE": "#V224367",
+            "LEX": "TO"
+          },
+          "start": 8,
+          "end": 19
+        },
+        "V224411": {
+          "id": "V224411",
+          "indicator": "THE-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOGS",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 11,
+          "end": 19
+        },
+        "V225208": {
+          "id": "V225208",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V224981",
+            "LEX": "AND"
+          },
+          "start": 21,
+          "end": 61
+        },
+        "V224981": {
+          "id": "V224981",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V224419",
+            "SEQUENCE1": "#V224478",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 21,
+          "end": 61
+        },
+        "V224478": {
+          "id": "V224478",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V225209",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:38:01::"
+          },
+          "start": 21,
+          "end": 61
+        },
+        "V224419": {
+          "id": "V224419",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "GRAB",
+          "roles": {
+            "AGENT": "#V225209",
+            "AFFECTED": "#V224428",
+            "LEX": "GRABBED",
+            "WNSENSE": "grab%2:40:00::"
+          },
+          "start": 21,
+          "end": 61
+        },
+        "V225209": {
+          "id": "V225209",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 21,
+          "end": 61
+        },
+        "V224428": {
+          "id": "V224428",
+          "indicator": "THE-SET",
+          "type": "ATTIRE",
+          "word": "SHOE",
+          "roles": {
+            "SOURCE": "#V224432",
+            "LEX": "SHOES",
+            "WNSENSE": "clothing%1:06:00"
+          },
+          "start": 29,
+          "end": 53
+        },
+        "V224432": {
+          "id": "V224432",
+          "indicator": "F",
+          "type": "SOURCE-AS-LOC",
+          "word": "FROM",
+          "roles": {
+            "GROUND": "#V224450",
+            "FIGURE": "#V224428",
+            "LEX": "FROM"
+          },
+          "start": 39,
+          "end": 53
+        },
+        "V224450": {
+          "id": "V224450",
+          "indicator": "THE-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOGS",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 44,
+          "end": 53
+        },
+        "root": "#V225158"
+      }
+    ],
+    [
+      {
+        "V225916": {
+          "id": "V225916",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V224375",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 62
+        },
+        "V224375": {
+          "id": "V224375",
+          "indicator": "F",
+          "type": "GOVERNING",
+          "word": "RUN",
+          "roles": {
+            "AGENT": "#V224367",
+            "AFFECTED": "#V224428",
+            "RESULT": "#V224384",
+            "TENSE": "PAST",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V224367": {
+          "id": "V224367",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V224384": {
+          "id": "V224384",
+          "indicator": "F",
+          "type": "RESULTING-OBJECT",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V224411",
+            "FIGURE": "#V224428",
+            "LEX": "TO"
+          },
+          "start": 8,
+          "end": 29
+        },
+        "V224411": {
+          "id": "V224411",
+          "indicator": "THE-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "MOD": "#V224419",
+            "LEX": "DOGS",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 11,
+          "end": 29
+        },
+        "V224419": {
+          "id": "V224419",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "GRAB",
+          "roles": {
+            "AFFECTED": "#V224411",
+            "VFORM": "PASSIVE",
+            "LEX": "GRABBED",
+            "WNSENSE": "grab%2:40:00::"
+          },
+          "start": 21,
+          "end": 29
+        },
+        "V224428": {
+          "id": "V224428",
+          "indicator": "THE-SET",
+          "type": "ATTIRE",
+          "word": "SHOE",
+          "roles": {
+            "MOD": "#V224804",
+            "LEX": "SHOES",
+            "WNSENSE": "clothing%1:06:00"
+          },
+          "start": 29,
+          "end": 61
+        },
+        "V224804": {
+          "id": "V224804",
+          "indicator": "F",
+          "type": "ABSTRACT-OBJECT",
+          "word": null,
+          "roles": {
+            "SEQUENCE": "#V224434",
+            "SEQUENCE1": "#V224467",
+            "OPERATOR": "AND",
+            "LEX": "LEFT",
+            "WNSENSE": "left%3:00:00::"
+          },
+          "start": 39,
+          "end": 61
+        },
+        "V224434": {
+          "id": "V224434",
+          "indicator": "F",
+          "type": "FROM-LOC",
+          "word": "FROM",
+          "roles": {
+            "GROUND": "#V224450",
+            "FIGURE": "#V224428",
+            "LEX": "FROM"
+          },
+          "start": 39,
+          "end": 53
+        },
+        "V224450": {
+          "id": "V224450",
+          "indicator": "THE-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOGS",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 44,
+          "end": 53
+        },
+        "V224467": {
+          "id": "V224467",
+          "indicator": "F",
+          "type": "LEFT",
+          "word": "LEFT",
+          "roles": {
+            "FIGURE": "#V224428",
+            "SCALE": "SPATIAL-SCALE",
+            "LEX": "LEFT",
+            "WNSENSE": "left%3:00:00::"
+          },
+          "start": 57,
+          "end": 61
+        },
+        "root": "#V225916"
+      }
+    ],
+    [
+      {
+        "V225904": {
+          "id": "V225904",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V224455",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 62
+        },
+        "V224455": {
+          "id": "V224455",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V224375",
+            "SEQUENCE1": "#V224478",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 61
+        },
+        "V224375": {
+          "id": "V224375",
+          "indicator": "F",
+          "type": "GOVERNING",
+          "word": "RUN",
+          "roles": {
+            "AGENT": "#V224367",
+            "AFFECTED": "#V224428",
+            "RESULT": "#V224384",
+            "TENSE": "PAST",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 53
+        },
+        "V224367": {
+          "id": "V224367",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V224384": {
+          "id": "V224384",
+          "indicator": "F",
+          "type": "RESULTING-OBJECT",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V224411",
+            "FIGURE": "#V224428",
+            "LEX": "TO"
+          },
+          "start": 8,
+          "end": 29
+        },
+        "V224411": {
+          "id": "V224411",
+          "indicator": "THE-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "MOD": "#V224419",
+            "LEX": "DOGS",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 11,
+          "end": 29
+        },
+        "V224419": {
+          "id": "V224419",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "GRAB",
+          "roles": {
+            "AFFECTED": "#V224411",
+            "VFORM": "PASSIVE",
+            "LEX": "GRABBED",
+            "WNSENSE": "grab%2:40:00::"
+          },
+          "start": 21,
+          "end": 29
+        },
+        "V224428": {
+          "id": "V224428",
+          "indicator": "THE-SET",
+          "type": "ATTIRE",
+          "word": "SHOE",
+          "roles": {
+            "SOURCE": "#V224432",
+            "LEX": "SHOES",
+            "WNSENSE": "clothing%1:06:00"
+          },
+          "start": 29,
+          "end": 53
+        },
+        "V224432": {
+          "id": "V224432",
+          "indicator": "F",
+          "type": "SOURCE-AS-LOC",
+          "word": "FROM",
+          "roles": {
+            "GROUND": "#V224450",
+            "FIGURE": "#V224428",
+            "LEX": "FROM"
+          },
+          "start": 39,
+          "end": 53
+        },
+        "V224450": {
+          "id": "V224450",
+          "indicator": "THE-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOGS",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 44,
+          "end": 53
+        },
+        "V224478": {
+          "id": "V224478",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V224367",
+            "TENSE": "PAST",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:38:01::"
+          },
+          "start": 57,
+          "end": 61
+        },
+        "root": "#V225904"
+      }
+    ],
+    [
+      {
+        "V225578": {
+          "id": "V225578",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "ACT": "#V225064",
+            "ACT1": "#V225551",
+            "ACT2": "#V224822",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 62
+        },
+        "V225158": {
+          "id": "V225158",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "ACT": "#V225064",
+            "ACT1": "#V225551",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 53
+        },
+        "V225064": {
+          "id": "V225064",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V224372",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V224372": {
+          "id": "V224372",
+          "indicator": "F",
+          "type": "MOVE-RAPIDLY",
+          "word": "RUN",
+          "roles": {
+            "RESULT": "#V224383",
+            "AGENT": "#V224367",
+            "TENSE": "PAST",
+            "LEX": "RAN",
+            "WNSENSE": "run%2:38:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V224367": {
+          "id": "V224367",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V224383": {
+          "id": "V224383",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V224411",
+            "FIGURE": "#V224367",
+            "LEX": "TO"
+          },
+          "start": 8,
+          "end": 19
+        },
+        "V224411": {
+          "id": "V224411",
+          "indicator": "THE-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOGS",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 11,
+          "end": 19
+        },
+        "V225551": {
+          "id": "V225551",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V224419",
+            "LEX": "GRABBED"
+          },
+          "start": 21,
+          "end": 53
+        },
+        "V224419": {
+          "id": "V224419",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "GRAB",
+          "roles": {
+            "AGENT": "#V225552",
+            "AFFECTED": "#V224428",
+            "SOURCE": "#V224450",
+            "TENSE": "PAST",
+            "LEX": "GRABBED",
+            "WNSENSE": "grab%2:40:00::"
+          },
+          "start": 21,
+          "end": 53
+        },
+        "V225552": {
+          "id": "V225552",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 21,
+          "end": 53
+        },
+        "V224428": {
+          "id": "V224428",
+          "indicator": "THE-SET",
+          "type": "ATTIRE",
+          "word": "SHOE",
+          "roles": {
+            "LEX": "SHOES",
+            "WNSENSE": "clothing%1:06:00"
+          },
+          "start": 29,
+          "end": 39
+        },
+        "V224450": {
+          "id": "V224450",
+          "indicator": "THE-SET",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOGS",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 39,
+          "end": 53
+        },
+        "V224822": {
+          "id": "V224822",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V224478",
+            "LEX": "LEFT"
+          },
+          "start": 57,
+          "end": 61
+        },
+        "V224478": {
+          "id": "V224478",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V224823",
+            "TENSE": "PAST",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:38:01::"
+          },
+          "start": 57,
+          "end": 61
+        },
+        "V224823": {
+          "id": "V224823",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 57,
+          "end": 61
+        },
+        "root": "#V225578"
+      }
+    ]
+  ],
+  "sentence": "She ran to the dogs, grabbed the shoes from the dogs and left.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190812T105507",
+    "link": "http://trips.ihmc.us/parser/saved/20190812T105507-STEP-abhatia-0-She_ran_to_the_dogs_grabbed_the_shoes_fr.xml",
+    "judgement": 0
+  }
+}

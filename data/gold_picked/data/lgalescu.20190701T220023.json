@@ -1,0 +1,157 @@
+{
+  "parse": [
+    {
+      "V262187": {
+        "id": "V262187",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V254475"
+        },
+        "start": 0,
+        "end": 71
+      },
+      "V254475": {
+        "id": "V254475",
+        "indicator": "F",
+        "type": "DEPART",
+        "word": "FLEEING",
+        "roles": {
+          "AGENT": "#V254442",
+          "NEUTRAL": "#V254501",
+          "TIME": "#V254357",
+          "FREQUENCY": "#V254907",
+          "TENSE": "PAST",
+          "PROGR": "+"
+        },
+        "start": 0,
+        "end": 71
+      },
+      "V254357": {
+        "id": "V254357",
+        "indicator": "F",
+        "type": "BEFORE",
+        "word": "BY",
+        "roles": {
+          "GROUND": "#V254399",
+          "FIGURE": "#V254475"
+        },
+        "start": 0,
+        "end": 13
+      },
+      "V254399": {
+        "id": "V254399",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "YEAR": "2017",
+          "PHASE": "(:* EARLY-IN-PROCESS EARLY)"
+        },
+        "start": 3,
+        "end": 13
+      },
+      "V254389": {
+        "id": "V254389",
+        "indicator": "F",
+        "type": "EARLY-IN-PROCESS",
+        "word": "EARLY",
+        "roles": {
+          "FIGURE": "#V254399"
+        },
+        "start": 3,
+        "end": 8
+      },
+      "V254442": {
+        "id": "V254442",
+        "indicator": "INDEF-SET",
+        "type": "PERSON",
+        "word": "PERSON",
+        "roles": {
+          "SIZE": "#V254524"
+        },
+        "start": 15,
+        "end": 36
+      },
+      "V254524": {
+        "id": "V254524",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "MOD": "#V254412"
+        },
+        "start": 15,
+        "end": 29
+      },
+      "V254412": {
+        "id": "V254412",
+        "indicator": "F",
+        "type": "QMODIFIER",
+        "word": "ALMOST",
+        "roles": {
+          "FIGURE": "#V254524",
+          "GROUND": "#V254579"
+        },
+        "start": 15,
+        "end": 29
+      },
+      "V254579": {
+        "id": "V254579",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "60000"
+        },
+        "start": 15,
+        "end": 29
+      },
+      "V254501": {
+        "id": "V254501",
+        "indicator": "THE",
+        "type": "COUNTRY",
+        "word": "COUNTRY",
+        "roles": {},
+        "start": 49,
+        "end": 61
+      },
+      "V254907": {
+        "id": "V254907",
+        "indicator": "F",
+        "type": "ITERATION-PERIOD",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V254475",
+          "GROUND": "#V254512"
+        },
+        "start": 61,
+        "end": 71
+      },
+      "V254512": {
+        "id": "V254512",
+        "indicator": "QUANTIFIER",
+        "type": "MONTH",
+        "word": "MONTH",
+        "roles": {
+          "QUAN": "EACH",
+          "SCALE": "TIME-LOC-SCALE"
+        },
+        "start": 61,
+        "end": 71
+      },
+      "root": "#V262187"
+    }
+  ],
+  "alternatives": [],
+  "sentence": "By early-2017, nearly 60,000 people were fleeing the country each month.",
+  "annotation": {
+    "judge": "lgalescu",
+    "parser": "CWMS",
+    "timestamp": "20190701T220023",
+    "link": "http://trips.ihmc.us/parser/saved/20190701T220023-CWMS-lgalescu-0-By_early-2017_nearly_60_000_people_were_.xml",
+    "judgement": 0
+  }
+}

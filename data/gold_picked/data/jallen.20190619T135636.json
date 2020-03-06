@@ -1,0 +1,413 @@
+{
+  "parse": [
+    {
+      "V57840": {
+        "id": "V57840",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V57438",
+          "LEX": "GO"
+        },
+        "start": 0,
+        "end": 25
+      },
+      "V57438": {
+        "id": "V57438",
+        "indicator": "F",
+        "type": "MOVE",
+        "word": "GO",
+        "roles": {
+          "RESULT": "#V57458",
+          "AGENT": "#V57409",
+          "TIME": "#V57371",
+          "TENSE": "PRES",
+          "LEX": "GO"
+        },
+        "start": 0,
+        "end": 25
+      },
+      "V57371": {
+        "id": "V57371",
+        "indicator": "F",
+        "type": "TIME-ON-REL",
+        "word": "ON",
+        "roles": {
+          "GROUND": "#V57640",
+          "FIGURE": "#V57438",
+          "LEX": "ON"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V57640": {
+        "id": "V57640",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY-OF-WEEK": "#V57393",
+          "LEX": "MONDAY"
+        },
+        "start": 3,
+        "end": 10
+      },
+      "V57393": {
+        "id": "V57393",
+        "indicator": "BARE",
+        "type": "DAY-NAME",
+        "word": "MONDAY",
+        "roles": {
+          "NAME-OF": "MONDAY",
+          "LEX": "MONDAY"
+        },
+        "start": 3,
+        "end": 10
+      },
+      "V57409": {
+        "id": "V57409",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "COREF": "USER"
+        },
+        "start": 10,
+        "end": 12
+      },
+      "V57458": {
+        "id": "V57458",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V57518",
+          "FIGURE": "#V57409",
+          "LEX": "TO"
+        },
+        "start": 15,
+        "end": 25
+      },
+      "V57518": {
+        "id": "V57518",
+        "indicator": "THE",
+        "type": "ATHLETIC-FACILITY",
+        "word": "GYM",
+        "roles": {
+          "LEX": "GYM"
+        },
+        "start": 18,
+        "end": 25
+      },
+      "root": "#V57840"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V57889": {
+          "id": "V57889",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V57432",
+            "LEX": "GO"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V57432": {
+          "id": "V57432",
+          "indicator": "F",
+          "type": "UNDERGO-ACTION",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V57458",
+            "AFFECTED": "#V57409",
+            "TIME": "#V57371",
+            "TENSE": "PRES",
+            "LEX": "GO"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V57371": {
+          "id": "V57371",
+          "indicator": "F",
+          "type": "TIME-ON-REL",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V57640",
+            "FIGURE": "#V57432",
+            "LEX": "ON"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V57640": {
+          "id": "V57640",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V57393",
+            "LEX": "MONDAY"
+          },
+          "start": 3,
+          "end": 10
+        },
+        "V57393": {
+          "id": "V57393",
+          "indicator": "BARE",
+          "type": "DAY-NAME",
+          "word": "MONDAY",
+          "roles": {
+            "NAME-OF": "MONDAY",
+            "LEX": "MONDAY"
+          },
+          "start": 3,
+          "end": 10
+        },
+        "V57409": {
+          "id": "V57409",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I"
+          },
+          "start": 10,
+          "end": 12
+        },
+        "V57458": {
+          "id": "V57458",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V57518",
+            "FIGURE": "#V57409",
+            "LEX": "TO"
+          },
+          "start": 15,
+          "end": 25
+        },
+        "V57518": {
+          "id": "V57518",
+          "indicator": "THE",
+          "type": "ATHLETIC-FACILITY",
+          "word": "GYM",
+          "roles": {
+            "LEX": "GYM"
+          },
+          "start": 18,
+          "end": 25
+        },
+        "root": "#V57889"
+      }
+    ],
+    [
+      {
+        "V57894": {
+          "id": "V57894",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V57438",
+            "LEX": "GO"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V57438": {
+          "id": "V57438",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V57458",
+            "AGENT": "#V57409",
+            "TIME": "#V57371",
+            "TENSE": "PRES",
+            "LEX": "GO"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V57371": {
+          "id": "V57371",
+          "indicator": "F",
+          "type": "TIME-ON-REL",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V57393",
+            "FIGURE": "#V57438",
+            "LEX": "ON"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V57393": {
+          "id": "V57393",
+          "indicator": "BARE",
+          "type": "DAY-NAME",
+          "word": "MONDAY",
+          "roles": {
+            "NAME-OF": "MONDAY",
+            "LEX": "MONDAY"
+          },
+          "start": 3,
+          "end": 10
+        },
+        "V57409": {
+          "id": "V57409",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I"
+          },
+          "start": 10,
+          "end": 12
+        },
+        "V57458": {
+          "id": "V57458",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V57518",
+            "FIGURE": "#V57409",
+            "LEX": "TO"
+          },
+          "start": 15,
+          "end": 25
+        },
+        "V57518": {
+          "id": "V57518",
+          "indicator": "THE",
+          "type": "ATHLETIC-FACILITY",
+          "word": "GYM",
+          "roles": {
+            "LEX": "GYM"
+          },
+          "start": 18,
+          "end": 25
+        },
+        "root": "#V57894"
+      }
+    ],
+    [
+      {
+        "V57931": {
+          "id": "V57931",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V57432",
+            "LEX": "GO"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V57432": {
+          "id": "V57432",
+          "indicator": "F",
+          "type": "UNDERGO-ACTION",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V57458",
+            "AFFECTED": "#V57409",
+            "TIME": "#V57371",
+            "TENSE": "PRES",
+            "LEX": "GO"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V57371": {
+          "id": "V57371",
+          "indicator": "F",
+          "type": "TIME-ON-REL",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V57393",
+            "FIGURE": "#V57432",
+            "LEX": "ON"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V57393": {
+          "id": "V57393",
+          "indicator": "BARE",
+          "type": "DAY-NAME",
+          "word": "MONDAY",
+          "roles": {
+            "NAME-OF": "MONDAY",
+            "LEX": "MONDAY"
+          },
+          "start": 3,
+          "end": 10
+        },
+        "V57409": {
+          "id": "V57409",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I"
+          },
+          "start": 10,
+          "end": 12
+        },
+        "V57458": {
+          "id": "V57458",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V57518",
+            "FIGURE": "#V57409",
+            "LEX": "TO"
+          },
+          "start": 15,
+          "end": 25
+        },
+        "V57518": {
+          "id": "V57518",
+          "indicator": "THE",
+          "type": "ATHLETIC-FACILITY",
+          "word": "GYM",
+          "roles": {
+            "LEX": "GYM"
+          },
+          "start": 18,
+          "end": 25
+        },
+        "root": "#V57931"
+      }
+    ]
+  ],
+  "sentence": "On Monday I go to the gym.",
+  "annotation": {
+    "judge": "jallen",
+    "parser": "STEP",
+    "timestamp": "20190619T135636",
+    "link": "http://trips.ihmc.us/parser/saved/20190619T135636-STEP-jallen-0-On_Monday_I_go_to_the_gym_.xml",
+    "judgement": 0
+  }
+}

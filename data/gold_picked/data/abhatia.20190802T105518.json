@@ -1,0 +1,574 @@
+{
+  "parse": [
+    {
+      "V371222": {
+        "id": "V371222",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V369707",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 55
+      },
+      "V369707": {
+        "id": "V369707",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V369696",
+          "FORMAL": "#V369744",
+          "TIME": "#V369747",
+          "TENSE": "PAST",
+          "LEX": "WAS",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 0,
+        "end": 55
+      },
+      "V369696": {
+        "id": "V369696",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "CHARLES",
+        "roles": {
+          "NAME-OF": "CHARLES",
+          "LEX": "CHARLES",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V369744": {
+        "id": "V369744",
+        "indicator": "F",
+        "type": "PROPERTY-VAL",
+        "word": "10-PUNC-MINUS-YEARS-PUNC-MINUS-OLD",
+        "roles": {
+          "FIGURE": "#V369696",
+          "SCALE": "DOMAIN",
+          "LEX": "10-PUNC-MINUS-YEARS-PUNC-MINUS-OLD"
+        },
+        "start": 12,
+        "end": 25
+      },
+      "V369747": {
+        "id": "V369747",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V369796",
+          "FIGURE": "#V369707",
+          "LEX": "WHEN"
+        },
+        "start": 25,
+        "end": 55
+      },
+      "V369796": {
+        "id": "V369796",
+        "indicator": "F",
+        "type": "CAUSE-MOVE",
+        "word": "TAKE",
+        "roles": {
+          "AGENT": "#V369766",
+          "AFFECTED": "#V369835",
+          "BENEFICIARY": "#V369826",
+          "TENSE": "PAST",
+          "LEX": "TOOK",
+          "WNSENSE": "take%2:38:05::"
+        },
+        "start": 30,
+        "end": 55
+      },
+      "V369766": {
+        "id": "V369766",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "UNCLE",
+        "roles": {
+          "ASSOC-POSS": "#V369761",
+          "LEX": "UNCLE",
+          "WNSENSE": "uncle%1:18:00::"
+        },
+        "start": 30,
+        "end": 40
+      },
+      "V369761": {
+        "id": "V369761",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIS",
+        "roles": {
+          "LEX": "HIS",
+          "PROFORM": "HIS",
+          "WNSENSE": "man%1:18:00",
+          "COREF": "#V369696"
+        },
+        "start": 30,
+        "end": 40
+      },
+      "V369826": {
+        "id": "V369826",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM",
+          "WNSENSE": "man%1:18:00",
+          "COREF": "#V369696"
+        },
+        "start": 45,
+        "end": 49
+      },
+      "V369835": {
+        "id": "V369835",
+        "indicator": "BARE",
+        "type": "MOVE",
+        "word": "SKIING",
+        "roles": {
+          "LEX": "SKIING",
+          "WNSENSE": "make%2:38:05"
+        },
+        "start": 49,
+        "end": 55
+      },
+      "root": "#V371222"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V371200": {
+          "id": "V371200",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V369707",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 56
+        },
+        "V369707": {
+          "id": "V369707",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V369699",
+            "FORMAL": "#V369744",
+            "TIME": "#V369747",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 55
+        },
+        "V369699": {
+          "id": "V369699",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "CHARLES",
+          "roles": {
+            "NAME-OF": "CHARLES",
+            "LEX": "CHARLES",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V369744": {
+          "id": "V369744",
+          "indicator": "F",
+          "type": "PROPERTY-VAL",
+          "word": "10-PUNC-MINUS-YEARS-PUNC-MINUS-OLD",
+          "roles": {
+            "FIGURE": "#V369699",
+            "SCALE": "DOMAIN",
+            "LEX": "10-PUNC-MINUS-YEARS-PUNC-MINUS-OLD"
+          },
+          "start": 12,
+          "end": 25
+        },
+        "V369747": {
+          "id": "V369747",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V369795",
+            "FIGURE": "#V369707",
+            "LEX": "WHEN"
+          },
+          "start": 25,
+          "end": 55
+        },
+        "V369795": {
+          "id": "V369795",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V369766",
+            "AFFECTED": "#V369835",
+            "BENEFICIARY": "#V369826",
+            "TENSE": "PAST",
+            "LEX": "TOOK",
+            "WNSENSE": "take%2:30:01::"
+          },
+          "start": 30,
+          "end": 55
+        },
+        "V369766": {
+          "id": "V369766",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "UNCLE",
+          "roles": {
+            "ASSOC-POSS": "#V369761",
+            "LEX": "UNCLE",
+            "WNSENSE": "uncle%1:18:00::"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V369761": {
+          "id": "V369761",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V369826": {
+          "id": "V369826",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIM",
+          "roles": {
+            "PROFORM": "HIM",
+            "LEX": "HIM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 45,
+          "end": 49
+        },
+        "V369835": {
+          "id": "V369835",
+          "indicator": "BARE",
+          "type": "MOVE",
+          "word": "SKIING",
+          "roles": {
+            "LEX": "SKIING",
+            "WNSENSE": "make%2:38:05"
+          },
+          "start": 49,
+          "end": 55
+        },
+        "root": "#V371200"
+      }
+    ],
+    [
+      {
+        "V371197": {
+          "id": "V371197",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V369707",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 56
+        },
+        "V369707": {
+          "id": "V369707",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V369696",
+            "FORMAL": "#V369744",
+            "TIME": "#V369747",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 55
+        },
+        "V369696": {
+          "id": "V369696",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "CHARLES",
+          "roles": {
+            "NAME-OF": "CHARLES",
+            "LEX": "CHARLES",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V369744": {
+          "id": "V369744",
+          "indicator": "F",
+          "type": "PROPERTY-VAL",
+          "word": "10-PUNC-MINUS-YEARS-PUNC-MINUS-OLD",
+          "roles": {
+            "FIGURE": "#V369696",
+            "SCALE": "DOMAIN",
+            "LEX": "10-PUNC-MINUS-YEARS-PUNC-MINUS-OLD"
+          },
+          "start": 12,
+          "end": 25
+        },
+        "V369747": {
+          "id": "V369747",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V369795",
+            "FIGURE": "#V369707",
+            "LEX": "WHEN"
+          },
+          "start": 25,
+          "end": 55
+        },
+        "V369795": {
+          "id": "V369795",
+          "indicator": "F",
+          "type": "ACQUIRE",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V369766",
+            "AFFECTED": "#V369835",
+            "BENEFICIARY": "#V369826",
+            "TENSE": "PAST",
+            "LEX": "TOOK",
+            "WNSENSE": "take%2:30:01::"
+          },
+          "start": 30,
+          "end": 55
+        },
+        "V369766": {
+          "id": "V369766",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "UNCLE",
+          "roles": {
+            "ASSOC-POSS": "#V369761",
+            "LEX": "UNCLE",
+            "WNSENSE": "uncle%1:18:00::"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V369761": {
+          "id": "V369761",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V369826": {
+          "id": "V369826",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIM",
+          "roles": {
+            "PROFORM": "HIM",
+            "LEX": "HIM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 45,
+          "end": 49
+        },
+        "V369835": {
+          "id": "V369835",
+          "indicator": "BARE",
+          "type": "MOVE",
+          "word": "SKIING",
+          "roles": {
+            "LEX": "SKIING",
+            "WNSENSE": "make%2:38:05"
+          },
+          "start": 49,
+          "end": 55
+        },
+        "root": "#V371197"
+      }
+    ],
+    [
+      {
+        "V371175": {
+          "id": "V371175",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V369707",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 56
+        },
+        "V369707": {
+          "id": "V369707",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V369699",
+            "FORMAL": "#V369744",
+            "TIME": "#V369747",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 55
+        },
+        "V369699": {
+          "id": "V369699",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "CHARLES",
+          "roles": {
+            "NAME-OF": "CHARLES",
+            "LEX": "CHARLES",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V369744": {
+          "id": "V369744",
+          "indicator": "F",
+          "type": "PROPERTY-VAL",
+          "word": "10-PUNC-MINUS-YEARS-PUNC-MINUS-OLD",
+          "roles": {
+            "FIGURE": "#V369699",
+            "SCALE": "DOMAIN",
+            "LEX": "10-PUNC-MINUS-YEARS-PUNC-MINUS-OLD"
+          },
+          "start": 12,
+          "end": 25
+        },
+        "V369747": {
+          "id": "V369747",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V369796",
+            "FIGURE": "#V369707",
+            "LEX": "WHEN"
+          },
+          "start": 25,
+          "end": 55
+        },
+        "V369796": {
+          "id": "V369796",
+          "indicator": "F",
+          "type": "CAUSE-MOVE",
+          "word": "TAKE",
+          "roles": {
+            "AGENT": "#V369766",
+            "AFFECTED": "#V369833",
+            "BENEFICIARY": "#V369826",
+            "TENSE": "PAST",
+            "LEX": "TOOK",
+            "WNSENSE": "take%2:38:05::"
+          },
+          "start": 30,
+          "end": 55
+        },
+        "V369766": {
+          "id": "V369766",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "UNCLE",
+          "roles": {
+            "ASSOC-POSS": "#V369761",
+            "LEX": "UNCLE",
+            "WNSENSE": "uncle%1:18:00::"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V369761": {
+          "id": "V369761",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V369826": {
+          "id": "V369826",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIM",
+          "roles": {
+            "PROFORM": "HIM",
+            "LEX": "HIM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 45,
+          "end": 49
+        },
+        "V369833": {
+          "id": "V369833",
+          "indicator": "BARE",
+          "type": "MOVE",
+          "word": "SKIING",
+          "roles": {
+            "LEX": "SKIING",
+            "WNSENSE": "make%2:38:05"
+          },
+          "start": 49,
+          "end": 55
+        },
+        "root": "#V371175"
+      }
+    ]
+  ],
+  "sentence": "Charles was 10-years-old when his uncle took him skiing.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190802T105518",
+    "link": "http://trips.ihmc.us/parser/saved/20190802T105518-STEP-abhatia-none-Charles_was_10-years-old_when_his_uncle_.xml",
+    "judgement": -1
+  }
+}

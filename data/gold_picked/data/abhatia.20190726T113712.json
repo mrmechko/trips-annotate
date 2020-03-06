@@ -1,0 +1,408 @@
+{
+  "parse": [
+    {
+      "V474886": {
+        "id": "V474886",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V470310",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 31
+      },
+      "V470310": {
+        "id": "V470310",
+        "indicator": "F",
+        "type": "EXPECTATION",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V470296",
+          "FORMAL": "#V470625",
+          "LOCATION": "#V470330",
+          "TENSE": "PAST",
+          "LEX": "WAS",
+          "WNSENSE": "expect%2:31:00"
+        },
+        "start": 0,
+        "end": 31
+      },
+      "V470296": {
+        "id": "V470296",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V470330": {
+        "id": "V470330",
+        "indicator": "F",
+        "type": "IN-LOC",
+        "word": "IN",
+        "roles": {
+          "GROUND": "#V470386",
+          "FIGURE": "#V470310",
+          "LEX": "IN"
+        },
+        "start": 6,
+        "end": 14
+      },
+      "V470386": {
+        "id": "V470386",
+        "indicator": "BARE",
+        "type": "LINEAR-GROUPING",
+        "word": "LINE",
+        "roles": {
+          "LEX": "LINE",
+          "WNSENSE": "line%1:14:01::"
+        },
+        "start": 9,
+        "end": 14
+      },
+      "V470625": {
+        "id": "V470625",
+        "indicator": "F",
+        "type": "RIDE",
+        "word": "RIDE",
+        "roles": {
+          "AGENT": "#V470296",
+          "AFFECTED": "#V470647",
+          "VFORM": "BASE",
+          "LEX": "RIDE",
+          "WNSENSE": "ride%2:38:01::"
+        },
+        "start": 14,
+        "end": 31
+      },
+      "V470647": {
+        "id": "V470647",
+        "indicator": "THE",
+        "type": "MALE-PERSON",
+        "word": "TITAN",
+        "roles": {
+          "LEX": "TITAN",
+          "WNSENSE": "titan%1:18:01::"
+        },
+        "start": 22,
+        "end": 31
+      },
+      "root": "#V474886"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V471981": {
+          "id": "V471981",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V470313",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 32
+        },
+        "V470313": {
+          "id": "V470313",
+          "indicator": "F",
+          "type": "BE",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V471085",
+            "NEUTRAL1": "#V470647",
+            "LOCATION": "#V470330",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:06::"
+          },
+          "start": 0,
+          "end": 31
+        },
+        "V471085": {
+          "id": "V471085",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V470330": {
+          "id": "V470330",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V470386",
+            "FIGURE": "#V470313",
+            "LEX": "IN"
+          },
+          "start": 6,
+          "end": 22
+        },
+        "V470386": {
+          "id": "V470386",
+          "indicator": "BARE",
+          "type": "LINEAR-GROUPING",
+          "word": "LINE",
+          "roles": {
+            "MOD": "#V470625",
+            "LEX": "LINE",
+            "WNSENSE": "line%1:14:01::"
+          },
+          "start": 9,
+          "end": 22
+        },
+        "V470625": {
+          "id": "V470625",
+          "indicator": "F",
+          "type": "RIDE",
+          "word": "RIDE",
+          "roles": {
+            "AFFECTED": "#V470386",
+            "VFORM": "BASE",
+            "LEX": "RIDE",
+            "WNSENSE": "ride%2:38:01::"
+          },
+          "start": 14,
+          "end": 22
+        },
+        "V470647": {
+          "id": "V470647",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "TITAN",
+          "roles": {
+            "LEX": "TITAN",
+            "WNSENSE": "titan%1:18:01::"
+          },
+          "start": 22,
+          "end": 31
+        },
+        "root": "#V471981"
+      }
+    ],
+    [
+      {
+        "V474968": {
+          "id": "V474968",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V470310",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 32
+        },
+        "V470310": {
+          "id": "V470310",
+          "indicator": "F",
+          "type": "EXPECTATION",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V470296",
+            "FORMAL": "#V470625",
+            "LOCATION": "#V470330",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "expect%2:31:00"
+          },
+          "start": 0,
+          "end": 31
+        },
+        "V470296": {
+          "id": "V470296",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V470330": {
+          "id": "V470330",
+          "indicator": "F",
+          "type": "IN-LOC",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V470387",
+            "FIGURE": "#V470310",
+            "LEX": "IN"
+          },
+          "start": 6,
+          "end": 14
+        },
+        "V470387": {
+          "id": "V470387",
+          "indicator": "BARE",
+          "type": "GRAPHIC-SYMBOL",
+          "word": "LINE",
+          "roles": {
+            "LEX": "LINE"
+          },
+          "start": 9,
+          "end": 14
+        },
+        "V470625": {
+          "id": "V470625",
+          "indicator": "F",
+          "type": "RIDE",
+          "word": "RIDE",
+          "roles": {
+            "AGENT": "#V470296",
+            "AFFECTED": "#V470647",
+            "VFORM": "BASE",
+            "LEX": "RIDE",
+            "WNSENSE": "ride%2:38:01::"
+          },
+          "start": 14,
+          "end": 31
+        },
+        "V470647": {
+          "id": "V470647",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "TITAN",
+          "roles": {
+            "LEX": "TITAN",
+            "WNSENSE": "titan%1:18:01::"
+          },
+          "start": 22,
+          "end": 31
+        },
+        "root": "#V474968"
+      }
+    ],
+    [
+      {
+        "V474945": {
+          "id": "V474945",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V470310",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 32
+        },
+        "V470310": {
+          "id": "V470310",
+          "indicator": "F",
+          "type": "EXPECTATION",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V470296",
+            "FORMAL": "#V470625",
+            "SCALE": "#V470334",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "expect%2:31:00"
+          },
+          "start": 0,
+          "end": 31
+        },
+        "V470296": {
+          "id": "V470296",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V470334": {
+          "id": "V470334",
+          "indicator": "F",
+          "type": "IN-SCALE",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V470388",
+            "FIGURE": "#V470310",
+            "LEX": "IN",
+            "WNSENSE": "in%4:02:01::"
+          },
+          "start": 6,
+          "end": 14
+        },
+        "V470388": {
+          "id": "V470388",
+          "indicator": "BARE",
+          "type": "GROUPING",
+          "word": "LINE",
+          "roles": {
+            "LEX": "LINE"
+          },
+          "start": 9,
+          "end": 14
+        },
+        "V470625": {
+          "id": "V470625",
+          "indicator": "F",
+          "type": "RIDE",
+          "word": "RIDE",
+          "roles": {
+            "AGENT": "#V470296",
+            "AFFECTED": "#V470647",
+            "VFORM": "BASE",
+            "LEX": "RIDE",
+            "WNSENSE": "ride%2:38:01::"
+          },
+          "start": 14,
+          "end": 31
+        },
+        "V470647": {
+          "id": "V470647",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "TITAN",
+          "roles": {
+            "LEX": "TITAN",
+            "WNSENSE": "titan%1:18:01::"
+          },
+          "start": 22,
+          "end": 31
+        },
+        "root": "#V474945"
+      }
+    ]
+  ],
+  "sentence": "I was in line to ride the Titan.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190726T113712",
+    "link": "http://trips.ihmc.us/parser/saved/20190726T113712-STEP-abhatia-none-I_was_in_line_to_ride_the_Titan_.xml",
+    "judgement": -1
+  }
+}

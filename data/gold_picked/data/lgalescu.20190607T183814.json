@@ -1,0 +1,212 @@
+{
+  "parse": [
+    {
+      "V87055": {
+        "id": "V87055",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V84365"
+        },
+        "start": 0,
+        "end": 39
+      },
+      "V84365": {
+        "id": "V84365",
+        "indicator": "F",
+        "type": "COME",
+        "word": "COME",
+        "roles": {
+          "RESULT": "#V84386",
+          "AFFECTED": "#V84353",
+          "TENSE": "PAST"
+        },
+        "start": 0,
+        "end": 38
+      },
+      "V84353": {
+        "id": "V84353",
+        "indicator": "INDEF-SET",
+        "type": "TRAVELLER",
+        "word": "REFUGEES",
+        "roles": {
+          "SIZE": "#V84350"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V84350": {
+        "id": "V84350",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "23"
+        },
+        "start": 0,
+        "end": 3
+      },
+      "V84386": {
+        "id": "V84386",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V84453",
+          "FIGURE": "#V84353"
+        },
+        "start": 17,
+        "end": 38
+      },
+      "V84453": {
+        "id": "V84453",
+        "indicator": "BARE",
+        "type": "WEEK",
+        "word": "WEEK",
+        "roles": {
+          "ASSOC-WITH": "#V84425",
+          "SCALE": "TIME-LOC-SCALE",
+          "MOD": "#V84432"
+        },
+        "start": 20,
+        "end": 38
+      },
+      "V84425": {
+        "id": "V84425",
+        "indicator": "THE",
+        "type": "COUNTRY",
+        "word": "ETHIOPIA",
+        "roles": {
+          "NAME-OF": "ETHIOPIA"
+        },
+        "start": 20,
+        "end": 29
+      },
+      "V84432": {
+        "id": "V84432",
+        "indicator": "F",
+        "type": "LAST-VAL",
+        "word": "LAST",
+        "roles": {
+          "FIGURE": "#V84453",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE"
+        },
+        "start": 29,
+        "end": 34
+      },
+      "root": "#V87055"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V87014": {
+          "id": "V87014",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V84365"
+          },
+          "start": 0,
+          "end": 39
+        },
+        "V84365": {
+          "id": "V84365",
+          "indicator": "F",
+          "type": "COME",
+          "word": "COME",
+          "roles": {
+            "RESULT": "#V84388",
+            "AFFECTED": "#V84353",
+            "TENSE": "PAST"
+          },
+          "start": 0,
+          "end": 38
+        },
+        "V84353": {
+          "id": "V84353",
+          "indicator": "INDEF-SET",
+          "type": "TRAVELLER",
+          "word": "REFUGEES",
+          "roles": {
+            "SIZE": "#V84350"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V84350": {
+          "id": "V84350",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "23"
+          },
+          "start": 0,
+          "end": 3
+        },
+        "V84388": {
+          "id": "V84388",
+          "indicator": "F",
+          "type": "RESULTING-STATE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V84453",
+            "FIGURE": "#V84353"
+          },
+          "start": 17,
+          "end": 38
+        },
+        "V84453": {
+          "id": "V84453",
+          "indicator": "BARE",
+          "type": "WEEK",
+          "word": "WEEK",
+          "roles": {
+            "ASSOC-WITH": "#V84425",
+            "SCALE": "TIME-LOC-SCALE",
+            "MOD": "#V84432"
+          },
+          "start": 20,
+          "end": 38
+        },
+        "V84425": {
+          "id": "V84425",
+          "indicator": "THE",
+          "type": "COUNTRY",
+          "word": "ETHIOPIA",
+          "roles": {
+            "NAME-OF": "ETHIOPIA"
+          },
+          "start": 20,
+          "end": 29
+        },
+        "V84432": {
+          "id": "V84432",
+          "indicator": "F",
+          "type": "LAST-VAL",
+          "word": "LAST",
+          "roles": {
+            "FIGURE": "#V84453",
+            "SCALE": "RELATIONAL-PROPERTY-SCALE"
+          },
+          "start": 29,
+          "end": 34
+        },
+        "root": "#V87014"
+      }
+    ]
+  ],
+  "sentence": "23 refugees came to Ethiopia last week.",
+  "annotation": {
+    "judge": "lgalescu",
+    "parser": "CWMS",
+    "timestamp": "20190607T183814",
+    "link": "http://trips.ihmc.us/parser/saved/20190607T183814-CWMS-lgalescu-none-23_refugees_came_to_Ethiopia_last_week_.xml",
+    "judgement": -1
+  }
+}

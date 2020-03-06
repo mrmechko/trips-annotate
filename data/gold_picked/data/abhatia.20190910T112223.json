@@ -1,0 +1,1464 @@
+{
+  "parse": [
+    {
+      "V46276": {
+        "id": "V46276",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V45660",
+          "LEX": "EMAILED"
+        },
+        "start": 0,
+        "end": 63
+      },
+      "V45660": {
+        "id": "V45660",
+        "indicator": "F",
+        "type": "NONVERBAL-SAY",
+        "word": "EMAIL",
+        "roles": {
+          "AGENT": "#V45645",
+          "AGENT1": "#V45690",
+          "FORMAL": "#V45722",
+          "TENSE": "PAST",
+          "LEX": "EMAILED",
+          "WNSENSE": "email%2:32:00::"
+        },
+        "start": 0,
+        "end": 63
+      },
+      "V45645": {
+        "id": "V45645",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V45690": {
+        "id": "V45690",
+        "indicator": "INDEF-SET",
+        "type": "FAMILY-RELATION",
+        "word": "PARTNER",
+        "roles": {
+          "SIZE": "UNIVERSAL",
+          "LEX": "PARTNERS",
+          "WNSENSE": "partner%1:18:01::"
+        },
+        "start": 10,
+        "end": 26
+      },
+      "V45722": {
+        "id": "V45722",
+        "indicator": "F",
+        "type": "SEND",
+        "word": "SEND",
+        "roles": {
+          "AGENT": "#V45690",
+          "AFFECTED": "#V45732",
+          "VFORM": "BASE",
+          "LEX": "SEND",
+          "WNSENSE": "send%2:35:00::"
+        },
+        "start": 26,
+        "end": 63
+      },
+      "V45732": {
+        "id": "V45732",
+        "indicator": "WH-TERM",
+        "type": "REFERENTIAL-SEM",
+        "word": "WHAT",
+        "roles": {
+          "SUCHTHAT": "#V45752",
+          "PROFORM": "WHAT",
+          "LEX": "WHAT",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 34,
+        "end": 63
+      },
+      "V45752": {
+        "id": "V45752",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "AGENT": "#V45739",
+          "NEUTRAL": "#V45732",
+          "REASON": "#V45761",
+          "TENSE": "PAST",
+          "LEX": "DID",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 39,
+        "end": 63
+      },
+      "V45739": {
+        "id": "V45739",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00",
+          "COREF": "#V45690"
+        },
+        "start": 39,
+        "end": 44
+      },
+      "V45761": {
+        "id": "V45761",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V45794",
+          "FIGURE": "#V45752",
+          "LEX": "FOR"
+        },
+        "start": 48,
+        "end": 63
+      },
+      "V45794": {
+        "id": "V45794",
+        "indicator": "THE",
+        "type": "ACTIVITY",
+        "word": "PROJECT",
+        "roles": {
+          "LEX": "PROJECT",
+          "WNSENSE": "project%1:04:00::"
+        },
+        "start": 52,
+        "end": 63
+      },
+      "root": "#V46276"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V46273": {
+          "id": "V46273",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V45660",
+            "LEX": "EMAILED"
+          },
+          "start": 0,
+          "end": 64
+        },
+        "V45660": {
+          "id": "V45660",
+          "indicator": "F",
+          "type": "NONVERBAL-SAY",
+          "word": "EMAIL",
+          "roles": {
+            "AGENT": "#V45645",
+            "AGENT1": "#V45690",
+            "FORMAL": "#V45722",
+            "TENSE": "PAST",
+            "LEX": "EMAILED",
+            "WNSENSE": "email%2:32:00::"
+          },
+          "start": 0,
+          "end": 63
+        },
+        "V45645": {
+          "id": "V45645",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V45690": {
+          "id": "V45690",
+          "indicator": "A",
+          "type": "FAMILY-RELATION",
+          "word": "PARTNER",
+          "roles": {
+            "QUAN": "UNIVERSAL",
+            "LEX": "PARTNERS",
+            "WNSENSE": "partner%1:18:01::"
+          },
+          "start": 10,
+          "end": 26
+        },
+        "V45722": {
+          "id": "V45722",
+          "indicator": "F",
+          "type": "SEND",
+          "word": "SEND",
+          "roles": {
+            "AGENT": "#V45690",
+            "AFFECTED": "#V45732",
+            "VFORM": "BASE",
+            "LEX": "SEND",
+            "WNSENSE": "send%2:35:00::"
+          },
+          "start": 26,
+          "end": 63
+        },
+        "V45732": {
+          "id": "V45732",
+          "indicator": "WH-TERM",
+          "type": "REFERENTIAL-SEM",
+          "word": "WHAT",
+          "roles": {
+            "SUCHTHAT": "#V45752",
+            "PROFORM": "WHAT",
+            "LEX": "WHAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 34,
+          "end": 63
+        },
+        "V45752": {
+          "id": "V45752",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V45739",
+            "NEUTRAL": "#V45732",
+            "REASON": "#V45761",
+            "TENSE": "PAST",
+            "LEX": "DID",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 39,
+          "end": 63
+        },
+        "V45739": {
+          "id": "V45739",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 39,
+          "end": 44
+        },
+        "V45761": {
+          "id": "V45761",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V45794",
+            "FIGURE": "#V45752",
+            "LEX": "FOR"
+          },
+          "start": 48,
+          "end": 63
+        },
+        "V45794": {
+          "id": "V45794",
+          "indicator": "THE",
+          "type": "ACTIVITY",
+          "word": "PROJECT",
+          "roles": {
+            "LEX": "PROJECT",
+            "WNSENSE": "project%1:04:00::"
+          },
+          "start": 52,
+          "end": 63
+        },
+        "root": "#V46273"
+      }
+    ],
+    [
+      {
+        "V46196": {
+          "id": "V46196",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V45660",
+            "LEX": "EMAILED"
+          },
+          "start": 0,
+          "end": 64
+        },
+        "V45660": {
+          "id": "V45660",
+          "indicator": "F",
+          "type": "NONVERBAL-SAY",
+          "word": "EMAIL",
+          "roles": {
+            "AGENT": "#V45645",
+            "AGENT1": "#V45690",
+            "FORMAL": "#V45722",
+            "TENSE": "PAST",
+            "LEX": "EMAILED",
+            "WNSENSE": "email%2:32:00::"
+          },
+          "start": 0,
+          "end": 63
+        },
+        "V45645": {
+          "id": "V45645",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V45690": {
+          "id": "V45690",
+          "indicator": "INDEF-SET",
+          "type": "FAMILY-RELATION",
+          "word": "PARTNER",
+          "roles": {
+            "SIZE": "UNIVERSAL",
+            "LEX": "PARTNERS",
+            "WNSENSE": "partner%1:18:01::"
+          },
+          "start": 10,
+          "end": 26
+        },
+        "V45722": {
+          "id": "V45722",
+          "indicator": "F",
+          "type": "SEND",
+          "word": "SEND",
+          "roles": {
+            "AGENT": "#V45690",
+            "AFFECTED": "#V45733",
+            "VFORM": "BASE",
+            "LEX": "SEND",
+            "WNSENSE": "send%2:35:00::"
+          },
+          "start": 26,
+          "end": 63
+        },
+        "V45733": {
+          "id": "V45733",
+          "indicator": "WH-TERM-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "WHAT",
+          "roles": {
+            "SUCHTHAT": "#V45752",
+            "PROFORM": "WHAT",
+            "LEX": "WHAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 34,
+          "end": 63
+        },
+        "V45752": {
+          "id": "V45752",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V45739",
+            "NEUTRAL": "#V45733",
+            "REASON": "#V45761",
+            "TENSE": "PAST",
+            "LEX": "DID",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 39,
+          "end": 63
+        },
+        "V45739": {
+          "id": "V45739",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 39,
+          "end": 44
+        },
+        "V45761": {
+          "id": "V45761",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V45794",
+            "FIGURE": "#V45752",
+            "LEX": "FOR"
+          },
+          "start": 48,
+          "end": 63
+        },
+        "V45794": {
+          "id": "V45794",
+          "indicator": "THE",
+          "type": "ACTIVITY",
+          "word": "PROJECT",
+          "roles": {
+            "LEX": "PROJECT",
+            "WNSENSE": "project%1:04:00::"
+          },
+          "start": 52,
+          "end": 63
+        },
+        "root": "#V46196"
+      }
+    ],
+    [
+      {
+        "V46193": {
+          "id": "V46193",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V45660",
+            "LEX": "EMAILED"
+          },
+          "start": 0,
+          "end": 64
+        },
+        "V45660": {
+          "id": "V45660",
+          "indicator": "F",
+          "type": "NONVERBAL-SAY",
+          "word": "EMAIL",
+          "roles": {
+            "AGENT": "#V45645",
+            "AGENT1": "#V45690",
+            "FORMAL": "#V45722",
+            "TENSE": "PAST",
+            "LEX": "EMAILED",
+            "WNSENSE": "email%2:32:00::"
+          },
+          "start": 0,
+          "end": 63
+        },
+        "V45645": {
+          "id": "V45645",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V45690": {
+          "id": "V45690",
+          "indicator": "A",
+          "type": "FAMILY-RELATION",
+          "word": "PARTNER",
+          "roles": {
+            "QUAN": "UNIVERSAL",
+            "LEX": "PARTNERS",
+            "WNSENSE": "partner%1:18:01::"
+          },
+          "start": 10,
+          "end": 26
+        },
+        "V45722": {
+          "id": "V45722",
+          "indicator": "F",
+          "type": "SEND",
+          "word": "SEND",
+          "roles": {
+            "AGENT": "#V45690",
+            "AFFECTED": "#V45733",
+            "VFORM": "BASE",
+            "LEX": "SEND",
+            "WNSENSE": "send%2:35:00::"
+          },
+          "start": 26,
+          "end": 63
+        },
+        "V45733": {
+          "id": "V45733",
+          "indicator": "WH-TERM-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "WHAT",
+          "roles": {
+            "SUCHTHAT": "#V45752",
+            "PROFORM": "WHAT",
+            "LEX": "WHAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 34,
+          "end": 63
+        },
+        "V45752": {
+          "id": "V45752",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V45739",
+            "NEUTRAL": "#V45733",
+            "REASON": "#V45761",
+            "TENSE": "PAST",
+            "LEX": "DID",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 39,
+          "end": 63
+        },
+        "V45739": {
+          "id": "V45739",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 39,
+          "end": 44
+        },
+        "V45761": {
+          "id": "V45761",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V45794",
+            "FIGURE": "#V45752",
+            "LEX": "FOR"
+          },
+          "start": 48,
+          "end": 63
+        },
+        "V45794": {
+          "id": "V45794",
+          "indicator": "THE",
+          "type": "ACTIVITY",
+          "word": "PROJECT",
+          "roles": {
+            "LEX": "PROJECT",
+            "WNSENSE": "project%1:04:00::"
+          },
+          "start": 52,
+          "end": 63
+        },
+        "root": "#V46193"
+      }
+    ],
+    [
+      {
+        "V46294": {
+          "id": "V46294",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V45660",
+            "LEX": "EMAILED"
+          },
+          "start": 0,
+          "end": 64
+        },
+        "V45660": {
+          "id": "V45660",
+          "indicator": "F",
+          "type": "NONVERBAL-SAY",
+          "word": "EMAIL",
+          "roles": {
+            "AGENT": "#V45645",
+            "AGENT1": "#V45689",
+            "FORMAL": "#V45722",
+            "TENSE": "PAST",
+            "LEX": "EMAILED",
+            "WNSENSE": "email%2:32:00::"
+          },
+          "start": 0,
+          "end": 63
+        },
+        "V45645": {
+          "id": "V45645",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V45689": {
+          "id": "V45689",
+          "indicator": "A",
+          "type": "AFFILIATE",
+          "word": "PARTNER",
+          "roles": {
+            "QUAN": "UNIVERSAL",
+            "LEX": "PARTNERS"
+          },
+          "start": 10,
+          "end": 26
+        },
+        "V45722": {
+          "id": "V45722",
+          "indicator": "F",
+          "type": "SEND",
+          "word": "SEND",
+          "roles": {
+            "AGENT": "#V45689",
+            "AFFECTED": "#V45732",
+            "VFORM": "BASE",
+            "LEX": "SEND",
+            "WNSENSE": "send%2:35:00::"
+          },
+          "start": 26,
+          "end": 63
+        },
+        "V45732": {
+          "id": "V45732",
+          "indicator": "WH-TERM",
+          "type": "REFERENTIAL-SEM",
+          "word": "WHAT",
+          "roles": {
+            "SUCHTHAT": "#V45752",
+            "PROFORM": "WHAT",
+            "LEX": "WHAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 34,
+          "end": 63
+        },
+        "V45752": {
+          "id": "V45752",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V45739",
+            "NEUTRAL": "#V45732",
+            "REASON": "#V45761",
+            "TENSE": "PAST",
+            "LEX": "DID",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 39,
+          "end": 63
+        },
+        "V45739": {
+          "id": "V45739",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 39,
+          "end": 44
+        },
+        "V45761": {
+          "id": "V45761",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V45794",
+            "FIGURE": "#V45752",
+            "LEX": "FOR"
+          },
+          "start": 48,
+          "end": 63
+        },
+        "V45794": {
+          "id": "V45794",
+          "indicator": "THE",
+          "type": "ACTIVITY",
+          "word": "PROJECT",
+          "roles": {
+            "LEX": "PROJECT",
+            "WNSENSE": "project%1:04:00::"
+          },
+          "start": 52,
+          "end": 63
+        },
+        "root": "#V46294"
+      }
+    ],
+    [
+      {
+        "V46286": {
+          "id": "V46286",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V45660",
+            "LEX": "EMAILED"
+          },
+          "start": 0,
+          "end": 64
+        },
+        "V45660": {
+          "id": "V45660",
+          "indicator": "F",
+          "type": "NONVERBAL-SAY",
+          "word": "EMAIL",
+          "roles": {
+            "AGENT": "#V45645",
+            "AGENT1": "#V45689",
+            "FORMAL": "#V45722",
+            "TENSE": "PAST",
+            "LEX": "EMAILED",
+            "WNSENSE": "email%2:32:00::"
+          },
+          "start": 0,
+          "end": 63
+        },
+        "V45645": {
+          "id": "V45645",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V45689": {
+          "id": "V45689",
+          "indicator": "INDEF-SET",
+          "type": "AFFILIATE",
+          "word": "PARTNER",
+          "roles": {
+            "SIZE": "UNIVERSAL",
+            "LEX": "PARTNERS"
+          },
+          "start": 10,
+          "end": 26
+        },
+        "V45722": {
+          "id": "V45722",
+          "indicator": "F",
+          "type": "SEND",
+          "word": "SEND",
+          "roles": {
+            "AGENT": "#V45689",
+            "AFFECTED": "#V45732",
+            "VFORM": "BASE",
+            "LEX": "SEND",
+            "WNSENSE": "send%2:35:00::"
+          },
+          "start": 26,
+          "end": 63
+        },
+        "V45732": {
+          "id": "V45732",
+          "indicator": "WH-TERM",
+          "type": "REFERENTIAL-SEM",
+          "word": "WHAT",
+          "roles": {
+            "SUCHTHAT": "#V45752",
+            "PROFORM": "WHAT",
+            "LEX": "WHAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 34,
+          "end": 63
+        },
+        "V45752": {
+          "id": "V45752",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V45739",
+            "NEUTRAL": "#V45732",
+            "REASON": "#V45761",
+            "TENSE": "PAST",
+            "LEX": "DID",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 39,
+          "end": 63
+        },
+        "V45739": {
+          "id": "V45739",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 39,
+          "end": 44
+        },
+        "V45761": {
+          "id": "V45761",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V45794",
+            "FIGURE": "#V45752",
+            "LEX": "FOR"
+          },
+          "start": 48,
+          "end": 63
+        },
+        "V45794": {
+          "id": "V45794",
+          "indicator": "THE",
+          "type": "ACTIVITY",
+          "word": "PROJECT",
+          "roles": {
+            "LEX": "PROJECT",
+            "WNSENSE": "project%1:04:00::"
+          },
+          "start": 52,
+          "end": 63
+        },
+        "root": "#V46286"
+      }
+    ],
+    [
+      {
+        "V46214": {
+          "id": "V46214",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V45660",
+            "LEX": "EMAILED"
+          },
+          "start": 0,
+          "end": 64
+        },
+        "V45660": {
+          "id": "V45660",
+          "indicator": "F",
+          "type": "NONVERBAL-SAY",
+          "word": "EMAIL",
+          "roles": {
+            "AGENT": "#V45645",
+            "AGENT1": "#V45689",
+            "FORMAL": "#V45722",
+            "TENSE": "PAST",
+            "LEX": "EMAILED",
+            "WNSENSE": "email%2:32:00::"
+          },
+          "start": 0,
+          "end": 63
+        },
+        "V45645": {
+          "id": "V45645",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V45689": {
+          "id": "V45689",
+          "indicator": "A",
+          "type": "AFFILIATE",
+          "word": "PARTNER",
+          "roles": {
+            "QUAN": "UNIVERSAL",
+            "LEX": "PARTNERS"
+          },
+          "start": 10,
+          "end": 26
+        },
+        "V45722": {
+          "id": "V45722",
+          "indicator": "F",
+          "type": "SEND",
+          "word": "SEND",
+          "roles": {
+            "AGENT": "#V45689",
+            "AFFECTED": "#V45733",
+            "VFORM": "BASE",
+            "LEX": "SEND",
+            "WNSENSE": "send%2:35:00::"
+          },
+          "start": 26,
+          "end": 63
+        },
+        "V45733": {
+          "id": "V45733",
+          "indicator": "WH-TERM-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "WHAT",
+          "roles": {
+            "SUCHTHAT": "#V45752",
+            "PROFORM": "WHAT",
+            "LEX": "WHAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 34,
+          "end": 63
+        },
+        "V45752": {
+          "id": "V45752",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V45739",
+            "NEUTRAL": "#V45733",
+            "REASON": "#V45761",
+            "TENSE": "PAST",
+            "LEX": "DID",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 39,
+          "end": 63
+        },
+        "V45739": {
+          "id": "V45739",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 39,
+          "end": 44
+        },
+        "V45761": {
+          "id": "V45761",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V45794",
+            "FIGURE": "#V45752",
+            "LEX": "FOR"
+          },
+          "start": 48,
+          "end": 63
+        },
+        "V45794": {
+          "id": "V45794",
+          "indicator": "THE",
+          "type": "ACTIVITY",
+          "word": "PROJECT",
+          "roles": {
+            "LEX": "PROJECT",
+            "WNSENSE": "project%1:04:00::"
+          },
+          "start": 52,
+          "end": 63
+        },
+        "root": "#V46214"
+      }
+    ],
+    [
+      {
+        "V46206": {
+          "id": "V46206",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V45660",
+            "LEX": "EMAILED"
+          },
+          "start": 0,
+          "end": 64
+        },
+        "V45660": {
+          "id": "V45660",
+          "indicator": "F",
+          "type": "NONVERBAL-SAY",
+          "word": "EMAIL",
+          "roles": {
+            "AGENT": "#V45645",
+            "AGENT1": "#V45689",
+            "FORMAL": "#V45722",
+            "TENSE": "PAST",
+            "LEX": "EMAILED",
+            "WNSENSE": "email%2:32:00::"
+          },
+          "start": 0,
+          "end": 63
+        },
+        "V45645": {
+          "id": "V45645",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V45689": {
+          "id": "V45689",
+          "indicator": "INDEF-SET",
+          "type": "AFFILIATE",
+          "word": "PARTNER",
+          "roles": {
+            "SIZE": "UNIVERSAL",
+            "LEX": "PARTNERS"
+          },
+          "start": 10,
+          "end": 26
+        },
+        "V45722": {
+          "id": "V45722",
+          "indicator": "F",
+          "type": "SEND",
+          "word": "SEND",
+          "roles": {
+            "AGENT": "#V45689",
+            "AFFECTED": "#V45733",
+            "VFORM": "BASE",
+            "LEX": "SEND",
+            "WNSENSE": "send%2:35:00::"
+          },
+          "start": 26,
+          "end": 63
+        },
+        "V45733": {
+          "id": "V45733",
+          "indicator": "WH-TERM-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "WHAT",
+          "roles": {
+            "SUCHTHAT": "#V45752",
+            "PROFORM": "WHAT",
+            "LEX": "WHAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 34,
+          "end": 63
+        },
+        "V45752": {
+          "id": "V45752",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V45739",
+            "NEUTRAL": "#V45733",
+            "REASON": "#V45761",
+            "TENSE": "PAST",
+            "LEX": "DID",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 39,
+          "end": 63
+        },
+        "V45739": {
+          "id": "V45739",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 39,
+          "end": 44
+        },
+        "V45761": {
+          "id": "V45761",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V45794",
+            "FIGURE": "#V45752",
+            "LEX": "FOR"
+          },
+          "start": 48,
+          "end": 63
+        },
+        "V45794": {
+          "id": "V45794",
+          "indicator": "THE",
+          "type": "ACTIVITY",
+          "word": "PROJECT",
+          "roles": {
+            "LEX": "PROJECT",
+            "WNSENSE": "project%1:04:00::"
+          },
+          "start": 52,
+          "end": 63
+        },
+        "root": "#V46206"
+      }
+    ],
+    [
+      {
+        "V46362": {
+          "id": "V46362",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V45659",
+            "LEX": "EMAILED"
+          },
+          "start": 0,
+          "end": 64
+        },
+        "V45659": {
+          "id": "V45659",
+          "indicator": "F",
+          "type": "SEND",
+          "word": "EMAIL",
+          "roles": {
+            "AGENT": "#V45645",
+            "AFFECTED": "#V45690",
+            "REASON": "#V45702",
+            "TENSE": "PAST",
+            "LEX": "EMAILED",
+            "WNSENSE": "send%2:32:00"
+          },
+          "start": 0,
+          "end": 63
+        },
+        "V45645": {
+          "id": "V45645",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V45690": {
+          "id": "V45690",
+          "indicator": "A",
+          "type": "FAMILY-RELATION",
+          "word": "PARTNER",
+          "roles": {
+            "QUAN": "UNIVERSAL",
+            "LEX": "PARTNERS",
+            "WNSENSE": "partner%1:18:01::"
+          },
+          "start": 10,
+          "end": 26
+        },
+        "V45702": {
+          "id": "V45702",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V45722",
+            "FIGURE": "#V45659",
+            "LEX": "TO"
+          },
+          "start": 26,
+          "end": 63
+        },
+        "V45722": {
+          "id": "V45722",
+          "indicator": "F",
+          "type": "SEND",
+          "word": "SEND",
+          "roles": {
+            "AFFECTED": "#V45732",
+            "VFORM": "BASE",
+            "LEX": "SEND",
+            "WNSENSE": "send%2:35:00::"
+          },
+          "start": 29,
+          "end": 63
+        },
+        "V45732": {
+          "id": "V45732",
+          "indicator": "WH-TERM",
+          "type": "REFERENTIAL-SEM",
+          "word": "WHAT",
+          "roles": {
+            "SUCHTHAT": "#V45752",
+            "PROFORM": "WHAT",
+            "LEX": "WHAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 34,
+          "end": 63
+        },
+        "V45752": {
+          "id": "V45752",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V45739",
+            "NEUTRAL": "#V45732",
+            "REASON": "#V45761",
+            "TENSE": "PAST",
+            "LEX": "DID",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 39,
+          "end": 63
+        },
+        "V45739": {
+          "id": "V45739",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 39,
+          "end": 44
+        },
+        "V45761": {
+          "id": "V45761",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V45794",
+            "FIGURE": "#V45752",
+            "LEX": "FOR"
+          },
+          "start": 48,
+          "end": 63
+        },
+        "V45794": {
+          "id": "V45794",
+          "indicator": "THE",
+          "type": "ACTIVITY",
+          "word": "PROJECT",
+          "roles": {
+            "LEX": "PROJECT",
+            "WNSENSE": "project%1:04:00::"
+          },
+          "start": 52,
+          "end": 63
+        },
+        "root": "#V46362"
+      }
+    ],
+    [
+      {
+        "V46350": {
+          "id": "V46350",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V45659",
+            "LEX": "EMAILED"
+          },
+          "start": 0,
+          "end": 64
+        },
+        "V45659": {
+          "id": "V45659",
+          "indicator": "F",
+          "type": "SEND",
+          "word": "EMAIL",
+          "roles": {
+            "AGENT": "#V45645",
+            "AFFECTED": "#V45690",
+            "REASON": "#V45702",
+            "TENSE": "PAST",
+            "LEX": "EMAILED",
+            "WNSENSE": "send%2:32:00"
+          },
+          "start": 0,
+          "end": 63
+        },
+        "V45645": {
+          "id": "V45645",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V45690": {
+          "id": "V45690",
+          "indicator": "INDEF-SET",
+          "type": "FAMILY-RELATION",
+          "word": "PARTNER",
+          "roles": {
+            "SIZE": "UNIVERSAL",
+            "LEX": "PARTNERS",
+            "WNSENSE": "partner%1:18:01::"
+          },
+          "start": 10,
+          "end": 26
+        },
+        "V45702": {
+          "id": "V45702",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V45722",
+            "FIGURE": "#V45659",
+            "LEX": "TO"
+          },
+          "start": 26,
+          "end": 63
+        },
+        "V45722": {
+          "id": "V45722",
+          "indicator": "F",
+          "type": "SEND",
+          "word": "SEND",
+          "roles": {
+            "AFFECTED": "#V45733",
+            "VFORM": "BASE",
+            "LEX": "SEND",
+            "WNSENSE": "send%2:35:00::"
+          },
+          "start": 29,
+          "end": 63
+        },
+        "V45733": {
+          "id": "V45733",
+          "indicator": "WH-TERM-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "WHAT",
+          "roles": {
+            "SUCHTHAT": "#V45752",
+            "PROFORM": "WHAT",
+            "LEX": "WHAT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 34,
+          "end": 63
+        },
+        "V45752": {
+          "id": "V45752",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V45739",
+            "NEUTRAL": "#V45733",
+            "REASON": "#V45761",
+            "TENSE": "PAST",
+            "LEX": "DID",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 39,
+          "end": 63
+        },
+        "V45739": {
+          "id": "V45739",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 39,
+          "end": 44
+        },
+        "V45761": {
+          "id": "V45761",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V45794",
+            "FIGURE": "#V45752",
+            "LEX": "FOR"
+          },
+          "start": 48,
+          "end": 63
+        },
+        "V45794": {
+          "id": "V45794",
+          "indicator": "THE",
+          "type": "ACTIVITY",
+          "word": "PROJECT",
+          "roles": {
+            "LEX": "PROJECT",
+            "WNSENSE": "project%1:04:00::"
+          },
+          "start": 52,
+          "end": 63
+        },
+        "root": "#V46350"
+      }
+    ]
+  ],
+  "sentence": "I emailed all of partners to send what they did for the project.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190910T112223",
+    "link": "http://trips.ihmc.us/parser/saved/20190910T112223-STEP-abhatia-0-I_emailed_all_of_partners_to_send_what_t.xml",
+    "judgement": 0
+  }
+}

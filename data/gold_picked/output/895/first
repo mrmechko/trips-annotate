@@ -1,0 +1,21 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V375740 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V375110 [label=<<font color="green"><br /></font> <font color="black">START</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BEGIN</font> <font color="green"><br /></font> <font color="green">begin%2:30:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::START.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V375103 [label=<<font color="green"><br /></font> <font color="black">GEOGRAPHIC-REGION</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">CHARLES</font> <font color="green"><br /></font> <font color="green">north_america%1:14:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GEOGRAPHIC-REGION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V375119 [label=<<font color="green"><br /></font> <font color="black">MOVE-FLUIDLY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">SLIDE</font> <font color="green"><br /></font> <font color="green">slide%1:04:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MOVE-FLUIDLY.xml" fillcolor=lightblue fontname="Work Sans" fontsize=8 shape=plain style=filled]
+		V375126 [label=<<font color="green"><br /></font> <font color="black">DIRECTION-BACKWARD</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BACKWARDS</font> <font color="green"><br /></font> <font color="green">backwards%4:02:03::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DIRECTION-BACKWARD.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V375155 [label=<<font color="green"><br /></font> <font color="black">DIRECTION-DOWN-GROUND</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">DOWN</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DIRECTION-DOWN-GROUND.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V375212 [label=<<font color="green"><br /></font> <font color="black">GEO-FORMATION</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">SLOPE</font> <font color="green"><br /></font> <font color="green">slope%1:17:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GEO-FORMATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V375119 -> V375126 [label=" RESULT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V375110 -> V375103 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V375155 -> V375103 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V375110 -> V375119 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V375119 -> V375103 [label=" AFFECTED   " arrowsize=0.5 color=red fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V375155 -> V375212 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V375126 -> V375119 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V375740 -> V375110 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

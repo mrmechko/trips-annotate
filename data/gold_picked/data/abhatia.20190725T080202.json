@@ -1,0 +1,546 @@
+{
+  "parse": [
+    {
+      "V347303": {
+        "id": "V347303",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V346773",
+          "LEX": "RAN"
+        },
+        "start": 0,
+        "end": 43
+      },
+      "V346773": {
+        "id": "V346773",
+        "indicator": "F",
+        "type": "MOVE-RAPIDLY",
+        "word": "RUN",
+        "roles": {
+          "RESULT": "#V346784",
+          "AGENT": "#V346759",
+          "TENSE": "PAST",
+          "LEX": "RAN",
+          "WNSENSE": "run%2:38:00::"
+        },
+        "start": 0,
+        "end": 43
+      },
+      "V346759": {
+        "id": "V346759",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V346784": {
+        "id": "V346784",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V346859",
+          "FIGURE": "#V346759",
+          "LEX": "TO"
+        },
+        "start": 6,
+        "end": 43
+      },
+      "V346859": {
+        "id": "V346859",
+        "indicator": "THE",
+        "type": "LODGING",
+        "word": "HOUSE",
+        "roles": {
+          "ASSOC-POSS": "#V346834",
+          "MOD": "#V346865",
+          "LEX": "HOUSE",
+          "WNSENSE": "house%1:06:00::"
+        },
+        "start": 9,
+        "end": 43
+      },
+      "V346834": {
+        "id": "V346834",
+        "indicator": "THE",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "ASSOC-POSS": "#V346806",
+          "LEX": "FRIEND",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 9,
+        "end": 19
+      },
+      "V346806": {
+        "id": "V346806",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "MY",
+        "roles": {
+          "LEX": "MY",
+          "PROFORM": "MY",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 9,
+        "end": 19
+      },
+      "V346865": {
+        "id": "V346865",
+        "indicator": "F",
+        "type": "CAUSE-COVER",
+        "word": "COVER",
+        "roles": {
+          "AFFECTED": "#V346859",
+          "AFFECTED1": "#V346933",
+          "VFORM": "PASSIVE",
+          "LEX": "COVERED",
+          "WNSENSE": "cover%2:35:00::"
+        },
+        "start": 27,
+        "end": 43
+      },
+      "V346933": {
+        "id": "V346933",
+        "indicator": "BARE",
+        "type": "WATER",
+        "word": "WATER",
+        "roles": {
+          "LEX": "WATER",
+          "WNSENSE": "water%1:27:00::"
+        },
+        "start": 35,
+        "end": 43
+      },
+      "root": "#V347303"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V347289": {
+          "id": "V347289",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V346773",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 44
+        },
+        "V346773": {
+          "id": "V346773",
+          "indicator": "F",
+          "type": "MOVE-RAPIDLY",
+          "word": "RUN",
+          "roles": {
+            "RESULT": "#V346784",
+            "AGENT": "#V346759",
+            "TENSE": "PAST",
+            "LEX": "RAN",
+            "WNSENSE": "run%2:38:00::"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V346759": {
+          "id": "V346759",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V346784": {
+          "id": "V346784",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V346859",
+            "FIGURE": "#V346759",
+            "LEX": "TO"
+          },
+          "start": 6,
+          "end": 43
+        },
+        "V346859": {
+          "id": "V346859",
+          "indicator": "THE",
+          "type": "LODGING",
+          "word": "HOUSE",
+          "roles": {
+            "ASSOC-POSS": "#V346809",
+            "MOD": "#V346865",
+            "LEX": "HOUSE",
+            "WNSENSE": "house%1:06:00::"
+          },
+          "start": 9,
+          "end": 43
+        },
+        "V346809": {
+          "id": "V346809",
+          "indicator": "THE",
+          "type": "FRIEND",
+          "word": "FRIEND",
+          "roles": {
+            "ASSOC-POSS": "#V346806",
+            "LEX": "FRIEND",
+            "WNSENSE": "friend%1:18:00::"
+          },
+          "start": 9,
+          "end": 18
+        },
+        "V346806": {
+          "id": "V346806",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 9,
+          "end": 18
+        },
+        "V346865": {
+          "id": "V346865",
+          "indicator": "F",
+          "type": "CAUSE-COVER",
+          "word": "COVER",
+          "roles": {
+            "AFFECTED": "#V346859",
+            "AFFECTED1": "#V346933",
+            "VFORM": "PASSIVE",
+            "LEX": "COVERED",
+            "WNSENSE": "cover%2:35:00::"
+          },
+          "start": 27,
+          "end": 43
+        },
+        "V346933": {
+          "id": "V346933",
+          "indicator": "BARE",
+          "type": "WATER",
+          "word": "WATER",
+          "roles": {
+            "LEX": "WATER",
+            "WNSENSE": "water%1:27:00::"
+          },
+          "start": 35,
+          "end": 43
+        },
+        "root": "#V347289"
+      }
+    ],
+    [
+      {
+        "V347563": {
+          "id": "V347563",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V346773",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 44
+        },
+        "V346773": {
+          "id": "V346773",
+          "indicator": "F",
+          "type": "MOVE-RAPIDLY",
+          "word": "RUN",
+          "roles": {
+            "RESULT": "#V346784",
+            "AGENT": "#V346759",
+            "TENSE": "PAST",
+            "LEX": "RAN",
+            "WNSENSE": "run%2:38:00::"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V346759": {
+          "id": "V346759",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V346784": {
+          "id": "V346784",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V346859",
+            "FIGURE": "#V346759",
+            "LEX": "TO"
+          },
+          "start": 6,
+          "end": 43
+        },
+        "V346859": {
+          "id": "V346859",
+          "indicator": "THE",
+          "type": "LODGING",
+          "word": "HOUSE",
+          "roles": {
+            "ASSOC-POSS": "#V346834",
+            "MOD": "#V346867",
+            "LEX": "HOUSE",
+            "WNSENSE": "house%1:06:00::"
+          },
+          "start": 9,
+          "end": 43
+        },
+        "V346834": {
+          "id": "V346834",
+          "indicator": "THE",
+          "type": "FRIEND",
+          "word": "FRIEND",
+          "roles": {
+            "ASSOC-POSS": "#V346806",
+            "LEX": "FRIEND",
+            "WNSENSE": "friend%1:18:00::"
+          },
+          "start": 9,
+          "end": 19
+        },
+        "V346806": {
+          "id": "V346806",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 9,
+          "end": 19
+        },
+        "V346867": {
+          "id": "V346867",
+          "indicator": "F",
+          "type": "TAKING-CARE-OF",
+          "word": "COVER",
+          "roles": {
+            "AFFECTED": "#V346859",
+            "REASON": "#V346880",
+            "VFORM": "PASSIVE",
+            "LEX": "COVERED",
+            "WNSENSE": "handle%2:41:00"
+          },
+          "start": 27,
+          "end": 43
+        },
+        "V346880": {
+          "id": "V346880",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V346933",
+            "FIGURE": "#V346867",
+            "LEX": "IN",
+            "WNSENSE": "in%4:02:01::"
+          },
+          "start": 35,
+          "end": 43
+        },
+        "V346933": {
+          "id": "V346933",
+          "indicator": "BARE",
+          "type": "WATER",
+          "word": "WATER",
+          "roles": {
+            "LEX": "WATER",
+            "WNSENSE": "water%1:27:00::"
+          },
+          "start": 38,
+          "end": 43
+        },
+        "root": "#V347563"
+      }
+    ],
+    [
+      {
+        "V347522": {
+          "id": "V347522",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V346773",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 44
+        },
+        "V346773": {
+          "id": "V346773",
+          "indicator": "F",
+          "type": "MOVE-RAPIDLY",
+          "word": "RUN",
+          "roles": {
+            "RESULT": "#V346784",
+            "AGENT": "#V346759",
+            "TENSE": "PAST",
+            "LEX": "RAN",
+            "WNSENSE": "run%2:38:00::"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V346759": {
+          "id": "V346759",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V346784": {
+          "id": "V346784",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V346859",
+            "FIGURE": "#V346759",
+            "LEX": "TO"
+          },
+          "start": 6,
+          "end": 43
+        },
+        "V346859": {
+          "id": "V346859",
+          "indicator": "THE",
+          "type": "LODGING",
+          "word": "HOUSE",
+          "roles": {
+            "ASSOC-POSS": "#V346809",
+            "MOD": "#V346867",
+            "LEX": "HOUSE",
+            "WNSENSE": "house%1:06:00::"
+          },
+          "start": 9,
+          "end": 43
+        },
+        "V346809": {
+          "id": "V346809",
+          "indicator": "THE",
+          "type": "FRIEND",
+          "word": "FRIEND",
+          "roles": {
+            "ASSOC-POSS": "#V346806",
+            "LEX": "FRIEND",
+            "WNSENSE": "friend%1:18:00::"
+          },
+          "start": 9,
+          "end": 18
+        },
+        "V346806": {
+          "id": "V346806",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "MY",
+          "roles": {
+            "LEX": "MY",
+            "PROFORM": "MY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 9,
+          "end": 18
+        },
+        "V346867": {
+          "id": "V346867",
+          "indicator": "F",
+          "type": "TAKING-CARE-OF",
+          "word": "COVER",
+          "roles": {
+            "AFFECTED": "#V346859",
+            "REASON": "#V346880",
+            "VFORM": "PASSIVE",
+            "LEX": "COVERED",
+            "WNSENSE": "handle%2:41:00"
+          },
+          "start": 27,
+          "end": 43
+        },
+        "V346880": {
+          "id": "V346880",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "IN",
+          "roles": {
+            "GROUND": "#V346933",
+            "FIGURE": "#V346867",
+            "LEX": "IN",
+            "WNSENSE": "in%4:02:01::"
+          },
+          "start": 35,
+          "end": 43
+        },
+        "V346933": {
+          "id": "V346933",
+          "indicator": "BARE",
+          "type": "WATER",
+          "word": "WATER",
+          "roles": {
+            "LEX": "WATER",
+            "WNSENSE": "water%1:27:00::"
+          },
+          "start": 38,
+          "end": 43
+        },
+        "root": "#V347522"
+      }
+    ]
+  ],
+  "sentence": "I ran to my friend's house covered in water.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190725T080202",
+    "link": "http://trips.ihmc.us/parser/saved/20190725T080202-STEP-abhatia-none-I_ran_to_my_friend_s_house_covered_in_wa.xml",
+    "judgement": -1
+  }
+}

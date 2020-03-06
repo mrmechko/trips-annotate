@@ -1,0 +1,572 @@
+{
+  "parse": [
+    {
+      "V458386": {
+        "id": "V458386",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V458039",
+          "LEX": "DECIDED"
+        },
+        "start": 0,
+        "end": 56
+      },
+      "V458039": {
+        "id": "V458039",
+        "indicator": "F",
+        "type": "DECIDE",
+        "word": "DECIDE",
+        "roles": {
+          "AGENT": "#V458033",
+          "FORMAL": "#V458075",
+          "TIME": "#V457993",
+          "TENSE": "PAST",
+          "LEX": "DECIDED"
+        },
+        "start": 0,
+        "end": 56
+      },
+      "V457993": {
+        "id": "V457993",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V458026",
+          "FIGURE": "#V458039",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 20
+      },
+      "V458026": {
+        "id": "V458026",
+        "indicator": "F",
+        "type": "COME",
+        "word": "COME",
+        "roles": {
+          "AFFECTED": "#V458009",
+          "TENSE": "PAST",
+          "LEX": "CAME",
+          "WNSENSE": "come%2:42:15::"
+        },
+        "start": 5,
+        "end": 20
+      },
+      "V458009": {
+        "id": "V458009",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "CHRISTMAS",
+        "roles": {
+          "NAME-OF": "CHRISTMAS",
+          "LEX": "CHRISTMAS",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 5,
+        "end": 15
+      },
+      "V458033": {
+        "id": "V458033",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "SHE",
+        "roles": {
+          "PROFORM": "SHE",
+          "LEX": "SHE",
+          "WNSENSE": "woman%1:18:00",
+          "COREF": "#V458009"
+        },
+        "start": 20,
+        "end": 24
+      },
+      "V458075": {
+        "id": "V458075",
+        "indicator": "F",
+        "type": "PURCHASE",
+        "word": "BUY",
+        "roles": {
+          "AGENT": "#V458033",
+          "AFFECTED": "#V458087",
+          "VFORM": "BASE",
+          "LEX": "BUY",
+          "WNSENSE": "buy%2:40:00::"
+        },
+        "start": 32,
+        "end": 56
+      },
+      "V458087": {
+        "id": "V458087",
+        "indicator": "THE-SET",
+        "type": "DONATE-GIVE",
+        "word": "GIFT",
+        "roles": {
+          "ASSOC-POSS": "#V458079",
+          "ASSOC-WITH": "#V458084",
+          "LEX": "GIFTS",
+          "WNSENSE": "gift%1:21:00::"
+        },
+        "start": 39,
+        "end": 56
+      },
+      "V458084": {
+        "id": "V458084",
+        "indicator": "KIND",
+        "type": "FRIEND",
+        "word": "FRIEND",
+        "roles": {
+          "LEX": "FRIENDS",
+          "WNSENSE": "friend%1:18:00::"
+        },
+        "start": 39,
+        "end": 56
+      },
+      "V458079": {
+        "id": "V458079",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "HER",
+        "roles": {
+          "LEX": "HER",
+          "PROFORM": "HER",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 39,
+        "end": 56
+      },
+      "root": "#V458386"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V458778": {
+          "id": "V458778",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V458039",
+            "LEX": "DECIDED"
+          },
+          "start": 0,
+          "end": 57
+        },
+        "V458039": {
+          "id": "V458039",
+          "indicator": "F",
+          "type": "DECIDE",
+          "word": "DECIDE",
+          "roles": {
+            "AGENT": "#V458033",
+            "FORMAL": "#V458075",
+            "TIME": "#V457993",
+            "TENSE": "PAST",
+            "LEX": "DECIDED"
+          },
+          "start": 0,
+          "end": 56
+        },
+        "V457993": {
+          "id": "V457993",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V458026",
+            "FIGURE": "#V458039",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V458026": {
+          "id": "V458026",
+          "indicator": "F",
+          "type": "COME",
+          "word": "COME",
+          "roles": {
+            "AFFECTED": "#V458009",
+            "TENSE": "PAST",
+            "LEX": "CAME",
+            "WNSENSE": "come%2:42:15::"
+          },
+          "start": 5,
+          "end": 20
+        },
+        "V458009": {
+          "id": "V458009",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "CHRISTMAS",
+          "roles": {
+            "NAME-OF": "CHRISTMAS",
+            "LEX": "CHRISTMAS",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 5,
+          "end": 15
+        },
+        "V458033": {
+          "id": "V458033",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 20,
+          "end": 24
+        },
+        "V458075": {
+          "id": "V458075",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AGENT": "#V458033",
+            "AFFECTED": "#V458087",
+            "VFORM": "BASE",
+            "LEX": "BUY",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 32,
+          "end": 56
+        },
+        "V458087": {
+          "id": "V458087",
+          "indicator": "THE-SET",
+          "type": "DONATE-GIVE",
+          "word": "GIFT",
+          "roles": {
+            "ASSOC-POSS": "#V458079",
+            "ASSOC-WITH": "#V458084",
+            "LEX": "GIFTS",
+            "WNSENSE": "gift%1:21:00::"
+          },
+          "start": 39,
+          "end": 56
+        },
+        "V458084": {
+          "id": "V458084",
+          "indicator": "KIND",
+          "type": "FRIEND",
+          "word": "FRIEND",
+          "roles": {
+            "WNSENSE": "friend%1:18:00::"
+          },
+          "start": 39,
+          "end": 56
+        },
+        "V458079": {
+          "id": "V458079",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 39,
+          "end": 56
+        },
+        "root": "#V458778"
+      }
+    ],
+    [
+      {
+        "V458496": {
+          "id": "V458496",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V458039",
+            "LEX": "DECIDED"
+          },
+          "start": 0,
+          "end": 57
+        },
+        "V458039": {
+          "id": "V458039",
+          "indicator": "F",
+          "type": "DECIDE",
+          "word": "DECIDE",
+          "roles": {
+            "AGENT": "#V458033",
+            "FORMAL": "#V458075",
+            "TIME": "#V457993",
+            "TENSE": "PAST",
+            "LEX": "DECIDED"
+          },
+          "start": 0,
+          "end": 56
+        },
+        "V457993": {
+          "id": "V457993",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V458026",
+            "FIGURE": "#V458039",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V458026": {
+          "id": "V458026",
+          "indicator": "F",
+          "type": "COME",
+          "word": "COME",
+          "roles": {
+            "AFFECTED": "#V458009",
+            "TENSE": "PAST",
+            "LEX": "CAME",
+            "WNSENSE": "come%2:42:15::"
+          },
+          "start": 5,
+          "end": 20
+        },
+        "V458009": {
+          "id": "V458009",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "CHRISTMAS",
+          "roles": {
+            "NAME-OF": "CHRISTMAS",
+            "LEX": "CHRISTMAS",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 5,
+          "end": 15
+        },
+        "V458033": {
+          "id": "V458033",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 20,
+          "end": 24
+        },
+        "V458075": {
+          "id": "V458075",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AGENT": "#V458033",
+            "AFFECTED": "#V458087",
+            "BENEFICIARY": "#V458084",
+            "VFORM": "BASE",
+            "LEX": "BUY",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 32,
+          "end": 56
+        },
+        "V458084": {
+          "id": "V458084",
+          "indicator": "THE-SET",
+          "type": "FRIEND",
+          "word": "FRIEND",
+          "roles": {
+            "ASSOC-POSS": "#V458079",
+            "LEX": "FRIENDS",
+            "WNSENSE": "friend%1:18:00::"
+          },
+          "start": 39,
+          "end": 51
+        },
+        "V458079": {
+          "id": "V458079",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 39,
+          "end": 51
+        },
+        "V458087": {
+          "id": "V458087",
+          "indicator": "INDEF-SET",
+          "type": "DONATE-GIVE",
+          "word": "GIFT",
+          "roles": {
+            "LEX": "GIFTS",
+            "WNSENSE": "gift%1:21:00::"
+          },
+          "start": 51,
+          "end": 56
+        },
+        "root": "#V458496"
+      }
+    ],
+    [
+      {
+        "V458930": {
+          "id": "V458930",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V458039",
+            "LEX": "DECIDED"
+          },
+          "start": 0,
+          "end": 57
+        },
+        "V458039": {
+          "id": "V458039",
+          "indicator": "F",
+          "type": "DECIDE",
+          "word": "DECIDE",
+          "roles": {
+            "AGENT": "#V458033",
+            "FORMAL": "#V458075",
+            "TIME": "#V457993",
+            "TENSE": "PAST",
+            "LEX": "DECIDED"
+          },
+          "start": 0,
+          "end": 56
+        },
+        "V457993": {
+          "id": "V457993",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V458026",
+            "FIGURE": "#V458039",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V458026": {
+          "id": "V458026",
+          "indicator": "F",
+          "type": "COME",
+          "word": "COME",
+          "roles": {
+            "AFFECTED": "#V458009",
+            "TENSE": "PAST",
+            "LEX": "CAME",
+            "WNSENSE": "come%2:42:15::"
+          },
+          "start": 5,
+          "end": 20
+        },
+        "V458009": {
+          "id": "V458009",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "CHRISTMAS",
+          "roles": {
+            "NAME-OF": "CHRISTMAS",
+            "LEX": "CHRISTMAS",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 5,
+          "end": 15
+        },
+        "V458033": {
+          "id": "V458033",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 20,
+          "end": 24
+        },
+        "V458075": {
+          "id": "V458075",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AGENT": "#V458033",
+            "AFFECTED": "#V458087",
+            "BENEFICIARY": "#V458080",
+            "VFORM": "BASE",
+            "LEX": "BUY",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 32,
+          "end": 56
+        },
+        "V458080": {
+          "id": "V458080",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 39,
+          "end": 43
+        },
+        "V458087": {
+          "id": "V458087",
+          "indicator": "INDEF-SET",
+          "type": "DONATE-GIVE",
+          "word": "GIFT",
+          "roles": {
+            "ASSOC-WITH": "#V458084",
+            "LEX": "GIFTS",
+            "WNSENSE": "gift%1:21:00::"
+          },
+          "start": 43,
+          "end": 56
+        },
+        "V458084": {
+          "id": "V458084",
+          "indicator": "KIND",
+          "type": "FRIEND",
+          "word": "FRIEND",
+          "roles": {
+            "LEX": "FRIENDS",
+            "WNSENSE": "friend%1:18:00::"
+          },
+          "start": 43,
+          "end": 56
+        },
+        "root": "#V458930"
+      }
+    ]
+  ],
+  "sentence": "When Christmas came she decided to buy her friends gifts.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190726T112035",
+    "link": "http://trips.ihmc.us/parser/saved/20190726T112035-STEP-abhatia-none-When_Christmas_came_she_decided_to_buy_h.xml",
+    "judgement": -1
+  }
+}

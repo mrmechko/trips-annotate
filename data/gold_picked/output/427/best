@@ -1,0 +1,33 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V229455 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V228364 [label=<<font color="green"><br /></font> <font color="black">NECESSITY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">HAVE</font> <font color="green"><br /></font> <font color="green">need%2:34:01</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::NECESSITY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V228359 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">PRO-SET</font> <font color="blue">WE</font> <font color="green"><br /></font> <font color="green">person%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V228409 [label=<<font color="green"><br /></font> <font color="black">GIVING</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">GIVE</font> <font color="green"><br /></font> <font color="green">give%2:40:03::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::GIVING.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V228433 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">PRO-SET</font> <font color="blue">THEM</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V228452 [label=<<font color="green"><br /></font> <font color="black">FAST-FOOD</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">PIZZA</font> <font color="green"><br /></font> <font color="green">pizza%1:13:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FAST-FOOD.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V228442 [label=<<font color="green"><br /></font> <font color="black">OLD-VAL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">OLD</font> <font color="green"><br /></font> <font color="green">old%3:00:02::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::OLD-VAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V228449 [label=<<font color="green"><br /></font> <font color="black">DESTROY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">RUIN</font> <font color="green"><br /></font> <font color="green">ruin%2:35:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DESTROY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V228457 [label=<<font color="green"><br /></font> <font color="black">BEFORE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BEFORE</font> <font color="green"><br /></font> <font color="green">before%4:02:03::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BEFORE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V228484 [label=<<font color="green"><br /></font> <font color="black">ACQUIRE</font> <font color="green"><br /></font> <font color="red">BARE</font> <font color="blue">GET</font> <font color="green"><br /></font> <font color="green">get%2:40:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ACQUIRE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V228552 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">ONE</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V228545 [label=<<font color="green"><br /></font> <font color="black">NOVELTY-VAL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">NEW</font> <font color="green"><br /></font> <font color="green">new%5:00:00:original:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::NOVELTY-VAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V228409 -> V228457 [label=" TIME   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V228484 -> V228552 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V228409 -> V228452 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V228449 -> V228452 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V228452 -> V228449 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V228409 -> V228433 [label=" AFFECTED-RESULT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V228442 -> V228452 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V228545 -> V228552 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V228457 -> V228409 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V229455 -> V228364 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V228552 -> V228545 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V228364 -> V228409 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V228457 -> V228484 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V228364 -> V228359 [label=" NEUTRAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V228409 -> V228359 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

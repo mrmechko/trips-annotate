@@ -1,0 +1,800 @@
+{
+  "parse": [
+    {
+      "V61105": {
+        "id": "V61105",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V58809",
+          "LEX": "PLACE"
+        },
+        "start": 1,
+        "end": 30
+      },
+      "V58809": {
+        "id": "V58809",
+        "indicator": "F",
+        "type": "SUBMIT",
+        "word": "PLACE",
+        "roles": {
+          "AGENT": "#V59449",
+          "AFFECTED": "#V59111",
+          "TENSE": "PRES",
+          "LEX": "PLACE",
+          "WNSENSE": "submit%2:32:01"
+        },
+        "start": 1,
+        "end": 30
+      },
+      "V59449": {
+        "id": "V59449",
+        "indicator": "THE",
+        "type": "SEQUENCE",
+        "word": null,
+        "roles": {
+          "NAME-OF": "(A)",
+          "VAL": "(A)",
+          "LEX": "A"
+        },
+        "start": 1,
+        "end": 3
+      },
+      "V59111": {
+        "id": "V59111",
+        "indicator": "THE",
+        "type": "LOCATION",
+        "word": null,
+        "roles": {
+          "SUCHTHAT": "#V58842",
+          "LEX": "WHERE"
+        },
+        "start": 9,
+        "end": 30
+      },
+      "V58842": {
+        "id": "V58842",
+        "indicator": "F",
+        "type": "PRECIPITATING",
+        "word": "RAIN",
+        "roles": {
+          "LOCATION": "#V58817",
+          "NOROLE": "#V58829",
+          "FREQUENCY": "#V58835",
+          "WNSENSE": "rain%2:43:00::"
+        },
+        "start": 9,
+        "end": 30
+      },
+      "V58817": {
+        "id": "V58817",
+        "indicator": "F",
+        "type": "AT-LOC",
+        "word": "WHERE",
+        "roles": {
+          "GROUND": "#V59111",
+          "FIGURE": "#V58842",
+          "LEX": "WHERE"
+        },
+        "start": 9,
+        "end": 15
+      },
+      "V58829": {
+        "id": "V58829",
+        "indicator": "PRO",
+        "type": "EXPLETIVE",
+        "word": null,
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT"
+        },
+        "start": 15,
+        "end": 18
+      },
+      "V58835": {
+        "id": "V58835",
+        "indicator": "F",
+        "type": "NEVER",
+        "word": "NEVER",
+        "roles": {
+          "FIGURE": "#V58842",
+          "LEX": "NEVER",
+          "WNSENSE": "never%4:02:00::"
+        },
+        "start": 18,
+        "end": 24
+      },
+      "root": "#V61105"
+    },
+    {
+      "V60748": {
+        "id": "V60748",
+        "indicator": "SPEECHACT",
+        "type": "SA_YN-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V58850",
+          "LEX": "IS"
+        },
+        "start": 30,
+        "end": 58
+      },
+      "V58850": {
+        "id": "V58850",
+        "indicator": "F",
+        "type": "EXPECTATION",
+        "word": "BE",
+        "roles": {
+          "COMP3": "#V58955",
+          "NEUTRAL": "#V58924",
+          "FORMAL": "#V58955",
+          "TENSE": "PRES",
+          "LEX": "IS",
+          "WNSENSE": "expect%2:31:00"
+        },
+        "start": 30,
+        "end": 58
+      },
+      "V58924": {
+        "id": "V58924",
+        "indicator": "A",
+        "type": "PLACE",
+        "word": "PLACE",
+        "roles": {
+          "MOD": "#V58913",
+          "LEX": "PLACE",
+          "WNSENSE": "place%1:15:00::"
+        },
+        "start": 33,
+        "end": 46
+      },
+      "V58913": {
+        "id": "V58913",
+        "indicator": "F",
+        "type": "GOOD",
+        "word": "GOOD",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "MED",
+          "FIGURE": "#V58924",
+          "SCALE": "GOODNESS-SCALE",
+          "LEX": "GOOD",
+          "WNSENSE": "good%5:00:00:nice:00"
+        },
+        "start": 35,
+        "end": 40
+      },
+      "V58955": {
+        "id": "V58955",
+        "indicator": "F",
+        "type": "RETIRE",
+        "word": "RETIRE",
+        "roles": {
+          "AGENT": "#V58924",
+          "TIME": "#V58966",
+          "VFORM": "BASE",
+          "LEX": "RETIRE",
+          "WNSENSE": "retire%2:41:01::"
+        },
+        "start": 46,
+        "end": 58
+      },
+      "V58966": {
+        "id": "V58966",
+        "indicator": "F",
+        "type": "UNTIL",
+        "word": "TO",
+        "roles": {
+          "FIGURE": "#V58955",
+          "LEX": "TO"
+        },
+        "start": 56,
+        "end": 58
+      },
+      "root": "#V60748"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V61105": {
+          "id": "V61105",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V58809",
+            "LEX": "PLACE"
+          },
+          "start": 1,
+          "end": 30
+        },
+        "V58809": {
+          "id": "V58809",
+          "indicator": "F",
+          "type": "SUBMIT",
+          "word": "PLACE",
+          "roles": {
+            "AGENT": "#V59449",
+            "AFFECTED": "#V59111",
+            "TENSE": "PRES",
+            "LEX": "PLACE",
+            "WNSENSE": "submit%2:32:01"
+          },
+          "start": 1,
+          "end": 30
+        },
+        "V59449": {
+          "id": "V59449",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(A)",
+            "VAL": "(A)",
+            "LEX": "A"
+          },
+          "start": 1,
+          "end": 3
+        },
+        "V59111": {
+          "id": "V59111",
+          "indicator": "THE",
+          "type": "LOCATION",
+          "word": null,
+          "roles": {
+            "SUCHTHAT": "#V58842",
+            "LEX": "WHERE"
+          },
+          "start": 9,
+          "end": 30
+        },
+        "V58842": {
+          "id": "V58842",
+          "indicator": "F",
+          "type": "PRECIPITATING",
+          "word": "RAIN",
+          "roles": {
+            "LOCATION": "#V58817",
+            "NOROLE": "#V58829",
+            "FREQUENCY": "#V58835",
+            "WNSENSE": "rain%2:43:00::"
+          },
+          "start": 9,
+          "end": 30
+        },
+        "V58817": {
+          "id": "V58817",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "WHERE",
+          "roles": {
+            "GROUND": "#V59111",
+            "FIGURE": "#V58842",
+            "LEX": "WHERE"
+          },
+          "start": 9,
+          "end": 15
+        },
+        "V58829": {
+          "id": "V58829",
+          "indicator": "PRO",
+          "type": "EXPLETIVE",
+          "word": null,
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT"
+          },
+          "start": 15,
+          "end": 18
+        },
+        "V58835": {
+          "id": "V58835",
+          "indicator": "F",
+          "type": "NEVER",
+          "word": "NEVER",
+          "roles": {
+            "FIGURE": "#V58842",
+            "LEX": "NEVER",
+            "WNSENSE": "never%4:02:00::"
+          },
+          "start": 18,
+          "end": 24
+        },
+        "root": "#V61105"
+      },
+      {
+        "V60726": {
+          "id": "V60726",
+          "indicator": "SPEECHACT",
+          "type": "SA_YN-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V58850",
+            "LEX": "IS"
+          },
+          "start": 30,
+          "end": 59
+        },
+        "V58850": {
+          "id": "V58850",
+          "indicator": "F",
+          "type": "EXPECTATION",
+          "word": "BE",
+          "roles": {
+            "COMP3": "#V58955",
+            "NEUTRAL": "#V58924",
+            "FORMAL": "#V58955",
+            "TENSE": "PRES",
+            "LEX": "IS",
+            "WNSENSE": "expect%2:31:00"
+          },
+          "start": 30,
+          "end": 58
+        },
+        "V58924": {
+          "id": "V58924",
+          "indicator": "A",
+          "type": "PLACE",
+          "word": "PLACE",
+          "roles": {
+            "MOD": "#V58914",
+            "LEX": "PLACE",
+            "WNSENSE": "place%1:15:00::"
+          },
+          "start": 33,
+          "end": 46
+        },
+        "V58914": {
+          "id": "V58914",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V58924",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "V58955": {
+          "id": "V58955",
+          "indicator": "F",
+          "type": "RETIRE",
+          "word": "RETIRE",
+          "roles": {
+            "AGENT": "#V58924",
+            "TIME": "#V58966",
+            "VFORM": "BASE",
+            "LEX": "RETIRE",
+            "WNSENSE": "retire%2:41:01::"
+          },
+          "start": 46,
+          "end": 58
+        },
+        "V58966": {
+          "id": "V58966",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "FIGURE": "#V58955",
+            "LEX": "TO"
+          },
+          "start": 56,
+          "end": 58
+        },
+        "root": "#V60726"
+      }
+    ],
+    [
+      {
+        "V61105": {
+          "id": "V61105",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V58809",
+            "LEX": "PLACE"
+          },
+          "start": 1,
+          "end": 30
+        },
+        "V58809": {
+          "id": "V58809",
+          "indicator": "F",
+          "type": "SUBMIT",
+          "word": "PLACE",
+          "roles": {
+            "AGENT": "#V59449",
+            "AFFECTED": "#V59111",
+            "TENSE": "PRES",
+            "LEX": "PLACE",
+            "WNSENSE": "submit%2:32:01"
+          },
+          "start": 1,
+          "end": 30
+        },
+        "V59449": {
+          "id": "V59449",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(A)",
+            "VAL": "(A)",
+            "LEX": "A"
+          },
+          "start": 1,
+          "end": 3
+        },
+        "V59111": {
+          "id": "V59111",
+          "indicator": "THE",
+          "type": "LOCATION",
+          "word": null,
+          "roles": {
+            "SUCHTHAT": "#V58842",
+            "LEX": "WHERE"
+          },
+          "start": 9,
+          "end": 30
+        },
+        "V58842": {
+          "id": "V58842",
+          "indicator": "F",
+          "type": "PRECIPITATING",
+          "word": "RAIN",
+          "roles": {
+            "LOCATION": "#V58817",
+            "NOROLE": "#V58829",
+            "FREQUENCY": "#V58835",
+            "WNSENSE": "rain%2:43:00::"
+          },
+          "start": 9,
+          "end": 30
+        },
+        "V58817": {
+          "id": "V58817",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "WHERE",
+          "roles": {
+            "GROUND": "#V59111",
+            "FIGURE": "#V58842",
+            "LEX": "WHERE"
+          },
+          "start": 9,
+          "end": 15
+        },
+        "V58829": {
+          "id": "V58829",
+          "indicator": "PRO",
+          "type": "EXPLETIVE",
+          "word": null,
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT"
+          },
+          "start": 15,
+          "end": 18
+        },
+        "V58835": {
+          "id": "V58835",
+          "indicator": "F",
+          "type": "NEVER",
+          "word": "NEVER",
+          "roles": {
+            "FIGURE": "#V58842",
+            "LEX": "NEVER",
+            "WNSENSE": "never%4:02:00::"
+          },
+          "start": 18,
+          "end": 24
+        },
+        "root": "#V61105"
+      },
+      {
+        "V60704": {
+          "id": "V60704",
+          "indicator": "SPEECHACT",
+          "type": "SA_YN-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V58850",
+            "LEX": "IS"
+          },
+          "start": 30,
+          "end": 59
+        },
+        "V58850": {
+          "id": "V58850",
+          "indicator": "F",
+          "type": "EXPECTATION",
+          "word": "BE",
+          "roles": {
+            "COMP3": "#V58955",
+            "NEUTRAL": "#V58924",
+            "FORMAL": "#V58955",
+            "TENSE": "PRES",
+            "LEX": "IS",
+            "WNSENSE": "expect%2:31:00"
+          },
+          "start": 30,
+          "end": 58
+        },
+        "V58924": {
+          "id": "V58924",
+          "indicator": "A",
+          "type": "PLACE",
+          "word": "PLACE",
+          "roles": {
+            "MOD": "#V58915",
+            "LEX": "PLACE",
+            "WNSENSE": "place%1:15:00::"
+          },
+          "start": 33,
+          "end": 46
+        },
+        "V58915": {
+          "id": "V58915",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V58924",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "V58955": {
+          "id": "V58955",
+          "indicator": "F",
+          "type": "RETIRE",
+          "word": "RETIRE",
+          "roles": {
+            "AGENT": "#V58924",
+            "TIME": "#V58966",
+            "VFORM": "BASE",
+            "LEX": "RETIRE",
+            "WNSENSE": "retire%2:41:01::"
+          },
+          "start": 46,
+          "end": 58
+        },
+        "V58966": {
+          "id": "V58966",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "FIGURE": "#V58955",
+            "LEX": "TO"
+          },
+          "start": 56,
+          "end": 58
+        },
+        "root": "#V60704"
+      }
+    ],
+    [
+      {
+        "V61102": {
+          "id": "V61102",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V58809",
+            "LEX": "PLACE"
+          },
+          "start": 1,
+          "end": 30
+        },
+        "V58809": {
+          "id": "V58809",
+          "indicator": "F",
+          "type": "SUBMIT",
+          "word": "PLACE",
+          "roles": {
+            "AGENT": "#V59449",
+            "AFFECTED": "#V59111",
+            "TENSE": "PRES",
+            "LEX": "PLACE",
+            "WNSENSE": "submit%2:32:01"
+          },
+          "start": 1,
+          "end": 30
+        },
+        "V59449": {
+          "id": "V59449",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(A)",
+            "VAL": "(A)",
+            "LEX": "A"
+          },
+          "start": 1,
+          "end": 3
+        },
+        "V59111": {
+          "id": "V59111",
+          "indicator": "THE",
+          "type": "LOCATION",
+          "word": null,
+          "roles": {
+            "SUCHTHAT": "#V58842",
+            "LEX": "WHERE"
+          },
+          "start": 9,
+          "end": 30
+        },
+        "V58842": {
+          "id": "V58842",
+          "indicator": "F",
+          "type": "PRECIPITATING",
+          "word": "RAIN",
+          "roles": {
+            "LOCATION": "#V58817",
+            "NOROLE": "#V58829",
+            "FREQUENCY": "#V58836",
+            "WNSENSE": "rain%2:43:00::"
+          },
+          "start": 9,
+          "end": 30
+        },
+        "V58817": {
+          "id": "V58817",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "WHERE",
+          "roles": {
+            "GROUND": "#V59111",
+            "FIGURE": "#V58842",
+            "LEX": "WHERE"
+          },
+          "start": 9,
+          "end": 15
+        },
+        "V58829": {
+          "id": "V58829",
+          "indicator": "PRO",
+          "type": "EXPLETIVE",
+          "word": null,
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT"
+          },
+          "start": 15,
+          "end": 18
+        },
+        "V58836": {
+          "id": "V58836",
+          "indicator": "F",
+          "type": "NEVER",
+          "word": "NEVER",
+          "roles": {
+            "FIGURE": "#V58842",
+            "LEX": "NEVER",
+            "WNSENSE": "never%4:02:00::"
+          },
+          "start": 18,
+          "end": 24
+        },
+        "root": "#V61102"
+      },
+      {
+        "V60748": {
+          "id": "V60748",
+          "indicator": "SPEECHACT",
+          "type": "SA_YN-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V58850",
+            "LEX": "IS"
+          },
+          "start": 30,
+          "end": 59
+        },
+        "V58850": {
+          "id": "V58850",
+          "indicator": "F",
+          "type": "EXPECTATION",
+          "word": "BE",
+          "roles": {
+            "COMP3": "#V58955",
+            "NEUTRAL": "#V58924",
+            "FORMAL": "#V58955",
+            "TENSE": "PRES",
+            "LEX": "IS",
+            "WNSENSE": "expect%2:31:00"
+          },
+          "start": 30,
+          "end": 58
+        },
+        "V58924": {
+          "id": "V58924",
+          "indicator": "A",
+          "type": "PLACE",
+          "word": "PLACE",
+          "roles": {
+            "MOD": "#V58913",
+            "LEX": "PLACE",
+            "WNSENSE": "place%1:15:00::"
+          },
+          "start": 33,
+          "end": 46
+        },
+        "V58913": {
+          "id": "V58913",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V58924",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "V58955": {
+          "id": "V58955",
+          "indicator": "F",
+          "type": "RETIRE",
+          "word": "RETIRE",
+          "roles": {
+            "AGENT": "#V58924",
+            "TIME": "#V58966",
+            "VFORM": "BASE",
+            "LEX": "RETIRE",
+            "WNSENSE": "retire%2:41:01::"
+          },
+          "start": 46,
+          "end": 58
+        },
+        "V58966": {
+          "id": "V58966",
+          "indicator": "F",
+          "type": "UNTIL",
+          "word": "TO",
+          "roles": {
+            "FIGURE": "#V58955",
+            "LEX": "TO"
+          },
+          "start": 56,
+          "end": 58
+        },
+        "root": "#V60748"
+      }
+    ]
+  ],
+  "sentence": " A place where it never rains is a good place to retire to.",
+  "annotation": {
+    "judge": "lgalescu",
+    "parser": "STEP",
+    "timestamp": "20190715T183008",
+    "link": "http://trips.ihmc.us/parser/saved/20190715T183008-STEP-lgalescu-none-_A_place_where_it_never_rains_is_a_good_.xml",
+    "judgement": -1
+  }
+}

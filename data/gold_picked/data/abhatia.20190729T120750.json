@@ -1,0 +1,842 @@
+{
+  "parse": [
+    {
+      "V80806": {
+        "id": "V80806",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V77798",
+          "LEX": "WENT"
+        },
+        "start": 0,
+        "end": 54
+      },
+      "V77798": {
+        "id": "V77798",
+        "indicator": "F",
+        "type": "CAUSE-EFFECT",
+        "word": null,
+        "roles": {
+          "AGENT": "#V77377",
+          "AFFECTED": "#V77415",
+          "METHOD": "#V77397",
+          "FORMAL": "#V77448",
+          "TENSE": "PAST",
+          "LEX": "WENT"
+        },
+        "start": 0,
+        "end": 54
+      },
+      "V77377": {
+        "id": "V77377",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "SHE",
+        "roles": {
+          "PROFORM": "SHE",
+          "LEX": "SHE",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 0,
+        "end": 4
+      },
+      "V77397": {
+        "id": "V77397",
+        "indicator": "F",
+        "type": "MOVE",
+        "word": "GO",
+        "roles": {
+          "AGENT": "#V77377",
+          "TENSE": "PAST",
+          "LEX": "WENT",
+          "WNSENSE": "go%2:38:00::"
+        },
+        "start": 4,
+        "end": 9
+      },
+      "V77415": {
+        "id": "V77415",
+        "indicator": "BARE",
+        "type": "RELATIVE-LOCATION",
+        "word": "HOME",
+        "roles": {
+          "MOD": "(V77433 V77422)",
+          "LEX": "HOME",
+          "WNSENSE": "home%1:15:02::"
+        },
+        "start": 9,
+        "end": 23
+      },
+      "V77422": {
+        "id": "V77422",
+        "indicator": "F",
+        "type": "CONJUNCT",
+        "word": "AND",
+        "roles": {
+          "LEX": "AND"
+        },
+        "start": 14,
+        "end": 18
+      },
+      "V77433": {
+        "id": "V77433",
+        "indicator": "F",
+        "type": "EARNING",
+        "word": "MAKE",
+        "roles": {
+          "NEUTRAL": "#V77415",
+          "VFORM": "PASSIVE",
+          "LEX": "MADE",
+          "WNSENSE": "make%2:40:01::"
+        },
+        "start": 18,
+        "end": 23
+      },
+      "V77448": {
+        "id": "V77448",
+        "indicator": "F",
+        "type": "CERTAIN",
+        "word": "SURE",
+        "roles": {
+          "GROUND": "#V77469",
+          "ORIENTATION": "POS",
+          "FIGURE": "#V77415",
+          "SCALE": "CERTAINTY-SCALE",
+          "LEX": "SURE",
+          "WNSENSE": "sure%3:00:00::"
+        },
+        "start": 23,
+        "end": 54
+      },
+      "V77469": {
+        "id": "V77469",
+        "indicator": "F",
+        "type": "EXECUTE",
+        "word": "DO",
+        "roles": {
+          "AGENT": "#V77456",
+          "NEUTRAL": "#V77484",
+          "MOD": "#V77575",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "LEX": "DID",
+          "WNSENSE": "do%2:41:01::"
+        },
+        "start": 28,
+        "end": 54
+      },
+      "V77456": {
+        "id": "V77456",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "SHE",
+        "roles": {
+          "PROFORM": "SHE",
+          "LEX": "SHE",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 28,
+        "end": 32
+      },
+      "V77484": {
+        "id": "V77484",
+        "indicator": "THE",
+        "type": "WORKING",
+        "word": "JOB",
+        "roles": {
+          "ASSOC-POSS": "#V77476",
+          "MOD": "#V77481",
+          "LEX": "JOB",
+          "WNSENSE": "work%2:41:05"
+        },
+        "start": 36,
+        "end": 49
+      },
+      "V77476": {
+        "id": "V77476",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "HER",
+        "roles": {
+          "LEX": "HER",
+          "PROFORM": "HER",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 36,
+        "end": 49
+      },
+      "V77481": {
+        "id": "V77481",
+        "indicator": "F",
+        "type": "MAX-VAL",
+        "word": "GOOD",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "HI",
+          "FIGURE": "#V77484",
+          "SCALE": "ACCEPTABILITY-VAL",
+          "LEX": "BEST",
+          "WNSENSE": "ultimate%3:00:00"
+        },
+        "start": 40,
+        "end": 45
+      },
+      "V77575": {
+        "id": "V77575",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": "ON-IT",
+        "roles": {
+          "FIGURE": "#V77469",
+          "LEX": "ON-IT",
+          "WNSENSE": "on_it%4:02:00"
+        },
+        "start": 49,
+        "end": 54
+      },
+      "root": "#V80806"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V80793": {
+          "id": "V80793",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V77798",
+            "LEX": "WENT"
+          },
+          "start": 0,
+          "end": 55
+        },
+        "V77798": {
+          "id": "V77798",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": null,
+          "roles": {
+            "AGENT": "#V77377",
+            "AFFECTED": "#V77415",
+            "METHOD": "#V77397",
+            "FORMAL": "#V77448",
+            "TENSE": "PAST",
+            "LEX": "WENT"
+          },
+          "start": 0,
+          "end": 54
+        },
+        "V77377": {
+          "id": "V77377",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V77397": {
+          "id": "V77397",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "AGENT": "#V77377",
+            "TENSE": "PAST",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 4,
+          "end": 9
+        },
+        "V77415": {
+          "id": "V77415",
+          "indicator": "BARE",
+          "type": "RELATIVE-LOCATION",
+          "word": "HOME",
+          "roles": {
+            "MOD": "(V77433 V77422)",
+            "LEX": "HOME",
+            "WNSENSE": "home%1:15:02::"
+          },
+          "start": 9,
+          "end": 23
+        },
+        "V77422": {
+          "id": "V77422",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "AND",
+          "roles": {
+            "LEX": "AND"
+          },
+          "start": 14,
+          "end": 18
+        },
+        "V77433": {
+          "id": "V77433",
+          "indicator": "F",
+          "type": "EARNING",
+          "word": "MAKE",
+          "roles": {
+            "NEUTRAL": "#V77415",
+            "VFORM": "PASSIVE",
+            "LEX": "MADE",
+            "WNSENSE": "make%2:40:01::"
+          },
+          "start": 18,
+          "end": 23
+        },
+        "V77448": {
+          "id": "V77448",
+          "indicator": "F",
+          "type": "CERTAIN",
+          "word": "SURE",
+          "roles": {
+            "GROUND": "#V77469",
+            "ORIENTATION": "POS",
+            "FIGURE": "#V77415",
+            "SCALE": "CERTAINTY-SCALE",
+            "LEX": "SURE",
+            "WNSENSE": "sure%3:00:00::"
+          },
+          "start": 23,
+          "end": 54
+        },
+        "V77469": {
+          "id": "V77469",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V77456",
+            "NEUTRAL": "#V77484",
+            "MOD": "#V77573",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "DID",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 28,
+          "end": 54
+        },
+        "V77456": {
+          "id": "V77456",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 32
+        },
+        "V77484": {
+          "id": "V77484",
+          "indicator": "THE",
+          "type": "WORKING",
+          "word": "JOB",
+          "roles": {
+            "ASSOC-POSS": "#V77476",
+            "MOD": "#V77481",
+            "LEX": "JOB",
+            "WNSENSE": "work%2:41:05"
+          },
+          "start": 36,
+          "end": 49
+        },
+        "V77476": {
+          "id": "V77476",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 36,
+          "end": 49
+        },
+        "V77481": {
+          "id": "V77481",
+          "indicator": "F",
+          "type": "MAX-VAL",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "HI",
+            "FIGURE": "#V77484",
+            "SCALE": "ACCEPTABILITY-VAL",
+            "LEX": "BEST",
+            "WNSENSE": "ultimate%3:00:00"
+          },
+          "start": 40,
+          "end": 45
+        },
+        "V77573": {
+          "id": "V77573",
+          "indicator": "F",
+          "type": "PREDICATE",
+          "word": "ON-IT",
+          "roles": {
+            "FIGURE": "#V77469",
+            "LEX": "ON-IT",
+            "WNSENSE": "on_it%4:02:00"
+          },
+          "start": 49,
+          "end": 54
+        },
+        "root": "#V80793"
+      }
+    ],
+    [
+      {
+        "V80819": {
+          "id": "V80819",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V77798",
+            "LEX": "WENT"
+          },
+          "start": 0,
+          "end": 55
+        },
+        "V77798": {
+          "id": "V77798",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": null,
+          "roles": {
+            "AGENT": "#V77377",
+            "AFFECTED": "#V77415",
+            "METHOD": "#V77397",
+            "FORMAL": "#V77448",
+            "TENSE": "PAST",
+            "LEX": "WENT"
+          },
+          "start": 0,
+          "end": 54
+        },
+        "V77377": {
+          "id": "V77377",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V77397": {
+          "id": "V77397",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "AGENT": "#V77377",
+            "TENSE": "PAST",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 4,
+          "end": 9
+        },
+        "V77415": {
+          "id": "V77415",
+          "indicator": "BARE",
+          "type": "RELATIVE-LOCATION",
+          "word": "HOME",
+          "roles": {
+            "MOD": "(V77433 V77422)",
+            "LEX": "HOME",
+            "WNSENSE": "home%1:15:02::"
+          },
+          "start": 9,
+          "end": 23
+        },
+        "V77422": {
+          "id": "V77422",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "AND",
+          "roles": {
+            "LEX": "AND"
+          },
+          "start": 14,
+          "end": 18
+        },
+        "V77433": {
+          "id": "V77433",
+          "indicator": "F",
+          "type": "EARNING",
+          "word": "MAKE",
+          "roles": {
+            "NEUTRAL": "#V77415",
+            "VFORM": "PASSIVE",
+            "LEX": "MADE",
+            "WNSENSE": "make%2:40:01::"
+          },
+          "start": 18,
+          "end": 23
+        },
+        "V77448": {
+          "id": "V77448",
+          "indicator": "F",
+          "type": "CERTAIN",
+          "word": "SURE",
+          "roles": {
+            "GROUND": "#V77469",
+            "ORIENTATION": "POS",
+            "FIGURE": "#V77415",
+            "SCALE": "CERTAINTY-SCALE",
+            "LEX": "SURE",
+            "WNSENSE": "sure%3:00:00::"
+          },
+          "start": 23,
+          "end": 54
+        },
+        "V77469": {
+          "id": "V77469",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V77456",
+            "NEUTRAL": "#V77484",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "DID",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 28,
+          "end": 54
+        },
+        "V77456": {
+          "id": "V77456",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 32
+        },
+        "V77484": {
+          "id": "V77484",
+          "indicator": "THE",
+          "type": "WORKING",
+          "word": "JOB",
+          "roles": {
+            "ASSOC-POSS": "#V77476",
+            "MOD": "#V77481",
+            "LEX": "JOB",
+            "WNSENSE": "work%2:41:05"
+          },
+          "start": 36,
+          "end": 54
+        },
+        "V77476": {
+          "id": "V77476",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 36,
+          "end": 54
+        },
+        "V77481": {
+          "id": "V77481",
+          "indicator": "F",
+          "type": "MAX-VAL",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "HI",
+            "FIGURE": "#V77484",
+            "SCALE": "ACCEPTABILITY-VAL",
+            "LEX": "BEST",
+            "WNSENSE": "ultimate%3:00:00"
+          },
+          "start": 40,
+          "end": 45
+        },
+        "V77492": {
+          "id": "V77492",
+          "indicator": "F",
+          "type": "ASSOC-WITH",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V77512",
+            "FIGURE": "#V77484",
+            "LEX": "ON",
+            "WNSENSE": "on%4:02:00::"
+          },
+          "start": 49,
+          "end": 54
+        },
+        "V77512": {
+          "id": "V77512",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 52,
+          "end": 54
+        },
+        "root": "#V80819"
+      }
+    ],
+    [
+      {
+        "V80832": {
+          "id": "V80832",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V77798",
+            "LEX": "WENT"
+          },
+          "start": 0,
+          "end": 55
+        },
+        "V77798": {
+          "id": "V77798",
+          "indicator": "F",
+          "type": "CAUSE-EFFECT",
+          "word": null,
+          "roles": {
+            "AGENT": "#V77377",
+            "AFFECTED": "#V77415",
+            "METHOD": "#V77397",
+            "FORMAL": "#V77448",
+            "TENSE": "PAST",
+            "LEX": "WENT"
+          },
+          "start": 0,
+          "end": 54
+        },
+        "V77377": {
+          "id": "V77377",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V77397": {
+          "id": "V77397",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "AGENT": "#V77377",
+            "TENSE": "PAST",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 4,
+          "end": 9
+        },
+        "V77415": {
+          "id": "V77415",
+          "indicator": "BARE",
+          "type": "RELATIVE-LOCATION",
+          "word": "HOME",
+          "roles": {
+            "MOD": "(V77433 V77422)",
+            "LEX": "HOME",
+            "WNSENSE": "home%1:15:02::"
+          },
+          "start": 9,
+          "end": 23
+        },
+        "V77422": {
+          "id": "V77422",
+          "indicator": "F",
+          "type": "CONJUNCT",
+          "word": "AND",
+          "roles": {
+            "LEX": "AND"
+          },
+          "start": 14,
+          "end": 18
+        },
+        "V77433": {
+          "id": "V77433",
+          "indicator": "F",
+          "type": "EARNING",
+          "word": "MAKE",
+          "roles": {
+            "NEUTRAL": "#V77415",
+            "VFORM": "PASSIVE",
+            "LEX": "MADE",
+            "WNSENSE": "make%2:40:01::"
+          },
+          "start": 18,
+          "end": 23
+        },
+        "V77448": {
+          "id": "V77448",
+          "indicator": "F",
+          "type": "CERTAIN",
+          "word": "SURE",
+          "roles": {
+            "GROUND": "#V77469",
+            "ORIENTATION": "POS",
+            "FIGURE": "#V77415",
+            "SCALE": "CERTAINTY-SCALE",
+            "LEX": "SURE",
+            "WNSENSE": "sure%3:00:00::"
+          },
+          "start": 23,
+          "end": 54
+        },
+        "V77469": {
+          "id": "V77469",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V77456",
+            "NEUTRAL": "#V77484",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "DID",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 28,
+          "end": 54
+        },
+        "V77456": {
+          "id": "V77456",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 28,
+          "end": 32
+        },
+        "V77484": {
+          "id": "V77484",
+          "indicator": "THE",
+          "type": "WORKING",
+          "word": "JOB",
+          "roles": {
+            "ASSOC-POSS": "#V77476",
+            "LOCATION": "#V77490",
+            "MOD": "#V77481",
+            "LEX": "JOB",
+            "WNSENSE": "work%2:41:05"
+          },
+          "start": 36,
+          "end": 54
+        },
+        "V77476": {
+          "id": "V77476",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 36,
+          "end": 54
+        },
+        "V77481": {
+          "id": "V77481",
+          "indicator": "F",
+          "type": "MAX-VAL",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "HI",
+            "FIGURE": "#V77484",
+            "SCALE": "ACCEPTABILITY-VAL",
+            "LEX": "BEST",
+            "WNSENSE": "ultimate%3:00:00"
+          },
+          "start": 40,
+          "end": 45
+        },
+        "V77490": {
+          "id": "V77490",
+          "indicator": "F",
+          "type": "ON",
+          "word": "ON",
+          "roles": {
+            "GROUND": "#V77512",
+            "FIGURE": "#V77484",
+            "LEX": "ON"
+          },
+          "start": 49,
+          "end": 54
+        },
+        "V77512": {
+          "id": "V77512",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 52,
+          "end": 54
+        },
+        "root": "#V80832"
+      }
+    ]
+  ],
+  "sentence": "She went home and made sure she did her best job on it.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190729T120750",
+    "link": "http://trips.ihmc.us/parser/saved/20190729T120750-STEP-abhatia-none-She_went_home_and_made_sure_she_did_her_.xml",
+    "judgement": -1
+  }
+}

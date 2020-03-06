@@ -1,0 +1,828 @@
+{
+  "parse": [
+    {
+      "V61190": {
+        "id": "V61190",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V61008",
+          "LEX": "DRANK"
+        },
+        "start": 0,
+        "end": 34
+      },
+      "V61008": {
+        "id": "V61008",
+        "indicator": "F",
+        "type": "DRINK",
+        "word": "DRINK",
+        "roles": {
+          "AGENT": "#V60987",
+          "AFFECTED": "#V61014",
+          "TIME": "#V60984",
+          "MOD": "#V60995",
+          "TENSE": "PAST",
+          "LEX": "DRANK"
+        },
+        "start": 0,
+        "end": 34
+      },
+      "V60984": {
+        "id": "V60984",
+        "indicator": "F",
+        "type": "AFTER",
+        "word": "LATER",
+        "roles": {
+          "FIGURE": "#V61008",
+          "LEX": "AFTERWARDS",
+          "WNSENSE": "later%4:02:01::"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V60987": {
+        "id": "V60987",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 11,
+        "end": 16
+      },
+      "V60995": {
+        "id": "V60995",
+        "indicator": "F",
+        "type": "MODIFIER",
+        "word": "ALL",
+        "roles": {
+          "FIGURE": "#V61008",
+          "LEX": "ALL"
+        },
+        "start": 16,
+        "end": 20
+      },
+      "V61014": {
+        "id": "V61014",
+        "indicator": "BARE",
+        "type": "TEAS-COCKTAILS-BLENDS",
+        "word": "LEMONADE",
+        "roles": {
+          "LEX": "LEMONADE",
+          "WNSENSE": "lemonade%1:13:00::"
+        },
+        "start": 26,
+        "end": 34
+      },
+      "root": "#V61190"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V61219": {
+          "id": "V61219",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V61008",
+            "LEX": "DRANK"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V61008": {
+          "id": "V61008",
+          "indicator": "F",
+          "type": "DRINK",
+          "word": "DRINK",
+          "roles": {
+            "AGENT": "#V60987",
+            "AFFECTED": "#V61013",
+            "TIME": "#V60984",
+            "MOD": "#V60995",
+            "TENSE": "PAST",
+            "LEX": "DRANK"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V60984": {
+          "id": "V60984",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "LATER",
+          "roles": {
+            "FIGURE": "#V61008",
+            "LEX": "AFTERWARDS",
+            "WNSENSE": "later%4:02:01::"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V60987": {
+          "id": "V60987",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 11,
+          "end": 16
+        },
+        "V60995": {
+          "id": "V60995",
+          "indicator": "F",
+          "type": "MODIFIER",
+          "word": "ALL",
+          "roles": {
+            "FIGURE": "#V61008",
+            "LEX": "ALL"
+          },
+          "start": 16,
+          "end": 20
+        },
+        "V61013": {
+          "id": "V61013",
+          "indicator": "BARE",
+          "type": "TEAS-COCKTAILS-BLENDS",
+          "word": "LEMONADE",
+          "roles": {
+            "LEX": "LEMONADE",
+            "WNSENSE": "lemonade%1:13:00::"
+          },
+          "start": 26,
+          "end": 34
+        },
+        "root": "#V61219"
+      }
+    ],
+    [
+      {
+        "V61196": {
+          "id": "V61196",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V61008",
+            "MOD": "#V60984",
+            "LEX": "DRANK"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V60984": {
+          "id": "V60984",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "LATER",
+          "roles": {
+            "FIGURE": "#V61196",
+            "LEX": "AFTERWARDS",
+            "WNSENSE": "later%4:02:01::"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V61008": {
+          "id": "V61008",
+          "indicator": "F",
+          "type": "DRINK",
+          "word": "DRINK",
+          "roles": {
+            "AGENT": "#V60987",
+            "AFFECTED": "#V61014",
+            "MOD": "#V60995",
+            "TENSE": "PAST",
+            "LEX": "DRANK",
+            "WNSENSE": "drink%2:34:00::"
+          },
+          "start": 11,
+          "end": 34
+        },
+        "V60987": {
+          "id": "V60987",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 11,
+          "end": 16
+        },
+        "V60995": {
+          "id": "V60995",
+          "indicator": "F",
+          "type": "MODIFIER",
+          "word": "ALL",
+          "roles": {
+            "FIGURE": "#V61008",
+            "LEX": "ALL"
+          },
+          "start": 16,
+          "end": 20
+        },
+        "V61014": {
+          "id": "V61014",
+          "indicator": "BARE",
+          "type": "TEAS-COCKTAILS-BLENDS",
+          "word": "LEMONADE",
+          "roles": {
+            "LEX": "LEMONADE",
+            "WNSENSE": "lemonade%1:13:00::"
+          },
+          "start": 26,
+          "end": 34
+        },
+        "root": "#V61196"
+      }
+    ],
+    [
+      {
+        "V61227": {
+          "id": "V61227",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V61008",
+            "MOD": "#V60984",
+            "LEX": "DRANK"
+          },
+          "start": 0,
+          "end": 35
+        },
+        "V60984": {
+          "id": "V60984",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "LATER",
+          "roles": {
+            "FIGURE": "#V61227",
+            "LEX": "AFTERWARDS",
+            "WNSENSE": "later%4:02:01::"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V61008": {
+          "id": "V61008",
+          "indicator": "F",
+          "type": "DRINK",
+          "word": "DRINK",
+          "roles": {
+            "AGENT": "#V60987",
+            "AFFECTED": "#V61013",
+            "MOD": "#V60995",
+            "TENSE": "PAST",
+            "LEX": "DRANK",
+            "WNSENSE": "drink%2:34:00::"
+          },
+          "start": 11,
+          "end": 34
+        },
+        "V60987": {
+          "id": "V60987",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 11,
+          "end": 16
+        },
+        "V60995": {
+          "id": "V60995",
+          "indicator": "F",
+          "type": "MODIFIER",
+          "word": "ALL",
+          "roles": {
+            "FIGURE": "#V61008",
+            "LEX": "ALL"
+          },
+          "start": 16,
+          "end": 20
+        },
+        "V61013": {
+          "id": "V61013",
+          "indicator": "BARE",
+          "type": "TEAS-COCKTAILS-BLENDS",
+          "word": "LEMONADE",
+          "roles": {
+            "LEX": "LEMONADE",
+            "WNSENSE": "lemonade%1:13:00::"
+          },
+          "start": 26,
+          "end": 34
+        },
+        "root": "#V61227"
+      }
+    ],
+    [
+      {
+        "V61190": {
+          "id": "V61190",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V61008",
+            "LEX": "DRANK"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V61008": {
+          "id": "V61008",
+          "indicator": "F",
+          "type": "DRINK",
+          "word": "DRINK",
+          "roles": {
+            "AGENT": "#V60987",
+            "AFFECTED": "#V61014",
+            "TIME": "#V60984",
+            "MOD": "#V60995",
+            "TENSE": "PAST",
+            "LEX": "DRANK"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V60984": {
+          "id": "V60984",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "LATER",
+          "roles": {
+            "FIGURE": "#V61008",
+            "LEX": "AFTERWARDS",
+            "WNSENSE": "later%4:02:01::"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V60987": {
+          "id": "V60987",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 11,
+          "end": 16
+        },
+        "V60995": {
+          "id": "V60995",
+          "indicator": "F",
+          "type": "MODIFIER",
+          "word": "ALL",
+          "roles": {
+            "FIGURE": "#V61008",
+            "LEX": "ALL"
+          },
+          "start": 16,
+          "end": 20
+        },
+        "V61014": {
+          "id": "V61014",
+          "indicator": "BARE",
+          "type": "TEAS-COCKTAILS-BLENDS",
+          "word": "LEMONADE",
+          "roles": {
+            "LEX": "LEMONADE",
+            "WNSENSE": "lemonade%1:13:00::"
+          },
+          "start": 26,
+          "end": 34
+        },
+        "root": "#V61190"
+      }
+    ],
+    [
+      {
+        "V61219": {
+          "id": "V61219",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V61008",
+            "LEX": "DRANK"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V61008": {
+          "id": "V61008",
+          "indicator": "F",
+          "type": "DRINK",
+          "word": "DRINK",
+          "roles": {
+            "AGENT": "#V60987",
+            "AFFECTED": "#V61013",
+            "TIME": "#V60984",
+            "MOD": "#V60995",
+            "TENSE": "PAST",
+            "LEX": "DRANK"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V60984": {
+          "id": "V60984",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "LATER",
+          "roles": {
+            "FIGURE": "#V61008",
+            "LEX": "AFTERWARDS",
+            "WNSENSE": "later%4:02:01::"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V60987": {
+          "id": "V60987",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 11,
+          "end": 16
+        },
+        "V60995": {
+          "id": "V60995",
+          "indicator": "F",
+          "type": "MODIFIER",
+          "word": "ALL",
+          "roles": {
+            "FIGURE": "#V61008",
+            "LEX": "ALL"
+          },
+          "start": 16,
+          "end": 20
+        },
+        "V61013": {
+          "id": "V61013",
+          "indicator": "BARE",
+          "type": "TEAS-COCKTAILS-BLENDS",
+          "word": "LEMONADE",
+          "roles": {
+            "LEX": "LEMONADE",
+            "WNSENSE": "lemonade%1:13:00::"
+          },
+          "start": 26,
+          "end": 34
+        },
+        "root": "#V61219"
+      }
+    ],
+    [
+      {
+        "V61196": {
+          "id": "V61196",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V61008",
+            "MOD": "#V60984",
+            "LEX": "DRANK"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V60984": {
+          "id": "V60984",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "LATER",
+          "roles": {
+            "FIGURE": "#V61196",
+            "LEX": "AFTERWARDS",
+            "WNSENSE": "later%4:02:01::"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V61008": {
+          "id": "V61008",
+          "indicator": "F",
+          "type": "DRINK",
+          "word": "DRINK",
+          "roles": {
+            "AGENT": "#V60987",
+            "AFFECTED": "#V61014",
+            "MOD": "#V60995",
+            "TENSE": "PAST",
+            "LEX": "DRANK",
+            "WNSENSE": "drink%2:34:00::"
+          },
+          "start": 11,
+          "end": 34
+        },
+        "V60987": {
+          "id": "V60987",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 11,
+          "end": 16
+        },
+        "V60995": {
+          "id": "V60995",
+          "indicator": "F",
+          "type": "MODIFIER",
+          "word": "ALL",
+          "roles": {
+            "FIGURE": "#V61008",
+            "LEX": "ALL"
+          },
+          "start": 16,
+          "end": 20
+        },
+        "V61014": {
+          "id": "V61014",
+          "indicator": "BARE",
+          "type": "TEAS-COCKTAILS-BLENDS",
+          "word": "LEMONADE",
+          "roles": {
+            "LEX": "LEMONADE",
+            "WNSENSE": "lemonade%1:13:00::"
+          },
+          "start": 26,
+          "end": 34
+        },
+        "root": "#V61196"
+      }
+    ],
+    [
+      {
+        "V61227": {
+          "id": "V61227",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V61008",
+            "MOD": "#V60984",
+            "LEX": "DRANK"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V60984": {
+          "id": "V60984",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "LATER",
+          "roles": {
+            "FIGURE": "#V61227",
+            "LEX": "AFTERWARDS",
+            "WNSENSE": "later%4:02:01::"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V61008": {
+          "id": "V61008",
+          "indicator": "F",
+          "type": "DRINK",
+          "word": "DRINK",
+          "roles": {
+            "AGENT": "#V60987",
+            "AFFECTED": "#V61013",
+            "MOD": "#V60995",
+            "TENSE": "PAST",
+            "LEX": "DRANK",
+            "WNSENSE": "drink%2:34:00::"
+          },
+          "start": 11,
+          "end": 34
+        },
+        "V60987": {
+          "id": "V60987",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 11,
+          "end": 16
+        },
+        "V60995": {
+          "id": "V60995",
+          "indicator": "F",
+          "type": "MODIFIER",
+          "word": "ALL",
+          "roles": {
+            "FIGURE": "#V61008",
+            "LEX": "ALL"
+          },
+          "start": 16,
+          "end": 20
+        },
+        "V61013": {
+          "id": "V61013",
+          "indicator": "BARE",
+          "type": "TEAS-COCKTAILS-BLENDS",
+          "word": "LEMONADE",
+          "roles": {
+            "LEX": "LEMONADE",
+            "WNSENSE": "lemonade%1:13:00::"
+          },
+          "start": 26,
+          "end": 34
+        },
+        "root": "#V61227"
+      }
+    ],
+    [
+      {
+        "V61008": {
+          "id": "V61008",
+          "indicator": "F",
+          "type": "DRINK",
+          "word": "DRINK",
+          "roles": {
+            "AGENT": "#V60987",
+            "AFFECTED": "#V61014",
+            "TIME": "#V60984",
+            "MOD": "#V60995",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "DRANK"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V60984": {
+          "id": "V60984",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "LATER",
+          "roles": {
+            "FIGURE": "#V61008",
+            "LEX": "AFTERWARDS",
+            "WNSENSE": "later%4:02:01::"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V60987": {
+          "id": "V60987",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 11,
+          "end": 16
+        },
+        "V60995": {
+          "id": "V60995",
+          "indicator": "F",
+          "type": "MODIFIER",
+          "word": "ALL",
+          "roles": {
+            "FIGURE": "#V61008",
+            "LEX": "ALL"
+          },
+          "start": 16,
+          "end": 20
+        },
+        "V61014": {
+          "id": "V61014",
+          "indicator": "BARE",
+          "type": "TEAS-COCKTAILS-BLENDS",
+          "word": "LEMONADE",
+          "roles": {
+            "LEX": "LEMONADE",
+            "WNSENSE": "lemonade%1:13:00::"
+          },
+          "start": 26,
+          "end": 34
+        },
+        "root": "#V61008"
+      }
+    ],
+    [
+      {
+        "V61008": {
+          "id": "V61008",
+          "indicator": "F",
+          "type": "DRINK",
+          "word": "DRINK",
+          "roles": {
+            "AGENT": "#V60987",
+            "AFFECTED": "#V61013",
+            "TIME": "#V60984",
+            "MOD": "#V60995",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "DRANK"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V60984": {
+          "id": "V60984",
+          "indicator": "F",
+          "type": "AFTER",
+          "word": "LATER",
+          "roles": {
+            "FIGURE": "#V61008",
+            "LEX": "AFTERWARDS",
+            "WNSENSE": "later%4:02:01::"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V60987": {
+          "id": "V60987",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 11,
+          "end": 16
+        },
+        "V60995": {
+          "id": "V60995",
+          "indicator": "F",
+          "type": "MODIFIER",
+          "word": "ALL",
+          "roles": {
+            "FIGURE": "#V61008",
+            "LEX": "ALL"
+          },
+          "start": 16,
+          "end": 20
+        },
+        "V61013": {
+          "id": "V61013",
+          "indicator": "BARE",
+          "type": "TEAS-COCKTAILS-BLENDS",
+          "word": "LEMONADE",
+          "roles": {
+            "LEX": "LEMONADE",
+            "WNSENSE": "lemonade%1:13:00::"
+          },
+          "start": 26,
+          "end": 34
+        },
+        "root": "#V61008"
+      }
+    ]
+  ],
+  "sentence": "Afterwards they all drank lemonade.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190826T115123",
+    "link": "http://trips.ihmc.us/parser/saved/20190826T115123-STEP-abhatia-none-Afterwards_they_all_drank_lemonade_.xml",
+    "judgement": -1
+  }
+}

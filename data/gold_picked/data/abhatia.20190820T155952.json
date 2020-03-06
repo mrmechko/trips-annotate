@@ -1,0 +1,1203 @@
+{
+  "parse": [
+    {
+      "V83256": {
+        "id": "V83256",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V82889",
+          "LEX": "WAS"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V82889": {
+        "id": "V82889",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V82873",
+          "FORMAL": "#V82902",
+          "TENSE": "PAST",
+          "LEX": "WAS",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V82873": {
+        "id": "V82873",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V82902": {
+        "id": "V82902",
+        "indicator": "F",
+        "type": "SAD-VAL",
+        "word": "SAD",
+        "roles": {
+          "FIGURE": "#V82873",
+          "SCALE": "SADNESS-SCALE",
+          "LEX": "SAD",
+          "WNSENSE": "sad%3:00:00::"
+        },
+        "start": 6,
+        "end": 10
+      },
+      "root": "#V83256"
+    },
+    {
+      "V83336": {
+        "id": "V83336",
+        "indicator": "SPEECHACT",
+        "type": "SA_PRED-FRAGMENT",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V82973",
+          "LEX": "CELEBRATE"
+        },
+        "start": 10,
+        "end": 38
+      },
+      "V82973": {
+        "id": "V82973",
+        "indicator": "F",
+        "type": "PRAISE",
+        "word": "CELEBRATE",
+        "roles": {
+          "AGENT": "#V82932",
+          "AGENT1": "#V82979",
+          "PROP": "+",
+          "TENSE": "PRES",
+          "MODALITY": "(:* CONDITIONAL COULD)",
+          "NEGATION": "+",
+          "LEX": "CELEBRATE",
+          "WNSENSE": "praise%2:32:00"
+        },
+        "start": 10,
+        "end": 38
+      },
+      "V82932": {
+        "id": "V82932",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 15,
+        "end": 17
+      },
+      "V82979": {
+        "id": "V82979",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00",
+          "COREF": "#V82889"
+        },
+        "start": 36,
+        "end": 38
+      },
+      "root": "#V83336"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V83256": {
+          "id": "V83256",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V82889",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V82889": {
+          "id": "V82889",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V82873",
+            "FORMAL": "#V82902",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V82873": {
+          "id": "V82873",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V82902": {
+          "id": "V82902",
+          "indicator": "F",
+          "type": "SAD-VAL",
+          "word": "SAD",
+          "roles": {
+            "FIGURE": "#V82873",
+            "SCALE": "SADNESS-SCALE",
+            "LEX": "SAD",
+            "WNSENSE": "sad%3:00:00::"
+          },
+          "start": 6,
+          "end": 10
+        },
+        "root": "#V83256"
+      },
+      {
+        "V83334": {
+          "id": "V83334",
+          "indicator": "SPEECHACT",
+          "type": "SA_PRED-FRAGMENT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V82974",
+            "LEX": "CELEBRATE"
+          },
+          "start": 10,
+          "end": 39
+        },
+        "V82974": {
+          "id": "V82974",
+          "indicator": "F",
+          "type": "PRAISE",
+          "word": "CELEBRATE",
+          "roles": {
+            "AGENT": "#V82932",
+            "FORMAL": "#V82979",
+            "PROP": "+",
+            "TENSE": "PRES",
+            "MODALITY": "(:* CONDITIONAL COULD)",
+            "NEGATION": "+",
+            "LEX": "CELEBRATE",
+            "WNSENSE": "praise%2:32:00"
+          },
+          "start": 10,
+          "end": 38
+        },
+        "V82932": {
+          "id": "V82932",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 15,
+          "end": 17
+        },
+        "V82979": {
+          "id": "V82979",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 36,
+          "end": 38
+        },
+        "root": "#V83334"
+      }
+    ],
+    [
+      {
+        "V83253": {
+          "id": "V83253",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V82889",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V82889": {
+          "id": "V82889",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V82873",
+            "FORMAL": "#V82903",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V82873": {
+          "id": "V82873",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V82903": {
+          "id": "V82903",
+          "indicator": "F",
+          "type": "SAD-VAL",
+          "word": "SAD",
+          "roles": {
+            "NEUTRAL": "#V82873",
+            "SCALE": "SADNESS-SCALE",
+            "LEX": "SAD",
+            "WNSENSE": "sad%3:00:00::"
+          },
+          "start": 6,
+          "end": 10
+        },
+        "root": "#V83253"
+      },
+      {
+        "V83336": {
+          "id": "V83336",
+          "indicator": "SPEECHACT",
+          "type": "SA_PRED-FRAGMENT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V82973",
+            "LEX": "CELEBRATE"
+          },
+          "start": 10,
+          "end": 39
+        },
+        "V82973": {
+          "id": "V82973",
+          "indicator": "F",
+          "type": "PRAISE",
+          "word": "CELEBRATE",
+          "roles": {
+            "AGENT": "#V82932",
+            "AGENT1": "#V82979",
+            "PROP": "+",
+            "TENSE": "PRES",
+            "MODALITY": "(:* CONDITIONAL COULD)",
+            "NEGATION": "+",
+            "LEX": "CELEBRATE",
+            "WNSENSE": "praise%2:32:00"
+          },
+          "start": 10,
+          "end": 38
+        },
+        "V82932": {
+          "id": "V82932",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 15,
+          "end": 17
+        },
+        "V82979": {
+          "id": "V82979",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 36,
+          "end": 38
+        },
+        "root": "#V83336"
+      }
+    ],
+    [
+      {
+        "V83253": {
+          "id": "V83253",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V82889",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V82889": {
+          "id": "V82889",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V82873",
+            "FORMAL": "#V82903",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V82873": {
+          "id": "V82873",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V82903": {
+          "id": "V82903",
+          "indicator": "F",
+          "type": "SAD-VAL",
+          "word": "SAD",
+          "roles": {
+            "NEUTRAL": "#V82873",
+            "SCALE": "SADNESS-SCALE",
+            "LEX": "SAD",
+            "WNSENSE": "sad%3:00:00::"
+          },
+          "start": 6,
+          "end": 10
+        },
+        "root": "#V83253"
+      },
+      {
+        "V83334": {
+          "id": "V83334",
+          "indicator": "SPEECHACT",
+          "type": "SA_PRED-FRAGMENT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V82974",
+            "LEX": "CELEBRATE"
+          },
+          "start": 10,
+          "end": 39
+        },
+        "V82974": {
+          "id": "V82974",
+          "indicator": "F",
+          "type": "PRAISE",
+          "word": "CELEBRATE",
+          "roles": {
+            "AGENT": "#V82932",
+            "FORMAL": "#V82979",
+            "PROP": "+",
+            "TENSE": "PRES",
+            "MODALITY": "(:* CONDITIONAL COULD)",
+            "NEGATION": "+",
+            "LEX": "CELEBRATE",
+            "WNSENSE": "praise%2:32:00"
+          },
+          "start": 10,
+          "end": 38
+        },
+        "V82932": {
+          "id": "V82932",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 15,
+          "end": 17
+        },
+        "V82979": {
+          "id": "V82979",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 36,
+          "end": 38
+        },
+        "root": "#V83334"
+      }
+    ],
+    [
+      {
+        "V83256": {
+          "id": "V83256",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V82889",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V82889": {
+          "id": "V82889",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V82873",
+            "FORMAL": "#V82902",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V82873": {
+          "id": "V82873",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V82902": {
+          "id": "V82902",
+          "indicator": "F",
+          "type": "SAD-VAL",
+          "word": "SAD",
+          "roles": {
+            "FIGURE": "#V82873",
+            "SCALE": "SADNESS-SCALE",
+            "LEX": "SAD",
+            "WNSENSE": "sad%3:00:00::"
+          },
+          "start": 6,
+          "end": 10
+        },
+        "root": "#V83256"
+      },
+      {
+        "V83340": {
+          "id": "V83340",
+          "indicator": "SPEECHACT",
+          "type": "SA_PRED-FRAGMENT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V82974",
+            "LEX": "CELEBRATE"
+          },
+          "start": 10,
+          "end": 39
+        },
+        "V82974": {
+          "id": "V82974",
+          "indicator": "F",
+          "type": "PRAISE",
+          "word": "CELEBRATE",
+          "roles": {
+            "AGENT": "#V82932",
+            "FORMAL": "#V82979",
+            "PROP": "+",
+            "TENSE": "PRES",
+            "MODALITY": "(:* CONDITIONAL COULD)",
+            "NEGATION": "+",
+            "LEX": "CELEBRATE",
+            "WNSENSE": "praise%2:32:00"
+          },
+          "start": 10,
+          "end": 38
+        },
+        "V82932": {
+          "id": "V82932",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 15,
+          "end": 17
+        },
+        "V82979": {
+          "id": "V82979",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 36,
+          "end": 38
+        },
+        "root": "#V83340"
+      }
+    ],
+    [
+      {
+        "V83256": {
+          "id": "V83256",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V82889",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V82889": {
+          "id": "V82889",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V82873",
+            "FORMAL": "#V82902",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V82873": {
+          "id": "V82873",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V82902": {
+          "id": "V82902",
+          "indicator": "F",
+          "type": "SAD-VAL",
+          "word": "SAD",
+          "roles": {
+            "FIGURE": "#V82873",
+            "SCALE": "SADNESS-SCALE",
+            "LEX": "SAD",
+            "WNSENSE": "sad%3:00:00::"
+          },
+          "start": 6,
+          "end": 10
+        },
+        "root": "#V83256"
+      },
+      {
+        "V83338": {
+          "id": "V83338",
+          "indicator": "SPEECHACT",
+          "type": "SA_PRED-FRAGMENT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V82973",
+            "LEX": "CELEBRATE"
+          },
+          "start": 10,
+          "end": 39
+        },
+        "V82973": {
+          "id": "V82973",
+          "indicator": "F",
+          "type": "PRAISE",
+          "word": "CELEBRATE",
+          "roles": {
+            "AGENT": "#V82932",
+            "AGENT1": "#V82979",
+            "PROP": "+",
+            "TENSE": "PRES",
+            "MODALITY": "(:* CONDITIONAL COULD)",
+            "NEGATION": "+",
+            "LEX": "CELEBRATE",
+            "WNSENSE": "praise%2:32:00"
+          },
+          "start": 10,
+          "end": 38
+        },
+        "V82932": {
+          "id": "V82932",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 15,
+          "end": 17
+        },
+        "V82979": {
+          "id": "V82979",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 36,
+          "end": 38
+        },
+        "root": "#V83338"
+      }
+    ],
+    [
+      {
+        "V83253": {
+          "id": "V83253",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V82889",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V82889": {
+          "id": "V82889",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V82873",
+            "FORMAL": "#V82903",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V82873": {
+          "id": "V82873",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V82903": {
+          "id": "V82903",
+          "indicator": "F",
+          "type": "SAD-VAL",
+          "word": "SAD",
+          "roles": {
+            "NEUTRAL": "#V82873",
+            "SCALE": "SADNESS-SCALE",
+            "LEX": "SAD",
+            "WNSENSE": "sad%3:00:00::"
+          },
+          "start": 6,
+          "end": 10
+        },
+        "root": "#V83253"
+      },
+      {
+        "V83340": {
+          "id": "V83340",
+          "indicator": "SPEECHACT",
+          "type": "SA_PRED-FRAGMENT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V82974",
+            "LEX": "CELEBRATE"
+          },
+          "start": 10,
+          "end": 39
+        },
+        "V82974": {
+          "id": "V82974",
+          "indicator": "F",
+          "type": "PRAISE",
+          "word": "CELEBRATE",
+          "roles": {
+            "AGENT": "#V82932",
+            "FORMAL": "#V82979",
+            "PROP": "+",
+            "TENSE": "PRES",
+            "MODALITY": "(:* CONDITIONAL COULD)",
+            "NEGATION": "+",
+            "LEX": "CELEBRATE",
+            "WNSENSE": "praise%2:32:00"
+          },
+          "start": 10,
+          "end": 38
+        },
+        "V82932": {
+          "id": "V82932",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 15,
+          "end": 17
+        },
+        "V82979": {
+          "id": "V82979",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 36,
+          "end": 38
+        },
+        "root": "#V83340"
+      }
+    ],
+    [
+      {
+        "V83253": {
+          "id": "V83253",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V82889",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V82889": {
+          "id": "V82889",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V82873",
+            "FORMAL": "#V82903",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V82873": {
+          "id": "V82873",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V82903": {
+          "id": "V82903",
+          "indicator": "F",
+          "type": "SAD-VAL",
+          "word": "SAD",
+          "roles": {
+            "NEUTRAL": "#V82873",
+            "SCALE": "SADNESS-SCALE",
+            "LEX": "SAD",
+            "WNSENSE": "sad%3:00:00::"
+          },
+          "start": 6,
+          "end": 10
+        },
+        "root": "#V83253"
+      },
+      {
+        "V83338": {
+          "id": "V83338",
+          "indicator": "SPEECHACT",
+          "type": "SA_PRED-FRAGMENT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V82973",
+            "LEX": "CELEBRATE"
+          },
+          "start": 10,
+          "end": 39
+        },
+        "V82973": {
+          "id": "V82973",
+          "indicator": "F",
+          "type": "PRAISE",
+          "word": "CELEBRATE",
+          "roles": {
+            "AGENT": "#V82932",
+            "AGENT1": "#V82979",
+            "PROP": "+",
+            "TENSE": "PRES",
+            "MODALITY": "(:* CONDITIONAL COULD)",
+            "NEGATION": "+",
+            "LEX": "CELEBRATE",
+            "WNSENSE": "praise%2:32:00"
+          },
+          "start": 10,
+          "end": 38
+        },
+        "V82932": {
+          "id": "V82932",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 15,
+          "end": 17
+        },
+        "V82979": {
+          "id": "V82979",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 36,
+          "end": 38
+        },
+        "root": "#V83338"
+      }
+    ],
+    [
+      {
+        "V83306": {
+          "id": "V83306",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V82889",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V82889": {
+          "id": "V82889",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V82873",
+            "FORMAL": "#V82902",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V82873": {
+          "id": "V82873",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V82902": {
+          "id": "V82902",
+          "indicator": "F",
+          "type": "SAD-VAL",
+          "word": "SAD",
+          "roles": {
+            "SCALE": "SADNESS-SCALE",
+            "LEX": "SAD",
+            "WNSENSE": "sad%3:00:00::"
+          },
+          "start": 6,
+          "end": 10
+        },
+        "root": "#V83306"
+      },
+      {
+        "V83336": {
+          "id": "V83336",
+          "indicator": "SPEECHACT",
+          "type": "SA_PRED-FRAGMENT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V82973",
+            "LEX": "CELEBRATE"
+          },
+          "start": 10,
+          "end": 39
+        },
+        "V82973": {
+          "id": "V82973",
+          "indicator": "F",
+          "type": "PRAISE",
+          "word": "CELEBRATE",
+          "roles": {
+            "AGENT": "#V82932",
+            "AGENT1": "#V82979",
+            "PROP": "+",
+            "TENSE": "PRES",
+            "MODALITY": "(:* CONDITIONAL COULD)",
+            "NEGATION": "+",
+            "LEX": "CELEBRATE",
+            "WNSENSE": "praise%2:32:00"
+          },
+          "start": 10,
+          "end": 38
+        },
+        "V82932": {
+          "id": "V82932",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 15,
+          "end": 17
+        },
+        "V82979": {
+          "id": "V82979",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 36,
+          "end": 38
+        },
+        "root": "#V83336"
+      }
+    ],
+    [
+      {
+        "V83306": {
+          "id": "V83306",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V82889",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V82889": {
+          "id": "V82889",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V82873",
+            "FORMAL": "#V82902",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V82873": {
+          "id": "V82873",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V82902": {
+          "id": "V82902",
+          "indicator": "F",
+          "type": "SAD-VAL",
+          "word": "SAD",
+          "roles": {
+            "SCALE": "SADNESS-SCALE",
+            "LEX": "SAD",
+            "WNSENSE": "sad%3:00:00::"
+          },
+          "start": 6,
+          "end": 10
+        },
+        "root": "#V83306"
+      },
+      {
+        "V83334": {
+          "id": "V83334",
+          "indicator": "SPEECHACT",
+          "type": "SA_PRED-FRAGMENT",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V82974",
+            "LEX": "CELEBRATE"
+          },
+          "start": 10,
+          "end": 39
+        },
+        "V82974": {
+          "id": "V82974",
+          "indicator": "F",
+          "type": "PRAISE",
+          "word": "CELEBRATE",
+          "roles": {
+            "AGENT": "#V82932",
+            "FORMAL": "#V82979",
+            "PROP": "+",
+            "TENSE": "PRES",
+            "MODALITY": "(:* CONDITIONAL COULD)",
+            "NEGATION": "+",
+            "LEX": "CELEBRATE",
+            "WNSENSE": "praise%2:32:00"
+          },
+          "start": 10,
+          "end": 38
+        },
+        "V82932": {
+          "id": "V82932",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 15,
+          "end": 17
+        },
+        "V82979": {
+          "id": "V82979",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 36,
+          "end": 38
+        },
+        "root": "#V83334"
+      }
+    ]
+  ],
+  "sentence": "I was sad that I couldn't celebrate it.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190820T155952",
+    "link": "http://trips.ihmc.us/parser/saved/20190820T155952-STEP-abhatia-none-I_was_sad_that_I_couldn_t_celebrate_it_.xml",
+    "judgement": -1
+  }
+}

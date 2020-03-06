@@ -1,0 +1,2098 @@
+{
+  "parse": [
+    {
+      "V41923": {
+        "id": "V41923",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V40865",
+          "LEX": "JUMPING"
+        },
+        "start": 0,
+        "end": 41
+      },
+      "V40865": {
+        "id": "V40865",
+        "indicator": "F",
+        "type": "JUMP",
+        "word": "JUMP",
+        "roles": {
+          "RESULT": "#V40870",
+          "AGENT": "#V40842",
+          "EXTENT": "#V40978",
+          "TENSE": "PAST",
+          "PROGR": "+",
+          "LEX": "JUMPING"
+        },
+        "start": 0,
+        "end": 41
+      },
+      "V40978": {
+        "id": "V40978",
+        "indicator": "F",
+        "type": "EXTENT-PREDICATE",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V40865",
+          "GROUND": "#V40834",
+          "LEX": "DAY",
+          "WNSENSE": "day%1:28:00::"
+        },
+        "start": 0,
+        "end": 7
+      },
+      "V40834": {
+        "id": "V40834",
+        "indicator": "A",
+        "type": "QUANTITY",
+        "word": null,
+        "roles": {
+          "SCALE": "DURATION-SCALE",
+          "UNIT": "(:* DAY-DURATION DAY)",
+          "AMOUNT": "#V40831",
+          "LEX": "DAY",
+          "WNSENSE": "day%1:28:00::"
+        },
+        "start": 0,
+        "end": 7
+      },
+      "V40831": {
+        "id": "V40831",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "1"
+        },
+        "start": 0,
+        "end": 7
+      },
+      "V40842": {
+        "id": "V40842",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 9,
+        "end": 12
+      },
+      "V40870": {
+        "id": "V40870",
+        "indicator": "F",
+        "type": "BETWEEN",
+        "word": "BETWEEN",
+        "roles": {
+          "GROUND": "#V40882",
+          "FIGURE": "#V40842",
+          "LEX": "BETWEEN"
+        },
+        "start": 24,
+        "end": 41
+      },
+      "V40882": {
+        "id": "V40882",
+        "indicator": "INDEF-SET",
+        "type": "CREATE",
+        "word": "BUILDINGS",
+        "roles": {
+          "LEX": "BUILDINGS",
+          "WNSENSE": "make%2:36:00"
+        },
+        "start": 32,
+        "end": 41
+      },
+      "root": "#V41923"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V41920": {
+          "id": "V41920",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40865",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V40865": {
+          "id": "V40865",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "RESULT": "#V40870",
+            "AGENT": "#V40842",
+            "EXTENT": "#V40978",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V40978": {
+          "id": "V40978",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V40865",
+            "GROUND": "#V40834",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40834": {
+          "id": "V40834",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V40831",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40831": {
+          "id": "V40831",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40842": {
+          "id": "V40842",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 9,
+          "end": 12
+        },
+        "V40870": {
+          "id": "V40870",
+          "indicator": "F",
+          "type": "BETWEEN",
+          "word": "BETWEEN",
+          "roles": {
+            "GROUND": "#V40881",
+            "FIGURE": "#V40842",
+            "LEX": "BETWEEN"
+          },
+          "start": 24,
+          "end": 41
+        },
+        "V40881": {
+          "id": "V40881",
+          "indicator": "INDEF-SET",
+          "type": "CLOG",
+          "word": "BUILDINGS",
+          "roles": {
+            "LEX": "BUILDINGS",
+            "WNSENSE": "obstruct%2:35:00"
+          },
+          "start": 32,
+          "end": 41
+        },
+        "root": "#V41920"
+      }
+    ],
+    [
+      {
+        "V41917": {
+          "id": "V41917",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40865",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V40865": {
+          "id": "V40865",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "RESULT": "#V40870",
+            "AGENT": "#V40842",
+            "EXTENT": "#V40978",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V40978": {
+          "id": "V40978",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V40865",
+            "GROUND": "#V40834",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40834": {
+          "id": "V40834",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V40831",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40831": {
+          "id": "V40831",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40842": {
+          "id": "V40842",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 9,
+          "end": 12
+        },
+        "V40870": {
+          "id": "V40870",
+          "indicator": "F",
+          "type": "BETWEEN",
+          "word": "BETWEEN",
+          "roles": {
+            "GROUND": "#V40880",
+            "FIGURE": "#V40842",
+            "LEX": "BETWEEN"
+          },
+          "start": 24,
+          "end": 41
+        },
+        "V40880": {
+          "id": "V40880",
+          "indicator": "INDEF-SET",
+          "type": "CLOG",
+          "word": "BUILDINGS",
+          "roles": {
+            "LEX": "BUILDINGS",
+            "WNSENSE": "obstruct%2:35:00"
+          },
+          "start": 32,
+          "end": 41
+        },
+        "root": "#V41917"
+      }
+    ],
+    [
+      {
+        "V41914": {
+          "id": "V41914",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40865",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V40865": {
+          "id": "V40865",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "RESULT": "#V40870",
+            "AGENT": "#V40842",
+            "EXTENT": "#V40978",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V40978": {
+          "id": "V40978",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V40865",
+            "GROUND": "#V40834",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40834": {
+          "id": "V40834",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V40831",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40831": {
+          "id": "V40831",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40842": {
+          "id": "V40842",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 9,
+          "end": 12
+        },
+        "V40870": {
+          "id": "V40870",
+          "indicator": "F",
+          "type": "BETWEEN",
+          "word": "BETWEEN",
+          "roles": {
+            "GROUND": "#V40882",
+            "FIGURE": "#V40842",
+            "LEX": "BETWEEN"
+          },
+          "start": 24,
+          "end": 41
+        },
+        "V40882": {
+          "id": "V40882",
+          "indicator": "PRO",
+          "type": "CREATE",
+          "word": "BUILDINGS",
+          "roles": {
+            "PROFORM": "BUILDINGS",
+            "LEX": "BUILDINGS",
+            "WNSENSE": "make%2:36:00"
+          },
+          "start": 32,
+          "end": 41
+        },
+        "root": "#V41914"
+      }
+    ],
+    [
+      {
+        "V41911": {
+          "id": "V41911",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40865",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V40865": {
+          "id": "V40865",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "RESULT": "#V40870",
+            "AGENT": "#V40842",
+            "EXTENT": "#V40978",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V40978": {
+          "id": "V40978",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V40865",
+            "GROUND": "#V40834",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40834": {
+          "id": "V40834",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V40831",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40831": {
+          "id": "V40831",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40842": {
+          "id": "V40842",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 9,
+          "end": 12
+        },
+        "V40870": {
+          "id": "V40870",
+          "indicator": "F",
+          "type": "BETWEEN",
+          "word": "BETWEEN",
+          "roles": {
+            "GROUND": "#V40881",
+            "FIGURE": "#V40842",
+            "LEX": "BETWEEN"
+          },
+          "start": 24,
+          "end": 41
+        },
+        "V40881": {
+          "id": "V40881",
+          "indicator": "PRO",
+          "type": "CLOG",
+          "word": "BUILDINGS",
+          "roles": {
+            "PROFORM": "BUILDINGS",
+            "LEX": "BUILDINGS",
+            "WNSENSE": "obstruct%2:35:00"
+          },
+          "start": 32,
+          "end": 41
+        },
+        "root": "#V41911"
+      }
+    ],
+    [
+      {
+        "V41908": {
+          "id": "V41908",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40865",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V40865": {
+          "id": "V40865",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "RESULT": "#V40870",
+            "AGENT": "#V40842",
+            "EXTENT": "#V40978",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V40978": {
+          "id": "V40978",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V40865",
+            "GROUND": "#V40834",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40834": {
+          "id": "V40834",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V40831",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40831": {
+          "id": "V40831",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40842": {
+          "id": "V40842",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 9,
+          "end": 12
+        },
+        "V40870": {
+          "id": "V40870",
+          "indicator": "F",
+          "type": "BETWEEN",
+          "word": "BETWEEN",
+          "roles": {
+            "GROUND": "#V40880",
+            "FIGURE": "#V40842",
+            "LEX": "BETWEEN"
+          },
+          "start": 24,
+          "end": 41
+        },
+        "V40880": {
+          "id": "V40880",
+          "indicator": "PRO",
+          "type": "CLOG",
+          "word": "BUILDINGS",
+          "roles": {
+            "PROFORM": "BUILDINGS",
+            "LEX": "BUILDINGS",
+            "WNSENSE": "obstruct%2:35:00"
+          },
+          "start": 32,
+          "end": 41
+        },
+        "root": "#V41908"
+      }
+    ],
+    [
+      {
+        "V42069": {
+          "id": "V42069",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40865",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V40865": {
+          "id": "V40865",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "RESULT": "#V40870",
+            "AGENT": "#V40842",
+            "EXTENT": "#V40978",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V40978": {
+          "id": "V40978",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V40865",
+            "GROUND": "#V40834",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40834": {
+          "id": "V40834",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V40831",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40831": {
+          "id": "V40831",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40842": {
+          "id": "V40842",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 9,
+          "end": 12
+        },
+        "V40870": {
+          "id": "V40870",
+          "indicator": "F",
+          "type": "BETWEEN",
+          "word": "BETWEEN",
+          "roles": {
+            "GROUND": "#V40882",
+            "FIGURE": "#V40842",
+            "LEX": "BETWEEN"
+          },
+          "start": 24,
+          "end": 41
+        },
+        "V40882": {
+          "id": "V40882",
+          "indicator": "INDEF-SET",
+          "type": "CREATE",
+          "word": "BUILDINGS",
+          "roles": {
+            "LEX": "BUILDINGS",
+            "WNSENSE": "make%2:36:00"
+          },
+          "start": 32,
+          "end": 41
+        },
+        "root": "#V42069"
+      }
+    ],
+    [
+      {
+        "V42066": {
+          "id": "V42066",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40865",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V40865": {
+          "id": "V40865",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "RESULT": "#V40870",
+            "AGENT": "#V40842",
+            "EXTENT": "#V40978",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V40978": {
+          "id": "V40978",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V40865",
+            "GROUND": "#V40834",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40834": {
+          "id": "V40834",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V40831",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40831": {
+          "id": "V40831",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40842": {
+          "id": "V40842",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 9,
+          "end": 12
+        },
+        "V40870": {
+          "id": "V40870",
+          "indicator": "F",
+          "type": "BETWEEN",
+          "word": "BETWEEN",
+          "roles": {
+            "GROUND": "#V40881",
+            "FIGURE": "#V40842",
+            "LEX": "BETWEEN"
+          },
+          "start": 24,
+          "end": 41
+        },
+        "V40881": {
+          "id": "V40881",
+          "indicator": "INDEF-SET",
+          "type": "CLOG",
+          "word": "BUILDINGS",
+          "roles": {
+            "LEX": "BUILDINGS",
+            "WNSENSE": "obstruct%2:35:00"
+          },
+          "start": 32,
+          "end": 41
+        },
+        "root": "#V42066"
+      }
+    ],
+    [
+      {
+        "V42063": {
+          "id": "V42063",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40865",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V40865": {
+          "id": "V40865",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "RESULT": "#V40870",
+            "AGENT": "#V40842",
+            "EXTENT": "#V40978",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V40978": {
+          "id": "V40978",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V40865",
+            "GROUND": "#V40834",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40834": {
+          "id": "V40834",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V40831",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40831": {
+          "id": "V40831",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40842": {
+          "id": "V40842",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 9,
+          "end": 12
+        },
+        "V40870": {
+          "id": "V40870",
+          "indicator": "F",
+          "type": "BETWEEN",
+          "word": "BETWEEN",
+          "roles": {
+            "GROUND": "#V40880",
+            "FIGURE": "#V40842",
+            "LEX": "BETWEEN"
+          },
+          "start": 24,
+          "end": 41
+        },
+        "V40880": {
+          "id": "V40880",
+          "indicator": "INDEF-SET",
+          "type": "CLOG",
+          "word": "BUILDINGS",
+          "roles": {
+            "LEX": "BUILDINGS",
+            "WNSENSE": "obstruct%2:35:00"
+          },
+          "start": 32,
+          "end": 41
+        },
+        "root": "#V42063"
+      }
+    ],
+    [
+      {
+        "V42185": {
+          "id": "V42185",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40865",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V40865": {
+          "id": "V40865",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "RESULT": "#V40870",
+            "AGENT": "#V40842",
+            "TIME": "#V40823",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V40823": {
+          "id": "V40823",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "ONE-DAY",
+          "roles": {
+            "GROUND": "#V41006",
+            "FIGURE": "#V40865",
+            "LEX": "ONE-DAY"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V41006": {
+          "id": "V41006",
+          "indicator": "IMPRO",
+          "type": "TIME-LOC",
+          "word": "SOMETIME",
+          "roles": {
+            "PROFORM": "ONE-DAY"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40842": {
+          "id": "V40842",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 9,
+          "end": 12
+        },
+        "V40870": {
+          "id": "V40870",
+          "indicator": "F",
+          "type": "BETWEEN",
+          "word": "BETWEEN",
+          "roles": {
+            "GROUND": "#V40882",
+            "FIGURE": "#V40842",
+            "LEX": "BETWEEN"
+          },
+          "start": 24,
+          "end": 41
+        },
+        "V40882": {
+          "id": "V40882",
+          "indicator": "INDEF-SET",
+          "type": "CREATE",
+          "word": "BUILDINGS",
+          "roles": {
+            "LEX": "BUILDINGS",
+            "WNSENSE": "make%2:36:00"
+          },
+          "start": 32,
+          "end": 41
+        },
+        "root": "#V42185"
+      }
+    ],
+    [
+      {
+        "V42182": {
+          "id": "V42182",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40865",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V40865": {
+          "id": "V40865",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "RESULT": "#V40870",
+            "AGENT": "#V40842",
+            "TIME": "#V40823",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V40823": {
+          "id": "V40823",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "ONE-DAY",
+          "roles": {
+            "GROUND": "#V41006",
+            "FIGURE": "#V40865",
+            "LEX": "ONE-DAY"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V41006": {
+          "id": "V41006",
+          "indicator": "IMPRO",
+          "type": "TIME-LOC",
+          "word": "SOMETIME",
+          "roles": {
+            "PROFORM": "ONE-DAY"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40842": {
+          "id": "V40842",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 9,
+          "end": 12
+        },
+        "V40870": {
+          "id": "V40870",
+          "indicator": "F",
+          "type": "BETWEEN",
+          "word": "BETWEEN",
+          "roles": {
+            "GROUND": "#V40881",
+            "FIGURE": "#V40842",
+            "LEX": "BETWEEN"
+          },
+          "start": 24,
+          "end": 41
+        },
+        "V40881": {
+          "id": "V40881",
+          "indicator": "INDEF-SET",
+          "type": "CLOG",
+          "word": "BUILDINGS",
+          "roles": {
+            "LEX": "BUILDINGS",
+            "WNSENSE": "obstruct%2:35:00"
+          },
+          "start": 32,
+          "end": 41
+        },
+        "root": "#V42182"
+      }
+    ],
+    [
+      {
+        "V42179": {
+          "id": "V42179",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40865",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V40865": {
+          "id": "V40865",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "RESULT": "#V40870",
+            "AGENT": "#V40842",
+            "TIME": "#V40823",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V40823": {
+          "id": "V40823",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "ONE-DAY",
+          "roles": {
+            "GROUND": "#V41006",
+            "FIGURE": "#V40865",
+            "LEX": "ONE-DAY"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V41006": {
+          "id": "V41006",
+          "indicator": "IMPRO",
+          "type": "TIME-LOC",
+          "word": "SOMETIME",
+          "roles": {
+            "PROFORM": "ONE-DAY"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40842": {
+          "id": "V40842",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 9,
+          "end": 12
+        },
+        "V40870": {
+          "id": "V40870",
+          "indicator": "F",
+          "type": "BETWEEN",
+          "word": "BETWEEN",
+          "roles": {
+            "GROUND": "#V40880",
+            "FIGURE": "#V40842",
+            "LEX": "BETWEEN"
+          },
+          "start": 24,
+          "end": 41
+        },
+        "V40880": {
+          "id": "V40880",
+          "indicator": "INDEF-SET",
+          "type": "CLOG",
+          "word": "BUILDINGS",
+          "roles": {
+            "LEX": "BUILDINGS",
+            "WNSENSE": "obstruct%2:35:00"
+          },
+          "start": 32,
+          "end": 41
+        },
+        "root": "#V42179"
+      }
+    ],
+    [
+      {
+        "V42176": {
+          "id": "V42176",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40865",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V40865": {
+          "id": "V40865",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "RESULT": "#V40870",
+            "AGENT": "#V40842",
+            "TIME": "#V40823",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V40823": {
+          "id": "V40823",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "ONE-DAY",
+          "roles": {
+            "GROUND": "#V41006",
+            "FIGURE": "#V40865",
+            "LEX": "ONE-DAY"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V41006": {
+          "id": "V41006",
+          "indicator": "IMPRO",
+          "type": "TIME-LOC",
+          "word": "SOMETIME",
+          "roles": {
+            "PROFORM": "ONE-DAY"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40842": {
+          "id": "V40842",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 9,
+          "end": 12
+        },
+        "V40870": {
+          "id": "V40870",
+          "indicator": "F",
+          "type": "BETWEEN",
+          "word": "BETWEEN",
+          "roles": {
+            "GROUND": "#V40882",
+            "FIGURE": "#V40842",
+            "LEX": "BETWEEN"
+          },
+          "start": 24,
+          "end": 41
+        },
+        "V40882": {
+          "id": "V40882",
+          "indicator": "PRO",
+          "type": "CREATE",
+          "word": "BUILDINGS",
+          "roles": {
+            "PROFORM": "BUILDINGS",
+            "LEX": "BUILDINGS",
+            "WNSENSE": "make%2:36:00"
+          },
+          "start": 32,
+          "end": 41
+        },
+        "root": "#V42176"
+      }
+    ],
+    [
+      {
+        "V42173": {
+          "id": "V42173",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40865",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V40865": {
+          "id": "V40865",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "RESULT": "#V40870",
+            "AGENT": "#V40842",
+            "TIME": "#V40823",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V40823": {
+          "id": "V40823",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "ONE-DAY",
+          "roles": {
+            "GROUND": "#V41006",
+            "FIGURE": "#V40865",
+            "LEX": "ONE-DAY"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V41006": {
+          "id": "V41006",
+          "indicator": "IMPRO",
+          "type": "TIME-LOC",
+          "word": "SOMETIME",
+          "roles": {
+            "PROFORM": "ONE-DAY"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40842": {
+          "id": "V40842",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 9,
+          "end": 12
+        },
+        "V40870": {
+          "id": "V40870",
+          "indicator": "F",
+          "type": "BETWEEN",
+          "word": "BETWEEN",
+          "roles": {
+            "GROUND": "#V40881",
+            "FIGURE": "#V40842",
+            "LEX": "BETWEEN"
+          },
+          "start": 24,
+          "end": 41
+        },
+        "V40881": {
+          "id": "V40881",
+          "indicator": "PRO",
+          "type": "CLOG",
+          "word": "BUILDINGS",
+          "roles": {
+            "PROFORM": "BUILDINGS",
+            "LEX": "BUILDINGS",
+            "WNSENSE": "obstruct%2:35:00"
+          },
+          "start": 32,
+          "end": 41
+        },
+        "root": "#V42173"
+      }
+    ],
+    [
+      {
+        "V42170": {
+          "id": "V42170",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40865",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V40865": {
+          "id": "V40865",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "RESULT": "#V40870",
+            "AGENT": "#V40842",
+            "TIME": "#V40823",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V40823": {
+          "id": "V40823",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "ONE-DAY",
+          "roles": {
+            "GROUND": "#V41006",
+            "FIGURE": "#V40865",
+            "LEX": "ONE-DAY"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V41006": {
+          "id": "V41006",
+          "indicator": "IMPRO",
+          "type": "TIME-LOC",
+          "word": "SOMETIME",
+          "roles": {
+            "PROFORM": "ONE-DAY"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40842": {
+          "id": "V40842",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 9,
+          "end": 12
+        },
+        "V40870": {
+          "id": "V40870",
+          "indicator": "F",
+          "type": "BETWEEN",
+          "word": "BETWEEN",
+          "roles": {
+            "GROUND": "#V40880",
+            "FIGURE": "#V40842",
+            "LEX": "BETWEEN"
+          },
+          "start": 24,
+          "end": 41
+        },
+        "V40880": {
+          "id": "V40880",
+          "indicator": "PRO",
+          "type": "CLOG",
+          "word": "BUILDINGS",
+          "roles": {
+            "PROFORM": "BUILDINGS",
+            "LEX": "BUILDINGS",
+            "WNSENSE": "obstruct%2:35:00"
+          },
+          "start": 32,
+          "end": 41
+        },
+        "root": "#V42170"
+      }
+    ],
+    [
+      {
+        "V42188": {
+          "id": "V42188",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40865",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V40865": {
+          "id": "V40865",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "RESULT": "#V40870",
+            "AGENT": "#V40842",
+            "EXTENT": "#V40978",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V40978": {
+          "id": "V40978",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V40865",
+            "GROUND": "#V40834",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40834": {
+          "id": "V40834",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V40831",
+            "LEX": "DAY",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40831": {
+          "id": "V40831",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "1"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40842": {
+          "id": "V40842",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 9,
+          "end": 12
+        },
+        "V40870": {
+          "id": "V40870",
+          "indicator": "F",
+          "type": "BETWEEN",
+          "word": "BETWEEN",
+          "roles": {
+            "GROUND": "#V40879",
+            "FIGURE": "#V40842",
+            "LEX": "BETWEEN"
+          },
+          "start": 24,
+          "end": 41
+        },
+        "V40879": {
+          "id": "V40879",
+          "indicator": "INDEF-SET",
+          "type": "GENERAL-STRUCTURE",
+          "word": "BUILDING",
+          "roles": {
+            "LEX": "BUILDINGS",
+            "WNSENSE": "structure%1:06:00"
+          },
+          "start": 32,
+          "end": 41
+        },
+        "root": "#V42188"
+      }
+    ],
+    [
+      {
+        "V42202": {
+          "id": "V42202",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40865",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V40865": {
+          "id": "V40865",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "RESULT": "#V40870",
+            "AGENT": "#V40842",
+            "TIME": "#V40823",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V40823": {
+          "id": "V40823",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "ONE-DAY",
+          "roles": {
+            "GROUND": "#V41006",
+            "FIGURE": "#V40865",
+            "LEX": "ONE-DAY"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V41006": {
+          "id": "V41006",
+          "indicator": "IMPRO",
+          "type": "TIME-LOC",
+          "word": "SOMETIME",
+          "roles": {
+            "PROFORM": "ONE-DAY"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40842": {
+          "id": "V40842",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 9,
+          "end": 12
+        },
+        "V40870": {
+          "id": "V40870",
+          "indicator": "F",
+          "type": "BETWEEN",
+          "word": "BETWEEN",
+          "roles": {
+            "GROUND": "#V40882",
+            "FIGURE": "#V40842",
+            "LEX": "BETWEEN"
+          },
+          "start": 24,
+          "end": 41
+        },
+        "V40882": {
+          "id": "V40882",
+          "indicator": "INDEF-SET",
+          "type": "CREATE",
+          "word": "BUILDINGS",
+          "roles": {
+            "LEX": "BUILDINGS",
+            "WNSENSE": "make%2:36:00"
+          },
+          "start": 32,
+          "end": 41
+        },
+        "root": "#V42202"
+      }
+    ],
+    [
+      {
+        "V42199": {
+          "id": "V42199",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40865",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V40865": {
+          "id": "V40865",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "RESULT": "#V40870",
+            "AGENT": "#V40842",
+            "TIME": "#V40823",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V40823": {
+          "id": "V40823",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "ONE-DAY",
+          "roles": {
+            "GROUND": "#V41006",
+            "FIGURE": "#V40865",
+            "LEX": "ONE-DAY"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V41006": {
+          "id": "V41006",
+          "indicator": "IMPRO",
+          "type": "TIME-LOC",
+          "word": "SOMETIME",
+          "roles": {
+            "PROFORM": "ONE-DAY"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40842": {
+          "id": "V40842",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 9,
+          "end": 12
+        },
+        "V40870": {
+          "id": "V40870",
+          "indicator": "F",
+          "type": "BETWEEN",
+          "word": "BETWEEN",
+          "roles": {
+            "GROUND": "#V40881",
+            "FIGURE": "#V40842",
+            "LEX": "BETWEEN"
+          },
+          "start": 24,
+          "end": 41
+        },
+        "V40881": {
+          "id": "V40881",
+          "indicator": "INDEF-SET",
+          "type": "CLOG",
+          "word": "BUILDINGS",
+          "roles": {
+            "LEX": "BUILDINGS",
+            "WNSENSE": "obstruct%2:35:00"
+          },
+          "start": 32,
+          "end": 41
+        },
+        "root": "#V42199"
+      }
+    ],
+    [
+      {
+        "V42196": {
+          "id": "V42196",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40865",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V40865": {
+          "id": "V40865",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "RESULT": "#V40870",
+            "AGENT": "#V40842",
+            "TIME": "#V40823",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V40823": {
+          "id": "V40823",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "ONE-DAY",
+          "roles": {
+            "GROUND": "#V41006",
+            "FIGURE": "#V40865",
+            "LEX": "ONE-DAY"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V41006": {
+          "id": "V41006",
+          "indicator": "IMPRO",
+          "type": "TIME-LOC",
+          "word": "SOMETIME",
+          "roles": {
+            "PROFORM": "ONE-DAY"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40842": {
+          "id": "V40842",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 9,
+          "end": 12
+        },
+        "V40870": {
+          "id": "V40870",
+          "indicator": "F",
+          "type": "BETWEEN",
+          "word": "BETWEEN",
+          "roles": {
+            "GROUND": "#V40880",
+            "FIGURE": "#V40842",
+            "LEX": "BETWEEN"
+          },
+          "start": 24,
+          "end": 41
+        },
+        "V40880": {
+          "id": "V40880",
+          "indicator": "INDEF-SET",
+          "type": "CLOG",
+          "word": "BUILDINGS",
+          "roles": {
+            "LEX": "BUILDINGS",
+            "WNSENSE": "obstruct%2:35:00"
+          },
+          "start": 32,
+          "end": 41
+        },
+        "root": "#V42196"
+      }
+    ],
+    [
+      {
+        "V42325": {
+          "id": "V42325",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V40865",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V40865": {
+          "id": "V40865",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "RESULT": "#V40870",
+            "AGENT": "#V40842",
+            "TIME": "#V40823",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "JUMPING"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V40823": {
+          "id": "V40823",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL",
+          "word": "ONE-DAY",
+          "roles": {
+            "GROUND": "#V41006",
+            "FIGURE": "#V40865",
+            "LEX": "ONE-DAY"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V41006": {
+          "id": "V41006",
+          "indicator": "IMPRO",
+          "type": "TIME-LOC",
+          "word": "SOMETIME",
+          "roles": {
+            "PROFORM": "ONE-DAY"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V40842": {
+          "id": "V40842",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 9,
+          "end": 12
+        },
+        "V40870": {
+          "id": "V40870",
+          "indicator": "F",
+          "type": "BETWEEN",
+          "word": "BETWEEN",
+          "roles": {
+            "GROUND": "#V40879",
+            "FIGURE": "#V40842",
+            "LEX": "BETWEEN"
+          },
+          "start": 24,
+          "end": 41
+        },
+        "V40879": {
+          "id": "V40879",
+          "indicator": "INDEF-SET",
+          "type": "GENERAL-STRUCTURE",
+          "word": "BUILDING",
+          "roles": {
+            "LEX": "BUILDINGS",
+            "WNSENSE": "structure%1:06:00"
+          },
+          "start": 32,
+          "end": 41
+        },
+        "root": "#V42325"
+      }
+    ]
+  ],
+  "sentence": "One day, he was jumping between buildings.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20191004T153426",
+    "link": "http://trips.ihmc.us/parser/saved/20191004T153426-STEP-abhatia-19-One_day_he_was_jumping_between_buildings.xml",
+    "judgement": 19
+  }
+}

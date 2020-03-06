@@ -1,0 +1,456 @@
+{
+  "parse": [
+    {
+      "V299854": {
+        "id": "V299854",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V299467",
+          "LEX": "EXPOSED"
+        },
+        "start": 0,
+        "end": 49
+      },
+      "V299467": {
+        "id": "V299467",
+        "indicator": "F",
+        "type": "EXPOSE",
+        "word": "EXPOSE",
+        "roles": {
+          "AGENT": "#V299462",
+          "AFFECTED": "#V299470",
+          "MANNER": "#V299456",
+          "REASON": "#V299476",
+          "TENSE": "PAST",
+          "LEX": "EXPOSED"
+        },
+        "start": 0,
+        "end": 49
+      },
+      "V299456": {
+        "id": "V299456",
+        "indicator": "F",
+        "type": "INSTANTANEOUS-VAL",
+        "word": "SUDDENLY",
+        "roles": {
+          "FIGURE": "#V299467",
+          "SCALE": "SPEED-SCALE",
+          "LEX": "SUDDENLY",
+          "WNSENSE": "instantaneous%5:00:00:fast:01"
+        },
+        "start": 0,
+        "end": 8
+      },
+      "V299462": {
+        "id": "V299462",
+        "indicator": "INDEF-SET",
+        "type": "PERSON",
+        "word": "PERSON",
+        "roles": {
+          "LEX": "PEOPLE",
+          "WNSENSE": "person%1:03:00::"
+        },
+        "start": 10,
+        "end": 17
+      },
+      "V299470": {
+        "id": "V299470",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HIM",
+        "roles": {
+          "PROFORM": "HIM",
+          "LEX": "HIM",
+          "WNSENSE": "man%1:18:00"
+        },
+        "start": 25,
+        "end": 29
+      },
+      "V299476": {
+        "id": "V299476",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "FOR",
+        "roles": {
+          "GROUND": "#V299502",
+          "FIGURE": "#V299467",
+          "LEX": "FOR"
+        },
+        "start": 29,
+        "end": 49
+      },
+      "V299502": {
+        "id": "V299502",
+        "indicator": "BARE",
+        "type": "HAVE",
+        "word": "HAVE",
+        "roles": {
+          "NEUTRAL1": "#V299522",
+          "LEX": "HAVING",
+          "WNSENSE": "have%2:40:00::"
+        },
+        "start": 33,
+        "end": 49
+      },
+      "V299522": {
+        "id": "V299522",
+        "indicator": "A",
+        "type": "INTEREST-SCALE",
+        "word": "AFFAIR",
+        "roles": {
+          "LEX": "AFFAIR",
+          "WNSENSE": "affair%1:09:00::"
+        },
+        "start": 40,
+        "end": 49
+      },
+      "root": "#V299854"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V299871": {
+          "id": "V299871",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V299467",
+            "LEX": "EXPOSED"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V299467": {
+          "id": "V299467",
+          "indicator": "F",
+          "type": "EXPOSE",
+          "word": "EXPOSE",
+          "roles": {
+            "AGENT": "#V299462",
+            "AFFECTED": "#V299470",
+            "MANNER": "#V299456",
+            "REASON": "#V299476",
+            "TENSE": "PAST",
+            "LEX": "EXPOSED"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V299456": {
+          "id": "V299456",
+          "indicator": "F",
+          "type": "INSTANTANEOUS-VAL",
+          "word": "SUDDENLY",
+          "roles": {
+            "FIGURE": "#V299467",
+            "SCALE": "SPEED-SCALE",
+            "LEX": "SUDDENLY",
+            "WNSENSE": "instantaneous%5:00:00:fast:01"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V299462": {
+          "id": "V299462",
+          "indicator": "INDEF-SET",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "LEX": "PEOPLE",
+            "WNSENSE": "person%1:03:00::"
+          },
+          "start": 10,
+          "end": 17
+        },
+        "V299470": {
+          "id": "V299470",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIM",
+          "roles": {
+            "PROFORM": "HIM",
+            "LEX": "HIM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 25,
+          "end": 29
+        },
+        "V299476": {
+          "id": "V299476",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V299506",
+            "FIGURE": "#V299467",
+            "LEX": "FOR"
+          },
+          "start": 29,
+          "end": 49
+        },
+        "V299506": {
+          "id": "V299506",
+          "indicator": "BARE",
+          "type": "HAVE-EXPERIENCE",
+          "word": "HAVE",
+          "roles": {
+            "NEUTRAL": "#V299525",
+            "LEX": "HAVING",
+            "WNSENSE": "have%2:39:06::"
+          },
+          "start": 33,
+          "end": 49
+        },
+        "V299525": {
+          "id": "V299525",
+          "indicator": "A",
+          "type": "SOCIAL-RELATIONSHIP",
+          "word": "AFFAIR",
+          "roles": {
+            "LEX": "AFFAIR",
+            "WNSENSE": "affair%1:26:00::"
+          },
+          "start": 40,
+          "end": 49
+        },
+        "root": "#V299871"
+      }
+    ],
+    [
+      {
+        "V300024": {
+          "id": "V300024",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V299467",
+            "LEX": "EXPOSED"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V299467": {
+          "id": "V299467",
+          "indicator": "F",
+          "type": "EXPOSE",
+          "word": "EXPOSE",
+          "roles": {
+            "AGENT": "#V299462",
+            "AFFECTED": "#V299470",
+            "MANNER": "#V299456",
+            "REASON": "#V299476",
+            "TENSE": "PAST",
+            "LEX": "EXPOSED"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V299456": {
+          "id": "V299456",
+          "indicator": "F",
+          "type": "INSTANTANEOUS-VAL",
+          "word": "SUDDENLY",
+          "roles": {
+            "FIGURE": "#V299467",
+            "SCALE": "SPEED-SCALE",
+            "LEX": "SUDDENLY",
+            "WNSENSE": "instantaneous%5:00:00:fast:01"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V299462": {
+          "id": "V299462",
+          "indicator": "INDEF-SET",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "LEX": "PEOPLE",
+            "WNSENSE": "person%1:03:00::"
+          },
+          "start": 10,
+          "end": 17
+        },
+        "V299470": {
+          "id": "V299470",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIM",
+          "roles": {
+            "PROFORM": "HIM",
+            "LEX": "HIM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 25,
+          "end": 29
+        },
+        "V299476": {
+          "id": "V299476",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V299502",
+            "FIGURE": "#V299467",
+            "LEX": "FOR"
+          },
+          "start": 29,
+          "end": 49
+        },
+        "V299502": {
+          "id": "V299502",
+          "indicator": "BARE",
+          "type": "HAVE",
+          "word": "HAVE",
+          "roles": {
+            "NEUTRAL1": "#V299522",
+            "LEX": "HAVING",
+            "WNSENSE": "have%2:40:00::"
+          },
+          "start": 33,
+          "end": 49
+        },
+        "V299522": {
+          "id": "V299522",
+          "indicator": "A",
+          "type": "INTEREST-SCALE",
+          "word": "AFFAIR",
+          "roles": {
+            "LEX": "AFFAIR",
+            "WNSENSE": "affair%1:09:00::"
+          },
+          "start": 40,
+          "end": 49
+        },
+        "root": "#V300024"
+      }
+    ],
+    [
+      {
+        "V300027": {
+          "id": "V300027",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V299467",
+            "LEX": "EXPOSED"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V299467": {
+          "id": "V299467",
+          "indicator": "F",
+          "type": "EXPOSE",
+          "word": "EXPOSE",
+          "roles": {
+            "AGENT": "#V299462",
+            "AFFECTED": "#V299470",
+            "MANNER": "#V299456",
+            "REASON": "#V299476",
+            "TENSE": "PAST",
+            "LEX": "EXPOSED"
+          },
+          "start": 0,
+          "end": 49
+        },
+        "V299456": {
+          "id": "V299456",
+          "indicator": "F",
+          "type": "INSTANTANEOUS-VAL",
+          "word": "SUDDENLY",
+          "roles": {
+            "FIGURE": "#V299467",
+            "SCALE": "SPEED-SCALE",
+            "LEX": "SUDDENLY",
+            "WNSENSE": "instantaneous%5:00:00:fast:01"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V299462": {
+          "id": "V299462",
+          "indicator": "INDEF-SET",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "LEX": "PEOPLE",
+            "WNSENSE": "person%1:03:00::"
+          },
+          "start": 10,
+          "end": 17
+        },
+        "V299470": {
+          "id": "V299470",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIM",
+          "roles": {
+            "PROFORM": "HIM",
+            "LEX": "HIM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 25,
+          "end": 29
+        },
+        "V299476": {
+          "id": "V299476",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "FOR",
+          "roles": {
+            "GROUND": "#V299506",
+            "FIGURE": "#V299467",
+            "LEX": "FOR"
+          },
+          "start": 29,
+          "end": 49
+        },
+        "V299506": {
+          "id": "V299506",
+          "indicator": "BARE",
+          "type": "HAVE-EXPERIENCE",
+          "word": "HAVE",
+          "roles": {
+            "NEUTRAL": "#V299525",
+            "LEX": "HAVING",
+            "WNSENSE": "have%2:39:06::"
+          },
+          "start": 33,
+          "end": 49
+        },
+        "V299525": {
+          "id": "V299525",
+          "indicator": "A",
+          "type": "SOCIAL-RELATIONSHIP",
+          "word": "AFFAIR",
+          "roles": {
+            "LEX": "AFFAIR",
+            "WNSENSE": "affair%1:26:00::"
+          },
+          "start": 40,
+          "end": 49
+        },
+        "root": "#V300027"
+      }
+    ]
+  ],
+  "sentence": "Suddenly, people exposed him for having an affair.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190801T205516",
+    "link": "http://trips.ihmc.us/parser/saved/20190801T205516-STEP-abhatia-none-Suddenly_people_exposed_him_for_having_a.xml",
+    "judgement": -1
+  }
+}

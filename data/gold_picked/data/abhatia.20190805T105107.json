@@ -1,0 +1,631 @@
+{
+  "parse": [
+    {
+      "V465334": {
+        "id": "V465334",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V459099",
+          "LEX": "TOLD"
+        },
+        "start": 0,
+        "end": 69
+      },
+      "V459099": {
+        "id": "V459099",
+        "indicator": "F",
+        "type": "TELL",
+        "word": "TELL",
+        "roles": {
+          "AGENT": "#V459092",
+          "AGENT1": "#V459110",
+          "FORMAL": "#V459180",
+          "TENSE": "PAST",
+          "LEX": "TOLD",
+          "WNSENSE": "tell%2:32:04::"
+        },
+        "start": 0,
+        "end": 69
+      },
+      "V459092": {
+        "id": "V459092",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "HUSBAND",
+        "roles": {
+          "ASSOC-POSS": "#V459087",
+          "LEX": "HUSBAND",
+          "WNSENSE": "husband%1:18:00::"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V459087": {
+        "id": "V459087",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "HER",
+        "roles": {
+          "LEX": "HER",
+          "PROFORM": "HER",
+          "WNSENSE": "woman%1:18:00",
+          "COREF": "#V459110"
+        },
+        "start": 0,
+        "end": 12
+      },
+      "V459110": {
+        "id": "V459110",
+        "indicator": "THE",
+        "type": "FEMALE-PERSON",
+        "word": "JANE",
+        "roles": {
+          "NAME-OF": "JANE",
+          "LEX": "JANE",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 17,
+        "end": 22
+      },
+      "V459180": {
+        "id": "V459180",
+        "indicator": "F",
+        "type": "NECESSITY",
+        "word": "NEED",
+        "roles": {
+          "NEUTRAL": "#V459133",
+          "FORMAL": "#V459219",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "MODALITY": "(:* DO DO)",
+          "NEGATION": "+",
+          "LEX": "NEED",
+          "WNSENSE": "need%2:42:00::"
+        },
+        "start": 22,
+        "end": 69
+      },
+      "V459133": {
+        "id": "V459133",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "SHE",
+        "roles": {
+          "PROFORM": "SHE",
+          "LEX": "SHE",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 27,
+        "end": 31
+      },
+      "V459219": {
+        "id": "V459219",
+        "indicator": "F",
+        "type": "PAY-ATTENTION",
+        "word": "ATTEND",
+        "roles": {
+          "AGENT": "#V459133",
+          "NEUTRAL": "#V459240",
+          "VFORM": "BASE",
+          "LEX": "ATTEND",
+          "WNSENSE": "attend%2:39:00::"
+        },
+        "start": 44,
+        "end": 69
+      },
+      "V459240": {
+        "id": "V459240",
+        "indicator": "THE",
+        "type": "HOLIDAY",
+        "word": "OUTING",
+        "roles": {
+          "MOD": "#V459233",
+          "LEX": "OUTING",
+          "WNSENSE": "outing%1:28:00::"
+        },
+        "start": 54,
+        "end": 69
+      },
+      "V459233": {
+        "id": "V459233",
+        "indicator": "F",
+        "type": "SEQUENCE-VAL-NEXT",
+        "word": "NEXT",
+        "roles": {
+          "FIGURE": "#V459240",
+          "SCALE": "RELATIONAL-PROPERTY-SCALE",
+          "LEX": "NEXT",
+          "WNSENSE": "next%5:00:00:succeeding:00"
+        },
+        "start": 58,
+        "end": 63
+      },
+      "root": "#V465334"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V465320": {
+          "id": "V465320",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V459099",
+            "LEX": "TOLD"
+          },
+          "start": 0,
+          "end": 70
+        },
+        "V459099": {
+          "id": "V459099",
+          "indicator": "F",
+          "type": "TELL",
+          "word": "TELL",
+          "roles": {
+            "AGENT": "#V459092",
+            "AGENT1": "#V459116",
+            "FORMAL": "#V459180",
+            "TENSE": "PAST",
+            "LEX": "TOLD",
+            "WNSENSE": "tell%2:32:04::"
+          },
+          "start": 0,
+          "end": 69
+        },
+        "V459092": {
+          "id": "V459092",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "HUSBAND",
+          "roles": {
+            "ASSOC-POSS": "#V459087",
+            "LEX": "HUSBAND",
+            "WNSENSE": "husband%1:18:00::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V459087": {
+          "id": "V459087",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V459116": {
+          "id": "V459116",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "JANE",
+          "roles": {
+            "NAME-OF": "JANE",
+            "LEX": "JANE",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 17,
+          "end": 22
+        },
+        "V459180": {
+          "id": "V459180",
+          "indicator": "F",
+          "type": "NECESSITY",
+          "word": "NEED",
+          "roles": {
+            "NEUTRAL": "#V459133",
+            "FORMAL": "#V459219",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "MODALITY": "(:* DO DO)",
+            "NEGATION": "+",
+            "LEX": "NEED",
+            "WNSENSE": "need%2:42:00::"
+          },
+          "start": 22,
+          "end": 69
+        },
+        "V459133": {
+          "id": "V459133",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 27,
+          "end": 31
+        },
+        "V459219": {
+          "id": "V459219",
+          "indicator": "F",
+          "type": "PAY-ATTENTION",
+          "word": "ATTEND",
+          "roles": {
+            "AGENT": "#V459133",
+            "NEUTRAL": "#V459240",
+            "VFORM": "BASE",
+            "LEX": "ATTEND",
+            "WNSENSE": "attend%2:39:00::"
+          },
+          "start": 44,
+          "end": 69
+        },
+        "V459240": {
+          "id": "V459240",
+          "indicator": "THE",
+          "type": "HOLIDAY",
+          "word": "OUTING",
+          "roles": {
+            "MOD": "#V459233",
+            "LEX": "OUTING",
+            "WNSENSE": "outing%1:28:00::"
+          },
+          "start": 54,
+          "end": 69
+        },
+        "V459233": {
+          "id": "V459233",
+          "indicator": "F",
+          "type": "SEQUENCE-VAL-NEXT",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V459240",
+            "SCALE": "RELATIONAL-PROPERTY-SCALE",
+            "LEX": "NEXT",
+            "WNSENSE": "next%5:00:00:succeeding:00"
+          },
+          "start": 58,
+          "end": 63
+        },
+        "root": "#V465320"
+      }
+    ],
+    [
+      {
+        "V465384": {
+          "id": "V465384",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V459099",
+            "LEX": "TOLD"
+          },
+          "start": 0,
+          "end": 70
+        },
+        "V459099": {
+          "id": "V459099",
+          "indicator": "F",
+          "type": "TELL",
+          "word": "TELL",
+          "roles": {
+            "AGENT": "#V459092",
+            "AGENT1": "#V459113",
+            "FORMAL": "#V459180",
+            "TENSE": "PAST",
+            "LEX": "TOLD",
+            "WNSENSE": "tell%2:32:04::"
+          },
+          "start": 0,
+          "end": 69
+        },
+        "V459092": {
+          "id": "V459092",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "HUSBAND",
+          "roles": {
+            "ASSOC-POSS": "#V459087",
+            "LEX": "HUSBAND",
+            "WNSENSE": "husband%1:18:00::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V459087": {
+          "id": "V459087",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V459113": {
+          "id": "V459113",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "JANE",
+          "roles": {
+            "NAME-OF": "JANE",
+            "LEX": "JANE",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 17,
+          "end": 22
+        },
+        "V459180": {
+          "id": "V459180",
+          "indicator": "F",
+          "type": "NECESSITY",
+          "word": "NEED",
+          "roles": {
+            "NEUTRAL": "#V459133",
+            "FORMAL": "#V459219",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "MODALITY": "(:* DO DO)",
+            "NEGATION": "+",
+            "LEX": "NEED",
+            "WNSENSE": "need%2:42:00::"
+          },
+          "start": 22,
+          "end": 69
+        },
+        "V459133": {
+          "id": "V459133",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 27,
+          "end": 31
+        },
+        "V459219": {
+          "id": "V459219",
+          "indicator": "F",
+          "type": "PAY-ATTENTION",
+          "word": "ATTEND",
+          "roles": {
+            "AGENT": "#V459133",
+            "NEUTRAL": "#V459240",
+            "VFORM": "BASE",
+            "LEX": "ATTEND",
+            "WNSENSE": "attend%2:39:00::"
+          },
+          "start": 44,
+          "end": 69
+        },
+        "V459240": {
+          "id": "V459240",
+          "indicator": "THE",
+          "type": "HOLIDAY",
+          "word": "OUTING",
+          "roles": {
+            "MOD": "#V459233",
+            "LEX": "OUTING",
+            "WNSENSE": "outing%1:28:00::"
+          },
+          "start": 54,
+          "end": 69
+        },
+        "V459233": {
+          "id": "V459233",
+          "indicator": "F",
+          "type": "SEQUENCE-VAL-NEXT",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V459240",
+            "SCALE": "RELATIONAL-PROPERTY-SCALE",
+            "LEX": "NEXT",
+            "WNSENSE": "next%5:00:00:succeeding:00"
+          },
+          "start": 58,
+          "end": 63
+        },
+        "root": "#V465384"
+      }
+    ],
+    [
+      {
+        "V468356": {
+          "id": "V468356",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V459097",
+            "LEX": "TOLD"
+          },
+          "start": 0,
+          "end": 70
+        },
+        "V459097": {
+          "id": "V459097",
+          "indicator": "F",
+          "type": "TELL",
+          "word": "TELL",
+          "roles": {
+            "AGENT": "#V459092",
+            "AGENT1": "#V459164",
+            "TENSE": "PAST",
+            "LEX": "TOLD",
+            "WNSENSE": "tell%2:32:04::"
+          },
+          "start": 0,
+          "end": 69
+        },
+        "V459092": {
+          "id": "V459092",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "HUSBAND",
+          "roles": {
+            "ASSOC-POSS": "#V459087",
+            "LEX": "HUSBAND",
+            "WNSENSE": "husband%1:18:00::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V459087": {
+          "id": "V459087",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V459164": {
+          "id": "V459164",
+          "indicator": "BARE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "JANE",
+          "roles": {
+            "OPERATOR": "BUT-NOT",
+            "SEQUENCE": "#V459113",
+            "EXCEPT": "#V460118",
+            "LEX": "NOT"
+          },
+          "start": 17,
+          "end": 69
+        },
+        "V459113": {
+          "id": "V459113",
+          "indicator": "BARE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "JANE",
+          "roles": {
+            "NAME-OF": "JANE",
+            "MOD": "#V459146",
+            "LEX": "JANE",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 17,
+          "end": 35
+        },
+        "V459146": {
+          "id": "V459146",
+          "indicator": "F",
+          "type": "EXECUTE",
+          "word": "DO",
+          "roles": {
+            "AGENT": "#V459133",
+            "NEUTRAL": "#V459113",
+            "TENSE": "PAST",
+            "LEX": "DID",
+            "WNSENSE": "do%2:41:01::"
+          },
+          "start": 22,
+          "end": 35
+        },
+        "V459133": {
+          "id": "V459133",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 27,
+          "end": 31
+        },
+        "V460118": {
+          "id": "V460118",
+          "indicator": "BARE",
+          "type": "HOLIDAY",
+          "word": "OUTING",
+          "roles": {
+            "FIGURE": "#V459174",
+            "LEX": "OUTING"
+          },
+          "start": 39,
+          "end": 69
+        },
+        "V459174": {
+          "id": "V459174",
+          "indicator": "F",
+          "type": "NECESSITY",
+          "word": "NEED",
+          "roles": {
+            "FORMAL": "#V459219",
+            "LEX": "NEED",
+            "WNSENSE": "need%2:42:00::"
+          },
+          "start": 39,
+          "end": 69
+        },
+        "V459219": {
+          "id": "V459219",
+          "indicator": "F",
+          "type": "PAY-ATTENTION",
+          "word": "ATTEND",
+          "roles": {
+            "NEUTRAL": "#V459463",
+            "VFORM": "BASE",
+            "LEX": "ATTEND",
+            "WNSENSE": "attend%2:39:00::"
+          },
+          "start": 44,
+          "end": 63
+        },
+        "V459463": {
+          "id": "V459463",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V459233",
+            "LEX": "THE"
+          },
+          "start": 54,
+          "end": 63
+        },
+        "V459233": {
+          "id": "V459233",
+          "indicator": "F",
+          "type": "SEQUENCE-VAL-NEXT",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V459463",
+            "SCALE": "RELATIONAL-PROPERTY-SCALE",
+            "LEX": "NEXT",
+            "WNSENSE": "next%5:00:00:succeeding:00"
+          },
+          "start": 58,
+          "end": 63
+        },
+        "root": "#V468356"
+      }
+    ]
+  ],
+  "sentence": "Her husband told Jane that she did not need to attend the next outing.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190805T105107",
+    "link": "http://trips.ihmc.us/parser/saved/20190805T105107-STEP-abhatia-none-Her_husband_told_Jane_that_she_did_not_n.xml",
+    "judgement": -1
+  }
+}

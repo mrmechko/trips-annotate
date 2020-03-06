@@ -1,0 +1,24 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V161742 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V160528 [label=<<font color="green"><br /></font> <font color="black">TRY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">TRY</font> <font color="green"><br /></font> <font color="green">try%1:04:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TRY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V160518 [label=<<font color="green"><br /></font> <font color="black">ANIMAL</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">MALTESE-DOG</font> <font color="green"><br /></font> <font color="green">Maltese_dog%1:05:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ANIMAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V160568 [label=<<font color="green"><br /></font> <font color="black">MOVE-RAPIDLY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">RUN</font> <font color="green"><br /></font> <font color="green">run%2:38:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MOVE-RAPIDLY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V160581 [label=<<font color="green"><br /></font> <font color="black">BACK</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">BEHIND</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BACK.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V160584 [label=<<font color="green"><br /></font> <font color="black">PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">ME</font> <font color="green"><br /></font> <font color="green">person%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V160589 [label=<<font color="green"><br /></font> <font color="black">SITUATED-IN</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">IN</font> <font color="green"><br /></font> <font color="green">in%4:02:01::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SITUATED-IN.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V160659 [label=<<font color="green"><br /></font> <font color="black">STATUS</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">CAGE</font> <font color="green"><br /></font> <font color="green">cage%1:26:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::STATUS.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V160528 -> V160568 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V160568 -> V160518 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V161742 -> V160528 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V160581 -> V160584 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V160528 -> V160518 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V160589 -> V160659 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V160589 -> V160568 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V160568 -> V160581 [label=" RESULT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V160581 -> V160518 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V160568 -> V160589 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

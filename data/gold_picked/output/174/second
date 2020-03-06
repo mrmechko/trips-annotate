@@ -1,0 +1,20 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V71208 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70532 [label=<<font color="green"><br /></font> <font color="black">TRANSPORT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">CARRY</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TRANSPORT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70493 [label=<<font color="green"><br /></font> <font color="black">WATER</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">WATER</font> <font color="green"><br /></font> <font color="green">water%1:27:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::WATER.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70497 [label=<<font color="green"><br /></font> <font color="black">BELOW</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">UNDER</font> <font color="green"><br /></font> <font color="green">below%4:02:01</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::BELOW.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70520 [label=<<font color="green"><br /></font> <font color="black">MANUFACTURED-OBJECT</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">WELL</font> <font color="green"><br /></font> <font color="green">well%1:06:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MANUFACTURED-OBJECT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70536 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">IT</font> <font color="green"><br /></font> <font color="green">entity%1:03:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70542 [label=<<font color="green"><br /></font> <font color="black">AWAY</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">AWAY</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::AWAY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70497 -> V70520 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V71208 -> V70532 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70542 -> V70536 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70497 -> V70532 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70532 -> V70493 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70532 -> V70536 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70532 -> V70497 [label=" RESULT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

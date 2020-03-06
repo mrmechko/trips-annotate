@@ -1,0 +1,1546 @@
+{
+  "parse": [
+    {
+      "V69079": {
+        "id": "V69079",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V68884",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 50
+      },
+      "V68884": {
+        "id": "V68884",
+        "indicator": "F",
+        "type": "SITUATION-ROOT",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V68660",
+          "SEQUENCE1": "#V68687",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 50
+      },
+      "V68687": {
+        "id": "V68687",
+        "indicator": "F",
+        "type": "MOVE-RAPIDLY",
+        "word": "RUN",
+        "roles": {
+          "AGENT": "#V68654",
+          "REASON": "#V68704",
+          "LEX": "RAN",
+          "WNSENSE": "run%2:38:00::"
+        },
+        "start": 0,
+        "end": 50
+      },
+      "V68660": {
+        "id": "V68660",
+        "indicator": "F",
+        "type": "ACTIVE-PERCEPTION",
+        "word": "HEAR",
+        "roles": {
+          "AGENT": "#V68654",
+          "NEUTRAL": "#V68670",
+          "LEX": "HEARD",
+          "WNSENSE": "look%2:39:00"
+        },
+        "start": 0,
+        "end": 50
+      },
+      "V68654": {
+        "id": "V68654",
+        "indicator": "THE",
+        "type": "FAMILY-RELATION",
+        "word": "MOTHER",
+        "roles": {
+          "ASSOC-POSS": "#V68649",
+          "LEX": "MOTHER",
+          "WNSENSE": "mother%1:18:00::"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V68649": {
+        "id": "V68649",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "HER",
+        "roles": {
+          "LEX": "HER",
+          "PROFORM": "HER",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 0,
+        "end": 11
+      },
+      "V68670": {
+        "id": "V68670",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "HER",
+        "roles": {
+          "PROFORM": "HER",
+          "LEX": "HER",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 17,
+        "end": 21
+      },
+      "V68704": {
+        "id": "V68704",
+        "indicator": "F",
+        "type": "PURPOSE",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V68725",
+          "FIGURE": "#V68687",
+          "LEX": "TO"
+        },
+        "start": 29,
+        "end": 50
+      },
+      "V68725": {
+        "id": "V68725",
+        "indicator": "F",
+        "type": "RELEASING",
+        "word": "RELEASE",
+        "roles": {
+          "AFFECTED": "#V68737",
+          "VFORM": "BASE",
+          "LEX": "RELEASE",
+          "WNSENSE": "release%1:22:00::"
+        },
+        "start": 32,
+        "end": 50
+      },
+      "V68737": {
+        "id": "V68737",
+        "indicator": "THE",
+        "type": "INTERNAL-BODY-PART",
+        "word": "TONGUE",
+        "roles": {
+          "ASSOC-POSS": "#V68732",
+          "LEX": "TONGUE",
+          "WNSENSE": "tongue%1:08:00::"
+        },
+        "start": 40,
+        "end": 50
+      },
+      "V68732": {
+        "id": "V68732",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "HER",
+        "roles": {
+          "LEX": "HER",
+          "PROFORM": "HER",
+          "WNSENSE": "woman%1:18:00",
+          "COREF": "#V68654"
+        },
+        "start": 40,
+        "end": 50
+      },
+      "root": "#V69079"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V69060": {
+          "id": "V69060",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V68676",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V68676": {
+          "id": "V68676",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V68660",
+            "SEQUENCE1": "#V68687",
+            "TENSE": "PAST",
+            "LEX": "AND",
+            "WNSENSE": "look%2:39:00"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V68660": {
+          "id": "V68660",
+          "indicator": "F",
+          "type": "ACTIVE-PERCEPTION",
+          "word": "HEAR",
+          "roles": {
+            "AGENT": "#V68654",
+            "NEUTRAL": "#V68670",
+            "TENSE": "PAST",
+            "LEX": "HEARD",
+            "WNSENSE": "look%2:39:00"
+          },
+          "start": 0,
+          "end": 21
+        },
+        "V68654": {
+          "id": "V68654",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "MOTHER",
+          "roles": {
+            "ASSOC-POSS": "#V68649",
+            "LEX": "MOTHER",
+            "WNSENSE": "mother%1:18:00::"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V68649": {
+          "id": "V68649",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V68670": {
+          "id": "V68670",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V68687": {
+          "id": "V68687",
+          "indicator": "F",
+          "type": "MOVE-RAPIDLY",
+          "word": "RUN",
+          "roles": {
+            "AGENT": "#V68654",
+            "REASON": "#V68704",
+            "TENSE": "PAST",
+            "LEX": "RAN",
+            "WNSENSE": "run%2:38:00::"
+          },
+          "start": 25,
+          "end": 50
+        },
+        "V68704": {
+          "id": "V68704",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V68725",
+            "FIGURE": "#V68687",
+            "LEX": "TO"
+          },
+          "start": 29,
+          "end": 50
+        },
+        "V68725": {
+          "id": "V68725",
+          "indicator": "F",
+          "type": "RELEASING",
+          "word": "RELEASE",
+          "roles": {
+            "AFFECTED": "#V68737",
+            "VFORM": "BASE",
+            "LEX": "RELEASE",
+            "WNSENSE": "release%1:22:00::"
+          },
+          "start": 32,
+          "end": 50
+        },
+        "V68737": {
+          "id": "V68737",
+          "indicator": "THE",
+          "type": "INTERNAL-BODY-PART",
+          "word": "TONGUE",
+          "roles": {
+            "ASSOC-POSS": "#V68732",
+            "LEX": "TONGUE",
+            "WNSENSE": "tongue%1:08:00::"
+          },
+          "start": 40,
+          "end": 50
+        },
+        "V68732": {
+          "id": "V68732",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 40,
+          "end": 50
+        },
+        "root": "#V69060"
+      }
+    ],
+    [
+      {
+        "V69196": {
+          "id": "V69196",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V68884",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V68884": {
+          "id": "V68884",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V68660",
+            "SEQUENCE1": "#V68690",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V68690": {
+          "id": "V68690",
+          "indicator": "F",
+          "type": "GOVERNING",
+          "word": "RUN",
+          "roles": {
+            "AGENT": "#V68654",
+            "AFFECTED": "#V68737",
+            "RESULT": "#V68700",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V68660": {
+          "id": "V68660",
+          "indicator": "F",
+          "type": "ACTIVE-PERCEPTION",
+          "word": "HEAR",
+          "roles": {
+            "AGENT": "#V68654",
+            "NEUTRAL": "#V68670",
+            "LEX": "HEARD",
+            "WNSENSE": "look%2:39:00"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V68654": {
+          "id": "V68654",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "MOTHER",
+          "roles": {
+            "ASSOC-POSS": "#V68649",
+            "LEX": "MOTHER",
+            "WNSENSE": "mother%1:18:00::"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V68649": {
+          "id": "V68649",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V68670": {
+          "id": "V68670",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V68700": {
+          "id": "V68700",
+          "indicator": "F",
+          "type": "RESULTING-STATE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V68722",
+            "FIGURE": "#V68737",
+            "LEX": "TO"
+          },
+          "start": 29,
+          "end": 40
+        },
+        "V68722": {
+          "id": "V68722",
+          "indicator": "BARE",
+          "type": "RELEASING",
+          "word": "RELEASE",
+          "roles": {
+            "LEX": "RELEASE",
+            "WNSENSE": "release%1:22:00::"
+          },
+          "start": 32,
+          "end": 40
+        },
+        "V68737": {
+          "id": "V68737",
+          "indicator": "THE",
+          "type": "INTERNAL-BODY-PART",
+          "word": "TONGUE",
+          "roles": {
+            "ASSOC-POSS": "#V68732",
+            "LEX": "TONGUE",
+            "WNSENSE": "tongue%1:08:00::"
+          },
+          "start": 40,
+          "end": 50
+        },
+        "V68732": {
+          "id": "V68732",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 40,
+          "end": 50
+        },
+        "root": "#V69196"
+      }
+    ],
+    [
+      {
+        "V69249": {
+          "id": "V69249",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V68884",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V68884": {
+          "id": "V68884",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V68660",
+            "SEQUENCE1": "#V68687",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V68687": {
+          "id": "V68687",
+          "indicator": "F",
+          "type": "MOVE-RAPIDLY",
+          "word": "RUN",
+          "roles": {
+            "AGENT": "#V68654",
+            "REASON": "#V68704",
+            "LEX": "RAN",
+            "WNSENSE": "run%2:38:00::"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V68660": {
+          "id": "V68660",
+          "indicator": "F",
+          "type": "ACTIVE-PERCEPTION",
+          "word": "HEAR",
+          "roles": {
+            "AGENT": "#V68654",
+            "NEUTRAL": "#V68670",
+            "LEX": "HEARD",
+            "WNSENSE": "look%2:39:00"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V68654": {
+          "id": "V68654",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "MOTHER",
+          "roles": {
+            "ASSOC-POSS": "#V68649",
+            "LEX": "MOTHER",
+            "WNSENSE": "mother%1:18:00::"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V68649": {
+          "id": "V68649",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V68670": {
+          "id": "V68670",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V68704": {
+          "id": "V68704",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V68725",
+            "FIGURE": "#V68687",
+            "LEX": "TO"
+          },
+          "start": 29,
+          "end": 50
+        },
+        "V68725": {
+          "id": "V68725",
+          "indicator": "F",
+          "type": "RELEASING",
+          "word": "RELEASE",
+          "roles": {
+            "AFFECTED": "#V68737",
+            "BENEFICIARY": "#V68733",
+            "VFORM": "BASE",
+            "LEX": "RELEASE",
+            "WNSENSE": "release%1:22:00::"
+          },
+          "start": 32,
+          "end": 50
+        },
+        "V68733": {
+          "id": "V68733",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 40,
+          "end": 44
+        },
+        "V68737": {
+          "id": "V68737",
+          "indicator": "BARE",
+          "type": "INTERNAL-BODY-PART",
+          "word": "TONGUE",
+          "roles": {
+            "LEX": "TONGUE",
+            "WNSENSE": "tongue%1:08:00::"
+          },
+          "start": 44,
+          "end": 50
+        },
+        "root": "#V69249"
+      }
+    ],
+    [
+      {
+        "V69284": {
+          "id": "V69284",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V68884",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V68884": {
+          "id": "V68884",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V68660",
+            "SEQUENCE1": "#V68690",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V68690": {
+          "id": "V68690",
+          "indicator": "F",
+          "type": "GOVERNING",
+          "word": "RUN",
+          "roles": {
+            "AGENT": "#V68654",
+            "AFFECTED": "#V68737",
+            "RESULT": "#V68698",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V68660": {
+          "id": "V68660",
+          "indicator": "F",
+          "type": "ACTIVE-PERCEPTION",
+          "word": "HEAR",
+          "roles": {
+            "AGENT": "#V68654",
+            "NEUTRAL": "#V68670",
+            "LEX": "HEARD",
+            "WNSENSE": "look%2:39:00"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V68654": {
+          "id": "V68654",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "MOTHER",
+          "roles": {
+            "ASSOC-POSS": "#V68649",
+            "LEX": "MOTHER",
+            "WNSENSE": "mother%1:18:00::"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V68649": {
+          "id": "V68649",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V68670": {
+          "id": "V68670",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V68698": {
+          "id": "V68698",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V68726",
+            "FIGURE": "#V68737",
+            "LEX": "TO"
+          },
+          "start": 29,
+          "end": 40
+        },
+        "V68726": {
+          "id": "V68726",
+          "indicator": "BARE",
+          "type": "VERSION",
+          "word": "RELEASE",
+          "roles": {
+            "LEX": "RELEASE",
+            "WNSENSE": "version%1:09:01"
+          },
+          "start": 32,
+          "end": 40
+        },
+        "V68737": {
+          "id": "V68737",
+          "indicator": "THE",
+          "type": "INTERNAL-BODY-PART",
+          "word": "TONGUE",
+          "roles": {
+            "ASSOC-POSS": "#V68732",
+            "LEX": "TONGUE",
+            "WNSENSE": "tongue%1:08:00::"
+          },
+          "start": 40,
+          "end": 50
+        },
+        "V68732": {
+          "id": "V68732",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 40,
+          "end": 50
+        },
+        "root": "#V69284"
+      }
+    ],
+    [
+      {
+        "V69313": {
+          "id": "V69313",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V68884",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V68884": {
+          "id": "V68884",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V68660",
+            "SEQUENCE1": "#V68690",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V68690": {
+          "id": "V68690",
+          "indicator": "F",
+          "type": "GOVERNING",
+          "word": "RUN",
+          "roles": {
+            "AGENT": "#V68654",
+            "AFFECTED": "#V68737",
+            "RESULT": "#V68700",
+            "LEX": "RAN"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V68660": {
+          "id": "V68660",
+          "indicator": "F",
+          "type": "ACTIVE-PERCEPTION",
+          "word": "HEAR",
+          "roles": {
+            "AGENT": "#V68654",
+            "NEUTRAL": "#V68670",
+            "LEX": "HEARD",
+            "WNSENSE": "look%2:39:00"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V68654": {
+          "id": "V68654",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "MOTHER",
+          "roles": {
+            "ASSOC-POSS": "#V68649",
+            "LEX": "MOTHER",
+            "WNSENSE": "mother%1:18:00::"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V68649": {
+          "id": "V68649",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V68670": {
+          "id": "V68670",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V68700": {
+          "id": "V68700",
+          "indicator": "F",
+          "type": "RESULTING-STATE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V68722",
+            "FIGURE": "#V68737",
+            "LEX": "TO"
+          },
+          "start": 29,
+          "end": 40
+        },
+        "V68722": {
+          "id": "V68722",
+          "indicator": "BARE",
+          "type": "RELEASING",
+          "word": "RELEASE",
+          "roles": {
+            "LEX": "RELEASE",
+            "WNSENSE": "release%1:22:00::"
+          },
+          "start": 32,
+          "end": 40
+        },
+        "V68737": {
+          "id": "V68737",
+          "indicator": "THE",
+          "type": "INTERNAL-BODY-PART",
+          "word": "TONGUE",
+          "roles": {
+            "ASSOC-POSS": "#V68732",
+            "LEX": "TONGUE",
+            "WNSENSE": "tongue%1:08:00::"
+          },
+          "start": 40,
+          "end": 50
+        },
+        "V68732": {
+          "id": "V68732",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 40,
+          "end": 50
+        },
+        "root": "#V69313"
+      }
+    ],
+    [
+      {
+        "V69158": {
+          "id": "V69158",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V68676",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V68676": {
+          "id": "V68676",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V68660",
+            "SEQUENCE1": "#V68690",
+            "TENSE": "PAST",
+            "LEX": "AND",
+            "WNSENSE": "look%2:39:00"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V68660": {
+          "id": "V68660",
+          "indicator": "F",
+          "type": "ACTIVE-PERCEPTION",
+          "word": "HEAR",
+          "roles": {
+            "AGENT": "#V68654",
+            "NEUTRAL": "#V68670",
+            "TENSE": "PAST",
+            "LEX": "HEARD",
+            "WNSENSE": "look%2:39:00"
+          },
+          "start": 0,
+          "end": 21
+        },
+        "V68654": {
+          "id": "V68654",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "MOTHER",
+          "roles": {
+            "ASSOC-POSS": "#V68649",
+            "LEX": "MOTHER",
+            "WNSENSE": "mother%1:18:00::"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V68649": {
+          "id": "V68649",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V68670": {
+          "id": "V68670",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V68690": {
+          "id": "V68690",
+          "indicator": "F",
+          "type": "GOVERNING",
+          "word": "RUN",
+          "roles": {
+            "AGENT": "#V68654",
+            "AFFECTED": "#V68737",
+            "RESULT": "#V68700",
+            "TENSE": "PAST",
+            "LEX": "RAN"
+          },
+          "start": 25,
+          "end": 50
+        },
+        "V68700": {
+          "id": "V68700",
+          "indicator": "F",
+          "type": "RESULTING-STATE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V68722",
+            "FIGURE": "#V68737",
+            "LEX": "TO"
+          },
+          "start": 29,
+          "end": 40
+        },
+        "V68722": {
+          "id": "V68722",
+          "indicator": "BARE",
+          "type": "RELEASING",
+          "word": "RELEASE",
+          "roles": {
+            "LEX": "RELEASE",
+            "WNSENSE": "release%1:22:00::"
+          },
+          "start": 32,
+          "end": 40
+        },
+        "V68737": {
+          "id": "V68737",
+          "indicator": "THE",
+          "type": "INTERNAL-BODY-PART",
+          "word": "TONGUE",
+          "roles": {
+            "ASSOC-POSS": "#V68732",
+            "LEX": "TONGUE",
+            "WNSENSE": "tongue%1:08:00::"
+          },
+          "start": 40,
+          "end": 50
+        },
+        "V68732": {
+          "id": "V68732",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 40,
+          "end": 50
+        },
+        "root": "#V69158"
+      }
+    ],
+    [
+      {
+        "V69187": {
+          "id": "V69187",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V68676",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V68676": {
+          "id": "V68676",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V68660",
+            "SEQUENCE1": "#V68687",
+            "TENSE": "PAST",
+            "LEX": "AND",
+            "WNSENSE": "look%2:39:00"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V68660": {
+          "id": "V68660",
+          "indicator": "F",
+          "type": "ACTIVE-PERCEPTION",
+          "word": "HEAR",
+          "roles": {
+            "AGENT": "#V68654",
+            "NEUTRAL": "#V68670",
+            "TENSE": "PAST",
+            "LEX": "HEARD",
+            "WNSENSE": "look%2:39:00"
+          },
+          "start": 0,
+          "end": 21
+        },
+        "V68654": {
+          "id": "V68654",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "MOTHER",
+          "roles": {
+            "ASSOC-POSS": "#V68649",
+            "LEX": "MOTHER",
+            "WNSENSE": "mother%1:18:00::"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V68649": {
+          "id": "V68649",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V68670": {
+          "id": "V68670",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V68687": {
+          "id": "V68687",
+          "indicator": "F",
+          "type": "MOVE-RAPIDLY",
+          "word": "RUN",
+          "roles": {
+            "AGENT": "#V68654",
+            "REASON": "#V68704",
+            "TENSE": "PAST",
+            "LEX": "RAN",
+            "WNSENSE": "run%2:38:00::"
+          },
+          "start": 25,
+          "end": 50
+        },
+        "V68704": {
+          "id": "V68704",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V68725",
+            "FIGURE": "#V68687",
+            "LEX": "TO"
+          },
+          "start": 29,
+          "end": 50
+        },
+        "V68725": {
+          "id": "V68725",
+          "indicator": "F",
+          "type": "RELEASING",
+          "word": "RELEASE",
+          "roles": {
+            "AFFECTED": "#V68737",
+            "BENEFICIARY": "#V68733",
+            "VFORM": "BASE",
+            "LEX": "RELEASE",
+            "WNSENSE": "release%1:22:00::"
+          },
+          "start": 32,
+          "end": 50
+        },
+        "V68733": {
+          "id": "V68733",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 40,
+          "end": 44
+        },
+        "V68737": {
+          "id": "V68737",
+          "indicator": "BARE",
+          "type": "INTERNAL-BODY-PART",
+          "word": "TONGUE",
+          "roles": {
+            "LEX": "TONGUE",
+            "WNSENSE": "tongue%1:08:00::"
+          },
+          "start": 44,
+          "end": 50
+        },
+        "root": "#V69187"
+      }
+    ],
+    [
+      {
+        "V69272": {
+          "id": "V69272",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V68676",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V68676": {
+          "id": "V68676",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V68660",
+            "SEQUENCE1": "#V68690",
+            "TENSE": "PAST",
+            "LEX": "AND",
+            "WNSENSE": "look%2:39:00"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V68660": {
+          "id": "V68660",
+          "indicator": "F",
+          "type": "ACTIVE-PERCEPTION",
+          "word": "HEAR",
+          "roles": {
+            "AGENT": "#V68654",
+            "NEUTRAL": "#V68670",
+            "TENSE": "PAST",
+            "LEX": "HEARD",
+            "WNSENSE": "look%2:39:00"
+          },
+          "start": 0,
+          "end": 21
+        },
+        "V68654": {
+          "id": "V68654",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "MOTHER",
+          "roles": {
+            "ASSOC-POSS": "#V68649",
+            "LEX": "MOTHER",
+            "WNSENSE": "mother%1:18:00::"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V68649": {
+          "id": "V68649",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V68670": {
+          "id": "V68670",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V68690": {
+          "id": "V68690",
+          "indicator": "F",
+          "type": "GOVERNING",
+          "word": "RUN",
+          "roles": {
+            "AGENT": "#V68654",
+            "AFFECTED": "#V68737",
+            "RESULT": "#V68698",
+            "TENSE": "PAST",
+            "LEX": "RAN"
+          },
+          "start": 25,
+          "end": 50
+        },
+        "V68698": {
+          "id": "V68698",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V68726",
+            "FIGURE": "#V68737",
+            "LEX": "TO"
+          },
+          "start": 29,
+          "end": 40
+        },
+        "V68726": {
+          "id": "V68726",
+          "indicator": "BARE",
+          "type": "VERSION",
+          "word": "RELEASE",
+          "roles": {
+            "LEX": "RELEASE",
+            "WNSENSE": "version%1:09:01"
+          },
+          "start": 32,
+          "end": 40
+        },
+        "V68737": {
+          "id": "V68737",
+          "indicator": "THE",
+          "type": "INTERNAL-BODY-PART",
+          "word": "TONGUE",
+          "roles": {
+            "ASSOC-POSS": "#V68732",
+            "LEX": "TONGUE",
+            "WNSENSE": "tongue%1:08:00::"
+          },
+          "start": 40,
+          "end": 50
+        },
+        "V68732": {
+          "id": "V68732",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 40,
+          "end": 50
+        },
+        "root": "#V69272"
+      }
+    ],
+    [
+      {
+        "V69301": {
+          "id": "V69301",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V68676",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 51
+        },
+        "V68676": {
+          "id": "V68676",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V68660",
+            "SEQUENCE1": "#V68690",
+            "TENSE": "PAST",
+            "LEX": "AND",
+            "WNSENSE": "look%2:39:00"
+          },
+          "start": 0,
+          "end": 50
+        },
+        "V68660": {
+          "id": "V68660",
+          "indicator": "F",
+          "type": "ACTIVE-PERCEPTION",
+          "word": "HEAR",
+          "roles": {
+            "AGENT": "#V68654",
+            "NEUTRAL": "#V68670",
+            "TENSE": "PAST",
+            "LEX": "HEARD",
+            "WNSENSE": "look%2:39:00"
+          },
+          "start": 0,
+          "end": 21
+        },
+        "V68654": {
+          "id": "V68654",
+          "indicator": "THE",
+          "type": "FAMILY-RELATION",
+          "word": "MOTHER",
+          "roles": {
+            "ASSOC-POSS": "#V68649",
+            "LEX": "MOTHER",
+            "WNSENSE": "mother%1:18:00::"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V68649": {
+          "id": "V68649",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V68670": {
+          "id": "V68670",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 17,
+          "end": 21
+        },
+        "V68690": {
+          "id": "V68690",
+          "indicator": "F",
+          "type": "GOVERNING",
+          "word": "RUN",
+          "roles": {
+            "AGENT": "#V68654",
+            "AFFECTED": "#V68737",
+            "RESULT": "#V68700",
+            "TENSE": "PAST",
+            "LEX": "RAN"
+          },
+          "start": 25,
+          "end": 50
+        },
+        "V68700": {
+          "id": "V68700",
+          "indicator": "F",
+          "type": "RESULTING-STATE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V68722",
+            "FIGURE": "#V68737",
+            "LEX": "TO"
+          },
+          "start": 29,
+          "end": 40
+        },
+        "V68722": {
+          "id": "V68722",
+          "indicator": "BARE",
+          "type": "RELEASING",
+          "word": "RELEASE",
+          "roles": {
+            "LEX": "RELEASE",
+            "WNSENSE": "release%1:22:00::"
+          },
+          "start": 32,
+          "end": 40
+        },
+        "V68737": {
+          "id": "V68737",
+          "indicator": "THE",
+          "type": "INTERNAL-BODY-PART",
+          "word": "TONGUE",
+          "roles": {
+            "ASSOC-POSS": "#V68732",
+            "LEX": "TONGUE",
+            "WNSENSE": "tongue%1:08:00::"
+          },
+          "start": 40,
+          "end": 50
+        },
+        "V68732": {
+          "id": "V68732",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 40,
+          "end": 50
+        },
+        "root": "#V69301"
+      }
+    ]
+  ],
+  "sentence": "Her mother heard her and ran to release her tongue.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190910T125947",
+    "link": "http://trips.ihmc.us/parser/saved/20190910T125947-STEP-abhatia-0-Her_mother_heard_her_and_ran_to_release_.xml",
+    "judgement": 0
+  }
+}

@@ -1,0 +1,804 @@
+{
+  "parse": [
+    {
+      "V171027": {
+        "id": "V171027",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V170782",
+          "LEX": "STARTED"
+        },
+        "start": 0,
+        "end": 33
+      },
+      "V170782": {
+        "id": "V170782",
+        "indicator": "F",
+        "type": "START",
+        "word": "START",
+        "roles": {
+          "AGENT": "#V170766",
+          "FORMAL": "#V170827",
+          "TIME": "#V170760",
+          "TENSE": "PAST",
+          "LEX": "STARTED"
+        },
+        "start": 0,
+        "end": 33
+      },
+      "V170760": {
+        "id": "V170760",
+        "indicator": "F",
+        "type": "EVENT-TIME-REL-CULMINATION",
+        "word": "EVENTUALLY",
+        "roles": {
+          "FIGURE": "#V170782",
+          "LEX": "EVENTUALLY",
+          "WNSENSE": "eventually%4:02:00::"
+        },
+        "start": 0,
+        "end": 10
+      },
+      "V170766": {
+        "id": "V170766",
+        "indicator": "PRO-SET",
+        "type": "REFERENTIAL-SEM",
+        "word": "THEY",
+        "roles": {
+          "PROFORM": "THEY",
+          "LEX": "THEY",
+          "WNSENSE": "entity%1:03:00"
+        },
+        "start": 12,
+        "end": 17
+      },
+      "V170827": {
+        "id": "V170827",
+        "indicator": "F",
+        "type": "FIGHTING",
+        "word": "FIGHT",
+        "roles": {
+          "AGENT": "#V170766",
+          "VFORM": "BASE",
+          "LEX": "FIGHT",
+          "WNSENSE": "fight%2:33:00::"
+        },
+        "start": 25,
+        "end": 33
+      },
+      "root": "#V171027"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V171132": {
+          "id": "V171132",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V170786",
+            "LEX": "STARTED"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V170786": {
+          "id": "V170786",
+          "indicator": "F",
+          "type": "START",
+          "word": "START",
+          "roles": {
+            "AGENT": "#V170766",
+            "TIME": "#V170760",
+            "REASON": "#V170808",
+            "TENSE": "PAST",
+            "LEX": "STARTED"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V170760": {
+          "id": "V170760",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL-CULMINATION",
+          "word": "EVENTUALLY",
+          "roles": {
+            "FIGURE": "#V170786",
+            "LEX": "EVENTUALLY",
+            "WNSENSE": "eventually%4:02:00::"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V170766": {
+          "id": "V170766",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 12,
+          "end": 17
+        },
+        "V170808": {
+          "id": "V170808",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V170827",
+            "FIGURE": "#V170786",
+            "LEX": "TO"
+          },
+          "start": 25,
+          "end": 33
+        },
+        "V170827": {
+          "id": "V170827",
+          "indicator": "F",
+          "type": "FIGHTING",
+          "word": "FIGHT",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "FIGHT",
+            "WNSENSE": "fight%2:33:00::"
+          },
+          "start": 28,
+          "end": 33
+        },
+        "root": "#V171132"
+      }
+    ],
+    [
+      {
+        "V171198": {
+          "id": "V171198",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V170782",
+            "LEX": "STARTED"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V170782": {
+          "id": "V170782",
+          "indicator": "F",
+          "type": "START",
+          "word": "START",
+          "roles": {
+            "AGENT": "#V170766",
+            "FORMAL": "#V170827",
+            "TIME": "#V170760",
+            "TENSE": "PAST",
+            "LEX": "STARTED"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V170760": {
+          "id": "V170760",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL-CULMINATION",
+          "word": "EVENTUALLY",
+          "roles": {
+            "FIGURE": "#V170782",
+            "LEX": "EVENTUALLY",
+            "WNSENSE": "eventually%4:02:00::"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V170766": {
+          "id": "V170766",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 12,
+          "end": 17
+        },
+        "V170827": {
+          "id": "V170827",
+          "indicator": "F",
+          "type": "FIGHTING",
+          "word": "FIGHT",
+          "roles": {
+            "AGENT": "#V170766",
+            "VFORM": "BASE",
+            "LEX": "FIGHT",
+            "WNSENSE": "fight%2:33:00::"
+          },
+          "start": 25,
+          "end": 33
+        },
+        "root": "#V171198"
+      }
+    ],
+    [
+      {
+        "V171275": {
+          "id": "V171275",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V170786",
+            "LEX": "STARTED"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V170786": {
+          "id": "V170786",
+          "indicator": "F",
+          "type": "START",
+          "word": "START",
+          "roles": {
+            "AGENT": "#V170766",
+            "TIME": "#V170760",
+            "REASON": "#V170808",
+            "TENSE": "PAST",
+            "LEX": "STARTED"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V170760": {
+          "id": "V170760",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL-CULMINATION",
+          "word": "EVENTUALLY",
+          "roles": {
+            "FIGURE": "#V170786",
+            "LEX": "EVENTUALLY",
+            "WNSENSE": "eventually%4:02:00::"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V170766": {
+          "id": "V170766",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 12,
+          "end": 17
+        },
+        "V170808": {
+          "id": "V170808",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V170827",
+            "FIGURE": "#V170786",
+            "LEX": "TO"
+          },
+          "start": 25,
+          "end": 33
+        },
+        "V170827": {
+          "id": "V170827",
+          "indicator": "F",
+          "type": "FIGHTING",
+          "word": "FIGHT",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "FIGHT",
+            "WNSENSE": "fight%2:33:00::"
+          },
+          "start": 28,
+          "end": 33
+        },
+        "root": "#V171275"
+      }
+    ],
+    [
+      {
+        "V170977": {
+          "id": "V170977",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V170782",
+            "MOD": "#V170760",
+            "LEX": "STARTED"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V170760": {
+          "id": "V170760",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL-CULMINATION",
+          "word": "EVENTUALLY",
+          "roles": {
+            "FIGURE": "#V170977",
+            "LEX": "EVENTUALLY",
+            "WNSENSE": "eventually%4:02:00::"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V170782": {
+          "id": "V170782",
+          "indicator": "F",
+          "type": "START",
+          "word": "START",
+          "roles": {
+            "AGENT": "#V170766",
+            "FORMAL": "#V170827",
+            "TENSE": "PAST",
+            "LEX": "STARTED",
+            "WNSENSE": "start%1:11:00::"
+          },
+          "start": 12,
+          "end": 33
+        },
+        "V170766": {
+          "id": "V170766",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 12,
+          "end": 17
+        },
+        "V170827": {
+          "id": "V170827",
+          "indicator": "F",
+          "type": "FIGHTING",
+          "word": "FIGHT",
+          "roles": {
+            "AGENT": "#V170766",
+            "VFORM": "BASE",
+            "LEX": "FIGHT",
+            "WNSENSE": "fight%2:33:00::"
+          },
+          "start": 25,
+          "end": 33
+        },
+        "root": "#V170977"
+      }
+    ],
+    [
+      {
+        "V171123": {
+          "id": "V171123",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V170786",
+            "MOD": "#V170760",
+            "LEX": "STARTED"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V170760": {
+          "id": "V170760",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL-CULMINATION",
+          "word": "EVENTUALLY",
+          "roles": {
+            "FIGURE": "#V171123",
+            "LEX": "EVENTUALLY",
+            "WNSENSE": "eventually%4:02:00::"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V170786": {
+          "id": "V170786",
+          "indicator": "F",
+          "type": "START",
+          "word": "START",
+          "roles": {
+            "AGENT": "#V170766",
+            "REASON": "#V170808",
+            "TENSE": "PAST",
+            "LEX": "STARTED",
+            "WNSENSE": "start%1:11:00::"
+          },
+          "start": 12,
+          "end": 33
+        },
+        "V170766": {
+          "id": "V170766",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 12,
+          "end": 17
+        },
+        "V170808": {
+          "id": "V170808",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V170827",
+            "FIGURE": "#V170786",
+            "LEX": "TO"
+          },
+          "start": 25,
+          "end": 33
+        },
+        "V170827": {
+          "id": "V170827",
+          "indicator": "F",
+          "type": "FIGHTING",
+          "word": "FIGHT",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "FIGHT",
+            "WNSENSE": "fight%2:33:00::"
+          },
+          "start": 28,
+          "end": 33
+        },
+        "root": "#V171123"
+      }
+    ],
+    [
+      {
+        "V170977": {
+          "id": "V170977",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V170782",
+            "MOD": "#V170760",
+            "LEX": "STARTED"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V170760": {
+          "id": "V170760",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL-CULMINATION",
+          "word": "EVENTUALLY",
+          "roles": {
+            "FIGURE": "#V170977",
+            "LEX": "EVENTUALLY",
+            "WNSENSE": "eventually%4:02:00::"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V170782": {
+          "id": "V170782",
+          "indicator": "F",
+          "type": "START",
+          "word": "START",
+          "roles": {
+            "AGENT": "#V170766",
+            "FORMAL": "#V170827",
+            "TENSE": "PAST",
+            "LEX": "STARTED",
+            "WNSENSE": "start%1:11:00::"
+          },
+          "start": 12,
+          "end": 33
+        },
+        "V170766": {
+          "id": "V170766",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 12,
+          "end": 17
+        },
+        "V170827": {
+          "id": "V170827",
+          "indicator": "F",
+          "type": "FIGHTING",
+          "word": "FIGHT",
+          "roles": {
+            "AGENT": "#V170766",
+            "VFORM": "BASE",
+            "LEX": "FIGHT",
+            "WNSENSE": "fight%2:33:00::"
+          },
+          "start": 25,
+          "end": 33
+        },
+        "root": "#V170977"
+      }
+    ],
+    [
+      {
+        "V171123": {
+          "id": "V171123",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V170786",
+            "MOD": "#V170760",
+            "LEX": "STARTED"
+          },
+          "start": 0,
+          "end": 34
+        },
+        "V170760": {
+          "id": "V170760",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL-CULMINATION",
+          "word": "EVENTUALLY",
+          "roles": {
+            "FIGURE": "#V171123",
+            "LEX": "EVENTUALLY",
+            "WNSENSE": "eventually%4:02:00::"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V170786": {
+          "id": "V170786",
+          "indicator": "F",
+          "type": "START",
+          "word": "START",
+          "roles": {
+            "AGENT": "#V170766",
+            "REASON": "#V170808",
+            "TENSE": "PAST",
+            "LEX": "STARTED",
+            "WNSENSE": "start%1:11:00::"
+          },
+          "start": 12,
+          "end": 33
+        },
+        "V170766": {
+          "id": "V170766",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 12,
+          "end": 17
+        },
+        "V170808": {
+          "id": "V170808",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V170827",
+            "FIGURE": "#V170786",
+            "LEX": "TO"
+          },
+          "start": 25,
+          "end": 33
+        },
+        "V170827": {
+          "id": "V170827",
+          "indicator": "F",
+          "type": "FIGHTING",
+          "word": "FIGHT",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "FIGHT",
+            "WNSENSE": "fight%2:33:00::"
+          },
+          "start": 28,
+          "end": 33
+        },
+        "root": "#V171123"
+      }
+    ],
+    [
+      {
+        "V171027": {
+          "id": "V171027",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V170782",
+            "LEX": "STARTED"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V170782": {
+          "id": "V170782",
+          "indicator": "F",
+          "type": "START",
+          "word": "START",
+          "roles": {
+            "AGENT": "#V170766",
+            "FORMAL": "#V170827",
+            "TIME": "#V170760",
+            "TENSE": "PAST",
+            "LEX": "STARTED"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V170760": {
+          "id": "V170760",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL-CULMINATION",
+          "word": "EVENTUALLY",
+          "roles": {
+            "FIGURE": "#V170782",
+            "LEX": "EVENTUALLY",
+            "WNSENSE": "eventually%4:02:00::"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V170766": {
+          "id": "V170766",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 12,
+          "end": 17
+        },
+        "V170827": {
+          "id": "V170827",
+          "indicator": "F",
+          "type": "FIGHTING",
+          "word": "FIGHT",
+          "roles": {
+            "AGENT": "#V170766",
+            "VFORM": "BASE",
+            "LEX": "FIGHT",
+            "WNSENSE": "fight%2:33:00::"
+          },
+          "start": 25,
+          "end": 33
+        },
+        "root": "#V171027"
+      }
+    ],
+    [
+      {
+        "V171132": {
+          "id": "V171132",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V170786",
+            "LEX": "STARTED"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V170786": {
+          "id": "V170786",
+          "indicator": "F",
+          "type": "START",
+          "word": "START",
+          "roles": {
+            "AGENT": "#V170766",
+            "TIME": "#V170760",
+            "REASON": "#V170808",
+            "TENSE": "PAST",
+            "LEX": "STARTED"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V170760": {
+          "id": "V170760",
+          "indicator": "F",
+          "type": "EVENT-TIME-REL-CULMINATION",
+          "word": "EVENTUALLY",
+          "roles": {
+            "FIGURE": "#V170786",
+            "LEX": "EVENTUALLY",
+            "WNSENSE": "eventually%4:02:00::"
+          },
+          "start": 0,
+          "end": 10
+        },
+        "V170766": {
+          "id": "V170766",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 12,
+          "end": 17
+        },
+        "V170808": {
+          "id": "V170808",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V170827",
+            "FIGURE": "#V170786",
+            "LEX": "TO"
+          },
+          "start": 25,
+          "end": 33
+        },
+        "V170827": {
+          "id": "V170827",
+          "indicator": "F",
+          "type": "FIGHTING",
+          "word": "FIGHT",
+          "roles": {
+            "VFORM": "BASE",
+            "LEX": "FIGHT",
+            "WNSENSE": "fight%2:33:00::"
+          },
+          "start": 28,
+          "end": 33
+        },
+        "root": "#V171132"
+      }
+    ]
+  ],
+  "sentence": "Eventually, they started to fight.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190826T135707",
+    "link": "http://trips.ihmc.us/parser/saved/20190826T135707-STEP-abhatia-0-Eventually_they_started_to_fight_.xml",
+    "judgement": 0
+  }
+}

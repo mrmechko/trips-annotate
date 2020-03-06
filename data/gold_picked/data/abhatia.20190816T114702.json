@@ -1,0 +1,712 @@
+{
+  "parse": [
+    {
+      "V134177": {
+        "id": "V134177",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V134146",
+          "LEX": "SPIT"
+        },
+        "start": 0,
+        "end": 7
+      },
+      "V134146": {
+        "id": "V134146",
+        "indicator": "F",
+        "type": "EXPECTORATE",
+        "word": "SPIT",
+        "roles": {
+          "AFFECTED": "#V134132",
+          "TENSE": "PRES",
+          "LEX": "SPIT",
+          "WNSENSE": "spit%2:29:00::"
+        },
+        "start": 0,
+        "end": 7
+      },
+      "V134132": {
+        "id": "V134132",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "root": "#V134177"
+    },
+    {
+      "V134174": {
+        "id": "V134174",
+        "indicator": "SPEECHACT",
+        "type": "SA_IDENTIFY",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V134150",
+          "LEX": "IT"
+        },
+        "start": 7,
+        "end": 9
+      },
+      "V134150": {
+        "id": "V134150",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00",
+          "COREF": "#V134146"
+        },
+        "start": 7,
+        "end": 9
+      },
+      "root": "#V134174"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V134222": {
+          "id": "V134222",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V134146",
+            "LEX": "SPIT"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V134146": {
+          "id": "V134146",
+          "indicator": "F",
+          "type": "EXPECTORATE",
+          "word": "SPIT",
+          "roles": {
+            "AFFECTED": "#V134191",
+            "TENSE": "PRES",
+            "LEX": "SPIT",
+            "WNSENSE": "spit%2:29:00::"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V134191": {
+          "id": "V134191",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "root": "#V134222"
+      },
+      {
+        "V134174": {
+          "id": "V134174",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V134150",
+            "LEX": "IT"
+          },
+          "start": 7,
+          "end": 10
+        },
+        "V134150": {
+          "id": "V134150",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 7,
+          "end": 9
+        },
+        "root": "#V134174"
+      }
+    ],
+    [
+      {
+        "V134177": {
+          "id": "V134177",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V134146",
+            "LEX": "SPIT"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V134146": {
+          "id": "V134146",
+          "indicator": "F",
+          "type": "EXPECTORATE",
+          "word": "SPIT",
+          "roles": {
+            "AFFECTED": "#V134132",
+            "TENSE": "PRES",
+            "LEX": "SPIT",
+            "WNSENSE": "spit%2:29:00::"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V134132": {
+          "id": "V134132",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "root": "#V134177"
+      },
+      {
+        "V134174": {
+          "id": "V134174",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V134150",
+            "LEX": "IT"
+          },
+          "start": 7,
+          "end": 9
+        },
+        "V134150": {
+          "id": "V134150",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 7,
+          "end": 9
+        },
+        "root": "#V134174"
+      }
+    ],
+    [
+      {
+        "V134177": {
+          "id": "V134177",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V134146",
+            "LEX": "SPIT"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V134146": {
+          "id": "V134146",
+          "indicator": "F",
+          "type": "EXPECTORATE",
+          "word": "SPIT",
+          "roles": {
+            "AFFECTED": "#V134132",
+            "TENSE": "PRES",
+            "LEX": "SPIT",
+            "WNSENSE": "spit%2:29:00::"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V134132": {
+          "id": "V134132",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "root": "#V134177"
+      },
+      {
+        "V134241": {
+          "id": "V134241",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V134151",
+            "LEX": "IT"
+          },
+          "start": 7,
+          "end": 10
+        },
+        "V134151": {
+          "id": "V134151",
+          "indicator": "PRO",
+          "type": "EXPLETIVE",
+          "word": null,
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT"
+          },
+          "start": 7,
+          "end": 9
+        },
+        "root": "#V134241"
+      }
+    ],
+    [
+      {
+        "V134251": {
+          "id": "V134251",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V134146",
+            "LEX": "SPIT"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V134146": {
+          "id": "V134146",
+          "indicator": "F",
+          "type": "EXPECTORATE",
+          "word": "SPIT",
+          "roles": {
+            "AFFECTED": "#V134200",
+            "TENSE": "PRES",
+            "LEX": "SPIT",
+            "WNSENSE": "spit%2:29:00::"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V134200": {
+          "id": "V134200",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V134191",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V134191": {
+          "id": "V134191",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "root": "#V134251"
+      },
+      {
+        "V134174": {
+          "id": "V134174",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V134150",
+            "LEX": "IT"
+          },
+          "start": 7,
+          "end": 10
+        },
+        "V134150": {
+          "id": "V134150",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 7,
+          "end": 9
+        },
+        "root": "#V134174"
+      }
+    ],
+    [
+      {
+        "V134222": {
+          "id": "V134222",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V134146",
+            "LEX": "SPIT"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V134146": {
+          "id": "V134146",
+          "indicator": "F",
+          "type": "EXPECTORATE",
+          "word": "SPIT",
+          "roles": {
+            "AFFECTED": "#V134191",
+            "TENSE": "PRES",
+            "LEX": "SPIT",
+            "WNSENSE": "spit%2:29:00::"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V134191": {
+          "id": "V134191",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "root": "#V134222"
+      },
+      {
+        "V134174": {
+          "id": "V134174",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V134150",
+            "LEX": "IT"
+          },
+          "start": 7,
+          "end": 9
+        },
+        "V134150": {
+          "id": "V134150",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 7,
+          "end": 9
+        },
+        "root": "#V134174"
+      }
+    ],
+    [
+      {
+        "V134222": {
+          "id": "V134222",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V134146",
+            "LEX": "SPIT"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V134146": {
+          "id": "V134146",
+          "indicator": "F",
+          "type": "EXPECTORATE",
+          "word": "SPIT",
+          "roles": {
+            "AFFECTED": "#V134191",
+            "TENSE": "PRES",
+            "LEX": "SPIT",
+            "WNSENSE": "spit%2:29:00::"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V134191": {
+          "id": "V134191",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "root": "#V134222"
+      },
+      {
+        "V134241": {
+          "id": "V134241",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V134151",
+            "LEX": "IT"
+          },
+          "start": 7,
+          "end": 10
+        },
+        "V134151": {
+          "id": "V134151",
+          "indicator": "PRO",
+          "type": "EXPLETIVE",
+          "word": null,
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT"
+          },
+          "start": 7,
+          "end": 9
+        },
+        "root": "#V134241"
+      }
+    ],
+    [
+      {
+        "V134177": {
+          "id": "V134177",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V134146",
+            "LEX": "SPIT"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V134146": {
+          "id": "V134146",
+          "indicator": "F",
+          "type": "EXPECTORATE",
+          "word": "SPIT",
+          "roles": {
+            "AFFECTED": "#V134132",
+            "TENSE": "PRES",
+            "LEX": "SPIT",
+            "WNSENSE": "spit%2:29:00::"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V134132": {
+          "id": "V134132",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "root": "#V134177"
+      },
+      {
+        "V134150": {
+          "id": "V134150",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 7,
+          "end": 9
+        },
+        "root": "#V134150"
+      }
+    ],
+    [
+      {
+        "V134177": {
+          "id": "V134177",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V134146",
+            "LEX": "SPIT"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V134146": {
+          "id": "V134146",
+          "indicator": "F",
+          "type": "EXPECTORATE",
+          "word": "SPIT",
+          "roles": {
+            "AFFECTED": "#V134132",
+            "TENSE": "PRES",
+            "LEX": "SPIT",
+            "WNSENSE": "spit%2:29:00::"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V134132": {
+          "id": "V134132",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "root": "#V134177"
+      },
+      {
+        "V134151": {
+          "id": "V134151",
+          "indicator": "PRO",
+          "type": "EXPLETIVE",
+          "word": null,
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT"
+          },
+          "start": 7,
+          "end": 9
+        },
+        "root": "#V134151"
+      }
+    ],
+    [
+      {
+        "V134222": {
+          "id": "V134222",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V134146",
+            "LEX": "SPIT"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V134146": {
+          "id": "V134146",
+          "indicator": "F",
+          "type": "EXPECTORATE",
+          "word": "SPIT",
+          "roles": {
+            "AFFECTED": "#V134191",
+            "TENSE": "PRES",
+            "LEX": "SPIT",
+            "WNSENSE": "spit%2:29:00::"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V134191": {
+          "id": "V134191",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(I)",
+            "VAL": "(I)",
+            "LEX": "I"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "root": "#V134222"
+      },
+      {
+        "V134150": {
+          "id": "V134150",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 7,
+          "end": 9
+        },
+        "root": "#V134150"
+      }
+    ]
+  ],
+  "sentence": "I spit it.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190816T114702",
+    "link": "http://trips.ihmc.us/parser/saved/20190816T114702-STEP-abhatia-none-I_spit_it_.xml",
+    "judgement": -1
+  }
+}

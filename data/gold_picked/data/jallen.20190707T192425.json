@@ -1,0 +1,234 @@
+{
+  "parse": [
+    {
+      "V115025": {
+        "id": "V115025",
+        "indicator": "SPEECHACT",
+        "type": "SA_YN-QUESTION",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "YNQ",
+          "CONTENT": "#V114892",
+          "LEX": "SEE"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V114892": {
+        "id": "V114892",
+        "indicator": "F",
+        "type": "ACTIVE-PERCEPTION",
+        "word": "SEE",
+        "roles": {
+          "EXPERIENCER": "#V114886",
+          "NEUTRAL": "#V114915",
+          "TENSE": "PAST",
+          "MODALITY": "(:* DO DO)",
+          "LEX": "SEE"
+        },
+        "start": 0,
+        "end": 22
+      },
+      "V114886": {
+        "id": "V114886",
+        "indicator": "PRO",
+        "type": "MALE-PERSON",
+        "word": "HE",
+        "roles": {
+          "PROFORM": "HE",
+          "LEX": "HE"
+        },
+        "start": 4,
+        "end": 7
+      },
+      "V114915": {
+        "id": "V114915",
+        "indicator": "THE",
+        "type": "GATHERING-EVENT",
+        "word": "CONCERT",
+        "roles": {
+          "LEX": "CONCERT"
+        },
+        "start": 11,
+        "end": 22
+      },
+      "root": "#V115025"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V115040": {
+          "id": "V115040",
+          "indicator": "SPEECHACT",
+          "type": "SA_YN-QUESTION",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "YNQ",
+            "CONTENT": "#V114895",
+            "LEX": "SEE"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V114895": {
+          "id": "V114895",
+          "indicator": "F",
+          "type": "UNDERSTAND",
+          "word": "SEE",
+          "roles": {
+            "EXPERIENCER": "#V114886",
+            "FORMAL": "#V114915",
+            "TENSE": "PAST",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "SEE"
+          },
+          "start": 0,
+          "end": 22
+        },
+        "V114886": {
+          "id": "V114886",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE"
+          },
+          "start": 4,
+          "end": 7
+        },
+        "V114915": {
+          "id": "V114915",
+          "indicator": "THE",
+          "type": "GATHERING-EVENT",
+          "word": "CONCERT",
+          "roles": {
+            "LEX": "CONCERT"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "root": "#V115040"
+      }
+    ],
+    [
+      {
+        "V115025": {
+          "id": "V115025",
+          "indicator": "SPEECHACT",
+          "type": "SA_YN-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V114892",
+            "LEX": "SEE"
+          },
+          "start": 0,
+          "end": 22
+        },
+        "V114892": {
+          "id": "V114892",
+          "indicator": "F",
+          "type": "ACTIVE-PERCEPTION",
+          "word": "SEE",
+          "roles": {
+            "EXPERIENCER": "#V114886",
+            "NEUTRAL": "#V114915",
+            "TENSE": "PAST",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "SEE"
+          },
+          "start": 0,
+          "end": 22
+        },
+        "V114886": {
+          "id": "V114886",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE"
+          },
+          "start": 4,
+          "end": 7
+        },
+        "V114915": {
+          "id": "V114915",
+          "indicator": "THE",
+          "type": "GATHERING-EVENT",
+          "word": "CONCERT",
+          "roles": {
+            "LEX": "CONCERT"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "root": "#V115025"
+      }
+    ],
+    [
+      {
+        "V115040": {
+          "id": "V115040",
+          "indicator": "SPEECHACT",
+          "type": "SA_YN-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V114895",
+            "LEX": "SEE"
+          },
+          "start": 0,
+          "end": 22
+        },
+        "V114895": {
+          "id": "V114895",
+          "indicator": "F",
+          "type": "UNDERSTAND",
+          "word": "SEE",
+          "roles": {
+            "EXPERIENCER": "#V114886",
+            "FORMAL": "#V114915",
+            "TENSE": "PAST",
+            "MODALITY": "(:* DO DO)",
+            "LEX": "SEE"
+          },
+          "start": 0,
+          "end": 22
+        },
+        "V114886": {
+          "id": "V114886",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HE",
+          "roles": {
+            "PROFORM": "HE",
+            "LEX": "HE"
+          },
+          "start": 4,
+          "end": 7
+        },
+        "V114915": {
+          "id": "V114915",
+          "indicator": "THE",
+          "type": "GATHERING-EVENT",
+          "word": "CONCERT",
+          "roles": {
+            "LEX": "CONCERT"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "root": "#V115040"
+      }
+    ]
+  ],
+  "sentence": "Did he see the concert? ",
+  "annotation": {
+    "judge": "jallen",
+    "parser": "STEP",
+    "timestamp": "20190707T192425",
+    "link": "http://trips.ihmc.us/parser/saved/20190707T192425-STEP-jallen-0-Did_he_see_the_concert_.xml",
+    "judgement": 0
+  }
+}

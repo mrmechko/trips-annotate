@@ -1,0 +1,29 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V71442 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70411 [label=<<font color="green"><br /></font> <font color="black">ENDURING</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">SUFFER</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::ENDURING.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70398 [label=<<font color="green"><br /></font> <font color="black">THEREFORE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">THEREFORE</font> <font color="green"><br /></font> <font color="green">therefore%4:02:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::THEREFORE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70406 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HE</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70414 [label=<<font color="green"><br /></font> <font color="black">DUE-TO</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">DUE</font> <font color="green"><br /></font> <font color="green">due%4:02:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DUE-TO.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70445 [label=<<font color="green"><br /></font> <font color="black">HEADACHE</font> <font color="green"><br /></font> <font color="red">BARE</font> <font color="blue">HEADACHE</font> <font color="green"><br /></font> <font color="green">headache%1:26:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::HEADACHE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70455 [label=<<font color="green"><br /></font> <font color="black">TIME-DURATION-REL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">FOR</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::TIME-DURATION-REL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70483 [label=<<font color="green"><br /></font> <font color="black">QUANTITY</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">* </font> <font color="green"><br /></font> <font color="green">month%1:28:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::QUANTITY.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70476 [label=<<font color="green"><br /></font> <font color="black">NUMBER</font> <font color="green"><br /></font> <font color="red">A</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::NUMBER.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V70479 [label=<<font color="green"><br /></font> <font color="black">EVENT-DURATION-MODIFIER</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">LONG</font> <font color="green"><br /></font> <font color="green">long%4:02:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EVENT-DURATION-MODIFIER.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V71442 -> V70411 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70414 -> V70445 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70455 -> V70411 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70411 -> V70455 [label=" EXTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70479 -> V70483 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70483 -> V70479 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70414 -> V70411 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70398 -> V70411 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70455 -> V70483 [label=" GROUND   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70483 -> V70476 [label=" AMOUNT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70411 -> V70398 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70411 -> V70414 [label=" REASON   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V70411 -> V70406 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

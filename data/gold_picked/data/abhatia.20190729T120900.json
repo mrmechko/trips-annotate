@@ -1,0 +1,792 @@
+{
+  "parse": [
+    {
+      "V81627": {
+        "id": "V81627",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V81078",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 65
+      },
+      "V81078": {
+        "id": "V81078",
+        "indicator": "F",
+        "type": "EVENT-OF-CAUSATION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V81043",
+          "SEQUENCE1": "#V81089",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 65
+      },
+      "V81043": {
+        "id": "V81043",
+        "indicator": "F",
+        "type": "COME",
+        "word": "COME",
+        "roles": {
+          "AFFECTED": "#V81031",
+          "TIME": "#V80941",
+          "MOD": "#V81058",
+          "TENSE": "PAST",
+          "LEX": "CAME"
+        },
+        "start": 0,
+        "end": 47
+      },
+      "V80941": {
+        "id": "V80941",
+        "indicator": "F",
+        "type": "WHEN-WHILE",
+        "word": "WHEN",
+        "roles": {
+          "GROUND": "#V80974",
+          "FIGURE": "#V81043",
+          "LEX": "WHEN"
+        },
+        "start": 0,
+        "end": 29
+      },
+      "V80974": {
+        "id": "V80974",
+        "indicator": "F",
+        "type": "MOVE",
+        "word": "GO",
+        "roles": {
+          "RESULT": "#V80991",
+          "AGENT": "#V80954",
+          "TENSE": "PAST",
+          "LEX": "WENT",
+          "WNSENSE": "go%2:38:00::"
+        },
+        "start": 5,
+        "end": 29
+      },
+      "V80954": {
+        "id": "V80954",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "SHE",
+        "roles": {
+          "PROFORM": "SHE",
+          "LEX": "SHE",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 5,
+        "end": 9
+      },
+      "V80991": {
+        "id": "V80991",
+        "indicator": "F",
+        "type": "TO-LOC",
+        "word": "TO",
+        "roles": {
+          "GROUND": "#V81019",
+          "FIGURE": "#V80954",
+          "LEX": "TO"
+        },
+        "start": 14,
+        "end": 29
+      },
+      "V81019": {
+        "id": "V81019",
+        "indicator": "THE",
+        "type": "INTERNAL-ENCLOSURE",
+        "word": "BATHROOM",
+        "roles": {
+          "LEX": "BATHROOM",
+          "WNSENSE": "bathroom%1:06:00::"
+        },
+        "start": 17,
+        "end": 29
+      },
+      "V81031": {
+        "id": "V81031",
+        "indicator": "THE",
+        "type": "NONHUMAN-ANIMAL",
+        "word": "DOG",
+        "roles": {
+          "ASSOC-POSS": "#V81026",
+          "LEX": "DOG",
+          "WNSENSE": "dog%1:05:00::"
+        },
+        "start": 31,
+        "end": 39
+      },
+      "V81026": {
+        "id": "V81026",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "HER",
+        "roles": {
+          "LEX": "HER",
+          "PROFORM": "HER",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 31,
+        "end": 39
+      },
+      "V81058": {
+        "id": "V81058",
+        "indicator": "F",
+        "type": "OBJ-IN-PATH",
+        "word": "BY",
+        "roles": {
+          "GROUND": "#V81102",
+          "FIGURE": "#V81043",
+          "LEX": "BY",
+          "WNSENSE": "by%4:02:00::"
+        },
+        "start": 44,
+        "end": 47
+      },
+      "V81089": {
+        "id": "V81089",
+        "indicator": "F",
+        "type": "EAT",
+        "word": "EAT",
+        "roles": {
+          "AGENT": "#V81031",
+          "AFFECTED": "#V81102",
+          "TENSE": "PAST",
+          "LEX": "ATE",
+          "WNSENSE": "eat%2:34:00::"
+        },
+        "start": 51,
+        "end": 65
+      },
+      "V81102": {
+        "id": "V81102",
+        "indicator": "THE-SET",
+        "type": "SUBSTANCE",
+        "word": "PAPER",
+        "roles": {
+          "ASSOC-POSS": "#V81095",
+          "LEX": "PAPERS",
+          "WNSENSE": "paper%1:27:00::"
+        },
+        "start": 55,
+        "end": 65
+      },
+      "V81095": {
+        "id": "V81095",
+        "indicator": "PRO",
+        "type": "FEMALE-PERSON",
+        "word": "HER",
+        "roles": {
+          "LEX": "HER",
+          "PROFORM": "HER",
+          "WNSENSE": "woman%1:18:00"
+        },
+        "start": 55,
+        "end": 65
+      },
+      "root": "#V81627"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V81624": {
+          "id": "V81624",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V81078",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 66
+        },
+        "V81078": {
+          "id": "V81078",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V81043",
+            "SEQUENCE1": "#V81089",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 65
+        },
+        "V81043": {
+          "id": "V81043",
+          "indicator": "F",
+          "type": "COME",
+          "word": "COME",
+          "roles": {
+            "AFFECTED": "#V81031",
+            "TIME": "#V80941",
+            "MOD": "#V81058",
+            "TENSE": "PAST",
+            "LEX": "CAME"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V80941": {
+          "id": "V80941",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V80974",
+            "FIGURE": "#V81043",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V80974": {
+          "id": "V80974",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V80991",
+            "AGENT": "#V80954",
+            "TENSE": "PAST",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 5,
+          "end": 29
+        },
+        "V80954": {
+          "id": "V80954",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 5,
+          "end": 9
+        },
+        "V80991": {
+          "id": "V80991",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V81019",
+            "FIGURE": "#V80954",
+            "LEX": "TO"
+          },
+          "start": 14,
+          "end": 29
+        },
+        "V81019": {
+          "id": "V81019",
+          "indicator": "THE",
+          "type": "INTERNAL-ENCLOSURE",
+          "word": "BATHROOM",
+          "roles": {
+            "LEX": "BATHROOM",
+            "WNSENSE": "bathroom%1:06:00::"
+          },
+          "start": 17,
+          "end": 29
+        },
+        "V81031": {
+          "id": "V81031",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "ASSOC-POSS": "#V81026",
+            "LEX": "DOG",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 31,
+          "end": 39
+        },
+        "V81026": {
+          "id": "V81026",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 31,
+          "end": 39
+        },
+        "V81058": {
+          "id": "V81058",
+          "indicator": "F",
+          "type": "OBJ-IN-PATH",
+          "word": "BY",
+          "roles": {
+            "GROUND": "#V81100",
+            "FIGURE": "#V81043",
+            "LEX": "BY",
+            "WNSENSE": "by%4:02:00::"
+          },
+          "start": 44,
+          "end": 47
+        },
+        "V81089": {
+          "id": "V81089",
+          "indicator": "F",
+          "type": "EAT",
+          "word": "EAT",
+          "roles": {
+            "AGENT": "#V81031",
+            "AFFECTED": "#V81100",
+            "TENSE": "PAST",
+            "LEX": "ATE",
+            "WNSENSE": "eat%2:34:00::"
+          },
+          "start": 51,
+          "end": 65
+        },
+        "V81100": {
+          "id": "V81100",
+          "indicator": "THE-SET",
+          "type": "MATERIAL",
+          "word": "PAPER",
+          "roles": {
+            "ASSOC-POSS": "#V81095",
+            "LEX": "PAPERS",
+            "WNSENSE": "paper%1:27:00::"
+          },
+          "start": 55,
+          "end": 65
+        },
+        "V81095": {
+          "id": "V81095",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 55,
+          "end": 65
+        },
+        "root": "#V81624"
+      }
+    ],
+    [
+      {
+        "V81644": {
+          "id": "V81644",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V81078",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 66
+        },
+        "V81078": {
+          "id": "V81078",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V81043",
+            "SEQUENCE1": "#V81089",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 65
+        },
+        "V81043": {
+          "id": "V81043",
+          "indicator": "F",
+          "type": "COME",
+          "word": "COME",
+          "roles": {
+            "AFFECTED": "#V81031",
+            "TIME": "#V80941",
+            "MOD": "#V81058",
+            "TENSE": "PAST",
+            "LEX": "CAME"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V80941": {
+          "id": "V80941",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V80974",
+            "FIGURE": "#V81043",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V80974": {
+          "id": "V80974",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V80991",
+            "AGENT": "#V80954",
+            "TENSE": "PAST",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 5,
+          "end": 29
+        },
+        "V80954": {
+          "id": "V80954",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 5,
+          "end": 9
+        },
+        "V80991": {
+          "id": "V80991",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V81019",
+            "FIGURE": "#V80954",
+            "LEX": "TO"
+          },
+          "start": 14,
+          "end": 29
+        },
+        "V81019": {
+          "id": "V81019",
+          "indicator": "THE",
+          "type": "INTERNAL-ENCLOSURE",
+          "word": "BATHROOM",
+          "roles": {
+            "LEX": "BATHROOM",
+            "WNSENSE": "bathroom%1:06:00::"
+          },
+          "start": 17,
+          "end": 29
+        },
+        "V81031": {
+          "id": "V81031",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "ASSOC-POSS": "#V81026",
+            "LEX": "DOG",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 31,
+          "end": 39
+        },
+        "V81026": {
+          "id": "V81026",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 31,
+          "end": 39
+        },
+        "V81058": {
+          "id": "V81058",
+          "indicator": "F",
+          "type": "OBJ-IN-PATH",
+          "word": "BY",
+          "roles": {
+            "GROUND": "#V81102",
+            "FIGURE": "#V81043",
+            "LEX": "BY",
+            "WNSENSE": "by%4:02:00::"
+          },
+          "start": 44,
+          "end": 47
+        },
+        "V81089": {
+          "id": "V81089",
+          "indicator": "F",
+          "type": "EAT",
+          "word": "EAT",
+          "roles": {
+            "AGENT": "#V81031",
+            "AFFECTED": "#V81102",
+            "BENEFICIARY": "#V81096",
+            "TENSE": "PAST",
+            "LEX": "ATE",
+            "WNSENSE": "eat%2:34:00::"
+          },
+          "start": 51,
+          "end": 65
+        },
+        "V81096": {
+          "id": "V81096",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 55,
+          "end": 59
+        },
+        "V81102": {
+          "id": "V81102",
+          "indicator": "INDEF-SET",
+          "type": "SUBSTANCE",
+          "word": "PAPER",
+          "roles": {
+            "LEX": "PAPERS",
+            "WNSENSE": "paper%1:27:00::"
+          },
+          "start": 59,
+          "end": 65
+        },
+        "root": "#V81644"
+      }
+    ],
+    [
+      {
+        "V81641": {
+          "id": "V81641",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V81078",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 66
+        },
+        "V81078": {
+          "id": "V81078",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V81043",
+            "SEQUENCE1": "#V81089",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 65
+        },
+        "V81043": {
+          "id": "V81043",
+          "indicator": "F",
+          "type": "COME",
+          "word": "COME",
+          "roles": {
+            "AFFECTED": "#V81031",
+            "TIME": "#V80941",
+            "MOD": "#V81058",
+            "TENSE": "PAST",
+            "LEX": "CAME"
+          },
+          "start": 0,
+          "end": 47
+        },
+        "V80941": {
+          "id": "V80941",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V80974",
+            "FIGURE": "#V81043",
+            "LEX": "WHEN"
+          },
+          "start": 0,
+          "end": 29
+        },
+        "V80974": {
+          "id": "V80974",
+          "indicator": "F",
+          "type": "MOVE",
+          "word": "GO",
+          "roles": {
+            "RESULT": "#V80991",
+            "AGENT": "#V80954",
+            "TENSE": "PAST",
+            "LEX": "WENT",
+            "WNSENSE": "go%2:38:00::"
+          },
+          "start": 5,
+          "end": 29
+        },
+        "V80954": {
+          "id": "V80954",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 5,
+          "end": 9
+        },
+        "V80991": {
+          "id": "V80991",
+          "indicator": "F",
+          "type": "TO-LOC",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V81019",
+            "FIGURE": "#V80954",
+            "LEX": "TO"
+          },
+          "start": 14,
+          "end": 29
+        },
+        "V81019": {
+          "id": "V81019",
+          "indicator": "THE",
+          "type": "INTERNAL-ENCLOSURE",
+          "word": "BATHROOM",
+          "roles": {
+            "LEX": "BATHROOM",
+            "WNSENSE": "bathroom%1:06:00::"
+          },
+          "start": 17,
+          "end": 29
+        },
+        "V81031": {
+          "id": "V81031",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "ASSOC-POSS": "#V81026",
+            "LEX": "DOG",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 31,
+          "end": 39
+        },
+        "V81026": {
+          "id": "V81026",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "LEX": "HER",
+            "PROFORM": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 31,
+          "end": 39
+        },
+        "V81058": {
+          "id": "V81058",
+          "indicator": "F",
+          "type": "OBJ-IN-PATH",
+          "word": "BY",
+          "roles": {
+            "GROUND": "#V81100",
+            "FIGURE": "#V81043",
+            "LEX": "BY",
+            "WNSENSE": "by%4:02:00::"
+          },
+          "start": 44,
+          "end": 47
+        },
+        "V81089": {
+          "id": "V81089",
+          "indicator": "F",
+          "type": "EAT",
+          "word": "EAT",
+          "roles": {
+            "AGENT": "#V81031",
+            "AFFECTED": "#V81100",
+            "BENEFICIARY": "#V81096",
+            "TENSE": "PAST",
+            "LEX": "ATE",
+            "WNSENSE": "eat%2:34:00::"
+          },
+          "start": 51,
+          "end": 65
+        },
+        "V81096": {
+          "id": "V81096",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "HER",
+          "roles": {
+            "PROFORM": "HER",
+            "LEX": "HER",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 55,
+          "end": 59
+        },
+        "V81100": {
+          "id": "V81100",
+          "indicator": "INDEF-SET",
+          "type": "MATERIAL",
+          "word": "PAPER",
+          "roles": {
+            "LEX": "PAPERS",
+            "WNSENSE": "paper%1:27:00::"
+          },
+          "start": 59,
+          "end": 65
+        },
+        "root": "#V81641"
+      }
+    ]
+  ],
+  "sentence": "When she went to the bathroom, her dog came by and ate her papers.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190729T120900",
+    "link": "http://trips.ihmc.us/parser/saved/20190729T120900-STEP-abhatia-none-When_she_went_to_the_bathroom_her_dog_ca.xml",
+    "judgement": -1
+  }
+}

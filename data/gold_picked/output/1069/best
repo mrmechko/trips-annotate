@@ -1,0 +1,26 @@
+digraph "graph" {
+	compound=true rankdir=TB
+	subgraph utt_0 {
+		compound=true rankdir=TB
+		V207706 [label=<<font color="green"><br /></font> <font color="black">SA_TELL</font> <font color="green"><br /></font> <font color="red">SPEECHACT</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SA_TELL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V207596 [label=<<font color="green"><br /></font> <font color="black">EVENT-OF-CAUSATION</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::EVENT-OF-CAUSATION.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V207144 [label=<<font color="green"><br /></font> <font color="black">SET-UP-DEVICE</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">SET-UP</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::SET-UP-DEVICE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V207050 [label=<<font color="green"><br /></font> <font color="black">PUT</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">PUT</font> <font color="green"><br /></font> <font color="green">put%2:35:00::</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::PUT.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V207027 [label=<<font color="green"><br /></font> <font color="black">MALE-PERSON</font> <font color="green"><br /></font> <font color="red">PRO</font> <font color="blue">HE</font> <font color="green"><br /></font> <font color="green">man%1:18:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MALE-PERSON.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V207397 [label=<<font color="green"><br /></font> <font color="black">REFERENTIAL-SEM</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">* </font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::REFERENTIAL-SEM.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V207081 [label=<<font color="green"><br /></font> <font color="black">FIRST-VAL</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">ORIGINAL</font> <font color="green"><br /></font> <font color="green">original%5:00:01:first:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::FIRST-VAL.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V207111 [label=<<font color="green"><br /></font> <font color="black">DIRECTION-DOWN</font> <font color="green"><br /></font> <font color="red">F</font> <font color="blue">DOWN</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::DIRECTION-DOWN.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V207264 [label=<<font color="green"><br /></font> <font color="black">MACHINE</font> <font color="green"><br /></font> <font color="red">THE</font> <font color="blue">COPIER</font> <font color="green"><br /></font> <font color="green">machine%1:06:00</font> <font color="green"><br /> </font>> URL="http://trips.ihmc.us/lexicon/data/ONT::MACHINE.xml" fontname="Work Sans" fontsize=8 shape=plain]
+		V207081 -> V207397 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V207050 -> V207111 [label=" RESULT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V207144 -> V207264 [label=" FORMAL   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V207706 -> V207596 [label=" CONTENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V207111 -> V207397 [label=" FIGURE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V207050 -> V207027 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V207144 -> V207027 [label=" AGENT   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V207596 -> V207144 [label=" SEQUENCE1   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V207397 -> V207081 [label=" MOD   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V207596 -> V207050 [label=" SEQUENCE   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+		V207050 -> V207397 [label=" AFFECTED   " arrowsize=0.5 color=grey fontname="Work Sans" fontsize=8 penwidth=0.5]
+	}
+}

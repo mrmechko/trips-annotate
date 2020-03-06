@@ -1,0 +1,85 @@
+{
+  "parse": [
+    {
+      "V478386": {
+        "id": "V478386",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V477615"
+        },
+        "start": 0,
+        "end": 26
+      },
+      "V477615": {
+        "id": "V477615",
+        "indicator": "F",
+        "type": "MOVE-BY-MEANS",
+        "word": "TAKE",
+        "roles": {
+          "AGENT": "#V477586",
+          "FORMAL": "#V477858",
+          "TENSE": "PAST"
+        },
+        "start": 0,
+        "end": 26
+      },
+      "V477586": {
+        "id": "V477586",
+        "indicator": "THE",
+        "type": "TRIP",
+        "word": "JOURNEY",
+        "roles": {},
+        "start": 0,
+        "end": 12
+      },
+      "V477858": {
+        "id": "V477858",
+        "indicator": "A",
+        "type": "REFERENTIAL-SEM",
+        "word": null,
+        "roles": {
+          "SIZE": "#V477693"
+        },
+        "start": 17,
+        "end": 26
+      },
+      "V477693": {
+        "id": "V477693",
+        "indicator": "A",
+        "type": "QUANTITY",
+        "word": null,
+        "roles": {
+          "AMOUNT": "#V477691",
+          "UNIT": "(:* WEEK-DURATION WEEK)",
+          "SCALE": "DURATION-SCALE"
+        },
+        "start": 17,
+        "end": 26
+      },
+      "V477691": {
+        "id": "V477691",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "2"
+        },
+        "start": 17,
+        "end": 26
+      },
+      "root": "#V478386"
+    }
+  ],
+  "alternatives": [],
+  "sentence": "The journey took two weeks.",
+  "annotation": {
+    "judge": "lgalescu",
+    "parser": "CWMS",
+    "timestamp": "20190624T225346",
+    "link": "http://trips.ihmc.us/parser/saved/20190624T225346-CWMS-lgalescu-none-The_journey_took_two_weeks_.xml",
+    "judgement": -1
+  }
+}

@@ -1,0 +1,1334 @@
+{
+  "parse": [
+    {
+      "V53142": {
+        "id": "V53142",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V52727",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V52727": {
+        "id": "V52727",
+        "indicator": "F",
+        "type": "EVENT-OF-ACTION",
+        "word": null,
+        "roles": {
+          "OPERATOR": "AND",
+          "SEQUENCE": "#V52047",
+          "SEQUENCE1": "#V52113",
+          "TENSE": "PAST",
+          "LEX": "AND"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V52113": {
+        "id": "V52113",
+        "indicator": "F",
+        "type": "RESERVE",
+        "word": "ORDER",
+        "roles": {
+          "AGENT": "#V52033",
+          "AFFECTED": "#V52127",
+          "LEX": "ORDERED",
+          "WNSENSE": "book%2:41:01"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V52047": {
+        "id": "V52047",
+        "indicator": "F",
+        "type": "SAY",
+        "word": "SAY",
+        "roles": {
+          "AGENT": "#V52033",
+          "FORMAL": "#V52078",
+          "LEX": "SAID",
+          "WNSENSE": "say%2:32:01::"
+        },
+        "start": 0,
+        "end": 40
+      },
+      "V52033": {
+        "id": "V52033",
+        "indicator": "PRO",
+        "type": "PERSON",
+        "word": "I",
+        "roles": {
+          "PROFORM": "I",
+          "LEX": "I",
+          "WNSENSE": "person%1:03:00",
+          "COREF": "USER"
+        },
+        "start": 0,
+        "end": 2
+      },
+      "V52078": {
+        "id": "V52078",
+        "indicator": "F",
+        "type": "HAVE-PROPERTY",
+        "word": "BE",
+        "roles": {
+          "NEUTRAL": "#V52069",
+          "FORMAL": "#V52092",
+          "PROP": "+",
+          "TENSE": "PAST",
+          "LEX": "WAS",
+          "WNSENSE": "be%2:42:03::"
+        },
+        "start": 7,
+        "end": 19
+      },
+      "V52069": {
+        "id": "V52069",
+        "indicator": "PRO",
+        "type": "REFERENTIAL-SEM",
+        "word": "IT",
+        "roles": {
+          "PROFORM": "IT",
+          "LEX": "IT",
+          "WNSENSE": "entity%1:03:00",
+          "COREF": "#V52727"
+        },
+        "start": 7,
+        "end": 10
+      },
+      "V52092": {
+        "id": "V52092",
+        "indicator": "F",
+        "type": "GOOD",
+        "word": "OKAY",
+        "roles": {
+          "ORIENTATION": "MORE",
+          "INTENSITY": "LO",
+          "FIGURE": "#V52069",
+          "SCALE": "GOODNESS-SCALE",
+          "LEX": "OKAY",
+          "WNSENSE": "okay%5:00:00:satisfactory:00"
+        },
+        "start": 14,
+        "end": 19
+      },
+      "V52127": {
+        "id": "V52127",
+        "indicator": "SM",
+        "type": "FOOD",
+        "word": "FOOD",
+        "roles": {
+          "QUAN": "SM",
+          "LEX": "FOOD",
+          "WNSENSE": "food%1:03:00::"
+        },
+        "start": 31,
+        "end": 40
+      },
+      "root": "#V53142"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V53139": {
+          "id": "V53139",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V52726",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V52726": {
+          "id": "V52726",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V52047",
+            "SEQUENCE1": "#V52114",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V52114": {
+          "id": "V52114",
+          "indicator": "F",
+          "type": "ARRANGING",
+          "word": "ORDER",
+          "roles": {
+            "AGENT": "#V52033",
+            "AFFECTED": "#V52127",
+            "LEX": "ORDERED",
+            "WNSENSE": "order%2:30:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V52047": {
+          "id": "V52047",
+          "indicator": "F",
+          "type": "SAY",
+          "word": "SAY",
+          "roles": {
+            "AGENT": "#V52033",
+            "FORMAL": "#V52078",
+            "LEX": "SAID",
+            "WNSENSE": "say%2:32:01::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V52033": {
+          "id": "V52033",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V52078": {
+          "id": "V52078",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V52069",
+            "FORMAL": "#V52092",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 7,
+          "end": 19
+        },
+        "V52069": {
+          "id": "V52069",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 7,
+          "end": 10
+        },
+        "V52092": {
+          "id": "V52092",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "OKAY",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "LO",
+            "FIGURE": "#V52069",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "OKAY",
+            "WNSENSE": "okay%5:00:00:satisfactory:00"
+          },
+          "start": 14,
+          "end": 19
+        },
+        "V52127": {
+          "id": "V52127",
+          "indicator": "SM",
+          "type": "FOOD",
+          "word": "FOOD",
+          "roles": {
+            "QUAN": "SM",
+            "LEX": "FOOD",
+            "WNSENSE": "food%1:03:00::"
+          },
+          "start": 31,
+          "end": 40
+        },
+        "root": "#V53139"
+      }
+    ],
+    [
+      {
+        "V53136": {
+          "id": "V53136",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V52726",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V52726": {
+          "id": "V52726",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V52047",
+            "SEQUENCE1": "#V52113",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V52113": {
+          "id": "V52113",
+          "indicator": "F",
+          "type": "RESERVE",
+          "word": "ORDER",
+          "roles": {
+            "AGENT": "#V52033",
+            "AFFECTED": "#V52127",
+            "LEX": "ORDERED",
+            "WNSENSE": "book%2:41:01"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V52047": {
+          "id": "V52047",
+          "indicator": "F",
+          "type": "SAY",
+          "word": "SAY",
+          "roles": {
+            "AGENT": "#V52033",
+            "FORMAL": "#V52078",
+            "LEX": "SAID",
+            "WNSENSE": "say%2:32:01::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V52033": {
+          "id": "V52033",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V52078": {
+          "id": "V52078",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V52069",
+            "FORMAL": "#V52092",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 7,
+          "end": 19
+        },
+        "V52069": {
+          "id": "V52069",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 7,
+          "end": 10
+        },
+        "V52092": {
+          "id": "V52092",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "OKAY",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "LO",
+            "FIGURE": "#V52069",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "OKAY",
+            "WNSENSE": "okay%5:00:00:satisfactory:00"
+          },
+          "start": 14,
+          "end": 19
+        },
+        "V52127": {
+          "id": "V52127",
+          "indicator": "SM",
+          "type": "FOOD",
+          "word": "FOOD",
+          "roles": {
+            "QUAN": "SM",
+            "LEX": "FOOD",
+            "WNSENSE": "food%1:03:00::"
+          },
+          "start": 31,
+          "end": 40
+        },
+        "root": "#V53136"
+      }
+    ],
+    [
+      {
+        "V53133": {
+          "id": "V53133",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V52687",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V52687": {
+          "id": "V52687",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V52047",
+            "SEQUENCE1": "#V52114",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V52114": {
+          "id": "V52114",
+          "indicator": "F",
+          "type": "ARRANGING",
+          "word": "ORDER",
+          "roles": {
+            "AGENT": "#V52033",
+            "AFFECTED": "#V52127",
+            "LEX": "ORDERED",
+            "WNSENSE": "order%2:30:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V52047": {
+          "id": "V52047",
+          "indicator": "F",
+          "type": "SAY",
+          "word": "SAY",
+          "roles": {
+            "AGENT": "#V52033",
+            "FORMAL": "#V52078",
+            "LEX": "SAID",
+            "WNSENSE": "say%2:32:01::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V52033": {
+          "id": "V52033",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V52078": {
+          "id": "V52078",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V52069",
+            "FORMAL": "#V52093",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 7,
+          "end": 19
+        },
+        "V52069": {
+          "id": "V52069",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 7,
+          "end": 10
+        },
+        "V52093": {
+          "id": "V52093",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "OKAY",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "LO",
+            "FIGURE": "#V52069",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "OKAY",
+            "WNSENSE": "okay%5:00:00:satisfactory:00"
+          },
+          "start": 14,
+          "end": 19
+        },
+        "V52127": {
+          "id": "V52127",
+          "indicator": "SM",
+          "type": "FOOD",
+          "word": "FOOD",
+          "roles": {
+            "QUAN": "SM",
+            "LEX": "FOOD",
+            "WNSENSE": "food%1:03:00::"
+          },
+          "start": 31,
+          "end": 40
+        },
+        "root": "#V53133"
+      }
+    ],
+    [
+      {
+        "V53130": {
+          "id": "V53130",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V52687",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V52687": {
+          "id": "V52687",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V52047",
+            "SEQUENCE1": "#V52113",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V52113": {
+          "id": "V52113",
+          "indicator": "F",
+          "type": "RESERVE",
+          "word": "ORDER",
+          "roles": {
+            "AGENT": "#V52033",
+            "AFFECTED": "#V52127",
+            "LEX": "ORDERED",
+            "WNSENSE": "book%2:41:01"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V52047": {
+          "id": "V52047",
+          "indicator": "F",
+          "type": "SAY",
+          "word": "SAY",
+          "roles": {
+            "AGENT": "#V52033",
+            "FORMAL": "#V52078",
+            "LEX": "SAID",
+            "WNSENSE": "say%2:32:01::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V52033": {
+          "id": "V52033",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V52078": {
+          "id": "V52078",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V52069",
+            "FORMAL": "#V52093",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 7,
+          "end": 19
+        },
+        "V52069": {
+          "id": "V52069",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 7,
+          "end": 10
+        },
+        "V52093": {
+          "id": "V52093",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "OKAY",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "LO",
+            "FIGURE": "#V52069",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "OKAY",
+            "WNSENSE": "okay%5:00:00:satisfactory:00"
+          },
+          "start": 14,
+          "end": 19
+        },
+        "V52127": {
+          "id": "V52127",
+          "indicator": "SM",
+          "type": "FOOD",
+          "word": "FOOD",
+          "roles": {
+            "QUAN": "SM",
+            "LEX": "FOOD",
+            "WNSENSE": "food%1:03:00::"
+          },
+          "start": 31,
+          "end": 40
+        },
+        "root": "#V53130"
+      }
+    ],
+    [
+      {
+        "V53127": {
+          "id": "V53127",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V52686",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V52686": {
+          "id": "V52686",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V52047",
+            "SEQUENCE1": "#V52114",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V52114": {
+          "id": "V52114",
+          "indicator": "F",
+          "type": "ARRANGING",
+          "word": "ORDER",
+          "roles": {
+            "AGENT": "#V52033",
+            "AFFECTED": "#V52127",
+            "LEX": "ORDERED",
+            "WNSENSE": "order%2:30:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V52047": {
+          "id": "V52047",
+          "indicator": "F",
+          "type": "SAY",
+          "word": "SAY",
+          "roles": {
+            "AGENT": "#V52033",
+            "FORMAL": "#V52078",
+            "LEX": "SAID",
+            "WNSENSE": "say%2:32:01::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V52033": {
+          "id": "V52033",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V52078": {
+          "id": "V52078",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V52069",
+            "FORMAL": "#V52093",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 7,
+          "end": 19
+        },
+        "V52069": {
+          "id": "V52069",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 7,
+          "end": 10
+        },
+        "V52093": {
+          "id": "V52093",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "OKAY",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "LO",
+            "FIGURE": "#V52069",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "OKAY",
+            "WNSENSE": "okay%5:00:00:satisfactory:00"
+          },
+          "start": 14,
+          "end": 19
+        },
+        "V52127": {
+          "id": "V52127",
+          "indicator": "SM",
+          "type": "FOOD",
+          "word": "FOOD",
+          "roles": {
+            "QUAN": "SM",
+            "LEX": "FOOD",
+            "WNSENSE": "food%1:03:00::"
+          },
+          "start": 31,
+          "end": 40
+        },
+        "root": "#V53127"
+      }
+    ],
+    [
+      {
+        "V53124": {
+          "id": "V53124",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V52686",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V52686": {
+          "id": "V52686",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V52047",
+            "SEQUENCE1": "#V52113",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V52113": {
+          "id": "V52113",
+          "indicator": "F",
+          "type": "RESERVE",
+          "word": "ORDER",
+          "roles": {
+            "AGENT": "#V52033",
+            "AFFECTED": "#V52127",
+            "LEX": "ORDERED",
+            "WNSENSE": "book%2:41:01"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V52047": {
+          "id": "V52047",
+          "indicator": "F",
+          "type": "SAY",
+          "word": "SAY",
+          "roles": {
+            "AGENT": "#V52033",
+            "FORMAL": "#V52078",
+            "LEX": "SAID",
+            "WNSENSE": "say%2:32:01::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V52033": {
+          "id": "V52033",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V52078": {
+          "id": "V52078",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V52069",
+            "FORMAL": "#V52093",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 7,
+          "end": 19
+        },
+        "V52069": {
+          "id": "V52069",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 7,
+          "end": 10
+        },
+        "V52093": {
+          "id": "V52093",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "OKAY",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "LO",
+            "FIGURE": "#V52069",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "OKAY",
+            "WNSENSE": "okay%5:00:00:satisfactory:00"
+          },
+          "start": 14,
+          "end": 19
+        },
+        "V52127": {
+          "id": "V52127",
+          "indicator": "SM",
+          "type": "FOOD",
+          "word": "FOOD",
+          "roles": {
+            "QUAN": "SM",
+            "LEX": "FOOD",
+            "WNSENSE": "food%1:03:00::"
+          },
+          "start": 31,
+          "end": 40
+        },
+        "root": "#V53124"
+      }
+    ],
+    [
+      {
+        "V53121": {
+          "id": "V53121",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V52647",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V52647": {
+          "id": "V52647",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V52047",
+            "SEQUENCE1": "#V52114",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V52114": {
+          "id": "V52114",
+          "indicator": "F",
+          "type": "ARRANGING",
+          "word": "ORDER",
+          "roles": {
+            "AGENT": "#V52033",
+            "AFFECTED": "#V52127",
+            "LEX": "ORDERED",
+            "WNSENSE": "order%2:30:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V52047": {
+          "id": "V52047",
+          "indicator": "F",
+          "type": "SAY",
+          "word": "SAY",
+          "roles": {
+            "AGENT": "#V52033",
+            "FORMAL": "#V52078",
+            "LEX": "SAID",
+            "WNSENSE": "say%2:32:01::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V52033": {
+          "id": "V52033",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V52078": {
+          "id": "V52078",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V52069",
+            "FORMAL": "#V52094",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 7,
+          "end": 19
+        },
+        "V52069": {
+          "id": "V52069",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 7,
+          "end": 10
+        },
+        "V52094": {
+          "id": "V52094",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "OKAY",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "LO",
+            "FIGURE": "#V52069",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "OKAY",
+            "WNSENSE": "okay%5:00:00:satisfactory:00"
+          },
+          "start": 14,
+          "end": 19
+        },
+        "V52127": {
+          "id": "V52127",
+          "indicator": "SM",
+          "type": "FOOD",
+          "word": "FOOD",
+          "roles": {
+            "QUAN": "SM",
+            "LEX": "FOOD",
+            "WNSENSE": "food%1:03:00::"
+          },
+          "start": 31,
+          "end": 40
+        },
+        "root": "#V53121"
+      }
+    ],
+    [
+      {
+        "V53118": {
+          "id": "V53118",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V52647",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V52647": {
+          "id": "V52647",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V52047",
+            "SEQUENCE1": "#V52113",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V52113": {
+          "id": "V52113",
+          "indicator": "F",
+          "type": "RESERVE",
+          "word": "ORDER",
+          "roles": {
+            "AGENT": "#V52033",
+            "AFFECTED": "#V52127",
+            "LEX": "ORDERED",
+            "WNSENSE": "book%2:41:01"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V52047": {
+          "id": "V52047",
+          "indicator": "F",
+          "type": "SAY",
+          "word": "SAY",
+          "roles": {
+            "AGENT": "#V52033",
+            "FORMAL": "#V52078",
+            "LEX": "SAID",
+            "WNSENSE": "say%2:32:01::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V52033": {
+          "id": "V52033",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V52078": {
+          "id": "V52078",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V52069",
+            "FORMAL": "#V52094",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 7,
+          "end": 19
+        },
+        "V52069": {
+          "id": "V52069",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 7,
+          "end": 10
+        },
+        "V52094": {
+          "id": "V52094",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "OKAY",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "LO",
+            "FIGURE": "#V52069",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "OKAY",
+            "WNSENSE": "okay%5:00:00:satisfactory:00"
+          },
+          "start": 14,
+          "end": 19
+        },
+        "V52127": {
+          "id": "V52127",
+          "indicator": "SM",
+          "type": "FOOD",
+          "word": "FOOD",
+          "roles": {
+            "QUAN": "SM",
+            "LEX": "FOOD",
+            "WNSENSE": "food%1:03:00::"
+          },
+          "start": 31,
+          "end": 40
+        },
+        "root": "#V53118"
+      }
+    ],
+    [
+      {
+        "V53115": {
+          "id": "V53115",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V52646",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V52646": {
+          "id": "V52646",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V52047",
+            "SEQUENCE1": "#V52114",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V52114": {
+          "id": "V52114",
+          "indicator": "F",
+          "type": "ARRANGING",
+          "word": "ORDER",
+          "roles": {
+            "AGENT": "#V52033",
+            "AFFECTED": "#V52127",
+            "LEX": "ORDERED",
+            "WNSENSE": "order%2:30:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V52047": {
+          "id": "V52047",
+          "indicator": "F",
+          "type": "SAY",
+          "word": "SAY",
+          "roles": {
+            "AGENT": "#V52033",
+            "FORMAL": "#V52078",
+            "LEX": "SAID",
+            "WNSENSE": "say%2:32:01::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V52033": {
+          "id": "V52033",
+          "indicator": "PRO",
+          "type": "PERSON",
+          "word": "I",
+          "roles": {
+            "PROFORM": "I",
+            "LEX": "I",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 0,
+          "end": 2
+        },
+        "V52078": {
+          "id": "V52078",
+          "indicator": "F",
+          "type": "HAVE-PROPERTY",
+          "word": "BE",
+          "roles": {
+            "NEUTRAL": "#V52069",
+            "FORMAL": "#V52094",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "WAS",
+            "WNSENSE": "be%2:42:03::"
+          },
+          "start": 7,
+          "end": 19
+        },
+        "V52069": {
+          "id": "V52069",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 7,
+          "end": 10
+        },
+        "V52094": {
+          "id": "V52094",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "OKAY",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "LO",
+            "FIGURE": "#V52069",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "OKAY",
+            "WNSENSE": "okay%5:00:00:satisfactory:00"
+          },
+          "start": 14,
+          "end": 19
+        },
+        "V52127": {
+          "id": "V52127",
+          "indicator": "SM",
+          "type": "FOOD",
+          "word": "FOOD",
+          "roles": {
+            "QUAN": "SM",
+            "LEX": "FOOD",
+            "WNSENSE": "food%1:03:00::"
+          },
+          "start": 31,
+          "end": 40
+        },
+        "root": "#V53115"
+      }
+    ]
+  ],
+  "sentence": "I said it was okay and ordered some food.",
+  "annotation": {
+    "judge": "abhatia",
+    "parser": "STEP",
+    "timestamp": "20190813T161243",
+    "link": "http://trips.ihmc.us/parser/saved/20190813T161243-STEP-abhatia-0-I_said_it_was_okay_and_ordered_some_food.xml",
+    "judgement": 0
+  }
+}

@@ -1,0 +1,354 @@
+{
+  "parse": [
+    {
+      "V54674": {
+        "id": "V54674",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "PUNCTYPE": "DECL",
+          "CONTENT": "#V54494",
+          "LEX": "CONTINUES"
+        },
+        "start": 0,
+        "end": 25
+      },
+      "V54494": {
+        "id": "V54494",
+        "indicator": "F",
+        "type": "GO-ON",
+        "word": "CONTINUE",
+        "roles": {
+          "AGENT": "#V54480",
+          "TIME": "#V54566",
+          "TENSE": "PRES",
+          "LEX": "CONTINUES"
+        },
+        "start": 0,
+        "end": 25
+      },
+      "V54480": {
+        "id": "V54480",
+        "indicator": "THE",
+        "type": "PRESENTATION",
+        "word": "SHOW",
+        "roles": {
+          "LEX": "SHOW"
+        },
+        "start": 0,
+        "end": 9
+      },
+      "V54566": {
+        "id": "V54566",
+        "indicator": "F",
+        "type": "TIME-SPAN-REL",
+        "word": null,
+        "roles": {
+          "FIGURE": "#V54494",
+          "GROUND": "#V54575"
+        },
+        "start": 19,
+        "end": 25
+      },
+      "V54575": {
+        "id": "V54575",
+        "indicator": "THE",
+        "type": "TIME-LOC",
+        "word": null,
+        "roles": {
+          "DAY-OF-WEEK": "#V54505",
+          "LEX": "MONDAY"
+        },
+        "start": 19,
+        "end": 25
+      },
+      "V54505": {
+        "id": "V54505",
+        "indicator": "BARE",
+        "type": "DAY-NAME",
+        "word": "MONDAY",
+        "roles": {
+          "NAME-OF": "MONDAY",
+          "LEX": "MONDAY"
+        },
+        "start": 19,
+        "end": 25
+      },
+      "root": "#V54674"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V54702": {
+          "id": "V54702",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V54494",
+            "LEX": "CONTINUES"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V54494": {
+          "id": "V54494",
+          "indicator": "F",
+          "type": "GO-ON",
+          "word": "CONTINUE",
+          "roles": {
+            "AGENT": "#V54480",
+            "TIME": "#V54566",
+            "TENSE": "PRES",
+            "LEX": "CONTINUES"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V54480": {
+          "id": "V54480",
+          "indicator": "BARE",
+          "type": "PRESENTATION",
+          "word": "SHOW",
+          "roles": {
+            "ASSOC-WITH": "#V54464",
+            "LEX": "SHOW"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V54464": {
+          "id": "V54464",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "NAME-OF": "THE",
+            "LEX": "THE"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V54566": {
+          "id": "V54566",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V54494",
+            "GROUND": "#V54575"
+          },
+          "start": 19,
+          "end": 25
+        },
+        "V54575": {
+          "id": "V54575",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V54505",
+            "LEX": "MONDAY"
+          },
+          "start": 19,
+          "end": 25
+        },
+        "V54505": {
+          "id": "V54505",
+          "indicator": "BARE",
+          "type": "DAY-NAME",
+          "word": "MONDAY",
+          "roles": {
+            "NAME-OF": "MONDAY",
+            "LEX": "MONDAY"
+          },
+          "start": 19,
+          "end": 25
+        },
+        "root": "#V54702"
+      }
+    ],
+    [
+      {
+        "V54738": {
+          "id": "V54738",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V54494",
+            "LEX": "CONTINUES"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V54494": {
+          "id": "V54494",
+          "indicator": "F",
+          "type": "GO-ON",
+          "word": "CONTINUE",
+          "roles": {
+            "RESULT": "#V54566",
+            "AGENT": "#V54480",
+            "TENSE": "PRES",
+            "LEX": "CONTINUES"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V54480": {
+          "id": "V54480",
+          "indicator": "THE",
+          "type": "PRESENTATION",
+          "word": "SHOW",
+          "roles": {
+            "LEX": "SHOW"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V54566": {
+          "id": "V54566",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V54480",
+            "GROUND": "#V54575"
+          },
+          "start": 19,
+          "end": 25
+        },
+        "V54575": {
+          "id": "V54575",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V54505",
+            "LEX": "MONDAY"
+          },
+          "start": 19,
+          "end": 25
+        },
+        "V54505": {
+          "id": "V54505",
+          "indicator": "BARE",
+          "type": "DAY-NAME",
+          "word": "MONDAY",
+          "roles": {
+            "NAME-OF": "MONDAY",
+            "LEX": "MONDAY"
+          },
+          "start": 19,
+          "end": 25
+        },
+        "root": "#V54738"
+      }
+    ],
+    [
+      {
+        "V54748": {
+          "id": "V54748",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V54494",
+            "LEX": "CONTINUES"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V54494": {
+          "id": "V54494",
+          "indicator": "F",
+          "type": "GO-ON",
+          "word": "CONTINUE",
+          "roles": {
+            "RESULT": "#V54566",
+            "AGENT": "#V54480",
+            "TENSE": "PRES",
+            "LEX": "CONTINUES"
+          },
+          "start": 0,
+          "end": 25
+        },
+        "V54480": {
+          "id": "V54480",
+          "indicator": "BARE",
+          "type": "PRESENTATION",
+          "word": "SHOW",
+          "roles": {
+            "ASSOC-WITH": "#V54464",
+            "LEX": "SHOW"
+          },
+          "start": 0,
+          "end": 9
+        },
+        "V54464": {
+          "id": "V54464",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "THE",
+          "roles": {
+            "NAME-OF": "THE",
+            "LEX": "THE"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V54566": {
+          "id": "V54566",
+          "indicator": "F",
+          "type": "TIME-SPAN-REL",
+          "word": null,
+          "roles": {
+            "FIGURE": "#V54480",
+            "GROUND": "#V54575"
+          },
+          "start": 19,
+          "end": 25
+        },
+        "V54575": {
+          "id": "V54575",
+          "indicator": "THE",
+          "type": "TIME-LOC",
+          "word": null,
+          "roles": {
+            "DAY-OF-WEEK": "#V54505",
+            "LEX": "MONDAY"
+          },
+          "start": 19,
+          "end": 25
+        },
+        "V54505": {
+          "id": "V54505",
+          "indicator": "BARE",
+          "type": "DAY-NAME",
+          "word": "MONDAY",
+          "roles": {
+            "NAME-OF": "MONDAY",
+            "LEX": "MONDAY"
+          },
+          "start": 19,
+          "end": 25
+        },
+        "root": "#V54748"
+      }
+    ]
+  ],
+  "sentence": "The show continues Monday.",
+  "annotation": {
+    "judge": "jallen",
+    "parser": "STEP",
+    "timestamp": "20190619T135429",
+    "link": "http://trips.ihmc.us/parser/saved/20190619T135429-STEP-jallen-0-The_show_continues_Monday_.xml",
+    "judgement": 0
+  }
+}

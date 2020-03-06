@@ -1,0 +1,251 @@
+{
+  "parse": [
+    {
+      "V80958": {
+        "id": "V80958",
+        "indicator": "SPEECHACT",
+        "type": "SA_TELL",
+        "word": null,
+        "roles": {
+          "CONTENT": "#V79858"
+        },
+        "start": 0,
+        "end": 44
+      },
+      "V79858": {
+        "id": "V79858",
+        "indicator": "F",
+        "type": "DECREASE",
+        "word": "DECREASE",
+        "roles": {
+          "AFFECTED": "#V79851",
+          "MOD": "#V80153",
+          "TENSE": "PAST"
+        },
+        "start": 0,
+        "end": 44
+      },
+      "V79851": {
+        "id": "V79851",
+        "indicator": "THE",
+        "type": "DISTRICT",
+        "word": "COMMUNITY",
+        "roles": {
+          "MOD": "#V79847"
+        },
+        "start": 0,
+        "end": 20
+      },
+      "V79847": {
+        "id": "V79847",
+        "indicator": "F",
+        "type": "LOCAL-VAL",
+        "word": "LOCAL",
+        "roles": {
+          "ORIENTATION": "LESS",
+          "INTENSITY": "MED",
+          "FIGURE": "#V79851",
+          "SCALE": "DISTANCE-SCALE"
+        },
+        "start": 4,
+        "end": 10
+      },
+      "V80153": {
+        "id": "V80153",
+        "indicator": "F",
+        "type": "PREDICATE",
+        "word": null,
+        "roles": {
+          "SEQUENCE": "#V79879",
+          "SEQUENCE1": "#V79931",
+          "OPERATOR": "OR"
+        },
+        "start": 30,
+        "end": 44
+      },
+      "V79879": {
+        "id": "V79879",
+        "indicator": "F",
+        "type": "EXTENT-PREDICATE",
+        "word": "BY",
+        "roles": {
+          "GROUND": "#V79910",
+          "FIGURE": "#V79858"
+        },
+        "start": 30,
+        "end": 37
+      },
+      "V79910": {
+        "id": "V79910",
+        "indicator": "A",
+        "type": "QUANTITY",
+        "word": null,
+        "roles": {
+          "AMOUNT": "#V79908",
+          "UNIT": "(:* PERCENT PERCENT)",
+          "SCALE": "PERCENT-SCALE"
+        },
+        "start": 33,
+        "end": 37
+      },
+      "V79908": {
+        "id": "V79908",
+        "indicator": "A",
+        "type": "NUMBER",
+        "word": null,
+        "roles": {
+          "VALUE": "50"
+        },
+        "start": 33,
+        "end": 37
+      },
+      "V79931": {
+        "id": "V79931",
+        "indicator": "F",
+        "type": "DEGREE-MODIFIER",
+        "word": "MORE",
+        "roles": {
+          "FIGURE": "#V79858"
+        },
+        "start": 40,
+        "end": 44
+      },
+      "root": "#V80958"
+    }
+  ],
+  "alternatives": [
+    [
+      {
+        "V82149": {
+          "id": "V82149",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V79858"
+          },
+          "start": 0,
+          "end": 44
+        },
+        "V79858": {
+          "id": "V79858",
+          "indicator": "F",
+          "type": "DECREASE",
+          "word": "DECREASE",
+          "roles": {
+            "AFFECTED": "#V79851",
+            "MOD": "#V80360",
+            "TENSE": "PAST"
+          },
+          "start": 0,
+          "end": 44
+        },
+        "V79851": {
+          "id": "V79851",
+          "indicator": "THE",
+          "type": "DISTRICT",
+          "word": "COMMUNITY",
+          "roles": {
+            "MOD": "#V79847"
+          },
+          "start": 0,
+          "end": 20
+        },
+        "V79847": {
+          "id": "V79847",
+          "indicator": "F",
+          "type": "LOCAL-VAL",
+          "word": "LOCAL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V79851",
+            "SCALE": "DISTANCE-SCALE"
+          },
+          "start": 4,
+          "end": 10
+        },
+        "V80360": {
+          "id": "V80360",
+          "indicator": "F",
+          "type": "PREDICATE",
+          "word": null,
+          "roles": {
+            "SEQUENCE": "#V79879",
+            "SEQUENCE1": "#V79931",
+            "OPERATOR": "OR"
+          },
+          "start": 30,
+          "end": 44
+        },
+        "V79879": {
+          "id": "V79879",
+          "indicator": "F",
+          "type": "EXTENT-PREDICATE",
+          "word": "BY",
+          "roles": {
+            "GROUND": "#V80037",
+            "FIGURE": "#V79858"
+          },
+          "start": 30,
+          "end": 37
+        },
+        "V80037": {
+          "id": "V80037",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V79910"
+          },
+          "start": 33,
+          "end": 37
+        },
+        "V79910": {
+          "id": "V79910",
+          "indicator": "A",
+          "type": "QUANTITY",
+          "word": null,
+          "roles": {
+            "AMOUNT": "#V79908",
+            "UNIT": "(:* PERCENT PERCENT)",
+            "SCALE": "PERCENT-SCALE"
+          },
+          "start": 33,
+          "end": 37
+        },
+        "V79908": {
+          "id": "V79908",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "50"
+          },
+          "start": 33,
+          "end": 37
+        },
+        "V79931": {
+          "id": "V79931",
+          "indicator": "F",
+          "type": "DEGREE-MODIFIER",
+          "word": "MORE",
+          "roles": {
+            "FIGURE": "#V79858"
+          },
+          "start": 40,
+          "end": 44
+        },
+        "root": "#V82149"
+      }
+    ]
+  ],
+  "sentence": "the local community decreased by 50% or more",
+  "annotation": {
+    "judge": "lgalescu",
+    "parser": "CWMS",
+    "timestamp": "20190607T145840",
+    "link": "http://trips.ihmc.us/parser/saved/20190607T145840-CWMS-lgalescu-none-the_local_community_decreased_by_50_or_m.xml",
+    "judgement": -1
+  }
+}
