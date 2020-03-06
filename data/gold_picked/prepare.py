@@ -10,8 +10,8 @@ from soul.files import ls
 from tripsbleu.trips import get_gold, get_nth_parse
 from tripsbleu.ngrams import compare_trips
 
-def make_url(repo, output_dir, segment):
-    return "http://raw.githubusercontent.com/%s/master/data/%s/%s.svg?sanitize=true" % (repo, output_dir, segment)
+def make_url(repo, output_dir):
+    return "http://raw.githubusercontent.com/%s/master/data/%s/" % (repo, output_dir)
    
 @click.command()
 @click.option("--input-dir", "-i", "input_", prompt=True)
@@ -40,11 +40,8 @@ def render(input_, style, output_dir, repo):
         as_dot(first, format=style).graph().render("%s/first" % output, format="svg")
         as_dot(second, format=style).graph().render("%s/second" % output, format="svg")
 
-        murl = lambda segment : make_url(repo, output, segment)
         return dict(id=id,
-               reference=murl("gold"),
-               img_1=murl("first"),
-               img_2=murl("second"),
+               reference=make_url(repo, output),
                data=alt,
                source=parse,
                sentence=res["sentence"])
