@@ -26,7 +26,7 @@
 
 
     <style media="screen">
-     body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
+     body { background: grey; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
      #task { width: 100%; }
      #gold_, #first_, #second_ { width: 100%; margin: 1em; }
@@ -39,35 +39,63 @@
     </style>
   </head>
   <body>
+      <nav class="navbar" role="navigation" arial-label="main navigation">
+          <div class="navbar-brand">
+              <span class="navbar-item"><p>Annotation tool<p></span>
+          </div>
+          <div class="navbar-end">
+              <div class="navbar-item">
+                  <a class="button is-danger" id="logout-btn">Log Out</a>
+              </div>
+          </div>
+      </nav>
       <section class="section">
           <div class="container">
-              <div id="message">
-                  <h2>Welcome, <span id="username"></span></h2>
-                  <a class="button is-primary" id="logout-btn">Log Out</a>
+
+              <div id="message" class="level">
+                  <span class="level-left is-button is-dark">Welcome,&nbsp;<span id="username"></span></span>
               </div>
-              <div id="description">
+              <div class="notification is-info" id="description">
                   Below are two pairs of graphs.  select the pair that is most similar.  The left hand graph is the same for both rows.
               </div>
+              <article class="message is-small">
+                  <div class="message-header">
+                      <p>Sentence:</p>
+                  </div>
+                  <div class="message-body">
+                      <span id="sentence"></span>
+                  </div>
+              </article>
               <div id="task_id"></div>
-              <div class="task box" id="first_block">
-                  <div class="columns">
-                      <div class="column"><img class="goldgraph" id="gold_first"></img></div>
-                      <div class="column"><img id="first"></img></div>
+              <div id="parses">
+                  <div class="task box" id="first_block">
+                      <div class="columns">
+                          <div class="column">
+                              <figure class="image"><img class="goldgraph" id="gold_first"></img></figure>
+                          </div>
+                          <div class="column">
+                              <figure class="image"><img id="first"></img></figure>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="task box" id="second_block">
+                      <div class="columns">
+                          <div class="column"><figure class="image"><img class="goldgraph" id="gold_second"></img></figure></div>
+                          <div class="column"><figure class="image"><img id="second"></img></figure></div>
+                      </div>
                   </div>
               </div>
-              <div class="task box" id="second_block">
-                  <div class="columns">
-                      <div class="column"><img class="goldgraph" id="gold_second"></img></div>
-                      <div class="column"><img id="second"></img></div>
-                  </div>
-              </div>
+          </div>
+      </section>
+      <section class="section">
+          <div class="container">
               <form id="annotation-form" name="annotation">
                   <input type="hidden" id="task_id_form" name="task_id">
                   <input type="hidden" id="user_id" name="user_id">
                   <input type="hidden" id="answer" name="selection">
-                  <a  class="button is-primary is-loading" id="submit-btn">
+                  <a  class="button is-dark is-large is-fullwidth is-loading" id="submit-btn">
                       <span class="icon is-small">
-                          <i class="fas fa-check"></i>
+                      <i class="fas fa-check"></i>
                       </span>
                       <span>Save</span>
                   </a>

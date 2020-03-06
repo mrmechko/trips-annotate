@@ -2,9 +2,9 @@ console.log("load_task");
 function render_task(task, document) {
     console.log("rendering task:");
     console.log(task);
-    var golds = document.getElementsByClassName("goldgraph");
     var reference = task["data"]["reference"];
     const ref = (id) => `${reference}${id}.svg?sanitize=true`;
+    document.getElementById("sentence").innerHTML = task["data"]["sentence"];
     document.getElementById("task_id").value = task["id"];
     document.getElementById("task_id_form").value = task["id"];
     document.getElementById("first").src = ref("first")
@@ -28,8 +28,13 @@ function set_button(btn, from, to) {
     document.getElementById(btn).className += ` ${to}`;
 };
 
-function set_button_active(btn) { document.getElementById(btn).removeAttribute("disabled"); }
+function set_button_active(btn) {
+    set_button(btn, "is-dark", "is-primary")
+    document.getElementById(btn).removeAttribute("disabled");
+}
+
 function set_button_disabled(btn) {
+    set_button(btn, "is-primary", "is-dark")
     set_button(btn, "is-loading", "")
     document.getElementById(btn).setAttribute("disabled", "true");
 }
