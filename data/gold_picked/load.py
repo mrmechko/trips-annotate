@@ -4,6 +4,8 @@ from tripscli.parse.web import read as read_xml
 import json
 from tqdm import tqdm
 
+# This code harvests all the xml annotation files from the parser.
+
 class GoldPick:
     def __str__(self):
         return "%s.%s.%s-%d: %s" % (self.judge, self.timestamp, self.parser, self.judgement, self.sentence)

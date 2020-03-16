@@ -65,11 +65,12 @@ def get_sentence(taskset, id):
 @click.command()
 @click.option("--task-set", "taskset", type=str, help="output folder for prepare.sh")
 @click.option("--name", "name", type=str, help="the name for the taskset.")
+@click.option("--output", "output", type=str, help="directory to write all output to")
 @click.option("--type", "type_", default="a_b_parse", type=str, help="task_type")
 @click.option("--coverage", "coverage", default=3, type=int, help="minimum number of annotators requested")
 @click.option("--agreement", "agreement", default=0.0, type=float, help="minimum amount of agreement required")
 @click.option("--active/--no-active", "active", default=True)
-def transform(taskset, name, type_="a_b_parse", coverage=3, agreement=0, active=True):
+def transform(taskset, name, output, type_="a_b_parse", coverage=3, agreement=0, active=True):
     """Read in a json list of tasks and create a task object for upload to firebase"""
     fname = "%s/data.json" % taskset
     name = name or taskset.split("/")[-1]
@@ -83,9 +84,16 @@ def transform(taskset, name, type_="a_b_parse", coverage=3, agreement=0, active=
             "coverage": coverage,
             "annotators": []
         }
-    } for data in dataset[:100] if data]
-    res = dict(name=taskset, tasks=tasks, definition=dict(type=type_, items=len(tasks), groups=[], is_active=active))
-    click.echo(json.dumps(res, indent=2))
+    } for data in dataset if data]
+    num_sets = len(tasks) // 50
+    print("writing %d task-sets" % num_sets)
+    for i in range(num_sets-1):
+        res = dict(name="%s-%d" % (name, i), tasks=tasks[i * 50 : (i+1) * 50], definition=dict(type=type_, items=len(tasks), groups=[], is_active=active))
+        with open("%s/%s-%d.json" % (output, name, i), 'w') as out:
+            json.dump(res, out, indent=2)
+    with open("%s/%s-rem.json" % (output, name), 'w') as out:
+        res = dict(name="%s/%s-rem.json" % (output, name), tasks=tasks[(num_sets - 1) * 50:], definition=dict(type=type_, items=len(tasks), groups=[], is_active=active))
+        json.dump(res, out, indent=2)
 
 @click.command()
 @click.option("--task-set", "taskset", type=str, help="The task set to assign")
