@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from tripsbleu.diff import trips_diff
+from tripsbleu.diff import three_way_diff
 from tripscli.parse.web.dot import as_dot
 import click
 from tqdm import tqdm
@@ -38,15 +38,14 @@ def render(input_, style, output_dir, repo):
         output = "%s/%d" % (output_dir, id)
 
         gold = get_gold(res)
-        first = trips_diff(gold, get_nth_parse(res, alt["first"]))
-        first_r = trips_diff(get_nth_parse(res, alt["first"]), gold)
-        second = trips_diff(gold, get_nth_parse(res, alt["second"]))
-        second_r = trips_diff(get_nth_parse(res, alt["second"]), gold)
+        first, second, both = three_way_diff(gold,
+                                             get_nth_parse(res, alt["first"]),
+                                             get_nth_parse(res, alt["second"]))
         os.mkdir(output)
-        as_dot(first_r, format=style).graph().render("%s/gold_first" % output, cleanup=True, format="svg")
+        as_dot(both, format=style).graph().render("%s/gold_first" % output, cleanup=True, format="svg")
         as_dot(first, format=style).graph().render("%s/first" % output, cleanup=True, format="svg")
         as_dot(second, format=style).graph().render("%s/second" % output, cleanup=True, format="svg")
-        as_dot(second_r, format=style).graph().render("%s/gold_second" % output, cleanup=True, format="svg")
+        as_dot(both, format=style).graph().render("%s/gold_second" % output, cleanup=True, format="svg")
 
         return dict(id=id,
                reference=make_url(repo, output),
