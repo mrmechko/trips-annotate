@@ -144,6 +144,7 @@ export const submitTask = functions.https.onCall((data, context) => {
 
     const taskId = data["task_id"];
     const answer = data["answer"];
+    const meta = data["meta"];
     const user = admin.firestore().collection('users').doc(uuid);
 
     const annotations = admin.firestore().collection('annotations');
@@ -151,6 +152,7 @@ export const submitTask = functions.https.onCall((data, context) => {
         user_id: uuid,
         task_id: taskId,
         answer: answer,
+        meta: meta,
         time: admin.firestore.Timestamp.now()
     }).then(doc => {
         // index annotation object

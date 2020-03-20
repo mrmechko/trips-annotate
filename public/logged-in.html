@@ -56,7 +56,15 @@
                   <span class="level-left is-button is-dark">Welcome,&nbsp;<span id="username"></span></span>
               </div>
               <div class="notification is-info" id="description">
-                  Below are two pairs of graphs.  select the pair that is most similar.  The left hand graph is the same for both rows.
+                  <p>Given a reference parse and several alternatives, the purpose of this task is to determine which of the alternatives
+                      are most similar to the reference graph.</p>
+
+                  <p>Each row contains a copy of the reference graph and one of the alternatives.  The graphs are highlighted to emphasize
+                      the differences.  The differences are coded as red for the first alternative and blue for the second alternative.  Edges or nodes
+                      that differ in both alternatives are highlighted with both red and blue.</p>
+
+                  <p>For each task, select an alternative and click the submit button.  The Other menu contains options to mark the alternatives as equidistant or submit an error.</p>
+
               </div>
               <article class="message is-small">
                   <div class="message-header">
@@ -93,6 +101,16 @@
                   <input type="hidden" id="task_id_form" name="task_id">
                   <input type="hidden" id="user_id" name="user_id">
                   <input type="hidden" id="answer" name="selection">
+                  <div class="control">
+                      <div class="select">
+                          <select id="other_menu" name="other">
+                              <option value="none">Other</option>
+                              <option value="same">Graphs are equidistant</option>
+                              <option value="error_text">Error (please specify)</option>
+                          </select>
+                      </div>
+                      <textarea class="textarea" placeholder="other" id="other_response"></textarea>
+                  </div>
                   <a  class="button is-dark is-large is-fullwidth is-loading" id="submit-btn">
                       <span class="icon is-small">
                       <i class="fas fa-check"></i>
@@ -121,7 +139,6 @@
          // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
          try {
-             test_submit_fn();
              const getTaskForUID = firebase.functions().httpsCallable('getTaskForUID');
              const submitAnnotation = firebase.functions().httpsCallable('submitTask');
              document.getElementById("submit-btn").addEventListener("click", function (e) {
@@ -144,6 +161,8 @@
                      render_task(result.data, document);
                      document.getElementById("first_block").addEventListener("click", set_selected_task("first", document));
                      document.getElementById("second_block").addEventListener("click", set_selected_task("second", document));
+                     document.getElementById("other_menu").addEventListener("change", set_other_response());
+                     document.getElementById("other_response").addEventListener("change", reason_provided("other_response"));
                      set_button_disabled("submit-btn");
                  }
              });
