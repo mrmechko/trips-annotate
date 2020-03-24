@@ -1364,6 +1364,2676 @@
     ]
   ],
   "sentence": "She bought vegetables and rice to make stir-fry.",
+  "reparsed": [
+    [
+      {
+        "V3098309": {
+          "id": "V3098309",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V3097195",
+            "LEX": "BOUGHT"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V3097195": {
+          "id": "V3097195",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AGENT": "#V3097190",
+            "AFFECTED": "#V3097203",
+            "REASON": "#V3097237",
+            "TENSE": "PAST",
+            "LEX": "BOUGHT",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V3097190": {
+          "id": "V3097190",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V3097203": {
+          "id": "V3097203",
+          "indicator": "INDEF-SET",
+          "type": "FOOD",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V3097198",
+            "SEQUENCE1": "#V3097219",
+            "LEX": "AND"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097219": {
+          "id": "V3097219",
+          "indicator": "INDEF-SET",
+          "type": "FOOD",
+          "word": "RICE",
+          "roles": {
+            "LEX": "RICE",
+            "WNSENSE": "food%1:03:00"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097198": {
+          "id": "V3097198",
+          "indicator": "INDEF-SET",
+          "type": "VEGETABLE",
+          "word": "VEGETABLE",
+          "roles": {
+            "LEX": "VEGETABLES",
+            "WNSENSE": "vegetable%1:13:00::"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097237": {
+          "id": "V3097237",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V3097256",
+            "FIGURE": "#V3097195",
+            "LEX": "TO"
+          },
+          "start": 31,
+          "end": 40
+        },
+        "V3097256": {
+          "id": "V3097256",
+          "indicator": "F",
+          "type": "CREATE",
+          "word": "MAKE",
+          "roles": {
+            "AFFECTED-RESULT": "#V3097269",
+            "VFORM": "BASE",
+            "LEX": "MAKE",
+            "WNSENSE": "make%1:04:00::"
+          },
+          "start": 34,
+          "end": 40
+        },
+        "V3097269": {
+          "id": "V3097269",
+          "indicator": "THE",
+          "type": "LETTER-SYMBOL",
+          "word": null,
+          "roles": {
+            "NAME-OF": "S",
+            "LEX": "S",
+            "WNSENSE": "s%1:10:00::"
+          },
+          "start": 39,
+          "end": 40
+        },
+        "root": "#V3098309"
+      }
+    ],
+    [
+      {
+        "V3098315": {
+          "id": "V3098315",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V3097195",
+            "LEX": "BOUGHT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V3097195": {
+          "id": "V3097195",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AGENT": "#V3097190",
+            "AFFECTED": "#V3097203",
+            "REASON": "#V3097237",
+            "TENSE": "PAST",
+            "LEX": "BOUGHT",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V3097190": {
+          "id": "V3097190",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V3097203": {
+          "id": "V3097203",
+          "indicator": "INDEF-SET",
+          "type": "FOOD",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V3097198",
+            "SEQUENCE1": "#V3097214",
+            "LEX": "AND"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097198": {
+          "id": "V3097198",
+          "indicator": "INDEF-SET",
+          "type": "VEGETABLE",
+          "word": "VEGETABLE",
+          "roles": {
+            "LEX": "VEGETABLES",
+            "WNSENSE": "vegetable%1:13:00::"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "V3097214": {
+          "id": "V3097214",
+          "indicator": "BARE",
+          "type": "FOOD-GRAINS",
+          "word": "RICE",
+          "roles": {
+            "LEX": "RICE",
+            "WNSENSE": "rice%1:13:00::"
+          },
+          "start": 26,
+          "end": 31
+        },
+        "V3097237": {
+          "id": "V3097237",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V3097256",
+            "FIGURE": "#V3097195",
+            "LEX": "TO"
+          },
+          "start": 31,
+          "end": 40
+        },
+        "V3097256": {
+          "id": "V3097256",
+          "indicator": "F",
+          "type": "CREATE",
+          "word": "MAKE",
+          "roles": {
+            "AFFECTED-RESULT": "#V3097269",
+            "VFORM": "BASE",
+            "LEX": "MAKE",
+            "WNSENSE": "make%1:04:00::"
+          },
+          "start": 34,
+          "end": 40
+        },
+        "V3097269": {
+          "id": "V3097269",
+          "indicator": "THE",
+          "type": "LETTER-SYMBOL",
+          "word": null,
+          "roles": {
+            "NAME-OF": "S",
+            "LEX": "S",
+            "WNSENSE": "s%1:10:00::"
+          },
+          "start": 39,
+          "end": 40
+        },
+        "root": "#V3098315"
+      }
+    ],
+    [
+      {
+        "V3098426": {
+          "id": "V3098426",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V3097195",
+            "LEX": "BOUGHT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V3097195": {
+          "id": "V3097195",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AGENT": "#V3097190",
+            "AFFECTED": "#V3097203",
+            "REASON": "#V3097237",
+            "TENSE": "PAST",
+            "LEX": "BOUGHT",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V3097190": {
+          "id": "V3097190",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V3097203": {
+          "id": "V3097203",
+          "indicator": "INDEF-SET",
+          "type": "PHYS-OBJECT",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V3097198",
+            "SEQUENCE1": "#V3097222",
+            "LEX": "AND"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097198": {
+          "id": "V3097198",
+          "indicator": "INDEF-SET",
+          "type": "VEGETABLE",
+          "word": "VEGETABLE",
+          "roles": {
+            "LEX": "VEGETABLES",
+            "WNSENSE": "vegetable%1:13:00::"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "V3097222": {
+          "id": "V3097222",
+          "indicator": "BARE",
+          "type": "GRAINS",
+          "word": "RICE",
+          "roles": {
+            "LEX": "RICE",
+            "WNSENSE": "rice%1:20:00::"
+          },
+          "start": 26,
+          "end": 31
+        },
+        "V3097237": {
+          "id": "V3097237",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V3097256",
+            "FIGURE": "#V3097195",
+            "LEX": "TO"
+          },
+          "start": 31,
+          "end": 40
+        },
+        "V3097256": {
+          "id": "V3097256",
+          "indicator": "F",
+          "type": "CREATE",
+          "word": "MAKE",
+          "roles": {
+            "AFFECTED-RESULT": "#V3097269",
+            "VFORM": "BASE",
+            "LEX": "MAKE",
+            "WNSENSE": "make%1:04:00::"
+          },
+          "start": 34,
+          "end": 40
+        },
+        "V3097269": {
+          "id": "V3097269",
+          "indicator": "THE",
+          "type": "LETTER-SYMBOL",
+          "word": null,
+          "roles": {
+            "NAME-OF": "S",
+            "LEX": "S",
+            "WNSENSE": "s%1:10:00::"
+          },
+          "start": 39,
+          "end": 40
+        },
+        "root": "#V3098426"
+      }
+    ],
+    [
+      {
+        "V3098430": {
+          "id": "V3098430",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V3097195",
+            "LEX": "BOUGHT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V3097195": {
+          "id": "V3097195",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AGENT": "#V3097190",
+            "AFFECTED": "#V3097203",
+            "REASON": "#V3097237",
+            "TENSE": "PAST",
+            "LEX": "BOUGHT",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V3097190": {
+          "id": "V3097190",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V3097203": {
+          "id": "V3097203",
+          "indicator": "INDEF-SET",
+          "type": "FOOD",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V3097198",
+            "SEQUENCE1": "#V3097217",
+            "LEX": "AND"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097198": {
+          "id": "V3097198",
+          "indicator": "INDEF-SET",
+          "type": "VEGETABLE",
+          "word": "VEGETABLE",
+          "roles": {
+            "LEX": "VEGETABLES",
+            "WNSENSE": "vegetable%1:13:00::"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "V3097217": {
+          "id": "V3097217",
+          "indicator": "BARE",
+          "type": "FOOD",
+          "word": "RICE",
+          "roles": {
+            "LEX": "RICE",
+            "WNSENSE": "food%1:03:00"
+          },
+          "start": 26,
+          "end": 31
+        },
+        "V3097237": {
+          "id": "V3097237",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V3097256",
+            "FIGURE": "#V3097195",
+            "LEX": "TO"
+          },
+          "start": 31,
+          "end": 40
+        },
+        "V3097256": {
+          "id": "V3097256",
+          "indicator": "F",
+          "type": "CREATE",
+          "word": "MAKE",
+          "roles": {
+            "AFFECTED-RESULT": "#V3097269",
+            "VFORM": "BASE",
+            "LEX": "MAKE",
+            "WNSENSE": "make%1:04:00::"
+          },
+          "start": 34,
+          "end": 40
+        },
+        "V3097269": {
+          "id": "V3097269",
+          "indicator": "THE",
+          "type": "LETTER-SYMBOL",
+          "word": null,
+          "roles": {
+            "NAME-OF": "S",
+            "LEX": "S",
+            "WNSENSE": "s%1:10:00::"
+          },
+          "start": 39,
+          "end": 40
+        },
+        "root": "#V3098430"
+      }
+    ],
+    [
+      {
+        "V3098622": {
+          "id": "V3098622",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V3097195",
+            "LEX": "BOUGHT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V3097195": {
+          "id": "V3097195",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AGENT": "#V3097190",
+            "AFFECTED": "#V3097203",
+            "REASON": "#V3097237",
+            "TENSE": "PAST",
+            "LEX": "BOUGHT",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V3097190": {
+          "id": "V3097190",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V3097203": {
+          "id": "V3097203",
+          "indicator": "INDEF-SET",
+          "type": "FOOD",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V3097198",
+            "SEQUENCE1": "#V3097219",
+            "LEX": "AND"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097219": {
+          "id": "V3097219",
+          "indicator": "INDEF-SET",
+          "type": "FOOD",
+          "word": "RICE",
+          "roles": {
+            "LEX": "RICE",
+            "WNSENSE": "food%1:03:00"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097198": {
+          "id": "V3097198",
+          "indicator": "INDEF-SET",
+          "type": "VEGETABLE",
+          "word": "VEGETABLE",
+          "roles": {
+            "LEX": "VEGETABLES",
+            "WNSENSE": "vegetable%1:13:00::"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097237": {
+          "id": "V3097237",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V3097256",
+            "FIGURE": "#V3097195",
+            "LEX": "TO"
+          },
+          "start": 31,
+          "end": 40
+        },
+        "V3097256": {
+          "id": "V3097256",
+          "indicator": "F",
+          "type": "CREATE",
+          "word": "MAKE",
+          "roles": {
+            "AFFECTED-RESULT": "#V3097419",
+            "VFORM": "BASE",
+            "LEX": "MAKE",
+            "WNSENSE": "make%1:04:00::"
+          },
+          "start": 34,
+          "end": 40
+        },
+        "V3097419": {
+          "id": "V3097419",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V3097270",
+            "LEX": "S"
+          },
+          "start": 39,
+          "end": 40
+        },
+        "V3097270": {
+          "id": "V3097270",
+          "indicator": "A",
+          "type": "QUANTITY-ABSTR",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* TIME-UNIT SECOND)",
+            "AMOUNT": "PLURAL",
+            "LEX": "S",
+            "WNSENSE": "time_unit%1:28:00"
+          },
+          "start": 39,
+          "end": 40
+        },
+        "root": "#V3098622"
+      }
+    ],
+    [
+      {
+        "V3098619": {
+          "id": "V3098619",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V3097195",
+            "LEX": "BOUGHT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V3097195": {
+          "id": "V3097195",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AGENT": "#V3097190",
+            "AFFECTED": "#V3097203",
+            "REASON": "#V3097237",
+            "TENSE": "PAST",
+            "LEX": "BOUGHT",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V3097190": {
+          "id": "V3097190",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V3097203": {
+          "id": "V3097203",
+          "indicator": "INDEF-SET",
+          "type": "FOOD",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V3097198",
+            "SEQUENCE1": "#V3097219",
+            "LEX": "AND"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097219": {
+          "id": "V3097219",
+          "indicator": "INDEF-SET",
+          "type": "FOOD",
+          "word": "RICE",
+          "roles": {
+            "LEX": "RICE",
+            "WNSENSE": "food%1:03:00"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097198": {
+          "id": "V3097198",
+          "indicator": "INDEF-SET",
+          "type": "VEGETABLE",
+          "word": "VEGETABLE",
+          "roles": {
+            "LEX": "VEGETABLES",
+            "WNSENSE": "vegetable%1:13:00::"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097237": {
+          "id": "V3097237",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V3097257",
+            "FIGURE": "#V3097195",
+            "LEX": "TO"
+          },
+          "start": 31,
+          "end": 40
+        },
+        "V3097257": {
+          "id": "V3097257",
+          "indicator": "F",
+          "type": "EARNING",
+          "word": "MAKE",
+          "roles": {
+            "NEUTRAL": "#V3097419",
+            "VFORM": "BASE",
+            "LEX": "MAKE",
+            "WNSENSE": "make%2:40:01::"
+          },
+          "start": 34,
+          "end": 40
+        },
+        "V3097419": {
+          "id": "V3097419",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V3097270",
+            "LEX": "S"
+          },
+          "start": 39,
+          "end": 40
+        },
+        "V3097270": {
+          "id": "V3097270",
+          "indicator": "A",
+          "type": "QUANTITY-ABSTR",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* TIME-UNIT SECOND)",
+            "AMOUNT": "PLURAL",
+            "LEX": "S",
+            "WNSENSE": "time_unit%1:28:00"
+          },
+          "start": 39,
+          "end": 40
+        },
+        "root": "#V3098619"
+      }
+    ],
+    [
+      {
+        "V3098616": {
+          "id": "V3098616",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V3097195",
+            "LEX": "BOUGHT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V3097195": {
+          "id": "V3097195",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AGENT": "#V3097190",
+            "AFFECTED": "#V3097203",
+            "REASON": "#V3097237",
+            "TENSE": "PAST",
+            "LEX": "BOUGHT",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V3097190": {
+          "id": "V3097190",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V3097203": {
+          "id": "V3097203",
+          "indicator": "INDEF-SET",
+          "type": "FOOD",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V3097198",
+            "SEQUENCE1": "#V3097219",
+            "LEX": "AND"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097219": {
+          "id": "V3097219",
+          "indicator": "INDEF-SET",
+          "type": "FOOD",
+          "word": "RICE",
+          "roles": {
+            "LEX": "RICE",
+            "WNSENSE": "food%1:03:00"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097198": {
+          "id": "V3097198",
+          "indicator": "INDEF-SET",
+          "type": "VEGETABLE",
+          "word": "VEGETABLE",
+          "roles": {
+            "LEX": "VEGETABLES",
+            "WNSENSE": "vegetable%1:13:00::"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097237": {
+          "id": "V3097237",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V3097256",
+            "FIGURE": "#V3097195",
+            "LEX": "TO"
+          },
+          "start": 31,
+          "end": 40
+        },
+        "V3097256": {
+          "id": "V3097256",
+          "indicator": "F",
+          "type": "CREATE",
+          "word": "MAKE",
+          "roles": {
+            "AFFECTED-RESULT": "#V3097413",
+            "VFORM": "BASE",
+            "LEX": "MAKE",
+            "WNSENSE": "make%1:04:00::"
+          },
+          "start": 34,
+          "end": 40
+        },
+        "V3097413": {
+          "id": "V3097413",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V3097270",
+            "LEX": "S"
+          },
+          "start": 39,
+          "end": 40
+        },
+        "V3097270": {
+          "id": "V3097270",
+          "indicator": "A",
+          "type": "QUANTITY-ABSTR",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* TIME-UNIT SECOND)",
+            "AMOUNT": "PLURAL",
+            "LEX": "S",
+            "WNSENSE": "time_unit%1:28:00"
+          },
+          "start": 39,
+          "end": 40
+        },
+        "root": "#V3098616"
+      }
+    ],
+    [
+      {
+        "V3098613": {
+          "id": "V3098613",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V3097195",
+            "LEX": "BOUGHT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V3097195": {
+          "id": "V3097195",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AGENT": "#V3097190",
+            "AFFECTED": "#V3097203",
+            "REASON": "#V3097237",
+            "TENSE": "PAST",
+            "LEX": "BOUGHT",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V3097190": {
+          "id": "V3097190",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V3097203": {
+          "id": "V3097203",
+          "indicator": "INDEF-SET",
+          "type": "FOOD",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V3097198",
+            "SEQUENCE1": "#V3097219",
+            "LEX": "AND"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097219": {
+          "id": "V3097219",
+          "indicator": "INDEF-SET",
+          "type": "FOOD",
+          "word": "RICE",
+          "roles": {
+            "LEX": "RICE",
+            "WNSENSE": "food%1:03:00"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097198": {
+          "id": "V3097198",
+          "indicator": "INDEF-SET",
+          "type": "VEGETABLE",
+          "word": "VEGETABLE",
+          "roles": {
+            "LEX": "VEGETABLES",
+            "WNSENSE": "vegetable%1:13:00::"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097237": {
+          "id": "V3097237",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V3097257",
+            "FIGURE": "#V3097195",
+            "LEX": "TO"
+          },
+          "start": 31,
+          "end": 40
+        },
+        "V3097257": {
+          "id": "V3097257",
+          "indicator": "F",
+          "type": "EARNING",
+          "word": "MAKE",
+          "roles": {
+            "NEUTRAL": "#V3097413",
+            "VFORM": "BASE",
+            "LEX": "MAKE",
+            "WNSENSE": "make%2:40:01::"
+          },
+          "start": 34,
+          "end": 40
+        },
+        "V3097413": {
+          "id": "V3097413",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V3097270",
+            "LEX": "S"
+          },
+          "start": 39,
+          "end": 40
+        },
+        "V3097270": {
+          "id": "V3097270",
+          "indicator": "A",
+          "type": "QUANTITY-ABSTR",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* TIME-UNIT SECOND)",
+            "AMOUNT": "PLURAL",
+            "LEX": "S",
+            "WNSENSE": "time_unit%1:28:00"
+          },
+          "start": 39,
+          "end": 40
+        },
+        "root": "#V3098613"
+      }
+    ],
+    [
+      {
+        "V3098628": {
+          "id": "V3098628",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V3097195",
+            "LEX": "BOUGHT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V3097195": {
+          "id": "V3097195",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AGENT": "#V3097190",
+            "AFFECTED": "#V3097203",
+            "REASON": "#V3097237",
+            "TENSE": "PAST",
+            "LEX": "BOUGHT",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V3097190": {
+          "id": "V3097190",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V3097203": {
+          "id": "V3097203",
+          "indicator": "INDEF-SET",
+          "type": "FOOD",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V3097198",
+            "SEQUENCE1": "#V3097219",
+            "LEX": "AND"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097219": {
+          "id": "V3097219",
+          "indicator": "INDEF-SET",
+          "type": "FOOD",
+          "word": "RICE",
+          "roles": {
+            "LEX": "RICE",
+            "WNSENSE": "food%1:03:00"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097198": {
+          "id": "V3097198",
+          "indicator": "INDEF-SET",
+          "type": "VEGETABLE",
+          "word": "VEGETABLE",
+          "roles": {
+            "LEX": "VEGETABLES",
+            "WNSENSE": "vegetable%1:13:00::"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097237": {
+          "id": "V3097237",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V3097256",
+            "FIGURE": "#V3097195",
+            "LEX": "TO"
+          },
+          "start": 31,
+          "end": 40
+        },
+        "V3097256": {
+          "id": "V3097256",
+          "indicator": "F",
+          "type": "CREATE",
+          "word": "MAKE",
+          "roles": {
+            "AFFECTED-RESULT": "#V3097429",
+            "VFORM": "BASE",
+            "LEX": "MAKE",
+            "WNSENSE": "make%1:04:00::"
+          },
+          "start": 34,
+          "end": 40
+        },
+        "V3097429": {
+          "id": "V3097429",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(S)",
+            "VAL": "(S)",
+            "LEX": "S"
+          },
+          "start": 39,
+          "end": 40
+        },
+        "root": "#V3098628"
+      }
+    ],
+    [
+      {
+        "V3098625": {
+          "id": "V3098625",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V3097195",
+            "LEX": "BOUGHT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V3097195": {
+          "id": "V3097195",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AGENT": "#V3097190",
+            "AFFECTED": "#V3097203",
+            "REASON": "#V3097237",
+            "TENSE": "PAST",
+            "LEX": "BOUGHT",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V3097190": {
+          "id": "V3097190",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V3097203": {
+          "id": "V3097203",
+          "indicator": "INDEF-SET",
+          "type": "FOOD",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V3097198",
+            "SEQUENCE1": "#V3097219",
+            "LEX": "AND"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097219": {
+          "id": "V3097219",
+          "indicator": "INDEF-SET",
+          "type": "FOOD",
+          "word": "RICE",
+          "roles": {
+            "LEX": "RICE",
+            "WNSENSE": "food%1:03:00"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097198": {
+          "id": "V3097198",
+          "indicator": "INDEF-SET",
+          "type": "VEGETABLE",
+          "word": "VEGETABLE",
+          "roles": {
+            "LEX": "VEGETABLES",
+            "WNSENSE": "vegetable%1:13:00::"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097237": {
+          "id": "V3097237",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V3097257",
+            "FIGURE": "#V3097195",
+            "LEX": "TO"
+          },
+          "start": 31,
+          "end": 40
+        },
+        "V3097257": {
+          "id": "V3097257",
+          "indicator": "F",
+          "type": "EARNING",
+          "word": "MAKE",
+          "roles": {
+            "NEUTRAL": "#V3097429",
+            "VFORM": "BASE",
+            "LEX": "MAKE",
+            "WNSENSE": "make%2:40:01::"
+          },
+          "start": 34,
+          "end": 40
+        },
+        "V3097429": {
+          "id": "V3097429",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(S)",
+            "VAL": "(S)",
+            "LEX": "S"
+          },
+          "start": 39,
+          "end": 40
+        },
+        "root": "#V3098625"
+      }
+    ],
+    [
+      {
+        "V3098640": {
+          "id": "V3098640",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V3097195",
+            "LEX": "BOUGHT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V3097195": {
+          "id": "V3097195",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AGENT": "#V3097190",
+            "AFFECTED": "#V3097203",
+            "REASON": "#V3097237",
+            "TENSE": "PAST",
+            "LEX": "BOUGHT",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V3097190": {
+          "id": "V3097190",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V3097203": {
+          "id": "V3097203",
+          "indicator": "INDEF-SET",
+          "type": "FOOD",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V3097198",
+            "SEQUENCE1": "#V3097214",
+            "LEX": "AND"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097198": {
+          "id": "V3097198",
+          "indicator": "INDEF-SET",
+          "type": "VEGETABLE",
+          "word": "VEGETABLE",
+          "roles": {
+            "LEX": "VEGETABLES",
+            "WNSENSE": "vegetable%1:13:00::"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "V3097214": {
+          "id": "V3097214",
+          "indicator": "BARE",
+          "type": "FOOD-GRAINS",
+          "word": "RICE",
+          "roles": {
+            "LEX": "RICE",
+            "WNSENSE": "rice%1:13:00::"
+          },
+          "start": 26,
+          "end": 31
+        },
+        "V3097237": {
+          "id": "V3097237",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V3097256",
+            "FIGURE": "#V3097195",
+            "LEX": "TO"
+          },
+          "start": 31,
+          "end": 40
+        },
+        "V3097256": {
+          "id": "V3097256",
+          "indicator": "F",
+          "type": "CREATE",
+          "word": "MAKE",
+          "roles": {
+            "AFFECTED-RESULT": "#V3097419",
+            "VFORM": "BASE",
+            "LEX": "MAKE",
+            "WNSENSE": "make%1:04:00::"
+          },
+          "start": 34,
+          "end": 40
+        },
+        "V3097419": {
+          "id": "V3097419",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V3097270",
+            "LEX": "S"
+          },
+          "start": 39,
+          "end": 40
+        },
+        "V3097270": {
+          "id": "V3097270",
+          "indicator": "A",
+          "type": "QUANTITY-ABSTR",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* TIME-UNIT SECOND)",
+            "AMOUNT": "PLURAL",
+            "LEX": "S",
+            "WNSENSE": "time_unit%1:28:00"
+          },
+          "start": 39,
+          "end": 40
+        },
+        "root": "#V3098640"
+      }
+    ],
+    [
+      {
+        "V3098637": {
+          "id": "V3098637",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V3097195",
+            "LEX": "BOUGHT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V3097195": {
+          "id": "V3097195",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AGENT": "#V3097190",
+            "AFFECTED": "#V3097203",
+            "REASON": "#V3097237",
+            "TENSE": "PAST",
+            "LEX": "BOUGHT",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V3097190": {
+          "id": "V3097190",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V3097203": {
+          "id": "V3097203",
+          "indicator": "INDEF-SET",
+          "type": "FOOD",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V3097198",
+            "SEQUENCE1": "#V3097214",
+            "LEX": "AND"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097198": {
+          "id": "V3097198",
+          "indicator": "INDEF-SET",
+          "type": "VEGETABLE",
+          "word": "VEGETABLE",
+          "roles": {
+            "LEX": "VEGETABLES",
+            "WNSENSE": "vegetable%1:13:00::"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "V3097214": {
+          "id": "V3097214",
+          "indicator": "BARE",
+          "type": "FOOD-GRAINS",
+          "word": "RICE",
+          "roles": {
+            "LEX": "RICE",
+            "WNSENSE": "rice%1:13:00::"
+          },
+          "start": 26,
+          "end": 31
+        },
+        "V3097237": {
+          "id": "V3097237",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V3097257",
+            "FIGURE": "#V3097195",
+            "LEX": "TO"
+          },
+          "start": 31,
+          "end": 40
+        },
+        "V3097257": {
+          "id": "V3097257",
+          "indicator": "F",
+          "type": "EARNING",
+          "word": "MAKE",
+          "roles": {
+            "NEUTRAL": "#V3097419",
+            "VFORM": "BASE",
+            "LEX": "MAKE",
+            "WNSENSE": "make%2:40:01::"
+          },
+          "start": 34,
+          "end": 40
+        },
+        "V3097419": {
+          "id": "V3097419",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V3097270",
+            "LEX": "S"
+          },
+          "start": 39,
+          "end": 40
+        },
+        "V3097270": {
+          "id": "V3097270",
+          "indicator": "A",
+          "type": "QUANTITY-ABSTR",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* TIME-UNIT SECOND)",
+            "AMOUNT": "PLURAL",
+            "LEX": "S",
+            "WNSENSE": "time_unit%1:28:00"
+          },
+          "start": 39,
+          "end": 40
+        },
+        "root": "#V3098637"
+      }
+    ],
+    [
+      {
+        "V3098634": {
+          "id": "V3098634",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V3097195",
+            "LEX": "BOUGHT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V3097195": {
+          "id": "V3097195",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AGENT": "#V3097190",
+            "AFFECTED": "#V3097203",
+            "REASON": "#V3097237",
+            "TENSE": "PAST",
+            "LEX": "BOUGHT",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V3097190": {
+          "id": "V3097190",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V3097203": {
+          "id": "V3097203",
+          "indicator": "INDEF-SET",
+          "type": "FOOD",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V3097198",
+            "SEQUENCE1": "#V3097214",
+            "LEX": "AND"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097198": {
+          "id": "V3097198",
+          "indicator": "INDEF-SET",
+          "type": "VEGETABLE",
+          "word": "VEGETABLE",
+          "roles": {
+            "LEX": "VEGETABLES",
+            "WNSENSE": "vegetable%1:13:00::"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "V3097214": {
+          "id": "V3097214",
+          "indicator": "BARE",
+          "type": "FOOD-GRAINS",
+          "word": "RICE",
+          "roles": {
+            "LEX": "RICE",
+            "WNSENSE": "rice%1:13:00::"
+          },
+          "start": 26,
+          "end": 31
+        },
+        "V3097237": {
+          "id": "V3097237",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V3097256",
+            "FIGURE": "#V3097195",
+            "LEX": "TO"
+          },
+          "start": 31,
+          "end": 40
+        },
+        "V3097256": {
+          "id": "V3097256",
+          "indicator": "F",
+          "type": "CREATE",
+          "word": "MAKE",
+          "roles": {
+            "AFFECTED-RESULT": "#V3097413",
+            "VFORM": "BASE",
+            "LEX": "MAKE",
+            "WNSENSE": "make%1:04:00::"
+          },
+          "start": 34,
+          "end": 40
+        },
+        "V3097413": {
+          "id": "V3097413",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V3097270",
+            "LEX": "S"
+          },
+          "start": 39,
+          "end": 40
+        },
+        "V3097270": {
+          "id": "V3097270",
+          "indicator": "A",
+          "type": "QUANTITY-ABSTR",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* TIME-UNIT SECOND)",
+            "AMOUNT": "PLURAL",
+            "LEX": "S",
+            "WNSENSE": "time_unit%1:28:00"
+          },
+          "start": 39,
+          "end": 40
+        },
+        "root": "#V3098634"
+      }
+    ],
+    [
+      {
+        "V3098631": {
+          "id": "V3098631",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V3097195",
+            "LEX": "BOUGHT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V3097195": {
+          "id": "V3097195",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AGENT": "#V3097190",
+            "AFFECTED": "#V3097203",
+            "REASON": "#V3097237",
+            "TENSE": "PAST",
+            "LEX": "BOUGHT",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V3097190": {
+          "id": "V3097190",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V3097203": {
+          "id": "V3097203",
+          "indicator": "INDEF-SET",
+          "type": "FOOD",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V3097198",
+            "SEQUENCE1": "#V3097214",
+            "LEX": "AND"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097198": {
+          "id": "V3097198",
+          "indicator": "INDEF-SET",
+          "type": "VEGETABLE",
+          "word": "VEGETABLE",
+          "roles": {
+            "LEX": "VEGETABLES",
+            "WNSENSE": "vegetable%1:13:00::"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "V3097214": {
+          "id": "V3097214",
+          "indicator": "BARE",
+          "type": "FOOD-GRAINS",
+          "word": "RICE",
+          "roles": {
+            "LEX": "RICE",
+            "WNSENSE": "rice%1:13:00::"
+          },
+          "start": 26,
+          "end": 31
+        },
+        "V3097237": {
+          "id": "V3097237",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V3097257",
+            "FIGURE": "#V3097195",
+            "LEX": "TO"
+          },
+          "start": 31,
+          "end": 40
+        },
+        "V3097257": {
+          "id": "V3097257",
+          "indicator": "F",
+          "type": "EARNING",
+          "word": "MAKE",
+          "roles": {
+            "NEUTRAL": "#V3097413",
+            "VFORM": "BASE",
+            "LEX": "MAKE",
+            "WNSENSE": "make%2:40:01::"
+          },
+          "start": 34,
+          "end": 40
+        },
+        "V3097413": {
+          "id": "V3097413",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V3097270",
+            "LEX": "S"
+          },
+          "start": 39,
+          "end": 40
+        },
+        "V3097270": {
+          "id": "V3097270",
+          "indicator": "A",
+          "type": "QUANTITY-ABSTR",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* TIME-UNIT SECOND)",
+            "AMOUNT": "PLURAL",
+            "LEX": "S",
+            "WNSENSE": "time_unit%1:28:00"
+          },
+          "start": 39,
+          "end": 40
+        },
+        "root": "#V3098631"
+      }
+    ],
+    [
+      {
+        "V3098646": {
+          "id": "V3098646",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V3097195",
+            "LEX": "BOUGHT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V3097195": {
+          "id": "V3097195",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AGENT": "#V3097190",
+            "AFFECTED": "#V3097203",
+            "REASON": "#V3097237",
+            "TENSE": "PAST",
+            "LEX": "BOUGHT",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V3097190": {
+          "id": "V3097190",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V3097203": {
+          "id": "V3097203",
+          "indicator": "INDEF-SET",
+          "type": "FOOD",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V3097198",
+            "SEQUENCE1": "#V3097214",
+            "LEX": "AND"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097198": {
+          "id": "V3097198",
+          "indicator": "INDEF-SET",
+          "type": "VEGETABLE",
+          "word": "VEGETABLE",
+          "roles": {
+            "LEX": "VEGETABLES",
+            "WNSENSE": "vegetable%1:13:00::"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "V3097214": {
+          "id": "V3097214",
+          "indicator": "BARE",
+          "type": "FOOD-GRAINS",
+          "word": "RICE",
+          "roles": {
+            "LEX": "RICE",
+            "WNSENSE": "rice%1:13:00::"
+          },
+          "start": 26,
+          "end": 31
+        },
+        "V3097237": {
+          "id": "V3097237",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V3097256",
+            "FIGURE": "#V3097195",
+            "LEX": "TO"
+          },
+          "start": 31,
+          "end": 40
+        },
+        "V3097256": {
+          "id": "V3097256",
+          "indicator": "F",
+          "type": "CREATE",
+          "word": "MAKE",
+          "roles": {
+            "AFFECTED-RESULT": "#V3097429",
+            "VFORM": "BASE",
+            "LEX": "MAKE",
+            "WNSENSE": "make%1:04:00::"
+          },
+          "start": 34,
+          "end": 40
+        },
+        "V3097429": {
+          "id": "V3097429",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(S)",
+            "VAL": "(S)",
+            "LEX": "S"
+          },
+          "start": 39,
+          "end": 40
+        },
+        "root": "#V3098646"
+      }
+    ],
+    [
+      {
+        "V3098643": {
+          "id": "V3098643",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V3097195",
+            "LEX": "BOUGHT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V3097195": {
+          "id": "V3097195",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AGENT": "#V3097190",
+            "AFFECTED": "#V3097203",
+            "REASON": "#V3097237",
+            "TENSE": "PAST",
+            "LEX": "BOUGHT",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V3097190": {
+          "id": "V3097190",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V3097203": {
+          "id": "V3097203",
+          "indicator": "INDEF-SET",
+          "type": "FOOD",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V3097198",
+            "SEQUENCE1": "#V3097214",
+            "LEX": "AND"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097198": {
+          "id": "V3097198",
+          "indicator": "INDEF-SET",
+          "type": "VEGETABLE",
+          "word": "VEGETABLE",
+          "roles": {
+            "LEX": "VEGETABLES",
+            "WNSENSE": "vegetable%1:13:00::"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "V3097214": {
+          "id": "V3097214",
+          "indicator": "BARE",
+          "type": "FOOD-GRAINS",
+          "word": "RICE",
+          "roles": {
+            "LEX": "RICE",
+            "WNSENSE": "rice%1:13:00::"
+          },
+          "start": 26,
+          "end": 31
+        },
+        "V3097237": {
+          "id": "V3097237",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V3097257",
+            "FIGURE": "#V3097195",
+            "LEX": "TO"
+          },
+          "start": 31,
+          "end": 40
+        },
+        "V3097257": {
+          "id": "V3097257",
+          "indicator": "F",
+          "type": "EARNING",
+          "word": "MAKE",
+          "roles": {
+            "NEUTRAL": "#V3097429",
+            "VFORM": "BASE",
+            "LEX": "MAKE",
+            "WNSENSE": "make%2:40:01::"
+          },
+          "start": 34,
+          "end": 40
+        },
+        "V3097429": {
+          "id": "V3097429",
+          "indicator": "THE",
+          "type": "SEQUENCE",
+          "word": null,
+          "roles": {
+            "NAME-OF": "(S)",
+            "VAL": "(S)",
+            "LEX": "S"
+          },
+          "start": 39,
+          "end": 40
+        },
+        "root": "#V3098643"
+      }
+    ],
+    [
+      {
+        "V3098676": {
+          "id": "V3098676",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V3097195",
+            "LEX": "BOUGHT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V3097195": {
+          "id": "V3097195",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AGENT": "#V3097190",
+            "AFFECTED": "#V3097203",
+            "REASON": "#V3097237",
+            "TENSE": "PAST",
+            "LEX": "BOUGHT",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V3097190": {
+          "id": "V3097190",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V3097203": {
+          "id": "V3097203",
+          "indicator": "INDEF-SET",
+          "type": "PHYS-OBJECT",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V3097198",
+            "SEQUENCE1": "#V3097222",
+            "LEX": "AND"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097198": {
+          "id": "V3097198",
+          "indicator": "INDEF-SET",
+          "type": "VEGETABLE",
+          "word": "VEGETABLE",
+          "roles": {
+            "LEX": "VEGETABLES",
+            "WNSENSE": "vegetable%1:13:00::"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "V3097222": {
+          "id": "V3097222",
+          "indicator": "BARE",
+          "type": "GRAINS",
+          "word": "RICE",
+          "roles": {
+            "LEX": "RICE",
+            "WNSENSE": "rice%1:20:00::"
+          },
+          "start": 26,
+          "end": 31
+        },
+        "V3097237": {
+          "id": "V3097237",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V3097256",
+            "FIGURE": "#V3097195",
+            "LEX": "TO"
+          },
+          "start": 31,
+          "end": 40
+        },
+        "V3097256": {
+          "id": "V3097256",
+          "indicator": "F",
+          "type": "CREATE",
+          "word": "MAKE",
+          "roles": {
+            "AFFECTED-RESULT": "#V3097419",
+            "VFORM": "BASE",
+            "LEX": "MAKE",
+            "WNSENSE": "make%1:04:00::"
+          },
+          "start": 34,
+          "end": 40
+        },
+        "V3097419": {
+          "id": "V3097419",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V3097270",
+            "LEX": "S"
+          },
+          "start": 39,
+          "end": 40
+        },
+        "V3097270": {
+          "id": "V3097270",
+          "indicator": "A",
+          "type": "QUANTITY-ABSTR",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* TIME-UNIT SECOND)",
+            "AMOUNT": "PLURAL",
+            "LEX": "S",
+            "WNSENSE": "time_unit%1:28:00"
+          },
+          "start": 39,
+          "end": 40
+        },
+        "root": "#V3098676"
+      }
+    ],
+    [
+      {
+        "V3098673": {
+          "id": "V3098673",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V3097195",
+            "LEX": "BOUGHT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V3097195": {
+          "id": "V3097195",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AGENT": "#V3097190",
+            "AFFECTED": "#V3097203",
+            "REASON": "#V3097237",
+            "TENSE": "PAST",
+            "LEX": "BOUGHT",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V3097190": {
+          "id": "V3097190",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V3097203": {
+          "id": "V3097203",
+          "indicator": "INDEF-SET",
+          "type": "PHYS-OBJECT",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V3097198",
+            "SEQUENCE1": "#V3097222",
+            "LEX": "AND"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097198": {
+          "id": "V3097198",
+          "indicator": "INDEF-SET",
+          "type": "VEGETABLE",
+          "word": "VEGETABLE",
+          "roles": {
+            "LEX": "VEGETABLES",
+            "WNSENSE": "vegetable%1:13:00::"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "V3097222": {
+          "id": "V3097222",
+          "indicator": "BARE",
+          "type": "GRAINS",
+          "word": "RICE",
+          "roles": {
+            "LEX": "RICE",
+            "WNSENSE": "rice%1:20:00::"
+          },
+          "start": 26,
+          "end": 31
+        },
+        "V3097237": {
+          "id": "V3097237",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V3097257",
+            "FIGURE": "#V3097195",
+            "LEX": "TO"
+          },
+          "start": 31,
+          "end": 40
+        },
+        "V3097257": {
+          "id": "V3097257",
+          "indicator": "F",
+          "type": "EARNING",
+          "word": "MAKE",
+          "roles": {
+            "NEUTRAL": "#V3097419",
+            "VFORM": "BASE",
+            "LEX": "MAKE",
+            "WNSENSE": "make%2:40:01::"
+          },
+          "start": 34,
+          "end": 40
+        },
+        "V3097419": {
+          "id": "V3097419",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V3097270",
+            "LEX": "S"
+          },
+          "start": 39,
+          "end": 40
+        },
+        "V3097270": {
+          "id": "V3097270",
+          "indicator": "A",
+          "type": "QUANTITY-ABSTR",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* TIME-UNIT SECOND)",
+            "AMOUNT": "PLURAL",
+            "LEX": "S",
+            "WNSENSE": "time_unit%1:28:00"
+          },
+          "start": 39,
+          "end": 40
+        },
+        "root": "#V3098673"
+      }
+    ],
+    [
+      {
+        "V3098670": {
+          "id": "V3098670",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V3097195",
+            "LEX": "BOUGHT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V3097195": {
+          "id": "V3097195",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AGENT": "#V3097190",
+            "AFFECTED": "#V3097203",
+            "REASON": "#V3097237",
+            "TENSE": "PAST",
+            "LEX": "BOUGHT",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V3097190": {
+          "id": "V3097190",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V3097203": {
+          "id": "V3097203",
+          "indicator": "INDEF-SET",
+          "type": "PHYS-OBJECT",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V3097198",
+            "SEQUENCE1": "#V3097222",
+            "LEX": "AND"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097198": {
+          "id": "V3097198",
+          "indicator": "INDEF-SET",
+          "type": "VEGETABLE",
+          "word": "VEGETABLE",
+          "roles": {
+            "LEX": "VEGETABLES",
+            "WNSENSE": "vegetable%1:13:00::"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "V3097222": {
+          "id": "V3097222",
+          "indicator": "BARE",
+          "type": "GRAINS",
+          "word": "RICE",
+          "roles": {
+            "LEX": "RICE",
+            "WNSENSE": "rice%1:20:00::"
+          },
+          "start": 26,
+          "end": 31
+        },
+        "V3097237": {
+          "id": "V3097237",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V3097256",
+            "FIGURE": "#V3097195",
+            "LEX": "TO"
+          },
+          "start": 31,
+          "end": 40
+        },
+        "V3097256": {
+          "id": "V3097256",
+          "indicator": "F",
+          "type": "CREATE",
+          "word": "MAKE",
+          "roles": {
+            "AFFECTED-RESULT": "#V3097413",
+            "VFORM": "BASE",
+            "LEX": "MAKE",
+            "WNSENSE": "make%1:04:00::"
+          },
+          "start": 34,
+          "end": 40
+        },
+        "V3097413": {
+          "id": "V3097413",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V3097270",
+            "LEX": "S"
+          },
+          "start": 39,
+          "end": 40
+        },
+        "V3097270": {
+          "id": "V3097270",
+          "indicator": "A",
+          "type": "QUANTITY-ABSTR",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* TIME-UNIT SECOND)",
+            "AMOUNT": "PLURAL",
+            "LEX": "S",
+            "WNSENSE": "time_unit%1:28:00"
+          },
+          "start": 39,
+          "end": 40
+        },
+        "root": "#V3098670"
+      }
+    ],
+    [
+      {
+        "V3098667": {
+          "id": "V3098667",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V3097195",
+            "LEX": "BOUGHT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V3097195": {
+          "id": "V3097195",
+          "indicator": "F",
+          "type": "PURCHASE",
+          "word": "BUY",
+          "roles": {
+            "AGENT": "#V3097190",
+            "AFFECTED": "#V3097203",
+            "REASON": "#V3097237",
+            "TENSE": "PAST",
+            "LEX": "BOUGHT",
+            "WNSENSE": "buy%2:40:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V3097190": {
+          "id": "V3097190",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V3097203": {
+          "id": "V3097203",
+          "indicator": "INDEF-SET",
+          "type": "PHYS-OBJECT",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V3097198",
+            "SEQUENCE1": "#V3097222",
+            "LEX": "AND"
+          },
+          "start": 11,
+          "end": 31
+        },
+        "V3097198": {
+          "id": "V3097198",
+          "indicator": "INDEF-SET",
+          "type": "VEGETABLE",
+          "word": "VEGETABLE",
+          "roles": {
+            "LEX": "VEGETABLES",
+            "WNSENSE": "vegetable%1:13:00::"
+          },
+          "start": 11,
+          "end": 22
+        },
+        "V3097222": {
+          "id": "V3097222",
+          "indicator": "BARE",
+          "type": "GRAINS",
+          "word": "RICE",
+          "roles": {
+            "LEX": "RICE",
+            "WNSENSE": "rice%1:20:00::"
+          },
+          "start": 26,
+          "end": 31
+        },
+        "V3097237": {
+          "id": "V3097237",
+          "indicator": "F",
+          "type": "PURPOSE",
+          "word": "TO",
+          "roles": {
+            "GROUND": "#V3097257",
+            "FIGURE": "#V3097195",
+            "LEX": "TO"
+          },
+          "start": 31,
+          "end": 40
+        },
+        "V3097257": {
+          "id": "V3097257",
+          "indicator": "F",
+          "type": "EARNING",
+          "word": "MAKE",
+          "roles": {
+            "NEUTRAL": "#V3097413",
+            "VFORM": "BASE",
+            "LEX": "MAKE",
+            "WNSENSE": "make%2:40:01::"
+          },
+          "start": 34,
+          "end": 40
+        },
+        "V3097413": {
+          "id": "V3097413",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V3097270",
+            "LEX": "S"
+          },
+          "start": 39,
+          "end": 40
+        },
+        "V3097270": {
+          "id": "V3097270",
+          "indicator": "A",
+          "type": "QUANTITY-ABSTR",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* TIME-UNIT SECOND)",
+            "AMOUNT": "PLURAL",
+            "LEX": "S",
+            "WNSENSE": "time_unit%1:28:00"
+          },
+          "start": 39,
+          "end": 40
+        },
+        "root": "#V3098667"
+      }
+    ]
+  ],
   "annotation": {
     "judge": "abhatia",
     "parser": "STEP",

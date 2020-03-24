@@ -636,6 +636,3049 @@
     ]
   ],
   "sentence": "School was cancelled the next three days.",
+  "reparsed": [
+    [
+      {
+        "V961758": {
+          "id": "V961758",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V961239",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961239": {
+          "id": "V961239",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V961234",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961234": {
+          "id": "V961234",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "SCHOOL",
+          "roles": {
+            "NAME-OF": "SCHOOL",
+            "LEX": "SCHOOL",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "root": "#V961758"
+      },
+      {
+        "V962541": {
+          "id": "V962541",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V961257",
+            "LEX": "CANCELLED"
+          },
+          "start": 11,
+          "end": 42
+        },
+        "V961257": {
+          "id": "V961257",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "CANCEL",
+          "roles": {
+            "AGENT": "#V962542",
+            "AFFECTED": "#V961428",
+            "BENEFICIARY": "#V961415",
+            "TENSE": "PAST",
+            "LEX": "CANCELLED",
+            "WNSENSE": "cancel%2:41:03::"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V962542": {
+          "id": "V962542",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ",
+            "COREF": "#V961234"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V961415": {
+          "id": "V961415",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V961273",
+            "LEX": "THE"
+          },
+          "start": 21,
+          "end": 30
+        },
+        "V961273": {
+          "id": "V961273",
+          "indicator": "F",
+          "type": "SEQUENCE-VAL-NEXT",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V961415",
+            "SCALE": "RELATIONAL-PROPERTY-SCALE",
+            "LEX": "NEXT",
+            "WNSENSE": "next%5:00:00:succeeding:00"
+          },
+          "start": 25,
+          "end": 30
+        },
+        "V961428": {
+          "id": "V961428",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V961282",
+            "LEX": "DAYS"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961282": {
+          "id": "V961282",
+          "indicator": "A",
+          "type": "QUANTITY-ABSTR",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V961280",
+            "LEX": "DAYS",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961280": {
+          "id": "V961280",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "3"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "root": "#V962541"
+      }
+    ],
+    [
+      {
+        "V961758": {
+          "id": "V961758",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V961239",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961239": {
+          "id": "V961239",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V961234",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961234": {
+          "id": "V961234",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "SCHOOL",
+          "roles": {
+            "NAME-OF": "SCHOOL",
+            "LEX": "SCHOOL",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "root": "#V961758"
+      },
+      {
+        "V962541": {
+          "id": "V962541",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V961257",
+            "LEX": "CANCELLED"
+          },
+          "start": 11,
+          "end": 43
+        },
+        "V961257": {
+          "id": "V961257",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "CANCEL",
+          "roles": {
+            "AGENT": "#V962542",
+            "AFFECTED": "#V961428",
+            "BENEFICIARY": "#V961415",
+            "TENSE": "PAST",
+            "LEX": "CANCELLED",
+            "WNSENSE": "cancel%2:41:03::"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V962542": {
+          "id": "V962542",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V961415": {
+          "id": "V961415",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V961273",
+            "LEX": "THE"
+          },
+          "start": 21,
+          "end": 30
+        },
+        "V961273": {
+          "id": "V961273",
+          "indicator": "F",
+          "type": "SEQUENCE-VAL-NEXT",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V961415",
+            "SCALE": "RELATIONAL-PROPERTY-SCALE",
+            "LEX": "NEXT",
+            "WNSENSE": "next%5:00:00:succeeding:00"
+          },
+          "start": 25,
+          "end": 30
+        },
+        "V961428": {
+          "id": "V961428",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V961282",
+            "LEX": "DAYS"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961282": {
+          "id": "V961282",
+          "indicator": "A",
+          "type": "QUANTITY-ABSTR",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V961280",
+            "LEX": "DAYS",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961280": {
+          "id": "V961280",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "3"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "root": "#V962541"
+      }
+    ],
+    [
+      {
+        "V961758": {
+          "id": "V961758",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V961239",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961239": {
+          "id": "V961239",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V961234",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961234": {
+          "id": "V961234",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "SCHOOL",
+          "roles": {
+            "NAME-OF": "SCHOOL",
+            "LEX": "SCHOOL",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "root": "#V961758"
+      },
+      {
+        "V962541": {
+          "id": "V962541",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V961257",
+            "LEX": "CANCELLED"
+          },
+          "start": 11,
+          "end": 43
+        },
+        "V961257": {
+          "id": "V961257",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "CANCEL",
+          "roles": {
+            "AGENT": "#V962542",
+            "AFFECTED": "#V961428",
+            "BENEFICIARY": "#V961415",
+            "TENSE": "PAST",
+            "LEX": "CANCELLED",
+            "WNSENSE": "cancel%2:41:03::"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V962542": {
+          "id": "V962542",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V961415": {
+          "id": "V961415",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V961273",
+            "LEX": "THE"
+          },
+          "start": 21,
+          "end": 30
+        },
+        "V961273": {
+          "id": "V961273",
+          "indicator": "F",
+          "type": "SEQUENCE-VAL-NEXT",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V961415",
+            "SCALE": "RELATIONAL-PROPERTY-SCALE",
+            "LEX": "NEXT",
+            "WNSENSE": "next%5:00:00:succeeding:00"
+          },
+          "start": 25,
+          "end": 30
+        },
+        "V961428": {
+          "id": "V961428",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V961282",
+            "LEX": "DAYS"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961282": {
+          "id": "V961282",
+          "indicator": "A",
+          "type": "QUANTITY-ABSTR",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V961280",
+            "LEX": "DAYS",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961280": {
+          "id": "V961280",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "3"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "root": "#V962541"
+      }
+    ],
+    [
+      {
+        "V961758": {
+          "id": "V961758",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V961239",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961239": {
+          "id": "V961239",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V961234",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961234": {
+          "id": "V961234",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "SCHOOL",
+          "roles": {
+            "NAME-OF": "SCHOOL",
+            "LEX": "SCHOOL",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "root": "#V961758"
+      },
+      {
+        "V962541": {
+          "id": "V962541",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V961257",
+            "LEX": "CANCELLED"
+          },
+          "start": 11,
+          "end": 43
+        },
+        "V961257": {
+          "id": "V961257",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "CANCEL",
+          "roles": {
+            "AGENT": "#V962542",
+            "AFFECTED": "#V961428",
+            "BENEFICIARY": "#V961415",
+            "TENSE": "PAST",
+            "LEX": "CANCELLED",
+            "WNSENSE": "cancel%2:41:03::"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V962542": {
+          "id": "V962542",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V961415": {
+          "id": "V961415",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V961273",
+            "LEX": "THE"
+          },
+          "start": 21,
+          "end": 30
+        },
+        "V961273": {
+          "id": "V961273",
+          "indicator": "F",
+          "type": "SEQUENCE-VAL-NEXT",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V961415",
+            "SCALE": "RELATIONAL-PROPERTY-SCALE",
+            "LEX": "NEXT",
+            "WNSENSE": "next%5:00:00:succeeding:00"
+          },
+          "start": 25,
+          "end": 30
+        },
+        "V961428": {
+          "id": "V961428",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V961282",
+            "LEX": "DAYS"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961282": {
+          "id": "V961282",
+          "indicator": "A",
+          "type": "QUANTITY-ABSTR",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V961280",
+            "LEX": "DAYS",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961280": {
+          "id": "V961280",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "3"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "root": "#V962541"
+      }
+    ],
+    [
+      {
+        "V961758": {
+          "id": "V961758",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V961239",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961239": {
+          "id": "V961239",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V961234",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961234": {
+          "id": "V961234",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "SCHOOL",
+          "roles": {
+            "NAME-OF": "SCHOOL",
+            "LEX": "SCHOOL",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "root": "#V961758"
+      },
+      {
+        "V962541": {
+          "id": "V962541",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V961257",
+            "LEX": "CANCELLED"
+          },
+          "start": 11,
+          "end": 43
+        },
+        "V961257": {
+          "id": "V961257",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "CANCEL",
+          "roles": {
+            "AGENT": "#V962542",
+            "AFFECTED": "#V961428",
+            "BENEFICIARY": "#V961415",
+            "TENSE": "PAST",
+            "LEX": "CANCELLED",
+            "WNSENSE": "cancel%2:41:03::"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V962542": {
+          "id": "V962542",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V961415": {
+          "id": "V961415",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V961273",
+            "LEX": "THE"
+          },
+          "start": 21,
+          "end": 30
+        },
+        "V961273": {
+          "id": "V961273",
+          "indicator": "F",
+          "type": "SEQUENCE-VAL-NEXT",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V961415",
+            "SCALE": "RELATIONAL-PROPERTY-SCALE",
+            "LEX": "NEXT",
+            "WNSENSE": "next%5:00:00:succeeding:00"
+          },
+          "start": 25,
+          "end": 30
+        },
+        "V961428": {
+          "id": "V961428",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V961282",
+            "LEX": "DAYS"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961282": {
+          "id": "V961282",
+          "indicator": "A",
+          "type": "QUANTITY-ABSTR",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V961280",
+            "LEX": "DAYS",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961280": {
+          "id": "V961280",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "3"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "root": "#V962541"
+      }
+    ],
+    [
+      {
+        "V961758": {
+          "id": "V961758",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V961239",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961239": {
+          "id": "V961239",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V961234",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961234": {
+          "id": "V961234",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "SCHOOL",
+          "roles": {
+            "NAME-OF": "SCHOOL",
+            "LEX": "SCHOOL",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "root": "#V961758"
+      },
+      {
+        "V962541": {
+          "id": "V962541",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V961257",
+            "LEX": "CANCELLED"
+          },
+          "start": 11,
+          "end": 43
+        },
+        "V961257": {
+          "id": "V961257",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "CANCEL",
+          "roles": {
+            "AGENT": "#V962542",
+            "AFFECTED": "#V961428",
+            "BENEFICIARY": "#V961415",
+            "TENSE": "PAST",
+            "LEX": "CANCELLED",
+            "WNSENSE": "cancel%2:41:03::"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V962542": {
+          "id": "V962542",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V961415": {
+          "id": "V961415",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V961273",
+            "LEX": "THE"
+          },
+          "start": 21,
+          "end": 30
+        },
+        "V961273": {
+          "id": "V961273",
+          "indicator": "F",
+          "type": "SEQUENCE-VAL-NEXT",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V961415",
+            "SCALE": "RELATIONAL-PROPERTY-SCALE",
+            "LEX": "NEXT",
+            "WNSENSE": "next%5:00:00:succeeding:00"
+          },
+          "start": 25,
+          "end": 30
+        },
+        "V961428": {
+          "id": "V961428",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V961282",
+            "LEX": "DAYS"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961282": {
+          "id": "V961282",
+          "indicator": "A",
+          "type": "QUANTITY-ABSTR",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V961280",
+            "LEX": "DAYS",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961280": {
+          "id": "V961280",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "3"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "root": "#V962541"
+      }
+    ],
+    [
+      {
+        "V961758": {
+          "id": "V961758",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V961239",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961239": {
+          "id": "V961239",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V961234",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961234": {
+          "id": "V961234",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "SCHOOL",
+          "roles": {
+            "NAME-OF": "SCHOOL",
+            "LEX": "SCHOOL",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "root": "#V961758"
+      },
+      {
+        "V962541": {
+          "id": "V962541",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V961257",
+            "LEX": "CANCELLED"
+          },
+          "start": 11,
+          "end": 43
+        },
+        "V961257": {
+          "id": "V961257",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "CANCEL",
+          "roles": {
+            "AGENT": "#V962542",
+            "AFFECTED": "#V961428",
+            "BENEFICIARY": "#V961415",
+            "TENSE": "PAST",
+            "LEX": "CANCELLED",
+            "WNSENSE": "cancel%2:41:03::"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V962542": {
+          "id": "V962542",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V961415": {
+          "id": "V961415",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V961273",
+            "LEX": "THE"
+          },
+          "start": 21,
+          "end": 30
+        },
+        "V961273": {
+          "id": "V961273",
+          "indicator": "F",
+          "type": "SEQUENCE-VAL-NEXT",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V961415",
+            "SCALE": "RELATIONAL-PROPERTY-SCALE",
+            "LEX": "NEXT",
+            "WNSENSE": "next%5:00:00:succeeding:00"
+          },
+          "start": 25,
+          "end": 30
+        },
+        "V961428": {
+          "id": "V961428",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V961282",
+            "LEX": "DAYS"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961282": {
+          "id": "V961282",
+          "indicator": "A",
+          "type": "QUANTITY-ABSTR",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V961280",
+            "LEX": "DAYS",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961280": {
+          "id": "V961280",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "3"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "root": "#V962541"
+      }
+    ],
+    [
+      {
+        "V961758": {
+          "id": "V961758",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V961239",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961239": {
+          "id": "V961239",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V961234",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961234": {
+          "id": "V961234",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "SCHOOL",
+          "roles": {
+            "NAME-OF": "SCHOOL",
+            "LEX": "SCHOOL",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "root": "#V961758"
+      },
+      {
+        "V962541": {
+          "id": "V962541",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V961257",
+            "LEX": "CANCELLED"
+          },
+          "start": 11,
+          "end": 43
+        },
+        "V961257": {
+          "id": "V961257",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "CANCEL",
+          "roles": {
+            "AGENT": "#V962542",
+            "AFFECTED": "#V961428",
+            "BENEFICIARY": "#V961415",
+            "TENSE": "PAST",
+            "LEX": "CANCELLED",
+            "WNSENSE": "cancel%2:41:03::"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V962542": {
+          "id": "V962542",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V961415": {
+          "id": "V961415",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V961273",
+            "LEX": "THE"
+          },
+          "start": 21,
+          "end": 30
+        },
+        "V961273": {
+          "id": "V961273",
+          "indicator": "F",
+          "type": "SEQUENCE-VAL-NEXT",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V961415",
+            "SCALE": "RELATIONAL-PROPERTY-SCALE",
+            "LEX": "NEXT",
+            "WNSENSE": "next%5:00:00:succeeding:00"
+          },
+          "start": 25,
+          "end": 30
+        },
+        "V961428": {
+          "id": "V961428",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V961282",
+            "LEX": "DAYS"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961282": {
+          "id": "V961282",
+          "indicator": "A",
+          "type": "QUANTITY-ABSTR",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V961280",
+            "LEX": "DAYS",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961280": {
+          "id": "V961280",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "3"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "root": "#V962541"
+      }
+    ],
+    [
+      {
+        "V961758": {
+          "id": "V961758",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V961239",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961239": {
+          "id": "V961239",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V961234",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961234": {
+          "id": "V961234",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "SCHOOL",
+          "roles": {
+            "NAME-OF": "SCHOOL",
+            "LEX": "SCHOOL",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "root": "#V961758"
+      },
+      {
+        "V962615": {
+          "id": "V962615",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V961257",
+            "LEX": "CANCELLED"
+          },
+          "start": 11,
+          "end": 43
+        },
+        "V961257": {
+          "id": "V961257",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "CANCEL",
+          "roles": {
+            "AGENT": "#V962616",
+            "AFFECTED": "#V961426",
+            "BENEFICIARY": "#V961415",
+            "TENSE": "PAST",
+            "LEX": "CANCELLED",
+            "WNSENSE": "cancel%2:41:03::"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V962616": {
+          "id": "V962616",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V961415": {
+          "id": "V961415",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V961273",
+            "LEX": "THE"
+          },
+          "start": 21,
+          "end": 30
+        },
+        "V961273": {
+          "id": "V961273",
+          "indicator": "F",
+          "type": "SEQUENCE-VAL-NEXT",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V961415",
+            "SCALE": "RELATIONAL-PROPERTY-SCALE",
+            "LEX": "NEXT",
+            "WNSENSE": "next%5:00:00:succeeding:00"
+          },
+          "start": 25,
+          "end": 30
+        },
+        "V961426": {
+          "id": "V961426",
+          "indicator": "SM",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "QUANTITY": "#V961282",
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V961280",
+            "LEX": "DAYS"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961280": {
+          "id": "V961280",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "3"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961282": {
+          "id": "V961282",
+          "indicator": "A",
+          "type": "QUANTITY-ABSTR",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V961280",
+            "LEX": "DAYS",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "root": "#V962615"
+      }
+    ],
+    [
+      {
+        "V961758": {
+          "id": "V961758",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V961239",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961239": {
+          "id": "V961239",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V961234",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961234": {
+          "id": "V961234",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "SCHOOL",
+          "roles": {
+            "NAME-OF": "SCHOOL",
+            "LEX": "SCHOOL",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "root": "#V961758"
+      },
+      {
+        "V962615": {
+          "id": "V962615",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V961257",
+            "LEX": "CANCELLED"
+          },
+          "start": 11,
+          "end": 43
+        },
+        "V961257": {
+          "id": "V961257",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "CANCEL",
+          "roles": {
+            "AGENT": "#V962616",
+            "AFFECTED": "#V961426",
+            "BENEFICIARY": "#V961415",
+            "TENSE": "PAST",
+            "LEX": "CANCELLED",
+            "WNSENSE": "cancel%2:41:03::"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V962616": {
+          "id": "V962616",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V961415": {
+          "id": "V961415",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V961273",
+            "LEX": "THE"
+          },
+          "start": 21,
+          "end": 30
+        },
+        "V961273": {
+          "id": "V961273",
+          "indicator": "F",
+          "type": "SEQUENCE-VAL-NEXT",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V961415",
+            "SCALE": "RELATIONAL-PROPERTY-SCALE",
+            "LEX": "NEXT",
+            "WNSENSE": "next%5:00:00:succeeding:00"
+          },
+          "start": 25,
+          "end": 30
+        },
+        "V961426": {
+          "id": "V961426",
+          "indicator": "SM",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "QUANTITY": "#V961282",
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V961280",
+            "LEX": "DAYS"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961280": {
+          "id": "V961280",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "3"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961282": {
+          "id": "V961282",
+          "indicator": "A",
+          "type": "QUANTITY-ABSTR",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V961280",
+            "LEX": "DAYS",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "root": "#V962615"
+      }
+    ],
+    [
+      {
+        "V961758": {
+          "id": "V961758",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V961239",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961239": {
+          "id": "V961239",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V961234",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961234": {
+          "id": "V961234",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "SCHOOL",
+          "roles": {
+            "NAME-OF": "SCHOOL",
+            "LEX": "SCHOOL",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "root": "#V961758"
+      },
+      {
+        "V962615": {
+          "id": "V962615",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V961257",
+            "LEX": "CANCELLED"
+          },
+          "start": 11,
+          "end": 43
+        },
+        "V961257": {
+          "id": "V961257",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "CANCEL",
+          "roles": {
+            "AGENT": "#V962616",
+            "AFFECTED": "#V961426",
+            "BENEFICIARY": "#V961415",
+            "TENSE": "PAST",
+            "LEX": "CANCELLED",
+            "WNSENSE": "cancel%2:41:03::"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V962616": {
+          "id": "V962616",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V961415": {
+          "id": "V961415",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V961273",
+            "LEX": "THE"
+          },
+          "start": 21,
+          "end": 30
+        },
+        "V961273": {
+          "id": "V961273",
+          "indicator": "F",
+          "type": "SEQUENCE-VAL-NEXT",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V961415",
+            "SCALE": "RELATIONAL-PROPERTY-SCALE",
+            "LEX": "NEXT",
+            "WNSENSE": "next%5:00:00:succeeding:00"
+          },
+          "start": 25,
+          "end": 30
+        },
+        "V961426": {
+          "id": "V961426",
+          "indicator": "SM",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "QUANTITY": "#V961282",
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V961280",
+            "LEX": "DAYS"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961280": {
+          "id": "V961280",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "3"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961282": {
+          "id": "V961282",
+          "indicator": "A",
+          "type": "QUANTITY-ABSTR",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V961280",
+            "LEX": "DAYS",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "root": "#V962615"
+      }
+    ],
+    [
+      {
+        "V961758": {
+          "id": "V961758",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V961239",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961239": {
+          "id": "V961239",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V961234",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961234": {
+          "id": "V961234",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "SCHOOL",
+          "roles": {
+            "NAME-OF": "SCHOOL",
+            "LEX": "SCHOOL",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "root": "#V961758"
+      },
+      {
+        "V962615": {
+          "id": "V962615",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V961257",
+            "LEX": "CANCELLED"
+          },
+          "start": 11,
+          "end": 43
+        },
+        "V961257": {
+          "id": "V961257",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "CANCEL",
+          "roles": {
+            "AGENT": "#V962616",
+            "AFFECTED": "#V961426",
+            "BENEFICIARY": "#V961415",
+            "TENSE": "PAST",
+            "LEX": "CANCELLED",
+            "WNSENSE": "cancel%2:41:03::"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V962616": {
+          "id": "V962616",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V961415": {
+          "id": "V961415",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V961273",
+            "LEX": "THE"
+          },
+          "start": 21,
+          "end": 30
+        },
+        "V961273": {
+          "id": "V961273",
+          "indicator": "F",
+          "type": "SEQUENCE-VAL-NEXT",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V961415",
+            "SCALE": "RELATIONAL-PROPERTY-SCALE",
+            "LEX": "NEXT",
+            "WNSENSE": "next%5:00:00:succeeding:00"
+          },
+          "start": 25,
+          "end": 30
+        },
+        "V961426": {
+          "id": "V961426",
+          "indicator": "SM",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "QUANTITY": "#V961282",
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V961280",
+            "LEX": "DAYS"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961280": {
+          "id": "V961280",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "3"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961282": {
+          "id": "V961282",
+          "indicator": "A",
+          "type": "QUANTITY-ABSTR",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V961280",
+            "LEX": "DAYS",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "root": "#V962615"
+      }
+    ],
+    [
+      {
+        "V961758": {
+          "id": "V961758",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V961239",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961239": {
+          "id": "V961239",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V961234",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961234": {
+          "id": "V961234",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "SCHOOL",
+          "roles": {
+            "NAME-OF": "SCHOOL",
+            "LEX": "SCHOOL",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "root": "#V961758"
+      },
+      {
+        "V962615": {
+          "id": "V962615",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V961257",
+            "LEX": "CANCELLED"
+          },
+          "start": 11,
+          "end": 43
+        },
+        "V961257": {
+          "id": "V961257",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "CANCEL",
+          "roles": {
+            "AGENT": "#V962616",
+            "AFFECTED": "#V961426",
+            "BENEFICIARY": "#V961415",
+            "TENSE": "PAST",
+            "LEX": "CANCELLED",
+            "WNSENSE": "cancel%2:41:03::"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V962616": {
+          "id": "V962616",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V961415": {
+          "id": "V961415",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V961273",
+            "LEX": "THE"
+          },
+          "start": 21,
+          "end": 30
+        },
+        "V961273": {
+          "id": "V961273",
+          "indicator": "F",
+          "type": "SEQUENCE-VAL-NEXT",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V961415",
+            "SCALE": "RELATIONAL-PROPERTY-SCALE",
+            "LEX": "NEXT",
+            "WNSENSE": "next%5:00:00:succeeding:00"
+          },
+          "start": 25,
+          "end": 30
+        },
+        "V961426": {
+          "id": "V961426",
+          "indicator": "SM",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "QUANTITY": "#V961282",
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V961280",
+            "LEX": "DAYS"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961280": {
+          "id": "V961280",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "3"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961282": {
+          "id": "V961282",
+          "indicator": "A",
+          "type": "QUANTITY-ABSTR",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V961280",
+            "LEX": "DAYS",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "root": "#V962615"
+      }
+    ],
+    [
+      {
+        "V961758": {
+          "id": "V961758",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V961239",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961239": {
+          "id": "V961239",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V961234",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961234": {
+          "id": "V961234",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "SCHOOL",
+          "roles": {
+            "NAME-OF": "SCHOOL",
+            "LEX": "SCHOOL",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "root": "#V961758"
+      },
+      {
+        "V962615": {
+          "id": "V962615",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V961257",
+            "LEX": "CANCELLED"
+          },
+          "start": 11,
+          "end": 43
+        },
+        "V961257": {
+          "id": "V961257",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "CANCEL",
+          "roles": {
+            "AGENT": "#V962616",
+            "AFFECTED": "#V961426",
+            "BENEFICIARY": "#V961415",
+            "TENSE": "PAST",
+            "LEX": "CANCELLED",
+            "WNSENSE": "cancel%2:41:03::"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V962616": {
+          "id": "V962616",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V961415": {
+          "id": "V961415",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V961273",
+            "LEX": "THE"
+          },
+          "start": 21,
+          "end": 30
+        },
+        "V961273": {
+          "id": "V961273",
+          "indicator": "F",
+          "type": "SEQUENCE-VAL-NEXT",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V961415",
+            "SCALE": "RELATIONAL-PROPERTY-SCALE",
+            "LEX": "NEXT",
+            "WNSENSE": "next%5:00:00:succeeding:00"
+          },
+          "start": 25,
+          "end": 30
+        },
+        "V961426": {
+          "id": "V961426",
+          "indicator": "SM",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "QUANTITY": "#V961282",
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V961280",
+            "LEX": "DAYS"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961280": {
+          "id": "V961280",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "3"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961282": {
+          "id": "V961282",
+          "indicator": "A",
+          "type": "QUANTITY-ABSTR",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V961280",
+            "LEX": "DAYS",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "root": "#V962615"
+      }
+    ],
+    [
+      {
+        "V961758": {
+          "id": "V961758",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V961239",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961239": {
+          "id": "V961239",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V961234",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961234": {
+          "id": "V961234",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "SCHOOL",
+          "roles": {
+            "NAME-OF": "SCHOOL",
+            "LEX": "SCHOOL",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "root": "#V961758"
+      },
+      {
+        "V962615": {
+          "id": "V962615",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V961257",
+            "LEX": "CANCELLED"
+          },
+          "start": 11,
+          "end": 43
+        },
+        "V961257": {
+          "id": "V961257",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "CANCEL",
+          "roles": {
+            "AGENT": "#V962616",
+            "AFFECTED": "#V961426",
+            "BENEFICIARY": "#V961415",
+            "TENSE": "PAST",
+            "LEX": "CANCELLED",
+            "WNSENSE": "cancel%2:41:03::"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V962616": {
+          "id": "V962616",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V961415": {
+          "id": "V961415",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V961273",
+            "LEX": "THE"
+          },
+          "start": 21,
+          "end": 30
+        },
+        "V961273": {
+          "id": "V961273",
+          "indicator": "F",
+          "type": "SEQUENCE-VAL-NEXT",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V961415",
+            "SCALE": "RELATIONAL-PROPERTY-SCALE",
+            "LEX": "NEXT",
+            "WNSENSE": "next%5:00:00:succeeding:00"
+          },
+          "start": 25,
+          "end": 30
+        },
+        "V961426": {
+          "id": "V961426",
+          "indicator": "SM",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "QUANTITY": "#V961282",
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V961280",
+            "LEX": "DAYS"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961280": {
+          "id": "V961280",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "3"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961282": {
+          "id": "V961282",
+          "indicator": "A",
+          "type": "QUANTITY-ABSTR",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V961280",
+            "LEX": "DAYS",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "root": "#V962615"
+      }
+    ],
+    [
+      {
+        "V961758": {
+          "id": "V961758",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V961239",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961239": {
+          "id": "V961239",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V961234",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961234": {
+          "id": "V961234",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "SCHOOL",
+          "roles": {
+            "NAME-OF": "SCHOOL",
+            "LEX": "SCHOOL",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "root": "#V961758"
+      },
+      {
+        "V962615": {
+          "id": "V962615",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V961257",
+            "LEX": "CANCELLED"
+          },
+          "start": 11,
+          "end": 43
+        },
+        "V961257": {
+          "id": "V961257",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "CANCEL",
+          "roles": {
+            "AGENT": "#V962616",
+            "AFFECTED": "#V961426",
+            "BENEFICIARY": "#V961415",
+            "TENSE": "PAST",
+            "LEX": "CANCELLED",
+            "WNSENSE": "cancel%2:41:03::"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V962616": {
+          "id": "V962616",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V961415": {
+          "id": "V961415",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V961273",
+            "LEX": "THE"
+          },
+          "start": 21,
+          "end": 30
+        },
+        "V961273": {
+          "id": "V961273",
+          "indicator": "F",
+          "type": "SEQUENCE-VAL-NEXT",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V961415",
+            "SCALE": "RELATIONAL-PROPERTY-SCALE",
+            "LEX": "NEXT",
+            "WNSENSE": "next%5:00:00:succeeding:00"
+          },
+          "start": 25,
+          "end": 30
+        },
+        "V961426": {
+          "id": "V961426",
+          "indicator": "SM",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "QUANTITY": "#V961282",
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V961280",
+            "LEX": "DAYS"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961280": {
+          "id": "V961280",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "3"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961282": {
+          "id": "V961282",
+          "indicator": "A",
+          "type": "QUANTITY-ABSTR",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V961280",
+            "LEX": "DAYS",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "root": "#V962615"
+      }
+    ],
+    [
+      {
+        "V961883": {
+          "id": "V961883",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V961239",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961239": {
+          "id": "V961239",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V961231",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961231": {
+          "id": "V961231",
+          "indicator": "BARE",
+          "type": "ACADEMIC-INSTITUTION",
+          "word": "SCHOOL",
+          "roles": {
+            "LEX": "SCHOOL",
+            "WNSENSE": "school%1:14:00::"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "root": "#V961883"
+      },
+      {
+        "V962541": {
+          "id": "V962541",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V961257",
+            "LEX": "CANCELLED"
+          },
+          "start": 11,
+          "end": 43
+        },
+        "V961257": {
+          "id": "V961257",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "CANCEL",
+          "roles": {
+            "AGENT": "#V962542",
+            "AFFECTED": "#V961428",
+            "BENEFICIARY": "#V961415",
+            "TENSE": "PAST",
+            "LEX": "CANCELLED",
+            "WNSENSE": "cancel%2:41:03::"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V962542": {
+          "id": "V962542",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V961415": {
+          "id": "V961415",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V961273",
+            "LEX": "THE"
+          },
+          "start": 21,
+          "end": 30
+        },
+        "V961273": {
+          "id": "V961273",
+          "indicator": "F",
+          "type": "SEQUENCE-VAL-NEXT",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V961415",
+            "SCALE": "RELATIONAL-PROPERTY-SCALE",
+            "LEX": "NEXT",
+            "WNSENSE": "next%5:00:00:succeeding:00"
+          },
+          "start": 25,
+          "end": 30
+        },
+        "V961428": {
+          "id": "V961428",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V961282",
+            "LEX": "DAYS"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961282": {
+          "id": "V961282",
+          "indicator": "A",
+          "type": "QUANTITY-ABSTR",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V961280",
+            "LEX": "DAYS",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961280": {
+          "id": "V961280",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "3"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "root": "#V962541"
+      }
+    ],
+    [
+      {
+        "V961883": {
+          "id": "V961883",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V961239",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961239": {
+          "id": "V961239",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V961231",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961231": {
+          "id": "V961231",
+          "indicator": "BARE",
+          "type": "ACADEMIC-INSTITUTION",
+          "word": "SCHOOL",
+          "roles": {
+            "LEX": "SCHOOL",
+            "WNSENSE": "school%1:14:00::"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "root": "#V961883"
+      },
+      {
+        "V962541": {
+          "id": "V962541",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V961257",
+            "LEX": "CANCELLED"
+          },
+          "start": 11,
+          "end": 43
+        },
+        "V961257": {
+          "id": "V961257",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "CANCEL",
+          "roles": {
+            "AGENT": "#V962542",
+            "AFFECTED": "#V961428",
+            "BENEFICIARY": "#V961415",
+            "TENSE": "PAST",
+            "LEX": "CANCELLED",
+            "WNSENSE": "cancel%2:41:03::"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V962542": {
+          "id": "V962542",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V961415": {
+          "id": "V961415",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V961273",
+            "LEX": "THE"
+          },
+          "start": 21,
+          "end": 30
+        },
+        "V961273": {
+          "id": "V961273",
+          "indicator": "F",
+          "type": "SEQUENCE-VAL-NEXT",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V961415",
+            "SCALE": "RELATIONAL-PROPERTY-SCALE",
+            "LEX": "NEXT",
+            "WNSENSE": "next%5:00:00:succeeding:00"
+          },
+          "start": 25,
+          "end": 30
+        },
+        "V961428": {
+          "id": "V961428",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V961282",
+            "LEX": "DAYS"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961282": {
+          "id": "V961282",
+          "indicator": "A",
+          "type": "QUANTITY-ABSTR",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V961280",
+            "LEX": "DAYS",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961280": {
+          "id": "V961280",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "3"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "root": "#V962541"
+      }
+    ],
+    [
+      {
+        "V961883": {
+          "id": "V961883",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V961239",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961239": {
+          "id": "V961239",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V961231",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961231": {
+          "id": "V961231",
+          "indicator": "BARE",
+          "type": "ACADEMIC-INSTITUTION",
+          "word": "SCHOOL",
+          "roles": {
+            "LEX": "SCHOOL",
+            "WNSENSE": "school%1:14:00::"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "root": "#V961883"
+      },
+      {
+        "V962541": {
+          "id": "V962541",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V961257",
+            "LEX": "CANCELLED"
+          },
+          "start": 11,
+          "end": 43
+        },
+        "V961257": {
+          "id": "V961257",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "CANCEL",
+          "roles": {
+            "AGENT": "#V962542",
+            "AFFECTED": "#V961428",
+            "BENEFICIARY": "#V961415",
+            "TENSE": "PAST",
+            "LEX": "CANCELLED",
+            "WNSENSE": "cancel%2:41:03::"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V962542": {
+          "id": "V962542",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V961415": {
+          "id": "V961415",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V961273",
+            "LEX": "THE"
+          },
+          "start": 21,
+          "end": 30
+        },
+        "V961273": {
+          "id": "V961273",
+          "indicator": "F",
+          "type": "SEQUENCE-VAL-NEXT",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V961415",
+            "SCALE": "RELATIONAL-PROPERTY-SCALE",
+            "LEX": "NEXT",
+            "WNSENSE": "next%5:00:00:succeeding:00"
+          },
+          "start": 25,
+          "end": 30
+        },
+        "V961428": {
+          "id": "V961428",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V961282",
+            "LEX": "DAYS"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961282": {
+          "id": "V961282",
+          "indicator": "A",
+          "type": "QUANTITY-ABSTR",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V961280",
+            "LEX": "DAYS",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961280": {
+          "id": "V961280",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "3"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "root": "#V962541"
+      }
+    ],
+    [
+      {
+        "V961883": {
+          "id": "V961883",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V961239",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961239": {
+          "id": "V961239",
+          "indicator": "F",
+          "type": "ELLIPSIS",
+          "word": null,
+          "roles": {
+            "NEUTRAL": "#V961231",
+            "TENSE": "PAST",
+            "PROGR": "+",
+            "LEX": "WAS"
+          },
+          "start": 0,
+          "end": 11
+        },
+        "V961231": {
+          "id": "V961231",
+          "indicator": "BARE",
+          "type": "ACADEMIC-INSTITUTION",
+          "word": "SCHOOL",
+          "roles": {
+            "LEX": "SCHOOL",
+            "WNSENSE": "school%1:14:00::"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "root": "#V961883"
+      },
+      {
+        "V962541": {
+          "id": "V962541",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V961257",
+            "LEX": "CANCELLED"
+          },
+          "start": 11,
+          "end": 43
+        },
+        "V961257": {
+          "id": "V961257",
+          "indicator": "F",
+          "type": "CANCEL",
+          "word": "CANCEL",
+          "roles": {
+            "AGENT": "#V962542",
+            "AFFECTED": "#V961428",
+            "BENEFICIARY": "#V961415",
+            "TENSE": "PAST",
+            "LEX": "CANCELLED",
+            "WNSENSE": "cancel%2:41:03::"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V962542": {
+          "id": "V962542",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 11,
+          "end": 40
+        },
+        "V961415": {
+          "id": "V961415",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V961273",
+            "LEX": "THE"
+          },
+          "start": 21,
+          "end": 30
+        },
+        "V961273": {
+          "id": "V961273",
+          "indicator": "F",
+          "type": "SEQUENCE-VAL-NEXT",
+          "word": "NEXT",
+          "roles": {
+            "FIGURE": "#V961415",
+            "SCALE": "RELATIONAL-PROPERTY-SCALE",
+            "LEX": "NEXT",
+            "WNSENSE": "next%5:00:00:succeeding:00"
+          },
+          "start": 25,
+          "end": 30
+        },
+        "V961428": {
+          "id": "V961428",
+          "indicator": "A",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "SIZE": "#V961282",
+            "LEX": "DAYS"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961282": {
+          "id": "V961282",
+          "indicator": "A",
+          "type": "QUANTITY-ABSTR",
+          "word": null,
+          "roles": {
+            "SCALE": "DURATION-SCALE",
+            "UNIT": "(:* DAY-DURATION DAY)",
+            "AMOUNT": "#V961280",
+            "LEX": "DAYS",
+            "WNSENSE": "day%1:28:00::"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V961280": {
+          "id": "V961280",
+          "indicator": "A",
+          "type": "NUMBER",
+          "word": null,
+          "roles": {
+            "VALUE": "3"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "root": "#V962541"
+      }
+    ]
+  ],
   "annotation": {
     "judge": "abhatia",
     "parser": "STEP",

@@ -2443,6 +2443,2357 @@
     ]
   ],
   "sentence": "As the person left Tony laughed at his bullishness.",
+  "reparsed": [
+    [
+      {
+        "V470512": {
+          "id": "V470512",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V469620",
+            "LEX": "LAUGHED-AT"
+          },
+          "start": 0,
+          "end": 41
+        },
+        "V469620": {
+          "id": "V469620",
+          "indicator": "F",
+          "type": "INTERACT",
+          "word": "LAUGHED-AT",
+          "roles": {
+            "AGENT": "#V469576",
+            "AFFECTED": "#V469654",
+            "TIME": "#V469521",
+            "TENSE": "PAST",
+            "LEX": "LAUGHED-AT",
+            "WNSENSE": "laugh_at%2:32:00"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V469521": {
+          "id": "V469521",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "AS",
+          "roles": {
+            "GROUND": "#V469558",
+            "FIGURE": "#V469620",
+            "LEX": "AS",
+            "WNSENSE": "as%4:02:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V469558": {
+          "id": "V469558",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V469542",
+            "TENSE": "PAST",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:38:01::"
+          },
+          "start": 3,
+          "end": 19
+        },
+        "V469542": {
+          "id": "V469542",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "LEX": "PERSON",
+            "WNSENSE": "person%1:03:00::"
+          },
+          "start": 3,
+          "end": 14
+        },
+        "V469576": {
+          "id": "V469576",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "TONY",
+          "roles": {
+            "NAME-OF": "TONY",
+            "LEX": "TONY",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 19,
+          "end": 24
+        },
+        "V469654": {
+          "id": "V469654",
+          "indicator": "THE",
+          "type": "BACTERIUM",
+          "word": "B",
+          "roles": {
+            "ASSOC-POSS": "#V469638",
+            "LEX": "B",
+            "WNSENSE": "b%1:05:00::"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "V469638": {
+          "id": "V469638",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00",
+            "COREF": "#V469576"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "root": "#V470512"
+      }
+    ],
+    [
+      {
+        "V470509": {
+          "id": "V470509",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V469620",
+            "LEX": "LAUGHED-AT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V469620": {
+          "id": "V469620",
+          "indicator": "F",
+          "type": "INTERACT",
+          "word": "LAUGHED-AT",
+          "roles": {
+            "AGENT": "#V469576",
+            "AFFECTED": "#V469654",
+            "REASON": "#V469520",
+            "TENSE": "PAST",
+            "LEX": "LAUGHED-AT",
+            "WNSENSE": "laugh_at%2:32:00"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V469520": {
+          "id": "V469520",
+          "indicator": "F",
+          "type": "REASON",
+          "word": "AS",
+          "roles": {
+            "GROUND": "#V469558",
+            "FIGURE": "#V469620",
+            "LEX": "AS",
+            "WNSENSE": "as%4:02:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V469558": {
+          "id": "V469558",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V469542",
+            "TENSE": "PAST",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:38:01::"
+          },
+          "start": 3,
+          "end": 19
+        },
+        "V469542": {
+          "id": "V469542",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "LEX": "PERSON",
+            "WNSENSE": "person%1:03:00::"
+          },
+          "start": 3,
+          "end": 14
+        },
+        "V469576": {
+          "id": "V469576",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "TONY",
+          "roles": {
+            "NAME-OF": "TONY",
+            "LEX": "TONY",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 19,
+          "end": 24
+        },
+        "V469654": {
+          "id": "V469654",
+          "indicator": "THE",
+          "type": "BACTERIUM",
+          "word": "B",
+          "roles": {
+            "ASSOC-POSS": "#V469638",
+            "LEX": "B",
+            "WNSENSE": "b%1:05:00::"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "V469638": {
+          "id": "V469638",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "root": "#V470509"
+      }
+    ],
+    [
+      {
+        "V470506": {
+          "id": "V470506",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V469620",
+            "LEX": "LAUGHED-AT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V469620": {
+          "id": "V469620",
+          "indicator": "F",
+          "type": "INTERACT",
+          "word": "LAUGHED-AT",
+          "roles": {
+            "AGENT": "#V469582",
+            "AFFECTED": "#V469654",
+            "TIME": "#V469521",
+            "TENSE": "PAST",
+            "LEX": "LAUGHED-AT",
+            "WNSENSE": "laugh_at%2:32:00"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V469521": {
+          "id": "V469521",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "AS",
+          "roles": {
+            "GROUND": "#V469558",
+            "FIGURE": "#V469620",
+            "LEX": "AS",
+            "WNSENSE": "as%4:02:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V469558": {
+          "id": "V469558",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V469542",
+            "TENSE": "PAST",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:38:01::"
+          },
+          "start": 3,
+          "end": 19
+        },
+        "V469542": {
+          "id": "V469542",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "LEX": "PERSON",
+            "WNSENSE": "person%1:03:00::"
+          },
+          "start": 3,
+          "end": 14
+        },
+        "V469582": {
+          "id": "V469582",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "TONY",
+          "roles": {
+            "NAME-OF": "TONY",
+            "LEX": "TONY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 19,
+          "end": 24
+        },
+        "V469654": {
+          "id": "V469654",
+          "indicator": "THE",
+          "type": "BACTERIUM",
+          "word": "B",
+          "roles": {
+            "ASSOC-POSS": "#V469638",
+            "LEX": "B",
+            "WNSENSE": "b%1:05:00::"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "V469638": {
+          "id": "V469638",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "root": "#V470506"
+      }
+    ],
+    [
+      {
+        "V470503": {
+          "id": "V470503",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V469620",
+            "LEX": "LAUGHED-AT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V469620": {
+          "id": "V469620",
+          "indicator": "F",
+          "type": "INTERACT",
+          "word": "LAUGHED-AT",
+          "roles": {
+            "AGENT": "#V469582",
+            "AFFECTED": "#V469654",
+            "REASON": "#V469520",
+            "TENSE": "PAST",
+            "LEX": "LAUGHED-AT",
+            "WNSENSE": "laugh_at%2:32:00"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V469520": {
+          "id": "V469520",
+          "indicator": "F",
+          "type": "REASON",
+          "word": "AS",
+          "roles": {
+            "GROUND": "#V469558",
+            "FIGURE": "#V469620",
+            "LEX": "AS",
+            "WNSENSE": "as%4:02:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V469558": {
+          "id": "V469558",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V469542",
+            "TENSE": "PAST",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:38:01::"
+          },
+          "start": 3,
+          "end": 19
+        },
+        "V469542": {
+          "id": "V469542",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "LEX": "PERSON",
+            "WNSENSE": "person%1:03:00::"
+          },
+          "start": 3,
+          "end": 14
+        },
+        "V469582": {
+          "id": "V469582",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "TONY",
+          "roles": {
+            "NAME-OF": "TONY",
+            "LEX": "TONY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 19,
+          "end": 24
+        },
+        "V469654": {
+          "id": "V469654",
+          "indicator": "THE",
+          "type": "BACTERIUM",
+          "word": "B",
+          "roles": {
+            "ASSOC-POSS": "#V469638",
+            "LEX": "B",
+            "WNSENSE": "b%1:05:00::"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "V469638": {
+          "id": "V469638",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "root": "#V470503"
+      }
+    ],
+    [
+      {
+        "V470586": {
+          "id": "V470586",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V469620",
+            "LEX": "LAUGHED-AT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V469620": {
+          "id": "V469620",
+          "indicator": "F",
+          "type": "INTERACT",
+          "word": "LAUGHED-AT",
+          "roles": {
+            "AGENT": "#V469576",
+            "AFFECTED": "#V469659",
+            "TIME": "#V469521",
+            "TENSE": "PAST",
+            "LEX": "LAUGHED-AT",
+            "WNSENSE": "laugh_at%2:32:00"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V469521": {
+          "id": "V469521",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "AS",
+          "roles": {
+            "GROUND": "#V469558",
+            "FIGURE": "#V469620",
+            "LEX": "AS",
+            "WNSENSE": "as%4:02:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V469558": {
+          "id": "V469558",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V469542",
+            "TENSE": "PAST",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:38:01::"
+          },
+          "start": 3,
+          "end": 19
+        },
+        "V469542": {
+          "id": "V469542",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "LEX": "PERSON",
+            "WNSENSE": "person%1:03:00::"
+          },
+          "start": 3,
+          "end": 14
+        },
+        "V469576": {
+          "id": "V469576",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "TONY",
+          "roles": {
+            "NAME-OF": "TONY",
+            "LEX": "TONY",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 19,
+          "end": 24
+        },
+        "V469659": {
+          "id": "V469659",
+          "indicator": "THE",
+          "type": "VITAMINS",
+          "word": "B",
+          "roles": {
+            "ASSOC-POSS": "#V469638",
+            "LEX": "B",
+            "WNSENSE": "b%1:27:01::"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "V469638": {
+          "id": "V469638",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "root": "#V470586"
+      }
+    ],
+    [
+      {
+        "V470583": {
+          "id": "V470583",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V469620",
+            "LEX": "LAUGHED-AT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V469620": {
+          "id": "V469620",
+          "indicator": "F",
+          "type": "INTERACT",
+          "word": "LAUGHED-AT",
+          "roles": {
+            "AGENT": "#V469576",
+            "AFFECTED": "#V469659",
+            "REASON": "#V469520",
+            "TENSE": "PAST",
+            "LEX": "LAUGHED-AT",
+            "WNSENSE": "laugh_at%2:32:00"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V469520": {
+          "id": "V469520",
+          "indicator": "F",
+          "type": "REASON",
+          "word": "AS",
+          "roles": {
+            "GROUND": "#V469558",
+            "FIGURE": "#V469620",
+            "LEX": "AS",
+            "WNSENSE": "as%4:02:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V469558": {
+          "id": "V469558",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V469542",
+            "TENSE": "PAST",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:38:01::"
+          },
+          "start": 3,
+          "end": 19
+        },
+        "V469542": {
+          "id": "V469542",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "LEX": "PERSON",
+            "WNSENSE": "person%1:03:00::"
+          },
+          "start": 3,
+          "end": 14
+        },
+        "V469576": {
+          "id": "V469576",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "TONY",
+          "roles": {
+            "NAME-OF": "TONY",
+            "LEX": "TONY",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 19,
+          "end": 24
+        },
+        "V469659": {
+          "id": "V469659",
+          "indicator": "THE",
+          "type": "VITAMINS",
+          "word": "B",
+          "roles": {
+            "ASSOC-POSS": "#V469638",
+            "LEX": "B",
+            "WNSENSE": "b%1:27:01::"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "V469638": {
+          "id": "V469638",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "root": "#V470583"
+      }
+    ],
+    [
+      {
+        "V470580": {
+          "id": "V470580",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V469620",
+            "LEX": "LAUGHED-AT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V469620": {
+          "id": "V469620",
+          "indicator": "F",
+          "type": "INTERACT",
+          "word": "LAUGHED-AT",
+          "roles": {
+            "AGENT": "#V469582",
+            "AFFECTED": "#V469659",
+            "TIME": "#V469521",
+            "TENSE": "PAST",
+            "LEX": "LAUGHED-AT",
+            "WNSENSE": "laugh_at%2:32:00"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V469521": {
+          "id": "V469521",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "AS",
+          "roles": {
+            "GROUND": "#V469558",
+            "FIGURE": "#V469620",
+            "LEX": "AS",
+            "WNSENSE": "as%4:02:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V469558": {
+          "id": "V469558",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V469542",
+            "TENSE": "PAST",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:38:01::"
+          },
+          "start": 3,
+          "end": 19
+        },
+        "V469542": {
+          "id": "V469542",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "LEX": "PERSON",
+            "WNSENSE": "person%1:03:00::"
+          },
+          "start": 3,
+          "end": 14
+        },
+        "V469582": {
+          "id": "V469582",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "TONY",
+          "roles": {
+            "NAME-OF": "TONY",
+            "LEX": "TONY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 19,
+          "end": 24
+        },
+        "V469659": {
+          "id": "V469659",
+          "indicator": "THE",
+          "type": "VITAMINS",
+          "word": "B",
+          "roles": {
+            "ASSOC-POSS": "#V469638",
+            "LEX": "B",
+            "WNSENSE": "b%1:27:01::"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "V469638": {
+          "id": "V469638",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "root": "#V470580"
+      }
+    ],
+    [
+      {
+        "V470577": {
+          "id": "V470577",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V469620",
+            "LEX": "LAUGHED-AT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V469620": {
+          "id": "V469620",
+          "indicator": "F",
+          "type": "INTERACT",
+          "word": "LAUGHED-AT",
+          "roles": {
+            "AGENT": "#V469582",
+            "AFFECTED": "#V469659",
+            "REASON": "#V469520",
+            "TENSE": "PAST",
+            "LEX": "LAUGHED-AT",
+            "WNSENSE": "laugh_at%2:32:00"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V469520": {
+          "id": "V469520",
+          "indicator": "F",
+          "type": "REASON",
+          "word": "AS",
+          "roles": {
+            "GROUND": "#V469558",
+            "FIGURE": "#V469620",
+            "LEX": "AS",
+            "WNSENSE": "as%4:02:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V469558": {
+          "id": "V469558",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V469542",
+            "TENSE": "PAST",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:38:01::"
+          },
+          "start": 3,
+          "end": 19
+        },
+        "V469542": {
+          "id": "V469542",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "LEX": "PERSON",
+            "WNSENSE": "person%1:03:00::"
+          },
+          "start": 3,
+          "end": 14
+        },
+        "V469582": {
+          "id": "V469582",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "TONY",
+          "roles": {
+            "NAME-OF": "TONY",
+            "LEX": "TONY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 19,
+          "end": 24
+        },
+        "V469659": {
+          "id": "V469659",
+          "indicator": "THE",
+          "type": "VITAMINS",
+          "word": "B",
+          "roles": {
+            "ASSOC-POSS": "#V469638",
+            "LEX": "B",
+            "WNSENSE": "b%1:27:01::"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "V469638": {
+          "id": "V469638",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "root": "#V470577"
+      }
+    ],
+    [
+      {
+        "V470675": {
+          "id": "V470675",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V469620",
+            "LEX": "LAUGHED-AT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V469620": {
+          "id": "V469620",
+          "indicator": "F",
+          "type": "INTERACT",
+          "word": "LAUGHED-AT",
+          "roles": {
+            "AGENT": "#V469576",
+            "AFFECTED": "#V469656",
+            "TIME": "#V469521",
+            "TENSE": "PAST",
+            "LEX": "LAUGHED-AT",
+            "WNSENSE": "laugh_at%2:32:00"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V469521": {
+          "id": "V469521",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "AS",
+          "roles": {
+            "GROUND": "#V469558",
+            "FIGURE": "#V469620",
+            "LEX": "AS",
+            "WNSENSE": "as%4:02:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V469558": {
+          "id": "V469558",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V469542",
+            "TENSE": "PAST",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:38:01::"
+          },
+          "start": 3,
+          "end": 19
+        },
+        "V469542": {
+          "id": "V469542",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "LEX": "PERSON",
+            "WNSENSE": "person%1:03:00::"
+          },
+          "start": 3,
+          "end": 14
+        },
+        "V469576": {
+          "id": "V469576",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "TONY",
+          "roles": {
+            "NAME-OF": "TONY",
+            "LEX": "TONY",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 19,
+          "end": 24
+        },
+        "V469656": {
+          "id": "V469656",
+          "indicator": "THE",
+          "type": "MICROORGANISM",
+          "word": "B",
+          "roles": {
+            "ASSOC-POSS": "#V469638",
+            "LEX": "B",
+            "WNSENSE": "microorganism%1:05:00"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "V469638": {
+          "id": "V469638",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "root": "#V470675"
+      }
+    ],
+    [
+      {
+        "V470672": {
+          "id": "V470672",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V469620",
+            "LEX": "LAUGHED-AT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V469620": {
+          "id": "V469620",
+          "indicator": "F",
+          "type": "INTERACT",
+          "word": "LAUGHED-AT",
+          "roles": {
+            "AGENT": "#V469576",
+            "AFFECTED": "#V469656",
+            "REASON": "#V469520",
+            "TENSE": "PAST",
+            "LEX": "LAUGHED-AT",
+            "WNSENSE": "laugh_at%2:32:00"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V469520": {
+          "id": "V469520",
+          "indicator": "F",
+          "type": "REASON",
+          "word": "AS",
+          "roles": {
+            "GROUND": "#V469558",
+            "FIGURE": "#V469620",
+            "LEX": "AS",
+            "WNSENSE": "as%4:02:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V469558": {
+          "id": "V469558",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V469542",
+            "TENSE": "PAST",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:38:01::"
+          },
+          "start": 3,
+          "end": 19
+        },
+        "V469542": {
+          "id": "V469542",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "LEX": "PERSON",
+            "WNSENSE": "person%1:03:00::"
+          },
+          "start": 3,
+          "end": 14
+        },
+        "V469576": {
+          "id": "V469576",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "TONY",
+          "roles": {
+            "NAME-OF": "TONY",
+            "LEX": "TONY",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 19,
+          "end": 24
+        },
+        "V469656": {
+          "id": "V469656",
+          "indicator": "THE",
+          "type": "MICROORGANISM",
+          "word": "B",
+          "roles": {
+            "ASSOC-POSS": "#V469638",
+            "LEX": "B",
+            "WNSENSE": "microorganism%1:05:00"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "V469638": {
+          "id": "V469638",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "root": "#V470672"
+      }
+    ],
+    [
+      {
+        "V470669": {
+          "id": "V470669",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V469620",
+            "LEX": "LAUGHED-AT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V469620": {
+          "id": "V469620",
+          "indicator": "F",
+          "type": "INTERACT",
+          "word": "LAUGHED-AT",
+          "roles": {
+            "AGENT": "#V469582",
+            "AFFECTED": "#V469656",
+            "TIME": "#V469521",
+            "TENSE": "PAST",
+            "LEX": "LAUGHED-AT",
+            "WNSENSE": "laugh_at%2:32:00"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V469521": {
+          "id": "V469521",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "AS",
+          "roles": {
+            "GROUND": "#V469558",
+            "FIGURE": "#V469620",
+            "LEX": "AS",
+            "WNSENSE": "as%4:02:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V469558": {
+          "id": "V469558",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V469542",
+            "TENSE": "PAST",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:38:01::"
+          },
+          "start": 3,
+          "end": 19
+        },
+        "V469542": {
+          "id": "V469542",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "LEX": "PERSON",
+            "WNSENSE": "person%1:03:00::"
+          },
+          "start": 3,
+          "end": 14
+        },
+        "V469582": {
+          "id": "V469582",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "TONY",
+          "roles": {
+            "NAME-OF": "TONY",
+            "LEX": "TONY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 19,
+          "end": 24
+        },
+        "V469656": {
+          "id": "V469656",
+          "indicator": "THE",
+          "type": "MICROORGANISM",
+          "word": "B",
+          "roles": {
+            "ASSOC-POSS": "#V469638",
+            "LEX": "B",
+            "WNSENSE": "microorganism%1:05:00"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "V469638": {
+          "id": "V469638",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "root": "#V470669"
+      }
+    ],
+    [
+      {
+        "V470666": {
+          "id": "V470666",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V469620",
+            "LEX": "LAUGHED-AT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V469620": {
+          "id": "V469620",
+          "indicator": "F",
+          "type": "INTERACT",
+          "word": "LAUGHED-AT",
+          "roles": {
+            "AGENT": "#V469582",
+            "AFFECTED": "#V469656",
+            "REASON": "#V469520",
+            "TENSE": "PAST",
+            "LEX": "LAUGHED-AT",
+            "WNSENSE": "laugh_at%2:32:00"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V469520": {
+          "id": "V469520",
+          "indicator": "F",
+          "type": "REASON",
+          "word": "AS",
+          "roles": {
+            "GROUND": "#V469558",
+            "FIGURE": "#V469620",
+            "LEX": "AS",
+            "WNSENSE": "as%4:02:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V469558": {
+          "id": "V469558",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V469542",
+            "TENSE": "PAST",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:38:01::"
+          },
+          "start": 3,
+          "end": 19
+        },
+        "V469542": {
+          "id": "V469542",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "LEX": "PERSON",
+            "WNSENSE": "person%1:03:00::"
+          },
+          "start": 3,
+          "end": 14
+        },
+        "V469582": {
+          "id": "V469582",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "TONY",
+          "roles": {
+            "NAME-OF": "TONY",
+            "LEX": "TONY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 19,
+          "end": 24
+        },
+        "V469656": {
+          "id": "V469656",
+          "indicator": "THE",
+          "type": "MICROORGANISM",
+          "word": "B",
+          "roles": {
+            "ASSOC-POSS": "#V469638",
+            "LEX": "B",
+            "WNSENSE": "microorganism%1:05:00"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "V469638": {
+          "id": "V469638",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "root": "#V470666"
+      }
+    ],
+    [
+      {
+        "V471313": {
+          "id": "V471313",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V469620",
+            "LEX": "LAUGHED-AT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V469620": {
+          "id": "V469620",
+          "indicator": "F",
+          "type": "INTERACT",
+          "word": "LAUGHED-AT",
+          "roles": {
+            "AGENT": "#V469582",
+            "AFFECTED": "#V469654",
+            "MANNER": "#V469522",
+            "TENSE": "PAST",
+            "LEX": "LAUGHED-AT",
+            "WNSENSE": "laugh_at%2:32:00"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V469522": {
+          "id": "V469522",
+          "indicator": "F",
+          "type": "MANNER",
+          "word": "AS",
+          "roles": {
+            "GROUND": "#V469874",
+            "FIGURE": "#V469620",
+            "LEX": "AS",
+            "WNSENSE": "as%4:02:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V469874": {
+          "id": "V469874",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V469556",
+            "LEX": "THE"
+          },
+          "start": 3,
+          "end": 19
+        },
+        "V469556": {
+          "id": "V469556",
+          "indicator": "F",
+          "type": "FUTURE-GIVING",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V469542",
+            "AFFECTED-RESULT": "#V469874",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:40:01::"
+          },
+          "start": 7,
+          "end": 19
+        },
+        "V469542": {
+          "id": "V469542",
+          "indicator": "KIND",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "WNSENSE": "person%1:03:00::"
+          },
+          "start": 7,
+          "end": 19
+        },
+        "V469582": {
+          "id": "V469582",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "TONY",
+          "roles": {
+            "NAME-OF": "TONY",
+            "LEX": "TONY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 19,
+          "end": 24
+        },
+        "V469654": {
+          "id": "V469654",
+          "indicator": "THE",
+          "type": "BACTERIUM",
+          "word": "B",
+          "roles": {
+            "ASSOC-POSS": "#V469638",
+            "LEX": "B",
+            "WNSENSE": "b%1:05:00::"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "V469638": {
+          "id": "V469638",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "root": "#V471313"
+      }
+    ],
+    [
+      {
+        "V471310": {
+          "id": "V471310",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V469620",
+            "LEX": "LAUGHED-AT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V469620": {
+          "id": "V469620",
+          "indicator": "F",
+          "type": "INTERACT",
+          "word": "LAUGHED-AT",
+          "roles": {
+            "AGENT": "#V469576",
+            "AFFECTED": "#V469654",
+            "MANNER": "#V469522",
+            "TENSE": "PAST",
+            "LEX": "LAUGHED-AT",
+            "WNSENSE": "laugh_at%2:32:00"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V469522": {
+          "id": "V469522",
+          "indicator": "F",
+          "type": "MANNER",
+          "word": "AS",
+          "roles": {
+            "GROUND": "#V469874",
+            "FIGURE": "#V469620",
+            "LEX": "AS",
+            "WNSENSE": "as%4:02:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V469874": {
+          "id": "V469874",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V469556",
+            "LEX": "THE"
+          },
+          "start": 3,
+          "end": 19
+        },
+        "V469556": {
+          "id": "V469556",
+          "indicator": "F",
+          "type": "FUTURE-GIVING",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V469542",
+            "AFFECTED-RESULT": "#V469874",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:40:01::"
+          },
+          "start": 7,
+          "end": 19
+        },
+        "V469542": {
+          "id": "V469542",
+          "indicator": "KIND",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "WNSENSE": "person%1:03:00::"
+          },
+          "start": 7,
+          "end": 19
+        },
+        "V469576": {
+          "id": "V469576",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "TONY",
+          "roles": {
+            "NAME-OF": "TONY",
+            "LEX": "TONY",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 19,
+          "end": 24
+        },
+        "V469654": {
+          "id": "V469654",
+          "indicator": "THE",
+          "type": "BACTERIUM",
+          "word": "B",
+          "roles": {
+            "ASSOC-POSS": "#V469638",
+            "LEX": "B",
+            "WNSENSE": "b%1:05:00::"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "V469638": {
+          "id": "V469638",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "root": "#V471310"
+      }
+    ],
+    [
+      {
+        "V471307": {
+          "id": "V471307",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V469620",
+            "LEX": "LAUGHED-AT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V469620": {
+          "id": "V469620",
+          "indicator": "F",
+          "type": "INTERACT",
+          "word": "LAUGHED-AT",
+          "roles": {
+            "AGENT": "#V469582",
+            "AFFECTED": "#V469654",
+            "MANNER": "#V469522",
+            "TENSE": "PAST",
+            "LEX": "LAUGHED-AT",
+            "WNSENSE": "laugh_at%2:32:00"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V469522": {
+          "id": "V469522",
+          "indicator": "F",
+          "type": "MANNER",
+          "word": "AS",
+          "roles": {
+            "GROUND": "#V469874",
+            "FIGURE": "#V469620",
+            "LEX": "AS",
+            "WNSENSE": "as%4:02:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V469874": {
+          "id": "V469874",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V469557",
+            "LEX": "THE"
+          },
+          "start": 3,
+          "end": 19
+        },
+        "V469557": {
+          "id": "V469557",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V469542",
+            "NEUTRAL": "#V469874",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:38:01::"
+          },
+          "start": 7,
+          "end": 19
+        },
+        "V469542": {
+          "id": "V469542",
+          "indicator": "KIND",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "WNSENSE": "person%1:03:00::"
+          },
+          "start": 7,
+          "end": 19
+        },
+        "V469582": {
+          "id": "V469582",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "TONY",
+          "roles": {
+            "NAME-OF": "TONY",
+            "LEX": "TONY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 19,
+          "end": 24
+        },
+        "V469654": {
+          "id": "V469654",
+          "indicator": "THE",
+          "type": "BACTERIUM",
+          "word": "B",
+          "roles": {
+            "ASSOC-POSS": "#V469638",
+            "LEX": "B",
+            "WNSENSE": "b%1:05:00::"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "V469638": {
+          "id": "V469638",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "root": "#V471307"
+      }
+    ],
+    [
+      {
+        "V471304": {
+          "id": "V471304",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V469620",
+            "LEX": "LAUGHED-AT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V469620": {
+          "id": "V469620",
+          "indicator": "F",
+          "type": "INTERACT",
+          "word": "LAUGHED-AT",
+          "roles": {
+            "AGENT": "#V469576",
+            "AFFECTED": "#V469654",
+            "MANNER": "#V469522",
+            "TENSE": "PAST",
+            "LEX": "LAUGHED-AT",
+            "WNSENSE": "laugh_at%2:32:00"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V469522": {
+          "id": "V469522",
+          "indicator": "F",
+          "type": "MANNER",
+          "word": "AS",
+          "roles": {
+            "GROUND": "#V469874",
+            "FIGURE": "#V469620",
+            "LEX": "AS",
+            "WNSENSE": "as%4:02:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V469874": {
+          "id": "V469874",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V469557",
+            "LEX": "THE"
+          },
+          "start": 3,
+          "end": 19
+        },
+        "V469557": {
+          "id": "V469557",
+          "indicator": "F",
+          "type": "DEPART",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V469542",
+            "NEUTRAL": "#V469874",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:38:01::"
+          },
+          "start": 7,
+          "end": 19
+        },
+        "V469542": {
+          "id": "V469542",
+          "indicator": "KIND",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "WNSENSE": "person%1:03:00::"
+          },
+          "start": 7,
+          "end": 19
+        },
+        "V469576": {
+          "id": "V469576",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "TONY",
+          "roles": {
+            "NAME-OF": "TONY",
+            "LEX": "TONY",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 19,
+          "end": 24
+        },
+        "V469654": {
+          "id": "V469654",
+          "indicator": "THE",
+          "type": "BACTERIUM",
+          "word": "B",
+          "roles": {
+            "ASSOC-POSS": "#V469638",
+            "LEX": "B",
+            "WNSENSE": "b%1:05:00::"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "V469638": {
+          "id": "V469638",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "root": "#V471304"
+      }
+    ],
+    [
+      {
+        "V471301": {
+          "id": "V471301",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V469620",
+            "LEX": "LAUGHED-AT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V469620": {
+          "id": "V469620",
+          "indicator": "F",
+          "type": "INTERACT",
+          "word": "LAUGHED-AT",
+          "roles": {
+            "AGENT": "#V469582",
+            "AFFECTED": "#V469654",
+            "MANNER": "#V469522",
+            "TENSE": "PAST",
+            "LEX": "LAUGHED-AT",
+            "WNSENSE": "laugh_at%2:32:00"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V469522": {
+          "id": "V469522",
+          "indicator": "F",
+          "type": "MANNER",
+          "word": "AS",
+          "roles": {
+            "GROUND": "#V469874",
+            "FIGURE": "#V469620",
+            "LEX": "AS",
+            "WNSENSE": "as%4:02:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V469874": {
+          "id": "V469874",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V469559",
+            "LEX": "THE"
+          },
+          "start": 3,
+          "end": 19
+        },
+        "V469559": {
+          "id": "V469559",
+          "indicator": "F",
+          "type": "LEAVE-BEHIND",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V469542",
+            "AFFECTED": "#V469874",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:31:05::"
+          },
+          "start": 7,
+          "end": 19
+        },
+        "V469542": {
+          "id": "V469542",
+          "indicator": "KIND",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "WNSENSE": "person%1:03:00::"
+          },
+          "start": 7,
+          "end": 19
+        },
+        "V469582": {
+          "id": "V469582",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "TONY",
+          "roles": {
+            "NAME-OF": "TONY",
+            "LEX": "TONY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 19,
+          "end": 24
+        },
+        "V469654": {
+          "id": "V469654",
+          "indicator": "THE",
+          "type": "BACTERIUM",
+          "word": "B",
+          "roles": {
+            "ASSOC-POSS": "#V469638",
+            "LEX": "B",
+            "WNSENSE": "b%1:05:00::"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "V469638": {
+          "id": "V469638",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "root": "#V471301"
+      }
+    ],
+    [
+      {
+        "V471298": {
+          "id": "V471298",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V469620",
+            "LEX": "LAUGHED-AT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V469620": {
+          "id": "V469620",
+          "indicator": "F",
+          "type": "INTERACT",
+          "word": "LAUGHED-AT",
+          "roles": {
+            "AGENT": "#V469576",
+            "AFFECTED": "#V469654",
+            "MANNER": "#V469522",
+            "TENSE": "PAST",
+            "LEX": "LAUGHED-AT",
+            "WNSENSE": "laugh_at%2:32:00"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V469522": {
+          "id": "V469522",
+          "indicator": "F",
+          "type": "MANNER",
+          "word": "AS",
+          "roles": {
+            "GROUND": "#V469874",
+            "FIGURE": "#V469620",
+            "LEX": "AS",
+            "WNSENSE": "as%4:02:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V469874": {
+          "id": "V469874",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V469559",
+            "LEX": "THE"
+          },
+          "start": 3,
+          "end": 19
+        },
+        "V469559": {
+          "id": "V469559",
+          "indicator": "F",
+          "type": "LEAVE-BEHIND",
+          "word": "LEAVE",
+          "roles": {
+            "AGENT": "#V469542",
+            "AFFECTED": "#V469874",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:31:05::"
+          },
+          "start": 7,
+          "end": 19
+        },
+        "V469542": {
+          "id": "V469542",
+          "indicator": "KIND",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "WNSENSE": "person%1:03:00::"
+          },
+          "start": 7,
+          "end": 19
+        },
+        "V469576": {
+          "id": "V469576",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "TONY",
+          "roles": {
+            "NAME-OF": "TONY",
+            "LEX": "TONY",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 19,
+          "end": 24
+        },
+        "V469654": {
+          "id": "V469654",
+          "indicator": "THE",
+          "type": "BACTERIUM",
+          "word": "B",
+          "roles": {
+            "ASSOC-POSS": "#V469638",
+            "LEX": "B",
+            "WNSENSE": "b%1:05:00::"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "V469638": {
+          "id": "V469638",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "root": "#V471298"
+      }
+    ],
+    [
+      {
+        "V471295": {
+          "id": "V471295",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V469620",
+            "LEX": "LAUGHED-AT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V469620": {
+          "id": "V469620",
+          "indicator": "F",
+          "type": "INTERACT",
+          "word": "LAUGHED-AT",
+          "roles": {
+            "AGENT": "#V469582",
+            "AFFECTED": "#V469654",
+            "MANNER": "#V469522",
+            "TENSE": "PAST",
+            "LEX": "LAUGHED-AT",
+            "WNSENSE": "laugh_at%2:32:00"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V469522": {
+          "id": "V469522",
+          "indicator": "F",
+          "type": "MANNER",
+          "word": "AS",
+          "roles": {
+            "GROUND": "#V469874",
+            "FIGURE": "#V469620",
+            "LEX": "AS",
+            "WNSENSE": "as%4:02:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V469874": {
+          "id": "V469874",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V469560",
+            "LEX": "THE"
+          },
+          "start": 3,
+          "end": 19
+        },
+        "V469560": {
+          "id": "V469560",
+          "indicator": "F",
+          "type": "LEAVE-TIME",
+          "word": "LEAVE",
+          "roles": {
+            "NEUTRAL": "#V469542",
+            "AFFECTED": "#V469874",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:42:01::"
+          },
+          "start": 7,
+          "end": 19
+        },
+        "V469542": {
+          "id": "V469542",
+          "indicator": "KIND",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "WNSENSE": "person%1:03:00::"
+          },
+          "start": 7,
+          "end": 19
+        },
+        "V469582": {
+          "id": "V469582",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "TONY",
+          "roles": {
+            "NAME-OF": "TONY",
+            "LEX": "TONY",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 19,
+          "end": 24
+        },
+        "V469654": {
+          "id": "V469654",
+          "indicator": "THE",
+          "type": "BACTERIUM",
+          "word": "B",
+          "roles": {
+            "ASSOC-POSS": "#V469638",
+            "LEX": "B",
+            "WNSENSE": "b%1:05:00::"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "V469638": {
+          "id": "V469638",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "root": "#V471295"
+      }
+    ],
+    [
+      {
+        "V471292": {
+          "id": "V471292",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V469620",
+            "LEX": "LAUGHED-AT"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V469620": {
+          "id": "V469620",
+          "indicator": "F",
+          "type": "INTERACT",
+          "word": "LAUGHED-AT",
+          "roles": {
+            "AGENT": "#V469576",
+            "AFFECTED": "#V469654",
+            "MANNER": "#V469522",
+            "TENSE": "PAST",
+            "LEX": "LAUGHED-AT",
+            "WNSENSE": "laugh_at%2:32:00"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V469522": {
+          "id": "V469522",
+          "indicator": "F",
+          "type": "MANNER",
+          "word": "AS",
+          "roles": {
+            "GROUND": "#V469874",
+            "FIGURE": "#V469620",
+            "LEX": "AS",
+            "WNSENSE": "as%4:02:00::"
+          },
+          "start": 0,
+          "end": 19
+        },
+        "V469874": {
+          "id": "V469874",
+          "indicator": "THE",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "MOD": "#V469560",
+            "LEX": "THE"
+          },
+          "start": 3,
+          "end": 19
+        },
+        "V469560": {
+          "id": "V469560",
+          "indicator": "F",
+          "type": "LEAVE-TIME",
+          "word": "LEAVE",
+          "roles": {
+            "NEUTRAL": "#V469542",
+            "AFFECTED": "#V469874",
+            "LEX": "LEFT",
+            "WNSENSE": "leave%2:42:01::"
+          },
+          "start": 7,
+          "end": 19
+        },
+        "V469542": {
+          "id": "V469542",
+          "indicator": "KIND",
+          "type": "PERSON",
+          "word": "PERSON",
+          "roles": {
+            "WNSENSE": "person%1:03:00::"
+          },
+          "start": 7,
+          "end": 19
+        },
+        "V469576": {
+          "id": "V469576",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "TONY",
+          "roles": {
+            "NAME-OF": "TONY",
+            "LEX": "TONY",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 19,
+          "end": 24
+        },
+        "V469654": {
+          "id": "V469654",
+          "indicator": "THE",
+          "type": "BACTERIUM",
+          "word": "B",
+          "roles": {
+            "ASSOC-POSS": "#V469638",
+            "LEX": "B",
+            "WNSENSE": "b%1:05:00::"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "V469638": {
+          "id": "V469638",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "LEX": "HIS",
+            "PROFORM": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 35,
+          "end": 40
+        },
+        "root": "#V471292"
+      }
+    ]
+  ],
   "annotation": {
     "judge": "abhatia",
     "parser": "STEP",

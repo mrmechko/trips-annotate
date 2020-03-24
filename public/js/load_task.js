@@ -1,4 +1,3 @@
-console.log("load_task");
 function render_task(task, document) {
     console.log("rendering task:");
     console.log(task);
@@ -68,7 +67,7 @@ function set_button_disabled(btn) {
 function submitAnnotationData() {
     const task_id = document.getElementById("task_id_form");
     const answer = document.getElementById("answer");
-    const meta = (answer === "error") ? document.getElementById("other_response").value : "";
+    const meta = (answer == "error") ? document.getElementById("other_response").value : "";
     return {
         task_id: task_id.value,
         answer: answer.value,

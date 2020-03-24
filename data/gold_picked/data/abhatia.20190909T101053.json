@@ -1156,6 +1156,2229 @@
     ]
   ],
   "sentence": "The giraffe jumped when Jeff touched his mouth.",
+  "reparsed": [
+    [
+      {
+        "V2404045": {
+          "id": "V2404045",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2403444",
+            "LEX": "JUMPED"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V2403444": {
+          "id": "V2403444",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "AGENT": "#V2403439",
+            "TIME": "#V2403447",
+            "TENSE": "PAST",
+            "LEX": "JUMPED",
+            "WNSENSE": "jump%2:38:01::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2403439": {
+          "id": "V2403439",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "GIRAFFE",
+          "roles": {
+            "LEX": "GIRAFFE",
+            "WNSENSE": "giraffe%1:05:00::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V2403447": {
+          "id": "V2403447",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V2403476",
+            "FIGURE": "#V2403444",
+            "LEX": "WHEN"
+          },
+          "start": 19,
+          "end": 40
+        },
+        "V2403476": {
+          "id": "V2403476",
+          "indicator": "F",
+          "type": "CONNECTED",
+          "word": "TOUCH",
+          "roles": {
+            "NEUTRAL": "#V2403468",
+            "NEUTRAL1": "#V2403486",
+            "TENSE": "PAST",
+            "LEX": "TOUCHED",
+            "WNSENSE": "touch%2:35:01::"
+          },
+          "start": 24,
+          "end": 40
+        },
+        "V2403468": {
+          "id": "V2403468",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "JEFF",
+          "roles": {
+            "NAME-OF": "JEFF",
+            "LEX": "JEFF",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 24,
+          "end": 29
+        },
+        "V2403486": {
+          "id": "V2403486",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "HIS",
+            "ASSOC-POSS": "#V2403558",
+            "LEX": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "V2403558": {
+          "id": "V2403558",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "PROFORM": "HIS",
+            "COREF": "#V2403468"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "root": "#V2404045"
+      }
+    ],
+    [
+      {
+        "V2404045": {
+          "id": "V2404045",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2403444",
+            "LEX": "JUMPED"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2403444": {
+          "id": "V2403444",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "AGENT": "#V2403439",
+            "TIME": "#V2403447",
+            "TENSE": "PAST",
+            "LEX": "JUMPED",
+            "WNSENSE": "jump%2:38:01::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2403439": {
+          "id": "V2403439",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "GIRAFFE",
+          "roles": {
+            "LEX": "GIRAFFE",
+            "WNSENSE": "giraffe%1:05:00::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V2403447": {
+          "id": "V2403447",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V2403476",
+            "FIGURE": "#V2403444",
+            "LEX": "WHEN"
+          },
+          "start": 19,
+          "end": 40
+        },
+        "V2403476": {
+          "id": "V2403476",
+          "indicator": "F",
+          "type": "CONNECTED",
+          "word": "TOUCH",
+          "roles": {
+            "NEUTRAL": "#V2403468",
+            "NEUTRAL1": "#V2403486",
+            "TENSE": "PAST",
+            "LEX": "TOUCHED",
+            "WNSENSE": "touch%2:35:01::"
+          },
+          "start": 24,
+          "end": 40
+        },
+        "V2403468": {
+          "id": "V2403468",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "JEFF",
+          "roles": {
+            "NAME-OF": "JEFF",
+            "LEX": "JEFF",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 24,
+          "end": 29
+        },
+        "V2403486": {
+          "id": "V2403486",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "HIS",
+            "ASSOC-POSS": "#V2403558",
+            "LEX": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "V2403558": {
+          "id": "V2403558",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "PROFORM": "HIS"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "root": "#V2404045"
+      }
+    ],
+    [
+      {
+        "V2404045": {
+          "id": "V2404045",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2403444",
+            "LEX": "JUMPED"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2403444": {
+          "id": "V2403444",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "AGENT": "#V2403439",
+            "TIME": "#V2403447",
+            "TENSE": "PAST",
+            "LEX": "JUMPED",
+            "WNSENSE": "jump%2:38:01::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2403439": {
+          "id": "V2403439",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "GIRAFFE",
+          "roles": {
+            "LEX": "GIRAFFE",
+            "WNSENSE": "giraffe%1:05:00::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V2403447": {
+          "id": "V2403447",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V2403476",
+            "FIGURE": "#V2403444",
+            "LEX": "WHEN"
+          },
+          "start": 19,
+          "end": 40
+        },
+        "V2403476": {
+          "id": "V2403476",
+          "indicator": "F",
+          "type": "CONNECTED",
+          "word": "TOUCH",
+          "roles": {
+            "NEUTRAL": "#V2403468",
+            "NEUTRAL1": "#V2403486",
+            "TENSE": "PAST",
+            "LEX": "TOUCHED",
+            "WNSENSE": "touch%2:35:01::"
+          },
+          "start": 24,
+          "end": 40
+        },
+        "V2403468": {
+          "id": "V2403468",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "JEFF",
+          "roles": {
+            "NAME-OF": "JEFF",
+            "LEX": "JEFF",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 24,
+          "end": 29
+        },
+        "V2403486": {
+          "id": "V2403486",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "HIS",
+            "ASSOC-POSS": "#V2403558",
+            "LEX": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "V2403558": {
+          "id": "V2403558",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "PROFORM": "HIS"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "root": "#V2404045"
+      }
+    ],
+    [
+      {
+        "V2404045": {
+          "id": "V2404045",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2403444",
+            "LEX": "JUMPED"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2403444": {
+          "id": "V2403444",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "AGENT": "#V2403439",
+            "TIME": "#V2403447",
+            "TENSE": "PAST",
+            "LEX": "JUMPED",
+            "WNSENSE": "jump%2:38:01::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2403439": {
+          "id": "V2403439",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "GIRAFFE",
+          "roles": {
+            "LEX": "GIRAFFE",
+            "WNSENSE": "giraffe%1:05:00::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V2403447": {
+          "id": "V2403447",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V2403476",
+            "FIGURE": "#V2403444",
+            "LEX": "WHEN"
+          },
+          "start": 19,
+          "end": 40
+        },
+        "V2403476": {
+          "id": "V2403476",
+          "indicator": "F",
+          "type": "CONNECTED",
+          "word": "TOUCH",
+          "roles": {
+            "NEUTRAL": "#V2403468",
+            "NEUTRAL1": "#V2403486",
+            "TENSE": "PAST",
+            "LEX": "TOUCHED",
+            "WNSENSE": "touch%2:35:01::"
+          },
+          "start": 24,
+          "end": 40
+        },
+        "V2403468": {
+          "id": "V2403468",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "JEFF",
+          "roles": {
+            "NAME-OF": "JEFF",
+            "LEX": "JEFF",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 24,
+          "end": 29
+        },
+        "V2403486": {
+          "id": "V2403486",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "HIS",
+            "ASSOC-POSS": "#V2403558",
+            "LEX": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "V2403558": {
+          "id": "V2403558",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "PROFORM": "HIS"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "root": "#V2404045"
+      }
+    ],
+    [
+      {
+        "V2404045": {
+          "id": "V2404045",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2403444",
+            "LEX": "JUMPED"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2403444": {
+          "id": "V2403444",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "AGENT": "#V2403439",
+            "TIME": "#V2403447",
+            "TENSE": "PAST",
+            "LEX": "JUMPED",
+            "WNSENSE": "jump%2:38:01::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2403439": {
+          "id": "V2403439",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "GIRAFFE",
+          "roles": {
+            "LEX": "GIRAFFE",
+            "WNSENSE": "giraffe%1:05:00::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V2403447": {
+          "id": "V2403447",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V2403476",
+            "FIGURE": "#V2403444",
+            "LEX": "WHEN"
+          },
+          "start": 19,
+          "end": 40
+        },
+        "V2403476": {
+          "id": "V2403476",
+          "indicator": "F",
+          "type": "CONNECTED",
+          "word": "TOUCH",
+          "roles": {
+            "NEUTRAL": "#V2403468",
+            "NEUTRAL1": "#V2403486",
+            "TENSE": "PAST",
+            "LEX": "TOUCHED",
+            "WNSENSE": "touch%2:35:01::"
+          },
+          "start": 24,
+          "end": 40
+        },
+        "V2403468": {
+          "id": "V2403468",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "JEFF",
+          "roles": {
+            "NAME-OF": "JEFF",
+            "LEX": "JEFF",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 24,
+          "end": 29
+        },
+        "V2403486": {
+          "id": "V2403486",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "HIS",
+            "ASSOC-POSS": "#V2403558",
+            "LEX": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "V2403558": {
+          "id": "V2403558",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "PROFORM": "HIS"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "root": "#V2404045"
+      }
+    ],
+    [
+      {
+        "V2404042": {
+          "id": "V2404042",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2403444",
+            "LEX": "JUMPED"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2403444": {
+          "id": "V2403444",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "AGENT": "#V2403439",
+            "TIME": "#V2403447",
+            "TENSE": "PAST",
+            "LEX": "JUMPED",
+            "WNSENSE": "jump%2:38:01::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2403439": {
+          "id": "V2403439",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "GIRAFFE",
+          "roles": {
+            "LEX": "GIRAFFE",
+            "WNSENSE": "giraffe%1:05:00::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V2403447": {
+          "id": "V2403447",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V2403477",
+            "FIGURE": "#V2403444",
+            "LEX": "WHEN"
+          },
+          "start": 19,
+          "end": 40
+        },
+        "V2403477": {
+          "id": "V2403477",
+          "indicator": "F",
+          "type": "TOUCH",
+          "word": "TOUCH",
+          "roles": {
+            "AGENT": "#V2403462",
+            "AFFECTED": "#V2403486",
+            "TENSE": "PAST",
+            "LEX": "TOUCHED",
+            "WNSENSE": "touch%1:04:00::"
+          },
+          "start": 24,
+          "end": 40
+        },
+        "V2403462": {
+          "id": "V2403462",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "JEFF",
+          "roles": {
+            "NAME-OF": "JEFF",
+            "LEX": "JEFF",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 24,
+          "end": 29
+        },
+        "V2403486": {
+          "id": "V2403486",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "HIS",
+            "ASSOC-POSS": "#V2403558",
+            "LEX": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "V2403558": {
+          "id": "V2403558",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "PROFORM": "HIS"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "root": "#V2404042"
+      }
+    ],
+    [
+      {
+        "V2404042": {
+          "id": "V2404042",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2403444",
+            "LEX": "JUMPED"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2403444": {
+          "id": "V2403444",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "AGENT": "#V2403439",
+            "TIME": "#V2403447",
+            "TENSE": "PAST",
+            "LEX": "JUMPED",
+            "WNSENSE": "jump%2:38:01::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2403439": {
+          "id": "V2403439",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "GIRAFFE",
+          "roles": {
+            "LEX": "GIRAFFE",
+            "WNSENSE": "giraffe%1:05:00::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V2403447": {
+          "id": "V2403447",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V2403477",
+            "FIGURE": "#V2403444",
+            "LEX": "WHEN"
+          },
+          "start": 19,
+          "end": 40
+        },
+        "V2403477": {
+          "id": "V2403477",
+          "indicator": "F",
+          "type": "TOUCH",
+          "word": "TOUCH",
+          "roles": {
+            "AGENT": "#V2403462",
+            "AFFECTED": "#V2403486",
+            "TENSE": "PAST",
+            "LEX": "TOUCHED",
+            "WNSENSE": "touch%1:04:00::"
+          },
+          "start": 24,
+          "end": 40
+        },
+        "V2403462": {
+          "id": "V2403462",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "JEFF",
+          "roles": {
+            "NAME-OF": "JEFF",
+            "LEX": "JEFF",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 24,
+          "end": 29
+        },
+        "V2403486": {
+          "id": "V2403486",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "HIS",
+            "ASSOC-POSS": "#V2403558",
+            "LEX": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "V2403558": {
+          "id": "V2403558",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "PROFORM": "HIS"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "root": "#V2404042"
+      }
+    ],
+    [
+      {
+        "V2404042": {
+          "id": "V2404042",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2403444",
+            "LEX": "JUMPED"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2403444": {
+          "id": "V2403444",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "AGENT": "#V2403439",
+            "TIME": "#V2403447",
+            "TENSE": "PAST",
+            "LEX": "JUMPED",
+            "WNSENSE": "jump%2:38:01::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2403439": {
+          "id": "V2403439",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "GIRAFFE",
+          "roles": {
+            "LEX": "GIRAFFE",
+            "WNSENSE": "giraffe%1:05:00::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V2403447": {
+          "id": "V2403447",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V2403477",
+            "FIGURE": "#V2403444",
+            "LEX": "WHEN"
+          },
+          "start": 19,
+          "end": 40
+        },
+        "V2403477": {
+          "id": "V2403477",
+          "indicator": "F",
+          "type": "TOUCH",
+          "word": "TOUCH",
+          "roles": {
+            "AGENT": "#V2403462",
+            "AFFECTED": "#V2403486",
+            "TENSE": "PAST",
+            "LEX": "TOUCHED",
+            "WNSENSE": "touch%1:04:00::"
+          },
+          "start": 24,
+          "end": 40
+        },
+        "V2403462": {
+          "id": "V2403462",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "JEFF",
+          "roles": {
+            "NAME-OF": "JEFF",
+            "LEX": "JEFF",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 24,
+          "end": 29
+        },
+        "V2403486": {
+          "id": "V2403486",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "HIS",
+            "ASSOC-POSS": "#V2403558",
+            "LEX": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "V2403558": {
+          "id": "V2403558",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "PROFORM": "HIS"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "root": "#V2404042"
+      }
+    ],
+    [
+      {
+        "V2404042": {
+          "id": "V2404042",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2403444",
+            "LEX": "JUMPED"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2403444": {
+          "id": "V2403444",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "AGENT": "#V2403439",
+            "TIME": "#V2403447",
+            "TENSE": "PAST",
+            "LEX": "JUMPED",
+            "WNSENSE": "jump%2:38:01::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2403439": {
+          "id": "V2403439",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "GIRAFFE",
+          "roles": {
+            "LEX": "GIRAFFE",
+            "WNSENSE": "giraffe%1:05:00::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V2403447": {
+          "id": "V2403447",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V2403477",
+            "FIGURE": "#V2403444",
+            "LEX": "WHEN"
+          },
+          "start": 19,
+          "end": 40
+        },
+        "V2403477": {
+          "id": "V2403477",
+          "indicator": "F",
+          "type": "TOUCH",
+          "word": "TOUCH",
+          "roles": {
+            "AGENT": "#V2403462",
+            "AFFECTED": "#V2403486",
+            "TENSE": "PAST",
+            "LEX": "TOUCHED",
+            "WNSENSE": "touch%1:04:00::"
+          },
+          "start": 24,
+          "end": 40
+        },
+        "V2403462": {
+          "id": "V2403462",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "JEFF",
+          "roles": {
+            "NAME-OF": "JEFF",
+            "LEX": "JEFF",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 24,
+          "end": 29
+        },
+        "V2403486": {
+          "id": "V2403486",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "HIS",
+            "ASSOC-POSS": "#V2403558",
+            "LEX": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "V2403558": {
+          "id": "V2403558",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "PROFORM": "HIS"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "root": "#V2404042"
+      }
+    ],
+    [
+      {
+        "V2404042": {
+          "id": "V2404042",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2403444",
+            "LEX": "JUMPED"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2403444": {
+          "id": "V2403444",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "AGENT": "#V2403439",
+            "TIME": "#V2403447",
+            "TENSE": "PAST",
+            "LEX": "JUMPED",
+            "WNSENSE": "jump%2:38:01::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2403439": {
+          "id": "V2403439",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "GIRAFFE",
+          "roles": {
+            "LEX": "GIRAFFE",
+            "WNSENSE": "giraffe%1:05:00::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V2403447": {
+          "id": "V2403447",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V2403477",
+            "FIGURE": "#V2403444",
+            "LEX": "WHEN"
+          },
+          "start": 19,
+          "end": 40
+        },
+        "V2403477": {
+          "id": "V2403477",
+          "indicator": "F",
+          "type": "TOUCH",
+          "word": "TOUCH",
+          "roles": {
+            "AGENT": "#V2403462",
+            "AFFECTED": "#V2403486",
+            "TENSE": "PAST",
+            "LEX": "TOUCHED",
+            "WNSENSE": "touch%1:04:00::"
+          },
+          "start": 24,
+          "end": 40
+        },
+        "V2403462": {
+          "id": "V2403462",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "JEFF",
+          "roles": {
+            "NAME-OF": "JEFF",
+            "LEX": "JEFF",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 24,
+          "end": 29
+        },
+        "V2403486": {
+          "id": "V2403486",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "HIS",
+            "ASSOC-POSS": "#V2403558",
+            "LEX": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "V2403558": {
+          "id": "V2403558",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "PROFORM": "HIS"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "root": "#V2404042"
+      }
+    ],
+    [
+      {
+        "V2404042": {
+          "id": "V2404042",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2403444",
+            "LEX": "JUMPED"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2403444": {
+          "id": "V2403444",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "AGENT": "#V2403439",
+            "TIME": "#V2403447",
+            "TENSE": "PAST",
+            "LEX": "JUMPED",
+            "WNSENSE": "jump%2:38:01::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2403439": {
+          "id": "V2403439",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "GIRAFFE",
+          "roles": {
+            "LEX": "GIRAFFE",
+            "WNSENSE": "giraffe%1:05:00::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V2403447": {
+          "id": "V2403447",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V2403477",
+            "FIGURE": "#V2403444",
+            "LEX": "WHEN"
+          },
+          "start": 19,
+          "end": 40
+        },
+        "V2403477": {
+          "id": "V2403477",
+          "indicator": "F",
+          "type": "TOUCH",
+          "word": "TOUCH",
+          "roles": {
+            "AGENT": "#V2403462",
+            "AFFECTED": "#V2403486",
+            "TENSE": "PAST",
+            "LEX": "TOUCHED",
+            "WNSENSE": "touch%1:04:00::"
+          },
+          "start": 24,
+          "end": 40
+        },
+        "V2403462": {
+          "id": "V2403462",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "JEFF",
+          "roles": {
+            "NAME-OF": "JEFF",
+            "LEX": "JEFF",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 24,
+          "end": 29
+        },
+        "V2403486": {
+          "id": "V2403486",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "HIS",
+            "ASSOC-POSS": "#V2403558",
+            "LEX": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "V2403558": {
+          "id": "V2403558",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "PROFORM": "HIS"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "root": "#V2404042"
+      }
+    ],
+    [
+      {
+        "V2404042": {
+          "id": "V2404042",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2403444",
+            "LEX": "JUMPED"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2403444": {
+          "id": "V2403444",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "AGENT": "#V2403439",
+            "TIME": "#V2403447",
+            "TENSE": "PAST",
+            "LEX": "JUMPED",
+            "WNSENSE": "jump%2:38:01::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2403439": {
+          "id": "V2403439",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "GIRAFFE",
+          "roles": {
+            "LEX": "GIRAFFE",
+            "WNSENSE": "giraffe%1:05:00::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V2403447": {
+          "id": "V2403447",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V2403477",
+            "FIGURE": "#V2403444",
+            "LEX": "WHEN"
+          },
+          "start": 19,
+          "end": 40
+        },
+        "V2403477": {
+          "id": "V2403477",
+          "indicator": "F",
+          "type": "TOUCH",
+          "word": "TOUCH",
+          "roles": {
+            "AGENT": "#V2403462",
+            "AFFECTED": "#V2403486",
+            "TENSE": "PAST",
+            "LEX": "TOUCHED",
+            "WNSENSE": "touch%1:04:00::"
+          },
+          "start": 24,
+          "end": 40
+        },
+        "V2403462": {
+          "id": "V2403462",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "JEFF",
+          "roles": {
+            "NAME-OF": "JEFF",
+            "LEX": "JEFF",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 24,
+          "end": 29
+        },
+        "V2403486": {
+          "id": "V2403486",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "HIS",
+            "ASSOC-POSS": "#V2403558",
+            "LEX": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "V2403558": {
+          "id": "V2403558",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "PROFORM": "HIS"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "root": "#V2404042"
+      }
+    ],
+    [
+      {
+        "V2404042": {
+          "id": "V2404042",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2403444",
+            "LEX": "JUMPED"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2403444": {
+          "id": "V2403444",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "AGENT": "#V2403439",
+            "TIME": "#V2403447",
+            "TENSE": "PAST",
+            "LEX": "JUMPED",
+            "WNSENSE": "jump%2:38:01::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2403439": {
+          "id": "V2403439",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "GIRAFFE",
+          "roles": {
+            "LEX": "GIRAFFE",
+            "WNSENSE": "giraffe%1:05:00::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V2403447": {
+          "id": "V2403447",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V2403477",
+            "FIGURE": "#V2403444",
+            "LEX": "WHEN"
+          },
+          "start": 19,
+          "end": 40
+        },
+        "V2403477": {
+          "id": "V2403477",
+          "indicator": "F",
+          "type": "TOUCH",
+          "word": "TOUCH",
+          "roles": {
+            "AGENT": "#V2403462",
+            "AFFECTED": "#V2403486",
+            "TENSE": "PAST",
+            "LEX": "TOUCHED",
+            "WNSENSE": "touch%1:04:00::"
+          },
+          "start": 24,
+          "end": 40
+        },
+        "V2403462": {
+          "id": "V2403462",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "JEFF",
+          "roles": {
+            "NAME-OF": "JEFF",
+            "LEX": "JEFF",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 24,
+          "end": 29
+        },
+        "V2403486": {
+          "id": "V2403486",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "HIS",
+            "ASSOC-POSS": "#V2403558",
+            "LEX": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "V2403558": {
+          "id": "V2403558",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "PROFORM": "HIS"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "root": "#V2404042"
+      }
+    ],
+    [
+      {
+        "V2404039": {
+          "id": "V2404039",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2403444",
+            "LEX": "JUMPED"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2403444": {
+          "id": "V2403444",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "AGENT": "#V2403439",
+            "TIME": "#V2403447",
+            "TENSE": "PAST",
+            "LEX": "JUMPED",
+            "WNSENSE": "jump%2:38:01::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2403439": {
+          "id": "V2403439",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "GIRAFFE",
+          "roles": {
+            "LEX": "GIRAFFE",
+            "WNSENSE": "giraffe%1:05:00::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V2403447": {
+          "id": "V2403447",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V2403477",
+            "FIGURE": "#V2403444",
+            "LEX": "WHEN"
+          },
+          "start": 19,
+          "end": 40
+        },
+        "V2403477": {
+          "id": "V2403477",
+          "indicator": "F",
+          "type": "TOUCH",
+          "word": "TOUCH",
+          "roles": {
+            "AGENT": "#V2403468",
+            "AFFECTED": "#V2403486",
+            "TENSE": "PAST",
+            "LEX": "TOUCHED",
+            "WNSENSE": "touch%1:04:00::"
+          },
+          "start": 24,
+          "end": 40
+        },
+        "V2403468": {
+          "id": "V2403468",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "JEFF",
+          "roles": {
+            "NAME-OF": "JEFF",
+            "LEX": "JEFF",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 24,
+          "end": 29
+        },
+        "V2403486": {
+          "id": "V2403486",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "HIS",
+            "ASSOC-POSS": "#V2403558",
+            "LEX": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "V2403558": {
+          "id": "V2403558",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "PROFORM": "HIS"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "root": "#V2404039"
+      }
+    ],
+    [
+      {
+        "V2404039": {
+          "id": "V2404039",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2403444",
+            "LEX": "JUMPED"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2403444": {
+          "id": "V2403444",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "AGENT": "#V2403439",
+            "TIME": "#V2403447",
+            "TENSE": "PAST",
+            "LEX": "JUMPED",
+            "WNSENSE": "jump%2:38:01::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2403439": {
+          "id": "V2403439",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "GIRAFFE",
+          "roles": {
+            "LEX": "GIRAFFE",
+            "WNSENSE": "giraffe%1:05:00::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V2403447": {
+          "id": "V2403447",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V2403477",
+            "FIGURE": "#V2403444",
+            "LEX": "WHEN"
+          },
+          "start": 19,
+          "end": 40
+        },
+        "V2403477": {
+          "id": "V2403477",
+          "indicator": "F",
+          "type": "TOUCH",
+          "word": "TOUCH",
+          "roles": {
+            "AGENT": "#V2403468",
+            "AFFECTED": "#V2403486",
+            "TENSE": "PAST",
+            "LEX": "TOUCHED",
+            "WNSENSE": "touch%1:04:00::"
+          },
+          "start": 24,
+          "end": 40
+        },
+        "V2403468": {
+          "id": "V2403468",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "JEFF",
+          "roles": {
+            "NAME-OF": "JEFF",
+            "LEX": "JEFF",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 24,
+          "end": 29
+        },
+        "V2403486": {
+          "id": "V2403486",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "HIS",
+            "ASSOC-POSS": "#V2403558",
+            "LEX": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "V2403558": {
+          "id": "V2403558",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "PROFORM": "HIS"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "root": "#V2404039"
+      }
+    ],
+    [
+      {
+        "V2404039": {
+          "id": "V2404039",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2403444",
+            "LEX": "JUMPED"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2403444": {
+          "id": "V2403444",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "AGENT": "#V2403439",
+            "TIME": "#V2403447",
+            "TENSE": "PAST",
+            "LEX": "JUMPED",
+            "WNSENSE": "jump%2:38:01::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2403439": {
+          "id": "V2403439",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "GIRAFFE",
+          "roles": {
+            "LEX": "GIRAFFE",
+            "WNSENSE": "giraffe%1:05:00::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V2403447": {
+          "id": "V2403447",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V2403477",
+            "FIGURE": "#V2403444",
+            "LEX": "WHEN"
+          },
+          "start": 19,
+          "end": 40
+        },
+        "V2403477": {
+          "id": "V2403477",
+          "indicator": "F",
+          "type": "TOUCH",
+          "word": "TOUCH",
+          "roles": {
+            "AGENT": "#V2403468",
+            "AFFECTED": "#V2403486",
+            "TENSE": "PAST",
+            "LEX": "TOUCHED",
+            "WNSENSE": "touch%1:04:00::"
+          },
+          "start": 24,
+          "end": 40
+        },
+        "V2403468": {
+          "id": "V2403468",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "JEFF",
+          "roles": {
+            "NAME-OF": "JEFF",
+            "LEX": "JEFF",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 24,
+          "end": 29
+        },
+        "V2403486": {
+          "id": "V2403486",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "HIS",
+            "ASSOC-POSS": "#V2403558",
+            "LEX": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "V2403558": {
+          "id": "V2403558",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "PROFORM": "HIS"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "root": "#V2404039"
+      }
+    ],
+    [
+      {
+        "V2404039": {
+          "id": "V2404039",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2403444",
+            "LEX": "JUMPED"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2403444": {
+          "id": "V2403444",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "AGENT": "#V2403439",
+            "TIME": "#V2403447",
+            "TENSE": "PAST",
+            "LEX": "JUMPED",
+            "WNSENSE": "jump%2:38:01::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2403439": {
+          "id": "V2403439",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "GIRAFFE",
+          "roles": {
+            "LEX": "GIRAFFE",
+            "WNSENSE": "giraffe%1:05:00::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V2403447": {
+          "id": "V2403447",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V2403477",
+            "FIGURE": "#V2403444",
+            "LEX": "WHEN"
+          },
+          "start": 19,
+          "end": 40
+        },
+        "V2403477": {
+          "id": "V2403477",
+          "indicator": "F",
+          "type": "TOUCH",
+          "word": "TOUCH",
+          "roles": {
+            "AGENT": "#V2403468",
+            "AFFECTED": "#V2403486",
+            "TENSE": "PAST",
+            "LEX": "TOUCHED",
+            "WNSENSE": "touch%1:04:00::"
+          },
+          "start": 24,
+          "end": 40
+        },
+        "V2403468": {
+          "id": "V2403468",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "JEFF",
+          "roles": {
+            "NAME-OF": "JEFF",
+            "LEX": "JEFF",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 24,
+          "end": 29
+        },
+        "V2403486": {
+          "id": "V2403486",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "HIS",
+            "ASSOC-POSS": "#V2403558",
+            "LEX": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "V2403558": {
+          "id": "V2403558",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "PROFORM": "HIS"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "root": "#V2404039"
+      }
+    ],
+    [
+      {
+        "V2404039": {
+          "id": "V2404039",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2403444",
+            "LEX": "JUMPED"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2403444": {
+          "id": "V2403444",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "AGENT": "#V2403439",
+            "TIME": "#V2403447",
+            "TENSE": "PAST",
+            "LEX": "JUMPED",
+            "WNSENSE": "jump%2:38:01::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2403439": {
+          "id": "V2403439",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "GIRAFFE",
+          "roles": {
+            "LEX": "GIRAFFE",
+            "WNSENSE": "giraffe%1:05:00::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V2403447": {
+          "id": "V2403447",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V2403477",
+            "FIGURE": "#V2403444",
+            "LEX": "WHEN"
+          },
+          "start": 19,
+          "end": 40
+        },
+        "V2403477": {
+          "id": "V2403477",
+          "indicator": "F",
+          "type": "TOUCH",
+          "word": "TOUCH",
+          "roles": {
+            "AGENT": "#V2403468",
+            "AFFECTED": "#V2403486",
+            "TENSE": "PAST",
+            "LEX": "TOUCHED",
+            "WNSENSE": "touch%1:04:00::"
+          },
+          "start": 24,
+          "end": 40
+        },
+        "V2403468": {
+          "id": "V2403468",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "JEFF",
+          "roles": {
+            "NAME-OF": "JEFF",
+            "LEX": "JEFF",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 24,
+          "end": 29
+        },
+        "V2403486": {
+          "id": "V2403486",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "HIS",
+            "ASSOC-POSS": "#V2403558",
+            "LEX": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "V2403558": {
+          "id": "V2403558",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "PROFORM": "HIS"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "root": "#V2404039"
+      }
+    ],
+    [
+      {
+        "V2404039": {
+          "id": "V2404039",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2403444",
+            "LEX": "JUMPED"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2403444": {
+          "id": "V2403444",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "AGENT": "#V2403439",
+            "TIME": "#V2403447",
+            "TENSE": "PAST",
+            "LEX": "JUMPED",
+            "WNSENSE": "jump%2:38:01::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2403439": {
+          "id": "V2403439",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "GIRAFFE",
+          "roles": {
+            "LEX": "GIRAFFE",
+            "WNSENSE": "giraffe%1:05:00::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V2403447": {
+          "id": "V2403447",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V2403477",
+            "FIGURE": "#V2403444",
+            "LEX": "WHEN"
+          },
+          "start": 19,
+          "end": 40
+        },
+        "V2403477": {
+          "id": "V2403477",
+          "indicator": "F",
+          "type": "TOUCH",
+          "word": "TOUCH",
+          "roles": {
+            "AGENT": "#V2403468",
+            "AFFECTED": "#V2403486",
+            "TENSE": "PAST",
+            "LEX": "TOUCHED",
+            "WNSENSE": "touch%1:04:00::"
+          },
+          "start": 24,
+          "end": 40
+        },
+        "V2403468": {
+          "id": "V2403468",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "JEFF",
+          "roles": {
+            "NAME-OF": "JEFF",
+            "LEX": "JEFF",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 24,
+          "end": 29
+        },
+        "V2403486": {
+          "id": "V2403486",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "HIS",
+            "ASSOC-POSS": "#V2403558",
+            "LEX": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "V2403558": {
+          "id": "V2403558",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "PROFORM": "HIS"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "root": "#V2404039"
+      }
+    ],
+    [
+      {
+        "V2404039": {
+          "id": "V2404039",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2403444",
+            "LEX": "JUMPED"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2403444": {
+          "id": "V2403444",
+          "indicator": "F",
+          "type": "JUMP",
+          "word": "JUMP",
+          "roles": {
+            "AGENT": "#V2403439",
+            "TIME": "#V2403447",
+            "TENSE": "PAST",
+            "LEX": "JUMPED",
+            "WNSENSE": "jump%2:38:01::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2403439": {
+          "id": "V2403439",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "GIRAFFE",
+          "roles": {
+            "LEX": "GIRAFFE",
+            "WNSENSE": "giraffe%1:05:00::"
+          },
+          "start": 0,
+          "end": 12
+        },
+        "V2403447": {
+          "id": "V2403447",
+          "indicator": "F",
+          "type": "WHEN-WHILE",
+          "word": "WHEN",
+          "roles": {
+            "GROUND": "#V2403477",
+            "FIGURE": "#V2403444",
+            "LEX": "WHEN"
+          },
+          "start": 19,
+          "end": 40
+        },
+        "V2403477": {
+          "id": "V2403477",
+          "indicator": "F",
+          "type": "TOUCH",
+          "word": "TOUCH",
+          "roles": {
+            "AGENT": "#V2403468",
+            "AFFECTED": "#V2403486",
+            "TENSE": "PAST",
+            "LEX": "TOUCHED",
+            "WNSENSE": "touch%1:04:00::"
+          },
+          "start": 24,
+          "end": 40
+        },
+        "V2403468": {
+          "id": "V2403468",
+          "indicator": "THE",
+          "type": "PERSON",
+          "word": "JEFF",
+          "roles": {
+            "NAME-OF": "JEFF",
+            "LEX": "JEFF",
+            "WNSENSE": "person%1:03:00"
+          },
+          "start": 24,
+          "end": 29
+        },
+        "V2403486": {
+          "id": "V2403486",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "HIS",
+            "ASSOC-POSS": "#V2403558",
+            "LEX": "HIS",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "V2403558": {
+          "id": "V2403558",
+          "indicator": "PRO",
+          "type": "MALE-PERSON",
+          "word": "HIS",
+          "roles": {
+            "PROFORM": "HIS"
+          },
+          "start": 37,
+          "end": 40
+        },
+        "root": "#V2404039"
+      }
+    ]
+  ],
   "annotation": {
     "judge": "abhatia",
     "parser": "STEP",

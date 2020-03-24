@@ -1443,6 +1443,4302 @@
     ]
   ],
   "sentence": "Mary always bragged about how good she was at bowling.",
+  "reparsed": [
+    [
+      {
+        "V921548": {
+          "id": "V921548",
+          "indicator": "F",
+          "type": "MISINFORM",
+          "word": "BRAGGED",
+          "roles": {
+            "AGENT": "#V921532",
+            "FREQUENCY": "#V921539",
+            "TENSE": "PAST",
+            "LEX": "BRAGGED",
+            "WNSENSE": "misinform%2:32:00"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V921532": {
+          "id": "V921532",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "MARY",
+          "roles": {
+            "NAME-OF": "MARY",
+            "LEX": "MARY",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V921539": {
+          "id": "V921539",
+          "indicator": "F",
+          "type": "ALWAYS",
+          "word": "ALWAYS",
+          "roles": {
+            "FIGURE": "#V921548",
+            "LEX": "ALWAYS",
+            "WNSENSE": "always%4:02:00::"
+          },
+          "start": 5,
+          "end": 12
+        },
+        "root": "#V921548"
+      },
+      {
+        "V921723": {
+          "id": "V921723",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921573",
+            "FOCUS": "#V921665",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921573": {
+          "id": "V921573",
+          "indicator": "F",
+          "type": "AT-SCALE-VALUE",
+          "word": "HOW",
+          "roles": {
+            "GROUND": "#V921665",
+            "FIGURE": "#V921724",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921724": {
+          "id": "V921724",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {
+            "COREF": "#V921532"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921665": {
+          "id": "V921665",
+          "indicator": "WH-TERM",
+          "type": "LEVEL",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOW",
+            "SUCHTHAT": "#V921573"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "root": "#V921723"
+      },
+      {
+        "V921830": {
+          "id": "V921830",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "ACT": "#V921688",
+            "ACT1": "#V921751",
+            "LEX": "SHE"
+          },
+          "start": 30,
+          "end": 39
+        },
+        "V921688": {
+          "id": "V921688",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921587",
+            "LEX": "GOOD"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921587": {
+          "id": "V921587",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V921689",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921689": {
+          "id": "V921689",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {
+            "COREF": "#V921532"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921751": {
+          "id": "V921751",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921594",
+            "LEX": "SHE"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "V921594": {
+          "id": "V921594",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00",
+            "COREF": "#V921532"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "root": "#V921830"
+      },
+      {
+        "V921875": {
+          "id": "V921875",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V921625",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "V921625": {
+          "id": "V921625",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "W-PUNC-PERIOD",
+          "roles": {
+            "TENSE": "PAST",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "V921876": {
+          "id": "V921876",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ",
+            "COREF": "#V921532"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "root": "#V921875"
+      }
+    ],
+    [
+      {
+        "V921548": {
+          "id": "V921548",
+          "indicator": "F",
+          "type": "MISINFORM",
+          "word": "BRAGGED",
+          "roles": {
+            "AGENT": "#V921532",
+            "FREQUENCY": "#V921539",
+            "TENSE": "PAST",
+            "LEX": "BRAGGED",
+            "WNSENSE": "misinform%2:32:00"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V921532": {
+          "id": "V921532",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "MARY",
+          "roles": {
+            "NAME-OF": "MARY",
+            "LEX": "MARY",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V921539": {
+          "id": "V921539",
+          "indicator": "F",
+          "type": "ALWAYS",
+          "word": "ALWAYS",
+          "roles": {
+            "FIGURE": "#V921548",
+            "LEX": "ALWAYS",
+            "WNSENSE": "always%4:02:00::"
+          },
+          "start": 5,
+          "end": 12
+        },
+        "root": "#V921548"
+      },
+      {
+        "V921723": {
+          "id": "V921723",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921573",
+            "FOCUS": "#V921665",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921573": {
+          "id": "V921573",
+          "indicator": "F",
+          "type": "AT-SCALE-VALUE",
+          "word": "HOW",
+          "roles": {
+            "GROUND": "#V921665",
+            "FIGURE": "#V921724",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921724": {
+          "id": "V921724",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 26,
+          "end": 30
+        },
+        "V921665": {
+          "id": "V921665",
+          "indicator": "WH-TERM",
+          "type": "LEVEL",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOW",
+            "SUCHTHAT": "#V921573"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "root": "#V921723"
+      },
+      {
+        "V921829": {
+          "id": "V921829",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "ACT": "#V921682",
+            "ACT1": "#V921751",
+            "LEX": "SHE"
+          },
+          "start": 30,
+          "end": 39
+        },
+        "V921682": {
+          "id": "V921682",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921586",
+            "LEX": "GOOD"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921586": {
+          "id": "V921586",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V921683",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921683": {
+          "id": "V921683",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 30,
+          "end": 35
+        },
+        "V921751": {
+          "id": "V921751",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921594",
+            "LEX": "SHE"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "V921594": {
+          "id": "V921594",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "root": "#V921829"
+      },
+      {
+        "V921875": {
+          "id": "V921875",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V921625",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 42
+        },
+        "V921625": {
+          "id": "V921625",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "W-PUNC-PERIOD",
+          "roles": {
+            "TENSE": "PAST",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "V921876": {
+          "id": "V921876",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "root": "#V921875"
+      }
+    ],
+    [
+      {
+        "V921548": {
+          "id": "V921548",
+          "indicator": "F",
+          "type": "MISINFORM",
+          "word": "BRAGGED",
+          "roles": {
+            "AGENT": "#V921532",
+            "FREQUENCY": "#V921539",
+            "TENSE": "PAST",
+            "LEX": "BRAGGED",
+            "WNSENSE": "misinform%2:32:00"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V921532": {
+          "id": "V921532",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "MARY",
+          "roles": {
+            "NAME-OF": "MARY",
+            "LEX": "MARY",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V921539": {
+          "id": "V921539",
+          "indicator": "F",
+          "type": "ALWAYS",
+          "word": "ALWAYS",
+          "roles": {
+            "FIGURE": "#V921548",
+            "LEX": "ALWAYS",
+            "WNSENSE": "always%4:02:00::"
+          },
+          "start": 5,
+          "end": 12
+        },
+        "root": "#V921548"
+      },
+      {
+        "V921723": {
+          "id": "V921723",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921573",
+            "FOCUS": "#V921665",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921573": {
+          "id": "V921573",
+          "indicator": "F",
+          "type": "AT-SCALE-VALUE",
+          "word": "HOW",
+          "roles": {
+            "GROUND": "#V921665",
+            "FIGURE": "#V921724",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921724": {
+          "id": "V921724",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 26,
+          "end": 30
+        },
+        "V921665": {
+          "id": "V921665",
+          "indicator": "WH-TERM",
+          "type": "LEVEL",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOW",
+            "SUCHTHAT": "#V921573"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "root": "#V921723"
+      },
+      {
+        "V921828": {
+          "id": "V921828",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "ACT": "#V921676",
+            "ACT1": "#V921751",
+            "LEX": "SHE"
+          },
+          "start": 30,
+          "end": 39
+        },
+        "V921676": {
+          "id": "V921676",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921585",
+            "LEX": "GOOD"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921585": {
+          "id": "V921585",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V921677",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921677": {
+          "id": "V921677",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 30,
+          "end": 35
+        },
+        "V921751": {
+          "id": "V921751",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921594",
+            "LEX": "SHE"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "V921594": {
+          "id": "V921594",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "root": "#V921828"
+      },
+      {
+        "V921875": {
+          "id": "V921875",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V921625",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 42
+        },
+        "V921625": {
+          "id": "V921625",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "W-PUNC-PERIOD",
+          "roles": {
+            "TENSE": "PAST",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "V921876": {
+          "id": "V921876",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "root": "#V921875"
+      }
+    ],
+    [
+      {
+        "V921548": {
+          "id": "V921548",
+          "indicator": "F",
+          "type": "MISINFORM",
+          "word": "BRAGGED",
+          "roles": {
+            "AGENT": "#V921532",
+            "FREQUENCY": "#V921539",
+            "TENSE": "PAST",
+            "LEX": "BRAGGED",
+            "WNSENSE": "misinform%2:32:00"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V921532": {
+          "id": "V921532",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "MARY",
+          "roles": {
+            "NAME-OF": "MARY",
+            "LEX": "MARY",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V921539": {
+          "id": "V921539",
+          "indicator": "F",
+          "type": "ALWAYS",
+          "word": "ALWAYS",
+          "roles": {
+            "FIGURE": "#V921548",
+            "LEX": "ALWAYS",
+            "WNSENSE": "always%4:02:00::"
+          },
+          "start": 5,
+          "end": 12
+        },
+        "root": "#V921548"
+      },
+      {
+        "V921718": {
+          "id": "V921718",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921572",
+            "FOCUS": "#V921662",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921572": {
+          "id": "V921572",
+          "indicator": "F",
+          "type": "BY-MEANS-OF",
+          "word": "HOW",
+          "roles": {
+            "GROUND": "#V921662",
+            "FIGURE": "#V921719",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921719": {
+          "id": "V921719",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 26,
+          "end": 30
+        },
+        "V921662": {
+          "id": "V921662",
+          "indicator": "WH-TERM",
+          "type": "METHOD",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOW",
+            "SUCHTHAT": "#V921572"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "root": "#V921718"
+      },
+      {
+        "V921830": {
+          "id": "V921830",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "ACT": "#V921688",
+            "ACT1": "#V921751",
+            "LEX": "SHE"
+          },
+          "start": 30,
+          "end": 39
+        },
+        "V921688": {
+          "id": "V921688",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921587",
+            "LEX": "GOOD"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921587": {
+          "id": "V921587",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V921689",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921689": {
+          "id": "V921689",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 30,
+          "end": 35
+        },
+        "V921751": {
+          "id": "V921751",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921594",
+            "LEX": "SHE"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "V921594": {
+          "id": "V921594",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "root": "#V921830"
+      },
+      {
+        "V921875": {
+          "id": "V921875",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V921625",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 42
+        },
+        "V921625": {
+          "id": "V921625",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "W-PUNC-PERIOD",
+          "roles": {
+            "TENSE": "PAST",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "V921876": {
+          "id": "V921876",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "root": "#V921875"
+      }
+    ],
+    [
+      {
+        "V921548": {
+          "id": "V921548",
+          "indicator": "F",
+          "type": "MISINFORM",
+          "word": "BRAGGED",
+          "roles": {
+            "AGENT": "#V921532",
+            "FREQUENCY": "#V921539",
+            "TENSE": "PAST",
+            "LEX": "BRAGGED",
+            "WNSENSE": "misinform%2:32:00"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V921532": {
+          "id": "V921532",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "MARY",
+          "roles": {
+            "NAME-OF": "MARY",
+            "LEX": "MARY",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V921539": {
+          "id": "V921539",
+          "indicator": "F",
+          "type": "ALWAYS",
+          "word": "ALWAYS",
+          "roles": {
+            "FIGURE": "#V921548",
+            "LEX": "ALWAYS",
+            "WNSENSE": "always%4:02:00::"
+          },
+          "start": 5,
+          "end": 12
+        },
+        "root": "#V921548"
+      },
+      {
+        "V921718": {
+          "id": "V921718",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921572",
+            "FOCUS": "#V921662",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921572": {
+          "id": "V921572",
+          "indicator": "F",
+          "type": "BY-MEANS-OF",
+          "word": "HOW",
+          "roles": {
+            "GROUND": "#V921662",
+            "FIGURE": "#V921719",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921719": {
+          "id": "V921719",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 26,
+          "end": 30
+        },
+        "V921662": {
+          "id": "V921662",
+          "indicator": "WH-TERM",
+          "type": "METHOD",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOW",
+            "SUCHTHAT": "#V921572"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "root": "#V921718"
+      },
+      {
+        "V921829": {
+          "id": "V921829",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "ACT": "#V921682",
+            "ACT1": "#V921751",
+            "LEX": "SHE"
+          },
+          "start": 30,
+          "end": 39
+        },
+        "V921682": {
+          "id": "V921682",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921586",
+            "LEX": "GOOD"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921586": {
+          "id": "V921586",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V921683",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921683": {
+          "id": "V921683",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 30,
+          "end": 35
+        },
+        "V921751": {
+          "id": "V921751",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921594",
+            "LEX": "SHE"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "V921594": {
+          "id": "V921594",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "root": "#V921829"
+      },
+      {
+        "V921875": {
+          "id": "V921875",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V921625",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 42
+        },
+        "V921625": {
+          "id": "V921625",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "W-PUNC-PERIOD",
+          "roles": {
+            "TENSE": "PAST",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "V921876": {
+          "id": "V921876",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "root": "#V921875"
+      }
+    ],
+    [
+      {
+        "V921548": {
+          "id": "V921548",
+          "indicator": "F",
+          "type": "MISINFORM",
+          "word": "BRAGGED",
+          "roles": {
+            "AGENT": "#V921532",
+            "FREQUENCY": "#V921539",
+            "TENSE": "PAST",
+            "LEX": "BRAGGED",
+            "WNSENSE": "misinform%2:32:00"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V921532": {
+          "id": "V921532",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "MARY",
+          "roles": {
+            "NAME-OF": "MARY",
+            "LEX": "MARY",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V921539": {
+          "id": "V921539",
+          "indicator": "F",
+          "type": "ALWAYS",
+          "word": "ALWAYS",
+          "roles": {
+            "FIGURE": "#V921548",
+            "LEX": "ALWAYS",
+            "WNSENSE": "always%4:02:00::"
+          },
+          "start": 5,
+          "end": 12
+        },
+        "root": "#V921548"
+      },
+      {
+        "V921718": {
+          "id": "V921718",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921572",
+            "FOCUS": "#V921662",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921572": {
+          "id": "V921572",
+          "indicator": "F",
+          "type": "BY-MEANS-OF",
+          "word": "HOW",
+          "roles": {
+            "GROUND": "#V921662",
+            "FIGURE": "#V921719",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921719": {
+          "id": "V921719",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 26,
+          "end": 30
+        },
+        "V921662": {
+          "id": "V921662",
+          "indicator": "WH-TERM",
+          "type": "METHOD",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOW",
+            "SUCHTHAT": "#V921572"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "root": "#V921718"
+      },
+      {
+        "V921828": {
+          "id": "V921828",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "ACT": "#V921676",
+            "ACT1": "#V921751",
+            "LEX": "SHE"
+          },
+          "start": 30,
+          "end": 39
+        },
+        "V921676": {
+          "id": "V921676",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921585",
+            "LEX": "GOOD"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921585": {
+          "id": "V921585",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V921677",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921677": {
+          "id": "V921677",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 30,
+          "end": 35
+        },
+        "V921751": {
+          "id": "V921751",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921594",
+            "LEX": "SHE"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "V921594": {
+          "id": "V921594",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "root": "#V921828"
+      },
+      {
+        "V921875": {
+          "id": "V921875",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V921625",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 42
+        },
+        "V921625": {
+          "id": "V921625",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "W-PUNC-PERIOD",
+          "roles": {
+            "TENSE": "PAST",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "V921876": {
+          "id": "V921876",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "root": "#V921875"
+      }
+    ],
+    [
+      {
+        "V921548": {
+          "id": "V921548",
+          "indicator": "F",
+          "type": "MISINFORM",
+          "word": "BRAGGED",
+          "roles": {
+            "AGENT": "#V921532",
+            "FREQUENCY": "#V921539",
+            "TENSE": "PAST",
+            "LEX": "BRAGGED",
+            "WNSENSE": "misinform%2:32:00"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V921532": {
+          "id": "V921532",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "MARY",
+          "roles": {
+            "NAME-OF": "MARY",
+            "LEX": "MARY",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V921539": {
+          "id": "V921539",
+          "indicator": "F",
+          "type": "ALWAYS",
+          "word": "ALWAYS",
+          "roles": {
+            "FIGURE": "#V921548",
+            "LEX": "ALWAYS",
+            "WNSENSE": "always%4:02:00::"
+          },
+          "start": 5,
+          "end": 12
+        },
+        "root": "#V921548"
+      },
+      {
+        "V921713": {
+          "id": "V921713",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921571",
+            "FOCUS": "#V921660",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921571": {
+          "id": "V921571",
+          "indicator": "F",
+          "type": "AT-SCALE-VALUE",
+          "word": "HOW",
+          "roles": {
+            "GROUND": "#V921660",
+            "FIGURE": "#V921714",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921714": {
+          "id": "V921714",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 26,
+          "end": 30
+        },
+        "V921660": {
+          "id": "V921660",
+          "indicator": "WH-TERM",
+          "type": "LEVEL",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOW",
+            "SUCHTHAT": "#V921571"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "root": "#V921713"
+      },
+      {
+        "V921830": {
+          "id": "V921830",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "ACT": "#V921688",
+            "ACT1": "#V921751",
+            "LEX": "SHE"
+          },
+          "start": 30,
+          "end": 39
+        },
+        "V921688": {
+          "id": "V921688",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921587",
+            "LEX": "GOOD"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921587": {
+          "id": "V921587",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V921689",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921689": {
+          "id": "V921689",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 30,
+          "end": 35
+        },
+        "V921751": {
+          "id": "V921751",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921594",
+            "LEX": "SHE"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "V921594": {
+          "id": "V921594",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "root": "#V921830"
+      },
+      {
+        "V921875": {
+          "id": "V921875",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V921625",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 42
+        },
+        "V921625": {
+          "id": "V921625",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "W-PUNC-PERIOD",
+          "roles": {
+            "TENSE": "PAST",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "V921876": {
+          "id": "V921876",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "root": "#V921875"
+      }
+    ],
+    [
+      {
+        "V921548": {
+          "id": "V921548",
+          "indicator": "F",
+          "type": "MISINFORM",
+          "word": "BRAGGED",
+          "roles": {
+            "AGENT": "#V921532",
+            "FREQUENCY": "#V921539",
+            "TENSE": "PAST",
+            "LEX": "BRAGGED",
+            "WNSENSE": "misinform%2:32:00"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V921532": {
+          "id": "V921532",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "MARY",
+          "roles": {
+            "NAME-OF": "MARY",
+            "LEX": "MARY",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V921539": {
+          "id": "V921539",
+          "indicator": "F",
+          "type": "ALWAYS",
+          "word": "ALWAYS",
+          "roles": {
+            "FIGURE": "#V921548",
+            "LEX": "ALWAYS",
+            "WNSENSE": "always%4:02:00::"
+          },
+          "start": 5,
+          "end": 12
+        },
+        "root": "#V921548"
+      },
+      {
+        "V921713": {
+          "id": "V921713",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921571",
+            "FOCUS": "#V921660",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921571": {
+          "id": "V921571",
+          "indicator": "F",
+          "type": "AT-SCALE-VALUE",
+          "word": "HOW",
+          "roles": {
+            "GROUND": "#V921660",
+            "FIGURE": "#V921714",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921714": {
+          "id": "V921714",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 26,
+          "end": 30
+        },
+        "V921660": {
+          "id": "V921660",
+          "indicator": "WH-TERM",
+          "type": "LEVEL",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOW",
+            "SUCHTHAT": "#V921571"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "root": "#V921713"
+      },
+      {
+        "V921829": {
+          "id": "V921829",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "ACT": "#V921682",
+            "ACT1": "#V921751",
+            "LEX": "SHE"
+          },
+          "start": 30,
+          "end": 39
+        },
+        "V921682": {
+          "id": "V921682",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921586",
+            "LEX": "GOOD"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921586": {
+          "id": "V921586",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V921683",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921683": {
+          "id": "V921683",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 30,
+          "end": 35
+        },
+        "V921751": {
+          "id": "V921751",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921594",
+            "LEX": "SHE"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "V921594": {
+          "id": "V921594",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "root": "#V921829"
+      },
+      {
+        "V921875": {
+          "id": "V921875",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V921625",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 42
+        },
+        "V921625": {
+          "id": "V921625",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "W-PUNC-PERIOD",
+          "roles": {
+            "TENSE": "PAST",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "V921876": {
+          "id": "V921876",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "root": "#V921875"
+      }
+    ],
+    [
+      {
+        "V921548": {
+          "id": "V921548",
+          "indicator": "F",
+          "type": "MISINFORM",
+          "word": "BRAGGED",
+          "roles": {
+            "AGENT": "#V921532",
+            "FREQUENCY": "#V921539",
+            "TENSE": "PAST",
+            "LEX": "BRAGGED",
+            "WNSENSE": "misinform%2:32:00"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V921532": {
+          "id": "V921532",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "MARY",
+          "roles": {
+            "NAME-OF": "MARY",
+            "LEX": "MARY",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V921539": {
+          "id": "V921539",
+          "indicator": "F",
+          "type": "ALWAYS",
+          "word": "ALWAYS",
+          "roles": {
+            "FIGURE": "#V921548",
+            "LEX": "ALWAYS",
+            "WNSENSE": "always%4:02:00::"
+          },
+          "start": 5,
+          "end": 12
+        },
+        "root": "#V921548"
+      },
+      {
+        "V921713": {
+          "id": "V921713",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921571",
+            "FOCUS": "#V921660",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921571": {
+          "id": "V921571",
+          "indicator": "F",
+          "type": "AT-SCALE-VALUE",
+          "word": "HOW",
+          "roles": {
+            "GROUND": "#V921660",
+            "FIGURE": "#V921714",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921714": {
+          "id": "V921714",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 26,
+          "end": 30
+        },
+        "V921660": {
+          "id": "V921660",
+          "indicator": "WH-TERM",
+          "type": "LEVEL",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOW",
+            "SUCHTHAT": "#V921571"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "root": "#V921713"
+      },
+      {
+        "V921828": {
+          "id": "V921828",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "ACT": "#V921676",
+            "ACT1": "#V921751",
+            "LEX": "SHE"
+          },
+          "start": 30,
+          "end": 39
+        },
+        "V921676": {
+          "id": "V921676",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921585",
+            "LEX": "GOOD"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921585": {
+          "id": "V921585",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V921677",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921677": {
+          "id": "V921677",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 30,
+          "end": 35
+        },
+        "V921751": {
+          "id": "V921751",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921594",
+            "LEX": "SHE"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "V921594": {
+          "id": "V921594",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "root": "#V921828"
+      },
+      {
+        "V921875": {
+          "id": "V921875",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V921625",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 42
+        },
+        "V921625": {
+          "id": "V921625",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "W-PUNC-PERIOD",
+          "roles": {
+            "TENSE": "PAST",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "V921876": {
+          "id": "V921876",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "root": "#V921875"
+      }
+    ],
+    [
+      {
+        "V921548": {
+          "id": "V921548",
+          "indicator": "F",
+          "type": "MISINFORM",
+          "word": "BRAGGED",
+          "roles": {
+            "AGENT": "#V921532",
+            "FREQUENCY": "#V921539",
+            "TENSE": "PAST",
+            "LEX": "BRAGGED",
+            "WNSENSE": "misinform%2:32:00"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V921532": {
+          "id": "V921532",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "MARY",
+          "roles": {
+            "NAME-OF": "MARY",
+            "LEX": "MARY",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V921539": {
+          "id": "V921539",
+          "indicator": "F",
+          "type": "ALWAYS",
+          "word": "ALWAYS",
+          "roles": {
+            "FIGURE": "#V921548",
+            "LEX": "ALWAYS",
+            "WNSENSE": "always%4:02:00::"
+          },
+          "start": 5,
+          "end": 12
+        },
+        "root": "#V921548"
+      },
+      {
+        "V921723": {
+          "id": "V921723",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921573",
+            "FOCUS": "#V921665",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921573": {
+          "id": "V921573",
+          "indicator": "F",
+          "type": "AT-SCALE-VALUE",
+          "word": "HOW",
+          "roles": {
+            "GROUND": "#V921665",
+            "FIGURE": "#V921724",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921724": {
+          "id": "V921724",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 26,
+          "end": 30
+        },
+        "V921665": {
+          "id": "V921665",
+          "indicator": "WH-TERM",
+          "type": "LEVEL",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOW",
+            "SUCHTHAT": "#V921573"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "root": "#V921723"
+      },
+      {
+        "V921830": {
+          "id": "V921830",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "ACT": "#V921688",
+            "ACT1": "#V921751",
+            "LEX": "SHE"
+          },
+          "start": 30,
+          "end": 39
+        },
+        "V921688": {
+          "id": "V921688",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921587",
+            "LEX": "GOOD"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921587": {
+          "id": "V921587",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V921689",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921689": {
+          "id": "V921689",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 30,
+          "end": 35
+        },
+        "V921751": {
+          "id": "V921751",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921594",
+            "LEX": "SHE"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "V921594": {
+          "id": "V921594",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "root": "#V921830"
+      },
+      {
+        "V921875": {
+          "id": "V921875",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V921625",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 42
+        },
+        "V921625": {
+          "id": "V921625",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "W-PUNC-PERIOD",
+          "roles": {
+            "TENSE": "PAST",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "V921876": {
+          "id": "V921876",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "root": "#V921875"
+      }
+    ],
+    [
+      {
+        "V921548": {
+          "id": "V921548",
+          "indicator": "F",
+          "type": "MISINFORM",
+          "word": "BRAGGED",
+          "roles": {
+            "AGENT": "#V921532",
+            "FREQUENCY": "#V921539",
+            "TENSE": "PAST",
+            "LEX": "BRAGGED",
+            "WNSENSE": "misinform%2:32:00"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V921532": {
+          "id": "V921532",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "MARY",
+          "roles": {
+            "NAME-OF": "MARY",
+            "LEX": "MARY",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V921539": {
+          "id": "V921539",
+          "indicator": "F",
+          "type": "ALWAYS",
+          "word": "ALWAYS",
+          "roles": {
+            "FIGURE": "#V921548",
+            "LEX": "ALWAYS",
+            "WNSENSE": "always%4:02:00::"
+          },
+          "start": 5,
+          "end": 12
+        },
+        "root": "#V921548"
+      },
+      {
+        "V921723": {
+          "id": "V921723",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921573",
+            "FOCUS": "#V921665",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921573": {
+          "id": "V921573",
+          "indicator": "F",
+          "type": "AT-SCALE-VALUE",
+          "word": "HOW",
+          "roles": {
+            "GROUND": "#V921665",
+            "FIGURE": "#V921724",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921724": {
+          "id": "V921724",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 26,
+          "end": 30
+        },
+        "V921665": {
+          "id": "V921665",
+          "indicator": "WH-TERM",
+          "type": "LEVEL",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOW",
+            "SUCHTHAT": "#V921573"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "root": "#V921723"
+      },
+      {
+        "V921829": {
+          "id": "V921829",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "ACT": "#V921682",
+            "ACT1": "#V921751",
+            "LEX": "SHE"
+          },
+          "start": 30,
+          "end": 39
+        },
+        "V921682": {
+          "id": "V921682",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921586",
+            "LEX": "GOOD"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921586": {
+          "id": "V921586",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V921683",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921683": {
+          "id": "V921683",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 30,
+          "end": 35
+        },
+        "V921751": {
+          "id": "V921751",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921594",
+            "LEX": "SHE"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "V921594": {
+          "id": "V921594",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "root": "#V921829"
+      },
+      {
+        "V921875": {
+          "id": "V921875",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V921625",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 42
+        },
+        "V921625": {
+          "id": "V921625",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "W-PUNC-PERIOD",
+          "roles": {
+            "TENSE": "PAST",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "V921876": {
+          "id": "V921876",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "root": "#V921875"
+      }
+    ],
+    [
+      {
+        "V921548": {
+          "id": "V921548",
+          "indicator": "F",
+          "type": "MISINFORM",
+          "word": "BRAGGED",
+          "roles": {
+            "AGENT": "#V921532",
+            "FREQUENCY": "#V921539",
+            "TENSE": "PAST",
+            "LEX": "BRAGGED",
+            "WNSENSE": "misinform%2:32:00"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V921532": {
+          "id": "V921532",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "MARY",
+          "roles": {
+            "NAME-OF": "MARY",
+            "LEX": "MARY",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V921539": {
+          "id": "V921539",
+          "indicator": "F",
+          "type": "ALWAYS",
+          "word": "ALWAYS",
+          "roles": {
+            "FIGURE": "#V921548",
+            "LEX": "ALWAYS",
+            "WNSENSE": "always%4:02:00::"
+          },
+          "start": 5,
+          "end": 12
+        },
+        "root": "#V921548"
+      },
+      {
+        "V921723": {
+          "id": "V921723",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921573",
+            "FOCUS": "#V921665",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921573": {
+          "id": "V921573",
+          "indicator": "F",
+          "type": "AT-SCALE-VALUE",
+          "word": "HOW",
+          "roles": {
+            "GROUND": "#V921665",
+            "FIGURE": "#V921724",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921724": {
+          "id": "V921724",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 26,
+          "end": 30
+        },
+        "V921665": {
+          "id": "V921665",
+          "indicator": "WH-TERM",
+          "type": "LEVEL",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOW",
+            "SUCHTHAT": "#V921573"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "root": "#V921723"
+      },
+      {
+        "V921828": {
+          "id": "V921828",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "ACT": "#V921676",
+            "ACT1": "#V921751",
+            "LEX": "SHE"
+          },
+          "start": 30,
+          "end": 39
+        },
+        "V921676": {
+          "id": "V921676",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921585",
+            "LEX": "GOOD"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921585": {
+          "id": "V921585",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V921677",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921677": {
+          "id": "V921677",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 30,
+          "end": 35
+        },
+        "V921751": {
+          "id": "V921751",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921594",
+            "LEX": "SHE"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "V921594": {
+          "id": "V921594",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "root": "#V921828"
+      },
+      {
+        "V921875": {
+          "id": "V921875",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V921625",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 42
+        },
+        "V921625": {
+          "id": "V921625",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "W-PUNC-PERIOD",
+          "roles": {
+            "TENSE": "PAST",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "V921876": {
+          "id": "V921876",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "root": "#V921875"
+      }
+    ],
+    [
+      {
+        "V921548": {
+          "id": "V921548",
+          "indicator": "F",
+          "type": "MISINFORM",
+          "word": "BRAGGED",
+          "roles": {
+            "AGENT": "#V921532",
+            "FREQUENCY": "#V921539",
+            "TENSE": "PAST",
+            "LEX": "BRAGGED",
+            "WNSENSE": "misinform%2:32:00"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V921532": {
+          "id": "V921532",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "MARY",
+          "roles": {
+            "NAME-OF": "MARY",
+            "LEX": "MARY",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V921539": {
+          "id": "V921539",
+          "indicator": "F",
+          "type": "ALWAYS",
+          "word": "ALWAYS",
+          "roles": {
+            "FIGURE": "#V921548",
+            "LEX": "ALWAYS",
+            "WNSENSE": "always%4:02:00::"
+          },
+          "start": 5,
+          "end": 12
+        },
+        "root": "#V921548"
+      },
+      {
+        "V921718": {
+          "id": "V921718",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921572",
+            "FOCUS": "#V921662",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921572": {
+          "id": "V921572",
+          "indicator": "F",
+          "type": "BY-MEANS-OF",
+          "word": "HOW",
+          "roles": {
+            "GROUND": "#V921662",
+            "FIGURE": "#V921719",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921719": {
+          "id": "V921719",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 26,
+          "end": 30
+        },
+        "V921662": {
+          "id": "V921662",
+          "indicator": "WH-TERM",
+          "type": "METHOD",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOW",
+            "SUCHTHAT": "#V921572"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "root": "#V921718"
+      },
+      {
+        "V921830": {
+          "id": "V921830",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "ACT": "#V921688",
+            "ACT1": "#V921751",
+            "LEX": "SHE"
+          },
+          "start": 30,
+          "end": 39
+        },
+        "V921688": {
+          "id": "V921688",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921587",
+            "LEX": "GOOD"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921587": {
+          "id": "V921587",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V921689",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921689": {
+          "id": "V921689",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 30,
+          "end": 35
+        },
+        "V921751": {
+          "id": "V921751",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921594",
+            "LEX": "SHE"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "V921594": {
+          "id": "V921594",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "root": "#V921830"
+      },
+      {
+        "V921875": {
+          "id": "V921875",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V921625",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 42
+        },
+        "V921625": {
+          "id": "V921625",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "W-PUNC-PERIOD",
+          "roles": {
+            "TENSE": "PAST",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "V921876": {
+          "id": "V921876",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "root": "#V921875"
+      }
+    ],
+    [
+      {
+        "V921548": {
+          "id": "V921548",
+          "indicator": "F",
+          "type": "MISINFORM",
+          "word": "BRAGGED",
+          "roles": {
+            "AGENT": "#V921532",
+            "FREQUENCY": "#V921539",
+            "TENSE": "PAST",
+            "LEX": "BRAGGED",
+            "WNSENSE": "misinform%2:32:00"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V921532": {
+          "id": "V921532",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "MARY",
+          "roles": {
+            "NAME-OF": "MARY",
+            "LEX": "MARY",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V921539": {
+          "id": "V921539",
+          "indicator": "F",
+          "type": "ALWAYS",
+          "word": "ALWAYS",
+          "roles": {
+            "FIGURE": "#V921548",
+            "LEX": "ALWAYS",
+            "WNSENSE": "always%4:02:00::"
+          },
+          "start": 5,
+          "end": 12
+        },
+        "root": "#V921548"
+      },
+      {
+        "V921718": {
+          "id": "V921718",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921572",
+            "FOCUS": "#V921662",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921572": {
+          "id": "V921572",
+          "indicator": "F",
+          "type": "BY-MEANS-OF",
+          "word": "HOW",
+          "roles": {
+            "GROUND": "#V921662",
+            "FIGURE": "#V921719",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921719": {
+          "id": "V921719",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 26,
+          "end": 30
+        },
+        "V921662": {
+          "id": "V921662",
+          "indicator": "WH-TERM",
+          "type": "METHOD",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOW",
+            "SUCHTHAT": "#V921572"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "root": "#V921718"
+      },
+      {
+        "V921829": {
+          "id": "V921829",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "ACT": "#V921682",
+            "ACT1": "#V921751",
+            "LEX": "SHE"
+          },
+          "start": 30,
+          "end": 39
+        },
+        "V921682": {
+          "id": "V921682",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921586",
+            "LEX": "GOOD"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921586": {
+          "id": "V921586",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V921683",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921683": {
+          "id": "V921683",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 30,
+          "end": 35
+        },
+        "V921751": {
+          "id": "V921751",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921594",
+            "LEX": "SHE"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "V921594": {
+          "id": "V921594",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "root": "#V921829"
+      },
+      {
+        "V921875": {
+          "id": "V921875",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V921625",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 42
+        },
+        "V921625": {
+          "id": "V921625",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "W-PUNC-PERIOD",
+          "roles": {
+            "TENSE": "PAST",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "V921876": {
+          "id": "V921876",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "root": "#V921875"
+      }
+    ],
+    [
+      {
+        "V921548": {
+          "id": "V921548",
+          "indicator": "F",
+          "type": "MISINFORM",
+          "word": "BRAGGED",
+          "roles": {
+            "AGENT": "#V921532",
+            "FREQUENCY": "#V921539",
+            "TENSE": "PAST",
+            "LEX": "BRAGGED",
+            "WNSENSE": "misinform%2:32:00"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V921532": {
+          "id": "V921532",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "MARY",
+          "roles": {
+            "NAME-OF": "MARY",
+            "LEX": "MARY",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V921539": {
+          "id": "V921539",
+          "indicator": "F",
+          "type": "ALWAYS",
+          "word": "ALWAYS",
+          "roles": {
+            "FIGURE": "#V921548",
+            "LEX": "ALWAYS",
+            "WNSENSE": "always%4:02:00::"
+          },
+          "start": 5,
+          "end": 12
+        },
+        "root": "#V921548"
+      },
+      {
+        "V921718": {
+          "id": "V921718",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921572",
+            "FOCUS": "#V921662",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921572": {
+          "id": "V921572",
+          "indicator": "F",
+          "type": "BY-MEANS-OF",
+          "word": "HOW",
+          "roles": {
+            "GROUND": "#V921662",
+            "FIGURE": "#V921719",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921719": {
+          "id": "V921719",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 26,
+          "end": 30
+        },
+        "V921662": {
+          "id": "V921662",
+          "indicator": "WH-TERM",
+          "type": "METHOD",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOW",
+            "SUCHTHAT": "#V921572"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "root": "#V921718"
+      },
+      {
+        "V921828": {
+          "id": "V921828",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "ACT": "#V921676",
+            "ACT1": "#V921751",
+            "LEX": "SHE"
+          },
+          "start": 30,
+          "end": 39
+        },
+        "V921676": {
+          "id": "V921676",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921585",
+            "LEX": "GOOD"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921585": {
+          "id": "V921585",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V921677",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921677": {
+          "id": "V921677",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 30,
+          "end": 35
+        },
+        "V921751": {
+          "id": "V921751",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921594",
+            "LEX": "SHE"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "V921594": {
+          "id": "V921594",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "root": "#V921828"
+      },
+      {
+        "V921875": {
+          "id": "V921875",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V921625",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 42
+        },
+        "V921625": {
+          "id": "V921625",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "W-PUNC-PERIOD",
+          "roles": {
+            "TENSE": "PAST",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "V921876": {
+          "id": "V921876",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "root": "#V921875"
+      }
+    ],
+    [
+      {
+        "V921548": {
+          "id": "V921548",
+          "indicator": "F",
+          "type": "MISINFORM",
+          "word": "BRAGGED",
+          "roles": {
+            "AGENT": "#V921532",
+            "FREQUENCY": "#V921539",
+            "TENSE": "PAST",
+            "LEX": "BRAGGED",
+            "WNSENSE": "misinform%2:32:00"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V921532": {
+          "id": "V921532",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "MARY",
+          "roles": {
+            "NAME-OF": "MARY",
+            "LEX": "MARY",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V921539": {
+          "id": "V921539",
+          "indicator": "F",
+          "type": "ALWAYS",
+          "word": "ALWAYS",
+          "roles": {
+            "FIGURE": "#V921548",
+            "LEX": "ALWAYS",
+            "WNSENSE": "always%4:02:00::"
+          },
+          "start": 5,
+          "end": 12
+        },
+        "root": "#V921548"
+      },
+      {
+        "V921713": {
+          "id": "V921713",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921571",
+            "FOCUS": "#V921660",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921571": {
+          "id": "V921571",
+          "indicator": "F",
+          "type": "AT-SCALE-VALUE",
+          "word": "HOW",
+          "roles": {
+            "GROUND": "#V921660",
+            "FIGURE": "#V921714",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921714": {
+          "id": "V921714",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 26,
+          "end": 30
+        },
+        "V921660": {
+          "id": "V921660",
+          "indicator": "WH-TERM",
+          "type": "LEVEL",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOW",
+            "SUCHTHAT": "#V921571"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "root": "#V921713"
+      },
+      {
+        "V921830": {
+          "id": "V921830",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "ACT": "#V921688",
+            "ACT1": "#V921751",
+            "LEX": "SHE"
+          },
+          "start": 30,
+          "end": 39
+        },
+        "V921688": {
+          "id": "V921688",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921587",
+            "LEX": "GOOD"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921587": {
+          "id": "V921587",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V921689",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921689": {
+          "id": "V921689",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 30,
+          "end": 35
+        },
+        "V921751": {
+          "id": "V921751",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921594",
+            "LEX": "SHE"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "V921594": {
+          "id": "V921594",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "root": "#V921830"
+      },
+      {
+        "V921875": {
+          "id": "V921875",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V921625",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 42
+        },
+        "V921625": {
+          "id": "V921625",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "W-PUNC-PERIOD",
+          "roles": {
+            "TENSE": "PAST",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "V921876": {
+          "id": "V921876",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "root": "#V921875"
+      }
+    ],
+    [
+      {
+        "V921548": {
+          "id": "V921548",
+          "indicator": "F",
+          "type": "MISINFORM",
+          "word": "BRAGGED",
+          "roles": {
+            "AGENT": "#V921532",
+            "FREQUENCY": "#V921539",
+            "TENSE": "PAST",
+            "LEX": "BRAGGED",
+            "WNSENSE": "misinform%2:32:00"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V921532": {
+          "id": "V921532",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "MARY",
+          "roles": {
+            "NAME-OF": "MARY",
+            "LEX": "MARY",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V921539": {
+          "id": "V921539",
+          "indicator": "F",
+          "type": "ALWAYS",
+          "word": "ALWAYS",
+          "roles": {
+            "FIGURE": "#V921548",
+            "LEX": "ALWAYS",
+            "WNSENSE": "always%4:02:00::"
+          },
+          "start": 5,
+          "end": 12
+        },
+        "root": "#V921548"
+      },
+      {
+        "V921713": {
+          "id": "V921713",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921571",
+            "FOCUS": "#V921660",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921571": {
+          "id": "V921571",
+          "indicator": "F",
+          "type": "AT-SCALE-VALUE",
+          "word": "HOW",
+          "roles": {
+            "GROUND": "#V921660",
+            "FIGURE": "#V921714",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921714": {
+          "id": "V921714",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 26,
+          "end": 30
+        },
+        "V921660": {
+          "id": "V921660",
+          "indicator": "WH-TERM",
+          "type": "LEVEL",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOW",
+            "SUCHTHAT": "#V921571"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "root": "#V921713"
+      },
+      {
+        "V921829": {
+          "id": "V921829",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "ACT": "#V921682",
+            "ACT1": "#V921751",
+            "LEX": "SHE"
+          },
+          "start": 30,
+          "end": 39
+        },
+        "V921682": {
+          "id": "V921682",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921586",
+            "LEX": "GOOD"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921586": {
+          "id": "V921586",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V921683",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921683": {
+          "id": "V921683",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 30,
+          "end": 35
+        },
+        "V921751": {
+          "id": "V921751",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921594",
+            "LEX": "SHE"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "V921594": {
+          "id": "V921594",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "root": "#V921829"
+      },
+      {
+        "V921875": {
+          "id": "V921875",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V921625",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 42
+        },
+        "V921625": {
+          "id": "V921625",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "W-PUNC-PERIOD",
+          "roles": {
+            "TENSE": "PAST",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "V921876": {
+          "id": "V921876",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "root": "#V921875"
+      }
+    ],
+    [
+      {
+        "V921548": {
+          "id": "V921548",
+          "indicator": "F",
+          "type": "MISINFORM",
+          "word": "BRAGGED",
+          "roles": {
+            "AGENT": "#V921532",
+            "FREQUENCY": "#V921539",
+            "TENSE": "PAST",
+            "LEX": "BRAGGED",
+            "WNSENSE": "misinform%2:32:00"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V921532": {
+          "id": "V921532",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "MARY",
+          "roles": {
+            "NAME-OF": "MARY",
+            "LEX": "MARY",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V921539": {
+          "id": "V921539",
+          "indicator": "F",
+          "type": "ALWAYS",
+          "word": "ALWAYS",
+          "roles": {
+            "FIGURE": "#V921548",
+            "LEX": "ALWAYS",
+            "WNSENSE": "always%4:02:00::"
+          },
+          "start": 5,
+          "end": 12
+        },
+        "root": "#V921548"
+      },
+      {
+        "V921713": {
+          "id": "V921713",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921571",
+            "FOCUS": "#V921660",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921571": {
+          "id": "V921571",
+          "indicator": "F",
+          "type": "AT-SCALE-VALUE",
+          "word": "HOW",
+          "roles": {
+            "GROUND": "#V921660",
+            "FIGURE": "#V921714",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921714": {
+          "id": "V921714",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 26,
+          "end": 30
+        },
+        "V921660": {
+          "id": "V921660",
+          "indicator": "WH-TERM",
+          "type": "LEVEL",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOW",
+            "SUCHTHAT": "#V921571"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "root": "#V921713"
+      },
+      {
+        "V921828": {
+          "id": "V921828",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "ACT": "#V921676",
+            "ACT1": "#V921751",
+            "LEX": "SHE"
+          },
+          "start": 30,
+          "end": 39
+        },
+        "V921676": {
+          "id": "V921676",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921585",
+            "LEX": "GOOD"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921585": {
+          "id": "V921585",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V921677",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921677": {
+          "id": "V921677",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 30,
+          "end": 35
+        },
+        "V921751": {
+          "id": "V921751",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921594",
+            "LEX": "SHE"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "V921594": {
+          "id": "V921594",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "root": "#V921828"
+      },
+      {
+        "V921875": {
+          "id": "V921875",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V921625",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 42
+        },
+        "V921625": {
+          "id": "V921625",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "W-PUNC-PERIOD",
+          "roles": {
+            "TENSE": "PAST",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "V921876": {
+          "id": "V921876",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "root": "#V921875"
+      }
+    ],
+    [
+      {
+        "V921544": {
+          "id": "V921544",
+          "indicator": "F",
+          "type": "MISINFORM",
+          "word": "BRAGGED",
+          "roles": {
+            "FREQUENCY": "#V921539",
+            "AGENT": "#V921532",
+            "MOD": "#V921561",
+            "TENSE": "PAST",
+            "LEX": "BRAGGED",
+            "WNSENSE": "misinform%2:32:00"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V921532": {
+          "id": "V921532",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "MARY",
+          "roles": {
+            "NAME-OF": "MARY",
+            "LEX": "MARY",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V921539": {
+          "id": "V921539",
+          "indicator": "F",
+          "type": "ALWAYS",
+          "word": "ALWAYS",
+          "roles": {
+            "FIGURE": "#V921544",
+            "LEX": "ALWAYS",
+            "WNSENSE": "always%4:02:00::"
+          },
+          "start": 5,
+          "end": 12
+        },
+        "V921561": {
+          "id": "V921561",
+          "indicator": "F",
+          "type": "ASSOCIATED-INFORMATION",
+          "word": "ABOUT",
+          "roles": {
+            "FIGURE": "#V921544",
+            "LEX": "ABOUT",
+            "WNSENSE": "about%4:02:00::"
+          },
+          "start": 20,
+          "end": 26
+        },
+        "root": "#V921544"
+      },
+      {
+        "V921723": {
+          "id": "V921723",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921573",
+            "FOCUS": "#V921665",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921573": {
+          "id": "V921573",
+          "indicator": "F",
+          "type": "AT-SCALE-VALUE",
+          "word": "HOW",
+          "roles": {
+            "GROUND": "#V921665",
+            "FIGURE": "#V921724",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921724": {
+          "id": "V921724",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 26,
+          "end": 30
+        },
+        "V921665": {
+          "id": "V921665",
+          "indicator": "WH-TERM",
+          "type": "LEVEL",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOW",
+            "SUCHTHAT": "#V921573"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "root": "#V921723"
+      },
+      {
+        "V921830": {
+          "id": "V921830",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "ACT": "#V921688",
+            "ACT1": "#V921751",
+            "LEX": "SHE"
+          },
+          "start": 30,
+          "end": 39
+        },
+        "V921688": {
+          "id": "V921688",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921587",
+            "LEX": "GOOD"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921587": {
+          "id": "V921587",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V921689",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921689": {
+          "id": "V921689",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 30,
+          "end": 35
+        },
+        "V921751": {
+          "id": "V921751",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921594",
+            "LEX": "SHE"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "V921594": {
+          "id": "V921594",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "root": "#V921830"
+      },
+      {
+        "V921875": {
+          "id": "V921875",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V921625",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 42
+        },
+        "V921625": {
+          "id": "V921625",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "W-PUNC-PERIOD",
+          "roles": {
+            "TENSE": "PAST",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "V921876": {
+          "id": "V921876",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "root": "#V921875"
+      }
+    ],
+    [
+      {
+        "V921544": {
+          "id": "V921544",
+          "indicator": "F",
+          "type": "MISINFORM",
+          "word": "BRAGGED",
+          "roles": {
+            "FREQUENCY": "#V921539",
+            "AGENT": "#V921532",
+            "MOD": "#V921561",
+            "TENSE": "PAST",
+            "LEX": "BRAGGED",
+            "WNSENSE": "misinform%2:32:00"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V921532": {
+          "id": "V921532",
+          "indicator": "THE",
+          "type": "FEMALE-PERSON",
+          "word": "MARY",
+          "roles": {
+            "NAME-OF": "MARY",
+            "LEX": "MARY",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V921539": {
+          "id": "V921539",
+          "indicator": "F",
+          "type": "ALWAYS",
+          "word": "ALWAYS",
+          "roles": {
+            "FIGURE": "#V921544",
+            "LEX": "ALWAYS",
+            "WNSENSE": "always%4:02:00::"
+          },
+          "start": 5,
+          "end": 12
+        },
+        "V921561": {
+          "id": "V921561",
+          "indicator": "F",
+          "type": "ASSOCIATED-INFORMATION",
+          "word": "ABOUT",
+          "roles": {
+            "FIGURE": "#V921544",
+            "LEX": "ABOUT",
+            "WNSENSE": "about%4:02:00::"
+          },
+          "start": 20,
+          "end": 26
+        },
+        "root": "#V921544"
+      },
+      {
+        "V921723": {
+          "id": "V921723",
+          "indicator": "SPEECHACT",
+          "type": "SA_WH-QUESTION",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921573",
+            "FOCUS": "#V921665",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921573": {
+          "id": "V921573",
+          "indicator": "F",
+          "type": "AT-SCALE-VALUE",
+          "word": "HOW",
+          "roles": {
+            "GROUND": "#V921665",
+            "FIGURE": "#V921724",
+            "LEX": "HOW"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "V921724": {
+          "id": "V921724",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 26,
+          "end": 30
+        },
+        "V921665": {
+          "id": "V921665",
+          "indicator": "WH-TERM",
+          "type": "LEVEL",
+          "word": null,
+          "roles": {
+            "PROFORM": "HOW",
+            "SUCHTHAT": "#V921573"
+          },
+          "start": 26,
+          "end": 30
+        },
+        "root": "#V921723"
+      },
+      {
+        "V921829": {
+          "id": "V921829",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "ACT": "#V921682",
+            "ACT1": "#V921751",
+            "LEX": "SHE"
+          },
+          "start": 30,
+          "end": 39
+        },
+        "V921682": {
+          "id": "V921682",
+          "indicator": "SPEECHACT",
+          "type": "SA_EVALUATE",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921586",
+            "LEX": "GOOD"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921586": {
+          "id": "V921586",
+          "indicator": "F",
+          "type": "GOOD",
+          "word": "GOOD",
+          "roles": {
+            "ORIENTATION": "MORE",
+            "INTENSITY": "MED",
+            "FIGURE": "#V921683",
+            "SCALE": "GOODNESS-SCALE",
+            "LEX": "GOOD",
+            "WNSENSE": "good%5:00:00:nice:00"
+          },
+          "start": 30,
+          "end": 35
+        },
+        "V921683": {
+          "id": "V921683",
+          "indicator": "IMPRO",
+          "type": "ANY-SEM",
+          "word": null,
+          "roles": {},
+          "start": 30,
+          "end": 35
+        },
+        "V921751": {
+          "id": "V921751",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V921594",
+            "LEX": "SHE"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "V921594": {
+          "id": "V921594",
+          "indicator": "PRO",
+          "type": "FEMALE-PERSON",
+          "word": "SHE",
+          "roles": {
+            "PROFORM": "SHE",
+            "LEX": "SHE",
+            "WNSENSE": "woman%1:18:00"
+          },
+          "start": 35,
+          "end": 39
+        },
+        "root": "#V921829"
+      },
+      {
+        "V921875": {
+          "id": "V921875",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V921625",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 42
+        },
+        "V921625": {
+          "id": "V921625",
+          "indicator": "F",
+          "type": "SITUATION-ROOT",
+          "word": "W-PUNC-PERIOD",
+          "roles": {
+            "TENSE": "PAST",
+            "LEX": "W-PUNC-PERIOD"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "V921876": {
+          "id": "V921876",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 39,
+          "end": 41
+        },
+        "root": "#V921875"
+      }
+    ]
+  ],
   "annotation": {
     "judge": "abhatia",
     "parser": "STEP",

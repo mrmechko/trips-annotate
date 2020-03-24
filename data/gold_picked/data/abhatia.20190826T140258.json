@@ -642,6 +642,1148 @@
     ]
   ],
   "sentence": "Robert wound up cheating.",
+  "reparsed": [
+    [
+      {
+        "V1098186": {
+          "id": "V1098186",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V1097574",
+            "LEX": "WOUND"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1097574": {
+          "id": "V1097574",
+          "indicator": "F",
+          "type": "ROTATE",
+          "word": "WIND",
+          "roles": {
+            "RESULT": "#V1097608",
+            "AFFECTED": "#V1097561",
+            "TENSE": "PAST",
+            "LEX": "WOUND",
+            "WNSENSE": "turn%2:38:00"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1097561": {
+          "id": "V1097561",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V1097608": {
+          "id": "V1097608",
+          "indicator": "F",
+          "type": "DIRECTION-UP-GROUND",
+          "word": "UP",
+          "roles": {
+            "GROUND": "#V1097654",
+            "FIGURE": "#V1097561",
+            "LEX": "UP"
+          },
+          "start": 13,
+          "end": 23
+        },
+        "V1097654": {
+          "id": "V1097654",
+          "indicator": "BARE",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "LEX": "CHEATING",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 16,
+          "end": 23
+        },
+        "root": "#V1098186"
+      }
+    ],
+    [
+      {
+        "V1097859": {
+          "id": "V1097859",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V1097654",
+            "LEX": "CHEATING"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V1097654": {
+          "id": "V1097654",
+          "indicator": "BARE",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "AFFECTED": "#V1097564",
+            "MOD": "#V1097649",
+            "LEX": "CHEATING",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V1097564": {
+          "id": "V1097564",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V1097649": {
+          "id": "V1097649",
+          "indicator": "F",
+          "type": "UNEASY",
+          "word": "WOUND-UP",
+          "roles": {
+            "FIGURE": "#V1097654",
+            "SCALE": "NERVOUSNESS-SCALE",
+            "LEX": "WOUND-UP",
+            "WNSENSE": "wound_up%5:00:00:tense:03"
+          },
+          "start": 7,
+          "end": 16
+        },
+        "root": "#V1097859"
+      }
+    ],
+    [
+      {
+        "V1097857": {
+          "id": "V1097857",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V1097654",
+            "LEX": "CHEATING"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V1097654": {
+          "id": "V1097654",
+          "indicator": "BARE",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "AFFECTED": "#V1097561",
+            "MOD": "#V1097649",
+            "LEX": "CHEATING",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V1097561": {
+          "id": "V1097561",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V1097649": {
+          "id": "V1097649",
+          "indicator": "F",
+          "type": "UNEASY",
+          "word": "WOUND-UP",
+          "roles": {
+            "FIGURE": "#V1097654",
+            "SCALE": "NERVOUSNESS-SCALE",
+            "LEX": "WOUND-UP",
+            "WNSENSE": "wound_up%5:00:00:tense:03"
+          },
+          "start": 7,
+          "end": 16
+        },
+        "root": "#V1097857"
+      }
+    ],
+    [
+      {
+        "V1097855": {
+          "id": "V1097855",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V1097654",
+            "LEX": "CHEATING"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V1097654": {
+          "id": "V1097654",
+          "indicator": "BARE",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "AFFECTED": "#V1097564",
+            "MOD": "#V1097647",
+            "LEX": "CHEATING",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V1097564": {
+          "id": "V1097564",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V1097647": {
+          "id": "V1097647",
+          "indicator": "F",
+          "type": "UNEASY",
+          "word": "WOUND-UP",
+          "roles": {
+            "FIGURE": "#V1097654",
+            "SCALE": "NERVOUSNESS-SCALE",
+            "LEX": "WOUND-UP",
+            "WNSENSE": "wound_up%5:00:00:tense:03"
+          },
+          "start": 7,
+          "end": 16
+        },
+        "root": "#V1097855"
+      }
+    ],
+    [
+      {
+        "V1097853": {
+          "id": "V1097853",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V1097654",
+            "LEX": "CHEATING"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V1097654": {
+          "id": "V1097654",
+          "indicator": "BARE",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "AFFECTED": "#V1097561",
+            "MOD": "#V1097647",
+            "LEX": "CHEATING",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V1097561": {
+          "id": "V1097561",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V1097647": {
+          "id": "V1097647",
+          "indicator": "F",
+          "type": "UNEASY",
+          "word": "WOUND-UP",
+          "roles": {
+            "FIGURE": "#V1097654",
+            "SCALE": "NERVOUSNESS-SCALE",
+            "LEX": "WOUND-UP",
+            "WNSENSE": "wound_up%5:00:00:tense:03"
+          },
+          "start": 7,
+          "end": 16
+        },
+        "root": "#V1097853"
+      }
+    ],
+    [
+      {
+        "V1097876": {
+          "id": "V1097876",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V1097654",
+            "LEX": "CHEATING"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V1097654": {
+          "id": "V1097654",
+          "indicator": "BARE",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "ASSOC-WITH": "#V1097564",
+            "MOD": "#V1097649",
+            "LEX": "CHEATING",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V1097564": {
+          "id": "V1097564",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V1097649": {
+          "id": "V1097649",
+          "indicator": "F",
+          "type": "UNEASY",
+          "word": "WOUND-UP",
+          "roles": {
+            "FIGURE": "#V1097654",
+            "SCALE": "NERVOUSNESS-SCALE",
+            "LEX": "WOUND-UP",
+            "WNSENSE": "wound_up%5:00:00:tense:03"
+          },
+          "start": 7,
+          "end": 16
+        },
+        "root": "#V1097876"
+      }
+    ],
+    [
+      {
+        "V1097874": {
+          "id": "V1097874",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V1097654",
+            "LEX": "CHEATING"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V1097654": {
+          "id": "V1097654",
+          "indicator": "BARE",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "ASSOC-WITH": "#V1097561",
+            "MOD": "#V1097649",
+            "LEX": "CHEATING",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V1097561": {
+          "id": "V1097561",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V1097649": {
+          "id": "V1097649",
+          "indicator": "F",
+          "type": "UNEASY",
+          "word": "WOUND-UP",
+          "roles": {
+            "FIGURE": "#V1097654",
+            "SCALE": "NERVOUSNESS-SCALE",
+            "LEX": "WOUND-UP",
+            "WNSENSE": "wound_up%5:00:00:tense:03"
+          },
+          "start": 7,
+          "end": 16
+        },
+        "root": "#V1097874"
+      }
+    ],
+    [
+      {
+        "V1097872": {
+          "id": "V1097872",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V1097654",
+            "LEX": "CHEATING"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V1097654": {
+          "id": "V1097654",
+          "indicator": "BARE",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "ASSOC-WITH": "#V1097564",
+            "MOD": "#V1097647",
+            "LEX": "CHEATING",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V1097564": {
+          "id": "V1097564",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V1097647": {
+          "id": "V1097647",
+          "indicator": "F",
+          "type": "UNEASY",
+          "word": "WOUND-UP",
+          "roles": {
+            "FIGURE": "#V1097654",
+            "SCALE": "NERVOUSNESS-SCALE",
+            "LEX": "WOUND-UP",
+            "WNSENSE": "wound_up%5:00:00:tense:03"
+          },
+          "start": 7,
+          "end": 16
+        },
+        "root": "#V1097872"
+      }
+    ],
+    [
+      {
+        "V1097870": {
+          "id": "V1097870",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V1097654",
+            "LEX": "CHEATING"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V1097654": {
+          "id": "V1097654",
+          "indicator": "BARE",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "ASSOC-WITH": "#V1097561",
+            "MOD": "#V1097647",
+            "LEX": "CHEATING",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V1097561": {
+          "id": "V1097561",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V1097647": {
+          "id": "V1097647",
+          "indicator": "F",
+          "type": "UNEASY",
+          "word": "WOUND-UP",
+          "roles": {
+            "FIGURE": "#V1097654",
+            "SCALE": "NERVOUSNESS-SCALE",
+            "LEX": "WOUND-UP",
+            "WNSENSE": "wound_up%5:00:00:tense:03"
+          },
+          "start": 7,
+          "end": 16
+        },
+        "root": "#V1097870"
+      }
+    ],
+    [
+      {
+        "V1097939": {
+          "id": "V1097939",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V1097654",
+            "LEX": "CHEATING"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V1097654": {
+          "id": "V1097654",
+          "indicator": "BARE",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "AFFECTED": "#V1097564",
+            "MOD": "#V1097574",
+            "LEX": "CHEATING",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V1097564": {
+          "id": "V1097564",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V1097574": {
+          "id": "V1097574",
+          "indicator": "F",
+          "type": "ROTATE",
+          "word": "WIND",
+          "roles": {
+            "MANNER": "#V1097610",
+            "AFFECTED": "#V1097654",
+            "LEX": "WOUND",
+            "WNSENSE": "turn%2:38:00"
+          },
+          "start": 7,
+          "end": 16
+        },
+        "V1097610": {
+          "id": "V1097610",
+          "indicator": "F",
+          "type": "COMPLETELY",
+          "word": "UP",
+          "roles": {
+            "FIGURE": "#V1097574",
+            "LEX": "UP",
+            "WNSENSE": "up%4:02:05::"
+          },
+          "start": 13,
+          "end": 16
+        },
+        "root": "#V1097939"
+      }
+    ],
+    [
+      {
+        "V1097937": {
+          "id": "V1097937",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V1097654",
+            "LEX": "CHEATING"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V1097654": {
+          "id": "V1097654",
+          "indicator": "BARE",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "AFFECTED": "#V1097561",
+            "MOD": "#V1097574",
+            "LEX": "CHEATING",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V1097561": {
+          "id": "V1097561",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V1097574": {
+          "id": "V1097574",
+          "indicator": "F",
+          "type": "ROTATE",
+          "word": "WIND",
+          "roles": {
+            "MANNER": "#V1097610",
+            "AFFECTED": "#V1097654",
+            "LEX": "WOUND",
+            "WNSENSE": "turn%2:38:00"
+          },
+          "start": 7,
+          "end": 16
+        },
+        "V1097610": {
+          "id": "V1097610",
+          "indicator": "F",
+          "type": "COMPLETELY",
+          "word": "UP",
+          "roles": {
+            "FIGURE": "#V1097574",
+            "LEX": "UP",
+            "WNSENSE": "up%4:02:05::"
+          },
+          "start": 13,
+          "end": 16
+        },
+        "root": "#V1097937"
+      }
+    ],
+    [
+      {
+        "V1097963": {
+          "id": "V1097963",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V1097654",
+            "LEX": "CHEATING"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V1097654": {
+          "id": "V1097654",
+          "indicator": "BARE",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "ASSOC-WITH": "#V1097564",
+            "MOD": "#V1097574",
+            "LEX": "CHEATING",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V1097564": {
+          "id": "V1097564",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V1097574": {
+          "id": "V1097574",
+          "indicator": "F",
+          "type": "ROTATE",
+          "word": "WIND",
+          "roles": {
+            "MANNER": "#V1097610",
+            "AFFECTED": "#V1097654",
+            "LEX": "WOUND",
+            "WNSENSE": "turn%2:38:00"
+          },
+          "start": 7,
+          "end": 16
+        },
+        "V1097610": {
+          "id": "V1097610",
+          "indicator": "F",
+          "type": "COMPLETELY",
+          "word": "UP",
+          "roles": {
+            "FIGURE": "#V1097574",
+            "LEX": "UP",
+            "WNSENSE": "up%4:02:05::"
+          },
+          "start": 13,
+          "end": 16
+        },
+        "root": "#V1097963"
+      }
+    ],
+    [
+      {
+        "V1097961": {
+          "id": "V1097961",
+          "indicator": "SPEECHACT",
+          "type": "SA_IDENTIFY",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V1097654",
+            "LEX": "CHEATING"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V1097654": {
+          "id": "V1097654",
+          "indicator": "BARE",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "ASSOC-WITH": "#V1097561",
+            "MOD": "#V1097574",
+            "LEX": "CHEATING",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V1097561": {
+          "id": "V1097561",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V1097574": {
+          "id": "V1097574",
+          "indicator": "F",
+          "type": "ROTATE",
+          "word": "WIND",
+          "roles": {
+            "MANNER": "#V1097610",
+            "AFFECTED": "#V1097654",
+            "LEX": "WOUND",
+            "WNSENSE": "turn%2:38:00"
+          },
+          "start": 7,
+          "end": 16
+        },
+        "V1097610": {
+          "id": "V1097610",
+          "indicator": "F",
+          "type": "COMPLETELY",
+          "word": "UP",
+          "roles": {
+            "FIGURE": "#V1097574",
+            "LEX": "UP",
+            "WNSENSE": "up%4:02:05::"
+          },
+          "start": 13,
+          "end": 16
+        },
+        "root": "#V1097961"
+      }
+    ],
+    [
+      {
+        "V1097654": {
+          "id": "V1097654",
+          "indicator": "BARE",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "AFFECTED": "#V1097564",
+            "MOD": "#V1097649",
+            "LEX": "CHEATING",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V1097564": {
+          "id": "V1097564",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V1097649": {
+          "id": "V1097649",
+          "indicator": "F",
+          "type": "UNEASY",
+          "word": "WOUND-UP",
+          "roles": {
+            "FIGURE": "#V1097654",
+            "SCALE": "NERVOUSNESS-SCALE",
+            "LEX": "WOUND-UP",
+            "WNSENSE": "wound_up%5:00:00:tense:03"
+          },
+          "start": 7,
+          "end": 16
+        },
+        "root": "#V1097654"
+      }
+    ],
+    [
+      {
+        "V1097654": {
+          "id": "V1097654",
+          "indicator": "BARE",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "AFFECTED": "#V1097561",
+            "MOD": "#V1097649",
+            "LEX": "CHEATING",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V1097561": {
+          "id": "V1097561",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V1097649": {
+          "id": "V1097649",
+          "indicator": "F",
+          "type": "UNEASY",
+          "word": "WOUND-UP",
+          "roles": {
+            "FIGURE": "#V1097654",
+            "SCALE": "NERVOUSNESS-SCALE",
+            "LEX": "WOUND-UP",
+            "WNSENSE": "wound_up%5:00:00:tense:03"
+          },
+          "start": 7,
+          "end": 16
+        },
+        "root": "#V1097654"
+      }
+    ],
+    [
+      {
+        "V1097654": {
+          "id": "V1097654",
+          "indicator": "BARE",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "AFFECTED": "#V1097564",
+            "MOD": "#V1097647",
+            "LEX": "CHEATING",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V1097564": {
+          "id": "V1097564",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V1097647": {
+          "id": "V1097647",
+          "indicator": "F",
+          "type": "UNEASY",
+          "word": "WOUND-UP",
+          "roles": {
+            "FIGURE": "#V1097654",
+            "SCALE": "NERVOUSNESS-SCALE",
+            "LEX": "WOUND-UP",
+            "WNSENSE": "wound_up%5:00:00:tense:03"
+          },
+          "start": 7,
+          "end": 16
+        },
+        "root": "#V1097654"
+      }
+    ],
+    [
+      {
+        "V1097654": {
+          "id": "V1097654",
+          "indicator": "BARE",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "AFFECTED": "#V1097561",
+            "MOD": "#V1097647",
+            "LEX": "CHEATING",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V1097561": {
+          "id": "V1097561",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V1097647": {
+          "id": "V1097647",
+          "indicator": "F",
+          "type": "UNEASY",
+          "word": "WOUND-UP",
+          "roles": {
+            "FIGURE": "#V1097654",
+            "SCALE": "NERVOUSNESS-SCALE",
+            "LEX": "WOUND-UP",
+            "WNSENSE": "wound_up%5:00:00:tense:03"
+          },
+          "start": 7,
+          "end": 16
+        },
+        "root": "#V1097654"
+      }
+    ],
+    [
+      {
+        "V1097654": {
+          "id": "V1097654",
+          "indicator": "BARE",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "ASSOC-WITH": "#V1097564",
+            "MOD": "#V1097649",
+            "LEX": "CHEATING",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V1097564": {
+          "id": "V1097564",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V1097649": {
+          "id": "V1097649",
+          "indicator": "F",
+          "type": "UNEASY",
+          "word": "WOUND-UP",
+          "roles": {
+            "FIGURE": "#V1097654",
+            "SCALE": "NERVOUSNESS-SCALE",
+            "LEX": "WOUND-UP",
+            "WNSENSE": "wound_up%5:00:00:tense:03"
+          },
+          "start": 7,
+          "end": 16
+        },
+        "root": "#V1097654"
+      }
+    ],
+    [
+      {
+        "V1097654": {
+          "id": "V1097654",
+          "indicator": "BARE",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "ASSOC-WITH": "#V1097561",
+            "MOD": "#V1097649",
+            "LEX": "CHEATING",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V1097561": {
+          "id": "V1097561",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V1097649": {
+          "id": "V1097649",
+          "indicator": "F",
+          "type": "UNEASY",
+          "word": "WOUND-UP",
+          "roles": {
+            "FIGURE": "#V1097654",
+            "SCALE": "NERVOUSNESS-SCALE",
+            "LEX": "WOUND-UP",
+            "WNSENSE": "wound_up%5:00:00:tense:03"
+          },
+          "start": 7,
+          "end": 16
+        },
+        "root": "#V1097654"
+      }
+    ],
+    [
+      {
+        "V1097654": {
+          "id": "V1097654",
+          "indicator": "BARE",
+          "type": "TAKE-BY-DECEPTION",
+          "word": "CHEAT",
+          "roles": {
+            "ASSOC-WITH": "#V1097564",
+            "MOD": "#V1097647",
+            "LEX": "CHEATING",
+            "WNSENSE": "cheat%2:41:00::"
+          },
+          "start": 0,
+          "end": 24
+        },
+        "V1097564": {
+          "id": "V1097564",
+          "indicator": "THE",
+          "type": "GEOGRAPHIC-REGION",
+          "word": "ROBERT",
+          "roles": {
+            "NAME-OF": "ROBERT",
+            "LEX": "ROBERT",
+            "WNSENSE": "north_america%1:14:00"
+          },
+          "start": 0,
+          "end": 7
+        },
+        "V1097647": {
+          "id": "V1097647",
+          "indicator": "F",
+          "type": "UNEASY",
+          "word": "WOUND-UP",
+          "roles": {
+            "FIGURE": "#V1097654",
+            "SCALE": "NERVOUSNESS-SCALE",
+            "LEX": "WOUND-UP",
+            "WNSENSE": "wound_up%5:00:00:tense:03"
+          },
+          "start": 7,
+          "end": 16
+        },
+        "root": "#V1097654"
+      }
+    ]
+  ],
   "annotation": {
     "judge": "abhatia",
     "parser": "STEP",

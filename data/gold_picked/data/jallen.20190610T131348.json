@@ -322,6 +322,2063 @@
     ]
   ],
   "sentence": "the dog barked and chased the cat",
+  "reparsed": [
+    [
+      {
+        "V2431816": {
+          "id": "V2431816",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V2431740",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 32
+        },
+        "V2431740": {
+          "id": "V2431740",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V2431691",
+            "SEQUENCE1": "#V2431707",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 32
+        },
+        "V2431707": {
+          "id": "V2431707",
+          "indicator": "F",
+          "type": "PURSUE",
+          "word": "CHASE",
+          "roles": {
+            "AGENT": "#V2431686",
+            "AFFECTED": "#V2431716",
+            "LEX": "CHASED",
+            "WNSENSE": "chase%2:38:00::"
+          },
+          "start": 0,
+          "end": 32
+        },
+        "V2431691": {
+          "id": "V2431691",
+          "indicator": "F",
+          "type": "SOUND-EXPRESSION",
+          "word": "BARK",
+          "roles": {
+            "AGENT": "#V2431686",
+            "LEX": "BARKED",
+            "WNSENSE": "bark%2:32:00::"
+          },
+          "start": 0,
+          "end": 32
+        },
+        "V2431686": {
+          "id": "V2431686",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOG",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V2431716": {
+          "id": "V2431716",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "CAT",
+          "roles": {
+            "LEX": "CAT",
+            "WNSENSE": "cat%1:05:00::"
+          },
+          "start": 26,
+          "end": 32
+        },
+        "root": "#V2431816"
+      }
+    ],
+    [
+      {
+        "V2431837": {
+          "id": "V2431837",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V2431696",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V2431696": {
+          "id": "V2431696",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V2431691",
+            "SEQUENCE1": "#V2431707",
+            "TENSE": "PAST",
+            "LEX": "AND",
+            "WNSENSE": "bark%2:32:00::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V2431691": {
+          "id": "V2431691",
+          "indicator": "F",
+          "type": "SOUND-EXPRESSION",
+          "word": "BARK",
+          "roles": {
+            "AGENT": "#V2431686",
+            "TENSE": "PAST",
+            "LEX": "BARKED",
+            "WNSENSE": "bark%2:32:00::"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V2431686": {
+          "id": "V2431686",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOG",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V2431707": {
+          "id": "V2431707",
+          "indicator": "F",
+          "type": "PURSUE",
+          "word": "CHASE",
+          "roles": {
+            "AGENT": "#V2431686",
+            "AFFECTED": "#V2431716",
+            "TENSE": "PAST",
+            "LEX": "CHASED",
+            "WNSENSE": "chase%2:38:00::"
+          },
+          "start": 19,
+          "end": 33
+        },
+        "V2431716": {
+          "id": "V2431716",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "CAT",
+          "roles": {
+            "LEX": "CAT",
+            "WNSENSE": "cat%1:05:00::"
+          },
+          "start": 26,
+          "end": 33
+        },
+        "root": "#V2431837"
+      }
+    ],
+    [
+      {
+        "V2431857": {
+          "id": "V2431857",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "ACT": "#V2431832",
+            "ACT1": "#V2431945",
+            "OPERATORS": "(AND)",
+            "LEX": "BARKED"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V2431832": {
+          "id": "V2431832",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V2431691",
+            "LEX": "BARKED"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V2431691": {
+          "id": "V2431691",
+          "indicator": "F",
+          "type": "SOUND-EXPRESSION",
+          "word": "BARK",
+          "roles": {
+            "AGENT": "#V2431686",
+            "TENSE": "PAST",
+            "LEX": "BARKED",
+            "WNSENSE": "bark%2:32:00::"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V2431686": {
+          "id": "V2431686",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOG",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V2431945": {
+          "id": "V2431945",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V2431707",
+            "LEX": "CHASED"
+          },
+          "start": 19,
+          "end": 33
+        },
+        "V2431707": {
+          "id": "V2431707",
+          "indicator": "F",
+          "type": "PURSUE",
+          "word": "CHASE",
+          "roles": {
+            "AGENT": "#V2431946",
+            "AFFECTED": "#V2431716",
+            "TENSE": "PAST",
+            "LEX": "CHASED",
+            "WNSENSE": "chase%2:38:00::"
+          },
+          "start": 19,
+          "end": 33
+        },
+        "V2431946": {
+          "id": "V2431946",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 19,
+          "end": 33
+        },
+        "V2431716": {
+          "id": "V2431716",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "CAT",
+          "roles": {
+            "LEX": "CAT",
+            "WNSENSE": "cat%1:05:00::"
+          },
+          "start": 26,
+          "end": 33
+        },
+        "root": "#V2431857"
+      }
+    ],
+    [
+      {
+        "V2431983": {
+          "id": "V2431983",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V2431740",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V2431740": {
+          "id": "V2431740",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V2431691",
+            "SEQUENCE1": "#V2431707",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V2431707": {
+          "id": "V2431707",
+          "indicator": "F",
+          "type": "PURSUE",
+          "word": "CHASE",
+          "roles": {
+            "AGENT": "#V2431686",
+            "AFFECTED": "#V2431716",
+            "LEX": "CHASED",
+            "WNSENSE": "chase%2:38:00::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V2431691": {
+          "id": "V2431691",
+          "indicator": "F",
+          "type": "SOUND-EXPRESSION",
+          "word": "BARK",
+          "roles": {
+            "AGENT": "#V2431686",
+            "LEX": "BARKED",
+            "WNSENSE": "bark%2:32:00::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V2431686": {
+          "id": "V2431686",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOG",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V2431716": {
+          "id": "V2431716",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "CAT",
+          "roles": {
+            "LEX": "CAT",
+            "WNSENSE": "cat%1:05:00::"
+          },
+          "start": 26,
+          "end": 33
+        },
+        "root": "#V2431983"
+      }
+    ],
+    [
+      {
+        "V2432005": {
+          "id": "V2432005",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V2431696",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V2431696": {
+          "id": "V2431696",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V2431691",
+            "SEQUENCE1": "#V2431707",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V2431691": {
+          "id": "V2431691",
+          "indicator": "F",
+          "type": "SOUND-EXPRESSION",
+          "word": "BARK",
+          "roles": {
+            "AGENT": "#V2431686",
+            "TENSE": "PAST",
+            "LEX": "BARKED"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V2431686": {
+          "id": "V2431686",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOG",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V2431707": {
+          "id": "V2431707",
+          "indicator": "F",
+          "type": "PURSUE",
+          "word": "CHASE",
+          "roles": {
+            "AGENT": "#V2431686",
+            "AFFECTED": "#V2431716",
+            "TENSE": "PAST",
+            "LEX": "CHASED",
+            "WNSENSE": "chase%2:38:00::"
+          },
+          "start": 19,
+          "end": 33
+        },
+        "V2431716": {
+          "id": "V2431716",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "CAT",
+          "roles": {
+            "LEX": "CAT",
+            "WNSENSE": "cat%1:05:00::"
+          },
+          "start": 26,
+          "end": 33
+        },
+        "root": "#V2432005"
+      }
+    ],
+    [
+      {
+        "V2431740": {
+          "id": "V2431740",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V2431691",
+            "SEQUENCE1": "#V2431707",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V2431707": {
+          "id": "V2431707",
+          "indicator": "F",
+          "type": "PURSUE",
+          "word": "CHASE",
+          "roles": {
+            "AGENT": "#V2431686",
+            "AFFECTED": "#V2431716",
+            "LEX": "CHASED",
+            "WNSENSE": "chase%2:38:00::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V2431691": {
+          "id": "V2431691",
+          "indicator": "F",
+          "type": "SOUND-EXPRESSION",
+          "word": "BARK",
+          "roles": {
+            "AGENT": "#V2431686",
+            "LEX": "BARKED",
+            "WNSENSE": "bark%2:32:00::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V2431686": {
+          "id": "V2431686",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOG",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V2431716": {
+          "id": "V2431716",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "CAT",
+          "roles": {
+            "LEX": "CAT",
+            "WNSENSE": "cat%1:05:00::"
+          },
+          "start": 26,
+          "end": 33
+        },
+        "root": "#V2431740"
+      }
+    ],
+    [
+      {
+        "V2431696": {
+          "id": "V2431696",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V2431691",
+            "SEQUENCE1": "#V2431707",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "AND",
+            "WNSENSE": "bark%2:32:00::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V2431691": {
+          "id": "V2431691",
+          "indicator": "F",
+          "type": "SOUND-EXPRESSION",
+          "word": "BARK",
+          "roles": {
+            "AGENT": "#V2431686",
+            "TENSE": "PAST",
+            "LEX": "BARKED",
+            "WNSENSE": "bark%2:32:00::"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V2431686": {
+          "id": "V2431686",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOG",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V2431707": {
+          "id": "V2431707",
+          "indicator": "F",
+          "type": "PURSUE",
+          "word": "CHASE",
+          "roles": {
+            "AGENT": "#V2431686",
+            "AFFECTED": "#V2431716",
+            "TENSE": "PAST",
+            "LEX": "CHASED",
+            "WNSENSE": "chase%2:38:00::"
+          },
+          "start": 19,
+          "end": 33
+        },
+        "V2431716": {
+          "id": "V2431716",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "CAT",
+          "roles": {
+            "LEX": "CAT",
+            "WNSENSE": "cat%1:05:00::"
+          },
+          "start": 26,
+          "end": 33
+        },
+        "root": "#V2431696"
+      }
+    ],
+    [
+      {
+        "V2432014": {
+          "id": "V2432014",
+          "indicator": "SA-SEQ",
+          "type": "SPEECH-ACT",
+          "word": null,
+          "roles": {
+            "ACT": "#V2432001",
+            "ACT1": "#V2431945",
+            "OPERATORS": "(AND)",
+            "LEX": "BARKED"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V2432001": {
+          "id": "V2432001",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V2431691",
+            "LEX": "BARKED"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V2431691": {
+          "id": "V2431691",
+          "indicator": "F",
+          "type": "SOUND-EXPRESSION",
+          "word": "BARK",
+          "roles": {
+            "AGENT": "#V2431686",
+            "TENSE": "PAST",
+            "LEX": "BARKED"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V2431686": {
+          "id": "V2431686",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOG",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V2431945": {
+          "id": "V2431945",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V2431707",
+            "LEX": "CHASED"
+          },
+          "start": 19,
+          "end": 33
+        },
+        "V2431707": {
+          "id": "V2431707",
+          "indicator": "F",
+          "type": "PURSUE",
+          "word": "CHASE",
+          "roles": {
+            "AGENT": "#V2431946",
+            "AFFECTED": "#V2431716",
+            "TENSE": "PAST",
+            "LEX": "CHASED",
+            "WNSENSE": "chase%2:38:00::"
+          },
+          "start": 19,
+          "end": 33
+        },
+        "V2431946": {
+          "id": "V2431946",
+          "indicator": "IMPRO",
+          "type": "REFERENTIAL-SEM",
+          "word": null,
+          "roles": {
+            "PROFORM": "SUBJ"
+          },
+          "start": 19,
+          "end": 33
+        },
+        "V2431716": {
+          "id": "V2431716",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "CAT",
+          "roles": {
+            "LEX": "CAT",
+            "WNSENSE": "cat%1:05:00::"
+          },
+          "start": 26,
+          "end": 33
+        },
+        "root": "#V2432014"
+      }
+    ],
+    [
+      [
+        {
+          "V2431832": {
+            "id": "V2431832",
+            "indicator": "SPEECHACT",
+            "type": "SA_TELL",
+            "word": null,
+            "roles": {
+              "CONTENT": "#V2431691",
+              "LEX": "BARKED"
+            },
+            "start": 0,
+            "end": 15
+          },
+          "V2431691": {
+            "id": "V2431691",
+            "indicator": "F",
+            "type": "SOUND-EXPRESSION",
+            "word": "BARK",
+            "roles": {
+              "AGENT": "#V2431686",
+              "TENSE": "PAST",
+              "LEX": "BARKED",
+              "WNSENSE": "bark%2:32:00::"
+            },
+            "start": 0,
+            "end": 15
+          },
+          "V2431686": {
+            "id": "V2431686",
+            "indicator": "THE",
+            "type": "NONHUMAN-ANIMAL",
+            "word": "DOG",
+            "roles": {
+              "LEX": "DOG",
+              "WNSENSE": "dog%1:05:00::"
+            },
+            "start": 0,
+            "end": 8
+          },
+          "root": "#V2431832"
+        },
+        {
+          "V2431945": {
+            "id": "V2431945",
+            "indicator": "SPEECHACT",
+            "type": "SA_TELL",
+            "word": null,
+            "roles": {
+              "CONTENT": "#V2431707",
+              "MOD": "#V2431697",
+              "LEX": "CHASED"
+            },
+            "start": 15,
+            "end": 33
+          },
+          "V2431697": {
+            "id": "V2431697",
+            "indicator": "F",
+            "type": "CONJUNCT",
+            "word": "AND",
+            "roles": {
+              "FIGURE": "#V2431945",
+              "LEX": "AND"
+            },
+            "start": 15,
+            "end": 19
+          },
+          "V2431707": {
+            "id": "V2431707",
+            "indicator": "F",
+            "type": "PURSUE",
+            "word": "CHASE",
+            "roles": {
+              "AGENT": "#V2431946",
+              "AFFECTED": "#V2431716",
+              "TENSE": "PAST",
+              "LEX": "CHASED",
+              "WNSENSE": "chase%2:38:00::"
+            },
+            "start": 19,
+            "end": 33
+          },
+          "V2431946": {
+            "id": "V2431946",
+            "indicator": "IMPRO",
+            "type": "REFERENTIAL-SEM",
+            "word": null,
+            "roles": {
+              "PROFORM": "SUBJ"
+            },
+            "start": 19,
+            "end": 33
+          },
+          "V2431716": {
+            "id": "V2431716",
+            "indicator": "THE",
+            "type": "NONHUMAN-ANIMAL",
+            "word": "CAT",
+            "roles": {
+              "LEX": "CAT",
+              "WNSENSE": "cat%1:05:00::"
+            },
+            "start": 26,
+            "end": 33
+          },
+          "root": "#V2431945"
+        }
+      ]
+    ],
+    [
+      {
+        "V2431740": {
+          "id": "V2431740",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V2431691",
+            "SEQUENCE1": "#V2431707",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V2431707": {
+          "id": "V2431707",
+          "indicator": "F",
+          "type": "PURSUE",
+          "word": "CHASE",
+          "roles": {
+            "AGENT": "#V2431686",
+            "AFFECTED": "#V2431716",
+            "LEX": "CHASED",
+            "WNSENSE": "chase%2:38:00::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V2431691": {
+          "id": "V2431691",
+          "indicator": "F",
+          "type": "SOUND-EXPRESSION",
+          "word": "BARK",
+          "roles": {
+            "AGENT": "#V2431686",
+            "LEX": "BARKED",
+            "WNSENSE": "bark%2:32:00::"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V2431686": {
+          "id": "V2431686",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOG",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V2431716": {
+          "id": "V2431716",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "CAT",
+          "roles": {
+            "LEX": "CAT",
+            "WNSENSE": "cat%1:05:00::"
+          },
+          "start": 26,
+          "end": 33
+        },
+        "root": "#V2431740"
+      }
+    ],
+    [
+      {
+        "V2431696": {
+          "id": "V2431696",
+          "indicator": "F",
+          "type": "EVENT-OF-ACTION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V2431691",
+            "SEQUENCE1": "#V2431707",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 33
+        },
+        "V2431691": {
+          "id": "V2431691",
+          "indicator": "F",
+          "type": "SOUND-EXPRESSION",
+          "word": "BARK",
+          "roles": {
+            "AGENT": "#V2431686",
+            "TENSE": "PAST",
+            "LEX": "BARKED"
+          },
+          "start": 0,
+          "end": 15
+        },
+        "V2431686": {
+          "id": "V2431686",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "DOG",
+          "roles": {
+            "LEX": "DOG",
+            "WNSENSE": "dog%1:05:00::"
+          },
+          "start": 0,
+          "end": 8
+        },
+        "V2431707": {
+          "id": "V2431707",
+          "indicator": "F",
+          "type": "PURSUE",
+          "word": "CHASE",
+          "roles": {
+            "AGENT": "#V2431686",
+            "AFFECTED": "#V2431716",
+            "TENSE": "PAST",
+            "LEX": "CHASED",
+            "WNSENSE": "chase%2:38:00::"
+          },
+          "start": 19,
+          "end": 33
+        },
+        "V2431716": {
+          "id": "V2431716",
+          "indicator": "THE",
+          "type": "NONHUMAN-ANIMAL",
+          "word": "CAT",
+          "roles": {
+            "LEX": "CAT",
+            "WNSENSE": "cat%1:05:00::"
+          },
+          "start": 26,
+          "end": 33
+        },
+        "root": "#V2431696"
+      }
+    ],
+    [
+      [
+        {
+          "V2432001": {
+            "id": "V2432001",
+            "indicator": "SPEECHACT",
+            "type": "SA_TELL",
+            "word": null,
+            "roles": {
+              "CONTENT": "#V2431691",
+              "LEX": "BARKED"
+            },
+            "start": 0,
+            "end": 15
+          },
+          "V2431691": {
+            "id": "V2431691",
+            "indicator": "F",
+            "type": "SOUND-EXPRESSION",
+            "word": "BARK",
+            "roles": {
+              "AGENT": "#V2431686",
+              "TENSE": "PAST",
+              "LEX": "BARKED"
+            },
+            "start": 0,
+            "end": 15
+          },
+          "V2431686": {
+            "id": "V2431686",
+            "indicator": "THE",
+            "type": "NONHUMAN-ANIMAL",
+            "word": "DOG",
+            "roles": {
+              "LEX": "DOG",
+              "WNSENSE": "dog%1:05:00::"
+            },
+            "start": 0,
+            "end": 8
+          },
+          "root": "#V2432001"
+        },
+        {
+          "V2431945": {
+            "id": "V2431945",
+            "indicator": "SPEECHACT",
+            "type": "SA_TELL",
+            "word": null,
+            "roles": {
+              "CONTENT": "#V2431707",
+              "MOD": "#V2431697",
+              "LEX": "CHASED"
+            },
+            "start": 15,
+            "end": 33
+          },
+          "V2431697": {
+            "id": "V2431697",
+            "indicator": "F",
+            "type": "CONJUNCT",
+            "word": "AND",
+            "roles": {
+              "FIGURE": "#V2431945",
+              "LEX": "AND"
+            },
+            "start": 15,
+            "end": 19
+          },
+          "V2431707": {
+            "id": "V2431707",
+            "indicator": "F",
+            "type": "PURSUE",
+            "word": "CHASE",
+            "roles": {
+              "AGENT": "#V2431946",
+              "AFFECTED": "#V2431716",
+              "TENSE": "PAST",
+              "LEX": "CHASED",
+              "WNSENSE": "chase%2:38:00::"
+            },
+            "start": 19,
+            "end": 33
+          },
+          "V2431946": {
+            "id": "V2431946",
+            "indicator": "IMPRO",
+            "type": "REFERENTIAL-SEM",
+            "word": null,
+            "roles": {
+              "PROFORM": "SUBJ"
+            },
+            "start": 19,
+            "end": 33
+          },
+          "V2431716": {
+            "id": "V2431716",
+            "indicator": "THE",
+            "type": "NONHUMAN-ANIMAL",
+            "word": "CAT",
+            "roles": {
+              "LEX": "CAT",
+              "WNSENSE": "cat%1:05:00::"
+            },
+            "start": 26,
+            "end": 33
+          },
+          "root": "#V2431945"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "V2431806": {
+            "id": "V2431806",
+            "indicator": "SPEECHACT",
+            "type": "SA_IDENTIFY",
+            "word": null,
+            "roles": {
+              "CONTENT": "#V2431686",
+              "LEX": "DOG"
+            },
+            "start": 0,
+            "end": 8
+          },
+          "V2431686": {
+            "id": "V2431686",
+            "indicator": "THE",
+            "type": "NONHUMAN-ANIMAL",
+            "word": "DOG",
+            "roles": {
+              "LEX": "DOG",
+              "WNSENSE": "dog%1:05:00::"
+            },
+            "start": 0,
+            "end": 8
+          },
+          "root": "#V2431806"
+        },
+        {
+          "V2431930": {
+            "id": "V2431930",
+            "indicator": "SA-SEQ",
+            "type": "SPEECH-ACT",
+            "word": null,
+            "roles": {
+              "ACT": "#V2431911",
+              "ACT1": "#V2431795",
+              "LEX": "CAT"
+            },
+            "start": 8,
+            "end": 33
+          },
+          "V2431911": {
+            "id": "V2431911",
+            "indicator": "SPEECHACT",
+            "type": "SA_EVALUATE",
+            "word": null,
+            "roles": {
+              "CONTENT": "#V2431784",
+              "LEX": "-"
+            },
+            "start": 8,
+            "end": 26
+          },
+          "V2431784": {
+            "id": "V2431784",
+            "indicator": "F",
+            "type": "REFERENTIAL-SEM",
+            "word": null,
+            "roles": {
+              "SEQUENCE": "#V2431691",
+              "SEQUENCE1": "#V2431743",
+              "OPERATOR": "AND"
+            },
+            "start": 8,
+            "end": 26
+          },
+          "V2431691": {
+            "id": "V2431691",
+            "indicator": "F",
+            "type": "SOUND-EXPRESSION",
+            "word": "BARK",
+            "roles": {
+              "AGENT": "#V2431912",
+              "LEX": "BARKED",
+              "WNSENSE": "bark%2:32:00::"
+            },
+            "start": 8,
+            "end": 15
+          },
+          "V2431912": {
+            "id": "V2431912",
+            "indicator": "IMPRO",
+            "type": "ANY-SEM",
+            "word": null,
+            "roles": {},
+            "start": 8,
+            "end": 15
+          },
+          "V2431743": {
+            "id": "V2431743",
+            "indicator": "F",
+            "type": "STATE-RESULTING-FROM",
+            "word": null,
+            "roles": {
+              "FIGURE": "#V2431912",
+              "GROUND": "#V2431707",
+              "LEX": "CHASED"
+            },
+            "start": 19,
+            "end": 26
+          },
+          "V2431707": {
+            "id": "V2431707",
+            "indicator": "F",
+            "type": "PURSUE",
+            "word": "CHASE",
+            "roles": {
+              "AFFECTED": "#V2431912",
+              "WNSENSE": "chase%2:38:00::"
+            },
+            "start": 19,
+            "end": 26
+          },
+          "V2431795": {
+            "id": "V2431795",
+            "indicator": "SPEECHACT",
+            "type": "SA_IDENTIFY",
+            "word": null,
+            "roles": {
+              "CONTENT": "#V2431716",
+              "LEX": "CAT"
+            },
+            "start": 26,
+            "end": 33
+          },
+          "V2431716": {
+            "id": "V2431716",
+            "indicator": "THE",
+            "type": "NONHUMAN-ANIMAL",
+            "word": "CAT",
+            "roles": {
+              "LEX": "CAT",
+              "WNSENSE": "cat%1:05:00::"
+            },
+            "start": 26,
+            "end": 33
+          },
+          "root": "#V2431930"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "V2431806": {
+            "id": "V2431806",
+            "indicator": "SPEECHACT",
+            "type": "SA_IDENTIFY",
+            "word": null,
+            "roles": {
+              "CONTENT": "#V2431686",
+              "LEX": "DOG"
+            },
+            "start": 0,
+            "end": 8
+          },
+          "V2431686": {
+            "id": "V2431686",
+            "indicator": "THE",
+            "type": "NONHUMAN-ANIMAL",
+            "word": "DOG",
+            "roles": {
+              "LEX": "DOG",
+              "WNSENSE": "dog%1:05:00::"
+            },
+            "start": 0,
+            "end": 8
+          },
+          "root": "#V2431806"
+        },
+        {
+          "V2431934": {
+            "id": "V2431934",
+            "indicator": "SPEECHACT",
+            "type": "SA_TELL",
+            "word": null,
+            "roles": {
+              "CONTENT": "#V2431740",
+              "LEX": "AND"
+            },
+            "start": 8,
+            "end": 33
+          },
+          "V2431740": {
+            "id": "V2431740",
+            "indicator": "F",
+            "type": "EVENT-OF-ACTION",
+            "word": null,
+            "roles": {
+              "OPERATOR": "AND",
+              "SEQUENCE": "#V2431691",
+              "SEQUENCE1": "#V2431707",
+              "TENSE": "PAST",
+              "LEX": "AND"
+            },
+            "start": 8,
+            "end": 33
+          },
+          "V2431707": {
+            "id": "V2431707",
+            "indicator": "F",
+            "type": "PURSUE",
+            "word": "CHASE",
+            "roles": {
+              "AGENT": "#V2431935",
+              "AFFECTED": "#V2431716",
+              "LEX": "CHASED",
+              "WNSENSE": "chase%2:38:00::"
+            },
+            "start": 8,
+            "end": 33
+          },
+          "V2431691": {
+            "id": "V2431691",
+            "indicator": "F",
+            "type": "SOUND-EXPRESSION",
+            "word": "BARK",
+            "roles": {
+              "AGENT": "#V2431935",
+              "LEX": "BARKED",
+              "WNSENSE": "bark%2:32:00::"
+            },
+            "start": 8,
+            "end": 33
+          },
+          "V2431935": {
+            "id": "V2431935",
+            "indicator": "IMPRO",
+            "type": "REFERENTIAL-SEM",
+            "word": null,
+            "roles": {
+              "PROFORM": "SUBJ"
+            },
+            "start": 8,
+            "end": 33
+          },
+          "V2431716": {
+            "id": "V2431716",
+            "indicator": "THE",
+            "type": "NONHUMAN-ANIMAL",
+            "word": "CAT",
+            "roles": {
+              "LEX": "CAT",
+              "WNSENSE": "cat%1:05:00::"
+            },
+            "start": 26,
+            "end": 33
+          },
+          "root": "#V2431934"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "V2431902": {
+            "id": "V2431902",
+            "indicator": "SA-SEQ",
+            "type": "SPEECH-ACT",
+            "word": null,
+            "roles": {
+              "ACT": "#V2431806",
+              "ACT1": "#V2431911",
+              "LEX": "-"
+            },
+            "start": 0,
+            "end": 26
+          },
+          "V2431806": {
+            "id": "V2431806",
+            "indicator": "SPEECHACT",
+            "type": "SA_IDENTIFY",
+            "word": null,
+            "roles": {
+              "CONTENT": "#V2431686",
+              "LEX": "DOG"
+            },
+            "start": 0,
+            "end": 8
+          },
+          "V2431686": {
+            "id": "V2431686",
+            "indicator": "THE",
+            "type": "NONHUMAN-ANIMAL",
+            "word": "DOG",
+            "roles": {
+              "LEX": "DOG",
+              "WNSENSE": "dog%1:05:00::"
+            },
+            "start": 0,
+            "end": 8
+          },
+          "V2431911": {
+            "id": "V2431911",
+            "indicator": "SPEECHACT",
+            "type": "SA_EVALUATE",
+            "word": null,
+            "roles": {
+              "CONTENT": "#V2431784",
+              "LEX": "-"
+            },
+            "start": 8,
+            "end": 26
+          },
+          "V2431784": {
+            "id": "V2431784",
+            "indicator": "F",
+            "type": "REFERENTIAL-SEM",
+            "word": null,
+            "roles": {
+              "SEQUENCE": "#V2431691",
+              "SEQUENCE1": "#V2431743",
+              "OPERATOR": "AND"
+            },
+            "start": 8,
+            "end": 26
+          },
+          "V2431691": {
+            "id": "V2431691",
+            "indicator": "F",
+            "type": "SOUND-EXPRESSION",
+            "word": "BARK",
+            "roles": {
+              "AGENT": "#V2431912",
+              "LEX": "BARKED",
+              "WNSENSE": "bark%2:32:00::"
+            },
+            "start": 8,
+            "end": 15
+          },
+          "V2431912": {
+            "id": "V2431912",
+            "indicator": "IMPRO",
+            "type": "ANY-SEM",
+            "word": null,
+            "roles": {},
+            "start": 8,
+            "end": 15
+          },
+          "V2431743": {
+            "id": "V2431743",
+            "indicator": "F",
+            "type": "STATE-RESULTING-FROM",
+            "word": null,
+            "roles": {
+              "FIGURE": "#V2431912",
+              "GROUND": "#V2431707",
+              "LEX": "CHASED"
+            },
+            "start": 19,
+            "end": 26
+          },
+          "V2431707": {
+            "id": "V2431707",
+            "indicator": "F",
+            "type": "PURSUE",
+            "word": "CHASE",
+            "roles": {
+              "AFFECTED": "#V2431912",
+              "WNSENSE": "chase%2:38:00::"
+            },
+            "start": 19,
+            "end": 26
+          },
+          "root": "#V2431902"
+        },
+        {
+          "V2431795": {
+            "id": "V2431795",
+            "indicator": "SPEECHACT",
+            "type": "SA_IDENTIFY",
+            "word": null,
+            "roles": {
+              "CONTENT": "#V2431716",
+              "LEX": "CAT"
+            },
+            "start": 26,
+            "end": 33
+          },
+          "V2431716": {
+            "id": "V2431716",
+            "indicator": "THE",
+            "type": "NONHUMAN-ANIMAL",
+            "word": "CAT",
+            "roles": {
+              "LEX": "CAT",
+              "WNSENSE": "cat%1:05:00::"
+            },
+            "start": 26,
+            "end": 33
+          },
+          "root": "#V2431795"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "V2431686": {
+            "id": "V2431686",
+            "indicator": "THE",
+            "type": "NONHUMAN-ANIMAL",
+            "word": "DOG",
+            "roles": {
+              "LEX": "DOG",
+              "WNSENSE": "dog%1:05:00::"
+            },
+            "start": 0,
+            "end": 8
+          },
+          "root": "#V2431686"
+        },
+        {
+          "V2431930": {
+            "id": "V2431930",
+            "indicator": "SA-SEQ",
+            "type": "SPEECH-ACT",
+            "word": null,
+            "roles": {
+              "ACT": "#V2431911",
+              "ACT1": "#V2431795",
+              "LEX": "CAT"
+            },
+            "start": 8,
+            "end": 33
+          },
+          "V2431911": {
+            "id": "V2431911",
+            "indicator": "SPEECHACT",
+            "type": "SA_EVALUATE",
+            "word": null,
+            "roles": {
+              "CONTENT": "#V2431784",
+              "LEX": "-"
+            },
+            "start": 8,
+            "end": 26
+          },
+          "V2431784": {
+            "id": "V2431784",
+            "indicator": "F",
+            "type": "REFERENTIAL-SEM",
+            "word": null,
+            "roles": {
+              "SEQUENCE": "#V2431691",
+              "SEQUENCE1": "#V2431743",
+              "OPERATOR": "AND"
+            },
+            "start": 8,
+            "end": 26
+          },
+          "V2431691": {
+            "id": "V2431691",
+            "indicator": "F",
+            "type": "SOUND-EXPRESSION",
+            "word": "BARK",
+            "roles": {
+              "AGENT": "#V2431912",
+              "LEX": "BARKED",
+              "WNSENSE": "bark%2:32:00::"
+            },
+            "start": 8,
+            "end": 15
+          },
+          "V2431912": {
+            "id": "V2431912",
+            "indicator": "IMPRO",
+            "type": "ANY-SEM",
+            "word": null,
+            "roles": {},
+            "start": 8,
+            "end": 15
+          },
+          "V2431743": {
+            "id": "V2431743",
+            "indicator": "F",
+            "type": "STATE-RESULTING-FROM",
+            "word": null,
+            "roles": {
+              "FIGURE": "#V2431912",
+              "GROUND": "#V2431707",
+              "LEX": "CHASED"
+            },
+            "start": 19,
+            "end": 26
+          },
+          "V2431707": {
+            "id": "V2431707",
+            "indicator": "F",
+            "type": "PURSUE",
+            "word": "CHASE",
+            "roles": {
+              "AFFECTED": "#V2431912",
+              "WNSENSE": "chase%2:38:00::"
+            },
+            "start": 19,
+            "end": 26
+          },
+          "V2431795": {
+            "id": "V2431795",
+            "indicator": "SPEECHACT",
+            "type": "SA_IDENTIFY",
+            "word": null,
+            "roles": {
+              "CONTENT": "#V2431716",
+              "LEX": "CAT"
+            },
+            "start": 26,
+            "end": 33
+          },
+          "V2431716": {
+            "id": "V2431716",
+            "indicator": "THE",
+            "type": "NONHUMAN-ANIMAL",
+            "word": "CAT",
+            "roles": {
+              "LEX": "CAT",
+              "WNSENSE": "cat%1:05:00::"
+            },
+            "start": 26,
+            "end": 33
+          },
+          "root": "#V2431930"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "V2431686": {
+            "id": "V2431686",
+            "indicator": "THE",
+            "type": "NONHUMAN-ANIMAL",
+            "word": "DOG",
+            "roles": {
+              "LEX": "DOG",
+              "WNSENSE": "dog%1:05:00::"
+            },
+            "start": 0,
+            "end": 8
+          },
+          "root": "#V2431686"
+        },
+        {
+          "V2431934": {
+            "id": "V2431934",
+            "indicator": "SPEECHACT",
+            "type": "SA_TELL",
+            "word": null,
+            "roles": {
+              "CONTENT": "#V2431740",
+              "LEX": "AND"
+            },
+            "start": 8,
+            "end": 33
+          },
+          "V2431740": {
+            "id": "V2431740",
+            "indicator": "F",
+            "type": "EVENT-OF-ACTION",
+            "word": null,
+            "roles": {
+              "OPERATOR": "AND",
+              "SEQUENCE": "#V2431691",
+              "SEQUENCE1": "#V2431707",
+              "TENSE": "PAST",
+              "LEX": "AND"
+            },
+            "start": 8,
+            "end": 33
+          },
+          "V2431707": {
+            "id": "V2431707",
+            "indicator": "F",
+            "type": "PURSUE",
+            "word": "CHASE",
+            "roles": {
+              "AGENT": "#V2431935",
+              "AFFECTED": "#V2431716",
+              "LEX": "CHASED",
+              "WNSENSE": "chase%2:38:00::"
+            },
+            "start": 8,
+            "end": 33
+          },
+          "V2431691": {
+            "id": "V2431691",
+            "indicator": "F",
+            "type": "SOUND-EXPRESSION",
+            "word": "BARK",
+            "roles": {
+              "AGENT": "#V2431935",
+              "LEX": "BARKED",
+              "WNSENSE": "bark%2:32:00::"
+            },
+            "start": 8,
+            "end": 33
+          },
+          "V2431935": {
+            "id": "V2431935",
+            "indicator": "IMPRO",
+            "type": "REFERENTIAL-SEM",
+            "word": null,
+            "roles": {
+              "PROFORM": "SUBJ"
+            },
+            "start": 8,
+            "end": 33
+          },
+          "V2431716": {
+            "id": "V2431716",
+            "indicator": "THE",
+            "type": "NONHUMAN-ANIMAL",
+            "word": "CAT",
+            "roles": {
+              "LEX": "CAT",
+              "WNSENSE": "cat%1:05:00::"
+            },
+            "start": 26,
+            "end": 33
+          },
+          "root": "#V2431934"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "V2431902": {
+            "id": "V2431902",
+            "indicator": "SA-SEQ",
+            "type": "SPEECH-ACT",
+            "word": null,
+            "roles": {
+              "ACT": "#V2431806",
+              "ACT1": "#V2431911",
+              "LEX": "-"
+            },
+            "start": 0,
+            "end": 26
+          },
+          "V2431806": {
+            "id": "V2431806",
+            "indicator": "SPEECHACT",
+            "type": "SA_IDENTIFY",
+            "word": null,
+            "roles": {
+              "CONTENT": "#V2431686",
+              "LEX": "DOG"
+            },
+            "start": 0,
+            "end": 8
+          },
+          "V2431686": {
+            "id": "V2431686",
+            "indicator": "THE",
+            "type": "NONHUMAN-ANIMAL",
+            "word": "DOG",
+            "roles": {
+              "LEX": "DOG",
+              "WNSENSE": "dog%1:05:00::"
+            },
+            "start": 0,
+            "end": 8
+          },
+          "V2431911": {
+            "id": "V2431911",
+            "indicator": "SPEECHACT",
+            "type": "SA_EVALUATE",
+            "word": null,
+            "roles": {
+              "CONTENT": "#V2431784",
+              "LEX": "-"
+            },
+            "start": 8,
+            "end": 26
+          },
+          "V2431784": {
+            "id": "V2431784",
+            "indicator": "F",
+            "type": "REFERENTIAL-SEM",
+            "word": null,
+            "roles": {
+              "SEQUENCE": "#V2431691",
+              "SEQUENCE1": "#V2431743",
+              "OPERATOR": "AND"
+            },
+            "start": 8,
+            "end": 26
+          },
+          "V2431691": {
+            "id": "V2431691",
+            "indicator": "F",
+            "type": "SOUND-EXPRESSION",
+            "word": "BARK",
+            "roles": {
+              "AGENT": "#V2431912",
+              "LEX": "BARKED",
+              "WNSENSE": "bark%2:32:00::"
+            },
+            "start": 8,
+            "end": 15
+          },
+          "V2431912": {
+            "id": "V2431912",
+            "indicator": "IMPRO",
+            "type": "ANY-SEM",
+            "word": null,
+            "roles": {},
+            "start": 8,
+            "end": 15
+          },
+          "V2431743": {
+            "id": "V2431743",
+            "indicator": "F",
+            "type": "STATE-RESULTING-FROM",
+            "word": null,
+            "roles": {
+              "FIGURE": "#V2431912",
+              "GROUND": "#V2431707",
+              "LEX": "CHASED"
+            },
+            "start": 19,
+            "end": 26
+          },
+          "V2431707": {
+            "id": "V2431707",
+            "indicator": "F",
+            "type": "PURSUE",
+            "word": "CHASE",
+            "roles": {
+              "AFFECTED": "#V2431912",
+              "WNSENSE": "chase%2:38:00::"
+            },
+            "start": 19,
+            "end": 26
+          },
+          "root": "#V2431902"
+        },
+        {
+          "V2431716": {
+            "id": "V2431716",
+            "indicator": "THE",
+            "type": "NONHUMAN-ANIMAL",
+            "word": "CAT",
+            "roles": {
+              "LEX": "CAT",
+              "WNSENSE": "cat%1:05:00::"
+            },
+            "start": 26,
+            "end": 33
+          },
+          "root": "#V2431716"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "V2431691": {
+            "id": "V2431691",
+            "indicator": "F",
+            "type": "SOUND-EXPRESSION",
+            "word": "BARK",
+            "roles": {
+              "AGENT": "#V2431686",
+              "PROP": "+",
+              "TENSE": "PAST",
+              "LEX": "BARKED",
+              "WNSENSE": "bark%2:32:00::"
+            },
+            "start": 0,
+            "end": 15
+          },
+          "V2431686": {
+            "id": "V2431686",
+            "indicator": "THE",
+            "type": "NONHUMAN-ANIMAL",
+            "word": "DOG",
+            "roles": {
+              "LEX": "DOG",
+              "WNSENSE": "dog%1:05:00::"
+            },
+            "start": 0,
+            "end": 8
+          },
+          "root": "#V2431691"
+        },
+        {
+          "V2431945": {
+            "id": "V2431945",
+            "indicator": "SPEECHACT",
+            "type": "SA_TELL",
+            "word": null,
+            "roles": {
+              "CONTENT": "#V2431707",
+              "MOD": "#V2431697",
+              "LEX": "CHASED"
+            },
+            "start": 15,
+            "end": 33
+          },
+          "V2431697": {
+            "id": "V2431697",
+            "indicator": "F",
+            "type": "CONJUNCT",
+            "word": "AND",
+            "roles": {
+              "FIGURE": "#V2431945",
+              "LEX": "AND"
+            },
+            "start": 15,
+            "end": 19
+          },
+          "V2431707": {
+            "id": "V2431707",
+            "indicator": "F",
+            "type": "PURSUE",
+            "word": "CHASE",
+            "roles": {
+              "AGENT": "#V2431946",
+              "AFFECTED": "#V2431716",
+              "TENSE": "PAST",
+              "LEX": "CHASED",
+              "WNSENSE": "chase%2:38:00::"
+            },
+            "start": 19,
+            "end": 33
+          },
+          "V2431946": {
+            "id": "V2431946",
+            "indicator": "IMPRO",
+            "type": "REFERENTIAL-SEM",
+            "word": null,
+            "roles": {
+              "PROFORM": "SUBJ"
+            },
+            "start": 19,
+            "end": 33
+          },
+          "V2431716": {
+            "id": "V2431716",
+            "indicator": "THE",
+            "type": "NONHUMAN-ANIMAL",
+            "word": "CAT",
+            "roles": {
+              "LEX": "CAT",
+              "WNSENSE": "cat%1:05:00::"
+            },
+            "start": 26,
+            "end": 33
+          },
+          "root": "#V2431945"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "V2431806": {
+            "id": "V2431806",
+            "indicator": "SPEECHACT",
+            "type": "SA_IDENTIFY",
+            "word": null,
+            "roles": {
+              "CONTENT": "#V2431686",
+              "LEX": "DOG"
+            },
+            "start": 0,
+            "end": 8
+          },
+          "V2431686": {
+            "id": "V2431686",
+            "indicator": "THE",
+            "type": "NONHUMAN-ANIMAL",
+            "word": "DOG",
+            "roles": {
+              "LEX": "DOG",
+              "WNSENSE": "dog%1:05:00::"
+            },
+            "start": 0,
+            "end": 8
+          },
+          "root": "#V2431806"
+        },
+        {
+          "V2431969": {
+            "id": "V2431969",
+            "indicator": "SA-SEQ",
+            "type": "SPEECH-ACT",
+            "word": null,
+            "roles": {
+              "ACT": "#V2431963",
+              "ACT1": "#V2431945",
+              "OPERATORS": "(AND)",
+              "LEX": "BARKED"
+            },
+            "start": 8,
+            "end": 33
+          },
+          "V2431963": {
+            "id": "V2431963",
+            "indicator": "SPEECHACT",
+            "type": "SA_TELL",
+            "word": null,
+            "roles": {
+              "CONTENT": "#V2431691",
+              "LEX": "BARKED"
+            },
+            "start": 8,
+            "end": 15
+          },
+          "V2431691": {
+            "id": "V2431691",
+            "indicator": "F",
+            "type": "SOUND-EXPRESSION",
+            "word": "BARK",
+            "roles": {
+              "AGENT": "#V2431964",
+              "TENSE": "PAST",
+              "LEX": "BARKED",
+              "WNSENSE": "bark%2:32:00::"
+            },
+            "start": 8,
+            "end": 15
+          },
+          "V2431964": {
+            "id": "V2431964",
+            "indicator": "IMPRO",
+            "type": "REFERENTIAL-SEM",
+            "word": null,
+            "roles": {
+              "PROFORM": "SUBJ"
+            },
+            "start": 8,
+            "end": 15
+          },
+          "V2431945": {
+            "id": "V2431945",
+            "indicator": "SPEECHACT",
+            "type": "SA_TELL",
+            "word": null,
+            "roles": {
+              "CONTENT": "#V2431707",
+              "LEX": "CHASED"
+            },
+            "start": 19,
+            "end": 33
+          },
+          "V2431707": {
+            "id": "V2431707",
+            "indicator": "F",
+            "type": "PURSUE",
+            "word": "CHASE",
+            "roles": {
+              "AGENT": "#V2431946",
+              "AFFECTED": "#V2431716",
+              "TENSE": "PAST",
+              "LEX": "CHASED",
+              "WNSENSE": "chase%2:38:00::"
+            },
+            "start": 19,
+            "end": 33
+          },
+          "V2431946": {
+            "id": "V2431946",
+            "indicator": "IMPRO",
+            "type": "REFERENTIAL-SEM",
+            "word": null,
+            "roles": {
+              "PROFORM": "SUBJ"
+            },
+            "start": 19,
+            "end": 33
+          },
+          "V2431716": {
+            "id": "V2431716",
+            "indicator": "THE",
+            "type": "NONHUMAN-ANIMAL",
+            "word": "CAT",
+            "roles": {
+              "LEX": "CAT",
+              "WNSENSE": "cat%1:05:00::"
+            },
+            "start": 26,
+            "end": 33
+          },
+          "root": "#V2431969"
+        }
+      ]
+    ]
+  ],
   "annotation": {
     "judge": "jallen",
     "parser": "STEP",

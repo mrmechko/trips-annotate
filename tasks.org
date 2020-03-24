@@ -57,7 +57,7 @@ var taskset = {
 #+END_SRC
 **** DONE get tripscli to output task json lists
 DEADLINE: <2020-02-26 Wed>
-**** TODO translate gold annotations from will's tool into task json lists
+**** DONE translate gold annotations from will's tool into task json lists
 DEADLINE: <2020-02-26 Wed>
 **** DONE upload tasks.  Reject multiple tasks with the same sentence (for now)
 DEADLINE: <2020-02-26 Wed>
@@ -168,7 +168,7 @@ user object
    #
 6. User can select to update completed tasks
 * Now
-** NOW change annotation format
+** DONE change annotation format
 *** [X] change format in user object
 *** [X] Change upload to add to a list
 *** [X] Change query to get next task
@@ -181,8 +181,22 @@ user object
 ** DONE Logout button
 ** DONE Automatically load logged in page if logged in
 ** NOW Update User management
-*** [ ] assign tasks for user type
+*** [X] assign tasks for user type
 *** [X] trigger on user create
 *** [-] trigger onChange group
 *** [-] trigger onChange user group assignment
 ***** Since this is done manually, we could just try it manually
+** NOW Better task selection
+Many task-pairs are not particularly different.  Try to generate tasks that are interesting.
+*** [ ] define interesting
+*** [ ] generate interesting
+** NOW Rerun candidates against updated STEP
+Many of the parses were gold annotated during periods with systematic errors in
+the parse.  Rerun parses using up-to-date parser.
+*** [X] rerun and store parses in xml format
+*** [X] load gold from original and candidates from reruns
+** NOW Make a video describing the annotation tool
+** NOW Get some AMR parses to run too
+*** [ ] generate task representation for AMR
+Just need reference, first, second, and the corresponding SVG's
+*** [ ] contact Dan and ask for manpower to annotate 100 sentences

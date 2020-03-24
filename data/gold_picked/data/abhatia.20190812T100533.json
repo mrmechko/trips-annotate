@@ -750,6 +750,1524 @@
     ]
   ],
   "sentence": "They stayed up at night.",
+  "reparsed": [
+    [
+      {
+        "V1005313": {
+          "id": "V1005313",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V1005085",
+            "LEX": "STAYED-UP"
+          },
+          "start": 0,
+          "end": 22
+        },
+        "V1005085": {
+          "id": "V1005085",
+          "indicator": "F",
+          "type": "AWAKE",
+          "word": "STAYED-UP",
+          "roles": {
+            "AGENT": "#V1005017",
+            "TIME": "#V1005104",
+            "TENSE": "PAST",
+            "LEX": "STAYED-UP",
+            "WNSENSE": "stay_up%2:29:00"
+          },
+          "start": 0,
+          "end": 22
+        },
+        "V1005017": {
+          "id": "V1005017",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V1005104": {
+          "id": "V1005104",
+          "indicator": "F",
+          "type": "TIME-CLOCK-REL",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V1005118",
+            "FIGURE": "#V1005085",
+            "LEX": "AT"
+          },
+          "start": 15,
+          "end": 22
+        },
+        "V1005118": {
+          "id": "V1005118",
+          "indicator": "BARE",
+          "type": "NIGHT",
+          "word": "NIGHT",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:00::"
+          },
+          "start": 18,
+          "end": 22
+        },
+        "root": "#V1005313"
+      }
+    ],
+    [
+      {
+        "V1005303": {
+          "id": "V1005303",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V1005081",
+            "LEX": "STAYED-UP"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005081": {
+          "id": "V1005081",
+          "indicator": "F",
+          "type": "AWAKE",
+          "word": "STAYED-UP",
+          "roles": {
+            "AFFECTED": "#V1005017",
+            "TIME": "#V1005104",
+            "TENSE": "PAST",
+            "LEX": "STAYED-UP",
+            "WNSENSE": "stay_up%2:29:00"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005017": {
+          "id": "V1005017",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V1005104": {
+          "id": "V1005104",
+          "indicator": "F",
+          "type": "TIME-CLOCK-REL",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V1005118",
+            "FIGURE": "#V1005081",
+            "LEX": "AT"
+          },
+          "start": 15,
+          "end": 23
+        },
+        "V1005118": {
+          "id": "V1005118",
+          "indicator": "BARE",
+          "type": "NIGHT",
+          "word": "NIGHT",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:00::"
+          },
+          "start": 18,
+          "end": 23
+        },
+        "root": "#V1005303"
+      }
+    ],
+    [
+      {
+        "V1005411": {
+          "id": "V1005411",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V1005022",
+            "LEX": "STAYED"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005022": {
+          "id": "V1005022",
+          "indicator": "F",
+          "type": "STAY",
+          "word": "STAY",
+          "roles": {
+            "AFFECTED": "#V1005017",
+            "MANNER": "#V1005056",
+            "TIME": "#V1005104",
+            "TENSE": "PAST",
+            "LEX": "STAYED",
+            "WNSENSE": "stay%2:30:00::"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005017": {
+          "id": "V1005017",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V1005056": {
+          "id": "V1005056",
+          "indicator": "F",
+          "type": "COMPLETELY",
+          "word": "UP",
+          "roles": {
+            "FIGURE": "#V1005022",
+            "LEX": "UP",
+            "WNSENSE": "up%4:02:05::"
+          },
+          "start": 12,
+          "end": 15
+        },
+        "V1005104": {
+          "id": "V1005104",
+          "indicator": "F",
+          "type": "TIME-CLOCK-REL",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V1005118",
+            "FIGURE": "#V1005022",
+            "LEX": "AT"
+          },
+          "start": 15,
+          "end": 23
+        },
+        "V1005118": {
+          "id": "V1005118",
+          "indicator": "BARE",
+          "type": "NIGHT",
+          "word": "NIGHT",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:00::"
+          },
+          "start": 18,
+          "end": 23
+        },
+        "root": "#V1005411"
+      }
+    ],
+    [
+      {
+        "V1005450": {
+          "id": "V1005450",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V1005022",
+            "LEX": "STAYED"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005022": {
+          "id": "V1005022",
+          "indicator": "F",
+          "type": "STAY",
+          "word": "STAY",
+          "roles": {
+            "MANNER": "#V1005056",
+            "AFFECTED": "#V1005017",
+            "TIME": "#V1005104",
+            "TENSE": "PAST",
+            "LEX": "STAYED",
+            "WNSENSE": "stay%2:30:00::"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005017": {
+          "id": "V1005017",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V1005056": {
+          "id": "V1005056",
+          "indicator": "F",
+          "type": "COMPLETELY",
+          "word": "UP",
+          "roles": {
+            "FIGURE": "#V1005022",
+            "LEX": "UP",
+            "WNSENSE": "up%4:02:05::"
+          },
+          "start": 12,
+          "end": 15
+        },
+        "V1005104": {
+          "id": "V1005104",
+          "indicator": "F",
+          "type": "TIME-CLOCK-REL",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V1005118",
+            "FIGURE": "#V1005022",
+            "LEX": "AT"
+          },
+          "start": 15,
+          "end": 23
+        },
+        "V1005118": {
+          "id": "V1005118",
+          "indicator": "BARE",
+          "type": "NIGHT",
+          "word": "NIGHT",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:00::"
+          },
+          "start": 18,
+          "end": 23
+        },
+        "root": "#V1005450"
+      }
+    ],
+    [
+      {
+        "V1005629": {
+          "id": "V1005629",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V1005085",
+            "LEX": "STAYED-UP"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005085": {
+          "id": "V1005085",
+          "indicator": "F",
+          "type": "AWAKE",
+          "word": "STAYED-UP",
+          "roles": {
+            "AGENT": "#V1005017",
+            "MOD": "#V1005107",
+            "TENSE": "PAST",
+            "LEX": "STAYED-UP",
+            "WNSENSE": "stay_up%2:29:00"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005017": {
+          "id": "V1005017",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V1005107": {
+          "id": "V1005107",
+          "indicator": "F",
+          "type": "RATE-REL",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V1005118",
+            "FIGURE": "#V1005085",
+            "LEX": "AT"
+          },
+          "start": 15,
+          "end": 23
+        },
+        "V1005118": {
+          "id": "V1005118",
+          "indicator": "BARE",
+          "type": "NIGHT",
+          "word": "NIGHT",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:00::"
+          },
+          "start": 18,
+          "end": 23
+        },
+        "root": "#V1005629"
+      }
+    ],
+    [
+      {
+        "V1005618": {
+          "id": "V1005618",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V1005081",
+            "LEX": "STAYED-UP"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005081": {
+          "id": "V1005081",
+          "indicator": "F",
+          "type": "AWAKE",
+          "word": "STAYED-UP",
+          "roles": {
+            "AFFECTED": "#V1005017",
+            "MOD": "#V1005107",
+            "TENSE": "PAST",
+            "LEX": "STAYED-UP",
+            "WNSENSE": "stay_up%2:29:00"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005017": {
+          "id": "V1005017",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V1005107": {
+          "id": "V1005107",
+          "indicator": "F",
+          "type": "RATE-REL",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V1005118",
+            "FIGURE": "#V1005081",
+            "LEX": "AT"
+          },
+          "start": 15,
+          "end": 23
+        },
+        "V1005118": {
+          "id": "V1005118",
+          "indicator": "BARE",
+          "type": "NIGHT",
+          "word": "NIGHT",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:00::"
+          },
+          "start": 18,
+          "end": 23
+        },
+        "root": "#V1005618"
+      }
+    ],
+    [
+      {
+        "V1005726": {
+          "id": "V1005726",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V1005085",
+            "LEX": "STAYED-UP"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005085": {
+          "id": "V1005085",
+          "indicator": "F",
+          "type": "AWAKE",
+          "word": "STAYED-UP",
+          "roles": {
+            "AGENT": "#V1005017",
+            "MOD": "#V1005105",
+            "TENSE": "PAST",
+            "LEX": "STAYED-UP",
+            "WNSENSE": "stay_up%2:29:00"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005017": {
+          "id": "V1005017",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V1005105": {
+          "id": "V1005105",
+          "indicator": "F",
+          "type": "SITUATED-IN",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V1005118",
+            "FIGURE": "#V1005085",
+            "LEX": "AT"
+          },
+          "start": 15,
+          "end": 23
+        },
+        "V1005118": {
+          "id": "V1005118",
+          "indicator": "BARE",
+          "type": "NIGHT",
+          "word": "NIGHT",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:00::"
+          },
+          "start": 18,
+          "end": 23
+        },
+        "root": "#V1005726"
+      }
+    ],
+    [
+      {
+        "V1005715": {
+          "id": "V1005715",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V1005081",
+            "LEX": "STAYED-UP"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005081": {
+          "id": "V1005081",
+          "indicator": "F",
+          "type": "AWAKE",
+          "word": "STAYED-UP",
+          "roles": {
+            "AFFECTED": "#V1005017",
+            "MOD": "#V1005105",
+            "TENSE": "PAST",
+            "LEX": "STAYED-UP",
+            "WNSENSE": "stay_up%2:29:00"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005017": {
+          "id": "V1005017",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V1005105": {
+          "id": "V1005105",
+          "indicator": "F",
+          "type": "SITUATED-IN",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V1005118",
+            "FIGURE": "#V1005081",
+            "LEX": "AT"
+          },
+          "start": 15,
+          "end": 23
+        },
+        "V1005118": {
+          "id": "V1005118",
+          "indicator": "BARE",
+          "type": "NIGHT",
+          "word": "NIGHT",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:00::"
+          },
+          "start": 18,
+          "end": 23
+        },
+        "root": "#V1005715"
+      }
+    ],
+    [
+      {
+        "V1005664": {
+          "id": "V1005664",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V1005022",
+            "LEX": "STAYED"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005022": {
+          "id": "V1005022",
+          "indicator": "F",
+          "type": "STAY",
+          "word": "STAY",
+          "roles": {
+            "AFFECTED": "#V1005017",
+            "MANNER": "#V1005056",
+            "MOD": "#V1005107",
+            "TENSE": "PAST",
+            "LEX": "STAYED",
+            "WNSENSE": "stay%2:30:00::"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005017": {
+          "id": "V1005017",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V1005056": {
+          "id": "V1005056",
+          "indicator": "F",
+          "type": "COMPLETELY",
+          "word": "UP",
+          "roles": {
+            "FIGURE": "#V1005022",
+            "LEX": "UP",
+            "WNSENSE": "up%4:02:05::"
+          },
+          "start": 12,
+          "end": 15
+        },
+        "V1005107": {
+          "id": "V1005107",
+          "indicator": "F",
+          "type": "RATE-REL",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V1005118",
+            "FIGURE": "#V1005022",
+            "LEX": "AT"
+          },
+          "start": 15,
+          "end": 23
+        },
+        "V1005118": {
+          "id": "V1005118",
+          "indicator": "BARE",
+          "type": "NIGHT",
+          "word": "NIGHT",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:00::"
+          },
+          "start": 18,
+          "end": 23
+        },
+        "root": "#V1005664"
+      }
+    ],
+    [
+      {
+        "V1005761": {
+          "id": "V1005761",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V1005022",
+            "LEX": "STAYED"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005022": {
+          "id": "V1005022",
+          "indicator": "F",
+          "type": "STAY",
+          "word": "STAY",
+          "roles": {
+            "AFFECTED": "#V1005017",
+            "MANNER": "#V1005056",
+            "MOD": "#V1005105",
+            "TENSE": "PAST",
+            "LEX": "STAYED",
+            "WNSENSE": "stay%2:30:00::"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005017": {
+          "id": "V1005017",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V1005056": {
+          "id": "V1005056",
+          "indicator": "F",
+          "type": "COMPLETELY",
+          "word": "UP",
+          "roles": {
+            "FIGURE": "#V1005022",
+            "LEX": "UP",
+            "WNSENSE": "up%4:02:05::"
+          },
+          "start": 12,
+          "end": 15
+        },
+        "V1005105": {
+          "id": "V1005105",
+          "indicator": "F",
+          "type": "SITUATED-IN",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V1005118",
+            "FIGURE": "#V1005022",
+            "LEX": "AT"
+          },
+          "start": 15,
+          "end": 23
+        },
+        "V1005118": {
+          "id": "V1005118",
+          "indicator": "BARE",
+          "type": "NIGHT",
+          "word": "NIGHT",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:00::"
+          },
+          "start": 18,
+          "end": 23
+        },
+        "root": "#V1005761"
+      }
+    ],
+    [
+      {
+        "V1005684": {
+          "id": "V1005684",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V1005022",
+            "LEX": "STAYED"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005022": {
+          "id": "V1005022",
+          "indicator": "F",
+          "type": "STAY",
+          "word": "STAY",
+          "roles": {
+            "MANNER": "#V1005056",
+            "AFFECTED": "#V1005017",
+            "MOD": "#V1005107",
+            "TENSE": "PAST",
+            "LEX": "STAYED",
+            "WNSENSE": "stay%2:30:00::"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005017": {
+          "id": "V1005017",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V1005056": {
+          "id": "V1005056",
+          "indicator": "F",
+          "type": "COMPLETELY",
+          "word": "UP",
+          "roles": {
+            "FIGURE": "#V1005022",
+            "LEX": "UP",
+            "WNSENSE": "up%4:02:05::"
+          },
+          "start": 12,
+          "end": 15
+        },
+        "V1005107": {
+          "id": "V1005107",
+          "indicator": "F",
+          "type": "RATE-REL",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V1005118",
+            "FIGURE": "#V1005022",
+            "LEX": "AT"
+          },
+          "start": 15,
+          "end": 23
+        },
+        "V1005118": {
+          "id": "V1005118",
+          "indicator": "BARE",
+          "type": "NIGHT",
+          "word": "NIGHT",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:00::"
+          },
+          "start": 18,
+          "end": 23
+        },
+        "root": "#V1005684"
+      }
+    ],
+    [
+      {
+        "V1005781": {
+          "id": "V1005781",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V1005022",
+            "LEX": "STAYED"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005022": {
+          "id": "V1005022",
+          "indicator": "F",
+          "type": "STAY",
+          "word": "STAY",
+          "roles": {
+            "MANNER": "#V1005056",
+            "AFFECTED": "#V1005017",
+            "MOD": "#V1005105",
+            "TENSE": "PAST",
+            "LEX": "STAYED",
+            "WNSENSE": "stay%2:30:00::"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005017": {
+          "id": "V1005017",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V1005056": {
+          "id": "V1005056",
+          "indicator": "F",
+          "type": "COMPLETELY",
+          "word": "UP",
+          "roles": {
+            "FIGURE": "#V1005022",
+            "LEX": "UP",
+            "WNSENSE": "up%4:02:05::"
+          },
+          "start": 12,
+          "end": 15
+        },
+        "V1005105": {
+          "id": "V1005105",
+          "indicator": "F",
+          "type": "SITUATED-IN",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V1005118",
+            "FIGURE": "#V1005022",
+            "LEX": "AT"
+          },
+          "start": 15,
+          "end": 23
+        },
+        "V1005118": {
+          "id": "V1005118",
+          "indicator": "BARE",
+          "type": "NIGHT",
+          "word": "NIGHT",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:00::"
+          },
+          "start": 18,
+          "end": 23
+        },
+        "root": "#V1005781"
+      }
+    ],
+    [
+      {
+        "V1005849": {
+          "id": "V1005849",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V1005085",
+            "LEX": "STAYED-UP"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005085": {
+          "id": "V1005085",
+          "indicator": "F",
+          "type": "AWAKE",
+          "word": "STAYED-UP",
+          "roles": {
+            "AGENT": "#V1005017",
+            "LOCATION": "#V1005106",
+            "TENSE": "PAST",
+            "LEX": "STAYED-UP",
+            "WNSENSE": "stay_up%2:29:00"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005017": {
+          "id": "V1005017",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V1005106": {
+          "id": "V1005106",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V1005118",
+            "FIGURE": "#V1005085",
+            "LEX": "AT"
+          },
+          "start": 15,
+          "end": 23
+        },
+        "V1005118": {
+          "id": "V1005118",
+          "indicator": "BARE",
+          "type": "NIGHT",
+          "word": "NIGHT",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:00::"
+          },
+          "start": 18,
+          "end": 23
+        },
+        "root": "#V1005849"
+      }
+    ],
+    [
+      {
+        "V1005838": {
+          "id": "V1005838",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V1005081",
+            "LEX": "STAYED-UP"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005081": {
+          "id": "V1005081",
+          "indicator": "F",
+          "type": "AWAKE",
+          "word": "STAYED-UP",
+          "roles": {
+            "AFFECTED": "#V1005017",
+            "LOCATION": "#V1005106",
+            "TENSE": "PAST",
+            "LEX": "STAYED-UP",
+            "WNSENSE": "stay_up%2:29:00"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005017": {
+          "id": "V1005017",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V1005106": {
+          "id": "V1005106",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V1005118",
+            "FIGURE": "#V1005081",
+            "LEX": "AT"
+          },
+          "start": 15,
+          "end": 23
+        },
+        "V1005118": {
+          "id": "V1005118",
+          "indicator": "BARE",
+          "type": "NIGHT",
+          "word": "NIGHT",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:00::"
+          },
+          "start": 18,
+          "end": 23
+        },
+        "root": "#V1005838"
+      }
+    ],
+    [
+      {
+        "V1005888": {
+          "id": "V1005888",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V1005022",
+            "LEX": "STAYED"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005022": {
+          "id": "V1005022",
+          "indicator": "F",
+          "type": "STAY",
+          "word": "STAY",
+          "roles": {
+            "AFFECTED": "#V1005017",
+            "MANNER": "#V1005056",
+            "LOCATION": "#V1005106",
+            "TENSE": "PAST",
+            "LEX": "STAYED",
+            "WNSENSE": "stay%2:30:00::"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005017": {
+          "id": "V1005017",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V1005056": {
+          "id": "V1005056",
+          "indicator": "F",
+          "type": "COMPLETELY",
+          "word": "UP",
+          "roles": {
+            "FIGURE": "#V1005022",
+            "LEX": "UP",
+            "WNSENSE": "up%4:02:05::"
+          },
+          "start": 12,
+          "end": 15
+        },
+        "V1005106": {
+          "id": "V1005106",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V1005118",
+            "FIGURE": "#V1005022",
+            "LEX": "AT"
+          },
+          "start": 15,
+          "end": 23
+        },
+        "V1005118": {
+          "id": "V1005118",
+          "indicator": "BARE",
+          "type": "NIGHT",
+          "word": "NIGHT",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:00::"
+          },
+          "start": 18,
+          "end": 23
+        },
+        "root": "#V1005888"
+      }
+    ],
+    [
+      {
+        "V1005909": {
+          "id": "V1005909",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "CONTENT": "#V1005022",
+            "LEX": "STAYED"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005022": {
+          "id": "V1005022",
+          "indicator": "F",
+          "type": "STAY",
+          "word": "STAY",
+          "roles": {
+            "MANNER": "#V1005056",
+            "AFFECTED": "#V1005017",
+            "LOCATION": "#V1005106",
+            "TENSE": "PAST",
+            "LEX": "STAYED",
+            "WNSENSE": "stay%2:30:00::"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005017": {
+          "id": "V1005017",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V1005056": {
+          "id": "V1005056",
+          "indicator": "F",
+          "type": "COMPLETELY",
+          "word": "UP",
+          "roles": {
+            "FIGURE": "#V1005022",
+            "LEX": "UP",
+            "WNSENSE": "up%4:02:05::"
+          },
+          "start": 12,
+          "end": 15
+        },
+        "V1005106": {
+          "id": "V1005106",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V1005118",
+            "FIGURE": "#V1005022",
+            "LEX": "AT"
+          },
+          "start": 15,
+          "end": 23
+        },
+        "V1005118": {
+          "id": "V1005118",
+          "indicator": "BARE",
+          "type": "NIGHT",
+          "word": "NIGHT",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:00::"
+          },
+          "start": 18,
+          "end": 23
+        },
+        "root": "#V1005909"
+      }
+    ],
+    [
+      {
+        "V1005085": {
+          "id": "V1005085",
+          "indicator": "F",
+          "type": "AWAKE",
+          "word": "STAYED-UP",
+          "roles": {
+            "AGENT": "#V1005017",
+            "TIME": "#V1005104",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "STAYED-UP",
+            "WNSENSE": "stay_up%2:29:00"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005017": {
+          "id": "V1005017",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V1005104": {
+          "id": "V1005104",
+          "indicator": "F",
+          "type": "TIME-CLOCK-REL",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V1005118",
+            "FIGURE": "#V1005085",
+            "LEX": "AT"
+          },
+          "start": 15,
+          "end": 23
+        },
+        "V1005118": {
+          "id": "V1005118",
+          "indicator": "BARE",
+          "type": "NIGHT",
+          "word": "NIGHT",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:00::"
+          },
+          "start": 18,
+          "end": 23
+        },
+        "root": "#V1005085"
+      }
+    ],
+    [
+      {
+        "V1005081": {
+          "id": "V1005081",
+          "indicator": "F",
+          "type": "AWAKE",
+          "word": "STAYED-UP",
+          "roles": {
+            "AFFECTED": "#V1005017",
+            "TIME": "#V1005104",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "STAYED-UP",
+            "WNSENSE": "stay_up%2:29:00"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005017": {
+          "id": "V1005017",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V1005104": {
+          "id": "V1005104",
+          "indicator": "F",
+          "type": "TIME-CLOCK-REL",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V1005118",
+            "FIGURE": "#V1005081",
+            "LEX": "AT"
+          },
+          "start": 15,
+          "end": 23
+        },
+        "V1005118": {
+          "id": "V1005118",
+          "indicator": "BARE",
+          "type": "NIGHT",
+          "word": "NIGHT",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:00::"
+          },
+          "start": 18,
+          "end": 23
+        },
+        "root": "#V1005081"
+      }
+    ],
+    [
+      {
+        "V1005022": {
+          "id": "V1005022",
+          "indicator": "F",
+          "type": "STAY",
+          "word": "STAY",
+          "roles": {
+            "AFFECTED": "#V1005017",
+            "MANNER": "#V1005056",
+            "TIME": "#V1005104",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "STAYED",
+            "WNSENSE": "stay%2:30:00::"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005017": {
+          "id": "V1005017",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V1005056": {
+          "id": "V1005056",
+          "indicator": "F",
+          "type": "COMPLETELY",
+          "word": "UP",
+          "roles": {
+            "FIGURE": "#V1005022",
+            "LEX": "UP",
+            "WNSENSE": "up%4:02:05::"
+          },
+          "start": 12,
+          "end": 15
+        },
+        "V1005104": {
+          "id": "V1005104",
+          "indicator": "F",
+          "type": "TIME-CLOCK-REL",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V1005118",
+            "FIGURE": "#V1005022",
+            "LEX": "AT"
+          },
+          "start": 15,
+          "end": 23
+        },
+        "V1005118": {
+          "id": "V1005118",
+          "indicator": "BARE",
+          "type": "NIGHT",
+          "word": "NIGHT",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:00::"
+          },
+          "start": 18,
+          "end": 23
+        },
+        "root": "#V1005022"
+      }
+    ],
+    [
+      {
+        "V1005022": {
+          "id": "V1005022",
+          "indicator": "F",
+          "type": "STAY",
+          "word": "STAY",
+          "roles": {
+            "MANNER": "#V1005056",
+            "AFFECTED": "#V1005017",
+            "TIME": "#V1005104",
+            "PROP": "+",
+            "TENSE": "PAST",
+            "LEX": "STAYED",
+            "WNSENSE": "stay%2:30:00::"
+          },
+          "start": 0,
+          "end": 23
+        },
+        "V1005017": {
+          "id": "V1005017",
+          "indicator": "PRO-SET",
+          "type": "REFERENTIAL-SEM",
+          "word": "THEY",
+          "roles": {
+            "PROFORM": "THEY",
+            "LEX": "THEY",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 0,
+          "end": 5
+        },
+        "V1005056": {
+          "id": "V1005056",
+          "indicator": "F",
+          "type": "COMPLETELY",
+          "word": "UP",
+          "roles": {
+            "FIGURE": "#V1005022",
+            "LEX": "UP",
+            "WNSENSE": "up%4:02:05::"
+          },
+          "start": 12,
+          "end": 15
+        },
+        "V1005104": {
+          "id": "V1005104",
+          "indicator": "F",
+          "type": "TIME-CLOCK-REL",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V1005118",
+            "FIGURE": "#V1005022",
+            "LEX": "AT"
+          },
+          "start": 15,
+          "end": 23
+        },
+        "V1005118": {
+          "id": "V1005118",
+          "indicator": "BARE",
+          "type": "NIGHT",
+          "word": "NIGHT",
+          "roles": {
+            "SCALE": "TIME-LOC-SCALE",
+            "LEX": "NIGHT",
+            "WNSENSE": "night%1:28:00::"
+          },
+          "start": 18,
+          "end": 23
+        },
+        "root": "#V1005022"
+      }
+    ]
+  ],
   "annotation": {
     "judge": "abhatia",
     "parser": "STEP",

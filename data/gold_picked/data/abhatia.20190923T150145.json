@@ -1429,6 +1429,2581 @@
     ]
   ],
   "sentence": "Sam swung at a small tree and chopped it down.",
+  "reparsed": [
+    [
+      {
+        "V2313847": {
+          "id": "V2313847",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2313830",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 42
+        },
+        "V2313830": {
+          "id": "V2313830",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V2313571",
+            "SEQUENCE1": "#V2313651",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313651": {
+          "id": "V2313651",
+          "indicator": "F",
+          "type": "CUT",
+          "word": "CHOP",
+          "roles": {
+            "AGENT": "#V2313552",
+            "AFFECTED": "#V2313659",
+            "LEX": "CHOPPED"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313571": {
+          "id": "V2313571",
+          "indicator": "F",
+          "type": "MOVE-BACK-AND-FORTH",
+          "word": "SWING",
+          "roles": {
+            "RESULT": "#V2313581",
+            "AFFECTED": "#V2313552",
+            "LEX": "SWUNG",
+            "WNSENSE": "swing%2:38:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313552": {
+          "id": "V2313552",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "SAM",
+          "roles": {
+            "NAME-OF": "SAM",
+            "LEX": "SAM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V2313581": {
+          "id": "V2313581",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V2313635",
+            "FIGURE": "#V2313552",
+            "LEX": "AT"
+          },
+          "start": 10,
+          "end": 26
+        },
+        "V2313635": {
+          "id": "V2313635",
+          "indicator": "A",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V2313632",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V2313632": {
+          "id": "V2313632",
+          "indicator": "F",
+          "type": "SMALL",
+          "word": "SMALL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V2313635",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "SMALL",
+            "WNSENSE": "small%3:00:00::"
+          },
+          "start": 15,
+          "end": 21
+        },
+        "V2313659": {
+          "id": "V2313659",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00",
+            "COREF": "#V2313635"
+          },
+          "start": 38,
+          "end": 40
+        },
+        "root": "#V2313847"
+      }
+    ],
+    [
+      {
+        "V2313847": {
+          "id": "V2313847",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2313830",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2313830": {
+          "id": "V2313830",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V2313571",
+            "SEQUENCE1": "#V2313651",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313651": {
+          "id": "V2313651",
+          "indicator": "F",
+          "type": "CUT",
+          "word": "CHOP",
+          "roles": {
+            "AGENT": "#V2313552",
+            "AFFECTED": "#V2313659",
+            "LEX": "CHOPPED"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313571": {
+          "id": "V2313571",
+          "indicator": "F",
+          "type": "MOVE-BACK-AND-FORTH",
+          "word": "SWING",
+          "roles": {
+            "RESULT": "#V2313581",
+            "AFFECTED": "#V2313552",
+            "LEX": "SWUNG",
+            "WNSENSE": "swing%2:38:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313552": {
+          "id": "V2313552",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "SAM",
+          "roles": {
+            "NAME-OF": "SAM",
+            "LEX": "SAM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V2313581": {
+          "id": "V2313581",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V2313635",
+            "FIGURE": "#V2313552",
+            "LEX": "AT"
+          },
+          "start": 10,
+          "end": 26
+        },
+        "V2313635": {
+          "id": "V2313635",
+          "indicator": "A",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V2313632",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V2313632": {
+          "id": "V2313632",
+          "indicator": "F",
+          "type": "SMALL",
+          "word": "SMALL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V2313635",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "SMALL",
+            "WNSENSE": "small%3:00:00::"
+          },
+          "start": 15,
+          "end": 21
+        },
+        "V2313659": {
+          "id": "V2313659",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 38,
+          "end": 40
+        },
+        "root": "#V2313847"
+      }
+    ],
+    [
+      {
+        "V2313847": {
+          "id": "V2313847",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2313830",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2313830": {
+          "id": "V2313830",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V2313571",
+            "SEQUENCE1": "#V2313651",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313651": {
+          "id": "V2313651",
+          "indicator": "F",
+          "type": "CUT",
+          "word": "CHOP",
+          "roles": {
+            "AGENT": "#V2313552",
+            "AFFECTED": "#V2313659",
+            "LEX": "CHOPPED"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313571": {
+          "id": "V2313571",
+          "indicator": "F",
+          "type": "MOVE-BACK-AND-FORTH",
+          "word": "SWING",
+          "roles": {
+            "RESULT": "#V2313581",
+            "AFFECTED": "#V2313552",
+            "LEX": "SWUNG",
+            "WNSENSE": "swing%2:38:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313552": {
+          "id": "V2313552",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "SAM",
+          "roles": {
+            "NAME-OF": "SAM",
+            "LEX": "SAM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V2313581": {
+          "id": "V2313581",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V2313635",
+            "FIGURE": "#V2313552",
+            "LEX": "AT"
+          },
+          "start": 10,
+          "end": 26
+        },
+        "V2313635": {
+          "id": "V2313635",
+          "indicator": "A",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V2313632",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V2313632": {
+          "id": "V2313632",
+          "indicator": "F",
+          "type": "SMALL",
+          "word": "SMALL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V2313635",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "SMALL",
+            "WNSENSE": "small%3:00:00::"
+          },
+          "start": 15,
+          "end": 21
+        },
+        "V2313659": {
+          "id": "V2313659",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 38,
+          "end": 40
+        },
+        "root": "#V2313847"
+      }
+    ],
+    [
+      {
+        "V2313847": {
+          "id": "V2313847",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2313830",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2313830": {
+          "id": "V2313830",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V2313571",
+            "SEQUENCE1": "#V2313651",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313651": {
+          "id": "V2313651",
+          "indicator": "F",
+          "type": "CUT",
+          "word": "CHOP",
+          "roles": {
+            "AGENT": "#V2313552",
+            "AFFECTED": "#V2313659",
+            "LEX": "CHOPPED"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313571": {
+          "id": "V2313571",
+          "indicator": "F",
+          "type": "MOVE-BACK-AND-FORTH",
+          "word": "SWING",
+          "roles": {
+            "RESULT": "#V2313581",
+            "AFFECTED": "#V2313552",
+            "LEX": "SWUNG",
+            "WNSENSE": "swing%2:38:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313552": {
+          "id": "V2313552",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "SAM",
+          "roles": {
+            "NAME-OF": "SAM",
+            "LEX": "SAM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V2313581": {
+          "id": "V2313581",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V2313635",
+            "FIGURE": "#V2313552",
+            "LEX": "AT"
+          },
+          "start": 10,
+          "end": 26
+        },
+        "V2313635": {
+          "id": "V2313635",
+          "indicator": "A",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V2313632",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V2313632": {
+          "id": "V2313632",
+          "indicator": "F",
+          "type": "SMALL",
+          "word": "SMALL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V2313635",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "SMALL",
+            "WNSENSE": "small%3:00:00::"
+          },
+          "start": 15,
+          "end": 21
+        },
+        "V2313659": {
+          "id": "V2313659",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 38,
+          "end": 40
+        },
+        "root": "#V2313847"
+      }
+    ],
+    [
+      {
+        "V2313847": {
+          "id": "V2313847",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2313830",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2313830": {
+          "id": "V2313830",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V2313571",
+            "SEQUENCE1": "#V2313651",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313651": {
+          "id": "V2313651",
+          "indicator": "F",
+          "type": "CUT",
+          "word": "CHOP",
+          "roles": {
+            "AGENT": "#V2313552",
+            "AFFECTED": "#V2313659",
+            "LEX": "CHOPPED"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313571": {
+          "id": "V2313571",
+          "indicator": "F",
+          "type": "MOVE-BACK-AND-FORTH",
+          "word": "SWING",
+          "roles": {
+            "RESULT": "#V2313581",
+            "AFFECTED": "#V2313552",
+            "LEX": "SWUNG",
+            "WNSENSE": "swing%2:38:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313552": {
+          "id": "V2313552",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "SAM",
+          "roles": {
+            "NAME-OF": "SAM",
+            "LEX": "SAM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V2313581": {
+          "id": "V2313581",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V2313635",
+            "FIGURE": "#V2313552",
+            "LEX": "AT"
+          },
+          "start": 10,
+          "end": 26
+        },
+        "V2313635": {
+          "id": "V2313635",
+          "indicator": "A",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V2313632",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V2313632": {
+          "id": "V2313632",
+          "indicator": "F",
+          "type": "SMALL",
+          "word": "SMALL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V2313635",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "SMALL",
+            "WNSENSE": "small%3:00:00::"
+          },
+          "start": 15,
+          "end": 21
+        },
+        "V2313659": {
+          "id": "V2313659",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 38,
+          "end": 40
+        },
+        "root": "#V2313847"
+      }
+    ],
+    [
+      {
+        "V2313847": {
+          "id": "V2313847",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2313830",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2313830": {
+          "id": "V2313830",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V2313571",
+            "SEQUENCE1": "#V2313651",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313651": {
+          "id": "V2313651",
+          "indicator": "F",
+          "type": "CUT",
+          "word": "CHOP",
+          "roles": {
+            "AGENT": "#V2313552",
+            "AFFECTED": "#V2313659",
+            "LEX": "CHOPPED"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313571": {
+          "id": "V2313571",
+          "indicator": "F",
+          "type": "MOVE-BACK-AND-FORTH",
+          "word": "SWING",
+          "roles": {
+            "RESULT": "#V2313581",
+            "AFFECTED": "#V2313552",
+            "LEX": "SWUNG",
+            "WNSENSE": "swing%2:38:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313552": {
+          "id": "V2313552",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "SAM",
+          "roles": {
+            "NAME-OF": "SAM",
+            "LEX": "SAM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V2313581": {
+          "id": "V2313581",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V2313635",
+            "FIGURE": "#V2313552",
+            "LEX": "AT"
+          },
+          "start": 10,
+          "end": 26
+        },
+        "V2313635": {
+          "id": "V2313635",
+          "indicator": "A",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V2313632",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V2313632": {
+          "id": "V2313632",
+          "indicator": "F",
+          "type": "SMALL",
+          "word": "SMALL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V2313635",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "SMALL",
+            "WNSENSE": "small%3:00:00::"
+          },
+          "start": 15,
+          "end": 21
+        },
+        "V2313659": {
+          "id": "V2313659",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 38,
+          "end": 40
+        },
+        "root": "#V2313847"
+      }
+    ],
+    [
+      {
+        "V2313847": {
+          "id": "V2313847",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2313830",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2313830": {
+          "id": "V2313830",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V2313571",
+            "SEQUENCE1": "#V2313651",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313651": {
+          "id": "V2313651",
+          "indicator": "F",
+          "type": "CUT",
+          "word": "CHOP",
+          "roles": {
+            "AGENT": "#V2313552",
+            "AFFECTED": "#V2313659",
+            "LEX": "CHOPPED"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313571": {
+          "id": "V2313571",
+          "indicator": "F",
+          "type": "MOVE-BACK-AND-FORTH",
+          "word": "SWING",
+          "roles": {
+            "RESULT": "#V2313581",
+            "AFFECTED": "#V2313552",
+            "LEX": "SWUNG",
+            "WNSENSE": "swing%2:38:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313552": {
+          "id": "V2313552",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "SAM",
+          "roles": {
+            "NAME-OF": "SAM",
+            "LEX": "SAM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V2313581": {
+          "id": "V2313581",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V2313635",
+            "FIGURE": "#V2313552",
+            "LEX": "AT"
+          },
+          "start": 10,
+          "end": 26
+        },
+        "V2313635": {
+          "id": "V2313635",
+          "indicator": "A",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V2313632",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V2313632": {
+          "id": "V2313632",
+          "indicator": "F",
+          "type": "SMALL",
+          "word": "SMALL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V2313635",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "SMALL",
+            "WNSENSE": "small%3:00:00::"
+          },
+          "start": 15,
+          "end": 21
+        },
+        "V2313659": {
+          "id": "V2313659",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 38,
+          "end": 40
+        },
+        "root": "#V2313847"
+      }
+    ],
+    [
+      {
+        "V2313847": {
+          "id": "V2313847",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2313830",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2313830": {
+          "id": "V2313830",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V2313571",
+            "SEQUENCE1": "#V2313651",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313651": {
+          "id": "V2313651",
+          "indicator": "F",
+          "type": "CUT",
+          "word": "CHOP",
+          "roles": {
+            "AGENT": "#V2313552",
+            "AFFECTED": "#V2313659",
+            "LEX": "CHOPPED"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313571": {
+          "id": "V2313571",
+          "indicator": "F",
+          "type": "MOVE-BACK-AND-FORTH",
+          "word": "SWING",
+          "roles": {
+            "RESULT": "#V2313581",
+            "AFFECTED": "#V2313552",
+            "LEX": "SWUNG",
+            "WNSENSE": "swing%2:38:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313552": {
+          "id": "V2313552",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "SAM",
+          "roles": {
+            "NAME-OF": "SAM",
+            "LEX": "SAM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V2313581": {
+          "id": "V2313581",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V2313635",
+            "FIGURE": "#V2313552",
+            "LEX": "AT"
+          },
+          "start": 10,
+          "end": 26
+        },
+        "V2313635": {
+          "id": "V2313635",
+          "indicator": "A",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V2313632",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V2313632": {
+          "id": "V2313632",
+          "indicator": "F",
+          "type": "SMALL",
+          "word": "SMALL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V2313635",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "SMALL",
+            "WNSENSE": "small%3:00:00::"
+          },
+          "start": 15,
+          "end": 21
+        },
+        "V2313659": {
+          "id": "V2313659",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 38,
+          "end": 40
+        },
+        "root": "#V2313847"
+      }
+    ],
+    [
+      {
+        "V2313891": {
+          "id": "V2313891",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2313885",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2313885": {
+          "id": "V2313885",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V2313571",
+            "SEQUENCE1": "#V2313651",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313651": {
+          "id": "V2313651",
+          "indicator": "F",
+          "type": "CUT",
+          "word": "CHOP",
+          "roles": {
+            "AGENT": "#V2313552",
+            "AFFECTED": "#V2313659",
+            "LEX": "CHOPPED"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313571": {
+          "id": "V2313571",
+          "indicator": "F",
+          "type": "MOVE-BACK-AND-FORTH",
+          "word": "SWING",
+          "roles": {
+            "AFFECTED": "#V2313552",
+            "LOCATION": "#V2313581",
+            "LEX": "SWUNG",
+            "WNSENSE": "swing%2:38:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313552": {
+          "id": "V2313552",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "SAM",
+          "roles": {
+            "NAME-OF": "SAM",
+            "LEX": "SAM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V2313581": {
+          "id": "V2313581",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V2313635",
+            "FIGURE": "#V2313571",
+            "LEX": "AT"
+          },
+          "start": 10,
+          "end": 26
+        },
+        "V2313635": {
+          "id": "V2313635",
+          "indicator": "A",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V2313632",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V2313632": {
+          "id": "V2313632",
+          "indicator": "F",
+          "type": "SMALL",
+          "word": "SMALL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V2313635",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "SMALL",
+            "WNSENSE": "small%3:00:00::"
+          },
+          "start": 15,
+          "end": 21
+        },
+        "V2313659": {
+          "id": "V2313659",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 38,
+          "end": 40
+        },
+        "root": "#V2313891"
+      }
+    ],
+    [
+      {
+        "V2313891": {
+          "id": "V2313891",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2313885",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2313885": {
+          "id": "V2313885",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V2313571",
+            "SEQUENCE1": "#V2313651",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313651": {
+          "id": "V2313651",
+          "indicator": "F",
+          "type": "CUT",
+          "word": "CHOP",
+          "roles": {
+            "AGENT": "#V2313552",
+            "AFFECTED": "#V2313659",
+            "LEX": "CHOPPED"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313571": {
+          "id": "V2313571",
+          "indicator": "F",
+          "type": "MOVE-BACK-AND-FORTH",
+          "word": "SWING",
+          "roles": {
+            "AFFECTED": "#V2313552",
+            "LOCATION": "#V2313581",
+            "LEX": "SWUNG",
+            "WNSENSE": "swing%2:38:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313552": {
+          "id": "V2313552",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "SAM",
+          "roles": {
+            "NAME-OF": "SAM",
+            "LEX": "SAM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V2313581": {
+          "id": "V2313581",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V2313635",
+            "FIGURE": "#V2313571",
+            "LEX": "AT"
+          },
+          "start": 10,
+          "end": 26
+        },
+        "V2313635": {
+          "id": "V2313635",
+          "indicator": "A",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V2313632",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V2313632": {
+          "id": "V2313632",
+          "indicator": "F",
+          "type": "SMALL",
+          "word": "SMALL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V2313635",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "SMALL",
+            "WNSENSE": "small%3:00:00::"
+          },
+          "start": 15,
+          "end": 21
+        },
+        "V2313659": {
+          "id": "V2313659",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 38,
+          "end": 40
+        },
+        "root": "#V2313891"
+      }
+    ],
+    [
+      {
+        "V2313891": {
+          "id": "V2313891",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2313885",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2313885": {
+          "id": "V2313885",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V2313571",
+            "SEQUENCE1": "#V2313651",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313651": {
+          "id": "V2313651",
+          "indicator": "F",
+          "type": "CUT",
+          "word": "CHOP",
+          "roles": {
+            "AGENT": "#V2313552",
+            "AFFECTED": "#V2313659",
+            "LEX": "CHOPPED"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313571": {
+          "id": "V2313571",
+          "indicator": "F",
+          "type": "MOVE-BACK-AND-FORTH",
+          "word": "SWING",
+          "roles": {
+            "AFFECTED": "#V2313552",
+            "LOCATION": "#V2313581",
+            "LEX": "SWUNG",
+            "WNSENSE": "swing%2:38:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313552": {
+          "id": "V2313552",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "SAM",
+          "roles": {
+            "NAME-OF": "SAM",
+            "LEX": "SAM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V2313581": {
+          "id": "V2313581",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V2313635",
+            "FIGURE": "#V2313571",
+            "LEX": "AT"
+          },
+          "start": 10,
+          "end": 26
+        },
+        "V2313635": {
+          "id": "V2313635",
+          "indicator": "A",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V2313632",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V2313632": {
+          "id": "V2313632",
+          "indicator": "F",
+          "type": "SMALL",
+          "word": "SMALL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V2313635",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "SMALL",
+            "WNSENSE": "small%3:00:00::"
+          },
+          "start": 15,
+          "end": 21
+        },
+        "V2313659": {
+          "id": "V2313659",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 38,
+          "end": 40
+        },
+        "root": "#V2313891"
+      }
+    ],
+    [
+      {
+        "V2313891": {
+          "id": "V2313891",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2313885",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2313885": {
+          "id": "V2313885",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V2313571",
+            "SEQUENCE1": "#V2313651",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313651": {
+          "id": "V2313651",
+          "indicator": "F",
+          "type": "CUT",
+          "word": "CHOP",
+          "roles": {
+            "AGENT": "#V2313552",
+            "AFFECTED": "#V2313659",
+            "LEX": "CHOPPED"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313571": {
+          "id": "V2313571",
+          "indicator": "F",
+          "type": "MOVE-BACK-AND-FORTH",
+          "word": "SWING",
+          "roles": {
+            "AFFECTED": "#V2313552",
+            "LOCATION": "#V2313581",
+            "LEX": "SWUNG",
+            "WNSENSE": "swing%2:38:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313552": {
+          "id": "V2313552",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "SAM",
+          "roles": {
+            "NAME-OF": "SAM",
+            "LEX": "SAM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V2313581": {
+          "id": "V2313581",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V2313635",
+            "FIGURE": "#V2313571",
+            "LEX": "AT"
+          },
+          "start": 10,
+          "end": 26
+        },
+        "V2313635": {
+          "id": "V2313635",
+          "indicator": "A",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V2313632",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V2313632": {
+          "id": "V2313632",
+          "indicator": "F",
+          "type": "SMALL",
+          "word": "SMALL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V2313635",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "SMALL",
+            "WNSENSE": "small%3:00:00::"
+          },
+          "start": 15,
+          "end": 21
+        },
+        "V2313659": {
+          "id": "V2313659",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 38,
+          "end": 40
+        },
+        "root": "#V2313891"
+      }
+    ],
+    [
+      {
+        "V2313891": {
+          "id": "V2313891",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2313885",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2313885": {
+          "id": "V2313885",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V2313571",
+            "SEQUENCE1": "#V2313651",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313651": {
+          "id": "V2313651",
+          "indicator": "F",
+          "type": "CUT",
+          "word": "CHOP",
+          "roles": {
+            "AGENT": "#V2313552",
+            "AFFECTED": "#V2313659",
+            "LEX": "CHOPPED"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313571": {
+          "id": "V2313571",
+          "indicator": "F",
+          "type": "MOVE-BACK-AND-FORTH",
+          "word": "SWING",
+          "roles": {
+            "AFFECTED": "#V2313552",
+            "LOCATION": "#V2313581",
+            "LEX": "SWUNG",
+            "WNSENSE": "swing%2:38:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313552": {
+          "id": "V2313552",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "SAM",
+          "roles": {
+            "NAME-OF": "SAM",
+            "LEX": "SAM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V2313581": {
+          "id": "V2313581",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V2313635",
+            "FIGURE": "#V2313571",
+            "LEX": "AT"
+          },
+          "start": 10,
+          "end": 26
+        },
+        "V2313635": {
+          "id": "V2313635",
+          "indicator": "A",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V2313632",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V2313632": {
+          "id": "V2313632",
+          "indicator": "F",
+          "type": "SMALL",
+          "word": "SMALL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V2313635",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "SMALL",
+            "WNSENSE": "small%3:00:00::"
+          },
+          "start": 15,
+          "end": 21
+        },
+        "V2313659": {
+          "id": "V2313659",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 38,
+          "end": 40
+        },
+        "root": "#V2313891"
+      }
+    ],
+    [
+      {
+        "V2313891": {
+          "id": "V2313891",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2313885",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2313885": {
+          "id": "V2313885",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V2313571",
+            "SEQUENCE1": "#V2313651",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313651": {
+          "id": "V2313651",
+          "indicator": "F",
+          "type": "CUT",
+          "word": "CHOP",
+          "roles": {
+            "AGENT": "#V2313552",
+            "AFFECTED": "#V2313659",
+            "LEX": "CHOPPED"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313571": {
+          "id": "V2313571",
+          "indicator": "F",
+          "type": "MOVE-BACK-AND-FORTH",
+          "word": "SWING",
+          "roles": {
+            "AFFECTED": "#V2313552",
+            "LOCATION": "#V2313581",
+            "LEX": "SWUNG",
+            "WNSENSE": "swing%2:38:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313552": {
+          "id": "V2313552",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "SAM",
+          "roles": {
+            "NAME-OF": "SAM",
+            "LEX": "SAM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V2313581": {
+          "id": "V2313581",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V2313635",
+            "FIGURE": "#V2313571",
+            "LEX": "AT"
+          },
+          "start": 10,
+          "end": 26
+        },
+        "V2313635": {
+          "id": "V2313635",
+          "indicator": "A",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V2313632",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V2313632": {
+          "id": "V2313632",
+          "indicator": "F",
+          "type": "SMALL",
+          "word": "SMALL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V2313635",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "SMALL",
+            "WNSENSE": "small%3:00:00::"
+          },
+          "start": 15,
+          "end": 21
+        },
+        "V2313659": {
+          "id": "V2313659",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 38,
+          "end": 40
+        },
+        "root": "#V2313891"
+      }
+    ],
+    [
+      {
+        "V2313891": {
+          "id": "V2313891",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2313885",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2313885": {
+          "id": "V2313885",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V2313571",
+            "SEQUENCE1": "#V2313651",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313651": {
+          "id": "V2313651",
+          "indicator": "F",
+          "type": "CUT",
+          "word": "CHOP",
+          "roles": {
+            "AGENT": "#V2313552",
+            "AFFECTED": "#V2313659",
+            "LEX": "CHOPPED"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313571": {
+          "id": "V2313571",
+          "indicator": "F",
+          "type": "MOVE-BACK-AND-FORTH",
+          "word": "SWING",
+          "roles": {
+            "AFFECTED": "#V2313552",
+            "LOCATION": "#V2313581",
+            "LEX": "SWUNG",
+            "WNSENSE": "swing%2:38:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313552": {
+          "id": "V2313552",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "SAM",
+          "roles": {
+            "NAME-OF": "SAM",
+            "LEX": "SAM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V2313581": {
+          "id": "V2313581",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V2313635",
+            "FIGURE": "#V2313571",
+            "LEX": "AT"
+          },
+          "start": 10,
+          "end": 26
+        },
+        "V2313635": {
+          "id": "V2313635",
+          "indicator": "A",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V2313632",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V2313632": {
+          "id": "V2313632",
+          "indicator": "F",
+          "type": "SMALL",
+          "word": "SMALL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V2313635",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "SMALL",
+            "WNSENSE": "small%3:00:00::"
+          },
+          "start": 15,
+          "end": 21
+        },
+        "V2313659": {
+          "id": "V2313659",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 38,
+          "end": 40
+        },
+        "root": "#V2313891"
+      }
+    ],
+    [
+      {
+        "V2313891": {
+          "id": "V2313891",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2313885",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2313885": {
+          "id": "V2313885",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V2313571",
+            "SEQUENCE1": "#V2313651",
+            "TENSE": "PAST",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313651": {
+          "id": "V2313651",
+          "indicator": "F",
+          "type": "CUT",
+          "word": "CHOP",
+          "roles": {
+            "AGENT": "#V2313552",
+            "AFFECTED": "#V2313659",
+            "LEX": "CHOPPED"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313571": {
+          "id": "V2313571",
+          "indicator": "F",
+          "type": "MOVE-BACK-AND-FORTH",
+          "word": "SWING",
+          "roles": {
+            "AFFECTED": "#V2313552",
+            "LOCATION": "#V2313581",
+            "LEX": "SWUNG",
+            "WNSENSE": "swing%2:38:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313552": {
+          "id": "V2313552",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "SAM",
+          "roles": {
+            "NAME-OF": "SAM",
+            "LEX": "SAM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V2313581": {
+          "id": "V2313581",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V2313635",
+            "FIGURE": "#V2313571",
+            "LEX": "AT"
+          },
+          "start": 10,
+          "end": 26
+        },
+        "V2313635": {
+          "id": "V2313635",
+          "indicator": "A",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V2313632",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V2313632": {
+          "id": "V2313632",
+          "indicator": "F",
+          "type": "SMALL",
+          "word": "SMALL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V2313635",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "SMALL",
+            "WNSENSE": "small%3:00:00::"
+          },
+          "start": 15,
+          "end": 21
+        },
+        "V2313659": {
+          "id": "V2313659",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 38,
+          "end": 40
+        },
+        "root": "#V2313891"
+      }
+    ],
+    [
+      {
+        "V2313868": {
+          "id": "V2313868",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2313640",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2313640": {
+          "id": "V2313640",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V2313571",
+            "SEQUENCE1": "#V2313651",
+            "TENSE": "PAST",
+            "LEX": "AND",
+            "WNSENSE": "swing%2:38:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313571": {
+          "id": "V2313571",
+          "indicator": "F",
+          "type": "MOVE-BACK-AND-FORTH",
+          "word": "SWING",
+          "roles": {
+            "RESULT": "#V2313581",
+            "AFFECTED": "#V2313552",
+            "TENSE": "PAST",
+            "LEX": "SWUNG",
+            "WNSENSE": "swing%2:38:00::"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V2313552": {
+          "id": "V2313552",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "SAM",
+          "roles": {
+            "NAME-OF": "SAM",
+            "LEX": "SAM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V2313581": {
+          "id": "V2313581",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V2313635",
+            "FIGURE": "#V2313552",
+            "LEX": "AT"
+          },
+          "start": 10,
+          "end": 26
+        },
+        "V2313635": {
+          "id": "V2313635",
+          "indicator": "A",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V2313632",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V2313632": {
+          "id": "V2313632",
+          "indicator": "F",
+          "type": "SMALL",
+          "word": "SMALL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V2313635",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "SMALL",
+            "WNSENSE": "small%3:00:00::"
+          },
+          "start": 15,
+          "end": 21
+        },
+        "V2313651": {
+          "id": "V2313651",
+          "indicator": "F",
+          "type": "CUT",
+          "word": "CHOP",
+          "roles": {
+            "AGENT": "#V2313552",
+            "AFFECTED": "#V2313659",
+            "TENSE": "PAST",
+            "LEX": "CHOPPED"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V2313659": {
+          "id": "V2313659",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 38,
+          "end": 40
+        },
+        "root": "#V2313868"
+      }
+    ],
+    [
+      {
+        "V2313868": {
+          "id": "V2313868",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2313640",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2313640": {
+          "id": "V2313640",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V2313571",
+            "SEQUENCE1": "#V2313651",
+            "TENSE": "PAST",
+            "LEX": "AND",
+            "WNSENSE": "swing%2:38:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313571": {
+          "id": "V2313571",
+          "indicator": "F",
+          "type": "MOVE-BACK-AND-FORTH",
+          "word": "SWING",
+          "roles": {
+            "RESULT": "#V2313581",
+            "AFFECTED": "#V2313552",
+            "TENSE": "PAST",
+            "LEX": "SWUNG",
+            "WNSENSE": "swing%2:38:00::"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V2313552": {
+          "id": "V2313552",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "SAM",
+          "roles": {
+            "NAME-OF": "SAM",
+            "LEX": "SAM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V2313581": {
+          "id": "V2313581",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V2313635",
+            "FIGURE": "#V2313552",
+            "LEX": "AT"
+          },
+          "start": 10,
+          "end": 26
+        },
+        "V2313635": {
+          "id": "V2313635",
+          "indicator": "A",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V2313632",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V2313632": {
+          "id": "V2313632",
+          "indicator": "F",
+          "type": "SMALL",
+          "word": "SMALL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V2313635",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "SMALL",
+            "WNSENSE": "small%3:00:00::"
+          },
+          "start": 15,
+          "end": 21
+        },
+        "V2313651": {
+          "id": "V2313651",
+          "indicator": "F",
+          "type": "CUT",
+          "word": "CHOP",
+          "roles": {
+            "AGENT": "#V2313552",
+            "AFFECTED": "#V2313659",
+            "TENSE": "PAST",
+            "LEX": "CHOPPED"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V2313659": {
+          "id": "V2313659",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 38,
+          "end": 40
+        },
+        "root": "#V2313868"
+      }
+    ],
+    [
+      {
+        "V2313868": {
+          "id": "V2313868",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2313640",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2313640": {
+          "id": "V2313640",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V2313571",
+            "SEQUENCE1": "#V2313651",
+            "TENSE": "PAST",
+            "LEX": "AND",
+            "WNSENSE": "swing%2:38:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313571": {
+          "id": "V2313571",
+          "indicator": "F",
+          "type": "MOVE-BACK-AND-FORTH",
+          "word": "SWING",
+          "roles": {
+            "RESULT": "#V2313581",
+            "AFFECTED": "#V2313552",
+            "TENSE": "PAST",
+            "LEX": "SWUNG",
+            "WNSENSE": "swing%2:38:00::"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V2313552": {
+          "id": "V2313552",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "SAM",
+          "roles": {
+            "NAME-OF": "SAM",
+            "LEX": "SAM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V2313581": {
+          "id": "V2313581",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V2313635",
+            "FIGURE": "#V2313552",
+            "LEX": "AT"
+          },
+          "start": 10,
+          "end": 26
+        },
+        "V2313635": {
+          "id": "V2313635",
+          "indicator": "A",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V2313632",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V2313632": {
+          "id": "V2313632",
+          "indicator": "F",
+          "type": "SMALL",
+          "word": "SMALL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V2313635",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "SMALL",
+            "WNSENSE": "small%3:00:00::"
+          },
+          "start": 15,
+          "end": 21
+        },
+        "V2313651": {
+          "id": "V2313651",
+          "indicator": "F",
+          "type": "CUT",
+          "word": "CHOP",
+          "roles": {
+            "AGENT": "#V2313552",
+            "AFFECTED": "#V2313659",
+            "TENSE": "PAST",
+            "LEX": "CHOPPED"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V2313659": {
+          "id": "V2313659",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 38,
+          "end": 40
+        },
+        "root": "#V2313868"
+      }
+    ],
+    [
+      {
+        "V2313868": {
+          "id": "V2313868",
+          "indicator": "SPEECHACT",
+          "type": "SA_TELL",
+          "word": null,
+          "roles": {
+            "PUNCTYPE": "DECL",
+            "CONTENT": "#V2313640",
+            "LEX": "AND"
+          },
+          "start": 0,
+          "end": 43
+        },
+        "V2313640": {
+          "id": "V2313640",
+          "indicator": "F",
+          "type": "EVENT-OF-CAUSATION",
+          "word": null,
+          "roles": {
+            "OPERATOR": "AND",
+            "SEQUENCE": "#V2313571",
+            "SEQUENCE1": "#V2313651",
+            "TENSE": "PAST",
+            "LEX": "AND",
+            "WNSENSE": "swing%2:38:00::"
+          },
+          "start": 0,
+          "end": 40
+        },
+        "V2313571": {
+          "id": "V2313571",
+          "indicator": "F",
+          "type": "MOVE-BACK-AND-FORTH",
+          "word": "SWING",
+          "roles": {
+            "RESULT": "#V2313581",
+            "AFFECTED": "#V2313552",
+            "TENSE": "PAST",
+            "LEX": "SWUNG",
+            "WNSENSE": "swing%2:38:00::"
+          },
+          "start": 0,
+          "end": 26
+        },
+        "V2313552": {
+          "id": "V2313552",
+          "indicator": "THE",
+          "type": "MALE-PERSON",
+          "word": "SAM",
+          "roles": {
+            "NAME-OF": "SAM",
+            "LEX": "SAM",
+            "WNSENSE": "man%1:18:00"
+          },
+          "start": 0,
+          "end": 4
+        },
+        "V2313581": {
+          "id": "V2313581",
+          "indicator": "F",
+          "type": "AT-LOC",
+          "word": "AT",
+          "roles": {
+            "GROUND": "#V2313635",
+            "FIGURE": "#V2313552",
+            "LEX": "AT"
+          },
+          "start": 10,
+          "end": 26
+        },
+        "V2313635": {
+          "id": "V2313635",
+          "indicator": "A",
+          "type": "TREE",
+          "word": "TREE",
+          "roles": {
+            "MOD": "#V2313632",
+            "LEX": "TREE",
+            "WNSENSE": "tree%1:20:00::"
+          },
+          "start": 13,
+          "end": 26
+        },
+        "V2313632": {
+          "id": "V2313632",
+          "indicator": "F",
+          "type": "SMALL",
+          "word": "SMALL",
+          "roles": {
+            "ORIENTATION": "LESS",
+            "INTENSITY": "MED",
+            "FIGURE": "#V2313635",
+            "SCALE": "SIZE-SCALE",
+            "LEX": "SMALL",
+            "WNSENSE": "small%3:00:00::"
+          },
+          "start": 15,
+          "end": 21
+        },
+        "V2313651": {
+          "id": "V2313651",
+          "indicator": "F",
+          "type": "CUT",
+          "word": "CHOP",
+          "roles": {
+            "AGENT": "#V2313552",
+            "AFFECTED": "#V2313659",
+            "TENSE": "PAST",
+            "LEX": "CHOPPED"
+          },
+          "start": 30,
+          "end": 40
+        },
+        "V2313659": {
+          "id": "V2313659",
+          "indicator": "PRO",
+          "type": "REFERENTIAL-SEM",
+          "word": "IT",
+          "roles": {
+            "PROFORM": "IT",
+            "LEX": "IT",
+            "WNSENSE": "entity%1:03:00"
+          },
+          "start": 38,
+          "end": 40
+        },
+        "root": "#V2313868"
+      }
+    ]
+  ],
   "annotation": {
     "judge": "abhatia",
     "parser": "STEP",
