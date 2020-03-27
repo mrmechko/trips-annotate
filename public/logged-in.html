@@ -22,6 +22,7 @@
     <!-- initialize the SDK after all desired features are loaded -->
     <script defer src="/__/firebase/init.js"></script>
     <script defer src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+    <script src="https://unpkg.com/mustache@latest"></script>
 
 
 
@@ -52,50 +53,51 @@
       </nav>
       <section class="section">
           <div class="container">
-
               <div id="message" class="level">
                   <span class="level-left is-button is-dark">Welcome,&nbsp;<span id="username"></span></span>
               </div>
-              <div class="notification is-info" id="description">
-                  <p>Given a reference parse and several alternatives, the purpose of this task is to determine which of the alternatives
-                      are most similar to the reference graph.</p>
 
-                  <p>Each row contains a copy of the reference graph and one of the alternatives.  The graphs are highlighted to emphasize
-                      the differences.  The differences are coded as red for the first alternative and blue for the second alternative.  Edges or nodes
-                      that differ in both alternatives are highlighted with both red and blue.</p>
+              <script id="a_b_parse" type="x-tmpl-mustache">
+                  <div class="notification is-info" id="description">
+                      <p>Given a reference parse and several alternatives, the purpose of this task is to determine which of the alternatives
+                          are most similar to the reference graph.</p>
 
-                  <p>For each task, select an alternative and click the submit button.  The Other menu contains options to mark the alternatives as equidistant or submit an error.</p>
+                      <p>Each row contains a copy of the reference graph and one of the alternatives.  The graphs are highlighted to emphasize
+                          the differences.  The differences are coded as red for the first alternative and blue for the second alternative.  Edges or nodes
+                          that differ in both alternatives are highlighted with both red and blue.</p>
 
-              </div>
-              <article class="message is-small">
-                  <div class="message-header">
-                      <p>Sentence:</p>
+                      <p>For each task, select an alternative and click the submit button.  The Other menu contains options to mark the alternatives as equidistant or submit an error.</p>
+
                   </div>
-                  <div class="message-body">
-                      <span id="sentence"></span>
-                  </div>
-              </article>
-              <div id="task_id"></div>
-              <div id="parses">
-                  <div class="task box" id="first_block">
-                      <div class="columns">
-                          <div class="column">
-                              <figure class="image"><img class="is-1by2 graph" id="gold_first"></img></figure>
+                  <article class="message is-small">
+                      <div class="message-header">
+                          <p>Sentence:</p>
+                      </div>
+                      <div class="message-body">
+                          <span id="sentence">{{ sentence }}</span>
+                      </div>
+                  </article>
+                  <div id="task_id" value="{{ task_id }}"></div>
+                  <div id="parses">
+                      <div class="task box" id="first_block">
+                          <div class="columns">
+                              <div class="column"><figure class="image"><img class="is-1by2 graph" src="{{ gold_first }}" id="gold_first"></img></figure></div>
+                              <div class="column"><figure class="image"><img class="is-1by2 graph" src="{{ first }}" id="first"></img></figure></div>
                           </div>
-                          <div class="column">
-                              <figure class="image"><img class="is-1by2 graph" id="first"></img></figure>
+                      </div>
+                      <div class="task box" id="second_block">
+                          <div class="columns">
+                              <div class="column"><figure class="image"><img class="is-1by2 graph" src="{{ gold_second }}" id="gold_second"></img></figure></div>
+                              <div class="column"><figure class="image"><img class="is-1by2 graph" src="{{ second }}" id="second"></img></figure></div>
                           </div>
                       </div>
                   </div>
-                  <div class="task box" id="second_block">
-                      <div class="columns">
-                          <div class="column"><figure class="image"><img class="is-1by2 graph" id="gold_second"></img></figure></div>
-                          <div class="column"><figure class="image"><img class="is-1by2 graph" id="second"></img></figure></div>
-                      </div>
-                  </div>
-              </div>
+              </script>
+              <div id="target"></div>
+
           </div>
       </section>
+
       <section class="section">
           <div class="container">
               <form id="annotation-form" name="annotation">
@@ -159,9 +161,15 @@
              })
              getTaskForUID({}).then(function(result) {
                  if (result.data){
-                     render_task(result.data, document);
-                     document.getElementById("first_block").addEventListener("click", set_selected_task("first", document));
-                     document.getElementById("second_block").addEventListener("click", set_selected_task("second", document));
+                     console.log(result.data)
+                     //Render task based on task name
+                     console.log(result.data.data.type);
+                     if (result.data.data.type == "a_b_parse") {
+                         console.log("yay");
+                         render_a_b_parse(result.data, document);
+                     }
+
+                     // lets say these are common
                      document.getElementById("other_menu").addEventListener("change", set_other_response());
                      document.getElementById("other_response").addEventListener("change", reason_provided("other_response"));
                      set_button_disabled("submit-btn");

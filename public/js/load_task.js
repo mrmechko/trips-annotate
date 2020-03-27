@@ -1,15 +1,25 @@
-function render_task(task, document) {
-    console.log("rendering task:");
-    console.log(task);
+function render_a_b_parse(task, document) {
+    //console.log("rendering task:");
+    //console.log(task);
     var reference = task["data"]["reference"];
+
     const ref = (id) => `${reference}${id}.svg?sanitize=true`;
-    document.getElementById("sentence").innerHTML = task["data"]["sentence"];
-    document.getElementById("task_id").value = task["id"];
+    var template = document.getElementById("a_b_parse").innerHTML;
+    var rendered = Mustache.render(template, {
+        sentence: task.sentence,
+        task_id: task.id,
+        first: ref("first"),
+        gold_first: ref("gold_first"),
+        second: ref("second"),
+        gold_second: ref("gold_second")
+    });
     document.getElementById("task_id_form").value = task["id"];
-    document.getElementById("first").src = ref("first")
-    document.getElementById("gold_first").src = ref("gold_first")
-    document.getElementById("second").src = ref("second")
-    document.getElementById("gold_second").src = ref("gold_second")
+
+    document.getElementById("target").innerHTML = rendered;
+
+    document.getElementById("first_block").addEventListener("click", set_selected_task("first", document));
+    document.getElementById("second_block").addEventListener("click", set_selected_task("second", document));
+
 };
 
 function set_selected_task(target) {

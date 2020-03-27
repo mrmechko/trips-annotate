@@ -78,7 +78,8 @@ def transform(taskset, name, output, type_="a_b_parse", coverage=3, agreement=0,
         dataset = json.load(inp)
     tasks = [{
         "annotations": [],
-        "data": dict(data, type=type_), # sentence getting is now done in prepare.py
+        "data": dict(data.get("task", data), type=type_), # sentence getting is now done in prepare.py
+        "meta": data.get("meta", None),
         "requirements": {
             "agreement": agreement,
             "coverage": coverage,
