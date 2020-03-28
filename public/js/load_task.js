@@ -4,29 +4,65 @@ function render_a_b_parse(task, document) {
     var reference = task["data"]["reference"];
 
     const ref = (id) => `${reference}${id}.svg?sanitize=true`;
+    var general = document.getElementById("task_box").innerHTML;
     var template = document.getElementById("a_b_parse").innerHTML;
-    var rendered = Mustache.render(template, {
+    var rendered = Mustache.render(general, {
         sentence: task.sentence,
         task_id: task.id,
-        first: ref("first"),
-        gold_first: ref("gold_first"),
-        second: ref("second"),
-        gold_second: ref("gold_second")
+        parses: Mustache.render(template, {
+               tasks: [
+                   {option_id: "first", candidate: ref("first"), gold: ref("gold_first")},
+                   {option_id: "second", candidate: ref("second"), gold: ref("gold_second")}
+               ]
+        })
     });
     document.getElementById("task_id_form").value = task["id"];
 
     document.getElementById("target").innerHTML = rendered;
 
-    document.getElementById("first_block").addEventListener("click", set_selected_task("first", document));
-    document.getElementById("second_block").addEventListener("click", set_selected_task("second", document));
+    document.getElementById("option_first").addEventListener("click", set_selected_task("first", document));
+    document.getElementById("option_second").addEventListener("click", set_selected_task("second", document));
+
+};
+
+function render_pick_gold(task, document) {
+    var reference = task["data"]["reference"];
+
+    const ref = (id) => `${reference}${id}.svg?sanitize=true`;
+    // Data is a list of indexes of parses
+    const tasks = task["data"]["data"].map((v, i) => {
+        return {
+            option_id: i, candidate: ref(v)
+        }
+
+    })
+    var general = document.getElementById("task_box").innerHTML;
+    var template = document.getElementById("pick_gold").innerHTML;
+    var rendered = Mustache.render(general, {
+        sentence: task.sentence,
+        task_id: task.id,
+        parses: Mustache.render(template, {
+            tasks: tasks
+        })
+    });
+    document.getElementById("task_id_form").value = task["id"];
+    document.getElementById("target").innerHTML = rendered;
+
+    for (i = 0; i < tasks.length; i++) {
+        document.getElementById(`option_${i}`).addEventListener("click", set_selected_task(`${i}`, document))
+    }
 
 };
 
 function set_selected_task(target) {
     return () => {
-        document.getElementById("first_block").className = document.getElementById("first_block").className.replace(/ selected/g, "");
-        document.getElementById("second_block").className = document.getElementById("second_block").className.replace(/ selected/g, "");
-        document.getElementById(`${target}_block`).className += " selected";
+        parses = document.getElementById("parses")
+        var c = parses.children
+        for (i = 0; i < c.length; i++){
+            c[i].className = c[i].className.replace(/ selected/g, "");
+        }
+
+        document.getElementById(`option_${target}`).className += " selected";
         document.getElementById("answer").value = target;
         set_button_active("submit-btn")
     }

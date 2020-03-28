@@ -10,10 +10,10 @@ from firebase_admin import firestore
 
 
 def get_db(cred_file="firebase-admin.json"):
+    project_id = json.load(open(cred_file))["project_id"]
     cred = credentials.Certificate(cred_file)
     firebase_admin.initialize_app(cred, {
-        # NOTE: hardcoded file name should really be loaded from .firebaserc
-        'projectId': 'trips-annotate-35636'
+        'projectId': project_id
     })
 
     return firestore.client()

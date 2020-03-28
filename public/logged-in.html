@@ -1,193 +1,183 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Trips Annotator</title>
-
-    <script src="https://kit.fontawesome.com/dd5e0582e7.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"/>
-    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css"></link>
-
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/7.9.1/firebase-app.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/7.9.1/firebase-auth.js"></script>
-    <script defer src="/__/firebase/7.9.1/firebase-database.js"></script>
-    <script defer src="/__/firebase/7.9.1/firebase-messaging.js"></script>
-    <script defer src="/__/firebase/7.9.1/firebase-storage.js"></script>
-
-    <script defer src="/__/firebase/7.9.1/firebase-functions.js"></script>
-
-    <!-- initialize the SDK after all desired features are loaded -->
-    <script defer src="/__/firebase/init.js"></script>
-    <script defer src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
-    <script src="https://unpkg.com/mustache@latest"></script>
-
-
-
-    <style media="screen">
-     body { background: grey; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-     #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-     #task { width: 100%; }
-     #gold_, #first_, #second_ { width: 100%; margin: 1em; }
-     .graph { border-style: solid;  }
-     #first_block, #second_block { width: 100%; }
-     @media (max-width: 600px) {
-         body, #message { margin-top: 0; background: white; box-shadow: none; }
-         body { border-top: 16px solid #ffa100; }
-     }
-     .selected { background: lightblue;}
-    </style>
-  </head>
-  <body>
-      <nav class="navbar" role="navigation" arial-label="main navigation">
-          <div class="navbar-brand">
-              <span class="navbar-item"><p>Annotation tool<p></span>
-          </div>
-          <div class="navbar-end">
-              <div class="navbar-item">
-                  <a class="button is-danger" id="logout-btn">Log Out</a>
-              </div>
-          </div>
-      </nav>
-      <section class="section">
-          <div class="container">
-              <div id="message" class="level">
-                  <span class="level-left is-button is-dark">Welcome,&nbsp;<span id="username"></span></span>
-              </div>
-
-              <script id="a_b_parse" type="x-tmpl-mustache">
-                  <div class="notification is-info" id="description">
-                      <p>Given a reference parse and several alternatives, the purpose of this task is to determine which of the alternatives
-                          are most similar to the reference graph.</p>
-
-                      <p>Each row contains a copy of the reference graph and one of the alternatives.  The graphs are highlighted to emphasize
-                          the differences.  The differences are coded as red for the first alternative and blue for the second alternative.  Edges or nodes
-                          that differ in both alternatives are highlighted with both red and blue.</p>
-
-                      <p>For each task, select an alternative and click the submit button.  The Other menu contains options to mark the alternatives as equidistant or submit an error.</p>
-
-                  </div>
-                  <article class="message is-small">
-                      <div class="message-header">
-                          <p>Sentence:</p>
-                      </div>
-                      <div class="message-body">
-                          <span id="sentence">{{ sentence }}</span>
-                      </div>
-                  </article>
-                  <div id="task_id" value="{{ task_id }}"></div>
-                  <div id="parses">
-                      <div class="task box" id="first_block">
-                          <div class="columns">
-                              <div class="column"><figure class="image"><img class="is-1by2 graph" src="{{ gold_first }}" id="gold_first"></img></figure></div>
-                              <div class="column"><figure class="image"><img class="is-1by2 graph" src="{{ first }}" id="first"></img></figure></div>
-                          </div>
-                      </div>
-                      <div class="task box" id="second_block">
-                          <div class="columns">
-                              <div class="column"><figure class="image"><img class="is-1by2 graph" src="{{ gold_second }}" id="gold_second"></img></figure></div>
-                              <div class="column"><figure class="image"><img class="is-1by2 graph" src="{{ second }}" id="second"></img></figure></div>
-                          </div>
-                      </div>
-                  </div>
-              </script>
-              <div id="target"></div>
-
-          </div>
-      </section>
-
-      <section class="section">
-          <div class="container">
-              <form id="annotation-form" name="annotation">
-                  <input type="hidden" id="task_id_form" name="task_id">
-                  <input type="hidden" id="user_id" name="user_id">
-                  <input type="hidden" id="answer" name="selection">
-                  <div class="control">
-                      <div class="select">
-                          <select id="other_menu" name="other">
-                              <option value="none">Other</option>
-                              <option value="same">Graphs are equidistant</option>
-                              <option value="error_text">Error (please specify)</option>
-                          </select>
-                      </div>
-                      <textarea class="textarea" placeholder="other" id="other_response"></textarea>
-                  </div>
-                  <a  class="button is-dark is-large is-fullwidth is-loading" id="submit-btn">
-                      <span class="icon is-small">
-                      <i class="fas fa-check"></i>
-                      </span>
-                      <span>Save</span>
-                  </a>
-              </form>
-          </div>
-      </section>
-    <!-- Get a task, taking into account all restrictions, and render it -->
-    <script defer src="./js/load_task.js"></script>
-
-    <!-- Submit a task response -->
-    <script defer src="./js/submit_task.js"></script>
-
-    <script defer>
-     document.addEventListener('DOMContentLoaded', function() {
-         // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-         // // The Firebase SDK is initialized and available here!
-         //
-         // firebase.auth().onAuthStateChanged(user => { });
-         // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-         // firebase.messaging().requestPermission().then(() => { });
-         // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-         //
-         // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-
-         try {
-             const getTaskForUID = firebase.functions().httpsCallable('getTaskForUID');
-             const submitAnnotation = firebase.functions().httpsCallable('submitTask');
-             document.getElementById("submit-btn").addEventListener("click", function (e) {
-                 e.preventDefault();
-                 try {
-                     submitAnnotation(submitAnnotationData())
-                         .then(r => {
-                             window.location = 'logged-in.html'
-                         })
-                 } catch (error) {
-                     throw new Error(error.message);
-                 }
-                 return false;
-             });
-             document.getElementById("logout-btn").addEventListener("click", _ => {
-                 firebase.auth().signOut().then(_ => {window.location = 'index.html'}).catch(_ => console.log('error signing out'))
-             })
-             getTaskForUID({}).then(function(result) {
-                 if (result.data){
-                     console.log(result.data)
-                     //Render task based on task name
-                     console.log(result.data.data.type);
-                     if (result.data.data.type == "a_b_parse") {
-                         console.log("yay");
-                         render_a_b_parse(result.data, document);
-                     }
-
-                     // lets say these are common
-                     document.getElementById("other_menu").addEventListener("change", set_other_response());
-                     document.getElementById("other_response").addEventListener("change", reason_provided("other_response"));
-                     set_button_disabled("submit-btn");
-                 }
-             });
-
-             firebase.auth().onAuthStateChanged(user => {
-                 if(user) {
-                     document.getElementById('username').innerHTML=`${user.displayName}`;
-                     document.getElementById('user_id').value = `${user.uid}`; //This actually might be redundant and insecure
-                 } else {
-                     window.location = 'index.html';
-                 }
-             });
-         } catch (e) {
-             console.error(e);
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Trips Annotator</title>
+        <script src="https://kit.fontawesome.com/dd5e0582e7.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"/>
+        <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css"></link>
+        <!-- update the version number as needed -->
+        <script defer src="/__/firebase/7.9.1/firebase-app.js"></script>
+        <!-- include only the Firebase features as you need -->
+        <script defer src="/__/firebase/7.9.1/firebase-auth.js"></script>
+        <script defer src="/__/firebase/7.9.1/firebase-database.js"></script>
+        <script defer src="/__/firebase/7.9.1/firebase-messaging.js"></script>
+        <script defer src="/__/firebase/7.9.1/firebase-storage.js"></script>
+        <script defer src="/__/firebase/7.9.1/firebase-functions.js"></script>
+        <!-- initialize the SDK after all desired features are loaded -->
+        <script defer src="/__/firebase/init.js"></script>
+        <script defer src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+        <script src="https://unpkg.com/mustache@latest"></script>
+        <style media="screen">
+         body { background: grey; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
+         #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
+         #task { width: 100%; }
+         #gold_, #first_, #second_ { width: 100%; margin: 1em; }
+         .graph { border-style: solid;  }
+         #first_block, #second_block { width: 100%; }
+         @media (max-width: 600px) {
+             body, #message { margin-top: 0; background: white; box-shadow: none; }
+             body { border-top: 16px solid #ffa100; }
          }
-     });
-    </script>
-  </body>
+         .selected { background: lightblue;}
+        </style>
+    </head>
+    <body>
+        <nav class="navbar" role="navigation" arial-label="main navigation">
+            <div class="navbar-brand">
+                <span class="navbar-item"><p>Annotation tool<p></span>
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <a class="button is-danger" id="logout-btn">Log Out</a>
+                </div>
+            </div>
+        </nav>
+        <section class="section">
+            <div class="container">
+                <div id="message" class="level">
+                    <span class="level-left is-button is-dark">Welcome, <span id="username"></span></span>
+                </div>
+                <div id="target"></div>
+            </div>
+
+            <script id="task_box" type="x-tmpl-mustache">
+                <div class="notification is-info" id="description">
+                    <p>Given a reference parse and several alternatives, the purpose of this task is to determine which of the alternatives
+                        are most similar to the reference graph.</p>
+                    <p>Each row contains a copy of the reference graph and one of the alternatives.  The graphs are highlighted to emphasize
+                        the differences.  The differences are coded as red for the first alternative and blue for the second alternative.  Edges or nodes
+                        that differ in both alternatives are highlighted with both red and blue.</p>
+                    <p>For each task, select an alternative and click the submit button.  The Other menu contains options to mark the alternatives as equidistant or submit an error.</p>
+                </div>
+                <article class="message is-small">
+                    <div class="message-header">
+                        <p>Sentence:</p>
+                    </div>
+                    <div class="message-body">
+                        <span id="sentence">{{ sentence }}</span>
+                    </div>
+                </article>
+                <div id="task_id" value="{{ task_id }}"></div>
+                <div id="parses">{{{ parses }}}</div>
+            </script>
+            <script id="a_b_parse" type="x-tmpl-mustache">
+                {{ #tasks }}
+                <div class="task box" id="option_{{ option_id }}">
+                    <div class="columns">
+                        <div class="column"><figure class="image"><img class="is-1by2 graph" src="{{ gold }}" id="gold_{{ option_id }}"></img></figure></div>
+                        <div class="column"><figure class="image"><img class="is-1by2 graph" src="{{ candidate }}" id="candidate_{{ option_id }}"></img></figure></div>
+                    </div>
+                </div>
+                {{ /tasks }}
+            </script>
+            <script id="pick_gold" type="x-tmpl-mustache">
+                {{ #tasks }}
+                <div class="task box" id="option_{{ option_id }}">
+                    <div class="columns">
+                        <div class="column"><figure class="image"><img class="is-1by2 graph" src="{{ candidate }}" id="candidate_{{ option_id }}"></img></figure></div>
+                    </div>
+                </div>
+                {{ /tasks }}
+            </script>
+
+        </section>
+        <section class="section">
+            <div class="container">
+                <form id="annotation-form" name="annotation">
+                    <input type="hidden" id="task_id_form" name="task_id">
+                    <input type="hidden" id="user_id" name="user_id">
+                    <input type="hidden" id="answer" name="selection">
+                    <div class="control">
+                        <div class="select">
+                            <select id="other_menu" name="other">
+                                <option value="none">Other</option>
+                                <option value="same">Graphs are equidistant</option>
+                                <option value="error_text">Error (please specify)</option>
+                            </select>
+                        </div>
+                        <textarea class="textarea" placeholder="other" id="other_response"></textarea>
+                    </div>
+                    <a  class="button is-dark is-large is-fullwidth is-loading" id="submit-btn">
+                        <span class="icon is-small">
+                            <i class="fas fa-check"></i>
+                        </span>
+                        <span>Save</span>
+                    </a>
+                </form>
+            </div>
+        </section>
+        <!-- Get a task, taking into account all restrictions, and render it -->
+        <script defer src="./js/load_task.js"></script>
+        <!-- Submit a task response -->
+        <script defer src="./js/submit_task.js"></script>
+        <script defer>
+         document.addEventListener('DOMContentLoaded', function() {
+             // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+             // // The Firebase SDK is initialized and available here!
+             //
+             // firebase.auth().onAuthStateChanged(user => { });
+             // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+             // firebase.messaging().requestPermission().then(() => { });
+             // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+             //
+             // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+             try {
+                 const getTaskForUID = firebase.functions().httpsCallable('getTaskForUID');
+                 const submitAnnotation = firebase.functions().httpsCallable('submitTask');
+                 document.getElementById("submit-btn").addEventListener("click", function (e) {
+                     e.preventDefault();
+                     try {
+                         submitAnnotation(submitAnnotationData())
+                             .then(r => {
+                                 window.location = 'logged-in.html'
+                             })
+                     } catch (error) {
+                         throw new Error(error.message);
+                     }
+                     return false;
+                 });
+                 document.getElementById("logout-btn").addEventListener("click", _ => {
+                     firebase.auth().signOut().then(_ => {window.location = 'index.html'}).catch(_ => console.log('error signing out'))
+                 })
+                 getTaskForUID({}).then(function(result) {
+                     if (result.data){
+                         console.log(result.data)
+                         //Render task based on task name
+                         console.log(result.data.data.type);
+                         if (result.data.data.type == "a_b_parse") {
+                             console.log("yay");
+                             render_a_b_parse(result.data, document);
+                         }
+                         // lets say these are common
+                         document.getElementById("other_menu").addEventListener("change", set_other_response());
+                         document.getElementById("other_response").addEventListener("change", reason_provided("other_response"));
+                         set_button_disabled("submit-btn");
+                     }
+                 });
+                 firebase.auth().onAuthStateChanged(user => {
+                     if(user) {
+                         document.getElementById('username').innerHTML=`${user.displayName}`;
+                         document.getElementById('user_id').value = `${user.uid}`; //This actually might be redundant and insecure
+                     } else {
+                         window.location = 'index.html';
+                     }
+                 });
+             } catch (e) {
+                 console.error(e);
+             }
+         });
+        </script>
+    </body>
 </html>
