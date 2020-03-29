@@ -24,7 +24,7 @@
          #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
          #task { width: 100%; }
          #gold_, #first_, #second_ { width: 100%; margin: 1em; }
-         .graph { border-style: solid;  }
+         .graph { border-style: solid;  max-width: 100%; max-height: 80vh; margin: auto; }
          #first_block, #second_block { width: 100%; }
          @media (max-width: 600px) {
              body, #message { margin-top: 0; background: white; box-shadow: none; }
@@ -33,12 +33,13 @@
          .selected { background: lightblue;}
         </style>
     </head>
-    <body>
-        <nav class="navbar" role="navigation" arial-label="main navigation">
+    <body class="has-navbar-fixed-top">
+        <nav class="navbar is-fixed-top" role="navigation" arial-label="main navigation">
             <div class="navbar-brand">
                 <span class="navbar-item"><p>Annotation tool<p></span>
             </div>
             <div class="navbar-end">
+                <div class="navbar-item">Welcome, <span id="username"></span></div>
                 <div class="navbar-item">
                     <a class="button is-danger" id="logout-btn">Log Out</a>
                 </div>
@@ -46,27 +47,38 @@
         </nav>
         <section class="section">
             <div class="container">
-                <div id="message" class="level">
-                    <span class="level-left is-button is-dark">Welcome, <span id="username"></span></span>
-                </div>
                 <div id="target"></div>
             </div>
 
             <script id="task_box" type="x-tmpl-mustache">
-                <div class="notification is-info" id="description">
+                <article class="card has-text-white" id="description">
+             <header class="card-header has-background-info has-text-white">
+             <p class="card-header-title">Instructions</p>
+
+             </header>
+             <div class="card-content has-background-dark">
+             <div class="content">
+
                     <p>Given a reference parse and several alternatives, the purpose of this task is to determine which of the alternatives
                         are most similar to the reference graph.</p>
                     <p>Each row contains a copy of the reference graph and one of the alternatives.  The graphs are highlighted to emphasize
                         the differences.  The differences are coded as red for the first alternative and blue for the second alternative.  Edges or nodes
                         that differ in both alternatives are highlighted with both red and blue.</p>
                     <p>For each task, select an alternative and click the submit button.  The Other menu contains options to mark the alternatives as equidistant or submit an error.</p>
-                </div>
-                <article class="message is-small">
-                    <div class="message-header">
-                        <p>Sentence:</p>
-                    </div>
-                    <div class="message-body">
+
+             </div>
+             </div>
+                </article>
+                <article class="card is-small has-text-white" id="sentence-box">
+             <header class="card-header">
+             <p class="card-header-title is-centered has-background-black has-text-white">
+                        Sentence:
+             </p>
+             </header>
+                    <div class="card-content has-background-dark">
+             <div class="content">
                         <span id="sentence">{{ sentence }}</span>
+             </div>
                     </div>
                 </article>
                 <div id="task_id" value="{{ task_id }}"></div>
@@ -83,6 +95,8 @@
                 {{ /tasks }}
             </script>
             <script id="pick_gold" type="x-tmpl-mustache">
+                <div class="container">
+
                 {{ #tasks }}
                 <div class="task box" id="option_{{ option_id }}">
                     <div class="columns">
@@ -90,6 +104,7 @@
                     </div>
                 </div>
                 {{ /tasks }}
+                </div>
             </script>
 
         </section>
@@ -159,6 +174,10 @@
                          if (result.data.data.type == "a_b_parse") {
                              console.log("yay");
                              render_a_b_parse(result.data, document);
+                         }
+                         if (result.data.data.type == "gold-pick") {
+                             console.log("woo");
+                             render_pick_gold(result.data, document);
                          }
                          // lets say these are common
                          document.getElementById("other_menu").addEventListener("change", set_other_response());

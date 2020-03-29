@@ -26,11 +26,11 @@ function render_a_b_parse(task, document) {
 };
 
 function render_pick_gold(task, document) {
-    var reference = task["data"]["reference"];
+    var reference = task.data.reference;
 
     const ref = (id) => `${reference}${id}.svg?sanitize=true`;
     // Data is a list of indexes of parses
-    const tasks = task["data"]["data"].map((v, i) => {
+    const tasks = task.data.data.candidates.map((v, i) => {
         return {
             option_id: i, candidate: ref(v)
         }
@@ -39,7 +39,7 @@ function render_pick_gold(task, document) {
     var general = document.getElementById("task_box").innerHTML;
     var template = document.getElementById("pick_gold").innerHTML;
     var rendered = Mustache.render(general, {
-        sentence: task.sentence,
+        sentence: task.data.sentence,
         task_id: task.id,
         parses: Mustache.render(template, {
             tasks: tasks

@@ -18,18 +18,6 @@ def get_db(cred_file="firebase-admin.json"):
 
     return firestore.client()
 
-def filter_tasks(tasks, taskset, sentence):
-    return [t for t in tasks if not (t["taskset"] == taskset and t["data"]["sentence"] == sentence)]
-
-def unique_tasks(new_tasks, tasks):
-    """Ensure that a sentence is unique for the given taskset"""
-    query = tasks.select(field_paths=["taskset", "data.sentence"])
-    for q in query.stream():
-        q = q.to_dict()
-        new_tasks = filter_tasks(new_tasks, q["taskset"], q["data"]["sentence"])
-    return new_tasks
-
-
 @click.command()
 @click.option("--task-set", "fname", type=str, help="formatted data to upload")
 @click.option("--credentials", "cred_file", type=str, default="firebase-admin.json", help="firebase credentials file")
@@ -56,45 +44,6 @@ def add_tasks(fname, cred_file="firebase-admin.json"):
 
     click.echo("added %d new tasks." % len(data))
     return 1
-
-
-def get_sentence(taskset, id):
-    with open("%s/%d/parse.json" % (taskset, id)) as parse:
-        return json.load(parse)["sentence"]
-
-@click.command()
-@click.option("--task-set", "taskset", type=str, help="output folder for prepare.sh")
-@click.option("--name", "name", type=str, help="the name for the taskset.")
-@click.option("--output", "output", type=str, help="directory to write all output to")
-@click.option("--type", "type_", default="a_b_parse", type=str, help="task_type")
-@click.option("--coverage", "coverage", default=3, type=int, help="minimum number of annotators requested")
-@click.option("--agreement", "agreement", default=0.0, type=float, help="minimum amount of agreement required")
-@click.option("--active/--no-active", "active", default=True)
-def transform(taskset, name, output, type_="a_b_parse", coverage=3, agreement=0, active=True):
-    """Read in a json list of tasks and create a task object for upload to firebase"""
-    fname = "%s/data.json" % taskset
-    name = name or taskset.split("/")[-1]
-    with open(fname) as inp:
-        dataset = json.load(inp)
-    tasks = [{
-        "annotations": [],
-        "data": dict(data.get("task", data), type=type_), # sentence getting is now done in prepare.py
-        "meta": data.get("meta", None),
-        "requirements": {
-            "agreement": agreement,
-            "coverage": coverage,
-            "annotators": []
-        }
-    } for data in dataset if data]
-    num_sets = len(tasks) // 50
-    print("writing %d task-sets" % num_sets)
-    for i in range(num_sets-1):
-        res = dict(name="%s-%d" % (name, i), tasks=tasks[i * 50 : (i+1) * 50], definition=dict(type=type_, items=len(tasks), groups=[], is_active=active))
-        with open("%s/%s-%d.json" % (output, name, i), 'w') as out:
-            json.dump(res, out, indent=2)
-    with open("%s/%s-rem.json" % (output, name), 'w') as out:
-        res = dict(name="%s/%s-rem.json" % (output, name), tasks=tasks[(num_sets - 1) * 50:], definition=dict(type=type_, items=len(tasks), groups=[], is_active=active))
-        json.dump(res, out, indent=2)
 
 @click.command()
 @click.option("--task-set", "taskset", type=str, help="The task set to assign")
@@ -161,7 +110,6 @@ def cli():
     pass
 
 cli.add_command(add_tasks, "upload")
-cli.add_command(transform, "transform")
 cli.add_command(assign, "assign")
 cli.add_command(enable, "enable")
 cli.add_command(disable, "disable")
