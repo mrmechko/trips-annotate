@@ -7,15 +7,15 @@ import * as admin from 'firebase-admin'
 //
 admin.initializeApp();
 
-async function usersForGroup(role : string, set_ : number) : Promise<Array<string>>{
-    return admin.firestore().collection("users")
-        .where(`type.role`, "==", role)
-        .where(`type.set`, "==", set_)
-        .get()
-        .then(qset => {
-            return qset.docs.map(v => v.id)
-        }).catch(_ => {return []})
-}
+//async function usersForGroup(role : string, set_ : number) : Promise<Array<string>>{
+//    return admin.firestore().collection("users")
+//        .where(`type.role`, "==", role)
+//        .where(`type.set`, "==", set_)
+//        .get()
+//        .then(qset => {
+//            return qset.docs.map(v => v.id)
+//        }).catch(_ => {return []})
+//}
 
 async function tasksForGroup(role : string, set_ : number) : Promise<Array<string>>{
     console.log(`Finding all tasks for ${role}-${set_}`)
@@ -83,38 +83,59 @@ export const updateAllUsers = functions.pubsub.schedule('*/5 * * * *')
 });
 
 
-export const updateTasksOnGroupChange = functions.firestore.document('groups/{type}').onWrite((change, context) => {
-    const groupType = context.params.type
-    const data = change.after.data()
-    if (data) {
-        console.log(data)
-        return usersForGroup(groupType, 0).then(res => {console.log(res)})
-    }
-    return null
-})
+//export const updateTasksOnGroupChange = functions.firestore.document('groups/{type}').onWrite((change, context) => {
+//    const groupType = context.params.type
+//    const data = change.after.data()
+//    if (data) {
+//        console.log(data)
+//        return usersForGroup(groupType, 0).then(res => {console.log(res)})
+//    }
+//    return null
+//})
 
 export const makeUserEntry = functions.auth.user().onCreate((user) => {
+    // run a transaction to get the next id
+    const unum = admin.firestore().collection('meta').doc('users');
+
+    return admin.firestore().runTransaction((transaction) => {
+        return transaction.get(unum).then(meta_user => {
+            console.log("in transaction");
+            if (meta_user && meta_user.exists) {
+                console.log("meta doesn't exist");
+                const count = meta_user.get("count") || 0
+                transaction.update(unum, { count : count + 1 });
+                return count
+            }
+            else {
+                console.log("No meta user defined, setting count to 0")
+                transaction.set(unum, {count: 1});
+                return 0
+            }
+        })
+           
+    }).then((count) => {
     // get a set to assign user to
-    const user_entry = {
-        type: {
-            role: "student",
-            set: 0 // change this later
-        },
-        limits: {
-            min: 3,
-            max: 10000,
-            types: []
-        }
-    };
+        const user_entry = {
+            type: {
+                role: "student",
+                set: count // change this later
+            },
+            limits: {
+                min: 3,
+                max: 10000,
+                types: []
+            }
+        };
     // need to update assignments here
-    const result = admin.firestore()
-        .collection('users')
-        .doc(user.uid)
-        .set(user_entry)
-        .then(_ => {
-            return updateTasksForUser(user.uid)
-        });
-    return result;
+        const result = admin.firestore()
+            .collection('users')
+            .doc(user.uid)
+            .set(user_entry)
+            .then(_ => {
+                return updateTasksForUser(user.uid)
+            });
+        return result;
+    });
 });
 
 export const getTaskForUID = functions.https.onCall((_, context) => {
