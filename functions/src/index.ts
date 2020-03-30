@@ -65,6 +65,24 @@ function updateTasksForUser(userid : string) : any {
                 })
 }
 
+export const updateAllUsers = functions.pubsub.schedule('*/5 * * * *')
+  .onRun(() => {
+      console.log('This will be run every 5 minutes');
+      admin.firestore().collection('users').get().then((doc) => {
+          doc.forEach((user) => {
+              console.log(`updating user ${user.id}`);
+              updateTasksForUser(user.id);
+              console.log("success")
+          })
+      }).catch(error => {
+          console.log("there was an error updating users")
+          console.log(error)
+      });
+      
+  return null;
+});
+
+
 export const updateTasksOnGroupChange = functions.firestore.document('groups/{type}').onWrite((change, context) => {
     const groupType = context.params.type
     const data = change.after.data()
